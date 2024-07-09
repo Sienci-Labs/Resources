@@ -8,15 +8,18 @@ menu_order: 4
 taxonomy:
     products:
         - superlongboard
-    sections:
+    category:
+        - superlongboard
+    section:
         - slb-handbook
     post_tag:
         - slb
-    Knowledge base: superlongboard
-    basepress section: slb-handbook
-    Section: slb-handbook
 custom_fields:
     KBName: SuperLongBoard
+    products:
+        - superlongboard
+    section:
+        - slb-handbook 
 skip_file: no
 ---
 
@@ -24,7 +27,7 @@ skip_file: no
 
 Woooooooiyjtrdjytdt TESTINGTESTING.
 Nunc sodales massa enim, nec consectetur orci tempus ac.
-Nunc sodales massa enim, nec consectetur orci tempus ac.nhfxcjn
+Nunc sodales massa enim, nec consectetur orci tempus ac.nhfxcjn please
 
 
 ### Section with image
