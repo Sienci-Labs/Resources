@@ -6,11 +6,10 @@ post_date: 2024-04-03 18:14:53
 post_status: draft
 menu_order: 4
 taxonomy:
-    knowledge base: superlongboard
-    product: superlongboard
-    basepress_product: superlongboard
-    basepress product: superlongboard
-    products: superlongboard
+    Knowledge base: superlongboard
+    basepress section: slb-handbook
+    Section: slb-handbook
+    sections: slb-handbook
 custom_fields:
     KBName: SuperLongBoard
 skip_file: no
@@ -19,8 +18,6 @@ skip_file: no
 ## My post content
 
 Woooooooiyjtrdjytdt TESTINGTESTING.
-Nunc sodales massa enim, nec consectetur orci tempus ac.
-Nunc sodales massa enim, nec consectetur orci tempus ac.
 Nunc sodales massa enim, nec consectetur orci tempus ac.
 Nunc sodales massa enim, nec consectetur orci tempus ac.
 
