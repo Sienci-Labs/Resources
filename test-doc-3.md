@@ -6,28 +6,19 @@ post_date: 2024-04-03 18:14:53
 post_status: draft
 menu_order: 4
 taxonomy:
-    category:
-        - superlongboard
-    post_tag:
-        - slb
     knowledgebase_tag:
         - slb
+    knowledgebase_product: superlongboard
+    knowledgebase_section: handbook
 custom_fields:
     KBName: SuperLongBoard
-    products:
-        - superlongboard
-    section:
-        - slb-handbook 
 skip_file: no
 ---
 
 ## My post content
 
 Woooooooiyjtrdjytdt TESTING
-section
-section
-section
-section
+heloo out there
 
 
 ### Section with image
