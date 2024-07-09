@@ -1,21 +1,20 @@
 ---
+skip_file: no
+post_status: draft
 title: Test Post 3
 post_excerpt: See more on SLB settings and troubleshooting, especially useful on DIY CNC setups to better understand how to configure your SLB for your machine.
 featured_image: _images/post-image.jpg
 post_date: 2024-04-03 18:14:53
-post_status: draft
 menu_order: 4
 custom_types:
-    knowledgebase: SuperLongBoard
+    knowledgebase: superlongboard
 taxonomy:
-    post: superlongboard
+    knowledgebase_cat: handbook
     knowledgebase_tag:
         - slb
-    knowledgebase_cat: handbook
 custom_fields:
     KBName: SuperLongBoard
-    basepress_post_icon: default
-skip_file: no
+    basepress_post_icon: file
 ---
 
 ## My post content
@@ -23,7 +22,7 @@ skip_file: no
 Woooooooiyjtrdjytdt TESTING
 heloo out there
 weeeeeeeehawww
-weeeeeeeehawwwweeeeeeeehawwwweeeeeeeehawwwwweeeeeeeehawwwweeeeeeeehawww
+weeeeeeeehawwwweeeeeeeehawwwweeeeeeeehawwwwweeeeeeeehawwwweeeeeweeeeeeeehawwwwweeeeeeeehawwwweeeeeweeeeeeeehawwwwweeeeeeeehawwwweeeeeeeehawww
 
 ### Section with image
 
