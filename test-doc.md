@@ -17,11 +17,6 @@ taxonomy:
     basepress_product: superlongboard
     basepress product: superlongboard
     products: superlongboard
-    basepress section: slb-handbook
-    Section: slb-handbook
-    section: slb-handbook
-    sections: slb-handbook
-    category: Handbook
 custom_fields:
     KBName: SuperLongBoard
 skip_file: no
@@ -29,7 +24,7 @@ skip_file: no
 
 ## My post content
 
-Woooooooiyjtrdjytdt TESTINGTESTINGhrgbhjgbrhjsgb.
+Woooooooiyjtrdjytdt TESTINGTESTINGhrgbhjgbrfeszfehjsgb.
 Nunc sodales massa enim, nec consectetur orci tempus ac.
 
 ### Section with image
