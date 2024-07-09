@@ -10,7 +10,6 @@ custom_types:
     knowledgebase: superlongboard
 custom_fields:
     KBName: SuperLongBoard
-    basepress_post_icon: default
 taxonomy:
     knowledgebase_cat: handbook
     knowledgebase_tag:
@@ -21,12 +20,11 @@ taxonomy:
 
 Woooooooiyjtrdjytdt TESTING
 heloo out there
-weeeeeeeehawww
-weeeeeeeehawwwweeeengfcxngfxjnfeeeehawwbfdzbfdbfdwweeeeeeeehawwwwweeeeeeeehawwwweeeeeweeeeeeeehawwwwweeeeeeeehawwwweeeeeweeeeeeeehawwwwweeeeeeeehawwwweeeeeeeehawww
+weeeeeeeehawwwee
 
 ### Section with image
 
-![alt text for the image](/_images/pic4.jpg "Caption for the image")
+![alt text for the image](/_images/pic4.jpg "Caption for the image"){.non}
 
 Nam rutrum ultricies sapien id rhoncus. In pellentesque efficitur suscipit.
 Aliquam vel est consectetur lectus malesuada mollis sit amet non neque. 
