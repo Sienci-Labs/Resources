@@ -8,9 +8,9 @@ menu_order: 4
 taxonomy:
     knowledgebase_tag:
         - slb
-    knowledgebase: superlongboard
     knowledgebase_cat: handbook
 custom_fields:
+    knowledgebase: superlongboard
     KBName: SuperLongBoard
 skip_file: no
 ---
@@ -20,6 +20,7 @@ skip_file: no
 Woooooooiyjtrdjytdt TESTING
 heloo out there
 weeeeeeeehawww
+qwrgreqgregre
 
 
 ### Section with image
