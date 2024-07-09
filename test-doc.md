@@ -7,7 +7,6 @@ post_status: draft
 menu_order: 4
 taxonomy:
     basepress product: superlongboard
-    kb: SuperLongBoard
     kb: superlongboard
     knowledgebase: superlongboard
     knowledge base: superlongboard
