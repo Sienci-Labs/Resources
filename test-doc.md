@@ -20,7 +20,7 @@ skip_file: no
 
 ## My post content
 
-Woooooooooooooooooooooooo Donec a lacinia orci.
+Wooooooooooooot Donec a lacinia orci.
 Nunc sodales massa enim, nec consectetur orci tempus ac.
 
 ### Section with image
