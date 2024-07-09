@@ -5,14 +5,16 @@ featured_image: _images/post-image.jpg
 post_date: 2024-04-03 18:14:53
 post_status: draft
 menu_order: 4
+custom_types:
+    knowledgebase: SuperLongBoard
 taxonomy:
-    basepress_product_mb: superlongboard
+    post: superlongboard
     knowledgebase_tag:
         - slb
     knowledgebase_cat: handbook
 custom_fields:
-    knowledgebase: superlongboard
     KBName: SuperLongBoard
+    basepress_post_icon: default
 skip_file: no
 ---
 
@@ -21,7 +23,7 @@ skip_file: no
 Woooooooiyjtrdjytdt TESTING
 heloo out there
 weeeeeeeehawww
-weeeeeeeehawwwweeeeeeeehawwwweeeeeeeehawww
+weeeeeeeehawwwweeeeeeeehawwwweeeeeeeehawwwwweeeeeeeehawwwweeeeeeeehawww
 
 ### Section with image
 
