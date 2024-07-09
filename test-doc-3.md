@@ -6,12 +6,8 @@ post_date: 2024-04-03 18:14:53
 post_status: draft
 menu_order: 4
 taxonomy:
-    products:
-        - superlongboard
     category:
         - superlongboard
-    section:
-        - slb-handbook
     post_tag:
         - slb
     knowledgebase_tag:
@@ -27,9 +23,7 @@ skip_file: no
 
 ## My post content
 
-Woooooooiyjtrdjytdt TESTINGTESTING.
-Nunc sodales massa enim, nec consectetur orci tempus ac.
-Nunc sodales massa enim, nec consectetur orci tempus ac.nhfxcjn pleasea geragfdg 
+Woooooooiyjtrdjytdt TESTING
 
 
 ### Section with image
