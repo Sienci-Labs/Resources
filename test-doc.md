@@ -9,13 +9,6 @@ taxonomy:
     basepress product: superlongboard
     kb: superlongboard
     knowledgebase: superlongboard
-    knowledge base: superlongboard
-    Knowledge base: superlongboard
-    Knowledge Base: superlongboard
-    product: superlongboard
-    basepress_product: superlongboard
-    basepress product: superlongboard
-    products: superlongboard
 custom_fields:
     KBName: SuperLongBoard
 skip_file: no
