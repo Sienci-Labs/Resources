@@ -15,7 +15,6 @@ taxonomy:
     Knowledge base: superlongboard
     basepress section: slb-handbook
     Section: slb-handbook
-    sections: slb-handbook
 custom_fields:
     KBName: SuperLongBoard
 skip_file: no
