@@ -7,10 +7,14 @@ post_status: draft
 menu_order: 4
 taxonomy:
     category: SuperLongBoard
+    knowledgebase: SuperLongBoard
     product: SuperLongBoard
     Section: Handbook
 custom_fields:
     KBName: SuperLongBoard
+    knowledgebase: SuperLongBoard
+    product: SuperLongBoard
+    Section: Handbook
 skip_file: no
 ---
 
