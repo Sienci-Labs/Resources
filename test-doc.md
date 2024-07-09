@@ -9,6 +9,7 @@ taxonomy:
     knowledge base: SuperLongBoard
     Knowledge base: SuperLongBoard
     Knowledge Base: SuperLongBoard
+    basepress_product: SuperLongBoard
     category: Handbook
 custom_fields:
     KBName: SuperLongBoard
