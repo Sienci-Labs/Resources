@@ -7,9 +7,11 @@ post_status: draft
 menu_order: 4
 taxonomy:
     basepress product: SuperLongBoard
+    products: SuperLongBoard
     basepress section: Handbook
     Section: Handbook
     section: Handbook
+    sections: Handbook
     category: Handbook
 custom_fields:
     KBName: SuperLongBoard
