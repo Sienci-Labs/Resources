@@ -12,7 +12,7 @@ taxonomy:
         - superlongboard
     section:
         - slb-handbook
-    post_tag:
+    basepress_tag:
         - slb
 custom_fields:
     KBName: SuperLongBoard
@@ -27,7 +27,7 @@ skip_file: no
 
 Woooooooiyjtrdjytdt TESTINGTESTING.
 Nunc sodales massa enim, nec consectetur orci tempus ac.
-Nunc sodales massa enim, nec consectetur orci tempus ac.nhfxcjn please
+Nunc sodales massa enim, nec consectetur orci tempus ac.nhfxcjn pleasea gera 
 
 
 ### Section with image
