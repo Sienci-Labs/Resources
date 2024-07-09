@@ -1,11 +1,14 @@
 ---
 title: Test Post
 menu_order: 4
+skip_file: no
 post_status: draft
 post_excerpt: This is a post excerpt
 featured_image: _images/post-image.jpg
 taxonomy:
     category: SuperLongBoard
+custom_fields:
+    KBName: SuperLongBoard
 ---
 
 ## My post content
@@ -47,3 +50,5 @@ This is an [absolute link](/folder1/sub-dir1/post3.md) which links to another po
 </style>
 
 ### Section with Shortcodes
+
+[g2w_edit_link]
