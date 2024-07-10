@@ -10,7 +10,7 @@ taxonomy:
         - slb
 custom_fields:
     KBName: SuperLongBoard
-    basepress_post_icon: bp-file-text
+    basepress_post_icon: file-text
 custom_types:
     knowledgebase: superlongboard
 skip_file: no
@@ -41,7 +41,7 @@ When writing the page:
 
 ## My post content
 
-TESTING
+TESTINGfile
 hello out there
 
 ![alt text for the image](/_images/pic4.jpg "Caption for the image"){.aligncenter .non}
