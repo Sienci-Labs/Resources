@@ -29,16 +29,16 @@ When you go to make a new page:
 
 
 When writing the page:
-    - write text regularly
+    - plain text has no tricks, just write regularly
     - headers can use <h></h> tags but can also be #, ##, ###, etc.
     - links to external pages ......
     - internal links......
-    - images should always follow "![alt text](/_images/FILE_NAME "Caption"){.aligncenter}"
-    - if you want to display non-standard images,......
-        -> non: removes all default styling
-        -> nar: for smaller images
-        -> wid: full width
-        -> flie: changes pointer, no zoom
+    - images should always follow "![alt text](/_images/FILE_NAME "Caption"){.aligncenter .size-medium}"
+    - non-standard images, add to ".size-medium ." then the name of the class you want
+        -> flie: for pictures that link to file downloads or other pages
+        -> nar: when you want a smaller picture with adjustable size
+        -> wid: full width pictures, only usually for "Parts Needed" of product assembly
+        -> non: rarely used, for small pictures with removed zooming
     - you can still use [shortcodes]
     - all normal HTML still works, like:
         <section id="home">
@@ -60,10 +60,10 @@ When writing the page:
 
 ## My post content
 
-TESTING
+TESTINGimg
 hello out there
 
-![alt text for the image](/_images/pic4.jpg "Caption for the image"){.aligncenter .non}
+![alt text for the image](/_images/pic4.jpg "Caption for the image"){.aligncenter .size-medium .non}
 
 
 This is a [relative link](../sub-dir1/post3.md) which links to another markdown post w.r.t the current file.
