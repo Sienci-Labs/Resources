@@ -1,30 +1,30 @@
 ---
-skip_file: no
-post_status: draft
 title: Test Post 3
-post_excerpt: See more on SLB settings and troubleshooting, especially useful on DIY CNC setups to better understand how to configure your SLB for your machine.
-featured_image: _images/post-image.jpg
-post_date: 2024-04-03 18:14:53
 menu_order: 4
-custom_types:
-    knowledgebase: superlongboard
-custom_fields:
-    KBName: SuperLongBoard
-    basepress_post_icon: bp-file-text
+post_status: draft
+post_excerpt: See more on SLB settings and troubleshooting, especially useful on DIY CNC setups to better understand how to configure your SLB for your machine.
+post_date: 2024-04-03 18:14:53
 taxonomy:
     knowledgebase_cat: handbook
     knowledgebase_tag:
         - slb
+custom_fields:
+    KBName: SuperLongBoard
+    basepress_post_icon: bp-file-text
+custom_types:
+    knowledgebase: superlongboard
+skip_file: no
+featured_image: _images/post-image.jpg
 ---
 <!---
 When you go to make a new page:
     - set the post_status as "draft" before going to: pending or publish
     - write a title and excerpt for what the content of the page will be
     - the excerpt shouldn't be over 160 characters
-    - choose a featured image
-    - based on the menu location of the page, set a post date between the post dates of the surrounding pages
     - set the knowledge base, section (cat), and tags (these will all be lower-case URLs)
     - write the KBName which is similar to the knowledge base but capitalized
+    - based on the menu location of the page, set a post date between the post dates of the surrounding pages    
+    - choose a featured image   
     - doing all this, the above text should stay *bolded*
 
 
@@ -41,10 +41,8 @@ When writing the page:
 
 ## My post content
 
-Woooooooiyjtrdjytdt TESTING
-heloo out there
-weeeeeeeehawwwee
-yupnoncenter
+TESTING
+hello out there
 
 ![alt text for the image](/_images/pic4.jpg "Caption for the image"){.aligncenter .non}
 
