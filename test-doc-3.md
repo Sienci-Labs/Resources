@@ -51,7 +51,6 @@ When writing the page:
                 alert('Thank you for contacting us!');
             }
         </script>
-        <!-- Sample CSS Style -->
         <style>
             h1 {
                 color: red;
