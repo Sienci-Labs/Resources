@@ -10,7 +10,7 @@ taxonomy:
         - slb
 custom_fields:
     KBName: SuperLongBoard
-    basepress_post_icon: file-text
+    basepress_post_icon: file-word-o
 custom_types:
     knowledgebase: superlongboard
 skip_file: no
@@ -22,7 +22,7 @@ When you go to make a new page:
     - write a title and excerpt for what the content of the page will be
     - the excerpt shouldn't be over 160 characters
     - set the knowledge base, section (cat), and tags (these will all be lower-case URLs)
-    - write the KBName which is similar to the knowledge base but capitalized
+    - write the KBName which is the normal, capitalized version of the knowledge base
     - based on the menu location of the page, set a post date between the post dates of the surrounding pages    
     - choose a featured image   
     - doing all this, the above text should stay *bolded*
@@ -35,8 +35,28 @@ When writing the page:
     - internal links......
     - images should always follow "![alt text](/_images/FILE_NAME "Caption"){.aligncenter}"
     - if you want to display non-standard images,......
+        -> non: removes all default styling
+        -> nar: for smaller images
+        -> wid: full width
+        -> flie: changes pointer, no zoom
     - you can still use [shortcodes]
-    - 
+    - all normal HTML still works, like:
+        <section id="home">
+            <h2>Welcome to Our Website!</h2>
+            <p>This is a sample HTML page with JavaScript and CSS styling.</p>
+            <button type="button" onclick="showMessage()">Show message</button>
+        </section>
+        <script>
+            function showMessage() {
+                alert('Thank you for contacting us!');
+            }
+        </script>
+        <!-- Sample CSS Style -->
+        <style>
+            h1 {
+                color: red;
+            }
+        </style>
 -->
 
 ## My post content
@@ -49,28 +69,6 @@ hello out there
 
 This is a [relative link](../sub-dir1/post3.md) which links to another markdown post w.r.t the current file.
 This is an [absolute link](/folder1/sub-dir1/post3.md) which links to another post w.r.t the root directory.
-
-### Section with HTML
-
-<section id="home">
-    <h2>Welcome to Our Website!</h2>
-    <p>This is a sample HTML page with JavaScript and CSS styling.</p>
-    <button type="button" onclick="showMessage()">Show message</button>
-</section>
-
-<script>
-    function showMessage() {
-        alert('Thank you for contacting us!');
-    }
-</script>
-
-<!-- Sample CSS Style -->
-<style>
-    h1 {
-        color: red;
-    }
-</style>
-
 
 If you'd like to know all the ins and outs of the SLB's firmware, and broader settings of grblHAL as a whole, you'll find it all in the tables below.
 <h2>Settings Descriptions</h2>
