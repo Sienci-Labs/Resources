@@ -58,7 +58,7 @@ This is an [absolute link](/folder1/sub-dir1/post3.md) which links to another po
 
 ### Section with Shortcodes
 
-[g2w_edit_link]
+[giw_edit_link]
 
 If you'd like to know all the ins and outs of the SLB's firmware, and broader settings of grblHAL as a whole, you'll find it all in the tables below.
 <h2>Settings Descriptions</h2>
