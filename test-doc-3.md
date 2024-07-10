@@ -10,11 +10,34 @@ custom_types:
     knowledgebase: superlongboard
 custom_fields:
     KBName: SuperLongBoard
+    basepress_post_icon: bp-file-text
 taxonomy:
     knowledgebase_cat: handbook
     knowledgebase_tag:
         - slb
 ---
+<!---
+When you go to make a new page:
+    - set the post_status as "draft" before going to: pending or publish
+    - write a title and excerpt for what the content of the page will be
+    - the excerpt shouldn't be over 160 characters
+    - choose a featured image
+    - based on the menu location of the page, set a post date between the post dates of the surrounding pages
+    - set the knowledge base, section (cat), and tags (these will all be lower-case URLs)
+    - write the KBName which is similar to the knowledge base but capitalized
+    - doing all this, the above text should stay *bolded*
+
+
+When writing the page:
+    - write text regularly
+    - headers can use <h></h> tags but can also be #, ##, ###, etc.
+    - links to external pages ......
+    - internal links......
+    - images should always follow "![alt text](/_images/FILE_NAME "Caption"){.aligncenter}"
+    - if you want to display non-standard images,......
+    - you can still use [shortcodes]
+    - 
+-->
 
 ## My post content
 
@@ -23,14 +46,8 @@ heloo out there
 weeeeeeeehawwwee
 yupnoncenter
 
-### Section with image
+![alt text for the image](/_images/pic4.jpg "Caption for the image"){.aligncenter .non}
 
-![alt text for the image](/_images/pic4.jpg "Caption for the image"){.non .aligncenter}
-
-Nam rutrum ultricies sapien id rhoncus. In pellentesque efficitur suscipit.
-Aliquam vel est consectetur lectus malesuada mollis sit amet non neque. 
-
-### Section with link
 
 This is a [relative link](../sub-dir1/post3.md) which links to another markdown post w.r.t the current file.
 This is an [absolute link](/folder1/sub-dir1/post3.md) which links to another post w.r.t the root directory.
@@ -56,9 +73,6 @@ This is an [absolute link](/folder1/sub-dir1/post3.md) which links to another po
     }
 </style>
 
-### Section with Shortcodes
-
-[giw_edit_link]
 
 If you'd like to know all the ins and outs of the SLB's firmware, and broader settings of grblHAL as a whole, you'll find it all in the tables below.
 <h2>Settings Descriptions</h2>
