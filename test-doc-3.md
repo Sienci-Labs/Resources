@@ -21,11 +21,11 @@ taxonomy:
 Woooooooiyjtrdjytdt TESTING
 heloo out there
 weeeeeeeehawwwee
-yupnon
+yupnoncenter
 
 ### Section with image
 
-![alt text for the image](/_images/pic4.jpg "Caption for the image"){non aligncenter}
+![alt text for the image](/_images/pic4.jpg "Caption for the image"){.non .aligncenter}
 
 Nam rutrum ultricies sapien id rhoncus. In pellentesque efficitur suscipit.
 Aliquam vel est consectetur lectus malesuada mollis sit amet non neque. 
