@@ -65,7 +65,6 @@ hello out there
 
 ![alt text for the image](/_images/pic4.jpg "Caption for the image"){.aligncenter .size-medium .non}
 
-
 This is a [relative link](../sub-dir1/post3.md) which links to another markdown post w.r.t the current file.
 This is an [absolute link](/folder1/sub-dir1/post3.md) which links to another post w.r.t the root directory.
 
