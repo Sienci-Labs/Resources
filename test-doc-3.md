@@ -15,7 +15,8 @@ taxonomy:
         - superlongboard
 custom_fields:
     KBName: SuperLongBoard
-    basepress_post_icon: file-word-o
+    basepress_post_icon: 362
+    basepress_product: gsender
 custom_types:
     knowledgebase: superlongboard
 skip_file: no
