@@ -9,6 +9,7 @@ taxonomy:
     category: gsender
     knowledgebase_tag:
         - slb
+        - gsender
 custom_fields:
     KBName: SuperLongBoard
     basepress_post_icon: 10
