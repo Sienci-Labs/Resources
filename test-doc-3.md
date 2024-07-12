@@ -6,6 +6,7 @@ post_excerpt: See more on SLB settings and troubleshooting, especially useful on
 post_date: 2024-04-03 18:14:53
 taxonomy:
     knowledgebase_cat: handbook
+    category: gsender
     knowledgebase_tag:
         - slb
 custom_fields:
