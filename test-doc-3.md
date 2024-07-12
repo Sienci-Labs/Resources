@@ -6,9 +6,12 @@ post_excerpt: See more on SLB settings and troubleshooting, especially useful on
 post_date: 2024-04-03 18:14:53
 taxonomy:
     taxonomy: gsender
+    doc_category: laserbeam
     knowledgebase_cat: handbook
     knowledgebase_tag:
         - slb
+    category:
+        - superlongboard
 custom_fields:
     KBName: SuperLongBoard
     basepress_post_icon: file-word-o
