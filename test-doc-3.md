@@ -6,7 +6,7 @@ post_excerpt: See more on SLB settings and troubleshooting, especially useful on
 post_date: 2024-04-03 18:14:53
 product: laserbeam
 taxonomy:
-    knowledgebase_cat: vx-handbook
+    knowledgebase_cat: mo-assembly
     knowledgebase_tag:
         - slb
 custom_fields:
