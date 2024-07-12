@@ -7,7 +7,7 @@ post_date: 2024-04-03 18:14:53
 product: laserbeam
 taxonomy:
     product: gsender
-    knowledgebase_cat: handbook
+    knowledgebase_cat: gsender
     category: gsender
     knowledgebase_tag:
         - slb
