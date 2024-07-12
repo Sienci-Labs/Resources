@@ -5,18 +5,17 @@ post_status: draft
 post_excerpt: See more on SLB settings and troubleshooting, especially useful on DIY CNC setups to better understand how to configure your SLB for your machine.
 post_date: 2024-04-03 18:14:53
 taxonomy:
-    taxonomy: gsender
-    basepress_product: gsender
-    doc_category: laserbeam
     knowledgebase_cat: handbook
     knowledgebase_tag:
         - slb
-    category:
-        - superlongboard
 custom_fields:
     KBName: SuperLongBoard
-    basepress_post_icon: 362
+    basepress_post_icon: 10
     basepress_product: gsender
+    taxonomy: gsender
+    doc_category: laserbeam
+    category:
+        - superlongboard
 custom_types:
     knowledgebase: superlongboard
 skip_file: no
