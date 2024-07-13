@@ -4,16 +4,13 @@ menu_order: 4
 post_status: draft
 post_excerpt: See more on SLB settings and troubleshooting, especially useful on DIY CNC setups to better understand how to configure your SLB for your machine.
 post_date: 2024-04-03 18:14:53
-product: laserbeam
 taxonomy:
-    knowledgebase_cat: gdocs
+    knowledgebase_cat: slb-handbook
     knowledgebase_tag:
         - slb
 custom_fields:
     KBName: SuperLongBoard
     basepress_post_icon: 10
-custom_types:
-    knowledgebase: superlongboard
 skip_file: no
 featured_image: _images/post-image.jpg
 ---
@@ -22,10 +19,11 @@ When you go to make a new page:
     - set the post_status as "draft" before going to: pending or publish
     - write a title and excerpt for what the content of the page will be
     - the excerpt shouldn't be over 160 characters
-    - set the knowledge base, section (cat), and tags (these will all be lower-case URLs)
+    - set the knowledge base and section (cat) using the KB section slug
     - write the KBName which is the normal, capitalized version of the knowledge base
     - based on the menu location of the page, set a post date between the post dates of the surrounding pages    
-    - choose a featured image   
+    - choose a featured image
+    - add optional tags
     - doing all this, the above text should stay *bolded*
 
 
