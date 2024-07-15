@@ -59,7 +59,7 @@ When writing the page:
 
 ## My post content
 
-TESTINGimg
+TESTINGimgfejwiknui4ehatguieloa
 hello out there
 
 ![alt text for the image](/_images/pic4.jpg "Caption for the image"){.aligncenter .size-medium .non}
