@@ -2,23 +2,25 @@
 Welcome to the public space where we (Sienci) plan to store more of our guides and documentation moving forward. We want all our docs to be public so that:
 - anyone can [comment or contribute to them](#contributing)
 - all our writing work and pictures can be available as plainly as possible for others to see or use
-- if you'd like to copy any text or pictures you just need to give us credit and use the same license of [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) 
+- if you'd like to copy any text or pictures you just need to give us credit and use the same [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) license
 - we chose this license to guarantee the most long-term benefit to all CNC hobbyists since it ensure the things we all work hard on together stays open to the public
 
 # Contributing
+Do you want to make [simple](#simple) edits, or something more [in-depth](#in-depth)?
+
 ## Simple
 If you're new to GitHub and aren't aiming to get your hands too dirty, the easiest way to get involved is just to leave comments about what changes you'd like to see. This could be a spelling mistake, or suggestions on how to improve a section that's missing information. Things like that.
 
 To do this, just click the "Issues" tab near the top left of the page, and click the "New issue" button.
 
-![The GitHub New Issue webpage](/_images/Docs-submit-issue.jpg)
+> ![The GitHub New Issue webpage](/_images/Docs-submit-issue.jpg)
 
 Type out your thoughts, attach some pictures if you like, then click "Submit new issue" and that should notify us to start the process of looking at your idea and seeing what the next steps could be.
 
-![How to write and submit a GitHub issue](/_images/Docs-write-issue.jpg)
+> ![How to write and submit a GitHub issue](/_images/Docs-write-issue.jpg)
 
 ## In-Depth
-Below, we've tried to include as many instructions as possible so that you can feel confident [making changes](#making-changes) to our documentation yourself, even going as far as [making new pages](creating-new-pages) from scratch! Let's start with the easiest one first.
+Below, we've tried to include as many instructions as possible so that you can feel confident [making changes](#making-changes) to our documentation yourself, even going as far as [making new pages](#creating-new-pages) from scratch! Let's start with the easiest one first.
 
 ### Making Changes
 
