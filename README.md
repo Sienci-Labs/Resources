@@ -17,11 +17,11 @@ If you're new to GitHub and aren't aiming to get your hands too dirty, the easie
 
 To do this, just click the "Issues" tab near the top left of the page, and click the "New issue" button.
 
-> ![The GitHub New Issue webpage](/_images/Docs-submit-issue.jpg)
+> ![The GitHub New Issue webpage](/_images/_Docs-submit-issue.jpg)
 
 Type out your thoughts, attach some pictures if you like, then click "Submit new issue" and that should notify us to start the process of looking at your idea and seeing what the next steps could be.
 
-> ![How to write and submit a GitHub issue](/_images/Docs-write-issue.jpg)
+> ![How to write and submit a GitHub issue](/_images/_Docs-write-issue.jpg)
 
 ## In-Depth
 Below, we've tried to include as many instructions as possible so that you can feel confident [making changes](#making-changes) to our documentation yourself, even going as far as [making new pages](#creating-new-pages) from scratch! Let's start with the easiest one first.
