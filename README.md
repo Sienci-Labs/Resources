@@ -1,3 +1,7 @@
+---
+skip_file: yes
+---
+
 # Hello!
 Welcome to the public space where we (Sienci) plan to store more of our guides and documentation moving forward. We want all our docs to be public so that:
 - anyone can [comment or contribute to them](#contributing)
