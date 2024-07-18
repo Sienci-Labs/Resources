@@ -3,7 +3,7 @@ Welcome to the public space where we (Sienci) plan to store more of our guides a
 - anyone can [comment or contribute to them](#contributing)
 - all our writing work and pictures can be available as plainly as possible for others to see or use
 - if you'd like to copy any text or pictures you just need to give us credit and use the same [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) license
-- we chose this license to guarantee the most long-term benefit to all CNC hobbyists since it ensure the things we all work hard on together stays open to the public
+- we chose this license to guarantee the most long-term benefit to all CNC hobbyists since it ensures that the things we all work hard on together stays open to the public
 
 # Contributing
 Do you want to make [simple](#simple) edits, or something more [in-depth](#in-depth)?
@@ -44,6 +44,8 @@ When writing the page:
   - `<script> function showMessage() {alert('Thank you for contacting us!');}</script>`
   - `<section id="home"></section>`
   - `<style> h1 {color: red;} </style>`
+ 
+<https://www.markdownguide.org/basic-syntax/>
 
 ### Creating New Pages
 
