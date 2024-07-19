@@ -17,8 +17,8 @@ featured_image: _images/Block-touch-plate-dims.jpg
 
 ## My post content
 
-TESTINGimgfejwiknui4ehatguieloa
-hello out there
+TESTING
+
 
 ![alt text for the image](/_images/Assembly-step-sample.jpg "Caption for the image"){.aligncenter .size-medium .non}
 
