@@ -25,6 +25,7 @@ Started in mid-2022, this project has been truly a labour of love for us. Thanks
 
 https://youtu.be/LkZIeJQSzdM
 
+
 <h2>Diving In</h2>
 Let's get rock'n'rolling by pointing you towards the right page for you 🎸
 
@@ -32,7 +33,7 @@ Let's get rock'n'rolling by pointing you towards the right page for you 🎸
 <table style="border: none !important;">
 <tbody style="display: block; margin: 1% 15%;">
 <tr>
-<td style="text-align: center;"><a href="https://resources.sienci.com/view/slb-upgrading/"><img class="flie aligncenter" style="padding: 5% 15%;" src="https://github.com/Sienci-Labs/Resources/tree/main/_images/_superlongboard/SLB-upgrade.png"/></a><b><a href="https://resources.sienci.com/view/slb-upgrading/">Upgrade</a>
+<td style="text-align: center;"><a href="https://resources.sienci.com/view/slb-upgrading/"><img class="flie aligncenter" style="padding: 5% 15%;" src="https://github.com/Sienci-Labs/Resources/blob/fc970cba01aee4d28fbd811900337d57cc045699/_images/_superlongboard/SLB-upgrade.png"/></a><b><a href="https://resources.sienci.com/view/slb-upgrading/">Upgrade</a>
 </b>Guide for switching to the SLB from an existing controller.<b>
 </b></td>
 <td style="text-align: center;"><a href="https://resources.sienci.com/view/slb-manual/"><img class="flie aligncenter size-full" style="padding: 5% 15%;" src="https://github.com/Sienci-Labs/Resources/tree/main/_images/_superlongboard/documents.png"/></a><b><a href="https://resources.sienci.com/view/slb-manual/">Board Details</a>

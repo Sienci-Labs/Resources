@@ -12,7 +12,7 @@ taxonomy:
 custom_fields:
     KBName: LongMill MK2
     basepress_post_icon: 10
-skip_file: no
-featured_image: _images/Block-touch-plate-dims.jpg
+skip_file: yes
+featured_image: _images/post-image.jpg
 ---
 

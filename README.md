@@ -62,6 +62,7 @@ While writing, keep in mind:
 1. **Links** use `[Link text](URL)` or just `<URL>`
 1. Links to other headers on the page `[Link text](#header)`
 1. Link to other git pages with `[Test post](/test/article.md)`
+1. If you want to link in a new tab `<a href="URL" target="_blank" rel="noopener">Example</a>`
 1. **Images** should always follow `![Alt text](/_images/FILE_NAME "Caption"){.aligncenter .size-medium}`
 1. Non-standard images, add to ".size-medium` .`" then the name of the class you want
     - flie: for pictures that link to file downloads or other pages (remember to surround the image with the URL code)
