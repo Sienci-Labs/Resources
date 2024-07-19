@@ -35,15 +35,15 @@ Let's get rock'n'rolling by pointing you towards the right page for you 🎸
 <td style="text-align: center;"><a href="https://resources.sienci.com/view/slb-upgrading/"><img class="flie aligncenter" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/SLB-upgrade.png"/></a><b><a href="https://resources.sienci.com/view/slb-upgrading/">Upgrade</a>
 </b>Guide for switching to the SLB from an existing controller.<b>
 </b></td>
-<td style="text-align: center;"><a href="https://resources.sienci.com/view/slb-manual/"><img class="flie aligncenter size-full" style="padding: 5% 15%;" src="/documents.png"/></a><b><a href="https://resources.sienci.com/view/slb-manual/">Board Details</a>
+<td style="text-align: center;"><a href="https://resources.sienci.com/view/slb-manual/"><img class="flie aligncenter size-full" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/documents.png"/></a><b><a href="https://resources.sienci.com/view/slb-manual/">Board Details</a>
 </b>Learn all the nitty gritty about wiring, specs, and firmware.<b>
 </b></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="https://forum.sienci.com/c/slb/"><img class="flie aligncenter" style="padding: 5% 15%;" src="https://github.com/Sienci-Labs/Resources/tree/main/_images/_superlongboard/community.png"/></a><b><a href="https://forum.sienci.com/c/slb/">Forum</a>
+<td style="text-align: center;"><a href="https://forum.sienci.com/c/slb/"><img class="flie aligncenter" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/community.png"/></a><b><a href="https://forum.sienci.com/c/slb/">Forum</a>
 </b>Share ideas for SLB features, or get help with problems.<b>
 </b></td>
-<td style="text-align: center;"><img class="flie aligncenter size-full" style="padding: 5% 15%;" src="https://github.com/Sienci-Labs/Resources/tree/main/_images/_superlongboard/open-source-hardware.png"/><b>Open-Source
+<td style="text-align: center;"><img class="flie aligncenter size-full" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/open-source-hardware.png"/><b>Open-Source
 </b>Licensing and files for replication slowly rolling out!<b>
 </b></td>
 </tr>
