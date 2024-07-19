@@ -12,7 +12,7 @@ custom_fields:
     KBName: SuperLongBoard
     basepress_post_icon: 10
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: _images/Block-touch-plate-dims.jpg
 ---
 
 ## My post content
@@ -20,7 +20,7 @@ featured_image: _images/post-image.jpg
 TESTINGimgfejwiknui4ehatguieloa
 hello out there
 
-![alt text for the image](/_images/pic4.jpg "Caption for the image"){.aligncenter .size-medium .non}
+![alt text for the image](/_images/Assembly-step-sample.jpg "Caption for the image"){.aligncenter .size-medium .non}
 
 This is a [relative link](../sub-dir1/post3.md) which links to another markdown post w.r.t the current file.
 This is an [absolute link](/folder1/sub-dir1/post3.md) which links to another post w.r.t the root directory.
