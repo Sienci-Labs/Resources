@@ -73,8 +73,8 @@ While writing, keep in mind:
 1. You can still use any **`[Shortcodes]`** from WordPress plugins, like:
     - Direct YouTube links
     - Direct product links `https://sienci.com/product/lightburn/`
-    - Tabs `[tabby title="Title" open="yes"][tabbyending]`
-    - Spoilers `[su_spoiler title="Title" open="no" style="fancy" icon="chevron" anchor_in_url="no"][/su_spoiler]`
+    - Tabs `[tabby title="Title" open="yes"]Content[tabbyending]`
+    - Spoilers `[su_spoiler title="Title" open="no" style="fancy" icon="chevron" anchor_in_url="no"]Content[/su_spoiler]`
     - Buttons `[su_button url="URL" target="self" style="flat" background="var(--sl-blue)" radius="3" color="#FFFFFF" size="8" wide="no" center="yes" icon="" icon_color="#FFFFFF" text_shadow="none"]Button Text[/su_button]`
     - CSVs `[su_csv_table url="URL" header="yes" responsive="yes"]`
 1. Code can be noted as `` `code` ``
