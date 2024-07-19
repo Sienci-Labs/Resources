@@ -16,3 +16,6 @@ featured_image: _images/_superlongboard/TLED-V1.jpg
 ---
 
 Reference for changes
+
+<p>https://youtu.be/LkZIeJQSzdM<br>
+Learn about the SLB</p>
