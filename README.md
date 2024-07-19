@@ -95,12 +95,12 @@ After this, you'll be guided through giving your changes a **Title**, **Descript
 
 ### Creating New Pages
 
-When you go to make a new page, choose what Knowledge Base you'd like the page to be in, and you'll find that it has a corresponding folder in GitHub. Each folder has it's own "**_template.md**" page that you can copy and paste to start off your own, new page.
+When you go to make a new page, choose what Knowledge Base you'd like the page to be in, and you'll find that it has a corresponding folder in GitHub. Each folder has its own "**_template.md**" page that you can copy and paste to start off your own, new page.
 
 Before you get started writing:
 
 1. Set the **post_status** as "draft" before going to "pending" or "publish"
-1. Write a **title** and **excerpt** for what the content of the page will be
+1. Write a **title** and **excerpt** for what the content of the page will be (emojis still work)
 1. The excerpt shouldn't be over 160 characters
 1. Set the knowledge base and section (cat) using the **KB section** slug
 1. Write the **KBName** which is the normal, capitalized version of the knowledge base
@@ -110,6 +110,9 @@ Before you get started writing:
 1. Doing all this, the text from the template should stay **bolded**
 
 Once done, you can begin writing. Please keep in mind the same rules as when **[making changes](#making-changes)**, then submit your page as a new branch for review.
+
+If you encounter any other quirks, refer to the docs of the plugin being used to sync these pages to WordPress <https://www.aakashweb.com/docs/git-it-write/>.
+
 <style>
 ul.dashed {
   list-style-type: none;
