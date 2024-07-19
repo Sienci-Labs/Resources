@@ -19,4 +19,25 @@ featured_image: _images/_superlongboard/TLED-V1.jpg
 
 TESTING
 
-![alt text for the image](_images/_superlongboard/LB2SLB_pone.jpg "Caption for the image"){.aligncenter .size-medium .non}
+![alt text for the image](/_images/_superlongboard/LB2SLB_pone.jpg "Caption for the image"){.aligncenter .size-medium .non}
+
+[Test post](/superlongboard/slb-upgrading-test.md)
+
+[tabby title="Title" open="yes"]
+blablabla
+[tabbyending]
+
+[su_spoiler title="Title" open="no" style="fancy" icon="chevron" anchor_in_url="no"]
+blablabla
+[/su_spoiler]
+
+[su_button url="URL" target="self" style="flat" background="var(--sl-blue)" radius="3" color="#FFFFFF" size="8" wide="no" center="yes" icon="" icon_color="#FFFFFF" text_shadow="none"]Design sharing websites[/su_button]
+
+
+https://sienci.com/product/lightburn/
+
+<span>https://youtu.be/LkZIeJQSzdM</span>
+
+<https://youtu.be/LkZIeJQSzdM>
+
+`https://youtu.be/LkZIeJQSzdM

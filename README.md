@@ -73,8 +73,9 @@ While writing, keep in mind:
     - Direct YouTube links
     - Direct product links `https://sienci.com/product/lightburn/`
     - Tabs `[tabby title="Title" open="yes"][tabbyending]`
-    - Spoilers `[su_spoiler title="Title" open="no" style="fancy" icon="chevron" anchor_in_url="no"]`
-    - Buttons `[su_button url="URL" target="self" style="flat" background="var(--sl-blue)" radius="3" color="#FFFFFF" size="8" wide="no" center="yes" icon="" icon_color="#FFFFFF" text_shadow="none"]Design sharing websites[/su_button]`
+    - Spoilers `[su_spoiler title="Title" open="no" style="fancy" icon="chevron" anchor_in_url="no"][/su_spoiler]`
+    - Buttons `[su_button url="URL" target="self" style="flat" background="var(--sl-blue)" radius="3" color="#FFFFFF" size="8" wide="no" center="yes" icon="" icon_color="#FFFFFF" text_shadow="none"]Button Text[/su_button]`
+    - CSVs `[su_csv_table url="URL" header="yes" responsive="yes"]`
 1. Code can be noted as `` `code` ``
 1. All **normal HTML** still works, like:
     - `<h2>Welcome to Our Website!</h2>`
