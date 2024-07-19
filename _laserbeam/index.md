@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: LaserBeam
     basepress_post_icon: 10
-skip_file: no
+skip_file: yes
 featured_image: _images/Block-touch-plate-dims.jpg
 ---
 
