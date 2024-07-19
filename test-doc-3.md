@@ -1,5 +1,5 @@
 ---
-title: Test Post 3
+title: Test Post
 menu_order: 4
 post_status: draft
 post_excerpt: See more on SLB settings and troubleshooting, especially useful on DIY CNC setups to better understand how to configure your SLB for your machine.
@@ -12,57 +12,15 @@ custom_fields:
     KBName: SuperLongBoard
     basepress_post_icon: 10
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: _images/Block-touch-plate-dims.jpg
 ---
-<!---
-When you go to make a new page:
-    - set the post_status as "draft" before going to: pending or publish
-    - write a title and excerpt for what the content of the page will be
-    - the excerpt shouldn't be over 160 characters
-    - set the knowledge base and section (cat) using the KB section slug
-    - write the KBName which is the normal, capitalized version of the knowledge base
-    - based on the menu location of the page, set a post date between the post dates of the surrounding pages    
-    - choose a featured image
-    - add optional tags
-    - doing all this, the above text should stay *bolded*
-
-
-When writing the page:
-    - plain text has no tricks, just write regularly
-    - headers can use <h></h> tags but can also be #, ##, ###, etc.
-    - links to external pages ......
-    - internal links......
-    - images should always follow "![alt text](/_images/FILE_NAME "Caption"){.aligncenter .size-medium}"
-    - non-standard images, add to ".size-medium ." then the name of the class you want
-        -> flie: for pictures that link to file downloads or other pages
-        -> nar: when you want a smaller picture with adjustable size
-        -> wid: full width pictures, only usually for "Parts Needed" of product assembly
-        -> non: rarely used, for small pictures with removed zooming
-    - you can still use [shortcodes]
-    - all normal HTML still works, like:
-        <section id="home">
-            <h2>Welcome to Our Website!</h2>
-            <p>This is a sample HTML page with JavaScript and CSS styling.</p>
-            <button type="button" onclick="showMessage()">Show message</button>
-        </section>
-        <script>
-            function showMessage() {
-                alert('Thank you for contacting us!');
-            }
-        </script>
-        <style>
-            h1 {
-                color: red;
-            }
-        </style>
--->
 
 ## My post content
 
 TESTINGimgfejwiknui4ehatguieloa
 hello out there
 
-![alt text for the image](/_images/pic4.jpg "Caption for the image"){.aligncenter .size-medium .non}
+![alt text for the image](/_images/Assembly-step-sample.jpg "Caption for the image"){.aligncenter .size-medium .non}
 
 This is a [relative link](../sub-dir1/post3.md) which links to another markdown post w.r.t the current file.
 This is an [absolute link](/folder1/sub-dir1/post3.md) which links to another post w.r.t the root directory.
