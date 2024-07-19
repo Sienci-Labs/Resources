@@ -97,11 +97,13 @@ Before you get started writing:
 1. Write a **title** and **excerpt** for what the content of the page will be
 1. The excerpt shouldn't be over 160 characters
 1. Set the knowledge base and section (cat) using the **KB section** slug
-1. Write the **KBName which is the normal, capitalized version of the knowledge base
-1. Based on the menu location of the page, set a post date between the post dates of the surrounding pages    
-1. Choose a featured image
-1. Add optional tags
-1. Doing all this, the above text should stay *bolded*
+1. Write the **KBName** which is the normal, capitalized version of the knowledge base
+1. Based on the menu location of the page, set a **post date** between the post dates of the surrounding pages    
+1. Choose a **featured image**
+1. Add **optional tags**
+1. Doing all this, the text from the template should stay **bolded**
+
+Once done, you can begin writing. Please keep in mind the same rules as when **[making changes](#making-changes)**, then submit your page as a new branch for review.
 <style>
 ul.dashed {
   list-style-type: none;
