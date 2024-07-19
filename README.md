@@ -49,20 +49,15 @@ While writing, keep in mind:
 1. **Headers** can use #, ##, ###, etc. but can also use `<h></h>` tags
 1. Bolding uses `**bold**`, Italic uses `*italic*`
 1. Make **lists** with HTML or like
-    > <ul class="dashed">
-    >   <li> One &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. One</li>
-    >   <li> Two &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Two
-    >   <ul class="dashed daash">
-    >     <li> Two A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Two A</li>
-    >     <li> Two B &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Two B</li>
-    >   </ul>
-    >   </li>
-    >   <li> Three &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Three</li>
-    > </ul>
+    > &nbsp;- One &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. One<br>
+    > &nbsp;- Two &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Two<br>
+    > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Two A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Two A<br>
+    > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Two B &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Two B<br>
+    > &nbsp;- Three &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Three<br>
 1. **Links** use `[Link text](URL)` or just `<URL>`
 1. Links to other headers on the page `[Link text](#header)`
 1. Link to other git pages with `[Test post](/test/article.md)`
-1. If you want to link in a new tab `<a href="URL" target="_blank" rel="noopener">Example</a>`
+1. If you want to link in a new tab `<a href="URL" target="_blank" rel="noopener">Link text</a>`
 1. **Images** should always follow `![Alt text](/_images/FILE_NAME "Caption"){.aligncenter .size-medium}`
 1. Non-standard images, add to ".size-medium` .`" then the name of the class you want
     - flie: for pictures that link to file downloads or other pages (remember to surround the image with the URL code)
@@ -75,7 +70,7 @@ While writing, keep in mind:
     - Direct product links `https://sienci.com/product/lightburn/`
     - Tabs `[tabby title="Title" open="yes"]Content[tabbyending]`
     - Spoilers `[su_spoiler title="Title" open="no" style="fancy" icon="chevron" anchor_in_url="no"]Content[/su_spoiler]`
-    - Buttons `[su_button url="URL" target="self" style="flat" background="var(--sl-blue)" radius="3" color="#FFFFFF" size="8" wide="no" center="yes" icon="" icon_color="#FFFFFF" text_shadow="none"]Button Text[/su_button]`
+    - Buttons `[su_button url="URL" target="self" style="flat" background="var(--sl-blue)" radius="3" color="#FFFFFF" size="8" wide="no" center="yes" icon="" icon_color="#FFFFFF" text_shadow="none"]Button text[/su_button]`
     - CSVs `[su_csv_table url="URL" header="yes" responsive="yes"]`
 1. Code can be noted as `` `code` ``
 1. All **normal HTML** still works, like:
@@ -107,7 +102,7 @@ Before you get started writing:
 1. The excerpt shouldn't be over 160 characters
 1. Set the knowledge base and section (cat) using the **KB section** slug
 1. Write the **KBName** which is the normal, capitalized version of the knowledge base
-1. Based on the menu location of the page, set a **post date** between the post dates of the surrounding pages    
+1. Based on the menu location of the page, set a **post date** between the post dates of the surrounding pages
 1. Choose a **featured image**
 1. Add **optional tags**
 1. Doing all this, the text from the template should stay **bolded**
@@ -115,16 +110,3 @@ Before you get started writing:
 Once done, you can begin writing. Please keep in mind the same rules as when **[making changes](#making-changes)**, then submit your page as a new branch for review.
 
 If you encounter any other quirks, refer to the docs of the plugin being used to sync these pages to WordPress <https://www.aakashweb.com/docs/git-it-write/>.
-
-<style>
-ul.dashed {
-  list-style-type: none;
-  margin-left: -40px;
-}
-ul.daash {
-  margin-left: -20px;
-}
-ul.dashed > li:before {
-  content: "-";
-}
-</style>

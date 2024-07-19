@@ -25,6 +25,17 @@ Started in mid-2022, this project has been truly a labour of love for us. Thanks
 
 [su_youtube url="https://www.youtube.com/watch?v=LkZIeJQSzdM"]
 
+[su_youtube url="<p>https://www.youtube.com/watch?v=LkZIeJQSzdM</p>"]
+
+[su_youtube url="<p>https://www.youtube.com/watch?v=LkZIeJQSzdM<br></p>"]
+
+[su_youtube url="<p>https://www.youtube.com/watch?v=LkZIeJQSzdM<br>
+</p>"]
+
+[su_youtube url="<p>https://www.youtube.com/watch?v=LkZIeJQSzdM<br>
+</p>
+&nbsp;"]
+
 <h2>Diving In</h2>
 Let's get rock'n'rolling by pointing you towards the right page for you 🎸
 
