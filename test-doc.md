@@ -15,14 +15,4 @@ skip_file: no
 featured_image: _images/_superlongboard/TLED-V1.jpg
 ---
 
-## My post content
-
-TESTING
-
-![alt text for the image](/_images/_superlongboard/LB2SLB_pone.jpg "Caption for the image"){.aligncenter .size-medium .non}
-
-<p>https://sienci.com/product/lightburn/<br>
-yoooooooo</p>
-
-<p>https://youtu.be/LkZIeJQSzdM<br>
-yooooooooo</p>
+Reference for changes
