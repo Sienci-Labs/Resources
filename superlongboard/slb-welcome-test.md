@@ -19,7 +19,7 @@ Hello and welcome!
 
 If you’ve come here you’re either interested in or have already purchased our brand new endeavour into upgrading the Hobby CNC landscape, the <a href="https://sienci.com/product/slb/"><strong>SuperLongBoard</strong></a>!!
 
-![](/_images/_superlongboard/SLB-VB6.jpg){.aligncenter .size-medium .non}
+<img class="non aligncenter size-medium" style="width: 80%; margin-left: 10%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/SLB-VB6-scaled.jpg"/>
 
 Started in mid-2022, this project has been truly a labour of love for us. Thanks to the initial interest from the first 500 SLB purchasers, we were able to finish bringing the project to life. If you're one of those 500, a special welcome! As you go through our instructions let us know if there's any sticking points you run into and we'll be happy to get them sorted as soon as we can. The SLB may still have some quirks in its early days despite the many months of testing that we've put it through - but we're keen to make it the best it can be and trust we can all work together to make that happen :)
 
@@ -43,18 +43,18 @@ Let's get rock'n'rolling by pointing you towards the right page for you 🎸
 <table style="border: none !important;">
 <tbody style="display: block; margin: 1% 15%;">
 <tr>
-<td style="text-align: center;"><a href="https://resources.sienci.com/view/slb-upgrading/"><img class="flie aligncenter" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/SLB-upgrade.png"/></a><b><a href="https://resources.sienci.com/view/slb-upgrading/">Upgrade</a>
+<td style="text-align: center;"><a href="https://resources.sienci.com/view/slb-upgrading/"><img class="flie aligncenter" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/SLB-upgrade.png" width="511" height="512" /></a><b><a href="https://resources.sienci.com/view/slb-upgrading/">Upgrade</a>
 </b>Guide for switching to the SLB from an existing controller.<b>
 </b></td>
-<td style="text-align: center;"><a href="https://resources.sienci.com/view/slb-manual/"><img class="flie aligncenter size-full" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/documents.png"/></a><b><a href="https://resources.sienci.com/view/slb-manual/">Board Details</a>
+<td style="text-align: center;"><a href="https://resources.sienci.com/view/slb-manual/"><img class="flie aligncenter size-full" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/documents.png" width="512" height="512" /></a><b><a href="https://resources.sienci.com/view/slb-manual/">Board Details</a>
 </b>Learn all the nitty gritty about wiring, specs, and firmware.<b>
 </b></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="https://forum.sienci.com/c/slb/"><img class="flie aligncenter" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/community.png"/></a><b><a href="https://forum.sienci.com/c/slb/">Forum</a>
+<td style="text-align: center;"><a href="https://forum.sienci.com/c/slb/"><img class="flie aligncenter" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/community.png" width="512" height="512" /></a><b><a href="https://forum.sienci.com/c/slb/">Forum</a>
 </b>Share ideas for SLB features, or get help with problems.<b>
 </b></td>
-<td style="text-align: center;"><img class="flie aligncenter size-full" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/open-source-hardware.png"/><b>Open-Source
+<td style="text-align: center;"><img class="flie aligncenter size-full" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/open-source-hardware.png" width="512" height="512" /><b>Open-Source
 </b>Licensing and files for replication slowly rolling out!<b>
 </b></td>
 </tr>

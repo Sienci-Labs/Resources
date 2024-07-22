@@ -93,25 +93,30 @@ After this, you'll be guided through giving your changes a **Title**, **Descript
 
 ### Creating New Pages
 
-When you go to make a new page, choose what Knowledge Base you'd like the page to be in, and you'll find that it has a corresponding folder in GitHub. Each folder has its own "**index.md**" page that you can use as a template to start off your own, new page. copy and paste
+When you go to make a new page, choose what Knowledge Base you'd like the page to be in, and you'll find that it has a corresponding folder in GitHub. Each folder has its own "**index.md**" page that you can use as a template to start off your own new page. Copy the index file text with the copy button, before creating your new file and pasting in the template text.
 
-Before you get started writing:
+> ![Click the "copy raw" button, then the plus to make a new page](/_git/Docs-start-new.jpg)
 
-1. Set the **post_status** as "draft" before going to "pending" or "publish"
-1. Write a **title** and **excerpt** for what the content of the page will be (emojis still work)
+Then name your new file the way you'd like it to appear as a URL and write ".md" at the end (example: **slb-welcome.md**).
+
+Before you get started writing, look over the text you just pasted in and edit it to match the intent of your new page:
+
+1. Write a **title** and **post_excerpt** for what the content of the page will be (emojis still work)
 1. The excerpt shouldn't be over 160 characters
-1. Set the knowledge base and section (cat) using the **KB section** slug
-1. Write the **KBName** which is the normal, capitalized version of the knowledge base
-1. Based on the menu location of the page, set a **post date** between the post dates of the surrounding pages
-1. Choose a **featured image**
+1. Write the **post_status** as "draft" if you don't plan on "publish"ing it yet
+1. Choose what section the page will appear in in the docs by typing out the **knowledgebase_cat**, the template should list all current options for that Knowledge Base
+1. Choose what specific order the page will appear in by entering a **post date** that falls between the post dates of the surrounding pages (example: go find the starting text of the other pages, then if you want to appear between the 'Welcome' page with date 2024-03-03 and the 'Upgrading' page with date 2024-03-22, then any date between them will make the page appear where you want - like 2024-03-12)
+1. Choose a **featured image** or leave it blank if you don't have one yet
 1. Add **optional tags**
+1. Change **skip_file** to "no" if you'd like to begin syncing your page to the WordPress site
 1. Doing all this, the text from the template should stay **bolded**
 
 Once done, you can begin writing. Please keep in mind the same rules as when **[making changes](#making-changes)**, then submit your page as a new branch for review.
 
 If you encounter any other quirks, refer to the docs of the plugin being used to sync these pages to WordPress <https://www.aakashweb.com/docs/git-it-write/>.
 
-## Caveats
+### Caveats
+
 If you're finding that something isn't working that you'd expect - check the README again or use 'Ctrl + F' to search the page, or otherwise see below some known compatibility issues:
 
 - Image classes and WordPress shortcodes can't be redered by GitHub because it doesn't know what they are, so the only way to do final checks is to push to WordPress and check there
@@ -119,3 +124,11 @@ If you're finding that something isn't working that you'd expect - check the REA
 - Sometimes having "$" surround text makes the Git Preview look odd, but it formats fine in WordPress
 - Still exploring issue with KBName and Post Dates being incorrectly set randomly when updated
 - Post Icons still not fully implemented
+
+# Stay Up-to-Date
+
+- If you like what we're doing here, let others know by giving this repository a 'Star'
+- If you want to be informed when we make updates to our docs, click the button to 'Watch' it as it changes
+- You can edit how or how often you get notified by going to your Profile ➜ Settings ➜ Notifications
+
+> ![How to Star and Watch GitHub repos](/_git/Docs-stay-informed.jpg)

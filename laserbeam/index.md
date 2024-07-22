@@ -5,7 +5,7 @@ post_status: draft
 post_excerpt: Resources and documentation to get you started with your LaserBeam. You will find info about routers, software, assembly, end mills - everything you need to get started.
 post_date: 2024-07-18 18:14:53
 taxonomy:
-    knowledgebase_cat: lb-the-basics
+    knowledgebase_cat: lb-user-safety-manual lb-the-basics lb-software lb-assembly lb-advanced
     knowledgebase_tag:
         - laser
 custom_fields:

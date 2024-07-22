@@ -5,7 +5,7 @@ post_status: draft
 post_excerpt: Resources and documentation for the LongMill Benchtop CNC. You will find info about routers, software, assembly, end mills - everything you need to get started.
 post_date: 2024-07-18 18:14:53
 taxonomy:
-    knowledgebase_cat: lm-the-basics
+    knowledgebase_cat: lm-the-basics lm-software lm-assembly lm-advanced
     knowledgebase_tag:
         - mk1
 custom_fields:
