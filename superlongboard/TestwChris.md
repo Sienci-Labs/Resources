@@ -13,8 +13,9 @@ custom_fields:
     KBName: SuperLongBoard
     basepress_post_icon: 10
 skip_file: yes
-featured_image: _images/post-image.jpg
+featured_image: _images/_superlongboard/TLED-V1.jpg
 ---
+
 Here I am writing some text **Bold**  
 *Italic text is fun*
 1. List item one
