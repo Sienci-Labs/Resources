@@ -12,7 +12,7 @@ taxonomy:
 custom_fields:
     KBName: SuperLongBoard
     basepress_post_icon: 10
-skip_file: yes
+skip_file: no
 featured_image: _images/_superlongboard/TLED-V1.jpg
 ---
 
