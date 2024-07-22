@@ -33,7 +33,7 @@ Below, we've tried to include as many instructions as possible so that you can f
 
 ### Making Changes
 
-To find the page you'd like to change, the easiest way is to go to the page on our [Resources site](https://resources.sienci.com/) and click the "**Suggest edits to this Page**" button at the top,right of the page. Alternatively, you can go through the GitHub folders until you find a page with the same URL.
+To find the page you'd like to change, the easiest way is to go to the page on our [Resources site](https://resources.sienci.com/) and click the "**Suggest edits to this Page**" button at the top, right of the page. Alternatively, you can go through the GitHub folders until you find a page with the same URL.
 
 Once you're at the document, you'll be able to edit it with your changes by clicking the pencil.
 
@@ -45,21 +45,21 @@ While writing, keep in mind:
 
 1. Try to keep writing succinct
 1. Pages tend to be written in a simple tone, only using complex terms when necessary
-1. **Writing** in plain text has no tricks, just write regularly and leave a blank line between paragraphs
-1. **Headers** can use #, ##, ###, etc. but can also use `<h></h>` tags
+1. **Writing** in plain text has no tricks, just write regularly and leave a blank line between paragraphs (hit 'enter' twice to put text on a separate line)
+1. **Headers** can use # H1, ## H2, ### H3, etc. but can also use `<h></h>` tags
 1. Bolding uses `**bold**`, Italic uses `*italic*`
-1. Make **lists** with HTML or like
+1. Make **lists** with HTML or like (note: indents need **4 spaces** to work)
     > &nbsp;- One &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. One<br>
     > &nbsp;- Two &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Two<br>
     > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Two A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Two A<br>
     > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Two B &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Two B<br>
     > &nbsp;- Three &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Three<br>
 1. **Links** use `[Link text](URL)` or just `<URL>`
-1. Links to other headers on the page `[Link text](#header)`
+1. Links to other headers on the page `[Link text](#header-text)`(will link to any header called "Header Text")
 1. Link to other git pages with `[Test post](/test/article.md)`
-1. If you want to link in a new tab `<a href="URL" target="_blank" rel="noopener">Link text</a>`
+1. Link that opens in a new browser tab `<a href="URL" target="_blank" rel="noopener">Link text</a>`
 1. **Images** should always follow `![Alt text](/_images/FILE_NAME "Caption"){.aligncenter .size-medium}`
-1. Non-standard images, add to ".size-medium` .`" then the name of the class you want
+1. Non-standard images, add to "`.size-medium .`" then the name of the class you want
     - flie: for pictures that link to file downloads or other pages (remember to surround the image with the URL code)
     - nar: when you want a smaller picture with adjustable size
     - wid: full width pictures, only usually for "Parts Needed" of product assembly
@@ -83,7 +83,7 @@ While writing, keep in mind:
     - `<section id="home"></section>`
     - `<button type="button" onclick="showMessage()">Show message</button>`
     - `<script> function showMessage() {alert('Thank you for contacting us!');}</script>`
-1. If you still need more help, visit <https://www.markdownguide.org/basic-syntax/> for more formatting tips
+1. If you still need more help because something isn't listed or working, first check the **[caveats section](#caveats)** or otherwise visit <https://www.markdownguide.org/basic-syntax/> for more formatting tips
 
 Once you're satisfied, you can press the "**Commit changes...**" button.
 
@@ -93,7 +93,7 @@ After this, you'll be guided through giving your changes a **Title**, **Descript
 
 ### Creating New Pages
 
-When you go to make a new page, choose what Knowledge Base you'd like the page to be in, and you'll find that it has a corresponding folder in GitHub. Each folder has its own "**_template.md**" page that you can copy and paste to start off your own, new page.
+When you go to make a new page, choose what Knowledge Base you'd like the page to be in, and you'll find that it has a corresponding folder in GitHub. Each folder has its own "**index.md**" page that you can use as a template to start off your own, new page. copy and paste
 
 Before you get started writing:
 
@@ -110,3 +110,12 @@ Before you get started writing:
 Once done, you can begin writing. Please keep in mind the same rules as when **[making changes](#making-changes)**, then submit your page as a new branch for review.
 
 If you encounter any other quirks, refer to the docs of the plugin being used to sync these pages to WordPress <https://www.aakashweb.com/docs/git-it-write/>.
+
+## Caveats
+If you're finding that something isn't working that you'd expect - check the README again or use 'Ctrl + F' to search the page, or otherwise see below some known compatibility issues:
+
+- Image classes and WordPress shortcodes can't be redered by GitHub because it doesn't know what they are, so the only way to do final checks is to push to WordPress and check there
+- WordPress Galleries don't seem possible
+- Sometimes having "$" surround text makes the Git Preview look odd, but it formats fine in WordPress
+- Still exploring issue with KBName and Post Dates being incorrectly set randomly when updated
+- Post Icons still not fully implemented
