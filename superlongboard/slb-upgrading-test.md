@@ -24,16 +24,16 @@ Our main goal in this section is to have you go in with a working CNC, then leav
 <h2>Unpacking</h2>
 In the box you’ll find:
 <ul>
- 	<li>Your new <strong>SuperLongBoard</strong> inside it’s aluminum enclosure</li>
- 	<li><strong>E-stop</strong> with 3 additional ‘Action Buttons’ that are customizable</li>
- 	<li><strong>E-stop cable</strong>, plenty long to increase mounting options</li>
- 	<li>And a <strong>USB-C cable</strong>, MK2 <strong>mounting hardware</strong>, and some <strong>spare connectors</strong></li>
+  <li>Your new <strong>SuperLongBoard</strong> inside it’s aluminum enclosure</li>
+  <li><strong>E-stop</strong> with 3 additional ‘Action Buttons’ that are customizable</li>
+  <li><strong>E-stop cable</strong>, plenty long to increase mounting options</li>
+  <li>And a <strong>USB-C cable</strong>, MK2 <strong>mounting hardware</strong>, and some <strong>spare connectors</strong></li>
 </ul>
 The only other parts that you’ll need to supply yourself are:
 <ul>
- 	<li>The minimum <strong>24V 10A power supply</strong> needed to run the SLB (you can use the one your LongBoard currently uses)</li>
- 	<li>Your <strong>CNC machine</strong>, already tested to be working using its existing LongBoard</li>
- 	<li>A <strong>computer running gSender</strong> with a free USB port</li>
+  <li>The minimum <strong>24V 10A power supply</strong> needed to run the SLB (you can use the one your LongBoard currently uses)</li>
+  <li>Your <strong>CNC machine</strong>, already tested to be working using its existing LongBoard</li>
+  <li>A <strong>computer running gSender</strong> with a free USB port</li>
 </ul>
 
 ![](/_images/_superlongboard/LB2SLB_p3.jpg){.aligncenter .size-medium}

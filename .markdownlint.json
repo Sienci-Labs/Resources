@@ -1,7 +1,9 @@
 {
   "MD013": false,
   "MD026": { "punctuation": ".,;:。，；：！" },
-  "MD033": { "allowed_elements": ["br"] },
+  "MD033": { "allowed_elements": ["h1", "h2", "h3", "h4", "p", "span", "b", "strong", "a", "br", "ul", "li", "img", "table", "thead", "tbody", "th", "tr", "td"] },
+  "MD034": false,
   "MD041": { "level": 2 },
+  "MD044": { "names": ["LongMill", "gSender", "SuperLongBoard"] },
   "MD045": false
 }

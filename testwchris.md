@@ -16,10 +16,16 @@ skip_file: no
 featured_image: _images/_superlongboard/TLED-V1.jpg
 ---
 
+Reference for changeddd
+
+<p>https://youtu.be/LkZIeJQSzdM<br>
+</p>
+
 Here I am writing some text **Bold**  
 *Italic text is fun*
+
 1. List item one
-2. List item two
+1. List item two
     1. Indented List item two A
     2. Indented List item two B
 1. List item three
@@ -27,12 +33,14 @@ Here I am writing some text **Bold**
 [This](https://docs.google.com/document/d/1Kb5IhFmbdT8EaNg6l5NoGX0OBhlvkBw1tVVKJ9E_a78/) edit is a link to the SLB Google Doc
 
 # MainHeader
+
 ## Sub marine
 
 This is my better paragraph
 
 ### Triple header
-[Click me](#Sub-marine) to be a submarine
+
+[Click me](#sub-marine) to be a submarine
 
 [Click me instead](/superlongboard/slb-troubleshooting-test.md) to go to the Vortex page
 

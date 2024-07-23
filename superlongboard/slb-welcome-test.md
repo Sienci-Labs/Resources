@@ -23,6 +23,8 @@ If you’ve come here you’re either interested in or have already purchased o
 
 Started in mid-2022, this project has been truly a labour of love for us. Thanks to the initial interest from the first 500 SLB purchasers, we were able to finish bringing the project to life. If you're one of those 500, a special welcome! As you go through our instructions let us know if there's any sticking points you run into and we'll be happy to get them sorted as soon as we can. The SLB may still have some quirks in its early days despite the many months of testing that we've put it through - but we're keen to make it the best it can be and trust we can all work together to make that happen :)
 
+https://www.youtube.com/watch?v=LkZIeJQSzdM
+
 [su_youtube url="https://www.youtube.com/watch?v=LkZIeJQSzdM"]
 
 [su_youtube url="<p>https://www.youtube.com/watch?v=LkZIeJQSzdM</p>"]
@@ -65,9 +67,9 @@ Let's get rock'n'rolling by pointing you towards the right page for you 🎸
 <h2>More Questions?</h2>
 In the coming months we'll continue to add more information to documentation on the SLB including more information on wiring hookups, recommended accessory compatibilities, and more technical specifications. Otherwise, we've already covered lots of <strong>Frequently Asked Questions</strong> on:
 <ul>
- 	<li>The <a href="https://sienci.com/product/slb/">SuperLongBoard product page</a></li>
- 	<li>Recent videos on our <a href="https://www.youtube.com/@SienciLabs">YouTube channel</a></li>
- 	<li>Many <a href="https://sienci.com/2023/11/08/next-big-slb-update/">blogs covering the history</a> of the development of the SLB</li>
+  <li>The <a href="https://sienci.com/product/slb/">SuperLongBoard product page</a></li>
+  <li>Recent videos on our <a href="https://www.youtube.com/@SienciLabs">YouTube channel</a></li>
+  <li>Many <a href="https://sienci.com/2023/11/08/next-big-slb-update/">blogs covering the history</a> of the development of the SLB</li>
 </ul>
 Eventually we'll also have a revised MK2 manual that will cover installing the SLB out-of-the gate. If you're still needing some extra support with your new SLB, you can always contact us directly at <a href="mailto:support@sienci.com">support@sienci.com</a>.
 
