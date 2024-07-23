@@ -140,3 +140,30 @@ If you're finding that something isn't working that you'd expect - check the REA
 - You can edit how or how often you get notified by going to your Profile ➜ Settings ➜ Notifications
 
 > ![How to Star and Watch GitHub repos](/_git/Docs-stay-informed.jpg)
+
+## Editing Setup
+
+If you plan to commit a more dedicated setup to editing CNC resources, we have some recommendations that should make your life a lot easier for bulk writing, uploading, and editing:
+
+1. 'Download ZIP' of the codebase
+1. Unzip it and put the folder on your local computer under Documents ➜ GitHub ➜ Resources
+1. [Download VS Code](https://code.visualstudio.com/download)
+1. Open the Resources folder in VS Code
+1. Go to the source control tab and click the link to download and set up git ([should go here](https://git-scm.com/download/win))
+1. During installation, you'll be prompted to make a lot of selections, and we recommend:
+    1. Use Visual Studio Code as Git's default editor
+    1. Let Git decide its default branch name
+    1. Git from the command line and also from 3rd-party software
+    1. Use bundled OpenSSH
+    1. Use the OpenSSL library
+    1. Checkout Windows-style, commit Unix-style line endings
+    1. Use MinTTY
+    1. Fast-forward or merge
+    1. Git Credential Manager
+    1. Enable file system caching
+1. Go back to VS Code and click the 'refresh' link, then make a test pull request to check if everything's working
+1. Once done, go to the Extensions tab and install:
+    - markdownlint (we've set it up to give yellow warnings if your writing might cause structural issues)
+    - Code Spell Checker (set up to help check spelling)
+1. Optionally you can also turn on Dark mode by going to Settings ➜ Themes ➜ Color Theme ➜ Dark Modern
+1. Also a great website if you end up frequently making HTML tables is <https://www.tablesgenerator.com/html_tables#>
