@@ -4,6 +4,6 @@
   "MD033": { "allowed_elements": ["h1", "h2", "h3", "h4", "p", "span", "b", "strong", "a", "br", "ul", "li", "img", "table", "thead", "tbody", "th", "tr", "td"] },
   "MD034": false,
   "MD041": { "level": 2 },
-  "MD044": { "names": ["LongMill", "gSender", "SuperLongBoard"] },
+  "MD044": { "names": ["LongMill", "gSender", "SuperLongBoard", "LongBoard", "AutoZero", "LaserBeam", "grbl", "grblHAL", "EEPROM", "g-code", "CAD", "CAM", "e-stop"] },
   "MD045": false
 }

@@ -88,6 +88,7 @@ While writing, keep in mind:
     - `<button type="button" onclick="showMessage()">Show message</button>`
     - `<script> function showMessage() {alert('Thank you for contacting us!');}</script>`
 1. If you still need more help because something isn't listed or working, first check the **[caveats section](#caveats)** or otherwise visit <https://www.markdownguide.org/basic-syntax/> for more formatting tips
+1. It's also technically [compatible with WordPress' block editor](https://developer.wordpress.org/block-editor/getting-started/faq/#how-is-data-stored-ive-seen-html-comments-what-is-their-purpose ) which isn't used for our docs, but interesting nonetheless
 
 Once you're satisfied, you can press the "**Commit changes...**" button.
 
@@ -125,7 +126,7 @@ If you encounter any other quirks, refer to the docs of the plugin being used to
 
 If you're finding that something isn't working that you'd expect - check the README again or use 'Ctrl + F' to search the page, or otherwise see below some known compatibility issues:
 
-- Image classes and WordPress shortcodes can't be redered by GitHub because it doesn't know what they are, so the only way to do final checks is to push to WordPress and check there
+- Image classes and WordPress shortcodes can't be rendered by GitHub because it doesn't know what they are, so the only way to do final checks is to push to WordPress and check there
 - WordPress Galleries don't seem possible
 - Sometimes having "$" surround text makes the Git Preview look odd, but it formats fine in WordPress
 - Still exploring issue with KBName and Post Dates being incorrectly set randomly when updated
