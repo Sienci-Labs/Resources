@@ -432,8 +432,8 @@ This is a list of all the lights and how they function:
 </tr>
 <tr>
 <td><strong>10</strong></td>
-<td>E-Stop asserted</td>
-<td style="text-align: left;">E-Stop asserted. Clear and reset. Untwist your E-stop.</td>
+<td>E-stop asserted</td>
+<td style="text-align: left;">E-stop asserted. Clear and reset. Untwist your E-stop.</td>
 <td></td>
 </tr>
 <tr>
