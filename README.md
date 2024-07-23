@@ -129,9 +129,9 @@ If you're finding that something isn't working that you'd expect - check the REA
 - Image classes and WordPress shortcodes can't be rendered by GitHub because it doesn't know what they are, so the only way to do final checks is to push to WordPress and check there
 - WordPress Galleries don't seem possible
 - Sometimes having "$" surround text makes the Git Preview look odd, but it formats fine in WordPress
-- Still exploring issue with KBName and Post Dates being incorrectly set randomly when updated
-- Post Icons still not fully implemented
-- Don't yet have docs explaining how to upload pictures or set features pictures
+- Still exploring issues with KBName and Post Dates being incorrectly set randomly when updated
+- Post Icons still not fully implemented (basepress_post_icon: default, bp-file-word, file-word-o, Basepress ➜ icons manager)
+- Don't yet have docs explaining how to upload pictures or set featured pictures
 
 ## Stay Up-to-Date
 
