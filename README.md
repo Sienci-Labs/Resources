@@ -139,4 +139,3 @@ If you're finding that something isn't working that you'd expect - check the REA
 - You can edit how or how often you get notified by going to your Profile ➜ Settings ➜ Notifications
 
 > ![How to Star and Watch GitHub repos](/_git/Docs-stay-informed.jpg)
-test
