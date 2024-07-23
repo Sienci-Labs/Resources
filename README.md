@@ -2,7 +2,7 @@
 skip_file: yes
 ---
 
-# Hello!
+## Hello!
 
 Welcome to the public space where we (Sienci) plan to store more of our guides and documentation moving forward. We want all our docs to be public so that:
 
@@ -11,11 +11,11 @@ Welcome to the public space where we (Sienci) plan to store more of our guides a
 - if you'd like to copy any text or pictures you just need to give us credit and use the same [CC BY-SA license](https://creativecommons.org/licenses/by-sa/4.0/)
 - we chose this license to guarantee the most long-term benefit to all CNC hobbyists since it ensures that the things we all work hard on together stays open to the public
 
-# Contributing
+## Contributing
 
 Do you want to make **[simple](#simple)** edits, or something more **[in-depth](#in-depth)**?
 
-## Simple
+### Simple
 
 If you're new to GitHub and aren't aiming to get your hands too dirty, the easiest way to get involved is just to leave comments about what changes you'd like to see. This could be a spelling mistake, or suggestions on how to improve a section that's missing information. Things like that.
 
@@ -27,11 +27,15 @@ Type out your thoughts, attach some pictures if you like, then click "**Submit n
 
 > ![How to write and submit a GitHub issue](/_git/Docs-write-issue.jpg)
 
-## In-Depth
+If you want to do a little more, you can also be more detailed with your feedback by pointing to specific areas that need fixing. You can find the page you want to comment on by going to the [Resources site](https://resources.sienci.com/) and clicking the "**Suggest edits to this Page**" button at the top, right of the page - or look for it in the GitHub folders. Once you're there, click the 'Code' tab and scroll down to find the text you'd like to comment on. You'll be able to click the line number, then the '...', then 'Copy permalink' which you can then reference in the issue you submit to us by pasting in the link.
+
+> ![Code tab of GitHub document clicking a line to copy the permalink](/_git/Docs-code-line.jpg)
+
+### In-Depth
 
 Below, we've tried to include as many instructions as possible so that you can feel confident **[making changes](#making-changes)** to our documentation yourself, even going as far as **[making new pages](#creating-new-pages)** from scratch! Let's start with the easiest one first.
 
-### Making Changes
+#### Making Changes
 
 To find the page you'd like to change, the easiest way is to go to the page on our [Resources site](https://resources.sienci.com/) and click the "**Suggest edits to this Page**" button at the top, right of the page. Alternatively, you can go through the GitHub folders until you find a page with the same URL.
 
@@ -89,11 +93,13 @@ Once you're satisfied, you can press the "**Commit changes...**" button.
 
 > ![Previewing GitHub doc changes and Committing them](/_git/Docs-write-page.jpg)
 
-After this, you'll be guided through giving your changes a **Title**, **Description**, and then the ability to make a new "**Branch**" where your changes can live until they're reviewed and implemented.
+After this, you'll be guided through giving your changes a **Title**, **Description**, and then the ability to make a new "**Branch**" which you can name appropriately. Once you 'Propose Changes' all your ideas and changes will be saved and posted in the GitHubs 'Pull requests' tab where they can be reviewed, discussed, and implemented.
 
-### Creating New Pages
+> ![Propose changes by giving a title, description, and making a new branch with an appropriate name](/_git/Docs-propose-changes.jpg)
 
-When you go to make a new page, choose what Knowledge Base you'd like the page to be in, and you'll find that it has a corresponding folder in GitHub. Each folder has its own "**index.md**" page that you can use as a template to start off your own new page. Copy the index file text with the copy button, before creating your new file and pasting in the template text.
+#### Creating New Pages
+
+When you go to make a new page, choose what Knowledge Base you'd like the page to be in, and you'll find that it has a corresponding folder in GitHub. Each folder has its own "**index.md**" page that you can use as a template to start off your own new page. Copy the index file text with the copy button, before creating your new file with the '+' button and pasting in the template text.
 
 > ![Click the "copy raw" button, then the plus to make a new page](/_git/Docs-start-new.jpg)
 
@@ -115,7 +121,7 @@ Once done, you can begin writing. Please keep in mind the same rules as when **[
 
 If you encounter any other quirks, refer to the docs of the plugin being used to sync these pages to WordPress <https://www.aakashweb.com/docs/git-it-write/>.
 
-### Caveats
+#### Caveats
 
 If you're finding that something isn't working that you'd expect - check the README again or use 'Ctrl + F' to search the page, or otherwise see below some known compatibility issues:
 
@@ -124,8 +130,9 @@ If you're finding that something isn't working that you'd expect - check the REA
 - Sometimes having "$" surround text makes the Git Preview look odd, but it formats fine in WordPress
 - Still exploring issue with KBName and Post Dates being incorrectly set randomly when updated
 - Post Icons still not fully implemented
+- Don't yet have docs explaining how to upload pictures or set features pictures
 
-# Stay Up-to-Date
+## Stay Up-to-Date
 
 - If you like what we're doing here, let others know by giving this repository a 'Star'
 - If you want to be informed when we make updates to our docs, click the button to 'Watch' it as it changes
