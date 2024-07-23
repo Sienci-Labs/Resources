@@ -1,5 +1,7 @@
 {
   "MD013": false,
   "MD026": { "punctuation": ".,;:。，；：！" },
+  "MD033": { "allowed_elements": ["br"] },
+  "MD041": { "level": 2 },
   "MD045": false
 }
