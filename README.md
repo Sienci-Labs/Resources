@@ -13,7 +13,7 @@ Welcome to the public space where we (Sienci) plan to store more of our guides a
 
 ## Contributing
 
-Do you want to make **[simple](#simple)** edits, or something more **[in-depth](#in-depth)**?
+Do you want to make **[simple](#simple)** edits, or something more **[in-depth](#in-depth)**? We also have sections on staying **[up-to-date](#stay-up-to-date)** on our docs and a recommended **[editing setup](#editing-setup)** if you plan to make frequent contributions.
 
 ### Simple
 
