@@ -50,7 +50,7 @@ While writing, keep in mind:
 1. Try to keep writing succinct
 1. Pages tend to be written in a simple tone, only using complex terms when necessary
 1. **Writing** in plain text has no tricks, just write regularly and leave a blank line between paragraphs (hit 'enter' twice to put text on a separate line)
-1. **Headers** can use # H1, ## H2, ### H3, etc. but can also use `<h></h>` tags
+1. **Headers** can use `# H1`, `## H2`, `### H3`, etc. but can also use `<h></h>` tags
 1. Bolding uses `**bold**`, Italic uses `*italic*`
 1. Make **lists** with HTML or like (note: indents need **4 spaces** to work)
     > &nbsp;- One &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. One<br>
@@ -145,12 +145,13 @@ If you're finding that something isn't working that you'd expect - check the REA
 
 If you plan to commit a more dedicated setup to editing CNC resources, we have some recommendations that should make your life a lot easier for bulk writing, uploading, and editing:
 
-1. 'Download ZIP' of the codebase
-1. Unzip it and put the folder on your local computer under Documents ➜ GitHub ➜ Resources
-1. [Download VS Code](https://code.visualstudio.com/download)
-1. Open the Resources folder in VS Code
-1. Go to the source control tab and click the link to download and set up git ([should go here](https://git-scm.com/download/win))
+1. Create a new folder on your computer in the 'Documents' called "GitHub", then create another folder inside GitHub called "Resources"
+1. [Download VS Code](https://code.visualstudio.com/download) and install it normally
+1. When you open VS Code you can choose a Theme if you like, but you can always go back by going to Settings ➜ Themes ➜ Color Theme
+1. In VS Code click File ➜ Open Folder ... ➜ then go to the "Resources" folder and press 'Select Folder'
+1. Go to the source control tab on the left bar of VS Code and click the link to download and set up git ([should go here](https://git-scm.com/download/win))
 1. During installation, you'll be prompted to make a lot of selections, and we recommend:
+    1. Uncheck Windows Explorer integrated commands
     1. Use Visual Studio Code as Git's default editor
     1. Let Git decide its default branch name
     1. Git from the command line and also from 3rd-party software
@@ -161,7 +162,16 @@ If you plan to commit a more dedicated setup to editing CNC resources, we have s
     1. Fast-forward or merge
     1. Git Credential Manager
     1. Enable file system caching
-1. Go back to VS Code and click the 'refresh' link, then make a test pull request to check if everything's working
+1. Once it's installed, open the 'Git Bash' application and in the command line send the following commands one at a time
+    1. `git config --global user.name "YourUsername"`
+    1. `git config --global user.email "your-email@website.com"`
+    1. `git config --global user.password "1234321"`
+    1. `git config --global credential.helper store`
+
+
+1. Go back to VS Code and click the 'refresh' link
+
+, then make a test pull request to check if everything's working
 1. Once done, go to the Extensions tab and install:
     - markdownlint (we've set it up to give yellow warnings if your writing might cause structural issues)
     - Code Spell Checker (set up to help check spelling)
