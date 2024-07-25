@@ -52,7 +52,8 @@ While writing, keep in mind:
 1. **Writing** in plain text has no tricks, just write regularly and leave a blank line between paragraphs (hit 'enter' twice to put text on a separate line)
 1. **Headers** can use `# H1`, `## H2`, `### H3`, etc. but can also use `<h></h>` tags
 1. Bolding uses `**bold**`, Italic uses `*italic*`
-1. Make **lists** with HTML or like (note: indents need **4 spaces** to work)
+1. Make **lists** with HTML or like below (note: indents need **4 spaces** to work, also the numbered lists should **always use 1** since they will be automatically formatted afterwards)
+    > &nbsp;Bullet list &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Numbered List<br>
     > &nbsp;- One &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. One<br>
     > &nbsp;- Two &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Two<br>
     > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Two A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Two A<br>
@@ -162,13 +163,11 @@ If you plan to commit a more dedicated setup to editing CNC resources, we have s
     1. Fast-forward or merge
     1. Git Credential Manager
     1. Enable file system caching
-1. Once it's installed, open the 'Git Bash' application and in the command line send the following commands one at a time
+1. Once it's installed, open the 'Git Bash' application and in the command line send the following commands one at a time to save your GitHub login to your computer
     1. `git config --global user.name "YourUsername"`
     1. `git config --global user.email "your-email@website.com"`
     1. `git config --global user.password "1234321"`
     1. `git config --global credential.helper store`
-
-
 1. Go back to VS Code and click the 'refresh' link
 
 , then make a test pull request to check if everything's working
