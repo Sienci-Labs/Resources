@@ -1,0 +1,111 @@
+---
+title: mo-more-projects
+menu_order: 4
+post_status: draft
+post_excerpt: 
+post_date: 2024-07-25 4:00:00
+taxonomy:
+    knowledgebase_cat: mo-assembly
+    knowledgebase_tag:
+        - mill-one
+custom_fields:
+    KBName: Mill One CNC
+    basepress_post_icon: 10
+skip_file: yes
+featured_image: 
+---
+<div id="dslc-module-d76476f198d" class="dslc-module-front dslc-module-DSLC_Text_Simple dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-12-col dslc-last-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="d76476f198d" data-module="DSLC_Text_Simple" data-dslc-module-size="12" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="manual-text">
+<div class="dslc-text-module-content">
+
+Below you can find some of our custom-made starter projects. We've made these to help you start cutting many types of materials on your Mill One. If you've got similar materials on hand, use our provided g-code to cut your own! If not, you can still get the 3D model and put it through CAM yourself. We hope that they're both informative and inspirational for whatever projects you end up making next!
+
+Tons of members in our community have gotten straight to making on their Sienci Mill One. Their projects can be found on our <a href="https://www.facebook.com/groups/166433110494695/" target="_blank" rel="noopener">Community Facebook Group</a> where members share their machine experiences, endorse projects that they think are neat, and post projects that they've made.
+
+If you have no experience with 3D modelling, another great online resource for downloading freely available models is <a href="https://www.thingiverse.com/SienciLabs/collections" target="_blank" rel="noopener">Thingiverse.com</a>! Search and download whatever you want to make on your Mill One without requiring a membership.
+
+Happy making!
+<h2>Wooden Box</h2>
+A great starting project for the woodworker at heart. The hardness of wood varies by species and other factors, however most commonly available woods such as pine, oak, cedar, maple, or cherry are quite easy to work with. A depth of cut of about 2mm at around 700mm/min works well with soft to medium hardness woods, but you should reduce the depth of cut to around 1mm if you’re working with a very hard wood. Medium speed on the router at around 20,000RPM works well.
+
+The following box was designed by Andy. It’s beautiful in its simplicity and fits together nicely. Refer to our Feeds and Speeds table to set up your machine based on your choice of wood.
+
+<strong>Material:</strong> Any species of wood you wish, at least 22mm tall for the base and 13mm tall for the lid
+<strong>End Mill:</strong> 2-flute, 1/4″ end mill
+<strong>Cutting Time:</strong> 25 minutes
+
+<img class="aligncenter wp-image-651" src="https://resources.sienci.com/wp-content/uploads/2021/05/Box-with-earrings-scaled-1-300x169.jpg" alt="" width="624" height="351" />
+<div id="dslc-module-ff8930afe3a" class="dslc-module-front dslc-module-DSLC_Projects dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-10-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="ff8930afe3a" data-module="DSLC_Projects" data-dslc-module-size="10" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none">
+<div class="dslc-posts dslc-projects dslc-clearfix dslc-posts-orientation-horizontal dslc-init-grid ">
+<div class="dslc-posts-inner">
+<div class="dslc-post dslc-project dslc-col dslc-12-col dslc-last-col" data-cats="starter-projects ">
+<div class="dslc-post-thumb dslc-project-thumb dslc-on-hover-anim">
+
+[su_button url="https://resources.sienci.com/wp-content/uploads/2021/05/Wooden-Box.zip" center="yes" target="blank" size="5" icon="icon: arrow-down"]Download[/su_button]
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="dslc-module-ff8930afe3a" class="dslc-module-front dslc-module-DSLC_Projects dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-10-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="ff8930afe3a" data-module="DSLC_Projects" data-dslc-module-size="10" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none">
+<div class="dslc-posts dslc-projects dslc-clearfix dslc-posts-orientation-horizontal dslc-init-grid ">
+<div class="dslc-posts-inner">
+<div class="dslc-post dslc-project dslc-col dslc-12-col dslc-last-col" data-cats="starter-projects ">
+<div class="dslc-post-thumb dslc-project-thumb dslc-on-hover-anim">
+<div class="dslc-project-thumb-inner dslca-post-thumb"></div>
+<h2 class="dslc-project-thumb-inner dslca-post-thumb">Acrylic Gear Train</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+Acrylic is a sturdy and useful plastic, commonly used in robotics applications due to its functionality, availability, and looks. At the right speed, acrylic and other soft plastics can be smoothly milled to yield very beautiful results. Generally, you’ll want to aim for an 800mm/min feed rate at a 1.8mm depth of cut. You’ll notice that there are burrs and debris left behind on the cut surfaces if the right speeds and feeds are not selected. Choose spindle speed around 24,000 RPM and adjust these settings as you need to get the best results.
+
+This gear train was designed from scratch by Chris. If cut properly, minimal drilling should be required to use two M4 bolts and washers (or 8-32) and thread them into the gear train base.
+
+<strong>Material:</strong> 6mm acrylic
+<strong>End Mill:</strong> 2-flute, 1/8″ end mill
+<strong>Cutting Time:</strong> 14 minutes
+
+<img class="aligncenter wp-image-650" src="https://resources.sienci.com/wp-content/uploads/2021/05/Gear-Train-scaled-1-300x168.jpg" alt="" width="624" height="350" />
+<div id="dslc-module-ff8930afe3a" class="dslc-module-front dslc-module-DSLC_Projects dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-10-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="ff8930afe3a" data-module="DSLC_Projects" data-dslc-module-size="10" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none">
+<div class="dslc-posts dslc-projects dslc-clearfix dslc-posts-orientation-horizontal dslc-init-grid ">
+<div class="dslc-posts-inner">
+<div class="dslc-post dslc-project dslc-col dslc-12-col dslc-last-col" data-cats="starter-projects ">
+<div class="dslc-post-thumb dslc-project-thumb dslc-on-hover-anim">
+
+[su_button url="https://resources.sienci.com/wp-content/uploads/2021/05/Gear-Train.zip" center="yes" target="blank" size="6" icon="icon: arrow-down"]Download[/su_button]
+<h2>Aluminum Bottle Opener</h2>
+A start at using the hardest material in the Mill One's capability range. Aluminum comes in a variety of alloys, but the most common is 6061 Aluminum. It’s a fairly hard and strong material and can be found in aerospace components and bikes. The trickiest part of milling aluminum is preventing the aluminum chips from melting and binding to the end mill, which will stop the end mill from cutting. In order to carry the right amount of heat away via the chips, we recommend an 800mm/min feed rate at a 0.4mm depth of cut and 0.2 step over. The depth of cut is also slower, about 100mm/min.
+
+Choosing the right spindle speed for milling aluminum is a highly debated topic for hobby CNCers. Traditional machines set their spindle speeds at around a few thousand RPM, however routers like the ones used on the Mill One run between 10,000RPM to 30,000RPM. To get around this, less flutes are used (one or two) with shallower cuts and faster feed rates.
+
+Both of these fully functional bottle openers were designed by Chris. They have a sleek, industrial feel and are certainly conversation starters in any scenario.
+
+<strong>Material:</strong> 1/4″ and 2.15mm 6061 aluminum
+<strong>End Mill:</strong> 1-flute, 1/8″ or 3mm end mill
+<strong>Cutting Time:</strong> 12 minutes and 2 minutes
+
+<img class="wp-image-649 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/Bottle-Openers-scaled-1-300x169.jpg" alt="" width="624" height="351" />
+<div id="dslc-module-ff8930afe3a" class="dslc-module-front dslc-module-DSLC_Projects dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-10-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="ff8930afe3a" data-module="DSLC_Projects" data-dslc-module-size="10" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none">
+<div class="dslc-posts dslc-projects dslc-clearfix dslc-posts-orientation-horizontal dslc-init-grid ">
+<div class="dslc-posts-inner">
+<div class="dslc-post dslc-project dslc-col dslc-12-col dslc-last-col" data-cats="starter-projects ">
+<div class="dslc-post-thumb dslc-project-thumb dslc-on-hover-anim">
+
+[su_button url="https://resources.sienci.com/wp-content/uploads/2021/05/Bottle-Openers.zip" center="yes" target="blank" size="6" icon="icon: arrow-down"]Download[/su_button]
+
+</div>
+</div>
+</div>
+</div>
+</div>
+&nbsp;
+
+</div>
+</div>
+</div>
+</div>
+</div>
