@@ -176,3 +176,4 @@ If you plan to commit a more dedicated setup to editing CNC resources, we have s
     - Code Spell Checker (set up to help check spelling)
 1. Optionally you can also turn on Dark mode by going to Settings ➜ Themes ➜ Color Theme ➜ Dark Modern
 1. Also a great website if you end up frequently making HTML tables is <https://www.tablesgenerator.com/html_tables#>
+htrd
