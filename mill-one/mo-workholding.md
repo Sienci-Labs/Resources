@@ -3,7 +3,7 @@ title: mo-workholding
 menu_order: 4
 post_status: draft
 post_excerpt: 
-post_date: 2024-07-18 18:14:53
+post_date: 2024-07-25 18:14:53
 taxonomy:
     knowledgebase_cat: mo-basics 
     knowledgebase_tag:
@@ -18,7 +18,7 @@ Another aspect of learning how to use your CNC router involves knowing how to pr
 <h3>Carpet Tape</h3>
 One of the fastest and easiest options for securing your material and can be found in most hardware and department stores. Carpet tape has surprisingly sticky adhesive on both sides, and works best when applied to flat pieces of material with a large surface area. Using carpet tape usually eliminates the need for workholding tabs since the final part is kept held down by the tape.
 
-![alt text](<../_images/_mill-one/Double-sided tape.jpg>){.aligncenter .size-medium}
+![alt text](../_images/_mill-one/mo_workholding_p1_CarpetTape.jpg){.aligncenter .size-medium}
 
 Tips:
 <ul>
@@ -29,7 +29,7 @@ Tips:
 <h3>C-Clamps</h3>
 Clamps like the 2-inch c-clamp shown in the picture are simple and easy to use. Clamps of all shapes and sizes can be found in hardware stores and you can even find small, inexpensive ones in your local dollar store.
 
-![alt text](../_images/_mill-one/C-clamp.jpg){.aligncenter .size-medium}
+![alt text](../_images/_mill-one/mo_workholding_p2_CClamp.jpg){.aligncenter .size-medium}
 
 Tips:
 <ul>
@@ -42,7 +42,7 @@ Tips:
 
 Hot glue is a great workholding option for both flat and irregularly shaped materials. When used properly, it offers a higher degree of strength than carpet tape while eliminating the need for workholding tabs. Parts can be removed from the bed with a paint scraper or peeled off by hand. Using hot glue can sometimes be tricky since an even layer needs to be applied to keep the workpiece level. With some practice however, hot glue offers a quick, cheap, and effective workholding option.
 
-![alt text](<../_images/_mill-one/Hot glue.jpg>){.aligncenter .size-medium}
+![alt text](../_images/_mill-one/mo_workholding_p3_HGlue.jpg){.aligncenter .size-medium}
 
 Tips:
 <ul>
@@ -52,7 +52,7 @@ Tips:
 <h3>Vises</h3>
 Vises come in all shapes and sizes, for hundreds of applications. Because of it's parallel facing jaws, a vice is perfect for holding square or rectangular items, but can be used to hold just about anything. Vises offer extremely high clamping forces, which are needed when milling tough materials. A low profile, 4-inch, cast iron drill press vise like the one shown below works well for firmly holding materials.
 
-![alt text](<../_images/_mill-one/Drill vise.jpg>){.aligncenter .size-medium}
+![alt text](../_images/_mill-one/mo_workholding_p4_DrillVise.jpg){.aligncenter .size-medium}
 
 Tips:
 <ul>
@@ -62,7 +62,7 @@ Tips:
 <h3>Prototype Clamping System</h3>
 We've made our own custom clamping system for the Mill One that can be made completely with an 1/8" end mill! These prototype machinist clamps will allow you to securely mount material to your Mill One with a very low profile using PVC, HDPE, and aluminum. <a href="https://resources.sienci.com/wp-content/uploads/2021/05/Mill-One-Prototype-Clamping-System.zip">Download the files to make your own</a>, <a href="https://www.youtube.com/watch?v=_wNAAiY-gRc&amp;feature=youtu.be" target="_blank" rel="noopener">watch our video</a> if you need some guidance, and let us know what you think!
 
-![alt text](../_images/_mill-one/Clamp-System.jpg){.aligncenter .size-medium}
+![alt text](../_images/_mill-one/mo_workholding_p5_ClampSys.jpg){.aligncenter .size-medium}
 
 Tips:
 <ul>
