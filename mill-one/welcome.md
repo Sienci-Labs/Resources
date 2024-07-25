@@ -12,7 +12,7 @@ custom_fields:
     KBName: Mill One
     basepress_post_icon: 10
 skip_file: yes
-featured_image: _images/post-image.jpg
+featured_image: 
 ---
 ![alt text](<../_images/_mill-one/Mill One V2 White Background_lighter - Copy.jpg>){.aligncenter .size-medium}
 
