@@ -14,7 +14,8 @@ custom_fields:
 skip_file: yes
 featured_image: 
 ---
-![alt text](<../_images/_mill-one/mo_welcome_p1.jpg>){.aligncenter .size-medium}
+
+![alt text](<../../_images/_mill-one/The Basics/mo_welcome_p1.jpg>){.aligncenter .size-medium}
 
 <strong>Hello there!</strong> We hope that you're excited to start turning your ideas into reality. This resources manual will be your comprehensive guide on everything you need to know to start milling with your Mill One. Everything will be covered: machine assembly, information on additional hardware, software installation, and learning how to use and maintain your machine.Thank you for helping us make automated manufacturing technologies accessible for everyone.
 
