@@ -1,9 +1,9 @@
 ---
-title: mo-firmware
+title: Firmware
 menu_order: 4
 post_status: draft
 post_excerpt: 
-post_date: 2024-07-25 2:00:00
+post_date: 2021-04-30 17:02:00
 taxonomy:
     knowledgebase_cat: mo-assembly
     knowledgebase_tag:
@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
-skip_file: yes
+skip_file: no
 featured_image: 
 ---
 Installing our firmware on your Mill One's Arduino Uno will enable your computer to stream cutting files to the Arduino using the USB cable. The Arduino Uno runs the Mill One by using a tailored version of the <a href="https://github.com/gnea/grbl" target="_blank" rel="noopener">GRBL</a> v1.1g firmware. This firmware is set up for ⅛ microstepping and can be flashed onto your Arduino by using the Arduino IDE.

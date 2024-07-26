@@ -1,9 +1,9 @@
 ---
-title: mo-troubleshooting-guide
+title: Troubleshooting Guide
 menu_order: 4
 post_status: draft
 post_excerpt: 
-post_date: 2024-07-25 5:00:00
+post_date: 2021-05-07 22:49:00
 taxonomy:
     knowledgebase_cat: mo-assembly
     knowledgebase_tag:
@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
-skip_file: yes
+skip_file: no
 featured_image: 
 ---
 <h2><strong>Hardware</strong></h2>
@@ -28,7 +28,7 @@ If you are getting unexpected, deep cuts, it's likely that the cutting tool is c
 </ol>
 To solve the first, remove the nut at the bottom of the router along with the rest of the assembly and make sure that everything is fitting together like this:
 
-<img class="nar aligncenter wp-image-646 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/05/Assembled-end-300x134.png" alt="" width="300" height="134" />
+![alt text](../../_images/_mill-one/_assembly/mo_Troubleshoot_p1_AssembleEnd.png){.aligncenter .size-medium}
 
 Put the above assembly back into the router and fix into place with the collet nut. Cutting should now go as expected. If this isn't fixing the problem then it means you've told the Mill One to cut much faster than it's supposed to. When the machine is pushing the rotating bit really hard into the material, it forced the bit out of the router. Refer to our <strong>Speeds and Feeds</strong> page to adjust as necessary. Otherwise, send us an email and we'll be sure to help you out.
 <h4><span class="dslc-accordion-title">My machine randomly plunges down on the Z axis, or moves down when I don't want it to. </span></h4>
@@ -56,11 +56,11 @@ Unexpectedly shallow cuts usually originate from one of two issues:
 <h4><span class="dslc-accordion-title">My motors aren't turning or getting enough power... </span></h4>
 Make sure that you've tuned the stepper motor drivers by unplugging your machine and turning the stepper driver potentiometers clockwise by 90 degrees. Check out Step 28 from the assembly manual for more details.
 
-<img class="nar aligncenter wp-image-645" src="https://resources.sienci.com/wp-content/uploads/2021/05/turn-stepper.jpg" alt="" width="299" height="153" />
+![alt text](../../_images/_mill-one/_assembly/mo_Troubleshoot_p2_TurnStep.jpg){.aligncenter .size-medium}
 <h4><span class="dslc-accordion-title">The parts that I'm cutting are smaller/larger than they are supposed to be.</span></h4>
 The Mill One defaults to 1/8th step microstepping via two header pins that can be found underneath each axis on the CNC V3 Shield. There should be one header pin in the left most outlet and one in the center. Having the wrong configuration of pins will cause the microstepping to be set incorrectly. Ensure that you have the correct number of header pins in the right plugs. If you still have problems, send us a message.
 
-<img class="nar alignnone wp-image-667 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/05/Pins-on-CNC-shield_crop-268x300.png" alt="" width="268" height="300" />
+![alt text](../../_images/_mill-one/_assembly/mo_troubleshoot_p3_PinsShield.png){.aligncenter .size-medium}
 
 </div>
 </div>

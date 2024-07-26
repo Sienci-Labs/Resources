@@ -1,9 +1,9 @@
 ---
-title: mo-maintenance
+title: Machine Maintenance
 menu_order: 4
 post_status: draft
 post_excerpt: 
-post_date: 2024-07-25 4:30:00
+post_date: 2021-05-07 22:41:00
 taxonomy:
     knowledgebase_cat: mo-assembly
     knowledgebase_tag:
@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
-skip_file: yes
+skip_file: no
 featured_image: 
 ---
 <div id="dslc-module-2e324632a0c" class="dslc-module-front dslc-module-DSLC_Text_Simple dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-12-col dslc-last-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="2e324632a0c" data-module="DSLC_Text_Simple" data-dslc-module-size="12" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="manual-text">

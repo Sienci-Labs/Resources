@@ -1,9 +1,9 @@
 ---
-title: mo-assemble
+title: Assemble
 menu_order: 4
 post_status: draft
 post_excerpt: 
-post_date: 2024-07-25 1:30:00
+post_date: 2021-04-29 11:55:00
 taxonomy:
     knowledgebase_cat: mo-assembly
     knowledgebase_tag:
@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
-skip_file: yes
+skip_file: no
 featured_image: 
 ---
 Your Mill One occupies a volume of approximately 17" x 17" x 11 ⅞" (430mm x 430mm x 300mm) and has a cutting area of approximately 9 ¼" x 7 ¼" (235mm x 185mm) in the x/y axes. The cutting depth that you can expect in the z-axis will completely depend on the length of the bit that you install in the router, with the maximum height between the cutting platform and the router being about 4" or 100mm.
@@ -28,6 +28,6 @@ If you need a more visual guide on how to assemble the Mill One, we created <a h
 
 If you ordered an <a href="https://sienci.com/product/anti-backlash-nut-kit/">Anti Backlash Nut Kit</a> with your Mill One, instructions on assembling them can be found on the sticker on the package, and substitute them for the stock nuts found on Steps 1-3 in the assembly manual.
 
-<img class="aligncenter wp-image-662" src="https://resources.sienci.com/wp-content/uploads/2021/04/Anti-Backlash-Nut-Kit-Sticker-1024x664-1-300x195.png" alt="" width="624" height="405" />
+![alt text](../../_images/_mill-one/_assembly/mo_assemble_p1.png){.aligncenter .size-medium}
 
 We hope that you enjoy following through our manual as much as we enjoyed making it.

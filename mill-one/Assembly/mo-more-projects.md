@@ -1,9 +1,9 @@
 ---
-title: mo-more-projects
+title: More Projects
 menu_order: 4
 post_status: draft
 post_excerpt: 
-post_date: 2024-07-25 4:00:00
+post_date: 2021-05-07 22:42:00
 taxonomy:
     knowledgebase_cat: mo-assembly
     knowledgebase_tag:
@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
-skip_file: yes
+skip_file: no
 featured_image: 
 ---
 <div id="dslc-module-d76476f198d" class="dslc-module-front dslc-module-DSLC_Text_Simple dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-12-col dslc-last-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="d76476f198d" data-module="DSLC_Text_Simple" data-dslc-module-size="12" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="manual-text">
@@ -33,7 +33,7 @@ The following box was designed by Andy. It’s beautiful in its simplicity and f
 <strong>End Mill:</strong> 2-flute, 1/4″ end mill
 <strong>Cutting Time:</strong> 25 minutes
 
-<img class="aligncenter wp-image-651" src="https://resources.sienci.com/wp-content/uploads/2021/05/Box-with-earrings-scaled-1-300x169.jpg" alt="" width="624" height="351" />
+![alt text](../../_images/_mill-one/_assembly/mo_MProjects_p1_Box.jpg){.aligncenter .size-medium}
 <div id="dslc-module-ff8930afe3a" class="dslc-module-front dslc-module-DSLC_Projects dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-10-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="ff8930afe3a" data-module="DSLC_Projects" data-dslc-module-size="10" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none">
 <div class="dslc-posts dslc-projects dslc-clearfix dslc-posts-orientation-horizontal dslc-init-grid ">
 <div class="dslc-posts-inner">
@@ -69,7 +69,7 @@ This gear train was designed from scratch by Chris. If cut properly, minimal dri
 <strong>End Mill:</strong> 2-flute, 1/8″ end mill
 <strong>Cutting Time:</strong> 14 minutes
 
-<img class="aligncenter wp-image-650" src="https://resources.sienci.com/wp-content/uploads/2021/05/Gear-Train-scaled-1-300x168.jpg" alt="" width="624" height="350" />
+![alt text](../../_images/_mill-one/_assembly/mo_MProjects_p2_Gear.jpg){.aligncenter .size-medium}
 <div id="dslc-module-ff8930afe3a" class="dslc-module-front dslc-module-DSLC_Projects dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-10-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="ff8930afe3a" data-module="DSLC_Projects" data-dslc-module-size="10" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none">
 <div class="dslc-posts dslc-projects dslc-clearfix dslc-posts-orientation-horizontal dslc-init-grid ">
 <div class="dslc-posts-inner">
@@ -88,7 +88,7 @@ Both of these fully functional bottle openers were designed by Chris. They have 
 <strong>End Mill:</strong> 1-flute, 1/8″ or 3mm end mill
 <strong>Cutting Time:</strong> 12 minutes and 2 minutes
 
-<img class="wp-image-649 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/Bottle-Openers-scaled-1-300x169.jpg" alt="" width="624" height="351" />
+![alt text](../../_images/_mill-one/_assembly/mo_MProjects_p3_BottleOpen.jpg){.aligncenter .size-medium}
 <div id="dslc-module-ff8930afe3a" class="dslc-module-front dslc-module-DSLC_Projects dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-10-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="ff8930afe3a" data-module="DSLC_Projects" data-dslc-module-size="10" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none">
 <div class="dslc-posts dslc-projects dslc-clearfix dslc-posts-orientation-horizontal dslc-init-grid ">
 <div class="dslc-posts-inner">
