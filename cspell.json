@@ -2,6 +2,7 @@
     "words": [
         "aligncenter",
         "AutoZero",
+        "ballnose",
         "basepress",
         "behaviour",
         "behaviours",
@@ -19,13 +20,16 @@
         "grbl",
         "grblHAL",
         "gSender",
+        "HDPE",
         "Independant",
         "knowledgebase",
         "LaserBeam",
         "LongBoard",
         "LongMill",
+        "Makita",
         "Nema",
         "Onefinity",
+        "Ridgid",
         "Selftest",
         "Shortcodes",
         "Sienci",
@@ -36,7 +40,9 @@
         "thead",
         "UCCNC",
         "unlight",
-        "waivable"
+        "waivable",
+        "wasteboard",
+        "workholding"
     ],
     "language": "en-CA"
 }
