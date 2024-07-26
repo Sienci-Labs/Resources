@@ -1,9 +1,9 @@
 ---
-title: mo-cad
+title: CAD
 menu_order: 4
 post_status: draft
 post_excerpt: 
-post_date: 2024-07-25 2:00:00
+post_date: 2021-04-30 18:51:00
 taxonomy:
     knowledgebase_cat: mo-software 
     knowledgebase_tag:
@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
-skip_file: yes
+skip_file: no
 featured_image: 
 ---
 You can work with your favourite <strong>CAD</strong> (Computer Aided Design) and <strong>CAM</strong> (Computer Aided Manufacturing) programs to design and control the Mill One. If you wish to create simple objects with no 3D contours, a simple vector-editing program like Vectr, Inkscape, or Adobe Illustrator can be used. Alternatively, to design your own 3D parts you will need a CAD program like OnShape or Fusion 360.
@@ -25,7 +25,7 @@ Vectr is a web-based tool that you can use to quickly make simple vector images 
 Access it here: <a href="https://vectr.com/new" target="_blank" rel="noopener">https://vectr.com/new</a>
 Find useful tutorial videos on their <a href="https://www.youtube.com/channel/UC-cJMcXP4znmrj8_DF-EuvA/featured?disable_polymer=1" target="_blank" rel="noopener">YouTube channel</a>.
 
-![alt text](../../_images/_mill-one/Software/mo_cad_p1_Vectr.png){.aligncenter .size-medium}
+![alt text](../../_images/_mill-one/_software/mo_cad_p1_Vectr.png){.aligncenter .size-medium}
 
 <h3><strong><a href="https://www.onshape.com" target="_blank" rel="noopener">Onshape</a> (3D Modelling)</strong></h3>
 This is a powerful cloud-based 3D modelling software recommended for both beginners and experienced modelers. Since it runs completely on your internet browser, you can run it on almost any modern computing device without having to download anything.
@@ -35,7 +35,7 @@ Your CAD projects are automatically saved to the cloud, making sharing and colla
 Access it here (make a free account): <a href="https://www.onshape.com/" target="_blank" rel="noopener">https://www.onshape.com/</a>
 Find useful tutorial videos on their <a href="https://www.youtube.com/channel/UCTvd5lUSLtTH8Qcd7Pl1nQg" target="_blank" rel="noopener">YouTube channel</a>.
 
-![alt text](../../_images/_mill-one/Software/mo_cad_p2_onshape.png){.aligncenter .size-medium}
+![alt text](../../_images/_mill-one/_software/mo_cad_p2_onshape.png){.aligncenter .size-medium}
 
 <h3><strong>Conclusion</strong></h3>
 You now have the power to create any 2D or 3D object from scratch with these two programs under your belt. Once you've made a new model, the next step is to bring it into a CAM program. CAM programs define the toolpath that the Mill One uses to cut out your design!
@@ -51,7 +51,7 @@ Download it here: <a href="https://inkscape.org/en/download/" target="_blank" re
 Find useful tutorial videos by <a class="yt-uix-sessionlink spf-link " href="https://www.youtube.com/channel/UCwRXb5dUK4cvsHbx-rGzSgw" target="_blank" rel="noopener" data-sessionlink="itct=CDQQ4TkiEwjn2LT_6I_YAhVIeAMKHUxkDgIo-B0">Derek Banas</a> on his really great <a href="https://www.youtube.com/watch?v=zUIOEXssTSE&amp;list=PLGLfVvz_LVvTSi9bKrvGR2_DBg0Tv8Dxo" target="_blank" rel="noopener">video playlist</a>.
 There's also a great <a href="https://youtu.be/W0V-4O9x9Uk" target="_blank" rel="noopener">video guide</a> for converting pixel images into vector images courtesy of Glenn Langton.
 
-![alt text](../../_images/_mill-one/Software/mo_cad_p3_Inkscape.png){.aligncenter .size-medium}
+![alt text](../../_images/_mill-one/_software/mo_cad_p3_Inkscape.png){.aligncenter .size-medium}
 
 <h3><strong><a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener">Fusion 360</a> (3D Modelling)</strong></h3>
 Fusion 360 offers a suite of powerful CAD and CAM software which works on a variety of devices, as well as great <a href="https://academy.autodesk.com/software/fusion-360" target="_blank" rel="noopener">training resources</a> and a <a href="https://www.youtube.com/user/AutodeskFusion360" target="_blank" rel="noopener">Youtube channel</a> to get you familiar with the program. Fusion 360 is free for makers and hobbyists, as well as businesses which make less than 100,000 USD per year.
