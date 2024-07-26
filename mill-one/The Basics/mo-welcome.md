@@ -1,9 +1,9 @@
 ---
-title: mo-welcome
+title: Welcome!
 menu_order: 4
 post_status: draft
 post_excerpt: Hello there! This resources manual will be your comprehensive guide on everything you need to know to start cutting with your Mill One including assembly, software, CNC use, and maintenance.
-post_date: 2024-07-24    18:14:53
+post_date: 2021-04-30 19:49:00
 taxonomy:
     knowledgebase_cat: mo-basics
     knowledgebase_tag:
@@ -11,11 +11,11 @@ taxonomy:
 custom_fields:
     KBName: Mill One
     basepress_post_icon: 10
-skip_file: yes
+skip_file: no
 featured_image: 
 ---
 
-![alt text](<../../_images/_mill-one/The Basics/mo_welcome_p1.jpg>){.aligncenter .size-medium}
+![alt text](../../_images/_mill-one/_the-basics/mo_welcome_p1.jpg){.aligncenter .size-medium}
 
 <strong>Hello there!</strong> We hope that you're excited to start turning your ideas into reality. This resources manual will be your comprehensive guide on everything you need to know to start milling with your Mill One. Everything will be covered: machine assembly, information on additional hardware, software installation, and learning how to use and maintain your machine.Thank you for helping us make automated manufacturing technologies accessible for everyone.
 

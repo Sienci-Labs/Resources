@@ -1,9 +1,9 @@
 ---
-title: mo-cutting-tools
+title: Cutting Tool Guide
 menu_order: 4
 post_status: draft
 post_excerpt: 
-post_date: 2024-07-25
+post_date: 2021-04-30 18:12:00
 taxonomy:
     knowledgebase_cat: mo-basics
     knowledgebase_tag:
@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
-skip_file: yes
+skip_file: no
 featured_image: 
 ---
 
@@ -40,7 +40,7 @@ With one of these tools in hand, you can start making cool and good-looking thin
  	<li><a href="https://sienci.com/product/%e2%85%9b-v-engraving-carbide-30-degree-bit/" target="_blank" rel="noopener">Small-degree v-bit</a> (for fine engraving, detailing, and PCBs)</li>
 </ul>
 
-![alt text](<../../_images/_mill-one/The Basics/mo_cutting_p1_EndMills.jpg>){.aligncenter .size-medium}
+![alt text](../../_images/_mill-one/_the-basics/mo_cutting_p1_EndMills.jpg){.aligncenter .size-medium}
 
 <h2>Advanced Reading (optional)</h2>
 Learning how to tie a tool's size and shape to its movement, rotation speed, material type, and material removal rate is nearly an art form. There are engineers whose job is knowing how to properly balance all these numbers and apply them based on part geometry, desired finish, and the total job cutting time. We at Sienci Labs are continuing to develop smarter algorithms so that this work can be done more autonomously through software. In the meantime, these more complicated cutting operations will be for you to explore as your learn more about what makes CNC routers tick.
@@ -49,7 +49,7 @@ Without the proper planning, you can expect many headaches along the way includi
 <h3>Cutting Tool Lingo</h3>
 There are cutting tools for every possible cutting application. Features such as tip shape, shank diameter, cutting diameter, tool length, flute count, helix direction and tool material can all vary from tool to tool. The material that you wish to cut, how fast you wish to cut it, and your desired surface finish will decide what features you want on the tool you end up using. Since there are a lot of variables, we’ll try to stick to the most commonly available cutting tools that you can use with your Mill One.
 
-![alt text](<../../_images/_mill-one/The Basics/mo_cutting_p2_EMillMarked.png>){.aligncenter .size-medium}
+![alt text](../../_images/_mill-one/_the-basics/mo_cutting_p2_EMillMarked.png){.aligncenter .size-medium}
 
 There are many types of cutting operations that you can run on you Mill One:
 <ul>
@@ -70,13 +70,13 @@ One final deciding factor that needs to be accounted for is the hardness of the 
 <h3>Tip shape</h3>
 Tool tips can take on many shapes, with each tip designed to be used for a specific application. The three most common tip shapes are ballnose, flat end/fishtail,and v-bit/engraving.
 
-![](<../../_images/_mill-one/The Basics/mo_cutting_p3_BallvsEnd.jpg> "Ballnose mill vs End mill vs V-bit"){.aligncenter .size-medium}
+![alt text](../../_images/_mill-one/_the-basics/mo_cutting_p3_BallvsEnd.jpg "Ballnose mill vs End mill vs V-bit"){.aligncenter .size-medium}
 
-![alt text](<../../_images/_mill-one/The Basics/mo_cutting_p4_Fishtail.jpg> "1/4″, 1/8″, and 1mm end mills"){.aligncenter .size-medium}
+![alt text](../../_images/_mill-one/_the-basics/mo_cutting_p4_Fishtail.jpg "1/4″, 1/8″, and 1mm end mills"){.aligncenter .size-medium}
 
-![alt text](<../../_images/_mill-one/The Basics/mo_cutting_p5_BallNose.jpg> "3/8″ and 1/8″ ballnose mills"){.aligncenter .size-medium}
+![alt text](../../_images/_mill-one/_the-basics/mo_cutting_p5_BallNose.jpg "3/8″ and 1/8″ ballnose mills"){.aligncenter .size-medium}
 
-![alt text](<../../_images/_mill-one/The Basics/mo_cutting_p6_VBit.jpg> "90°, 35°, and 20° v-bits"){.aligncenter .size-medium}
+![alt text](../../_images/_mill-one/_the-basics/mo_cutting_p6_VBit.jpg "90°, 35°, and 20° v-bits"){.aligncenter .size-medium}
 
 End mills are typically used to mill most 2D parts and any 3D parts that do not have complex features, while ballnose mills excel at cutting 3D curves and contours to a smooth finish. Increasing the overlap between cutting passes for either of these tools will also boost their ability to produce a smoother surface finish.
 
@@ -86,7 +86,7 @@ Since v-bits can come in a variety of cutting angles, ensure that your bit has t
 <h3>Flute number, direction, and chipload</h3>
 The flutes on the cutting tools are the cutting edges that remove material but also act as channels which move chips and dust away from the cut. Most tools have two or four flutes, but you can find tools with any number of flutes. When an cutting tool has less flutes, more material can be cut away per flute, per rotation. This means that fewer flutes will remove material faster, at the downside of making rougher cuts, meanwhile having more flutes increases the chance of a smoother surface finish.
 
-![alt text](<../../_images/_mill-one/The Basics/mo_cutting_p7_Flutes.jpg> "2-flute vs. 4-flute end mills"){.aligncenter .size-medium}
+ ![alt text](../../_images/_mill-one/_the-basics/mo_cutting_p7_Flutes.jpg "2-flute vs. 4-flute end mills"){.aligncenter .size-medium}
 
 The ‘chipload’ on a cutting tool is important because as material is removed it takes a little bit of heat along with it, and if the tool or the material starts to heat up then you’ll get poor cuts and bad edge finish, you may even burn or melt your material and dull your cuttingtool. This is why fewer flutes are generally used on materials which can easily melt or weld themselves to the tool, such as plastics or aluminum.
 
@@ -96,7 +96,7 @@ The solution to this is compression mills which spiral in both directions to ens
 <h3>Material</h3>
 Your tool must be harder than the material it is cutting. Thankfully, the materials that are used to make cutting tools are some of the toughest of the tough. The most commonly used materials are high speed steel (HSS) and solid carbide.
 
-![alt text](<../../_images/_mill-one/The Basics/mo_cutting_p8_SCarbidevsHSS.jpg> "Solid carbide vs. HSS cutting tool"){.aligncenter .size-medium}
+![alt text](../../_images/_mill-one/_the-basics/mo_cutting_p8_SCarbidevsHSS.jpg "Solid carbide vs. HSS cutting tool"){.aligncenter .size-medium}
 
 HSS usually combines with a variety of other alloys to have a high wear resistance and durability for cutting both soft and hard materials. Since HSS is softer than solid carbide it’s less likely to crack and instead wear out over time, so it’s limited to slower cutting speeds. HSS tools are also usually much cheaper than solid carbide tools and can be additionally improved if they come with a coating.
 
