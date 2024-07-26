@@ -183,6 +183,8 @@ If you plan to commit a more dedicated setup to editing CNC resources, we have s
     - **Canadian English - Code Spell Checker** (since we tend to write in Canadian English)
 1. Also a great website if you end up frequently making HTML tables is <https://www.tablesgenerator.com/html_tables#>
 
+Guide on using Git source control: <https://code.visualstudio.com/docs/sourcecontrol/overview>
+
 ## Content Migration
 
 If you're looking to bulk-transfer content over from another source, here are some tips on doing that:
@@ -193,12 +195,3 @@ If you're looking to bulk-transfer content over from another source, here are so
 1. Check for, and correct any warnings or spelling errors
 1. Upload all raw pictures to GitHub, and if you want to organize them into folders then ensure new folders begin with an underscore, spaces are replaced with a dash, and there aren't any capital letters
 1. Replace all image references to proper markdown using the new file names and locations
-
-<ul>
-  <li>Ensure that the router will not run into the clamps by strategically placing them on your material. Despite their low profile, the end mill could still chew them up; take care when setting up</li>
-     <li>Securing material on one side can sometimes cause the material to lift up on one side. Double check that the bottom of the material is flat before milling</li>
- 	<li>If you need to cut a part out of the material, you can use a combination of clamps and double sided carpet tape to secure your piece. Otherwise, make sure to use workholding tabs in your part</li>
- 	<li>Use the flat notches on the top of the clamps by flipping them over. This comes in handy if you're interested in both holding your material down and better securing it from moving side-to-side</li>
- 	<li>Try to only use the clamping hole pattern we've provided, any changes made to the file we provide may weaken your Mill Ones milling platform</li>
-</ul>
-<h3>Other Workh

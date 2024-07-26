@@ -32,8 +32,6 @@ Here I am writing some text **Bold**
 
 [This](https://docs.google.com/document/d/1Kb5IhFmbdT8EaNg6l5NoGX0OBhlvkBw1tVVKJ9E_a78/) edit is a link to the SLB Google Doc
 
-# MainHeader
-
 ## Sub marine
 
 This is my better paragraph

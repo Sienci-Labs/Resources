@@ -42,7 +42,9 @@
         "unlight",
         "waivable",
         "wasteboard",
-        "workholding"
+        "workholding",
+        "XYZA",
+        "μsec"
     ],
     "language": "en-CA"
 }
