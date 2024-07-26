@@ -30,11 +30,11 @@ For UGS Platform, from the upper left hand corner, click <strong>Machine -&gt; 
 
 This will bring up a window that looks like this:
 
-<img class="aligncenter wp-image-638" src="https://resources.sienci.com/wp-content/uploads/2021/04/settings-2-300x198.jpg" alt="" width="545" height="360" />
+![alt text](../../_images/_mill-one/_more/mo_acceleration_p1_Settings.JPG){.aligncenter .size-medium}
 
 Scroll down to the bottom until you can see the acceleration settings
 
-<img class="aligncenter wp-image-641" src="https://resources.sienci.com/wp-content/uploads/2021/04/settings-scolled-300x187.jpg" alt="" width="545" height="339" />
+![alt text](../../_images/_mill-one/_more/mo_acceleration_p2_ScrolledSett.JPG){.aligncenter .size-medium}
 
 From here, you can change the values for the X-axis, Y-axis, and Z-axis accelerations.
 
