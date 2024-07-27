@@ -168,12 +168,30 @@ If you plan to commit a more dedicated setup to editing CNC resources, we have s
     1. `git config --global user.email "your-email@website.com"`
     1. `git config --global user.password "1234321"`
     1. `git config --global credential.helper store`
-1. Go back to VS Code and click the 'refresh' link
-
-, then make a test pull request to check if everything's working
+1. Go back to VS Code and click the 'refresh' link. After it reloads, you'll be able to click `...` ➜ Clone ➜ then paste in the URL of this repo (`https://github.com/Sienci-Labs/Resources.git`) and sync it to the Documents ➜ GitHub folder you made at the start
+1. If this all looks like it set up correctly, try to test out making a contribution
+    1. Go to the File Tab in GitHub and open a file like the README
+    1. Type something, then File ➜ Save or Ctrl+S
+    1. Go back to the source control tab and click `...` ➜ Branch ➜ Create Branch... ➜ type the Branch name ➜ hit 'Enter'
+    1. In this new branch, you should be able to leave a 'Commit message', then click the `⌄` part of the blue Commit button, then click 'Commit and Push'
+    1. If it says you haven't authorized the git ecosystem, then go through the steps to do that
+    1. It also might alert you that you haven't staged anything yet, but you can just click 'Always' for this
+    1. At the end of all this you should be able to go back to the online GitHub page and click the dropdown next to 'main' and see the new branch you just created
 1. Once done, go to the Extensions tab and install:
-    - markdownlint (we've set it up to give yellow warnings if your writing might cause structural issues)
-    - Code Spell Checker (set up to help check spelling)
-1. Optionally you can also turn on Dark mode by going to Settings ➜ Themes ➜ Color Theme ➜ Dark Modern
+    - **markdownlint** (we've set it up to give yellow warnings if your writing might cause structural issues <https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.jsonc>)
+    - **Code Spell Checker** (set up to help check spelling)
+    - **Canadian English - Code Spell Checker** (since we tend to write in Canadian English)
 1. Also a great website if you end up frequently making HTML tables is <https://www.tablesgenerator.com/html_tables#>
-htrd
+
+Guide on using Git source control: <https://code.visualstudio.com/docs/sourcecontrol/overview>
+
+## Content Migration
+
+If you're looking to bulk-transfer content over from another source, here are some tips on doing that:
+
+1. Make sure you have permission or a compatible license from the source you're using and give attribution where necessary
+1. Once text is pasted over, if you're making a new page then please first go through the process outlined in **[Creating New Pages](#creating-new-pages)** where you set a title, description, URL, date, etc.
+1. Make any applicable text updates
+1. Check for, and correct any warnings or spelling errors
+1. Upload all raw pictures to GitHub, and if you want to organize them into folders then ensure new folders begin with an underscore, spaces are replaced with a dash, and there aren't any capital letters
+1. Replace all image references to proper markdown using the new file names and locations

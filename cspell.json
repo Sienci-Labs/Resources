@@ -3,7 +3,7 @@
         "aligncenter",
         "alignnone",
         "AutoZero",
-        "Ballnose",
+        "ballnose",
         "basepress",
         "behaviour",
         "behaviours",
@@ -44,7 +44,9 @@
         "unlight",
         "waivable",
         "wasteboard",
-        "workholding"
+        "workholding",
+        "XYZA",
+        "μsec"
     ],
     "language": "en-CA"
 }
