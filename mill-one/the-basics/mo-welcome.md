@@ -15,7 +15,7 @@ skip_file: no
 featured_image: 
 ---
 
-![alt text](../../_images/_mill-one/_the-basics/mo_welcome_p1.jpg){.aligncenter .size-medium}
+![alt text](../../_images/_mill-one/_the-basics/mo_welcome_p1_MillOne.jpg){.aligncenter .size-medium}
 
 <strong>Hello there!</strong> We hope that you're excited to start turning your ideas into reality. This resources manual will be your comprehensive guide on everything you need to know to start milling with your Mill One. Everything will be covered: machine assembly, information on additional hardware, software installation, and learning how to use and maintain your machine.Thank you for helping us make automated manufacturing technologies accessible for everyone.
 
@@ -23,7 +23,7 @@ You are now on a journey with us to change the future of manufacturing. Join our
 
 Use the bottom buttons to navigate step-by-step or use the sidebar to quickly travel to a desired page. Some pages will be split up with basic information on top and more advanced info further down. Use the advanced sections once you're comfortable on your Mill One. We hope you enjoy your experience with the Sienci Mill One V3 and we’re excited to see what amazing creations you make next!
 
-All of The Sienci Laissez Team
+All of The Sienci Labs Team
 
 &nbsp;
 

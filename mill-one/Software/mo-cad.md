@@ -14,9 +14,10 @@ custom_fields:
 skip_file: no
 featured_image: 
 ---
+
 You can work with your favourite <strong>CAD</strong> (Computer Aided Design) and <strong>CAM</strong> (Computer Aided Manufacturing) programs to design and control the Mill One. If you wish to create simple objects with no 3D contours, a simple vector-editing program like Vectr, Inkscape, or Adobe Illustrator can be used. Alternatively, to design your own 3D parts you will need a CAD program like OnShape or Fusion 360.
 
-If you don't feel comfortable with learning these softwares, feel free to move on for now. We've created a selection of <a href="https://resources.sienci.com/view/mo-more-projects/" target="_blank" rel="noopener">Starter Projects</a> and other cool things that you can make on your machine where the 3D models are easy and free to download. There are also websites that offer thousands of 3D models, drawings, and other projects for free.
+If you don't feel comfortable with learning this software, feel free to move on for now. We've created a selection of <a href="https://resources.sienci.com/view/mo-more-projects/" target="_blank" rel="noopener">Starter Projects</a> and other cool things that you can make on your machine where the 3D models are easy and free to download. There are also websites that offer thousands of 3D models, drawings, and other projects for free.
 <h2>The Basics</h2>
 For beginners, we have two great suggestions for software that is powerful, simple, free, and cloud-based. You can find links to the software below, along with an introductory video.
 <h3><strong><a href="https://vectr.com/" target="_blank" rel="noopener">Vectr</a> (Vector Editing)</strong></h3>
@@ -42,13 +43,13 @@ You now have the power to create any 2D or 3D object from scratch with these two
 <h2>Advanced Reading (Optional)</h2>
 Here are two more recommended programs if the first two weren't your cup of tea. Every software listed on this page is free to use and has been tested by us and other Mill One users.
 
-As far as other softwares are concerned, Wikipedia has a page dedicated to comparing most <a href="https://en.wikipedia.org/wiki/Comparison_of_vector_graphics_editors" target="_blank" rel="noopener">well-known vector graphics editors</a> as well as a list of the majority of <a href="https://en.wikipedia.org/wiki/List_of_3D_modeling_software" target="_blank" rel="noopener">3D modelling programs</a> available for use.
+As far as other software is concerned, Wikipedia has a page dedicated to comparing most <a href="https://en.wikipedia.org/wiki/Comparison_of_vector_graphics_editors" target="_blank" rel="noopener">well-known vector graphics editors</a> as well as a list of the majority of <a href="https://en.wikipedia.org/wiki/List_of_3D_modeling_software" target="_blank" rel="noopener">3D modelling programs</a> available for use.
 <h3><strong><a href="https://inkscape.org/" target="_blank" rel="noopener">Inkscape</a> (Vector Editing)
 </strong></h3>
-A desktop-based tool that you can use to either turn existing pixel images into vector images or create your own vector drawings. Also great for importing Solidworks DXFs and turning them into vector images.
+A desktop-based tool that you can use to either turn existing pixel images into vector images or create your own vector drawings. Also great for importing SolidWorks DXFs and turning them into vector images.
 
 Download it here: <a href="https://inkscape.org/en/download/" target="_blank" rel="noopener">https://inkscape.org/en/download/</a>
-Find useful tutorial videos by <a class="yt-uix-sessionlink spf-link " href="https://www.youtube.com/channel/UCwRXb5dUK4cvsHbx-rGzSgw" target="_blank" rel="noopener" data-sessionlink="itct=CDQQ4TkiEwjn2LT_6I_YAhVIeAMKHUxkDgIo-B0">Derek Banas</a> on his really great <a href="https://www.youtube.com/watch?v=zUIOEXssTSE&amp;list=PLGLfVvz_LVvTSi9bKrvGR2_DBg0Tv8Dxo" target="_blank" rel="noopener">video playlist</a>.
+Find useful tutorial videos by <a href="https://www.youtube.com/channel/UCwRXb5dUK4cvsHbx-rGzSgw" target="_blank" rel="noopener">Derek Banas</a> on his really great <a href="https://www.youtube.com/watch?v=zUIOEXssTSE&amp;list=PLGLfVvz_LVvTSi9bKrvGR2_DBg0Tv8Dxo" target="_blank" rel="noopener">video playlist</a>.
 There's also a great <a href="https://youtu.be/W0V-4O9x9Uk" target="_blank" rel="noopener">video guide</a> for converting pixel images into vector images courtesy of Glenn Langton.
 
 ![alt text](../../_images/_mill-one/_software/mo_cad_p3_Inkscape.png){.aligncenter .size-medium}

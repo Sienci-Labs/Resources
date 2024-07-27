@@ -14,8 +14,6 @@ custom_fields:
 skip_file: no
 featured_image: 
 ---
-<div id="dslc-module-d76476f198d" class="dslc-module-front dslc-module-DSLC_Text_Simple dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-12-col dslc-last-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="d76476f198d" data-module="DSLC_Text_Simple" data-dslc-module-size="12" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="manual-text">
-<div class="dslc-text-module-content">
 
 Below you can find some of our custom-made starter projects. We've made these to help you start cutting many types of materials on your Mill One. If you've got similar materials on hand, use our provided g-code to cut your own! If not, you can still get the 3D model and put it through CAM yourself. We hope that they're both informative and inspirational for whatever projects you end up making next!
 
@@ -33,34 +31,12 @@ The following box was designed by Andy. It’s beautiful in its simplicity and f
 <strong>End Mill:</strong> 2-flute, 1/4″ end mill
 <strong>Cutting Time:</strong> 25 minutes
 
-![alt text](../../_images/_mill-one/_assembly/mo_MProjects_p1_Box.jpg){.aligncenter .size-medium}
-<div id="dslc-module-ff8930afe3a" class="dslc-module-front dslc-module-DSLC_Projects dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-10-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="ff8930afe3a" data-module="DSLC_Projects" data-dslc-module-size="10" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none">
-<div class="dslc-posts dslc-projects dslc-clearfix dslc-posts-orientation-horizontal dslc-init-grid ">
-<div class="dslc-posts-inner">
-<div class="dslc-post dslc-project dslc-col dslc-12-col dslc-last-col" data-cats="starter-projects ">
-<div class="dslc-post-thumb dslc-project-thumb dslc-on-hover-anim">
+![alt text](../../_images/_mill-one/_assembly/mo_projects_p1_Box.jpg){.aligncenter .size-medium}
 
 [su_button url="https://resources.sienci.com/wp-content/uploads/2021/05/Wooden-Box.zip" center="yes" target="blank" size="5" icon="icon: arrow-down"]Download[/su_button]
 
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="dslc-module-ff8930afe3a" class="dslc-module-front dslc-module-DSLC_Projects dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-10-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="ff8930afe3a" data-module="DSLC_Projects" data-dslc-module-size="10" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none">
-<div class="dslc-posts dslc-projects dslc-clearfix dslc-posts-orientation-horizontal dslc-init-grid ">
-<div class="dslc-posts-inner">
-<div class="dslc-post dslc-project dslc-col dslc-12-col dslc-last-col" data-cats="starter-projects ">
-<div class="dslc-post-thumb dslc-project-thumb dslc-on-hover-anim">
-<div class="dslc-project-thumb-inner dslca-post-thumb"></div>
-<h2 class="dslc-project-thumb-inner dslca-post-thumb">Acrylic Gear Train</h2>
-</div>
-</div>
-</div>
-</div>
-</div>
+<h2>Acrylic Gear Train</h2>
+
 Acrylic is a sturdy and useful plastic, commonly used in robotics applications due to its functionality, availability, and looks. At the right speed, acrylic and other soft plastics can be smoothly milled to yield very beautiful results. Generally, you’ll want to aim for an 800mm/min feed rate at a 1.8mm depth of cut. You’ll notice that there are burrs and debris left behind on the cut surfaces if the right speeds and feeds are not selected. Choose spindle speed around 24,000 RPM and adjust these settings as you need to get the best results.
 
 This gear train was designed from scratch by Chris. If cut properly, minimal drilling should be required to use two M4 bolts and washers (or 8-32) and thread them into the gear train base.
@@ -69,12 +45,7 @@ This gear train was designed from scratch by Chris. If cut properly, minimal dri
 <strong>End Mill:</strong> 2-flute, 1/8″ end mill
 <strong>Cutting Time:</strong> 14 minutes
 
-![alt text](../../_images/_mill-one/_assembly/mo_MProjects_p2_Gear.jpg){.aligncenter .size-medium}
-<div id="dslc-module-ff8930afe3a" class="dslc-module-front dslc-module-DSLC_Projects dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-10-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="ff8930afe3a" data-module="DSLC_Projects" data-dslc-module-size="10" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none">
-<div class="dslc-posts dslc-projects dslc-clearfix dslc-posts-orientation-horizontal dslc-init-grid ">
-<div class="dslc-posts-inner">
-<div class="dslc-post dslc-project dslc-col dslc-12-col dslc-last-col" data-cats="starter-projects ">
-<div class="dslc-post-thumb dslc-project-thumb dslc-on-hover-anim">
+![alt text](../../_images/_mill-one/_assembly/mo_projects_p2_Gear.jpg){.aligncenter .size-medium}
 
 [su_button url="https://resources.sienci.com/wp-content/uploads/2021/05/Gear-Train.zip" center="yes" target="blank" size="6" icon="icon: arrow-down"]Download[/su_button]
 <h2>Aluminum Bottle Opener</h2>
@@ -88,24 +59,8 @@ Both of these fully functional bottle openers were designed by Chris. They have 
 <strong>End Mill:</strong> 1-flute, 1/8″ or 3mm end mill
 <strong>Cutting Time:</strong> 12 minutes and 2 minutes
 
-![alt text](../../_images/_mill-one/_assembly/mo_MProjects_p3_BottleOpen.jpg){.aligncenter .size-medium}
-<div id="dslc-module-ff8930afe3a" class="dslc-module-front dslc-module-DSLC_Projects dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-10-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="ff8930afe3a" data-module="DSLC_Projects" data-dslc-module-size="10" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none">
-<div class="dslc-posts dslc-projects dslc-clearfix dslc-posts-orientation-horizontal dslc-init-grid ">
-<div class="dslc-posts-inner">
-<div class="dslc-post dslc-project dslc-col dslc-12-col dslc-last-col" data-cats="starter-projects ">
-<div class="dslc-post-thumb dslc-project-thumb dslc-on-hover-anim">
+![alt text](../../_images/_mill-one/_assembly/mo_projects_p3_BottleOpen.jpg){.aligncenter .size-medium}
 
 [su_button url="https://resources.sienci.com/wp-content/uploads/2021/05/Bottle-Openers.zip" center="yes" target="blank" size="6" icon="icon: arrow-down"]Download[/su_button]
 
-</div>
-</div>
-</div>
-</div>
-</div>
 &nbsp;
-
-</div>
-</div>
-</div>
-</div>
-</div>

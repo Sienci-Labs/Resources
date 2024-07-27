@@ -14,6 +14,7 @@ custom_fields:
 skip_file: no   
 featured_image: 
 ---
+
 In your package will be two main boxes. You should find 2 bubble mailers, the aluminum rail system, and 2 hardware baggies in the top box and the remaining, flat-packed components in the bottom box.
 
 The kit has spares for every small part to ensure no headaches during assembly. Don't worry about accounting for each part, this list should simply give you a better understanding of the components that make up the Mill One. Similar to Lego pieces, if you're familiar with each component then you'll find that assembly goes smoothly.
@@ -40,14 +41,14 @@ The kit has spares for every small part to ensure no headaches during assembly. 
 <li>DC Power Jack</li>
 </ul>
 
-![alt text](../../_images/_mill-one/_assembly/mo_unboxing_p3_B1.png){.aligncenter .size-medium}
+![alt text](../../_images/_mill-one/_assembly/mo_unboxing_p3_Bag1.png){.aligncenter .size-medium}
 <ul>
 <li>10 M8 Bolts (25mm long)</li>
 <li>28 M8 Bolts (15mm long)</li>
 <li>10 M8 Nuts</li>
 </ul>
 
-![alt text](../../_images/_mill-one/_assembly/mo_unboxing_p4_B2.png){.aligncenter .size-medium}
+![alt text](../../_images/_mill-one/_assembly/mo_unboxing_p4_Bag2.png){.aligncenter .size-medium}
 <ul>
 <li>16 M5 Bolts (25mm long)</li>
 <li>10 M5 Nuts</li>
@@ -63,7 +64,7 @@ The kit has spares for every small part to ensure no headaches during assembly. 
 ![alt text](../../_images/_mill-one/_assembly/mo_unboxing_p5_Rails.png){.aligncenter .size-medium}
 <ul>
 <li>Aluminum Rails (2x 400mm and 1x 200mm)</li>
-<li>ACME Leadscrews (2x 400mm and 1x 200mm)</li>
+<li>ACME lead screws (2x 400mm and 1x 200mm)</li>
 </ul>
 
 ![alt text](../../_images/_mill-one/_assembly/mo_unboxing_p6_FlatPack.png){.aligncenter .size-medium}

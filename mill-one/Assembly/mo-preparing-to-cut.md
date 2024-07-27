@@ -14,8 +14,6 @@ custom_fields:
 skip_file: no
 featured_image: 
 ---
-<div id="dslc-module-e776c998fe0" class="dslc-module-front dslc-module-DSLC_Text_Simple dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-12-col dslc-last-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="e776c998fe0" data-module="DSLC_Text_Simple" data-dslc-module-size="12" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="manual-text">
-<div class="dslc-text-module-content">
 
 Before using the Mill One's cutting space, we'll need to physically prepare the machine. By milling a sacrificial piece of material, it will give the machine a 'level' bed for all your future projects to be made on.
 
@@ -25,12 +23,4 @@ The following video will talk about common workholding methods that you can use 
 
 [su_youtube_advanced url="https://www.youtube.com/watch?v=aCVZ8CV5q6E" rel="no" modestbranding="yes" title="This video will explain how to prepare your Mill One to start cutting your first projects."]
 
-</div>
-</div>
-<div id="dslc-module-77faa2a92ef" class="dslc-module-front dslc-module-DSLC_Text_Simple dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-12-col dslc-last-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="77faa2a92ef" data-module="DSLC_Text_Simple" data-dslc-module-size="12" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="manual-text">
-<div class="dslc-text-module-content">
-
 Once your sacrificial board is ready, you're ready to start cutting on your Mill One! Head over to the next step where we take you through the steps of making your first test project with your machine, the CNSheep.
-
-</div>
-</div>

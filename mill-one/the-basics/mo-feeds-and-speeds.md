@@ -14,6 +14,7 @@ custom_fields:
 skip_file: no
 featured_image: 
 ---
+
 <div id="dslc-module-a1748807007" class="dslc-module-front dslc-module-DSLC_Text_Simple dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-12-col dslc-last-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="a1748807007" data-module="DSLC_Text_Simple" data-dslc-module-size="12" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="manual-text">
 <div class="dslc-text-module-content">
 
@@ -138,7 +139,7 @@ The corresponding spindle speeds for the Ridgid and Makita routers are also belo
 </table>
 </div>
 </div>
-<div id="dslc-module-nrrindn9mp8" class="dslc-module-front dslc-module-DSLC_Html dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-12-col dslc-last-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="nrrindn9mp8" data-module="DSLC_Html" data-dslc-module-size="12" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none">
+<div class="dslc-module-front dslc-module-DSLC_Html dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-12-col dslc-last-col dslc-module-handle-like-regular dslc-in-viewport" data-module="DSLC_Html" data-dslc-module-size="12" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none">
 <div class="dslc-html-module-content">
 <h3><b>Ridgid R24012</b></h3>
 <table width="20">
@@ -167,7 +168,7 @@ The corresponding spindle speeds for the Ridgid and Makita routers are also belo
 </table>
 </div>
 </div>
-<div id="dslc-module-q7907kgjdc" class="dslc-module-front dslc-module-DSLC_Html dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-12-col dslc-last-col dslc-module-handle-like-regular dslc-in-viewport" data-module-id="q7907kgjdc" data-module="DSLC_Html" data-dslc-module-size="12" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none">
+<div class="dslc-module-front dslc-module-DSLC_Html dslc-in-viewport-check dslc-in-viewport-anim-none dslc-col dslc-12-col dslc-last-col dslc-module-handle-like-regular dslc-in-viewport" data-module="DSLC_Html" data-dslc-module-size="12" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none">
 <div class="dslc-html-module-content">
 <h3><b>Makita RT0701</b></h3>
 <table width="20">
