@@ -22,7 +22,9 @@ Tons of members in our community have gotten straight to making on their Sienci 
 If you have no experience with 3D modelling, another great online resource for downloading freely available models is <a href="https://www.thingiverse.com/SienciLabs/collections" target="_blank" rel="noopener">Thingiverse.com</a>! Search and download whatever you want to make on your Mill One without requiring a membership.
 
 Happy making!
+
 <h2>Wooden Box</h2>
+
 A great starting project for the woodworker at heart. The hardness of wood varies by species and other factors, however most commonly available woods such as pine, oak, cedar, maple, or cherry are quite easy to work with. A depth of cut of about 2mm at around 700mm/min works well with soft to medium hardness woods, but you should reduce the depth of cut to around 1mm if you’re working with a very hard wood. Medium speed on the router at around 20,000RPM works well.
 
 The following box was designed by Andy. It’s beautiful in its simplicity and fits together nicely. Refer to our Feeds and Speeds table to set up your machine based on your choice of wood.
@@ -31,7 +33,7 @@ The following box was designed by Andy. It’s beautiful in its simplicity and f
 <strong>End Mill:</strong> 2-flute, 1/4″ end mill
 <strong>Cutting Time:</strong> 25 minutes
 
-![alt text](../../_images/_mill-one/_assembly/mo_projects_p1_Box.jpg){.aligncenter .size-medium}
+![](/_images/_mill-one/_assembly/mo_projects_p1_Box.jpg){.aligncenter .size-medium}
 
 [su_button url="https://resources.sienci.com/wp-content/uploads/2021/05/Wooden-Box.zip" center="yes" target="blank" size="5" icon="icon: arrow-down"]Download[/su_button]
 
@@ -45,10 +47,12 @@ This gear train was designed from scratch by Chris. If cut properly, minimal dri
 <strong>End Mill:</strong> 2-flute, 1/8″ end mill
 <strong>Cutting Time:</strong> 14 minutes
 
-![alt text](../../_images/_mill-one/_assembly/mo_projects_p2_Gear.jpg){.aligncenter .size-medium}
+![](/_images/_mill-one/_assembly/mo_projects_p2_Gear.jpg){.aligncenter .size-medium}
 
 [su_button url="https://resources.sienci.com/wp-content/uploads/2021/05/Gear-Train.zip" center="yes" target="blank" size="6" icon="icon: arrow-down"]Download[/su_button]
+
 <h2>Aluminum Bottle Opener</h2>
+
 A start at using the hardest material in the Mill One's capability range. Aluminum comes in a variety of alloys, but the most common is 6061 Aluminum. It’s a fairly hard and strong material and can be found in aerospace components and bikes. The trickiest part of milling aluminum is preventing the aluminum chips from melting and binding to the end mill, which will stop the end mill from cutting. In order to carry the right amount of heat away via the chips, we recommend an 800mm/min feed rate at a 0.4mm depth of cut and 0.2 step over. The depth of cut is also slower, about 100mm/min.
 
 Choosing the right spindle speed for milling aluminum is a highly debated topic for hobby CNCers. Traditional machines set their spindle speeds at around a few thousand RPM, however routers like the ones used on the Mill One run between 10,000RPM to 30,000RPM. To get around this, less flutes are used (one or two) with shallower cuts and faster feed rates.
@@ -59,7 +63,7 @@ Both of these fully functional bottle openers were designed by Chris. They have 
 <strong>End Mill:</strong> 1-flute, 1/8″ or 3mm end mill
 <strong>Cutting Time:</strong> 12 minutes and 2 minutes
 
-![alt text](../../_images/_mill-one/_assembly/mo_projects_p3_BottleOpen.jpg){.aligncenter .size-medium}
+![](/_images/_mill-one/_assembly/mo_projects_p3_BottleOpen.jpg){.aligncenter .size-medium}
 
 [su_button url="https://resources.sienci.com/wp-content/uploads/2021/05/Bottle-Openers.zip" center="yes" target="blank" size="6" icon="icon: arrow-down"]Download[/su_button]
 

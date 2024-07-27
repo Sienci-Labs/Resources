@@ -27,6 +27,6 @@ You can access Kiri:Moto <a href="https://grid.space/kiri" target="_blank" rel="
 
 Congratulations on your cute new sheep! You should now have a fully functional Mill One, and a basic understanding on how to use it. What new things will you make now?
 
-![alt text](../../_images/_mill-one/_assembly/mo_running_p1_CNSheep.jpg){.aligncenter .size-medium}
+![](/_images/_mill-one/_assembly/mo_running_p1_CNSheep.jpg){.aligncenter .size-medium}
 
 The next pages will give you some insight on how to maintain your Mill One so you can ensure that it continues to run properly and also contain some additional starter projects that we've made which will help you to start cutting the wide variety of materials that are within the Mill One's range of capabilities.

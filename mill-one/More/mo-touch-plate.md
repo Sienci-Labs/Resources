@@ -21,9 +21,10 @@ To wire it up you'll want to locate the positive 5V touch plate pin (marked as "
 
 During testing, we also found that the Arduino Unos internal pull-up resistors weren't strong enough to prevent the touch plate from having false triggers, so wiring in a 270Ω resistor did the trick. These are fairly easy to find from many electronics suppliers and are colour code: red, purple, brown.
 
-![alt text](../../_images/_mill-one/_more/mo_touch_plate_p1_Arduino.jpg){.aligncenter .size-medium}
+![](/_images/_mill-one/_more/mo_touch_plate_p1_Arduino.jpg){.aligncenter .size-medium}
 
 So altogether you can see below two examples of the completed wiring with the 270Ω resistor plugged into one of the available "5V" pins, one touch plate wire plugged into "SCL", and the other plugged into "GND". On the left is an example of running extension wiring, and on the right a direct connection to the pins with a terminal connector. In both cases the resistor is easily added to the back of the terminal connector by unscrewing the terminal to fit in the resistor pin before re-tightening it.
 
 <strong>Note:</strong> in these examples the wiring polarity doesn't matter.
-![alt text](../../_images/_mill-one/_more/mo_touch_plate_p2_Wiring.jpg){.aligncenter .size-medium}
+
+![](/_images/_mill-one/_more/mo_touch_plate_p2_Wiring.jpg){.aligncenter .size-medium}

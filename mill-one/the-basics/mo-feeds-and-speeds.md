@@ -23,7 +23,9 @@ If you don't understand the importance of feeds and speeds for CNC routing and m
 Feed and speed choice depends on the material you are cutting, the type of tool you use, the speed of the router, the rigidity of the machine, and even the geometry of the model. In order to balance speed, finish quality, and precision you must account for bit deflection and material hardness.
 
 When cutting, the tool can be pushed away from where it should be since it's not able to cut the material fast enough. Harder materials require a more rigid machine and longer milling times to steadily cut the material away. Sometimes it will take some trial and error to dial-in the right settings for your desired setup and materials.
+
 <h2>Terminology</h2>
+
 <strong>Feed rate:</strong> how quickly the tool moves in the X and Y directions, usually defined in millimeters (or inches) per minute.
 
 <strong>Plunge rate:</strong> how quickly the tool moves in the Z direction, usually defined in millimeters (or inches) per minute.
@@ -33,7 +35,9 @@ When cutting, the tool can be pushed away from where it should be since it's not
 <strong>Depth of cut/ Step down:</strong> the amount of depth that the CNC machine removes with every cutting pass, defined in millimeters or inches.
 
 <strong>Step over:</strong> the offset that is applied between the old cutting pass and the new one, usually defined as a percentage of the tool's cutting diameter.
+
 <h2>Recommendations</h2>
+
 These feeds and speeds are meant to be a starting point in finding the right parameters that work best for your setup. Feeds and speeds listed on this page have been tested to work with <strong>2-flute, 1/8" carbide end mills</strong>, the type of cutting tool that is most readily available <a href="https://sienci.com/product-category/cutting-tools/" target="_blank" rel="noopener">in our store</a>.
 
 Unless you're doing 3D contour cutting where the z-axis moves up and down a lot, we usually recommended lower plunge rates (100mm/min to 300mm/min) for most materials.

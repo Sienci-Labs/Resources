@@ -18,6 +18,7 @@ featured_image:
 Installing our firmware on your Mill One's Arduino Uno will enable your computer to stream cutting files to the Arduino using the USB cable. The Arduino Uno runs the Mill One by using a tailored version of the <a href="https://github.com/gnea/grbl" target="_blank" rel="noopener">grbl</a> v1.1g firmware. This firmware is set up for ⅛ microstepping and can be flashed onto your Arduino by using the Arduino IDE.
 
 <a href="https://resources.sienci.com/wp-content/uploads/2021/05/GRBL-1.1g-Sienci-Mill-One.zip">Click this to download the firmware</a>, then follow these steps:
+
 <ol>
   <li>Plug the Arduino into your computer with the USB cable (don't connect the power supply for now)</li>
   <li>Go to: <a href="https://www.arduino.cc/en/Main/Software" target="_blank" rel="noopener">https://www.arduino.cc/en/Main/Software</a> to download the latest Arduino IDE onto your computer for your appropriate operating system</li>
@@ -31,6 +32,7 @@ Installing our firmware on your Mill One's Arduino Uno will enable your computer
   <li>Now go to <strong>Tools -&gt; Board</strong> and select <strong>Arduino/Genuino Uno</strong>, then go to <strong>Tools -&gt; Port</strong> to select the right USB port</li>
   <li>Finally, click <strong>File -&gt; Upload</strong> and the firmware will now be installed onto your machine</li>
 </ol>
+
 There should be a confirmation at the bottom of the window that says "Done uploading." To confirm that the code is working, go to <strong>Tools -&gt; Serial Monitor</strong> and once you set the baud rate to '115200 baud' you should see a message pop up.
 
 Once you get the message then congratulations! Your machine is now ready to go. In the following software steps you will learn about the software package that we offer for Mill One. This will allow you to carve out existing designs or enable you to create your own designs from scratch.

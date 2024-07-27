@@ -22,7 +22,7 @@ Rotary tools come in all shapes and sizes. When considering a tool for your Mill
 Based on the routers we've tested, we highly recommend the Makita RT0701 or Ridgid R24012 router. These two routers offer great performance at reasonable prices. You can typically find these routers at your local hardware store or online with free shipping. Purchasing links can be found below.
 <h3>Makita RT0700/RT0701</h3>
 
-![alt text](../../_images/_mill-one/_the-basics/mo_router_p1_makita.jpg){.aligncenter .size-medium}
+![](/_images/_mill-one/_the-basics/mo_router_p1_makita.jpg){.alignleft .size-full .nar}
 
 <a href="http://www.homedepot.com/p/Makita-1-1-4-HP-Compact-Router-RT0701C/204247210" target="_blank" rel="noopener noreferrer">Home Depot (US)</a>
 
@@ -36,7 +36,7 @@ The Makita RT0700/RT0701 router is a commonly used palm router boasting a 1-1/4H
 <h3></h3>
 <h3>Ridgid R24012</h3>
 
-![alt text](../../_images/_mill-one/_the-basics/mo_router_p2_ridgid.jpg){.aligncenter .size-medium}
+![](/_images/_mill-one/_the-basics/mo_router_p2_ridgid.jpg){.alignleft .size-medium .nar}
 
 <a href="https://www.homedepot.ca/en/home/p.laminate-trimmer.1000418275.html" target="_blank" rel="noopener noreferrer">Home Depot (Canada)</a>
 

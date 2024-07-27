@@ -22,6 +22,7 @@ We've tried to make the machine as safe to use as we could by ensuring that you 
 <strong>Safety Warnings and Guidelines</strong>
 
 In these warnings, you the user and original purchaser/customer of the Mill One CNC are referred to as the "operator" of the machine:
+
 <ol>
   <li>Be sure to carefully follow provided machine assembly instructions before machine use to ensure operator safety.</li>
   <li>All wires must be appropriately positioned before beginning the operation of this machine. Cutting a “live” wire may cause exposed metal parts of the routing/trimming tool to become electrified and shock the operator.</li>
