@@ -13,18 +13,18 @@ custom_fields:
     basepress_post_icon: 10
 skip_file: no
 featured_image: 
----  {.aligncenter .size-medium}
+--- 
 Routers and spindles come in all shapes and sizes. When considering the right tool for your machine, there are several things you want to look out for such as:
 <ul>
- 	<li>Power</li>
- 	<li>Speed and speed control</li>
- 	<li>Size and weight</li>
- 	<li>Runout</li>
+  <li>Power</li>
+  <li>Speed and speed control</li>
+  <li>Size and weight</li>
+  <li>Runout</li>
 </ul>
 Many hobby CNC routers tend to utilize trim routers because their power, weight, price, and off-the-shelf circuitry balance well with hobby applications. After much testing with the LongMill, we landed on the Makita RT0700/RT0701 as the ideal choice.
 <h2>Makita RT0700/RT0701</h2>
-<img class="nar alignleft wp-image-633 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/04/Makita-Router.jpg" alt="" width="300" height="300" />
 
+![](/_images/_longmill/_the_basics/lm_routersspindle_p1_Makita.jpg){.alignleft .size-large}
 <a href="http://www.homedepot.com/p/Makita-1-1-4-HP-Compact-Router-RT0701C/204247210" target="_blank" rel="noreferrer noopener">Home Depot (US)</a>
 
 <a href="https://www.homedepot.ca/en/home/p.compact-router.1000848739.html" target="_blank" rel="noreferrer noopener">Home Depot (Canada)</a>
@@ -37,45 +37,47 @@ The Makita RT0700/RT0701 router is a very commonly used and reliable trim router
 <h2>Other Routers</h2>
 The LongMill's standard router mount has a 65mm bore but is also available in:  <strong>52mm</strong>, <strong>71mm</strong>, and <strong>80mm</strong>. This means that mounting other routers is possible, though the Makita is the only one that's been thoroughly tested for use on the LongMill.
 
-<img class="wp-image-823 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/65mm-Router-Mount-624x220.jpg" alt="" width="800" height="283" />
+![](/_images/_longmill/_the_basics/lm_routersspindle_p2_65RMount.jpg){.aligncenter .size-medium}
 
 Here is a list of some other routers that could be used. If your router isn't listed, you'll need to measure it's diameter and check if anything protrudes or if an adapter may be needed:
 <ul>
- 	<li>Dewalt DWP611 (uses 71mm mount)</li>
- 	<li>Carbide 3D Compact Router (uses 65mm mount)</li>
- 	<li>Avid Power MW104 (uses 65mm mount)</li>
- 	<li>MLCS Rocky 30 9056 (uses 65mm mount)</li>
- 	<li>Ridgid R2401 (needs to adapt from 61mm to our 80mm mount to clear it's ~6x15mm protruding body notch)</li>
- 	<li>Bosch Colt PR20EVS (uses 71mm mount but sits much higher up than normal, you'll have to space up your material)</li>
- 	<li>Bosch Colt GKF125 (needs to adapt from 72mm to our 80mm mount, also sits much higher up than normal)</li>
+  <li>Dewalt DWP611 (uses 71mm mount)</li>
+  <li>Carbide 3D Compact Router (uses 65mm mount)</li>
+  <li>Avid Power MW104 (uses 65mm mount)</li>
+  <li>MLCS Rocky 30 9056 (uses 65mm mount)</li>
+  <li>Ridgid R2401 (needs to adapt from 61mm to our 80mm mount to clear it's ~6x15mm protruding body notch)</li>
+  <li>Bosch Colt PR20EVS (uses 71mm mount but sits much higher up than normal, you'll have to space up your material)</li>
+  <li>Bosch Colt GKF125 (needs to adapt from 72mm to our 80mm mount, also sits much higher up than normal)</li>
 </ul>
 <h2>Three-phase Spindles</h2>
-<img class="wp-image-822 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/Spindle-Package-624x365.png" alt="" width="800" height="468" />
+
+![](/_images/_longmill/_the_basics/lm_routersspindle_p3_RouterPkg.png){.aligncenter .size-medium}
 
 Three-phase spindles are commonly used in higher-end, semi-professional to professional-level machines. They come with several advantages over traditional woodworking routers such as:
 <ul>
- 	<li>Quieter operation</li>
- 	<li>More power</li>
- 	<li>Lower run-out</li>
- 	<li>Longer life</li>
- 	<li>Ability to integrate speed and direction control directly from the control board</li>
+  <li>Quieter operation</li>
+  <li>More power</li>
+  <li>Lower run-out</li>
+  <li>Longer life</li>
+  <li>Ability to integrate speed and direction control directly from the control board</li>
 </ul>
 They also come with some downsides:
 <ul>
- 	<li>More expensive</li>
- 	<li>Can be challenging to set up</li>
- 	<li>Larger and heavier</li>
+  <li>More expensive</li>
+  <li>Can be challenging to set up</li>
+  <li>Larger and heavier</li>
 </ul>
 The LongMill's control box has the necessary outputs to interface with most market spindles. This includes:
 <ul>
- 	<li>0-5V PWM signal for speed control</li>
- 	<li>0-5V toggle for direction control</li>
+  <li>0-5V PWM signal for speed control</li>
+  <li>0-5V toggle for direction control</li>
 </ul>
 Consult your spindle manufacturer for details on wiring and programming if this is something you're considering since it tends to vary between manufacturers.
 
 If you are a beginner user, we highly recommend sticking with a Makita RT0701. The Makita RT0701 offers plenty of power and speed control for this application. Installing a spindle can be very technically challenging and may cost significantly more. If you plan on adding a spindle we recommend checking our <a href="https://forum.sienci.com/">Forum</a> and <a href="https://www.facebook.com/groups/mill.one">Facebook Group</a> for more info or checking out our own guide below.
 <h3>Adding a spindle</h3>
-<img class="alignnone size-medium wp-image-3752" src="https://resources.sienci.com/wp-content/uploads/2022/03/IMG_4259-850x567.jpeg" alt="" width="850" height="567" />
+
+![](/_images/_longmill/_the_basics/lm_routersspindle_p4_Spindle.jpeg){.aligncenter .size-medium}
 
 We supply <a href="https://sienci.com/product/router-mount-for-longmill-benchtop-cnc/">65mm, 71mm, and 80mm router mounts</a> that are sized to match with commonly available 3-phase spindles. From our experience, most come in 65mm and 80mm diameters.
 
@@ -91,7 +93,7 @@ Most spindles also come with either air cooling or water cooling. Water cooling 
 
 Installing your router mount is fairly straightforward. Simply move your machine to the highest point on the Z-axis and undo the four M5 bolts from the back. Swap out the router mount to the size you need.
 
-<img class="size-medium wp-image-3749 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/PXL_20220607_135034180-850x655.jpeg" alt="" width="850" height="655" />
+![](/_images/_longmill/_the_basics/lm_routersspindle_p5_WireRoute.jpeg){.aligncenter .size-medium}
 
 From here you can mount your spindle and wire the cables through the drag chains. It is very important to use a properly shielded cable and ground your cable properly, as 3-phase spindles can create a lot of interference. You will also need to program your VFD using the appropriate values to control things like the method of control, your input voltage and frequency, your output voltage and frequency, PWM signal speed ranges, and more.
 
@@ -103,6 +105,7 @@ Because the spindle is most likely heavier than the Makita RT0701, the machine w
 
 Some settings you might need to change are shown below. If you're moving a specific axis of the machine and it's 'stalling out'/ not moving then you definitely need to update these values. You'd want to focus first on the 'maximum rates' (110 to 112), reducing the value for the stalling axis by increments of 100 until the problem goes away. If  this doesn't work you can also try lowering the 'acceleration' values (120 to 122)
 
-<img class="alignnone size-medium wp-image-6240" src="https://resources.sienci.com/wp-content/uploads/2022/03/Changing-rates-for-Spindle-850x500.png" alt="" width="850" height="500" />
+![](/_images/_longmill/_the_basics/lm_routersspindle_p6_Firmware.png){.aligncenter .size-medium}
+
 <h2>Not Recommended</h2>
 Handheld rotary tools like Dremels are highly underpowered for use on the LongMill since they do not have internal hardware that allows them to support the high lateral and axial forces. In addition, these tools are fabricated for hand use, and as such aren't designed for the minimal runout required to cut precisely.
