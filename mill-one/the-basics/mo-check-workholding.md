@@ -5,7 +5,7 @@ post_status: draft
 post_excerpt: 
 post_date: 2021-04-30 18:41:00
 taxonomy:
-    knowledgebase_cat: mo-basics 
+    knowledgebase_cat: mo-basics
     knowledgebase_tag:
         - mill-one
 custom_fields:
