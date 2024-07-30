@@ -1,5 +1,5 @@
 ---
-title: lm-cutting-tools
+title: Cutting Tools
 menu_order: 4
 post_status: draft
 post_excerpt: CNC cutting tools guide for the LongMill. Bits can vary by features like tip shape, size, and flutes, making them suitable for many uses like aluminum milling.
@@ -23,7 +23,10 @@ featured_image: _images/_longmill/_the_basics/lm_cuttingtools_p1_TipTypes.jpg
 <p>The biggest difference in cutting tools is their tip shape, this determines what application the bit can be used for. The three most common types are the <strong>v-bit</strong>, <strong>flat end</strong>, and <strong>ball nose</strong> (shown below respectively).</p>
 <p><!-- wp:image {"id":3747} --></p>
 <figure class="wp-block-image">
-<p data-wp-editing="1"><img class="aligncenter wp-image-858" src="https://resources.sienci.com/wp-content/uploads/2021/04/End-mill-tip-types_marked_trim-1-624x252.jpg" alt="" width="800" height="323" /></p>
+<p data-wp-editing="1"></p>
+
+![](/_images/_longmill/_the_basics/lm_cuttingtools_p1_TipTypes.jpg){.aligncenter .size-medium}
+
 </figure>
 <p><!-- /wp:image --></p>
 <p><!-- /wp:heading -->
@@ -36,29 +39,42 @@ featured_image: _images/_longmill/_the_basics/lm_cuttingtools_p1_TipTypes.jpg
 
 <!-- wp:paragraph --></p>
 <p><strong>V-bit:</strong>  v-bits have an angled tip that works great for engraving. They come in varying angles so that if you're cutting a line with a certain thickness then a 60° bit will cut that line deeper than a 90° bit will; this variation can be used to great effect.</p>
-<p><img class="wp-image-694 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/04/V-bit-end-mills-624x350.jpg" alt="" width="800" height="449" /></p>
+
+![alt text](../../_images/_longmill/_the_basics/lm_cuttingtools_p2_VBits.jpg){.aligncenter .size-medium}
 <p>V-bits can be used for simple line-drawing engravings and are also commonly used for "v-carving" which varies the height of the bit as it cuts to change the width of the engraving. This can create detailed images and can also be used for stippling.</p>
 <p><!-- /wp:paragraph -->
 
 <!-- wp:image {"id":10454} --></p>
-<figure class="wp-block-image"><img class="aligncenter wp-image-835" src="https://resources.sienci.com/wp-content/uploads/2021/05/The-great-wave-1024x576-1-624x351.jpg" alt="" width="800" height="450" /></figure>
+<figure class="wp-block-image">
+
+![alt text](../../_images/_longmill/_the_basics/lm_cuttingtools_p3_Wave.jpg){.aligncenter .size-medium}
+</figure>
 <p><strong>Flat end:  </strong>this type of end mill simply has a flat or "square" tip profile and normally comes in the form of a spiral bit, but rabbit and dado bits also fall under this category. These cutting tools are the most common of any type due to their versatility for rapid material removal, pocketing, and generally being able to do most CNC projects you may have in mind. At the very least they come in handy if you're considering levelling a large cut of material or need to cut the outer profile of a sign to separate it from the stock material.</p>
 <p><!-- /wp:paragraph -->
 
 <!-- wp:image {"id":1584} --></p>
-<figure class="wp-block-image"><img class="aligncenter wp-image-856" src="https://resources.sienci.com/wp-content/uploads/2021/04/Cedar-Wood-Box-624x350.jpg" alt="" width="800" height="449" /></figure>
+<figure class="wp-block-image">
+
+![alt text](../../_images/_longmill/_the_basics/lm_cuttingtools_p4_WoodBox.jpg){.aligncenter .size-medium}
+</figure>
 <p><strong>Ball nose:  </strong>great for 3D / relief carving where your project contains contoured surfaces. By stitching many close passes of its rounded profile together the result can be a perfectly smooth, curved surface right off your machine. Smaller ball nose bits are commonly tapered so that the bit is less likely to snap but you're still able to cut out very fine details. All this being said, one aspect these bits can't handle is flat surfaces due to the "scalloping" they introduce. This type of carving is certainly more advanced than others but at the end of the day it certainly adds an extra dimension to your projects.</p>
 <p><!-- /wp:paragraph -->
 
 <!-- wp:image {"id":10453} --></p>
-<figure class="wp-block-image"><img class="wp-image-860 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/04/Smooth-Finish-3D-Foam-Milling-624x351.jpg" alt="" width="800" height="450" /></figure>
+<figure class="wp-block-image">
+
+![](/_images/_longmill/_the_basics/lm_cuttingtools_p5_3DFoam.jpg){.aligncenter .size-medium}
+</figure>
 <p>[tabby title="Size"]</p>
 <p>The size of a cutting tool is important because if it's too big then it might not be able to cut to the level of detail that you need, and if it's too small then it might take forever to cut everything away. When you're starting with a CNC it's easier to stick with using a single bit for the whole job so you probably want to make sure you're sizing it correctly, but once you become accustomed with mid-project tool changing and then you can have the best of both worlds!</p>
 <p>Cutting tools can normally be described by a few key dimensions:</p>
 <p><!-- /wp:heading -->
 
 <!-- wp:image {"id":3771} --></p>
-<figure class="wp-block-image"><img class="aligncenter wp-image-699" src="https://resources.sienci.com/wp-content/uploads/2021/04/End-Mill-features_marked-624x177.png" alt="" width="800" height="227" /></figure>
+<figure class="wp-block-image">
+
+![](/_images/_longmill/_the_basics/lm_cuttingtools_p6_EndMillFeat.png){.aligncenter .size-medium}
+</figure>
 <p><!-- /wp:image -->
 
 <!-- wp:paragraph --></p>
@@ -83,18 +99,11 @@ featured_image: _images/_longmill/_the_basics/lm_cuttingtools_p1_TipTypes.jpg
 <p>[tabby title="Advanced"]</p>
 <p>As a CNC operator, you will learn to choose the correct end mill for the job and use the correct speeds and feeds in your CAM program to get the best results in your project. As you start to dive into the world of cutting tools you'll start to see how their geometry, material characteristics, and performance can become very nuanced from tool to tool. Two of the largest additional factors which weren't previously mentioned are the tools material composition and its coating. Below will be an introduction to these topics:</p>
 <h4>Composition</h4>
-<div id="dslc-module-4e2i2cn06kc" class="dslc-module-front dslc-module-DSLC_Text_Simple dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular  dslc-in-viewport" data-module-id="4e2i2cn06kc" data-module="DSLC_Text_Simple" data-dslc-module-size="12" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="manual-text">
-<div class="dslc-text-module-content">
+
 <p>Cutting tools can be manufactured out of a variety of material which are all engineered to be able to sustain high loads during the cutting process and remain sharp enough in order to shear the material away from the stock. Of these, the most commonly used materials are high speed steel (HSS) and solid carbide.</p>
-</div>
-</div>
-<div id="dslc-module-38e91c24815" class="dslc-module-front dslc-module-DSLC_Image dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular  dslc-in-viewport" data-module-id="38e91c24815" data-module="DSLC_Image" data-dslc-module-size="12" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="none">
-<div class="dslc-image-container">
-[caption id="attachment_695" align="aligncenter" width="800"]<img class="wp-image-695" src="https://resources.sienci.com/wp-content/uploads/2021/04/HSS-vs-Solid-Carbide-624x304.jpg" alt="" width="800" height="390" /> Solid carbide vs. HSS cutting tool[/caption]
-</div>
-</div>
-<div id="dslc-module-18u1sksjjm" class="dslc-module-front dslc-module-DSLC_Text_Simple dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular  dslc-in-viewport" data-module-id="18u1sksjjm" data-module="DSLC_Text_Simple" data-dslc-module-size="12" data-dslc-anim="none" data-dslc-anim-delay="" data-dslc-anim-duration="650" data-dslc-anim-easing="ease" data-dslc-preset="manual-text">
-<div class="dslc-text-module-content">
+[caption id="attachment_695" align="aligncenter" width="800"]
+
+ ![](/_images/_longmill/_the_basics/lm_cuttingtools_p7_HSSCarbide.jpg "Solid carbide vs. HSS cutting tool")"
 <p>HSS usually combines with a variety of other alloys to have a high wear resistance and durability for cutting both soft and hard materials. Since HSS is softer than solid carbide it’s less likely to crack and instead wears out over time, so it’s limited to slower cutting speeds. HSS tools are also usually much cheaper than solid carbide tools and can be additionally improved if they come with a coating.</p>
 <p>Solid carbide tools are very hard so they’ll stay sharp for longer and won’t wear as much at higher temperatures. Recently, carbide tools have become much cheaper and accessible for use in CNC routing, however it’s important to note that carbide cutting tools typically require higher speeds in order to mill properly. This makes them a great candidate for cutting finishing passes, milling PCBs, and cutting materials that won’t easily burn or melt.</p>
 </div>
