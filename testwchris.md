@@ -44,7 +44,7 @@ This is my better paragraph
 
 <a href="https://docs.google.com/document/d/1Kb5IhFmbdT8EaNg6l5NoGX0OBhlvkBw1tVVKJ9E_a78/edit" target="_blank" rel="noopener">Click me for new tab 2</a>
 
-![Alt text](/_images/_superlongboard/LB2SLB_p48.jpg "Caption"){.aligncenter .size-medium}
-![Alt text](/_images/_superlongboard/LB2SLB_p48.jpg "Caption"){.aligncenter .size-medium .wid}
+![](/_images/_superlongboard/LB2SLB_p48.jpg "Caption"){.aligncenter .size-medium}
+![](/_images/_superlongboard/LB2SLB_p48.jpg "Caption"){.aligncenter .size-medium .wid}
 
 <h2>The other Submarine header</h2>
