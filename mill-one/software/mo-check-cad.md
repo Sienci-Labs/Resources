@@ -3,7 +3,7 @@ title: test CAD
 menu_order: 4
 post_status: draft
 post_excerpt: 
-post_date: 2021-04-30 18:51:00
+post_date: 2021-04-30 18:50:59
 taxonomy:
     knowledgebase_cat: mo-software 
     knowledgebase_tag:
