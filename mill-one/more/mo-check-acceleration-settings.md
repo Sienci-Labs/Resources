@@ -1,5 +1,5 @@
 ---
-title: Changing Acceleration Settings
+title: test Changing Acceleration Settings
 menu_order: 4
 post_status: draft
 post_excerpt: 
