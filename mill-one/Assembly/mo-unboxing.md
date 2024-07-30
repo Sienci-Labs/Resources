@@ -12,7 +12,7 @@ custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
 skip_file: no   
-featured_image: 
+featured_image: _images/_mill-one/_assembly/mo_unboxing_p2_ElectronicsMailer.png
 ---
 
 In your package will be two main boxes. You should find 2 bubble mailers, the aluminum rail system, and 2 hardware baggies in the top box and the remaining, flat-packed components in the bottom box.

@@ -12,7 +12,7 @@ custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
 skip_file: no
-featured_image: 
+featured_image: _images/_mill-one/_the-basics/mo_workholding_p4_DrillVise.jpg
 ---
 
 Another aspect of learning how to use your CNC router involves knowing how to properly secure material down to the bed of the machine. Rigidly securing material to the machine bed is crucial when setting up to cut. Some clamping methods are rigid but are more intrusive, while others keep a low profile but aren't quite as strong. Play around with these methods to see which ones you can use individually or in combination for your ideal setup.

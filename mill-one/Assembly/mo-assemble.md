@@ -12,7 +12,7 @@ custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
 skip_file: no
-featured_image: 
+featured_image: _images/_mill-one/_assembly/mo_assemble_p1_BacklashKit.png
 ---
 
 Your Mill One occupies a volume of approximately 17" x 17" x 11 ⅞" (430mm x 430mm x 300mm) and has a cutting area of approximately 9 ¼" x 7 ¼" (235mm x 185mm) in the x/y axes. The cutting depth that you can expect in the z-axis will completely depend on the length of the bit that you install in the router, with the maximum height between the cutting platform and the router being about 4" or 100mm.

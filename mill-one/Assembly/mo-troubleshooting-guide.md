@@ -12,7 +12,7 @@ custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
 skip_file: no
-featured_image: 
+featured_image: _images/_mill-one/_assembly/mo_Troubleshoot_p2_TurnStep.jpg
 ---
 
 <h2><strong>Hardware</strong></h2>

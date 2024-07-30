@@ -12,7 +12,7 @@ custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
 skip_file: no
-featured_image: 
+featured_image: _images/_mill-one/_assembly/mo_projects_p1_Box.jpg
 ---
 
 Below you can find some of our custom-made starter projects. We've made these to help you start cutting many types of materials on your Mill One. If you've got similar materials on hand, use our provided g-code to cut your own! If not, you can still get the 3D model and put it through CAM yourself. We hope that they're both informative and inspirational for whatever projects you end up making next!

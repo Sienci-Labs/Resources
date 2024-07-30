@@ -12,7 +12,7 @@ custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
 skip_file: no
-featured_image: 
+featured_image: _images/_mill-one/_software/mo_cam_p1_CloudCAM.png
 ---
 
 This page is meant to show you the software options that we recommend and give you a sense of what they do and where you can access them. Move on to the next page if you'd like to continue with the tutorial.

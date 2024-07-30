@@ -12,7 +12,7 @@ custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
 skip_file: no
-featured_image: 
+featured_image: _images/_mill-one/_assembly/mo_running_p1_CNSheep.jpg
 ---
 
 Now that you've seen how to run your machine and have prepared it for cutting, you can take a swing at making your first project! You can go off and do whatever if you want, but if you'd like to try out the following project, it will give you a feeling for Kiri:Moto and get you warmed up with your machine.

@@ -12,7 +12,7 @@ custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
 skip_file: no
-featured_image: 
+featured_image: _images/_mill-one/_more/mo_acceleration_p1_Settings.JPG
 ---
 
 In this guide, you will learn how to adjust your acceleration settings on your Mill One to "overclock" your machine and reduce your milling times.

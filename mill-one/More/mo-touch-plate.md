@@ -12,7 +12,7 @@ custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
 skip_file: no
-featured_image: 
+featured_image: _images/_mill-one/_more/mo_touch_plate_p1_Arduino.jpg
 ---
 
 Though the Mill One never shipped with a touch plate or officially supported one during it's production life, its Arduino Uno CNC shield had provisions for connecting one. This can be a simple Z-axis 'puck' that you can find for cheap online, or a surface-probing mechanical switch, all the way up to the <a href="https://sienci.com/product/autozero/" target="_blank" rel="noopener">AutoZero touch plate</a> accessory that's now widely used on the LongMill CNC.

@@ -12,7 +12,7 @@ custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
 skip_file: no
-featured_image: 
+featured_image: _images/_mill-one/_the-basics/mo_tools_p1_EndMills.jpg
 ---
 
 <h2>The Basics</h2>

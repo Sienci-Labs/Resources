@@ -12,7 +12,7 @@ custom_fields:
     KBName: Mill One
     basepress_post_icon: 10
 skip_file: no
-featured_image: 
+featured_image: _images/_mill-one/_the-basics/mo_router_p1_makita.jpg
 ---
 
 If you've already got a router for your Mill One, skip this step.

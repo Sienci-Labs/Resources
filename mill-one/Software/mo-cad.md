@@ -12,7 +12,7 @@ custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: 10
 skip_file: no
-featured_image: 
+featured_image: _images/_mill-one/_software/mo_cad_p2_onshape.png
 ---
 
 You can work with your favourite <strong>CAD</strong> (Computer Aided Design) and <strong>CAM</strong> (Computer Aided Manufacturing) programs to design and control the Mill One. If you wish to create simple objects with no 3D contours, a simple vector-editing program like Vectr, Inkscape, or Adobe Illustrator can be used. Alternatively, to design your own 3D parts you will need a CAD program like OnShape or Fusion 360.
