@@ -17,7 +17,9 @@ featured_image: _images/_mill-one/_the-basics/mo_welcome_p1_MillOne.jpg
 
 ![](/_images/_mill-one/_the-basics/mo_welcome_p1_MillOne.jpg){.aligncenter .size-medium}
 
-<strong>Hello there!</strong> We hope that you're excited to start turning your ideas into reality. This resources manual will be your comprehensive guide on everything you need to know to start milling with your Mill One. Everything will be covered: machine assembly, information on additional hardware, software installation, and learning how to use and maintain your machine.Thank you for helping us make automated manufacturing technologies accessible for everyone.
+<strong>Hello there!</strong> We hope that you're excited to start turning your ideas into reality. This resources manual will be your comprehensive guide on everything you need to know to start milling with your Mill One. Everything will be covered: machine assembly, information on additional hardware, software installation, and learning how to use and maintain your machine.
+
+Thank you for helping us make automated manufacturing technologies accessible for everyone.
 
 You are now on a journey with us to change the future of manufacturing. Join our community of makers and creators on our <a href="https://www.facebook.com/groups/mill.one/" target="_blank" rel="noopener">Facebook group</a> where other Mill One owners post questions and answers about their machine, topics they've found interesting, machine modifications, and things they've made! Finally, before you dive in, we want to tell you to always stay safe around your machine so that you can enjoy it while getting the most out of it.
 

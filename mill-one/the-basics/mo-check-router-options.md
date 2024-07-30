@@ -33,16 +33,18 @@ Based on the routers we've tested, we highly recommend the Makita RT0701 or Ridg
 <a href="https://www.amazon.ca/gp/product/B00E7D3V4S?ie=UTF8" target="_blank" rel="noopener noreferrer">Amazon (Canada)</a>
 
 The Makita RT0700/RT0701 router is a commonly used palm router boasting a 1-1/4HP motor. It offers a wide speed range (10,000RPM to 30,000RPM), which is electronically controlled for reliably consistent speed. With a metal body, it is extremely durable. Our test units have been used for hundreds of hours without fail, on projects that take over 6 hours. This is our go-to recommended router as it is widely available in both 120V and 220V.
-<h3></h3>
+
 <h3>Ridgid R24012</h3>
 
 ![](/_images/_mill-one/_the-basics/mo_router_p2_ridgid.jpg){.alignleft .size-medium .nar}
+
+<a href="http://www.homedepot.com/p/RIDGID-5-5-Amp-Corded-Compact-Router-R24012/100337039" target="_blank" rel="noopener noreferrer">Home Depot (US)</a>
 
 <a href="https://www.homedepot.ca/en/home/p.laminate-trimmer.1000418275.html" target="_blank" rel="noopener noreferrer">Home Depot (Canada)</a>
 
 <a href="https://www.amazon.com/Ridgid-R2401-Laminate-Trim-Router/dp/B001W0ZI7C/" target="_blank" rel="noopener noreferrer">Amazon (US)</a>
 
-<a href="https://www.amazon.ca/RIDGID-Corded-Compact-Micro-Adjust-R24012/dp/B01C67DJSO/" target="_blank" rel="noopener noreferrer">A</a><a href="https://www.amazon.ca/RIDGID-Corded-Compact-Micro-Adjust-R24012/dp/B01C67DJSO/" target="_blank" rel="noopener noreferrer">Amazon (Canada)</a>
+<a href="https://www.amazon.ca/RIDGID-Corded-Compact-Micro-Adjust-R24012/dp/B01C67DJSO/" target="_blank" rel="noopener noreferrer">Amazon (Canada)</a>
 
 The Ridgid R24012 is also an outstanding router, with a 1-1/2HP motor. It's electronic speed control allows for spindle speeds of between 20,000RPM to 30,000RPM. The R24012 also comes with a handy LED light at the base, which helps illuminate the bit, plus registered buyers receive a lifetime warranty on their tool. This router is extremely capable on the Mill One, and great deals can be found when on sale at Home Depot. However, this router is more difficult to find through other online channels and no 220V currently is available.
 <h3>Other tools</h3>

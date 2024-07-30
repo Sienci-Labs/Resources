@@ -27,8 +27,7 @@ For beginners, we have two great suggestions for software that is powerful, simp
 
 Vectr is a web-based tool that you can use to quickly make simple vector images online. You can also download it to use on your computer to create vector graphics easily and intuitively.
 
-Access it here: <a href="https://vectr.com/new" target="_blank" rel="noopener">https://vectr.com/new</a>
-
+Access it here: <a href="https://vectr.com/new" target="_blank" rel="noopener">https://vectr.com/new</a><br>
 Find useful tutorial videos on their <a href="https://www.youtube.com/channel/UC-cJMcXP4znmrj8_DF-EuvA/featured?disable_polymer=1" target="_blank" rel="noopener">YouTube channel</a>.
 
 ![](/_images/_mill-one/_software/mo_cad_p1_Vectr.png){.aligncenter .size-medium}
@@ -39,8 +38,7 @@ This is a powerful cloud-based 3D modelling software recommended for both beginn
 
 Your CAD projects are automatically saved to the cloud, making sharing and collaboration easy. We use Onshape to allow makers access to our <a href="https://cad.onshape.com/documents/cef8a67838682ca79f64237c/w/22ad8b2c367c8fc81ca0ada0/e/1367d08d70a3f7ccdd669df3" target="_blank" rel="noopener">most current designs</a>. Onshape already offers a very comprehensive list of CAD tutorials which will easily carry you along in getting to know their software. Onshape also integrates <a href="https://grid.space/kiri/" target="_blank" rel="noopener">Kiri:Moto</a>, a easy to use CAM program, so you can create g-code without leaving your browser tab.
 
-Access it here (make a free account): <a href="https://www.onshape.com/" target="_blank" rel="noopener">https://www.onshape.com/</a>
-
+Access it here (make a free account): <a href="https://www.onshape.com/" target="_blank" rel="noopener">https://www.onshape.com/</a><br>
 Find useful tutorial videos on their <a href="https://www.youtube.com/channel/UCTvd5lUSLtTH8Qcd7Pl1nQg" target="_blank" rel="noopener">YouTube channel</a>.
 
 ![](/_images/_mill-one/_software/mo_cad_p2_onshape.png){.aligncenter .size-medium}
@@ -59,10 +57,8 @@ As far as other software is concerned, Wikipedia has a page dedicated to compari
 
 A desktop-based tool that you can use to either turn existing pixel images into vector images or create your own vector drawings. Also great for importing SolidWorks DXFs and turning them into vector images.
 
-Download it here: <a href="https://inkscape.org/en/download/" target="_blank" rel="noopener">https://inkscape.org/en/download/</a>
-
-Find useful tutorial videos by <a href="https://www.youtube.com/channel/UCwRXb5dUK4cvsHbx-rGzSgw" target="_blank" rel="noopener">Derek Banas</a> on his really great <a href="https://www.youtube.com/watch?v=zUIOEXssTSE&amp;list=PLGLfVvz_LVvTSi9bKrvGR2_DBg0Tv8Dxo" target="_blank" rel="noopener">video playlist</a>.
-
+Download it here: <a href="https://inkscape.org/en/download/" target="_blank" rel="noopener">https://inkscape.org/en/download/</a><br>
+Find useful tutorial videos by <a href="https://www.youtube.com/channel/UCwRXb5dUK4cvsHbx-rGzSgw" target="_blank" rel="noopener">Derek Banas</a> on his really great <a href="https://www.youtube.com/watch?v=zUIOEXssTSE&amp;list=PLGLfVvz_LVvTSi9bKrvGR2_DBg0Tv8Dxo" target="_blank" rel="noopener">video playlist</a>.<br>
 There's also a great <a href="https://youtu.be/W0V-4O9x9Uk" target="_blank" rel="noopener">video guide</a> for converting pixel images into vector images courtesy of Glenn Langton.
 
 ![](/_images/_mill-one/_software/mo_cad_p3_Inkscape.png){.aligncenter .size-medium}
