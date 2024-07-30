@@ -1,7 +1,7 @@
 ---
-title: test G-Code Senders
+title: G-Code Senders
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: 
 post_date: 2021-04-30 19:08:00
 taxonomy:
