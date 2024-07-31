@@ -1,5 +1,5 @@
 ---
-title: Workholding
+title: ytsb Workholding
 menu_order: 4
 post_status: draft
 post_excerpt: Workholding is the method you use to keep material secured while cutting on a CNC machine. Methods include T-tracks, threaded inserts, clamps and hot glue.
@@ -10,7 +10,7 @@ taxonomy:
         - mk1
 custom_fields:
     KBName: LongMill CNC
-    basepress_post_icon: 10
+    basepress_post_icon: bp-caret-right
 skip_file: no
 featured_image: _images/_longmill/_the_basics/lm_workholding_p1_TTracks.PNG
 ---
@@ -43,20 +43,27 @@ featured_image: _images/_longmill/_the_basics/lm_workholding_p1_TTracks.PNG
 <li>If you have a thick enough waste bed, you can use your machine to cut the grooves for your t-track. Just cut grooves to fit the width of your t-track.</li>
 <li>We designed a custom t-track system that works with hex-headed 1/4"-20 hardware that you can see in our store here: <a href="https://sienci.com/product/t-track/" target="_blank" rel="noopener">https://sienci.com/product/t-track/</a> and has a setup guide here: <a href="https://resources.sienci.com/view/assembling-add-ons/" target="_blank" rel="noopener">Installing the LongMill T-Track set</a></li>
 </ul>
+
 <h3>Screws</h3>
+
 <p>One of the fastest ways to hold down your material is to screw it directly into your wasteboard. All you need is an electric drill, the right bits, and screws to mount your workpiece. Just make sure that your machine isn't going to run into the screws!</p>
 
 ![](/_images/_longmill/_the_basics/lm_workholding_p2_Screws.jpg){.aligncenter .size-medium}
+
 <p><strong>Tips:</strong></p>
+
 <ul>
 <li>If the part that you're cutting out has holes, try separating your job to cut the holes first, then use the holes to put the screws to hold down your part. This works well if your piece is going to come loose after you cut your part out.</li>
 <li>Make sure to use the right length screws to avoid having them punch through your table</li>
 <li>When you remove the screws from the wasteboard, they may leave a bump. Make sure to scrape them down before your next job, as they can make the surface uneven. A paint scraper works well for this.</li>
 </ul>
+
 <p><!-- /wp:list -->
 
 <!-- wp:heading {"level":3} --></p>
+
 <h3>Threaded Inserts</h3>
+
 <p><!-- /wp:heading -->
 
 <!-- wp:paragraph --></p>
@@ -66,6 +73,7 @@ featured_image: _images/_longmill/_the_basics/lm_workholding_p1_TTracks.PNG
 <!-- wp:image {"align":"center"} --></p>
 
 ![](/_images/_longmill/_the_basics/lm_workholding_p3_ThreadedIn.jpg){.aligncenter .size-medium}
+
 </div>
 <p><!-- /wp:image -->
 
@@ -78,10 +86,13 @@ featured_image: _images/_longmill/_the_basics/lm_workholding_p1_TTracks.PNG
 <li>Program your machine to put evenly spaced holes. Make sure to check that your holes are the correct size before you perforate your whole wasteboard. Add a counterbore if you want to sink the inserts below your wasteboard.</li>
 <li>An electric drill can be handy for installing the threaded inserts quickly after the holes are prepared.</li>
 </ul>
+
 <p><!-- /wp:list -->
 
 <!-- wp:heading {"level":3} --></p>
+
 <h3>Carpet Tape</h3>
+
 <p><!-- /wp:heading -->
 
 <!-- wp:paragraph --></p>

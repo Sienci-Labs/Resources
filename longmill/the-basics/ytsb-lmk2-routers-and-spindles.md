@@ -1,5 +1,5 @@
 ---
-title: Routers/Spindles
+title: ytsb Routers/Spindles
 menu_order: 4
 post_status: draft
 post_excerpt: Learn about router and spindle options for the LongMill CNC, with consideration for noise, speed control, cost. The recommended tool is the Makita RT0700/RT0701.
@@ -10,21 +10,24 @@ taxonomy:
         - mk1
 custom_fields:
     KBName: LongMill CNC
-    basepress_post_icon: 10
+    basepress_post_icon: bp-caret-right
 skip_file: no
 featured_image: 
 --- 
 Routers and spindles come in all shapes and sizes. When considering the right tool for your machine, there are several things you want to look out for such as:
+
 <ul>
   <li>Power</li>
   <li>Speed and speed control</li>
   <li>Size and weight</li>
   <li>Runout</li>
 </ul>
+
 Many hobby CNC routers tend to utilize trim routers because their power, weight, price, and off-the-shelf circuitry balance well with hobby applications. After much testing with the LongMill, we landed on the Makita RT0700/RT0701 as the ideal choice.
 <h2>Makita RT0700/RT0701</h2>
 
 ![](/_images/_longmill/_the_basics/lm_routersspindle_p1_Makita.jpg){.alignleft .size-large}
+
 <a href="http://www.homedepot.com/p/Makita-1-1-4-HP-Compact-Router-RT0701C/204247210" target="_blank" rel="noreferrer noopener">Home Depot (US)</a>
 
 <a href="https://www.homedepot.ca/en/home/p.compact-router.1000848739.html" target="_blank" rel="noreferrer noopener">Home Depot (Canada)</a>
@@ -34,7 +37,9 @@ Many hobby CNC routers tend to utilize trim routers because their power, weight,
 <a href="https://www.amazon.ca/gp/product/B00E7D3V4S?ie=UTF8" target="_blank" rel="noreferrer noopener">Amazon (Canada)</a>
 
 The Makita RT0700/RT0701 router is a very commonly used and reliable trim router boasting a 1-1/4HP motor. It offers a wide speed range (10,000RPM to 30,000RPM), which is electronically controlled to achieve for reliable speeds even under load. With a metal body, it is extremely durable. Our test units have been used for hundreds of hours without fail, on projects that take over 6 hours. This is our go-to recommended router as it is widely available in both 120V and 220V.
+
 <h2>Other Routers</h2>
+
 The LongMill's standard router mount has a 65mm bore but is also available in:  <strong>52mm</strong>, <strong>71mm</strong>, and <strong>80mm</strong>. This means that mounting other routers is possible, though the Makita is the only one that's been thoroughly tested for use on the LongMill.
 
 ![](/_images/_longmill/_the_basics/lm_routersspindle_p2_65RMount.jpg){.aligncenter .size-medium}
@@ -49,11 +54,13 @@ Here is a list of some other routers that could be used. If your router isn't li
   <li>Bosch Colt PR20EVS (uses 71mm mount but sits much higher up than normal, you'll have to space up your material)</li>
   <li>Bosch Colt GKF125 (needs to adapt from 72mm to our 80mm mount, also sits much higher up than normal)</li>
 </ul>
+
 <h2>Three-phase Spindles</h2>
 
 ![](/_images/_longmill/_the_basics/lm_routersspindle_p3_RouterPkg.png){.aligncenter .size-medium}
 
 Three-phase spindles are commonly used in higher-end, semi-professional to professional-level machines. They come with several advantages over traditional woodworking routers such as:
+
 <ul>
   <li>Quieter operation</li>
   <li>More power</li>
@@ -61,20 +68,26 @@ Three-phase spindles are commonly used in higher-end, semi-professional to profe
   <li>Longer life</li>
   <li>Ability to integrate speed and direction control directly from the control board</li>
 </ul>
+
 They also come with some downsides:
+
 <ul>
   <li>More expensive</li>
   <li>Can be challenging to set up</li>
   <li>Larger and heavier</li>
 </ul>
+
 The LongMill's control box has the necessary outputs to interface with most market spindles. This includes:
+
 <ul>
   <li>0-5V PWM signal for speed control</li>
   <li>0-5V toggle for direction control</li>
 </ul>
+
 Consult your spindle manufacturer for details on wiring and programming if this is something you're considering since it tends to vary between manufacturers.
 
 If you are a beginner user, we highly recommend sticking with a Makita RT0701. The Makita RT0701 offers plenty of power and speed control for this application. Installing a spindle can be very technically challenging and may cost significantly more. If you plan on adding a spindle we recommend checking our <a href="https://forum.sienci.com/">Forum</a> and <a href="https://www.facebook.com/groups/mill.one">Facebook Group</a> for more info or checking out our own guide below.
+
 <h3>Adding a spindle</h3>
 
 ![](/_images/_longmill/_the_basics/lm_routersspindle_p4_Spindle.jpeg){.aligncenter .size-medium}

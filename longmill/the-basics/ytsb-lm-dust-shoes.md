@@ -1,5 +1,5 @@
 ---
-title: Dust Shoes
+title: ytsb Dust Shoes
 menu_order: 4
 post_status: draft
 post_excerpt: Dust shoe, vacuum collection, and hose size considerations for the LongMill CNC. Pros and cons of Z-independent and dependent dust shoes discussed.
@@ -10,7 +10,7 @@ taxonomy:
         - mk1
 custom_fields:
     KBName: LongMill CNC
-    basepress_post_icon: 10
+    basepress_post_icon: bp-caret-right
 skip_file: no
 featured_image: _images/_longmill/_the_basics/lm_dustshoe_p1.jpg
 --- 

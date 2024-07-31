@@ -1,5 +1,5 @@
 ---
-title: Materials
+title: ytsb Materials
 menu_order: 4
 post_status: draft
 post_excerpt: A list of materials that can be cut by the LongMill CNC, with considerations for cutting tools and best practices. Wood, plastic, foam and soft metal suggested.
@@ -10,12 +10,13 @@ taxonomy:
         - mk1
 custom_fields:
     KBName: LongMill CNC
-    basepress_post_icon: 10
+    basepress_post_icon: bp-caret-right
 skip_file: no
 featured_image: _images/_longmill/_the_basics/lm_materials_p1_Guitar.jpg
 ---
 <!-- wp:paragraph -->
 <h2>Wood</h2>
+
 <p>Wood is simply an amazing material. As it is a living, organic material, there are an infinite variety of woods and characteristics. We will talk a little about using wood with your CNC machine here.</p>
 
 ![](/_images/_longmill/_the_basics/lm_materials_p1_Guitar.jpg){.aligncenter .size-medium}
@@ -152,7 +153,9 @@ featured_image: _images/_longmill/_the_basics/lm_materials_p1_Guitar.jpg
 <p><!-- /wp:list --></p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
+
 <h3>Softwoods (pine, fir, spruce, cedar, etc.)</h3>
+
 <p><!-- wp:list --></p>
 <ul>
 <li>Most common softwoods tend to be more fibrous than hardwoods. This can leave strands and burrs (fuzz) on some cut edges. You can reduce this by adding a finishing pass in your program. You may also find either conventional or climb milling affects your cut quality as well.</li>
@@ -160,14 +163,18 @@ featured_image: _images/_longmill/_the_basics/lm_materials_p1_Guitar.jpg
 </ul>
 <p><!-- /wp:list --><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
+
 <h3>Hardwoods (maple, cherry, oak, walnut, etc.)</h3>
+
 <p><!-- wp:list --></p>
 <ul>
 <li>Most common hardwoods are more prone to burning, as the sawdust for these woods tends to be finer and stickier. You can reduce this by increasing your feed rate and decreasing your stepdown.</li>
 </ul>
 <p><!-- /wp:list --><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
+
 <h3>Plywood</h3>
+
 <p><!-- wp:list --></p>
 <ul>
 <li>There are many grades of plywood. Most lower grade plywood can be cut quite quickly as the wood is quite soft. Higher grade such as marine grade and baltic birch is harder and may need reduced feeds and speeds.</li>
@@ -176,7 +183,9 @@ featured_image: _images/_longmill/_the_basics/lm_materials_p1_Guitar.jpg
 </ul>
 <p><!-- /wp:list --><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
+
 <h3>MDF</h3>
+
 <p><!-- wp:list --></p>
 <ul>
 <li>MDF is a cheap, easy to cut material that tends to cut quite cleanly and evenly on the CNC router.</li>
@@ -202,7 +211,9 @@ featured_image: _images/_longmill/_the_basics/lm_materials_p1_Guitar.jpg
 <li>Polycarbonate tends to be more flexible plastic, making it more challenging to cut than acrylic. Properly securing your workpiece to prevent your material from flexing while cutting is important.</li>
 <li>It is advisable to use single flute end mills on polycarbonate as well.</li>
 </ul>
+
 <h3>ABS / PVC / HDPE</h3>
+
 <p><!-- /wp:list -->
 
 <!-- wp:heading --></p>
@@ -213,7 +224,9 @@ featured_image: _images/_longmill/_the_basics/lm_materials_p1_Guitar.jpg
 <li>These plastics can gain a static charge and stick to surfaces.</li>
 <li>Laser cutting/burning PVC releases toxic gases and chemicals.</li>
 </ul>
+
 <h3>Delrin / Teflon</h3>
+
 <p><!-- /wp:list -->
 
 <!-- wp:heading --></p>
@@ -221,7 +234,9 @@ featured_image: _images/_longmill/_the_basics/lm_materials_p1_Guitar.jpg
 <li>Low friction plastics like Delrin (POM) is also quite easy to machine.</li>
 <li>Standard 1/8" and 1/4" 2 flute end mills work well with these materials, you can also find special plastic cutting end mills as well.</li>
 </ul>
+
 <h2>Foam</h2>
+
 <p>Foam, being a super soft material, is an easy material to cut. We recommend foam as a starting material to practice CNC programming. Foam also has many useful applications, such as in packaging, RC planes, drones, and more.</p>
 <p><!-- wp:paragraph --></p>
 <p><!-- /wp:paragraph -->
@@ -259,14 +274,18 @@ featured_image: _images/_longmill/_the_basics/lm_materials_p1_Guitar.jpg
 <p><!-- /wp:table -->
 
 <!-- wp:heading {"level":3} --></p>
+
 <h3>Rigid foams (polystyrene foam insulation)</h3>
+
 <ul>
 <li>Because polystyrene is so soft, you can typically cut this material at full engagement. Keep your spindle speed low to prevent melting.</li>
 <li>Since it's easy to cut, we recommend using it to practice CNC programming or as a drafting material.</li>
 <li>Foam dust is very fine and sticks to surfaces. It is recommended to use a dust shoe.</li>
 <li>Keep an eye on melted foam on your bits. You can clean them off with some acetone.</li>
 </ul>
+
 <h3>Soft foams (polyurethane)</h3>
+
 <p><!-- /wp:list -->
 
 <!-- wp:heading {"level":3} --></p>
@@ -275,7 +294,9 @@ featured_image: _images/_longmill/_the_basics/lm_materials_p1_Guitar.jpg
 <li>Consider using a corn-cob end mill, an end mill with little burred teeth rather than a standard fluted end mill. These bits take little tiny cuts out of your material rather than shaving away chips, preventing the foam from being pushed out of the way.</li>
 <li>Foam dust is very fine and sticks to surfaces. It is recommended to use a dust shoe. Keep an eye on melted foam on your bits. You can clean them off with some acetone.</li>
 </ul>
+
 <h2>Aluminum</h2>
+
 <p>Aluminum is a strong and lightweight metal used in all sort of modern applications from our bikes to our laptops. CNCing aluminum is a great option to get useful parts, especially for mechanical systems and tools.</p>
 <p><!-- wp:paragraph --></p>
 <p><!-- /wp:paragraph -->
