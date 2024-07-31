@@ -69,7 +69,7 @@ While writing, keep in mind:
     - nar: when you want a smaller picture with adjustable size
     - wid: full width pictures, only usually for "Parts Needed" of product assembly
     - non: rarely used, for small pictures with removed zooming
-1. If you want to custom-style the image then you have to use raw HTML, like `<img class="aligncenter size-medium" style="padding: 5% 15%;" src="Sync the image to WP first, then come back and fill out this link"/>`
+1. If you want to custom-style the image (height, width, padding, etc.) then you have to use raw HTML, like `<img class="aligncenter size-medium" style="padding: 5% 15%;" src="Sync the image to WP first, then come back and fill out this link" width="300" height="134"/>`
 1. You can still use any **`[Shortcodes]`** from WordPress plugins, like:
     - Direct YouTube links
     - Direct product links `https://sienci.com/product/lightburn/`
@@ -129,6 +129,7 @@ If you're finding that something isn't working that you'd expect - check the REA
 
 - Image classes and WordPress shortcodes can't be rendered by GitHub because it doesn't know what they are, so the only way to do final checks is to push to WordPress and check there
 - WordPress Galleries don't seem possible
+- Image captions should work (more or less) as long as long as wp-content ➜ plugins ➜ git-it-write ➜ includes ➜ parsedown.php ➜ line 188 is changed to `'class' => 'wp-caption-text'` (see <https://github.com/vaakash/git-it-write/issues/46>)
 - Sometimes having "$" surround text makes the Git Preview look odd, but it formats fine in WordPress
 - Still exploring issues with KBName and Post Dates being incorrectly set randomly when updated
 - Post Icons still not fully implemented (basepress_post_icon: default, bp-file-word, file-word-o, Basepress ➜ icons manager)
