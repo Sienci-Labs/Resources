@@ -1,7 +1,7 @@
 ---
 title: Changing Acceleration Settings
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: 
 post_date: 2021-04-30 19:20:00
 taxonomy:
