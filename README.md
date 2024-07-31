@@ -69,7 +69,7 @@ While writing, keep in mind:
     - nar: when you want a smaller picture with adjustable size
     - wid: full width pictures, only usually for "Parts Needed" of product assembly
     - non: rarely used, for small pictures with removed zooming
-1. If you want to custom-style the image (height, width, padding, etc.) then you have to use raw HTML, like `<img class="aligncenter size-medium" style="padding: 5% 15%;" src="Sync the image to WP first, then come back and fill out this link" width="300" height="134"/>`
+1. If you want to custom-style the image (height, width, padding, etc.) then you have to use raw HTML, like `<img class="aligncenter size-medium" style="padding: 5% 15%;" src="Sync the image to WP first, then come back and fill out this link" style="max-width: 300px/60%;"/>`
 1. You can still use any **`[Shortcodes]`** from WordPress plugins, like:
     - Direct YouTube links
     - Direct product links `https://sienci.com/product/lightburn/`

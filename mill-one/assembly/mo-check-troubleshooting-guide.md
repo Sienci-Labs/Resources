@@ -10,7 +10,7 @@ taxonomy:
         - mill-one
 custom_fields:
     KBName: Mill One CNC
-    basepress_post_icon: bp-camera
+    basepress_post_icon: bp-caret-right
 skip_file: no
 featured_image: _images/_mill-one/_assembly/mo_Troubleshoot_p2_TurnStep.jpg
 ---
@@ -32,7 +32,7 @@ If you are getting unexpected, deep cuts, it's likely that the cutting tool is c
 
 To solve the first, remove the nut at the bottom of the router along with the rest of the assembly and make sure that everything is fitting together like this:
 
-<img class="nar aligncenter size-medium" src="https://resources.sienci.com/wp-content/uploads/2024/07/mo_troubleshoot_p1_AssemEnd.png" alt="" width="300" height="134" />
+<img class="nar aligncenter size-medium" src="https://resources.sienci.com/wp-content/uploads/2024/07/mo_troubleshoot_p1_AssemEnd.png" alt="" style="max-width: 60%;"/>
 
 Put the above assembly back into the router and fix into place with the collet nut. Cutting should now go as expected. If this isn't fixing the problem then it means you've told the Mill One to cut much faster than it's supposed to. When the machine is pushing the rotating bit really hard into the material, it forced the bit out of the router. Refer to our <strong>Speeds and Feeds</strong> page to adjust as necessary. Otherwise, send us an email and we'll be sure to help you out.
 
@@ -71,4 +71,4 @@ Make sure that you've tuned the stepper motor drivers by unplugging your machine
 
 The Mill One defaults to 1/8th step microstepping via two header pins that can be found underneath each axis on the CNC V3 Shield. There should be one header pin in the left most outlet and one in the center. Having the wrong configuration of pins will cause the microstepping to be set incorrectly. Ensure that you have the correct number of header pins in the right plugs. If you still have problems, send us a message.
 
-<img class="nar alignnone size-medium" src="https://resources.sienci.com/wp-content/uploads/2024/07/mo_troubleshoot_p3_PinsShield.png" alt="" width="268" height="300" />
+<img class="nar alignnone size-medium" src="https://resources.sienci.com/wp-content/uploads/2024/07/mo_troubleshoot_p3_PinsShield.png" alt="" style="max-width: 55%;"/>
