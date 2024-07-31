@@ -10,7 +10,7 @@ taxonomy:
         - mill-one
 custom_fields:
     KBName: Mill One
-    basepress_post_icon: 10
+    basepress_post_icon: bp-caret-right
 skip_file: no
 featured_image: _images/_mill-one/_the-basics/mo_router_p1_makita.jpg
 ---

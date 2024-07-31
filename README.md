@@ -113,7 +113,7 @@ Before you get started writing, look over the text you just pasted in and edit i
 1. The excerpt shouldn't be over 160 characters
 1. Write the **post_status** as "draft" if you don't plan on "publish"ing it yet
 1. Choose what section the page will appear in in the docs by typing out the **knowledgebase_cat**, the template should list all current options for that Knowledge Base
-1. Choose what specific order the page will appear in by entering a **post date** that falls between the post dates of the surrounding pages (example: go find the starting text of the other pages, then if you want to appear between the 'Welcome' page with date 2024-03-03 and the 'Upgrading' page with date 2024-03-22, then any date between them will make the page appear where you want - like 2024-03-12)
+1. Choose what specific order the page will appear in by entering a **post date** that falls between the post dates of the surrounding pages (**example:** go find the starting text of the other pages, then if you want to appear between the 'Welcome' page with date 2024-03-03 and the 'Upgrading' page with date 2024-03-22, then any date between them will make the page appear where you want - like 2024-03-12)
 1. Choose a **featured image** or leave it blank if you don't have one yet
 1. Add **optional tags**
 1. Change **skip_file** to "no" if you'd like to begin syncing your page to the WordPress site
@@ -132,7 +132,6 @@ If you're finding that something isn't working that you'd expect - check the REA
 - Image captions should work (more or less) as long as long as wp-content ➜ plugins ➜ git-it-write ➜ includes ➜ parsedown.php ➜ line 188 is changed to `'class' => 'wp-caption-text'` (see <https://github.com/vaakash/git-it-write/issues/46>)
 - Sometimes having "$" surround text makes the Git Preview look odd, but it formats fine in WordPress
 - Still exploring issues with KBName and Post Dates being incorrectly set randomly when updated
-- Post Icons still not fully implemented (basepress_post_icon: default, bp-file-word, file-word-o, Basepress ➜ icons manager)
 - Don't yet have docs explaining how to upload pictures or set featured pictures
 
 ## Stay Up-to-Date

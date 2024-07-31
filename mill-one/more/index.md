@@ -10,7 +10,7 @@ taxonomy:
         - mill-one
 custom_fields:
     KBName: Mill One CNC
-    basepress_post_icon: 10
+    basepress_post_icon: bp-caret-right
 skip_file: yes
 featured_image: _images/post-image.jpg
 ---
