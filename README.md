@@ -181,6 +181,7 @@ If you plan to commit a more dedicated setup to editing CNC resources, we have s
     - **markdownlint** (we've set it up to give yellow warnings if your writing might cause structural issues <https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.jsonc>)
     - **Code Spell Checker** (set up to help check spelling)
     - **Canadian English - Code Spell Checker** (since we tend to write in Canadian English)
+    - **Batch Rename** (if you plan to rename large groups of files)
 1. Also a great website if you end up frequently making HTML tables is <https://www.tablesgenerator.com/html_tables#>
 
 Guide on using Git source control: <https://code.visualstudio.com/docs/sourcecontrol/overview>
