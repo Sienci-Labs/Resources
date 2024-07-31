@@ -1,5 +1,5 @@
 ---
-title: test Assemble
+title: Assemble
 menu_order: 4
 post_status: draft
 post_excerpt: 

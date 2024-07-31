@@ -32,7 +32,7 @@ If you are getting unexpected, deep cuts, it's likely that the cutting tool is c
 
 To solve the first, remove the nut at the bottom of the router along with the rest of the assembly and make sure that everything is fitting together like this:
 
-![](/_images/_mill-one/_assembly/mo_troubleshoot_p1_AssembleEnd.png){.aligncenter .size-medium .nar}
+![](/_images/_mill-one/_assembly/mo_troubleshoot_p1_AssemEnd.png){.aligncenter .size-medium .nar}
 
 Put the above assembly back into the router and fix into place with the collet nut. Cutting should now go as expected. If this isn't fixing the problem then it means you've told the Mill One to cut much faster than it's supposed to. When the machine is pushing the rotating bit really hard into the material, it forced the bit out of the router. Refer to our <strong>Speeds and Feeds</strong> page to adjust as necessary. Otherwise, send us an email and we'll be sure to help you out.
 
@@ -65,7 +65,7 @@ Unexpectedly shallow cuts usually originate from one of two issues:
 
 Make sure that you've tuned the stepper motor drivers by unplugging your machine and turning the stepper driver potentiometers clockwise by 90 degrees. Check out Step 28 from the assembly manual for more details.
 
-![](/_images/_mill-one/_assembly/mo_troubleshoot_p2_TurnStep.jpg){.aligncenter .size-medium .nar}
+![](/_images/_mill-one/_assembly/mo_troubleshoot_p2_DrivePot.jpg){.aligncenter .size-medium .nar}
 
 <h4>The parts that I'm cutting are smaller/larger than they are supposed to be.</h4>
 

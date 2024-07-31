@@ -1,5 +1,5 @@
 ---
-title: test Open Source & Mods
+title: Open Source & Mods
 menu_order: 4
 post_status: draft
 post_excerpt: 

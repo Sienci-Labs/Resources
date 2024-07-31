@@ -1,5 +1,5 @@
 ---
-title: test Machine Maintenance
+title: Machine Maintenance
 menu_order: 4
 post_status: draft
 post_excerpt: 
