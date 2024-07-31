@@ -195,4 +195,6 @@ If you're looking to bulk-transfer content over from another source, here are so
 1. Make any applicable text updates
 1. Check for, and correct any warnings or spelling errors
 1. Upload all raw pictures to GitHub, and if you want to organize them into folders then ensure new folders begin with an underscore, spaces are replaced with a dash, and there aren't any capital letters
-1. Replace all image references to proper markdown using the new file names and locations
+1. Replace all image references to proper markdown using the new file names and locations unless the images have specialized styling in which case leave them as HTML and just update the image link once it gets synced to WordPress
+1. Insert "test" into page URLs and Titles if you'd like to sync commit them as drafts and make final 1-to-1 comparisons on the WordPress site
+1. Only once you're ready, publish pages with matched up the Titles and URLs to existing pages - this will have GIW overwrite the new page onto the old one and keep it synced moving forward
