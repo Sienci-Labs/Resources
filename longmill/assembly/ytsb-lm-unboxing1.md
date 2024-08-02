@@ -78,6 +78,7 @@ featured_image:
 <p>When you first open the top carton #1 it should look like this:<img class="size-medium wp-image-1232 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-01-850x567.jpg" alt="" width="850" height="567" /></p>
 <p>This box includes:</p>
 
+
 <ul>
 <li>A welcome page with safety guidelines on the back</li>
 <li>Some assorted stickers, including long ones for the LongMill and some with Louis on the machine, Andy's dog and our unofficial mascot and CEO <img class="size-medium wp-image-1233 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-02-850x567.jpg" alt="" width="850" height="567" /></li>
