@@ -129,10 +129,11 @@ If you're finding that something isn't working that you'd expect - check the REA
 
 - Image classes and WordPress shortcodes can't be rendered by GitHub because it doesn't know what they are, so the only way to do final checks is to push to WordPress and check there
 - WordPress Galleries don't seem possible
-- Image captions should work (more or less) as long as long as wp-content ➜ plugins ➜ git-it-write ➜ includes ➜ parsedown.php ➜ line 188 is changed to `'class' => 'wp-caption-text'` (see <https://github.com/vaakash/git-it-write/issues/46>)
 - Sometimes having "$" surround text makes the Git Preview look odd, but it formats fine in WordPress
 - Still exploring issues with KBName and Post Dates being incorrectly set randomly when updated
 - Don't yet have docs explaining how to upload pictures or set featured pictures
+- Image captions should work (more or less) as long as long as wp-content ➜ plugins ➜ git-it-write ➜ includes ➜ parsedown.php ➜ line 188 is changed to `'class' => 'wp-caption-text'` (see <https://github.com/vaakash/git-it-write/issues/46>)
+- YouTube videos, Product links, and Button shortcodes should work as long as wp-content ➜ plugins ➜ git-it-write ➜ includes ➜ parsedown.php ➜ line 55 the extra function `public function inlineUrl($excerpt) {return;}` is added (see <https://github.com/vaakash/git-it-write/issues/45>)
 
 ## Stay Up-to-Date
 

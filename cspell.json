@@ -57,6 +57,7 @@
         "NEMA",
         "Onefinity",
         "Onshape",
+        "parsedown",
         "Proxxon",
         "Ridgid",
         "runout",
@@ -76,6 +77,7 @@
         "toolpath",
         "toolpaths",
         "UCCNC",
+        "undraft",
         "unlight",
         "Unos",
         "upcut",
@@ -84,6 +86,7 @@
         "wasteboard",
         "workholding",
         "XYZA",
+        "ytsb",
         "Zindrik",
         "μsec"
     ],
