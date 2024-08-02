@@ -23,4 +23,4 @@ The following video will talk about common workholding methods that you can use 
 
 [su_youtube_advanced url="https://www.youtube.com/watch?v=aCVZ8CV5q6E" rel="no" modestbranding="yes" title="This video will explain how to prepare your Mill One to start cutting your first projects."]
 
-Once your sacrificial board is ready, you're ready to start cutting on your Mill One! Head over to the next step where we take you through the steps of making your first test project with your machine, the CNSheep. 
+Once your sacrificial board is ready, you're ready to start cutting on your Mill One! Head over to the next step where we take you through the steps of making your first test project with your machine, the CNSheep.
