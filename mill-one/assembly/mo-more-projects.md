@@ -1,5 +1,5 @@
 ---
-title: te More Projects
+title: More Projects
 menu_order: 4
 post_status: draft
 post_excerpt: 
