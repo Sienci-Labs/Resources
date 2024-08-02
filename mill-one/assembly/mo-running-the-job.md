@@ -29,4 +29,4 @@ Congratulations on your cute new sheep! You should now have a fully functional M
 
 ![](/_images/_mill-one/_assembly/mo_running_p1_CNSheep.jpg){.aligncenter .size-medium}
 
-The next pages will give you some insight on how to maintain your Mill One so you can ensure that it continues to run properly and also contain some additional starter projects that we've made which will help you to start cutting the wide variety of materials that are within the Mill One's range of capabilities.
+The next pages will give you some insight on how to maintain your Mill One so you can ensure that it continues to run properly and also contain some additional starter projects that we've made which will help you to start cutting the wide variety of materials that are within the Mill One's range of capabilities. 

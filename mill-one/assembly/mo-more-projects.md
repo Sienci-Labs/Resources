@@ -65,6 +65,6 @@ Both of these fully functional bottle openers were designed by Chris. They have 
 
 ![](/_images/_mill-one/_assembly/mo_projects_p3_BottleOpen.jpg){.aligncenter .size-medium}
 
-[su_button url="https://resources.sienci.com/wp-content/uploads/2021/05/Bottle-Openers.zip" center="yes" target="blank" size="6" icon="icon: arrow-down"]Download[/su_button]
+[su_button url="https://resources.sienci.com/wp-content/uploads/2021/05/Bottle-Openers.zip" center="yes" target="blank" size="6" icon="icon: arrow-down"]Download[/su_button] 
 
 &nbsp;
