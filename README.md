@@ -198,3 +198,4 @@ If you're looking to bulk-transfer content over from another source, here are so
 1. Replace all image references to proper markdown using the new file names and locations unless the images have specialized styling in which case leave them as HTML and just update the image link once it gets synced to WordPress
 1. Insert "ytsb" into page URLs and Titles if you'd like to sync commit them as drafts and make final 1-to-1 comparisons on the WordPress site
 1. Only once you're ready, publish pages with matched up the Titles and URLs to existing pages - this will have GIW overwrite the new page onto the old one and keep it synced moving forward (don't forget to "undraft" the pages)
+1. Check that page navigation is still good, sometimes bringing in new pages requires that you go to the Article Order and Reset the Order so that pages navigate between each other properly
