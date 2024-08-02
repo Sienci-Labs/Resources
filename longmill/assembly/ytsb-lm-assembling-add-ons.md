@@ -18,6 +18,7 @@ featured_image:
 
 <h2>Sienci Labs Dust Shoe</h2>
 
+
 <p>To make dust collection easier for your LongMill, we spent the time to design it its very own dust shoe. <a href="https://sienci.com/product/LongMill-magnetic-dust-shoe/" target="_blank" rel="noreferrer noopener">The new Sienci Labs Magnetic Dust Shoe</a> is a great add-on for your machine that can keep dust management easy! This dust shoe is designed specifically for the LongMill and works with 1.5″, and 2″ to 2-1/8″ hoses.</p>
 <p>This dust shoe is a Z-axis independent style dust shoe designed to collect dust and debris efficiently.</p>
 <p>The assembly is shown after the initial reveal in the following video: [su_youtube url="https://www.youtube.com/watch?v=r_QqMye3dLo"]</p>
