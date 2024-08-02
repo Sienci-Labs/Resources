@@ -19,13 +19,17 @@ featured_image:
 The LongMill electronics come pre-assembled and are pretty much ready to go out of the box. However, we recommend double-checking a few things before powering-on.
 
 <img class="size-medium wp-image-1156 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/6-02_v3-850x513.jpg" alt="" width="850" height="513" />
+
 <h2>DC power supply connector polarity<b data-stringify-type="bold"> and E-stop connector</b></h2>
-It's important that the connector coming from the DC power brick has a <b data-stringify-type="bold">white</b> or <b data-stringify-type="bold">red</b> wire on the left side and a <b data-stringify-type="bold">black</b> one on the right when the screw terminal is facing you (as pictured). Both this connector and the connector coming from the e-stop should have the wires attached very securely. The order of the wires going to the e-stop connector don't matter.
+
+It's important that the connector coming from the DC power brick has a <b data-stringify-type="bold">white</b> or <b data-stringify-type="bold">red</b> wire on the left side and a <b data-stringify-type="bold">black</b> one on the right when the screw terminal is facing you (as pictured). Both this connector and the connector coming from the E-stop should have the wires attached very securely. The order of the wires going to the E-stop connector don't matter.
 
 Check that the wires are connected appropriately by tugging on them. Secure them using the screw terminals and a flat head screwdriver if they’re loose or disconnected.
 
 <img class="size-medium wp-image-1157 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/6-03-850x477.jpg" alt="" width="850" height="477" />
+
 <h2>Motor connector wiring</h2>
+
 The wires, looking down from the side with the screw heads, should be, from left to right, BLUE, YELLOW, GREEN, RED (pictured). Check if the color pattern on all four of your motor wires is correct and re-arrange them if needed. As previously, also check that the wires are connected securely to the connector.
 
 [caption id="attachment_1158" align="aligncenter" width="850"]<img class="size-medium wp-image-1158" src="https://resources.sienci.com/wp-content/uploads/2021/05/6-04-850x477.jpg" alt="" width="850" height="477" /> The wiring color pattern should be blue, yellow, green, red.[/caption]
@@ -33,7 +37,9 @@ The wires, looking down from the side with the screw heads, should be, from left
 While you're at it, double check that the motor-side, white connectors on each axis are pushed all the way into the motor housing to ensure a good connection. If these connectors are sitting too loosely, then they can cause issues later on since the motor won't move as expected.
 
 <img class="size-medium wp-image-1159 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/6-05-850x477.jpg" alt="" width="850" height="477" />
+
 <h2>Properly seated DIP switches</h2>
+
 Looking at the underside of the control box, you should notice four red switch blocks on the circuit board through the slots in the steel (pictured). These are a way of toggling how the motors are controlled by their respective motor controllers, where the slots in the steel have been made wide enough so that you can reach in with a small flat head screwdriver or an Allen key to adjust these switches without dissembling anything.
 
 <img class="size-medium wp-image-1160 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/6-06-scaled-e1622192186388-850x418.jpg" alt="" width="850" height="418" />
@@ -41,7 +47,9 @@ Looking at the underside of the control box, you should notice four red switch b
 These DIP switches normally <strong>look</strong> like they've been properly switched when in reality they're 'floating' between the up and down positions, as is the case for switch 2 in the picture below. Because of this, it's a good idea to push every single switch into it's correct position before moving on to the next step, putting switches 1 and 3 into the 'up' position and switches 2 and 4 into the 'down' position (pictured).
 
 <img class="size-medium wp-image-1161 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/6-07-scaled-e1622192213272-850x427.jpg" alt="" width="850" height="427" />
+
 <h2>Plugging in the motors and power supply</h2>
+
 With these checks done, start by connecting the motors. Track each cable from each motor to its corresponding green connector and connect it to the board. The fit of these connectors is tight but you need to be sure to push them ALL THE WAY in so that there is good contact between the plug and the connector. Each plug on the board is labelled on the top (note that there isn't a difference between the Y1 and Y2 plugs, the Y-axis motors can be connected to either of them).
 
 <img class="size-medium wp-image-1162 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/6-08-scaled-e1622192249326-850x374.jpg" alt="" width="850" height="374" />
@@ -50,19 +58,19 @@ Next, plug the connector coming from the power brick into the rear of the LongMi
 
 <img class="size-medium wp-image-1276 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/6-09_v5-850x478.jpg" alt="" width="850" height="478" />
 
-Now, connect the emergency stop button to the control box via the connector on the top. You should be able to find your e-stop button (pictured on the right) in a bubble wrapped bag the #3 top carton. Turn it on by rotating the button clockwise. You should see a red light on top of the box light up to confirm that everything is receiving power.
+Now, connect the emergency stop button to the control box via the connector on the top. You should be able to find your E-stop button (pictured on the right) in a bubble wrapped bag the #3 top carton. Turn it on by rotating the button clockwise. You should see a red light on top of the box light up to confirm that everything is receiving power.
 
 <img class="size-medium wp-image-1164 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/6-10_v3-850x460.jpg" alt="" width="850" height="460" />
 
-Once you’ve checked that the lights are turning on, press the e-stop button to turn it back off.
+Once you’ve checked that the lights are turning on, press the E-stop button to turn it back off.
 
-A note on the control box is that it will be limited in it's placement due to the length of the Z-axis motor cable. If you don't think you'll be using the on-board control buttons feel free to mount the box out of the way - the basic operations can be controlled via a USB cable and the e-stop. If you wish to place it further from the machine, extending the wires for that cable is quite straightforward either through the use of a soldering iron or through crimp-able wire extenders.
+A note on the control box is that it will be limited in it's placement due to the length of the Z-axis motor cable. If you don't think you'll be using the on-board control buttons feel free to mount the box out of the way - the basic operations can be controlled via a USB cable and the E-stop. If you wish to place it further from the machine, extending the wires for that cable is quite straightforward either through the use of a soldering iron or through crimp-able wire extenders.
 <h2>Connecting the LongMill to your computer</h2>
 To manipulate your LongMill and send it files, you'll need a g-code sender which acts as the control software. We recommend using gSender, which is what we'll be using to show the next couple of steps and in the remaining part of the assembly.
 
 gSender works with any operating system: Windows / PC , Mac, Linux, and more. If you are not sure which type of Windows you are using, you are most likely using a 64 bit computer. You can try both and see which one starts.
 
-You can download gSender here: <a href="https://sienci.com/gsender/" target="_blank" rel="noopener">https://sienci.com/gsender/</a> Choose the download for you, and if you get stuck you can always reference here for more help: <a href="https://resources.sienci.com/view/gs-installation/" target="_blank" rel="noopener">https://resources.sienci.com/view/gs-installation/</a>
+You can download gSender here: <a href="https://sienci.com/gSender/" target="_blank" rel="noopener">https://sienci.com/gsender/</a> Choose the download for you, and if you get stuck you can always reference here for more help: <a href="https://resources.sienci.com/view/gs-installation/" target="_blank" rel="noopener">https://resources.sienci.com/view/gs-installation/</a>
 
 <img class="size-medium wp-image-2094 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/04/gSender-download-850x346.png" alt="" width="850" height="346" />
 

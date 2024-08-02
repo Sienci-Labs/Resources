@@ -20,8 +20,12 @@ The following pages in the assembly section will guide you through how all the p
 
 The LongMill comes with a specialized wrench which will assist you when putting your machine together and act as a dedicated maintenance tool once your machine is in operation. After you’ve opened the main box, you’ll find this wrench in the small white box accompanied by our Welcome letter and some stickers. One of these stickers shows Louis sitting atop a LongMill; Andy’s dog and our unofficial mascot and CEO.
 
-The diagram below shows the machine coordinate system of the LongMill. It's able to move in its <strong>x</strong>, <strong>y</strong>, and <strong>z</strong>-directions due to the rails and respective gantries it has on each of those axes. We'll start by assembling the <strong>x</strong> and <strong>z</strong> gantries which combine into a singular assembly; in the diagram these are coloured red and blue respectively. <img class="size-medium wp-image-996 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/0-01-850x663.jpg" alt="" width="850" height="663" />
+The diagram below shows the machine coordinate system of the LongMill. It's able to move in its <strong>x</strong>, <strong>y</strong>, and <strong>z</strong>-directions due to the rails and respective gantries it has on each of those axes. We'll start by assembling the <strong>x</strong> and <strong>z</strong> gantries which combine into a singular assembly; in the diagram these are coloured red and blue respectively.
+
+<img class="size-medium wp-image-996 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/0-01-850x663.jpg" alt="" width="850" height="663" />
+
 <h2>Nut assemblies</h2>
+
 <img class="size-medium wp-image-998 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/1-02-parts-850x261.jpg" alt="" width="850" height="261" />
 
 Taking a look within your LongMill box, you should first look for a box at the bottom with a round orange sticker on it. Inside this box, you’ll find three hardware bags which are distinguishable by their sticker colour.
@@ -41,10 +45,12 @@ Looking back to the green bag, you should find a bag within it that contains 4 l
 <img class="size-medium wp-image-1001 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/1-05-850x478.jpg" alt="" width="850" height="478" />
 
 Prepare four sets of both these assemblies and set them aside for later.
+
 <h2>Z-axis motor sub-assembly</h2>
+
 <img class="size-medium wp-image-1002 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/1-06-parts-850x513.jpg" alt="" width="850" height="513" />
 
-Keep your M5 hardware nearby. Look back into the green bag to get the bag filled with flange bearings, and another containing two pulleys and a belt. In the orange-dotted box you’ll want to grab the bubble-wrapped steel plate, and turning to the identical-looking green-dotted box you’ll want to get the plastic Z-axis mount. Inside the short, wide box you’ll find the stepper motors and their cables; you need the one that is specifically labeled on the back to be <b>threaded</b>.
+Keep your M5 hardware nearby. Look back into the green bag to get the bag filled with flange bearings, and another containing two pulleys and a belt. In the orange-dotted box you’ll want to grab the bubble-wrapped steel plate, and turning to the identical-looking green-dotted box you’ll want to get the plastic Z-axis mount. Inside the short, wide box you’ll find the stepper motors and their cables; you need the one that is specifically labelled on the back to be <b>threaded</b>.
 
 [caption id="attachment_1003" align="aligncenter" width="850"]<img class="wp-image-1003 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/05/1-07-850x421.jpg" alt="" width="850" height="421" /> Labelled with THREADED[/caption]
 
@@ -103,7 +109,9 @@ The base of the second pulley should be flush with the top of the motor shaft wh
 Next, make sure that the belt is tight around the two pulleys by pulling back the motor in the slot then tightening the M5 bolts that are holding it in place.
 
 [caption id="attachment_1017" align="alignnone" width="850"]<img class="size-medium wp-image-1017" src="https://resources.sienci.com/wp-content/uploads/2021/05/1-21-850x477.jpg" alt="" width="850" height="477" /> Loose belt on the left, tight belt on the right[/caption]
+
 <h2>XZ-axis gantries sub-assembly</h2>
+
 <img class="size-medium wp-image-1018 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/1-22-parts-850x453.jpg" alt="" width="850" height="453" />
 
 You should find the XZ-gantry assembly in a labelled bubble mailer. Once you take it out, you’ll see there’s a small steel plate (z-gantry) attached to big steel plate (x-gantry) via two sliding rails. First, check that the movement of your z-gantry is smooth by moving it up and down by hand. There should be no binding and the gantry should move relatively smoothly.
@@ -118,7 +126,7 @@ After this, make a small assembly with the wheel going onto the bolt, followed b
 
 <img class="size-medium wp-image-1021 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/1-25-850x477.jpg" alt="" width="850" height="477" />
 
-You’ll also need two of the medium-sized M5 nuts from the last step and you’ll also need to grab eccentric nuts from the hardware bag labeled with an orange dot. These come in a small bag of 6 and are very <strong>odd looking</strong> so they should be easy to identify.
+You’ll also need two of the medium-sized M5 nuts from the last step and you’ll also need to grab eccentric nuts from the hardware bag labelled with an orange dot. These come in a small bag of 6 and are very <strong>odd looking</strong> so they should be easy to identify.
 
 If you move the z-gantry to the middle on the XZ-gantry assembly, you’ll notice 4 holes in a rectangular formation on the large steel plate. The 4 sets of wheel assemblies go into these holes from behind, the bottom two using a regular nut and the top two using an eccentric nut. Start by fitting the eccentric nuts into the top pair of holes. The round part of the bore should sit inside of the hole, with the hex part facing out.
 
@@ -146,12 +154,14 @@ There are two anti-backlash assemblies that attach to the XZ-gantry assembly. Th
 
 Use two M5-25mm bolts (the same ones used to make the v-wheel sets) to mount the nut block. Make sure that the M5 nuts are facing outwards (pictured) so that you can see them. The block <strong>shouldn’t</strong> be tightened down really hard, just fasten it until it’s snug.
 
-[caption id="attachment_1029" align="aligncenter" width="850"]<img class="size-medium wp-image-1029" src="https://resources.sienci.com/wp-content/uploads/2021/05/1-33-850x477.jpg" alt="" width="850" height="477" /> Tighten until snug, but do not overtighten.[/caption]
+[caption id="attachment_1029" align="aligncenter" width="850"]<img class="size-medium wp-image-1029" src="https://resources.sienci.com/wp-content/uploads/2021/05/1-33-850x477.jpg" alt="" width="850" height="477" /> Tighten until snug, but do not over-tighten.[/caption]
 
 Now we'll do the same process on the Z-axis on the two holes shown. <img class="size-medium wp-image-1030 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/1-34-850x477.jpg" alt="" width="850" height="477" />
 
 <img class="size-medium wp-image-1031 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/1-35-850x477.jpg" alt="" width="850" height="477" />The completed assembly should look like this. <img class="size-medium wp-image-1032 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/1-36-850x850.jpg" alt="" width="850" height="850" />
+
 <h2>Connecting the two major sub-assemblies</h2>
+
 <img class="size-medium wp-image-1034 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/1-37-parts-850x341.jpg" alt="" width="850" height="341" />
 
 Get the motor sub-assembly from before. Holding it in one hand, and the gantry sub-assembly in the other, line up the lead screw from the motor assembly with the nut block of the gantry assembly. If you use your fingers to turn the lead screw, it will go into the nut. The plastic mount should be coming in from the side of the steel plate which has a rectangular notch cut out.
@@ -173,7 +183,9 @@ Now with the two long bolts, slide them in from front through the two holes in t
 [caption id="attachment_1038" align="aligncenter" width="850"]<img class="size-medium wp-image-1038" src="https://resources.sienci.com/wp-content/uploads/2021/05/1-41-850x477.jpg" alt="" width="850" height="477" /> Fasten the M8 bolts. Keep a finger on the M8 nuts if you are finding they pop out when you first start tightening the bolt.[/caption]
 
 Your assembly should now look like this.
+
 <h2><img class="size-medium wp-image-1039 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/1-42-850x477.jpg" alt="" width="850" height="477" />Attaching the router mount</h2>
+
 <img class="size-medium wp-image-1041 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/1-43-parts-850x344.jpg" alt="" width="850" height="344" />
 
 <strong>**UPDATE**</strong>

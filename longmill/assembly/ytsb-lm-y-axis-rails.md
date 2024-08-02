@@ -15,7 +15,9 @@ skip_file: no
 featured_image: 
 ---
 <img class="size-medium wp-image-1098 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/4-01-cover-850x697.jpg" alt="" width="850" height="697" />
+
 <h2>Feet sub-assemblies</h2>
+
 <img class="size-medium wp-image-1099 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/4-02-parts-850x445.jpg" alt="" width="850" height="445" />
 
 The two Y-axis rails mount to the machine base via a handful of plastic feet which require a bit of assembly before-hand. Start off by finding the front and back pairs among the plastic parts (pictured). These parts can be distinguished by their ‘zig-zag-like’ pattern with a thick base and by the embossed lettering denoting their position on the machine (e.g. “Back left” and “Back right”).
@@ -43,7 +45,9 @@ Now, we’ll attach the two remaining motors to the rear feet. Install the coupl
 Move this over to the back of one of the rear plastic feet, orienting the motors white connector or cable bundle towards the flat base of the foot (pictured). Using a size 4 Allen key, you’ll be able to bolt the motor in place. Repeat the process for the other foot.
 
 [caption id="attachment_1107" align="aligncenter" width="850"]<img class="size-medium wp-image-1107" src="https://resources.sienci.com/wp-content/uploads/2021/05/4-09-850x477.jpg" alt="" width="850" height="477" /> Both feet with motors attached[/caption]
+
 <h2>Completing the Y-axis</h2>
+
 <img class="size-medium wp-image-1108 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/4-10-parts-850x498.jpg" alt="" width="850" height="498" />
 
 The 30×30 LongMill comes with 1000mm long rails for the Y-axis, meanwhile the 12×12 and 12×30 models have 500mm long rails. These will be the last two remaining aluminum lengths in the kit, distinguishable by their 2” width compared to the 3” width of the X-axis rail.
@@ -93,7 +97,9 @@ Do this on both sides. Adjust the couplers and tighten the ACME lock nut more if
 After making sure there is no play in the lead screw, go back to the motor side and tighten the coupler set screw onto the motor shaft on Y-axis motors.
 
 <img class="size-medium wp-image-1119 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/4-21-850x567.jpg" alt="" width="850" height="567" />
+
 <h2>Attaching the middle feet</h2>
+
 [tabby title="12x12 and 12x30"]
 
 The last part to add is the middle foot. It looks exactly like the back feet but excludes the backing (pictured). There are two of these parts that look very similar but the other one has another mounting point that juts out; this one will be used later in the assembly.

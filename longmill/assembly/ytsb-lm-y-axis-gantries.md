@@ -40,7 +40,7 @@ On the Y-axis plates, there are two holes for the anti-backlash assemblies to mo
 
 [caption id="attachment_1054" align="aligncenter" width="850"]<img class="size-medium wp-image-1054" src="https://resources.sienci.com/wp-content/uploads/2021/05/2-09-850x477.jpg" alt="" width="850" height="477" /> The Delrin nuts go on the same side as the v-wheels do.[/caption]
 
-[caption id="attachment_1056" align="aligncenter" width="850"]<img class="size-medium wp-image-1056" src="https://resources.sienci.com/wp-content/uploads/2021/05/2-10-850x477.jpg" alt="" width="850" height="477" /> Tighten until snug. Don't overtighten![/caption]
+[caption id="attachment_1056" align="aligncenter" width="850"]<img class="size-medium wp-image-1056" src="https://resources.sienci.com/wp-content/uploads/2021/05/2-10-850x477.jpg" alt="" width="850" height="477" /> Tighten until snug. Don't over-tighten![/caption]
 
 [caption id="attachment_1057" align="aligncenter" width="850"]<img class="size-medium wp-image-1057" src="https://resources.sienci.com/wp-content/uploads/2021/05/2-11-850x477.jpg" alt="" width="850" height="477" /> Both sides should be mirrored.[/caption]
 <h2>Mounting the X-axis motor to the left plate</h2>

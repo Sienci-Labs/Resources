@@ -16,7 +16,9 @@ featured_image:
 ---
 <p>You're finally going to be putting your LongMill together! We hope that you're excited to start making new and interesting things as this CNC router becomes yet another tool you can reach for on your tool-belt.</p>
 <p>The LongMill Benchtop CNC is a machine design that we're very proud of: a good balance between performance and affordability, simplicity and rigidity. As more LongMills continue to ship around the globe from our office, we're always keen to hear customer feedback since it helps us to make our benchtop CNC even better. This is why after shipping over 2500 LongMills since it's conception, we've still further introduced some small quality of life updates to the design of the LongMill; newly designated 'Version 4b'.</p>
+
 <h2>Versions</h2>
+
 <p>Implementing these improvements batch-by-batch means that there are small variations in the assembly process depending on when you receive your LongMill:</p>
 <ul>
 <li><strong>Version 1</strong>: shipped from October 2019 to March 2020</li>
@@ -52,16 +54,20 @@ featured_image:
 </tr>
 </tbody>
 </table>
+
 <p><!-- /wp:table --></p>
 <p>There is also an impromptu, follow-along, assembly video series available for the LongMill Version 2 that Chris put together if you'd prefer to assemble your machine while following along with a video rather than reading the instructions. The video series also works for Version 3. <strong>For Versions 4 and later, there will be minor changes that are not included in the videos, please refer to the PDF or online assembly instructions for clarification.</strong></p>
 <p class="title style-scope ytd-video-primary-info-renderer"><strong><a href="https://www.youtube.com/watch?v=QwQX3Qb8UUQ&amp;list=PLE43LQy2a1ipOEoEcIGo3cVOw31-iMvPQ" target="_blank" rel="noopener noreferrer">LongMill V2 Assembly Video Series</a></strong></p>
+
 <h2>Tooling up</h2>
+
 <p>Here is a list of tools you should have on hand for assembly. Most people will have these tools in their shop:</p>
 <ul>
 <li>Metric Allen keys or a drill and Allen driver bits</li>
 <li>A small flat head screwdriver</li>
 <li>Rubber mallet (optional)</li>
 </ul>
+
 <p>We designed the assembly instructions in a way that you unpack the machine as you go; this helps you to become more familiar with the parts that make up your LongMill. If at any point you're having difficulty finding a part, you can always come back to this page or refer to the Appendices of the PDF manual to see the packing layout of your machine. If you are missing parts or need technical help, please contact us here: <a href="https://sienci.com/contact-us/technical-help/" target="_blank" rel="noopener">https://sienci.com/contact-us/technical-help/</a></p>
 <p>Use the bottom buttons to navigate step-by-step or use the sidebar to quickly travel to a desired page. Remember to stay safe during assembly and while being around your machine so that you can enjoy it while getting the most out of it.</p>
 <p>[tabby title="Packing Layouts" open="yes"]</p>
@@ -71,6 +77,7 @@ featured_image:
 <p><strong>Top Carton #1</strong></p>
 <p>When you first open the top carton #1 it should look like this:<img class="size-medium wp-image-1232 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-01-850x567.jpg" alt="" width="850" height="567" /></p>
 <p>This box includes:</p>
+
 <ul>
 <li>A welcome page with safety guidelines on the back</li>
 <li>Some assorted stickers, including long ones for the LongMill and some with Louis on the machine, Andy's dog and our unofficial mascot and CEO <img class="size-medium wp-image-1233 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-02-850x567.jpg" alt="" width="850" height="567" /></li>
@@ -80,6 +87,7 @@ featured_image:
 <li>Aluminum router mount (in the size you requested) <img class="size-medium wp-image-1238 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-07-850x567.jpg" alt="" width="850" height="567" /></li>
 <li>Hardware bag #1 which contains:<br /><img class="size-medium wp-image-1239 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-08-850x567.jpg" alt="" width="850" height="567" /> <img class="size-medium wp-image-1240 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-09-850x567.jpg" alt="" width="850" height="567" />
 <ul>
+
 <li>M8-25 (x12)</li>
 <li>M8 hex nut (x12)</li>
 <li>M5-25 (x35)</li>
@@ -110,7 +118,7 @@ featured_image:
 <li>Eccentric nut (x6)</li>
 </ul>
 </li>
-<li>Three unthreaded motors (X &amp; Y axis) and one threaded motor (Z axis) <img class="size-medium wp-image-1245 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-14-850x567.jpg" alt="" width="850" height="567" /></li>
+<li>Three un-threaded motors (X &amp; Y axis) and one threaded motor (Z axis) <img class="size-medium wp-image-1245 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-14-850x567.jpg" alt="" width="850" height="567" /></li>
 <li>The power brick with its AC power cable inside a white cardboard box <img class="size-medium wp-image-1246 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-15-850x567.jpg" alt="" width="850" height="567" /></li>
 <li>A bagged USB cable (type A to type B)<img class="size-medium wp-image-1247 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-16-850x567.jpg" alt="" width="850" height="567" /></li>
 <li>The electronic control box protected by grey padded foam (the three orange components won't be there for most machines)<img class="size-medium wp-image-1248 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-17-850x567.jpg" alt="" width="850" height="567" /></li>
@@ -135,7 +143,7 @@ featured_image:
 <li>Two Y-axis gantries, both pieces of 1/4" thick steel protected by paper wrapping<img class="size-medium wp-image-1255 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-24-850x567.jpg" alt="" width="850" height="567" /><img class="size-medium wp-image-1256 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-25-850x567.jpg" alt="" width="850" height="567" /></li>
 </ul>
 <p><strong>Top Carton #3</strong></p>
-<p>If you ordered a Makita Router with your Longmill it can be found here, if not this box will remain empty to help keep top cartons #1 and #2 secure during shipping. <img class="size-medium wp-image-1257 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-26-850x567.jpg" alt="" width="850" height="567" /></p>
+<p>If you ordered a Makita Router with your LongMill it can be found here, if not this box will remain empty to help keep top cartons #1 and #2 secure during shipping. <img class="size-medium wp-image-1257 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-26-850x567.jpg" alt="" width="850" height="567" /></p>
 <p>[tabby title="V2"]</p>
 <p>The LongMill comes with a lot of parts, but we’ve organized them to make it as easy as possible to find and put everything together; each kit comes with several cartons. For the complete BOM, visit: <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1012984008">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1012984008</a></p>
 <p>Please note that the carton layout may vary. Carton #2 is a bubble mailer. <img class="size-medium wp-image-1218 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/A-01_v2-2-850x638.jpg" alt="" width="850" height="638" /></p>

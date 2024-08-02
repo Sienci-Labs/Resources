@@ -22,12 +22,16 @@ The LongMill is designed to be mounted to a flat surface which is provided by th
 
 We do not ship LongMills with a wasteboard because:
 <ol>
- 	<li>It saves the cost for shipping. For example, a 4ftx4ft piece of 3/4” MDF shipped often costs over a hundred dollars in shipping and is very easy to damage during transit. You can usually find a full 4ftx8ft sheet of 3/4” MDF for under $60 at your local lumber or hardware store.</li>
- 	<li>Users can choose the size and material of the wasteboard to match their needs.</li>
+  <li>It saves the cost for shipping. For example, a 4ftx4ft piece of 3/4” MDF shipped often costs over a hundred dollars in shipping and is very easy to damage during transit. You can usually find a full 4ftx8ft sheet of 3/4” MDF for under $60 at your local lumber or hardware store.</li>
+  <li>Users can choose the size and material of the wasteboard to match their needs.</li>
 </ol>
+
 <h2>Suitable wasteboard materials</h2>
+
 The easiest setup that we recommend is a flat, clean piece of 3/4” MDF to act as your mounting surface and your wasteboard. This is because 3/4” MDF is quite stiff and is readily accessible in 4’x4’ and 2’x2’ sizes from most big- box hardware stores or a lumber store. Any similar piece of thick, flat material would also suffice; you can choose at your own discretion. If you’re looking for more of a flashy setup, you can check out some of our community members’ table/wasteboard builds here for inspiration: <a href="https://sienci.com/dmx-longmill/community-table-builds/">https://sienci.com/dmx-longmill/community-table-builds/</a>
+
 <h2>Machine Dimensions</h2>
+
 When getting ready to mount your LongMill, the most important dimensions you’ll need to know are the size of its foot base and the total outline of the machine. As long as your mounting surface is at least the size of the foot base and you’ve left enough space around your mounting surface to account for the total machine outline, then your setup will be suitable.
 
 <img class="size-medium wp-image-1176 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/7-03-850x468.png" alt="" width="850" height="468" />
@@ -38,10 +42,10 @@ The control box is also something you should plan for, as the design of the mach
 
 Once assembled, each model of the LongMill (12×12, 12×30, and 30×30) is designed to generally fit on a 2×2′, 2×4′, and 4×4′ surface respectively. The diagrams below show a more detailed view for each model:
 <ol>
- 	<li>The red area inside the main box shows the cutting area as an offset from the foot base. It’s based off the center-point of the router, thus you can plane an area larger than what’s stated if you’re using a large surfacing bit.</li>
- 	<li>The blue area outside the main box shows the hanging parts as an offset from the foot base which makes up the total machine outline.</li>
- 	<li>If you have the <strong>dust shoe</strong> attachment in place, it’ll reduce your cutting travel in the X-dimension by approximately 34mm.</li>
- 	<li>These diagrams have got a small buffer on the cutting area (i.e. it’s been shrunkened slightly) since each part has its own manufacturing tolerance and can come together differently in assembly so we want to ensure we’re providing a reasonable guarantee on what can be expected from your machine.</li>
+  <li>The red area inside the main box shows the cutting area as an offset from the foot base. It’s based off the center-point of the router, thus you can plane an area larger than what’s stated if you’re using a large surfacing bit.</li>
+  <li>The blue area outside the main box shows the hanging parts as an offset from the foot base which makes up the total machine outline.</li>
+  <li>If you have the <strong>dust shoe</strong> attachment in place, it’ll reduce your cutting travel in the X-dimension by approximately 34mm.</li>
+  <li>These diagrams have got a small buffer on the cutting area (i.e. it’s been shrunken slightly) since each part has its own manufacturing tolerance and can come together differently in assembly so we want to ensure we’re providing a reasonable guarantee on what can be expected from your machine.</li>
 </ol>
 [tabby title="12x12"]
 
@@ -62,7 +66,9 @@ Once assembled, each model of the LongMill (12×12, 12×30, and 30×30) is desig
 At the end of the day, this leaves you with:
 
 <img class="size-medium wp-image-1277 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/7-07.5-850x219.jpg" alt="" width="850" height="219" />
+
 <h2>Mounting your LongMill</h2>
+
 To ensure that your machine is mounted securely and accurately, we’ve created a series of steps to help you do so. We highly recommend following these steps exactly, as the order of these steps matter. You’ll need a computer to be connected to the machine in order to align it properly.
 
 We will start by checking the tension of the Delrin v-wheels. As we did in the previous steps, we want to make sure that the wheels barely turn with our fingers by adjusting the eccentric nuts.

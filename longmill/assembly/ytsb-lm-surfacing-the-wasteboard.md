@@ -17,16 +17,20 @@ featured_image:
 <figure><iframe src="https://www.youtube.com/embed/aW27K_1OLT0" width="100%" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <h2><strong>Why surface your wasteboard?</strong></h2>
 <ol>
- 	<li>Surfacing your wasteboard helps level the surface in relation to your machine. This means that if you have bumps or uneven surfaces on your wasteboard, or if your wasteboard is higher on one side that the other, surfacing will even out and flatten the board.</li>
- 	<li>Cleans off old marks and scars, leaving you with a new, clean surface to glue, clamp, and mount your workpiece.</li>
+  <li>Surfacing your wasteboard helps level the surface in relation to your machine. This means that if you have bumps or uneven surfaces on your wasteboard, or if your wasteboard is higher on one side that the other, surfacing will even out and flatten the board.</li>
+  <li>Cleans off old marks and scars, leaving you with a new, clean surface to glue, clamp, and mount your workpiece.</li>
 </ol>
 If you are using a <a href="https://sienci.com/product/22mm-surfacing-bit/">22mm surfacing bit</a>, you can use this code for your LongMill. This code will cut 1mm down in one pass. Please set your origin to the bottom left corner of the machine.
 
 <a href="https://sienci.com/wp-content/uploads/2020/01/LongMill-Surfacing-Code.zip">Download LongMill Surfacing Code (12x12, 12x30, 30x30)</a>
+
 <h2><strong>What tool should I use?</strong></h2>
+
 Technically, any flat end mill or bit can work for this application. However, using a wider bit can speed up the process. In the video we are using a 22mm surfacing bit.
+
 <h2><strong>Generating the code</strong></h2>
-I used a gcode generator from INTUWiz (<a href="http://www.intuwiz.com/plane.html#.Xidt8sjYouV">http://www.intuwiz.com/plane.html#.Xidt8sjYouV</a>). Here are the settings I used for the 30x30 size:
+
+I used a g-code generator from INTUWiz (<a href="http://www.intuwiz.com/plane.html#.Xidt8sjYouV">http://www.intuwiz.com/plane.html#.Xidt8sjYouV</a>). Here are the settings I used for the 30x30 size:
 
 <img class="size-medium wp-image-1307 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/04/gcode-surfacing-750x1024-1-623x850.png" alt="" width="623" height="850" />
 

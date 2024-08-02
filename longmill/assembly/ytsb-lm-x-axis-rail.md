@@ -42,7 +42,9 @@ Your completed rail should now look something like this.
 <img class="size-medium wp-image-1077 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/3-06-850x411.jpg" alt="" width="850" height="411" />
 
 [tabbyending]
+
 <h2>Sandwiching the rail with the Y-gantries</h2>
+
 <img class="size-medium wp-image-1079 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/3-11-parts-850x478.jpg" alt="" width="850" height="478" />
 
 After the previous step, you should now have four major assemblies completed: the <strong>XZ-axis gantry</strong>, the two <strong>Y-gantries</strong>, and the <strong>X-axis rail</strong>. These assemblies will all be coming together in this step, starting by sliding the XZ-axis gantry assembly onto the X-axis rail.

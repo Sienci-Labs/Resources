@@ -15,14 +15,17 @@ skip_file: no
 featured_image: 
 ---
 <!-- wp:paragraph -->
+
 <h2>Sienci Labs Dust Shoe</h2>
-<p>To make dust collection easier for your LongMill, we spent the time to design it its very own dust shoe. <a href="https://sienci.com/product/longmill-magnetic-dust-shoe/" target="_blank" rel="noreferrer noopener">The new Sienci Labs Magnetic Dust Shoe</a> is a great add-on for your machine that can keep dust management easy! This dust shoe is designed specifically for the LongMill and works with 1.5″, and 2″ to 2-1/8″ hoses.</p>
+
+<p>To make dust collection easier for your LongMill, we spent the time to design it its very own dust shoe. <a href="https://sienci.com/product/LongMill-magnetic-dust-shoe/" target="_blank" rel="noreferrer noopener">The new Sienci Labs Magnetic Dust Shoe</a> is a great add-on for your machine that can keep dust management easy! This dust shoe is designed specifically for the LongMill and works with 1.5″, and 2″ to 2-1/8″ hoses.</p>
 <p>This dust shoe is a Z-axis independent style dust shoe designed to collect dust and debris efficiently.</p>
 <p>The assembly is shown after the initial reveal in the following video: [su_youtube url="https://www.youtube.com/watch?v=r_QqMye3dLo"]</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <h2>Sienci Labs Touch Plate</h2>
+
 <p>This guide will help you set up and use your Sienci Labs Touch Plate with gSender or UGS. If you have a different touch plate that's still a standard block shape these steps may help you set up yours as well.</p>
 <!-- /wp:paragraph -->
 
@@ -86,11 +89,14 @@ featured_image:
 <li><strong>XYZ</strong>: Finds the zero point on the front,left corner of your material in all axes.</li>
 <li><strong>XY, X, Y</strong>: Finds the zero point in the X and/or Y directions only.</li>
 </ul>
-<p><img class="size-full wp-image-2108 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/gsender-probe-new.png" alt="" width="764" height="426" /></p>
+
+<p><img class="size-full wp-image-2108 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/gSender-probe-new.png" alt="" width="764" height="426" /></p>
 <p>If you have a third-party touch plate, you can press the gear icon at the top right of the window to access the settings, which will pop up a window. Go to the 'Probe' settings on the left hand side. Here you'll be able to customize your plate dimensions, the probing speed, or switch over to a Z-only probe.</p>
 <p>You can also add tools here if you want the probe widget to remember your most commonly used tools.</p>
+
 <p><img class="size-medium wp-image-2107 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/gSender-0.6.4-Touch-probe-settings-850x478.png" alt="" width="850" height="478" /></p>
 <p>[tabby title="UGS"]</p>
+
 <p>UGS comes with a simple plugin that allows for your machine to send the commands to your machine to utilize the touch plate for finding the X, Y, and Z-axis.</p>
 <!-- /wp:paragraph -->
 
@@ -163,10 +169,12 @@ featured_image:
 </ol>
 </li>
 </ul>
+
 [caption id="attachment_2110" align="aligncenter" width="639"]<img class="wp-image-2110 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/05/touch-probe.png" alt="" width="639" height="360" /> 1/4" end mill positioned for an XYZ probe[/caption]
+
 <p>[tabby title="gSender" open="yes"]</p>
 <p>Back in the 'Probe' tab, you can choose which axis to probe for and the diameter of the bit you're using - in this case select 'XYZ'. The bit size can be selected from the drop-down of saved bits, or can be typed in manually. Press the 'Probe' button and you'll get a pop-up window to confirm you've positioned your bit correctly and you'll be prompted to check for a good connection.</p>
-<p><img class="size-full wp-image-2108 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/gsender-probe-new.png" alt="" width="764" height="426" /></p>
+<p><img class="size-full wp-image-2108 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/gSender-probe-new.png" alt="" width="764" height="426" /></p>
 <p>You can either bring the touch plate to the end mill or touch the banana plug and magnet together. Make contact a few times just to confirm there is conductivity, as the red circle should flicker to green and a blue 'Start Probe' button appears.</p>
 <p><img class="size-full wp-image-1604 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.6.4-Touch-test-2.png" alt="" width="807" height="392" /></p>
 <p>Pressing 'Start Probe' will now make the machine move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press ‘Go to XY0’. The bit should be over-top of the bottom left corner of the stock material, and pressing ‘Go to’ next to the ‘Zero Z’ should bring it to touch the materials surface.</p>
@@ -176,13 +184,17 @@ featured_image:
 <p>If the probing function is successful, then the machine should return the bit back to the starting point where you initiated the probing cycle. You should notice that the digital readout (DRO) on UGSPlatform changes to reflect the measurements, the current position being offset a little in the X and Y and quite a bit offset in the Z.</p>
 <p>You can check that it's now zeroed on the material corner by first taking the touch plate off the material and removing the magnet from the router collet before pressing "Return to Zero".</p>
 <p>If the probing was <strong>unsuccessful</strong>, then it'll be indicated by the cutting bit not returning to where you started the probe cycle or the machine will be put into an 'ALARM' state. To bring it out of the alarm state, press the "Soft Reset" button followed by the "Unlock" button and that will put the machine back into its 'IDLE' state. An unsuccessful probing cycle can result from an incorrectly positioned probe, the magnet not attached to the collet properly, starting too far outside the circular logo, and the probe not being plugged into the controller. Be sure to verify your setup before attempting another probing cycle.</p>
+
 <p><img class="size-medium wp-image-926 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/UGS-Alarm-State-850x446.png" alt="" width="850" height="446" /></p>
+
 <p><!-- /wp:list -->
 
 <!-- wp:paragraph --></p>
 <p>[tabbyending]</p>
 <p>If everything went according to plan, you should now see your bit hovering at the material corner like this:</p>
+
 <p><img class="aligncenter wp-image-1597 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-go-xyz0-e1635803713294.png" alt="" width="831" height="432" /></p>
+
 <p>Remove your magnet and set your touch plate aside, and you're done!</p>
 <p>Here are some other options you can use when probing:</p>
 <ul>
@@ -205,7 +217,9 @@ featured_image:
 </ol>
 </li>
 </ul>
+
 [caption id="attachment_2111" align="aligncenter" width="850"]<img class="wp-image-2111 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/05/All_Probe_Line_Draw-850x548.png" alt="" width="850" height="548" /> Cutting tool positions for each probe type[/caption]
+
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
@@ -222,31 +236,41 @@ featured_image:
 <!-- /wp:paragraph -->
 
 <!-- wp:image -->
+
 <figure class="wp-block-image"><img class="size-medium wp-image-1310 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/Touch-Plate-layout-dawing-850x657.jpg" alt="" width="850" height="657" /></figure>
+
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
 <h2>Sienci Labs AutoZero Touch Plate</h2>
-<p>The AutoZero Touch Plate is specifically designed for use with the latest version of <a href="https://sienci.com/gsender/">gSender</a>. Please download the latest program first.</p>
+<p>The AutoZero Touch Plate is specifically designed for use with the latest version of <a href="https://sienci.com/gSender/">gSender</a>. Please download the latest program first.</p>
 <p>https://www.youtube.com/watch?v=H_fYFjtFc3Q</p>
+
 <h3><b>Step 1: Unwrapping and setting up your touch plate</b></h3>
+
 <p><span style="font-weight: 400;">Each order for the AutoZero Touch Plate comes with the block itself, a cable that has a magnet on one end and an ECS5/banana plug on the other. </span></p>
 <p><span style="font-weight: 400;">All LongBoards come with 3.81mm pluggable screw terminals that can be removed from the controller to wire the cable. You will want to remove the plug from the “Probe/GND” input on the controller.</span></p>
 <p><span style="font-weight: 400;">Use a small screwdriver to loosen the screw terminal to wire the cable with the red and black wires as shown. </span></p>
+
 <h3><b>Step 2: Update your gSender settings</b></h3>
+
 <p><span style="font-weight: 400;">Settings for the AutoZero touch plate is built into the latest version of gSender. You can activate the AutoZero in the settings menu by clicking on the gear icon at the upper right side of the interface.</span></p>
-<p><img class="alignnone size-full wp-image-2470" src="https://resources.sienci.com/wp-content/uploads/2021/05/settings-gsender.png" alt="" width="432" height="236" /></p>
+<p><img class="alignnone size-full wp-image-2470" src="https://resources.sienci.com/wp-content/uploads/2021/05/settings-gSender.png" alt="" width="432" height="236" /></p>
 <p><span style="font-weight: 400;">In the settings, go to “Probe” settings and change the touchplate type to “Auto Zero Touchplate'' in the dropdown menu. We recommend leaving the “Probe Connectivity Test” option activated as well.</span></p>
 <p><img class="alignnone size-medium wp-image-2471" src="https://resources.sienci.com/wp-content/uploads/2021/05/probe-settings-850x600.png" alt="" width="850" height="600" /></p>
 <p><span style="font-weight: 400;">Closing the settings menu will save your changes. Your interface will update at the bottom right side of the screen to show the new probe interface.</span></p>
 <p><img class="alignnone size-full wp-image-2472" src="https://resources.sienci.com/wp-content/uploads/2021/05/updated-interface.png" alt="" width="512" height="303" /></p>
+
 <h3>Step 3: Setting up the touch plate on your workpiece</h3>
+
 <p>The AutoZero can find the X, Y, and Z coordinates on rectangular pieces of material. <strong>The material should be square and flat to get the best reading.</strong> The AutoZero can also find the Z-height of most flat materials as well regardless of their shape.</p>
 <p>Start off by plugging the green pluggable terminal into the controller. Make sure that it is in the PROBE/GND terminal. </p>
 <p>Next, plug the banana plug into the touch plate. There are two holes, either of which can be used to your preference. </p>
 <p>For using to find the X, Y, and Z coordinates, you will need to set the block at the bottom left corner of your material. The inside edge of the bottom of the touch plate should be touching against the sides of the material. </p>
 <p>If you are probing just the Z-axis, you flip over your touch plate and place it on the surface of the material.</p>
+
 <h3>Step 4: Probing</h3>
+
 <p>The AutoZero can probe in all three axis. The type of probing can be selected with one of the five options on the interface. The selection determines which axis the machine will be probing for and which coordinates it will reset once the probing cycle is complete. </p>
 <p><img class="alignnone size-full wp-image-2477" src="https://resources.sienci.com/wp-content/uploads/2021/05/axis-options.png" alt="" width="228" height="114" /></p>
 <p>Before you begin, make sure that both the touch plate is connected and the magnet is connected to the end mill or a nearby conductive surface such as the shank of the router or the router nut. gSender will ask to check for the continuity of the plate before starting the process to ensure your probe has the proper connection by asking you to touch the plate to your bit.</p>
@@ -257,10 +281,14 @@ featured_image:
 <p>You'll also have the option for choosing which tool you're using, either "Auto" or "Tip". <strong>Auto</strong> measures the diameter on <strong>straight end mills and bits. </strong>On the other hand, <strong>Tip </strong>uses the tip of <strong>v-bits, tapered bits, and ball nose</strong> bits touching against the bottom chamfer to determine its position. Using the correct setting will ensure the most accurate probing for your bit.</p>
 <p><em>Finally, </em>click on the probe to check the continuity and start the probing process.</p>
 <p><img class="alignnone size-full wp-image-2474" src="https://resources.sienci.com/wp-content/uploads/2021/05/probe-button.png" alt="" width="154" height="51" /></p>
+
 <h3>Step 5: Remove magnet </h3>
+
 <p>Once your probing is complete, remove the magnet and move the touch plate out of the way. Your machine coordinates should now be updated and ready to use.</p>
 <p>We hope you have an excellent experience with the AutoZero touchplate!</p>
+
 <h2>Installing the LongMill T-Track Set</h2>
+
 <p>https://www.youtube.com/watch?v=T4QVgtnZMDw</p>
 <p>Here is a simple T-track set up that you can mount onto your work table. This is simply a basic guideline on setting up your t-tracks, but feel free to lay them out in whatever way works best for you! <img class="wp-image-825 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/T-Track-Layout-624x397.png" alt="" width="800" height="508" /> This layout minimizes reductions in cutting area and depth, and can be prepared in advance before your machine arrives. It uses a 48”x48”x ¾” MDF sheet, which can be purchased and cut to size at home or at your local hardware store.</p>
 <ol>
@@ -271,7 +299,9 @@ featured_image:
 <li>Surface the MDF planks, as described in the LongMill Resources page: <a href="https://resources.sienci.com/view/lm-surfacing-wasteboard/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-surfacing-wasteboard/</a></li>
 <li>Mount your clamps onto your newly installed T-track table, and enjoy!</li>
 </ol>
+
 <h2>Assembling and Using the LongMill T-Clamps</h2>
+
 <p><img class="wp-image-827 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/DSC00309-edit-624x350.jpg" alt="" width="800" height="449" /> T-clamps are simple yet reliable workholding tools which are used with T-tracks tables. We’ve come up with T-clamps that work for various metals, plastics and woods, holding down materials from 0.1" to 1” thick. These clamps are ideal for holding down small to medium sized pieces of material. Inside the package:</p>
 <ul>
 <li>x6 steel clamps</li>
@@ -289,13 +319,18 @@ featured_image:
 <li>Slide the other hex bolt through the clamp slot, with the hex head facing down. Bring the washer and knob from the top, so that the washer is contained between the clamp body and knob.</li>
 <li>Now you can slide the downward facing hex bolt onto the t-track and locate the clamp for mounting material</li>
 </ol>
+
 <p><img class="wp-image-828 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/Clamp-Assembly-624x347.jpg" alt="" width="800" height="445" /> How to Use T-Clamps on T-Track Table:</p>
+
 <ol>
 <li>Slide the hex bolt head through the T-track, so that the entire clamp is on the table.  You may need to adjust the bolt and knob to have it fit onto the table.</li>
 <li>Place your workpiece onto the table.</li>
 <li>Move and adjust the clamp to push down onto the workpiece, ensuring that the end cap side of the clamp is lower than the bolt end. Tighten both bolts until snug. Position the clamps so that there is enough space for your cutting job on your workpiece.</li>
 <li>Push your material to check if it is secured onto the table. If not, use more T-clamps or other workholding methods.</li>
 </ol>
+
 <p><img class="wp-image-826 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/Materials-clamp-624x350.png" alt="" width="800" height="449" /></p>
+
 <h2>Regular Dust Shoe</h2>
+
 <p>https://www.youtube.com/watch?v=j6JFbru7j3I</p>
