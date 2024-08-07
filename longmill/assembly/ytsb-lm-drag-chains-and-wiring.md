@@ -14,50 +14,53 @@ custom_fields:
 skip_file: no
 featured_image: 
 ---
-<h2><img class="size-medium wp-image-1123 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-01-cover-850x697.jpg" alt="" width="850" height="697" />Drag chains and Wiring</h2>
-<img class="size-medium wp-image-1124 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-02-parts-850x443.jpg" alt="" width="850" height="443" />
+![](</_images/_longmill/_assembly/_dragchain/lm_dragchain_p01 (cover).jpg>){.aligncenter .size-medium}
+
+<h2>Drag chains and Wiring</h2>
+
+![](</_images/_longmill/_assembly/_dragchain/lm_dragchain_p02 (parts).jpg>){.aligncenter .size-medium}
 
 We will now be installing the drag chains; these contain and guide the wires on the LongMill so they aren’t in the way during cutting. They also keep wires from wearing out from bending or being cinched around corners.
 
 As mentioned previously, the chains can be found in the lighter long box (pictured). They come with detachable links so that you can adjust their length depending on the size of your LongMill. You can save these links for later when you upgrade to a larger LongMill if you have the 12×12 or 12×30 versions.
 
-<img class="size-medium wp-image-1125 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-03-850x395.jpg" alt="" width="850" height="395" />
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p03.jpg){.aligncenter .size-medium}
 
 We'll first start by removing the end connector links from both drag chains. You can either pull or squeeze off the connector as shown in the photos. A flat head screwdriver or thin shim can also be handy for this, just be careful not to cut yourself in the process.
 
-[caption id="attachment_1126" align="aligncenter" width="850"]<img class="size-medium wp-image-1126" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-04-850x477.jpg" alt="" width="850" height="477" /> For the pin-type end link, squeeze the two sides of the link together, then twist and pull to disconnect[/caption]
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p04.jpg "For the pin-type end link, squeeze the two sides of the link together, then twist and pull to disconnect"){.aligncenter .size-medium}
 
-[caption id="attachment_1127" align="aligncenter" width="850"]<img class="size-medium wp-image-1127" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-05-850x477.jpg" alt="" width="850" height="477" /> For the hole-type end link, pull on one side of the link then twist it away to separate it[/caption]
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p05.jpg "For the hole-type end link, pull on one side of the link then twist it away to separate it"){.aligncenter .size-medium}
 
 Do this for all four end pieces, two hole-types and two pin types, and set them aside.
 
-<img class="size-medium wp-image-1128 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-06-850x477.jpg" alt="" width="850" height="477" />
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p06.jpg){.aligncenter .size-medium}
 
 We will attach these links to the machine, starting with the drag chain foot you set aside in the last step. It can be identified by its lightning bolt shape and the nut catches and wire clips it has on its back side. Also find the smaller M4 bolts and nuts in the yellow bag, as these will be used to attach the links in the following steps.
 
 Use a pair of bolts and nuts to secure the hole-type end link onto the drag chain foot in the orientation shown by using a size 3 Allen key. The nuts should fit into the hexagonal cutouts underneath the mounting point, meaning a wrench won’t be needed.
 
-<img class="size-medium wp-image-1129 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-07-850x421.jpg" alt="" width="850" height="421" />
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p07.JPG){.aligncenter .size-medium}
 
 This last foot can now be attached to the Y-axis rails in the vacant space on the left side of the machine. Use two of the short M8 bolts to fasten it to the rail, similar to how all the other feet have been mounted.
 
-[caption id="attachment_1130" align="aligncenter" width="850"]<img class="size-medium wp-image-1130" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-08-850x477.jpg" alt="" width="850" height="477" /> Drag chain foot mounted in place[/caption]
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p08.JPG "Drag chain foot mounted in place"){.aligncenter .size-medium}
 
 Now get a <strong>pin-type</strong> end link (pictured) to mount the other end of the drag chain. This one will attach the the X-axis clip-on mount where there's a slot for the two bolts to fit through. Use the included LongMill wrench to hold the nuts from the top while you fasten the bolts from underneath with a size 3 Allen key.
 
-<img class="size-medium wp-image-1131 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-09-850x477.jpg" alt="" width="850" height="477" />
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p09.JPG){.aligncenter .size-medium}
 
 On the back-left side of the X-axis rail, you'll find a hole to secure another drag chain link. You should only need one bolt to secure the pin-type end link using the tapped hole. If your hole is not tapped, use an M4 nylock nut on the other side to secure the part.
 
-[caption id="attachment_1133" align="aligncenter" width="850"]<img class="size-medium wp-image-1133" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-10-850x477.jpg" alt="" width="850" height="477" /> Find the hole on the X-axis rail to secure the drag chain link[/caption]
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p10.JPG "Find the hole on the X-axis rail to secure the drag chain link"){.aligncenter .size-medium}
 
-[caption id="attachment_1134" align="aligncenter" width="850"]<img class="size-medium wp-image-1134" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-11-850x477.jpg" alt="" width="850" height="477" /> Use an M4 nylock nut on the other side of the aluminum angle if needed[/caption]
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p11.JPG "Use an M4 nylock nut on the other side of the aluminum angle if needed"){.aligncenter .size-medium}
 
 Lastly, attach the final drag chain end link onto the plastic 'arm' of the Z-axis mount using another pair of M4 bolts and nuts. Note the direction the link is facing before installing it.
 
-<img class="size-medium wp-image-1135 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-12-850x477.jpg" alt="" width="850" height="477" />
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p12.JPG){.aligncenter .size-medium}
 
-[caption id="attachment_1136" align="aligncenter" width="850"]<img class="size-medium wp-image-1136" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-13-850x477.jpg" alt="" width="850" height="477" /> Link fastened into place[/caption]
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p13.JPG "Link fastened into place"){.aligncenter .size-medium}
 
 Next, we'll be removing a couple of links on the drag chain. To do this, put your hands on either side of the link you want to break, then twist and pull them apart to disconnect. Set aside the remaining, unused links. They can come in use if you're planning on upgrading to a larger sized LongMill later.
 
@@ -75,64 +78,64 @@ In the case of a 30x30 machine, remove 15 links off of the Y-axis drag chain, an
 
 [tabbyending]
 
-[caption id="attachment_1138" align="aligncenter" width="850"]<img class="size-medium wp-image-1138" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-14-850x477.jpg" alt="" width="850" height="477" /> Use both hands to twist and disconnect the drag chain links.[/caption]
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p14.jpg "Use both hands to twist and disconnect the drag chain links."){.aligncenter .size-medium}
 
 We'll then start to unclip the tabs that hold the wires in the drag chain (pictured). These tabs are designed with clips on both side so that they can be removed to allow you to insert and remove wiring inside the drag chain. The clips on the tabs are quite strong, but the LongMill wrench had a taper that can assist you with popping them open. Leveraging the tabs open by sliding in a flat head screwdriver or a long Allen key also works quite well.
 
 If you plan on adding more wiring into the drag chains in the future, we recommend removing every other cover tab as well. The wire will be held in just as well but opening and closing them will take half the time. You can stick the extras into a baggy to save for later if you wish.
 
-[caption id="attachment_1139" align="aligncenter" width="850"]<img class="size-medium wp-image-1139" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-15-850x477.jpg" alt="" width="850" height="477" /> Unclip the tabs on the drag chain[/caption]
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p15.jpg "Unclip the tabs on the drag chain"){.aligncenter .size-medium}
 
-[caption id="attachment_1140" align="aligncenter" width="850"]<img class="size-medium wp-image-1140" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-16-850x477.jpg" alt="" width="850" height="477" /> All of the tabs unclipped and ready for wiring[/caption]
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p16.jpg "All of the tabs unclipped and ready for wiring"){.aligncenter .size-medium}
 
 At this stage, it's a good idea to grab the router you'll be using with your machine. We'll show these steps using the RTMakita RT0700 / RT0701 trim router that we recommend. Also, grab the motor wires from the motor box while you're at it.
 
 <strong>**IMPORTANT NOTE: when using the Makita 0700 / RT0701 you won't need to use the router base, just the main router body. The package also comes with two wrenches to tighten and release the collet which holds the cutting tools in place. You'll see a red button near the collet nut, but please refrain from using this red button. Using this red button can stress the router body and occasionally cause the whole body to crack open.</strong>
 
-[caption id="attachment_1141" align="aligncenter" width="850"]<img class="size-medium wp-image-1141" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-17-850x477.jpg" alt="" width="850" height="477" /> Get your router and motor wires to start wiring the machine[/caption]
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p17.jpg "Get your router and motor wires to start wiring the machine"){.aligncenter .size-medium}
 
 To mount your router, simply loosen off the two front bolts until you can fit the router in the mount, then tighten back up to secure it. You can adjust the height later if needed.
 
 We recommend going back and forth between the two bolts to keep them parallel; and make sure not to over-tighten them. It's also best to face your router power cable towards the left side (pictured) since the dust shoe hose port sticks up on the right side of the router mount.
 
-[caption id="attachment_1143" align="aligncenter" width="850"]<img class="size-medium wp-image-1143" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-18-850x477.jpg" alt="" width="850" height="477" /> It usually works best to mount your router with the power cable facing to the left.[/caption]
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p18.JPG "It usually works best to mount your router with the power cable facing to the left."){.aligncenter .size-medium}
 
 Grab a motor cable and connect it to the Z-axis NEMA 23 motor. If you have a cable bundle on your motor then the motor cable will still attach in a similar manner. The connectors can only go in one way, so find the orientation where the connector attaches with ease.
 
-<img class="size-medium wp-image-1144 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-19-850x401.jpg" alt="" width="850" height="401" />
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p19.JPG){.aligncenter .size-medium}
 
 Grab the drag chain for the X-axis (the longer one for the 30x30) and seat the Z-axis motor and the router wire into the drag chain. Make sure that you have the correct end of the drag chain (with a pin-type link). This way, you'll be able to connect it to the mounted end link (pictured), and it'll bend in the right direction against the X-axis. You can start to re-clip the tabs in place.
 
-<img class="size-medium wp-image-1145 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-20-850x477.jpg" alt="" width="850" height="477" />
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p20.JPG){.aligncenter .size-medium}
 
-[caption id="attachment_1146" align="aligncenter" width="850"]<img class="size-medium wp-image-1146" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-21-850x477.jpg" alt="" width="850" height="477" /> Clip the end of the drag chain to the end link on the Z-axis mount[/caption]
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p21.JPG "Clip the end of the drag chain to the end link on the Z-axis mount"){.aligncenter .size-medium}
 
 Swing the drag chain and clip it onto the end link attached to the X-axis rail. Pull the wires through.
 
-<img class="size-medium wp-image-1147 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-22-850x477.jpg" alt="" width="850" height="477" />
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p22.JPG){.aligncenter .size-medium}
 
 Attach a motor cable onto the X-axis NEMA 23 stepper motor.
 
-<img class="size-medium wp-image-1148 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-23-850x477.jpg" alt="" width="850" height="477" />
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p23.JPG){.aligncenter .size-medium}
 
 Take the cable from the X-axis and Z-axis NEMA 23 stepper motors as well as the router cable and insert it into the Y-axis drag chain. Clip the tabs in to secure the wires. Ensure the drag chain is facing the right direction (with the hole-type link, pictured) to fit into the correct end links.
 
-[caption id="attachment_1149" align="aligncenter" width="850"]<img class="size-medium wp-image-1149" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-24-850x477.jpg" alt="" width="850" height="477" /> Grab the Y-axis drag chain and insert the X and Z-axis motor cables and router cable[/caption]
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p24.JPG "Grab the Y-axis drag chain and insert the X and Z-axis motor cables and router cable:"){.aligncenter .size-medium}
 
 Clip the both ends of the drag chain into the previously mounted end links on the Y-gantry and the drag chain foot.
 
-<img class="size-medium wp-image-1150 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-25-850x477.jpg" alt="" width="850" height="477" />
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p25.JPG){.aligncenter .size-medium}
 
-<img class="size-medium wp-image-1151 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-26-850x477.jpg" alt="" width="850" height="477" />
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p26.JPG){.aligncenter .size-medium}
 
 Now plug in the cables for the motors on the two Y-axis NEMA 23 stepper motors.
 
-<img class="size-medium wp-image-1152 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-27-850x567.jpg" alt="" width="850" height="567" />
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p27.JPG){.aligncenter .size-medium}
 
 Bring the cables around to the left of the machine and slot them into the wiring cutouts in the drag chain foot.
 
-<img class="size-medium wp-image-1153 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-28-850x477.jpg" alt="" width="850" height="477" />
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p28.JPG){.aligncenter .size-medium}
 
 With all of the wiring coming in from the left, the machine wiring is now be complete.
 
-<img class="size-medium wp-image-1154 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5-29-850x477.jpg" alt="" width="850" height="477" />
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p29.JPG){.aligncenter .size-medium}
