@@ -177,16 +177,17 @@ featured_image:
 </li>
 </ul>
 
-![](/_images/_longmill/_assembly/_addons/lm_addons_p5.png "1/4" end mill positioned for an XYZ probe"){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_addons/lm_addons_p5.png){.aligncenter .size-medium}
 
 <p>[tabby title="gSender" open="yes"]</p>
+
 <p>Back in the 'Probe' tab, you can choose which axis to probe for and the diameter of the bit you're using - in this case select 'XYZ'. The bit size can be selected from the drop-down of saved bits, or can be typed in manually. Press the 'Probe' button and you'll get a pop-up window to confirm you've positioned your bit correctly and you'll be prompted to check for a good connection.</p>
 
-<p><img class="size-full wp-image-2108 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/gSender-probe-new.png" alt="" width="764" height="426" /></p>
+![](/_images/_longmill/_assembly/_addons/lm_addons_p2Real.png){.aligncenter .size-medium}
 
 <p>You can either bring the touch plate to the end mill or touch the banana plug and magnet together. Make contact a few times just to confirm there is conductivity, as the red circle should flicker to green and a blue 'Start Probe' button appears.</p>
 
-<p><img class="size-full wp-image-1604 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.6.4-Touch-test-2.png" alt="" width="807" height="392" /></p>
+![](/_images/_longmill/_assembly/_addons/lm_addons_p6_ProbeConfirm.png){.aligncenter .size-medium}
 
 <p>Pressing 'Start Probe' will now make the machine move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press ‘Go to XY0’. The bit should be over-top of the bottom left corner of the stock material, and pressing ‘Go to’ next to the ‘Zero Z’ should bring it to touch the materials surface.</p>
 <p>If the probing was <strong>unsuccessful</strong>, then it'll be indicated by the cutting bit not returning to where you started the probe cycle or the machine will be put into an 'ALARM' state. To bring it out of the alarm state, press the pulsing 'Unlock' button in the middle of the visualizer and that will put the machine back into its 'IDLE' state. An unsuccessful probing cycle can result from an incorrectly positioned probe or starting too far outside the circular logo. Be sure to verify your setup before attempting another probing cycle.</p>
@@ -196,7 +197,7 @@ featured_image:
 <p>You can check that it's now zeroed on the material corner by first taking the touch plate off the material and removing the magnet from the router collet before pressing "Return to Zero".</p>
 <p>If the probing was <strong>unsuccessful</strong>, then it'll be indicated by the cutting bit not returning to where you started the probe cycle or the machine will be put into an 'ALARM' state. To bring it out of the alarm state, press the "Soft Reset" button followed by the "Unlock" button and that will put the machine back into its 'IDLE' state. An unsuccessful probing cycle can result from an incorrectly positioned probe, the magnet not attached to the collet properly, starting too far outside the circular logo, and the probe not being plugged into the controller. Be sure to verify your setup before attempting another probing cycle.</p>
 
-<p><img class="size-medium wp-image-926 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/UGS-Alarm-State-850x446.png" alt="" width="850" height="446" /></p>
+![](/_images/_longmill/_assembly/_addons/lm_addons_p7_USGAlarm.png){.aligncenter .size-medium}
 
 <p><!-- /wp:list -->
 
@@ -204,9 +205,10 @@ featured_image:
 <p>[tabbyending]</p>
 <p>If everything went according to plan, you should now see your bit hovering at the material corner like this:</p>
 
-<p><img class="aligncenter wp-image-1597 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-go-xyz0-e1635803713294.png" alt="" width="831" height="432" /></p>
+![](/_images/_longmill/_assembly/_addons/lm_addons_p8_Corner.png){.aligncenter .size-medium}
 
 <p>Remove your magnet and set your touch plate aside, and you're done!</p>
+
 <p>Here are some other options you can use when probing:</p>
 <ul>
 <li>For just finding the top of your material (Z):
@@ -229,7 +231,7 @@ featured_image:
 </li>
 </ul>
 
-[caption id="attachment_2111" align="aligncenter" width="850"]<img class="wp-image-2111 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/05/All_Probe_Line_Draw-850x548.png" alt="" width="850" height="548" /> Cutting tool positions for each probe type[/caption]
+![](/_images/_longmill/_assembly/_addons/lm_addons_p9_AllProbe.png "Cutting tool positions for each probe type"){.aligncenter .size-medium}
 
 <!-- /wp:list -->
 
@@ -248,8 +250,7 @@ featured_image:
 
 <!-- wp:image -->
 
-<figure class="wp-block-image"><img class="size-medium wp-image-1310 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/Touch-Plate-layout-dawing-850x657.jpg" alt="" width="850" height="657" /></figure>
-
+![](/_images/_longmill/_assembly/_addons/lm_addons_p10_Layout.jpg){.aligncenter .size-medium}
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -266,11 +267,16 @@ featured_image:
 <h3><b>Step 2: Update your gSender settings</b></h3>
 
 <p><span style="font-weight: 400;">Settings for the AutoZero touch plate is built into the latest version of gSender. You can activate the AutoZero in the settings menu by clicking on the gear icon at the upper right side of the interface.</span></p>
-<p><img class="alignnone size-full wp-image-2470" src="https://resources.sienci.com/wp-content/uploads/2021/05/settings-gSender.png" alt="" width="432" height="236" /></p>
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p11_Settings.png){.aligncenter .size-medium}
+
 <p><span style="font-weight: 400;">In the settings, go to “Probe” settings and change the touchplate type to “Auto Zero Touchplate'' in the dropdown menu. We recommend leaving the “Probe Connectivity Test” option activated as well.</span></p>
-<p><img class="alignnone size-medium wp-image-2471" src="https://resources.sienci.com/wp-content/uploads/2021/05/probe-settings-850x600.png" alt="" width="850" height="600" /></p>
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p12.png){.aligncenter .size-medium}
+
 <p><span style="font-weight: 400;">Closing the settings menu will save your changes. Your interface will update at the bottom right side of the screen to show the new probe interface.</span></p>
-<p><img class="alignnone size-full wp-image-2472" src="https://resources.sienci.com/wp-content/uploads/2021/05/updated-interface.png" alt="" width="512" height="303" /></p>
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p13.png){.aligncenter .size-medium}
 
 <h3>Step 3: Setting up the touch plate on your workpiece</h3>
 
@@ -283,15 +289,23 @@ featured_image:
 <h3>Step 4: Probing</h3>
 
 <p>The AutoZero can probe in all three axis. The type of probing can be selected with one of the five options on the interface. The selection determines which axis the machine will be probing for and which coordinates it will reset once the probing cycle is complete. </p>
-<p><img class="alignnone size-full wp-image-2477" src="https://resources.sienci.com/wp-content/uploads/2021/05/axis-options.png" alt="" width="228" height="114" /></p>
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p14.png){.aligncenter .size-medium}
+
 <p>Before you begin, make sure that both the touch plate is connected and the magnet is connected to the end mill or a nearby conductive surface such as the shank of the router or the router nut. gSender will ask to check for the continuity of the plate before starting the process to ensure your probe has the proper connection by asking you to touch the plate to your bit.</p>
-<p><img class="alignnone size-full wp-image-2473" src="https://resources.sienci.com/wp-content/uploads/2021/05/Probe-confirmation.png" alt="" width="711" height="405" /></p>
-<p><strong>For the "Z" Axis </strong><strong>probe, </strong>the machine will move down and touch off the block to find the offset distance based on the touch plate's thickness. Set the end mill above the back lip of the touch plate which is designed for doing Z probes.<img class="alignnone size-medium wp-image-2475" src="https://resources.sienci.com/wp-content/uploads/2021/05/AutoZero-Probing-views-850x612.png" alt="" width="850" height="612" /></p>
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p15.png){.aligncenter .size-medium .nar}
+
+<p><strong>For the "Z" Axis </strong><strong>probe, </strong>the machine will move down and touch off the block to find the offset distance based on the touch plate's thickness. Set the end mill above the back lip of the touch plate which is designed for doing Z probes.
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p16.png){.aligncenter .size-medium}
+
 <p><strong>For all other probing (XYZ etc...), </strong>jog the machine over the inner square before starting the process. Your end mill should be above the square so that when the machine starts to move down, the first surface your bit touches is that square.</p>
 <p>During the probing process, the touch plate may slide during the touch off process. It is recommended to keep a hand against the plate to prevent it from sliding around being careful that your hand isn't in the way of the end mill.</p>
 <p>You'll also have the option for choosing which tool you're using, either "Auto" or "Tip". <strong>Auto</strong> measures the diameter on <strong>straight end mills and bits. </strong>On the other hand, <strong>Tip </strong>uses the tip of <strong>v-bits, tapered bits, and ball nose</strong> bits touching against the bottom chamfer to determine its position. Using the correct setting will ensure the most accurate probing for your bit.</p>
 <p><em>Finally, </em>click on the probe to check the continuity and start the probing process.</p>
-<p><img class="alignnone size-full wp-image-2474" src="https://resources.sienci.com/wp-content/uploads/2021/05/probe-button.png" alt="" width="154" height="51" /></p>
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p17.png){.aligncenter .size-medium .nar}
 
 <h3>Step 5: Remove magnet </h3>
 
@@ -301,7 +315,11 @@ featured_image:
 <h2>Installing the LongMill T-Track Set</h2>
 
 <p>https://www.youtube.com/watch?v=T4QVgtnZMDw</p>
-<p>Here is a simple T-track set up that you can mount onto your work table. This is simply a basic guideline on setting up your t-tracks, but feel free to lay them out in whatever way works best for you! <img class="wp-image-825 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/T-Track-Layout-624x397.png" alt="" width="800" height="508" /> This layout minimizes reductions in cutting area and depth, and can be prepared in advance before your machine arrives. It uses a 48”x48”x ¾” MDF sheet, which can be purchased and cut to size at home or at your local hardware store.</p>
+<p>Here is a simple T-track set up that you can mount onto your work table. This is simply a basic guideline on setting up your t-tracks, but feel free to lay them out in whatever way works best for you! 
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p18.png){.aligncenter .size-medium}
+
+This layout minimizes reductions in cutting area and depth, and can be prepared in advance before your machine arrives. It uses a 48”x48”x ¾” MDF sheet, which can be purchased and cut to size at home or at your local hardware store.</p>
 <ol>
 <li>Cut a 48” x 48” x ¾” MDF sheet into five pieces of 6” wide planks, and two pieces of 5 ½ ” wide planks.</li>
 <li>Lay out the T-tracks and planks on the table, and fasten them down with wood screws. The machine will sit on top of the 5 ½” planks, as the 6” planks are arranged between them. They should be fastened with screws at least 1” in length. Leave about 1” of space between the screws and the ends of the MDF planks.</li>
@@ -313,7 +331,9 @@ featured_image:
 
 <h2>Assembling and Using the LongMill T-Clamps</h2>
 
-<p><img class="wp-image-827 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/DSC00309-edit-624x350.jpg" alt="" width="800" height="449" /> T-clamps are simple yet reliable workholding tools which are used with T-tracks tables. We’ve come up with T-clamps that work for various metals, plastics and woods, holding down materials from 0.1" to 1” thick. These clamps are ideal for holding down small to medium sized pieces of material. Inside the package:</p>
+![](/_images/_longmill/_assembly/_addons/lm_addons_p19.jpg){.aligncenter .size-medium}
+
+T-clamps are simple yet reliable workholding tools which are used with T-tracks tables. We’ve come up with T-clamps that work for various metals, plastics and woods, holding down materials from 0.1" to 1” thick. These clamps are ideal for holding down small to medium sized pieces of material. Inside the package:</p>
 <ul>
 <li>x6 steel clamps</li>
 <li>x6 knobs with inserts</li>
@@ -331,8 +351,9 @@ featured_image:
 <li>Now you can slide the downward facing hex bolt onto the t-track and locate the clamp for mounting material</li>
 </ol>
 
-<p><img class="wp-image-828 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/Clamp-Assembly-624x347.jpg" alt="" width="800" height="445" /> How to Use T-Clamps on T-Track Table:</p>
+![](/_images/_longmill/_assembly/_addons/lm_addons_p20.jpg){.aligncenter .size-medium}
 
+How to Use T-Clamps on T-Track Table:
 <ol>
 <li>Slide the hex bolt head through the T-track, so that the entire clamp is on the table.  You may need to adjust the bolt and knob to have it fit onto the table.</li>
 <li>Place your workpiece onto the table.</li>
@@ -340,7 +361,7 @@ featured_image:
 <li>Push your material to check if it is secured onto the table. If not, use more T-clamps or other workholding methods.</li>
 </ol>
 
-<p><img class="wp-image-826 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/Materials-clamp-624x350.png" alt="" width="800" height="449" /></p>
+![](/_images/_longmill/_assembly/_addons/lm_addons_p21.png){.aligncenter .size-medium}
 
 <h2>Regular Dust Shoe</h2>
 
