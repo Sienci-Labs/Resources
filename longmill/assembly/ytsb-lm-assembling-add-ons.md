@@ -50,7 +50,8 @@ featured_image:
 <!-- /wp:paragraph -->
 
 <!-- wp:image -->
-<figure class="wp-block-image"><img class="wp-image-820 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/Touchplate-assembly-624x520.jpg" alt="" width="800" height="667" /></figure>
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p1.jpg){.aligncenter .size-medium}
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -79,7 +80,9 @@ featured_image:
 
 <!-- wp:paragraph -->
 <p>You can choose to use gSender or UGS (UGSPlatform) to run the probe. We recommend gSender as it is easier.</p>
+
 <p>[tabby title="gSender" open="yes"]</p>
+
 <p>gSender comes pre-loaded with all the settings needed for our touch plate and is able probe easily in the X, Y, and Z-axis and some other combinations.</p>
 <p>All probing happens in the Probe tab in the main window. Here you can select what type of probing you'd like to perform as well as select the tool you'll be using or you can type in the tool size manually.</p>
 <p><!-- /wp:paragraph -->
@@ -91,11 +94,13 @@ featured_image:
 <li><strong>XY, X, Y</strong>: Finds the zero point in the X and/or Y directions only.</li>
 </ul>
 
-<p><img class="size-full wp-image-2108 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/gSender-probe-new.png" alt="" width="764" height="426" /></p>
+![](/_images/_longmill/_assembly/_addons/lm_addons_p2Real.png){.aligncenter .size-medium}
+
 <p>If you have a third-party touch plate, you can press the gear icon at the top right of the window to access the settings, which will pop up a window. Go to the 'Probe' settings on the left hand side. Here you'll be able to customize your plate dimensions, the probing speed, or switch over to a Z-only probe.</p>
 <p>You can also add tools here if you want the probe widget to remember your most commonly used tools.</p>
 
-<p><img class="size-medium wp-image-2107 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/gSender-0.6.4-Touch-probe-settings-850x478.png" alt="" width="850" height="478" /></p>
+![](/_images/_longmill/_assembly/_addons/lm_addons_p3.png){.aligncenter .size-medium}
+
 <p>[tabby title="UGS"]</p>
 
 <p>UGS comes with a simple plugin that allows for your machine to send the commands to your machine to utilize the touch plate for finding the X, Y, and Z-axis.</p>
@@ -106,7 +111,8 @@ featured_image:
 <!-- /wp:paragraph -->
 
 <!-- wp:image -->
-<figure class="wp-block-image"><img class="size-medium wp-image-1309 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/UNADJUSTEDNONRAW_thumb_2-850x502.jpg" alt="" width="850" height="502" /></figure>
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p4.jpg){.aligncenter .size-medium}
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -171,13 +177,17 @@ featured_image:
 </li>
 </ul>
 
-[caption id="attachment_2110" align="aligncenter" width="639"]<img class="wp-image-2110 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/05/touch-probe.png" alt="" width="639" height="360" /> 1/4" end mill positioned for an XYZ probe[/caption]
+![](/_images/_longmill/_assembly/_addons/lm_addons_p5.png "1/4" end mill positioned for an XYZ probe"){.aligncenter .size-medium}
 
 <p>[tabby title="gSender" open="yes"]</p>
 <p>Back in the 'Probe' tab, you can choose which axis to probe for and the diameter of the bit you're using - in this case select 'XYZ'. The bit size can be selected from the drop-down of saved bits, or can be typed in manually. Press the 'Probe' button and you'll get a pop-up window to confirm you've positioned your bit correctly and you'll be prompted to check for a good connection.</p>
+
 <p><img class="size-full wp-image-2108 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/gSender-probe-new.png" alt="" width="764" height="426" /></p>
+
 <p>You can either bring the touch plate to the end mill or touch the banana plug and magnet together. Make contact a few times just to confirm there is conductivity, as the red circle should flicker to green and a blue 'Start Probe' button appears.</p>
+
 <p><img class="size-full wp-image-1604 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.6.4-Touch-test-2.png" alt="" width="807" height="392" /></p>
+
 <p>Pressing 'Start Probe' will now make the machine move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press ‘Go to XY0’. The bit should be over-top of the bottom left corner of the stock material, and pressing ‘Go to’ next to the ‘Zero Z’ should bring it to touch the materials surface.</p>
 <p>If the probing was <strong>unsuccessful</strong>, then it'll be indicated by the cutting bit not returning to where you started the probe cycle or the machine will be put into an 'ALARM' state. To bring it out of the alarm state, press the pulsing 'Unlock' button in the middle of the visualizer and that will put the machine back into its 'IDLE' state. An unsuccessful probing cycle can result from an incorrectly positioned probe or starting too far outside the circular logo. Be sure to verify your setup before attempting another probing cycle.</p>
 <p>[tabby title="UGS"]</p>
