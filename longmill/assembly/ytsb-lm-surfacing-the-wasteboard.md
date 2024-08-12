@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: /_images/_longmill/_assembly/_surfacing/lm_surface_p1.png
 ---
 <figure><iframe src="https://www.youtube.com/embed/aW27K_1OLT0" width="100%" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
 <h2><strong>Why surface your wasteboard?</strong></h2>

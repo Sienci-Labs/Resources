@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: /_images/_longmill/_assembly/_moreprojects/lm_mprojects_p1.jpg
 ---
 There's plenty more that CNC routers like the LongMill are capable of doing once you're comfortable with the process of going from an idea on a piece of paper to a final product.
 

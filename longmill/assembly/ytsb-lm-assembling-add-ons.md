@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: /_images/_longmill/_assembly/_addons/lm_addons_p1.jpg
 ---
 <!-- wp:paragraph -->
 

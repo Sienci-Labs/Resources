@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: /_images/_longmill/_assembly/_unboxing/lm_unboxing_p1_TopCarton.JPG
 ---
 <p>You're finally going to be putting your LongMill together! We hope that you're excited to start making new and interesting things as this CNC router becomes yet another tool you can reach for on your tool-belt.</p>
 <p>The LongMill Benchtop CNC is a machine design that we're very proud of: a good balance between performance and affordability, simplicity and rigidity. As more LongMills continue to ship around the globe from our office, we're always keen to hear customer feedback since it helps us to make our benchtop CNC even better. This is why after shipping over 2500 LongMills since it's conception, we've still further introduced some small quality of life updates to the design of the LongMill; newly designated 'Version 4b'.</p>

@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: /_images/_longmill/_assembly/_electronics/lm_electronics_p01 (cover).jpg
 ---
 ![](</_images/_longmill/_assembly/_electronics/lm_electronics_p01 (cover).jpg>){.aligncenter .size-medium}
 

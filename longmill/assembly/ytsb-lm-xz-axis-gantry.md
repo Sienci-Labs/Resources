@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: /_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p1_Drawing.jpg
 ---
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p1_Drawing.jpg){.aligncenter .size-medium}
 
