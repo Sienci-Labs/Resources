@@ -39,7 +39,7 @@ Over time, your rails and wheels may accumulate dust which takes the form of bla
 
 This is something that you won't have to do as often if you have good dust collection.
 
-[caption id="attachment_1287" align="aligncenter" width="850"]<img class="size-medium wp-image-1287" src="https://resources.sienci.com/wp-content/uploads/2021/05/Dirt-on-rails-scaled-e1622193237539-850x523.jpg" alt="" width="850" height="523" /> Black dirt on the edges of the rail.[/caption]
+![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p1_DirtRail.jpg "Black dirt on the edges of the rail.")
 
 <h2>Adjusting the tension on your Delrin anti-backlash nuts</h2>
 
@@ -50,13 +50,13 @@ The LongMill comes with four Delrin anti-backlash nuts that allow users to reduc
   <li>Use an allen key to reach each of the tensioning screws. Photos of the locations for each screw are below. Start by very lightly turning the screw and checking for play. Note that over-tightening your nut can cause premature wear, you should only need a small amount of tension to remove backlash from your system. <strong>Also note</strong> that once the delrin nut is worn excessively, the M5 bolt head could start to rub or bind against the lead screw and damage it. Backlash nuts are consumable, so if they are excessively worn then they should be <a href="https://sienci.com/product/delrin-anti-backlash-block/" target="_blank" rel="noopener noreferrer">replaced</a>.</li>
 </ol>
 
-[caption id="attachment_1282" align="aligncenter" width="850"]<img class="wp-image-1282 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/05/Anti-backlash-left-Y-axis-scaled-e1622193067961-850x531.jpg" alt="" width="850" height="531" /> Left Y-axis[/caption]
+![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p2_AntiLYAxis.jpg "Left Y-axis"){.aligncenter .size-medium}
 
-[caption id="attachment_1283" align="aligncenter" width="850"]<img class="wp-image-1283 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/05/Anti-backlash-right-Y-axis-scaled-e1622193085513-850x510.jpg" alt="" width="850" height="510" /> Right Y-axis[/caption]
+![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p3_AntiRYAxis.jpg "Right Y-axis"){.aligncenter .size-medium}
 
-[caption id="attachment_1284" align="aligncenter" width="850"]<img class="wp-image-1284 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/05/Anti-backlash-X-axis-scaled-e1622193101811-850x506.jpg" alt="" width="850" height="506" /> X-axis[/caption]
+![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p4_AntiXAxis.jpg "X-axis"){.aligncenter .size-medium}
 
-[caption id="attachment_1285" align="aligncenter" width="850"]<img class="wp-image-1285 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/05/Anti-backlash-Z-axis-scaled-e1622193122940-850x503.jpg" alt="" width="850" height="503" /> Z-axis[/caption]
+![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p5_AntiZAxis.jpg "Z-axis"){.aligncenter .size-medium}
 
 <h2>Adjusting your eccentric nuts</h2>
 
@@ -66,19 +66,19 @@ You can watch this video for a demonstration of how to adjust the eccentric nuts
 
 The eccentric nuts allow users to adjust the tension on the Delrin v-wheels to bring them closer or further away from the edge of the rail. The wheels need to grip the edge firmly, while still allowing the machine to move smoothly.
 
-[caption id="attachment_1288" align="aligncenter" width="850"]<img class="size-medium wp-image-1288" src="https://resources.sienci.com/wp-content/uploads/2021/05/Eccentric-nut-high-scaled-e1622193151831-850x383.jpg" alt="" width="850" height="383" /> Eccentric nut at its highest position.[/caption]
+![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p6_DelrinUpHigh.jpg "Eccentric nut at its highest position."){.aligncenter .size-medium}
 
-[caption id="attachment_1289" align="aligncenter" width="850"]<img class="size-medium wp-image-1289" src="https://resources.sienci.com/wp-content/uploads/2021/05/Eccentric-nut-low-scaled-e1622193179575-850x383.jpg" alt="" width="850" height="383" /> Eccentric nut at its lowest position.[/caption]
+![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p7_DelrindownLow.jpg "Eccentric nut at its lowest position."){.aligncenter .size-medium}
 
 One simple way to check if your v-wheels have the right amount of pre-load is to check if you can turn the wheel with your fingers. Your wheels should be tight enough that it should be difficult to use your fingers to turn them, but not tight enough that they do not rotate when you move the axis back and forth.
 
 We recommend checking the tension on your v-wheels on a regular basis.
 
-[caption id="attachment_1286" align="aligncenter" width="850"]<img class="size-medium wp-image-1286" src="https://resources.sienci.com/wp-content/uploads/2021/05/Delrin-wheel-turning-scaled-e1622193205706-850x521.jpg" alt="" width="850" height="521" /> Checking for the tension on the Delrin v-wheels.[/caption]
+![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p8_DelrinWheelTurn.jpg "Checking for the tension on the Delrin v-wheels."){.aligncenter .size-medium}
 
 <h2>Maintaining your Linear Guides</h2>
 
-<img class="size-medium wp-image-1290 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/Linear-guide-lubrication-e1622193268343-850x518.jpg" alt="" width="850" height="518" />
+![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p9_Lube.jpg){.aligncenter .size-medium}
 
 Though the frequency of lubricating your linear guides will vary depending on the type of cutting you do and the frequency of use, we would recommend doing this procedure every 20-30 hours. If you experience grinding noises or roughness in your gantry, we recommend doing this procedure more often.
 

@@ -25,7 +25,7 @@ Every LongMill is packed in our shop in Waterloo, ON by our team of trained staf
   <li>Ensure that you are following the assembly instructions for the correct version of the machine. There are variations between versions, including the packing order and assembly. More info can be found in the <a href="https://resources.sienci.com/view/lm-unboxing/">Unboxing</a> portion of the resources. <strong>Please note that our video instructions are based on the Version 2 design. </strong>Instructions from the video can still be referenced for additional help in assembling your machine.</li>
 </ul>
 
-<img class="size-medium wp-image-1559 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/04/Check-version-number-850x332.png" alt="" width="850" height="332" />
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p_Versions.png){.aligncenter .size-medium}
 
 <ul>
   <li>If you're missing the correct amount of hardware, you may find it in another bag. Please check in the rest of the kit to make sure all of your hardware is accounted for.</li>
@@ -42,9 +42,9 @@ During the assembly process, the anti-backlash nuts may be difficult to thread o
   <li>Check for burrs and debris that may be in the threads.</li>
 </ul>
 
-<img class="wp-image-1558 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/04/pressing-the-nut-scaled-e1625585539194-850x501.jpg" alt="" width="850" height="501" />
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p1_PressNut.jpg){.aligncenter .size-medium}
 
-<img class="aligncenter wp-image-1557 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/04/ACME-Anti-Backlash-Nut-Threading-Diagram-e1625585562789-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p2_NutDiagram.jpg){.aligncenter .size-medium}
 
 <h3>I have leftover parts after assembly</h3>
 
@@ -72,7 +72,7 @@ Other things you can check:
   <li>If you have a newer E-stop model, check that the E-stop is plugged into the <strong>top</strong> of the LongBoard, and the power supply is plugged into the<strong> side</strong> of the LongBoard. <a href="https://drive.google.com/file/d/10I-XiU6GuIwgeMfRe_LBDjoDTnmqmISy/view?usp=sharing" target="_blank" rel="noopener">View the correct installation here. </a>You can also check that the wiring is secured inside the E-stop itself by unfastening the 4 screws on the lid with a screwdriver. There should be two wires secured on either terminal (polarity doesn't matter).</li>
 </ul>
 
-[caption id="attachment_1295" align="aligncenter" width="850"]<img class="size-medium wp-image-1295" src="https://resources.sienci.com/wp-content/uploads/2021/05/Correct-polarity-of-the-power-plug-1-850x478.jpg" alt="" width="850" height="478" /> The wire on the left should be white, and the wire on the right should be black.[/caption]
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p3_Polarity.jpg "The wire on the left should be white, and the wire on the right should be black.")
 
 <h3>One motor does not move or moves erratically</h3>
 
@@ -87,7 +87,7 @@ When jogging or running the LongMill, one of the motors does not move correctly 
   <li>Make sure your Arduino is fully seated in your control board. You can typically use a non-conductive tool to push it into the socket if it is starting to come loose.</li>
 </ul>
 
-<img class="size-full wp-image-1292 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/control-board-arduino-location-1.jpg" alt="" width="842" height="343" />
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p4_ControlBoard.jpg){.aligncenter .size-medium}
 
 <h3>My machine is not moving in the right direction</h3>
 
@@ -97,9 +97,9 @@ When jogging or running the LongMill, one of the motors does not move correctly 
   <li>Reload the EEPROM settings on your Arduino, as these settings may have changed when using various g-code senders. These settings control aspects such as the jogging direction and the machine’s work space boundaries. To access them, go to the Firmware tool in gSender, or the Firmware Settings in UGS. gSender will have the ability to "Restore Defaults" and revert to the LongMills regular setting. For UGS, make sure you have the default settings (found here: <a href="https://resources.sienci.com/view/lm-EEPROM-settings/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-eeprom-settings/</a>) by going through each line and manually changing the values, or download the zip file, unzip it, and load it into UGS.</li>
 </ul>
 
-[caption id="attachment_1294" align="aligncenter" width="850"]<img class="size-medium wp-image-1294" src="https://resources.sienci.com/wp-content/uploads/2021/05/Correct-motor-wiring-colour-pattern-1-850x477.jpg" alt="" width="850" height="477" /> The wiring colour pattern should be blue, yellow, green, red.[/caption]
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p5_Wiring.jpg "The wiring colour pattern should be blue, yellow, green, red."){.aligncenter .size-medium}
 
-[caption id="attachment_1291" align="aligncenter" width="850"]<img class="size-medium wp-image-1291" src="https://resources.sienci.com/wp-content/uploads/2021/05/Access-UGS-EEPROM-settings-1-850x353.png" alt="" width="850" height="353" /> Where to find the EEPROM settings on UGS Platform.[/caption]
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p6_USGEEPROM.png "Where to find the EEPROM settings on UGS Platform."){.aligncenter .size-medium}
 
 <h3>My machine is not moving the correct amount</h3>
 
@@ -166,7 +166,7 @@ Excessive wobble is when the lead screw is deviating from center by more than ab
   <li aria-level="1">If you are using Fusion 360, ensure that ‘Safe Retracts’ is set to ‘Clearance Height.’</li>
 </ul>
 
-<img class="size-full wp-image-1790 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/04/f360-safe-retract.png" alt="" width="607" height="540" />
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p7_f360.png){.aligncenter .size-medium}
 
 <ul>
   <li aria-level="1">Ensure that you are not hitting the Z-axis movement limits when running the job.</li>
@@ -197,14 +197,37 @@ Excessive wobble is when the lead screw is deviating from center by more than ab
 Loss of connection on a long job can happen if your computer or USB port 'fall asleep' on you. If you plan on running long, intricate cuts on your CNC you'll have to change your computer power settings so that it 'stays awake' while cutting. Iif you're using a Mac computer, you can find dedicated instructions for sleep management here: <a href="https://support.apple.com/en-ca/guide/mac-help/mchle41a6ccd/mac" target="_blank" rel="noopener">https://support.apple.com/en-ca/guide/mac-help/mchle41a6ccd/mac</a>.
 <ul>
   <li>Click the <strong>Windows</strong> icon at the bottom left corner of your screen and start to type "<em>control panel</em>" to bring it up
-<img class="size-medium wp-image-930 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/1.-Open-Control-Panel-1-850x433.png" alt="" width="850" height="433" /></li>
+
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p8_p1.png){.aligncenter .size-medium}
+
+</li>
   <li>Once you've clicked to open it, go to <strong>Hardware and Sound  </strong>then <strong>Power Options</strong>
-<strong><img class="size-medium wp-image-931 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/2.-Go-to-Hardware-and-Sound-1-850x178.png" alt="" width="850" height="178" /></strong><strong> <img class="size-medium wp-image-932 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/3.-Go-to-Power-Options-850x160.png" alt="" width="850" height="160" /></strong></li>
-  <li>Now, whichever plan you have currently selected (circled in the picture) will be the one that you want to click <strong>Change plan settings
-<img class="size-medium wp-image-934 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/4.-Click-on-Change-plan-settings-beside-your-current-plan-850x301.png" alt="" width="850" height="301" />
+
+<strong>
+
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p9_p2.png){.aligncenter .size-medium}
+
+</strong>
+
+<strong> 
+
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p10_p3.png){.aligncenter .size-medium}
+
 </strong></li>
-  <li>Go to the second drop-down and set it to <strong>Never</strong>, save the changes to ensure that your computer never dozes off on its own. An additional step can be to stop your USB ports from 'sleeping' by clicking <strong>Change advanced power settings<img class="size-medium wp-image-933 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/5.-Click-n-Change-advanced-power-settings-near-the-bottom-of-the-screen-850x286.png" alt="" width="850" height="286" /></strong></li>
-  <li>In the separate window that appears, you'll want to Expand the <strong>USB Settings</strong>, then <strong>USB selective suspend setting</strong>, and finally change this drop-down to "<strong>Disabled</strong>". Click to <strong>Apply</strong> these new settings.  <strong>**</strong>Sometimes on a Windows update these settings will be reset, if you want to make sure you've got all your bases covered, be sure to check back on these settings on occasion if you want to feel confident while running long jobs.**<img class="size-medium wp-image-935 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/8.-Change-dropdown-menu-from-Enabled-to-Disabled-850x428.png" alt="" width="850" height="428" /></li>
+  <li>Now, whichever plan you have currently selected (circled in the picture) will be the one that you want to click <strong>Change plan settings
+
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p11_p4.png){.aligncenter .size-medium}
+
+</strong></li>
+  <li>Go to the second drop-down and set it to <strong>Never</strong>, save the changes to ensure that your computer never dozes off on its own. An additional step can be to stop your USB ports from 'sleeping' by clicking <strong>Change advanced power settings
+  
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p12_p5.png){.aligncenter .size-medium}
+  
+  </strong></li>
+  <li>In the separate window that appears, you'll want to Expand the <strong>USB Settings</strong>, then <strong>USB selective suspend setting</strong>, and finally change this drop-down to "<strong>Disabled</strong>". Click to <strong>Apply</strong> these new settings.  <strong>**</strong>Sometimes on a Windows update these settings will be reset, if you want to make sure you've got all your bases covered, be sure to check back on these settings on occasion if you want to feel confident while running long jobs.**
+  
+ ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p13_p6.png){.aligncenter .size-medium}
+ </li>
 </ul>
 
 <h3>My bit is crashing into the touch plate</h3>
@@ -213,7 +236,9 @@ If you’re using UGS:
 <ul>
   <li aria-level="1">There is a bug that can cause the touch plate to move farther than the expected origin and plunge the bit into the work surface if you use INCHES units when jogging around. If so, before beginning the probe process ensure that you have set the jog control to MM instead of INCHES. Once probing is completed, you may switch back to INCHES and resume regular machine operation
 
-[caption id="attachment_925" align="aligncenter" width="850"]<img class="wp-image-925 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/05/UGS-probe-inches-bug-850x405.png" alt="" width="850" height="405" /> Jog control unit setting on UGS[/caption]</li>
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p14_UGSbug.png "Jog control unit setting on UGS"){.aligncenter .size-medium}
+
+</li>
 </ul>
 If this was not the problem:
 <ul>
@@ -236,13 +261,20 @@ If this was not the problem:
   <li>Try a different USB port and USB cable.</li>
   <li>If you are using UGSPlatform, make sure to refresh and check the dropdown box for all of the ports that have devices connected to them. Try each one until you can connect.</li>
 </ul>
-[caption id="attachment_929" align="aligncenter" width="525"]<img class="size-full wp-image-929" src="https://resources.sienci.com/wp-content/uploads/2021/05/refresh-highlighted-ugs.png" alt="" width="525" height="135" /> Click on the refresh button and try other available ports.[/caption]
+
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p15_Refresh.png "Click on the refresh button and try other available ports."){.aligncenter .size-medium}
 
 <h3>I have an issue with Java when opening UGSPlatform</h3>
 
 <ul>
-  <li>If USG is still not able to open due to a Java access error, then there is another program on your computer blocking UGS from opening properly. UGS is usually able to automatically detect where Java is located on your computer, but since this detection is being blocked the way to fix this is to explicitly inform UGS where Java is. First you'll need to locate Java. You can usually find it by going to the Windows file explorer under <em>'This PC <span class="st">→</span> Windows (C:) <span class="st">→</span> Programs Files <span class="st">→</span> Java <span class="st">→</span> jre<strong>###</strong>'</em> or <em>'This PC <span class="st">→</span> Windows (C:) <span class="st">→</span> Programs Files (x86) <span class="st">→</span> Java <span class="st">→</span> jre<strong>###</strong>'</em>. Once inside the <em>'jre'</em> folder, left-click the navigation path at the top of the file explorer then right-click the selected text and left click the 'Copy' option to copy the path.<img class="size-medium wp-image-928 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/Copying-Java-path-850x431.png" alt="" width="850" height="431" />
-Once the path is copied, navigate to where you downloaded UGS; this will normally be located inside your 'Downloads' folder. Once there, go to:<em> 'ugs-platform-app-2.0-SNAPSHOT <span class="st">→</span> ugsplatform <span class="st">→</span> etc'</em>. In this folder should be a file called <em>'ugsplatform.conf'</em>. Opening this with a text editor like <em>Notepad</em>, you'll want to find the line which says: "<em>#jdkhome="/path/to/jdk</em>". Delete the '#', then replace the text within the quotes with the Java path by right-clicking and selecting '<em>Paste</em>'. The completed edit should look like this: <img class="size-full wp-image-927 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/UGS-Config-file.png" alt="" width="775" height="380" />
+  <li>If USG is still not able to open due to a Java access error, then there is another program on your computer blocking UGS from opening properly. UGS is usually able to automatically detect where Java is located on your computer, but since this detection is being blocked the way to fix this is to explicitly inform UGS where Java is. First you'll need to locate Java. You can usually find it by going to the Windows file explorer under <em>'This PC <span class="st">→</span> Windows (C:) <span class="st">→</span> Programs Files <span class="st">→</span> Java <span class="st">→</span> jre<strong>###</strong>'</em> or <em>'This PC <span class="st">→</span> Windows (C:) <span class="st">→</span> Programs Files (x86) <span class="st">→</span> Java <span class="st">→</span> jre<strong>###</strong>'</em>. Once inside the <em>'jre'</em> folder, left-click the navigation path at the top of the file explorer then right-click the selected text and left click the 'Copy' option to copy the path.
+  
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p16_JavaPath.png){.aligncenter .size-medium}
+
+Once the path is copied, navigate to where you downloaded UGS; this will normally be located inside your 'Downloads' folder. Once there, go to:<em> 'ugs-platform-app-2.0-SNAPSHOT <span class="st">→</span> ugsplatform <span class="st">→</span> etc'</em>. In this folder should be a file called <em>'ugsplatform.conf'</em>. Opening this with a text editor like <em>Notepad</em>, you'll want to find the line which says: "<em>#jdkhome="/path/to/jdk</em>". Delete the '#', then replace the text within the quotes with the Java path by right-clicking and selecting '<em>Paste</em>'. The completed edit should look like this: 
+
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p17_ConfigFile.png){.aligncenter .size-medium}
+
 To confirm the changes, click '<em>File</em>' in the top bar and '<em>Save</em>'. With all this done, once you go back to the UGS .exe launcher you should now be able to get UGS to start up without any errors.</li>
 </ul>
 
@@ -253,7 +285,11 @@ To confirm the changes, click '<em>File</em>' in the top bar and '<em>Save</em>'
   <li>Something's happened during the operation of the machine which was unexpected so it's decided to lock itself just in case.</li>
   <li>In some cases, your EEPROM settings (the machine settings have changed). Make sure they are correct by referring to the <a href="https://resources.sienci.com/view/lm-EEPROM-settings/" target="_blank" rel="noopener">default EEPROM settings</a>.</li>
   <li>To bring it out of the alarm state, press the "Soft Reset" button followed by the "Unlock" button and that will put the machine back into its 'IDLE' state.</li>
-  <li>If it continues to go into an ALARM state under similar conditions in the future, check that no wires or hardware have come loose and that there's nothing externally affecting the movement of your machine.<img class="size-medium wp-image-926 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/UGS-Alarm-State-850x446.png" alt="" width="850" height="446" /></li>
+  <li>If it continues to go into an ALARM state under similar conditions in the future, check that no wires or hardware have come loose and that there's nothing externally affecting the movement of your machine.
+  
+ ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p18_UGSAlarm.png){.aligncenter .size-medium}
+  
+</li>
 </ul>
 
 <h3>UGS sometimes stops/pauses/or reports an unknown command</h3>

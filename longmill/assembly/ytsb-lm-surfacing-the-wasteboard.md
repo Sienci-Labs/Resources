@@ -32,7 +32,7 @@ Technically, any flat end mill or bit can work for this application. However, us
 
 I used a g-code generator from INTUWiz (<a href="http://www.intuwiz.com/plane.html#.Xidt8sjYouV">http://www.intuwiz.com/plane.html#.Xidt8sjYouV</a>). Here are the settings I used for the 30x30 size:
 
-<img class="size-medium wp-image-1307 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/04/gcode-surfacing-750x1024-1-623x850.png" alt="" width="623" height="850" />
+![](/_images/_longmill/_assembly/_surfacing/lm_surface_p1.png){.aligncenter .size-medium}
 
 The center of the coordinates is in a point: 1
 
