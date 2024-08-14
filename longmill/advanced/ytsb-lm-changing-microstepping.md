@@ -12,10 +12,14 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: /_images/_longmill/_advanced/lm_Stepper_p1.jpg
 ---
 <!-- wp:paragraph -->
-<p>Every LongMill is powered by our Longboard CNC controller which has four integrated TB6600 stepper motor drivers (pictured). By default, we set each driver to 1/8 microstepping via the onboard DIP switches. We chose 1/8 microstepping because we found that it's a good balance between motor resolution and torque output. The theoretical resolution with this setup is 0.005mm. <img class="size-medium wp-image-906 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/Driver-circle-eigth-microstep-850x393.jpg" alt="" width="850" height="393" /></p>
+<p>Every LongMill is powered by our LongBoard CNC controller which has four integrated TB6600 stepper motor drivers (pictured). By default, we set each driver to 1/8 microstepping via the onboard DIP switches. We chose 1/8 microstepping because we found that it's a good balance between motor resolution and torque output. The theoretical resolution with this setup is 0.005mm.
+
+![](/_images/_longmill/_advanced/lm_Stepper_p1.jpg){.aligncenter .size-medium}
+</p>
+
 <!-- wp:heading -->
 <h2>What is Microstepping</h2>
 <!-- /wp:heading -->

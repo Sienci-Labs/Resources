@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: /_images/_longmill/_the_basics/lm_routersspindle_p1_Makita.jpg
 --- 
 Routers and spindles come in all shapes and sizes. When considering the right tool for your machine, there are several things you want to look out for such as:
 

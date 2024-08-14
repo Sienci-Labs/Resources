@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: /_images/_longmill/_advanced/lm_current_p1.jpg
 ---
 You can adjust the current on each axis of the LongMill. It is set to 2.2A by default. At this configuration, the LongMill has a max current draw of 8.8A (4 drivers x 2.2A) to match with the max current output of 10A from the default power supply.
 
@@ -22,23 +22,23 @@ Adjusting the maximum current settings on your machine can impact the performanc
 
 Increasing the maximum current settings can impact your machine in these ways:
 <ul>
- 	<li>Cause drivers and motors to overheat and break</li>
- 	<li>Increase power draw from the DC power supply and cause damage</li>
- 	<li>Affect the longevity of the machine and its components</li>
+  <li>Cause drivers and motors to overheat and break</li>
+  <li>Increase power draw from the DC power supply and cause damage</li>
+  <li>Affect the longevity of the machine and its components</li>
 </ul>
 If you do choose to adjust these settings, we recommend:
 <ul>
- 	<li>Upgrading your power supply</li>
- 	<li>Using higher-powered motors</li>
- 	<li>Use active cooling for your drivers</li>
+  <li>Upgrading your power supply</li>
+  <li>Using higher-powered motors</li>
+  <li>Use active cooling for your drivers</li>
 </ul>
 <h2>Adjusting the current</h2>
 Adjusting the current on each driver is easy. You can find the potentiometer with the markings on the driver itself. Depending on your control box design, you may have to remove the outer casing.
 
-<img class="size-medium wp-image-903 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/circle-eigth-microstep-850x393.jpg" alt="" width="850" height="393" />
+![](/_images/_longmill/_advanced/lm_current_p1.jpg){.aligncenter .size-medium}
 
 To adjust the current, simply use a small screwdriver to turn the potentiometer to the current setting you want. The two small notches on the head of the potentiometer help indicate the position. In this photo, you can see that the current is set to 2.2A since the slot between the two notches is pointed to 2.2(A) printed on the PCB.
 
 <a href="https://resources.sienci.com/wp-content/uploads/2022/03/Stepper-Driver-Current-Adjustment.pdf" target="_blank" rel="noopener">Download the instructions here.</a>
 
-The Longboard allows for a max current setting of 4.5A.
+The LongBoard allows for a max current setting of 4.5A.

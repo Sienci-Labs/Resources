@@ -15,7 +15,7 @@ skip_file: no
 featured_image: 
 ---
 <p><!-- wp:paragraph --></p>
-<p><em>For in-depth documentation on all of the settings in GRBL and what they mean, visit: </em><a href="https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration"><em>https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration</em></a><em>.</em></p>
+<em>For in-depth documentation on all of the settings in grbl and what they mean, visit:</em> <a href="https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration">https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration</a>.
 <p><!-- /wp:paragraph -->
 
 <!-- wp:paragraph --></p>

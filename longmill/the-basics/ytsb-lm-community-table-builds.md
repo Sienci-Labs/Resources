@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _
+featured_image: /_images/_longmill/_the_basics/lm_communitytable_p1_Mike.png
 ---
 There has been a variety of table designs to pop up within our community, as each LongMill owner works to set up their machine to suit their cutting needs. On this page we consolidated the most unique designs so that you can gain inspiration for your own table build by seeing what's worked for others before you. Each example will link to the original post where the table was shown off so that you can readily follow up with the original table designers if you'd like to inquire on their design further.
 
