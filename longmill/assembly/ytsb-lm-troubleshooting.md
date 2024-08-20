@@ -22,6 +22,7 @@ This part of the resources covers common issues and fixes for the LongMill. If y
 <h3>I am missing or cannot find a part</h3>
 
 Every LongMill is packed in our shop in Waterloo, ON by our team of trained staff. Every package goes through several checks to ensure that the correct parts and quantities are in each kit, but we sometimes make mistakes. If you can't find something, please reach out to us and we'll make it right. However, before <a href="https://sienci.com/contact-us/technical-help/" target="_blank" rel="noopener">reaching out to us</a>, there are a couple things you can check.
+
 <ul>
   <li>Ensure that you are following the assembly instructions for the correct version of the machine. There are variations between versions, including the packing order and assembly. More info can be found in the <a href="https://resources.sienci.com/view/lm-unboxing/">Unboxing</a> portion of the resources. <strong>Please note that our video instructions are based on the Version 2 design. </strong>Instructions from the video can still be referenced for additional help in assembling your machine.</li>
 </ul>
@@ -36,6 +37,7 @@ Every LongMill is packed in our shop in Waterloo, ON by our team of trained staf
 <h3>My Delrin anti-backlash nuts will not thread on</h3>
 
 During the assembly process, the anti-backlash nuts may be difficult to thread on, especially when threading between the base and the arm portions of the block. These nuts rely on the threads to line up for proper movement.
+
 <ul>
   <li>The alignment of the threads can be tensioned by turning the set screw or M5 screw, <strong>or pressing the arm down to help the threads line up while threading in the lead screw</strong>. Once the lead screw has been threaded on, it can be tensioned by following our <a href="https://resources.sienci.com/view/lm-maintenance/">maintenance guide</a></li>
   <li>Slightly loosen the two M5 bolts that hold the nut to the gantry. Over tightening the screws can crush the ACME threads, causing additional friction between the lead screw and nut.</li>
@@ -52,6 +54,7 @@ During the assembly process, the anti-backlash nuts may be difficult to thread o
 When you get to the end of the building process, you may be left with a small handful of extra parts.
 
 Don't worry, we supply extra additional parts so that
+
 <ul>
   <li>If a part doesn't work properly, the extra one can be used instead.</li>
   <li>If you lose something (especially those screws), you still have plenty of extra.</li>
@@ -66,6 +69,7 @@ Don't worry, we supply extra additional parts so that
 First ensure that your LongMill's power supply cable is connected to the wall and power brick correctly and that the green LED is lit up on the power supply brick. If you have an E-stop, check that the button is released by twisting it counterclockwise and if you have a power switch, ensure it's toggled on.
 
 Other things you can check:
+
 <ul>
   <li>If the red light on the controller top (newer versions) or on the drivers (visible through the grates on the underside of the controller) are on, then you are getting power to the controller. You may be having issues with connecting your machine to the computer.</li>
   <li>Make sure that the polarity of the power wiring is correct. Switch the wires around if need be (see picture).</li>
@@ -78,6 +82,7 @@ Other things you can check:
 <h3>One motor does not move or moves erratically</h3>
 
 When jogging or running the LongMill, one of the motors does not move correctly or at all.
+
 <ul>
   <li>Check that both the plugs on the controller side and the motor side are connected properly. We recommend completely disconnecting the plug and plugging it back in.</li>
   <li>Check that all of the wires on the plug are connected and secure.</li>
@@ -149,6 +154,7 @@ When jogging or running the LongMill, one of the motors does not move correctly 
 <h3>My lead screws wobble excessively</h3>
 
 Excessive wobble is when the lead screw is deviating from center by more than about 3mm or 1/8". This means that butting a measuring tape or ruler against the LongMill wasteboard and recording down the height of the lead screw at its lowest point, and then again at its highest point, should result in a difference in the two measurements of no more than 6mm or 1/4". Wobble can happen due to a loose lead screw or due to the screw being physically bent: if it's bent then the wobble will happen at any movement speed, whereas if it's loose then it will wobble mostly at higher movement speeds (above 2000mm/min).
+
 <ul>
   <li><strong>Loose screw:</strong> loosen the two M5-25mm screws that hold the Delrin anti-backlash nuts slightly for the axis which the lead screw is on and run the machine back and forth. This will align the lead screw and the nut. Re-tighten the screws once the wobbling as gone away. Also check the ACME locking nut and coupler on both ends of the screw are firmly tightened and sandwiching the lead screw properly.</li>
   <li><strong>Bent screw:</strong> a sure way to confirm is to completely remove the screw and roll it along a surface that is very flat and seeing if it rolls evenly.</li>
@@ -157,8 +163,8 @@ Excessive wobble is when the lead screw is deviating from center by more than ab
 <h3>The machine moves really slowly or not at all when I jog it</h3>
 
 <ul>
-  <li>If you are jogging your machine for the first time, your feedrate may be set to 10mm/min. This means it will only move 10mm in one minute (really really slow). Try increasing the speed until it is perceptible. 1000mm/min is a good place to start.</li>
-  <li>If you are running code or a job, make sure that your feedrates are set correctly.</li>
+  <li>If you are jogging your machine for the first time, your feed rate may be set to 10mm/min. This means it will only move 10mm in one minute (really really slow). Try increasing the speed until it is perceptible. 1000mm/min is a good place to start.</li>
+  <li>If you are running code or a job, make sure that your feed rates are set correctly.</li>
 </ul>
 
 <h3>My machine randomly cuts lines during my job</h3>
@@ -192,40 +198,33 @@ Excessive wobble is when the lead screw is deviating from center by more than ab
   <li>Check if your drivers are excessively hot. The drivers should not exceed 80C.</li>
 </ul>
 
-<h3>My machine stops cutting / loses connection on long jobs<strong>
+<h3>My machine stops cutting / loses connection on long jobs</h3>
 
-</strong></h3>
 Loss of connection on a long job can happen if your computer or USB port 'fall asleep' on you. If you plan on running long, intricate cuts on your CNC you'll have to change your computer power settings so that it 'stays awake' while cutting. Iif you're using a Mac computer, you can find dedicated instructions for sleep management here: <a href="https://support.apple.com/en-ca/guide/mac-help/mchle41a6ccd/mac" target="_blank" rel="noopener">https://support.apple.com/en-ca/guide/mac-help/mchle41a6ccd/mac</a>.
+
 <ul>
   <li>Click the <strong>Windows</strong> icon at the bottom left corner of your screen and start to type "<em>control panel</em>" to bring it up
 
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p8_p1.png){.aligncenter .size-medium}
 
 </li>
-  <li>Once you've clicked to open it, go to <strong>Hardware and Sound  </strong>then <strong>Power Options</strong>
-
-<strong>
+  <li>Once you've clicked to open it, go to <strong>Hardware and Sound</strong> then <strong>Power Options</strong>
 
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p9_p2.png){.aligncenter .size-medium}
 
-</strong>
-
-<strong> 
-
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p10_p3.png){.aligncenter .size-medium}
-
-</strong></li>
-  <li>Now, whichever plan you have currently selected (circled in the picture) will be the one that you want to click <strong>Change plan settings
+  </li>
+  <li>Now, whichever plan you have currently selected (circled in the picture) will be the one that you want to click <strong>Change plan settings</strong>
 
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p11_p4.png){.aligncenter .size-medium}
 
-</strong></li>
-  <li>Go to the second drop-down and set it to <strong>Never</strong>, save the changes to ensure that your computer never dozes off on its own. An additional step can be to stop your USB ports from 'sleeping' by clicking <strong>Change advanced power settings
+  </li>
+  <li>Go to the second drop-down and set it to <strong>Never</strong>, save the changes to ensure that your computer never dozes off on its own. An additional step can be to stop your USB ports from 'sleeping' by clicking <strong>Change advanced power settings</strong>
   
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p12_p5.png){.aligncenter .size-medium}
   
-  </strong></li>
-  <li>In the separate window that appears, you'll want to Expand the <strong>USB Settings</strong>, then <strong>USB selective suspend setting</strong>, and finally change this drop-down to "<strong>Disabled</strong>". Click to <strong>Apply</strong> these new settings.  <strong>**</strong>Sometimes on a Windows update these settings will be reset, if you want to make sure you've got all your bases covered, be sure to check back on these settings on occasion if you want to feel confident while running long jobs.**
+  </li>
+  <li>In the separate window that appears, you'll want to Expand the <strong>USB Settings</strong>, then <strong>USB selective suspend setting</strong>, and finally change this drop-down to "<strong>Disabled</strong>". Click to <strong>Apply</strong> these new settings. <strong>**</strong>Sometimes on a Windows update these settings will be reset, if you want to make sure you've got all your bases covered, be sure to check back on these settings on occasion if you want to feel confident while running long jobs.**
   
  ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p13_p6.png){.aligncenter .size-medium}
  </li>
@@ -241,7 +240,9 @@ If you’re using UGS:
 
 </li>
 </ul>
+
 If this was not the problem:
+
 <ul>
   <li>Check that the bit you are using is not tapered and is conductive at the both its sides and end so that it can make electrical contact with the touch plate.</li>
   <li>Ensure the settings you use are from the touch plate page on our website (not the settings in the video): <a href="https://resources.sienci.com/view/lm-touch-plates/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-touch-plates/</a></li>
@@ -272,7 +273,7 @@ If this was not the problem:
   
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p16_JavaPath.png){.aligncenter .size-medium}
 
-Once the path is copied, navigate to where you downloaded UGS; this will normally be located inside your 'Downloads' folder. Once there, go to:<em> 'ugs-platform-app-2.0-SNAPSHOT <span class="st">→</span> ugsplatform <span class="st">→</span> etc'</em>. In this folder should be a file called <em>'ugsplatform.conf'</em>. Opening this with a text editor like <em>Notepad</em>, you'll want to find the line which says: "<em>#jdkhome="/path/to/jdk</em>". Delete the '#', then replace the text within the quotes with the Java path by right-clicking and selecting '<em>Paste</em>'. The completed edit should look like this: 
+Once the path is copied, navigate to where you downloaded UGS; this will normally be located inside your 'Downloads' folder. Once there, go to:<em> 'ugs-platform-app-2.0-SNAPSHOT <span class="st">→</span> ugsplatform <span class="st">→</span> etc'</em>. In this folder should be a file called <em>'ugsplatform.conf'</em>. Opening this with a text editor like <em>Notepad</em>, you'll want to find the line which says: "<em>#jdkhome="/path/to/jdk</em>". Delete the '#', then replace the text within the quotes with the Java path by right-clicking and selecting '<em>Paste</em>'. The completed edit should look like this:
 
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p17_ConfigFile.png){.aligncenter .size-medium}
 
@@ -295,7 +296,8 @@ To confirm the changes, click '<em>File</em>' in the top bar and '<em>Save</em>'
 
 <h3>UGS sometimes stops/pauses/or reports an unknown command</h3>
 
-Carbide Create uses M6/M06 codes that are used for tool changes. Since the LongMill does not have a toolchanger or use tool change commands, it will pause at M6/M06 commands.
+Carbide Create uses M6/M06 codes that are used for tool changes. Since the LongMill does not have a tool changer or use tool change commands, it will pause at M6/M06 commands.
+
 <ul>
   <li>You can press "Play" to continue the job.</li>
   <li>If you want to set up UGSPlatform to ignore M6/M06 commands, follow the writeup here: <a href="https://forum.sienci.com/t/permanent-fix-to-an-error-was-detected-while-sending-m6/395" target="_blank" rel="noopener">https://forum.sienci.com/t/permanent-fix-to-an-error-was-detected-while-sending-m6/395</a></li>

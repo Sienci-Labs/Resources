@@ -15,29 +15,29 @@ skip_file: no
 featured_image: /_images/_longmill/_assembly/_starterprojects/lm_starterp_p1.png
 ---
 
-<p>Now that you've put together your LongMill, you're probably in a rush to run it for the first time! Well good news, we've put together two different projects for you to try out with minimal requirements and setup.</p>
+Now that you've put together your LongMill, you're probably in a rush to run it for the first time! Well good news, we've put together two different projects for you to try out with minimal requirements and setup.
 
 <h2>LongMill line writing</h2>
 
-<p>This is a very simple file which follows a line writing to spell out "LongMill". The code that's provided below has been made to make a very shallow cut at a low speed out of a 310x45mm piece of material. These conservative settings mean that the file can be run with almost any cutting tool out of almost any type of material. To set it up, mount your material in the cutting area so that it's somewhat square to the machine. Using gSender or the control software of your preference, jog the tool over to the bottom left of where you've laid out a 310x45mm space where the tool can cut. Be sure that this space doesn't have any screws or clamps in it which will interfere with the lettering and also make sure that it's fully within the cutting area. Bring the tool down to the surface of the material (either manually or by jogging) and finally click "Reset zero" to confirm that you want to set this as the tool origin.</p>
+This is a very simple file which follows a line writing to spell out "LongMill". The code that's provided below has been made to make a very shallow cut at a low speed out of a 310x45mm piece of material. These conservative settings mean that the file can be run with almost any cutting tool out of almost any type of material. To set it up, mount your material in the cutting area so that it's somewhat square to the machine. Using gSender or the control software of your preference, jog the tool over to the bottom left of where you've laid out a 310x45mm space where the tool can cut. Be sure that this space doesn't have any screws or clamps in it which will interfere with the lettering and also make sure that it's fully within the cutting area. Bring the tool down to the surface of the material (either manually or by jogging) and finally click "Reset zero" to confirm that you want to set this as the tool origin.
 
 ![](/_images/_longmill/_assembly/_starterprojects/lm_starterp_p1.png "Tool (yellow) in the bottom left-hand corner (visualized using CAMotics)"){.aligncenter .size-medium}
 
-<p><a href="https://resources.sienci.com/wp-content/uploads/2021/05/LongMill-line1.zip">LongMill-line.zip</a>
+<a href="https://resources.sienci.com/wp-content/uploads/2021/05/LongMill-line1.zip">LongMill-line.zip</a>
 
-Download the file above, 'unzip' or 'extract' it, then load it into gSender by clicking the "Load File" button. Once loaded, you'll be able to see a visualization of the tools movements. If you're satisfied, turn on your router (note this file doesn't currently contain spindle control commands) then run the file!</p>
+Download the file above, 'unzip' or 'extract' it, then load it into gSender by clicking the "Load File" button. Once loaded, you'll be able to see a visualization of the tools movements. If you're satisfied, turn on your router (note this file doesn't currently contain spindle control commands) then run the file!
 
 <h2>CNSheep</h2>
 
-<p>This is the other one of our first projects, a sheep cut into foam that we call the CNSheep. The code was designed for cutting out of foam with a 2-flute, 1/8" end mill but it should also work on soft woods as well. If you don't have these tools or materials on hand, the .zip file also contains the 3D model of the sheep so that you can run it through your desired CAM software to set it up for another material or tool. <a href="https://resources.sienci.com/wp-content/uploads/2021/05/CNSheep-files3-1.zip">CNSheep-files.zip</a> When you're setting up to cut, follow the same setup procedure as outlined in the first project above except that the pre-built g-code starts in the <strong>middle</strong> instead of the front corner, so reset the zero point in the center. Any workholding method should be sufficient, you can reference these on the 'Workholding' page in 'The Basics' section of the resources. The sheep's dimensions are 100mm wide by 70mm tall and will cut 6mm deep.
+This is the other one of our first projects, a sheep cut into foam that we call the CNSheep. The code was designed for cutting out of foam with a 2-flute, 1/8" end mill but it should also work on soft woods as well. If you don't have these tools or materials on hand, the .zip file also contains the 3D model of the sheep so that you can run it through your desired CAM software to set it up for another material or tool. <a href="https://resources.sienci.com/wp-content/uploads/2021/05/CNSheep-files3-1.zip">CNSheep-files.zip</a> When you're setting up to cut, follow the same setup procedure as outlined in the first project above except that the pre-built g-code starts in the <strong>middle</strong> instead of the front corner, so reset the zero point in the center. Any workholding method should be sufficient, you can reference these on the 'Workholding' page in 'The Basics' section of the resources. The sheep's dimensions are 100mm wide by 70mm tall and will cut 6mm deep.
 
 ![](/_images/_longmill/_assembly/_starterprojects/lm_starterp_p2.jpg
 "If all goes well, your final product should end up looking something like this!"){.aligncenter .size-medium}
 
 <h2>The Final Steps towards starting with CNC</h2>
 
-<p>Now that you've got your machine running successfully, we've got a lot more information for you the check out that's easily accessible on the left navigation bar:</p>
-<!-- wp:table -->
+Now that you've got your machine running successfully, we've got a lot more information for you the check out that's easily accessible on the left navigation bar:
+
 <table class="wp-table" style="width: 90%; margin-left: auto; margin-right: auto; border: 1px solid black; text-align: left; border-collapse: collapse; line-height: 1.2em; background: white; word-break: initial;">
 <tbody>
 <tr>
@@ -77,7 +77,7 @@ Download the file above, 'unzip' or 'extract' it, then load it into gSender by c
 
 <h2>Our Youtube channel</h2>
 
-<p>Did you know we have a <strong><a href="https://www.youtube.com/channel/UCS4SdQ0sqFhvjitLjh4EsGQ?">Youtube channel</a></strong> where you can find videos and tutorials on using your LongMill? We cover things like:</p>
+Did you know we have a <strong><a href="https://www.youtube.com/channel/UCS4SdQ0sqFhvjitLjh4EsGQ?">Youtube channel</a></strong> where you can find videos and tutorials on using your LongMill? We cover things like:
 
 <ul>
 <li>How to go from idea to completed project</li>
@@ -87,9 +87,8 @@ Download the file above, 'unzip' or 'extract' it, then load it into gSender by c
 <li>and more!</li>
 </ul>
 
-<figure><iframe src="https://www.youtube.com/embed/Q-sfK-QxwzQ" width="100%" height="315" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+https://www.youtube.com/embed/Q-sfK-QxwzQ
 
-<p>&nbsp;</p>
-<p>We really hope you enjoy using your LongMill Benchtop CNC in the days, weeks, and months to come. Remember that CNC routers are an amazing tool that you can use for whatever you like, and the point of the LongMill and it's community is to offer you resources and support so that you can be confident in using your CNC to make what you imagine. Good luck and happy making!</p>
-<p>-The Sienci Labs team</p>
-<p>&nbsp;</p>
+We really hope you enjoy using your LongMill Benchtop CNC in the days, weeks, and months to come. Remember that CNC routers are an amazing tool that you can use for whatever you like, and the point of the LongMill and it's community is to offer you resources and support so that you can be confident in using your CNC to make what you imagine. Good luck and happy making!
+
+-The Sienci Labs team

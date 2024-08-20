@@ -15,12 +15,15 @@ skip_file: no
 featured_image: /_images/_longmill/_assembly/_surfacing/lm_surface_p1.png
 ---
 
-<figure><iframe src="https://www.youtube.com/embed/aW27K_1OLT0" width="100%" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></figure>
+https://www.youtube.com/embed/aW27K_1OLT0
+
 <h2><strong>Why surface your wasteboard?</strong></h2>
+
 <ol>
   <li>Surfacing your wasteboard helps level the surface in relation to your machine. This means that if you have bumps or uneven surfaces on your wasteboard, or if your wasteboard is higher on one side that the other, surfacing will even out and flatten the board.</li>
   <li>Cleans off old marks and scars, leaving you with a new, clean surface to glue, clamp, and mount your workpiece.</li>
 </ol>
+
 If you are using a <a href="https://sienci.com/product/22mm-surfacing-bit/">22mm surfacing bit</a>, you can use this code for your LongMill. This code will cut 1mm down in one pass. Please set your origin to the bottom left corner of the machine.
 
 <a href="https://sienci.com/wp-content/uploads/2020/01/LongMill-Surfacing-Code.zip">Download LongMill Surfacing Code (12x12, 12x30, 30x30)</a>
@@ -35,26 +38,16 @@ I used a g-code generator from INTUWiz (<a href="http://www.intuwiz.com/plane.ht
 
 ![](/_images/_longmill/_assembly/_surfacing/lm_surface_p1.png){.aligncenter .size-medium}
 
-The center of the coordinates is in a point: 1
-
-Side a: 762
-
-Side b: 762
-
-Tool diameter: 22
-
-Y overlap percentage: 45
-
-Total depth of cutting: 1
-
-Depth of cutting per pass: 1
-
-Feed rate (X,Y G00): 2000
-
-Feedrate (X,Y, G01): 2000
-
-Feedrate( Z G00): 500
-
-Feedrate(Z G01): 500
+The center of the coordinates is in a point: 1<br>
+Side a: 762<br>
+Side b: 762<br>
+Tool diameter: 22<br>
+Y overlap percentage: 45<br>
+Total depth of cutting: 1<br>
+Depth of cutting per pass: 1<br>
+Feed rate (X,Y G00): 2000<br>
+Feed rate (X,Y, G01): 2000<br>
+Feed rate( Z G00): 500<br>
+Feed rate(Z G01): 500<br>
 
 <strong>You can also use a different program if you want and cut a shallow pocket of the size you need.</strong>

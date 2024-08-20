@@ -22,6 +22,7 @@ The LongMill is designed to be mounted to a flat surface which is provided by th
 ![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p02.jpg){.aligncenter .size-medium}
 
 We do not ship LongMills with a wasteboard because:
+
 <ol>
   <li>It saves the cost for shipping. For example, a 4ftx4ft piece of 3/4” MDF shipped often costs over a hundred dollars in shipping and is very easy to damage during transit. You can usually find a full 4ftx8ft sheet of 3/4” MDF for under $60 at your local lumber or hardware store.</li>
   <li>Users can choose the size and material of the wasteboard to match their needs.</li>
@@ -49,11 +50,10 @@ Once assembled, each model of the LongMill (12×12, 12×30, and 30×30) is desig
   <li>If you have the <strong>dust shoe</strong> attachment in place, it’ll reduce your cutting travel in the X-dimension by approximately 34mm.</li>
   <li>These diagrams have got a small buffer on the cutting area (i.e. it’s been shrunken slightly) since each part has its own manufacturing tolerance and can come together differently in assembly so we want to ensure we’re providing a reasonable guarantee on what can be expected from your machine.</li>
 </ol>
+
 [tabby title="12x12"]
 
 ![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p05.png){.aligncenter .size-medium}
-
-&nbsp;
 
 [tabby title="12x30"]
 

@@ -21,9 +21,9 @@ The LongMill electronics come pre-assembled and are pretty much ready to go out 
 
 ![](/_images/_longmill/_assembly/_electronics/lm_electronics_p02_v3.jpg){.aligncenter .size-medium}
 
-<h2>DC power supply connector polarity<b data-stringify-type="bold"> and E-stop connector</b></h2>
+<h2>DC power supply connector polarity and E-stop connector</h2>
 
-It's important that the connector coming from the DC power brick has a <b data-stringify-type="bold">white</b> or <b data-stringify-type="bold">red</b> wire on the left side and a <b data-stringify-type="bold">black</b> one on the right when the screw terminal is facing you (as pictured). Both this connector and the connector coming from the E-stop should have the wires attached very securely. The order of the wires going to the E-stop connector don't matter.
+It's important that the connector coming from the DC power brick has a <b>white</b> or <b>red</b> wire on the left side and a <b>black</b> one on the right when the screw terminal is facing you (as pictured). Both this connector and the connector coming from the E-stop should have the wires attached very securely. The order of the wires going to the E-stop connector don't matter.
 
 Check that the wires are connected appropriately by tugging on them. Secure them using the screw terminals and a flat head screwdriver if they’re loose or disconnected.
 
@@ -66,7 +66,9 @@ Now, connect the emergency stop button to the control box via the connector on t
 Once you’ve checked that the lights are turning on, press the E-stop button to turn it back off.
 
 A note on the control box is that it will be limited in it's placement due to the length of the Z-axis motor cable. If you don't think you'll be using the on-board control buttons feel free to mount the box out of the way - the basic operations can be controlled via a USB cable and the E-stop. If you wish to place it further from the machine, extending the wires for that cable is quite straightforward either through the use of a soldering iron or through crimp-able wire extenders.
+
 <h2>Connecting the LongMill to your computer</h2>
+
 To manipulate your LongMill and send it files, you'll need a g-code sender which acts as the control software. We recommend using gSender, which is what we'll be using to show the next couple of steps and in the remaining part of the assembly.
 
 gSender works with any operating system: Windows / PC , Mac, Linux, and more. If you are not sure which type of Windows you are using, you are most likely using a 64 bit computer. You can try both and see which one starts.

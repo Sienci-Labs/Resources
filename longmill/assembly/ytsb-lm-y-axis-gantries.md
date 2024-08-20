@@ -15,10 +15,7 @@ skip_file: no
 featured_image: /_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p01 (cover).jpg
 ---
 
-<h2>
-
 ![](</_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p01 (cover).jpg>){.aligncenter .size-medium}
-</h2>
 
 <h2>Y-axis gantries (wheels)</h2>
 

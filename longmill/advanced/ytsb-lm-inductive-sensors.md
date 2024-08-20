@@ -126,7 +126,7 @@ The three cables plug into the three white JST connectors labelled as XLim, YLim
 
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p5_DSC00432.jpg "X, Y and Z sensors plugged into LongBoard"){.aligncenter .size-medium}
 
-Once installed, you can verify that each sensor is working and is plugged into the correct port by using the console within UGS, gSender, or other machine interface software. Type the following command into the console: <b>*$10=19*</b><span style="font-weight: 400;"> and press enter. This will enable reporting of the current status of each of the sensors.
+Once installed, you can verify that each sensor is working and is plugged into the correct port by using the console within UGS, gSender, or other machine interface software. Type the following command into the console: <b>*$10=19*</b><span> and press enter. This will enable reporting of the current status of each of the sensors.
 </span>
 
 You can either jog the machine to trigger the sensor (shown by a red light on the sensor), or hold anything made of steel in front of the sensor. While the sensor is triggered, enter the following command into the console: <b>*?*</b>

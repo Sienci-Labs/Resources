@@ -59,7 +59,7 @@ Start off by pushing in two M5-nylock nuts into the hexagonal holes in the 3D pr
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p9_NutsIn.jpg "Make sure to keep the round part of the nut facing towards you when pushing them in."){.aligncenter .size-medium}
 
-To the side, put the steel plate on the top of the motor, ensuring that its cable bundle is <b data-stringify-type="bold">facing away</b> from the middle-sized hole on the plate. Loosely thread four M5-25mm bolts through the slots and the motor, the plate slots may be a little tight but that’s fine; we’ll be adjusting this part and re-tightening the bolts later in the assembly.
+To the side, put the steel plate on the top of the motor, ensuring that its cable bundle is <b>facing away</b> from the middle-sized hole on the plate. Loosely thread four M5-25mm bolts through the slots and the motor, the plate slots may be a little tight but that’s fine; we’ll be adjusting this part and re-tightening the bolts later in the assembly.
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p10_MotorMount.JPG "Screw the four M5 screws into the motor. Ensure that the connector is facing the correct direction to make wiring easier later."){.aligncenter .size-medium}
 

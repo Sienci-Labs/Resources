@@ -35,7 +35,9 @@ The normal areas of maintenance you'll want to keep your eyes on will include:
 Frequency of maintenance will vary based on the nature of the work you do on your LongMill: dust produced and cutting forces. For example, always cutting hard materials with no dust boot will require much more regular checkups versus light PCB cutting. It's generally a good idea to clean the rails and check the nuts and v-wheels every 10-20 hours, then check for loose hardware (bolts, nuts, set screws on pulley and couplers) and oil the linear guides every 20-30 hours.
 
 In addition, you'll notice that the nuts and v-wheels are consumables, meaning that they'll eventually wear out to the point that they need replacing. We recommend replacing your delrin anti-backlash nuts every 1500-2000 hours, or when the tensioning screw does not allow for any more adjustment. Similarly, we recommend replacing your v-wheels every 1500-2000 hours, or when the v-wheels have worn down to the level where the eccentric nuts no longer provide any tension. You can tell if they need replacing if the gantries are loose on the rails even after adjusting the eccentric nuts to their extreme position.
+
 <h2>Cleaning your rails and wheels</h2>
+
 Over time, your rails and wheels may accumulate dust which takes the form of black splotches. It gets compressed into this black form after being rolled over by the v-wheels. We recommend regularly cleaning off this gunk with a small brush, plastic scraper, wood scrap, or even your fingernails. Remember to clean both the top and bottom edges of each rail and try your best to get into the crevices of all the wheels.
 
 This is something that you won't have to do as often if you have good dust collection.
