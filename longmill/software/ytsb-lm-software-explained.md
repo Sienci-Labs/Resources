@@ -14,6 +14,7 @@ custom_fields:
 skip_file: yes
 featured_image: 
 ---
+
 The core concepts behind operating a CNC router are very basic. A close analogy would be as follows:
 
 *Imagine that you've got a friend with a very steady set of hands who's decided they want to help you on your next woodworking project. They're holding tightly onto a trim router and are able to move it very precisely to any location within a limited space; they just need you to say exactly where you need them to move. Clearly your friend is very generous and skilled but all you've got is a sketch on a piece of paper, so how are you going to be able to describe what you need them to cut out?*

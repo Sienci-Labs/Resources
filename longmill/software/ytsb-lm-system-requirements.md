@@ -14,6 +14,7 @@ custom_fields:
 skip_file: yes
 featured_image: 
 ---
+
 With today's advancements in computing hardware, most users will have no issues using their old or new computers and laptops to run their CNC machines. Generally, as long as your computer is <strong>newer than 5 years old</strong>, you should have no issues running a g-code sender like gSender or UGS. This page discusses hardware requirements and considerations to make for running your CNC machine.
 
 Your system requirements may change depending on

@@ -14,6 +14,7 @@ custom_fields:
 skip_file: no
 featured_image: /_images/_longmill/_advanced/_7_Laser/lm_laser_p1_PSupply.jpg
 ---
+
 Putting a laser on your LongMill or any CNC machine can be a fun and useful tool in expanding your creativity. The LongMill fully supports the addition of a laser module.
 
 Please note that lasers are very dangerous. Sienci Labs is not responsible for injury or damage caused by the use or installation of lasers.

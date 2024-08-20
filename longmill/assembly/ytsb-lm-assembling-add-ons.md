@@ -14,6 +14,7 @@ custom_fields:
 skip_file: no
 featured_image: /_images/_longmill/_assembly/_addons/lm_addons_p1.jpg
 ---
+
 <!-- wp:paragraph -->
 
 <h2>Sienci Labs Dust Shoe</h2>
@@ -168,11 +169,11 @@ featured_image: /_images/_longmill/_assembly/_addons/lm_addons_p1.jpg
 <!-- wp:paragraph -->
 <p>If you want to run a probing operation, first we need to place the touch plate and set up the magnet. There needs to always be an electrical connection between the block and magnet for probing to work. gSender has a feature to check this for you, meanwhile UGS you'll need to do this manually.</p>
 <ul>
-<li aria-level="1">Make sure the magnet is attached to the collet nut of the Makita router.</li>
+<li>Make sure the magnet is attached to the collet nut of the Makita router.</li>
 <li>For XYZ probing:
 <ol>
-<li aria-level="1">Place the touch plate on the front left corner of your material. Make sure that both of the inner faces of the touch plate are contacting the edges of your material.</li>
-<li aria-level="1">Jog your machine to position the cutting tool about 10mm (½") or closer above the circular logo on the touch plate.</li>
+<li>Place the touch plate on the front left corner of your material. Make sure that both of the inner faces of the touch plate are contacting the edges of your material.</li>
+<li>Jog your machine to position the cutting tool about 10mm (½") or closer above the circular logo on the touch plate.</li>
 </ol>
 </li>
 </ul>
@@ -214,19 +215,19 @@ featured_image: /_images/_longmill/_assembly/_addons/lm_addons_p1.jpg
 <li>For just finding the top of your material (Z):
 <ol>
 <li>Flip your touch plate upside down and place it on top of the material that you want to find the top of.</li>
-<li aria-level="1">Position the cutting tool so that it's above the indented part of the touch plate.</li>
+<li>Position the cutting tool so that it's above the indented part of the touch plate.</li>
 </ol>
 </li>
-<li aria-level="1">For XY probing:
+<li>For XY probing:
 <ol>
-<li aria-level="1">Place the touch plate on the front left corner of your material. Make sure that both of the inner faces of the touch plate are contacting the edges of your material.</li>
-<li aria-level="1">Jog your machine to position the cutting tool at the outer corner of the plate, lowered down from its top surface.</li>
+<li>Place the touch plate on the front left corner of your material. Make sure that both of the inner faces of the touch plate are contacting the edges of your material.</li>
+<li>Jog your machine to position the cutting tool at the outer corner of the plate, lowered down from its top surface.</li>
 </ol>
 </li>
 <li>For X and Y probing:
 <ol>
-<li aria-level="1">Place the touch plate on the front left corner of your material. Make sure that both of the inner faces of the touch plate are contacting the edges of your material.</li>
-<li aria-level="1">Jog your machine to position the cutting tool away from the X or Y face.</li>
+<li>Place the touch plate on the front left corner of your material. Make sure that both of the inner faces of the touch plate are contacting the edges of your material.</li>
+<li>Jog your machine to position the cutting tool away from the X or Y face.</li>
 </ol>
 </li>
 </ul>

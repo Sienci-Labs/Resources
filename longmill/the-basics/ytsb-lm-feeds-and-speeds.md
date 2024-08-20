@@ -14,6 +14,7 @@ custom_fields:
 skip_file: no
 featured_image: 
 ---
+
 <p>When cutting material with a rotating bit, you can imagine that going too slow will dull or break the bit very quickly. For example, imagine trying to cut through a plank of wood with a saw except instead of moving the saw back and forth you're just trying to push it directly through. Similarly, a bit that's moving too fast can burn or melt the material that you're cutting. Finding a happy medium between these two extremes is a balancing act between three main factors:</p>
 
 <ol>

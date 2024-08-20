@@ -12,9 +12,10 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_longmill/_the_basics/lm_dustshoe_p1.jpg
+featured_image: _images/_longmill/_the-basics/lm_dustshoe_p1.jpg
 --- 
-![](/_images/_longmill/_the_basics/lm_dustshoe_p1.jpg){.aligncenter .size-medium}
+
+![](/_images/_longmill/_the-basics/lm_dustshoe_p1.jpg){.aligncenter .size-medium}
 
 <!-- wp:paragraph -->
 <p>CNC milling can be a messy job. A dust shoe is a great way to suck dust up as you mill and makes final cleanup easy.</p>

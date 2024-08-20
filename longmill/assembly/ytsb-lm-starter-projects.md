@@ -14,6 +14,7 @@ custom_fields:
 skip_file: no
 featured_image: /_images/_longmill/_assembly/_starterprojects/lm_starterp_p1.png
 ---
+
 <p>Now that you've put together your LongMill, you're probably in a rush to run it for the first time! Well good news, we've put together two different projects for you to try out with minimal requirements and setup.</p>
 
 <h2>LongMill line writing</h2>

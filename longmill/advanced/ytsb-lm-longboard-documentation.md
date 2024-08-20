@@ -12,8 +12,9 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: /_images/_longmill/_advanced/_12_LBDetails/lm_lbdeets_p1_DrawingRev1.4.jpg
+featured_image: /_images/_longmill/_advanced/_12_LBDetails/lm_lbdeets_p4_PausePlayStop.jpg
 ---
+
 The LongBoard is a powerful, three axis CNC controller and driver system for the LongMill and other CNC routers. LongBoards run with grbl firmware and come with four TB6600 driver modules that run single X and Z axis, and dual Y-axis bipolar stepper motors making them suitable for small to medium size hobby CNC routers. They also come with an assortment of inputs and outputs that allow users to connect items such as limit switches, probes, spindle control, coolant control, lasers, and more.
 
 The LongBoard was jointly designed by our friend Chris Hadjuk and the rest of the Sienci Labs team.
@@ -27,6 +28,7 @@ The LongBoard was jointly designed by our friend Chris Hadjuk and the rest of th
 The LongBoard has an operating voltage range of 12V to 48V. Most LongMills come standard with a 24V power supply.
 
 The input voltage to the drivers can impact the performance of your machine. For more info, check out these articles:
+
 <ul>
   <li><a href="http://www.e-jpc.com/blog/?p=111#:~:text=Because%20of%20these%20benefits%2C%20stepper,used%20for%20motion%20control%20systems." target="_blank" rel="noopener">Elinco International JPC - Stepper Motor Voltage Explained</a></li>
   <li><a href="https://www.machinedesign.com/motors-drives/article/21835161/misconceptions-about-stepper-motors-explained" target="_blank" rel="noopener">MachineDesign - Misconceptions about Stepper Motors Explained</a></li>
@@ -45,17 +47,13 @@ The Arduino UNO can draw up to 500mA from your computer USB port.
 
 The LongBoard uses four TB6600 drivers. The data-sheet for the driver chip can be found here: <a href="https://toshiba.semicon-storage.com/us/semiconductor/product/motor-driver-ics/stepping-motor-driver-ics/detail.TB6600HG.html" target="_blank" rel="noopener">https://toshiba.semicon-storage.com/us/semiconductor/product/motor-driver-ics/stepping-motor-driver-ics/detail.TB6600HG.html</a>
 
-Specification for the driver may vary due to the operating limits of periphery components.
+Specification for the driver may vary due to the operating limits of periphery components:
 
-Type: Bipolar stepper motor driver
-
-Microstepping: Full, Half, Quarter, 1/8, 1/16 step resolution / Pseudo-sinewave drive (PWM chopper type) / High output current / Low R-on / Power-on reset circuit
-
-Max output current: 4A
-
-Max output voltage: 48V
-
-Operating temperature: -30C to 85C
+- Type: Bipolar stepper motor driver
+- Microstepping: Full, Half, Quarter, 1/8, 1/16 step resolution / Pseudo-sinewave drive (PWM chopper type) / High output current / Low R-on / Power-on reset circuit
+- Max output current: 4A
+- Max output voltage: 48V
+- Operating temperature: -30C to 85C
 
 <h2>Mechanical</h2>
 
@@ -92,6 +90,7 @@ Connector 12, 13, 14, 15 (Motor side, not board side) <a href="https://www.lcsc
 The LongBoard's Arduino UNO comes pre-installed with grbl firmware. Users can modify settings using EEPROM settings or flash entirely new firmware onto their boards if they wish.
 
 *From the grbl website:*
+
 <blockquote>Grbl is a no-compromise, high performance, low cost alternative to parallel-port-based motion control for CNC milling. This version of Grbl runs on an Arduino with a 328p processor (Uno, Duemilanove, Nano, Micro, etc).
 
 The controller is written in highly optimized C utilizing every clever feature of the AVR-chips to achieve precise timing and asynchronous operation. It is able to maintain up to 30kHz of stable, jitter free control pulses.
@@ -106,8 +105,8 @@ Grbl includes full acceleration management with look ahead. That means the contr
   <li>Lead Developer: Sungeun "Sonny" Jeon, Ph.D. (USA) aka @chamnit</li>
   <li>Built on the wonderful Grbl v0.6 (2011) firmware written by Simen Svale Skogsrud (Norway).</li>
 </ul>
-
 </blockquote>
+
 There is a wealth of information and knowledge available on the <a href="https://github.com/gnea/grbl/wiki" target="_blank" rel="noopener">grbl Wiki pages</a> that can help you use the LongBoard or customize features and functions of your machine. We recommend reading through the Wiki pages if you are looking to explore additional modifications to your LongBoard through the firmware or if you need help with setting up new machines.
 
 <h2>grbl Configuration</h2>

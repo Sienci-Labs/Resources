@@ -14,6 +14,7 @@ custom_fields:
 skip_file: no
 featured_image: _images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p01 (cover).jpg
 ---
+
 ![](</_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p01 (cover).jpg>){.aligncenter .size-medium}
 
 <h2>Feet sub-assemblies</h2>

@@ -13,7 +13,8 @@ custom_fields:
     basepress_post_icon: bp-caret-right
 skip_file: no
 featured_image: 
---- 
+---
+
 A touch plate can make it quicker and easier to find your origin point on your material. There are a lot of different types of touch plates, but the vast majority use some sort of metal block that detects when your end mill makes contact with its surface by completing a circuit.
 
 Among touch plates, you can find ones that measure just the Z-axis or some that can also find the offset between the X and Y-axes as well. Locating in the X and Y-axes is a nice additional feature, but it doesn't work for irregularly shaped bits such as v-bits and dado bits due to their inconsistent diameter along their height or radius.

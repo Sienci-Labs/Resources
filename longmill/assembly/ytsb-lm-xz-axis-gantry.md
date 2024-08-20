@@ -14,6 +14,7 @@ custom_fields:
 skip_file: no
 featured_image: /_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p1_Drawing.jpg
 ---
+
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p1_Drawing.jpg){.aligncenter .size-medium}
 
 The following pages in the assembly section will guide you through how all the parts will fit together to make your LongMill. You should find that each major step is self-explanatory, but the required parts and quantities will still be written as an additional reference.

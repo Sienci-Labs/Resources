@@ -12,20 +12,17 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: /_images/_longmill/_advanced/_8_GRBL/lm_grbl_p2_FirmTool.png
 ---
-<p><!-- wp:paragraph --></p>
+
 <em>For in-depth documentation on all of the settings in grbl and what they mean, visit:</em> <a href="https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration">https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration</a>.
-<p><!-- /wp:paragraph -->
 
-<!-- wp:paragraph --></p>
-<p>You can make changes to your machine's settings by changing the values in your EEPROM. These are settings that will persist even after you power off your machine and control things like the maximum speed, the acceleration, steps per mm, and more.</p>
-<p><!-- /wp:paragraph -->
+You can make changes to your machine's settings by changing the values in your EEPROM. These are settings that will persist even after you power off your machine and control things like the maximum speed, the acceleration, steps per mm, and more.
 
-<!-- wp:paragraph --></p>
-<p>Start by sending the command "$$" to your machine. Your console will give you a list of values.</p>
-<p><strong>DEFAULT SETTINGS</strong></p>
-<p><!-- wp:table --></p>
+Start by sending the command "$$" to your machine. Your console will give you a list of values.
+
+<strong>DEFAULT SETTINGS</strong>
+
 <table class="wp-table" width="500px">
 <tbody>
 <tr>
@@ -170,13 +167,9 @@ featured_image:
 </tr>
 </tbody>
 </table>
-<p><!-- /wp:table --><!-- /wp:paragraph -->
 
-<!-- wp:paragraph --></p>
-<p>To change a setting, simply send the command that corresponds to what setting you want to change. For example, if I want to set my maximum feed rate in the Z-axis to 1500mm/min, then I would send the command "$112=1500".</p>
-<p>If you're using UGS, you can also directly import the LongMills firmware settings using this downloadable file: <a href="https://resources.sienci.com/wp-content/uploads/2021/05/LongMill_firmware.zip" target="_blank" rel="noopener noreferrer">LongMill UGS Firmware Config</a></p>
-<p><!-- /wp:paragraph -->
+To change a setting, simply send the command that corresponds to what setting you want to change. For example, if I want to set my maximum feed rate in the Z-axis to 1500mm/min, then I would send the command "$112=1500".
 
-<!-- wp:paragraph --></p>
-<p>For advanced users, or users that want to add additional functionality such as with end stops and lasers, you may make changes to these settings.</p>
-<p><!-- /wp:paragraph --></p>
+If you're using UGS, you can also directly import the LongMills firmware settings using this downloadable file: <a href="https://resources.sienci.com/wp-content/uploads/2021/05/LongMill_firmware.zip" target="_blank" rel="noopener noreferrer">LongMill UGS Firmware Config</a>
+
+For advanced users, or users that want to add additional functionality such as with end stops and lasers, you may make changes to these settings.

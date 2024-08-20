@@ -14,6 +14,7 @@ custom_fields:
 skip_file: no
 featured_image: /_images/_longmill/_advanced/_5_LimitS/lm_limits_p1_LongBoard.jpg
 ---
+
 Limit switches (also referred to as end stops or homing switches) are sensors that sit at one or both ends of each movement axis of a CNC to provide a few different functions. There are many different limit switch designs which broadly fall under being either mechanical or non-mechanical (ex. inductive).
 
 In order to use limit switches, you will need to make modifications to both the electronics and firmware of the machine. For more in-depth information on the firmware, specifically the settings required to enable limit switch capability, visit the <a href="https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration#21---hard-limits-boolean">grbl v1.1 Configuration Guide.</a>
@@ -42,6 +43,7 @@ The LongMill design addresses these functions by way of:
 </ul>
 </li>
 </ol>
+
 With this being said, some users may still choose to integrate switches into their machine if they start to find themselves running longer and longer jobs, performing more complex cuts, or they're looking for easier job relocation without having to keep their touch plate in mind.
 
 *A soft limit is when there is a single switch on one side of the movement and the movement limit is defined in software, whereas a hard limit has two switches on either movement end which signal a 'Stop' to the controller if triggered.
@@ -62,14 +64,14 @@ Already the LongMill controller comes with two different input spaces (a JST-XH 
 In order to attach and wire your own custom set of limit switches to your setup, you will need the following:
 
 <ul>
-  <li aria-level="1">Soldering iron</li>
-  <li aria-level="1">Solder</li>
-  <li aria-level="1">Heat shrink</li>
-  <li aria-level="1">4-pin JST connectors (optional)</li>
-  <li aria-level="1">20-24 AWG copper stranded wire</li>
-  <li aria-level="1">Limit switches, either mechanical or inductive</li>
-  <li aria-level="1">3x 10 kΩ resistor (for Rev 1.2 and Rev 1.3)</li>
-  <li aria-level="1">3x 0.1 mF ceramic non-polarized capacitors (for Rev 1.2)</li>
+  <li>Soldering iron</li>
+  <li>Solder</li>
+  <li>Heat shrink</li>
+  <li>4-pin JST connectors (optional)</li>
+  <li>20-24 AWG copper stranded wire</li>
+  <li>Limit switches, either mechanical or inductive</li>
+  <li>3x 10 kΩ resistor (for Rev 1.2 and Rev 1.3)</li>
+  <li>3x 0.1 mF ceramic non-polarized capacitors (for Rev 1.2)</li>
 </ul>
 
 You can check the version of your LongBoard on top of your control box.

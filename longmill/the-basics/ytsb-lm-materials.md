@@ -12,14 +12,15 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_longmill/_the_basics/lm_materials_p1_Guitar.jpg
+featured_image: _images/_longmill/_the-basics/lm_materials_p1_Guitar.jpg
 ---
+
 <!-- wp:paragraph -->
 <h2>Wood</h2>
 
 <p>Wood is simply an amazing material. As it is a living, organic material, there are an infinite variety of woods and characteristics. We will talk a little about using wood with your CNC machine here.</p>
 
-![](/_images/_longmill/_the_basics/lm_materials_p1_Guitar.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_materials_p1_Guitar.jpg){.aligncenter .size-medium}
 <p><!-- /wp:paragraph -->
 
 <!-- wp:image {"id":12393} --></p>
@@ -196,7 +197,7 @@ featured_image: _images/_longmill/_the_basics/lm_materials_p1_Guitar.jpg
 <h2>Plastic</h2>
 <p>Plastic is a material used everywhere in our modern world. Each type of plastic has unique properties that we must take into account when choosing our speeds and feeds.</p>
 
-![](/_images/_longmill/_the_basics/lm_materials_p2_Plastic.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_materials_p2_Plastic.jpg){.aligncenter .size-medium}
 <p><!-- /wp:paragraph -->
 
 <!-- wp:image {"id":7257} --></p>
@@ -243,7 +244,7 @@ featured_image: _images/_longmill/_the_basics/lm_materials_p1_Guitar.jpg
 
 <!-- wp:image {"id":12474} --></p>
 
-![](/_images/_longmill/_the_basics/lm_materials_p3_Foam.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_materials_p3_Foam.jpg){.aligncenter .size-medium}
 <p><!-- /wp:image -->
 
 <!-- wp:paragraph --></p>
@@ -303,7 +304,7 @@ featured_image: _images/_longmill/_the_basics/lm_materials_p1_Guitar.jpg
 
 <!-- wp:image {"id":7252} --></p>
 
-![](/_images/_longmill/_the_basics/lm_materials_p4_Aluminum.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_materials_p4_Aluminum.jpg){.aligncenter .size-medium}
 <p><!-- /wp:image -->
 
 <!-- wp:paragraph --></p>

@@ -12,8 +12,9 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_longmill/_the_basics/lm_workholding_p1_TTracks.PNG
+featured_image: _images/_longmill/_the-basics/lm_workholding_p1_TTracks.PNG
 ---
+
 <p><!-- wp:heading {"level":1} --><!-- /wp:heading -->
 
 <!-- wp:paragraph --></p>
@@ -30,7 +31,7 @@ featured_image: _images/_longmill/_the_basics/lm_workholding_p1_TTracks.PNG
 
 <!-- wp:image {"id":12476} --></p>
 
-![](/_images/_longmill/_the_basics/lm_workholding_p1_TTracks.PNG){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_workholding_p1_TTracks.PNG){.aligncenter .size-medium}
 <p><!-- /wp:image -->
 
 <!-- wp:paragraph --></p>
@@ -48,7 +49,7 @@ featured_image: _images/_longmill/_the_basics/lm_workholding_p1_TTracks.PNG
 
 <p>One of the fastest ways to hold down your material is to screw it directly into your wasteboard. All you need is an electric drill, the right bits, and screws to mount your workpiece. Just make sure that your machine isn't going to run into the screws!</p>
 
-![](/_images/_longmill/_the_basics/lm_workholding_p2_Screws.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_workholding_p2_Screws.jpg){.aligncenter .size-medium}
 
 <p><strong>Tips:</strong></p>
 
@@ -72,7 +73,7 @@ featured_image: _images/_longmill/_the_basics/lm_workholding_p1_TTracks.PNG
 
 <!-- wp:image {"align":"center"} --></p>
 
-![](/_images/_longmill/_the_basics/lm_workholding_p3_ThreadedIn.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_workholding_p3_ThreadedIn.jpg){.aligncenter .size-medium}
 
 </div>
 <p><!-- /wp:image -->
@@ -102,7 +103,7 @@ featured_image: _images/_longmill/_the_basics/lm_workholding_p1_TTracks.PNG
 
 <!-- wp:image {"id":1440,"align":"center"} --></p>
 
-![](../../_images/_longmill/_the_basics/lm_workholding_p4_Tape.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_workholding_p4_Tape.jpg){.aligncenter .size-medium}
 </div>
 <p><!-- /wp:image -->
 
@@ -128,7 +129,7 @@ featured_image: _images/_longmill/_the_basics/lm_workholding_p1_TTracks.PNG
 
 <!-- wp:image {"id":1537,"align":"center"} --></p>
 
-![](/_images/_longmill/_the_basics/lm_workholding_p5_HotGlue.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_workholding_p5_HotGlue.jpg){.aligncenter .size-medium}
 </div>
 <p><!-- /wp:image -->
 
@@ -153,7 +154,7 @@ featured_image: _images/_longmill/_the_basics/lm_workholding_p1_TTracks.PNG
 
 <!-- wp:image {"id":1448,"align":"center"} --></p>
 
-![](/_images/_longmill/_the_basics/lm_workholding_p6_Vise.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_workholding_p6_Vise.jpg){.aligncenter .size-medium}
 </div>
 <p><!-- /wp:image -->
 

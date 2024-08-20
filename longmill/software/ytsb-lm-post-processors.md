@@ -14,6 +14,7 @@ custom_fields:
 skip_file: yes
 featured_image: 
 ---
+
 When making g-code for any CNC machine, there will come a time where you'll click the final button to "Generate g-code". Doing so, how will you know that the g-code file is going to be properly suited to your particular CNC? Though many CNCs are able to interpret what's broadly known as 'g-code', the reality is that different manufacturers have their own quirks that their machines expect to see; you can think of this as g-code being the primary language while different CNCs speak with dialects or accents. For the LongMill and many other hobby CNCs, this dialect is known as "grbl".
 
 This is where post-processing comes in. A 'post-processor' is simply a set of rules that can be followed to add tweaks to the main g-code and ensure it'll work for particular machines. If the post-processor isn't selected or set up correctly this will usually result in errors, stalls, or unexpected behaviour while running your jobs.

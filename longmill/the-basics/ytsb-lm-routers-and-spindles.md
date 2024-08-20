@@ -12,8 +12,9 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: /_images/_longmill/_the_basics/lm_routersspindle_p1_Makita.jpg
---- 
+featured_image: /_images/_longmill/_the-basics/lm_routersspindle_p1_Makita.jpg
+---
+
 Routers and spindles come in all shapes and sizes. When considering the right tool for your machine, there are several things you want to look out for such as:
 
 <ul>
@@ -26,7 +27,7 @@ Routers and spindles come in all shapes and sizes. When considering the right to
 Many hobby CNC routers tend to utilize trim routers because their power, weight, price, and off-the-shelf circuitry balance well with hobby applications. After much testing with the LongMill, we landed on the Makita RT0700/RT0701 as the ideal choice.
 <h2>Makita RT0700/RT0701</h2>
 
-![](/_images/_longmill/_the_basics/lm_routersspindle_p1_Makita.jpg){.alignleft .size-large}
+![](/_images/_longmill/_the-basics/lm_routersspindle_p1_Makita.jpg){.alignleft .size-large}
 
 <a href="http://www.homedepot.com/p/Makita-1-1-4-HP-Compact-Router-RT0701C/204247210" target="_blank" rel="noreferrer noopener">Home Depot (US)</a>
 
@@ -42,7 +43,7 @@ The Makita RT0700/RT0701 router is a very commonly used and reliable trim router
 
 The LongMill's standard router mount has a 65mm bore but is also available in:  <strong>52mm</strong>, <strong>71mm</strong>, and <strong>80mm</strong>. This means that mounting other routers is possible, though the Makita is the only one that's been thoroughly tested for use on the LongMill.
 
-![](/_images/_longmill/_the_basics/lm_routersspindle_p2_65RMount.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_routersspindle_p2_65RMount.jpg){.aligncenter .size-medium}
 
 Here is a list of some other routers that could be used. If your router isn't listed, you'll need to measure it's diameter and check if anything protrudes or if an adapter may be needed:
 <ul>
@@ -57,7 +58,7 @@ Here is a list of some other routers that could be used. If your router isn't li
 
 <h2>Three-phase Spindles</h2>
 
-![](/_images/_longmill/_the_basics/lm_routersspindle_p3_RouterPkg.png){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_routersspindle_p3_RouterPkg.png){.aligncenter .size-medium}
 
 Three-phase spindles are commonly used in higher-end, semi-professional to professional-level machines. They come with several advantages over traditional woodworking routers such as:
 
@@ -90,7 +91,7 @@ If you are a beginner user, we highly recommend sticking with a Makita RT0701. T
 
 <h3>Adding a spindle</h3>
 
-![](/_images/_longmill/_the_basics/lm_routersspindle_p4_Spindle.jpeg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_routersspindle_p4_Spindle.jpeg){.aligncenter .size-medium}
 
 We supply <a href="https://sienci.com/product/router-mount-for-longmill-benchtop-cnc/">65mm, 71mm, and 80mm router mounts</a> that are sized to match with commonly available 3-phase spindles. From our experience, most come in 65mm and 80mm diameters.
 
@@ -106,7 +107,7 @@ Most spindles also come with either air cooling or water cooling. Water cooling 
 
 Installing your router mount is fairly straightforward. Simply move your machine to the highest point on the Z-axis and undo the four M5 bolts from the back. Swap out the router mount to the size you need.
 
-![](/_images/_longmill/_the_basics/lm_routersspindle_p5_WireRoute.jpeg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_routersspindle_p5_WireRoute.jpeg){.aligncenter .size-medium}
 
 From here you can mount your spindle and wire the cables through the drag chains. It is very important to use a properly shielded cable and ground your cable properly, as 3-phase spindles can create a lot of interference. You will also need to program your VFD using the appropriate values to control things like the method of control, your input voltage and frequency, your output voltage and frequency, PWM signal speed ranges, and more.
 
@@ -118,7 +119,7 @@ Because the spindle is most likely heavier than the Makita RT0701, the machine w
 
 Some settings you might need to change are shown below. If you're moving a specific axis of the machine and it's 'stalling out'/ not moving then you definitely need to update these values. You'd want to focus first on the 'maximum rates' (110 to 112), reducing the value for the stalling axis by increments of 100 until the problem goes away. If  this doesn't work you can also try lowering the 'acceleration' values (120 to 122)
 
-![](/_images/_longmill/_the_basics/lm_routersspindle_p6_Firmware.png){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_routersspindle_p6_Firmware.png){.aligncenter .size-medium}
 
 <h2>Not Recommended</h2>
 Handheld rotary tools like Dremels are highly underpowered for use on the LongMill since they do not have internal hardware that allows them to support the high lateral and axial forces. In addition, these tools are fabricated for hand use, and as such aren't designed for the minimal runout required to cut precisely.

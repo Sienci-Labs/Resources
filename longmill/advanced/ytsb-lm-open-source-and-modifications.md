@@ -1,5 +1,5 @@
 ---
-title: ytsb Open-source & Modifications 🥽
+title: ytsb Open Source & Modifications 🥽
 menu_order: 4
 post_status: draft
 post_excerpt: Open source documentation for LongMill CNC and its accessories, which includes 3D files, bill of materials. Community modifications and designs also found here.
@@ -12,11 +12,12 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: /_images/_longmill/_advanced/_12_LBDetails/lm_lbdeets_p1_DrawingRev1.4.jpg
 ---
-The LongMill project is at its core an open-source project. Many of its design choices, from sourcing as many off the shelf parts as possible to our choice in CAD software, comes down to making this project as replicable and well-supported as possible.
 
-We believe that by making this design open-source, we will be able to drive the CNC community forward through sharing and improving CNC technology. The idea is for:
+The LongMill project is at its core an open source project. Many of its design choices, from sourcing as many off the shelf parts as possible to our choice in CAD software, comes down to making this project as replicable and well-supported as possible.
+
+We believe that by making this design open source, we will be able to drive the CNC community forward through sharing and improving CNC technology. The idea is for:
 
 <ul>
   <li>Users to modify and improve their machines to fit their needs</li>
@@ -38,7 +39,7 @@ This is accomplished by putting the project under a <a href="https://creativecom
   <li>Every aspect of the electrical design behind our custom LongBoard CNC controller including BOM, schematics, gerber file, etc.</li>
 </ul>
 
-and by sharing the LongMills modified firmware profile, a small modification of the <a href="https://github.com/gnea/grbl/wiki" target="_blank" rel="noopener noreferrer">grbl open-source project</a>, under the <a href="https://www.gnu.org/licenses/quick-guide-gplv3.en.html" target="_blank" rel="noopener noreferrer">GPLv3 license</a> just as the original project is.
+and by sharing the LongMills modified firmware profile, a small modification of the <a href="https://github.com/gnea/grbl/wiki" target="_blank" rel="noopener noreferrer">grbl open source project</a>, under the <a href="https://www.gnu.org/licenses/quick-guide-gplv3.en.html" target="_blank" rel="noopener noreferrer">GPLv3 license</a> just as the original project is.
 
 All this information is continually updated as the LongMill project continues to be revised, with more openly shared shared information being made available at each new major revision and licensing continuing to be applied to all previous major versions. By making this information available, the LongMill project fulfills the Open Source Hardware Association’s definition of open source hardware, and we think that's pretty cool :)
 

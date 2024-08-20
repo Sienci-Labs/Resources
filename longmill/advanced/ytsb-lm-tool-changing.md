@@ -12,8 +12,9 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: /_images/_longmill/_the-basics/lm_cuttingtools_p2_VBits.jpg
 ---
+
 As you begin tackling more complex CNC projects, you'll start to notice that running multi-tool jobs becomes a necessity. Using multiple bits on the same workpiece can save time or achieve greater detail and give you the carving flexibility you need; whether it's a v-bit for engraving and an end mill for profiling, or an end mill for roughing and a tapered bit for finishing.
 
 <h2>Method 1: Separate Files</h2>
@@ -40,11 +41,11 @@ This is a tool change method inspired by the work of Stuart McRae (a LongMill cu
 <h3>Setup:</h3>
 
 <ol>
-  <li aria-level="1">Generate your g-code to the file format .nc or .gcode.</li>
-  <li aria-level="1">Zero your machine in the X, Y, and Z on the mounted stock material.</li>
-  <li aria-level="1">Open up the g-code using NC Viewer and check the first few lines for the call-out of the correct units (G20 for inches, G21 for mm) and for G90, absolute coordinates.</li>
-  <li aria-level="1">Go line by line to find where the tool changes should occur, by looking at the toolpath visualization on NC Viewer. Use your mouse or keyboard to move to each line, and you should see an end mill following the coordinates called out in the g-code.</li>
-  <li aria-level="1">Add the following g-code for each tool change.[su_table responsive="yes"]
+  <li>Generate your g-code to the file format .nc or .gcode.</li>
+  <li>Zero your machine in the X, Y, and Z on the mounted stock material.</li>
+  <li>Open up the g-code using NC Viewer and check the first few lines for the call-out of the correct units (G20 for inches, G21 for mm) and for G90, absolute coordinates.</li>
+  <li>Go line by line to find where the tool changes should occur, by looking at the toolpath visualization on NC Viewer. Use your mouse or keyboard to move to each line, and you should see an end mill following the coordinates called out in the g-code.</li>
+  <li>Add the following g-code for each tool change.[su_table responsive="yes"]
 <table>
 <tbody>
 <tr>
@@ -74,65 +75,64 @@ This is a tool change method inspired by the work of Stuart McRae (a LongMill cu
 </tbody>
 </table>
 [/su_table]</li>
-  <li aria-level="1">Save the g-code you just edited as a new file on your computer.</li>
-  <li aria-level="1">Load the file into your g-code sender program.</li>
-  <li aria-level="1">The machine will run through the first toolpath, cutting into the material, then will lift up and move to the bit changing position you defined. It will stop moving, in a HOLD state, until you press PLAY. Complete the tool change and zero the machine manually - note that the surface will be marked by the bit once you turn your router back on.</li>
-  <li aria-level="1">Repeat Step 8 for each tool change.</li>
+  <li>Save the g-code you just edited as a new file on your computer.</li>
+  <li>Load the file into your g-code sender program.</li>
+  <li>The machine will run through the first toolpath, cutting into the material, then will lift up and move to the bit changing position you defined. It will stop moving, in a HOLD state, until you press PLAY. Complete the tool change and zero the machine manually - note that the surface will be marked by the bit once you turn your router back on.</li>
+  <li>Repeat Step 8 for each tool change.</li>
 </ol>
 
-Below are some examples of how to input the tool changing g-code, which are in<b> bold</b>.
+Below are some examples of how to input the tool changing g-code, which are in <b>bold</b>.
 
 <h4>EXAMPLE 1: Carbide Create</h4>
 
-G90
-G21
-(Toolpath 3)
-M05
-M0 ;T102
-M03S18000
-G0X12.00Y10.41Z5.00
-G1Z-1.00F457.2
-X36.00F1524.0
-Z5.00
-(Toolpath 4)
-<b>Z20.00
-</b><b>X5.00Y20.00
-</b><b>M0 ;T201 </b>// this line was already in the g-code
-<b>G92Z0.125
-</b><b>G0Z25.00
-</b>S18000
-G0X12.26Y22.84
-G1Z-1.00F381.0
-X36.26F2286.0
-Z5.00
-M05
+G90<br>
+G21<br>
+(Toolpath 3)<br>
+M05<br>
+M0 ;T102<br>
+M03S18000<br>
+G0X12.00Y10.41Z5.00<br>
+G1Z-1.00F457.2<br>
+X36.00F1524.0<br>
+Z5.00<br>
+(Toolpath 4)<br>
+<b>Z20.00</b><br>
+<b>X5.00Y20.00</b><br>
+<b>M0 ;T201</b> // this line was already in the g-code<br>
+<b>G92Z0.125</b><br>
+<b>G0Z25.00</b><br>
+S18000<br>
+G0X12.26Y22.84<br>
+G1Z-1.00F381.0<br>
+X36.26F2286.0<br>
+Z5.00<br>
+M05<br>
 M02
-
 _____________________________________
 <h4>EXAMPLE 2: CAMLab</h4>
 
-G21
-G90
-G0 X7.2948 Y-8.1954 Z2.0
-G1 Z-0.6522 F2000
-G1 X-16.3552
-G1 Y-8.2454
-G1 X7.2948
-G1 Y-8.1954
-G0 Z2.0
-G0 Y8.6204
-G1 Z-0.6522
-G1 Y8.6704
-G1 X-16.3552
-G1 Y8.6204
-G1 X7.2948
-G0 Z2.0
-<b>Z20.00
-</b><b>X5.00Y20.00
-</b><b>M0;
-</b><b>G92Z0.125
-</b><b>G0Z25.00
-</b>…
+G21<br>
+G90<br>
+G0 X7.2948 Y-8.1954 Z2.0<br>
+G1 Z-0.6522 F2000<br>
+G1 X-16.3552<br>
+G1 Y-8.2454<br>
+G1 X7.2948<br>
+G1 Y-8.1954<br>
+G0 Z2.0<br>
+G0 Y8.6204<br>
+G1 Z-0.6522<br>
+G1 Y8.6704<br>
+G1 X-16.3552<br>
+G1 Y8.6204<br>
+G1 X7.2948<br>
+G0 Z2.0<br>
+<b>Z20.00</b><br>
+<b>X5.00Y20.00</b><br>
+<b>M0</b><br>
+<b>G92Z0.125</b><br>
+<b>G0Z25.00</b><br>
+…
 
 <h2>Method 3: gSender Tool Change</h2>
 

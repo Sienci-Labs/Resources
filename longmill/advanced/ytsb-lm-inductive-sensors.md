@@ -14,6 +14,7 @@ custom_fields:
 skip_file: no
 featured_image: /_images/_longmill/_advanced/_4_Inductive/lm_inductive_p1_DSC00411-scaled.jpg
 ---
+
 <h2>Installation</h2>
 
 The Inductive Sensor Kit is a plug-and-play add-on kit for your LongMill, which adds three inductive sensors to your machine to act as limit and homing switches.<strong> The kit can be ordered on our <a href="https://sienci.com/product/inductive-sensor-kit/">store</a>. </strong>
@@ -46,13 +47,13 @@ You will need for installation:
 
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p1_DSC00411-scaled.jpg){.aligncenter .size-medium}
 
-Before you begin, you can decide where to place your sensors, and which directions you would like to home the machine. You can always change this later, but by default, this guide will set up the sensors at the <b>lower left corner. </b>
+Before you begin, you can decide where to place your sensors, and which directions you would like to home the machine. You can always change this later, but by default, this guide will set up the sensors at the <b>lower left corner.</b>
 
 Homing to the lower left corner is recommended because:
 
 <ul>
-  <li aria-level="1">This position is commonly used for your zero/origin point in projects, making it convenient for setting up jigs</li>
-  <li aria-level="1">When squaring your machine by running the machine to the back, you will not run into the sensors</li>
+  <li>This position is commonly used for your zero/origin point in projects, making it convenient for setting up jigs</li>
+  <li>When squaring your machine by running the machine to the back, you will not run into the sensors</li>
 </ul>
 
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p2_Corners-for-Homing.jpg){.aligncenter .size-medium}
@@ -106,9 +107,9 @@ All three inductive sensors are identical and are mounted to the brackets to all
 To adjust the position of a sensor:
 
 <ol>
-  <li aria-level="1">Remove one nut and washer from each sensor and set it aside</li>
-  <li aria-level="1">Slide the sensor through the hole of each mount</li>
-  <li aria-level="1">Reinstall the nut and washer to secure the sensor in place on the bracket. Note that the Z-axis sensor does not use a washer on the lower nut</li>
+  <li>Remove one nut and washer from each sensor and set it aside</li>
+  <li>Slide the sensor through the hole of each mount</li>
+  <li>Reinstall the nut and washer to secure the sensor in place on the bracket. Note that the Z-axis sensor does not use a washer on the lower nut</li>
 </ol>
 
 <h3>Step 4: Connecting the sensors to the LongBoard controller</h3>
@@ -116,9 +117,9 @@ To adjust the position of a sensor:
 Unclip the tabs that hold the wires in each drag chain and route the cables from the inductive sensors. Ensure that there are no sharp bends or tears in the cables as a failed limit sensor could cause a false alarm and halt the machine during use.
 
 <ul>
-  <li aria-level="1">Z-axis sensor gets routed through the drag chains on the X and Y rail</li>
-  <li aria-level="1">X-axis sensor gets routed through the drag chain on  the Y-axis only</li>
-  <li aria-level="1">Y-axis sensor does not need to be routed through a drag chain</li>
+  <li>Z-axis sensor gets routed through the drag chains on the X and Y rail</li>
+  <li>X-axis sensor gets routed through the drag chain on  the Y-axis only</li>
+  <li>Y-axis sensor does not need to be routed through a drag chain</li>
 </ul>
 
 The three cables plug into the three white JST connectors labelled as XLim, YLim, ZLim as shown in the photo below. To make sure each of the sensors is plugged into the correct port for its axis, it is recommended to label the cable with tape and marker before routing the cables, or plug-in each cable as they are routed through the machine individually.
@@ -163,10 +164,10 @@ Next, import our default EEPROM settings for your machine. Press “Restore Defa
 Now that we’re working with the default settings, we will modify a few to make them work with the sensors.
 
 <ul>
-  <li aria-level="1">Hard and soft limits ON</li>
-  <li aria-level="1">Homing cycle ON</li>
-  <li aria-level="1">Homing direction invert</li>
-  <li aria-level="1">X and Y axis travel limits CHANGED</li>
+  <li>Hard and soft limits ON</li>
+  <li>Homing cycle ON</li>
+  <li>Homing direction invert</li>
+  <li>X and Y axis travel limits CHANGED</li>
 </ul>
 
 <h4><b>Hard limits, soft limits, homing cycle, and homing direction</b></h4>
@@ -175,7 +176,7 @@ We recommend to turn ON $20, $21 and $22 on your firmware settings.
 
 ![](</_images/_longmill/_advanced/_4_Inductive/lm_inductive_p10_ gSender-lim-switch-firmware.png> "$20, $21 and $22 settings must be enabled"){.aligncenter .size-medium}
 
-<b>What do these do? </b>
+<b>What do these do?</b>
 
 $20 - Soft limits enable and $21 - Hard limits enable
 
@@ -199,7 +200,7 @@ We recommend that $130 = 750.000 and $131 = 810.000 on your firmware settings.
 
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p13_gSenderlimswitch.png "$130 and $131 must be changed"){.aligncenter .size-medium}
 
-<b>What do these do? </b>
+<b>What do these do?</b>
 
 $130 and $131 are the travel limits for the X and Y-axis. For the 30x30 LongMill with the magnetic dust shoe, a maximum travel of 750mm in the X-direction and 810mm in the Y-direction is suitable, however, these will be different for smaller machines, any modifications or different accessories.
 
@@ -218,10 +219,10 @@ Once the firmware changes have been made, test the sensors. Disconnect, then rec
 On gSender, the process for limit switch homing is very similar to touch plate probing. This is what happens on the LongMill when you run the homing cycle:
 
 <ol>
-  <li aria-level="1">Machine moves up quickly in the Z-axis, until the switch gets triggered</li>
-  <li aria-level="1">Machine retracts slightly, moves up slowly in the Z-axis, until switch gets triggered again</li>
-  <li aria-level="1">Machine quickly moves diagonally across table to upper right corner, until the switch gets triggered</li>
-  <li aria-level="1">Machine retracts slightly, slowly moves diagonally across table to upper right corner, until switch gets triggered again</li>
+  <li>Machine moves up quickly in the Z-axis, until the switch gets triggered</li>
+  <li>Machine retracts slightly, moves up slowly in the Z-axis, until switch gets triggered again</li>
+  <li>Machine quickly moves diagonally across table to upper right corner, until the switch gets triggered</li>
+  <li>Machine retracts slightly, slowly moves diagonally across table to upper right corner, until switch gets triggered again</li>
 </ol>
 
 If this process completes without any errors, you have successfully homed your machine!
@@ -241,10 +242,10 @@ Additionally, if you first connect and need to bypass the alarm without homing, 
 With CNC, work offsets can be thought of as bookmarks. They are saved origin positions on your machine that allow you to always return later to a known location. Having one or more known locations you can repeatedly return to is extremely useful for many reasons such as:
 
 <ul>
-  <li aria-level="1">Restarting a failed job</li>
-  <li aria-level="1">Recovering from a power outage during a job</li>
-  <li aria-level="1">Repeating a job in a fixture or multiple fixtures</li>
-  <li aria-level="1">Returning to an exact work XY origin after performing a tool change</li>
+  <li>Restarting a failed job</li>
+  <li>Recovering from a power outage during a job</li>
+  <li>Repeating a job in a fixture or multiple fixtures</li>
+  <li>Returning to an exact work XY origin after performing a tool change</li>
 </ul>
 
 The repeatability of the inductive limit switches has been tested to be less than 0.001”, meaning that you will always be able to return to your original work origin within 0.001” accuracy, and can confidently repeat jobs without worries of toolpath misalignment or crashes.

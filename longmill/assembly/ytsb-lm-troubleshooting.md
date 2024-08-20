@@ -14,6 +14,7 @@ custom_fields:
 skip_file: no
 featured_image: /_images/_longmill/_assembly/_commonissues/lm_commonissues_p_Versions.png
 ---
+
 This part of the resources covers common issues and fixes for the LongMill. If you run into an issue with your machine, we hope that this can help you diagnose and fix problems to get you milling as quickly as possible. If you can't find the answers here, please feel free to get in <a href="https://sienci.com/contact-us/technical-help/" target="_blank" rel="noopener">touch with us</a>.
 
 <h2>Assembly issues</h2>
@@ -163,20 +164,20 @@ Excessive wobble is when the lead screw is deviating from center by more than ab
 <h3>My machine randomly cuts lines during my job</h3>
 
 <ul>
-  <li aria-level="1">If you are using Fusion 360, ensure that ‘Safe Retracts’ is set to ‘Clearance Height.’</li>
+  <li>If you are using Fusion 360, ensure that ‘Safe Retracts’ is set to ‘Clearance Height.’</li>
 </ul>
 
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p7_f360.png){.aligncenter .size-medium}
 
 <ul>
-  <li aria-level="1">Ensure that you are not hitting the Z-axis movement limits when running the job.</li>
-  <li aria-level="1">Review the g-code with a visualizer (<a href="https://ncviewer.com/">https://ncviewer.com/</a>) to ensure there are no unexpected toolpaths or incorrect g-code commands.</li>
-  <li aria-level="1">Check all the transmission components (V-wheels, couplers, ACME nuts, anti-backlash nuts, pulleys)
+  <li>Ensure that you are not hitting the Z-axis movement limits when running the job.</li>
+  <li>Review the g-code with a visualizer (<a href="https://ncviewer.com/">https://ncviewer.com/</a>) to ensure there are no unexpected toolpaths or incorrect g-code commands.</li>
+  <li>Check all the transmission components (V-wheels, couplers, ACME nuts, anti-backlash nuts, pulleys)
 <ul>
-  <li aria-level="1">Pulleys, couplers and ACME nuts are secured and in the correct position.</li>
-  <li aria-level="1">Belt in the Z-axis is tensioned</li>
-  <li aria-level="1">Anti-backlash nuts are not mounted too tight; you can loosen the two M5-25mm screws that hold the nut in place and see if that helps.</li>
-  <li aria-level="1">Eccentric nuts are adjusted so that V-wheels are tight on the rail but are still able to turn by hand.</li>
+  <li>Pulleys, couplers and ACME nuts are secured and in the correct position.</li>
+  <li>Belt in the Z-axis is tensioned</li>
+  <li>Anti-backlash nuts are not mounted too tight; you can loosen the two M5-25mm screws that hold the nut in place and see if that helps.</li>
+  <li>Eccentric nuts are adjusted so that V-wheels are tight on the rail but are still able to turn by hand.</li>
 </ul>
 </li>
 </ul>
@@ -234,7 +235,7 @@ Loss of connection on a long job can happen if your computer or USB port 'fall a
 
 If you’re using UGS:
 <ul>
-  <li aria-level="1">There is a bug that can cause the touch plate to move farther than the expected origin and plunge the bit into the work surface if you use INCHES units when jogging around. If so, before beginning the probe process ensure that you have set the jog control to MM instead of INCHES. Once probing is completed, you may switch back to INCHES and resume regular machine operation
+  <li>There is a bug that can cause the touch plate to move farther than the expected origin and plunge the bit into the work surface if you use INCHES units when jogging around. If so, before beginning the probe process ensure that you have set the jog control to MM instead of INCHES. Once probing is completed, you may switch back to INCHES and resume regular machine operation
 
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p14_UGSbug.png "Jog control unit setting on UGS"){.aligncenter .size-medium}
 

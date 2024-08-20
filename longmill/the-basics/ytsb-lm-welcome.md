@@ -14,7 +14,8 @@ custom_fields:
 skip_file: no
 featured_image: _images/post-image.jpg
 ---
-![](../../_images/_longmill/_the_basics/lm_welcome_p1.jpg){.aligncenter .size-medium}
+
+![](/_images/_longmill/_the-basics/lm_welcome_p1.jpg){.aligncenter .size-medium}
 
 Hello and welcome to the LongMill Resources section of the website. This has been made to act as your comprehensive guide on everything you need to know to start making things with your LongMill.
 

@@ -14,6 +14,7 @@ custom_fields:
 skip_file: no
 featured_image: 
 ---
+
 <p>Congratulations on getting your LongMill 48” extension kit! In just a few steps, you’ll soon have a much larger CNC with 50%+ more cutting area than before, as well as the ability to pass full width 4’ sheets of material through. This page is currently in progress and will soon be populated by the LongMill MK1 48″ extension kit manual. In the meanwhile, if you’ve already received your extension kit – you can download the PDF version of the manual by clicking on the link below instead.</p>
 <p><!-- wp:table --></p>
 <table class="unboxing-table" style="height: 100px; margin-left: auto; margin-right: auto; margin-bottom: -30px; text-align: center; border-collapse: collapse; table-layout: fixed;" width="95%">
