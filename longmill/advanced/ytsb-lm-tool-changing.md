@@ -1,5 +1,5 @@
 ---
-title: Tool Changing
+title: ytsb Tool Changing
 menu_order: 4
 post_status: draft
 post_excerpt: How to cut multiple toolpaths for CAM programs without tool changing functionality. This method is suitable for the LongMill Benchtop CNC, and other hobby CNCs.

@@ -1,5 +1,5 @@
 ---
-title: GRBL Firmware
+title: ytsb GRBL Firmware
 menu_order: 4
 post_status: draft
 post_excerpt: The LongMill runs off the GRBL firmware, an open-source firmware that is designed for Arduino-based CNC machines. You can re-flash by using gSender or UGS.
