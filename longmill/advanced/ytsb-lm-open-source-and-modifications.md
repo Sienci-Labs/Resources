@@ -1,5 +1,5 @@
 ---
-title: Open-source & Modifications 🥽
+title: ytsb Open-source & Modifications 🥽
 menu_order: 4
 post_status: draft
 post_excerpt: Open source documentation for LongMill CNC and its accessories, which includes 3D files, bill of materials. Community modifications and designs also found here.
