@@ -69,7 +69,7 @@ While writing, keep in mind:
     - nar: when you want a smaller picture with adjustable size
     - wid: full width pictures, only usually for "Parts Needed" of product assembly
     - non: rarely used, for small pictures with removed zooming
-1. If you want to custom-style the image then you have to use raw HTML, like `<img class="aligncenter size-medium" style="padding: 5% 15%;" src="Sync the image to WP first, then come back and fill out this link"/>`
+1. If you want to custom-style the image (height, width, padding, etc.) then you have to use raw HTML, like `<img class="aligncenter size-medium" style="padding: 5% 15%;" src="Sync the image to WP first, then come back and fill out this link" style="max-width: 300px/60%;"/>`
 1. You can still use any **`[Shortcodes]`** from WordPress plugins, like:
     - Direct YouTube links
     - Direct product links `https://sienci.com/product/lightburn/`
@@ -113,7 +113,7 @@ Before you get started writing, look over the text you just pasted in and edit i
 1. The excerpt shouldn't be over 160 characters
 1. Write the **post_status** as "draft" if you don't plan on "publish"ing it yet
 1. Choose what section the page will appear in in the docs by typing out the **knowledgebase_cat**, the template should list all current options for that Knowledge Base
-1. Choose what specific order the page will appear in by entering a **post date** that falls between the post dates of the surrounding pages (example: go find the starting text of the other pages, then if you want to appear between the 'Welcome' page with date 2024-03-03 and the 'Upgrading' page with date 2024-03-22, then any date between them will make the page appear where you want - like 2024-03-12)
+1. Choose what specific order the page will appear in by entering a **post date** that falls between the post dates of the surrounding pages (**example:** go find the starting text of the other pages, then if you want to appear between the 'Welcome' page with date 2024-03-03 and the 'Upgrading' page with date 2024-03-22, then any date between them will make the page appear where you want - like 2024-03-12)
 1. Choose a **featured image** or leave it blank if you don't have one yet
 1. Add **optional tags**
 1. Change **skip_file** to "no" if you'd like to begin syncing your page to the WordPress site
@@ -131,8 +131,9 @@ If you're finding that something isn't working that you'd expect - check the REA
 - WordPress Galleries don't seem possible
 - Sometimes having "$" surround text makes the Git Preview look odd, but it formats fine in WordPress
 - Still exploring issues with KBName and Post Dates being incorrectly set randomly when updated
-- Post Icons still not fully implemented (basepress_post_icon: default, bp-file-word, file-word-o, Basepress ➜ icons manager)
 - Don't yet have docs explaining how to upload pictures or set featured pictures
+- Image captions should work (more or less) as long as long as wp-content ➜ plugins ➜ git-it-write ➜ includes ➜ parsedown.php ➜ line 188 is changed to `'class' => 'wp-caption-text'` (see <https://github.com/vaakash/git-it-write/issues/46>)
+- YouTube videos, Product links, and Button shortcodes should work as long as wp-content ➜ plugins ➜ git-it-write ➜ includes ➜ parsedown.php ➜ line 55 the extra function `public function inlineUrl($excerpt) {return;}` is added (see <https://github.com/vaakash/git-it-write/issues/45>)
 
 ## Stay Up-to-Date
 
@@ -181,6 +182,7 @@ If you plan to commit a more dedicated setup to editing CNC resources, we have s
     - **markdownlint** (we've set it up to give yellow warnings if your writing might cause structural issues <https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.jsonc>)
     - **Code Spell Checker** (set up to help check spelling)
     - **Canadian English - Code Spell Checker** (since we tend to write in Canadian English)
+    - **Batch Rename** (if you plan to rename large groups of files)
 1. Also a great website if you end up frequently making HTML tables is <https://www.tablesgenerator.com/html_tables#>
 
 Guide on using Git source control: <https://code.visualstudio.com/docs/sourcecontrol/overview>
@@ -194,4 +196,7 @@ If you're looking to bulk-transfer content over from another source, here are so
 1. Make any applicable text updates
 1. Check for, and correct any warnings or spelling errors
 1. Upload all raw pictures to GitHub, and if you want to organize them into folders then ensure new folders begin with an underscore, spaces are replaced with a dash, and there aren't any capital letters
-1. Replace all image references to proper markdown using the new file names and locations
+1. Replace all image references to proper markdown using the new file names and locations unless the images have specialized styling in which case leave them as HTML and just update the image link once it gets synced to WordPress
+1. Insert "ytsb" into page URLs and Titles if you'd like to sync commit them as drafts and make final 1-to-1 comparisons on the WordPress site
+1. Only once you're ready, publish pages with matched up the Titles and URLs to existing pages - this will have GIW overwrite the new page onto the old one and keep it synced moving forward (don't forget to "undraft" the pages)
+1. Check that page navigation is still good, sometimes bringing in new pages requires that you go to the Article Order and Reset the Order so that pages navigate between each other properly

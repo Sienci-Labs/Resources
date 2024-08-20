@@ -10,7 +10,7 @@ taxonomy:
         - slb
 custom_fields:
     KBName: SuperLongBoard
-    basepress_post_icon: 10
+    basepress_post_icon: bp-caret-right
 skip_file: no
 featured_image: _images/_superlongboard/TLED-V1.jpg
 ---

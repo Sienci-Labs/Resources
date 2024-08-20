@@ -10,7 +10,7 @@ taxonomy:
         - vortex
 custom_fields:
     KBName: Vortex
-    basepress_post_icon: 10
+    basepress_post_icon: bp-caret-right
 skip_file: yes
 featured_image: _images/post-image.jpg
 ---
