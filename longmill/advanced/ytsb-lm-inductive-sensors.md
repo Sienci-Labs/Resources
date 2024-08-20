@@ -1,5 +1,5 @@
 ---
-title: Inductive Sensors
+title: ytsb Inductive Sensors
 menu_order: 4
 post_status: draft
 post_excerpt: Limit switches, end stops or homing switches are sensors that sit at one or both ends of each movement axis of a CNC. Repeatably locates the machine via homing.
