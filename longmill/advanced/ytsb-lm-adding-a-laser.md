@@ -1,5 +1,5 @@
 ---
-title: Adding a Laser
+title: ytsb Adding a Laser
 menu_order: 4
 post_status: draft
 post_excerpt: How to set up a laser module for the LongMill CNC. Includes safety considerations, firmware changes, software recommendation, and wiring set-up guidelines.
