@@ -3,7 +3,7 @@ title: Troubleshooting Test
 menu_order: 4
 post_status: draft
 post_excerpt: See more on SLB settings and troubleshooting, especially useful on DIY CNC setups to better understand how to configure your SLB for your machine.
-post_date: 2024-04-03 16:44:53
+post_date: 2024-04-03 16:44
 taxonomy:
     knowledgebase_cat: slb-handbook
     knowledgebase_tag:
@@ -80,7 +80,7 @@ There are several other small ‘status’ lights you’ll notice as you look ar
 
 This is a list of all the lights and how they function:
 
-![](/_images/_superlongboard/TLED-V1.jpg){.aligncenter .size-medium}
+![](/_images/_superlongboard/_troubleshooting/slb_trouble_p1.jpg){.aligncenter .size-medium}
 
 <strong>NOTE:</strong> only LEDs set up for ‘inputs’ like limit switches and E-stop buttons need the hardware to be hooked up to confirm an incoming signal. Otherwise, LEDs for ‘outputs’ like PWM or motor signals will still turn on and off without needing to hook up the components.
 
@@ -600,82 +600,82 @@ This is a list of all the lights and how they function:
 </tr>
 <tr>
 <td><strong>23</strong></td>
-<td>Invalid gcode ID:23</td>
+<td>Invalid g-code ID:23</td>
 <td style="text-align: left;">G-code command in block requires an integer value.</td>
 </tr>
 <tr>
 <td><strong>24</strong></td>
-<td>Invalid gcode ID:24</td>
+<td>Invalid g-code ID:24</td>
 <td style="text-align: left;">More than one g-code command that requires axis words found in block.</td>
 </tr>
 <tr>
 <td><strong>25</strong></td>
-<td>Invalid gcode ID:25</td>
+<td>Invalid g-code ID:25</td>
 <td style="text-align: left;">Repeated g-code word found in block.</td>
 </tr>
 <tr>
 <td><strong>26</strong></td>
-<td>Invalid gcode ID:26</td>
+<td>Invalid g-code ID:26</td>
 <td style="text-align: left;">No axis words found in block for g-code command or current modal state which requires them.</td>
 </tr>
 <tr>
 <td><strong>27</strong></td>
-<td>Invalid gcode ID:27</td>
+<td>Invalid g-code ID:27</td>
 <td style="text-align: left;">Line number value is invalid.</td>
 </tr>
 <tr>
 <td><strong>28</strong></td>
-<td>Invalid gcode ID:28</td>
+<td>Invalid g-code ID:28</td>
 <td style="text-align: left;">G-code command is missing a required value word.</td>
 </tr>
 <tr>
 <td><strong>29</strong></td>
-<td>Invalid gcode ID:29</td>
+<td>Invalid g-code ID:29</td>
 <td style="text-align: left;">G59.x work coordinate systems are not supported.</td>
 </tr>
 <tr>
 <td><strong>30</strong></td>
-<td>Invalid gcode ID:30</td>
+<td>Invalid g-code ID:30</td>
 <td style="text-align: left;">G53 only allowed with G0 and G1 motion modes.</td>
 </tr>
 <tr>
 <td><strong>31</strong></td>
-<td>Invalid gcode ID:31</td>
+<td>Invalid g-code ID:31</td>
 <td style="text-align: left;">Axis words found in block when no command or current modal state uses them.</td>
 </tr>
 <tr>
 <td><strong>32</strong></td>
-<td>Invalid gcode ID:32</td>
+<td>Invalid g-code ID:32</td>
 <td style="text-align: left;">G2 and G3 arcs require at least one in-plane axis word.</td>
 </tr>
 <tr>
 <td><strong>33</strong></td>
-<td>Invalid gcode ID:33</td>
+<td>Invalid g-code ID:33</td>
 <td style="text-align: left;">Motion command target is invalid.</td>
 </tr>
 <tr>
 <td><strong>34</strong></td>
-<td>Invalid gcode ID:34</td>
+<td>Invalid g-code ID:34</td>
 <td style="text-align: left;">Arc radius value is invalid.</td>
 </tr>
 <tr>
 <td><strong>35</strong></td>
-<td>Invalid gcode ID:35</td>
+<td>Invalid g-code ID:35</td>
 <td style="text-align: left;">G2 and G3 arcs require at least one in-plane offset word.</td>
 </tr>
 <tr>
 <td><strong>36</strong></td>
-<td>Invalid gcode ID:36</td>
+<td>Invalid g-code ID:36</td>
 <td style="text-align: left;">Unused value words found in block.</td>
 </tr>
 <tr>
 <td><strong>37</strong></td>
-<td>Invalid gcode ID:37</td>
+<td>Invalid g-code ID:37</td>
 <td style="text-align: left;">G43.1 dynamic tool length offset is not assigned to configured tool length axis.</td>
 </tr>
 <tr>
 <td><strong>38</strong></td>
-<td>Invalid gcode ID:38</td>
+<td>Invalid g-code ID:38</td>
 <td style="text-align: left;">Tool number greater than max supported value.</td>
 </tr>
 </tbody>

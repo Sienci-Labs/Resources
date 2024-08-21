@@ -3,7 +3,7 @@ title: Welcome! Test
 menu_order: 4
 post_status: draft
 post_excerpt: Documentation for the SuperLongBoard, the controller board for the LongMill Benchtop CNC router. Includes electrical and mechanical specifications.
-post_date: 2024-03-03 14:43:53
+post_date: 2024-03-03 14:43
 taxonomy:
     knowledgebase_cat: slb-handbook
     knowledgebase_tag:
@@ -19,7 +19,7 @@ Hello and welcome!
 
 If you’ve come here you’re either interested in or have already purchased our brand new endeavour into upgrading the Hobby CNC landscape, the <a href="https://sienci.com/product/slb/"><strong>SuperLongBoard</strong></a>!!
 
-<img class="non aligncenter size-medium" style="width: 80%; margin-left: 10%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/SLB-VB6-scaled.jpg"/>
+![](/_images/_superlongboard/_welcome/slb_welcome_p1_SLBoard.jpg){.aligncenter .size-medium}
 
 Started in mid-2022, this project has been truly a labour of love for us. Thanks to the initial interest from the first 500 SLB purchasers, we were able to finish bringing the project to life. If you're one of those 500, a special welcome! As you go through our instructions let us know if there's any sticking points you run into and we'll be happy to get them sorted as soon as we can. The SLB may still have some quirks in its early days despite the many months of testing that we've put it through - but we're keen to make it the best it can be and trust we can all work together to make that happen :)
 
@@ -39,24 +39,37 @@ https://www.youtube.com/watch?v=LkZIeJQSzdM
 &nbsp;"]
 
 <h2>Diving In</h2>
-Let's get rock'n'rolling by pointing you towards the right page for you 🎸
+
+Let's get rockin'&'rolling by pointing you towards the right page for you 🎸
 
 [su_table responsive="yes" fixed="yes"]
 <table style="border: none !important;">
 <tbody style="display: block; margin: 1% 15%;">
 <tr>
-<td style="text-align: center;"><a href="https://resources.sienci.com/view/slb-upgrading/"><img class="flie aligncenter" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/SLB-upgrade.png" width="511" height="512" /></a><b><a href="https://resources.sienci.com/view/slb-upgrading/">Upgrade</a>
+<td style="text-align: center;"><a href="https://resources.sienci.com/view/slb-upgrading/">
+
+![](/_images/_superlongboard/_welcome/slb_welcome_p2_SLBUpgrade.png){.aligncenter .size-medium}
+</a><b><a href="https://resources.sienci.com/view/slb-upgrading/">Upgrade</a>
 </b>Guide for switching to the SLB from an existing controller.<b>
 </b></td>
-<td style="text-align: center;"><a href="https://resources.sienci.com/view/slb-manual/"><img class="flie aligncenter size-full" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/documents.png" width="512" height="512" /></a><b><a href="https://resources.sienci.com/view/slb-manual/">Board Details</a>
+<td style="text-align: center;"><a href="https://resources.sienci.com/view/slb-manual/">
+
+![](/_images/_superlongboard/_welcome/slb_welcome_p3_Docs.png){.aligncenter .size-medium}
+</a><b><a href="https://resources.sienci.com/view/slb-manual/">Board Details</a>
 </b>Learn all the nitty gritty about wiring, specs, and firmware.<b>
 </b></td>
 </tr>
 <tr>
-<td style="text-align: center;"><a href="https://forum.sienci.com/c/slb/"><img class="flie aligncenter" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/community.png" width="512" height="512" /></a><b><a href="https://forum.sienci.com/c/slb/">Forum</a>
+<td style="text-align: center;"><a href="https://forum.sienci.com/c/slb/">
+
+![](/_images/_superlongboard/_welcome/slb_welcome_p4_Community.png){.aligncenter .size-medium}
+</a><b><a href="https://forum.sienci.com/c/slb/">Forum</a>
 </b>Share ideas for SLB features, or get help with problems.<b>
 </b></td>
-<td style="text-align: center;"><img class="flie aligncenter size-full" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/open-source-hardware.png" width="512" height="512" /><b>Open-Source
+<td style="text-align: center;">
+
+![](/_images/_superlongboard/_welcome/slb_welcome_p5_OpenSource.png){.aligncenter .size-medium}
+<b>Open-Source
 </b>Licensing and files for replication slowly rolling out!<b>
 </b></td>
 </tr>
@@ -65,16 +78,21 @@ Let's get rock'n'rolling by pointing you towards the right page for you 🎸
 [/su_table]
 
 <h2>More Questions?</h2>
+
 In the coming months we'll continue to add more information to documentation on the SLB including more information on wiring hookups, recommended accessory compatibilities, and more technical specifications. Otherwise, we've already covered lots of <strong>Frequently Asked Questions</strong> on:
+
 <ul>
   <li>The <a href="https://sienci.com/product/slb/">SuperLongBoard product page</a></li>
   <li>Recent videos on our <a href="https://www.youtube.com/@SienciLabs">YouTube channel</a></li>
   <li>Many <a href="https://sienci.com/2023/11/08/next-big-slb-update/">blogs covering the history</a> of the development of the SLB</li>
 </ul>
+
 Eventually we'll also have a revised MK2 manual that will cover installing the SLB out-of-the gate. If you're still needing some extra support with your new SLB, you can always contact us directly at <a href="mailto:support@sienci.com">support@sienci.com</a>.
 
-<img class="aligncenter wp-image-6558 size-medium" src="https://resources.sienci.com/wp-content/uploads/2024/03/LB2SLB_p48-850x502.jpg" alt="" width="850" height="502" />
+![](/_images/_superlongboard/_welcome/slb_welcome_p6_SLBMounted.jpg){.aligncenter .size-medium}
+
 <h2>FAQ</h2>
+
 [su_spoiler title="<b>Q: Will the SLB work with my CNC?</b>" open="no" style="fancy" icon="chevron" anchor_in_url="no"]
 
 A: If it's a LongMill or AltMill then definitely it will. Otherwise, your CNC should be supported so long as it’s a <strong>typical hobby CNC setup with open-loop Nema 23s</strong>. As we roll out the SLB we'll begin hearing back on other successful configurations and update this 'Answer' appropriately, since otherwise we can't provide a definitive guarantee other than to say that it's very likely to work for most hobby CNCs. Other machines that have been proven to work so far: <strong>Onefinity</strong>.
