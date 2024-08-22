@@ -1,5 +1,5 @@
 ---
-title: Welcome! Test
+title: ytsb Welcome! Test
 menu_order: 4
 post_status: draft
 post_excerpt: Documentation for the SuperLongBoard, the controller board for the LongMill Benchtop CNC router. Includes electrical and mechanical specifications.
@@ -12,7 +12,7 @@ custom_fields:
     KBName: SuperLongBoard
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_superlongboard/SLB-VB6.jpg
+featured_image: _images/_superlongboard/_welcome/slb_welcome_p1_SLBoard.jpg
 ---
 
 Hello and welcome!

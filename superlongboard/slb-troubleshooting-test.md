@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Test
+title: ytsb Troubleshooting Test
 menu_order: 4
 post_status: draft
 post_excerpt: See more on SLB settings and troubleshooting, especially useful on DIY CNC setups to better understand how to configure your SLB for your machine.
@@ -12,7 +12,7 @@ custom_fields:
     KBName: SuperLongBoard
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_superlongboard/TLED-V1.jpg
+featured_image: _images/_superlongboard/_troubleshooting/slb_trouble_p1.jpg
 ---
 
 If you're having any issues with your SLB, whether that's understanding its settings or diagnosing a regular problem, you'll likely find your solution here. This includes:

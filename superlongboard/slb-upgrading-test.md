@@ -1,5 +1,5 @@
 ---
-title: Upgrading to SLB Test
+title: ytsb Upgrading to SLB Test
 menu_order: 4
 post_status: draft
 post_excerpt: Time to power up! Steps on how to upgrade your LongMill CNC or other CNC machine from your old control system to the SuperLongBoard.
@@ -71,19 +71,19 @@ Let’s start moving plugs over to the SLB!
 
 ![](/_images/_superlongboard/_upgrading/slb_upgrading_p5_Estop.jpg){.aligncenter .size-medium}
 
-2. On your computer, unplug the USB cable that ran to the <strong>LongMill</strong>.
+1. On your computer, unplug the USB cable that ran to the <strong>LongMill</strong>.
 
 ![](/_images/_superlongboard/_upgrading/slb_upgrading_p6_USB.jpg){.aligncenter .size-medium}
 
-3. Unplug the X, Y1, Y2, and Z connectors from your <strong>LongMill</strong> and plug them into the <strong>SLB</strong> in the same order. There aren’t any extra steps you have to do even if you have the <a href="https://sienci.com/product/vortex-rotary-axis/">Vortex</a>.
+1. Unplug the X, Y1, Y2, and Z connectors from your <strong>LongMill</strong> and plug them into the <strong>SLB</strong> in the same order. There aren’t any extra steps you have to do even if you have the <a href="https://sienci.com/product/vortex-rotary-axis/">Vortex</a>.
 
 ![](/_images/_superlongboard/_upgrading/slb_upgrading_p7_Motors.jpg){.aligncenter .size-medium}
 
-4. Unplug your touch plate/probe from the <strong>LongMill</strong> and plug it into the <strong>SLB</strong>, on the <strong>Front Side</strong>.
+1. Unplug your touch plate/probe from the <strong>LongMill</strong> and plug it into the <strong>SLB</strong>, on the <strong>Front Side</strong>.
 
 ![](/_images/_superlongboard/_upgrading/slb_upgrading_p8_Probe.jpg){.aligncenter .size-medium}
 
-5. Grab the new E-stop and plug the green end into the <strong>Front Side</strong> of the <strong>SLB</strong>, then the other end into the backside of the E-stop.
+1. Grab the new E-stop and plug the green end into the <strong>Front Side</strong> of the <strong>SLB</strong>, then the other end into the backside of the E-stop.
 
 ![](/_images/_superlongboard/_upgrading/slb_upgrading_p9_Estop.jpg){.aligncenter .size-medium}
 
@@ -91,11 +91,11 @@ Let’s start moving plugs over to the SLB!
 
 ![](/_images/_superlongboard/_upgrading/slb_upgrading_p10_DoubleUSB.jpeg){.aligncenter .size-medium}
 
-7. On the <strong>Back Side</strong> of the <strong>SLB</strong>, plug in the power plug that we unplugged from the <strong>LongMill</strong> earlier.
+1. On the <strong>Back Side</strong> of the <strong>SLB</strong>, plug in the power plug that we unplugged from the <strong>LongMill</strong> earlier.
 
 ![](/_images/_superlongboard/_upgrading/slb_upgrading_p11_Power.jpg){.aligncenter .size-medium}
 
-8. Lastly, when looking at the <strong>Back Side</strong> of the <strong>SLB</strong>, you will see a power switch. Slide it to the ‘ON’ position to power on the <strong>SLB</strong>. It’s Alive!!
+1. Lastly, when looking at the <strong>Back Side</strong> of the <strong>SLB</strong>, you will see a power switch. Slide it to the ‘ON’ position to power on the <strong>SLB</strong>. It’s Alive!!
 
 ![](/_images/_superlongboard/_upgrading/slb_upgrading_p12_OnOff.jpg){.aligncenter .size-medium}
 
@@ -158,15 +158,15 @@ You will be connecting to the SLB differently than you are used to.
 
 ![](/_images/_superlongboard/_upgrading/slb_upgrading_p18_Connect1.jpg){.aligncenter .size-medium}
 
-2. Connecting to the SLB, requires you to select a new button. Click the gray bar at the bottom labeled Firmware.
+1. Connecting to the SLB, requires you to select a new button. Click the gray bar at the bottom labelled Firmware.
 
 ![](/_images/_superlongboard/_upgrading/slb_upgrading_p19_Connect2.jpg){.aligncenter .size-medium}
 
-3. Then click on <strong>grblHAL</strong>.
+1. Then click on <strong>grblHAL</strong>.
 
 ![](/_images/_superlongboard/_upgrading/slb_upgrading_p20_Connect3.jpg){.aligncenter .size-medium}
 
-4. With the SLB, we have the option to connect via USB or Ethernet. Under Recognized Devices there should be one option, let’s select that.
+1. With the SLB, we have the option to connect via USB or Ethernet. Under Recognized Devices there should be one option, let’s select that.
 
 ![](/_images/_superlongboard/_upgrading/slb_upgrading_p21_Connect4.jpg){.aligncenter .size-medium}
 
@@ -253,25 +253,25 @@ Your limit switches are installed and plugged into your SLB, so let’s check th
 
 ![](/_images/_superlongboard/_upgrading/slb_upgrading_p32_RSTConsole.jpg){.aligncenter .size-medium}
 
-2. <strong>Signal to the board</strong> - Navigate to your Calibration Tool and check the Diagnostics tab to see if your board is receiving the signal from the limit switch, when the pins change from OFF to ON. Also double check that the correct axis is turning on.
+1. <strong>Signal to the board</strong> - Navigate to your Calibration Tool and check the Diagnostics tab to see if your board is receiving the signal from the limit switch, when the pins change from OFF to ON. Also double check that the correct axis is turning on.
 
 <p style="text-align: center;"><em><strong>Note:</strong> If you don’t see an axis turning ON/OFF, double check the connections on the board. We don’t use Y2 for example.</em></p>
 
 ![](/_images/_superlongboard/_upgrading/slb_upgrading_p33.jpg){.aligncenter .size-medium}
 
-3. <strong>Turn Homing on</strong> - Scroll down in gSender’s Firmware Tool to 22, also called “Homing cycle”. There are more options for homing on the SLB, but just start by matching the toggles in the picture below (on, off - on, on - off, off - on, off). This will make the SLB home the same way that you’re already used to. Make sure to click “Apply New Settings”.
+1. <strong>Turn Homing on</strong> - Scroll down in gSender’s Firmware Tool to 22, also called “Homing cycle”. There are more options for homing on the SLB, but just start by matching the toggles in the picture below (on, off - on, on - off, off - on, off). This will make the SLB home the same way that you’re already used to. Make sure to click “Apply New Settings”.
 
 If you even find you can’t unlock homing, homing isn’t setting the machine coordinates to zero, or other unusual behaviours, come back here to double-check this list since you might not have all the right settings turned on. If you’re still curious about the other options, check out the <a href="https://resources.sienci.com/view/slb-manual/#homing-amp-limit-switches">Homing &amp; Limits Setup</a> section.
 
 ![](/_images/_superlongboard/_upgrading/slb_upgrading_p34_PinGIF.gif){.aligncenter .size-medium}
 
-4. <strong>Homing test</strong> - With things looking good on the firmware side, let’s run a homing cycle with gSender by pressing the ‘Home’ button on the main screen.
+1. <strong>Homing test</strong> - With things looking good on the firmware side, let’s run a homing cycle with gSender by pressing the ‘Home’ button on the main screen.
 
-5. <strong>Invert if needed</strong> - If you find any axes are reversed, return to 23 in the firmware tool and flip any of the directions that are wrong. If you find that homing is behaving weirdly still, go back and check that you turned on the right toggles for 22.
+1. <strong>Invert if needed</strong> - If you find any axes are reversed, return to 23 in the firmware tool and flip any of the directions that are wrong. If you find that homing is behaving weirdly still, go back and check that you turned on the right toggles for 22.
 
 ![](/_images/_superlongboard/_upgrading/slb_upgrading_p35_HomingCycle.jpg){.aligncenter .size-medium}
 
-6. <strong>Reduce homing speed if needed</strong> - If you’re finding your CNC gets stuck completing a homing cycle or is disconnecting, try reducing the homing “seek rate” (25) or increasing the “debounce delay” (26) settings. Depending on your setup or sensors, the default values might be a bit too aggressive.
+1. <strong>Reduce homing speed if needed</strong> - If you’re finding your CNC gets stuck completing a homing cycle or is disconnecting, try reducing the homing “seek rate” (25) or increasing the “debounce delay” (26) settings. Depending on your setup or sensors, the default values might be a bit too aggressive.
 
 <h3>LaserBeam Test</h3>
 

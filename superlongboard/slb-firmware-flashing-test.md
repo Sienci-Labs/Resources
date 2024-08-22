@@ -1,5 +1,5 @@
 ---
-title: Firmware & Flashing Test
+title: ytsb Firmware & Flashing Test
 menu_order: 4
 post_status: draft
 post_excerpt: See more on SLB settings and troubleshooting, especially useful on DIY CNC setups to better understand how to configure your SLB for your machine.
@@ -12,7 +12,7 @@ custom_fields:
     KBName: SuperLongBoard
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_superlongboard/_firmwareflashing/slb_firmware_p1_Connected.jpg
 ---
 Your board will likely ship with the latest firmware already installed, but we occasionally make updates. These updates will typically add new features to the SLB or address any discovered bugs. You may also choose to re-flash the firmware onto your board if you’ve attempted to customize it or for troubleshooting purposes.
 

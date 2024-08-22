@@ -1,5 +1,5 @@
 ---
-title: Technical Manual Test
+title: ytsb Technical Manual Test
 menu_order: 4
 post_status: draft
 post_excerpt: Documentation for the SuperLongBoard, a next-generation, 32-bit control board for the LongMill and other CNC routers. Includes electrical and mechanical specs.
@@ -12,7 +12,7 @@ custom_fields:
     KBName: SuperLongBoard
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_superlongboard/_techmanual/slb_techmanual_p1_Board.jpg
 ---
 [basepress-notice style="default"]If there's any extra information you'd like to see regarding the SLBs specs, just let us know and we'll work to add it 👍[/basepress-notice]
 
