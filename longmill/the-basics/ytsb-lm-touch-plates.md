@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: /_images/_longmill/_assembly/_addons/lm_addons_p8_Corner.png
 ---
 
 A touch plate can make it quicker and easier to find your origin point on your material. There are a lot of different types of touch plates, but the vast majority use some sort of metal block that detects when your end mill makes contact with its surface by completing a circuit.
@@ -23,4 +23,4 @@ The <a href="https://sienci.com/product/touch-plate/" target="_blank" rel="noope
 
 https://www.youtube.com/watch?v=H_fYFjtFc3Q
 
-[su_youtube url="https://www.youtube.com/watch?v=Wad9O_TqJkI"]
+https://www.youtube.com/watch?v=Wad9O_TqJkI

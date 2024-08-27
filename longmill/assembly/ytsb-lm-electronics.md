@@ -61,7 +61,7 @@ Next, plug the connector coming from the power brick into the rear of the LongMi
 
 Now, connect the emergency stop button to the control box via the connector on the top. You should be able to find your E-stop button (pictured on the right) in a bubble wrapped bag the #3 top carton. Turn it on by rotating the button clockwise. You should see a red light on top of the box light up to confirm that everything is receiving power.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p10_v3.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_electronics/lm_electronics_p10.jpg){.aligncenter .size-medium}
 
 Once you’ve checked that the lights are turning on, press the E-stop button to turn it back off.
 
@@ -75,15 +75,15 @@ gSender works with any operating system: Windows / PC , Mac, Linux, and more. If
 
 You can download gSender here: <a href="https://sienci.com/gSender/" target="_blank" rel="noopener">https://sienci.com/gsender/</a> Choose the download for you, and if you get stuck you can always reference here for more help: <a href="https://resources.sienci.com/view/gs-installation/" target="_blank" rel="noopener">https://resources.sienci.com/view/gs-installation/</a>
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p10_V4.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_electronics/lm_electronics_p11.png){.aligncenter .size-medium}
 
 Once you have gSender installed, go ahead and run it on your computer. One was is to double click the shortcut on your desktop.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p10_V6.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_electronics/lm_electronics_p12.png){.aligncenter .size-medium}
 
 You should be greeted with a screen that looks like this.
 
-<img class="wp-image-2096 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/04/gSender-start-850x454.png" alt="" width="850" height="454" />{.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_electronics/lm_electronics_p13.png){.aligncenter .size-medium}
 
 Connect your computer to the LongMill control box via USB.
 

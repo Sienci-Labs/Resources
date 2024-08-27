@@ -25,6 +25,7 @@ Routers and spindles come in all shapes and sizes. When considering the right to
 </ul>
 
 Many hobby CNC routers tend to utilize trim routers because their power, weight, price, and off-the-shelf circuitry balance well with hobby applications. After much testing with the LongMill, we landed on the Makita RT0700/RT0701 as the ideal choice.
+
 <h2>Makita RT0700/RT0701</h2>
 
 ![](/_images/_longmill/_the-basics/lm_routersspindle_p1_Makita.jpg){.alignleft .size-large}
@@ -46,6 +47,7 @@ The LongMill's standard router mount has a 65mm bore but is also available in: 
 ![](/_images/_longmill/_the-basics/lm_routersspindle_p2_65RMount.jpg){.aligncenter .size-medium}
 
 Here is a list of some other routers that could be used. If your router isn't listed, you'll need to measure it's diameter and check if anything protrudes or if an adapter may be needed:
+
 <ul>
   <li>Dewalt DWP611 (uses 71mm mount)</li>
   <li>Carbide 3D Compact Router (uses 65mm mount)</li>
@@ -122,4 +124,5 @@ Some settings you might need to change are shown below. If you're moving a speci
 ![](/_images/_longmill/_the-basics/lm_routersspindle_p6_Firmware.png){.aligncenter .size-medium}
 
 <h2>Not Recommended</h2>
+
 Handheld rotary tools like Dremels are highly underpowered for use on the LongMill since they do not have internal hardware that allows them to support the high lateral and axial forces. In addition, these tools are fabricated for hand use, and as such aren't designed for the minimal runout required to cut precisely.

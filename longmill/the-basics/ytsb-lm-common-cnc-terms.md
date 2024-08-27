@@ -80,6 +80,7 @@ These operations are all normally controlled using a machine interface program. 
 <h3>The Cutting Process</h3>
 
 Cutting away material on a CNC is affected by two major factors:
+
 <ol>
   <li>The type of cutting tool / bit that’s being used and its shape and size; you can think about this like using different cutting blades in a band saw.</li>
   <li>What cutting approach is being used when moving through the material; an analogy would be cutting across the wood grain versus along it.</li>
@@ -99,21 +100,21 @@ Cutting away material on a CNC is affected by two major factors:
 
 ![](/_images/_longmill/_the-basics/lm_cncterms_p6_Tips.jpg "Ballnose mill vs. End mill vs. V-bit"){.aligncenter .size-medium}
 
-<strong>Flat end</strong> mills have a square tip. They can also have spirals (upcut or downcut), or be completely straight. These are good for general purpose milling, such as cutting out borders or straight profiles.
+<p style="padding-left: 40px;"><strong>Flat end</strong> mills have a square tip. They can also have spirals (upcut or downcut), or be completely straight. These are good for general purpose milling, such as cutting out borders or straight profiles.</p>
 
-<strong>Tapered</strong> bits become more narrow at the tip, which allows for small details to be cut.
+<p style="padding-left: 40px;"><strong>Tapered</strong> bits become more narrow at the tip, which allows for small details to be cut.</p>
 
-<strong>Ball nose</strong> bits are rounded on the tip, similar to round groove bits. They are used for reliefs and 3D carvings.
+<p style="padding-left: 40px;"><strong>Ball nose</strong> bits are rounded on the tip, similar to round groove bits. They are used for reliefs and 3D carvings.</p>
 
-<strong>Upcut</strong> and <strong>downcut</strong> bits have opposite spiral directions, causing the material to be pushed either up or down respectively. Upcut bits are best for cutting materials that can melt onto the bit, such as plastics and aluminum, since these chips can be ejected out of the material. Downcut bits can be used for woods that can splinter easily, because they push the chips down which creates a cleaner finish.
+<p style="padding-left: 40px;"><strong>Upcut</strong> and <strong>downcut</strong> bits have opposite spiral directions, causing the material to be pushed either up or down respectively. Upcut bits are best for cutting materials that can melt onto the bit, such as plastics and aluminum, since these chips can be ejected out of the material. Downcut bits can be used for woods that can splinter easily, because they push the chips down which creates a cleaner finish.</p>
 
-<strong>Compression</strong> bits are a combination of upcut and downcut bits, with spirals in both directions providing a clean finish and also ejecting chips from the cutting surface.
+<p style="padding-left: 40px;"><strong>Compression</strong> bits are a combination of upcut and downcut bits, with spirals in both directions providing a clean finish and also ejecting chips from the cutting surface.</p>
 
-<strong>Straight</strong> bits do not have any spirals, instead it has flat faces which run down the length of the bit. They are used for cutting plastics, woods and composite/laminate materials which are susceptible to fraying.
+<p style="padding-left: 40px;"><strong>Straight</strong> bits do not have any spirals, instead it has flat faces which run down the length of the bit. They are used for cutting plastics, woods and composite/laminate materials which are susceptible to fraying.</p>
 
-<strong>Corncob</strong> bits have a unique diamond pattern which allows for abrasive materials to be cut, suitable for composite materials such as PCBs and carbon fiber.
+<p style="padding-left: 40px;"><strong>Corncob</strong> bits have a unique diamond pattern which allows for abrasive materials to be cut, suitable for composite materials such as PCBs and carbon fiber.</p>
 
-<strong>V-bit</strong> -  Has a pointed tip in the shape of a ‘V’ and works great for cutting away as an engraving, making lots of different details especially for signs. They can also be used for inlays and chamfering and come in many angles such as 30°, 60°, 90°, and 120°.</p>
+<p style="padding-left: 40px;"><strong>V-bit</strong> -  Has a pointed tip in the shape of a ‘V’ and works great for cutting away as an engraving, making lots of different details especially for signs. They can also be used for inlays and chamfering and come in many angles such as 30°, 60°, 90°, and 120°.</p>
 
 <h4>2. Cutting Approach</h4>
 
@@ -175,7 +176,7 @@ These are the settings you’d change to improve the performance of your cutting
 
 <strong>CAM</strong> - Computer aided manufacturing, a software program that converts designs into toolpaths to generate a g-code file. The program requires inputs from the user, such as feed rates, bit size and geometry, and post-processor.
 
-<strong>G-code</strong> - The text used by CNC machines to interpret and communicate commands. Many machines use g-code, not just CNC machines but laser cutters and 3D printers. There are many different languages within g-code, for various applications made by different manufacturers and researchers.
+<strong>g-code</strong> - The text used by CNC machines to interpret and communicate commands. Many machines use g-code, not just CNC machines but laser cutters and 3D printers. There are many different languages within g-code, for various applications made by different manufacturers and researchers.
 
 <strong>grbl</strong> - A CNC g-code language used by many hobby level CNC machines, such as Shapeoko, XCarve, Onefinity and the LongMill. grbl is compatible with Arduino,  therefore many CNC machines use the Arduino as the “brains.”
 
@@ -216,15 +217,17 @@ These are the settings you’d change to improve the performance of your cutting
 <strong>Potentiometer</strong> - A component on CNC control boards which sets the current going into the motor.
 
 [su_divider]
+
 <h3>Sources &amp; Other Info</h3>
-<a href="https://www.cnccookbook.com/cnc-dictionary/">https://www.cnccookbook.com/cnc-dictionary/</a>
-<a href="https://wiki.shapeoko.com/index.php/glossary">https://wiki.shapeoko.com/index.php/glossary</a>
-<a href="https://cimquest-inc.com/what-is-chip-load/">https://cimquest-inc.com/what-is-chip-load/</a>
-<a href="https://www.cnccookbook.com/climb-milling-versus-conventional-milling/">https://www.cnccookbook.com/climb-milling-versus-conventional-milling/</a>
-<a href="https://engmachineshop.wustl.edu/items/climb-milling-vs-conventional-milling/">https://engmachineshop.wustl.edu/items/climb-milling-vs-conventional-milling/</a>
-<a href="https://www.harveyperformance.com/in-the-loupe/ramping-success/">https://www.harveyperformance.com/in-the-loupe/ramping-success/</a>
-<a href="https://www.axyz.com/us/2018/11/16/technical-tip-of-the-week-when-to-use-lead-ins-and-ramps/">https://www.axyz.com/us/2018/11/16/technical-tip-of-the-week-when-to-use-lead-ins-and-ramps/</a>
-<a href="http://www.helmancnc.com/g-code-g95-feed-per-revolution/">http://www.helmancnc.com/g-code-g95-feed-per-revolution/</a>
-<a href="https://circlemwoodworking.com/cnc-router-motor-vs-spindle-which-is-better/">https://circlemwoodworking.com/cnc-router-motor-vs-spindle-which-is-better/</a>
-<a href="https://www.axyz.com/us/2018/02/22/using-a-compression-bit/">https://www.axyz.com/us/2018/02/22/using-a-compression-bit/</a>
+
+<a href="https://www.cnccookbook.com/cnc-dictionary/">https://www.cnccookbook.com/cnc-dictionary/</a><br>
+<a href="https://wiki.shapeoko.com/index.php/glossary">https://wiki.shapeoko.com/index.php/glossary</a><br>
+<a href="https://cimquest-inc.com/what-is-chip-load/">https://cimquest-inc.com/what-is-chip-load/</a><br>
+<a href="https://www.cnccookbook.com/climb-milling-versus-conventional-milling/">https://www.cnccookbook.com/climb-milling-versus-conventional-milling/</a><br>
+<a href="https://engmachineshop.wustl.edu/items/climb-milling-vs-conventional-milling/">https://engmachineshop.wustl.edu/items/climb-milling-vs-conventional-milling/</a><br>
+<a href="https://www.harveyperformance.com/in-the-loupe/ramping-success/">https://www.harveyperformance.com/in-the-loupe/ramping-success/</a><br>
+<a href="https://www.axyz.com/us/2018/11/16/technical-tip-of-the-week-when-to-use-lead-ins-and-ramps/">https://www.axyz.com/us/2018/11/16/technical-tip-of-the-week-when-to-use-lead-ins-and-ramps/</a><br>
+<a href="http://www.helmancnc.com/g-code-g95-feed-per-revolution/">http://www.helmancnc.com/g-code-g95-feed-per-revolution/</a><br>
+<a href="https://circlemwoodworking.com/cnc-router-motor-vs-spindle-which-is-better/">https://circlemwoodworking.com/cnc-router-motor-vs-spindle-which-is-better/</a><br>
+<a href="https://www.axyz.com/us/2018/02/22/using-a-compression-bit/">https://www.axyz.com/us/2018/02/22/using-a-compression-bit/</a><br>
 <a href="https://www.endmill.com.au/pcb-corn-cutter-carbide-router-bit/">https://www.endmill.com.au/pcb-corn-cutter-carbide-router-bit/</a>

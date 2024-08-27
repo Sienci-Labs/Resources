@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: /_images/_longmill/_the-basics/lm_welcome_p1.jpg
 ---
 
 ![](/_images/_longmill/_the-basics/lm_welcome_p1.jpg){.aligncenter .size-medium}
@@ -21,8 +21,6 @@ Hello and welcome to the LongMill Resources section of the website. This has bee
 
 Each page will have buttons at the bottom to navigate step-by-step or you can use the sidebar to quickly travel to a desired page. Some pages also have tabs to switch between the beginner-friendly and advanced content. We have forums on our <a href="https://forum.sienci.com/" target="_blank" rel="noopener noreferrer">Website</a> and on <a href="https://www.facebook.com/groups/mill.one/" target="_blank" rel="noopener noreferrer">Facebook</a> if you want to talk with others or have further questions.
 
-</div>
-</div>
 [su_button url="https://resources.sienci.com/view/lm-cnc-routers/" target="self" style="flat" background="var(--sl-blue)" color="#FFFFFF" size="8" wide="no" center="yes" radius="3" icon="" icon_color="#FFFFFF" text_shadow="none" desc="" download="" onclick="" rel="" title="" id="" class=""]Learn about CNC machines and their software[/su_button]
 
 &nbsp;
