@@ -1,7 +1,7 @@
 ---
-title: Feeds & Speeds
+title: ytsb Feeds & Speeds
 menu_order: 4
-post_status: publish
+post_status: draft
 post_excerpt: Basic feeds and speeds explanation for the LongMill CNC. Feed recommendations, definitions for commonly used terms, and Makita RT0701 speed range provided.
 post_date: 2021-04-19 16:25:00
 taxonomy:
