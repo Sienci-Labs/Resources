@@ -12,43 +12,44 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: /_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p01 (cover).jpg
+featured_image: /_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p1 (cover).jpg
 ---
 
-![](</_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p01 (cover).jpg>){.aligncenter .size-medium}
+![](</_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p1_Drawing.jpg>){.aligncenter .size-medium}
 
 <h2>Preparing the X-axis rail</h2>
+
 [tabby title="12x12"]
 
 The 12×12 LongMill is a smaller build envelope so it doesn’t require an X-axis reinforcement bar. Move onto the next step “Attaching the Shoulder Brackets”, but keep in mind that the remaining pictures may show another piece of angled aluminum attached to the back of the X-axis rail. Pay no mind to this since the assembly process is otherwise the same.
 
 [tabby title="12x30 and 30x30" open="yes"]
 
-![](</_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p02  (parts).jpg>)
+![](</_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p2_RailParts.jpg>)
 
 The 12×30 and 30×30 model LongMills use a second aluminum extrusion as a reinforcement bar to make the primary rail on the X-axis more rigid. These are the two longest and largest aluminum lengths on your machine and can be found in the heaviest long box alongside the other rails.
 
 Of the two, the longer one is the X-axis rail and the shorter one is the reinforcement. You can also distinguish the two since the X-axis rail has sets of four threaded holes at its ends.
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p03.JPG){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p3.JPG){.aligncenter .size-medium}
 
 Start by orienting the rails into a ‘lighting bolt’ pattern like in the photo so that the set of six holes on both can be aligned. Also, make sure to check that the small threaded hole on the X-axis rail (yellow) is oriented as shown so that you’ll be able to attach your drag chain later on.
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p04.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p4.jpg){.aligncenter .size-medium}
 
 Grabbing the M8-16mm bolts from the orange bag, you can use six of these to fasten these parts together; the bolts will go through the larger holes on the reinforcement bar and thread into the X-axis rail from the back (pictured). Start by turning each of these short M8 bolts in by hand to get all the holes aligned, then go back and tighten each of them down well with a size 6 Allen key.
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p05.JPG){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p5.JPG){.aligncenter .size-medium}
 
 Your completed rail should now look something like this.
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p06.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p6.jpg){.aligncenter .size-medium}
 
 [tabbyending]
 
 <h2>Sandwiching the rail with the Y-gantries</h2>
 
-![](</_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p11 (parts).jpg>){.aligncenter .size-medium}
+![](</_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p11_parts.jpg>){.aligncenter .size-medium}
 
 After the previous step, you should now have four major assemblies completed: the <strong>XZ-axis gantry</strong>, the two <strong>Y-gantries</strong>, and the <strong>X-axis rail</strong>. These assemblies will all be coming together in this step, starting by sliding the XZ-axis gantry assembly onto the X-axis rail.
 
@@ -87,9 +88,10 @@ Repeat the same process on the other side, being careful not to cause damage to 
 ![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p19.JPG){.aligncenter .size-medium}
 
 Now that the larger X-axis assembly is done, this is what the completed assembly should look like!
+
 <h2>Adding the power transmission components</h2>
 
-![](</_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p20 (parts).jpg>){.aligncenter .size-medium}
+![](</_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p20_parts.jpg>){.aligncenter .size-medium}
 
 This step will attach the remaining components to the larger X-axis assembly.
 

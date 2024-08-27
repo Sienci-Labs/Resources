@@ -12,36 +12,36 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: /_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p01 (cover).jpg
+featured_image: /_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p1_cover.jpg
 ---
 
-![](</_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p01 (cover).jpg>){.aligncenter .size-medium}
+![](</_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p1_cover.jpg>){.aligncenter .size-medium}
 
 <h2>Y-axis gantries (wheels)</h2>
 
-![](</_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p02 (parts).jpg>){.aligncenter .size-medium}
+![](</_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p2_parts.jpg>){.aligncenter .size-medium}
 
 Grab the Y-axis gantries (wrapped in paper) and you’ll see four holes on each steel plate in a square formation. Add the wheel sub-assemblies to these holes just like how you did before, with the eccentric nuts placed as pictures and the nylock nuts on the two lower holes; make sure that one is assembled as the mirror of the other. Use a size 4 Allen key and the included 8mm wrench to tighten everything down, but leave the eccentric nuts slightly loose for now.
 
 If you have a hard time getting the eccentric nuts in, we recommend tapping the nuts in with the back of a screwdriver or other dull object. This will help clear the excess paint that might still remain in the hole.
 
-![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p03.JPG "Install the eccentric nuts into the top two holes.")"{.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p3.JPG "Install the eccentric nuts into the top two holes.")"{.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p04.JPG "V-wheel sets with a washer to keep the v-wheel spaced from the gantry plate."){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p4.JPG "V-wheel sets with a washer to keep the v-wheel spaced from the gantry plate."){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p05.JPG "Fasten the wheels to the eccentric nuts, leave these slightly loose for now."){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p5.JPG "Fasten the wheels to the eccentric nuts, leave these slightly loose for now."){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p06.JPG "Assemble the bottom two wheels with M5-nylock nuts and tighten all the way."){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p6.JPG "Assemble the bottom two wheels with M5-nylock nuts and tighten all the way."){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p07.JPG "Make sure you have both plates done, but with the wheels on opposite sides."){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p7.JPG "Make sure you have both plates done, but with the wheels on opposite sides."){.aligncenter .size-medium}
 
 <h2>Y-axis gantries (anti-backlash)</h2>
 
-![](</_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p08 (parts).jpg>){.aligncenter .size-medium}
+![](</_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p8_parts.jpg>){.aligncenter .size-medium}
 
 On the Y-axis plates, there are two holes for the anti-backlash assemblies to mount. Line up the plastic blocks and secure them to the plate using the same medium-sized bolts that were used for the wheels. The blocks should be mounted on the same side as the v-wheels, and have the tensioning screw facing outwards.
 
-![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p09.JPG "The Delrin nuts go on the same side as the v-wheels do."){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p9.JPG "The Delrin nuts go on the same side as the v-wheels do."){.aligncenter .size-medium}
 
 ![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p10.JPG "Tighten until snug. Don't over-tighten!"){.aligncenter .size-medium}
 
@@ -49,7 +49,7 @@ On the Y-axis plates, there are two holes for the anti-backlash assemblies to mo
 
 <h2>Mounting the X-axis motor to the left plate</h2>
 
-![](</_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p12  (parts).jpg>){.aligncenter .size-medium}
+![](</_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p12_parts.jpg>){.aligncenter .size-medium}
 
 Make sure you have grabbed the correct gantry (pictured below).
 

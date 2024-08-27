@@ -12,44 +12,44 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: /_images/_longmill/_assembly/_dragchain/lm_dragchain_p01 (cover).jpg
+featured_image: /_images/_longmill/_assembly/_dragchain/lm_dragchain_p1_cover.jpg
 ---
 
-![](</_images/_longmill/_assembly/_dragchain/lm_dragchain_p01 (cover).jpg>){.aligncenter .size-medium}
+![](</_images/_longmill/_assembly/_dragchain/lm_dragchain_p1_cover.jpg>){.aligncenter .size-medium}
 
 <h2>Drag chains and Wiring</h2>
 
-![](</_images/_longmill/_assembly/_dragchain/lm_dragchain_p02 (parts).jpg>){.aligncenter .size-medium}
+![](</_images/_longmill/_assembly/_dragchain/lm_dragchain_p2_parts.jpg>){.aligncenter .size-medium}
 
 We will now be installing the drag chains; these contain and guide the wires on the LongMill so they aren’t in the way during cutting. They also keep wires from wearing out from bending or being cinched around corners.
 
 As mentioned previously, the chains can be found in the lighter long box (pictured). They come with detachable links so that you can adjust their length depending on the size of your LongMill. You can save these links for later when you upgrade to a larger LongMill if you have the 12×12 or 12×30 versions.
 
-![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p03.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p3.jpg){.aligncenter .size-medium}
 
 We'll first start by removing the end connector links from both drag chains. You can either pull or squeeze off the connector as shown in the photos. A flat head screwdriver or thin shim can also be handy for this, just be careful not to cut yourself in the process.
 
-![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p04.jpg "For the pin-type end link, squeeze the two sides of the link together, then twist and pull to disconnect"){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p4.jpg "For the pin-type end link, squeeze the two sides of the link together, then twist and pull to disconnect"){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p05.jpg "For the hole-type end link, pull on one side of the link then twist it away to separate it"){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p5.jpg "For the hole-type end link, pull on one side of the link then twist it away to separate it"){.aligncenter .size-medium}
 
 Do this for all four end pieces, two hole-types and two pin types, and set them aside.
 
-![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p06.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p6.jpg){.aligncenter .size-medium}
 
 We will attach these links to the machine, starting with the drag chain foot you set aside in the last step. It can be identified by its lightning bolt shape and the nut catches and wire clips it has on its back side. Also find the smaller M4 bolts and nuts in the yellow bag, as these will be used to attach the links in the following steps.
 
 Use a pair of bolts and nuts to secure the hole-type end link onto the drag chain foot in the orientation shown by using a size 3 Allen key. The nuts should fit into the hexagonal cutouts underneath the mounting point, meaning a wrench won’t be needed.
 
-![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p07.JPG){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p7.JPG){.aligncenter .size-medium}
 
 This last foot can now be attached to the Y-axis rails in the vacant space on the left side of the machine. Use two of the short M8 bolts to fasten it to the rail, similar to how all the other feet have been mounted.
 
-![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p08.JPG "Drag chain foot mounted in place"){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p8.JPG "Drag chain foot mounted in place"){.aligncenter .size-medium}
 
 Now get a <strong>pin-type</strong> end link (pictured) to mount the other end of the drag chain. This one will attach the the X-axis clip-on mount where there's a slot for the two bolts to fit through. Use the included LongMill wrench to hold the nuts from the top while you fasten the bolts from underneath with a size 3 Allen key.
 
-![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p09.JPG){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p9.JPG){.aligncenter .size-medium}
 
 On the back-left side of the X-axis rail, you'll find a hole to secure another drag chain link. You should only need one bolt to secure the pin-type end link using the tapped hole. If your hole is not tapped, use an M4 nylock nut on the other side to secure the part.
 

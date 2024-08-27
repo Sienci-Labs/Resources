@@ -12,14 +12,14 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: /_images/_longmill/_assembly/_tablemount/lm_tablemount_p01 (cover).jpg
+featured_image: /_images/_longmill/_assembly/_tablemount/lm_tablemount_p1_cover.jpg
 ---
 
-![](</_images/_longmill/_assembly/_tablemount/lm_tablemount_p01 (cover).jpg>){.aligncenter .size-medium}
+![](</_images/_longmill/_assembly/_tablemount/lm_tablemount_p1_cover.jpg>){.aligncenter .size-medium}
 
 The LongMill is designed to be mounted to a flat surface which is provided by the user. This could be as simple as a single sheet of material, or as intricate as a multi-piece torsion table with t-tracks and threaded inserts. One thing is to ensure that you’ve got a flat sheet (or multiple flat sheets) of material within the cutting area of the machine. This “wasteboard” area is where the material you will cut will sit on and serves to be cut into and replaced when needed.
 
-![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p02.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p2.jpg){.aligncenter .size-medium}
 
 We do not ship LongMills with a wasteboard because:
 
@@ -36,11 +36,11 @@ The easiest setup that we recommend is a flat, clean piece of 3/4” MDF to act 
 
 When getting ready to mount your LongMill, the most important dimensions you’ll need to know are the size of its foot base and the total outline of the machine. As long as your mounting surface is at least the size of the foot base and you’ve left enough space around your mounting surface to account for the total machine outline, then your setup will be suitable.
 
-![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p03.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p3.png){.aligncenter .size-medium}
 
 The control box is also something you should plan for, as the design of the machine favours placing the control box on the left side of the machine whether it’s sitting on the table or mounted to the side or underside of the surface. The control box has buttons on the top which can Play, Pause, and Stop the machine’s motion so it’s a good idea to keep it mounted near your CNC. It also has a USB input on the left side, motor and other outputs on the right side, and the power input on the back side, so make sure to keep some space around it for cable management.
 
-![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p04.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p4.png){.aligncenter .size-medium}
 
 Once assembled, each model of the LongMill (12×12, 12×30, and 30×30) is designed to generally fit on a 2×2′, 2×4′, and 4×4′ surface respectively. The diagrams below show a more detailed view for each model:
 
@@ -53,21 +53,21 @@ Once assembled, each model of the LongMill (12×12, 12×30, and 30×30) is desig
 
 [tabby title="12x12"]
 
-![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p05.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p5.png){.aligncenter .size-medium}
 
 [tabby title="12x30"]
 
-![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p06.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p6.png){.aligncenter .size-medium}
 
 [tabby title="30x30" open="yes"]
 
-![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p07.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p7.png){.aligncenter .size-medium}
 
 [tabbyending]
 
 At the end of the day, this leaves you with:
 
-![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p07_V2.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p7_V2.jpg){.aligncenter .size-medium}
 
 <h2>Mounting your LongMill</h2>
 
@@ -79,11 +79,11 @@ We will also properly tension the Delrin anti-backlash nuts. Turn the tensioning
 
 Gently put your LongMill on the mounting surface and shuffle it over roughly where you want it. In this case we’re using a 4’x4’ MDF sheet as a combination mounting surface and wasteboard which we had cut to 42 inches to better fit in a car. We’ll be mounting it in the middle and have the electronics box sit off the material to the side.
 
-![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p08.jpg "Move the machine onto your mounting surface. Position it to where you want it."){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p8.jpg "Move the machine onto your mounting surface. Position it to where you want it."){.aligncenter .size-medium}
 
 Once positioned, start by moving the machine all the way to the rearmost position by jogging in the y-axis on your control software. Keep moving backwards until you hear a grinding coming from the motors on both sides; this is to confirm that your machine is all the way back and it aligns the left-side feet to the right-side feet.
 
-![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p09.jpg "Move the machine to the very back until it stalls."){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p9.jpg "Move the machine to the very back until it stalls."){.aligncenter .size-medium}
 
 We’ll start by mounting the right side of the machine. Using a drill with a long Robertson driver or a short one on a bit extender works best for driving in the screws so that you have the necessary reach. You can use the particle board screws provided, or use your own mounting hardware depending on your material or its thickness, but please ensure that you <strong>don’t use counter-sunk wood screws</strong> to attach the feet as this will crack them.
 

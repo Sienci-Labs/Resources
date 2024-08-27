@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: 
+featured_image: /_images/_longmill/_software/lm_choosingsoft_p13_gSender.png
 ---
 
 When making g-code for any CNC machine, there will come a time where you'll click the final button to "Generate g-code". Doing so, how will you know that the g-code file is going to be properly suited to your particular CNC? Though many CNCs are able to interpret what's broadly known as 'g-code', the reality is that different manufacturers have their own quirks that their machines expect to see; you can think of this as g-code being the primary language while different CNCs speak with dialects or accents. For the LongMill and many other hobby CNCs, this dialect is known as "grbl".
@@ -73,14 +73,18 @@ To help out, we've put together a simple table which shows popular CAM programs 
 [/su_table]
 
 **To avoid potential issues with Fusion 360, we also recommend you make the following checks to your post-processor:
+
 <ul>
   <li><strong>G28</strong><b> Safe Retracts</b> set as “Clearance Height”</li>
   <li><b>Output M6</b> set as "No"</li>
   <li><b>Output Tool Number</b> set as "No"</li>
 </ul>
+
 If you're interested, there have also been instances of LM community members putting their own post-processors to download. Some examples include:
+
 <ul>
   <li>Chris B: <a href="https://www.facebook.com/groups/mill.one/permalink/1053271605144170/" target="_blank" rel="noopener">https://www.facebook.com/groups/mill.one/permalink/1053271605144170/</a></li>
   <li>Duane S: <a href="https://www.facebook.com/groups/mill.one/permalink/1122661888205141/" target="_blank" rel="noopener">https://www.facebook.com/groups/mill.one/permalink/1122661888205141/</a></li>
 </ul>
+
 <strong>Fun fact:</strong> some other members of the grbl CNC family include OpenBuilds, Shapeoko, BobsCNC and X-Carve - all starting just as the LongMill has from an Arduino Uno.

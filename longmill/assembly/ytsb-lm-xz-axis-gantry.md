@@ -217,4 +217,4 @@ With the current assembly turned around (looking in from behind) you’ll be abl
 
 Your final assembly should look like this. Congrats, you've completed the assembly of the XZ-Axis Gantry!
 
-![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p48_FinalAssYay.JPG) "That was fun, wasn't it?"){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p48_FinalAssYay.JPG "That was fun, wasn't it?"){.aligncenter .size-medium}

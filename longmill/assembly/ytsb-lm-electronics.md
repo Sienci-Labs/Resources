@@ -12,14 +12,14 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: /_images/_longmill/_assembly/_electronics/lm_electronics_p01 (cover).jpg
+featured_image: /_images/_longmill/_assembly/_electronics/lm_electronics_p1_cover.jpg
 ---
 
-![](</_images/_longmill/_assembly/_electronics/lm_electronics_p01 (cover).jpg>){.aligncenter .size-medium}
+![](</_images/_longmill/_assembly/_electronics/lm_electronics_p1_cover.jpg>){.aligncenter .size-medium}
 
 The LongMill electronics come pre-assembled and are pretty much ready to go out of the box. However, we recommend double-checking a few things before powering-on.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p02_v3.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_electronics/lm_electronics_p2_v3.jpg){.aligncenter .size-medium}
 
 <h2>DC power supply connector polarity and E-stop connector</h2>
 
@@ -27,37 +27,37 @@ It's important that the connector coming from the DC power brick has a <b>white<
 
 Check that the wires are connected appropriately by tugging on them. Secure them using the screw terminals and a flat head screwdriver if they’re loose or disconnected.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p03.JPG){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_electronics/lm_electronics_p3.JPG){.aligncenter .size-medium}
 
 <h2>Motor connector wiring</h2>
 
 The wires, looking down from the side with the screw heads, should be, from left to right, BLUE, YELLOW, GREEN, RED (pictured). Check if the color pattern on all four of your motor wires is correct and re-arrange them if needed. As previously, also check that the wires are connected securely to the connector.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p04.JPG "The wiring color pattern should be blue, yellow, green, red.")"{.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_electronics/lm_electronics_p4.JPG "The wiring color pattern should be blue, yellow, green, red.")"{.aligncenter .size-medium}
 
 While you're at it, double check that the motor-side, white connectors on each axis are pushed all the way into the motor housing to ensure a good connection. If these connectors are sitting too loosely, then they can cause issues later on since the motor won't move as expected.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p05.JPG){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_electronics/lm_electronics_p5.JPG){.aligncenter .size-medium}
 
 <h2>Properly seated DIP switches</h2>
 
 Looking at the underside of the control box, you should notice four red switch blocks on the circuit board through the slots in the steel (pictured). These are a way of toggling how the motors are controlled by their respective motor controllers, where the slots in the steel have been made wide enough so that you can reach in with a small flat head screwdriver or an Allen key to adjust these switches without dissembling anything.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p06.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_electronics/lm_electronics_p6.jpg){.aligncenter .size-medium}
 
 These DIP switches normally <strong>look</strong> like they've been properly switched when in reality they're 'floating' between the up and down positions, as is the case for switch 2 in the picture below. Because of this, it's a good idea to push every single switch into it's correct position before moving on to the next step, putting switches 1 and 3 into the 'up' position and switches 2 and 4 into the 'down' position (pictured).
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p07.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_electronics/lm_electronics_p7.jpg){.aligncenter .size-medium}
 
 <h2>Plugging in the motors and power supply</h2>
 
 With these checks done, start by connecting the motors. Track each cable from each motor to its corresponding green connector and connect it to the board. The fit of these connectors is tight but you need to be sure to push them ALL THE WAY in so that there is good contact between the plug and the connector. Each plug on the board is labelled on the top (note that there isn't a difference between the Y1 and Y2 plugs, the Y-axis motors can be connected to either of them).
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p08.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_electronics/lm_electronics_p8.jpg){.aligncenter .size-medium}
 
 Next, plug the connector coming from the power brick into the rear of the LongMill's control box (pictured); wait until after it's plugged in before plugging the other power supply cable into the wall. A green LED on the power supply brick should light up to indicate that it's receiving wall power.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p09.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_electronics/lm_electronics_p9.jpg){.aligncenter .size-medium}
 
 Now, connect the emergency stop button to the control box via the connector on the top. You should be able to find your E-stop button (pictured on the right) in a bubble wrapped bag the #3 top carton. Turn it on by rotating the button clockwise. You should see a red light on top of the box light up to confirm that everything is receiving power.
 

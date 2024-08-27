@@ -12,44 +12,44 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p01 (cover).jpg
+featured_image: _images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p1_cover.jpg
 ---
 
-![](</_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p01 (cover).jpg>){.aligncenter .size-medium}
+![](</_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p1_cover.jpg>){.aligncenter .size-medium}
 
 <h2>Feet sub-assemblies</h2>
 
-![](</_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p02 (parts).jpg>){.aligncenter .size-medium}
+![](</_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p2_parts.jpg>){.aligncenter .size-medium}
 
 The two Y-axis rails mount to the machine base via a handful of plastic feet which require a bit of assembly before-hand. Start off by finding the front and back pairs among the plastic parts (pictured). These parts can be distinguished by their ‘zig-zag-like’ pattern with a thick base and by the embossed lettering denoting their position on the machine (e.g. “Back left” and “Back right”).
 
-![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p03.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p3.jpg){.aligncenter .size-medium}
 
 With the bearings still in hand from the last step, you’ll need to push one of them into each of the four feet. The front feet should have the bearings pushed in from the front, and the rear feet from the rear (pictured); make sure that you get the orientation right on these.
 
 These bearings are meant to be quite a snug fit, so feel free to use a vise or a mallet against the outer flange of the bearing to get them properly seated into the feet. You’ll know they’re in all the way once the flange is completely flush with the surface.
 
-![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p04.jpg "Front feet with bearings"){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p4.jpg "Front feet with bearings"){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p05.jpg "Rear feet with bearings")"{.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p5.jpg "Rear feet with bearings")"{.aligncenter .size-medium}
 
 For the rear feet, we’ll also press-fit in eight M5 nylock nuts with the rounded side facing outwards. You should already have the bag of these medium-sized nuts open from earlier in the assembly.
 
-![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p06.jpg "Put M5 nylock nuts into each nut catch on the rear feet."){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p6.jpg "Put M5 nylock nuts into each nut catch on the rear feet."){.aligncenter .size-medium}
 
 Now, we’ll attach the two remaining motors to the rear feet. Install the coupler onto the motor first, followed by the long bolts and spacers that were used for the X-axis motor assembly.
 
-![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p07.JPG "Loosely push the coupler over the motor shaft."){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p7.JPG "Loosely push the coupler over the motor shaft."){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p08.JPG "Install the bolts and spacers.")"{.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p8.JPG "Install the bolts and spacers.")"{.aligncenter .size-medium}
 
 Move this over to the back of one of the rear plastic feet, orienting the motors white connector or cable bundle towards the flat base of the foot (pictured). Using a size 4 Allen key, you’ll be able to bolt the motor in place. Repeat the process for the other foot.
 
-![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p09.JPG "Both feet with motors attached"){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p9.JPG "Both feet with motors attached"){.aligncenter .size-medium}
 
 <h2>Completing the Y-axis</h2>
 
-![](</_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p10 (parts).jpg>){.aligncenter .size-medium}
+![](</_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p10_parts.jpg>){.aligncenter .size-medium}
 
 The 30×30 LongMill comes with 1000mm long rails for the Y-axis, meanwhile the 12×12 and 12×30 models have 500mm long rails. These will be the last two remaining aluminum lengths in the kit, distinguishable by their 2” width compared to the 3” width of the X-axis rail.
 
@@ -111,7 +111,7 @@ Attach the middle foot onto the right-side rail using two of the same short M8 b
 
 [tabby title="30x30" open="yes"]
 
-![](</_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p22 (parts).jpg>){.aligncenter .size-medium}
+![](</_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p22_parts.jpg>){.aligncenter .size-medium}
 
 The last pieces to add are the middle feet. They look exactly like the back feet but exclude the backing. There are three of them and a fourth one that looks very similar but has another mounting point that juts out; this one will be used later in the assembly.
 

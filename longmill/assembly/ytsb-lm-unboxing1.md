@@ -287,7 +287,7 @@ In Bottom Carton #2, you will find your power supply and AC cable, USB cable, Z-
 
 In our final carton, you will find all of your 3D printed parts.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p39_BottomBox3.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p39_V2BottomBox3.jpg){.aligncenter .size-medium}
 
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p40_V2BottomBox3B.jpg){.aligncenter .size-medium}
 
