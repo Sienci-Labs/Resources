@@ -233,7 +233,7 @@ The LongMill comes with a lot of parts, but we’ve organized them to make it as
 
 Please note that the carton layout may vary. Carton #2 is a bubble mailer.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p27_Drawing.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p27_V2Drawing.jpg){.aligncenter .size-medium}
 
 <strong>Top Carton #1</strong>
 Our first carton comes with stickers and a welcome letter with links to resources and safety information. If you ordered your machine with end mills or other parts, you may find them in here.
@@ -271,17 +271,17 @@ Under carton #1 and #2, you will find a box containing the motors and wires.
 
 Working our way through to the bottom cartons, our first carton holds all of the rails, lead screws, and drag chains.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p35_BottomBox.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p35_V2BottomBox.jpg){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p36_BottomBoxB.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p36_V2BottomBoxB.jpg){.aligncenter .size-medium}
 
 <strong>Bottom Carton #2</strong>
 
 In Bottom Carton #2, you will find your power supply and AC cable, USB cable, Z-axis motor mount plate, as well as bags holding all the fasteners and smaller components for your LongMill.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p37_BottomBox2.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p37_V2BottomBox2.jpg){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p38_BottomBox2B.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p38_V2BottomBox2B.jpg){.aligncenter .size-medium}
 
 <strong>Bottom carton #3</strong>
 
@@ -289,19 +289,19 @@ In our final carton, you will find all of your 3D printed parts.
 
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p39_BottomBox3.jpg){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p40_BottomBox3B.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p40_V2BottomBox3B.jpg){.aligncenter .size-medium}
 
 [tabby title="V3"]
 
 The LongMill comes with a lot of parts, but we’ve organized them to make it as easy as possible to find and put everything together; each kit comes with several cartons. For the complete BOM, visit: <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1433071683" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1433071683</a>
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p41_V3Drawing.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p27_V2Drawing.jpg){.aligncenter .size-medium}
 
 <strong>Top Carton #1</strong>
 
 Our first carton comes with stickers and a welcome letter with links to resources and safety information. If you ordered your machine with end mills or other parts, you may find them in here.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p42_V3TopCarton.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p28_V2TopCarton.jpg){.aligncenter .size-medium}
 
 <strong>Top Carton #2</strong>
 
@@ -321,95 +321,95 @@ Our third carton holds several different items, including router mount and the L
 
 Our fourth carton will hold your Makita router if you ordered one. If not, it will be empty.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p46_V3TopBox4.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p33_V2TopBox4.jpg){.aligncenter .size-medium}
 
 <strong>NEMA 23 Motors</strong>
 
 Under carton #1 and #2, you will find a box containing the motors and wires.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p47_V3Motors.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p34_V2Motors.jpg){.aligncenter .size-medium}
 
 <strong>Bottom Carton #1</strong>
 
 Working our way through to the bottom cartons, our first carton holds all of the rails, lead screws, and drag chains.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p48_V3BottomBox.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p35_V2BottomBox.jpg){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p49_V3BottomBoxB.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p36_V2BottomBoxB.jpg){.aligncenter .size-medium}
 
 <strong>Bottom Carton #2</strong>
 
 In Bottom Carton #2, you will find your power supply and AC cable, USB cable, Z-axis motor mount plate, as well as bags holding all the fasteners and smaller components for your LongMill.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p50_V3BottomBox2.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p37_V2BottomBox2.jpg){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p51_V3BottomBox2B.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p38_V2BottomBox2B.jpg){.aligncenter .size-medium}
 
 <strong>Bottom carton #3</strong>
 
 In our final carton, you will find all of your 3D printed parts.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p52_V3BottomBox3.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p39_V2BottomBox3.jpg){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p53_V3BottomBox3B.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p40_V2BottomBox3B.jpg){.aligncenter .size-medium}
 
 [tabby title="V4"]
 
 The LongMill comes with a lot of parts, but we’ve organized them to make it as easy as possible to find and put everything together; each kit comes with several cartons. For the complete BOM, visit: <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1110761832" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1110761832</a>
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p54_V4Drawing.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p27_V2Drawing.jpg){.aligncenter .size-medium}
 
 Our first carton comes with stickers and a welcome letter with links to resources and safety information. If you ordered your machine with end mills or other parts, you may find them in here.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p55_V4TopCarton.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p28_V2TopCarton.jpg){.aligncenter .size-medium}
 
 <strong>Top Carton #2</strong>
 
 Our second carton holds our steel gantries and XZ gantry assembly. Inside you will find the XZ gantry assembly and Y-axis gantries.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p56_V4TopCarton2.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p43_V3TopCarton2.jpg){.aligncenter .size-medium}
 
 <strong>Top Carton #3</strong>
 
 Our third carton holds several different items, including router mount and the LongMill's controller. If you ordered your machine with any add-ons, such as the dust shoe, end mill add-on pack, or touch plate, you should find them here.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p57_V4TopCarton3A.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p44_V3TopCarton3A.jpg){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p58_V4TopCarton3B.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p45_V3TopCarton3B.jpg){.aligncenter .size-medium}
 
 <strong>Top carton #4</strong>
 
 Our fourth carton will hold your Makita router if you ordered one. If not, it will be empty.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p59_V4TopBox4.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p33_V2TopBox4.jpg){.aligncenter .size-medium}
 
 <strong>NEMA 23 Motors</strong>
 
 Under carton #1 and #2, you will find a box containing the motors and wires.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p60_V4Motors.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p34_V2Motors.jpg){.aligncenter .size-medium}
 
 <strong>Bottom Carton #1</strong>
 
 Working our way through to the bottom cartons, our first carton holds all of the rails, lead screws, and drag chains.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p61_V4BottomBox.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p35_V2BottomBox.jpg){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p62_V4BottomBoxB.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p36_V2BottomBoxB.jpg){.aligncenter .size-medium}
 
 <strong>Bottom Carton #2</strong>
 
 In Bottom Carton #2, you will find your power supply and AC cable, USB cable, Z-axis motor mount plate, as well as bags holding all the fasteners and smaller components for your LongMill.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p63_V4BottomBox2.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p37_V2BottomBox2.jpg){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p64_V4BottomBox2B.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p38_V2BottomBox2B.jpg){.aligncenter .size-medium}
 
 <strong>Bottom carton #3</strong>
 
 In our final carton, you will find all of your 3D printed parts as well as the galvanized steel brackets for mounting the drag chain and x-axis.
 
-![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p65_VBottomBox3.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p65_V4BottomBox3.jpg){.aligncenter .size-medium}
 
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p66_V4BottomBox3.jpg){.aligncenter .size-medium}
 
