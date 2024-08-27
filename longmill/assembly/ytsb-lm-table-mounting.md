@@ -53,21 +53,21 @@ Once assembled, each model of the LongMill (12×12, 12×30, and 30×30) is desig
 
 [tabby title="12x12"]
 
-![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p5.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p5_drawing.png){.aligncenter .size-medium}
 
 [tabby title="12x30"]
 
-![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p6.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p6_drawing.png){.aligncenter .size-medium}
 
 [tabby title="30x30" open="yes"]
 
-![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p7.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p7_drawing.png){.aligncenter .size-medium}
 
 [tabbyending]
 
 At the end of the day, this leaves you with:
 
-![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p7_V2.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p7_V2.jpg){.aligncenter .size-medium .wid}
 
 <h2>Mounting your LongMill</h2>
 

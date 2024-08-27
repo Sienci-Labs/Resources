@@ -1,7 +1,7 @@
 ---
-title: ytsb Drag Chains and Wiring
+title: Drag Chains and Wiring
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: How to assemble the drag chain and manage the wiring for the LongMill Benchtop CNC. Wire routing for the Makita router and motors is illustrated.
 post_date: 2021-04-30 14:55:00
 taxonomy:
@@ -121,7 +121,7 @@ Attach a motor cable onto the X-axis NEMA 23 stepper motor.
 
 Take the cable from the X-axis and Z-axis NEMA 23 stepper motors as well as the router cable and insert it into the Y-axis drag chain. Clip the tabs in to secure the wires. Ensure the drag chain is facing the right direction (with the hole-type link, pictured) to fit into the correct end links.
 
-![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p24.JPG "Grab the Y-axis drag chain and insert the X and Z-axis motor cables and router cable:"){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p24.JPG "Grab the Y-axis drag chain and insert the X and Z-axis motor cables and router cable."){.aligncenter .size-medium}
 
 Clip the both ends of the drag chain into the previously mounted end links on the Y-gantry and the drag chain foot.
 

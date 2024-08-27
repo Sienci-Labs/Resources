@@ -23,16 +23,21 @@ This is a very simple file which follows a line writing to spell out "LongMill".
 
 ![](/_images/_longmill/_assembly/_starterprojects/lm_starterp_p1.png "Tool (yellow) in the bottom left-hand corner (visualized using CAMotics)"){.aligncenter .size-medium}
 
-<a href="https://resources.sienci.com/wp-content/uploads/2021/05/LongMill-line1.zip">LongMill-line.zip</a>
+<a href="https://resources.sienci.com/wp-content/uploads/2021/05/longmill-line1.zip">LongMill-line.zip</a>
 
 Download the file above, 'unzip' or 'extract' it, then load it into gSender by clicking the "Load File" button. Once loaded, you'll be able to see a visualization of the tools movements. If you're satisfied, turn on your router (note this file doesn't currently contain spindle control commands) then run the file!
 
 <h2>CNSheep</h2>
 
-This is the other one of our first projects, a sheep cut into foam that we call the CNSheep. The code was designed for cutting out of foam with a 2-flute, 1/8" end mill but it should also work on soft woods as well. If you don't have these tools or materials on hand, the .zip file also contains the 3D model of the sheep so that you can run it through your desired CAM software to set it up for another material or tool. <a href="https://resources.sienci.com/wp-content/uploads/2021/05/CNSheep-files3-1.zip">CNSheep-files.zip</a> When you're setting up to cut, follow the same setup procedure as outlined in the first project above except that the pre-built g-code starts in the <strong>middle</strong> instead of the front corner, so reset the zero point in the center. Any workholding method should be sufficient, you can reference these on the 'Workholding' page in 'The Basics' section of the resources. The sheep's dimensions are 100mm wide by 70mm tall and will cut 6mm deep.
+This is the other one of our first projects, a sheep cut into foam that we call the CNSheep. The code was designed for cutting out of foam with a 2-flute, 1/8" end mill but it should also work on soft woods as well. If you don't have these tools or materials on hand, the .zip file also contains the 3D model of the sheep so that you can run it through your desired CAM software to set it up for another material or tool.
 
-![](/_images/_longmill/_assembly/_starterprojects/lm_starterp_p2.jpg
-"If all goes well, your final product should end up looking something like this!"){.aligncenter .size-medium}
+<a href="https://resources.sienci.com/wp-content/uploads/2021/05/CNSheep-files3-1.zip">CNSheep-files.zip</a>
+
+When you're setting up to cut, follow the same setup procedure as outlined in the first project above except that the pre-built g-code starts in the <strong>middle</strong> instead of the front corner, so reset the zero point in the center. Any workholding method should be sufficient, you can reference these on the 'Workholding' page in 'The Basics' section of the resources. The sheep's dimensions are 100mm wide by 70mm tall and will cut 6mm deep.
+
+![](/_images/_longmill/_assembly/_starterprojects/lm_starterp_p2.jpg){.aligncenter .size-medium}
+
+If all goes well, your final product should end up looking something like this!
 
 <h2>The Final Steps towards starting with CNC</h2>
 
