@@ -3,7 +3,7 @@ title: ytsb Custom Limit Switches
 menu_order: 4
 post_status: draft
 post_excerpt: Learn how to do custom limit switch wiring for your LongMill using mechanical or inductive switches. We also offer sensor kits.
-post_date: 2024-10-20 12:43
+post_date: 2021-04-30 17:30:00
 taxonomy:
     knowledgebase_cat: lm-advanced
     knowledgebase_tag:

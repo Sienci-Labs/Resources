@@ -3,7 +3,7 @@ title: ytsb Electronics
 menu_order: 4
 post_status: draft
 post_excerpt: After assembly, you can set up the electronics and g-code sender for the LongMill CNC. Wiring is shown for the control box, power supply, motors and more.
-post_date: 2024-04-30 16:26
+post_date: 2021-04-30 15:00:00
 taxonomy:
     knowledgebase_cat: lm-assembly
     knowledgebase_tag:

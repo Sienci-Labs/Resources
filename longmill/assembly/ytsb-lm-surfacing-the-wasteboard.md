@@ -3,7 +3,7 @@ title: ytsb Wasteboard Surfacing
 menu_order: 4
 post_status: draft
 post_excerpt: How to surface your wasteboard on the LongMill Benchtop CNC. You can download the surfacing g-code here or generate your own on INTUWiz.
-post_date: 2024-04-30 17:12
+post_date: 2021-04-30 15:25:00
 taxonomy:
     knowledgebase_cat: lm-assembly
     knowledgebase_tag:

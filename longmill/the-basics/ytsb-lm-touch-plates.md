@@ -3,7 +3,7 @@ title: ytsb Touch Plates
 menu_order: 4
 post_status: draft
 post_excerpt: LongMill touch plate documentation found here. A touch plate is an easy way to find the origin point on your material, for accurate positioning of the material.
-post_date: 2021-04-30 15:54 :00
+post_date: 2021-04-19 16:35:00
 taxonomy:
     knowledgebase_cat: lm-the-basics
     knowledgebase_tag:

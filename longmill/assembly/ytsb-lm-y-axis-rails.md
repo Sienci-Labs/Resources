@@ -3,7 +3,7 @@ title: ytsb Y-Axis Rails
 menu_order: 4
 post_status: draft
 post_excerpt: LongMill Benchtop CNC assembly guide for the Y-axis rails sub-assembly. Using 3D printed parts, couplers, ACME nuts, motors, aluminum rails and V-wheels.
-post_date: 2024-04-30 16:20
+post_date: 2021-04-30 14:50:00
 taxonomy:
     knowledgebase_cat: lm-assembly
     knowledgebase_tag:

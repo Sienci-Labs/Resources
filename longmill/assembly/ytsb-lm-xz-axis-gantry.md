@@ -3,7 +3,7 @@ title: ytsb XZ-Axis Gantry
 menu_order: 4
 post_status: draft
 post_excerpt: Assembly guide for XZ-axis gantry for the LongMill Benchtop CNC. Uses linear guides, router mount, Z-axis motor mount, anti-backlash block, 200mm lead screw.
-post_date: 2024-04-19 16:22
+post_date: 2021-04-30 14:35:00
 taxonomy:
     knowledgebase_cat: lm-assembly
     knowledgebase_tag:
