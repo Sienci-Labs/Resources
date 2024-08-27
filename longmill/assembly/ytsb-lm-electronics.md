@@ -15,7 +15,7 @@ skip_file: no
 featured_image: /_images/_longmill/_assembly/_electronics/lm_electronics_p1_cover.jpg
 ---
 
-![](</_images/_longmill/_assembly/_electronics/lm_electronics_p1_cover.jpg>){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_electronics/lm_electronics_p1_cover.jpg){.aligncenter .size-medium}
 
 The LongMill electronics come pre-assembled and are pretty much ready to go out of the box. However, we recommend double-checking a few things before powering-on.
 

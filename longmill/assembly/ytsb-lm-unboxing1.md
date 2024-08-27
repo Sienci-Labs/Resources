@@ -62,7 +62,7 @@ This section of the Resources will always have the assembly instructions for our
 
 There is also an impromptu, follow-along, assembly video series available for the LongMill Version 2 that Chris put together if you'd prefer to assemble your machine while following along with a video rather than reading the instructions. The video series also works for Version 3. <strong>For Versions 4 and later, there will be minor changes that are not included in the videos, please refer to the PDF or online assembly instructions for clarification.</strong>
 
-<p class="title style-scope ytd-video-primary-info-renderer"><strong><a href="https://www.youtube.com/watch?v=QwQX3Qb8UUQ&amp;list=PLE43LQy2a1ipOEoEcIGo3cVOw31-iMvPQ" target="_blank" rel="noopener noreferrer">LongMill V2 Assembly Video Series</a></strong>
+<strong><a href="https://www.youtube.com/watch?v=QwQX3Qb8UUQ&list=PLE43LQy2a1ipOEoEcIGo3cVOw31-iMvPQ" target="_blank" rel="noopener noreferrer">LongMill V2 Assembly Video Series</a></strong>
 
 <h2>Tooling up</h2>
 

@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: /_images/_longmill/_software/lm_choosingsoft_p13_gSender.png
 ---
 

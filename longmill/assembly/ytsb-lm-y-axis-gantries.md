@@ -15,11 +15,11 @@ skip_file: no
 featured_image: /_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p1_cover.jpg
 ---
 
-![](</_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p1_cover.jpg>){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p1_cover.jpg){.aligncenter .size-medium}
 
 <h2>Y-axis gantries (wheels)</h2>
 
-![](</_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p2_parts.jpg>){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p2_parts.jpg){.aligncenter .size-medium .wid}
 
 Grab the Y-axis gantries (wrapped in paper) and you’ll see four holes on each steel plate in a square formation. Add the wheel sub-assemblies to these holes just like how you did before, with the eccentric nuts placed as pictures and the nylock nuts on the two lower holes; make sure that one is assembled as the mirror of the other. Use a size 4 Allen key and the included 8mm wrench to tighten everything down, but leave the eccentric nuts slightly loose for now.
 
@@ -37,7 +37,7 @@ If you have a hard time getting the eccentric nuts in, we recommend tapping the 
 
 <h2>Y-axis gantries (anti-backlash)</h2>
 
-![](</_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p8_parts.jpg>){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p8_parts.jpg){.aligncenter .size-medium .wid}
 
 On the Y-axis plates, there are two holes for the anti-backlash assemblies to mount. Line up the plastic blocks and secure them to the plate using the same medium-sized bolts that were used for the wheels. The blocks should be mounted on the same side as the v-wheels, and have the tensioning screw facing outwards.
 
@@ -49,7 +49,7 @@ On the Y-axis plates, there are two holes for the anti-backlash assemblies to mo
 
 <h2>Mounting the X-axis motor to the left plate</h2>
 
-![](</_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p12_parts.jpg>){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p12_parts.jpg){.aligncenter .size-medium .wid}
 
 Make sure you have grabbed the correct gantry (pictured below).
 
@@ -81,7 +81,7 @@ Once everything is finished getting put together, it should look like this:
 
 <h2>Attaching the shoulder brackets</h2>
 
-![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p20_parts.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p20_parts.jpg){.aligncenter .size-medium .wid}
 
 <strong>**UPDATE**</strong>
 

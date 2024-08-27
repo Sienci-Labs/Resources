@@ -22,4 +22,5 @@ Among touch plates, you can find ones that measure just the Z-axis or some that 
 The <a href="https://sienci.com/product/touch-plate/" target="_blank" rel="noopener">Sienci Labs Touch Plate</a> is an excellent example of a touch plate that lets you find the corner of your material in all three axes automatically. The full written guide on getting it assembled and ready to use can be found here: <a href="https://resources.sienci.com/view/assembling-add-ons/" target="_blank" rel="noopener">Setting up the Sienci Labs Touch Plate</a>
 
 https://www.youtube.com/watch?v=H_fYFjtFc3Q
+
 https://www.youtube.com/watch?v=Wad9O_TqJkI

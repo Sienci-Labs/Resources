@@ -15,7 +15,7 @@ skip_file: no
 featured_image: /_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p1 (cover).jpg
 ---
 
-![](</_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p1_Drawing.jpg>){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p1_Drawing.jpg){.aligncenter .size-medium}
 
 <h2>Preparing the X-axis rail</h2>
 
@@ -25,7 +25,7 @@ The 12×12 LongMill is a smaller build envelope so it doesn’t require an X-axi
 
 [tabby title="12x30 and 30x30" open="yes"]
 
-![](</_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p2_RailParts.jpg>)
+![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p2_RailParts.jpg){.aligncenter .size-medium .wid}
 
 The 12×30 and 30×30 model LongMills use a second aluminum extrusion as a reinforcement bar to make the primary rail on the X-axis more rigid. These are the two longest and largest aluminum lengths on your machine and can be found in the heaviest long box alongside the other rails.
 
@@ -49,7 +49,7 @@ Your completed rail should now look something like this.
 
 <h2>Sandwiching the rail with the Y-gantries</h2>
 
-![](</_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p11_parts.jpg>){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p11_parts.jpg){.aligncenter .size-medium .wid}
 
 After the previous step, you should now have four major assemblies completed: the <strong>XZ-axis gantry</strong>, the two <strong>Y-gantries</strong>, and the <strong>X-axis rail</strong>. These assemblies will all be coming together in this step, starting by sliding the XZ-axis gantry assembly onto the X-axis rail.
 
@@ -91,7 +91,7 @@ Now that the larger X-axis assembly is done, this is what the completed assembly
 
 <h2>Adding the power transmission components</h2>
 
-![](</_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p20_parts.jpg>){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p20_parts.jpg){.aligncenter .size-medium .wid}
 
 This step will attach the remaining components to the larger X-axis assembly.
 

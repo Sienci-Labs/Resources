@@ -15,7 +15,7 @@ skip_file: no
 featured_image: /_images/_longmill/_assembly/_tablemount/lm_tablemount_p1_cover.jpg
 ---
 
-![](</_images/_longmill/_assembly/_tablemount/lm_tablemount_p1_cover.jpg>){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p1_cover.jpg){.aligncenter .size-medium}
 
 The LongMill is designed to be mounted to a flat surface which is provided by the user. This could be as simple as a single sheet of material, or as intricate as a multi-piece torsion table with t-tracks and threaded inserts. One thing is to ensure that you’ve got a flat sheet (or multiple flat sheets) of material within the cutting area of the machine. This “wasteboard” area is where the material you will cut will sit on and serves to be cut into and replaced when needed.
 

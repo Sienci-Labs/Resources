@@ -27,7 +27,7 @@ The diagram below shows the machine coordinate system of the LongMill. It's able
 
 <h2>Nut assemblies</h2>
 
-![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p3_NutAssemble.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p3_NutAssemble.jpg){.aligncenter .size-medium .wid}
 
 Taking a look within your LongMill box, you should first look for a box at the bottom with a round orange sticker on it. Inside this box, you’ll find three hardware bags which are distinguishable by their sticker colour.
 
@@ -49,7 +49,7 @@ Prepare four sets of both these assemblies and set them aside for later.
 
 <h2>Z-axis motor sub-assembly</h2>
 
-![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p7_SubAssem.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p7_SubAssem.jpg){.aligncenter .size-medium .wid}
 
 Keep your M5 hardware nearby. Look back into the green bag to get the bag filled with flange bearings, and another containing two pulleys and a belt. In the orange-dotted box you’ll want to grab the bubble-wrapped steel plate, and turning to the identical-looking green-dotted box you’ll want to get the plastic Z-axis mount. Inside the short, wide box you’ll find the stepper motors and their cables; you need the one that is specifically labelled on the back to be <b>threaded</b>.
 
@@ -113,7 +113,7 @@ Next, make sure that the belt is tight around the two pulleys by pulling back th
 
 <h2>XZ-axis gantries sub-assembly</h2>
 
-![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p23_SubAss2.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p23_SubAss2.jpg){.aligncenter .size-medium .wid}
 
 You should find the XZ-gantry assembly in a labelled bubble mailer. Once you take it out, you’ll see there’s a small steel plate (z-gantry) attached to big steel plate (x-gantry) via two sliding rails. First, check that the movement of your z-gantry is smooth by moving it up and down by hand. There should be no binding and the gantry should move relatively smoothly.
 
@@ -169,7 +169,7 @@ The completed assembly should look like this.
 
 <h2>Connecting the two major sub-assemblies</h2>
 
-![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p37_HeaderParts.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p37_HeaderParts.jpg){.aligncenter .size-medium .wid}
 
 Get the motor sub-assembly from before. Holding it in one hand, and the gantry sub-assembly in the other, line up the lead screw from the motor assembly with the nut block of the gantry assembly. If you use your fingers to turn the lead screw, it will go into the nut. The plastic mount should be coming in from the side of the steel plate which has a rectangular notch cut out.
 
@@ -195,7 +195,7 @@ Your assembly should now look like this.
 
 <h2>Attaching the router mount</h2>
 
-![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p43_HeaderParts2.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p43_HeaderParts2.jpg){.aligncenter .size-medium .wid}
 
 <strong>**UPDATE**</strong>
 
