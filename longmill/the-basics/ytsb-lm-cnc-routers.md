@@ -33,8 +33,6 @@ Even more complex objects can be made on a CNC router after diving into the worl
 
 https://www.youtube.com/watch?v=yOywuK02vVY
 
-&nbsp;
-
 ![](/_images/_longmill/_the-basics/lm_cncrouters_p3_OsmoSign.jpg "Surface cutting the Osmo logo for their booth"){.aligncenter .size-medium}
 
 ![](/_images/_longmill/_the-basics/lm_cncrouters_p4_GregCoasters.jpg "Cutting a profile and pocket combination to make custom coffee coasters"){.aligncenter .size-medium}

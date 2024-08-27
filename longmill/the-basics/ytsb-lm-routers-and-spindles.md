@@ -28,7 +28,7 @@ Many hobby CNC routers tend to utilize trim routers because their power, weight,
 
 <h2>Makita RT0700/RT0701</h2>
 
-![](/_images/_longmill/_the-basics/lm_routersspindle_p1_Makita.jpg){.alignleft .size-large}
+![](/_images/_longmill/_the-basics/lm_routersspindle_p1_Makita.jpg){.alignleft .size-full .nar}
 
 <a href="http://www.homedepot.com/p/Makita-1-1-4-HP-Compact-Router-RT0701C/204247210" target="_blank" rel="noreferrer noopener">Home Depot (US)</a>
 
@@ -89,13 +89,13 @@ The LongMill's control box has the necessary outputs to interface with most mark
 
 Consult your spindle manufacturer for details on wiring and programming if this is something you're considering since it tends to vary between manufacturers.
 
-If you are a beginner user, we highly recommend sticking with a Makita RT0701. The Makita RT0701 offers plenty of power and speed control for this application. Installing a spindle can be very technically challenging and may cost significantly more. If you plan on adding a spindle we recommend checking our <a href="https://forum.sienci.com/">Forum</a> and <a href="https://www.facebook.com/groups/mill.one">Facebook Group</a> for more info or checking out our own guide below.
+If you are a beginner user, we highly recommend sticking with a Makita RT0701. The Makita RT0701 offers plenty of power and speed control for this application. Installing a spindle can be very technically challenging and may cost significantly more. If you plan on adding a spindle we recommend checking our <a href="https://forum.sienci.com/" target="_blank" rel="noopener">Forum</a> and <a href="https://www.facebook.com/groups/mill.one" target="_blank" rel="noopener">Facebook Group</a> for more info or checking out our own guide below.
 
 <h3>Adding a spindle</h3>
 
 ![](/_images/_longmill/_the-basics/lm_routersspindle_p4_Spindle.jpeg){.aligncenter .size-medium}
 
-We supply <a href="https://sienci.com/product/router-mount-for-longmill-benchtop-cnc/">65mm, 71mm, and 80mm router mounts</a> that are sized to match with commonly available 3-phase spindles. From our experience, most come in 65mm and 80mm diameters.
+We supply <a href="https://sienci.com/product/router-mount-for-longmill-benchtop-cnc/" target="_blank" rel="noopener">65mm, 71mm, and 80mm router mounts</a> that are sized to match with commonly available 3-phase spindles. From our experience, most come in 65mm and 80mm diameters.
 
 Although we do not offer technical support on adding a spindle, here are some general steps on adding a spindle:
 

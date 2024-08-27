@@ -48,6 +48,7 @@ V-bits can be used for simple line-drawing engravings and are also commonly used
 [tabby title="Size"]
 
 The size of a cutting tool is important because if it's too big then it might not be able to cut to the level of detail that you need, and if it's too small then it might take forever to cut everything away. When you're starting with a CNC it's easier to stick with using a single bit for the whole job so you probably want to make sure you're sizing it correctly, but once you become accustomed with mid-project tool changing and then you can have the best of both worlds!
+
 Cutting tools can normally be described by a few key dimensions:
 
 ![](/_images/_longmill/_the-basics/lm_cuttingtools_p6_EndMillFeat.png){.aligncenter .size-medium}
