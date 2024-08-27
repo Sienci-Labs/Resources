@@ -24,12 +24,10 @@ This part of the resources covers common issues and fixes for the LongMill. If y
 Every LongMill is packed in our shop in Waterloo, ON by our team of trained staff. Every package goes through several checks to ensure that the correct parts and quantities are in each kit, but we sometimes make mistakes. If you can't find something, please reach out to us and we'll make it right. However, before <a href="https://sienci.com/contact-us/technical-help/" target="_blank" rel="noopener">reaching out to us</a>, there are a couple things you can check.
 
 <ul>
-  <li>Ensure that you are following the assembly instructions for the correct version of the machine. There are variations between versions, including the packing order and assembly. More info can be found in the <a href="https://resources.sienci.com/view/lm-unboxing/">Unboxing</a> portion of the resources. <strong>Please note that our video instructions are based on the Version 2 design. </strong>Instructions from the video can still be referenced for additional help in assembling your machine.</li>
-</ul>
+  <li>Ensure that you are following the assembly instructions for the correct version of the machine. There are variations between versions, including the packing order and assembly. More info can be found in the <a href="https://resources.sienci.com/view/lm-unboxing/">Unboxing</a> portion of the resources. <strong>Please note that our video instructions are based on the Version 2 design. </strong>Instructions from the video can still be referenced for additional help in assembling your machine.
 
-![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p_Versions.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p_Versions.png){.aligncenter .size-medium}</li>
 
-<ul>
   <li>If you're missing the correct amount of hardware, you may find it in another bag. Please check in the rest of the kit to make sure all of your hardware is accounted for.</li>
   <li>Some parts and add-ons, such as the t-tracks come in a separate package as the LongMill kit. If your order is larger than what can be fit in the LongMill kit, it may come in more than one package.</li>
 </ul>
@@ -42,12 +40,12 @@ During the assembly process, the anti-backlash nuts may be difficult to thread o
   <li>The alignment of the threads can be tensioned by turning the set screw or M5 screw, <strong>or pressing the arm down to help the threads line up while threading in the lead screw</strong>. Once the lead screw has been threaded on, it can be tensioned by following our <a href="https://resources.sienci.com/view/lm-maintenance/">maintenance guide</a></li>
   <li>Slightly loosen the two M5 bolts that hold the nut to the gantry. Over tightening the screws can crush the ACME threads, causing additional friction between the lead screw and nut.</li>
   <li>Try threading your lead screw in from both directions. It may be easier to line up the threads from one direction over the other.</li>
-  <li>Check for burrs and debris that may be in the threads.</li>
-</ul>
+  <li>Check for burrs and debris that may be in the threads.
 
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p1_PressNut.jpg){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p2_NutDiagram.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p2_NutDiagram.jpg){.aligncenter .size-medium}</li>
+</ul>
 
 <h3>I have leftover parts after assembly</h3>
 
@@ -74,10 +72,10 @@ Other things you can check:
   <li>If the red light on the controller top (newer versions) or on the drivers (visible through the grates on the underside of the controller) are on, then you are getting power to the controller. You may be having issues with connecting your machine to the computer.</li>
   <li>Make sure that the polarity of the power wiring is correct. Switch the wires around if need be (see picture).</li>
   <li>If you have a older power switch model and the red LED lights  flicker or turn off right when the power switch is turned on, you may have a faulty switch. Please contact us.</li>
-  <li>If you have a newer E-stop model, check that the E-stop is plugged into the <strong>top</strong> of the LongBoard, and the power supply is plugged into the<strong> side</strong> of the LongBoard. <a href="https://drive.google.com/file/d/10I-XiU6GuIwgeMfRe_LBDjoDTnmqmISy/view?usp=sharing" target="_blank" rel="noopener">View the correct installation here. </a>You can also check that the wiring is secured inside the E-stop itself by unfastening the 4 screws on the lid with a screwdriver. There should be two wires secured on either terminal (polarity doesn't matter).</li>
-</ul>
+  <li>If you have a newer E-stop model, check that the E-stop is plugged into the <strong>top</strong> of the LongBoard, and the power supply is plugged into the<strong> side</strong> of the LongBoard. <a href="https://drive.google.com/file/d/10I-XiU6GuIwgeMfRe_LBDjoDTnmqmISy/view?usp=sharing" target="_blank" rel="noopener">View the correct installation here.</a> You can also check that the wiring is secured inside the E-stop itself by unfastening the 4 screws on the lid with a screwdriver. There should be two wires secured on either terminal (polarity doesn't matter).
 
-![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p3_Polarity.jpg "The wire on the left should be white, and the wire on the right should be black.")
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p3_Polarity.jpg "The wire on the left should be white, and the wire on the right should be black.")</li>
+</ul>
 
 <h3>One motor does not move or moves erratically</h3>
 
@@ -90,22 +88,22 @@ When jogging or running the LongMill, one of the motors does not move correctly 
   <li>Check that the light on all of the drivers inside the control box are illuminated. If you have a driver that is not illuminated, please contact us for additional support.</li>
   <li>Check that all of the <a href="https://resources.sienci.com/view/lm-electronics/" target="_blank" rel="noopener">DIP switches</a> are properly seated in the correct orientation. If the switch is only part of the way on or off, the driver may not operate.</li>
   <li>If one y-axis motor moves but the other doesn't. Switch the y connectors. If the issue moves to the other side, it might be the driver is supplying the wrong amount of current. Follow these <a href="https://resources.sienci.com/wp-content/uploads/2022/06/Stepper-Driver-Current-Adjustment.pdf" target="_blank" rel="noopener">instructions</a> to make adjustments.</li>
-  <li>Make sure your Arduino is fully seated in your control board. You can typically use a non-conductive tool to push it into the socket if it is starting to come loose.</li>
-</ul>
+  <li>Make sure your Arduino is fully seated in your control board. You can typically use a non-conductive tool to push it into the socket if it is starting to come loose.
 
-![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p4_ControlBoard.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p4_ControlBoard.jpg){.aligncenter .size-medium}</li>
+</ul>
 
 <h3>My machine is not moving in the right direction</h3>
 
 <ul>
   <li>Ensure that all plugs and cables are fully seated and connected properly.</li>
   <li>Check the colour pattern of each wire coming from the motor and connected to the LongBoard. Is the pattern all the same with each motor? If not, change the order of the wires to match.</li>
-  <li>Reload the EEPROM settings on your Arduino, as these settings may have changed when using various g-code senders. These settings control aspects such as the jogging direction and the machine’s work space boundaries. To access them, go to the Firmware tool in gSender, or the Firmware Settings in UGS. gSender will have the ability to "Restore Defaults" and revert to the LongMills regular setting. For UGS, make sure you have the default settings (found here: <a href="https://resources.sienci.com/view/lm-EEPROM-settings/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-eeprom-settings/</a>) by going through each line and manually changing the values, or download the zip file, unzip it, and load it into UGS.</li>
-</ul>
+  <li>Reload the EEPROM settings on your Arduino, as these settings may have changed when using various g-code senders. These settings control aspects such as the jogging direction and the machine’s work space boundaries. To access them, go to the Firmware tool in gSender, or the Firmware Settings in UGS. gSender will have the ability to "Restore Defaults" and revert to the LongMills regular setting. For UGS, make sure you have the default settings (found here: <a href="https://resources.sienci.com/view/lm-EEPROM-settings/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-eeprom-settings/</a>) by going through each line and manually changing the values, or download the zip file, unzip it, and load it into UGS.
 
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p5_Wiring.jpg "The wiring colour pattern should be blue, yellow, green, red."){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p6_USGEEPROM.png "Where to find the EEPROM settings on UGS Platform."){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p6_USGEEPROM.png "Where to find the EEPROM settings on UGS Platform."){.aligncenter .size-medium}</li>
+</ul>
 
 <h3>My machine is not moving the correct amount</h3>
 
@@ -170,12 +168,10 @@ Excessive wobble is when the lead screw is deviating from center by more than ab
 <h3>My machine randomly cuts lines during my job</h3>
 
 <ul>
-  <li>If you are using Fusion 360, ensure that ‘Safe Retracts’ is set to ‘Clearance Height.’</li>
-</ul>
+  <li>If you are using Fusion 360, ensure that ‘Safe Retracts’ is set to ‘Clearance Height.’
 
-![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p7_f360.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p7_f360.png){.aligncenter .size-medium}</li>
 
-<ul>
   <li>Ensure that you are not hitting the Z-axis movement limits when running the job.</li>
   <li>Review the g-code with a visualizer (<a href="https://ncviewer.com/">https://ncviewer.com/</a>) to ensure there are no unexpected toolpaths or incorrect g-code commands.</li>
   <li>Check all the transmission components (V-wheels, couplers, ACME nuts, anti-backlash nuts, pulleys)
@@ -261,19 +257,19 @@ If this was not the problem:
   <li>You might not have drivers installed. You can install <a href="https://www.arduino.cc/en/main/software" target="_blank" rel="noopener">Arduino drivers</a> by installing the IDE for your computer.</li>
   <li>Check your computer's drivers. Update or reinstall them if necessary.</li>
   <li>Try a different USB port and USB cable.</li>
-  <li>If you are using UGSPlatform, make sure to refresh and check the dropdown box for all of the ports that have devices connected to them. Try each one until you can connect.</li>
-</ul>
+  <li>If you are using UGSPlatform, make sure to refresh and check the dropdown box for all of the ports that have devices connected to them. Try each one until you can connect.
 
-![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p15_Refresh.png "Click on the refresh button and try other available ports."){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p15_Refresh.png "Click on the refresh button and try other available ports."){.aligncenter .size-medium}</li>
+</ul>
 
 <h3>I have an issue with Java when opening UGSPlatform</h3>
 
 <ul>
-  <li>If USG is still not able to open due to a Java access error, then there is another program on your computer blocking UGS from opening properly. UGS is usually able to automatically detect where Java is located on your computer, but since this detection is being blocked the way to fix this is to explicitly inform UGS where Java is. First you'll need to locate Java. You can usually find it by going to the Windows file explorer under <em>'This PC <span class="st">→</span> Windows (C:) <span class="st">→</span> Programs Files <span class="st">→</span> Java <span class="st">→</span> jre<strong>###</strong>'</em> or <em>'This PC <span class="st">→</span> Windows (C:) <span class="st">→</span> Programs Files (x86) <span class="st">→</span> Java <span class="st">→</span> jre<strong>###</strong>'</em>. Once inside the <em>'jre'</em> folder, left-click the navigation path at the top of the file explorer then right-click the selected text and left click the 'Copy' option to copy the path.
+  <li>If USG is still not able to open due to a Java access error, then there is another program on your computer blocking UGS from opening properly. UGS is usually able to automatically detect where Java is located on your computer, but since this detection is being blocked the way to fix this is to explicitly inform UGS where Java is. First you'll need to locate Java. You can usually find it by going to the Windows file explorer under <em>'This PC → Windows (C:) → Programs Files → Java → jre<strong>###</strong>'</em> or <em>'This PC → Windows (C:) → Programs Files (x86) → Java → jre<strong>###</strong>'</em>. Once inside the <em>'jre'</em> folder, left-click the navigation path at the top of the file explorer then right-click the selected text and left click the 'Copy' option to copy the path.
   
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p16_JavaPath.png){.aligncenter .size-medium}
 
-Once the path is copied, navigate to where you downloaded UGS; this will normally be located inside your 'Downloads' folder. Once there, go to:<em> 'ugs-platform-app-2.0-SNAPSHOT <span class="st">→</span> ugsplatform <span class="st">→</span> etc'</em>. In this folder should be a file called <em>'ugsplatform.conf'</em>. Opening this with a text editor like <em>Notepad</em>, you'll want to find the line which says: "<em>#jdkhome="/path/to/jdk</em>". Delete the '#', then replace the text within the quotes with the Java path by right-clicking and selecting '<em>Paste</em>'. The completed edit should look like this:
+Once the path is copied, navigate to where you downloaded UGS; this will normally be located inside your 'Downloads' folder. Once there, go to:<em> 'ugs-platform-app-2.0-SNAPSHOT → ugsplatform → etc'</em>. In this folder should be a file called <em>'ugsplatform.conf'</em>. Opening this with a text editor like <em>Notepad</em>, you'll want to find the line which says: "<em>#jdkhome="/path/to/jdk</em>". Delete the '#', then replace the text within the quotes with the Java path by right-clicking and selecting '<em>Paste</em>'. The completed edit should look like this:
 
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p17_ConfigFile.png){.aligncenter .size-medium}
 

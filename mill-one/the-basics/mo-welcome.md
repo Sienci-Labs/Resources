@@ -9,7 +9,7 @@ taxonomy:
     knowledgebase_tag:
         - mill-one
 custom_fields:
-    KBName: Mill One
+    KBName: Mill One CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
 featured_image: _images/_mill-one/_the-basics/mo_welcome_p1_MillOne.jpg
