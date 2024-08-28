@@ -19,7 +19,7 @@ featured_image: /_images/_longmill/_assembly/_dragchain/lm_dragchain_p1_cover.jp
 
 <h2>Drag chains and Wiring</h2>
 
-![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p2_parts.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p2_parts.jpg){.aligncenter .size-medium .wid}
 
 We will now be installing the drag chains; these contain and guide the wires on the LongMill so they aren’t in the way during cutting. They also keep wires from wearing out from bending or being cinched around corners.
 

@@ -30,7 +30,7 @@ We do not ship LongMills with a wasteboard because:
 
 <h2>Suitable wasteboard materials</h2>
 
-The easiest setup that we recommend is a flat, clean piece of 3/4” MDF to act as your mounting surface and your wasteboard. This is because 3/4” MDF is quite stiff and is readily accessible in 4’x4’ and 2’x2’ sizes from most big- box hardware stores or a lumber store. Any similar piece of thick, flat material would also suffice; you can choose at your own discretion. If you’re looking for more of a flashy setup, you can check out some of our community members’ table/wasteboard builds here for inspiration: <a href="https://sienci.com/dmx-longmill/community-table-builds/">https://sienci.com/dmx-longmill/community-table-builds/</a>
+The easiest setup that we recommend is a flat, clean piece of 3/4” MDF to act as your mounting surface and your wasteboard. This is because 3/4” MDF is quite stiff and is readily accessible in 4’x4’ and 2’x2’ sizes from most big- box hardware stores or a lumber store. Any similar piece of thick, flat material would also suffice; you can choose at your own discretion. If you’re looking for more of a flashy setup, you can <a href="https://resources.sienci.com/view/lm-community-table-builds/">check out some of our community members’ table/wasteboard builds</a> for inspiration.
 
 <h2>Machine Dimensions</h2>
 

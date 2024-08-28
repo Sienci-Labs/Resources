@@ -1,7 +1,7 @@
 ---
-title: ytsb Assembling Add-ons
+title: Assembling Add-ons
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: How to set up and assemble the add-ons for the LongMill CNC router which include the dust shoe, touch plate, and T-tracks.
 post_date: 2021-04-30 15:15:00
 taxonomy:

@@ -43,7 +43,7 @@ If all goes well, your final product should end up looking something like this!
 
 Now that you've got your machine running successfully, we've got a lot more information for you the check out that's easily accessible on the left navigation bar:
 
-<table class="wp-table" style="width: 90%; margin-left: auto; margin-right: auto; border: 1px solid black; text-align: left; border-collapse: collapse; line-height: 1.2em; background: white; word-break: initial;">
+<table class="wp-table" style="width: 90%; margin-left: auto; margin-right: auto; border: 1px solid black; text-align: left; border-collapse: collapse; line-height: 1.2em; word-break: initial; background: white;">
 <tbody>
 <tr>
 <td><strong>Page</strong></td>
@@ -80,9 +80,9 @@ Now that you've got your machine running successfully, we've got a lot more info
 </tbody>
 </table>
 
-<h2>Our Youtube channel</h2>
+<h2>Our YouTube channel</h2>
 
-Did you know we have a <strong><a href="https://www.youtube.com/channel/UCS4SdQ0sqFhvjitLjh4EsGQ?">Youtube channel</a></strong> where you can find videos and tutorials on using your LongMill? We cover things like:
+Did you know we have a <strong><a href="https://www.youtube.com/channel/UCS4SdQ0sqFhvjitLjh4EsGQ?">YouTube channel</a></strong> where you can find videos and tutorials on using your LongMill? We cover things like:
 
 <ul>
 <li>How to go from idea to completed project</li>
