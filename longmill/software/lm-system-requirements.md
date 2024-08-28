@@ -1,7 +1,7 @@
 ---
-title: ytsb System Requirements 📊
+title: System Requirements 📊
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: Hardware requirements to run the LongMill CNC. Includes computer specifications, internet access and considerations for running CAD/CAM software.
 post_date: 2021-04-20 17:00:00
 taxonomy:

@@ -43,7 +43,7 @@ If all goes well, your final product should end up looking something like this!
 
 Now that you've got your machine running successfully, we've got a lot more information for you the check out that's easily accessible on the left navigation bar:
 
-<table class="wp-table" style="width: 90%; margin-left: auto; margin-right: auto; border: 1px solid black; text-align: left; border-collapse: collapse; line-height: 1.2em; word-break: initial; background: white;">
+<table class="plain-vert-table">
 <tbody>
 <tr>
 <td><strong>Page</strong></td>

@@ -93,94 +93,55 @@ When you first open the top carton #1 it should look like this:
 
 This box includes:
 
-<ul>
-<li>A welcome page with safety guidelines on the back</li>
-<li>Some assorted stickers, including long ones for the LongMill and some with Louis on the machine, Andy's dog and our unofficial mascot and CEO
-
+- A welcome page with safety guidelines on the back</li>
+- Some assorted stickers, including long ones for the LongMill and some with Louis on the machine, Andy's dog and our unofficial mascot and CEO
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p2_Stickers.JPG){.aligncenter .size-medium}
-</li>
-
-<li>Parts for the dust shoe (if you ordered it) including two hardware bags (one for assembling the dust shoe and one for mounting it), a backing plate, and 2 aluminum extrusions.
-
+- Parts for the dust shoe (if you ordered it) including two hardware bags (one for assembling the dust shoe and one for mounting it), a backing plate, and 2 aluminum extrusions.
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p3_DustShoe.jpg){.aligncenter .size-medium}
-</li>
-<li>The touch plate in the yellow padded envelope (if you ordered it)
-
+- The touch plate in the yellow padded envelope (if you ordered it)
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p4_TouchPlate.JPG){.aligncenter .size-medium}
-
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p5_TouchPlateOpen.JPG){.aligncenter .size-medium}
-
-</li>
-<li>The end mill add on pack (if you ordered your machine through Kickstarter)
-
+- The end mill add on pack (if you ordered your machine through Kickstarter)
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p6_EndmillAddon.JPG){.aligncenter .size-medium}
-</li>
-<li>Aluminum router mount (in the size you requested)
-
+- Aluminum router mount (in the size you requested)
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p7_RouterMount.JPG){.aligncenter .size-medium}
-</li>
-<li>Hardware bag #1 which contains:
-
+- Hardware bag #1 which contains:
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p8_HardwareBag1A.JPG){.aligncenter .size-medium}
-
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p9_HardwareBag1B.JPG){.aligncenter .size-medium}
-<ul>
-<li>M8-25 (x12)</li>
-<li>M8 hex nut (x12)</li>
-<li>M5-25 (x35)</li>
-<li>M5-12 (x5)</li>
-<li>M5 nylock nut (x35)</li>
-<li>M5 washer (x14)</li>
-<li>M4-16 (x10)</li>
-<li>M4 hex nut (x10)</li>
-</ul>
-</li>
-<li>Hardware bag #2 which contains:
-
+  - M8-25 (x12)
+  - M8 hex nut (x12)
+  - M5-25 (x35)
+  - M5-12 (x5)
+  - M5 nylock nut (x35)
+  - M5 washer (x14)
+  - M4-16 (x10)
+  - M4 hex nut (x10)
+- Hardware bag #2 which contains:
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p10_HardwareBag2A.JPG){.aligncenter .size-medium}
-
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p11_HardwareBag2B.JPG){.aligncenter .size-medium}
-
-<ul>
-<li>V-wheel (x12)</li>
-<li>608zz flange bearing (x8)</li>
-<li>Delrin block nut (x4)</li>
-<li>Pulleys and belts (x2)</li>
-<li>ACME locking nut with M3 set screw (x4)</li>
-<li>1/4" to 8mm coupler (x3)</li>
-</ul>
-</li>
-<li>Hardware bag #3 which contains:
-
+  - V-wheel (x12)
+  - 608zz flange bearing (x8)
+  - Delrin block nut (x4)
+  - Pulleys and belts (x2)
+  - ACME locking nut with M3 set screw (x4)
+  - 1/4" to 8mm coupler (x3)
+- Hardware bag #3 which contains:
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p12_HardwareBag3A.JPG){.aligncenter .size-medium}
-
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p13_HardwareBag3B.JPG){.aligncenter .size-medium}
-
-<ul>
-<li>M8-16 (x30)</li>
-<li>M8 washer (x4)</li>
-<li>M5-50 (x12)</li>
-<li>Aluminum standoff (x12)</li>
-<li>1.25”, 1.5”, and 2” board screws (x10 each)</li>
-<li>Eccentric nut (x6)</li>
-</ul>
-</li>
-<li>Three un-threaded motors (X &amp; Y axis) and one threaded motor (Z axis)
-
+  - M8-16 (x30)
+  - M8 washer (x4)
+  - M5-50 (x12)
+  - Aluminum standoff (x12)
+  - 1.25”, 1.5”, and 2” board screws (x10 each)
+  - Eccentric nut (x6)
+- Three un-threaded motors (X &amp; Y axis) and one threaded motor (Z axis)
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p14_Motors.JPG){.aligncenter .size-medium}
-</li>
-<li>The power brick with its AC power cable inside a white cardboard box
-
+- The power brick with its AC power cable inside a white cardboard box
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p15_PowerCable.JPG){.aligncenter .size-medium}
-</li>
-<li>A bagged USB cable (type A to type B)
-
+- A bagged USB cable (type A to type B)
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p16_USB.JPG){.aligncenter .size-medium}
-</li>
-<li>The electronic control box protected by grey padded foam (the three orange components won't be there for most machines)
-
+- The electronic control box protected by grey padded foam (the three orange components won't be there for most machines)
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p17_ControlBox.JPG){.aligncenter .size-medium}
-</ul>
 
 <strong>Top Carton #2</strong>
 When you open the top carton #2 it should look like this:
@@ -188,20 +149,17 @@ When you open the top carton #2 it should look like this:
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p18_TopCarton2.JPG){.aligncenter .size-medium}
 
 This box includes:
-<ul>
-<li>The whole range of 3D printed parts, listed from left-to-right and top-to-bottom:
 
+- The whole range of 3D printed parts, listed from left-to-right and top-to-bottom:
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p19_3DPrinted.JPG){.aligncenter .size-medium}
-<ul>
-<li>Back feet pair</li>
-<li>Front feet pair</li>
-<li>Drag chain mount</li>
-<li>Shoulder brackets (x2)</li>
-<li>Middle feet (x3 for the 30x30 and x1 otherwise)</li>
-<li>Drag chain foot</li>
-<li>Z-axis mount</li>
-</ul>
-</li>
+  - Back feet pair
+  - Front feet pair
+  - Drag chain mount
+  - Shoulder brackets (x2)
+  - Middle feet (x3 for the 30x30 and x1 otherwise)
+  - Drag chain foot
+  - Z-axis mount
+
 <li>XZ-gantry sub-assembly protected within a padded envelope
 
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p20_XZGantry.JPG){.aligncenter .size-medium}

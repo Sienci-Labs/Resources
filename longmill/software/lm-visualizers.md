@@ -1,7 +1,7 @@
 ---
-title: ytsb Visualizers
+title: Visualizers
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: CNC g-code visualizers are a great way to verify the toolpaths of your g-code file before running them on your LongMill CNC machine.
 post_date: 2021-04-20 16:50:00
 taxonomy:
