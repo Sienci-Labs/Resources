@@ -23,14 +23,9 @@ This part of the resources covers common issues and fixes for the LongMill. If y
 
 Every LongMill is packed in our shop in Waterloo, ON by our team of trained staff. Every package goes through several checks to ensure that the correct parts and quantities are in each kit, but we sometimes make mistakes. If you can't find something, please reach out to us and we'll make it right. However, before <a href="https://sienci.com/contact-us/technical-help/" target="_blank" rel="noopener">reaching out to us</a>, there are a couple things you can check.
 
-<ul>
-  <li>Ensure that you are following the assembly instructions for the correct version of the machine. There are variations between versions, including the packing order and assembly. More info can be found in the <a href="https://resources.sienci.com/view/lm-unboxing/">Unboxing</a> portion of the resources. <strong>Please note that our video instructions are based on the Version 2 design. </strong>Instructions from the video can still be referenced for additional help in assembling your machine.
-
-![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p_Versions.png){.aligncenter .size-medium}</li>
-
-  <li>If you're missing the correct amount of hardware, you may find it in another bag. Please check in the rest of the kit to make sure all of your hardware is accounted for.</li>
-  <li>Some parts and add-ons, such as the t-tracks come in a separate package as the LongMill kit. If your order is larger than what can be fit in the LongMill kit, it may come in more than one package.</li>
-</ul>
+- Ensure that you are following the assembly instructions for the correct version of the machine. There are variations between versions, including the packing order and assembly. More info can be found in the [Unboxing](https://resources.sienci.com/view/lm-unboxing/){:target="_blank"} portion of the resources. <strong>Please note that our video instructions are based on the Version 2 design. </strong>Instructions from the video can still be referenced for additional help in assembling your machine.
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p_Versions.png){.aligncenter .size-medium}- If you're missing the correct amount of hardware, you may find it in another bag. Please check in the rest of the kit to make sure all of your hardware is accounted for.
+- Some parts and add-ons, such as the t-tracks come in a separate package as the LongMill kit. If your order is larger than what can be fit in the LongMill kit, it may come in more than one package.
 
 <h3>My Delrin anti-backlash nuts will not thread on</h3>
 

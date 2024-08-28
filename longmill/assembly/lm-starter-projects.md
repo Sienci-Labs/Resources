@@ -1,7 +1,7 @@
 ---
-title: ytsb Starter Projects 🧱
+title: Starter Projects 🧱
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: Beginner projects to try out on the LongMill CNC. These simple test cuts will allow you to gauge if every is working properly after assembling your machine.
 post_date: 2021-04-30 15:10:00
 taxonomy:

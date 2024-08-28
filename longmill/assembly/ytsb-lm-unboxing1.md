@@ -35,7 +35,7 @@ Implementing these improvements batch-by-batch means that there are small variat
 
 This section of the Resources will always have the assembly instructions for our most recent LongMill version, but a PDF form of both the current version and all previous versions can also be downloaded below if needed:
 
-<table class="unboxing-table" style="height: 100px; margin-left: auto; margin-right: auto; margin-bottom: -30px; text-align: center; border-collapse: collapse; table-layout: fixed;" width="95%">
+<table class="unboxing-table">
 <tbody>
 <tr>
 <td>
@@ -159,26 +159,15 @@ This box includes:
   - Middle feet (x3 for the 30x30 and x1 otherwise)
   - Drag chain foot
   - Z-axis mount
-
-<li>XZ-gantry sub-assembly protected within a padded envelope
-
+- XZ-gantry sub-assembly protected within a padded envelope
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p20_XZGantry.JPG){.aligncenter .size-medium}
-
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p21_XZGantry.JPG){.aligncenter .size-medium}
-</li>
-<li>Z motor plate, a piece of 1/8" thick steel protected by paper wrapping
-
+- Z motor plate, a piece of 1/8" thick steel protected by paper wrapping
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p22_ZMotorPlate.JPG){.aligncenter .size-medium}
-
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p23_ZMotorPlate2.JPG){.aligncenter .size-medium}
-</li>
-<li>Two Y-axis gantries, both pieces of 1/4" thick steel protected by paper wrapping
-
+- Two Y-axis gantries, both pieces of 1/4" thick steel protected by paper wrapping
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p24_YGantries.JPG){.aligncenter .size-medium}
-
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p25_YGantries2.JPG){.aligncenter .size-medium}
-</li>
-</ul>
 
 <strong>Top Carton #3</strong>
 If you ordered a Makita Router with your LongMill it can be found here, if not this box will remain empty to help keep top cartons #1 and #2 secure during shipping.
