@@ -12,7 +12,7 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_gsender/_usinggsender/gs_usinggsender_pp1_Connect.jpg
+featured_image: _images/_gsender/_usinggsender/gs_using_p1_Connect.png
 ---
 Here's a great video that goes over much of how a g-code sender works in the context of gSender. See Kelly explain many of its uses and features:
 
@@ -26,11 +26,11 @@ Connect to your CNC machine by hovering over ‘Connect to Machine’ at the top
 
 Sometimes there’s more than one COM port available, so you may need to try both to see which one your machine is connected to. If you are seeing errors pop up or your machine isn’t acting correctly, ensure that you have selected the correct connection type.
 
-![](/_images/_gsender/_usinggsender/gs_usinggsender_pp1_Connect.png){.aligncenter .size-medium}
+![](/_images/_gsender/_usinggsender/gs_using_p1_Connect.png){.aligncenter .size-medium}
 
 Once you have selected the COM port, your machine should be connected. This is confirmed when you see the plug icon turn green with a check mark. You should also see the status on the top right corner of the visualizer change to 'Idle', and the controls activate, allowing you to press them.
 
-![](/_images/_gsender/_usinggsender/gs_usinggsender_pp2_IdleConnect.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_usinggsender/gs_using_p2_IdleConnect.jpg){.aligncenter .size-medium}
 
 If you are not seeing those changes when you connect, please check the following:
 
@@ -44,11 +44,11 @@ If you are not seeing those changes when you connect, please check the following
 
 You can move the machine by using the Jog Control, through the arrow buttons. Change the 'XY move' and 'Z move' to adjust the distance you travel per click. You can also change 'Speed', which determines how fast the machine will move when jogging.
 
-![](</_images/_gsender/_usinggsender/gs_usinggsender_pp3_Jog control.png>){.aligncenter .size-medium}
+![](</_images/_gsender/_usinggsender/gs_using_p3_Jog control.png>){.aligncenter .size-medium}
 
 The 'Rapid', 'Normal', and 'Precise' buttons will allow you to toggle to different distance and speed values quickly. You can change these values by going to the settings and editing the 'Jogging Presets' in the 'General' section.
 
-![](</_images/_gsender/_usinggsender/gs_usinggsender_pp4_Jogging Presets.jpg>){.aligncenter .size-medium}
+![](</_images/_gsender/_usinggsender/gs_using_p4_Jogging Presets.jpg>){.aligncenter .size-medium}
 
 <h2>Set Zero and Gotos</h2>
 
@@ -57,23 +57,23 @@ Each g-code file or project will have a starting position that all other movemen
 <ol>
   <li>Set the zero for each axis one at a time using 'Zero X', 'Zero Y', and 'Zero Z' buttons
 
-![](/_images/_gsender/_usinggsender/gs_usinggsender_pp5_zero-buttons-01.jpg){.aligncenter .size-medium}</li>
+![](/_images/_gsender/_usinggsender/gs_using_p5_zero-buttons-01.jpg){.aligncenter .size-medium}</li>
   <li aria-level="1">Set the zeros all at once using 'Zero All'
 
-![](/_images/_gsender/_usinggsender/gs_usinggsender_pp6_zeroAll-button.jpg){.aligncenter .size-medium}</li>
+![](/_images/_gsender/_usinggsender/gs_using_p6_zeroAll-button.jpg){.aligncenter .size-medium}</li>
 </ol>
 
 The large blue numbers tell you the current position of your machine. If you want to return to your zero position, you can press the 'Go to' for each individual axis or 'Go to XY0' to return to the starting position in X and Y in one movement. You should see all three large blue numbers read “0.00” once you have returned to your zero for all axes.
 
 Note that 'Go XY0' <strong>will not</strong> move the z-axis to its zero. Also, if you’ve set up “Safe Height” in gSender, then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.
 
-![](/_images/_gsender/_usinggsender/gs_usinggsender_pp7_goTo-buttons-01.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_usinggsender/gs_using_p7_goTo-buttons-01.jpg){.aligncenter .size-medium}
 
 You can reset your zeros anytime when the machine is not actively running a job. The machine will remember your zero in most cases. If you turn the lead screw with your fingers or push the gantry, the machine does not know you moved it, therefore it will lose the zero position. You can jog on the Jog Control without losing your zero position because gSender knows you are moving the machine.
 
 You can also enter coordinates directly by clicking the location value. It’ll turn into a white box where you can type any number, then hit the ‘enter’ key to confirm it. For instance you could set your Z-axis to 0.1mm instead of 0 if you’re using the paper method and you want to account for the paper thickness. Another example is instead of jogging 10mm to the right and clicking ‘zero’ to begin cutting a duplicate job that’s shifted over, you can just type “-10” and start the job right away (since if ‘zero’ is 10mm to the right, then your current location would be 0 - 10 = -10mm).
 
-![](</_images/_gsender/_usinggsender/gs_usinggsender_pp7.1_Enter coords.jpg>){.aligncenter .size-medium}
+![](</_images/_gsender/_usinggsender/gs_using_p7.1_Enter coords.jpg>){.aligncenter .size-medium}
 
 <h2>Endstop buttons</h2>
 
@@ -85,7 +85,7 @@ gSender provides unique features if you have endstops on your machine for homing
   <li>If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials (before it would move up by the safe height amount).</li>
 </ul>
 
-![](</_images/_gsender/_usinggsender/gs_usinggsender_pp8_Endstop buttons 0.7.2.PNG>){.aligncenter .size-medium}
+![](</_images/_gsender/_usinggsender/gs_using_p8_Endstop buttons 0.7.2.PNG>){.aligncenter .size-medium}
 
 If you’re having issues with the “quick-travel” buttons, then check the “maximum travel” settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings in the Firmware tool as $130-133.
 
@@ -97,19 +97,19 @@ Probing automatically sets a zero position, usually at the bottom left corner of
 
 Usually you'd have to enter a tool diameter each time you probe, but gSender also gives the option to save tool sizes for re-use. You can see this in the 'Tools' section of the ‘Probe’ settings. Add different tools by entering the diameter in millimeters or inches, and then pressing 'Add Tool', and if you tend to use a specific-sized tool the most then make sure to have it at the top of the list to make it your Default.
 
-![](/_images/_gsender/_usinggsender/gs_usinggsender_pp9_SettingsProbe.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_usinggsender/gs_using_p9_SettingsProbe.jpg){.aligncenter .size-medium}
 
 Once you have set up the touch plate, banana plug and magnet on the machine, you can choose which axis to probe for, and the diameter of the bit you are using if applicable. The bit size can be selected from the drop-down of saved bits, or can be typed in manually. Jog the machine so that the bit is hovering over the Sienci Labs logo on the touch plate. Then press 'Probe'.
 
-![](/_images/_gsender/_usinggsender/gs_usinggsender_pp10_probe-selection.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_usinggsender/gs_using_p10_probe-selection.jpg){.aligncenter .size-medium}
 
 Before the process begins, there is a conductivity test to ensure that the touch plate components can conduct electricity, which allows a signal to be sent to the LongBoard when there is contact. You can either bring the touch plate to the end mill or touch the banana plug and magnet together. Make contact a few times just to confirm there is conductivity, as the red circle should flicker to green.
 
-![](</_images/_gsender/_usinggsender/gs_usinggsender_pp11_gSender 0.6.4 Touch test.png>){.aligncenter .size-medium}
+![](</_images/_gsender/_usinggsender/gs_using_p11_gSender 0.6.4 Touch test.png>){.aligncenter .size-medium}
 
 A blue button called 'Start Probe' will appear if you have successfully confirmed conductivity. Ensure that the touch plate components are set up for probing, then press 'Start Probe'. The machine will move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press 'Go to XY0'. The bit should be overtop the bottom left corner of the stock material, and pressing 'Go to' next to the 'Zero Z' should bring it to touch the surface. More information can be found on our touch-plate resource page. <a href="https://resources.sienci.com/view/lmk2-touch-plate/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-touch-plate/</a>
 
-![](</_images/_gsender/_usinggsender/gs_usinggsender_pp12_gSender go xyz0.PNG>){.aligncenter .size-medium}
+![](</_images/_gsender/_usinggsender/gs_using_p12_gSender go xyz0.PNG>){.aligncenter .size-medium}
 
 <h2>Loading Job Files</h2>
 
@@ -122,15 +122,15 @@ If you have already prepared a project file, ensure the following:
 
 To run your project on gSender, press the 'Load File' button. A dialog box should pop up, where you can navigate to where your file is. If you want to reload a previous file you can also click the ‘&gt;’ button which will allow you to select from recently opened files.
 
-![](/_images/_gsender/_usinggsender/gs_usinggsender_pp13_Loadgcode.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_usinggsender/gs_using_p13_Loadgcode.jpg){.aligncenter .size-medium}
 
 Double click on the file, and the project should load in and be shown on the Visualizer. Once loaded, you’ll be able to see information about your project such as: its estimated cut time and cutting dimensions, and if the file is too big and slowing down your computer you can always click the ‘X’ on the ‘Load File’ button to unload it.
 
-![](</_images/_gsender/_usinggsender/gs_usinggsender_pp14_Outline Test.jpg>){.aligncenter .size-medium}
+![](</_images/_gsender/_usinggsender/gs_using_p14_Outline Test.jpg>){.aligncenter .size-medium}
 
 With your file loaded, feel free to also check how it looks. In the bottom right corner of the visualizer use the ‘view cube’ to quickly switch between top, right, left, front, and 3D views by clicking on its different faces. You can also use your mouse scroll wheel to zoom in and out and left-click and drag or right-click and drag on the visualizer to rotate or slide around the work area.
 
-![](</_images/_gsender/_usinggsender/gs_usinggsender_pp15_gSender 0.6.4 overrides.png>){.aligncenter .size-medium}
+![](</_images/_gsender/_usinggsender/gs_using_p15_gSender 0.6.4 overrides.png>){.aligncenter .size-medium}
 
 Before running your job there are a few other handy features you can check. The ‘<strong>Outline</strong>’ button will physically move your machine around the rough perimeter of your cutting job so you can get an idea of the cutting dimensions and if you’ve positioned the job correctly. As well, the '<strong>Verify Job</strong>' (previously 'Test Run') button will go through your file and let you know of any obvious errors it noticed before you run the job for real. <strong>This button won't move your CNC at all</strong> but if you're looking to actually "dry run" your file, you can always set your Z-zero high above your material and run the job without cutting anything to see how it looks.
 
