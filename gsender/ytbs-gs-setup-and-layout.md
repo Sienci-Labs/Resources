@@ -12,13 +12,13 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_gsender/_setup/gs_setup_pp_gs_setup_pp01_Annono.jpg
 ---
 <h2>Anonymous Information</h2>
 
 When you open up gSender, you’ll notice a prompt regarding ‘Anonymous usage information’. This is just to ask if you’d be fine with us knowing things like what CNC you use it for, what computer you run it on, and other information about how you use the app. You can imagine that if we know certain features are widely used or certain errors are constantly encountered, that can be very helpful to understand how we can improve the app or its documentation. This is completely optional and anonymous, we only do it with your permission and it can be turned off at any time in the settings menu.
 
-<img class="nar aligncenter wp-image-5844 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/1.p01_Annono-1-850x235.jpg" alt="" width="850" height="235" />{.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_setup_pp_gs_setup_pp01_Annono.jpg){.aligncenter .size-medium}
 
 <h2>Layout</h2>
 
@@ -30,7 +30,7 @@ Before starting to use gSender, let's briefly cover the way its functions are la
   <li>The right-side control (boxed in purple) has all the functions you need to manually control your CNC when jobs aren't running. This includes jogging, zero setting, homing, probing, running macros, manual laser / spindle control, and more.</li>
 </ul>
 
-<img class="size-medium wp-image-1573 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Main-Screen-layout-850x441.png" alt="" width="850" height="441" />{.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_setup_pp1_gSender-Main-Screen-layout.png){.aligncenter .size-medium}
 
 We’ve built gSender’s layout around these primary boxed sections so that you can have all of the CNC functionality most hobbyists need on one screen without getting confused about what each button does. If you’re doing anything <strong>during</strong> a job it’ll be on the left side, if you’re doing anything <strong>outside</strong> a job it’ll likely be on the right, and if you want greater customization or functionality it’ll be found in the tools or settings.
 
@@ -51,7 +51,7 @@ Let's do some configuration before connecting up to your CNC. Click the 'gear' a
 </li>
 </ul>
 
-<img class="aligncenter size-medium wp-image-4221" src="https://resources.sienci.com/wp-content/uploads/2021/07/gsender-general-850x590.jpg" alt="" width="850" height="590" />{.aligncenter .size-medium}
+![](</_images/_gsender/_setup/gs_setup_pp2_gSender general settings.jpg>){.aligncenter .size-medium}
 
 <ul>
   <li><strong>Visualizer Settings</strong>
@@ -61,7 +61,7 @@ Let's do some configuration before connecting up to your CNC. Click the 'gear' a
 </li>
 </ul>
 
-<img class="aligncenter size-medium wp-image-4222" src="https://resources.sienci.com/wp-content/uploads/2021/07/gsender-visualizer-prompt-850x594.jpg" alt="" width="850" height="594" />{.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_setup_pp3_SettingsVisualizer.png){.aligncenter .size-medium}
 
 <h2>Running Longer Jobs (optional)</h2>
 
@@ -69,28 +69,28 @@ Windows machines can have a tendency to 'fall asleep' on the display and USB por
 
 To keep the display on, you'll want to click the <strong>Windows</strong> icon at the bottom left corner of your screen and start to type “<em>control panel</em>” to bring it up.
 
-<img class="size-medium wp-image-930 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/1.-Open-Control-Panel-1-850x433.png" alt="" width="850" height="433" />{.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_setup_pp4_controlPanel.jpg){.aligncenter .size-medium}
 
 Once you’ve clicked to open it, go to <strong>Hardware and Sound </strong>then <strong>Power Options</strong>
 
-<img class="size-medium wp-image-931 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/2.-Go-to-Hardware-and-Sound-1-850x178.png" alt="" width="850" height="178" />{.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_setup_pp5_Hard.jpg){.aligncenter .size-medium}
 
-<img class="size-medium wp-image-932 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/3.-Go-to-Power-Options-850x160.png" alt="" width="850" height="160" />{.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_setup_pp6_Power.jpg){.aligncenter .size-medium}
 
 Now, whichever plan you have currently selected (circled in the picture) will be the one that you want to change. You can see in this example we will be editing the <strong>Balanced</strong> plan. Click on the Change plan settings text (highlighted with an arrow).
 
-<img class="aligncenter wp-image-5063 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/Balanced-850x277.jpg" alt="" width="850" height="277" />{.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_setup_pp7_Balanced.jpg){.aligncenter .size-medium}
 
 Go to the second drop-down and set both battery and plugged in selection to <strong>Never</strong>, save the changes to ensure that your computer never dozes off on its own.
 
-<img class="aligncenter wp-image-5062 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/Never-850x306.png" alt="" width="850" height="306" />{.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_setup_pp8_Never.png){.aligncenter .size-medium}
 
 To keep the USB ports on, click <strong>Change advanced power settings</strong>
 
-<img class="aligncenter wp-image-5060 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/Advanced-850x306.png" alt="" width="850" height="306" />{.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_setup_pp9_Advanced.png){.aligncenter .size-medium}
 
 <span style="font-weight: 400;">In the separate window that appears, you’ll want to Expand the </span><b>USB Settings</b><span style="font-weight: 400;">, then </span><b>USB selective suspend setting</b><span style="font-weight: 400;">, and finally change both the battery and plugged in settings for these drop-downs to ‘</span><b>Disabled</b><span style="font-weight: 400;">’. Click OK to </span><b>Apply</b><span style="font-weight: 400;"> these new settings.</span>
 
-<img class="aligncenter wp-image-5069 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/Advanced-Options-850x510.jpg" alt="" width="850" height="510" />{.aligncenter .size-medium}
+![](</_images/_gsender/_setup/gs_setup_pp10_Advanced Options.jpg>){.aligncenter .size-medium}
 
 After having done all of this, just be mindful now that sometimes a Windows update can remove these settings. If you have an update and want to be confident running your CNC, we'd recommend checking back on these settings to make sure they're still set properly.
