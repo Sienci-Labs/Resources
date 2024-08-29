@@ -71,11 +71,9 @@ The LongBoard comes with many inputs and outputs which users can implement easil
 
 Below are the connectors used with links (male):
 
-Connector 1, 2: <a href="https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Ningbo-Kangnex-Elec-WJ2EDGK-5-08-2P_C71370.html" target="_blank" rel="noopener">WJ2EDGK-5.08-2P</a>
-
-Connector 3, 8, 9, 10, 11: <a href="https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Ningbo-Kangnex-Elec-WJ15EDGK-3-81-2P_C8466.html" target="_blank" rel="noopener">WJ15EDGK-3.81-2P</a>
-
-Connector 4: <a href="https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Ningbo-Kangnex-Elec-WJ15EDGK-3-81-5P_C3804.html" target="_blank" rel="noopener">WJ15EDGK-3.81-5P</a>
+- Connector 1, 2: <a href="https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Ningbo-Kangnex-Elec-WJ2EDGK-5-08-2P_C71370.html" target="_blank" rel="noopener">WJ2EDGK-5.08-2P</a>
+- Connector 3, 8, 9, 10, 11: <a href="https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Ningbo-Kangnex-Elec-WJ15EDGK-3-81-2P_C8466.html" target="_blank" rel="noopener">WJ15EDGK-3.81-2P</a>
+- Connector 4: <a href="https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Ningbo-Kangnex-Elec-WJ15EDGK-3-81-5P_C3804.html" target="_blank" rel="noopener">WJ15EDGK-3.81-5P</a>
 
 Connector 5, 6, 7: <a href="https://lcsc.com/product-detail/Rectangular-Connectors-Housings_JST-Sales-America_XHP-4_JST-Sales-America-XHP-4_C144403.html" target="_blank" rel="noopener">XHP-4</a>
 

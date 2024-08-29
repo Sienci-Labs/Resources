@@ -1,7 +1,7 @@
 ---
-title: ytsb Noise, EMI, & Grounding
+title: Noise, EMI, & Grounding
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: For sudden disconnections and stopping, ground your CNC machine to reduce electromagnetic interference (EMI), which generates from dust collectors.
 post_date: 2021-04-30 17:15:00
 taxonomy:

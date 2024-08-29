@@ -1,7 +1,7 @@
 ---
-title: ytsb Table Mounting 📐
+title: Table Mounting 📐
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: How to mount the LongMill onto your wasteboard and table, with tips on squaring and alignment. Machine dimensions and wasteboard material suggestions provided.
 post_date: 2021-04-30 15:05:00
 taxonomy:
