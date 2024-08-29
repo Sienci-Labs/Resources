@@ -12,11 +12,12 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_gsender/_using/gs_using_p1_Connect.png
+featured_image: _images/_gsender/_using/gs_using_p2_IdleConnect.jpg
 ---
+
 Here's a great video that goes over much of how a g-code sender works in the context of gSender. See Kelly explain many of its uses and features:
 
-[su_youtube url="https://www.youtube.com/watch?v=3XbJ0g7jp0I"]
+https://www.youtube.com/watch?v=3XbJ0g7jp0I
 
 <h2>Starting Up</h2>
 
@@ -34,34 +35,28 @@ Once you have selected the COM port, your machine should be connected. This is c
 
 If you are not seeing those changes when you connect, please check the following:
 
-<ol>
-  <li aria-level="1">Arduino is securely attached to the LongBoard.</li>
-  <li aria-level="1">Any other programs that can talk to the Arduino are closed (ex. Arduino IDE, Easel, UGS).</li>
-  <li aria-level="1">See if you have other COM ports available, and try to connect to them.</li>
-</ol>
+1. Arduino is securely attached to the LongBoard.
+1. Any other programs that can talk to the Arduino are closed (ex. Arduino IDE, Easel, UGS).
+1. See if you have other COM ports available, and try to connect to them.
 
 <h2>Jogging and Presets</h2>
 
 You can move the machine by using the Jog Control, through the arrow buttons. Change the 'XY move' and 'Z move' to adjust the distance you travel per click. You can also change 'Speed', which determines how fast the machine will move when jogging.
 
-![](</_images/_gsender/_using/gs_using_p3_Jog control.png>){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_using_p3_Jog-control.png){.aligncenter .size-medium}
 
 The 'Rapid', 'Normal', and 'Precise' buttons will allow you to toggle to different distance and speed values quickly. You can change these values by going to the settings and editing the 'Jogging Presets' in the 'General' section.
 
-![](</_images/_gsender/_using/gs_using_p4_Jogging Presets.jpg>){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_using_p4_Jogging-Presets.jpg){.aligncenter .size-medium}
 
 <h2>Set Zero and Gotos</h2>
 
 Each g-code file or project will have a starting position that all other movements are referenced off of. This is the zero or origin. There are two ways to manually set your zero on gSender.
 
-<ol>
-  <li>Set the zero for each axis one at a time using 'Zero X', 'Zero Y', and 'Zero Z' buttons
-
-![](/_images/_gsender/_using/gs_using_p5_zero-buttons-01.jpg){.aligncenter .size-medium}</li>
-  <li aria-level="1">Set the zeros all at once using 'Zero All'
-
-![](/_images/_gsender/_using/gs_using_p6_zeroAll-button.jpg){.aligncenter .size-medium}</li>
-</ol>
+1. Set the zero for each axis one at a time using 'Zero X', 'Zero Y', and 'Zero Z' buttons
+![](/_images/_gsender/_using/gs_using_p5_zero-buttons-01.jpg){.aligncenter .size-medium}
+1. Set the zeros all at once using 'Zero All'
+![](/_images/_gsender/_using/gs_using_p6_zeroAll-button.jpg){.aligncenter .size-medium}
 
 The large blue numbers tell you the current position of your machine. If you want to return to your zero position, you can press the 'Go to' for each individual axis or 'Go to XY0' to return to the starting position in X and Y in one movement. You should see all three large blue numbers read “0.00” once you have returned to your zero for all axes.
 
@@ -73,19 +68,17 @@ You can reset your zeros anytime when the machine is not actively running a job.
 
 You can also enter coordinates directly by clicking the location value. It’ll turn into a white box where you can type any number, then hit the ‘enter’ key to confirm it. For instance you could set your Z-axis to 0.1mm instead of 0 if you’re using the paper method and you want to account for the paper thickness. Another example is instead of jogging 10mm to the right and clicking ‘zero’ to begin cutting a duplicate job that’s shifted over, you can just type “-10” and start the job right away (since if ‘zero’ is 10mm to the right, then your current location would be 0 - 10 = -10mm).
 
-![](</_images/_gsender/_using/gs_using_p7.1_Enter coords.jpg>){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_using_p7.1_Enter-coords.jpg){.aligncenter .size-medium}
 
 <h2>Endstop buttons</h2>
 
 gSender provides unique features if you have endstops on your machine for homing or limits. Once homing is enabled ($22) you’ll notice additional buttons appear in the ‘Location’ area of gSender:
 
-<ul>
-  <li>The ‘Home’ button is a convenient way to home or re-home your machine at any time (sends the typical $h command).</li>
-  <li>Four “quick-travel” buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed, you’ll also notice a house icon appear at the corner that your machine homes to.</li>
-  <li>If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials (before it would move up by the safe height amount).</li>
-</ul>
+- The ‘Home’ button is a convenient way to home or re-home your machine at any time (sends the typical $h command).
+- Four “quick-travel” buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed, you’ll also notice a house icon appear at the corner that your machine homes to.
+- If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials (before it would move up by the safe height amount).
 
-![](</_images/_gsender/_using/gs_using_p8_Endstop buttons 0.7.2.PNG>){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_using_p8_Endstop-buttons-0.7.2.PNG){.aligncenter .size-medium}
 
 If you’re having issues with the “quick-travel” buttons, then check the “maximum travel” settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings in the Firmware tool as $130-133.
 
@@ -105,24 +98,22 @@ Once you have set up the touch plate, banana plug and magnet on the machine, you
 
 Before the process begins, there is a conductivity test to ensure that the touch plate components can conduct electricity, which allows a signal to be sent to the LongBoard when there is contact. You can either bring the touch plate to the end mill or touch the banana plug and magnet together. Make contact a few times just to confirm there is conductivity, as the red circle should flicker to green.
 
-![](</_images/_gsender/_using/gs_using_p11_gSender 0.6.4 Touch test.png>){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_using_p11_gSender-0.6.4-Touch-test.png){.aligncenter .size-medium}
 
 A blue button called 'Start Probe' will appear if you have successfully confirmed conductivity. Ensure that the touch plate components are set up for probing, then press 'Start Probe'. The machine will move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press 'Go to XY0'. The bit should be overtop the bottom left corner of the stock material, and pressing 'Go to' next to the 'Zero Z' should bring it to touch the surface. More information can be found on our touch-plate resource page. <a href="https://resources.sienci.com/view/lmk2-touch-plate/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-touch-plate/</a>
 
-![](</_images/_gsender/_using/gs_using_p12_gSender go xyz0.PNG>){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_using_p12_gSender-go-xyz0.PNG){.aligncenter .size-medium}
 
 <h2>Loading Job Files</h2>
 
 If you have already prepared a project file, ensure the following:
 
-<ol>
-  <li aria-level="1">The file is an *.nc, *.g-code, *.tap, *.gc, or *.cnc file.</li>
-  <li aria-level="1">The file is exported to the correct post processor for the LongMill. Please see this page for the correct post processor for your CAM software: <a href="https://resources.sienci.com/view/lm-post-processors/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-post-processors/</a>.</li>
-</ol>
+1. The file is an *.nc, *.g-code, *.tap, *.gc, or *.cnc file.
+1. The file is exported to the correct post processor for the LongMill. Please see this page for the correct post processor for your CAM software: <a href="https://resources.sienci.com/view/lm-post-processors/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-post-processors/</a>.
 
 To run your project on gSender, press the 'Load File' button. A dialog box should pop up, where you can navigate to where your file is. If you want to reload a previous file you can also click the ‘&gt;’ button which will allow you to select from recently opened files.
 
-![](/_images/_gsender/_using/gs_using_p13_Loadgcode.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_using_p13_Loadg-code.jpg){.aligncenter .size-medium}
 
 Double click on the file, and the project should load in and be shown on the Visualizer. Once loaded, you’ll be able to see information about your project such as: its estimated cut time and cutting dimensions, and if the file is too big and slowing down your computer you can always click the ‘X’ on the ‘Load File’ button to unload it.
 
@@ -156,31 +147,27 @@ Now you're off and cutting, what a thrill! While your job is running keep an eye
 
 <h2><strong>Job Loss Recovery</strong></h2>
 
-<span style="font-weight: 400;">Also referred to as “Start from Line” this feature is built right into gSender for the purpose of recovering a carve you were working on that was disrupted by a power loss, USB disconnect, mechanical malfunction, or other failures.</span>
+Also referred to as “Start from Line” this feature is built right into gSender for the purpose of recovering a carve you were working on that was disrupted by a power loss, USB disconnect, mechanical malfunction, or other failures.
 
-<span style="font-weight: 400;">When a job is lost from a disconnect, clicking ‘Stop Job’, or anything similar, your first step should be to ensure that the job you were running is currently loaded, otherwise you need to load it back onto gSender. This is an alternate way of starting / resuming a job so you’ll find this feature as a part of the ‘Start Job’ button on the main visualizer shown as three lines.</span>
+When a job is lost from a disconnect, clicking ‘Stop Job’, or anything similar, your first step should be to ensure that the job you were running is currently loaded, otherwise you need to load it back onto gSender. This is an alternate way of starting / resuming a job so you’ll find this feature as a part of the ‘Start Job’ button on the main visualizer shown as three lines.
 
-![](</_images/_gsender/_using/gs_using_p19_Start Job.jpg>){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_using_p19_Start-Job.jpg){.aligncenter .size-medium}
 
-<span style="font-weight: 400;">In this popup, you’ll get some important information. Remember that every job you run on your CNC is a series of line-by-line instructions as a ‘g-code’ file:</span>
+In this popup, you’ll get some important information. Remember that every job you run on your CNC is a series of line-by-line instructions as a ‘g-code’ file:
 
-<ul>
-  <li style="font-weight: 400;" aria-level="1"><b>Line last recorded</b><span style="font-weight: 400;">: shows where gSender remembers the file failed</span></li>
-  <li style="font-weight: 400;" aria-level="1"><b>Maximum line number</b><span style="font-weight: 400;">: shows the total instruction lines in your file</span></li>
-  <li style="font-weight: 400;" aria-level="1"><b>Start at line</b><span style="font-weight: 400;">: for you to enter manually where you want to resume cutting from. If your machine was running for a long while after the failure then you’ll want to subtract more from the last line recorded, or if the failure was quick you might only need to subtract 10 or 20 lines. For example: if the last recorded line was 1040 but I hadn’t been paying attention for several minutes and the job had already been running for an hour, then I could assume that maybe 100 lines had passed since the failure so I could restart on line 940.</span></li>
-</ul>
+- <b>Line last recorded</b>: shows where gSender remembers the file failed
+- <b>Maximum line number</b>: shows the total instruction lines in your file
+- <b>Start at line</b>: for you to enter manually where you want to resume cutting from. If your machine was running for a long while after the failure then you’ll want to subtract more from the last line recorded, or if the failure was quick you might only need to subtract 10 or 20 lines. For example: if the last recorded line was 1040 but I hadn’t been paying attention for several minutes and the job had already been running for an hour, then I could assume that maybe 100 lines had passed since the failure so I could restart on line 940.
 
 ![](/_images/_gsender/_using/gs_using_p20_StartFromLIne.jpg){.aligncenter .size-medium}
 
-<span style="font-weight: 400;">Now you should be ready to get back into cutting by clicking ‘Start from Line’. This feature took us a long time to create since it:</span>
+Now you should be ready to get back into cutting by clicking ‘Start from Line’. This feature took us a long time to create since it:
 
-<ul>
-  <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Runs the Start/Stop g-code as you’d expect</span></li>
-  <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Accounts for all the typical ‘setup’ g-code that is at the start of the file like units, zeros, spindle speed or laser power</span></li>
-  <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Looks at every past machine movement to locate exactly where it needs to resume from</span></li>
-</ul>
+- Runs the Start/Stop g-code as you’d expect
+- Accounts for all the typical ‘setup’ g-code that is at the start of the file like units, zeros, spindle speed or laser power
+- Looks at every past machine movement to locate exactly where it needs to resume from
 
-<span style="font-weight: 400;">This way you can be confident in returning to your projects even when something goes awry.</span>
+This way you can be confident in returning to your projects even when something goes awry.
 
 In the unlikely event that there is a USB port disconnect from your CNC while running a cutting job, in specific instances gSender will be able to recognize the problem and alert you about it. In these cases, check your USB cable then ensure you write down the “Suggested line to start from” before you confirm the window. From here you can use the ‘Start from Line’ feature as normal, entering in the suggested line number and hopefully resuming cutting where you left off. In the image below, we would be restarting at line 18.
 
@@ -190,11 +177,9 @@ In the unlikely event that there is a USB port disconnect from your CNC while ru
 
 gSender is set up to do many things by default to help keep you aware about things going on with your machine. Though we can’t guarantee it can handle everything, we’ve recently introduced a new Settings menu for Safety where you can access many safety items in one place. This includes:
 
-<ol>
-  <li><strong>Safe height movement</strong>: this number is used when using the ‘goto’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the goto movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the goto movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.</li>
-  <li><strong>G-code warnings</strong>: reports back when it sees g-code lines that don’t look correct when the file is loaded or once it’s being sent to the machine. G-code has to follow specific ‘grammatical rules’ similar to other languages for the ‘sentences’ to be correct, so if the lines don’t look correct then your machine might run into problems understanding what it’s supposed to do.</li>
-  <li><strong>Soft limits warning</strong>: enables gSender to tell you when a loaded file might exceed the cutting area of your machine. This requires that your machine has limit switches and soft limits enabled.</li>
-  <li><strong>History of Errors and Alarms</strong>: great for tracking problems you might’ve recently run into to help troubleshooting or getting support. All entries are listed in-order and stamped with a date and time.</li>
-</ol>
+1. <strong>Safe height movement</strong>: this number is used when using the ‘goto’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the goto movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the goto movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
+1. <strong>G-code warnings</strong>: reports back when it sees g-code lines that don’t look correct when the file is loaded or once it’s being sent to the machine. G-code has to follow specific ‘grammatical rules’ similar to other languages for the ‘sentences’ to be correct, so if the lines don’t look correct then your machine might run into problems understanding what it’s supposed to do.
+1. <strong>Soft limits warning</strong>: enables gSender to tell you when a loaded file might exceed the cutting area of your machine. This requires that your machine has limit switches and soft limits enabled.
+1. <strong>History of Errors and Alarms</strong>: great for tracking problems you might’ve recently run into to help troubleshooting or getting support. All entries are listed in-order and stamped with a date and time.
 
 ![](/_images/_gsender/_using/gs_using_p22_Safety.png){.aligncenter .size-medium}

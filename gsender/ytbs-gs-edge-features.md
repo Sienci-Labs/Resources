@@ -14,6 +14,7 @@ custom_fields:
 skip_file: no
 featured_image: _images/_gsender/_edge/gs_edge_p1_Cycle.jpg
 ---
+
 gSender Edge is our test arena for working on new and exciting gSender updates that will eventually be released to everyone. Think of it as a program that you can download independently from traditional gSender that allows you to participate in public Beta testing. This gives you the opportunity to use all the new features that we’re working on and make an impact by giving us feedback to inform the final result, that’s what it’s like to be on the bleeding <strong>Edge</strong>.
 
 Edge isn’t a replacement for gSender in any way - it’s a way for us to test and get feedback on new, bigger features without exposing them to users who may not be interested or causing unexpected bugs. This follows a cycle that can be several months long where:

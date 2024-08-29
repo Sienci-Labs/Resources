@@ -14,6 +14,7 @@ custom_fields:
 skip_file: no
 featured_image: _images/_gsender/_features/gs_features_p1_KeyShort.jpg
 ---
+
 This page covers all the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, lasers, coolant, and more. Remember, you can always quickly navigate the page by clicking the headings in the 'Page Contents'.
 
 <h2>Shortcuts</h2>
@@ -44,7 +45,7 @@ You can turn on or off individual shortcuts in the <strong>Active</strong> colum
 
 <h3>Gamepad Shortcuts</h3>
 
-<span style="font-weight: 400;">Many users really love this feature since using a controller is convenient (especially for when you're closer to your machine), inexpensive, and makes certain repetitive actions much easier. Common options are Xbox, PlayStation, and other third-party controllers available online.</span>
+Many users really love this feature since using a controller is convenient (especially for when you're closer to your machine), inexpensive, and makes certain repetitive actions much easier. Common options are Xbox, PlayStation, and other third-party controllers available online.
 
 To start, connect your joystick to your computer and create a new profile using the ‘Add New Joystick Profile’ button. You will be prompted with further instructions on gSender on how to set it up. This profile will allow for shortcut assignment in a very similar manner as keyboard shortcuts, while also remembering your particular joystick. This will enable you to set up multiple profiles if desired.
 
@@ -233,10 +234,10 @@ The console is a tab that you can access at the bottom right hand side of the gS
 When you first start up gSender, the console will display EEPROM settings that are sent from the Arduino in the control box. These EEPROM settings control parameters for your CNC such as:
 
 <ul>
-  <li aria-level="1">Maximum speed and acceleration in each axis</li>
-  <li aria-level="1">Boundaries of the work area</li>
-  <li aria-level="1">Direction of each axis movement</li>
-  <li aria-level="1">Limit switch settings</li>
+  <li>Maximum speed and acceleration in each axis</li>
+  <li>Boundaries of the work area</li>
+  <li>Direction of each axis movement</li>
+  <li>Limit switch settings</li>
 </ul>
 
 To access EEPROM settings again, enter in “$$” into the console and hit the 'Enter' key or click the 'Run' button. These settings can be changed via the console as well as the Firmware Tool which we've designed as a much more visual way to alter machine settings.
@@ -246,10 +247,10 @@ To access EEPROM settings again, enter in “$$” into the console and hit the 
 The 'Calibration Tool' on gSender enables you to make finer adjustments to your machine for improved performance. There are three processes available on gSender:
 
 <ul>
-  <li aria-level="1">Diagnostics</li>
-  <li aria-level="1">XY Squaring</li>
-  <li aria-level="1">Movement Tuning</li>
-  <li aria-level="1">Surfacing Wasteboard</li>
+  <li>Diagnostics</li>
+  <li>XY Squaring</li>
+  <li>Movement Tuning</li>
+  <li>Surfacing Wasteboard</li>
 </ul>
 
 ![](/_images/_gsender/_features/gs_features_p23_Calibrate.png){.aligncenter .size-medium}
@@ -283,22 +284,22 @@ When you access the ‘Calibration Tool’ window, the ‘XY Squaring’ procedu
 You will need the following:
 
 <ul>
-  <li aria-level="1">Ruler or measuring tape</li>
-  <li aria-level="1">Tapered bit or V-bit</li>
-  <li aria-level="1">Tape</li>
+  <li>Ruler or measuring tape</li>
+  <li>Tapered bit or V-bit</li>
+  <li>Tape</li>
 </ul>
 
 <ol>
-  <li aria-level="1">Jog the machine to the front left corner, with the bit raised slightly over the surface of your wasteboard</li>
-  <li aria-level="1">Mark the points with tape and move the machine as directed
+  <li>Jog the machine to the front left corner, with the bit raised slightly over the surface of your wasteboard</li>
+  <li>Mark the points with tape and move the machine as directed
 
 ![](/_images/_gsender/_features/gs_features_p28_Squaring2.png){.aligncenter .size-medium}</li>
   
-<li aria-level="1">Measure the distance between the marked points and record the values
+<li>Measure the distance between the marked points and record the values
 
 ![](/_images/_gsender/_features/gs_features_p29_Squaring3.png){.aligncenter .size-medium}</li>
   
-<li aria-level="1">Adjust your rail positions with the values determined by the XY Squaring procedure
+<li>Adjust your rail positions with the values determined by the XY Squaring procedure
 
 ![](/_images/_gsender/_features/gs_features_p30_CalResults.png){.aligncenter .size-medium}</li>
 </ol>
@@ -312,24 +313,24 @@ You are able to change how much your motors turn to improve the accuracy of your
 You will need:
 
 <ul>
-  <li aria-level="1">Marker or tape</li>
-  <li aria-level="1">Measuring tape</li>
+  <li>Marker or tape</li>
+  <li>Measuring tape</li>
 </ul>
 
 <ol>
-  <li aria-level="1">Jog your machine to the middle of whichever axes you choose to tune, so that there is enough room to complete this procedure. For example, on the X-axis you would jog halfway on the X-axis rail</li>
-  <li aria-level="1">Select what axis to tune on the drop down menu
+  <li>Jog your machine to the middle of whichever axes you choose to tune, so that there is enough room to complete this procedure. For example, on the X-axis you would jog halfway on the X-axis rail</li>
+  <li>Select what axis to tune on the drop down menu
 
 ![](/_images/_gsender/_features/gs_features_p31_Tuning1.png){.aligncenter .size-medium}</li>
-  <li aria-level="1">Mark down the location of your reference on the machine. For example the X-axis tuning references the edge of the XZ gantry on the X rail</li>
-  <li aria-level="1">Move the axis a chosen distance</li>
-  <li aria-level="1">Measure the travel distance between the marked location and the reference edge
+  <li>Mark down the location of your reference on the machine. For example the X-axis tuning references the edge of the XZ gantry on the X rail</li>
+  <li>Move the axis a chosen distance</li>
+  <li>Measure the travel distance between the marked location and the reference edge
 
 ![](/_images/_gsender/_features/gs_features_p32_Tuning2.png){.aligncenter .size-medium}</li>
-  <li aria-level="1">Change the EEPROM setting as recommended by the procedure by pressing 'Set EEPROM setting'
+  <li>Change the EEPROM setting as recommended by the procedure by pressing 'Set EEPROM setting'
 
 ![](/_images/_gsender/_features/gs_features_p33_Tuning3.png){.aligncenter .size-medium}</li>
-  <li aria-level="1">Repeat the procedure for each axis you wish to tune</li>
+  <li>Repeat the procedure for each axis you wish to tune</li>
 </ol>
 
 <h3>Surfacing</h3>
@@ -394,12 +395,12 @@ If your CNC isn't listed below, then it's considered "unsupported":
 If your machine is unsupported, it means that the Firmware Tool won't be able to perform the same features as for supported machines. In this case, <strong>if your machine isn't working, contact your manufacturer to get their advice on how to fix it</strong>. Using this tool makes it possible to ruin your machine further and we won't be able to help you with your specific hardware. For unsupported machines:
 
 <ol>
-  <li aria-level="1">Choosing your machine <strong>name</strong> from the drop down menu is primarily cosmetic</li>
-  <li aria-level="1"><strong>Flash</strong> either vanilla grbl, or for grblHAL boards upload a hex file to flash a new firmware</li>
-  <li aria-level="1"><strong>Import</strong> EEPROM settings from a file if you had settings that were working and something changed</li>
-  <li aria-level="1"><strong>Export</strong> current EEPROM settings if you'd like to save your current setup in case something goes wrong</li>
-  <li aria-level="1"><strong>Restore</strong> all your machine settings back to typical vanilla grbl values</li>
-  <li aria-level="1">And otherwise see and modify any machine settings as well as search any keywords to help you find what you're looking for</li>
+  <li>Choosing your machine <strong>name</strong> from the drop down menu is primarily cosmetic</li>
+  <li><strong>Flash</strong> either vanilla grbl, or for grblHAL boards upload a hex file to flash a new firmware</li>
+  <li><strong>Import</strong> EEPROM settings from a file if you had settings that were working and something changed</li>
+  <li><strong>Export</strong> current EEPROM settings if you'd like to save your current setup in case something goes wrong</li>
+  <li><strong>Restore</strong> all your machine settings back to typical vanilla grbl values</li>
+  <li>And otherwise see and modify any machine settings as well as search any keywords to help you find what you're looking for</li>
 </ol>
 
 ![](/_images/_gsender/_features/gs_features_p40_FirmwareTool2XUsed.jpg){.aligncenter .size-medium}
@@ -409,13 +410,13 @@ If your machine is unsupported, it means that the Firmware Tool won't be able to
 If your CNC was listed above then it's "supported" by the Firmware tool. This means that the manufacturer is working with us to keep their machine profiles up-to-date, which in-turn gives you access to more features:
 
 <ol>
-  <li aria-level="1">Choose your machine <strong>name</strong> from the drop down menu</li>
-  <li aria-level="1"><strong>Flash</strong> either your specific machines grbl firmware, or for grblHAL boards upload a hex file to flash a new firmware</li>
-  <li aria-level="1"><strong>Import</strong> EEPROM settings from a file if you had settings that were working and something changed</li>
-  <li aria-level="1"><strong>Export</strong> current EEPROM settings if you'd like to save your current setup in case something goes wrong</li>
-  <li aria-level="1"><strong>Restore</strong> all your machine settings back to the defaults for your profile in case they've somehow been altered or wiped (like a "factory reset")</li>
-  <li aria-level="1">Also be able to see a <strong>yellow highlight</strong> and be able to reset individual settings that have been changed from the machine defaults</li>
-  <li aria-level="1">And otherwise see and modify any machine settings as well as search any keywords to help you find what you're looking for</li>
+  <li>Choose your machine <strong>name</strong> from the drop down menu</li>
+  <li><strong>Flash</strong> either your specific machines grbl firmware, or for grblHAL boards upload a hex file to flash a new firmware</li>
+  <li><strong>Import</strong> EEPROM settings from a file if you had settings that were working and something changed</li>
+  <li><strong>Export</strong> current EEPROM settings if you'd like to save your current setup in case something goes wrong</li>
+  <li><strong>Restore</strong> all your machine settings back to the defaults for your profile in case they've somehow been altered or wiped (like a "factory reset")</li>
+  <li>Also be able to see a <strong>yellow highlight</strong> and be able to reset individual settings that have been changed from the machine defaults</li>
+  <li>And otherwise see and modify any machine settings as well as search any keywords to help you find what you're looking for</li>
 </ol>
 
 ![](/_images/_gsender/_features/gs_features_p40_FirmwareTool2XUsed.jpg){.aligncenter .size-medium}
@@ -515,32 +516,17 @@ gSender’s settings are stored on a file on whatever computer is used to run it
 
 To transfer your settings over:
 
-<ol>
-  <li style="list-style-type: none;">
-<ol>
-  <li>Begin by opening gSender, going to the settings gear in the top-right corner, and clicking the ‘Export Settings’ button in the ‘General’ tab
-  
-  ![](/_images/_gsender/_features/gs_features_p49_TransSettings.png){.aligncenter .size-medium}</li>
-</ol>
-</li>
-  <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"> Save the file somewhere onto your computer that you can find afterwards</span>
-  
-  ![](/_images/_gsender/_features/gs_features_p50_SaveSettings.jpg){.aligncenter .size-medium}</li>
-
-  <li>Outside of gSender, find the file and transfer it using a memory stick or sending it over the internet by emailing to yourself or using Google Drive or OneDrive.</li>
-
-  <li>Once you’ve got the file onto the other computer it’s now easy enough to open gSender on that computer, or in the web browser if you’re doing remote control, and go to the settings and click the ‘Import Settings’ button in the ‘General’ tab.
-  
- ![](/_images/_gsender/_features/gs_features_p51_ImportSettings.png){.aligncenter .size-medium}</li>
-
-  <li>Locate the file and click ‘Open’
-  
-  ![](/_images/_gsender/_features/gs_features_p52_OpenImport.jpg){.aligncenter .size-medium}</li>
-
-  <li>You’ll get a warning. Click ‘Import Settings’ if you want to continue. Once you do, gSender will disconnect and you’ll need to reconnect the machine to resume operation but the settings should now be brought over.
-  
-  ![](/_images/_gsender/_features/gs_features_p53_ImportSettingWarn.jpg){.aligncenter .size-medium}</li>
-</ol>
+1. Begin by opening gSender, going to the settings gear in the top-right corner, and clicking the ‘Export Settings’ button in the ‘General’ tab
+![](/_images/_gsender/_features/gs_features_p49_TransSettings.png){.aligncenter .size-medium}
+1. Save the file somewhere onto your computer that you can find afterwards
+![](/_images/_gsender/_features/gs_features_p50_SaveSettings.jpg){.aligncenter .size-medium}
+1. Outside of gSender, find the file and transfer it using a memory stick or sending it over the internet by emailing to yourself or using Google Drive or OneDrive.
+1. Once you’ve got the file onto the other computer it’s now easy enough to open gSender on that computer, or in the web browser if you’re doing remote control, and go to the settings and click the ‘Import Settings’ button in the ‘General’ tab.
+![](/_images/_gsender/_features/gs_features_p51_ImportSettings.png){.aligncenter .size-medium}
+1. Locate the file and click ‘Open’
+![](/_images/_gsender/_features/gs_features_p52_OpenImport.jpg){.aligncenter .size-medium}
+1. You’ll get a warning. Click ‘Import Settings’ if you want to continue. Once you do, gSender will disconnect and you’ll need to reconnect the machine to resume operation but the settings should now be brought over.
+![](/_images/_gsender/_features/gs_features_p53_ImportSettingWarn.jpg){.aligncenter .size-medium}
 
 <h2>Remote Mode</h2>
 
@@ -675,6 +661,4 @@ You can find the release notes for the latest version of gSender in the “About
 
 Check out this livestream if you'd like to see a super deep dive on gSender and all of its features as of 0.6.9. Chris spends a lot of time answering questions live about gSender and how to set up for a project:
 
-[su_youtube url="https://www.youtube.com/watch?v=454pWYtZgBU"]
-
-<span style="color: #ffffff;">End</span>
+"https://www.youtube.com/watch?v=454pWYtZgBU"

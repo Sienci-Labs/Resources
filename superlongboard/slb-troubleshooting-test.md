@@ -355,14 +355,14 @@ This is a list of all the lights and how they function:
 [/su_table]
 <h2>Useful commands</h2>
 <ul>
-  <li aria-level="1"><strong>$$</strong>   lists all Firmware settings</li>
-  <li aria-level="1"><strong>$rst=$</strong>   resets all your EEPROM settings to the default Firmware values</li>
-  <li aria-level="1"><strong>?</strong>   reports any active inputs plus some other useful info</li>
-  <li aria-level="1"><strong>$g</strong>   lists current active grbl Modals</li>
-  <li aria-level="1"><strong>$i</strong>   tells you information on your board Firmware Version and Plugins</li>
-  <li aria-level="1"><strong>$$=#</strong>#   will let you know the Name and Description of that Setting</li>
-  <li aria-level="1"><strong>$esg</strong>   will tell you the Names and Descriptions of all Settings</li>
-  <li aria-level="1"><strong>$eag</strong>   will tell you the Names and Descriptions of all Alarms</li>
+  <li><strong>$$</strong>   lists all Firmware settings</li>
+  <li><strong>$rst=$</strong>   resets all your EEPROM settings to the default Firmware values</li>
+  <li><strong>?</strong>   reports any active inputs plus some other useful info</li>
+  <li><strong>$g</strong>   lists current active grbl Modals</li>
+  <li><strong>$i</strong>   tells you information on your board Firmware Version and Plugins</li>
+  <li><strong>$$=#</strong>#   will let you know the Name and Description of that Setting</li>
+  <li><strong>$esg</strong>   will tell you the Names and Descriptions of all Settings</li>
+  <li><strong>$eag</strong>   will tell you the Names and Descriptions of all Alarms</li>
 </ul>
 <h2><span style="color: #ff0000;">Alarms List</span></h2>
 [su_table responsive="yes"]
