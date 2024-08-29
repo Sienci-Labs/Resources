@@ -12,7 +12,7 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_gsender/_features/gs_features_p1_KeyShort.jpg
 ---
 This page covers all the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, lasers, coolant, and more. Remember, you can always quickly navigate the page by clicking the headings in the 'Page Contents'.
 
@@ -26,21 +26,21 @@ Going to the settings gear, then the 'Shortcuts' section, you'll see that shortc
 
 Either for use on a keyboard, macro pad, or mini Bluetooth keyboard, these are split up into categories so they're easy to locate and modify. There are shortcuts for carving, overrides, jogging, zero setting, probing, macros, visualization, window navigation, and more!
 
-<img class="aligncenter wp-image-5219" src="https://resources.sienci.com/wp-content/uploads/2021/07/2023-06-13_10-43-42-850x573.jpg" alt="" width="749" height="505" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p1_KeyShort.jpg){.aligncenter .size-medium}
 
 <h3>Common Shortcuts</h3>
 
 A great place to start is the Jogging category. In the picture below, see that right now we can jog the <strong>X axis</strong> by hitting the shift + right or shift + left keys. The <strong>Y axis</strong> responds to shift + up and shift + down keys and the <strong>Z axis</strong> uses the shift + pageup and shift + pagedown keys. Being able to look at your CNC, while your hand is on your keyboard is a great way to ensure you are moving in the right direction, without having to look back at your screen to click the mouse on the right button.
 
-<img class="aligncenter wp-image-5221" src="https://resources.sienci.com/wp-content/uploads/2021/07/2023-06-13_11-01-55-850x566.jpg" alt="" width="746" height="497" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p2_ShortsCommon.jpg){.aligncenter .size-medium}
 
 You can use the preset shortcuts and/or add your own. Click the ‘+’ or the ‘edit’ to the right of each shortcut to bring up a popup window that allows you to add or edit your own key combination (shown in the example below). You can see it’s as easy as pressing the key or key combination once the popup is open. In addition, you’ll be informed if the combination you’ve entered is already used elsewhere and be given the option to overwrite the existing one if you want.
 
-<img class="aligncenter wp-image-5220 " src="https://resources.sienci.com/wp-content/uploads/2021/07/2023-06-09_15-53-35.gif" alt="" width="747" height="461" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p3_EditGIF.gif){.aligncenter .size-medium}
 
 You can turn on or off individual shortcuts in the <strong>Active</strong> column or enable/disable all shortcuts at the bottom of the window. Some people find this useful since it can turn off the shortcut temporarily without losing the key combination.
 
-<img class="aligncenter wp-image-5222" src="https://resources.sienci.com/wp-content/uploads/2021/07/2023-06-13_11-06-44-1024x687.jpg" alt="" width="752" height="505" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p4_EnableAll.jpg){.aligncenter .size-medium}
 
 <h3>Gamepad Shortcuts</h3>
 
@@ -50,7 +50,7 @@ To start, connect your joystick to your computer and create a new profile using 
 
 If you run into difficulty with getting a particular joystick set up in gSender, consider searching for documentation provided by the manufacturer (for example, <a href="https://support.xbox.com/en-CA/help/hardware-network/controller/connect-xbox-wireless-controller-to-pc" target="_blank" rel="noopener">Xbox</a> or <a href="https://www.playstation.com/en-ca/support/hardware/ps4-pair-dualshock-4-wireless-with-pc-or-mac/" target="_blank" rel="noopener">PlayStation</a>). Some joysticks may also require drivers to be downloaded so your computer can read the signals that the joystick sends out.
 
-<img class="aligncenter wp-image-9254 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-gamepad-profiles-850x402.png" alt="" width="850" height="402" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p5_Gamepads.png){.aligncenter .size-medium}
 
 <h3>Tested Gamepads</h3>
 
@@ -62,7 +62,7 @@ To better guarantee your experience using a gamepad in gSender, we’ve taken th
 <tr>
 <td>
 
-<img class="non alignnone wp-image-5014" src="https://resources.sienci.com/wp-content/uploads/2021/07/yccteam-xbox-controller-e1682081885844-850x637.png" alt="" width="240" height="180" />{.aligncenter .size-medium}</td>
+![](/_images/_gsender/_features/gs_features_p6_XboxControl.png){.aligncenter .size-medium}</td>
 <td><strong>YCCTeam Xbox Controller</strong>
 <ul>
   <li>Wireless</li>
@@ -73,7 +73,7 @@ To better guarantee your experience using a gamepad in gSender, we’ve taken th
 <tr>
 <td>
 
-<img class="non alignnone wp-image-5013" src="https://resources.sienci.com/wp-content/uploads/2021/07/logitech-f5710-e1682081913828.png" alt="" width="240" height="180" />{.aligncenter .size-medium}</td>
+![](/_images/_gsender/_features/gs_features_p7_PlaystationControl.png){.aligncenter .size-medium}</td>
 <td><strong>Logitech F710</strong>
 <ul>
   <li>Wireless</li>
@@ -89,25 +89,25 @@ Having a listed gamepad means you can both be more confident that your hardware 
 <h3>Shortcut Printing</h3>
 Find yourself forgetting how you’ve configured your keyboard or gamepad profile shortcuts? Hit the ‘Print’ button to generate a simple PDF that you can store on a tablet or print on some paper to keep next to your CNC. This PDF will contain all the shortcuts you’ve created and what actions they’re assigned to.
 
-<img class="aligncenter wp-image-5017 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/gamepad-shortcuts-pdf-print-850x400.png" alt="" width="850" height="400" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p8_ShortPrint.png){.aligncenter .size-medium}
 
 <h2>Lightweight Mode</h2>
 
 This mode enables gSender to run faster on computers that are less powerful and prone to lagging. ‘Lightweight Mode’ reduces the memory gSender uses by turning off processor-heavy aspects of the visualizer, from reducing detail to disabling it altogether. You can toggle it on or off using the slider positioned at the top right of the visualizer.
 
-<img class="size-full wp-image-1587 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.6.4-Lightweight-e1625168463320.png" alt="" width="783" height="407" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p9_LightweightMode.png){.aligncenter .size-medium}
 
 If you go to the visualizer settings, you can also customize what features are active in both ‘Regular’ and ‘Lightweight’ modes.
 
-<img class="aligncenter wp-image-8587 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender_Visualizer-850x501.png" alt="" width="850" height="501" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p10_Visualizer.png){.aligncenter .size-medium}
 
 If gSender's visualizer is impacting the performance of your machine but Lightweight mode only helps once the whole visualizer is turned off, this hybrid option could help. Found in the Visualizer settings, the ‘SVG Visualizer’ substitutes the default 3D viewer with a pre-rendered, top-down image of your project, drastically reducing computer strain but still allowing the project to be displayed.
 
-<img class="aligncenter size-full wp-image-4983" src="https://resources.sienci.com/wp-content/uploads/2021/07/edge-svg-enable.jpg" alt="" width="1305" height="909" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p11_EnableVis.jpg){.aligncenter .size-medium}
 
 Once you toggle on ‘Enable SVG Visualizer’, whenever you turn on Lightweight Mode in the top right of the visualizer, you’ll see the alternate view with all animations turned off.
 
-<img class="aligncenter size-full wp-image-4985" src="https://resources.sienci.com/wp-content/uploads/2021/07/edge-svg-difference-1.png" alt="" width="1600" height="800" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p12_ToggleLWM.png){.aligncenter .size-medium}
 
 <h2>Touch Plate Setup</h2>
 
@@ -123,7 +123,7 @@ For a Z Probe, setting up is simple since you just need the thickness of the ‘
 
 If you’re trying to set up a custom ‘standard block’ plate, use some calipers to pick up on the measurements noted below. Once these are noted down, enter these into gSender’s ‘Probe’ settings in similarly named entries, and now you should find that gSender’s probing routine has been altered to fit the shape of your touch plate.
 
-<img class="alignnone size-medium wp-image-7931" src="https://resources.sienci.com/wp-content/uploads/2021/07/Touch-Plate-Dimensioning-850x411.png" alt="" width="850" height="411" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p13_TouchPlateDim.png){.aligncenter .size-medium}
 
 <h2>Coolant Control / IOT Relay</h2>
 
@@ -131,23 +131,23 @@ If you have a coolant control pin on your CNC machine, gSender has a tab for man
 
 Many hobby CNCers don't have a need for coolant and so prefer to use these outputs for controlling other periphery. The most common is an IOT relay that can be used to automatically control a vacuum for dust collection, the CNC's router, LED lighting, and more. See an example of how to set that up here: <a href="https://resources.sienci.com/view/lm-iot-relay/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-iot-relay/</a>
 
-<img class="aligncenter wp-image-8586 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender_CoolantTab.png" alt="" width="568" height="302" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p14_Coolant.png){.aligncenter .size-medium}
 
 <h2>Spindle &amp; Laser Support</h2>
 
 Similar to the manual coolant control, this area is for manual control of a spindle or laser outside of g-code sending. If you have a spindle or laser, you can activate these controls by going to the settings gear at the far right. In the ‘Spindle/Laser’ section in the left toolbar, press the toggle for ‘Spindle/Laser’.
 
-<img class="aligncenter wp-image-4832 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/spindle_laser-control-e1675884570537.jpg" alt="" width="1010" height="499" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p15_SpindleLaser.jpg){.aligncenter .size-medium}
 
 Back at the main screen, you'll see the ‘Spindle/Laser’ tab at the bottom right. Here you can click to toggle between 'Spindle Mode' and 'Laser Mode', changing your grbl settings for you and displaying buttons specific to each device. For each mode there is also a red caution circle that indicates whether the spindle or laser is active. This works during manual control but also during job sending.
 
 In spindle mode you can set the spindle speed with a slider, spin it up in either direction, and stop it again with the 'Stop' button. These are all based on g-code commands that can also be entered into the console manually if desired. The speed slider is set from your grbl firmware settings, so max and min speed can be altered in the Firmware Tool.
 
-<img class="aligncenter wp-image-8585 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender_LaserTab.png" alt="" width="619" height="313" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p16_Spin.png){.aligncenter .size-medium}
 
 'Laser Mode' is very similar, allowing for On/Off control, a slider for setting the laser power during manual control, and a ‘Laser Test’ button. The laser testing function is handy when troubleshooting your laser setup or for other sorts of locating and alignment because it only enables the laser for a short time before turning it back off again. Though this is much safer than regular on/off control, we still highly advise that you have you have a hand on a kill switch or E-stop during testing or control of either Laser or Spindle modes so that in case something goes wrong with your computer or the program they can still be safely deactivated.
 
-<img class="aligncenter wp-image-8584 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender_LaserNotSpinTab.png" alt="" width="619" height="311" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p17_LaserMode.png){.aligncenter .size-medium}
 
 <h3>Laser Diode Support</h3>
 
@@ -161,7 +161,7 @@ Since many CNCs are coming with diode accessories, gSender has some unique featu
   <li>Switch to a specialized visualization designed to show raster engraving images better than typical g-code visualizers. Seeing the laser intensity in the movements is very useful to get a better idea of what your projects are going to look like when they’re run. This will only apply to files loaded after ‘Laser mode’ is enabled and the colour can be customized in the settings</li>
 </ul>
 
-<img class="aligncenter wp-image-4744 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/Laser-visualization-850x328.png" alt="" width="850" height="328" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p18_Visual.png){.aligncenter .size-medium}
 
 <h2>Macros</h2>
 
@@ -175,19 +175,19 @@ Macros are standalone buttons within the gSender interface that allow you to exe
 
 You can create macros using the ‘+’ button under the ‘Macros’ tab. Here you'll see a space for inputting your custom g-code and adding a name and description for the macro. Advanced users may also want to leverage ‘Macro Variables’ which allow for greater g-code manipulation and pseudo-programming. Press ‘Add New Macro’ when completed.
 
-<img class="wp-image-1929 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.7.1-new-macro-850x478.png" alt="" width="850" height="478" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p19_Macro.png){.aligncenter .size-medium}
 
 New macros will appear as buttons in the ‘Macro’ tab that can be rearranged by dragging them around. These buttons will display the macro name, show the description if you hover your mouse over them, and can always be later altered or deleted by clicking on their '...' button.
 
 Any macro can be executed by pressing it. Before pressing it, a play icon will appear to show that you can select it. Once running, you should see the macro start to pulse green while a toast notification on the bottom left hand side of gSender also notifies you that it's running.
 
-<img class="size-medium wp-image-1591 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.6.4-run-macro-progress-850x450.png" alt="" width="850" height="450" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p20_NewMacro.png){.aligncenter .size-medium}
 
 Macros can also be executed using shortcuts. Every time you create a new macro it'll become available at the bottom of the shortcuts list for you to assign a key or joystick button to. Add your keybindings and enable them by pressing the slider beside the label.
 
 You can share macros with other users or transfer them between computers by using the import and export features. To import one or multiple macros, just press the button with the downward arrow and a browsing window will appear so that you can select the macros you wish to import. Similarly, to export all your current macros, press the button with the upward arrow and it'll generate a save file for you.
 
-<p class="size-medium wp-image-1623 aligncenter"><img class="wp-image-1930 size-full aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.7.1-macro-import-export.png" alt="" width="540" height="284" />{.aligncenter .size-medium}</p>
+![](/_images/_gsender/_features/gs_features_p21_RunMacro.png){.aligncenter .size-medium}
 
 <h3>Advanced Macros</h3>
 
@@ -228,7 +228,7 @@ The console is a tab that you can access at the bottom right hand side of the gS
   <li>Copy text straight from the console to send in an email for help by clicking the icon beside the "Run" button</li>
 </ul>
 
-<img class="aligncenter size-full wp-image-4230" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-console.jpg" alt="" width="647" height="275" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p22_Console.jpg){.aligncenter .size-medium}
 
 When you first start up gSender, the console will display EEPROM settings that are sent from the Arduino in the control box. These EEPROM settings control parameters for your CNC such as:
 
@@ -252,7 +252,7 @@ The 'Calibration Tool' on gSender enables you to make finer adjustments to your 
   <li aria-level="1">Surfacing Wasteboard</li>
 </ul>
 
-<img class="size-full wp-image-1699 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.6.8-Calibrate.png" alt="" width="793" height="447" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p23_Calibrate.png){.aligncenter .size-medium}
 
 <h3>Diagnostics</h3>
 
@@ -260,17 +260,17 @@ If you’d like to see general information about your CNC or are experiencing is
 
 Here you'll see machine information, notable firmware settings, and at-a-glance status on whether your limit switches, touch probe, or other pins are activated. This can be handy if you’re encountering odd behaviour with certain machine accessories or to double-check your wiring.
 
-<img class="aligncenter wp-image-5176 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/CalibrateDiagnostic-850x413.jpg" alt="" width="850" height="413" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p24_CalDiag.jpg){.aligncenter .size-medium}
 
 Another valuable feature is the ability to download a Diagnostic PDF file of your CNC machine when you click ‘Download Now!’. This PDF file is meant to include information on your computer, your CNC, recent alarms / errors, any currently loaded g-code file, and more. It's basically a treasure trove of information that you can share on community forums, Facebook groups, or with your CNC customer support. This can go a long way towards getting help from others on diagnosing any problems your CNC might be experiencing.
 
 To download the PDF, click the “Download Now!” button. This will open a save dialog box. Save the file to a location that you can easily access to send along to others in an email, support ticket or post online.
 
-<img class="aligncenter size-medium wp-image-5099" src="https://resources.sienci.com/wp-content/uploads/2021/07/Diagnostic-850x341.jpg" alt="" width="850" height="341" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p25_DownloadDiag.jpg){.aligncenter .size-medium}
 
 Lastly, you can copy the last 40 lines of code in the gSender console (1), by hitting the double page icon to the left of the Run button (2). This will copy the code to your clipboard, so you can paste it to forums or share it with support teams.
 
-<img class="aligncenter wp-image-9244 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender_CopyLast40.png" alt="" width="473" height="259" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p26_CopyLast40.png){.aligncenter .size-medium}
 
 <h3>XY Squaring</h3>
 
@@ -278,7 +278,7 @@ When mounting your LongMill on the table, there is a basic squaring process illu
 
 When you access the ‘Calibration Tool’ window, the ‘XY Squaring’ procedure is shown on the first tab. All instructions are illustrated in the window, however a brief overview will be provided.
 
-<img class="size-medium wp-image-1707 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.6.8-Squaring-850x478.png" alt="" width="850" height="478" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p27_Squaring.png){.aligncenter .size-medium}
 
 You will need the following:
 
@@ -292,13 +292,15 @@ You will need the following:
   <li aria-level="1">Jog the machine to the front left corner, with the bit raised slightly over the surface of your wasteboard</li>
   <li aria-level="1">Mark the points with tape and move the machine as directed
 
-<img class="size-medium wp-image-1704 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.6.8-Squaring-2-850x478.png" alt="" width="850" height="478" />{.aligncenter .size-medium}</li>
-  <li aria-level="1">Measure the distance between the marked points and record the values
+![](/_images/_gsender/_features/gs_features_p28_Squaring2.png){.aligncenter .size-medium}</li>
+  
+<li aria-level="1">Measure the distance between the marked points and record the values
 
-<img class="size-medium wp-image-1705 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.6.8-Squaring-3-850x478.png" alt="" width="850" height="478" />{.aligncenter .size-medium}</li>
-  <li aria-level="1">Adjust your rail positions with the values determined by the XY Squaring procedure
+![](/_images/_gsender/_features/gs_features_p29_Squaring3.png){.aligncenter .size-medium}</li>
+  
+<li aria-level="1">Adjust your rail positions with the values determined by the XY Squaring procedure
 
-<img class="size-medium wp-image-1706 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.6.8-Squaring-4-850x478.png" alt="" width="850" height="478" />{.aligncenter .size-medium}</li>
+![](/_images/_gsender/_features/gs_features_p30_CalResults.png){.aligncenter .size-medium}</li>
 </ol>
 
 The great advantage to this tool is it saves you having to do the trigonometry yourself and will also let you know if your machine is aligned closely enough that it’s not worth worrying about.
@@ -318,15 +320,15 @@ You will need:
   <li aria-level="1">Jog your machine to the middle of whichever axes you choose to tune, so that there is enough room to complete this procedure. For example, on the X-axis you would jog halfway on the X-axis rail</li>
   <li aria-level="1">Select what axis to tune on the drop down menu
 
-<img class="size-medium wp-image-1702 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.6.8-Movement-Tuning-850x478.png" alt="" width="850" height="478" />{.aligncenter .size-medium}</li>
+![](/_images/_gsender/_features/gs_features_p31_Tuning1.png){.aligncenter .size-medium}</li>
   <li aria-level="1">Mark down the location of your reference on the machine. For example the X-axis tuning references the edge of the XZ gantry on the X rail</li>
   <li aria-level="1">Move the axis a chosen distance</li>
   <li aria-level="1">Measure the travel distance between the marked location and the reference edge
 
-<img class="size-medium wp-image-1700 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.6.8-Movement-Tuning-2-850x478.png" alt="" width="850" height="478" />{.aligncenter .size-medium}</li>
+![](/_images/_gsender/_features/gs_features_p32_Tuning2.png){.aligncenter .size-medium}</li>
   <li aria-level="1">Change the EEPROM setting as recommended by the procedure by pressing 'Set EEPROM setting'
 
-<img class="size-medium wp-image-1701 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.6.8-Movement-Tuning-3-850x478.png" alt="" width="850" height="478" />{.aligncenter .size-medium}</li>
+![](/_images/_gsender/_features/gs_features_p33_Tuning3.png){.aligncenter .size-medium}</li>
   <li aria-level="1">Repeat the procedure for each axis you wish to tune</li>
 </ol>
 
@@ -336,7 +338,7 @@ https://youtu.be/jfInIEOB3kU
 
 Surfacing the wasteboard of your machine can easily be done right inside gSender! The first thing you’ll want to do is decide where you want to start surfacing and in most cases the front, left of the machine is the most convenient. You might also want to remove any accessories that might get in the way of your machine travelling around during surfacing as well as have a good vacuum on hand because surfacing can get really messy. You can find the Surfacing Tool under the Calibrate tab, or under the Surfacing tab.
 
-<img class="aligncenter wp-image-8597 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/Surfacing-850x425.png" alt="" width="850" height="425" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p34_SurfaceTabs.png){.aligncenter .size-medium}
 
 <ol>
   <li>Start by entering the settings you’d like to use to generate your surfacing job:
@@ -355,16 +357,17 @@ Surfacing the wasteboard of your machine can easily be done right inside gSender
   <li><strong>Stepover</strong> (default 40%): sticking around 40% tends to be a good balance between speed (using a higher %) and better surface finish (using a lower %).</li>
 </ol>
 
-<img class="size-full wp-image-8583 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/Settings-w-border.png" alt="" width="531" height="298" />{.aligncenter .size-medium}</li>
+![](/_images/_gsender/_features/gs_features_p35_SurfaceStats.png){.aligncenter .size-medium}</li>
+
   <li>Select a Start Position of any four corners or the center by clicking the dot; this is where the surfacing will begin. You can also select a surfacing pattern of spiral or zig-zag. The spiral will only cut from the inside-out if the start position is the centre. If you toggle the flip cut direction, the spiral will cut conventional instead of climb, and the zig-zag pattern will cut vertically instead of horizontally.
 
-<img class="aligncenter size-full wp-image-8598" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-surfacing-front-corner.png" alt="" width="444" height="161" />{.aligncenter .size-medium}</li>
+![](/_images/_gsender/_features/gs_features_p36_SurfaceDirection.png){.aligncenter .size-medium}</li>
   <li>Press ‘Generate G-code’ and check your surfacing tool path using the ‘Visualizer Preview’ tab. You can also see the raw g-code using the ‘G-code Viewer’ tab and can copy and save it to a g-code file if you’d like to use it again later.
 
-<img class="aligncenter wp-image-9237 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender_Generategcode-1-850x478.png" alt="" width="850" height="478" />{.aligncenter .size-medium}</li>
+![](/_images/_gsender/_features/gs_features_p37_Generategcode.png){.aligncenter .size-medium}</li>
   <li>Press ‘Run on Main Visualizer’ to bring the g-code into gSender’s main screen. Make sure that you jog to the starting point and set your zero in the right place before starting the job. You can also press the ‘Outline’ button as an easy way to check that you’ll be surfacing where you expect and if you find the dimensions aren’t correct you can always re-open the surfacing tool, tweak the size, and try again. Feel free to start the job whenever you’re ready!
 
-<img class="size-medium wp-image-1710 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.6.8-Surfacing-4-850x479.png" alt="" width="850" height="479" />{.aligncenter .size-medium}</li>
+![](/_images/_gsender/_features/gs_features_p38_RunMainVis.png){.aligncenter .size-medium}</li>
 </ol>
 
 Did you know that surfacing can be used for more than your wasteboard? It’s great for creating a perfectly flat surface of your starting materials, just like a jointer or surface planer would. You can also use the <a href="https://docs.google.com/document/d/1yUO8bMAw5XoRO8AWGc3ZB5_WVj12ARP-kvf5pciUNL0/edit#heading=h.r1c788pgn92b">Rotary Surfacing</a> tool if you are wanting round stock.
@@ -373,7 +376,7 @@ Did you know that surfacing can be used for more than your wasteboard? It’s gr
 
 Curious to know how many jobs you’ve completed or how many hours you’ve put on your machine? Find this information in the “Stats” section of the settings. For now it provides a simplified breakdown of total hours run, longest and average runtime, total jobs run, and compares completed vs cancelled jobs. It’s a useful tool for tracking maintenance schedules and will continue to be expanded into the future.
 
-<img class="aligncenter size-full wp-image-4977" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-stats-page.jpg" alt="" width="1244" height="842" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p39_StatsRuntime.jpg){.aligncenter .size-medium}
 
 <h2>Firmware Tool</h2>
 
@@ -399,7 +402,7 @@ If your machine is unsupported, it means that the Firmware Tool won't be able to
   <li aria-level="1">And otherwise see and modify any machine settings as well as search any keywords to help you find what you're looking for</li>
 </ol>
 
-<img class="size-medium wp-image-5056 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/Firmware-850x505.jpg" alt="" width="850" height="505" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p40_FirmwareTool2XUsed.jpg){.aligncenter .size-medium}
 
 <h3>Supported CNCs</h3>
 
@@ -415,7 +418,7 @@ If your CNC was listed above then it's "supported" by the Firmware tool. This me
   <li aria-level="1">And otherwise see and modify any machine settings as well as search any keywords to help you find what you're looking for</li>
 </ol>
 
-<img class="size-medium wp-image-5056 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/Firmware-850x505.jpg" alt="" width="850" height="505" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p40_FirmwareTool2XUsed.jpg){.aligncenter .size-medium}
 
 <h3>Machine Profiles</h3>
 
@@ -425,11 +428,11 @@ For instance most LongMills ship with <strong>LongMill MK2 30x30</strong> firmwa
 
 Please Note: If your Z-axis is working in the opposite direction than expected, confirm you have the correct profile. MK2 users must choose either LongMill MK2 12x30, LongMill MK2 30x30, or LongMill MK2 48x30. You can find instructions on how to flash firmware here: <a href="https://resources.sienci.com/view/lmk2-grbl-firmware/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-grbl-firmware/</a>
 
-<img class="aligncenter size-full wp-image-4907" src="https://resources.sienci.com/wp-content/uploads/2021/07/machine-profile-dropdown-1.jpg" alt="" width="789" height="376" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p42_ProfileSelect.jpg){.aligncenter .size-medium}
 
 If you're running into an issue where the size isn't correct when using Soft Limits for example, get the size from your manufacturer or their resources and you should find that the changes will be straightforward to make through the 'Firmware tool' within gSender. Simply apply your new measurements to the X-axis, Y-axis and Z-axis maximum travel fields. Then hit the apply changes button.
 
-<img class="aligncenter wp-image-9135 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/Updated-firmware-profile-size-850x461.jpg" alt="" width="850" height="461" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p43_ApplySett.jpg){.aligncenter .size-medium}
 
 <h2>Start/Stop G-code</h2>
 
@@ -463,7 +466,7 @@ For the text-box of the situation you want the action to happen, type in the g-c
 </li>
 </ul>
 
-<img class="aligncenter size-medium wp-image-5849" src="https://resources.sienci.com/wp-content/uploads/2021/07/2023-06-16_08-59-46-2-850x478.jpg" alt="" width="850" height="478" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p44_ProgEvents.jpg){.aligncenter .size-medium}
 
 <h2>Tool Changing</h2>
 
@@ -471,11 +474,11 @@ For CNC machines, tool changes are pauses that are programmed in the g-code for 
 
 The tool change options are in the Settings -&gt; Tool Change menu. You can select from one of 5 different options.
 
-<img class="aligncenter wp-image-5207" src="https://resources.sienci.com/wp-content/uploads/2021/07/2023-06-12_09-54-34-850x463.png" alt="" width="655" height="357" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p45_ToolChange.png){.aligncenter .size-medium}
 
 You can <strong>Ignore</strong> any M6 tool change commands, <strong>Pause</strong> the job when a tool change is recognized, or select one of the last three <strong>Wizards</strong> that will guide you through pre-set tool changing methods. In the split image below, you can see an example of the job <strong>Pause</strong> on the left side and the <strong>Wizard</strong> on the right.
 
-<img class="aligncenter wp-image-5208" src="https://resources.sienci.com/wp-content/uploads/2021/07/Pause-vs-Wizard-850x337.jpg" alt="" width="651" height="258" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p46_ToolChange2.jpg){.aligncenter .size-medium}
 
 If you are using one of the wizard options, know that you can access all other gSender controls while the wizard is open like jogging and zeroing. It also has flexibility to go back a step if you missed something or had a mistake, or to be minimized temporarily if you want to check the visualizer.
 
@@ -491,14 +494,14 @@ Similar to the ‘standard’ wizard with similar steps and manual movements but
   <li><strong>Fixed Tool Sensor</strong> (Wizard)
 This is the most automated setting where all probes and movements are done for you, you only need to intervene by changing the tools. Set up the job and zero normally then expect the machine to move to the sensor location when it reaches a tool change, verify tool length, prompt for a change, probe new tool, then resume cutting. Your machine will need to be homed, have limit switches, and have a tool length sensor (compatible with Carbide 3D bitsetter for example) in order for this option to work. To set up the sensor mount the router/spindle as far down as you might typically put it, with the longest bit mounted in it, then jog it to hover over the tool length sensor with some room to spare and open the settings menu to save that location. This will be the spot your machine moves to every tool change so if it’s too low or your sensor doesn’t work it’ll run into the sensor.
 
-<img class="aligncenter size-full wp-image-5209" src="https://resources.sienci.com/wp-content/uploads/2021/07/2023-06-12_10-45-05.png" alt="" width="550" height="461" /></li>{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p47_ToolChange3.png){.aligncenter .size-medium}
 </ol>
 
 <h2>Workspaces</h2>
 
 Usually you would only have one origin or zero position for your project, therefore gSender will only save one zero. However, if you plan to do a series of projects that require different zero positions, or are lining up to do some more complex jigging or part batches, you may want to set up multiple workspaces all at once. This can save you time by not having to set a zero position for repetitive tasks or specific jig setups. You can do this by creating up to six different zero positions with the six workspaces in gSender. Access each 'Workspace' at the top right of the program by pressing the drop down to select which workspace to use. gSender will act completely in-line with whatever workspace you've selected, whether you want to set zero, probe, surface, or anything else.
 
-<img class="size-medium wp-image-1596 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-0.6.4-Workspaces-e1625168506414-850x431.png" alt="" width="850" height="431" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p48_Workspace.png){.aligncenter .size-medium}
 
 The video below explains the process in greater detail.
 
@@ -517,22 +520,26 @@ To transfer your settings over:
 <ol>
   <li>Begin by opening gSender, going to the settings gear in the top-right corner, and clicking the ‘Export Settings’ button in the ‘General’ tab
   
-  <img class="aligncenter wp-image-8578 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender_ExportSettings-850x478.png" alt="" width="850" height="478" />{.aligncenter .size-medium}</li>
+  ![](/_images/_gsender/_features/gs_features_p49_TransSettings.png){.aligncenter .size-medium}</li>
 </ol>
 </li>
   <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"> Save the file somewhere onto your computer that you can find afterwards</span>
   
-  <img class="aligncenter size-medium wp-image-4283" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Headless-10-save-settings-850x454.jpg" alt="" width="850" height="454" />{.aligncenter .size-medium}</li>
+  ![](/_images/_gsender/_features/gs_features_p50_SaveSettings.jpg){.aligncenter .size-medium}</li>
+
   <li>Outside of gSender, find the file and transfer it using a memory stick or sending it over the internet by emailing to yourself or using Google Drive or OneDrive.</li>
+
   <li>Once you’ve got the file onto the other computer it’s now easy enough to open gSender on that computer, or in the web browser if you’re doing remote control, and go to the settings and click the ‘Import Settings’ button in the ‘General’ tab.
   
-  <img class="aligncenter wp-image-8577 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender_ImportSettings-850x478.png" alt="" width="850" height="478" />{.aligncenter .size-medium}</li>
+ ![](/_images/_gsender/_features/gs_features_p51_ImportSettings.png){.aligncenter .size-medium}</li>
+
   <li>Locate the file and click ‘Open’
   
-  <img class="aligncenter size-medium wp-image-4285" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Headless-12-open-settings-850x534.jpg" alt="" width="850" height="534" />{.aligncenter .size-medium}</li>
+  ![](/_images/_gsender/_features/gs_features_p52_OpenImport.jpg){.aligncenter .size-medium}</li>
+
   <li>You’ll get a warning. Click ‘Import Settings’ if you want to continue. Once you do, gSender will disconnect and you’ll need to reconnect the machine to resume operation but the settings should now be brought over.
   
-  <img class="aligncenter size-full wp-image-4302" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Headless-20-import-warning.jpg" alt="" width="781" height="381" />{.aligncenter .size-medium}</li>
+  ![](/_images/_gsender/_features/gs_features_p53_ImportSettingWarn.jpg){.aligncenter .size-medium}</li>
 </ol>
 
 <h2>Remote Mode</h2>
@@ -566,21 +573,24 @@ All setup steps need to happen on the inline computer (the computer you’ll hav
 <ol>
   <li>To begin, click the satellite antenna icon on the top right of the screen. If the icon isn’t there, you’ll need to make sure you have a newer version of gSender that supports this feature.
   
-  <img class="aligncenter wp-image-5179 " src="https://resources.sienci.com/wp-content/uploads/2021/07/2023-06-13_10-19-20.jpg" alt="" width="628" height="138" />{.aligncenter .size-medium}</li>
+  ![](/_images/_gsender/_features/gs_features_p54_RemoteMode.jpg){.aligncenter .size-medium}</li>
+
   <li>This is where remote mode is set up. First you’ll want to click the ‘Enable Remote Mode’ toggle. Second, click the box next to ‘IP’ and select one of the options that gSender tries to recommend for your particular computer network. For an average setup the ‘Port’ value can also be left alone. The third step is to click on OK once you have completed the configuration.
   
-  <img class="aligncenter wp-image-5181 " src="https://resources.sienci.com/wp-content/uploads/2021/07/2023-06-13_10-24-49-850x476.jpg" alt="" width="642" height="360" />{.aligncenter .size-medium}
+  ![](/_images/_gsender/_features/gs_features_p55_RemoteConfig.jpg){.aligncenter .size-medium}
 
 If you’re an <strong>advanced user</strong> or have tried the default values without success, you can type in any other IP address or Port that you’d like since the defaults aren’t guaranteed to work. Common port values are 3000, 8000, and 8080 and generally don’t go below 1024 since those are considered privileged. Changing IP addresses can also help if you’re running a VPN or need a different internal IP to external IP mapping.</li>
   <li>gSender needs to restart in order for the remaining changes to take place. You can choose to restart immediately or wait until later.
   
-  <img class="aligncenter size-full wp-image-5184" src="https://resources.sienci.com/wp-content/uploads/2021/07/2023-06-13_10-24-15.jpg" alt="" width="660" height="280" />{.aligncenter .size-medium}</li>
+  ![](/_images/_gsender/_features/gs_features_p56_RestartApp.jpg){.aligncenter .size-medium}</li>
+
   <li>If there was a problem using the specified IP address or Port, you’ll get an error window to let you know. In this case you should be able to reopen gSender, go back to the Remote Mode settings, and try another IP or Port until the setup is successful.
   
-  <img class="aligncenter wp-image-5183" src="https://resources.sienci.com/wp-content/uploads/2021/07/2023-06-13_10-33-18.jpg" alt="" width="666" height="199" />{.aligncenter .size-medium}</li>
+  ![](/_images/_gsender/_features/gs_features_p57_ErrorPopup.jpg){.aligncenter .size-medium}</li>
+
   <li>You’ll know the setup was successful if gSender restarts, the antenna icon is green, and numbers show next to it. As a quick test, click on the numbers to copy them then open a web browser like Chrome or Edge and paste them into the address bar and press enter (you can also type the number manually). After the page loads, you should see a copy of gSender running in the web browser! <strong>If something’s not working</strong>, check you followed the setup steps correctly or reference the firewall or troubleshooting sections below.
   
-  <img class="aligncenter wp-image-5187 " src="https://resources.sienci.com/wp-content/uploads/2021/07/Arrow-hand.jpg" alt="" width="656" height="159" />{.aligncenter .size-medium}</li>
+  ![](/_images/_gsender/_features/gs_features_p58_Success.jpg){.aligncenter .size-medium}</li>
 </ol>
 
 <h3>Firewall Setup</h3>
@@ -589,7 +599,7 @@ During initial setup, you might see a Security Alert window pop up or run into a
 
 <strong>For Windows:</strong> You should simply see a popup from Windows Firewall or your antivirus software asking for approval to allow gSender to communicate on your home network. Please check the box beside “Private networks” and “Public networks”. This should be all that’s needed.
 
-<img class="nar aligncenter wp-image-5995 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/Update-Remote-mode-850x571.jpg" alt="" width="850" height="571" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p59_WindowsSecurity.jpg){.aligncenter .size-medium}
 
 <strong>For Mac / Linux / Pi:</strong> If you find that you can’t connect with outside devices or just want some extra safety you might want to try opening the Universal FireWall (UFW) on a given port to allow external access. This can be started with <code class="inline">sudo ufw enable</code> (if UFW is not found then install it using <code class="inline">sudo apt-get install ufw</code> and your root password) then opening the desired port, for example <code class="inline">sudo ufw allow 8080</code> opens port 8080 for external access. If you want to see what ports are already open, you can use <code class="inline">ufw status verbose</code>.
 
@@ -601,15 +611,15 @@ With setup complete, regular use is pretty straightforward:
   <li>Connect the inline computer to your CNC as you would normally using the USB cable. Turn on power to your CNC and connect to it in gSender as usual.</li>
   <li>Look for the numbers next to the antenna and write them down including all the symbols and punctuation; these will be used to connect to your CNC on the remote computer / device.
   
-  <img class="aligncenter wp-image-5193 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/Remote-1.jpg" alt="" width="614" height="138" />{.aligncenter .size-medium}</li>
+ ![](/_images/_gsender/_features/gs_features_p60_Remote.jpg){.aligncenter .size-medium}</li>
   
   <li>On any remote device that can run a web browser like Chrome or Edge (computer, phone, tablet) open the browser and type those same numbers you wrote down into the top address bar. In this example the numbers are <strong>192.168.2.203:8000</strong> but yours may be different. Press enter, and hopefully the familiar gSender interface will appear in your browser window. If not, ensure that your remote device is on the same network as your inline computer.
   
-  <img class="aligncenter size-medium wp-image-4280" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Headless-07-address-into-web-850x293.jpg" alt="" width="850" height="293" />{.aligncenter .size-medium}</li>
+  ![](/_images/_gsender/_features/gs_features_p61_IPAddress.jpg){.aligncenter .size-medium}</li>
 
   <li>Once connected, you should now be able to control your CNC remotely with most of the same features and functions you’d normally expect:
   
-  <img class="aligncenter size-medium wp-image-4281" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Headless-08-gSender-in-browser-850x459.jpg" alt="" width="850" height="459" />{.aligncenter .size-medium}
+  ![](/_images/_gsender/_features/gs_features_p62_MainPage.jpg){.aligncenter .size-medium}
 <ul>
   <li>You’ll be able to use both the remote and inline devices simultaneously to control your CNC like jogging, opening and closing files, probing, macros, and more</li>
   <li>You’ll also see that both their screens look exactly the same so you can watch the visualizer move around or check on the machine state</li>
@@ -634,32 +644,32 @@ If you ran into issues during remote control setup, here are some other checks y
 <ul>
   <li>Click Start and open your computer's Control Panel
   
-  <img class="aligncenter size-medium wp-image-4325" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Headless-14a-control-panel-850x412.jpg" alt="" width="850" height="412" />{.aligncenter .size-medium}</li>
+  ![](/_images/_gsender/_features/gs_features_p63_ControlPanel.jpg){.aligncenter .size-medium}</li>
   <li>Open the ‘System and Security’ settings
   
-  <img class="aligncenter size-medium wp-image-4288" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Headless-15-system-and-security-850x396.jpg" alt="" width="850" height="396" />{.aligncenter .size-medium}</li>
+  ![](/_images/_gsender/_features/gs_features_p64_SysSecurity.jpg){.aligncenter .size-medium}</li>
   <li>Open the ‘Windows Defender Firewall’ and go to its ‘Advanced settings’
   
-  <img class="aligncenter size-medium wp-image-4320" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Headless-16a-windows-firewall-850x237.jpg" alt="" width="850" height="237" />{.aligncenter .size-medium}</li>
+  ![](/_images/_gsender/_features/gs_features_p65_Firewall.jpg){.aligncenter .size-medium}</li>
   <li>In the column on the left, click on ‘Inbound Rules’ and then find and double-click on ‘gSender’. There might be three options of gSender to click on, you’ll want to click on the version that has the word “All” under the ‘Profile’ column
   
-  <img class="aligncenter size-medium wp-image-4291" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Headless-18-firewall-port-850x381.jpg" alt="" width="850" height="381" />{.aligncenter .size-medium}</li>
+  ![](/_images/_gsender/_features/gs_features_p66_InboundRules.jpg){.aligncenter .size-medium}</li>
   <li>In the pop-up box, click on the tab labelled ‘Protocols and Ports’. Next to ‘Local port:’ you’ll want to use the drop-down menu to select “Specific Ports” and then type in the default port of “8000”. If you have added a custom port to gSender’s Shortcut properties, you’ll need to type in that number instead. Once you hit ‘Apply’, you can check to see if this resolved your problem.
   
-  <img class="aligncenter size-medium wp-image-4328" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Headless-19a-gSender-firewall-port-850x502.jpg" alt="" width="850" height="502" />{.aligncenter .size-medium}</li>
+  ![](/_images/_gsender/_features/gs_features_p67_ProtocolsPorts.jpg){.aligncenter .size-medium}</li>
 </ul>
 </li>
   <li>If when gSender reopens you’re met with a white screen, this means an error has occurred that we weren’t able to detect. This is rare, but unless we can find some other way to manage this the only fix is to uninstall gSender and reinstall it again.</li>
   <li>If on the remote device you get a popup for “Server Connection Lost”, this indicates that either gSender on the inline computer was closed or the shared internet is disconnecting. You should be able to fix this by restarting gSender on the inline device, then clicking “Attempt Reconnect” on the remote device.
   
-  <img class="aligncenter size-medium wp-image-4329" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Headless-21a-reconnect-850x290.jpg" alt="" width="850" height="290" />{.aligncenter .size-medium}</li>
+  ![](/_images/_gsender/_features/gs_features_p68_ConnLost.jpg){.aligncenter .size-medium}</li>
 </ol>
 
 <h2>About Page</h2>
 
 You can find the release notes for the latest version of gSender in the “About” section of the settings.
 
-<img class="aligncenter wp-image-5130 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/4.p36_gSenderAbout.jpg-850x593.png" alt="" width="850" height="593" />{.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_features_p69_AboutPage.png){.aligncenter .size-medium}
 
 <h2>More</h2>
 
