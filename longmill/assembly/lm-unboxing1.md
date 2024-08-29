@@ -1,7 +1,7 @@
 ---
-title: ytsb Unboxing 📦 
+title: Unboxing 📦 
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: Start building your LongMill Benchtop CNC machine. You can find the online assembly manual, step by step YouTube videos and PDF instructions here.
 post_date: 2021-04-30 14:29:00
 taxonomy:

@@ -69,7 +69,7 @@ Start by closing any programs (like <strong>gSender, UGS</strong>, <strong>CNCjs
 
 ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p4_arduinoIDE.png){.aligncenter .size-medium}
 
- <strong>***If you have flashed grbl firmware before using Arduino IDE, you will need to make sure to delete any old libraries for grbl. </strong>Arduino typically saves libraries in the *Documents &gt; Arduino &gt; Library* folder of your computer for both Windows and Mac. If you do not delete the old library first, you will install the old version of grbl.<strong>***</strong>
+ <strong>!! If you have flashed grbl firmware before using Arduino IDE, you will need to make sure to delete any old libraries for grbl. </strong>Arduino typically saves libraries in the *Documents &gt; Arduino &gt; Library* folder of your computer for both Windows and Mac. If you do not delete the old library first, you will install the old version of grbl. <strong>!!</strong>
 
 ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p5_arduinoLib.png){.aligncenter .size-medium}
 
@@ -79,11 +79,11 @@ Once Arduino IDE has been installed, plug your control board into your computer 
 
 ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p6_arduinoSetPort.png){.aligncenter .size-medium}
 
- To ensure that all of the old settings are cleared from the board's memory, we will do an EEPROM clear. You can find this 'example program' under *File &gt; Examples &gt; EEPROM &gt; EEPROM_clear.*
+ To ensure that all of the old settings are cleared from the board's memory, we will do an EEPROM clear. You can find this 'example program' under *File &gt; Examples &gt; EEPROM &gt; eeprom_clear.*
 
  ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p7_EEPROMClear.png){.aligncenter .size-medium}
 
-  Clicking this will open up a new window where you'll see the window is titled "<strong>EEPROM_clear</strong>". Click on the "Upload" button on the top left of the program to compile and upload this code. If you run into an upload error at this step, you might still be connected to your LongMill on your computer in gSender, UGS, CNCjs, or even LightBurn. You'll need to disconnect from the LongMill in that program and then you should be able to retry the Upload.
+  Clicking this will open up a new window where you'll see the window is titled "<strong>eeprom_clear</strong>". Click on the "Upload" button on the top left of the program to compile and upload this code. If you run into an upload error at this step, you might still be connected to your LongMill on your computer in gSender, UGS, CNCjs, or even LightBurn. You'll need to disconnect from the LongMill in that program and then you should be able to retry the Upload.
   
   ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p8_Upload.png){.aligncenter .size-medium}
   

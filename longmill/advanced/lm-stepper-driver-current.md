@@ -1,7 +1,7 @@
 ---
-title: ytsb Adjusting Stepper Driver Current
+title: Adjusting Stepper Driver Current
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: This guide is for the LongMill Benchtop CNC. Adjust the current going to the motors on the Longboard control board, through the potentiometers on the drivers.
 post_date: 2021-04-30 17:55:00
 taxonomy:

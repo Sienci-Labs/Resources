@@ -55,16 +55,12 @@ If you plan to try this, ensure that you only use <b>one ground point</b> for yo
 
 <h2>Instructions</h2>
 
-<ol>
-  <li>Wrap the copper wire around the body of the dust shoe and hose securely. Take any steps necessary to avoid getting the wire caught in any moving parts.</li>
-  <li>Fix the wire in place with your fastening method of choice at the dust shoe end.</li>
-  <li>Fix the wire in place at the ground end, with some slack so that the wire does not constrain the movement of the machine. Directly attach the wire to the ground stake or through grounded items such as:</li>
-<ul>
-  <li>Outlet box</li>
-  <li>Electrical box</li>
-  <li>Grounded power bar (3 prong)</li>
-</ul>
-</ol>
+1. Wrap the copper wire around the body of the dust shoe and hose securely. Take any steps necessary to avoid getting the wire caught in any moving parts.
+1. Fix the wire in place with your fastening method of choice at the dust shoe end.
+1. Fix the wire in place at the ground end, with some slack so that the wire does not constrain the movement of the machine. Directly attach the wire to the ground stake or through grounded items such as:
+   - Outlet box
+   - Electrical box
+   - Grounded power bar (3 prong)
 
 ![](/_images/_longmill/_advanced/_2_noise/lm_noise_p1.png){.aligncenter .size-medium}
 
