@@ -70,7 +70,7 @@ Each bracket uses a pair of M3 screws to mount to the machine. Simply slide the 
 
 Place the X-axis sensor on the top of the left steel Y-gantry plate, sitting against the aluminum rail. The sensor should be triggered by the X-gantry plate when in contact.
 
-![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p3_Combined.png "X-axis sensor alignment"){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p3_combined2.png "X-axis sensor alignment"){.aligncenter .size-medium}
 
 <strong>X-Axis mounting with non-magnetic dust shoe</strong>
 
@@ -174,7 +174,7 @@ Now that we’re working with the default settings, we will modify a few to make
 
 We recommend to turn ON $20, $21 and $22 on your firmware settings.
 
-![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p10_ gSender-lim-switch-firmware.png "$20, $21 and $22 settings must be enabled"){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p10_gSender-lim-switch-firmware.png "$20, $21 and $22 settings must be enabled"){.aligncenter .size-medium}
 
 <b>What do these do?</b>
 
@@ -214,7 +214,7 @@ At this stage, you're ready to start using your sensors.
 
 Once the firmware changes have been made, test the sensors. Disconnect, then reconnect to your machine. You should see the red alarm at the top right, press “Click to Run Homing.”
 
-![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p14_ gsenderalarmstate.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p14_gsenderalarmstate.png){.aligncenter .size-medium}
 
 On gSender, the process for limit switch homing is very similar to touch plate probing. This is what happens on the LongMill when you run the homing cycle:
 
