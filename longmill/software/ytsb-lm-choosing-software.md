@@ -50,7 +50,8 @@ To help you decide what software would work best for you we've done three things
 This wizard will provide you with general software suggestions based on your CNC needs. Check it out!
 <div id="my-react-toolchain"> </div>
 <div id="ToolTable"> </div>
-<script src="https://resources.sienci.com/wp-content/react/wizard.js"></script> <style>@import url('https://resources.sienci.com/wp-content/react/wizard.css')</style>
+<p><script src="https://resources.sienci.com/wp-content/react/wizard.js"></script></p>
+<style>@import url('https://resources.sienci.com/wp-content/react/wizard.css')</style></p>
 
 <h2>Programs we recommend</h2>
 
