@@ -12,13 +12,13 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_gsender/_edge/gs_edge_p1_Cycle.jpg
 ---
 gSender Edge is our test arena for working on new and exciting gSender updates that will eventually be released to everyone. Think of it as a program that you can download independently from traditional gSender that allows you to participate in public Beta testing. This gives you the opportunity to use all the new features that we’re working on and make an impact by giving us feedback to inform the final result, that’s what it’s like to be on the bleeding <strong>Edge</strong>.
 
 Edge isn’t a replacement for gSender in any way - it’s a way for us to test and get feedback on new, bigger features without exposing them to users who may not be interested or causing unexpected bugs. This follows a cycle that can be several months long where:
 
-<img class="wid aligncenter wp-image-9114 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Edge-Cycle_page-0001.jpg" alt="" width="2500" height="692" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p1_Cycle.jpg){.aligncenter .size-medium}
 
 <ol>
   <li>A new Edge version is split off from Main in order to prototype some new functionality and features (you can tell when this happens because the numbering scheme will jump up from 1.1.6 to EDGE-1.2.0, for example)</li>
@@ -27,7 +27,7 @@ Edge isn’t a replacement for gSender in any way - it’s a way for us to test 
   <li>The process repeats</li>
 </ol>
 
-Downloading Edge is similar to the Main version of gSender and is available on the same page: <a href="https://sienci.com/gsender/" target="_blank" rel="noopener">https://sienci.com/gsender/</a>. The main caveat is that we don’t post the links for each operating system, so once you click the link to download Edge you’ll need to scroll down on the page to the “Assets” and click on the program download for your specific device. For Windows it’ll end in “.exe”, Mac will be “.dmg”, and the rest are for Linux and Pi.
+Downloading Edge is similar to the Main version of gSender and is available on the same page: <a href="https://sienci.com/gSender/" target="_blank" rel="noopener">https://sienci.com/gsender/</a>. The main caveat is that we don’t post the links for each operating system, so once you click the link to download Edge you’ll need to scroll down on the page to the “Assets” and click on the program download for your specific device. For Windows it’ll end in “.exe”, Mac will be “.dmg”, and the rest are for Linux and Pi.
 
 <h2>Unique Differences</h2>
 
@@ -89,42 +89,42 @@ As of 1.4.1, the current notable features / improvements to Edge are:
 
 If you've ever accidentally zeroed an axis when you meant to go to the existing zero, this is an option you can turn on that double checks when you want to zero. In settings on the safety tab, you can toggle this feature on. Then when you click on Zero X, Zero Y or Zero Z, you will see a popup asking for confirmation.
 
-<img class="nar aligncenter wp-image-6038 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/safety-toggle-850x533.jpg" alt="" width="850" height="533" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p2_SafeToggle.jpg){.aligncenter .size-medium}
 
-<img class="nar aligncenter wp-image-6039 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-safe-go-to.gif" alt="" width="1280" height="720" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p3_GoToGIF.gif){.aligncenter .size-medium}
 
 We’ve improved the Go To function! You can use the blue Go To buttons beside each axis to move to X, Y or Z zeros individually as always. The improvement is under the Go To XY0 button, where you will now find a simple Go To button.
 
-<img class="nar aligncenter wp-image-6042 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/GoTo.jpg" alt="" width="516" height="308" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p4_GoTo.jpg){.aligncenter .size-medium}
 
 Hitting the Go To button will bring up a popup that will allow you to enter specific coordinates for each axis (Absolute or relative positioning). When you hit the Go button, you will move to the location you’ve designated!
 
-<img class="aligncenter wp-image-6029 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-goTo.gif" alt="" width="1280" height="720" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p5_GoToGIF.gif){.aligncenter .size-medium}
 
 <h3>Multi Corner Probing</h3>
 
 Most people prefer to probe the front, left corner of their material as the zero-point of their job, since that corner is easy to access, but in rare cases you might want to probe elsewhere. If you would like to probe from a different spot on your workpiece, you can now rotate to the corner of your choice. Simply press the icon in the top right corner to highlight where you are starting to probe. For example, if you wish to probe from the back right corner, hit the icon twice to move the highlighted section to the back right.
 
-<img class="aligncenter size-full wp-image-6027" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-select-corner.gif" alt="" width="714" height="332" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p6_CornerGIF.gif){.aligncenter .size-medium}
 
 <h3>Gamepad</h3>
 
 You can select one of the preset and tested profiles or create your own. To create your own, connect your joystick to your computer and create a new profile using the ‘Add New Gamepad Profile’ button. This will enable you to set up multiple profiles if desired, for different controllers, as they each have their own unique ID.
 
-<img class="nar aligncenter wp-image-6156 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/shortcuts-new-profile-850x544.jpg" alt="" width="850" height="544" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p7_Gamepads.jpg){.aligncenter .size-medium}
 
 If you run into difficulty with getting a particular joystick set up in gSender, consider searching for documentation provided by the manufacturer (for example, <a href="https://support.xbox.com/en-CA/help/hardware-network/controller/connect-xbox-wireless-controller-to-pc">Xbox</a> or <a href="https://www.playstation.com/en-ca/support/hardware/ps4-pair-dualshock-4-wireless-with-pc-or-mac/">PlayStation</a>). Some joysticks may also require drivers to be downloaded so your computer can read the signals that the joystick sends out.
 Connect your controller to your PC and press any button on it. gSender will identify and provide a profile if one is available. You can see in the screenshot below, it correctly identifies the DualSense Wireless Controller I’m adding. Enter your profile name and hit <strong>Add New Profile</strong>.
 
-[gallery columns="2" link="file" size="medium" ids="6155,6154"]{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p8_Profiles.png){.aligncenter .size-medium}
 
 Your new profile will now appear on the Gamepad tab of the Shortcuts page in Settings. Click on the profile you want to edit.
 
-<img class="nar aligncenter wp-image-6151 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/shortcuts-new-controller-3-850x273.jpg" alt="" width="850" height="273" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p9_AllProfiles.jpg){.aligncenter .size-medium}
 
 Here you will find the shortcuts that you can assign to different buttons or your joysticks. You can see that the controller is connected, and that a Help button is available. You can push the buttons on your controller to see which number it corresponds to. You can then rename the shortcut button to match your controller by clicking on the black number. In this case, the X button corresponds to button 0. By pressing the plus symbol in the Action column, you will see a list of actions you can map to that button. I added an action for <strong>Homing - Go to back left corner</strong>. Now when I hit the X button on my controller, gSender will move the CNC to the back left corner!
 
-<img class="aligncenter size-full wp-image-6157" src="https://resources.sienci.com/wp-content/uploads/2021/07/2024-01-24_16-50-25.gif" alt="" width="1276" height="718" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p10_ShortGIF.gif){.aligncenter .size-medium}
 
 <h4>Lockout Button</h4>
 
@@ -136,7 +136,7 @@ The second advantage to using the ‘lockout’ button is that you can double up
 
 You can use the Joystick Options section to move your assigned axis. In this section, you can select which joystick moves which axis. In this example, stick 1 controls the X axis left and right, and the Y axis forward and back. Stick 2 controls the A axis with left/right (If you are using the rotary) and the Z axis with up/down.
 
-<img class="nar aligncenter wp-image-6188 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/Joystick-Options-2-850x408.jpg" alt="" width="850" height="408" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p11_JoystickOptions.jpg){.aligncenter .size-medium}
 
 The joysticks have two ways of functioning. You can apply continuous pressure and the CNC will respond accordingly. The speed of the direction you are going depends on how far you push your joystick in a particular direction. You can also flick the joystick once and the CNC will move one increment, according to the rapid/normal/precise movements you have set up for Jog Controls.
 
@@ -149,11 +149,11 @@ If your joystick isn’t performing as well as the automatic controls, you can m
   <li>The <strong>Movement Distance Override</strong> allows you to fine-tune the jogging distance that is calculated when moving your joystick around. If you notice some stuttering when jogging, then the system is hungry for more commands, so try increasing the override value to help send jog commands more often. You will know you have eliminated lag if you see and hear the unit move around smoothly.</li>
 </ul>
 
-<img class="nar aligncenter wp-image-6158 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/shortcuts-zero-distance-override.jpg" alt="" width="365" height="221" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p12_Overrides.jpg){.aligncenter .size-medium}
 
 Another cool feature is the <strong>Use MPG</strong> selection. If you map one of your joysticks to an axis with MPG selected, it will automatically grey out the other stick selections. Now you can rotate your stick in any direction and for each quarter rotation, your axis will move once, according to your preselected Jog Controls.
 
-<img class="nar aligncenter wp-image-6149 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/MPG-joystick-pic.jpg" alt="" width="300" height="254" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p13_MPG.jpg){.aligncenter .size-medium}
 
 <h3>Rotary</h3>
 
@@ -163,11 +163,11 @@ gSender has a unique ability to control a rotary axis on normal, 3-axis grbl mac
 
 Navigate to the Settings where you will find the Rotary settings. Here you can <strong>toggle</strong> the Rotary controls to make them visible on the main page.
 
-<img class="aligncenter wp-image-6161 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/Rotary-gSender-140.gif" alt="" width="1280" height="720" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p14_RotaryGIF.gif){.aligncenter .size-medium}
 
 Once the toggle has been turned to display, you will see an additional tab at the bottom right of the window, called Rotary. With this tab you can:
 
-<img class="nar aligncenter wp-image-6171 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/Updated-Jog-Controls-V2.jpg" alt="" width="694" height="393" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p15_JogControls.jpg){.aligncenter .size-medium}
 
 <ol>
   <li><strong>Jog Control</strong> - Rotate the A-axis, go to Zero, set Zero, and adjust speeds</li>
@@ -196,7 +196,7 @@ When switching from regular CNC use to Rotary Mode, you will probe to align the 
 
 This toggle can only happen once you’ve got your rotary axis set up properly, because after switching it’ll assume you’ve changed your motor wiring to be connected to your A-axis instead of your Y-axis. Here you can toggle the Rotary Mode on and off without going into the settings.
 
-<img class="aligncenter size-full wp-image-5911" src="https://resources.sienci.com/wp-content/uploads/2023/07/7.p24_gSender-1.3.3-EDGE-2023-08-24_15-53-31.jpg" alt="" width="482" height="298" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p16_RotaryModeTog.jpg){.aligncenter .size-medium}
 
 When you enable Rotary Mode, several changes will happen to your tool options:
 
@@ -214,7 +214,7 @@ Several changes will also happen to your controls:
   <li>The <strong>Y-axis jogging</strong> buttons are hidden</li>
 </ul>
 
-<img class="aligncenter size-full wp-image-6170" src="https://resources.sienci.com/wp-content/uploads/2021/07/Rotary-Mode-control-changes.jpg" alt="" width="1043" height="315" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p17_JogControls2.jpg){.aligncenter .size-medium}
 
 You will also see a reminder that:
 
@@ -226,7 +226,7 @@ You will also see a reminder that:
 
 With a final check to ensure that your <strong>switch is turned to rotary</strong>, click OK to finish enabling Rotary Mode.
 
-<img class="nar aligncenter wp-image-6162 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/rotary-warning.jpg" alt="" width="848" height="493" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p18_Warning.jpg){.aligncenter .size-medium}
 
 <h4>Rotary Probing</h4>
 
@@ -238,11 +238,11 @@ You can set your <strong>Z-axis</strong> to either the rotating axis center, or 
 
 To do this, jog the cutting bit to be hovering approximately ~15mm just above the chuck. <strong>Double check that your probing wires are in place before proceeding!</strong>
 
-[gallery columns="2" size="medium" ids="6173,6174"]{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p19_SettingZ.png){.aligncenter .size-medium}
 
 In gSender, select the rotary axis tab, then Click ‘Probe Rotary Z-axis’ and the Z-axis will begin probing automatically, setting the Z-zero point for you. This will need to be done for each tool change in addition to the beginning of each job.
 
-<img class="aligncenter size-full wp-image-5910" src="https://resources.sienci.com/wp-content/uploads/2023/07/7.p26_gSender-1.3.3-EDGE-2023-08-24_15-54-48.jpg" alt="" width="482" height="298" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p20_ProbeZRotary.jpg){.aligncenter .size-medium}
 
 <h5>Setting X &amp; A axis</h5>
 
@@ -257,35 +257,42 @@ Setting both the X-axis and the A-axis are done manually.
 
 he Rotary Surfacing button will allow you to turn square stock down to a cylinder. We recommend using a <strong>¼ inch upcut endmill</strong> for turning stock, as it's the most efficient.
 
-<img class="nar aligncenter wp-image-6163 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/8.p34_RotarySurfacing.jpg" alt="" width="517" height="309" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p21_RotarySurfacing.jpg){.aligncenter .size-medium}
 
 Now you will see the Rotary Surfacing Tool. Here you will enter details about your stock length, start and final dimensions. You will also see spots for Bit Diameter, Stepover, Spindle RPM, and Feedrate.
 
-<img class="nar aligncenter wp-image-6164 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/8.p35_SurfacingWiz-850x637.jpg" alt="" width="850" height="637" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p22_SurfacingTool.jpg){.aligncenter .size-medium}
 
 Rotary surfacing is similar to the regular XYZ surfacing tool. Let’s explore this a bit further.
 
 <ol>
-  <li>Your <strong>start diameter</strong> is the largest diameter on your stock. Usually this means the diagonal distance from opposite corners if you’re starting with square or rectangular stock.<img class="nar aligncenter wp-image-6166 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/8.p36_Diagarrow.jpg" alt="" width="218" height="213" /></li>
-  <li>Your final diameter is determined by the short side of your stock.<img class="nar aligncenter wp-image-6167 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/8.p38_Sideways.jpg" alt="" width="300" height="200" /></li>
+  <li>Your <strong>start diameter</strong> is the largest diameter on your stock. Usually this means the diagonal distance from opposite corners if you’re starting with square or rectangular stock.
+  
+![](/_images/_gsender/_edge/gs_edge_p23_Diameter.jpg){.aligncenter .size-medium}</li>
+  
+  <li>Your final diameter is determined by the short side of your stock.
+  
+![](/_images/_gsender/_edge/gs_edge_p24_Diameter2.jpg){.aligncenter .size-medium}
+
+</li>
   <li>With a starting height of 90mm and a finished height of 63.5mm, we are removing 26.5mm of material. <strong>However</strong>, since we have the Z axis set at the center of the material, we will need to divide that 26.5mm in half. We are basically taking 13.25mm off of the top and the bottom. If you want a single pass, your stepdown would be 13.25mm. Dividing that by two and setting the stepdown to 6.625mm, means that we will be doing two passes. This will produce a piece of round stock with the maximum diameter possible.</li>
 </ol>
 
 <p style="text-align: center;"><strong>(Start Height - Finishing Height) / 2 = Total Stepdown for ONE pass</strong></p>
 
-<img class="nar aligncenter wp-image-6168 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/8.p40_SurfacingGif.gif" alt="" width="424" height="238" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p25_SurfacingGIF.gif){.aligncenter .size-medium}
 
 <h4>Rotary Settings</h4>
 
 When you click on the setting button and then select the Rotary tab, you will see the firmware configurations. Here you can enter your own settings, reset the default settings and turn Hard Limits on/off.
 
-<img class="nar aligncenter wp-image-6169 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/rotary-settings-850x597.jpg" alt="" width="850" height="597" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p26_RotFirmware.jpg){.aligncenter .size-medium}
 
 <h3>Job Stats and CNC Maintenance</h3>
 
 Curious to know how many jobs you’ve completed, how many hours you’ve put on your machine or what maintenance you should be focusing on? Find this information in the “Job History &amp; Stats” section of settings. Here you will find 3 tabs; Statistics, Job Table, and Maintenance.
 
-<img class="nar aligncenter wp-image-6178 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/2023-11-09_13-25-15.gif" alt="" width="1280" height="720" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p27_JobStatsGIF.gif){.aligncenter .size-medium}
 
 <h4>Statistics</h4>
 
@@ -307,13 +314,13 @@ On the settings page under Tool Change you now have the option to toggle on Pass
 
 We’ve also brought back the Code block tool change strategy. You can enter your own macros before and after the tool change when this strategy is selected.
 
-<img class="aligncenter size-medium wp-image-6045" src="https://resources.sienci.com/wp-content/uploads/2021/07/passthrough-2-850x478.jpg" alt="" width="850" height="478" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p28_ToolChange.jpg){.aligncenter .size-medium}
 
 <h3>Remote mode improvements</h3>
 
 You can now use your camera to scan the QR code, and be taken directly to your remote interface.
 
-<img class="nar aligncenter wp-image-6044 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/QR-code-updated-image.jpg" alt="" width="798" height="500" />{.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_p29_QRCode.jpg){.aligncenter .size-medium}
 
 &nbsp;
 

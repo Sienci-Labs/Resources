@@ -12,7 +12,7 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_gsender/_bugs/gs_bugs_p1_Diagnostic.png
 ---
 Having <strong>troubles with gSender</strong> or have <strong>suggestions to improve it?</strong> Here are the steps you can follow:
 
@@ -35,7 +35,9 @@ In order of importance, please collect together information of:
   <li>Any other <strong>pictures</strong> or <strong>videos</strong> of the problem can also help us to help you faster</li>
 </ol>
 
-Please attach the files and information in your post / <a href="mailto:hi@sienci.com">email</a> to us.<img class="size-medium wp-image-6491 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Give-Feedback-850x399.png" alt="" width="850" height="399" />
+Please attach the files and information in your post / <a href="mailto:hi@sienci.com">email</a> to us.
+
+![](/_images/_gsender/_bugs/gs_bugs_p1_Diagnostic.png){.aligncenter .size-medium}
 
 <h2>Questions or Suggestions</h2>
 
@@ -43,7 +45,11 @@ Send us the information, questions, or suggestions either on:
 
 <ul>
   <li>The <a href="https://forum.sienci.com/c/gSender/" target="_blank" rel="noopener"><strong>gSender Forum</strong></a>
-<a href="https://forum.sienci.com/c/gSender/"><img class="flie aligncenter wp-image-6490" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Forum-850x151.png" alt="" width="650" height="116" /></a></li>
+<a href="https://forum.sienci.com/c/gSender/">
+
+![](/_images/_gsender/_bugs/gs_bugs_p2_Forum.png){.aligncenter .size-medium}
+</a>
+</li>
   <li><strong><a href="https://github.com/Sienci-Labs/gSender" target="_blank" rel="noopener">Github page</a></strong> (feel free to also submit PRs)</li>
   <li>You can join the discussion on secondary communities like our <a href="https://www.facebook.com/groups/gSender" target="_blank" rel="noopener">Facebook gSender Group</a>, and <a href="https://www.facebook.com/groups/mill.one" target="_blank" rel="noopener">Facebook CNC Group</a>, but we can't provide as much support or hear feedback in these groups.</li>
 </ul>
@@ -65,7 +71,7 @@ We'll continue keeping our ears out for common stumbling points while using gSen
   <li>If when you open gSender it gives you an error along the lines of "<strong>Entry Point Not Found</strong>", this means that you're trying to use a version of gSender past 1.2.2 with a 32-bit system. If you want to resolve this you'll either need to continue using a version of gSender 1.2.2 or earlier, or change to using a 64-bit system.</li>
 </ol>
 
-<img class="size-full wp-image-6530 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/32-bit-system-incompatibility.png" alt="" width="509" height="211" />{.aligncenter .size-medium}
+![](/_images/_gsender/_bugs/gs_bugs_p3_Error.png){.aligncenter .size-medium}
 
 <h3>Screen goes Blank</h3>
 
@@ -78,7 +84,10 @@ If you find that gSender goes blank after you open it or while using it, there a
   <li>Check to ensure you have read/write permissions for the preferences file
 <ol>
   <li>Let’s locate the file! It’s called .sender_rc and can usually be found on your hard drive at: C:/users/{your username}/.sender_rc</li>
-  <li><img class="size-medium wp-image-8336 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-pic-850x411.png" alt="" width="850" height="411" />Right-click on the file and choose properties. Under the security tab, check the name of your profile and confirm you have full control of the file.</li>
+  
+  ![](/_images/_gsender/_bugs/gs_bugs_p4_SenderRC.png){.aligncenter .size-medium}
+  
+  <li>Right-click on the file and choose properties. Under the security tab, check the name of your profile and confirm you have full control of the file.</li>
   <li>If not, select edit, choose your computer name, and grant permissions.</li>
 </ol>
 </li>
@@ -89,10 +98,13 @@ If you find that gSender goes blank after you open it or while using it, there a
 
 If your machine connects on a COM port successfully but the machine status still says "Disconnected" then this is not an issue with gSender. Connecting in the top-left only indicates a USB connection has been made successfully, meanwhile the machine status box indicates whether gSender has been able to recognize the CNC machine. Your control board may have a faulty connection: gSender looks for the standard grbl response and boards that are loose or have become corrupted won't emit this response, if this is the case you can contact our support if you have a CNC from Sienci Labs or contact your own manufacturer's support for instructions on fixing your machine.
 
-<img class="aligncenter size-medium wp-image-4214" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-connect-disconnected-850x403.jpg" alt="gSender connected to board but visualizer is displaying a disconnect" width="850" height="403" />{.aligncenter .size-medium}
+![](/_images/_gsender/_bugs/gs_bugs_p5_Disconnected.jpg){.aligncenter .size-medium}
 
 <ol>
-  <li>Power off your machine, then use a non-conductive tool like a plastic utensil to push down on all 4 corners of your control board shield or Arduino. For the LongBoard you don’t need to open it, just flip it upside down and you’ll be able to access the Arduino through the slats on the bottom. Doing this will ensure that everything is fully plugged in since sometimes if the Arduino is slightly off the control board it can mess with its communication.<img class="aligncenter size-medium wp-image-9239" src="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-LongBoard-pushin-850x482.png" alt="" width="850" height="482" /></li>
+  <li>Power off your machine, then use a non-conductive tool like a plastic utensil to push down on all 4 corners of your control board shield or Arduino. For the LongBoard you don’t need to open it, just flip it upside down and you’ll be able to access the Arduino through the slats on the bottom. Doing this will ensure that everything is fully plugged in since sometimes if the Arduino is slightly off the control board it can mess with its communication.
+  
+  ![](/_images/_gsender/_bugs/gs_bugs_p6_PushIn.png){.aligncenter .size-medium}
+  </li>
   <li>Re-flash your machine by following the instructions here: <a href="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Connected-but-No-Controls.pdf">gSender - Connected but No Controls</a></li>
   <li>Your machine isn't supported yet by gSender: if your CNC isn't grbl-based or your manufacturer had edited grbl too much or is using a different flavour from the standard version it's likely that gSender won't be able to recognize or control your machine</li>
 </ol>
@@ -122,17 +134,20 @@ One key bit of information that we need on our end is a picture or screenshot of
   <li>Make sure your CNC is plugged into your current computer via USB</li>
   <li>Open "Device Manager" in your Windows start menu
 
-<img class="size-medium wp-image-1907 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/Device-Manager-850x417.png" alt="" width="850" height="417" />{.aligncenter .size-medium}</li>
+![](/_images/_gsender/_bugs/gs_bugs_p7_DeviceManager.png){.aligncenter .size-medium}</li>
 
   <li>Expand the "Ports (COM &amp; LPT)" heading
 
-<img class="size-full wp-image-1908 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/07/COM-ports_clip.png" alt="" width="774" height="397" />{.aligncenter .size-medium}</li>
+![](/_images/_gsender/_bugs/gs_bugs_p8_COMPorts.png){.aligncenter .size-medium}</li>
 
   <li>Find the listing related to your CNC. This will be the one that disappears and reappears if you unplug your CNC and plug it back in. It'll also be the port you normally connect to on other g-code senders.</li>
   <li>Right click that device and open "Properties"</li>
   <li>Open the "Details" tab at the top</li>
   <li>In the "Property" dropdown, select the "Hardware Ids" option</li>
-  <li>Send us a picture of the final view. An example of what that might look like would be:<img class="nar aligncenter wp-image-1909 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/07/USB-device-hardware-IDs_clip.png" alt="" width="406" height="242" /></li>
+  <li>Send us a picture of the final view. An example of what that might look like would be:
+  
+  ![](/_images/_gsender/_bugs/gs_bugs_p9_USBDevice.png){.aligncenter .size-medium}
+  </li>
 </ol>
 
 We appreciate your feedback, and with your help we'll make sure the next version of gSender recognizes your machine.
@@ -165,7 +180,7 @@ If your g-code includes any workspace commands from G54 to G59, G59.1 to G59.3, 
 
 Alternatively, gSender's 'Start/Stop G-code' can also be equipped to sidestep problems with changing workspaces by saving the active workspace at the start of the program and then re-loading it at the end. This can be done with the commands <code class="inline">%global.state.workspace=modal.wcs</code> and <code class="inline">[global.state.workspace]</code> as shown in the picture below. Remember to 'Update Event' on both entries:
 
-<img class="aligncenter wp-image-3418 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/07/Saving-then-reload-state-gSender-850x449.png" alt="" width="850" height="449" />{.aligncenter .size-medium}
+![](/_images/_gsender/_bugs/gs_bugs_p10_StartStop.png){.aligncenter .size-medium}
 
 <h3>Changed $1 and Motors still Hold</h3>
 
