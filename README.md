@@ -70,6 +70,7 @@ While writing, keep in mind:
     - wid: full width pictures, only usually for "Parts Needed" of product assembly
     - non: rarely used, for small pictures with removed zooming
 1. If you want to custom-style the image (height, width, padding, etc.) then you have to use raw HTML, like `<img class="aligncenter size-medium" style="padding: 5% 15%;" src="Sync the image to WP first, then come back and fill out this link" style="max-width: 300px/60%;"/>`
+1. You can put links on images like `[![](/_images/FILE_NAME){.class}](URL)`
 1. You can still use any **`[Shortcodes]`** from WordPress plugins, like:
     - Direct YouTube links
     - Direct product links `https://sienci.com/product/lightburn/`
@@ -130,8 +131,8 @@ If you're finding that something isn't working that you'd expect - check the REA
 - Image classes and WordPress shortcodes can't be rendered by GitHub because it doesn't know what they are, so the only way to do final checks is to push to WordPress and check there
 - WordPress Galleries don't seem possible
 - Sometimes having "$" surround text makes the Git Preview look odd, but it formats fine in WordPress
-- Still exploring issues with KBName and Post Dates being incorrectly set randomly when updated
 - Don't yet have docs explaining how to upload pictures or set featured pictures
+- If you're changing a picture but keeping the same file name, then you'll need to delete the current picture off WordPress to sync the new one
 - Image captions should work (more or less) as long as long as wp-content ➜ plugins ➜ git-it-write ➜ includes ➜ parsedown.php ➜ line 188 is changed to `'class' => 'wp-caption-text'` (see <https://github.com/vaakash/git-it-write/issues/46>)
 - YouTube videos, Product links, and Button shortcodes should work as long as wp-content ➜ plugins ➜ git-it-write ➜ includes ➜ parsedown.php ➜ line 55 the extra function `public function inlineUrl($excerpt) {return;}` is added (see <https://github.com/vaakash/git-it-write/issues/45>)
 
@@ -194,9 +195,10 @@ If you're looking to bulk-transfer content over from another source, here are so
 1. Make sure you have permission or a compatible license from the source you're using and give attribution where necessary
 1. Once text is pasted over, if you're making a new page then please first go through the process outlined in **[Creating New Pages](#creating-new-pages)** where you set a title, description, URL, date, etc.
 1. Make any applicable text updates
-1. Check for, and correct any warnings or spelling errors
+1. Check for and correct any warnings or spelling errors
 1. Upload all raw pictures to GitHub, and if you want to organize them into folders then ensure new folders begin with an underscore, spaces are replaced with a dash, and there aren't any capital letters
 1. Replace all image references to proper markdown using the new file names and locations unless the images have specialized styling in which case leave them as HTML and just update the image link once it gets synced to WordPress
 1. Insert "ytsb" into page URLs and Titles if you'd like to sync commit them as drafts and make final 1-to-1 comparisons on the WordPress site
+1. GiW can only handle syncing about 80 pictures at a time, so if you're pushing more than that to main then you'll need to manually Pull Changes repeatedly until everything comes through
 1. Only once you're ready, publish pages with matched up the Titles and URLs to existing pages - this will have GIW overwrite the new page onto the old one and keep it synced moving forward (don't forget to "undraft" the pages)
 1. Check that page navigation is still good, sometimes bringing in new pages requires that you go to the Article Order and Reset the Order so that pages navigate between each other properly

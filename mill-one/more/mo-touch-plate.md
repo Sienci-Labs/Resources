@@ -25,6 +25,6 @@ During testing, we also found that the Arduino Unos internal pull-up resistors w
 
 So altogether you can see below two examples of the completed wiring with the 270Ω resistor plugged into one of the available "5V" pins, one touch plate wire plugged into "SCL", and the other plugged into "GND". On the left is an example of running extension wiring, and on the right a direct connection to the pins with a terminal connector. In both cases the resistor is easily added to the back of the terminal connector by unscrewing the terminal to fit in the resistor pin before re-tightening it.
 
-<strong>Note:</strong> in these examples the wiring polarity doesn't matter.
+<b>Note:</b> in these examples the wiring polarity doesn't matter.
 
 ![](/_images/_mill-one/_more/mo_touch_plate_p2_Wiring.jpg){.aligncenter .size-medium}

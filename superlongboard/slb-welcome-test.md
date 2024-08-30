@@ -17,7 +17,7 @@ featured_image: _images/_superlongboard/_welcome/slb_welcome_p1_SLBoard.jpg
 
 Hello and welcome!
 
-If you’ve come here you’re either interested in or have already purchased our brand new endeavour into upgrading the Hobby CNC landscape, the <a href="https://sienci.com/product/slb/"><strong>SuperLongBoard</strong></a>!!
+If you’ve come here you’re either interested in or have already purchased our brand new endeavour into upgrading the Hobby CNC landscape, the <a href="https://sienci.com/product/slb/"><b>SuperLongBoard</b></a>!!
 
 ![](/_images/_superlongboard/_welcome/slb_welcome_p1_SLBoard.jpg){.aligncenter .size-medium}
 
@@ -25,22 +25,9 @@ Started in mid-2022, this project has been truly a labour of love for us. Thanks
 
 https://www.youtube.com/watch?v=LkZIeJQSzdM
 
-[su_youtube url="https://www.youtube.com/watch?v=LkZIeJQSzdM"]
+## Diving In
 
-[su_youtube url="<p>https://www.youtube.com/watch?v=LkZIeJQSzdM</p>"]
-
-[su_youtube url="<p>https://www.youtube.com/watch?v=LkZIeJQSzdM<br></p>"]
-
-[su_youtube url="<p>https://www.youtube.com/watch?v=LkZIeJQSzdM<br>
-</p>"]
-
-[su_youtube url="<p>https://www.youtube.com/watch?v=LkZIeJQSzdM<br>
-</p>
-&nbsp;"]
-
-<h2>Diving In</h2>
-
-Let's get rockin'&'rolling by pointing you towards the right page for you 🎸
+Let's get rock'n'rolling by pointing you towards the right page for you 🎸
 
 [su_table responsive="yes" fixed="yes"]
 <table style="border: none !important;">
@@ -77,9 +64,9 @@ Let's get rockin'&'rolling by pointing you towards the right page for you 🎸
 </table>
 [/su_table]
 
-<h2>More Questions?</h2>
+## More Questions?
 
-In the coming months we'll continue to add more information to documentation on the SLB including more information on wiring hookups, recommended accessory compatibilities, and more technical specifications. Otherwise, we've already covered lots of <strong>Frequently Asked Questions</strong> on:
+In the coming months we'll continue to add more information to documentation on the SLB including more information on wiring hookups, recommended accessory compatibilities, and more technical specifications. Otherwise, we've already covered lots of <b>Frequently Asked Questions</b> on:
 
 <ul>
   <li>The <a href="https://sienci.com/product/slb/">SuperLongBoard product page</a></li>
@@ -91,21 +78,18 @@ Eventually we'll also have a revised MK2 manual that will cover installing the S
 
 ![](/_images/_superlongboard/_welcome/slb_welcome_p6_SLBMounted.jpg){.aligncenter .size-medium}
 
-<h2>FAQ</h2>
+## FAQ
 
 [su_spoiler title="<b>Q: Will the SLB work with my CNC?</b>" open="no" style="fancy" icon="chevron" anchor_in_url="no"]
-
-A: If it's a LongMill or AltMill then definitely it will. Otherwise, your CNC should be supported so long as it’s a <strong>typical hobby CNC setup with open-loop Nema 23s</strong>. As we roll out the SLB we'll begin hearing back on other successful configurations and update this 'Answer' appropriately, since otherwise we can't provide a definitive guarantee other than to say that it's very likely to work for most hobby CNCs. Other machines that have been proven to work so far: <strong>Onefinity</strong>.
+A: If it's a LongMill or AltMill then definitely it will. Otherwise, your CNC should be supported so long as it’s a <b>typical hobby CNC setup with open-loop Nema 23s</b>. As we roll out the SLB we'll begin hearing back on other successful configurations and update this 'Answer' appropriately, since otherwise we can't provide a definitive guarantee other than to say that it's very likely to work for most hobby CNCs. Other machines that have been proven to work so far: <b>Onefinity</b>.
 
 We’ve earnestly done our best to ensure the SLB would be ideal for any typical setup since the inspiration for the SLB came from trying to take things that are normally only available on more expensive and ‘closed’ boards and bring them into the open source domain and at a more affordable price for the benefit of as many hobbyists as we could. This means that although you will need to change certain settings to match your specific setup,the SLB will support a range of machines and accessories including 5/24V limit switches, touch plates, tool length sensors, laser diodes, external 4th axis, and more.
 [/su_spoiler]
 
 [su_spoiler title="<b>Q: What about if I want to use higher voltage or external motor drivers?</b>" open="no" style="fancy" icon="chevron" anchor_in_url="no"]
-
 A: We do currently have another version of the SLB in the works that we're calling SLB EXT since it'll support much higher voltage and external motor drivers for closed loop support as well. This will extend even further SLB support for a broader range of machines and setups closer to production-level. This board will be what powers our AltMill CNC and you'll be able to see more updates about it on our blog as we begin making deliveries.
 [/su_spoiler]
 
 [su_spoiler title="<b>Q: How can I know if the SLB is right for me?</b>" open="no" style="fancy" icon="chevron" anchor_in_url="no"]
-
 A: There are many other offerings on the market that come with a wide range of features, simply put the choice between these will always come down to budget. If you don't think you need the features offered by the SLB then it'd make more sense to spend less money. In this case consider getting a more typical grbl board or some of the newer x32 hobby CNC boards that might require more DIY setup time for wiring or programming. For instance the Blackbox x32 has the benefit of a direct wireless connection but less extensability. If instead you feel like you want to pull all the stops to support a higher-end CNC or use more advanced features then you might want to increase your budget and look into a Centroid, UCCNC, or Mach setup. We believe though that we've done our best to match the SLB up with the mid-level hobby CNC community where it makes sense to spend $150-200 on a controller to really unlock all the capabilities you'd be looking to expect out of your $1000-4000 CNC.
 [/su_spoiler]

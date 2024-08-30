@@ -22,18 +22,18 @@ Installing our firmware on your Mill One's Arduino Uno will enable your computer
 <ol>
   <li>Plug the Arduino into your computer with the USB cable (don't connect the power supply for now)</li>
   <li>Go to: <a href="https://www.arduino.cc/en/Main/Software" target="_blank" rel="noopener">https://www.arduino.cc/en/Main/Software</a> to download the latest Arduino IDE onto your computer for your appropriate operating system</li>
-  <li>Once it's installed, open it and navigate to <strong>File -&gt; Open</strong></li>
+  <li>Once it's installed, open it and navigate to <b>File -&gt; Open</b></li>
   <li>Locate where you downloaded the Sienci Mill One firmware and unzip it</li>
-  <li>Once unzipped, navigate to <strong>grbl -&gt; examples -&gt; grblUpload</strong> then double-click on <strong>grblUpload.ino</strong></li>
+  <li>Once unzipped, navigate to <b>grbl -&gt; examples -&gt; grblUpload</b> then double-click on <b>grblUpload.ino</b></li>
   <li>A new window will pop up which will show you the code that needs to be uploaded</li>
-  <li>Now go to <strong>Sketch -&gt; Include Library -&gt; Add .zip Library</strong> and navigate back to the firmware folder</li>
-  <li>Open the firmware folder and double-click on the <strong>grbl.zip</strong> file</li>
+  <li>Now go to <b>Sketch -&gt; Include Library -&gt; Add .zip Library</b> and navigate back to the firmware folder</li>
+  <li>Open the firmware folder and double-click on the <b>grbl.zip</b> file</li>
   <li>You should see a message at the bottom of the window that says "Library added to your libraries."</li>
-  <li>Now go to <strong>Tools -&gt; Board</strong> and select <strong>Arduino/Genuino Uno</strong>, then go to <strong>Tools -&gt; Port</strong> to select the right USB port</li>
-  <li>Finally, click <strong>File -&gt; Upload</strong> and the firmware will now be installed onto your machine</li>
+  <li>Now go to <b>Tools -&gt; Board</b> and select <b>Arduino/Genuino Uno</b>, then go to <b>Tools -&gt; Port</b> to select the right USB port</li>
+  <li>Finally, click <b>File -&gt; Upload</b> and the firmware will now be installed onto your machine</li>
 </ol>
 
-There should be a confirmation at the bottom of the window that says "Done uploading." To confirm that the code is working, go to <strong>Tools -&gt; Serial Monitor</strong> and once you set the baud rate to '115200 baud' you should see a message pop up.
+There should be a confirmation at the bottom of the window that says "Done uploading." To confirm that the code is working, go to <b>Tools -&gt; Serial Monitor</b> and once you set the baud rate to '115200 baud' you should see a message pop up.
 
 Once you get the message then congratulations! Your machine is now ready to go. In the following software steps you will learn about the software package that we offer for Mill One. This will allow you to carve out existing designs or enable you to create your own designs from scratch.
 

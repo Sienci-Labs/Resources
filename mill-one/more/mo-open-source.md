@@ -23,15 +23,15 @@ We sell parts and kits for our machines, and we work hard to make our designs a
 
 Looking for help or need other resources, feel free to reach out!
 
-<h2><a href="https://www.thingiverse.com/SienciLabs/designs" target="_blank" rel="noopener">Thingiverse</a></h2>
+## <a href="https://www.thingiverse.com/SienciLabs/designs" target="_blank" rel="noopener">Thingiverse</a>
 
 Find 3D printable parts for the Mill One on our Thingiverse page as well as design files, sample g-code, STLs, and other initialization info.
 
-<h2><a href="http://www.instructables.com/member/Sienci%20Labs/" target="_blank" rel="noopener">Instructables</a></h2>
+## <a href="http://www.instructables.com/member/Sienci%20Labs/" target="_blank" rel="noopener">Instructables</a>
 
 Find photos, links, downloadable designs files, and manufacturing tips.
 
-<h2>Onshape</h2>
+## Onshape
 
 <a href="https://cad.onshape.com/documents/f129a1cb4c9e4b8ba7c141fa/w/62929c10eab89bef61547fe5/e/a8c68f8c70b205cc2fab42c3" target="_blank" rel="noopener">Version 2 Design</a>
 
@@ -39,11 +39,11 @@ Find photos, links, downloadable designs files, and manufacturing tips.
 
 Onshape is a powerful browser-based CAD software. Explore our design changes live. For the latest design files, or if you want to modify the design, visit our project on Onshape. These design files change constantly and may be inconsistent at times, but typically have the new improvements.
 
-<h2><a href="https://docs.google.com/spreadsheets/d/15G8NwAsjUysOSlhiqnWZDX9TDvD0P3QPFUiqYyDQw4E/edit?usp=sharing" target="_blank" rel="noopener">Bill of Materials</a></h2>
+## <a href="https://docs.google.com/spreadsheets/d/15G8NwAsjUysOSlhiqnWZDX9TDvD0P3QPFUiqYyDQw4E/edit?usp=sharing" target="_blank" rel="noopener">Bill of Materials</a>
 
 Google Sheets file on Google Drive with the bill of materials.
 
-<h2><a href="https://www.facebook.com/groups/166433110494695/" target="_blank" rel="noopener">Community Contributions</a></h2>
+## <a href="https://www.facebook.com/groups/166433110494695/" target="_blank" rel="noopener">Community Contributions</a>
 
 Here are some other contributions for modifying or upgrading your Mill One:
 
@@ -58,7 +58,7 @@ Here are some other contributions for modifying or upgrading your Mill One:
 <a href="https://www.thingiverse.com/thing:2929267">-&gt; Sienci Mill – Angle Mount – 4 holes</a> by M1kka
 <a href="https://www.thingiverse.com/thing:2933997">-&gt; 52mm Spindle Bracket for Sienci Mill One</a> by Matty812004
 
-<h2>Version Enhancements</h2>
+## Version Enhancements
 
 Moving along versions through Mill One V1, V2, then V3 notably came with increases in rigidity and cutting area while keeping all else relatively equal (e.g. core components like motors, lead screws, etc.). The most prominent tweaks were:
 
