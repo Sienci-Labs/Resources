@@ -49,8 +49,8 @@ This is a tool change method inspired by the work of Stuart McRae (a LongMill cu
 <table>
 <tbody>
 <tr>
-<td><strong>G-code</strong></td>
-<td><strong>Explanation</strong></td>
+<td><b>G-code</b></td>
+<td><b>Explanation</b></td>
 </tr>
 <tr>
 <td>Z20.00</td>

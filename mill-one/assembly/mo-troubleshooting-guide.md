@@ -34,7 +34,7 @@ To solve the first, remove the nut at the bottom of the router along with the re
 
 <img class="nar aligncenter size-medium" src="https://resources.sienci.com/wp-content/uploads/2024/07/mo_troubleshoot_p1_AssemEnd.png" alt="" style="max-width: 60%;"/>
 
-Put the above assembly back into the router and fix into place with the collet nut. Cutting should now go as expected. If this isn't fixing the problem then it means you've told the Mill One to cut much faster than it's supposed to. When the machine is pushing the rotating bit really hard into the material, it forced the bit out of the router. Refer to our <strong>Speeds and Feeds</strong> page to adjust as necessary. Otherwise, send us an email and we'll be sure to help you out.
+Put the above assembly back into the router and fix into place with the collet nut. Cutting should now go as expected. If this isn't fixing the problem then it means you've told the Mill One to cut much faster than it's supposed to. When the machine is pushing the rotating bit really hard into the material, it forced the bit out of the router. Refer to our <b>Speeds and Feeds</b> page to adjust as necessary. Otherwise, send us an email and we'll be sure to help you out.
 
 #### My machine randomly plunges down on the Z axis, or moves down when I don't want it to.
 

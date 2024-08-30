@@ -37,7 +37,7 @@ Currently, the steps/mm EEPROM settings in the LongMill (<em>$100, </em><em>$101
 - Each axis is direct drive and Z-axis has **1-to-1** pulley ratio
 - Our lead screws have a **2mm** pitch and are **4-start**, 2mm x 4 = 8mm **lead**
 
-<em>Steps/mm  =   Steps/revolution</em><em>  </em><strong>/</strong><em>  (microstepping value  </em>x<em>  gearing ratio from motor to lead screw  </em>x<em>  lead screw pitch  </em>x<em>  # of starts)</em>
+<em>Steps/mm  =   Steps/revolution</em><em>  </em><b>/</b><em>  (microstepping value  </em>x<em>  gearing ratio from motor to lead screw  </em>x<em>  lead screw pitch  </em>x<em>  # of starts)</em>
 
 This gives us:  200  /  (1/8  x  1  x  2  x  4)  =  <em>200 steps/mm</em>
 

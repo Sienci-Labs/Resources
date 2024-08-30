@@ -19,7 +19,7 @@ Your Mill One is a simple machine that can do quite complex cutting tasks. Befor
 
 We've tried to make the machine as safe to use as we could by ensuring that you are never directly interacting with line voltages and it's difficult to interact with the machine as it's cutting. We want you to enjoy your Mill One while getting the most out of it, so if you have any questions about our safety guidelines then please don't hesitate to ask.
 
-<strong>Safety Warnings and Guidelines</strong>
+<b>Safety Warnings and Guidelines</b>
 
 In these warnings, you the user and original purchaser/customer of the Mill One CNC are referred to as the "operator" of the machine:
 

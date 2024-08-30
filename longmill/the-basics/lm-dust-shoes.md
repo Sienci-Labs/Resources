@@ -69,27 +69,27 @@ Whether a dust shoe is Z-axis dependent or independent relies on where it’s mo
 <li>If a dust shoe is Z-axis independent, then it is mounted to the X-axis. When the Z-axis moves up and down, the dust shoe stays in the spot that it was set to. </li>
 </ul>
 
-<strong>Pros of a Z-axis dependent dust shoe</strong>
+<b>Pros of a Z-axis dependent dust shoe</b>
 
 <ul>
 <li>Typically a much simpler design</li>
 <li>Less risk of something colliding with the dust shoe as it moves up with the router while cutting</li>
 </ul>
 
-<strong>Pros of a Z-axis independent dust shoe</strong>
+<b>Pros of a Z-axis independent dust shoe</b>
 
 <ul>
 <li>Must more efficient at collecting dust</li>
 <li>Consistent performance regardless of how deep your cut is</li>
 </ul>
 
-<strong>Cons of a Z-axis dependent dust shoe</strong>
+<b>Cons of a Z-axis dependent dust shoe</b>
 
 <ul>
 <li>Not efficient at collecting dust, and typically relies heavily on the vacuum’s suction power to collect dust</li>
 </ul>
 
-<strong>Cons of a Z-axis independent dust shoe</strong>
+<b>Cons of a Z-axis independent dust shoe</b>
 
 <ul>
 <li>More complicated and requiring adjustment based on your material’s thickness.</li>

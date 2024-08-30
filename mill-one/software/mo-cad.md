@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/_mill-one/_software/mo_cad_p2_onshape.png
 ---
 
-You can work with your favourite <strong>CAD</strong> (Computer Aided Design) and <strong>CAM</strong> (Computer Aided Manufacturing) programs to design and control the Mill One. If you wish to create simple objects with no 3D contours, a simple vector-editing program like Vectr, Inkscape, or Adobe Illustrator can be used. Alternatively, to design your own 3D parts you will need a CAD program like OnShape or Fusion 360.
+You can work with your favourite <b>CAD</b> (Computer Aided Design) and <b>CAM</b> (Computer Aided Manufacturing) programs to design and control the Mill One. If you wish to create simple objects with no 3D contours, a simple vector-editing program like Vectr, Inkscape, or Adobe Illustrator can be used. Alternatively, to design your own 3D parts you will need a CAD program like OnShape or Fusion 360.
 
 If you don't feel comfortable with learning this software, feel free to move on for now. We've created a selection of <a href="https://resources.sienci.com/view/mo-more-projects/" target="_blank" rel="noopener">Starter Projects</a> and other cool things that you can make on your machine where the 3D models are easy and free to download. There are also websites that offer thousands of 3D models, drawings, and other projects for free.
 

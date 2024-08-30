@@ -22,12 +22,12 @@ This page exists in the case that your current software isn't offering you good 
 <table class="wp-table" width="85%">
 <tbody>
 <tr>
-<td><strong>Name</strong></td>
-<td><strong>Type</strong></td>
-<td><strong>Difficulty</strong> (1-4)</td>
-<td><strong>Visualization Type<br /></strong></td>
-<td><strong>Compatibility</strong></td>
-<td><strong>Price</strong></td>
+<td><b>Name</b></td>
+<td><b>Type</b></td>
+<td><b>Difficulty</b> (1-4)</td>
+<td><b>Visualization Type<br /></b></td>
+<td><b>Compatibility</b></td>
+<td><b>Price</b></td>
 </tr>
 <tr>
 <td>G-code Simulator</td>

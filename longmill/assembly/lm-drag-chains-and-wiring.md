@@ -47,7 +47,7 @@ This last foot can now be attached to the Y-axis rails in the vacant space on th
 
 ![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p8.JPG "Drag chain foot mounted in place"){.aligncenter .size-medium}
 
-Now get a <strong>pin-type</strong> end link (pictured) to mount the other end of the drag chain. This one will attach the the X-axis clip-on mount where there's a slot for the two bolts to fit through. Use the included LongMill wrench to hold the nuts from the top while you fasten the bolts from underneath with a size 3 Allen key.
+Now get a **pin-type** end link (pictured) to mount the other end of the drag chain. This one will attach the the X-axis clip-on mount where there's a slot for the two bolts to fit through. Use the included LongMill wrench to hold the nuts from the top while you fasten the bolts from underneath with a size 3 Allen key.
 
 ![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p9.JPG){.aligncenter .size-medium}
 
@@ -91,7 +91,7 @@ If you plan on adding more wiring into the drag chains in the future, we recomme
 
 At this stage, it's a good idea to grab the router you'll be using with your machine. We'll show these steps using the RTMakita RT0700 / RT0701 trim router that we recommend. Also, grab the motor wires from the motor box while you're at it.
 
-<strong>**IMPORTANT NOTE: when using the Makita 0700 / RT0701 you won't need to use the router base, just the main router body. The package also comes with two wrenches to tighten and release the collet which holds the cutting tools in place. You'll see a red button near the collet nut, but please refrain from using this red button. Using this red button can stress the router body and occasionally cause the whole body to crack open.</strong>
+**!! IMPORTANT NOTE: when using the Makita 0700 / RT0701 you won't need to use the router base, just the main router body. The package also comes with two wrenches to tighten and release the collet which holds the cutting tools in place. You'll see a red button near the collet nut, but please refrain from using this red button. Using this red button can stress the router body and occasionally cause the whole body to crack open.**
 
 ![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p17.jpg "Get your router and motor wires to start wiring the machine"){.aligncenter .size-medium}
 

@@ -130,25 +130,25 @@ For more non-abrasive materials, coatings will only have an affect on the lifeti
 
 Here’s what we can apply to the most general of cases:
 
-<strong>Size</strong>
+<b>Size</b>
 <ul>
   <li>Use the largest diameter cutting tool you can bear if you don’t mind surface finish and want to remove material quickly</li>
   <li>Long tools can make deeper cuts but usually deflect more and affect surface finish, try to use the shortest tool you can afford (or mount it deeper into the router)</li>
 </ul>
 
-<strong>Flutes</strong>
+<b>Flutes</b>
 <ul>
   <li>One flute is best for rough cutting materials that can melt or weld</li>
   <li>The higher the number of flutes, the nicer your surface finish will be at the cost of being able to cut away less material at once</li>
   <li>Downcut and upcut spiralled flutes both have a downside, although upcut bits are more commonly used since they eject material upwards; pick your poison</li>
 </ul>
 
-<strong>Material</strong>
+<b>Material</b>
 <ul>
   <li>You should expect more expensive tools to last longer; if it’s your first time using a CNC router or you tend to make more mistakes then you’d admit to, then stick with the cheaper ones</li>
 </ul>
 
-<strong>Coatings</strong>
+<b>Coatings</b>
 <ul>
   <li>If you're on the lookout for a reliable set of cutting tools, make the jump and invest in some coated end mills. Otherwise, if you're on a tight budget or you're still learning how to use your machine then hold onto your money for the time being.</li>
 </ul>
@@ -157,7 +157,7 @@ Here’s what we can apply to the most general of cases:
 
 If you’ve come looking for some tool recommendations, this is a list that we've put together for the slightly more experienced CNCer, or a beginner that's ready to try something new (in your choice of either HSS or solid carbide):
 
-<strong>Experimental bits</strong>
+<b>Experimental bits</b>
 <ul>
   <li>1/8”, 1-flute end mill (for foam, plastics, and aluminum)</li>
   <li>1/8”, 4-flute end mill (for soft metals)</li>
@@ -167,12 +167,12 @@ If you’ve come looking for some tool recommendations, this is a list that we'v
   <li>60° or 90° v-bit (great for cutting hardwood signs)</li>
 </ul>
 
-<strong>Specialty bits</strong>
+<b>Specialty bits</b>
 <ul>
   <li>Large planar bit for surfacing material blanks</li>
 </ul>
 
-<strong>Note:</strong> if you find any cutting tools being sold for dirt cheap, steer clear! When it comes to cheap bits you’ll find that the money you save ends up costing you in headaches from broken tools. If it’s your first time using a CNC router, expect to make mistakes while getting used to the Mill One. You'll probably break/damage bits during the learning process, so consider holding off on buying the expensive ones until you're more comfortable with your machine.
+<b>Note:</b> if you find any cutting tools being sold for dirt cheap, steer clear! When it comes to cheap bits you’ll find that the money you save ends up costing you in headaches from broken tools. If it’s your first time using a CNC router, expect to make mistakes while getting used to the Mill One. You'll probably break/damage bits during the learning process, so consider holding off on buying the expensive ones until you're more comfortable with your machine.
 
 This goes the other way too. If you find yourself looking at a price tag that's half the cost of your machine then maybe you should consider upgrading to a new machine. The Mill One was built to be a simple learning platform, not the be-all and end-all of CNC machines :)
 

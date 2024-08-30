@@ -23,7 +23,7 @@ This part of the resources covers common issues and fixes for the LongMill. If y
 
 Every LongMill is packed in our shop in Waterloo, ON by our team of trained staff. Every package goes through several checks to ensure that the correct parts and quantities are in each kit, but we sometimes make mistakes. If you can't find something, please reach out to us and we'll make it right. However, before <a href="https://sienci.com/contact-us/technical-help/" target="_blank" rel="noopener">reaching out to us</a>, there are a couple things you can check.
 
-- Ensure that you are following the assembly instructions for the correct version of the machine. There are variations between versions, including the packing order and assembly. More info can be found in the <a href="https://resources.sienci.com/view/lm-unboxing/">Unboxing</a> portion of the resources. <strong>Please note that our video instructions are based on the Version 2 design. </strong>Instructions from the video can still be referenced for additional help in assembling your machine.
+- Ensure that you are following the assembly instructions for the correct version of the machine. There are variations between versions, including the packing order and assembly. More info can be found in the <a href="https://resources.sienci.com/view/lm-unboxing/">Unboxing</a> portion of the resources. **Please note that our video instructions are based on the Version 2 design.** Instructions from the video can still be referenced for additional help in assembling your machine.
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p_Versions.png){.aligncenter .size-medium}
 - If you're missing the correct amount of hardware, you may find it in another bag. Please check in the rest of the kit to make sure all of your hardware is accounted for.
 - Some parts and add-ons, such as the t-tracks come in a separate package as the LongMill kit. If your order is larger than what can be fit in the LongMill kit, it may come in more than one package.
@@ -32,7 +32,7 @@ Every LongMill is packed in our shop in Waterloo, ON by our team of trained staf
 
 During the assembly process, the anti-backlash nuts may be difficult to thread on, especially when threading between the base and the arm portions of the block. These nuts rely on the threads to line up for proper movement.
 
-- The alignment of the threads can be tensioned by turning the set screw or M5 screw, <strong>or pressing the arm down to help the threads line up while threading in the lead screw</strong>. Once the lead screw has been threaded on, it can be tensioned by following our <a href="https://resources.sienci.com/view/lm-maintenance/">maintenance guide</a>
+- The alignment of the threads can be tensioned by turning the set screw or M5 screw, **or pressing the arm down to help the threads line up while threading in the lead screw**. Once the lead screw has been threaded on, it can be tensioned by following our <a href="https://resources.sienci.com/view/lm-maintenance/">maintenance guide</a>
 - Slightly loosen the two M5 bolts that hold the nut to the gantry. Over tightening the screws can crush the ACME threads, causing additional friction between the lead screw and nut.
 - Try threading your lead screw in from both directions. It may be easier to line up the threads from one direction over the other.
 - Check for burrs and debris that may be in the threads.
@@ -61,7 +61,7 @@ Other things you can check:
 - If the red light on the controller top (newer versions) or on the drivers (visible through the grates on the underside of the controller) are on, then you are getting power to the controller. You may be having issues with connecting your machine to the computer.
 - Make sure that the polarity of the power wiring is correct. Switch the wires around if need be (see picture).
 - If you have a older power switch model and the red LED lights  flicker or turn off right when the power switch is turned on, you may have a faulty switch. Please contact us.
-- If you have a newer E-stop model, check that the E-stop is plugged into the <strong>top</strong> of the LongBoard, and the power supply is plugged into the<strong> side</strong> of the LongBoard. <a href="https://drive.google.com/file/d/10I-XiU6GuIwgeMfRe_LBDjoDTnmqmISy/view?usp=sharing" target="_blank" rel="noopener">View the correct installation here.</a> You can also check that the wiring is secured inside the E-stop itself by unfastening the 4 screws on the lid with a screwdriver. There should be two wires secured on either terminal (polarity doesn't matter).
+- If you have a newer E-stop model, check that the E-stop is plugged into the **top** of the LongBoard, and the power supply is plugged into the **side** of the LongBoard. <a href="https://drive.google.com/file/d/10I-XiU6GuIwgeMfRe_LBDjoDTnmqmISy/view?usp=sharing" target="_blank" rel="noopener">View the correct installation here.</a> You can also check that the wiring is secured inside the E-stop itself by unfastening the 4 screws on the lid with a screwdriver. There should be two wires secured on either terminal (polarity doesn't matter).
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p3_Polarity.jpg "The wire on the left should be white, and the wire on the right should be black.")
 
 ### One motor does not move or moves erratically
@@ -123,8 +123,8 @@ When jogging or running the LongMill, one of the motors does not move correctly 
 
 Excessive wobble is when the lead screw is deviating from center by more than about 3mm or 1/8". This means that butting a measuring tape or ruler against the LongMill wasteboard and recording down the height of the lead screw at its lowest point, and then again at its highest point, should result in a difference in the two measurements of no more than 6mm or 1/4". Wobble can happen due to a loose lead screw or due to the screw being physically bent: if it's bent then the wobble will happen at any movement speed, whereas if it's loose then it will wobble mostly at higher movement speeds (above 2000mm/min).
 
-- <strong>Loose screw:</strong> loosen the two M5-25mm screws that hold the Delrin anti-backlash nuts slightly for the axis which the lead screw is on and run the machine back and forth. This will align the lead screw and the nut. Re-tighten the screws once the wobbling as gone away. Also check the ACME locking nut and coupler on both ends of the screw are firmly tightened and sandwiching the lead screw properly.
-- <strong>Bent screw:</strong> a sure way to confirm is to completely remove the screw and roll it along a surface that is very flat and seeing if it rolls evenly.
+- **Loose screw:** loosen the two M5-25mm screws that hold the Delrin anti-backlash nuts slightly for the axis which the lead screw is on and run the machine back and forth. This will align the lead screw and the nut. Re-tighten the screws once the wobbling as gone away. Also check the ACME locking nut and coupler on both ends of the screw are firmly tightened and sandwiching the lead screw properly.
+- **Bent screw:** a sure way to confirm is to completely remove the screw and roll it along a surface that is very flat and seeing if it rolls evenly.
 
 ### The machine moves really slowly or not at all when I jog it
 
@@ -155,16 +155,16 @@ Excessive wobble is when the lead screw is deviating from center by more than ab
 
 Loss of connection on a long job can happen if your computer or USB port 'fall asleep' on you. If you plan on running long, intricate cuts on your CNC you'll have to change your computer power settings so that it 'stays awake' while cutting. Iif you're using a Mac computer, you can find dedicated instructions for sleep management here: <a href="https://support.apple.com/en-ca/guide/mac-help/mchle41a6ccd/mac" target="_blank" rel="noopener">https://support.apple.com/en-ca/guide/mac-help/mchle41a6ccd/mac</a>.
 
-- Click the <strong>Windows</strong> icon at the bottom left corner of your screen and start to type "<em>control panel</em>" to bring it up
+- Click the **Windows** icon at the bottom left corner of your screen and start to type "<em>control panel</em>" to bring it up
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p8_p1.png){.aligncenter .size-medium}
-- Once you've clicked to open it, go to <strong>Hardware and Sound</strong> then <strong>Power Options</strong>
+- Once you've clicked to open it, go to **Hardware and Sound** then **Power Options**
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p9_p2.png){.aligncenter .size-medium}
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p10_p3.png){.aligncenter .size-medium}
-- Now, whichever plan you have currently selected (circled in the picture) will be the one that you want to click <strong>Change plan settings</strong>
+- Now, whichever plan you have currently selected (circled in the picture) will be the one that you want to click **Change plan settings**
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p11_p4.png){.aligncenter .size-medium}
-- Go to the second drop-down and set it to <strong>Never</strong>, save the changes to ensure that your computer never dozes off on its own. An additional step can be to stop your USB ports from 'sleeping' by clicking <strong>Change advanced power settings</strong>
+- Go to the second drop-down and set it to **Never**, save the changes to ensure that your computer never dozes off on its own. An additional step can be to stop your USB ports from 'sleeping' by clicking **Change advanced power settings**
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p12_p5.png){.aligncenter .size-medium}
-- In the separate window that appears, you'll want to Expand the <strong>USB Settings</strong>, then <strong>USB selective suspend setting</strong>, and finally change this drop-down to "<strong>Disabled</strong>". Click to <strong>Apply</strong> these new settings. <strong>!!</strong> Sometimes on a Windows update these settings will be reset, if you want to make sure you've got all your bases covered, be sure to check back on these settings on occasion if you want to feel confident while running long jobs. !!
+- In the separate window that appears, you'll want to Expand the **USB Settings**, then **USB selective suspend setting**, and finally change this drop-down to "**Disabled**". Click to **Apply** these new settings. **!!** Sometimes on a Windows update these settings will be reset, if you want to make sure you've got all your bases covered, be sure to check back on these settings on occasion if you want to feel confident while running long jobs. !!
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p13_p6.png){.aligncenter .size-medium}
 
 ### My bit is crashing into the touch plate
@@ -196,7 +196,7 @@ If this was not the problem:
 
 ### I have an issue with Java when opening UGSPlatform
 
-- If USG is still not able to open due to a Java access error, then there is another program on your computer blocking UGS from opening properly. UGS is usually able to automatically detect where Java is located on your computer, but since this detection is being blocked the way to fix this is to explicitly inform UGS where Java is. First you'll need to locate Java. You can usually find it by going to the Windows file explorer under <em>'This PC → Windows (C:) → Programs Files → Java → jre<strong>###</strong>'</em> or <em>'This PC → Windows (C:) → Programs Files (x86) → Java → jre<strong>###</strong>'</em>. Once inside the <em>'jre'</em> folder, left-click the navigation path at the top of the file explorer then right-click the selected text and left click the 'Copy' option to copy the path.
+- If USG is still not able to open due to a Java access error, then there is another program on your computer blocking UGS from opening properly. UGS is usually able to automatically detect where Java is located on your computer, but since this detection is being blocked the way to fix this is to explicitly inform UGS where Java is. First you'll need to locate Java. You can usually find it by going to the Windows file explorer under <em>'This PC → Windows (C:) → Programs Files → Java → jre<b>###</b>'</em> or <em>'This PC → Windows (C:) → Programs Files (x86) → Java → jre<b>###</b>'</em>. Once inside the <em>'jre'</em> folder, left-click the navigation path at the top of the file explorer then right-click the selected text and left click the 'Copy' option to copy the path.
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p16_JavaPath.png){.aligncenter .size-medium}
 Once the path is copied, navigate to where you downloaded UGS; this will normally be located inside your 'Downloads' folder. Once there, go to:<em> 'ugs-platform-app-2.0-SNAPSHOT → ugsplatform → etc'</em>. In this folder should be a file called <em>'ugsplatform.conf'</em>. Opening this with a text editor like <em>Notepad</em>, you'll want to find the line which says: "<em>#jdkhome="/path/to/jdk</em>". Delete the '#', then replace the text within the quotes with the Java path by right-clicking and selecting '<em>Paste</em>'. The completed edit should look like this:
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p17_ConfigFile.png){.aligncenter .size-medium}

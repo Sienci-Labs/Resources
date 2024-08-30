@@ -19,7 +19,7 @@ The Sienci Mill One requires a connection to a computer to receive cutting comma
 
 ### <a href="http://winder.github.io/ugs_website/download/" target="_blank" rel="noopener">UGS / UGS Platform</a>
 
-For g-code sending, we use <strong>Universal G-code Sender </strong>- plainly named since it's able to stream g-code to nearly any type of device. UGS is simple and uses Java, which means you can run it on Windows, Mac, Linux, and other operating systems as long as you have the latest Java version installed.
+For g-code sending, we use <b>Universal G-code Sender</b> - plainly named since it's able to stream g-code to nearly any type of device. UGS is simple and uses Java, which means you can run it on Windows, Mac, Linux, and other operating systems as long as you have the latest Java version installed.
 
 Once you've got your Mill One assembled, on the <a href="https://resources.sienci.com/view/mo-preparing-to-cut/">Preparing to Cut</a> page you'll learn how to use UGS to make your future projects.
 Download UGS here: <a href="https://winder.github.io/ugs_website/download/">https://winder.github.io/ugs_website/download/</a>
@@ -29,7 +29,7 @@ Download UGS Platform here: <a href="http://bit.ly/1DkClRW">http://bit.ly/1DkClR
 
 There are a few other choices in g-code sending software that we can recommend once you're comfortable with UGS.
 
-<h3 class="watch-title-container"><strong><a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener"><span id="eow-title" class="watch-title" dir="ltr" title="Universal G-code Sender Plugin for Fusion 360">Fusion 360</span></a> UGS Plugin (Optional)</strong>
+<h3 class="watch-title-container"><b><a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener"><span id="eow-title" class="watch-title" dir="ltr" title="Universal G-code Sender Plugin for Fusion 360">Fusion 360</span></a> UGS Plugin (Optional)</b>
 
 This open-source plugin has been under development for a while. Now you can integrate Universal G-code Sender straight into Fusion 360! Check out the <a href="https://www.youtube.com/watch?v=Y7n3THx3L8Q" target="_blank" rel="noopener">great instructional video for how to download and integrate the plugin</a> and let us know what you think.
 

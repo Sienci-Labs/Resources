@@ -29,7 +29,7 @@ This IOT setup method is written for the LongBoard controller and was inspired b
 Parts needed:
 
 <ul>
-  <li>x1 <strong>IOT relay</strong>
+  <li>x1 <b>IOT relay</b>
 <ul>
   <li>We’ve tested the IOT Relay from Digital Loggers, it can be found on Amazon and has more info here: <a href="https://www.digital-loggers.com/iotfaqs.html" target="_blank" rel="noopener">https://www.digital-loggers.com/iotfaqs.html</a></li>
   <li>Includes surge suppression, debounce, and a safety breaker</li>
@@ -39,7 +39,7 @@ Parts needed:
 </li>
 </ul>
 <ul>
-  <li>x2, <strong>2-position female terminal block connector</strong>
+  <li>x2, <b>2-position female terminal block connector</b>
 <ul>
   <li>One will come already plugged into the IOT relay, the other plugged into the LongBoard</li>
   <li>Same as the green connector used for the touch plate</li>
@@ -48,7 +48,7 @@ Parts needed:
 </li>
 </ul>
 <ul>
-  <li>Some spare <strong>16 AWG wire</strong> (see picture)
+  <li>Some spare <b>16 AWG wire</b> (see picture)
 <ul>
   <li>This is the same size as what's used for the LongMill E-stop</li>
   <li>Ideally use wire with the red and black bound together, in whatever length is needed for your setup</li>
@@ -74,8 +74,8 @@ Parts needed:
 Now's a good time to quickly verify that everything has been hooked up correctly. To test the relay, we'll be connecting to our LongMill via a g-code sender such as gSender, UGS, or CNCjs like we normally would and keep an eye on the red "power" light on the relay. Whichever sender you use you'll want to find the "Console" input area (shown by a red box), and type the following text:
 
 <ul>
-  <li><strong>M8</strong>, then press the 'Enter' key to send - this should activate an audible *click* from the IOT relay and you should notice the 'switch active' light illuminate.</li>
-  <li><strong>M9</strong>, then press the 'Enter' key to send - this should also produce a *click* noise, this time turning the 'switch active' light off.</li>
+  <li><b>M8</b>, then press the 'Enter' key to send - this should activate an audible *click* from the IOT relay and you should notice the 'switch active' light illuminate.</li>
+  <li><b>M9</b>, then press the 'Enter' key to send - this should also produce a *click* noise, this time turning the 'switch active' light off.</li>
 </ul>
 
 ![](/_images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p3_Testing.png){.aligncenter size-medium}
@@ -87,12 +87,12 @@ If you're not seeing the results you expect, double-check you've got your wires 
 If everything is behaving as expected, you'll now be able to test with the relay controlling whatever peripheral you're planning on hooking up (vacuum, router, etc.). Note that the IOT relay is built to handle <span dir="ltr">0-8A with 18AWG power cords and 0-12A with </span><span dir="ltr">16AWG cord.</span>
 
 <ol>
-  <li>Be sure you've sent <strong>M9</strong> to your g-code sender and the relay power light is off.</li>
-  <li>With the IOT relay toggle switch set to "OFF", plug in your external AC device. You'll normally want to use the "Normally Off" outlets since these turn ON with <strong>M8</strong> and OFF with <strong>M9</strong>, meanwhile the "Always On" outlet always provides continuous power and the "Normally On" outlet turns OFF with <strong>M8</strong> and turns ON with <strong>M9</strong>.</li>
+  <li>Be sure you've sent <b>M9</b> to your g-code sender and the relay power light is off.</li>
+  <li>With the IOT relay toggle switch set to "OFF", plug in your external AC device. You'll normally want to use the "Normally Off" outlets since these turn ON with <b>M8</b> and OFF with <b>M9</b>, meanwhile the "Always On" outlet always provides continuous power and the "Normally On" outlet turns OFF with <b>M8</b> and turns ON with <b>M9</b>.</li>
   <li>Safely toggle the power switch on your external device (router, vacuum, etc.) to be ON. They should show no sign of power at this point.</li>
   <li>Safely toggle the IOT relay switch to 'RESET'. There should still be nothing occurring.</li>
-  <li>Send again an <strong>M8</strong> command in the g-code sender while your finger is on the red switch of the IOT relay in case something goes wrong. After sending the command your external devices should now power on.</li>
-  <li>Power everything back off by sending <strong>M9</strong>.</li>
+  <li>Send again an <b>M8</b> command in the g-code sender while your finger is on the red switch of the IOT relay in case something goes wrong. After sending the command your external devices should now power on.</li>
+  <li>Power everything back off by sending <b>M9</b>.</li>
 </ol>
 
 ![](/_images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p5_FullDiagram.jpg){.aligncenter size-medium}

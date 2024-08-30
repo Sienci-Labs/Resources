@@ -17,7 +17,7 @@ featured_image: _images/_superlongboard/SLB-VB6.jpg
 
 Hello and welcome!
 
-If you’ve come here you’re either interested in or have already purchased our brand new endeavour into upgrading the Hobby CNC landscape, the <a href="https://sienci.com/product/slb/"><strong>SuperLongBoard</strong></a>!!
+If you’ve come here you’re either interested in or have already purchased our brand new endeavour into upgrading the Hobby CNC landscape, the <a href="https://sienci.com/product/slb/"><b>SuperLongBoard</b></a>!!
 
 <img class="non aligncenter size-medium" style="width: 80%; margin-left: 10%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/SLB-VB6-scaled.jpg"/>
 
@@ -54,7 +54,7 @@ Let's get rock'n'rolling by pointing you towards the right page for you 🎸
 
 ## More Questions?
 
-In the coming months we'll continue to add more information to documentation on the SLB including more information on wiring hookups, recommended accessory compatibilities, and more technical specifications. Otherwise, we've already covered lots of <strong>Frequently Asked Questions</strong> on:
+In the coming months we'll continue to add more information to documentation on the SLB including more information on wiring hookups, recommended accessory compatibilities, and more technical specifications. Otherwise, we've already covered lots of <b>Frequently Asked Questions</b> on:
 
 <ul>
   <li>The <a href="https://sienci.com/product/slb/">SuperLongBoard product page</a></li>
@@ -69,7 +69,7 @@ Eventually we'll also have a revised MK2 manual that will cover installing the S
 ## FAQ
 
 [su_spoiler title="<b>Q: Will the SLB work with my CNC?</b>" open="no" style="fancy" icon="chevron" anchor_in_url="no"]
-A: If it's a LongMill or AltMill then definitely it will. Otherwise, your CNC should be supported so long as it’s a <strong>typical hobby CNC setup with open-loop Nema 23s</strong>. As we roll out the SLB we'll begin hearing back on other successful configurations and update this 'Answer' appropriately, since otherwise we can't provide a definitive guarantee other than to say that it's very likely to work for most hobby CNCs. Other machines that have been proven to work so far: <strong>Onefinity</strong>.
+A: If it's a LongMill or AltMill then definitely it will. Otherwise, your CNC should be supported so long as it’s a <b>typical hobby CNC setup with open-loop Nema 23s</b>. As we roll out the SLB we'll begin hearing back on other successful configurations and update this 'Answer' appropriately, since otherwise we can't provide a definitive guarantee other than to say that it's very likely to work for most hobby CNCs. Other machines that have been proven to work so far: <b>Onefinity</b>.
 
 We’ve earnestly done our best to ensure the SLB would be ideal for any typical setup since the inspiration for the SLB came from trying to take things that are normally only available on more expensive and ‘closed’ boards and bring them into the open source domain and at a more affordable price for the benefit of as many hobbyists as we could. This means that although you will need to change certain settings to match your specific setup,the SLB will support a range of machines and accessories including 5/24V limit switches, touch plates, tool length sensors, laser diodes, external 4th axis, and more.
 [/su_spoiler]

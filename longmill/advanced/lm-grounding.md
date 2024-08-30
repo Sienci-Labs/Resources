@@ -17,7 +17,7 @@ featured_image: /_images/_longmill/_advanced/_2_noise/lm_noise_p1.png
 
 Static buildup and other electromagnetic interferences (a.k.a. electrical noise) can be cause for concern on any CNC. These unexpected electrical signals can find their way back to your CNC controller and disrupt it's on-board electronics, affecting how reliably your CNC can cut projects for you. If you've ever found your machine stopping mid-way through a job, disconnecting from the g-code sender, or giving unexpected alerts then you may be experiencing EMI.
 
-<strong>IMPORTANT: EMI does not cause the LongMill to lose position or move erratically. It is a very common misconception that grounding your machine will help prevent missed steps, stalling, or positioning issues. EMI only causes CNC machines stop completely or disconnect from the computer. If your machine is not moving the way you think it should, it is a mechanical issue or an issue in your g-code. If you are experiencing these issues, please start with double checking the mechanics of your machine.</strong>
+**IMPORTANT: EMI does not cause the LongMill to lose position or move erratically. It is a very common misconception that grounding your machine will help prevent missed steps, stalling, or positioning issues. EMI only causes CNC machines stop completely or disconnect from the computer. If your machine is not moving the way you think it should, it is a mechanical issue or an issue in your g-code. If you are experiencing these issues, please start with double checking the mechanics of your machine.**
 
 This behaviour can stem from many sources but most often it's being created as static on a dust collection hose or, less commonly, on the frame of the machine itself.
 
@@ -40,9 +40,10 @@ If you believe any of this is happening to you the appropriate fix will depend o
 
 If you're looking for a 'catch-all' solution, these are normally less effective but can still be beneficial. The most common way is by having an escape path for built-up charges. This 'ground point' works because it'll be a path of least resistance which stray charges will prefer to take instead of sticking around.
 
-If you plan to try this, ensure that you only use <b>one ground point</b> for your entire machine setup (including dust collection). For example, if your home has just one electrical panel, you can ground it on that or the attached ground stake outside. This avoids possible ground loops which can create additional interference.
+If you plan to try this, ensure that you only use **one ground point**</b>** for your entire machine setup (including dust collection). For example, if your home has just one electrical panel, you can ground it on that or the attached ground stake outside. This avoids possible ground loops which can create additional interference.
 
-<strong>Materials</strong>
+**Materials**
+
 <ul>
   <li>Bare solid copper wire between 10 to 18 AWG</li>
   <li>Fastening hardware such as prong connector, screw, or ground plug
@@ -76,4 +77,4 @@ Depending on where you live or how your shop is wired up, power flickers and bri
 
 A backup UPS solves these issues by continuing to provide power to your computer and CNC temporarily when your shops power flickers off. This will allow you to either keep your LongMill running reliably, or if the power outage is severe, return it to a set point before waiting for power to return.
 
-You can find these on Amazon or big box stores, by searching up "UPS backup 1500VA." Good quality, high power UPS backups are around $200 CAD. Look for UPS devices with<strong> 1000-1500VA</strong> and at least <strong>4 plugs with</strong><span class="a-list-item"><strong> battery backup</strong> functionality. T</span>his should have enough power to sustain your machine and computer. Depending on the UPS, you can connect your router as well however we recommend prioritizing your CNC and computer first. For information on the power consumption of the LongMill, check <a href="https://sienci.com/faq/lm-faq/what-are-the-power-requirements-for-the-LongMill/">here</a>.
+You can find these on Amazon or big box stores, by searching up "UPS backup 1500VA." Good quality, high power UPS backups are around $200 CAD. Look for UPS devices with **1000-1500VA** and at least **4 plugs with** **battery backup** functionality. T</span>his should have enough power to sustain your machine and computer. Depending on the UPS, you can connect your router as well however we recommend prioritizing your CNC and computer first. For information on the power consumption of the LongMill, check <a href="https://sienci.com/faq/lm-faq/what-are-the-power-requirements-for-the-LongMill/">here</a>.

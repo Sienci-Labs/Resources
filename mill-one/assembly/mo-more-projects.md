@@ -29,9 +29,9 @@ A great starting project for the woodworker at heart. The hardness of wood varie
 
 The following box was designed by Andy. It’s beautiful in its simplicity and fits together nicely. Refer to our Feeds and Speeds table to set up your machine based on your choice of wood.
 
-<strong>Material:</strong> Any species of wood you wish, at least 22mm tall for the base and 13mm tall for the lid
-<strong>End Mill:</strong> 2-flute, 1/4″ end mill
-<strong>Cutting Time:</strong> 25 minutes
+<b>Material:</b> Any species of wood you wish, at least 22mm tall for the base and 13mm tall for the lid
+<b>End Mill:</b> 2-flute, 1/4″ end mill
+<b>Cutting Time:</b> 25 minutes
 
 ![](/_images/_mill-one/_assembly/mo_projects_p1_Box.jpg){.aligncenter .size-medium}
 
@@ -43,9 +43,9 @@ Acrylic is a sturdy and useful plastic, commonly used in robotics applications d
 
 This gear train was designed from scratch by Chris. If cut properly, minimal drilling should be required to use two M4 bolts and washers (or 8-32) and thread them into the gear train base.
 
-<strong>Material:</strong> 6mm acrylic
-<strong>End Mill:</strong> 2-flute, 1/8″ end mill
-<strong>Cutting Time:</strong> 14 minutes
+<b>Material:</b> 6mm acrylic
+<b>End Mill:</b> 2-flute, 1/8″ end mill
+<b>Cutting Time:</b> 14 minutes
 
 ![](/_images/_mill-one/_assembly/mo_projects_p2_Gear.jpg){.aligncenter .size-medium}
 
@@ -59,9 +59,9 @@ Choosing the right spindle speed for milling aluminum is a highly debated topic 
 
 Both of these fully functional bottle openers were designed by Chris. They have a sleek, industrial feel and are certainly conversation starters in any scenario.
 
-<strong>Material:</strong> 1/4″ and 2.15mm 6061 aluminum
-<strong>End Mill:</strong> 1-flute, 1/8″ or 3mm end mill
-<strong>Cutting Time:</strong> 12 minutes and 2 minutes
+<b>Material:</b> 1/4″ and 2.15mm 6061 aluminum
+<b>End Mill:</b> 1-flute, 1/8″ or 3mm end mill
+<b>Cutting Time:</b> 12 minutes and 2 minutes
 
 ![](/_images/_mill-one/_assembly/mo_projects_p3_BottleOpen.jpg){.aligncenter .size-medium}
 

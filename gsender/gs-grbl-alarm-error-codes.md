@@ -24,12 +24,12 @@ You can close an alarm by clicking on the button that appears next to it in the 
 ## Useful Commands
 
 <ul>
-  <li><strong>$</strong>   reminder of all grbl commands</li>
-  <li><strong>$$</strong>   lists all Firmware settings and their values</li>
-  <li><strong>$rst=$</strong>   resets all your EEPROM settings to the default Firmware values</li>
-  <li><strong>?</strong>   reports any active inputs plus some other useful info</li>
-  <li><strong>$i</strong>   tells you information on your board Firmware Version</li>
-  <li><strong>$#</strong>   all the currently stored machine offsets</li>
+  <li><b>$</b>   reminder of all grbl commands</li>
+  <li><b>$$</b>   lists all Firmware settings and their values</li>
+  <li><b>$rst=$</b>   resets all your EEPROM settings to the default Firmware values</li>
+  <li><b>?</b>   reports any active inputs plus some other useful info</li>
+  <li><b>$i</b>   tells you information on your board Firmware Version</li>
+  <li><b>$#</b>   all the currently stored machine offsets</li>
 </ul>
 
 ## <span style="color: #ff0000;">Alarms</span>
@@ -38,10 +38,10 @@ You can close an alarm by clicking on the button that appears next to it in the 
 <table>
 <tbody>
 <tr>
-<td><strong>Alarm Code</strong></td>
-<td><strong>Message</strong></td>
-<td><strong>Description</strong></td>
-<td><strong>Example</strong></td>
+<td><b>Alarm Code</b></td>
+<td><b>Message</b></td>
+<td><b>Description</b></td>
+<td><b>Example</b></td>
 </tr>
 <tr>
 <td>1</td>
@@ -107,10 +107,10 @@ You can close an alarm by clicking on the button that appears next to it in the 
 <table>
 <tbody>
 <tr>
-<td><strong>Error Code</strong></td>
-<td><strong>Message</strong></td>
-<td><strong>Description</strong></td>
-<td><strong>Example</strong></td>
+<td><b>Error Code</b></td>
+<td><b>Message</b></td>
+<td><b>Description</b></td>
+<td><b>Example</b></td>
 </tr>
 <tr>
 <td>1</td>

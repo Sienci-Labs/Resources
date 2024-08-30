@@ -33,7 +33,7 @@ This is the other one of our first projects, a sheep cut into foam that we call 
 
 <a href="https://resources.sienci.com/wp-content/uploads/2021/05/CNSheep-files3-1.zip">CNSheep-files.zip</a>
 
-When you're setting up to cut, follow the same setup procedure as outlined in the first project above except that the pre-built g-code starts in the <strong>middle</strong> instead of the front corner, so reset the zero point in the center. Any workholding method should be sufficient, you can reference these on the 'Workholding' page in 'The Basics' section of the resources. The sheep's dimensions are 100mm wide by 70mm tall and will cut 6mm deep.
+When you're setting up to cut, follow the same setup procedure as outlined in the first project above except that the pre-built g-code starts in the <b>middle</b> instead of the front corner, so reset the zero point in the center. Any workholding method should be sufficient, you can reference these on the 'Workholding' page in 'The Basics' section of the resources. The sheep's dimensions are 100mm wide by 70mm tall and will cut 6mm deep.
 
 ![](/_images/_longmill/_assembly/_starterprojects/lm_starterp_p2.jpg){.aligncenter .size-medium}
 
@@ -46,35 +46,35 @@ Now that you've got your machine running successfully, we've got a lot more info
 <table class="plain-vert-table">
 <tbody>
 <tr>
-<td><strong>Page</strong></td>
-<td><strong>Information you'll find </strong></td>
+<td><b>Page</b></td>
+<td><b>Information you'll find</b> </td>
 </tr>
 <tr>
-<td><a href="https://resources.sienci.com/view/lm-troubleshooting/"><strong>Common Issues and Fixes</strong></a></td>
+<td><a href="https://resources.sienci.com/view/lm-troubleshooting/"><b>Common Issues and Fixes</b></a></td>
 <td>If you noticed an issue with your LongMill while table mounting it or during a starter project, check out this page to help point out some easy things you can check in case something went wrong during assembly.</td>
 </tr>
 <tr>
-<td><a href="https://resources.sienci.com/view/assembling-add-ons/"><strong>Assembling Add-ons</strong></a></td>
+<td><a href="https://resources.sienci.com/view/assembling-add-ons/"><b>Assembling Add-ons</b></a></td>
 <td>If you ordered any add-ons alongside your LongMill, the instructions to assemble them are written here.</td>
 </tr>
 <tr>
-<td><strong><a href="https://resources.sienci.com/view/lm-surfacing-the-wasteboard/">Wasteboard Surfacing</a> </strong></td>
+<td><b><a href="https://resources.sienci.com/view/lm-surfacing-the-wasteboard/">Wasteboard Surfacing</a></b> </td>
 <td>Learn how to prepare a flat surface for cutting projects more reliably.</td>
 </tr>
 <tr>
-<td><a href="https://resources.sienci.com/view/lm-more-projects/"><strong>More Projects </strong></a></td>
+<td><a href="https://resources.sienci.com/view/lm-more-projects/"><b>More Projects</b> </a></td>
 <td>Try out some more starter projects or find inspiration for what to make next with your CNC by checking out our ideas list or seeing where to find projects online.</td>
 </tr>
 <tr>
-<td><a href="https://resources.sienci.com/view/lm-maintenance/"><strong>CNC Maintenance</strong></a></td>
+<td><a href="https://resources.sienci.com/view/lm-maintenance/"><b>CNC Maintenance</b></a></td>
 <td>Understand how to best maintain your LongMill so it can continue to carve reliably for whatever you use it for.</td>
 </tr>
 <tr>
-<td><strong>'<a href="https://resources.sienci.com/view/lm-the-basics/">The Basics</a>'</strong> and <strong>'<a href="https://resources.sienci.com/view/lm-software/">Software</a>'</strong> sections</td>
-<td>There are some of you who may have just completed assembling your LongMill but have yet to familiarize yourself with how your CNC operates or what software you'd like to use to run it, if that's the case we highly recommend going back to these previous sections where we cover everything from cutting tool terminology to even a <a href="https://resources.sienci.com/view/lm-choosing-software/#toolchain-wizard"><strong>Toolchain Wizard</strong> </a>we created which helps to you decide what software options are right for you.</td>
+<td><b>'<a href="https://resources.sienci.com/view/lm-the-basics/">The Basics</a>'</b> and <b>'<a href="https://resources.sienci.com/view/lm-software/">Software</a>'</b> sections</td>
+<td>There are some of you who may have just completed assembling your LongMill but have yet to familiarize yourself with how your CNC operates or what software you'd like to use to run it, if that's the case we highly recommend going back to these previous sections where we cover everything from cutting tool terminology to even a <a href="https://resources.sienci.com/view/lm-choosing-software/#toolchain-wizard"><b>Toolchain Wizard</b> </a>we created which helps to you decide what software options are right for you.</td>
 </tr>
 <tr>
-<td><a href="https://resources.sienci.com/view/lm-advanced/"><strong>Advanced</strong></a> section</td>
+<td><a href="https://resources.sienci.com/view/lm-advanced/"><b>Advanced</b></a> section</td>
 <td>If you start to feel really comfortable with your LongMill and want to start changing it to better suit your own needs, we've got even more information on changes and modifications here.</td>
 </tr>
 </tbody>
@@ -82,7 +82,7 @@ Now that you've got your machine running successfully, we've got a lot more info
 
 ## Our YouTube channel
 
-Did you know we have a <strong><a href="https://www.youtube.com/channel/UCS4SdQ0sqFhvjitLjh4EsGQ?">YouTube channel</a></strong> where you can find videos and tutorials on using your LongMill? We cover things like:
+Did you know we have a <b><a href="https://www.youtube.com/channel/UCS4SdQ0sqFhvjitLjh4EsGQ?">YouTube channel</a></b> where you can find videos and tutorials on using your LongMill? We cover things like:
 
 <ul>
 <li>How to go from idea to completed project</li>

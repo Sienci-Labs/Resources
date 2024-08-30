@@ -26,15 +26,15 @@ General recommended starting feeds and speeds for <a href="http://sienci.com/pro
 <table class="wp-table" width="70%">
 <tbody>
 <tr>
-<td><strong>Material</strong></td>
-<td><strong>Feed Rate (mm/ min)</strong></td>
-<td><strong>Plunge Rate (mm/ min)</strong></td>
-<td><strong>Step Over</strong></td>
-<td><strong>Step Down (mm)</strong></td>
-<td><strong>Spindle Speed (RPM)</strong></td>
+<td><b>Material</b></td>
+<td><b>Feed Rate (mm/ min)</b></td>
+<td><b>Plunge Rate (mm/ min)</b></td>
+<td><b>Step Over</b></td>
+<td><b>Step Down (mm)</b></td>
+<td><b>Spindle Speed (RPM)</b></td>
 </tr>
 <tr>
-<td><strong>Wood (general)</strong></td>
+<td><b>Wood (general)</b></td>
 <td>1000</td>
 <td>250</td>
 <td>0.40</td>
@@ -42,7 +42,7 @@ General recommended starting feeds and speeds for <a href="http://sienci.com/pro
 <td>20,000</td>
 </tr>
 <tr>
-<td><strong>Pine / Cedar</strong></td>
+<td><b>Pine / Cedar</b></td>
 <td>1400</td>
 <td>250</td>
 <td>0.45</td>
@@ -50,7 +50,7 @@ General recommended starting feeds and speeds for <a href="http://sienci.com/pro
 <td>20,000</td>
 </tr>
 <tr>
-<td><strong>Maple / Oak / Cherry</strong></td>
+<td><b>Maple / Oak / Cherry</b></td>
 <td>1000</td>
 <td>250</td>
 <td>0.40</td>
@@ -58,7 +58,7 @@ General recommended starting feeds and speeds for <a href="http://sienci.com/pro
 <td>20,000</td>
 </tr>
 <tr>
-<td><strong>Walnut</strong></td>
+<td><b>Walnut</b></td>
 <td>900</td>
 <td>250</td>
 <td>0.40</td>
@@ -66,7 +66,7 @@ General recommended starting feeds and speeds for <a href="http://sienci.com/pro
 <td>20,000</td>
 </tr>
 <tr>
-<td><strong>Plywood</strong></td>
+<td><b>Plywood</b></td>
 <td>1200</td>
 <td>250</td>
 <td>0.40</td>
@@ -81,15 +81,15 @@ And for <a href="https://sienci.com/product/1-4-spiral-up-cut-end-mill/" target=
 <table class="wp-table" width="70%">
 <tbody>
 <tr>
-<td><strong>Material</strong></td>
-<td><strong>Feed Rate (mm/ min)</strong></td>
-<td><strong>Plunge Rate (mm/ min)</strong></td>
-<td><strong>Step Over</strong></td>
-<td><strong>Step Down (mm)</strong></td>
-<td><strong>Spindle Speed (RPM)</strong></td>
+<td><b>Material</b></td>
+<td><b>Feed Rate (mm/ min)</b></td>
+<td><b>Plunge Rate (mm/ min)</b></td>
+<td><b>Step Over</b></td>
+<td><b>Step Down (mm)</b></td>
+<td><b>Spindle Speed (RPM)</b></td>
 </tr>
 <tr>
-<td><strong>Wood (general)</strong></td>
+<td><b>Wood (general)</b></td>
 <td>1000</td>
 <td>250</td>
 <td>0.40</td>
@@ -97,7 +97,7 @@ And for <a href="https://sienci.com/product/1-4-spiral-up-cut-end-mill/" target=
 <td>18,000</td>
 </tr>
 <tr>
-<td><strong>Pine / Cedar</strong></td>
+<td><b>Pine / Cedar</b></td>
 <td>1400</td>
 <td>250</td>
 <td>0.45</td>
@@ -105,7 +105,7 @@ And for <a href="https://sienci.com/product/1-4-spiral-up-cut-end-mill/" target=
 <td>18,000</td>
 </tr>
 <tr>
-<td><strong>Maple / Oak / Cherry</strong></td>
+<td><b>Maple / Oak / Cherry</b></td>
 <td>1000</td>
 <td>250</td>
 <td>0.40</td>
@@ -113,7 +113,7 @@ And for <a href="https://sienci.com/product/1-4-spiral-up-cut-end-mill/" target=
 <td>18,000</td>
 </tr>
 <tr>
-<td><strong>Walnut</strong></td>
+<td><b>Walnut</b></td>
 <td>900</td>
 <td>250</td>
 <td>0.40</td>
@@ -121,7 +121,7 @@ And for <a href="https://sienci.com/product/1-4-spiral-up-cut-end-mill/" target=
 <td>18,000</td>
 </tr>
 <tr>
-<td><strong>Plywood</strong></td>
+<td><b>Plywood</b></td>
 <td>1200</td>
 <td>250</td>
 <td>0.40</td>
@@ -212,15 +212,15 @@ Rigid foam is a super easy, soft material to cut. Most of the time, you can cut 
 <table class="wp-table" width="70%">
 <tbody>
 <tr>
-<td><strong>Material</strong></td>
-<td><strong>Feed Rate (mm/ min)</strong></td>
-<td><strong>Plunge Rate (mm/ min)</strong></td>
-<td><strong>Step Over</strong></td>
-<td><strong>Step Down (mm)</strong></td>
-<td><strong>Spindle Speed (RPM)</strong></td>
+<td><b>Material</b></td>
+<td><b>Feed Rate (mm/ min)</b></td>
+<td><b>Plunge Rate (mm/ min)</b></td>
+<td><b>Step Over</b></td>
+<td><b>Step Down (mm)</b></td>
+<td><b>Spindle Speed (RPM)</b></td>
 </tr>
 <tr>
-<td><strong>Foam (rigid closed-cell)</strong></td>
+<td><b>Foam (rigid closed-cell)</b></td>
 <td>2500</td>
 <td>800</td>
 <td>0.7</td>
@@ -258,15 +258,15 @@ Aluminum comes in a variety of different alloys. We will primarily be talking ab
 <table class="wp-table" width="70%">
 <tbody>
 <tr>
-<td><strong>Material</strong></td>
-<td><strong>Feed Rate (mm/ min)</strong></td>
-<td><strong>Plunge Rate (mm/ min)</strong></td>
-<td><strong>Step Over</strong></td>
-<td><strong>Step Down (mm)</strong></td>
-<td><strong>Spindle Speed (RPM)</strong></td>
+<td><b>Material</b></td>
+<td><b>Feed Rate (mm/ min)</b></td>
+<td><b>Plunge Rate (mm/ min)</b></td>
+<td><b>Step Over</b></td>
+<td><b>Step Down (mm)</b></td>
+<td><b>Spindle Speed (RPM)</b></td>
 </tr>
 <tr>
-<td><strong>6061 Aluminum</strong></td>
+<td><b>6061 Aluminum</b></td>
 <td>1200</td>
 <td>100</td>
 <td>0.2</td>

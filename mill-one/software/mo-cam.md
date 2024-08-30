@@ -23,7 +23,7 @@ Once you've created your parts, you will then need a CAM program to generate the
 
 When it comes to using a CNC machine, it's essential to find a CAM software that you're most comfortable with. This will enable you to quickly transition from drawing/modelling to creating your g-code so that you can start cutting right away. For beginners, we have two great suggestions for software that is simple, free, and cloud-based. You can find links to the software below, along with introductory videos.
 
-<strong>Note:</strong> it's important to know that CAM software will always do what you tell it to do. This means that if you tell the software that your material is 10mm thick and it's only 5mm thick, the machine WILL mill into your platform. Double-checking your numbers and visualizing your code is always important before starting a cutting operation.
+<b>Note:</b> it's important to know that CAM software will always do what you tell it to do. This means that if you tell the software that your material is 10mm thick and it's only 5mm thick, the machine WILL mill into your platform. Double-checking your numbers and visualizing your code is always important before starting a cutting operation.
 
 ### <a href="http://camlab.sienci.com/camlab" target="_blank" rel="noopener">CAMLab</a> (3D Models)
 

@@ -29,7 +29,7 @@ The assembly is shown after the initial reveal in the following video:
 
 This guide will help you set up and use your Sienci Labs Touch Plate with gSender or UGS. If you have a different touch plate that's still a standard block shape these steps may help you set up yours as well.
 
-<strong>Inside the package: </strong>
+<b>Inside the package:</b>
 
 <ol>
 <li>One touch plate</li>
@@ -63,9 +63,9 @@ gSender comes pre-loaded with all the settings needed for our touch plate and is
 All probing happens in the Probe tab in the main window. Here you can select what type of probing you'd like to perform as well as select the tool you'll be using or you can type in the tool size manually.
 
 <ul>
-<li><strong>Z</strong>: Finds the Z height only.</li>
-<li><strong>XYZ</strong>: Finds the zero point on the front,left corner of your material in all axes.</li>
-<li><strong>XY, X, Y</strong>: Finds the zero point in the X and/or Y directions only.</li>
+<li><b>Z</b>: Finds the Z height only.</li>
+<li><b>XYZ</b>: Finds the zero point on the front,left corner of your material in all axes.</li>
+<li><b>XY, X, Y</b>: Finds the zero point in the X and/or Y directions only.</li>
 </ul>
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p2Real.png){.aligncenter .size-medium}
@@ -87,30 +87,30 @@ Start by going to the top of your screen and clicking Window -&gt; Plugin -&gt; 
 Next, we will change a few settings. Click on the "Settings" button on the plugin.
 
 <ul>
-<li><strong>Units: </strong>choose between millimeters and inches. For this guide, we will be using <span style="color: #ff0000;"><em>millimeters</em></span>.</li>
-<li><strong>End Mill Diameter: </strong>the diameter of the end mill you will be using. You can find this diameter based on your manufacturer's specs, or you can measure it yourself.</li>
-<li><strong>Fast Find Rate: </strong>the speed the machine will move to touch off the touch plate on the first pass. Set this to <span style="color: #ff0000;"><em>150</em></span>.</li>
-<li><strong>Slow Find Rate: </strong>the speed the machine will move to touch off the touch plate on the second pass. Set this to <em><span style="color: #ff0000;">25</span>.</em></li>
-<li><strong>Retract Amount: </strong>how far your tool moves away from the touch plate on its first touch off. Keep this setting at <em><span style="color: #ff0000;">1</span>.</em></li>
+<li><b>Units:</b> choose between millimeters and inches. For this guide, we will be using <span style="color: #ff0000;"><em>millimeters</em></span>.</li>
+<li><b>End Mill Diameter:</b> the diameter of the end mill you will be using. You can find this diameter based on your manufacturer's specs, or you can measure it yourself.</li>
+<li><b>Fast Find Rate: </b>the speed the machine will move to touch off the touch plate on the first pass. Set this to <span style="color: #ff0000;"><em>150</em></span>.</li>
+<li><b>Slow Find Rate: </b>the speed the machine will move to touch off the touch plate on the second pass. Set this to <em><span style="color: #ff0000;">25</span>.</em></li>
+<li><b>Retract Amount: </b>how far your tool moves away from the touch plate on its first touch off. Keep this setting at <em><span style="color: #ff0000;">1</span>.</em></li>
 </ul>
 
 Within the left side of the plugin, you'll also see a few more tabs
 
 <ul>
-<li><strong>XYZ</strong>: Finds the origin/datum point on the corner of your material in all axes.</li>
-<li><strong>XY</strong>: Finds the origin/datum point in the X and Y direction only.</li>
-<li><strong>Z</strong>: Finds the Z height only.</li>
+<li><b>XYZ</b>: Finds the origin/datum point on the corner of your material in all axes.</li>
+<li><b>XY</b>: Finds the origin/datum point in the X and Y direction only.</li>
+<li><b>Z</b>: Finds the Z height only.</li>
 </ul>
 
-In these sections, makes sure that these settings are changed. If your section does not have that setting available to change, you can skip it. This means that in the <strong>X</strong><strong>YZ</strong> tab you'll enter all these settings, in the <strong>XY</strong> tab you'll only use the settings pertaining to the <strong>x and y-directions</strong>, and in the <strong>Z</strong> tab you'll only use the settings pertaining to the <strong>z-direction</strong>.
+In these sections, makes sure that these settings are changed. If your section does not have that setting available to change, you can skip it. This means that in the **XYZ** tab you'll enter all these settings, in the **XY** tab you'll only use the settings pertaining to the **x and y-directions**, and in the **Z** tab you'll only use the settings pertaining to the **z-direction**.
 
 <ul>
-<li><strong>Probe X Distance:</strong> <span style="color: #ff0000;"><strong>25</strong></span></li>
-<li><strong>Probe Y Distance: <span style="color: #ff0000;">25</span></strong></li>
-<li><strong>Probe X Offset: <span style="color: #ff0000;">10</span></strong></li>
-<li><strong>Probe Y Offset: <span style="color: #ff0000;">10</span></strong></li>
-<li><strong>Probe Distance/Direction: <span style="color: #ff0000;">-15</span></strong> (make sure this value is <strong>negative</strong>)</li>
-<li><strong>Touch Plate Thickness:</strong> <span style="color: #ff0000;"><strong>15</strong></span></li>
+<li><b>Probe X Distance:</b> <span style="color: #ff0000;"><b>25</b></span></li>
+<li><b>Probe Y Distance: <span style="color: #ff0000;">25</span></b></li>
+<li><b>Probe X Offset: <span style="color: #ff0000;">10</span></b></li>
+<li><b>Probe Y Offset: <span style="color: #ff0000;">10</span></b></li>
+<li><b>Probe Distance/Direction: <span style="color: #ff0000;">-15</span></b> (make sure this value is <b>negative</b>)</li>
+<li><b>Touch Plate Thickness:</b> <span style="color: #ff0000;"><b>15</b></span></li>
 </ul>
 [tabbyending]
 
@@ -144,7 +144,7 @@ You can either bring the touch plate to the end mill or touch the banana plug an
 
 Pressing 'Start Probe' will now make the machine move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press ‘Go to XY0’. The bit should be over-top of the bottom left corner of the stock material, and pressing ‘Go to’ next to the ‘Zero Z’ should bring it to touch the materials surface.
 
-If the probing was <strong>unsuccessful</strong>, then it'll be indicated by the cutting bit not returning to where you started the probe cycle or the machine will be put into an 'ALARM' state. To bring it out of the alarm state, press the pulsing 'Unlock' button in the middle of the visualizer and that will put the machine back into its 'IDLE' state. An unsuccessful probing cycle can result from an incorrectly positioned probe or starting too far outside the circular logo. Be sure to verify your setup before attempting another probing cycle.
+If the probing was **unsuccessful**, then it'll be indicated by the cutting bit not returning to where you started the probe cycle or the machine will be put into an 'ALARM' state. To bring it out of the alarm state, press the pulsing 'Unlock' button in the middle of the visualizer and that will put the machine back into its 'IDLE' state. An unsuccessful probing cycle can result from an incorrectly positioned probe or starting too far outside the circular logo. Be sure to verify your setup before attempting another probing cycle.
 
 [tabby title="UGS"]
 
@@ -154,7 +154,7 @@ If the probing function is successful, then the machine should return the bit ba
 
 You can check that it's now zeroed on the material corner by first taking the touch plate off the material and removing the magnet from the router collet before pressing "Return to Zero".
 
-If the probing was <strong>unsuccessful</strong>, then it'll be indicated by the cutting bit not returning to where you started the probe cycle or the machine will be put into an 'ALARM' state. To bring it out of the alarm state, press the "Soft Reset" button followed by the "Unlock" button and that will put the machine back into its 'IDLE' state. An unsuccessful probing cycle can result from an incorrectly positioned probe, the magnet not attached to the collet properly, starting too far outside the circular logo, and the probe not being plugged into the controller. Be sure to verify your setup before attempting another probing cycle.
+If the probing was **unsuccessful**, then it'll be indicated by the cutting bit not returning to where you started the probe cycle or the machine will be put into an 'ALARM' state. To bring it out of the alarm state, press the "Soft Reset" button followed by the "Unlock" button and that will put the machine back into its 'IDLE' state. An unsuccessful probing cycle can result from an incorrectly positioned probe, the magnet not attached to the collet properly, starting too far outside the circular logo, and the probe not being plugged into the controller. Be sure to verify your setup before attempting another probing cycle.
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p7_USGAlarm.png){.aligncenter .size-medium}
 
@@ -191,7 +191,8 @@ Here are some other options you can use when probing:
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p9_AllProbe.png "Cutting tool positions for each probe type"){.aligncenter .size-medium}
 
-<strong>Concluding notes:</strong>
+<b>Concluding notes:</b>
+
 You may have some issues with using your touch probe if your cutting tool is:
 
 <ul>
@@ -232,7 +233,7 @@ Closing the settings menu will save your changes. Your interface will update at 
 
 ### Step 3: Setting up the touch plate on your workpiece
 
-The AutoZero can find the X, Y, and Z coordinates on rectangular pieces of material. <strong>The material should be square and flat to get the best reading.</strong> The AutoZero can also find the Z-height of most flat materials as well regardless of their shape.
+The AutoZero can find the X, Y, and Z coordinates on rectangular pieces of material. **The material should be square and flat to get the best reading.** The AutoZero can also find the Z-height of most flat materials as well regardless of their shape.
 
 Start off by plugging the green pluggable terminal into the controller. Make sure that it is in the PROBE/GND terminal.
 
@@ -252,15 +253,15 @@ Before you begin, make sure that both the touch plate is connected and the magne
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p15.png){.aligncenter .size-medium .nar}
 
-<strong>For the "Z" Axis probe, </strong>the machine will move down and touch off the block to find the offset distance based on the touch plate's thickness. Set the end mill above the back lip of the touch plate which is designed for doing Z probes.
+**For the "Z" Axis probe,** the machine will move down and touch off the block to find the offset distance based on the touch plate's thickness. Set the end mill above the back lip of the touch plate which is designed for doing Z probes.
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p16.png){.aligncenter .size-medium}
 
-<strong>For all other probing (XYZ etc...), </strong>jog the machine over the inner square before starting the process. Your end mill should be above the square so that when the machine starts to move down, the first surface your bit touches is that square.
+**For all other probing (XYZ etc...),** jog the machine over the inner square before starting the process. Your end mill should be above the square so that when the machine starts to move down, the first surface your bit touches is that square.
 
 During the probing process, the touch plate may slide during the touch off process. It is recommended to keep a hand against the plate to prevent it from sliding around being careful that your hand isn't in the way of the end mill.
 
-You'll also have the option for choosing which tool you're using, either "Auto" or "Tip". <strong>Auto</strong> measures the diameter on <strong>straight end mills and bits. </strong>On the other hand, <strong>Tip </strong>uses the tip of <strong>v-bits, tapered bits, and ball nose</strong> bits touching against the bottom chamfer to determine its position. Using the correct setting will ensure the most accurate probing for your bit.
+You'll also have the option for choosing which tool you're using, either "Auto" or "Tip". **Auto** measures the diameter on **straight end mills and bits.** On the other hand, **Tip** uses the tip of **v-bits, tapered bits, and ball nose** bits touching against the bottom chamfer to determine its position. Using the correct setting will ensure the most accurate probing for your bit.
 
 <em>Finally, </em>click on the probe to check the continuity and start the probing process.
 

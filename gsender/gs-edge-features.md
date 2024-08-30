@@ -149,7 +149,7 @@ Once the toggle has been turned to display, you will see an additional tab at th
 1. **Y axis Alignment** - Automatically probe to align the Y axis along the A axis (Turn rotary mode off to access this feature)
 1. **Rotary Mounting Setup** - Drill holes in your wasteboard to mount our own <a href="https://sienci.com/product/vortex-rotary-axis/">Vortex Rotary</a> track (Turn rotary mode off to access this feature)
 
-<em><strong>Note:</strong> Before switching to rotary mode, using the jog controls, rotary surfacing, or any other rotary actions, you’ll need to check that you’ve got your rotary set up and positioned correctly. This includes table mounting and Y-axis alignment, outlined below.</em>
+<em><b>Note:</b> Before switching to rotary mode, using the jog controls, rotary surfacing, or any other rotary actions, you’ll need to check that you’ve got your rotary set up and positioned correctly. This includes table mounting and Y-axis alignment, outlined below.</em>
 
 #### Rotary Mounting Setup
 
@@ -234,7 +234,7 @@ Rotary surfacing is similar to the regular XYZ surfacing tool. Let’s explore t
 ![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_diameter-end.jpg){.aligncenter .size-full .nar}
 1. With a starting height of 90mm and a finished height of 63.5mm, we are removing 26.5mm of material. **However**, since we have the Z axis set at the center of the material, we will need to divide that 26.5mm in half. We are basically taking 13.25mm off of the top and the bottom. If you want a single pass, your stepdown would be 13.25mm. Dividing that by two and setting the stepdown to 6.625mm, means that we will be doing two passes. This will produce a piece of round stock with the maximum diameter possible.
 
-<p style="text-align: center;"><strong>(Start Height - Finishing Height) / 2 = Total Stepdown for ONE pass</strong></p>
+<p style="text-align: center;"><b>(Start Height - Finishing Height) / 2 = Total Stepdown for ONE pass</b></p>
 
 ![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_running.gif){.aligncenter .size-medium .nar}
 

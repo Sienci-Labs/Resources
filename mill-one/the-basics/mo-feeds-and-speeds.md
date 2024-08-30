@@ -23,19 +23,19 @@ When cutting, the tool can be pushed away from where it should be since it's not
 
 ## Terminology
 
-<strong>Feed rate:</strong> how quickly the tool moves in the X and Y directions, usually defined in millimeters (or inches) per minute.
+<b>Feed rate:</b> how quickly the tool moves in the X and Y directions, usually defined in millimeters (or inches) per minute.
 
-<strong>Plunge rate:</strong> how quickly the tool moves in the Z direction, usually defined in millimeters (or inches) per minute.
+<b>Plunge rate:</b> how quickly the tool moves in the Z direction, usually defined in millimeters (or inches) per minute.
 
-<strong>Spindle speed:</strong> the speed that the tool spins in the rotary tool, defined in RPM (rotations per minute). Most compact routers operate at speeds between 10,000 and 30,000 RPM.
+<b>Spindle speed:</b> the speed that the tool spins in the rotary tool, defined in RPM (rotations per minute). Most compact routers operate at speeds between 10,000 and 30,000 RPM.
 
-<strong>Depth of cut/ Step down:</strong> the amount of depth that the CNC machine removes with every cutting pass, defined in millimeters or inches.
+<b>Depth of cut/ Step down:</b> the amount of depth that the CNC machine removes with every cutting pass, defined in millimeters or inches.
 
-<strong>Step over:</strong> the offset that is applied between the old cutting pass and the new one, usually defined as a percentage of the tool's cutting diameter.
+<b>Step over:</b> the offset that is applied between the old cutting pass and the new one, usually defined as a percentage of the tool's cutting diameter.
 
 ## Recommendations
 
-These feeds and speeds are meant to be a starting point in finding the right parameters that work best for your setup. Feeds and speeds listed on this page have been tested to work with <strong>2-flute, 1/8" carbide end mills</strong>, the type of cutting tool that is most readily available <a href="https://sienci.com/product-category/cutting-tools/" target="_blank" rel="noopener">in our store</a>.
+These feeds and speeds are meant to be a starting point in finding the right parameters that work best for your setup. Feeds and speeds listed on this page have been tested to work with <b>2-flute, 1/8" carbide end mills</b>, the type of cutting tool that is most readily available <a href="https://sienci.com/product-category/cutting-tools/" target="_blank" rel="noopener">in our store</a>.
 
 Unless you're doing 3D contour cutting where the z-axis moves up and down a lot, we usually recommended lower plunge rates (100mm/min to 300mm/min) for most materials.
 

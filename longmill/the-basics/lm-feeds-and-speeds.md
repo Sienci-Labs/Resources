@@ -29,11 +29,11 @@ Each of these factors must be suited to the properties of the material that you'
 
 ## Terminology
 
-<strong>Feed rate:</strong> how quickly the tool moves in the X and Y directions, usually defined in millimeters (or inches) per minute.<br>
-<strong>Plunge rate:</strong> how quickly the tool moves in the Z direction, usually defined in millimeters (or inches) per minute.<br>
-<strong>Spindle speed:</strong> the speed that the tool spins in the rotary tool, defined in RPM (rotations per minute). Most compact routers operate at speeds between 10,000 and 30,000 RPM.<br>
-<strong>Depth of cut/Step down:</strong> the amount of depth that the CNC machine removes with every cutting pass, defined in millimeters or inches.<br>
-<strong>Step over:</strong> the offset that is applied between the old cutting pass and the new one, usually defined as a percentage of the tool's cutting diameter.
+<b>Feed rate:</b> how quickly the tool moves in the X and Y directions, usually defined in millimeters (or inches) per minute.<br>
+<b>Plunge rate:</b> how quickly the tool moves in the Z direction, usually defined in millimeters (or inches) per minute.<br>
+<b>Spindle speed:</b> the speed that the tool spins in the rotary tool, defined in RPM (rotations per minute). Most compact routers operate at speeds between 10,000 and 30,000 RPM.<br>
+<b>Depth of cut/Step down:</b> the amount of depth that the CNC machine removes with every cutting pass, defined in millimeters or inches.<br>
+<b>Step over:</b> the offset that is applied between the old cutting pass and the new one, usually defined as a percentage of the tool's cutting diameter.
 
 ## Recommendations
 
@@ -41,7 +41,7 @@ Since there are so many different types and sizes of cutting tools, we've create
 
 Ensure that any cutting tool you end up using is installed as deeply as possible into the router, with a bare-minimum of 3/8” of the tool being inside the router for light cuts.
 
-These feeds and speeds are meant to be a starting point in finding the right parameters that work best for your setup. Feeds and speeds listed on this page have been tested to work with <strong>2-flute, 1/8" carbide end mills</strong>, the type of cutting tool that is most readily available <a href="http://sienci.com/product/18-flat-end-mill/" target="_blank" rel="noopener noreferrer">in our store</a>. Unless you're doing 3D contour cutting where the z-axis moves up and down a lot, we usually recommended lower plunge rates (100mm/min to 300mm/min) for most materials. You'll need to know the speed range of the Makita RT0701:
+These feeds and speeds are meant to be a starting point in finding the right parameters that work best for your setup. Feeds and speeds listed on this page have been tested to work with <b>2-flute, 1/8" carbide end mills</b>, the type of cutting tool that is most readily available <a href="http://sienci.com/product/18-flat-end-mill/" target="_blank" rel="noopener noreferrer">in our store</a>. Unless you're doing 3D contour cutting where the z-axis moves up and down a lot, we usually recommended lower plunge rates (100mm/min to 300mm/min) for most materials. You'll need to know the speed range of the Makita RT0701:
 
 <table class="wp-table" width="70%">
 <tbody>

@@ -71,7 +71,7 @@ Now slide one rail onto the wheels of each of the Y-gantries from the back (pict
 
 ![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p14.JPG){.aligncenter .size-medium}
 
-Leave this sitting for a second while you collect the two front feet assemblies and four more M8-16 bolts (found in the orange bag) in preparation for this next step. You’ll have to make a combined motion where you tilt the X-axis rail assembly backwards while you finish sliding the Y-axis rails all the way on. <strong>Be very careful while doing this.</strong> It’s possible to lose control of the heavy components and have them fall away from you and become damaged.
+Leave this sitting for a second while you collect the two front feet assemblies and four more M8-16 bolts (found in the orange bag) in preparation for this next step. You’ll have to make a combined motion where you tilt the X-axis rail assembly backwards while you finish sliding the Y-axis rails all the way on. <b>Be very careful while doing this.</b> It’s possible to lose control of the heavy components and have them fall away from you and become damaged.
 
 Once you’ve slid the rails all the way on to the X-axis rail assembly, use the two front foot assemblies we collected earlier. Sliding them into place and mounting them to the front of each rail on their respective sides with two bolts each and a size 6 Allen key will help to keep the large assembly more stable.
 

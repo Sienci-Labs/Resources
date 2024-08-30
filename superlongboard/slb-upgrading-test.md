@@ -15,9 +15,9 @@ skip_file: no
 featured_image: _images/_superlongboard/LB2SLB_pone.jpg
 ---
 
-Congrats on upgrading to our newest and most powerful CNC controller to date, the <strong>SuperLongBoard</strong>!
+Congrats on upgrading to our newest and most powerful CNC controller to date, the <b>SuperLongBoard</b>!
 
-Our main goal in this section is to have you go in with a working CNC, then leave with an <strong>SLB-boosted machine</strong> without skipping a beat. This guide will be mostly written with LongMill owners in mind who have the older LongBoard (<strong>LB, pictured on the left</strong>) that they’ll be swapping out for the SuperLongBoard (<strong>SLB, on the right</strong>), though there will be minimal differences for other CNC owners with a LongBoard.
+Our main goal in this section is to have you go in with a working CNC, then leave with an <b>SLB-boosted machine</b> without skipping a beat. This guide will be mostly written with LongMill owners in mind who have the older LongBoard (<b>LB, pictured on the left</b>) that they’ll be swapping out for the SuperLongBoard (<b>SLB, on the right</b>), though there will be minimal differences for other CNC owners with a LongBoard.
 
 ![](/_images/_superlongboard/LB2SLB_pone.jpg){.aligncenter .size-medium}
 
@@ -25,16 +25,16 @@ Our main goal in this section is to have you go in with a working CNC, then leav
 
 In the box you’ll find:
 <ul>
-  <li>Your new <strong>SuperLongBoard</strong> inside it’s aluminum enclosure</li>
-  <li><strong>E-stop</strong> with 3 additional ‘Action Buttons’ that are customizable</li>
-  <li><strong>E-stop cable</strong>, plenty long to increase mounting options</li>
-  <li>And a <strong>USB-C cable</strong>, MK2 <strong>mounting hardware</strong>, and some <strong>spare connectors</strong></li>
+  <li>Your new <b>SuperLongBoard</b> inside it’s aluminum enclosure</li>
+  <li><b>E-stop</b> with 3 additional ‘Action Buttons’ that are customizable</li>
+  <li><b>E-stop cable</b>, plenty long to increase mounting options</li>
+  <li>And a <b>USB-C cable</b>, MK2 <b>mounting hardware</b>, and some <b>spare connectors</b></li>
 </ul>
 The only other parts that you’ll need to supply yourself are:
 <ul>
-  <li>The minimum <strong>24V 10A power supply</strong> needed to run the SLB (you can use the one your LongBoard currently uses)</li>
-  <li>Your <strong>CNC machine</strong>, already tested to be working using its existing LongBoard</li>
-  <li>A <strong>computer running gSender</strong> with a free USB port</li>
+  <li>The minimum <b>24V 10A power supply</b> needed to run the SLB (you can use the one your LongBoard currently uses)</li>
+  <li>Your <b>CNC machine</b>, already tested to be working using its existing LongBoard</li>
+  <li>A <b>computer running gSender</b> with a free USB port</li>
 </ul>
 
 ![](/_images/_superlongboard/LB2SLB_p3.jpg){.aligncenter .size-medium}
@@ -47,7 +47,7 @@ Unscrew the top-right thumbscrew a couple turns (pictured) then slide the cover 
 
 ## Preparation
 
-Before diving into rewiring, we’d first suggest you note down any firmware changes that are unique about your setup. You can do this by connecting to your CNC in gSender and using the Firmware Tool to find sections that are <strong>highlighted in yellow</strong>. In the example below, you can see that the maximum travel is different from the standard MK2 12x30.
+Before diving into rewiring, we’d first suggest you note down any firmware changes that are unique about your setup. You can do this by connecting to your CNC in gSender and using the Firmware Tool to find sections that are <b>highlighted in yellow</b>. In the example below, you can see that the maximum travel is different from the standard MK2 12x30.
 
 ![](/_images/_superlongboard/LB2SLB_p2.jpg){.aligncenter .size-medium}
 

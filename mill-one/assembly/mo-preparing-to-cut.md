@@ -19,7 +19,7 @@ Before using the Mill One's cutting space, we'll need to physically prepare the 
 
 The following video will talk about common workholding methods that you can use on your Mill One, introduce how to use Universal G-code Sender, and show you how to mill the sacrificial board. The platform levelling g-code can be downloaded <a href="https://resources.sienci.com/wp-content/uploads/2021/05/platform-levelling.zip" rel="noopener">here</a>.
 
-<strong>Note:</strong> if you have a Mac and are having issues connecting with UGS, try re-opening the Arduino IDE to see what the name of the connection to the machine is, then copy this name back into UGS and click "Open".
+<b>Note:</b> if you have a Mac and are having issues connecting with UGS, try re-opening the Arduino IDE to see what the name of the connection to the machine is, then copy this name back into UGS and click "Open".
 
 [su_youtube_advanced url="https://www.youtube.com/watch?v=aCVZ8CV5q6E" rel="no" modestbranding="yes" title="This video will explain how to prepare your Mill One to start cutting your first projects."]
 

@@ -23,7 +23,7 @@ T-tracks allow you to insert a variety of clamps along their length, such as toe
 
 ![](/_images/_longmill/_the-basics/lm_workholding_p1_TTracks.PNG){.aligncenter .size-medium}
 
-<strong>Tips:</strong>
+<b>Tips:</b>
 
 <ul>
 <li>Putting t-track in then putting thicker MDF slats in between like in the photo allows you to mill off the surface of the MDF to get a perfectly flat surface relative to your machine. It also enables you to make smaller wasteboard replacements, instead of needing to replace the whole board.</li>
@@ -37,7 +37,7 @@ One of the fastest ways to hold down your material is to screw it directly into 
 
 ![](/_images/_longmill/_the-basics/lm_workholding_p2_Screws.jpg){.aligncenter .size-medium}
 
-<strong>Tips:</strong>
+<b>Tips:</b>
 
 <ul>
 <li>If the part that you're cutting out has holes, try separating your job to cut the holes first, then use the holes to put the screws to hold down your part. This works well if your piece is going to come loose after you cut your part out.</li>
@@ -51,7 +51,7 @@ Screw-in threaded inserts especially ones that are designed for wood is a quick 
 
 ![](/_images/_longmill/_the-basics/lm_workholding_p3_ThreadedIn.jpg){.aligncenter .size-medium}
 
-<strong>Tips:</strong>
+<b>Tips:</b>
 
 <ul>
 <li>Program your machine to put evenly spaced holes. Make sure to check that your holes are the correct size before you perforate your whole wasteboard. Add a counterbore if you want to sink the inserts below your wasteboard.</li>
@@ -66,7 +66,7 @@ An alternate to carpet tape can be painters tape which is attached to both the b
 
 ![](/_images/_longmill/_the-basics/lm_workholding_p4_Tape.jpg){.aligncenter .size-medium}
 
-<strong>Tips:</strong>
+<b>Tips:</b>
 
 <ul>
 <li>Ensure surfaces are clean before applying the tape.</li>
@@ -80,7 +80,7 @@ Hot glue is a great workholding option for both flat and irregularly shaped mate
 
 ![](/_images/_longmill/_the-basics/lm_workholding_p5_HotGlue.jpg){.aligncenter .size-medium}
 
-<strong>Tips:</strong>
+<b>Tips:</b>
 
 <ul>
 <li>Hot glue will sometimes take chunks out of your material, especially with foam and soft wood. You can prevent damaging your work by applying glue strategically in areas that are not cosmetically important or apply it in thin layers which are easy to peel off.</li>
@@ -93,7 +93,7 @@ Vises come in all shapes and sizes for hundreds of applications. Because of it's
 
 ![](/_images/_longmill/_the-basics/lm_workholding_p6_Vise.jpg){.aligncenter .size-medium}
 
-<strong>Tips:</strong>
+<b>Tips:</b>
 
 <ul>
 <li>Tall vises will decrease the height that the Z axis can travel. Make sure to pick a suitable vise which allows for enough clearance.</li>

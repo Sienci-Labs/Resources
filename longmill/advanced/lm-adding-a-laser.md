@@ -25,20 +25,20 @@ Please note that lasers are very dangerous. Sienci Labs is not responsible for i
   <li>Always wear eye protection, specifically laser safety glasses with the correct Optical density (OD) to match your laser's wavelength range (nm)</li>
   <li>Never point the laser at other people or yourself</li>
   <li>Cut in a well-ventilated area or have a way to remove smoke</li>
-  <li><span class="redText"><span style="color: #d22329;"><strong>DO NOT CUT/ENGRAVE:</strong> <strong>PVC, ABS, Fibreglass,</strong><strong> and any other materials that emit toxic fumes when cut</strong></span></span></li>
+  <li><span class="redText"><span style="color: #d22329;"><b>DO NOT CUT/ENGRAVE:</b> <b>PVC, ABS, Fibreglass,</b><b> and any other materials that emit toxic fumes when cut</b></span></span></li>
   <li>Never leave the machine and laser unattended, and make sure that you always have the equipment on hand to deal with fires</li>
 </ul>
 
 In this application, a laser is used to burn or ablate materials in the CNC machine to cut and engrave them. It works very similarly how many of us would have used a magnifying glass to burn things outside by focusing the sun into a very small point. Because lasers focus down to a very very small point, you can cut and engrave extremely small details. Here are some pros and cons of using a laser with your LongMill:
 
-<strong>Pros:</strong>
+<b>Pros:</b>
 <ul>
   <li>Ability to cut extremely fine details</li>
   <li>No need for workholding</li>
   <li>No tools or end mills to wear out</li>
   <li>Burnt engravings and edges provide a contrast against the base material</li>
 </ul>
-<strong>Cons:</strong>
+<b>Cons:</b>
 <ul>
   <li>Creates smoke and is a fire hazard</li>
   <li>Lasers can be very dangerous</li>
@@ -70,27 +70,27 @@ You will also want to choose a power rating that works for you:
 
 Installing a laser onto your LongMill is fairly easy. There are just three major connections to make.
 
-<strong>1) Connect the laser to the driver</strong>
+<b>1) Connect the laser to the driver</b>
 
 Typically there will be two pairs of wires, one to power the laser diode and another to power the cooling fan. You can extend these wires to route them through your CNC's drag chains.
 
-<strong>2) Connect the driver to the LongBoard controller</strong>
+<b>2) Connect the driver to the LongBoard controller</b>
 
 The laser driver will have a + and - input for PWM (sometimes it's marked as TTL) that can be wired into the LongBoard controller on the Spindle PWM port (marked as SpinPWM). Use a flat head screwdriver to attach the wires to the terminal connector on the LongBoard and ensure you get the polarity correct otherwise the laser won’t work.
 
-<strong>3) Connect the driver to its power supply</strong>
+<b>3) Connect the driver to its power supply</b>
 
 Use the power supply that came with the laser driver, plugging the power connector into the indicated socket on the driver.
 
-<strong>Additional step</strong>
+<b>Additional step</b>
 
-As reported by members of our community, some laser drivers (like the common Banggood SW-LD75 V1.1, bought as a package #: LA03-5000) require an extra step since their internal circuitry is a bit wonky. This involves picking up a <strong>1kΩ resistor</strong> and wiring it up from the <strong>PWM</strong> pin on the driver board to <strong>any GND</strong> connection on the LongBoard. In the case of the picture below, you can see that the free pin on the 3-pin power connector (circled in yellow) is being used rather than splitting off the PWM+ wire on the 2-pin signal connector (circled in green). That wire then has the resistor soldered on and follows to the GND connection for Coolant in this case.
+As reported by members of our community, some laser drivers (like the common Banggood SW-LD75 V1.1, bought as a package #: LA03-5000) require an extra step since their internal circuitry is a bit wonky. This involves picking up a **1kΩ resistor** and wiring it up from the **PWM** pin on the driver board to **any GND** connection on the LongBoard. In the case of the picture below, you can see that the free pin on the 3-pin power connector (circled in yellow) is being used rather than splitting off the PWM+ wire on the 2-pin signal connector (circled in green). That wire then has the resistor soldered on and follows to the GND connection for Coolant in this case.
 
 ![](/_images/_longmill/_advanced/_7_Laser/lm_laser_p1_PSupply.jpg){aligncenter .size-medium}
 
 ## Setting up the Firmware
 
-All g-code senders will have a way to access your LongMill's settings - whether via a <strong>Firmware</strong> settings window or a <strong>Console</strong>. If you run your LongMill with a spindle, want to note down the current spindle settings because you'll either need to use them when making your laser g-code, or if you change the values as outlined below then you'll need to change them back later. You can do this in the Console by typing "$$" and hitting the *Enter* or *Send* key. Write down the values for $31 and $32 from the list that appears.
+All g-code senders will have a way to access your LongMill's settings - whether via a **Firmware** settings window or a **Console**. If you run your LongMill with a spindle, want to note down the current spindle settings because you'll either need to use them when making your laser g-code, or if you change the values as outlined below then you'll need to change them back later. You can do this in the Console by typing "$$" and hitting the *Enter* or *Send* key. Write down the values for $31 and $32 from the list that appears.
 
 You can find all the info about grbl and how “laser mode” works on this page: <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/redirect?v=fvlab9rpTRQ&amp;redir_token=4aMeWUw7bkU75KvVkDDk4ScJqXp8MTU3NzU2ODU1NEAxNTc3NDgyMTU0&amp;event=video_description&amp;q=https%3A%2F%2Fgithub.com%2Fgnea%2Fgrbl%2Fwiki%2FGrbl-v1.1-Laser-Mode" target="_blank" rel="nofollow noopener noreferrer">https://github.com/gnea/grbl/wiki/Grb...</a> The key takeaways are that you'll need to alter three machine settings to prepare your CNC for using a laser:
 
@@ -113,7 +113,7 @@ Remember that you can always check your settings anytime by typing $$ in the con
 
 ## Laser Testing
 
-There are a couple test commands you can use to verify that all your wiring and firmware changes have gone as expected. Please be very cautious and aware when testing your laser. <strong><span style="color: #d22329;">Wear eye protection, specifically laser safety glasses, so they're hugging your face to protect from both direct and indirect laser light</span></strong>, ensure there's clear signage to warn and protect possible onlookers, have some material beneath your laser that won't burn easily for when you power it on, and have your hand over the disable switch for your laser power supply so that you have a hardware switch if anything goes wrong.
+There are a couple test commands you can use to verify that all your wiring and firmware changes have gone as expected. Please be very cautious and aware when testing your laser. **<span style="color: #d22329;">Wear eye protection, specifically laser safety glasses, so they're hugging your face to protect from both direct and indirect laser light</span>**, ensure there's clear signage to warn and protect possible onlookers, have some material beneath your laser that won't burn easily for when you power it on, and have your hand over the disable switch for your laser power supply so that you have a hardware switch if anything goes wrong.
 
 Test-firing a laser using grbl requires three things:
 

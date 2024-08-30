@@ -83,9 +83,9 @@ Once everything is finished getting put together, it should look like this:
 
 ![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p20_parts.jpg){.aligncenter .size-medium .wid}
 
-<strong>**UPDATE**</strong>
+<b>**UPDATE**</b>
 
-<em><strong>If you have a hardware bag marked "Batch 5" please substitute M8-16mm bolts instead of M8-25mm bolts for this step. Please follow the exact same assembly process in this step but use M8-16mm bolts for mounting the shoulder brackets and drag chain mounts.</strong></em>
+<em><b>If you have a hardware bag marked "Batch 5" please substitute M8-16mm bolts instead of M8-25mm bolts for this step. Please follow the exact same assembly process in this step but use M8-16mm bolts for mounting the shoulder brackets and drag chain mounts.</b></em>
 
 Get the four steel L-shaped ‘shoulder’ parts from the green box of plastic parts next. These attach two to each gantry using the M8-25mm bolts from the orange bag. Line the tapered sides of the brackets up against the edge of the inside face of the gantries (pictured) and then mount them in place using two bolts each. The bolts are long so start by turning them by hand and then finish securing them with a size 6 Allen key.
 

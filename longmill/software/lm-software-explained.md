@@ -21,7 +21,7 @@ The core concepts behind operating a CNC router are very basic. A close analogy 
 
 *With the necessary planning, you figure out a way to convert your project idea on paper into a list of precise directions, similar to planning a road trip by combining the GPS coordinates of all the places you'd like to visit. You can now instruct your friend on how to re-create your project to your exact specifications by simply listing these directions to them.*
 
-In that analogy, your friend is effectively acting as a <strong>CNC router</strong>. Given all of the strengths that a CNC has, it can't do anything productive unless you provide it with a list of instructions so that it knows where to cut. So how do you go about making cutting instructions that a CNC would understand?
+In that analogy, your friend is effectively acting as a <b>CNC router</b>. Given all of the strengths that a CNC has, it can't do anything productive unless you provide it with a list of instructions so that it knows where to cut. So how do you go about making cutting instructions that a CNC would understand?
 
 ## The CNC Toolchain
 
@@ -29,8 +29,8 @@ A 'toolchain' leverages one or more software packages to accomplish an end goal.
 
 <ol>
   <li>Get your project idea into a form that a computer can understand (or buy/download a CNC project that's already been designed)</li>
-  <li>Use a <strong>CAM software</strong> to help turn this project into a list of cutting instructions for your CNC called a <strong>g-code file</strong></li>
-  <li>Use a <strong>machine interface software</strong> to talk to your CNC, telling it where you've placed your raw material and giving it the cutting instructions</li>
+  <li>Use a <b>CAM software</b> to help turn this project into a list of cutting instructions for your CNC called a <b>g-code file</b></li>
+  <li>Use a <b>machine interface software</b> to talk to your CNC, telling it where you've placed your raw material and giving it the cutting instructions</li>
 </ol>
 
 There is software that can cover all of these steps, but most times you'll have to use at least two software packages to take you from start to finish. Let's go through each step in a little more detail.
@@ -51,15 +51,15 @@ If you plan on making your own design from scratch, your idea might stem from a:
 
 All these inputs are quite different from each other which is why design programs come in many forms and can largely be separated in two main categories: 2D design and 3D design.
 
-<strong>2D design</strong> is largely considered to be an easier starting point for first time CNCers since it mostly consists of laying out simple shapes, pre-made artwork, and occasionally some graphics that you find online. Not only is this design process easy to learn, but it's also very versatile. By making these simple line drawings you can make signage, lettering, flat-packed furniture, joinery, inlays, stencils, household items, etc. The majority of the cutting you're looking to do on your CNC will probably be covered by 2D work (typically SVG, DXF, PNG, JPEG, or BMP files).
+<b>2D design</b> is largely considered to be an easier starting point for first time CNCers since it mostly consists of laying out simple shapes, pre-made artwork, and occasionally some graphics that you find online. Not only is this design process easy to learn, but it's also very versatile. By making these simple line drawings you can make signage, lettering, flat-packed furniture, joinery, inlays, stencils, household items, etc. The majority of the cutting you're looking to do on your CNC will probably be covered by 2D work (typically SVG, DXF, PNG, JPEG, or BMP files).
 
-The more complex <strong>3D designs</strong> aren't for everyone, but the result is certainly impressive. By cutting out intricate contoured patterns on the CNC, the result is a perfect looking carving job that's done in a couple hours rather than the weeks of hand-work that it would normally take. The caveat here is that learning to create 3D models is another step above the 2D design work and has a much longer learning curve (typically STL, OBJ, STEP, or IGES files). The process of making g-code for 3D models is also usually much more difficult than for cutting out 2D drawings.
+The more complex <b>3D designs</b> aren't for everyone, but the result is certainly impressive. By cutting out intricate contoured patterns on the CNC, the result is a perfect looking carving job that's done in a couple hours rather than the weeks of hand-work that it would normally take. The caveat here is that learning to create 3D models is another step above the 2D design work and has a much longer learning curve (typically STL, OBJ, STEP, or IGES files). The process of making g-code for 3D models is also usually much more difficult than for cutting out 2D drawings.
 
 All of this is to say that if you want to carve something out, you first need to know what you're going to make and how you're going to make it. Whether it's a picture, a 3D model, or even a napkin drawing; you must find a way to convey your ideas in a form that's shareable and outside of your head.
 
 ### 2. CAM Software
 
-As previously mentioned, <strong>CAM software</strong> is the tool that you use to take the design you have and turn it into a g-code file which acts as a set of cutting instructions for the CNC to follow. It does this by accepting certain inputs from you, including:
+As previously mentioned, <b>CAM software</b> is the tool that you use to take the design you have and turn it into a g-code file which acts as a set of cutting instructions for the CNC to follow. It does this by accepting certain inputs from you, including:
 
 <ul>
   <li>the design file from the previous step</li>
@@ -81,7 +81,7 @@ Some CAM software are made to only accept 2D design files, others only accept 3D
 
 ### 3. Machine Interface
 
-Coming through the CAM process and with g-code file in hand, the last step is to set up your machine and run your cutting instruction by using an <strong>Interface Software</strong>. This software is run on your computer or laptop and allows you to:
+Coming through the CAM process and with g-code file in hand, the last step is to set up your machine and run your cutting instruction by using an <b>Interface Software</b>. This software is run on your computer or laptop and allows you to:
 
 <ul>
   <li>manually move / jog each axis of the CNC</li>

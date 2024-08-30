@@ -17,7 +17,7 @@ featured_image: /_images/_longmill/_advanced/_4_Inductive/lm_inductive_p1_DSC004
 
 ## Installation
 
-The Inductive Sensor Kit is a plug-and-play add-on kit for your LongMill, which adds three inductive sensors to your machine to act as limit and homing switches.<strong> The kit can be ordered on our <a href="https://sienci.com/product/inductive-sensor-kit/">store</a>. </strong>
+The Inductive Sensor Kit is a plug-and-play add-on kit for your LongMill, which adds three inductive sensors to your machine to act as limit and homing switches. **The kit can be ordered on our <a href="https://sienci.com/product/inductive-sensor-kit/">store</a>.**
 
 https://www.youtube.com/watch?v=MZBsJED4Ktg
 
@@ -60,9 +60,9 @@ Homing to the lower left corner is recommended because:
 
 ### Step 2: Attaching to the machine
 
-Each bracket uses a pair of M3 screws to mount to the machine. Simply slide the bracket onto the recommended location and gently tighten the M3 screws using a 2.5mm Allen key into the brass heat-set nuts just until snug. <strong>Do not over tighten, as this could damage the bracket</strong>, but ensure that the bracket cannot move easily
+Each bracket uses a pair of M3 screws to mount to the machine. Simply slide the bracket onto the recommended location and gently tighten the M3 screws using a 2.5mm Allen key into the brass heat-set nuts just until snug. **Do not over tighten, as this could damage the bracket**, but ensure that the bracket cannot move easily
 
-<strong>The tabs below show the attachment of limit switches for homing at the lower left corner. </strong>If you choose to home at another corner, you can rearrange the X and Y sensor mounts, mirroring what is shown below. Some positions may require you to flip the sensor.
+**The tabs below show the attachment of limit switches for homing at the lower left corner.** If you choose to home at another corner, you can rearrange the X and Y sensor mounts, mirroring what is shown below. Some positions may require you to flip the sensor.
 
 [tabby title="X-Axis" open="yes"]
 
@@ -72,7 +72,7 @@ Place the X-axis sensor on the top of the left steel Y-gantry plate, sitting aga
 
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p3_combined2.png "X-axis sensor alignment"){.aligncenter .size-medium}
 
-<strong>X-Axis mounting with non-magnetic dust shoe</strong>
+<b>X-Axis mounting with non-magnetic dust shoe</b>
 
 If your machine is installed with an older style dust shoe that utilizes aluminum extrusions and a wooden base, you will need to install an add-on X-axis dust shoe 'flag' to ensure the X-axis sensor will trigger.
 
@@ -126,8 +126,7 @@ The three cables plug into the three white JST connectors labelled as XLim, YLim
 
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p5_DSC00432.jpg "X, Y and Z sensors plugged into LongBoard"){.aligncenter .size-medium}
 
-Once installed, you can verify that each sensor is working and is plugged into the correct port by using the console within UGS, gSender, or other machine interface software. Type the following command into the console: <b>*$10=19*</b><span> and press enter. This will enable reporting of the current status of each of the sensors.
-</span>
+Once installed, you can verify that each sensor is working and is plugged into the correct port by using the console within UGS, gSender, or other machine interface software. Type the following command into the console: <b>*$10=19*</b> and press enter. This will enable reporting of the current status of each of the sensors.
 
 You can either jog the machine to trigger the sensor (shown by a red light on the sensor), or hold anything made of steel in front of the sensor. While the sensor is triggered, enter the following command into the console: <b>*?*</b>
 
@@ -159,7 +158,7 @@ Next, import our default EEPROM settings for your machine. Press “Restore Defa
 
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p9_gSender-restore-eeporm.png){.aligncenter .size-medium}
 
-<b>Recommended settings</b><b> for sensors</b>
+<b>Recommended settings for sensors</b>
 
 Now that we’re working with the default settings, we will modify a few to make them work with the sensors.
 

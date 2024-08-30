@@ -25,8 +25,8 @@ To help out, we've put together a simple table which shows popular CAM programs 
 <table>
 <tbody>
 <tr>
-<td><strong>CAM Software</strong></td>
-<td><strong>Post Processor</strong></td>
+<td><b>CAM Software</b></td>
+<td><b>Post Processor</b></td>
 </tr>
 <tr>
 <td>Vectric Cut2D, Vectric VCarve, Vectric Aspire</td>
@@ -75,7 +75,7 @@ To help out, we've put together a simple table which shows popular CAM programs 
 **To avoid potential issues with Fusion 360, we also recommend you make the following checks to your post processor:
 
 <ul>
-  <li><strong>G28</strong><b> Safe Retracts</b> set as “Clearance Height”</li>
+  <li><b>G28</b><b> Safe Retracts</b> set as “Clearance Height”</li>
   <li><b>Output M6</b> set as "No"</li>
   <li><b>Output Tool Number</b> set as "No"</li>
 </ul>
@@ -87,4 +87,4 @@ If you're interested, there have also been instances of LM community members put
   <li>Duane S: <a href="https://www.facebook.com/groups/mill.one/permalink/1122661888205141/" target="_blank" rel="noopener">https://www.facebook.com/groups/mill.one/permalink/1122661888205141/</a></li>
 </ul>
 
-<strong>Fun fact:</strong> some other members of the grbl CNC family include OpenBuilds, Shapeoko, BobsCNC and X-Carve - all starting just as the LongMill has from an Arduino Uno.
+<b>Fun fact:</b> some other members of the grbl CNC family include OpenBuilds, Shapeoko, BobsCNC and X-Carve - all starting just as the LongMill has from an Arduino Uno.

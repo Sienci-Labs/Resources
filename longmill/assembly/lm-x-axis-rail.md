@@ -51,9 +51,9 @@ Your completed rail should now look something like this.
 
 ![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p11_parts.jpg){.aligncenter .size-medium .wid}
 
-After the previous step, you should now have four major assemblies completed: the <strong>XZ-axis gantry</strong>, the two <strong>Y-gantries</strong>, and the <strong>X-axis rail</strong>. These assemblies will all be coming together in this step, starting by sliding the XZ-axis gantry assembly onto the X-axis rail.
+After the previous step, you should now have four major assemblies completed: the <b>XZ-axis gantry</b>, the two <b>Y-gantries</b>, and the <b>X-axis rail</b>. These assemblies will all be coming together in this step, starting by sliding the XZ-axis gantry assembly onto the X-axis rail.
 
-<strong>DO NOT</strong> stand the completed assembly up on the v-wheels, it can roll away or become unbalanced which may cause it to fall and become damaged; just leave it laying on its back for the next steps. You can consider propping it up at an angle as well if you don’t want the weight of the assembly pressing on the back of the Z-axis motor mount.
+<b>DO NOT</b> stand the completed assembly up on the v-wheels, it can roll away or become unbalanced which may cause it to fall and become damaged; just leave it laying on its back for the next steps. You can consider propping it up at an angle as well if you don’t want the weight of the assembly pressing on the back of the Z-axis motor mount.
 
 Before we start, you want to make sure that the eccentric nuts on the XZ-gantry are positioned correctly; this can be checked visually. Since the eccentric nuts have an offset hole point, rotating the nut will change the hole position. Looking at the gantry assembly from the front, this pictures shows the top, right eccentric nut at its lowest position. This puts the v-wheel closest to the bottom v-wheel, making the wheel spacing too narrow to install onto the X-axis rail.
 

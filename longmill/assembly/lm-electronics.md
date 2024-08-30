@@ -45,7 +45,7 @@ Looking at the underside of the control box, you should notice four red switch b
 
 ![](/_images/_longmill/_assembly/_electronics/lm_electronics_p6.jpg){.aligncenter .size-medium}
 
-These DIP switches normally <strong>look</strong> like they've been properly switched when in reality they're 'floating' between the up and down positions, as is the case for switch 2 in the picture below. Because of this, it's a good idea to push every single switch into it's correct position before moving on to the next step, putting switches 1 and 3 into the 'up' position and switches 2 and 4 into the 'down' position (pictured).
+These DIP switches normally <b>look</b> like they've been properly switched when in reality they're 'floating' between the up and down positions, as is the case for switch 2 in the picture below. Because of this, it's a good idea to push every single switch into it's correct position before moving on to the next step, putting switches 1 and 3 into the 'up' position and switches 2 and 4 into the 'down' position (pictured).
 
 ![](/_images/_longmill/_assembly/_electronics/lm_electronics_p7.jpg){.aligncenter .size-medium}
 
@@ -87,7 +87,7 @@ You should be greeted with a screen that looks like this.
 
 Connect your computer to the LongMill control box via USB.
 
-<strong>Note: Your computer will automatically install drivers for the Arduino at this point if they are not already on your computer (can take a minute or two). If you try to connect your machine but you cannot, you may need to manually install the drivers. You can do this by installing the <a href="https://www.arduino.cc/en/main/software">Arduino IDE</a> which will install the drivers during the installation, or you can follow the instructions on doing them <a href="https://www.arduino.cc/en/Guide/DriverInstallation">manually for Windows</a>.</strong>
+<b>Note: Your computer will automatically install drivers for the Arduino at this point if they are not already on your computer (can take a minute or two). If you try to connect your machine but you cannot, you may need to manually install the drivers. You can do this by installing the <a href="https://www.arduino.cc/en/main/software">Arduino IDE</a> which will install the drivers during the installation, or you can follow the instructions on doing them <a href="https://www.arduino.cc/en/Guide/DriverInstallation">manually for Windows</a>.</b>
 
 ![](/_images/_longmill/_assembly/_electronics/lm_electronics_p13_v2.jpg "Plug in the USB cable onto the LongBoard.")"{.aligncenter .size-medium}
 

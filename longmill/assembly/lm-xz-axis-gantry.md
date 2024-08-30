@@ -127,7 +127,7 @@ After this, make a small assembly with the wheel going onto the bolt, followed b
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p26_Wheel2.JPG){.aligncenter .size-medium}
 
-You’ll also need two of the medium-sized M5 nuts from the last step and you’ll also need to grab eccentric nuts from the hardware bag labelled with an orange dot. These come in a small bag of 6 and are very <strong>odd looking</strong> so they should be easy to identify.
+You’ll also need two of the medium-sized M5 nuts from the last step and you’ll also need to grab eccentric nuts from the hardware bag labelled with an orange dot. These come in a small bag of 6 and are very <b>odd looking</b> so they should be easy to identify.
 
 If you move the z-gantry to the middle on the XZ-gantry assembly, you’ll notice 4 holes in a rectangular formation on the large steel plate. The 4 sets of wheel assemblies go into these holes from behind, the bottom two using a regular nut and the top two using an eccentric nut. Start by fitting the eccentric nuts into the top pair of holes. The round part of the bore should sit inside of the hole, with the hex part facing out.
 
@@ -139,7 +139,7 @@ Twist two of the v-wheel sets into the eccentric nuts from the other side. These
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p28_VWheels.JPG "Install the first two v-wheels from the other side."){.aligncenter .size-medium}
 
-Now attach the bottom two v-wheel sets. These attach with regular M5-nylock nuts and need to be <strong>tightly fastened</strong> into place. You can do this with a size 4 Allen key and the included 8mm wrench.
+Now attach the bottom two v-wheel sets. These attach with regular M5-nylock nuts and need to be <b>tightly fastened</b> into place. You can do this with a size 4 Allen key and the included 8mm wrench.
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p29_Holes.jpg "These are the two holes which we’ll put the next two v-wheels into."){.aligncenter .size-medium}
 
@@ -153,7 +153,7 @@ There are two anti-backlash assemblies that attach to the XZ-gantry assembly. Th
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p32_TwoFingers.JPG "Two holes for mounting the anti-backlash nut block."){.aligncenter .size-medium}
 
-Use two M5-25mm bolts (the same ones used to make the v-wheel sets) to mount the nut block. Make sure that the M5 nuts are facing outwards (pictured) so that you can see them. The block <strong>shouldn’t</strong> be tightened down really hard, just fasten it until it’s snug.
+Use two M5-25mm bolts (the same ones used to make the v-wheel sets) to mount the nut block. Make sure that the M5 nuts are facing outwards (pictured) so that you can see them. The block <b>shouldn’t</b> be tightened down really hard, just fasten it until it’s snug.
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p33_Snug.JPG "Tighten until snug, but do not over-tighten."){.aligncenter .size-medium}
 
@@ -173,7 +173,7 @@ The completed assembly should look like this.
 
 Get the motor sub-assembly from before. Holding it in one hand, and the gantry sub-assembly in the other, line up the lead screw from the motor assembly with the nut block of the gantry assembly. If you use your fingers to turn the lead screw, it will go into the nut. The plastic mount should be coming in from the side of the steel plate which has a rectangular notch cut out.
 
-<strong>If you have trouble threading in your lead screw into the Delrin anti-backlash nut, please check our <a href="https://resources.sienci.com/view/lm-troubleshooting/#i-cannot-get-my-delrin-anti-backlash-nuts-to-thread-on">troubleshooting guide</a> for additional help adjusting your anti-backlash nut.</strong>
+<b>If you have trouble threading in your lead screw into the Delrin anti-backlash nut, please check our <a href="https://resources.sienci.com/view/lm-troubleshooting/#i-cannot-get-my-delrin-anti-backlash-nuts-to-thread-on">troubleshooting guide</a> for additional help adjusting your anti-backlash nut.</b>
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p38_TurnLScrew.JPG "If you have trouble turning the lead screw into the nut, try loosening the bolts holding the nut to the plate. Also, be sure that the tensioning bolt (sticking upwards) is completely loose."){.aligncenter .size-medium}
 
@@ -197,9 +197,9 @@ Your assembly should now look like this.
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p43_HeaderParts2.jpg){.aligncenter .size-medium .wid}
 
-<strong>**UPDATE**</strong>
+<b>**UPDATE**</b>
 
-<strong><em>If you have a hardware bag marked "Batch 5", please substitute M5-25mm bolts for assembling the router mount in this step. The newest version of our router mount has been designed to work with longer M5 hardware. To identify which router mount you have, please check the image below:</em></strong>
+<b><em>If you have a hardware bag marked "Batch 5", please substitute M5-25mm bolts for assembling the router mount in this step. The newest version of our router mount has been designed to work with longer M5 hardware. To identify which router mount you have, please check the image below:</em></b>
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p44_RMDiff.jpg){.aligncenter .size-medium}
 

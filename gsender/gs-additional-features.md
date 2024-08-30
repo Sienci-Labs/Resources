@@ -62,7 +62,7 @@ To better guarantee your experience using a gamepad in gSender, we’ve taken th
 <tbody>
 <tr>
 <td><img class="non alignnone" src="https://resources.sienci.com/wp-content/uploads/2024/08/gs_fe_sh_controller-xbox-1.png" alt="" width="240" height="180" /></td>
-<td><strong>YCCTeam Xbox Controller</strong>
+<td><b>YCCTeam Xbox Controller</b>
 <ul>
   <li>Wireless</li>
   <li>Tested on Windows and macOS</li>
@@ -71,7 +71,7 @@ To better guarantee your experience using a gamepad in gSender, we’ve taken th
 </tr>
 <tr>
 <td><img class="non alignnone" src="https://resources.sienci.com/wp-content/uploads/2024/08/gs_fe_sh_controller-logi-1.png" alt="" width="240" height="180" /></td>
-<td><strong>Logitech F710</strong>
+<td><b>Logitech F710</b>
 <ul>
   <li>Wireless</li>
   <li>Tested on Windows and macOS</li>
@@ -186,7 +186,7 @@ You can share macros with other users or transfer them between computers by usin
 
 gSenders Macro architecture is based on **JavaScript** and uses the Esprima library (<a href="https://esprima.org/" target="_blank" rel="noopener">https://esprima.org/</a>) and so will theoretically support any code that it does. This is exciting because Macros can move far past basic variables if you’d like to perform advanced functions on your CNC:
 
-If you want some initial inspiration, see other macros **made by our community** or ones <a href="https://github.com/cncjs/CNCjs-Macros/blob/master/Hole_Center" target="_blank" rel="noopener"><strong>made for CNCjs</strong></a> (another g-code sender) which should also work in gSender. Otherwise, here are some other points of guidance:
+If you want some initial inspiration, see other macros **made by our community** or ones <a href="https://github.com/cncjs/CNCjs-Macros/blob/master/Hole_Center" target="_blank" rel="noopener"><b>made for CNCjs</b></a> (another g-code sender) which should also work in gSender. Otherwise, here are some other points of guidance:
 
 1. You'll want to develop your understanding of typical <a href="https://linuxcnc.org/docs/html/gcode/g-code.html" target="_blank" rel="noopener">g-codes</a> and <a href="https://linuxcnc.org/docs/devel/html/gcode/m-code.html" target="_blank" rel="noopener">m-codes</a> that are used for CNC control (the pages linked are very good sources for that)
 1. The "Macro Variables" dropdown in gSender shows many of the most commonly used operations when making your own macro

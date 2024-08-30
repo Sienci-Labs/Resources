@@ -128,18 +128,17 @@ Once you’ve assembled all the electrical connections to the LongBoard, you can
 
 <b>$5 - Limit pins invert, boolean</b>
 
-For <strong>NO or NPN</strong>, this setting should be <strong>$5=0</strong>, so that the input and output pins are set to the proper voltage level to function properly. For <strong>NC or PNP</strong>, this setting should be set to <strong>$5=1</strong>.
+For **NO or NPN**, this setting should be **$5=0**, so that the input and output pins are set to the proper voltage level to function properly. For **NC or PNP**, this setting should be set to **$5=1**.
 
-<strong>$20 and $21 - Soft limits and hard limits enable
-</strong>
+<b>$20 and $21 - Soft limits and hard limits enable</b>
 
-If you have two switches per axis, use<strong> $20=0 and $21=1</strong> to enable <strong>hard limits</strong>. If you have one switch per axis, use <strong>$20=1</strong> and <strong>$21=0</strong> to enable <strong>soft limits</strong>.
+If you have two switches per axis, use **$20=0 and $21=1** to enable **hard limits**. If you have one switch per axis, use **$20=1** and **$21=0** to enable **soft limits**.
 
-<strong>$22 - Homing cycle, boolean</strong>
+<b>$22 - Homing cycle, boolean</b>
 
 By default, your LongMill is set to **$22=0**, disabling the ability to use the homing cycle. Activate homing by sending the command **$22=1**. When homing is activated, every time your machine is connected, your machine will ask you to home the machine as a safety feature. You can home your machine by sending the command **$H** through the console, or use the "Home" button on your g-code sender.
 
-<strong>$23 - Homing direction invert, mask</strong>
+<b>$23 - Homing direction invert, mask</b>
 
 By default, your LongMill is set to <b>*$23=0*</b>. This setting is used to select the direction that the machine moves to home each axis. By default, when <b>*$23=0*</b>, the machine will move home up in the Z direction, and then to the upper left corner (moving towards the left on the X axis and moving up to the top on the Y axis).
 
@@ -221,20 +220,20 @@ On gSender, you can use the toggles instead to change the direction of each axis
 
 ![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p9_EEPROMHomingDirection.png){.aligncenter .size-medium}
 
-<strong>$24 - Homing locate feed rate, mm/min</strong>
+<b>$24 - Homing locate feed rate, mm/min</b>
 
 By default, this speed is set to ***$24=25***, which sets the homing locate feed rate to 25mm/min. When homing your machine, the machine will first move at a preset speed (see $25 - Homing Seek) to more rapidly reach the limit switch, move away from the switch to deactivate it, then move towards the limit switch at a slower speed for a more accurate reading.
 
 We recommend keeping this value at 25mm/min as it works for most limit switches.
 
-<strong>$25 - Homing seek, mm/min</strong>
+<b>$25 - Homing seek, mm/min</b>
 
 By default, this speed is set to ***$25=1500***, which sets the homing search seek rate to 500mm/min. This is the speed of which the machine will move to locate each limit switch.
 
-<strong>$26 Homing switch debounce delay, ms</strong>
+<b>$26 Homing switch debounce delay, ms</b>
 
 By default, this time is set to ***$26=250***, which controls the delay before the controller measuring if the signal is on or off. Some switches can take a few moments before a on or off signal is defined. We recommend keeping this at its default setting. However, if you find that your switch randomly triggers for no reason, you may want to increase the debounce delay.
 
-<strong>$27 Homing pull-off distance, mm</strong>
+<b>$27 Homing pull-off distance, mm</b>
 
 By default, this distance is set to ***$27=1***. This distance determines the distance that the machine needs to move away from the switch to un-trigger it. For some sensors, such as mechanical switches, this can be a few millimeters, while inductive proximity sensors may only need a fraction of a millimeter. For inductive sensors, we recommend keeping your default homing pull-off distance at 1mm, while if you are using mechanical switches, use about 2-4mm to ensure that your switch is completely un-triggered after your homing sequence.

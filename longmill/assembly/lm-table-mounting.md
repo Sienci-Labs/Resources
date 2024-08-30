@@ -47,7 +47,7 @@ Once assembled, each model of the LongMill (12×12, 12×30, and 30×30) is desig
 <ol>
   <li>The red area inside the main box shows the cutting area as an offset from the foot base. It’s based off the center-point of the router, thus you can plane an area larger than what’s stated if you’re using a large surfacing bit.</li>
   <li>The blue area outside the main box shows the hanging parts as an offset from the foot base which makes up the total machine outline.</li>
-  <li>If you have the <strong>dust shoe</strong> attachment in place, it’ll reduce your cutting travel in the X-dimension by approximately 34mm.</li>
+  <li>If you have the <b>dust shoe</b> attachment in place, it’ll reduce your cutting travel in the X-dimension by approximately 34mm.</li>
   <li>These diagrams have got a small buffer on the cutting area (i.e. it’s been shrunken slightly) since each part has its own manufacturing tolerance and can come together differently in assembly so we want to ensure we’re providing a reasonable guarantee on what can be expected from your machine.</li>
 </ol>
 
@@ -85,7 +85,7 @@ Once positioned, start by moving the machine all the way to the rearmost positio
 
 ![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p9.jpg "Move the machine to the very back until it stalls."){.aligncenter .size-medium}
 
-We’ll start by mounting the right side of the machine. Using a drill with a long Robertson driver or a short one on a bit extender works best for driving in the screws so that you have the necessary reach. You can use the particle board screws provided, or use your own mounting hardware depending on your material or its thickness, but please ensure that you <strong>don’t use counter-sunk wood screws</strong> to attach the feet as this will crack them.
+We’ll start by mounting the right side of the machine. Using a drill with a long Robertson driver or a short one on a bit extender works best for driving in the screws so that you have the necessary reach. You can use the particle board screws provided, or use your own mounting hardware depending on your material or its thickness, but please ensure that you <b>don’t use counter-sunk wood screws</b> to attach the feet as this will crack them.
 
 The screws included are 1-1/4”, 1-1/2”, and 2” size #8 particle board screws. Each foot has two holes for mounting where the shortest screws are meant for the inside and the longer one are for the outside. Please note that the 2” screws WILL go through 3/4” MDF, but were still included since they can hold the LongMill feet down better. If you choose to use them, make sure that the surface under the board will not be damaged if you have screws coming out the bottom.
 
@@ -125,4 +125,4 @@ Your machine should now be fully secure and square to its mounting surface. An e
 
 From this point, you should be ready to get cutting your first jobs! If you've got the touch plate, dust shoe, or t-track add-ons alongside your machine, you'll see the guide on how to utilize these and put them together after the "Starter Projects" page.
 
-The rest of this <strong>Assembly</strong> section also contains information on how to surface your wasteboard, ways to get started making more projects, machine maintenance, and a page on troubleshooting in case you happened upon any issues during assembly or during the Starter Projects.
+The rest of this **Assembly** section also contains information on how to surface your wasteboard, ways to get started making more projects, machine maintenance, and a page on troubleshooting in case you happened upon any issues during assembly or during the Starter Projects.
