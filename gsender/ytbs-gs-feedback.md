@@ -2,7 +2,7 @@
 title: ytsb Problems / Bugs?
 menu_order: 4
 post_status: draft
-post_excerpt: A list of common problems and fixes for gSender users as well as links through to submitting bugs or finding more support through our forums or videos.
+post_excerpt: A list of common problems and fixes for gSender users as well as links through to submitting issues or finding more support through our forums or videos.
 post_date: 2021-07-01 16:28
 taxonomy:
     knowledgebase_cat: gdocs
@@ -12,7 +12,7 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_gsender/_bugs/gs_bugs_p1_Diagnostic.png
+featured_image: _images/_gsender/_issues/gs_is_diagnostic-file.png
 ---
 
 Having **troubles with gSender** or have **suggestions to improve it?** Here are the steps you can follow:
@@ -34,14 +34,14 @@ In order of importance, please collect together information of:
 
 Please attach the files and information in your post / <a href="mailto:hi@sienci.com">email</a> to us.
 
-![](/_images/_gsender/_bugs/gs_bugs_p1_Diagnostic.png){.aligncenter .size-medium}
+![](/_images/_gsender/_issues/gs_is_diagnostic-file.png){.aligncenter .size-medium}
 
 ## Questions or Suggestions
 
 Send us the information, questions, or suggestions either on:
 
 - The <a href="https://forum.sienci.com/c/gSender/" target="_blank" rel="noopener"><strong>gSender Forum</strong></a>
-[![](/_images/_gsender/_bugs/gs_bugs_p2_Forum.png){.aligncenter .size-medium}](https://forum.sienci.com/c/gSender/)
+[![](/_images/_gsender/_issues/gs_is_gs-forum.png){.aligncenter .size-medium}](https://forum.sienci.com/c/gSender/)
 - <strong><a href="https://github.com/Sienci-Labs/gSender" target="_blank" rel="noopener">Github page</a></strong> (feel free to also submit PRs)
 - You can join the discussion on secondary communities like our <a href="https://www.facebook.com/groups/gSender" target="_blank" rel="noopener">Facebook gSender Group</a>, and <a href="https://www.facebook.com/groups/mill.one" target="_blank" rel="noopener">Facebook CNC Group</a>, but we can't provide as much support or hear feedback in these groups.
 
@@ -56,7 +56,7 @@ We'll continue keeping our ears out for common stumbling points while using gSen
    - For Windows-based computers you can read more on it here: <a href="https://support.microsoft.com/en-us/topic/-windows-cannot-access-the-specified-device-path-or-file-error-when-you-try-to-install-update-or-start-a-program-or-file-46361133-47ed-6967-c13e-e75d3cc29657" target="_blank" rel="noopener">https://support.microsoft.com/en-us/topic/-windows-cannot-access-the-specified-device-path-or-file-error-when-you-try-to-install-update-or-start-a-program-or-file-46361133-47ed-6967-c13e-e75d3cc29657</a>
 1. If gSender used to open fine but after an update it suddenly doesn't, check here since the update might've gotten corrupted: <a href="https://resources.sienci.com/view/gs-installation/#gSender-updates" target="_blank" rel="noopener">https://resources.sienci.com/view/gs-installation/#gsender-updates</a> (scroll past the first picture)
 1. If when you open gSender it gives you an error along the lines of "**Entry Point Not Found**", this means that you're trying to use a version of gSender past 1.2.2 with a 32-bit system. If you want to resolve this you'll either need to continue using a version of gSender 1.2.2 or earlier, or change to using a 64-bit system.
-![](/_images/_gsender/_bugs/gs_bugs_p3_Error.png){.aligncenter .size-medium}
+![](/_images/_gsender/_issues/gs_is_cm_32bit-error.png){.aligncenter .size-medium}
 
 ### Screen goes Blank
 
@@ -67,7 +67,7 @@ If you find that gSender goes blank after you open it or while using it, there a
 1. Check your antivirus software or Windows Defender and add gSender as an exception.
 1. Check to ensure you have read/write permissions for the preferences file
    1. Let’s locate the file! It’s called .sender_rc and can usually be found on your hard drive at: C:/users/{your username}/.sender_rc
-   ![](/_images/_gsender/_bugs/gs_bugs_p4_SenderRC.png){.aligncenter .size-medium}
+   ![](/_images/_gsender/_issues/gs_is_cm_blank-rc.png){.aligncenter .size-medium}
    1. Right-click on the file and choose properties. Under the security tab, check the name of your profile and confirm you have full control of the file.
    1. If not, select edit, choose your computer name, and grant permissions.
 1. If you’re still getting a blank screen, locate your log file and send it in to us. It's located at: C:/Users/{your user name}/AppData/Roaming/gSender/Logs/main.log
@@ -76,10 +76,10 @@ If you find that gSender goes blank after you open it or while using it, there a
 
 If your machine connects on a COM port successfully but the machine status still says "Disconnected" then this is not an issue with gSender. Connecting in the top-left only indicates a USB connection has been made successfully, meanwhile the machine status box indicates whether gSender has been able to recognize the CNC machine. Your control board may have a faulty connection: gSender looks for the standard grbl response and boards that are loose or have become corrupted won't emit this response, if this is the case you can contact our support if you have a CNC from Sienci Labs or contact your own manufacturer's support for instructions on fixing your machine.
 
-![](/_images/_gsender/_bugs/gs_bugs_p5_Disconnected.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_issues/gs_is_cm_connect-disconnect.jpg){.aligncenter .size-medium}
 
 1. Power off your machine, then use a non-conductive tool like a plastic utensil to push down on all 4 corners of your control board shield or Arduino. For the LongBoard you don’t need to open it, just flip it upside down and you’ll be able to access the Arduino through the slats on the bottom. Doing this will ensure that everything is fully plugged in since sometimes if the Arduino is slightly off the control board it can mess with its communication.
-![](/_images/_gsender/_bugs/gs_bugs_p6_PushIn.png){.aligncenter .size-medium}
+![](/_images/_gsender/_issues/gs_is_cm_push-uno.png){.aligncenter .size-medium}
 1. Re-flash your machine by following the instructions here: <a href="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Connected-but-No-Controls.pdf">gSender - Connected but No Controls</a>
 1. Your machine isn't supported yet by gSender: if your CNC isn't grbl-based or your manufacturer had edited grbl too much or is using a different flavour from the standard version it's likely that gSender won't be able to recognize or control your machine
 
@@ -107,15 +107,15 @@ One key bit of information that we need on our end is a picture or screenshot of
 
 1. Make sure your CNC is plugged into your current computer via USB
 1. Open "Device Manager" in your Windows start menu
-![](/_images/_gsender/_bugs/gs_bugs_p7_DeviceManager.png){.aligncenter .size-medium}
+![](/_images/_gsender/_issues/gs_is_cm_device-manager.png){.aligncenter .size-medium}
 1. Expand the "Ports (COM &amp; LPT)" heading
-![](/_images/_gsender/_bugs/gs_bugs_p8_COMPorts.png){.aligncenter .size-medium}
+![](/_images/_gsender/_issues/gs_is_cm_device-port.png){.aligncenter .size-medium}
 1. Find the listing related to your CNC. This will be the one that disappears and reappears if you unplug your CNC and plug it back in. It'll also be the port you normally connect to on other g-code senders.
 1. Right click that device and open "Properties"
 1. Open the "Details" tab at the top
 1. In the "Property" dropdown, select the "Hardware Ids" option
 1. Send us a picture of the final view. An example of what that might look like would be:
-![](/_images/_gsender/_bugs/gs_bugs_p9_USBDevice.png){.aligncenter .size-medium .nar}
+![](/_images/_gsender/_issues/gs_is_cm_device-id.png){.aligncenter .size-medium .nar}
 
 We appreciate your feedback, and with your help we'll make sure the next version of gSender recognizes your machine.
 
@@ -145,7 +145,7 @@ If your g-code includes any workspace commands from G54 to G59, G59.1 to G59.3, 
 
 Alternatively, gSender's 'Start/Stop G-code' can also be equipped to sidestep problems with changing workspaces by saving the active workspace at the start of the program and then re-loading it at the end. This can be done with the commands <code class="inline">%global.state.workspace=modal.wcs</code> and <code class="inline">[global.state.workspace]</code> as shown in the picture below. Remember to 'Update Event' on both entries:
 
-![](/_images/_gsender/_bugs/gs_bugs_p10_StartStop.png){.aligncenter .size-medium}
+![](/_images/_gsender/_issues/gs_is_cm_workspace.png){.aligncenter .size-medium}
 
 ### Changed $1 and Motors still Hold
 

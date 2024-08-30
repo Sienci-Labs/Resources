@@ -12,7 +12,7 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_gsender/_install/gs_install_setup-complete.png
+featured_image: _images/_gsender/_install/gs_in_windows-finish.png
 ---
 
 ## Download
@@ -29,33 +29,33 @@ You may run into a security warning from your computer when you download the .EX
 
 **Microsoft Edge Users:** If you are having difficulties downloading gSender when using Microsoft Edge, follow the <a href="https://resources.sienci.com/wp-content/uploads/2022/03/gSender-Microsoft-Edge-Browser-Install.pdf" target="_blank" rel="noopener">instructions here</a> or watch the video <a href="https://youtu.be/vvwtIjgMcAM" target="_blank" rel="noopener">here.</a>
 
-![](/_images/_gsender/_install/gs_install_install-download.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_windows-download.jpg){.aligncenter .size-medium}
 
 Once you've downloaded the EXE file, double-click to run it. gSender isn't yet set up to pass security checks so you'll have to allow it to run manually by clicking 'More Info' and then clicking 'Run anyway'. If you don't feel that you can trust gSender, then no pressure to use it; we'll have this setup later on.
 
-![](/_images/_gsender/_install/gs_install_windows-defender.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_windows-defender.jpg){.aligncenter .size-medium}
 
 If the "More info" option isn't available, it could be that Windows is fully blocking installation. This can be fixed by going to "App &amp; browser control" and switching "Check app and files" to "Warn" or "Off" just for the installation of gSender. You can always turn it back on afterwards.
 
-![](/_images/_gsender/_install/gs_install_windows-defender-override.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_windows-defender-override.png){.aligncenter .size-medium}
 
 With permission to run, you should be met with a license agreement. gSender is provided "as is" which means there's no expectation that it'll run your CNC perfectly - especially as it's still in very active development. We want you to understand this before moving forward. If you agree, you'll be able to choose your install options from there (who to install for and where) and then begin installing.
 
-![](/_images/_gsender/_install/gs_install_install-setup.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_windows-setup.png){.aligncenter .size-medium}
 
 Install completion will be indicated by a completion screen. If the 'Run gSender' box is checked off you should be able to click 'Finish' and be greeted with a splash screen followed by the full program. If not, you can always open the program manually after install.
 
-![](/_images/_gsender/_install/gs_install_setup-complete.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_windows-finish.png){.aligncenter .size-medium}
 
 ## Mac Install
 
 Once you've downloaded the DMG file, double-click to run it. A window will popup that will look like the one below. Click and drag the gSender app and let go the applications folder to save it to your Mac.
 
-![](/_images/_gsender/_install/gs_install_mac-download.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_mac-download.png){.aligncenter .size-medium}
 
 Navigate to your applications folder on your Mac and the gSender program should be there and ready for use.
 
-![](/_images/_gsender/_install/gs_install_mac-finder.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_mac-finder.png){.aligncenter .size-medium}
 
 **Note:** we've been having problems creating an Arm build for Mac, but for now you should still be able to install the Intel version and use Rosetta just fine.
 
@@ -67,7 +67,7 @@ If you're having issues installing gSender on your Mac:
 1. Change the setting to 'App Store and identified developers'
 1. After, you’ll see the option to override app blocking by clicking the temporary button to 'Open Anyway'
 1. You'll be asked one more time if you're sure, but clicking Open will run the app.
-![](/_images/_gsender/_install/gs_install_mac-defender-override.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_mac-defender-override.jpg){.aligncenter .size-medium}
 
 ## gSender Updates
 
@@ -75,13 +75,13 @@ gSender will notify you when new updates are available, allowing you to download
 
 gSender updates always have the chance of encountering quirks, so if you have an important carve coming up or are just satisfied with your current setup then we'd typically recommend holding off until updating will be less 'mission-critical'. If you update accidentally and want to go back, you can also always <a href="#older-versions">downgrade</a>.
 
-![](/_images/_gsender/_install/gs_install_gsender-updater.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_updater.png){.aligncenter .size-medium}
 
 **Note:** If you are upgrading to a new version or gSender, or downgrading to an older version, and you run into problems trying to get it to open or run, you’ll want to find a file called “**.sender_rc**” and rename it. This will allow gSender to generate a new version and clean up any errors you may be encountering. It also allows you to recover your old Start/Stop events and macros from the file in the future if needed.
 
 - For Windows: the file can usually be found on your hard drive, at: **C:/users/{your username}/.sender_rc**. Rename it to whatever you like, like “**.sender_rc_old**”, then try to reinstall gSender again.
-![](/_images/_gsender/_install/gs_install_senderrc.jpg){.aligncenter .size-medium}
-![](/_images/_gsender/_install/gs_install_rcold.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_update-senderrc.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_update-rcold.jpg){.aligncenter .size-medium}
 - For Mac/Linux: the file is in the home directory as a hidden file. You can either:
   - Go to your **Home** directory in Finder and make sure you have ‘show hidden files’ enabled (**CMD + Shift + .** ). You’ll then be able to see the file and rename it.
   - Go into the Mac/Linux console and enter the command “**mv ~/.sender_rc ~/.sender_rc_old**”. You’ll be able to double check the renaming was successful by sending “**ls -al | grep sender**” in the console, where if you only see “**.sender_rc_old**”, you have successfully remanded and are ready to try to reinstall gSender.
@@ -99,9 +99,9 @@ If you just updated gSender and are finding that it's not working for you, downg
 
 You can run gSender by using Linux inside of ChromeOS as long as you’re running 64-bit. Set up Linux on your Chromebook with <a href="https://support.google.com/chromebook/answer/9145439?hl=en" target="_blank" rel="noopener">these instructions</a>. Open the command line and type: <code class="inline">cat /etc/os-release</code> or <code class="inline">uname -m</code> to see what architecture/operating system you are using, so you’ll know which gSender file to download. In the example below you can see we are running aarch64, which means we will want to download "arm-64bit.AppImage".
 
-![](/_images/_gsender/_install/gs_install_chromebook-arch.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_chromebook-arch.png){.aligncenter .size-medium}
 
-![](/_images/_gsender/_install/gs_install_ARM64bit.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_chromebook-arm64.png){.aligncenter .size-medium}
 
 Download the .appimage file from the latest release of gSender and double click to launch. You will need to have the g-code files you want to carve in the same folder too. If you have success and find we’ve missed any steps here, let us know and we will update our resources!
 
@@ -121,7 +121,7 @@ We hope all of this explains why you’ll find the RasPi side of gSender support
 - Pi versions are all indicated by the “Pi-64Bit” tag in the executable name.
 - Supported PI OS (Raspbian/Pi OS):
   - To determine which OS you’re running, enter a terminal and type “cat /etc/os-release”. The name and pretty name should verify your OS and version
-![](/_images/_gsender/_install/gs_install_ras-pi-os.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_ras-pi-os.jpg){.aligncenter .size-medium}
 
 **For most simple Pi setups, you’ll want to:**
 
@@ -137,7 +137,7 @@ These are needed when performing ‘sudo’ super user access, a type of adminis
 
 To change the default pi user password. It's just menu -&gt; Preferences -&gt; Raspberry Pi Configuration and then the "Change Password" option
 
-![](/_images/_gsender/_install/gs_install_change-pi-credentials.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_ras-pi-credentials.png){.aligncenter .size-medium}
 
 **Error log location:**
 All application logs can be found in “<em>~/.config/gSender/logs</em>” and can be shared for any app-specific problems.

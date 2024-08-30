@@ -12,14 +12,14 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_gsender/_edge/gs_edge_p1_Cycle.jpg
+featured_image: _images/_gsender/_edge/gs_edge-cycle.jpg
 ---
 
 gSender Edge is our test arena for working on new and exciting gSender updates that will eventually be released to everyone. Think of it as a program that you can download independently from traditional gSender that allows you to participate in public Beta testing. This gives you the opportunity to use all the new features that we’re working on and make an impact by giving us feedback to inform the final result, that’s what it’s like to be on the bleeding **Edge**.
 
 Edge isn’t a replacement for gSender in any way - it’s a way for us to test and get feedback on new, bigger features without exposing them to users who may not be interested or causing unexpected bugs. This follows a cycle that can be several months long where:
 
-![](/_images/_gsender/_edge/gs_edge_p1_Cycle.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge-cycle.jpg){.aligncenter .size-medium}
 
 1. A new Edge version is split off from Main in order to prototype some new functionality and features (you can tell when this happens because the numbering scheme will jump up from 1.1.6 to EDGE-1.2.0, for example)
 1. Edge eventually stops adding major features so it can become more refined from user feedback and squashing bugs
@@ -65,42 +65,42 @@ As of 1.4.1, the current notable features / improvements to Edge are:
 
 If you've ever accidentally zeroed an axis when you meant to go to the existing zero, this is an option you can turn on that double checks when you want to zero. In settings on the safety tab, you can toggle this feature on. Then when you click on Zero X, Zero Y or Zero Z, you will see a popup asking for confirmation.
 
-![](/_images/_gsender/_edge/gs_edge_p2_SafeToggle.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn.jpg){.aligncenter .size-medium}
 
-![](/_images/_gsender/_edge/gs_edge_p3_GoToGIF.gif){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn.gif){.aligncenter .size-medium}
 
 We’ve improved the Go To function! You can use the blue Go To buttons beside each axis to move to X, Y or Z zeros individually as always. The improvement is under the Go To XY0 button, where you will now find a simple Go To button.
 
-![](/_images/_gsender/_edge/gs_edge_p4_GoTo.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_goto-location.jpg){.aligncenter .size-full .nar}
 
 Hitting the Go To button will bring up a popup that will allow you to enter specific coordinates for each axis (Absolute or relative positioning). When you hit the Go button, you will move to the location you’ve designated!
 
-![](/_images/_gsender/_edge/gs_edge_p5_GoToGIF.gif){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_goto-location.gif){.aligncenter .size-medium}
 
 ### Multi Corner Probing
 
 Most people prefer to probe the front, left corner of their material as the zero-point of their job, since that corner is easy to access, but in rare cases you might want to probe elsewhere. If you would like to probe from a different spot on your workpiece, you can now rotate to the corner of your choice. Simply press the icon in the top right corner to highlight where you are starting to probe. For example, if you wish to probe from the back right corner, hit the icon twice to move the highlighted section to the back right.
 
-![](/_images/_gsender/_edge/gs_edge_p6_CornerGIF.gif){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_probing/gs_fe_pr_change-corner.gif){.aligncenter .size-medium}
 
 ### Gamepad
 
 You can select one of the preset and tested profiles or create your own. To create your own, connect your joystick to your computer and create a new profile using the ‘Add New Gamepad Profile’ button. This will enable you to set up multiple profiles if desired, for different controllers, as they each have their own unique ID.
 
-![](/_images/_gsender/_edge/gs_edge_p7_Gamepads.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-add.png){.aligncenter .size-medium}
 
 If you run into difficulty with getting a particular joystick set up in gSender, consider searching for documentation provided by the manufacturer (for example, <a href="https://support.xbox.com/en-CA/help/hardware-network/controller/connect-xbox-wireless-controller-to-pc">Xbox</a> or <a href="https://www.playstation.com/en-ca/support/hardware/ps4-pair-dualshock-4-wireless-with-pc-or-mac/">PlayStation</a>). Some joysticks may also require drivers to be downloaded so your computer can read the signals that the joystick sends out.
 Connect your controller to your PC and press any button on it. gSender will identify and provide a profile if one is available. You can see in the screenshot below, it correctly identifies the DualSense Wireless Controller I’m adding. Enter your profile name and hit **Add New Profile**.
 
-![](/_images/_gsender/_edge/gs_edge_p8_Profiles.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-new.png){.aligncenter .size-medium}
 
 Your new profile will now appear on the Gamepad tab of the Shortcuts page in Settings. Click on the profile you want to edit.
 
-![](/_images/_gsender/_edge/gs_edge_p9_AllProfiles.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-added.jpg){.aligncenter .size-medium}
 
 Here you will find the shortcuts that you can assign to different buttons or your joysticks. You can see that the controller is connected, and that a Help button is available. You can push the buttons on your controller to see which number it corresponds to. You can then rename the shortcut button to match your controller by clicking on the black number. In this case, the X button corresponds to button 0. By pressing the plus symbol in the Action column, you will see a list of actions you can map to that button. I added an action for **Homing - Go to back left corner**. Now when I hit the X button on my controller, gSender will move the CNC to the back left corner!
 
-![](/_images/_gsender/_edge/gs_edge_p10_ShortGIF.gif){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-assign.gif){.aligncenter .size-medium}
 
 #### Lockout Button
 
@@ -112,7 +112,7 @@ The second advantage to using the ‘lockout’ button is that you can double up
 
 You can use the Joystick Options section to move your assigned axis. In this section, you can select which joystick moves which axis. In this example, stick 1 controls the X axis left and right, and the Y axis forward and back. Stick 2 controls the A axis with left/right (If you are using the rotary) and the Z axis with up/down.
 
-![](/_images/_gsender/_edge/gs_edge_p11_JoystickOptions.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-joystick.jpg){.aligncenter .size-full .nar}
 
 The joysticks have two ways of functioning. You can apply continuous pressure and the CNC will respond accordingly. The speed of the direction you are going depends on how far you push your joystick in a particular direction. You can also flick the joystick once and the CNC will move one increment, according to the rapid/normal/precise movements you have set up for Jog Controls.
 
@@ -122,11 +122,11 @@ If your joystick isn’t performing as well as the automatic controls, you can m
 
 - The **Zero Threshold** dials in how far you have to push a joystick for it to register.
 - The **Movement Distance Override** allows you to fine-tune the jogging distance that is calculated when moving your joystick around. If you notice some stuttering when jogging, then the system is hungry for more commands, so try increasing the override value to help send jog commands more often. You will know you have eliminated lag if you see and hear the unit move around smoothly.
-![](/_images/_gsender/_edge/gs_edge_p12_Overrides.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-joystick-thresh.jpg){.aligncenter .size-full .nar}
 
 Another cool feature is the **Use MPG** selection. If you map one of your joysticks to an axis with MPG selected, it will automatically grey out the other stick selections. Now you can rotate your stick in any direction and for each quarter rotation, your axis will move once, according to your preselected Jog Controls.
 
-![](/_images/_gsender/_edge/gs_edge_p13_MPG.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-joystick-mpg.jpg){.aligncenter .size-full .nar}
 
 ### Rotary
 
@@ -136,11 +136,11 @@ gSender has a unique ability to control a rotary axis on normal, 3-axis grbl mac
 
 Navigate to the Settings where you will find the Rotary settings. Here you can **toggle** the Rotary controls to make them visible on the main page.
 
-![](/_images/_gsender/_edge/gs_edge_p14_RotaryGIF.gif){.aligncenter .size-full}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_enable.gif){.aligncenter .size-full}
 
 Once the toggle has been turned to display, you will see an additional tab at the bottom right of the window, called Rotary. With this tab you can:
 
-![](/_images/_gsender/_edge/gs_edge_p15_JogControls.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_options.jpg){.aligncenter .size-full .nar}
 
 1. **Jog Control** - Rotate the A-axis, go to Zero, set Zero, and adjust speeds
 1. **Rotary Mode** - Toggle into Rotary Mode
@@ -167,7 +167,7 @@ When switching from regular CNC use to Rotary Mode, you will probe to align the 
 
 This toggle can only happen once you’ve got your rotary axis set up properly, because after switching it’ll assume you’ve changed your motor wiring to be connected to your A-axis instead of your Y-axis. Here you can toggle the Rotary Mode on and off without going into the settings.
 
-![](/_images/_gsender/_edge/gs_edge_p16_RotaryModeTog.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_toggle.jpg){.aligncenter .size-full .nar}
 
 When you enable Rotary Mode, several changes will happen to your tool options:
 
@@ -181,7 +181,7 @@ Several changes will also happen to your controls:
 - It changes the ‘**Goto XYO**’ button to be a ‘**Goto XAO**’ button
 - The **Y-axis jogging** buttons are hidden
 
-![](/_images/_gsender/_edge/gs_edge_p17_JogControls2.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_jog-changes.jpg){.aligncenter .size-full}
 
 You will also see a reminder that:
 
@@ -191,7 +191,7 @@ You will also see a reminder that:
 
 With a final check to ensure that your **switch is turned to rotary**, click OK to finish enabling Rotary Mode.
 
-![](/_images/_gsender/_edge/gs_edge_p18_Warning.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_toggle-warn.jpg){.aligncenter .size-full .nar}
 
 #### Rotary Probing
 
@@ -203,11 +203,11 @@ You can set your **Z-axis** to either the rotating axis center, or the surface o
 
 To do this, jog the cutting bit to be hovering approximately ~15mm just above the chuck. **Double check that your probing wires are in place before proceeding!**
 
-![](/_images/_gsender/_edge/gs_edge_p19_SettingZ.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_z-position.png){.aligncenter .size-medium}
 
 In gSender, select the rotary axis tab, then Click ‘Probe Rotary Z-axis’ and the Z-axis will begin probing automatically, setting the Z-zero point for you. This will need to be done for each tool change in addition to the beginning of each job.
 
-![](/_images/_gsender/_edge/gs_edge_p20_ProbeZRotary.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_z-probe.jpg){.aligncenter .size-full .nar}
 
 ##### Setting X &amp; A axis
 
@@ -220,35 +220,35 @@ Setting both the X-axis and the A-axis are done manually.
 
 he Rotary Surfacing button will allow you to turn square stock down to a cylinder. We recommend using a **¼ inch upcut end mill** for turning stock, as it's the most efficient.
 
-![](/_images/_gsender/_edge/gs_edge_p21_RotarySurfacing.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_open.jpg){.aligncenter .size-full .nar}
 
 Now you will see the Rotary Surfacing Tool. Here you will enter details about your stock length, start and final dimensions. You will also see spots for Bit Diameter, Step over, Spindle RPM, and Feed rate.
 
-![](/_images/_gsender/_edge/gs_edge_p22_SurfacingTool.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_settings.jpg){.aligncenter .size-medium}
 
 Rotary surfacing is similar to the regular XYZ surfacing tool. Let’s explore this a bit further.
 
 1. Your **start diameter** is the largest diameter on your stock. Usually this means the diagonal distance from opposite corners if you’re starting with square or rectangular stock.  
-![](/_images/_gsender/_edge/gs_edge_p23_Diameter.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_diameter-start.jpg){.aligncenter .size-full .nar}
 1. Your final diameter is determined by the short side of your stock.
-![](/_images/_gsender/_edge/gs_edge_p24_Diameter2.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_diameter-end.jpg){.aligncenter .size-full .nar}
 1. With a starting height of 90mm and a finished height of 63.5mm, we are removing 26.5mm of material. **However**, since we have the Z axis set at the center of the material, we will need to divide that 26.5mm in half. We are basically taking 13.25mm off of the top and the bottom. If you want a single pass, your stepdown would be 13.25mm. Dividing that by two and setting the stepdown to 6.625mm, means that we will be doing two passes. This will produce a piece of round stock with the maximum diameter possible.
 
 <p style="text-align: center;"><strong>(Start Height - Finishing Height) / 2 = Total Stepdown for ONE pass</strong></p>
 
-![](/_images/_gsender/_edge/gs_edge_p25_SurfacingGIF.gif){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_running.gif){.aligncenter .size-full .nar}
 
 #### Rotary Settings
 
 When you click on the setting button and then select the Rotary tab, you will see the firmware configurations. Here you can enter your own settings, reset the default settings and turn Hard Limits on/off.
 
-![](/_images/_gsender/_edge/gs_edge_p26_RotFirmware.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_settings.jpg){.aligncenter .size-medium}
 
 ### Job Stats and CNC Maintenance
 
 Curious to know how many jobs you’ve completed, how many hours you’ve put on your machine or what maintenance you should be focusing on? Find this information in the “Job History &amp; Stats” section of settings. Here you will find 3 tabs; Statistics, Job Table, and Maintenance.
 
-![](/_images/_gsender/_edge/gs_edge_p27_JobStatsGIF.gif){.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_fe_stats.gif){.aligncenter .size-medium}
 
 #### Statistics
 
@@ -270,10 +270,10 @@ On the settings page under Tool Change you now have the option to toggle on Pass
 
 We’ve also brought back the Code block tool change strategy. You can enter your own macros before and after the tool change when this strategy is selected.
 
-![](/_images/_gsender/_edge/gs_edge_p28_ToolChange.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_fe_tool-change-code.jpg){.aligncenter .size-medium}
 
 ### Remote mode improvements
 
 You can now use your camera to scan the QR code, and be taken directly to your remote interface.
 
-![](/_images/_gsender/_edge/gs_edge_p29_QRCode.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_fe_re_setup-config.jpg){.aligncenter .size-medium}
