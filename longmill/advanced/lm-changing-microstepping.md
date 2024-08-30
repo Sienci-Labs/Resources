@@ -19,40 +19,34 @@ Every LongMill is powered by our LongBoard CNC controller which has four integra
 
 ![](/_images/_longmill/_advanced/lm_Stepper_p1.jpg){.aligncenter .size-medium}
 
-<h2>What is Microstepping</h2>
+## What is Microstepping
 
 Stepper motors have a fixed number of steps in their internal rotor which determine the steps required to make a full, 360-degree rotation. With these steps in mind, the controller drivers can "step" forward or backward however many times to rotate each axis motor. The NEMA 23s used on the LongMill are split up to 200 individual steps. This might seem like a lot, but in many cases more accurate control is still needed.
 
 Microstepping is a technique that allows for steps to be broken down into 'sub-steps' so that the stepping resolution can be increased. This allows us to:
 
-<ul>
-<li>Have a smoother movement in the motors themselves</li>
-<li>Improve positional accuracy (read more here: <a href="https://hackaday.com/2016/08/29/how-accurate-is-microstepping-really/" target="_blank" rel="noopener">https://hackaday.com/2016/08/29/how-accurate-is-microstepping-really/</a> )</li>
-</ul>
+- Have a smoother movement in the motors themselves
+- Improve positional accuracy (read more here: <a href="https://hackaday.com/2016/08/29/how-accurate-is-microstepping-really/" target="_blank" rel="noopener">https://hackaday.com/2016/08/29/how-accurate-is-microstepping-really/</a> )
 
-<h2>Current Values</h2>
+## Current Values
 
 Currently, the steps/mm EEPROM settings in the LongMill (<em>$100, </em><em>$101, </em>and <em>$102</em>) are set to 200. This value helps the controller turn g-code into linear movements, then into rotational step signals for the motors. This number comes from taking the values below and running them through the formula:
 
-<ul>
-<li>LongMill stepper motors are <strong>200</strong> steps/rotation</li>
-<li>Drivers set to <strong>1/8</strong> microstepping by default</li>
-<li>Each axis is direct drive and Z-axis has <strong>1-to-1</strong> pulley ratio</li>
-<li>Our lead screws have a <strong>2mm</strong> pitch and are <strong>4-start, </strong>2mm x 4 = 8mm <strong>lead</strong></li>
-</ul>
+- LongMill stepper motors are **200** steps/rotation
+- Drivers set to **1/8** microstepping by default
+- Each axis is direct drive and Z-axis has **1-to-1** pulley ratio
+- Our lead screws have a **2mm** pitch and are **4-start**, 2mm x 4 = 8mm **lead**
 
 <em>Steps/mm  =   Steps/revolution</em><em>  </em><strong>/</strong><em>  (microstepping value  </em>x<em>  gearing ratio from motor to lead screw  </em>x<em>  lead screw pitch  </em>x<em>  # of starts)</em>
 
 This gives us:  200  /  (1/8  x  1  x  2  x  4)  =  <em>200 steps/mm</em>
 
-<h2>Changing Microstepping</h2>
+## Changing Microstepping
 
 If you'd like to change your machines microstepping values, you'll have to:
 
-<ol>
-<li>Change the positions of the desired drivers onboard DIP switches and</li>
-<li>Set the EEPROM setting to match.</li>
-</ol>
+1. Change the positions of the desired drivers onboard DIP switches and
+1. Set the EEPROM setting to match.
 
 For example, changing the Z-axis driver to have 1/16 microstepping would require following the table below and then in your UGS console sending the command "<em>$102  = 400</em>" to set the appropriate steps/mm of the Z-axis.
 

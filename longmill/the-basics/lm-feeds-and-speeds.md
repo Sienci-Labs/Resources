@@ -27,7 +27,7 @@ Each of these factors must be suited to the properties of the material that you'
 
 **Higher tool RPM produces smaller chips, while higher feed rates produce larger chips. Overall, if the chips are too large, your bit will be likely to break, but if your chips are too small (like fine powder), you will be dulling your bit. It’s all about getting the right balance.**
 
-<h2>Terminology</h2>
+## Terminology
 
 <strong>Feed rate:</strong> how quickly the tool moves in the X and Y directions, usually defined in millimeters (or inches) per minute.<br>
 <strong>Plunge rate:</strong> how quickly the tool moves in the Z direction, usually defined in millimeters (or inches) per minute.<br>
@@ -35,7 +35,7 @@ Each of these factors must be suited to the properties of the material that you'
 <strong>Depth of cut/Step down:</strong> the amount of depth that the CNC machine removes with every cutting pass, defined in millimeters or inches.<br>
 <strong>Step over:</strong> the offset that is applied between the old cutting pass and the new one, usually defined as a percentage of the tool's cutting diameter.
 
-<h2>Recommendations</h2>
+## Recommendations
 
 Since there are so many different types and sizes of cutting tools, we've created a list below of just 3 different cutting tools that we strongly recommend to get started on your machine. We've created <a href="https://resources.sienci.com/view/lm-materials/" target="_blank" rel="noopener noreferrer">feed and speed tables</a> for these tools for cutting in various materials so that you can copy/paste the values you need for your first projects. If you're looking to get started with this recommended list, all of these tools can be found for purchase <a href="https://sienci.com/product-category/cutting-tools/" target="_blank" rel="noopener noreferrer">in our store!</a>
 

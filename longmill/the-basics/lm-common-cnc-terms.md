@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/_longmill/_the-basics/lm_cncterms_p1_Backlash.jpg
 ---
 
-<h3>Basics of a CNC Router</h3>
+### Basics of a CNC Router
 
 Know the names for the fundamental parts that make up an average hobby CNC.
 
@@ -49,7 +49,7 @@ Know the names for the fundamental parts that make up an average hobby CNC.
 
 <strong>Wasteboard</strong> - Its job is to get cut up. This is normally a flat sheet of MDF the same size or slightly bigger than the cutting area of your CNC. It can have built-in mounting systems to hold down your stock material, or you can just screw right into it. It’s always there as your flat ‘table’ that holds the stock material and gives you second chances if your CNC does something unpredictable.
 
-<h3>CNC Operation</h3>
+### CNC Operation
 
 These operations are all normally controlled using a machine interface program. You can think of the machine interface as a car dashboard, containing all the buttons and actions you’d need to run your machine.
 
@@ -77,7 +77,7 @@ These operations are all normally controlled using a machine interface program. 
 
 <strong>Tramming</strong> - A method used to adjust the router or spindle to cut exactly perpendicular to  the bed of the CNC machine. This is an optional practice done at the beginning of the machine setup or during maintenance to make straighter cuts and reduce grooves in flat surface cuts.
 
-<h3>The Cutting Process</h3>
+### The Cutting Process
 
 Cutting away material on a CNC is affected by two major factors:
 
@@ -86,7 +86,7 @@ Cutting away material on a CNC is affected by two major factors:
   <li>What cutting approach is being used when moving through the material; an analogy would be cutting across the wood grain versus along it.</li>
 </ol>
 
-<h4>1. Tools and Features</h4>
+#### 1. Tools and Features
 
 <strong>End mill</strong> - Bits with spiraled flutes, which can come in with many different tip shapes.
 
@@ -116,7 +116,7 @@ Cutting away material on a CNC is affected by two major factors:
 
 <p style="padding-left: 40px;"><strong>V-bit</strong> -  Has a pointed tip in the shape of a ‘V’ and works great for cutting away as an engraving, making lots of different details especially for signs. They can also be used for inlays and chamfering and come in many angles such as 30°, 60°, 90°, and 120°.</p>
 
-<h4>2. Cutting Approach</h4>
+#### 2. Cutting Approach
 
 <strong>Climb milling</strong> - A milling technique in which the CNC machine is moving against the router / spindle rotation. This causes more cutting forces than conventional milling, but can provide a better surface finish. If climb milling, there must be compensation used to eliminate backlash.
 
@@ -140,7 +140,7 @@ Cutting away material on a CNC is affected by two major factors:
 
 <strong>Roughing pass</strong> - A cutting job used to cut out the approximate geometry of the design, to remove larger amounts of material at once. This is usually followed by a finishing pass to clean it up.
 
-<h3>Basic CNC Parameters</h3>
+### Basic CNC Parameters
 
 These are the settings you’d change to improve the performance of your cutting job, found in most CAM programs.
 
@@ -156,7 +156,7 @@ These are the settings you’d change to improve the performance of your cutting
 
 <strong>Step over [%]</strong> - The offset between two toolpaths, a smaller offset means there is more overlapping which leads to better surface finish but will take more time. The offset is expressed as a percentage of the bit diameter.
 
-<h3>Advanced CNC Parameters</h3>
+### Advanced CNC Parameters
 
 <strong>Chip load</strong> - The theoretical thickness of the chip generated from the cutting bit, determined by the feed rate, spindle speed, and number of flutes. The chip load affects surface finish and tool wear, among other performance considerations.
 
@@ -170,7 +170,7 @@ These are the settings you’d change to improve the performance of your cutting
 
 <strong>Surface speed [mm/min, in/min]</strong> - The relative speed between the spindle speed and the machine feed rate. This is the actual speed your machine is removing material, expressed as distance over time. In a CAM program, you only input the spindle speed and feed rate, not surface speed.
 
-<h3>CNC Software Terms</h3>
+### CNC Software Terms
 
 <strong>CAD</strong> - Computer aided design, a software program used to produce a 2D or 3D design.
 
@@ -196,7 +196,7 @@ These are the settings you’d change to improve the performance of your cutting
 
 <strong>Visualizer</strong> - A program that shows the toolpaths of g-code files, illustrating how the machine will move during the job.
 
-<h3>CNC Electronics Terms</h3>
+### CNC Electronics Terms
 
 <strong>Arduino</strong> - A circuit board used for controlling electronics. It is an open source board, meaning people can freely modify and replicate its code and design. In the LongMill the Arduino is loaded with custom LongMill firmware.
 
@@ -218,7 +218,7 @@ These are the settings you’d change to improve the performance of your cutting
 
 [su_divider]
 
-<h3>Sources &amp; Other Info</h3>
+### Sources &amp; Other Info
 
 <a href="https://www.cnccookbook.com/cnc-dictionary/">https://www.cnccookbook.com/cnc-dictionary/</a><br>
 <a href="https://wiki.shapeoko.com/index.php/glossary">https://wiki.shapeoko.com/index.php/glossary</a><br>

@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/_longmill/_the-basics/lm_materials_p1_Guitar.jpg
 ---
 
-<h2>Wood</h2>
+## Wood
 
 Wood is simply an amazing material. As it is a living, organic material, there are an infinite variety of woods and characteristics. We will talk a little about using wood with your CNC machine here.
 
@@ -139,20 +139,20 @@ One thing to note about wood is that it can burn if:
 <li>You are using bits that are not designed for cutting wood</li>
 </ul>
 
-<h3>Softwoods (pine, fir, spruce, cedar, etc.)</h3>
+### Softwoods (pine, fir, spruce, cedar, etc.)
 
 <ul>
 <li>Most common softwoods tend to be more fibrous than hardwoods. This can leave strands and burrs (fuzz) on some cut edges. You can reduce this by adding a finishing pass in your program. You may also find either conventional or climb milling affects your cut quality as well.</li>
 <li>Watch for warping, as many softwoods are more prone to warping.</li>
 </ul>
 
-<h3>Hardwoods (maple, cherry, oak, walnut, etc.)</h3>
+### Hardwoods (maple, cherry, oak, walnut, etc.)
 
 <ul>
 <li>Most common hardwoods are more prone to burning, as the sawdust for these woods tends to be finer and stickier. You can reduce this by increasing your feed rate and decreasing your stepdown.</li>
 </ul>
 
-<h3>Plywood</h3>
+### Plywood
 
 <ul>
 <li>There are many grades of plywood. Most lower grade plywood can be cut quite quickly as the wood is quite soft. Higher grade such as marine grade and baltic birch is harder and may need reduced feeds and speeds.</li>
@@ -160,7 +160,7 @@ One thing to note about wood is that it can burn if:
 <li>Plywood uses glues that can affect your cut quality and may affect the longevity of your bits. Make sure to check and ensure that they are clean between cuts.</li>
 </ul>
 
-<h3>MDF</h3>
+### MDF
 
 <ul>
 <li>MDF is a cheap, easy to cut material that tends to cut quite cleanly and evenly on the CNC router.</li>
@@ -168,13 +168,13 @@ One thing to note about wood is that it can burn if:
 <li>Like plywood, MDF also has chemicals and glues in the material. Make sure to check and ensure that they are clean between cuts</li>
 </ul>
 
-<h2>Plastic</h2>
+## Plastic
 
 Plastic is a material used everywhere in our modern world. Each type of plastic has unique properties that we must take into account when choosing our speeds and feeds.
 
 ![](/_images/_longmill/_the-basics/lm_materials_p2_Plastic.jpg){.aligncenter .size-medium}
 
-<h3>Acrylic / Polycarbonate</h3>
+### Acrylic / Polycarbonate
 
 <ul>
 <li>Although acrylic and polycarbonate look almost identical visually, they have different properties. Most common issue with cutting acrylic and polycarbonate is melting as they have very low melting points.</li>
@@ -184,7 +184,7 @@ Plastic is a material used everywhere in our modern world. Each type of plastic 
 <li>It is advisable to use single flute end mills on polycarbonate as well.</li>
 </ul>
 
-<h3>ABS / PVC / HDPE</h3>
+### ABS / PVC / HDPE
 
 <ul>
 <li>These plastics are a joy to cut. With a sharp cutter, you these plastics cut like butter.</li>
@@ -194,14 +194,14 @@ Plastic is a material used everywhere in our modern world. Each type of plastic 
 <li>Laser cutting/burning PVC releases toxic gases and chemicals.</li>
 </ul>
 
-<h3>Delrin / Teflon</h3>
+### Delrin / Teflon
 
 <ul>
 <li>Low friction plastics like Delrin (POM) is also quite easy to machine.</li>
 <li>Standard 1/8" and 1/4" 2 flute end mills work well with these materials, you can also find special plastic cutting end mills as well.</li>
 </ul>
 
-<h2>Foam</h2>
+## Foam
 
 Foam, being a super soft material, is an easy material to cut. We recommend foam as a starting material to practice CNC programming. Foam also has many useful applications, such as in packaging, RC planes, drones, and more.
 
@@ -230,7 +230,7 @@ Rigid foam is a super easy, soft material to cut. Most of the time, you can cut 
 </tbody>
 </table>
 
-<h3>Rigid foams (polystyrene foam insulation)</h3>
+### Rigid foams (polystyrene foam insulation)
 
 <ul>
 <li>Because polystyrene is so soft, you can typically cut this material at full engagement. Keep your spindle speed low to prevent melting.</li>
@@ -239,7 +239,7 @@ Rigid foam is a super easy, soft material to cut. Most of the time, you can cut 
 <li>Keep an eye on melted foam on your bits. You can clean them off with some acetone.</li>
 </ul>
 
-<h3>Soft foams (polyurethane)</h3>
+### Soft foams (polyurethane)
 
 <ul>
 <li>Polyurethane comes in a lot of different hardnesses and densities. Because it is not rigid, it can be pushed out of the way by the end mill rather than be cut. You may need to change your cutting direction, or speeds and feeds to accommodate.</li>
@@ -247,7 +247,7 @@ Rigid foam is a super easy, soft material to cut. Most of the time, you can cut 
 <li>Foam dust is very fine and sticks to surfaces. It is recommended to use a dust shoe. Keep an eye on melted foam on your bits. You can clean them off with some acetone.</li>
 </ul>
 
-<h2>Aluminum</h2>
+## Aluminum
 
 Aluminum is a strong and lightweight metal used in all sort of modern applications from our bikes to our laptops. CNCing aluminum is a great option to get useful parts, especially for mechanical systems and tools.
 

@@ -17,7 +17,7 @@ featured_image: /_images/_longmill/_the-basics/lm_cuttingtools_p2_VBits.jpg
 
 As you begin tackling more complex CNC projects, you'll start to notice that running multi-tool jobs becomes a necessity. Using multiple bits on the same workpiece can save time or achieve greater detail and give you the carving flexibility you need; whether it's a v-bit for engraving and an end mill for profiling, or an end mill for roughing and a tapered bit for finishing.
 
-<h2>Method 1: Separate Files</h2>
+## Method 1: Separate Files
 
 This is the easiest and most straight forward approach to tool changing. Many CAM programs allow for each toolpath to be exported as separate files. By creating separate g-code files for each cutting tool you'll be using, you can just:
 
@@ -32,13 +32,13 @@ This is the easiest and most straight forward approach to tool changing. Many CA
 
 Just be sure to give each file a clear naming scheme so you execute them in the right order and with the right tool. For example, your first file could be called "cat_1_v-bit", then your second "cat_2_endmill", and your third "cat_3_tapered". You can also specify the tool size or angle, any other prompts that ensure you run the order of files successfully with their corresponding bits.
 
-<h2>Method 2: Manual Editing</h2>
+## Method 2: Manual Editing
 
 This method will also work for g-code sending programs that do not have tool changing functionality, the difference with this one is that all the toolpaths will be in one file. The instructions below are written in millimetre values, however you can replace the values to be in inches as long as the g-code was generated using inches.
 
 This is a tool change method inspired by the work of Stuart McRae (a LongMill customer).
 
-<h3>Setup:</h3>
+### Setup:
 
 <ol>
   <li>Generate your g-code to the file format .nc or .gcode.</li>
@@ -83,7 +83,7 @@ This is a tool change method inspired by the work of Stuart McRae (a LongMill cu
 
 Below are some examples of how to input the tool changing g-code, which are in <b>bold</b>.
 
-<h4>EXAMPLE 1: Carbide Create</h4>
+#### EXAMPLE 1: Carbide Create
 
 G90<br>
 G21<br>
@@ -109,7 +109,8 @@ Z5.00<br>
 M05<br>
 M02
 _____________________________________
-<h4>EXAMPLE 2: CAMLab</h4>
+
+#### EXAMPLE 2: CAMLab
 
 G21<br>
 G90<br>
@@ -134,6 +135,6 @@ G0 Z2.0<br>
 <b>G0Z25.00</b><br>
 …
 
-<h2>Method 3: gSender Tool Change</h2>
+## Method 3: gSender Tool Change
 
 The g-code for tool changing is an M6 command, in which the program will pause until the user tells it to continue, usually through a ‘Resume’ and/or ‘Confirm Tool Change’ button on the machine interface program. In CAM programs, this M6 will be inserted in your g-code if there are toolpaths using different bits, thus requiring tool changes. On <a href="https://sienci.com/gsender/">gSender</a>, you can program what happens when there is M6 in your g-code, therefore allowing you to easily change your bits with pre-programmed actions. Full instructions can be found <a href="https://resources.sienci.com/view/gs-additional-features/#tool-changing">here</a>.

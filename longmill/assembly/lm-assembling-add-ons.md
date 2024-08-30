@@ -15,7 +15,7 @@ skip_file: no
 featured_image: /_images/_longmill/_assembly/_addons/lm_addons_p1.jpg
 ---
 
-<h2>Sienci Labs Dust Shoe</h2>
+## Sienci Labs Dust Shoe
 
 To make dust collection easier for your LongMill, we spent the time to design it its very own dust shoe. <a href="https://sienci.com/product/LongMill-magnetic-dust-shoe/" target="_blank" rel="noreferrer noopener">The new Sienci Labs Magnetic Dust Shoe</a> is a great add-on for your machine that can keep dust management easy! This dust shoe is designed specifically for the LongMill and works with 1.5″, and 2″ to 2-1/8″ hoses.
 
@@ -25,7 +25,7 @@ The assembly is shown after the initial reveal in the following video:
 
 [su_youtube url="https://www.youtube.com/watch?v=r_QqMye3dLo"]
 
-<h2>Sienci Labs Touch Plate</h2>
+## Sienci Labs Touch Plate
 
 This guide will help you set up and use your Sienci Labs Touch Plate with gSender or UGS. If you have a different touch plate that's still a standard block shape these steps may help you set up yours as well.
 
@@ -36,7 +36,7 @@ This guide will help you set up and use your Sienci Labs Touch Plate with gSende
 <li>Red and black wire with banana plug and magnet (1.8m)</li>
 </ol>
 
-<h3>Step 1: Wiring and plugging in your unit</h3>
+### Step 1: Wiring and plugging in your unit
 
 Your LongMill control board (the LongBoard) comes with a detachable two-pin screw terminal on the Probe/GND pins. With a small flat head screwdriver, start by screwing the two bare wires into this terminal. Ensure that the red and black wires are in the correct spot as in the photo.
 
@@ -52,7 +52,7 @@ Attach the magnet to your end mill. You can also attach it to the collet nut or 
 
 At this step, you are ready to start setting up your touch plate!
 
-<h3>Step 2: Setting up software probing</h3>
+### Step 2: Setting up software probing
 
 You can choose to use gSender or UGS (UGSPlatform) to run the probe. We recommend gSender as it is easier.
 
@@ -114,7 +114,7 @@ In these sections, makes sure that these settings are changed. If your section d
 </ul>
 [tabbyending]
 
-<h3>Step 3: Putting it all to use</h3>
+### Step 3: Putting it all to use
 
 We're pretty much ready to go!
 
@@ -202,12 +202,13 @@ You may have some issues with using your touch probe if your cutting tool is:
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p10_Layout.jpg){.aligncenter .size-medium}
 
-<h2>Sienci Labs AutoZero Touch Plate</h2>
+## Sienci Labs AutoZero Touch Plate
+
 The AutoZero Touch Plate is specifically designed for use with the latest version of <a href="https://sienci.com/gSender/">gSender</a>. Please download the latest program first.
 
 https://www.youtube.com/watch?v=H_fYFjtFc3Q
 
-<h3><b>Step 1: Unwrapping and setting up your touch plate</b></h3>
+### Step 1: Unwrapping and setting up your touch plate
 
 Each order for the AutoZero Touch Plate comes with the block itself, a cable that has a magnet on one end and an ECS5/banana plug on the other.
 
@@ -215,7 +216,7 @@ All LongBoards come with 3.81mm pluggable screw terminals that can be removed fr
 
 Use a small screwdriver to loosen the screw terminal to wire the cable with the red and black wires as shown.
 
-<h3><b>Step 2: Update your gSender settings</b></h3>
+### Step 2: Update your gSender settings
 
 Settings for the AutoZero touch plate is built into the latest version of gSender. You can activate the AutoZero in the settings menu by clicking on the gear icon at the upper right side of the interface.
 
@@ -229,7 +230,7 @@ Closing the settings menu will save your changes. Your interface will update at 
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p13.png){.aligncenter .size-medium}
 
-<h3>Step 3: Setting up the touch plate on your workpiece</h3>
+### Step 3: Setting up the touch plate on your workpiece
 
 The AutoZero can find the X, Y, and Z coordinates on rectangular pieces of material. <strong>The material should be square and flat to get the best reading.</strong> The AutoZero can also find the Z-height of most flat materials as well regardless of their shape.
 
@@ -241,7 +242,7 @@ For using to find the X, Y, and Z coordinates, you will need to set the block at
 
 If you are probing just the Z-axis, you flip over your touch plate and place it on the surface of the material.
 
-<h3>Step 4: Probing</h3>
+### Step 4: Probing
 
 The AutoZero can probe in all three axes. The type of probing can be selected with one of the five options on the interface. The selection determines which axis the machine will be probing for and which coordinates it will reset once the probing cycle is complete.
 
@@ -265,13 +266,13 @@ You'll also have the option for choosing which tool you're using, either "Auto" 
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p17.png){.aligncenter .size-medium .nar}
 
-<h3>Step 5: Remove magnet </h3>
+### Step 5: Remove magnet
 
 Once your probing is complete, remove the magnet and move the touch plate out of the way. Your machine coordinates should now be updated and ready to use.
 
 We hope you have an excellent experience with the AutoZero touch plate!
 
-<h2>Installing the LongMill T-Track Set</h2>
+## Installing the LongMill T-Track Set
 
 https://www.youtube.com/watch?v=T4QVgtnZMDw
 
@@ -290,7 +291,7 @@ This layout minimizes reductions in cutting area and depth, and can be prepared 
 <li>Mount your clamps onto your newly installed T-track table, and enjoy!</li>
 </ol>
 
-<h2>Assembling and Using the LongMill T-Clamps</h2>
+## Assembling and Using the LongMill T-Clamps
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p19.jpg){.aligncenter .size-medium}
 
@@ -328,6 +329,6 @@ How to Use T-Clamps on T-Track Table:
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p21.png){.aligncenter .size-medium}
 
-<h2>Regular Dust Shoe</h2>
+## Regular Dust Shoe
 
 https://www.youtube.com/watch?v=j6JFbru7j3I

@@ -21,7 +21,7 @@ You can make changes to your machine's settings by changing the values in your E
 
 Start by sending the command "$$" to your machine. Your console will give you a list of values.
 
-<strong>DEFAULT SETTINGS</strong>
+## DEFAULT SETTINGS
 
 <table class="wp-table" width="500px">
 <tbody>

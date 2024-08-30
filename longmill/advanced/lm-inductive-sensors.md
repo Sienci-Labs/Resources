@@ -15,13 +15,13 @@ skip_file: no
 featured_image: /_images/_longmill/_advanced/_4_Inductive/lm_inductive_p1_DSC00411-scaled.jpg
 ---
 
-<h2>Installation</h2>
+## Installation
 
 The Inductive Sensor Kit is a plug-and-play add-on kit for your LongMill, which adds three inductive sensors to your machine to act as limit and homing switches.<strong> The kit can be ordered on our <a href="https://sienci.com/product/inductive-sensor-kit/">store</a>. </strong>
 
 https://www.youtube.com/watch?v=MZBsJED4Ktg
 
-<h3>Step 1: Unpacking</h3>
+### Step 1: Unpacking
 
 Each kit comes with:
 
@@ -58,7 +58,7 @@ Homing to the lower left corner is recommended because:
 
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p2_Corners-for-Homing.jpg){.aligncenter .size-medium}
 
-<h3>Step 2: Attaching to the machine</h3>
+### Step 2: Attaching to the machine
 
 Each bracket uses a pair of M3 screws to mount to the machine. Simply slide the bracket onto the recommended location and gently tighten the M3 screws using a 2.5mm Allen key into the brass heat-set nuts just until snug. <strong>Do not over tighten, as this could damage the bracket</strong>, but ensure that the bracket cannot move easily
 
@@ -66,7 +66,7 @@ Each bracket uses a pair of M3 screws to mount to the machine. Simply slide the 
 
 [tabby title="X-Axis" open="yes"]
 
-<h4>X-Axis Mounting</h4>
+#### X-Axis Mounting
 
 Place the X-axis sensor on the top of the left steel Y-gantry plate, sitting against the aluminum rail. The sensor should be triggered by the X-gantry plate when in contact.
 
@@ -82,7 +82,7 @@ Loosen the smaller (M5) screw on the flag and slide the flag onto the front slot
 
 [tabby title="Y-Axis"]
 
-<h4>Y-Axis Mounting</h4>
+#### Y-Axis Mounting
 
 Slide the Y-axis sensor onto the front left 3D printed foot. The mounting tab of the sensor must line up with the edge of the extrusion, and the Y-gantry should be in the center of the mount hole.
 
@@ -90,7 +90,7 @@ Slide the Y-axis sensor onto the front left 3D printed foot. The mounting tab of
 
 [tabby title="Z-Axis"]
 
-<h4>Z-Axis Mounting</h4>
+#### Z-Axis Mounting
 
 Slide the Z-axis sensor mount on the top end of the left of the Z-axis, ensuring the mount is pressed against the linear guide as far as it can go. For older models (V1), you will need to remove the lower nut on the inductive sensor before the mount can be slid on. Once the mount is affixed, you can then add and tighten the sensor nut.
 
@@ -100,7 +100,7 @@ Depending on the machine version, you may need to adjust how far the sensor exte
 
 [tabbyending]
 
-<h3>Step 3: Adjusting the sensors on the brackets</h3>
+### Step 3: Adjusting the sensors on the brackets
 
 All three inductive sensors are identical and are mounted to the brackets to allow for installation onto the machine. However, you can adjust them if you want to tweak the location of the sensors.
 
@@ -112,7 +112,7 @@ To adjust the position of a sensor:
   <li>Reinstall the nut and washer to secure the sensor in place on the bracket. Note that the Z-axis sensor does not use a washer on the lower nut</li>
 </ol>
 
-<h3>Step 4: Connecting the sensors to the LongBoard controller</h3>
+### Step 4: Connecting the sensors to the LongBoard controller
 
 Unclip the tabs that hold the wires in each drag chain and route the cables from the inductive sensors. Ensure that there are no sharp bends or tears in the cables as a failed limit sensor could cause a false alarm and halt the machine during use.
 
@@ -137,7 +137,7 @@ The console will now report back to you which limit sensor is triggered, indicat
 
 After you’ve finished checking that each sensor is reporting correctly, you can set disable sensor status reporting by setting the default value: <b>*$10=3*</b>
 
-<h4>Adding capacitors for LongBoard revision 1.2</h4>
+#### Adding capacitors for LongBoard revision 1.2
 
 Look on the top of your LongBoard to see the revision number just below the Sienci Labs logo. LongBoard revisions 1.3 and 1.4 come preinstalled with capacitors for each of the limit switch circuits. <b>If your board is revision 1.3 or 1.4, you can set aside the included capacitors and skip to Step 5</b>. If your LongBoard is revision 1.2, however, it does not come pre-installed with capacitors and may be subject to triggering falsely due to electrical noise. Therefore, each kit includes a set of 0.1 mF ceramic non-polarized capacitors to filter out any electrical noise. The capacitors used are shown below.
 
@@ -147,7 +147,7 @@ Remove the green 5 port connector installed in the '5V, Xlim, Ylim, Zlim, GND' p
 
 Plug in the X, Y, and Z axis limit switch connectors into each of the three white connectors as shown in the photo above.
 
-<h3>Step 5: Changing your settings for limit switches</h3>
+### Step 5: Changing your settings for limit switches
 
 If you received your machine before September 2021, you may need to update your LongMill's firmware to the latest version to have access to all of the updates for your limit switches to work. At the time of writing, the latest version of the LongMill firmware is Sept 8, 2021.
 
@@ -170,7 +170,7 @@ Now that we’re working with the default settings, we will modify a few to make
   <li>X and Y axis travel limits CHANGED</li>
 </ul>
 
-<h4><b>Hard limits, soft limits, homing cycle, and homing direction</b></h4>
+#### Hard limits, soft limits, homing cycle, and homing direction
 
 We recommend to turn ON $20, $21 and $22 on your firmware settings.
 
@@ -206,11 +206,11 @@ $130 and $131 are the travel limits for the X and Y-axis. For the 30x30 LongMill
 
 If you need to find the maximum travel for your unique setup do the following (optional); home your machine, zero all axes, then jog each axis to where you feel comfortable limiting it. Use the coordinates to set your maximum travel for each axis.
 
-<h3>Step 6: Using your sensors</h3>
+### Step 6: Using your sensors
 
 At this stage, you're ready to start using your sensors.
 
-<h4>Testing limit switches</h4>
+#### Testing limit switches
 
 Once the firmware changes have been made, test the sensors. Disconnect, then reconnect to your machine. You should see the red alarm at the top right, press “Click to Run Homing.”
 
@@ -227,7 +227,7 @@ On gSender, the process for limit switch homing is very similar to touch plate p
 
 If this process completes without any errors, you have successfully homed your machine!
 
-<h4><b>Homing features</b></h4>
+#### Homing features
 
 Once you have connected to your machine, at any point when you aren’t running a cutting job, you can run the homing cycle by pressing “Home” with the house icon.
 
@@ -237,7 +237,7 @@ Additionally, if you first connect and need to bypass the alarm without homing, 
 
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p16_gsendeunlock.png){.aligncenter .size-medium}
 
-<h4><b>Work offsets</b></h4>
+#### Work offsets
 
 With CNC, work offsets can be thought of as bookmarks. They are saved origin positions on your machine that allow you to always return later to a known location. Having one or more known locations you can repeatedly return to is extremely useful for many reasons such as:
 

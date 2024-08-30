@@ -17,7 +17,7 @@ featured_image: /_images/_longmill/_assembly/_starterprojects/lm_starterp_p1.png
 
 Now that you've put together your LongMill, you're probably in a rush to run it for the first time! Well good news, we've put together two different projects for you to try out with minimal requirements and setup.
 
-<h2>LongMill line writing</h2>
+## LongMill line writing
 
 This is a very simple file which follows a line writing to spell out "LongMill". The code that's provided below has been made to make a very shallow cut at a low speed out of a 310x45mm piece of material. These conservative settings mean that the file can be run with almost any cutting tool out of almost any type of material. To set it up, mount your material in the cutting area so that it's somewhat square to the machine. Using gSender or the control software of your preference, jog the tool over to the bottom left of where you've laid out a 310x45mm space where the tool can cut. Be sure that this space doesn't have any screws or clamps in it which will interfere with the lettering and also make sure that it's fully within the cutting area. Bring the tool down to the surface of the material (either manually or by jogging) and finally click "Reset zero" to confirm that you want to set this as the tool origin.
 
@@ -27,7 +27,7 @@ This is a very simple file which follows a line writing to spell out "LongMill".
 
 Download the file above, 'unzip' or 'extract' it, then load it into gSender by clicking the "Load File" button. Once loaded, you'll be able to see a visualization of the tools movements. If you're satisfied, turn on your router (note this file doesn't currently contain spindle control commands) then run the file!
 
-<h2>CNSheep</h2>
+## CNSheep
 
 This is the other one of our first projects, a sheep cut into foam that we call the CNSheep. The code was designed for cutting out of foam with a 2-flute, 1/8" end mill but it should also work on soft woods as well. If you don't have these tools or materials on hand, the .zip file also contains the 3D model of the sheep so that you can run it through your desired CAM software to set it up for another material or tool.
 
@@ -39,7 +39,7 @@ When you're setting up to cut, follow the same setup procedure as outlined in th
 
 If all goes well, your final product should end up looking something like this!
 
-<h2>The Final Steps towards starting with CNC</h2>
+## The Final Steps towards starting with CNC
 
 Now that you've got your machine running successfully, we've got a lot more information for you the check out that's easily accessible on the left navigation bar:
 
@@ -80,7 +80,7 @@ Now that you've got your machine running successfully, we've got a lot more info
 </tbody>
 </table>
 
-<h2>Our YouTube channel</h2>
+## Our YouTube channel
 
 Did you know we have a <strong><a href="https://www.youtube.com/channel/UCS4SdQ0sqFhvjitLjh4EsGQ?">YouTube channel</a></strong> where you can find videos and tutorials on using your LongMill? We cover things like:
 

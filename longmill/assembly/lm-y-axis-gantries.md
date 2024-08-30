@@ -17,7 +17,7 @@ featured_image: /_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p1_cover.j
 
 ![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p1_cover.jpg){.aligncenter .size-medium}
 
-<h2>Y-axis gantries (wheels)</h2>
+## Y-axis gantries (wheels)
 
 ![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p2_parts.jpg){.aligncenter .size-medium .wid}
 
@@ -35,7 +35,7 @@ If you have a hard time getting the eccentric nuts in, we recommend tapping the 
 
 ![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p7.JPG "Make sure you have both plates done, but with the wheels on opposite sides."){.aligncenter .size-medium}
 
-<h2>Y-axis gantries (anti-backlash)</h2>
+## Y-axis gantries (anti-backlash)
 
 ![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p8_parts.jpg){.aligncenter .size-medium .wid}
 
@@ -47,7 +47,7 @@ On the Y-axis plates, there are two holes for the anti-backlash assemblies to mo
 
 ![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p11.JPG "Both sides should be mirrored."){.aligncenter .size-medium}
 
-<h2>Mounting the X-axis motor to the left plate</h2>
+## Mounting the X-axis motor to the left plate
 
 ![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p12_parts.jpg){.aligncenter .size-medium .wid}
 
@@ -79,7 +79,7 @@ Once everything is finished getting put together, it should look like this:
 
 ![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p19.JPG){.aligncenter .size-medium}
 
-<h2>Attaching the shoulder brackets</h2>
+## Attaching the shoulder brackets
 
 ![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p20_parts.jpg){.aligncenter .size-medium .wid}
 

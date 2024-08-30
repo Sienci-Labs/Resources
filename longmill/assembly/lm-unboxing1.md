@@ -19,7 +19,7 @@ You're finally going to be putting your LongMill together! We hope that you're e
 
 The LongMill Benchtop CNC is a machine design that we're very proud of: a good balance between performance and affordability, simplicity and rigidity. As more LongMills continue to ship around the globe from our office, we're always keen to hear customer feedback since it helps us to make our benchtop CNC even better. This is why after shipping over 2500 LongMills since it's conception, we've still further introduced some small quality of life updates to the design of the LongMill; newly designated 'Version 4b'.
 
-<h2>Versions</h2>
+## Versions
 
 Implementing these improvements batch-by-batch means that there are small variations in the assembly process depending on when you receive your LongMill:
 
@@ -64,7 +64,7 @@ There is also an impromptu, follow-along, assembly video series available for th
 
 <strong><a href="https://www.youtube.com/watch?v=QwQX3Qb8UUQ&list=PLE43LQy2a1ipOEoEcIGo3cVOw31-iMvPQ" target="_blank" rel="noopener noreferrer">LongMill V2 Assembly Video Series</a></strong>
 
-<h2>Tooling up</h2>
+## Tooling up
 
 Here is a list of tools you should have on hand for assembly. Most people will have these tools in their shop:
 <ul>

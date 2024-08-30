@@ -17,7 +17,7 @@ featured_image: /_images/_longmill/_assembly/_surfacing/lm_surface_p1.png
 
 https://www.youtube.com/embed/aW27K_1OLT0
 
-<h2><strong>Why surface your wasteboard?</strong></h2>
+## Why surface your wasteboard?
 
 <ol>
   <li>Surfacing your wasteboard helps level the surface in relation to your machine. This means that if you have bumps or uneven surfaces on your wasteboard, or if your wasteboard is higher on one side that the other, surfacing will even out and flatten the board.</li>
@@ -28,11 +28,11 @@ If you are using a <a href="https://sienci.com/product/22mm-surfacing-bit/">22mm
 
 <a href="https://sienci.com/wp-content/uploads/2020/01/LongMill-Surfacing-Code.zip">Download LongMill Surfacing Code (12x12, 12x30, 30x30)</a>
 
-<h2><strong>What tool should I use?</strong></h2>
+## What tool should I use?
 
 Technically, any flat end mill or bit can work for this application. However, using a wider bit can speed up the process. In the video we are using a 22mm surfacing bit.
 
-<h2><strong>Generating the code</strong></h2>
+## Generating the code
 
 I used a g-code generator from INTUWiz (<a href="http://www.intuwiz.com/plane.html#.Xidt8sjYouV">http://www.intuwiz.com/plane.html#.Xidt8sjYouV</a>). Here are the settings I used for the 30x30 size:
 
@@ -50,4 +50,4 @@ Feed rate (X,Y, G01): 2000<br>
 Feed rate( Z G00): 500<br>
 Feed rate(Z G01): 500<br>
 
-<strong>You can also use a different program if you want and cut a shallow pocket of the size you need.</strong>
+**You can also use a different program if you want and cut a shallow pocket of the size you need.**

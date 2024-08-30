@@ -45,7 +45,7 @@ To help you decide what software would work best for you we've done three things
 <li>Put every common CNC program into a <strong><a href="https://resources.sienci.com/view/lm-software-table/" target="_blank" rel="noopener">Master Table</a></strong> (over 80!) that you can search and filter through if you'd like to comb through all the options yourself. This table is what powers our Toolchain Wizard :)</li>
 </ol>
 
-<h2>Toolchain Wizard</h2>
+## Toolchain Wizard
 
 This wizard will provide you with general software suggestions based on your CNC needs. Check it out!
 <div id="my-react-toolchain"> </div>
@@ -53,7 +53,7 @@ This wizard will provide you with general software suggestions based on your CNC
 <p><script src="https://resources.sienci.com/wp-content/react/wizard.js"></script></p>
 <style>@import url('https://resources.sienci.com/wp-content/react/wizard.css')</style></p>
 
-<h2>Programs we recommend</h2>
+## Programs we recommend
 
 Many of our go-to software picks tend to be available for free and can range from beginner-friendly to more advanced. We also tend to more highly recommend software that is both Design-and-CAM-in-one since that helps to streamline the process of making projects on your CNC.
 
@@ -62,7 +62,7 @@ Many of our go-to software picks tend to be available for free and can range fro
 [su_button url="resources.sienci.com/view/lm-more-projects/" target="self" style="flat" background="var(--sl-blue)" color="#FFFFFF" size="8" wide="no" center="yes" radius="3" icon="" icon_color="#FFFFFF" text_shadow="none" desc="" download="" onclick="" rel="" title="" id="" class=""]Design sharing websites[/su_button]
 &nbsp;
 
-<h3>Design &amp; CAM (beginner-friendly)</h3>
+### Design &amp; CAM (beginner-friendly)
 
 If you're looking for software that takes advantage of most CNC features while remaining easy to pick up, we recommend checking out these software options:
 
@@ -158,7 +158,7 @@ Vectr is a simple web and desktop-based vector graphics editor that lets you dra
 
 <strong>Easel</strong> (<a href="http://easel.inventables.com/" target="_blank" rel="noopener noreferrer">http://easel.inventables.com/</a>)
 
-Easel is a free (with paid pro features) web application that makes it easy to design and cut objects online. With a handful of presets for common bits and materials, as well as a simple user interface, it's an awesome program for getting started with CNCing. There are tons of guides on <a href="https://www.youtube.com/results?search_query=easel+cnc">Youtube</a> that cover lots of different things you can do with Easel. A very simple, intuitive design and CAM program for beginners.<br>
+Easel is a free (with paid pro features) web application that makes it easy to design and cut objects online. With a handful of presets for common bits and materials, as well as a simple user interface, it's an awesome program for getting started with CNCing. There are tons of guides on <a href="https://www.youtube.com/results?search_query=easel+cnc">YouTube</a> that cover lots of different things you can do with Easel. A very simple, intuitive design and CAM program for beginners.<br>
 <a href="https://www.youtube.com/results?search_query=easel+cnc" target="_blank" rel="noopener noreferrer"><strong>Recommended tutorial videos</strong></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p2_Easel.JPG){.aligncenter .size-medium}
@@ -167,7 +167,7 @@ Easel is a free (with paid pro features) web application that makes it easy to d
 
 <strong>Carbide Create</strong> (<a href="https://carbide3d.com/carbidecreate/" target="_blank" rel="noopener noreferrer">https://carbide3d.com/carbidecreate/</a>)
 
-Carbide Create is an awesome free (with paid pro features) program that works great for 2D and 2.5D carvings, if you want to work with SVGs and DXFs, or if you're looking to do V-carving. With a much larger list of presets for common bits and materials, as well as a simple user interface and some additional features, it manages to outperform Easel in many aspects: though these advantages come with some additional complexity. Still, it's an awesome program for getting started with CNCing and similar to Easel there are tons of guides on <a href="https://www.youtube.com/results?search_query=carbide+create">Youtube</a> to check out.<br>
+Carbide Create is an awesome free (with paid pro features) program that works great for 2D and 2.5D carvings, if you want to work with SVGs and DXFs, or if you're looking to do V-carving. With a much larger list of presets for common bits and materials, as well as a simple user interface and some additional features, it manages to outperform Easel in many aspects: though these advantages come with some additional complexity. Still, it's an awesome program for getting started with CNCing and similar to Easel there are tons of guides on <a href="https://www.youtube.com/results?search_query=carbide+create">YouTube</a> to check out.<br>
 <a href="https://www.youtube.com/watch?v=pZGo8jfoOQU" target="_blank" rel="noopener noreferrer"><strong>Recommended tutorial videos</strong></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p3_Carbide.JPG){.aligncenter .size-medium}
@@ -222,7 +222,7 @@ CAMLab is our very own 3D CAM software which allows you to create g-code toolpat
 </div>
 &nbsp;
 
-<h3>Design &amp; CAM (advanced)</h3>
+### Design &amp; CAM (advanced)
 
 For those that are looking to use their CNC more regularly and want to unlock its full potential. If you plan on learning 3D design for the first time, an awesome resource which teaches you how to design for CNC can be found here: <a href="https://www.hubs.com/knowledge-base/how-design-parts-cnc-machining/">https://www.hubs.com/knowledge-base/how-design-parts-cnc-machining/</a>
 
@@ -277,7 +277,7 @@ For those that are looking to use their CNC more regularly and want to unlock it
 
 <strong>Carveco Maker</strong> (<a href="https://carveco.com/carveco-software-range/carveco-maker/" target="_blank" rel="noopener noreferrer">link to site</a>)
 
-Carveco Maker is Carveco's entry-level product yet it comes with quite a bit of power. It has a lot of features similar to Vectrics Vcarve software such as standard toolpaths, 2D drawing, V-carving, and 3D importing but it can also create reliefs from 3D models and images and allows you to perform manual relief smoothing. This is a highly featured software that's built for semi-professional CNC use and its capabilities reflect that. It's also impressive how clean the user interface is when factoring in all the features it has. If you're interested, check out this comparison we did between Carveco Maker and Vectric Vcarve Desktop: <a href="https://sienci.com/2020/11/19/vectric-vcarve-desktop-vs-carveco-maker-which-should-you-choose/" target="_blank" rel="noopener noreferrer">Vectric VCarve Desktop vs Carveco Maker – Which Should You Choose</a><br>
+Carveco Maker is Carveco's entry-level product yet it comes with quite a bit of power. It has a lot of features similar to Vectrics VCarve software such as standard toolpaths, 2D drawing, V-carving, and 3D importing but it can also create reliefs from 3D models and images and allows you to perform manual relief smoothing. This is a highly featured software that's built for semi-professional CNC use and its capabilities reflect that. It's also impressive how clean the user interface is when factoring in all the features it has. If you're interested, check out this comparison we did between Carveco Maker and Vectric VCarve Desktop: <a href="https://sienci.com/2020/11/19/vectric-vcarve-desktop-vs-carveco-maker-which-should-you-choose/" target="_blank" rel="noopener noreferrer">Vectric VCarve Desktop vs Carveco Maker – Which Should You Choose</a><br>
 <a href="https://www.youtube.com/watch?v=4f-NpoQmnCE&amp;list=PLalFSVzdLCiZKsYkrcHJr1kUYnVgX5LPs" target="_blank" rel="noopener noreferrer"><strong>Recommended tutorial videos</strong></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p9_CarvecoM.JPG){.aligncenter .size-medium}
@@ -286,7 +286,7 @@ Carveco Maker is Carveco's entry-level product yet it comes with quite a bit of 
 
 <strong>Vectric VCarve Desktop</strong> (<a href="https://www.vectric.com/products/vcarve-desktop" target="_blank" rel="noopener noreferrer">link to site</a>)
 
-Vectric Vcarve Desktop is one of Vectrics mid-level products, with products like Cut2D and PhotoVCarve being more entry-level. It has quite a lot of features similar to Carveco Maker such as standard toolpaths, 2D drawing, V-carving, and 3D importing but it's limited in that it can't modify 3D models and all projects are limited to a 24"x24" cutting size. It still has unique CAM toolpaths and has also been built for semi-professional CNC use so its capabilities reflect that. If you're interested, check out this comparison we did between Vectric Vcarve Desktop and Carveco Maker: <a href="https://sienci.com/2020/11/19/vectric-vcarve-desktop-vs-carveco-maker-which-should-you-choose/" target="_blank" rel="noopener noreferrer">Vectric VCarve Desktop vs Carveco Maker – Which Should You Choose</a><br>
+Vectric VCarve Desktop is one of Vectrics mid-level products, with products like Cut2D and PhotoVCarve being more entry-level. It has quite a lot of features similar to Carveco Maker such as standard toolpaths, 2D drawing, V-carving, and 3D importing but it's limited in that it can't modify 3D models and all projects are limited to a 24"x24" cutting size. It still has unique CAM toolpaths and has also been built for semi-professional CNC use so its capabilities reflect that. If you're interested, check out this comparison we did between Vectric VCarve Desktop and Carveco Maker: <a href="https://sienci.com/2020/11/19/vectric-vcarve-desktop-vs-carveco-maker-which-should-you-choose/" target="_blank" rel="noopener noreferrer">Vectric VCarve Desktop vs Carveco Maker – Which Should You Choose</a><br>
 <a href="https://www.youtube.com/channel/UCMrMqMabXS5_cFcq5K9Ob-w" target="_blank" rel="noopener noreferrer"><strong>Recommended tutorial videos</strong></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p10_VCarve.JPG){.aligncenter .size-medium}
@@ -313,7 +313,7 @@ Fusion 360 is one of the most popular 3D modelling and CAM combination programs 
 </div>
 &nbsp;
 
-<h3>CNC Interfaces</h3>
+### CNC Interfaces
 
 Many of our software picks don't tend to have a built-in machine interface so we have a couple of independent programs that we've found work well. For most users, we recommend using <strong>gSender</strong> as the go-to interface software:
 

@@ -19,7 +19,7 @@ featured_image: _images/_gsender/_install/gs_in_windows-finish.png
 
 If you haven't yet, download the right gSender file for your operating system. Links to common computer downloads and all other types and versions of gSender can be found on the main page: <a href="https://sienci.com/gSender/" target="_blank" rel="noreferrer noopener">https://sienci.com/gsender/</a>.
 
-<strong>Note that as of <a href="https://github.com/Sienci-Labs/gSender/releases/tag/v1.2.2" target="_blank" rel="noopener">version 1.2.2</a>, support for 32-bit systems and Windows 7/8 had to be dropped</strong> since new software packages can no longer support systems 10+ years old.
+**Note that as of <a href="https://github.com/Sienci-Labs/gSender/releases/tag/v1.2.2" target="_blank" rel="noopener">version 1.2.2</a>, support for 32-bit systems and Windows 7/8 had to be dropped** since new software packages can no longer support systems 10+ years old.
 
 If you downloaded the more experimental ‘gSender Edge’, then remember to also read what features it uniquely offers and how to use them: <a href="https://resources.sienci.com/view/gs-edge-features/" target="_blank" rel="noopener">https://resources.sienci.com/view/gs-edge-features/</a>
 

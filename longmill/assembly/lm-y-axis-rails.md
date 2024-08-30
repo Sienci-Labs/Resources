@@ -17,7 +17,7 @@ featured_image: _images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p1_cover.j
 
 ![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p1_cover.jpg){.aligncenter .size-medium}
 
-<h2>Feet sub-assemblies</h2>
+## Feet sub-assemblies
 
 ![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p2_parts.jpg){.aligncenter .size-medium .wid}
 
@@ -47,7 +47,7 @@ Move this over to the back of one of the rear plastic feet, orienting the motors
 
 ![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p9.JPG "Both feet with motors attached"){.aligncenter .size-medium}
 
-<h2>Completing the Y-axis</h2>
+## Completing the Y-axis
 
 ![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p10_parts.jpg){.aligncenter .size-medium .wid}
 
@@ -99,7 +99,7 @@ After making sure there is no play in the lead screw, go back to the motor side 
 
 ![](/_images/_longmill/_assembly/_yaxisrails/lm_yaxisrails_p21.JPG){.aligncenter .size-medium}
 
-<h2>Attaching the middle feet</h2>
+## Attaching the middle feet
 
 [tabby title="12x12 and 12x30"]
 

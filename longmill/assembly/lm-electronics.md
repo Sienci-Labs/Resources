@@ -21,7 +21,7 @@ The LongMill electronics come pre-assembled and are pretty much ready to go out 
 
 ![](/_images/_longmill/_assembly/_electronics/lm_electronics_p2_v3.jpg){.aligncenter .size-medium}
 
-<h2>DC power supply connector polarity and E-stop connector</h2>
+## DC power supply connector polarity and E-stop connector
 
 It's important that the connector coming from the DC power brick has a <b>white</b> or <b>red</b> wire on the left side and a <b>black</b> one on the right when the screw terminal is facing you (as pictured). Both this connector and the connector coming from the E-stop should have the wires attached very securely. The order of the wires going to the E-stop connector don't matter.
 
@@ -29,7 +29,7 @@ Check that the wires are connected appropriately by tugging on them. Secure them
 
 ![](/_images/_longmill/_assembly/_electronics/lm_electronics_p3.JPG){.aligncenter .size-medium}
 
-<h2>Motor connector wiring</h2>
+## Motor connector wiring
 
 The wires, looking down from the side with the screw heads, should be, from left to right, BLUE, YELLOW, GREEN, RED (pictured). Check if the color pattern on all four of your motor wires is correct and re-arrange them if needed. As previously, also check that the wires are connected securely to the connector.
 
@@ -39,7 +39,7 @@ While you're at it, double check that the motor-side, white connectors on each a
 
 ![](/_images/_longmill/_assembly/_electronics/lm_electronics_p5.JPG){.aligncenter .size-medium}
 
-<h2>Properly seated DIP switches</h2>
+## Properly seated DIP switches
 
 Looking at the underside of the control box, you should notice four red switch blocks on the circuit board through the slots in the steel (pictured). These are a way of toggling how the motors are controlled by their respective motor controllers, where the slots in the steel have been made wide enough so that you can reach in with a small flat head screwdriver or an Allen key to adjust these switches without dissembling anything.
 
@@ -49,7 +49,7 @@ These DIP switches normally <strong>look</strong> like they've been properly swi
 
 ![](/_images/_longmill/_assembly/_electronics/lm_electronics_p7.jpg){.aligncenter .size-medium}
 
-<h2>Plugging in the motors and power supply</h2>
+## Plugging in the motors and power supply
 
 With these checks done, start by connecting the motors. Track each cable from each motor to its corresponding green connector and connect it to the board. The fit of these connectors is tight but you need to be sure to push them ALL THE WAY in so that there is good contact between the plug and the connector. Each plug on the board is labelled on the top (note that there isn't a difference between the Y1 and Y2 plugs, the Y-axis motors can be connected to either of them).
 
@@ -67,7 +67,7 @@ Once you’ve checked that the lights are turning on, press the E-stop button to
 
 A note on the control box is that it will be limited in it's placement due to the length of the Z-axis motor cable. If you don't think you'll be using the on-board control buttons feel free to mount the box out of the way - the basic operations can be controlled via a USB cable and the E-stop. If you wish to place it further from the machine, extending the wires for that cable is quite straightforward either through the use of a soldering iron or through crimp-able wire extenders.
 
-<h2>Connecting the LongMill to your computer</h2>
+## Connecting the LongMill to your computer
 
 To manipulate your LongMill and send it files, you'll need a g-code sender which acts as the control software. We recommend using gSender, which is what we'll be using to show the next couple of steps and in the remaining part of the assembly.
 

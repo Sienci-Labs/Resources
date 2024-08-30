@@ -26,7 +26,7 @@ Routers and spindles come in all shapes and sizes. When considering the right to
 
 Many hobby CNC routers tend to utilize trim routers because their power, weight, price, and off-the-shelf circuitry balance well with hobby applications. After much testing with the LongMill, we landed on the Makita RT0700/RT0701 as the ideal choice.
 
-<h2>Makita RT0700/RT0701</h2>
+## Makita RT0700/RT0701
 
 ![](/_images/_longmill/_the-basics/lm_routersspindle_p1_Makita.jpg){.alignleft .size-full .nar}
 
@@ -40,7 +40,7 @@ Many hobby CNC routers tend to utilize trim routers because their power, weight,
 
 The Makita RT0700/RT0701 router is a very commonly used and reliable trim router boasting a 1-1/4HP motor. It offers a wide speed range (10,000RPM to 30,000RPM), which is electronically controlled to achieve for reliable speeds even under load. With a metal body, it is extremely durable. Our test units have been used for hundreds of hours without fail, on projects that take over 6 hours. This is our go-to recommended router as it is widely available in both 120V and 220V.
 
-<h2>Other Routers</h2>
+## Other Routers
 
 The LongMill's standard router mount has a 65mm bore but is also available in:  <strong>52mm</strong>, <strong>71mm</strong>, and <strong>80mm</strong>. This means that mounting other routers is possible, though the Makita is the only one that's been thoroughly tested for use on the LongMill.
 
@@ -58,7 +58,7 @@ Here is a list of some other routers that could be used. If your router isn't li
   <li>Bosch Colt GKF125 (needs to adapt from 72mm to our 80mm mount, also sits much higher up than normal)</li>
 </ul>
 
-<h2>Three-phase Spindles</h2>
+## Three-phase Spindles
 
 ![](/_images/_longmill/_the-basics/lm_routersspindle_p3_RouterPkg.png){.aligncenter .size-medium}
 
@@ -91,7 +91,7 @@ Consult your spindle manufacturer for details on wiring and programming if this 
 
 If you are a beginner user, we highly recommend sticking with a Makita RT0701. The Makita RT0701 offers plenty of power and speed control for this application. Installing a spindle can be very technically challenging and may cost significantly more. If you plan on adding a spindle we recommend checking our <a href="https://forum.sienci.com/" target="_blank" rel="noopener">Forum</a> and <a href="https://www.facebook.com/groups/mill.one" target="_blank" rel="noopener">Facebook Group</a> for more info or checking out our own guide below.
 
-<h3>Adding a spindle</h3>
+### Adding a spindle
 
 ![](/_images/_longmill/_the-basics/lm_routersspindle_p4_Spindle.jpeg){.aligncenter .size-medium}
 
@@ -123,6 +123,6 @@ Some settings you might need to change are shown below. If you're moving a speci
 
 ![](/_images/_longmill/_the-basics/lm_routersspindle_p6_Firmware.png){.aligncenter .size-medium}
 
-<h2>Not Recommended</h2>
+## Not Recommended
 
 Handheld rotary tools like Dremels are highly underpowered for use on the LongMill since they do not have internal hardware that allows them to support the high lateral and axial forces. In addition, these tools are fabricated for hand use, and as such aren't designed for the minimal runout required to cut precisely.

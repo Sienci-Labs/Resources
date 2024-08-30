@@ -17,7 +17,7 @@ featured_image: /_images/_longmill/_assembly/_dragchain/lm_dragchain_p1_cover.jp
 
 ![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p1_cover.jpg){.aligncenter .size-medium}
 
-<h2>Drag chains and Wiring</h2>
+## Drag chains and Wiring
 
 ![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p2_parts.jpg){.aligncenter .size-medium .wid}
 

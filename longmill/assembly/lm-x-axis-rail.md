@@ -17,7 +17,7 @@ featured_image: /_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p1 (cover).
 
 ![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p1_Drawing.jpg){.aligncenter .size-medium}
 
-<h2>Preparing the X-axis rail</h2>
+## Preparing the X-axis rail
 
 [tabby title="12x12"]
 
@@ -47,7 +47,7 @@ Your completed rail should now look something like this.
 
 [tabbyending]
 
-<h2>Sandwiching the rail with the Y-gantries</h2>
+## Sandwiching the rail with the Y-gantries
 
 ![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p11_parts.jpg){.aligncenter .size-medium .wid}
 
@@ -89,7 +89,7 @@ Repeat the same process on the other side, being careful not to cause damage to 
 
 Now that the larger X-axis assembly is done, this is what the completed assembly should look like!
 
-<h2>Adding the power transmission components</h2>
+## Adding the power transmission components
 
 ![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p20_parts.jpg){.aligncenter .size-medium .wid}
 

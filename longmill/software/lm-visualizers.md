@@ -72,7 +72,7 @@ This page exists in the case that your current software isn't offering you good 
 </tbody>
 </table>
 
-<h3><strong>G-Code Simulator</strong></h3>
+### G-Code Simulator
 
 <a href="https://nraynaud.github.io/webgcode/" target="_blank" rel="noopener noreferrer">https://nraynaud.github.io/webgcode/</a>
 
@@ -80,7 +80,7 @@ Allows for files to be drag-and-dropped right into the window or you can copy/pa
 
 ![](/_images/_longmill/_software/lm_visualizers_p1_g-code.JPG){.aligncenter .size-medium}
 
-<h3><strong>NC Viewer </strong></h3>
+### NC Viewer
 
 <a href="https://ncviewer.com/" target="_blank" rel="noopener noreferrer">https://ncviewer.com/</a>
 
@@ -88,7 +88,7 @@ Fast and easy to open and view files. Allows you to play the cutting path of the
 
 ![](/_images/_longmill/_software/lm_visualizers_p2_NCViewer.JPG){.aligncenter .size-medium}
 
-<h3><strong>CAMotics</strong></h3>
+### CAMotics
 
 <a href="https://camotics.org/download.html" target="_blank" rel="noopener noreferrer">https://camotics.org/download.html</a>
 
@@ -96,7 +96,7 @@ Previously known as OpenSCAM, CAMotics simulates 3-axis g-code paths, shows 3D c
 
 ![](/_images/_longmill/_software/lm_visualizers_p3_CAMotics.JPG){.aligncenter .size-medium}
 
-<h3><strong>Discriminator</strong></h3>
+### Discriminator
 
 <a href="https://cncedit.com/" target="_blank" rel="noopener noreferrer">https://cncedit.com/</a>
 
@@ -104,7 +104,7 @@ Discriminator has more advanced tools for code editing, colouring, and code comp
 
 ![](/_images/_longmill/_software/lm_visualizers_p4_Discrim.JPG){.aligncenter .size-medium}
 
-<h3><strong>NC Corrector</strong></h3>
+### NC Corrector
 
 <a href="http://nc-corrector.inf.ua/index_EN.htm" target="_blank" rel="noopener noreferrer">http://nc-corrector.inf.ua/index_EN.htm</a>
 

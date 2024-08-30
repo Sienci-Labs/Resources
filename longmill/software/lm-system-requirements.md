@@ -24,7 +24,7 @@ Your system requirements may change depending on:
   <li>System requirements of your CAD and CAM software</li>
 </ul>
 
-<h2>Basic system requirements</h2>
+## Basic system requirements
 
 These are the minimum system requirements we believe will provide the best experience with your CNC machine. These requirements will suffice for sending g-code and controlling your machine. However, please refer to system requirements for CAD and CAM software you may use.
 
@@ -34,11 +34,11 @@ These are the minimum system requirements we believe will provide the best exper
 <strong>Ports: </strong>USB 1.0<br>
 <strong>Memory: </strong>200Mb of hard drive space.
 
-<h2>Internet connection</h2>
+## Internet connection
 
 An internet connection is <strong>not needed</strong> to run and operate your machine. However, you will need an internet connection at least one time to download the required software to operate your machine. Some programs such as CAMLab and Easel require an internet connection to work, but you can do design and g-code creation from one computer and use a separate computer to run the machine. If you require a setup to work completely offline, programs such as Vectric V-carve and Carbide Create offer the ability to design and generate g-code without an internet connection.
 
-<h2>Setting up your computer</h2>
+## Setting up your computer
 
 A computer must be plugged in via USB and operating while the LongMill is in operation. Here are some considerations on your computer setup.
 
@@ -51,13 +51,13 @@ Some users may choose to use a spare or inexpensive computer to run their machin
 <strong>Battery life</strong><br>
 Some jobs can take multiple hours. If you are using a laptop, ensure that you are plugged in or have enough battery life to complete your job.
 
-<h2>System requirement considerations for Design / CAM software</h2>
+## System requirement considerations for Design / CAM software
 
 System requirements for design/ CAD and CAM software can vary widely depending on the complexity of the software. For example, Solidworks, a full-fledged, industrial CAD software recommends at least 16GB of RAM. On the other hand, cloud-based programs such as Onshape and CAMLab only require access to the internet and can even run on a smartphone.
 
 For users that are just starting out, our recommended basic system requirements should provide enough brunt to handle most software. If you are using more advanced programs, please consult the documentation for the software that you plan to use.
 
-<h2>Raspberry Pi (advanced)</h2>
+## Raspberry Pi (advanced)
 
 Computer/tech-savvy users can run a g-code sender using a Raspberry Pi. A <a href="https://www.raspberrypi.org/">Raspberry Pi</a> is a low cost, single-board computer that can be used as a dedicated computer to send g-code and operate the machine. Some benefits include:
 

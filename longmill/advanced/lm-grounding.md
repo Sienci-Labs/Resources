@@ -34,7 +34,7 @@ Then these can all trigger the creation of a trouble-making static signal.
 
 For instance: dust collection inherently generates static electricity when fine wood dust flows through plastic components such as hoses and cyclones. If your dust collection system is not set up with proper grounding these charges will find and disrupt the LongMill controller.
 
-<h2>Fixing the Problem</h2>
+## Fixing the Problem
 
 If you believe any of this is happening to you the appropriate fix will depend on your particular situation. For instance, an easy way to check for a properly set up dust collector and hose is to wear insulating shoes and suck up a sample of material before then walking over to touch a large metal surface to see if you experience a shock through your fingertips. If so, then you've successfully narrowed down the issue and can now look into grounding your equipment appropriately.
 
@@ -53,7 +53,7 @@ If you plan to try this, ensure that you only use <b>one ground point</b> for yo
   <li>You can also pick up something like the Grounding Kit that's offered by Lee Valley. This is a collection of essentially speaker wire, twist-on wire connectors, and some screws: <a href="https://www.leevalley.com/en-ca/shop/tools/workshop/dust-collection/parts-and-accessories/62616-grounding-kit-for-dust-collection-systems?item=03J6201" target="_blank" rel="noopener">https://www.leevalley.com/en-ca/shop/tools/workshop/dust-collection/parts-and-accessories/62616-grounding-kit-for-dust-collection-systems?item=03J6201</a></li>
 </ul>
 
-<h2>Instructions</h2>
+## Instructions
 
 1. Wrap the copper wire around the body of the dust shoe and hose securely. Take any steps necessary to avoid getting the wire caught in any moving parts.
 1. Fix the wire in place with your fastening method of choice at the dust shoe end.
@@ -64,7 +64,7 @@ If you plan to try this, ensure that you only use <b>one ground point</b> for yo
 
 ![](/_images/_longmill/_advanced/_2_noise/lm_noise_p1.png){.aligncenter .size-medium}
 
-<h2>UPS Backup for power smoothing</h2>
+## UPS Backup for power smoothing
 
 Depending on where you live or how your shop is wired up, power flickers and brief outages can make their way through to your shop outlets. This might not be noticeable for regular power tools, but it can effect precision machines like a CNC or even for a desktop computer. You can identify this problem for yourself if, after grounding your machine, you still get unexpected behaviour from your machine such as:
 

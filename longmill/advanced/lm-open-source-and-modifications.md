@@ -26,7 +26,7 @@ We believe that by making this design open source, we will be able to drive the 
   <li>Us to gain inspiration from the community to help us guide our development of current and future products and features</li>
 </ul>
 
-<h2>License</h2>
+## License
 
 This is accomplished by putting the project under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons BY-SA license</a><span class="cc-license-title">:</span>
 
@@ -43,7 +43,7 @@ and by sharing the LongMills modified firmware profile, a small modification of 
 
 All this information is continually updated as the LongMill project continues to be revised, with more openly shared shared information being made available at each new major revision and licensing continuing to be applied to all previous major versions. By making this information available, the LongMill project fulfills the Open Source Hardware Association’s definition of open source hardware, and we think that's pretty cool :)
 
-<h2>LongMill CNC</h2>
+## LongMill CNC
 
 The LongMill has gone through four major iterations of its design:
 
@@ -69,7 +69,7 @@ You can find the designs of every part and assembly of every version of the Long
 
 <strong>BOM of every version: </strong><a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/" target="_blank" rel="noopener noreferrer">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/</a>
 
-<h2>LongBoard CNC Controller</h2>
+## LongBoard CNC Controller
 
 The LongBoard CNC Controller is the control system and brains of the LongMill. This board was designed by our friend Chris Hadjuk and the Sienci Labs team with KiCAD and has gone through many internal iterations resulting in the release of four major public revisions: 1.2, 1.3, and 1.4.2/1.4.3. The reason for combining 1.4.2 with 1.4.3 is that they are the same design but with a redundant trace removed. You can find the designs of every version in the form of gerber, assembly, schematic, and BOM files in their respective zip files below as well as a link to a more readable BOM for every board version if you'd like to source your own components.
 
@@ -82,7 +82,7 @@ The LongBoard CNC Controller is the control system and brains of the LongMill. T
 <strong>BOM of every version:</strong> <a href="https://docs.google.com/spreadsheets/d/1qlHlp576s9GIBMPfp4JU8Yr7xBM5gUNruvHFBVFoDOM" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1qlHlp576s9GIBMPfp4JU8Yr7xBM5gUNruvHFBVFoDOM</a><strong>
 </strong>
 
-<h2>Other Add-ons</h2>
+## Other Add-ons
 
 We also share a record of every part and assembly of every version of add-on that we've released alongside our LongMill CNC since the projects conception. Each of these designs can be found in the linked Onshape documents below:
 
@@ -98,16 +98,16 @@ We also share a record of every part and assembly of every version of add-on tha
 
 <strong>BOM of all add-ons: </strong><a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1028766194" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1028766194</a>
 
-<h2>3D Printing</h2>
+## 3D Printing
 
 To read more about our print settings to help you print your own parts, read this post here: <a href="https://sienci.com/2019/11/11/3d-printing-settings-for-LongMill-parts/">https://sienci.com/2019/11/11/3d-printing-settings-for-longmill-parts/</a>
 STL files can be directly downloaded from the Onshape document. You may need to make an account to download STL files.
 
-<h2>Modifications</h2>
+## Modifications
 
 If there are any known noteworthy designs or modifications made to the LongMill, they will be posted here. This is to make the information needed for modification more accessible and to also thank and recognize users and community members who have made an impact on the LongMill CNC project.
 
-<h3>General</h3>
+### General
 
 <ul>
   <li>mcol82's <strong>limit switch mounts</strong>: <a href="https://www.thingiverse.com/thing:4060347" target="_blank" rel="noopener">https://www.thingiverse.com/thing:4060347</a></li>
@@ -142,7 +142,7 @@ If there are any known noteworthy designs or modifications made to the LongMill,
   <li>SimtechBen’s <b>touch plate holder</b>: <a href="https://www.thingiverse.com/thing:4948964" target="_blank" rel="noopener">https://www.thingiverse.com/thing:4948964</a></li>
 </ul>
 
-<h3>Dust Shoe Mods</h3>
+### Dust Shoe Mods
 
 <ul>
   <li><a href="https://forum.sienci.com/t/dust-shoe-modification/472/10" target="_blank" rel="noopener noreferrer">sysimgrp</a>'s alternative <strong>dust shoe design</strong>: <a href="https://www.thingiverse.com/thing:4189543" target="_blank" rel="noopener noreferrer">https://www.thingiverse.com/thing:4189543</a></li>

@@ -19,7 +19,7 @@ Putting a laser on your LongMill or any CNC machine can be a fun and useful tool
 
 Please note that lasers are very dangerous. Sienci Labs is not responsible for injury or damage caused by the use or installation of lasers.
 
-<h2>Safety Recommendations</h2>
+## Safety Recommendations
 
 <ul>
   <li>Always wear eye protection, specifically laser safety glasses with the correct Optical density (OD) to match your laser's wavelength range (nm)</li>
@@ -46,7 +46,7 @@ In this application, a laser is used to burn or ablate materials in the CNC mach
 </ul>
 https://youtu.be/fvlab9rpTRQ
 
-<h2>Choosing a Laser</h2>
+## Choosing a Laser
 
 While there are a couple different types of lasers used in cutting and engraving, the type of laser suitable for the LongMill is called a diode laser or a solid-state laser. In simple terms, it works very similarly to a LED light, but with the ability to emit coherent light that can be focused into a very small spot.
 
@@ -66,7 +66,7 @@ You will also want to choose a power rating that works for you:
   <li>Sometimes manufacturers falsify the actual laser power rating or overclock a diode with a lower rating which can lead to quick component degradation. This is why low quality high-power laser diodes typically do not last as long</li>
 </ul>
 
-<h2>Wiring up the Laser</h2>
+## Wiring up the Laser
 
 Installing a laser onto your LongMill is fairly easy. There are just three major connections to make.
 
@@ -88,7 +88,7 @@ As reported by members of our community, some laser drivers (like the common Ban
 
 ![](/_images/_longmill/_advanced/_7_Laser/lm_laser_p1_PSupply.jpg){aligncenter .size-medium}
 
-<h2>Setting up the Firmware</h2>
+## Setting up the Firmware
 
 All g-code senders will have a way to access your LongMill's settings - whether via a <strong>Firmware</strong> settings window or a <strong>Console</strong>. If you run your LongMill with a spindle, want to note down the current spindle settings because you'll either need to use them when making your laser g-code, or if you change the values as outlined below then you'll need to change them back later. You can do this in the Console by typing "$$" and hitting the *Enter* or *Send* key. Write down the values for $31 and $32 from the list that appears.
 
@@ -111,7 +111,7 @@ If you ever finish up using the laser, or want to toggle back to using a spindle
 
 Remember that you can always check your settings anytime by typing $$ in the console window. The key with setting the Maximum Spindle Speed is to just match it between your settings and your laser design/CAM software.
 
-<h2>Laser Testing</h2>
+## Laser Testing
 
 There are a couple test commands you can use to verify that all your wiring and firmware changes have gone as expected. Please be very cautious and aware when testing your laser. <strong><span style="color: #d22329;">Wear eye protection, specifically laser safety glasses, so they're hugging your face to protect from both direct and indirect laser light</span></strong>, ensure there's clear signage to warn and protect possible onlookers, have some material beneath your laser that won't burn easily for when you power it on, and have your hand over the disable switch for your laser power supply so that you have a hardware switch if anything goes wrong.
 
@@ -133,7 +133,7 @@ Bringing all these commands together you get the full command "G1 F1 M3 S10" whi
 
 If none of this testing is going as expected, go back and check your wiring first in case you missed anything or if you have a multi-meter on hand try using it in resistance or continuity mode to confirm that all your connections are secure. Be mindful when poking around with a multi-meter, testing output current or voltage while the laser diode is connected can sometimes damage the diode depending on your laser driver design.
 
-<h2>Laser CAM Software</h2>
+## Laser CAM Software
 
 Once your laser is set up and working, it's time to go and make your own laser engraving projects! There are a couple different options for generating G-code for laser. One very popular one is called LightBurn. It is a paid program ($40 at the time of writing for the license that works with the LongMill). LightBurn works well and has lots of tutorial videos. LightBurn comes with a 30-day free demo.
 

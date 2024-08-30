@@ -21,11 +21,11 @@ The following pages in the assembly section will guide you through how all the p
 
 The LongMill comes with a specialized wrench which will assist you when putting your machine together and act as a dedicated maintenance tool once your machine is in operation. After you’ve opened the main box, you’ll find this wrench in the small white box accompanied by our Welcome letter and some stickers. One of these stickers shows Louis sitting atop a LongMill; Andy’s dog and our unofficial mascot and CEO.
 
-The diagram below shows the machine coordinate system of the LongMill. It's able to move in its <strong>x</strong>, <strong>y</strong>, and <strong>z</strong>-directions due to the rails and respective gantries it has on each of those axes. We'll start by assembling the <strong>x</strong> and <strong>z</strong> gantries which combine into a singular assembly; in the diagram these are coloured red and blue respectively.
+The diagram below shows the machine coordinate system of the LongMill. It's able to move in its **x**, **y**, and **z**-directions due to the rails and respective gantries it has on each of those axes. We'll start by assembling the **x** and **z** gantries which combine into a singular assembly; in the diagram these are coloured red and blue respectively.
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p2_AllAxis.jpg){.aligncenter .size-medium}
 
-<h2>Nut assemblies</h2>
+## Nut assemblies
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p3_NutAssemble.jpg){.aligncenter .size-medium .wid}
 
@@ -47,7 +47,7 @@ Looking back to the green bag, you should find a bag within it that contains 4 l
 
 Prepare four sets of both these assemblies and set them aside for later.
 
-<h2>Z-axis motor sub-assembly</h2>
+## Z-axis motor sub-assembly
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p7_SubAssem.jpg){.aligncenter .size-medium .wid}
 
@@ -111,7 +111,7 @@ Next, make sure that the belt is tight around the two pulleys by pulling back th
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p22_Pulley3.jpg "Loose belt on the left, tight belt on the right"){.aligncenter .size-medium}
 
-<h2>XZ-axis gantries sub-assembly</h2>
+## XZ-axis gantries sub-assembly
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p23_SubAss2.jpg){.aligncenter .size-medium .wid}
 
@@ -167,7 +167,7 @@ The completed assembly should look like this.
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p36_CompleteGantry.JPG){.aligncenter .size-medium}
 
-<h2>Connecting the two major sub-assemblies</h2>
+## Connecting the two major sub-assemblies
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p37_HeaderParts.jpg){.aligncenter .size-medium .wid}
 
@@ -193,7 +193,7 @@ Your assembly should now look like this.
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p42_FinalAssembly.JPG){.aligncenter .size-medium}
 
-<h2>Attaching the router mount</h2>
+## Attaching the router mount
 
 ![](/_images/_longmill/_assembly/_xzaxis_gantry/lm_xzaxis_p43_HeaderParts2.jpg){.aligncenter .size-medium .wid}
 

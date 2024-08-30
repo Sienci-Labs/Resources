@@ -38,7 +38,7 @@ Cons of having a dust shoe:
 
 Here are some considerations for setting up a dust shoe.
 
-<h3>What dust collector/vacuum am I using?</h3>
+### What dust collector/vacuum am I using?
 
 Your dust shoe will need a source of suction. Most users will be able to use their existing Shop-Vacs or dust collectors with their dust shoes.
 
@@ -48,7 +48,7 @@ CFM (cubic feet per minute) denotes the amount of air your vacuum can pass throu
 
 Suction power (sometimes called Water Lift, Static Lift, Static Pressure…) indicates how fast the air is moving through the system. The higher your suction is, the harder the dust is pulled through your dust shoe and hose. You will typically want a higher suction vacuum if you are cutting heavier materials like metals, need to draw chips out of narrow cuts, or are using a Z-axis dependant dust shoe.
 
-<h3>What size hoses should I use?</h3>
+### What size hoses should I use?
 
 Your vacuum or dust collector will probably come with a hose of a certain diameter. Your system will probably work most optimally if you use hoses that are similar in diameter.
 
@@ -58,7 +58,7 @@ Shop-Vacs, on the other hand, have smaller CFMs but higher suction power. These 
 
 Depending on the design of your dust shoe, you may need to adapt your hose to match. You can find adapters that can help switch between hose diameters.
 
-<h3>Z-axis dependent vs Z-axis independent dust shoes</h3>
+### Z-axis dependent vs Z-axis independent dust shoes
 
 The design of your dust shoe can greatly affect how well it collects dust. There are hundreds of different designs for dust shoes, however, one of the largest differentiators is whether it is Z-axis dependent or independent.
 

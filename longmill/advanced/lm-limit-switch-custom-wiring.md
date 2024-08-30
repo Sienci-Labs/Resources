@@ -19,7 +19,7 @@ Limit switches (also referred to as end stops or homing switches) are sensors th
 
 In order to use limit switches, you will need to make modifications to both the electronics and firmware of the machine. For more in-depth information on the firmware, specifically the settings required to enable limit switch capability, visit the <a href="https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration#21---hard-limits-boolean">grbl v1.1 Configuration Guide.</a>
 
-<h3>Do I Need Limit Switches?</h3>
+### Do I Need Limit Switches?
 
 The LongMill does NOT need limit switches to operate and doesn't include them by default. Many individuals are drawn to having switches by convention, but most times a limit switch exists to either:
 
@@ -48,7 +48,7 @@ With this being said, some users may still choose to integrate switches into the
 
 *A soft limit is when there is a single switch on one side of the movement and the movement limit is defined in software, whereas a hard limit has two switches on either movement end which signal a 'Stop' to the controller if triggered.
 
-<h3>Wiring Considerations</h3>
+### Wiring Considerations
 
 Already the LongMill controller comes with two different input spaces (a JST-XH connector for each axis and a screw terminal connector) that allows easy connection of any kind of switch. If you are intent on installing switches yourself, here are some crucial points you're aware of:
 
@@ -59,7 +59,7 @@ Already the LongMill controller comes with two different input spaces (a JST-XH 
   <li>All of the switches share the same ground.</li>
 </ul>
 
-<h3>Installation</h3>
+### Installation
 
 In order to attach and wire your own custom set of limit switches to your setup, you will need the following:
 
@@ -120,7 +120,7 @@ The limit switches must also be included as described in the previous diagrams, 
 
 Before you solder anything, make a plan and dry fit all these components into their approximate locations. Once you have settled on their placements, you can solder your circuit together.
 
-<h3><strong>Firmware Settings</strong></h3>
+### Firmware Settings
 
 Once you’ve assembled all the electrical connections to the LongBoard, you can enable limit switches, in which you will need to change a couple of settings on your LongMill’s firmware. Settings can be changed by sending the command to update the EEPROM settings manually through the console, or using the “Firmware Tool” on gSender. Below, we have listed the settings that you may want to enable.
 

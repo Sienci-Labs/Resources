@@ -21,7 +21,7 @@ You can close an alarm by clicking on the button that appears next to it in the 
 
 ![](/_images/_gsender/_using/gs_us_clear-alarm.png){.aligncenter .size-full}
 
-<h2>Useful Commands</h2>
+## Useful Commands
 
 <ul>
   <li><strong>$</strong>   reminder of all grbl commands</li>
@@ -32,7 +32,7 @@ You can close an alarm by clicking on the button that appears next to it in the 
   <li><strong>$#</strong>   all the currently stored machine offsets</li>
 </ul>
 
-<h2><span style="color: #ff0000;">Alarms</span></h2>
+## <span style="color: #ff0000;">Alarms</span>
 
 [su_table responsive="yes"]
 <table>
@@ -101,7 +101,7 @@ You can close an alarm by clicking on the button that appears next to it in the 
 </table>
 [/su_table]
 
-<h2><span style="color: #ff8b3d;">Errors</span></h2>
+## <span style="color: #ff8b3d;">Errors</span>
 
 [su_table responsive="yes"]
 <table>

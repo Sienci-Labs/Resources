@@ -24,7 +24,7 @@ You can use an IOT relay to automatically control power to your router, vacuum, 
 
 This IOT setup method is written for the LongBoard controller and was inspired by the work of Max C., Mark D. and other LongMill community members! If you'd like to see Max' full original document, you can download it here: <a href="https://resources.sienci.com/wp-content/uploads/2021/06/Max-C.-IOT-Relay-setup.docx" target="_blank" rel="noopener">IOT Relay.doc</a>
 
-<h2>Hardware</h2>
+## Hardware
 
 Parts needed:
 
@@ -58,7 +58,7 @@ Parts needed:
 
 ![](/_images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p1_Wire.jpg){.aligncenter size-medium}
 
-<h2>Installation</h2>
+## Installation
 
 <ol>
   <li>Take out the green connector from the IOT relay and loosen the flat-head screws on the connector.</li>
@@ -69,7 +69,7 @@ Parts needed:
 
 ![](/_images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p2_CoolantHookUp.jpg){.aligncenter size-medium}
 
-<h2>Testing</h2>
+## Testing
 
 Now's a good time to quickly verify that everything has been hooked up correctly. To test the relay, we'll be connecting to our LongMill via a g-code sender such as gSender, UGS, or CNCjs like we normally would and keep an eye on the red "power" light on the relay. Whichever sender you use you'll want to find the "Console" input area (shown by a red box), and type the following text:
 
@@ -97,7 +97,7 @@ If everything is behaving as expected, you'll now be able to test with the relay
 
 ![](/_images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p5_FullDiagram.jpg){.aligncenter size-medium}
 
-<h2>G-code</h2>
+## G-code
 
 With everything working correctly, we now need to make sure these M8 and M9 g-code commands exist within your job files to signal the IOT relay on at the start of a job and off at the end.
 
@@ -124,6 +124,6 @@ This will now 'inject' the M8 command at the start of any g-code file and an M9 
 
 With your relay hooked up, you now got a pretty serious CNC setup! Go out and leverage this new-found power to make great things and remember to stay safe :)
 
-<h2>Troubleshooting</h2>
+## Troubleshooting
 
 Occasionally, we've heard of a particular situation happening where after everything is wired up it's possible to enable and disable the IOT relay manually via the M8 and M9 commands but when you go to run a file with M8 at the start and M9 at the end the program doesn't run and the CNC just sits motionless. We're still not fully certain on what the cause of this problem is but we've heard from LMers that increasing the gauge of wire going from the LongBoard to the relay, decreasing the distance between the board and the relay, and using a separate breaker circuit from the LongMill itself to run the relay are all options that have previously remedied the issue.

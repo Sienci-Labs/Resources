@@ -28,11 +28,11 @@ We do not ship LongMills with a wasteboard because:
   <li>Users can choose the size and material of the wasteboard to match their needs.</li>
 </ol>
 
-<h2>Suitable wasteboard materials</h2>
+## Suitable wasteboard materials
 
 The easiest setup that we recommend is a flat, clean piece of 3/4” MDF to act as your mounting surface and your wasteboard. This is because 3/4” MDF is quite stiff and is readily accessible in 4’x4’ and 2’x2’ sizes from most big- box hardware stores or a lumber store. Any similar piece of thick, flat material would also suffice; you can choose at your own discretion. If you’re looking for more of a flashy setup, you can <a href="https://resources.sienci.com/view/lm-community-table-builds/">check out some of our community members’ table/wasteboard builds</a> for inspiration.
 
-<h2>Machine Dimensions</h2>
+## Machine Dimensions
 
 When getting ready to mount your LongMill, the most important dimensions you’ll need to know are the size of its foot base and the total outline of the machine. As long as your mounting surface is at least the size of the foot base and you’ve left enough space around your mounting surface to account for the total machine outline, then your setup will be suitable.
 
@@ -69,7 +69,7 @@ At the end of the day, this leaves you with:
 
 ![](/_images/_longmill/_assembly/_tablemount/lm_tablemount_p7_V2.jpg){.aligncenter .size-medium .wid}
 
-<h2>Mounting your LongMill</h2>
+## Mounting your LongMill
 
 To ensure that your machine is mounted securely and accurately, we’ve created a series of steps to help you do so. We highly recommend following these steps exactly, as the order of these steps matter. You’ll need a computer to be connected to the machine in order to align it properly.
 

@@ -21,7 +21,8 @@ Our main goal in this section is to have you go in with a working CNC, then leav
 
 ![](/_images/_superlongboard/LB2SLB_pone.jpg){.aligncenter .size-medium}
 
-<h2>Unpacking</h2>
+## Unpacking
+
 In the box you’ll find:
 <ul>
   <li>Your new <strong>SuperLongBoard</strong> inside it’s aluminum enclosure</li>
@@ -44,13 +45,16 @@ Unscrew the top-right thumbscrew a couple turns (pictured) then slide the cover 
 
 ![](/_images/_superlongboard/LB2SLB_p42b2.jpg){.aligncenter .size-medium}
 
-<h2>Preparation</h2>
+## Preparation
+
 Before diving into rewiring, we’d first suggest you note down any firmware changes that are unique about your setup. You can do this by connecting to your CNC in gSender and using the Firmware Tool to find sections that are <strong>highlighted in yellow</strong>. In the example below, you can see that the maximum travel is different from the standard MK2 12x30.
 
 ![](/_images/_superlongboard/LB2SLB_p2.jpg){.aligncenter .size-medium}
 
 Yellow sections show when a change has been made from the default settings. Any of these should be written down and will be re-entered when the new board is set up.
-<h2>Wiring</h2>
+
+## Wiring
+
 To help communicate where things are on the board, we use the terms shown below:
 
 ![](/_images/_superlongboard/IMG_7836.jpg){.aligncenter .size-medium}

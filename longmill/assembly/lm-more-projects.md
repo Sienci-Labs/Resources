@@ -17,7 +17,7 @@ featured_image: /_images/_longmill/_assembly/_moreprojects/lm_mprojects_p1.jpg
 
 There's plenty more that CNC routers like the LongMill are capable of doing once you're comfortable with the process of going from an idea on a piece of paper to a final product.
 
-<h2>Project Ideas</h2>
+## Project Ideas
 
 If you'd like some inspiration, we spent some time putting together a categorized list below of all the items we could think of that can be made on a CNC router.
 
@@ -129,7 +129,7 @@ If you'd like some inspiration, we spent some time putting together a categorize
 
 [tabbyending]
 
-<h2>Online CNC File Sites</h2>
+## Online CNC File Sites
 
 If you're looking for some more inspiration, or would like to start by making some pre-made projects, there are plenty of places online which offer pre-made artwork, drawings, and 3D models that are either free or can be purchased. In order to start you off, we put a list of some of these places together. Please note that we've done our best to filter out reliable file sources, but downloading any files online can pose a risk so be sure to only get files from sources that you trust.
 
@@ -221,11 +221,11 @@ General sources:
 
 [tabbyending]
 
-<h2>More sample projects</h2>
+## More sample projects
 
 There are a few more internally designed projects that you can also try out if you wish. Each project has a download which contains both the g-code files made for each specific project (pictured) and the original 3D files if you want to CAM them yourself. There are even more designs that we've made for use on the LongMill, they can be found here: <a href="https://CAD.onshape.com/documents/526b7c6287b77b77c4b50603/w/e1e191a2557529d4dc468313/e/92d2cf99720fafafddaba831" target="_blank" rel="noopener noreferrer">LongMill Demo Pieces</a>
 
-<h3>Wooden Box</h3>
+### Wooden Box
 
 A great starting project for the woodworker at heart. The hardness of wood varies by species and other factors, however most commonly available woods such as pine, oak, cedar, maple, or cherry are quite easy to work with. A depth of cut of about 2mm at around 700mm/min works well with soft to medium hardness woods, but you should reduce the depth of cut to around 1mm if you’re working with a very hard wood. Medium speed on the router at around 20,000RPM works well.
 
@@ -239,7 +239,7 @@ The following box was designed by Andy. It’s beautiful in its simplicity and f
 
 [su_button url="https://resources.sienci.com/wp-content/uploads/2021/05/Wooden-Box.zip" style="flat" background="var(--sl-blue)" radius="3" center="yes" target="blank" size="5" icon="icon: arrow-down"]Download[/su_button]
 
-<h3>Acrylic Gear Train</h3>
+### Acrylic Gear Train
 
 Acrylic is a sturdy and useful plastic, commonly used in robotics applications due to its functionality, availability, and looks. At the right speed, acrylic and other soft plastics can be smoothly milled to yield very beautiful results. Generally, you’ll want to aim for an 800mm/min feed rate at a 1.8mm depth of cut. You’ll notice that there are burrs and debris left behind on the cut surfaces if the right speeds and feeds are not selected. Choose spindle speed around 24,000 RPM and adjust these settings as you need to get the best results.
 
@@ -253,7 +253,7 @@ This gear train was designed from scratch by Chris. If cut properly, minimal dri
 
 [su_button url="https://resources.sienci.com/wp-content/uploads/2021/05/Gear-Train.zip" style="flat" background="var(--sl-blue)" radius="3" center="yes" target="blank" size="6" icon="icon: arrow-down"]Download[/su_button]
 
-<h3>Aluminum Bottle Opener</h3>
+### Aluminum Bottle Opener
 
 A start at using the hardest material in the Mill One's capability range. Aluminum comes in a variety of alloys, but the most common is 6061 Aluminum. It’s a fairly hard and strong material and can be found in aerospace components and bikes. The trickiest part of milling aluminum is preventing the aluminum chips from melting and binding to the end mill, which will stop the end mill from cutting. In order to carry the right amount of heat away via the chips, we recommend an 800mm/min feed rate at a 0.4mm depth of cut and 0.2 step over. The depth of cut is also slower, about 100mm/min.
 

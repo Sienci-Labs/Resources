@@ -36,7 +36,7 @@ Frequency of maintenance will vary based on the nature of the work you do on you
 
 In addition, you'll notice that the nuts and v-wheels are consumables, meaning that they'll eventually wear out to the point that they need replacing. We recommend replacing your delrin anti-backlash nuts every 1500-2000 hours, or when the tensioning screw does not allow for any more adjustment. Similarly, we recommend replacing your v-wheels every 1500-2000 hours, or when the v-wheels have worn down to the level where the eccentric nuts no longer provide any tension. You can tell if they need replacing if the gantries are loose on the rails even after adjusting the eccentric nuts to their extreme position.
 
-<h2>Cleaning your rails and wheels</h2>
+## Cleaning your rails and wheels
 
 Over time, your rails and wheels may accumulate dust which takes the form of black splotches. It gets compressed into this black form after being rolled over by the v-wheels. We recommend regularly cleaning off this gunk with a small brush, plastic scraper, wood scrap, or even your fingernails. Remember to clean both the top and bottom edges of each rail and try your best to get into the crevices of all the wheels.
 
@@ -44,7 +44,7 @@ This is something that you won't have to do as often if you have good dust colle
 
 ![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p1_DirtRail.jpg "Black dirt on the edges of the rail.")
 
-<h2>Adjusting the tension on your Delrin anti-backlash nuts</h2>
+## Adjusting the tension on your Delrin anti-backlash nuts
 
 The LongMill comes with four Delrin anti-backlash nuts that allow users to reduce backlash and compensate for wear over time. For more information about backlash and how it can affect the precision of your machine, check out this awesome page here: <a href="http://www.machinetoolhelp.com/Repairing/What_is_backlash.html">http://www.machinetoolhelp.com/Repairing/What_is_backlash.html </a>
 
@@ -61,7 +61,7 @@ The LongMill comes with four Delrin anti-backlash nuts that allow users to reduc
 
 ![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p5_AntiZAxis.jpg "Z-axis"){.aligncenter .size-medium}
 
-<h2>Adjusting your eccentric nuts</h2>
+## Adjusting your eccentric nuts
 
 You can watch this video for a demonstration of how to adjust the eccentric nuts, with pictures and notes to guide you.
 
@@ -79,7 +79,7 @@ We recommend checking the tension on your v-wheels on a regular basis.
 
 ![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p8_DelrinWheelTurn.jpg "Checking for the tension on the Delrin v-wheels."){.aligncenter .size-medium}
 
-<h2>Maintaining your Linear Guides</h2>
+## Maintaining your Linear Guides
 
 ![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p9_Lube.jpg){.aligncenter .size-medium}
 
@@ -98,7 +98,7 @@ Here are some links to more info about lubrication:
   <li><a href="https://www.hiwin.com/pdf/lubricating_instructions.pdf">https://www.hiwin.com/pdf/lubricating_instructions.pdf</a></li>
 </ul>
 
-<h2>Checking for loose fasteners</h2>
+## Checking for loose fasteners
 
 To mitigate fasteners from coming loose over time on the LongMill, we use nylock nuts and spring washers wherever we can. That being said, fasteners can still come loose over time on a CNC with lots of vibration. We recommend doing a check around the whole CNC on occasion to check the bolt tightness and re-tighten the fasteners you find loose.
 

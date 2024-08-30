@@ -21,9 +21,9 @@ The LongBoard was jointly designed by our friend Chris Hadjuk and the rest of th
 
 <h1>Technical specs</h1>
 
-<h2>Electrical</h2>
+## Electrical
 
-<h3>Input voltage</h3>
+### Input voltage
 
 The LongBoard has an operating voltage range of 12V to 48V. Most LongMills come standard with a 24V power supply.
 
@@ -37,13 +37,13 @@ The input voltage to the drivers can impact the performance of your machine. For
 
 The LongBoard also comes with an Arduino UNO as the "brains" of the controller. The Arduino UNO requires a 5V input from the computer to operate correctly. In some instances, the UNO can operate at a voltage of 3.3V but some of the output voltages (such as for the limit switches or spindle control) may not work correctly.
 
-<h3>Input current</h3>
+### Input current
 
 The LongBoard can draw up to 16A. However, by default, they are set to draw up to 8.8A. You can directly adjust the minimum and maximum current draw of each driver using the potentiometer found on each driver. More info can be found here: <a href="https://resources.sienci.com/view/lm-stepper-driver-current/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-stepper-driver-current/</a>
 
 The Arduino UNO can draw up to 500mA from your computer USB port.
 
-<h3>Driver specs</h3>
+### Driver specs
 
 The LongBoard uses four TB6600 drivers. The data-sheet for the driver chip can be found here: <a href="https://toshiba.semicon-storage.com/us/semiconductor/product/motor-driver-ics/stepping-motor-driver-ics/detail.TB6600HG.html" target="_blank" rel="noopener">https://toshiba.semicon-storage.com/us/semiconductor/product/motor-driver-ics/stepping-motor-driver-ics/detail.TB6600HG.html</a>
 
@@ -55,15 +55,15 @@ Specification for the driver may vary due to the operating limits of periphery c
 - Max output voltage: 48V
 - Operating temperature: -30C to 85C
 
-<h2>Mechanical</h2>
+## Mechanical
 
-<h3>Dimensions</h3>
+### Dimensions
 
 For 3D models of the LongBoard, please visit our open-source documentation page for access to files if you wish to acquire additional dimensioning: <a href="https://resources.sienci.com/view/lm-open-source-and-modifications/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-open-source-and-modifications/</a>
 
 ![](/_images/_longmill/_advanced/_12_LBDetails/lm_lbdeets_p1_DrawingRev1.4.jpg){.aligncenter .size-medium}
 
-<h3>Connectors</h3>
+### Connectors
 
 The LongBoard comes with many inputs and outputs which users can implement easily using the detachable screw terminals or connectors that come on the board. More info on how each input and output works can be found below in the documentation.
 
@@ -80,7 +80,7 @@ Below are the connectors used with links (male):
 
 <h1>Firmware</h1>
 
-<h2>Introduction to grbl</h2>
+## Introduction to grbl
 
 The LongBoard's Arduino UNO comes pre-installed with grbl firmware. Users can modify settings using EEPROM settings or flash entirely new firmware onto their boards if they wish.
 
@@ -104,15 +104,15 @@ Grbl includes full acceleration management with look ahead. That means the contr
 
 There is a wealth of information and knowledge available on the <a href="https://github.com/gnea/grbl/wiki" target="_blank" rel="noopener">grbl Wiki pages</a> that can help you use the LongBoard or customize features and functions of your machine. We recommend reading through the Wiki pages if you are looking to explore additional modifications to your LongBoard through the firmware or if you need help with setting up new machines.
 
-<h2>grbl Configuration</h2>
+## grbl Configuration
 
-<h3>grbl Firmware</h3>
+### grbl Firmware
 
 Download links to LongMill firmware can be found here: <a href="https://resources.sienci.com/view/lm-grbl-firmware/">https://resources.sienci.com/view/lm-grbl-firmware/</a>
 
 For information about flashing your Arduino with new firmware, please visit the link above or visit the instructions provided in the grbl Wiki: <a href="https://github.com/gnea/grbl/wiki/Flashing-Grbl-to-an-Arduino" target="_blank" rel="noopener">https://github.com/gnea/grbl/wiki/Flashing-Grbl-to-an-Arduino</a>
 
-<h3>Default LongMill grbl EEPROM settings</h3>
+### Default LongMill grbl EEPROM settings
 
 The LongBoard comes with EEPROM settings set to work best with the LongMill. For information about what each setting is and what it does, please visit: <a href="https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration" target="_blank" rel="noopener">https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration</a>
 
@@ -124,7 +124,7 @@ To see the <strong>list of LongMill default EEPROM settings</strong> and for mor
 
 <h1>Inputs and outputs</h1>
 
-<h2>Power and switch</h2>
+## Power and switch
 
 Rev1.4 of the LongBoard comes with a detachable emergency stop button that can be plugged into the controller to kill power to the controller in the case of emergency or just to turn the machine off.
 
@@ -134,11 +134,11 @@ E-stops come with around 2-3 feet of cable preinstalled. Users can extend this w
 
 The LongBoard must have a switch installed for it to operate. The controller will not be able to provide power if the switch is not installed.
 
-<h2>12V auxiliary power</h2>
+## 12V auxiliary power
 
 The LongBoard provides auxiliary power for adding fans, lights, and other low current add-ons. We recommend limiting the current draw from this plug to 500mA as drawing too high of a current may limit current to the drivers.
 
-<h2>Play, Pause, and Stop Buttons</h2>
+## Play, Pause, and Stop Buttons
 
 The LongBoard comes with three buttons on the top of the controller that can be used to control the machine during its operation. Pressing these buttons will trigger the control software such as UGSPlatform to perform an action.
 
@@ -158,11 +158,11 @@ The pause button will pause a running job. Pressing the play button will resume 
 
 The stop button will stop a running job. Once you press the stop button, you will not be able to continue a job. When you press the stop button it will also throw an alarm and you will have to reset your connection with UGS or perform a "soft reset".
 
-<h2>Limit switches</h2>
+## Limit switches
 
 For info about adding limit switches please visit:<a href="https://resources.sienci.com/view/lm-adding-limit-switches/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-adding-limit-switches/</a>
 
-<h2>Spindle/Laser control</h2>
+## Spindle/Laser control
 
 You can control spindles and lasers using the SpinPWM and SpinDirection outputs on your LongBoard.
 
@@ -184,13 +184,13 @@ The M4 command turns the Spin Direction output to LOW, indicating that the spind
 
 Oftentimes, you may not have the option to control the direction of your spindle, or it will default to clockwise if you do not have Spin Direction connected. In most instances, most users will not need to control the spindle direction and can leave this output alone.
 
-<h2>Probe</h2>
+## Probe
 
 The probe input allows the use of a touch plate or probe with the LongBoard.
 
 For documentation on setting this up, please visit: <a href="https://resources.sienci.com/view/lm-touch-plates/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-touch-plates/</a>
 
-<h2>Coolant control</h2>
+## Coolant control
 
 Coolant works similar to spindle control. Sending an M7 command sets the coolant pin to HIGH and sending an M9 command sets it to LOW.
 

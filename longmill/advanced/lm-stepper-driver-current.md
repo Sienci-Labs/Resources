@@ -19,7 +19,7 @@ You can adjust the current on each axis of the LongMill. It is set to 2.2A by de
 
 Some users may choose to increase or decrease their current settings to change the torque and speed characteristics. If you choose to adjust the default current settings, please do thorough research on the impact of current and motor performance before making changes.
 
-<h2>Warnings</h2>
+## Warnings
 
 Adjusting the maximum current settings on your machine can impact the performance of your machine, and incorrectly changing the current settings may cause damage. If you choose to adjust the current settings, you do it at your own risk and may void your warranty.
 
@@ -39,7 +39,7 @@ If you do choose to adjust these settings, we recommend:
   <li>Use active cooling for your drivers</li>
 </ul>
 
-<h2>Adjusting the current</h2>
+## Adjusting the current
 
 Adjusting the current on each driver is easy. You can find the potentiometer with the markings on the driver itself. Depending on your control box design, you may have to remove the outer casing.
 
