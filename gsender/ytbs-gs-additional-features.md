@@ -57,19 +57,30 @@ If you run into difficulty with getting a particular joystick set up in gSender,
 
 To better guarantee your experience using a gamepad in gSender, we’ve taken the time to test a shortlist of some common and affordable options that are easy to source. With community help, we hope to continue growing this list of **officially tested gamepads** which currently includes:
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_controller-xbox.png){.alignleft .size-full .nar}
-
-**YCCTeam Xbox Controller**
-
-- Wireless
-- Tested on Windows and macOS
-
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_controller-logi.png){.alignleft .size-full .nar}
-
-**Logitech F710**
-
-- Wireless<
-- Tested on Windows and macOS
+[su_table responsive="yes" alternate="no"]
+<table>
+<tbody>
+<tr>
+<td><img class="non alignnone" src="https://resources.sienci.com/wp-content/uploads/2024/08/gs_fe_sh_controller-xbox-1.png" alt="" width="240" height="180" /></td>
+<td><strong>YCCTeam Xbox Controller</strong>
+<ul>
+  <li>Wireless</li>
+  <li>Tested on Windows and macOS</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><img class="non alignnone" src="https://resources.sienci.com/wp-content/uploads/2024/08/gs_fe_sh_controller-logi-1.png" alt="" width="240" height="180" /></td>
+<td><strong>Logitech F710</strong>
+<ul>
+  <li>Wireless</li>
+  <li>Tested on Windows and macOS</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+[/su_table]
 
 Having a listed gamepad means you can both be more confident that your hardware will be compatible with gSender, as well as many of the ‘tested gamepads’ will have pre-made shortcut profiles built right in to save you time setting up your own. Find these pre-made ‘profiles’ alongside all the other gamepad settings in the Shortcuts -&gt; Gamepad tab.
 

@@ -1,7 +1,7 @@
 ---
-title: ytsb GRBL Alarms & Errors
+title: GRBL Alarms & Errors
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: Use this reference table to see the common Error codes and Alarm codes that you might see from your GRBL-based CNC machine.
 post_date: 2022-05-01 17:28:00
 taxonomy:

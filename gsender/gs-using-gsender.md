@@ -1,7 +1,7 @@
 ---
-title: ytsb Using gSender
+title: Using gSender
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: Understand the basics of how to use gSender, including connecting, jogging, zeroing and gotos, probing, and running jobs.
 post_date: 2021-07-01 14:56:00
 taxonomy:
