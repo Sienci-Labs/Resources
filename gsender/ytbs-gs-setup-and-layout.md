@@ -15,13 +15,13 @@ skip_file: no
 featured_image: _images/_gsender/_setup/gs_setup_p1_main-screen-layout.png
 ---
 
-<h2>Anonymous Information</h2>
+## Anonymous Information
 
 When you open up gSender, you’ll notice a prompt regarding ‘Anonymous usage information’. This is just to ask if you’d be fine with us knowing things like what CNC you use it for, what computer you run it on, and other information about how you use the app. You can imagine that if we know certain features are widely used or certain errors are constantly encountered, that can be very helpful to understand how we can improve the app or its documentation. This is completely optional and anonymous, we only do it with your permission and it can be turned off at any time in the settings menu.
 
 ![](/_images/_gsender/_setup/gs_setup_p0_anonymous.jpg){.aligncenter .size-medium}
 
-<h2>Layout</h2>
+## Layout
 
 Before starting to use gSender, let's briefly cover the way its functions are laid out so that you'll know where to find things moving forward. The program only has one main screen, it's into three major sections:
 
@@ -31,53 +31,53 @@ Before starting to use gSender, let's briefly cover the way its functions are la
 
 ![](/_images/_gsender/_setup/gs_setup_p1_main-screen-layout.png){.aligncenter .size-medium}
 
-We’ve built gSender’s layout around these primary boxed sections so that you can have all of the CNC functionality most hobbyists need on one screen without getting confused about what each button does. If you’re doing anything <strong>during</strong> a job it’ll be on the left side, if you’re doing anything <strong>outside</strong> a job it’ll likely be on the right, and if you want greater customization or functionality it’ll be found in the tools or settings.
+We’ve built gSender’s layout around these primary boxed sections so that you can have all of the CNC functionality most hobbyists need on one screen without getting confused about what each button does. If you’re doing anything **during** a job it’ll be on the left side, if you’re doing anything **outside** a job it’ll likely be on the right, and if you want greater customization or functionality it’ll be found in the tools or settings.
 
 Another of gSender’s Design Principals is colouring. It can be scary to have an assortment of buttons in front of you and not know what they’re going to do. This is why we made every button on the right-side control that moves the CNC, blue. This means you shouldn’t ever find yourself startled when the machine moves unexpectedly since the colour will help to communicate whether it’s a ‘machine moving’ button or not.
 
-<h2>Configuration</h2>
+## Configuration
 
 Let's do some configuration before connecting up to your CNC. Click the 'gear' at the far right of the toolbar to bring up the program settings. Some things you'll likely want to configure would be:
 
-- <strong>General Settings</strong>
+- **General Settings**
   - Baud rate needed for your particular CNC. Baud rate is setup for the LongMill by default.
   - Machine Profile
   - Preferred Units
   - Reverse workspace (flips the left and right-side controls if you prefer)
 
   ![](/_images/_gsender/_setup/gs_setup_p2_general-settings.jpg){.aligncenter .size-medium}
-- <strong>Visualizer Settings</strong>
-  - Set to light theme if you prefer</li>
+- **Visualizer Settings**
+  - Set to light theme if you prefer
 
   ![](/_images/_gsender/_setup/gs_setup_p3_settings-visualizer.png){.aligncenter .size-medium}
 
-<h2>Running Longer Jobs (optional)</h2>
+## Running Longer Jobs (optional)
 
 Windows machines can have a tendency to 'fall asleep' on the display and USB ports when running longer CNC jobs, this can cause your intricate cuts to stop short. To circumvent this, you'll have to change your computer power settings so that the port 'stays awake' while cutting.
 
-To keep the display on, you'll want to click the <strong>Windows</strong> icon at the bottom left corner of your screen and start to type “<em>control panel</em>” to bring it up.
+To keep the display on, you'll want to click the **Windows** icon at the bottom left corner of your screen and start to type “<em>control panel</em>” to bring it up.
 
 ![](/_images/_gsender/_setup/gs_setup_p4_control-panel.jpg){.aligncenter .size-medium}
 
-Once you’ve clicked to open it, go to <strong>Hardware and Sound </strong>then <strong>Power Options</strong>
+Once you’ve clicked to open it, go to **Hardware and Sound** then **Power Options**
 
 ![](/_images/_gsender/_setup/gs_setup_p5_hardware-sound.jpg){.aligncenter .size-medium}
 
 ![](/_images/_gsender/_setup/gs_setup_p6_power-options.jpg){.aligncenter .size-medium}
 
-Now, whichever plan you have currently selected (circled in the picture) will be the one that you want to change. You can see in this example we will be editing the <strong>Balanced</strong> plan. Click on the Change plan settings text (highlighted with an arrow).
+Now, whichever plan you have currently selected (circled in the picture) will be the one that you want to change. You can see in this example we will be editing the **Balanced** plan. Click on the Change plan settings text (highlighted with an arrow).
 
 ![](/_images/_gsender/_setup/gs_setup_p7_balanced-power.jpg){.aligncenter .size-medium}
 
-Go to the second drop-down and set both battery and plugged in selection to <strong>Never</strong>, save the changes to ensure that your computer never dozes off on its own.
+Go to the second drop-down and set both battery and plugged in selection to **Never**, save the changes to ensure that your computer never dozes off on its own.
 
 ![](/_images/_gsender/_setup/gs_setup_p8_never-power.png){.aligncenter .size-medium}
 
-To keep the USB ports on, click <strong>Change advanced power settings</strong>
+To keep the USB ports on, click **Change advanced power settings**
 
 ![](/_images/_gsender/_setup/gs_setup_p9_advanced.png){.aligncenter .size-medium}
 
-In the separate window that appears, you’ll want to Expand the <b>USB Settings</b>, then <b>USB selective suspend setting</b>, and finally change both the battery and plugged in settings for these drop-downs to ‘<b>Disabled</b>’. Click OK to <b>Apply</b> these new settings.
+In the separate window that appears, you’ll want to Expand the **USB Settings**, then **USB selective suspend setting**, and finally change both the battery and plugged in settings for these drop-downs to ‘**Disabled**’. Click OK to **Apply** these new settings.
 
 ![](/_images/_gsender/_setup/gs_setup_p10_advanced-options.jpg){.aligncenter .size-medium}
 

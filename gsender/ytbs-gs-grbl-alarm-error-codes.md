@@ -100,7 +100,9 @@ You can close an alarm by clicking on the button that appears next to it in the 
 </tbody>
 </table>
 [/su_table]
+
 <h2><span style="color: #ff8b3d;">Errors</span></h2>
+
 [su_table responsive="yes"]
 <table>
 <tbody>
@@ -232,97 +234,97 @@ You can close an alarm by clicking on the button that appears next to it in the 
 </tr>
 <tr>
 <td>23</td>
-<td>Invalid g-code ID:23</td>
+<td>Invalid gcode ID:23</td>
 <td>G-code command in block requires an integer value.</td>
 <td></td>
 </tr>
 <tr>
 <td>24</td>
-<td>Invalid g-code ID:24</td>
+<td>Invalid gcode ID:24</td>
 <td>More than one g-code command that requires axis words found in block.</td>
 <td><a href="#error-1-2-20-24-26-28">Example</a></td>
 </tr>
 <tr>
 <td>25</td>
-<td>Invalid g-code ID:25</td>
+<td>Invalid gcode ID:25</td>
 <td>Repeated g-code word found in block.</td>
 <td></td>
 </tr>
 <tr>
 <td>26</td>
-<td>Invalid g-code ID:26</td>
+<td>Invalid gcode ID:26</td>
 <td>No axis words found in block for g-code command or current modal state which requires them.</td>
 <td><a href="#error-1-2-20-24-26-28">Example</a></td>
 </tr>
 <tr>
 <td>27</td>
-<td>Invalid g-code ID:27</td>
+<td>Invalid gcode ID:27</td>
 <td>Line number value is invalid.</td>
 <td></td>
 </tr>
 <tr>
 <td>28</td>
-<td>Invalid g-code ID:28</td>
+<td>Invalid gcode ID:28</td>
 <td>G-code command is missing a required value word.</td>
 <td><a href="#error-1-2-20-24-26-28">Example</a></td>
 </tr>
 <tr>
 <td>29</td>
-<td>Invalid g-code ID:29</td>
+<td>Invalid gcode ID:29</td>
 <td>G59.x work coordinate systems are not supported.</td>
 <td></td>
 </tr>
 <tr>
 <td>30</td>
-<td>Invalid g-code ID:30</td>
+<td>Invalid gcode ID:30</td>
 <td>G53 only allowed with G0 and G1 motion modes.</td>
 <td></td>
 </tr>
 <tr>
 <td>31</td>
-<td>Invalid g-code ID:31</td>
+<td>Invalid gcode ID:31</td>
 <td>Axis words found in block when no command or current modal state uses them.</td>
 <td></td>
 </tr>
 <tr>
 <td>32</td>
-<td>Invalid g-code ID:32</td>
+<td>Invalid gcode ID:32</td>
 <td>G2 and G3 arcs require at least one in-plane axis word.</td>
 <td></td>
 </tr>
 <tr>
 <td>33</td>
-<td>Invalid g-code ID:33</td>
+<td>Invalid gcode ID:33</td>
 <td>Motion command target is invalid.</td>
 <td></td>
 </tr>
 <tr>
 <td>34</td>
-<td>Invalid g-code ID:34</td>
+<td>Invalid gcode ID:34</td>
 <td>Arc radius value is invalid.</td>
 <td></td>
 </tr>
 <tr>
 <td>35</td>
-<td>Invalid g-code ID:35</td>
+<td>Invalid gcode ID:35</td>
 <td>G2 and G3 arcs require at least one in-plane offset word.</td>
 <td></td>
 </tr>
 <tr>
 <td>36</td>
-<td>Invalid g-code ID:36</td>
+<td>Invalid gcode ID:36</td>
 <td>Unused value words found in block.</td>
 <td></td>
 </tr>
 <tr>
 <td>37</td>
-<td>Invalid g-code ID:37</td>
+<td>Invalid gcode ID:37</td>
 <td>G43.1 dynamic tool length offset is not assigned to configured tool length axis.</td>
 <td></td>
 </tr>
 <tr>
 <td>38</td>
-<td>Invalid g-code ID:38</td>
+<td>Invalid gcode ID:38</td>
 <td>Tool number greater than max supported value.</td>
 <td></td>
 </tr>
@@ -330,25 +332,18 @@ You can close an alarm by clicking on the button that appears next to it in the 
 </table>
 [/su_table]
 
-<h3>Error 1, 2, 20, 24, 26, 28</h3>
+### Error 1, 2, 20, 24, 26, 28
 
 When any of these errors appear in gSender, it can typically be traced back to 3 sources:
-<ol>
-  <li><strong>The g-code file has errors in it</strong>: if this is true, then
-<ul>
-  <li>Keep the file loaded</li>
-  <li>Go to gSenders Settings -&gt; Safety -&gt; to make sure ‘Warn if invalid line detected’ is turned on</li>
-  <li>Next to the ‘Load File’ button on the main screen, you’ll see another button that says ‘Verify Job’ (previously ‘Test Run’)</li>
-  <li>Click this button and it will go through your g-code file, and if the same errors pop up then it’s likely that the file is bad. Go back and check your design software or post processor to make sure it’s all been set up correctly and then try re-generating the file.</li>
-</ul>
-</li>
-  <li><strong>You have an unstable connection to your CNC</strong>: if the file didn’t have errors, then this is the next most likely issue. You’ll want to
-<ul>
-  <li>Check if your USB cable is loose or if other ports or connectors on your CNC board are loose.</li>
-  <li>Try another USB port on your computer, and if you’re using a USB hub try skipping it to connect directly to your CNC.</li>
-  <li>Don’t use a USB Stick, make sure the files on are the hard-drive of your computer.</li>
-  <li>Try running the same job in the air with your router/spindle and dust collector turned off to see if the same errors appear as when you run the job. If they go away then try running the job with full cutting again in some scrap material just to confirm the errors come back. Once confirmed, you’ll want to look to see if your equipment isn’t properly grounded, could have improved electrical shielding, or try using another computer. An example of this is to put your controller and computer on a separate power circuit than the router/spindle and dust collector.</li>
-</ul>
-</li>
-  <li><strong>Some gSender versions can have bugs</strong>: this is the least likely cause, but a couple gSender versions have been known to make errors appear that aren’t actually happening. If you’ve already tried everything else, you should first double-check that you’re connected to the “grbl” firmware if you’re using a grbl board like the LongBoard, or to “grblHAL” for boards like the SLB. After checking that, try installing and <a href="https://resources.sienci.com/view/gs-installation/#older-versions">using a different gSender version</a>.</li>
-</ol>
+
+1. **The g-code file has errors in it**: if this is true, then
+   - Keep the file loaded
+   - Go to gSenders Settings -&gt; Safety -&gt; to make sure ‘Warn if invalid line detected’ is turned on
+   - Next to the ‘Load File’ button on the main screen, you’ll see another button that says ‘Verify Job’ (previously ‘Test Run’)
+   - Click this button and it will go through your g-code file, and if the same errors pop up then it’s likely that the file is bad. Go back and check your design software or post processor to make sure it’s all been set up correctly and then try re-generating the file.
+1. **You have an unstable connection to your CNC**: if the file didn’t have errors, then this is the next most likely issue. You’ll want to
+   - Check if your USB cable is loose or if other ports or connectors on your CNC board are loose.
+   - Try another USB port on your computer, and if you’re using a USB hub try skipping it to connect directly to your CNC.
+   - Don’t use a USB Stick, make sure the files on are the hard-drive of your computer.
+   - Try running the same job in the air with your router/spindle and dust collector turned off to see if the same errors appear as when you run the job. If they go away then try running the job with full cutting again in some scrap material just to confirm the errors come back. Once confirmed, you’ll want to look to see if your equipment isn’t properly grounded, could have improved electrical shielding, or try using another computer. An example of this is to put your controller and computer on a separate power circuit than the router/spindle and dust collector.
+1. **Some gSender versions can have bugs**: this is the least likely cause, but a couple gSender versions have been known to make errors appear that aren’t actually happening. If you’ve already tried everything else, you should first double-check that you’re connected to the “grbl” firmware if you’re using a grbl board like the LongBoard, or to “grblHAL” for boards like the SLB. After checking that, try installing and <a href="https://resources.sienci.com/view/gs-installation/#older-versions">using a different gSender version</a>.

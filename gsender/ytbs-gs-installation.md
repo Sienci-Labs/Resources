@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/_gsender/_install/gs_install_setup-complete.png
 ---
 
-<h2>Download</h2>
+## Download
 
 If you haven't yet, download the right gSender file for your operating system. Links to common computer downloads and all other types and versions of gSender can be found on the main page: <a href="https://sienci.com/gSender/" target="_blank" rel="noreferrer noopener">https://sienci.com/gsender/</a>.
 
@@ -23,11 +23,11 @@ If you haven't yet, download the right gSender file for your operating system. L
 
 If you downloaded the more experimental ‘gSender Edge’, then remember to also read what features it uniquely offers and how to use them: <a href="https://resources.sienci.com/view/gs-edge-features/" target="_blank" rel="noopener">https://resources.sienci.com/view/gs-edge-features/</a>
 
-<h2>Windows Install</h2>
+## Windows Install
 
 You may run into a security warning from your computer when you download the .EXE file. This can be bypassed by selecting “See more.” You can choose to keep the download, so that it can continue to run.
 
-<strong>Microsoft Edge Users:</strong> If you are having difficulties downloading gSender when using Microsoft Edge, follow the <a href="https://resources.sienci.com/wp-content/uploads/2022/03/gSender-Microsoft-Edge-Browser-Install.pdf" target="_blank" rel="noopener">instructions here</a> or watch the video <a href="https://youtu.be/vvwtIjgMcAM" target="_blank" rel="noopener">here.</a>
+**Microsoft Edge Users:** If you are having difficulties downloading gSender when using Microsoft Edge, follow the <a href="https://resources.sienci.com/wp-content/uploads/2022/03/gSender-Microsoft-Edge-Browser-Install.pdf" target="_blank" rel="noopener">instructions here</a> or watch the video <a href="https://youtu.be/vvwtIjgMcAM" target="_blank" rel="noopener">here.</a>
 
 ![](/_images/_gsender/_install/gs_install_install-download.jpg){.aligncenter .size-medium}
 
@@ -47,7 +47,7 @@ Install completion will be indicated by a completion screen. If the 'Run gSender
 
 ![](/_images/_gsender/_install/gs_install_setup-complete.png){.aligncenter .size-medium}
 
-<h2>Mac Install</h2>
+## Mac Install
 
 Once you've downloaded the DMG file, double-click to run it. A window will popup that will look like the one below. Click and drag the gSender app and let go the applications folder to save it to your Mac.
 
@@ -57,7 +57,7 @@ Navigate to your applications folder on your Mac and the gSender program should 
 
 ![](/_images/_gsender/_install/gs_install_mac-finder.png){.aligncenter .size-medium}
 
-<strong>Note:</strong> we've been having problems creating an Arm build for Mac, but for now you should still be able to install the Intel version and use Rosetta just fine.
+**Note:** we've been having problems creating an Arm build for Mac, but for now you should still be able to install the Intel version and use Rosetta just fine.
 
 If you're having issues installing gSender on your Mac:
 
@@ -69,7 +69,7 @@ If you're having issues installing gSender on your Mac:
 1. You'll be asked one more time if you're sure, but clicking Open will run the app.
 ![](/_images/_gsender/_install/gs_install_mac-defender-override.jpg){.aligncenter .size-medium}
 
-<h2>gSender Updates</h2>
+## gSender Updates
 
 gSender will notify you when new updates are available, allowing you to download them quickly and get running with the latest version. If you don't see these notifications, your system might not support it or your computer Firewall may be blocking them but you should still be able to download the <a href="https://sienci.com/gSender/">newest version</a> manually and install it over-top of the old version.
 
@@ -77,25 +77,25 @@ gSender updates always have the chance of encountering quirks, so if you have an
 
 ![](/_images/_gsender/_install/gs_install_gsender-updater.png){.aligncenter .size-medium}
 
-<strong>Note:</strong> If you are upgrading to a new version or gSender, or downgrading to an older version, and you run into problems trying to get it to open or run, you’ll want to find a file called “<strong>.sender_rc</strong>” and rename it. This will allow gSender to generate a new version and clean up any errors you may be encountering. It also allows you to recover your old Start/Stop events and macros from the file in the future if needed.
+**Note:** If you are upgrading to a new version or gSender, or downgrading to an older version, and you run into problems trying to get it to open or run, you’ll want to find a file called “**.sender_rc**” and rename it. This will allow gSender to generate a new version and clean up any errors you may be encountering. It also allows you to recover your old Start/Stop events and macros from the file in the future if needed.
 
-- For Windows: the file can usually be found on your hard drive, at: <strong>C:/users/{your username}/.sender_rc</strong>. Rename it to whatever you like, like “<strong>.sender_rc_old</strong>”, then try to reinstall gSender again.
+- For Windows: the file can usually be found on your hard drive, at: **C:/users/{your username}/.sender_rc**. Rename it to whatever you like, like “**.sender_rc_old**”, then try to reinstall gSender again.
 ![](/_images/_gsender/_install/gs_install_senderrc.jpg){.aligncenter .size-medium}
 ![](/_images/_gsender/_install/gs_install_rcold.jpg){.aligncenter .size-medium}
 - For Mac/Linux: the file is in the home directory as a hidden file. You can either:
-  - Go to your <strong>Home</strong> directory in Finder and make sure you have ‘show hidden files’ enabled (<strong>CMD + Shift +</strong> . ). You’ll then be able to see the file and rename it.
-  - Go into the Mac/Linux console and enter the command “<strong>mv ~/.sender_rc ~/.sender_rc_old</strong>”. You’ll be able to double check the renaming was successful by sending “<strong>ls -al | grep sender</strong>” in the console, where if you only see “<strong>.sender_rc_old</strong>”, you have successfully remanded and are ready to try to reinstall gSender.
+  - Go to your **Home** directory in Finder and make sure you have ‘show hidden files’ enabled (**CMD + Shift + .** ). You’ll then be able to see the file and rename it.
+  - Go into the Mac/Linux console and enter the command “**mv ~/.sender_rc ~/.sender_rc_old**”. You’ll be able to double check the renaming was successful by sending “**ls -al | grep sender**” in the console, where if you only see “**.sender_rc_old**”, you have successfully remanded and are ready to try to reinstall gSender.
 
-<h2>Older Versions</h2>
+## Older Versions
 
 If you just updated gSender and are finding that it's not working for you, downgrading again is always available:
 
-1. If you go here: <a href="https://github.com/Sienci-Labs/gSender/releases" target="_blank" rel="noopener">https://github.com/Sienci-Labs/gsender/releases</a>, the newest version will always be at the top and shown in bold text like "<strong>v1.4.3</strong>" for example
+1. If you go here: <a href="https://github.com/Sienci-Labs/gSender/releases" target="_blank" rel="noopener">https://github.com/Sienci-Labs/gsender/releases</a>, the newest version will always be at the top and shown in bold text like "**v1.4.3**" for example
 1. Scroll down to find older versions and choose the next version down or whatever version number you remember using
-1. Once you're at the version you want, scroll down to find "<strong>Assets</strong>" and click the text to open the list of downloads
+1. Once you're at the version you want, scroll down to find "**Assets**" and click the text to open the list of downloads
 1. Find the right one for you, Windows is ".exe", Mac is ".dmg", etc. and click the file name to start downloading it. Once it's downloaded, you can install it over your current gSender version and continue from there
 
-<h2>Chromebook</h2>
+## Chromebook
 
 You can run gSender by using Linux inside of ChromeOS as long as you’re running 64-bit. Set up Linux on your Chromebook with <a href="https://support.google.com/chromebook/answer/9145439?hl=en" target="_blank" rel="noopener">these instructions</a>. Open the command line and type: <code class="inline">cat /etc/os-release</code> or <code class="inline">uname -m</code> to see what architecture/operating system you are using, so you’ll know which gSender file to download. In the example below you can see we are running aarch64, which means we will want to download "arm-64bit.AppImage".
 
@@ -105,7 +105,7 @@ You can run gSender by using Linux inside of ChromeOS as long as you’re runnin
 
 Download the .appimage file from the latest release of gSender and double click to launch. You will need to have the g-code files you want to carve in the same folder too. If you have success and find we’ve missed any steps here, let us know and we will update our resources!
 
-<h2>Pi Install</h2>
+## Pi Install
 
 If you’re considering a Pi setup, that’s great! There are a lot of potential perks that can come from having a cheap, mini, fanless computer to run your CNC without the downside of Windows updates and other quirks. A couple things you should know though before diving in:
 
@@ -115,7 +115,7 @@ If you’re considering a Pi setup, that’s great! There are a lot of potential
 
 We hope all of this explains why you’ll find the RasPi side of gSender support is inherently the least well documented of all the install options. We’ve tried our best to cover some of the more common setups, but we’d still recommend you have some familiarity with Linux if you continue with this installation since our support won’t be able to cover the many specific problems of various Pi builds.
 
-<strong>Starting notes:</strong>
+**Starting notes:**
 
 - We provide 2 different variations of Pi binary - .AppImage, .deb.
 - Pi versions are all indicated by the “Pi-64Bit” tag in the executable name.
@@ -123,15 +123,15 @@ We hope all of this explains why you’ll find the RasPi side of gSender support
   - To determine which OS you’re running, enter a terminal and type “cat /etc/os-release”. The name and pretty name should verify your OS and version
 ![](/_images/_gsender/_install/gs_install_ras-pi-os.jpg){.aligncenter .size-medium}
 
-<strong>For most simple Pi setups, you’ll want to:</strong>
+**For most simple Pi setups, you’ll want to:**
 
 1. Download the AppImage
 1. Right click and go to the permissions tab
 1. Make sure “executable” permission is set on the file
 1. Run the program
 
-<strong>Default Pi credentials:
-</strong>User: <em>pi</em>
+**Default Pi credentials:**
+User: <em>pi</em>
 
 These are needed when performing ‘sudo’ super user access, a type of administrator access needed to alter system-specific things. Once you’re set up with your Pi we recommend creating a new user account with different credentials as a security precaution, especially if you’re running gSender in remote mode or connecting your Pi to the internet. If these credentials don’t work for you then either check with your manufacturer or congratulations you’ve already created your own account and changed the default password ;)
 
@@ -139,13 +139,13 @@ To change the default pi user password. It's just menu -&gt; Preferences -&gt; R
 
 ![](/_images/_gsender/_install/gs_install_change-pi-credentials.png){.aligncenter .size-medium}
 
-<strong>Error log location:
-</strong>All application logs can be found in “<em>~/.config/gSender/logs</em>” and can be shared for any app-specific problems.
+**Error log location:**
+All application logs can be found in “<em>~/.config/gSender/logs</em>” and can be shared for any app-specific problems.
 
-<h3>Common Issues</h3>
+### Common Issues
 
-<strong>Sizing for Smaller Screens
-</strong>gSender can size responsively but only to a minimum point. Because of this, some Pi users might find gSender isn't fitting their screen properly. This can be accommodated on most Pis by:
+**Sizing for Smaller Screens**
+gSender can size responsively but only to a minimum point. Because of this, some Pi users might find gSender isn't fitting their screen properly. This can be accommodated on most Pis by:
 
 - Click the Pi icon on the top right
 - Preferences -&gt; Screen configuration -&gt; Configure -&gt; Screens
@@ -154,8 +154,8 @@ To change the default pi user password. It's just menu -&gt; Preferences -&gt; R
 
 This should allow gSender to show on your screen fully without it being cut off.
 
-<strong>Visualizer is blank
-</strong>This is most likely related to webGL not being enabled. You can check inside Chromium/Chrome by visiting <a href="https://webglreport.com/" target="_blank" rel="noopener">https://webglreport.com/</a> and checking that both WebGL 1 and WebGL 2 have the green 'supported' banner. If these aren’t present, then to enable webGL:
+**Visualizer is blank**
+This is most likely related to webGL not being enabled. You can check inside Chromium/Chrome by visiting <a href="https://webglreport.com/" target="_blank" rel="noopener">https://webglreport.com/</a> and checking that both WebGL 1 and WebGL 2 have the green 'supported' banner. If these aren’t present, then to enable webGL:
 
 - Inside Chrome/Chromium, navigate to <a href="//settings" target="_blank" rel="noopener">chrome://settings</a>
 - In the ‘System’ section, ensure the “Use hardware acceleration when available” checkbox is checked
@@ -163,5 +163,5 @@ This should allow gSender to show on your screen fully without it being cut off.
 - Ensure that “Disable WebGL” is not activated
 - Relaunch Chrome for the changes to take effect and now these updated settings should be used by gSender’s Electron builder
 
-<strong>Can’t open the port to connect
-</strong>Make sure your user is part of the dialout group. To add your account to this group, go to a terminal and type “<em>sudo usermod -a -G dialout &lt;user&gt;</em>” (replacing “&lt;user&gt;” with your username). Restart after this change and try again.
+**Can’t open the port to connect**
+Make sure your user is part of the dialout group. To add your account to this group, go to a terminal and type “<em>sudo usermod -a -G dialout &lt;user&gt;</em>” (replacing “&lt;user&gt;” with your username). Restart after this change and try again.
