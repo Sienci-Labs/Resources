@@ -3,7 +3,7 @@ title: ytsb Installation
 menu_order: 4
 post_status: draft
 post_excerpt: Read about where to download gSender and how to install it onto Windows, Mac, Linux, or other PCs, as well as how to check for updates.
-post_date: 2024-07-01 14:11
+post_date: 2021-07-01 14:11:00
 taxonomy:
     knowledgebase_cat: gdocs
     knowledgebase_tag:
@@ -41,11 +41,11 @@ If the "More info" option isn't available, it could be that Windows is fully blo
 
 With permission to run, you should be met with a license agreement. gSender is provided "as is" which means there's no expectation that it'll run your CNC perfectly - especially as it's still in very active development. We want you to understand this before moving forward. If you agree, you'll be able to choose your install options from there (who to install for and where) and then begin installing.
 
-![](/_images/_gsender/_install/gs_in_windows-setup.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_windows-setup.png){.aligncenter .size-full}
 
 Install completion will be indicated by a completion screen. If the 'Run gSender' box is checked off you should be able to click 'Finish' and be greeted with a splash screen followed by the full program. If not, you can always open the program manually after install.
 
-![](/_images/_gsender/_install/gs_in_windows-finish.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_windows-finish.png){.aligncenter .size-full}
 
 ## Mac Install
 
@@ -75,7 +75,7 @@ gSender will notify you when new updates are available, allowing you to download
 
 gSender updates always have the chance of encountering quirks, so if you have an important carve coming up or are just satisfied with your current setup then we'd typically recommend holding off until updating will be less 'mission-critical'. If you update accidentally and want to go back, you can also always <a href="#older-versions">downgrade</a>.
 
-![](/_images/_gsender/_install/gs_in_updater.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_updater.png){.aligncenter .size-full}
 
 **Note:** If you are upgrading to a new version or gSender, or downgrading to an older version, and you run into problems trying to get it to open or run, you’ll want to find a file called “**.sender_rc**” and rename it. This will allow gSender to generate a new version and clean up any errors you may be encountering. It also allows you to recover your old Start/Stop events and macros from the file in the future if needed.
 

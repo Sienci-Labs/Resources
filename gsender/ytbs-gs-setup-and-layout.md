@@ -3,7 +3,7 @@ title: ytsb Setup & Layout
 menu_order: 4
 post_status: draft
 post_excerpt: See the gSender's layout to get an understanding of where tools and features are located and where you can go to change your settings or setup your CNC.
-post_date: 2021-07-01 14:21
+post_date: 2021-07-01 14:21:00
 taxonomy:
     knowledgebase_cat: gdocs
     knowledgebase_tag:
@@ -45,11 +45,11 @@ Let's do some configuration before connecting up to your CNC. Click the 'gear' a
   - Preferred Units
   - Reverse workspace (flips the left and right-side controls if you prefer)
 
-  ![](/_images/_gsender/_setup/gs_se_config-general.jpg){.aligncenter .size-medium}
+  ![](/_images/_gsender/_setup/gs_se_config-general.jpg){.aligncenter .size-full}
 - **Visualizer Settings**
   - Set to light theme if you prefer
 
-  ![](/_images/_gsender/_setup/gs_se_config-vis.png){.aligncenter .size-medium}
+  ![](/_images/_gsender/_setup/gs_se_config-vis.png){.aligncenter .size-full}
 
 ### Machine Profiles
 
@@ -59,11 +59,11 @@ For instance most LongMills ship with **LongMill MK2 30x30** firmware pre-instal
 
 Please Note: If your Z-axis is working in the opposite direction than expected, confirm you have the correct profile. MK2 users must choose either LongMill MK2 12x30, LongMill MK2 30x30, or LongMill MK2 48x30. You can find instructions on how to flash firmware here: <a href="https://resources.sienci.com/view/lmk2-grbl-firmware/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-grbl-firmware/</a>
 
-![](/_images/_gsender/_setup/gs_se_config-profile.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_se_config-profile.jpg){.aligncenter .size-full}
 
 If you're running into an issue where the size isn't correct when using Soft Limits for example, get the size from your manufacturer or their resources and you should find that the changes will be straightforward to make through the 'Firmware tool' within gSender. Simply apply your new measurements to the X-axis, Y-axis and Z-axis maximum travel fields. Then hit the apply changes button.
 
-![](/_images/_gsender/_setup/gs_se_config-travel.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_se_config-travel.jpg){.aligncenter .size-full}
 
 ## Running Longer Jobs (optional)
 

@@ -3,7 +3,7 @@ title: ytsb Edge Features
 menu_order: 4
 post_status: draft
 post_excerpt: Learn the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, lasers, coolant, and more.
-post_date: 2021-07-01 15:55
+post_date: 2021-07-01 15:55:00
 taxonomy:
     knowledgebase_cat: gdocs
     knowledgebase_tag:
@@ -65,9 +65,9 @@ As of 1.4.1, the current notable features / improvements to Edge are:
 
 If you've ever accidentally zeroed an axis when you meant to go to the existing zero, this is an option you can turn on that double checks when you want to zero. In settings on the safety tab, you can toggle this feature on. Then when you click on Zero X, Zero Y or Zero Z, you will see a popup asking for confirmation.
 
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn.jpg){.aligncenter .size-full}
 
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn.gif){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn-gif.gif){.aligncenter .size-full}
 
 We’ve improved the Go To function! You can use the blue Go To buttons beside each axis to move to X, Y or Z zeros individually as always. The improvement is under the Go To XY0 button, where you will now find a simple Go To button.
 
@@ -75,32 +75,32 @@ We’ve improved the Go To function! You can use the blue Go To buttons beside e
 
 Hitting the Go To button will bring up a popup that will allow you to enter specific coordinates for each axis (Absolute or relative positioning). When you hit the Go button, you will move to the location you’ve designated!
 
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_goto-location.gif){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_goto-location-gif.gif){.aligncenter .size-full}
 
 ### Multi Corner Probing
 
 Most people prefer to probe the front, left corner of their material as the zero-point of their job, since that corner is easy to access, but in rare cases you might want to probe elsewhere. If you would like to probe from a different spot on your workpiece, you can now rotate to the corner of your choice. Simply press the icon in the top right corner to highlight where you are starting to probe. For example, if you wish to probe from the back right corner, hit the icon twice to move the highlighted section to the back right.
 
-![](/_images/_gsender/_features/_probing/gs_fe_pr_change-corner.gif){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_probing/gs_fe_pr_change-corner.gif){.aligncenter .size-full}
 
 ### Gamepad
 
 You can select one of the preset and tested profiles or create your own. To create your own, connect your joystick to your computer and create a new profile using the ‘Add New Gamepad Profile’ button. This will enable you to set up multiple profiles if desired, for different controllers, as they each have their own unique ID.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-add.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-add.png){.aligncenter .size-full}
 
 If you run into difficulty with getting a particular joystick set up in gSender, consider searching for documentation provided by the manufacturer (for example, <a href="https://support.xbox.com/en-CA/help/hardware-network/controller/connect-xbox-wireless-controller-to-pc">Xbox</a> or <a href="https://www.playstation.com/en-ca/support/hardware/ps4-pair-dualshock-4-wireless-with-pc-or-mac/">PlayStation</a>). Some joysticks may also require drivers to be downloaded so your computer can read the signals that the joystick sends out.
 Connect your controller to your PC and press any button on it. gSender will identify and provide a profile if one is available. You can see in the screenshot below, it correctly identifies the DualSense Wireless Controller I’m adding. Enter your profile name and hit **Add New Profile**.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-new.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-new.png){.aligncenter .size-full}
 
 Your new profile will now appear on the Gamepad tab of the Shortcuts page in Settings. Click on the profile you want to edit.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-added.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-added.jpg){.aligncenter .size-full}
 
 Here you will find the shortcuts that you can assign to different buttons or your joysticks. You can see that the controller is connected, and that a Help button is available. You can push the buttons on your controller to see which number it corresponds to. You can then rename the shortcut button to match your controller by clicking on the black number. In this case, the X button corresponds to button 0. By pressing the plus symbol in the Action column, you will see a list of actions you can map to that button. I added an action for **Homing - Go to back left corner**. Now when I hit the X button on my controller, gSender will move the CNC to the back left corner!
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-assign.gif){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-assign.gif){.aligncenter .size-full}
 
 #### Lockout Button
 
@@ -224,7 +224,7 @@ he Rotary Surfacing button will allow you to turn square stock down to a cylinde
 
 Now you will see the Rotary Surfacing Tool. Here you will enter details about your stock length, start and final dimensions. You will also see spots for Bit Diameter, Step over, Spindle RPM, and Feed rate.
 
-![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_settings.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_settings.jpg){.aligncenter .size-full}
 
 Rotary surfacing is similar to the regular XYZ surfacing tool. Let’s explore this a bit further.
 
@@ -236,19 +236,19 @@ Rotary surfacing is similar to the regular XYZ surfacing tool. Let’s explore t
 
 <p style="text-align: center;"><strong>(Start Height - Finishing Height) / 2 = Total Stepdown for ONE pass</strong></p>
 
-![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_running.gif){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_running.gif){.aligncenter .size-medium .nar}
 
 #### Rotary Settings
 
 When you click on the setting button and then select the Rotary tab, you will see the firmware configurations. Here you can enter your own settings, reset the default settings and turn Hard Limits on/off.
 
-![](/_images/_gsender/_features/_rotary/gs_fe_ro_settings.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_settings.jpg){.aligncenter .size-full}
 
 ### Job Stats and CNC Maintenance
 
 Curious to know how many jobs you’ve completed, how many hours you’ve put on your machine or what maintenance you should be focusing on? Find this information in the “Job History &amp; Stats” section of settings. Here you will find 3 tabs; Statistics, Job Table, and Maintenance.
 
-![](/_images/_gsender/_edge/gs_fe_stats.gif){.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_fe_stats.gif){.aligncenter .size-full}
 
 #### Statistics
 
@@ -270,7 +270,7 @@ On the settings page under Tool Change you now have the option to toggle on Pass
 
 We’ve also brought back the Code block tool change strategy. You can enter your own macros before and after the tool change when this strategy is selected.
 
-![](/_images/_gsender/_edge/gs_fe_tool-change-code.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_fe_tool-change-code.jpg){.aligncenter .size-full}
 
 ### Remote mode improvements
 

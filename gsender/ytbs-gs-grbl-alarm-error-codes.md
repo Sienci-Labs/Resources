@@ -3,7 +3,7 @@ title: ytsb GRBL Alarms & Errors
 menu_order: 4
 post_status: draft
 post_excerpt: Use this reference table to see the common Error codes and Alarm codes that you might see from your GRBL-based CNC machine.
-post_date: 2022-05-01 17:28
+post_date: 2022-05-01 17:28:00
 taxonomy:
     knowledgebase_cat: gdocs
     knowledgebase_tag:
@@ -19,7 +19,7 @@ The grbl firmware has a whole list of Alarms and Error codes that you can encoun
 
 You can close an alarm by clicking on the button that appears next to it in the visualizer. Most alarms can also be handled by typing “$x” into the ‘Console’ tab and hitting the ‘Run’ button.
 
-![](/_images/_gsender/_using/gs_us_clear-alarm.png){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_us_clear-alarm.png){.aligncenter .size-full}
 
 <h2>Useful Commands</h2>
 

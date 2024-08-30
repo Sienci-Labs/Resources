@@ -3,7 +3,7 @@ title: ytsb Problems / Bugs?
 menu_order: 4
 post_status: draft
 post_excerpt: A list of common problems and fixes for gSender users as well as links through to submitting issues or finding more support through our forums or videos.
-post_date: 2021-07-01 16:28
+post_date: 2021-07-01 16:28:00
 taxonomy:
     knowledgebase_cat: gdocs
     knowledgebase_tag:
@@ -34,14 +34,14 @@ In order of importance, please collect together information of:
 
 Please attach the files and information in your post / <a href="mailto:hi@sienci.com">email</a> to us.
 
-![](/_images/_gsender/_issues/gs_is_diagnostic-file.png){.aligncenter .size-medium}
+![](/_images/_gsender/_issues/gs_is_diagnostic-file.png){.aligncenter .size-full}
 
 ## Questions or Suggestions
 
 Send us the information, questions, or suggestions either on:
 
 - The <a href="https://forum.sienci.com/c/gSender/" target="_blank" rel="noopener"><strong>gSender Forum</strong></a>
-[![](/_images/_gsender/_issues/gs_is_gs-forum.png){.aligncenter .size-medium}](https://forum.sienci.com/c/gSender/)
+[![](/_images/_gsender/_issues/gs_is_gs-forum.png){.aligncenter .size-medium .flie}](https://forum.sienci.com/c/gSender/)
 - <strong><a href="https://github.com/Sienci-Labs/gSender" target="_blank" rel="noopener">Github page</a></strong> (feel free to also submit PRs)
 - You can join the discussion on secondary communities like our <a href="https://www.facebook.com/groups/gSender" target="_blank" rel="noopener">Facebook gSender Group</a>, and <a href="https://www.facebook.com/groups/mill.one" target="_blank" rel="noopener">Facebook CNC Group</a>, but we can't provide as much support or hear feedback in these groups.
 
@@ -67,7 +67,7 @@ If you find that gSender goes blank after you open it or while using it, there a
 1. Check your antivirus software or Windows Defender and add gSender as an exception.
 1. Check to ensure you have read/write permissions for the preferences file
    1. Let’s locate the file! It’s called .sender_rc and can usually be found on your hard drive at: C:/users/{your username}/.sender_rc
-   ![](/_images/_gsender/_issues/gs_is_cm_blank-rc.png){.aligncenter .size-medium}
+   ![](/_images/_gsender/_issues/gs_is_cm_blank-rc.png){.aligncenter .size-full}
    1. Right-click on the file and choose properties. Under the security tab, check the name of your profile and confirm you have full control of the file.
    1. If not, select edit, choose your computer name, and grant permissions.
 1. If you’re still getting a blank screen, locate your log file and send it in to us. It's located at: C:/Users/{your user name}/AppData/Roaming/gSender/Logs/main.log
@@ -145,7 +145,7 @@ If your g-code includes any workspace commands from G54 to G59, G59.1 to G59.3, 
 
 Alternatively, gSender's 'Start/Stop G-code' can also be equipped to sidestep problems with changing workspaces by saving the active workspace at the start of the program and then re-loading it at the end. This can be done with the commands <code class="inline">%global.state.workspace=modal.wcs</code> and <code class="inline">[global.state.workspace]</code> as shown in the picture below. Remember to 'Update Event' on both entries:
 
-![](/_images/_gsender/_issues/gs_is_cm_workspace.png){.aligncenter .size-medium}
+![](/_images/_gsender/_issues/gs_is_cm_workspace.png){.aligncenter .size-full}
 
 ### Changed $1 and Motors still Hold
 
