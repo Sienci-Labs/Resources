@@ -1,5 +1,5 @@
 ---
-title: Firmware & Flashing Test
+title: Firmware & Flashing
 menu_order: 4
 post_status: publish
 post_excerpt: See more on SLB settings and troubleshooting, especially useful on DIY CNC setups to better understand how to configure your SLB for your machine.
