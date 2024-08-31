@@ -1,7 +1,7 @@
 ---
-title: ytsb Technical Manual Test
+title: Technical Manual
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: Documentation for the SuperLongBoard, a next-generation, 32-bit control board for the LongMill and other CNC routers. Includes electrical and mechanical specs.
 post_date: 2024-04-03 16:50:00
 taxonomy:
@@ -571,7 +571,6 @@ As opposed to the ‘Flood’ output which is controlled with M8 and M9, you can
   - Turns on/off immediately with M64/65
   - To select which output to control, refer to the picture below:
   ![](/_images/_superlongboard/_manual/slb_ma_p37_P0P3.jpg){.aligncenter .size-full}
-  
   - For example, to turn on ‘Switch 1’ immediately, we’d send the command “**M64 P0**”
   - Read more here: <a href="https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65" target="_blank" rel="noopener">https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65</a>
 

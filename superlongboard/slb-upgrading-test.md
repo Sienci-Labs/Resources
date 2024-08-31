@@ -61,21 +61,29 @@ To help communicate where things are on the board, we use the terms shown below:
 Let’s start moving plugs over to the SLB!
 
 1. On your **LongMill**, hit the E-stop then unplug the power cable from the board.
-![](/_images/_superlongboard/_upgrade/slb_up_p5_Estop.jpg){.aligncenter .size-medium}
+
+   ![](/_images/_superlongboard/_upgrade/slb_up_p5_Estop.jpg){.aligncenter .size-medium}
 1. On your computer, unplug the USB cable that ran to the **LongMill**.
-![](/_images/_superlongboard/_upgrade/slb_up_p6_USB.jpg){.aligncenter .size-medium}
+
+   ![](/_images/_superlongboard/_upgrade/slb_up_p6_USB.jpg){.aligncenter .size-medium}
 1. Unplug the X, Y1, Y2, and Z connectors from your **LongMill** and plug them into the **SLB** in the same order. There aren’t any extra steps you have to do even if you have the <a href="https://sienci.com/product/vortex-rotary-axis/">Vortex</a>.
-![](/_images/_superlongboard/_upgrade/slb_up_p7_Motors.jpg){.aligncenter .size-medium}
+
+   ![](/_images/_superlongboard/_upgrade/slb_up_p7_Motors.jpg){.aligncenter .size-medium}
 1. Unplug your touch plate/probe from the **LongMill** and plug it into the **SLB**, on the **Front Side**.
-![](/_images/_superlongboard/_upgrade/slb_up_p8_Probe.jpg){.aligncenter .size-medium}
+
+   ![](/_images/_superlongboard/_upgrade/slb_up_p8_Probe.jpg){.aligncenter .size-medium}
 1. Grab the new E-stop and plug the green end into the **Front Side** of the **SLB**, then the other end into the backside of the E-stop.
-![](/_images/_superlongboard/_upgrade/slb_up_p9_Estop.jpg){.aligncenter .size-medium}
+
+   ![](/_images/_superlongboard/_upgrade/slb_up_p9_Estop.jpg){.aligncenter .size-medium}
 1. Now grab the USB-C cable that came with your **SLB** and plug it into the **Front Side** of the board. Plug the other end into your computer.
-![](/_images/_superlongboard/_upgrade/slb_up_p10_DoubleUSB.jpeg){.aligncenter .size-medium}
+
+   ![](/_images/_superlongboard/_upgrade/slb_up_p10_DoubleUSB.jpeg){.aligncenter .size-medium}
 1. On the **Back Side** of the **SLB**, plug in the power plug that we unplugged from the **LongMill** earlier.
-![](/_images/_superlongboard/_upgrade/slb_up_p11_Power.jpg){.aligncenter .size-medium}
+
+   ![](/_images/_superlongboard/_upgrade/slb_up_p11_Power.jpg){.aligncenter .size-medium}
 1. Lastly, when looking at the **Back Side** of the **SLB**, you will see a power switch. Slide it to the ‘ON’ position to power on the **SLB**. It’s Alive!!
-![](/_images/_superlongboard/_upgrade/slb_up_p12_OnOff.jpg){.aligncenter .size-medium}
+
+   ![](/_images/_superlongboard/_upgrade/slb_up_p12_OnOff.jpg){.aligncenter .size-medium}
 
 **Congratulations!** You’ve wired up your new SLB with all its typical accessories! If you still have other, slightly less common accessories to wire in, then keep reading the next section; otherwise you can move over to <a href="https://resources.sienci.com/view/slb-upgrading/#gSender">gSender</a> to connect and do some quick tests.
 
@@ -249,7 +257,8 @@ With your LaserBeam plugged into the SLB, let’s perform a quick test to make s
 
 1. Turn on your LaserBeam driver. <a href="https://resources.sienci.com/view/lb-turning-driver-on/">Go here</a> if you want to refresh your memory on how to do this. If your driver doesn’t turn on, don’t necessarily attribute this to an issue with the board right away. First double check all these conditions are met since they are sometimes easy to forget.
 1. In gSender, navigate to the Spindle/Laser tab in the Settings and toggle it on.
-![](/_images/_superlongboard/_upgrade/slb_up_p37_SpindleLaser.jpg){.aligncenter .size-full}
+
+   ![](/_images/_superlongboard/_upgrade/slb_up_p37_SpindleLaser.jpg){.aligncenter .size-full}
 
 Back on the main screen in the bottom right corner, navigate to the Spindle/Laser tab and select “SLB_LASER” in the dropdown list. After this, flip the toggle at the top to ‘Laser Mode’.
 
