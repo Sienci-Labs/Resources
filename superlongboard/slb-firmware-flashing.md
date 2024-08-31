@@ -17,6 +17,8 @@ featured_image: _images/_superlongboard/_firmware/slb_fi_p1_Connected.jpg
 
 Your board will likely ship with the latest firmware already installed, but we occasionally make updates. These updates will typically add new features to the SLB or address any discovered bugs. You may also choose to re-flash the firmware onto your board if you’ve attempted to customize it or for troubleshooting purposes.
 
+<b><span class="redText">Do not flash your SLB unless you've done it before and are absolutely sure you know what you're doing or are being guided by our team.</span></b> The flashing process can be touchy the first time, so if you're having problems then please contact our team first otherwise be prepared to accept a regretful outcome.
+
 Before getting started, check what your current version is by going to the ‘Console’ of your g-code sender and send the command “$i”. The result will be a long list of text in square brackets. If you scroll down to about the 9th line you’ll see something like “[BOARD:” where you’ll also see the version number at the end. Compare this to the version list below to see which one you’d like to flash:
 
 - <a href="https://drive.google.com/file/d/1OkQO__QnYzhPuF42d4AN5KY_MbVRJlqy/view?usp=drive_link" target="_blank" rel="noopener">5.0.3</a>: firmware shipped with original batch of SLBs
@@ -35,22 +37,29 @@ To successfully flash new firmware onto your SLB, you’ll need:
 1. Have separately noted down any **firmware settings** that are particular to your machine setup like for limit switches, macros, etc. New firmware can sometimes override existing settings so having a list can help you double check if you need to make any manual tweaks afterwards.
 1. For your safety, if there are any accessories that receive a control signal from the SLB, **turn their power off** just in case the flashing process inadvertently sends control signals to those accessories. This would be unsafe to have a spindle or laser power on when you don’t expect it to. You can turn these back on after flashing is complete.
 
-You can choose to either use gSender or the STM Cube Programmer software to update your SLB, the steps for either option are below. If you find yourself getting stuck in the process and are on a Windows computer, see also the <a href="#windows-driver-update">driver section</a>.
+You can choose to either use gSender or the STM Cube Programmer software to update your SLB, the steps for either option are below:
 
 ### gSender Flashing
 
 1. Be connected to your SLB over USB with the power on, ensure the firmware selected is “grblHAL” not “grbl”
-![](/_images/_superlongboard/_firmware/slb_fi_p1_Connected.jpg){.aligncenter .size-medium}
+
+   ![](/_images/_superlongboard/_firmware/slb_fi_p1_Connected.jpg){.aligncenter .size-medium}
 1. Go to the ‘Firmware’ tool and click the “Flash grblHAL” button
-![](/_images/_superlongboard/_firmware/slb_fi_p2_FlashgrblHAL.jpg){.aligncenter .size-medium}
+
+   ![](/_images/_superlongboard/_firmware/slb_fi_p2_FlashgrblHAL.jpg){.aligncenter .size-medium}
 1. Ensure the COM port is correct (matches the board you’re connected to)
 1. Click ‘Choose File’ to select the “.hex” firmware file you plan to update to, in the picture below it’s the 5.0.7 firmware
-1. Click ‘Yes’ to begin the flashing process
-![](/_images/_superlongboard/_firmware/slb_fi_p3_Choose.jpg){.aligncenter .size-medium}
+1. Click ‘Yes’ to begin the flashing process. If it stops before 100% and you see an error for:
+   - "LIBUSB_ERROR_NOT_SUPPORTED", you'll need to <a href="#windows-driver-update">update your Windows driver</a>
+   - "Unable to find valid device", you might have <a href="#bad-driver-install">installed your Windows drivers incorrectly</a>
+
+   ![](/_images/_superlongboard/_firmware/slb_fi_p3_Choose.jpg){.aligncenter .size-medium}
 1. Once you see the loading bar at 100%, flashing is complete. Exit out of the firmware window and switch off the board with the power switch at the back then turn it back on again.
-![](/_images/_superlongboard/_firmware/slb_fi_p4_Flashing.jpg){.aligncenter .size-medium}
+
+   ![](/_images/_superlongboard/_firmware/slb_fi_p4_Flashing.jpg){.aligncenter .size-medium}
 1. Once it’s back on, you should be able to re-connect to it in gSender. Go to the ‘Console’ tab and send the command “$rst=$” to revert your machine back to the default firmware settings.
-![](/_images/_superlongboard/_firmware/slb_fi_p5_ConsoleRST.jpg){.aligncenter .size-medium}
+
+   ![](/_images/_superlongboard/_firmware/slb_fi_p5_ConsoleRST.jpg){.aligncenter .size-medium}
 1. Power the board off and then back on one more time after sending the command. Finally, if you had any specific settings from your previous setup that you want to check or reload, connect back to gSender and change those firmware values back. Remember to hit “Apply New Settings” when you’re doing this and ensure that the settings are being re-added correctly, if they don’t seem to be sticking then make sure that your SLB is in an ‘Idle’ state, cleared of all Alarms, and try turning the SLB off and back on again.
 
 Congrats are in order, well done! If you go back to the ‘Console’ you should now see that sending the “$i” command will give you new text that matches up with the update you’ve made.
@@ -79,7 +88,7 @@ Download the software from here (we recommend version 2.15.0): <a href="https://
 
 ### Windows Driver Update
 
-If you’re failing to update your SLBs firmware and see the message “Error: LIBUSB_ERROR_NOT_SUPPORTED”, this stems from the sometimes problematic way that Windows handles USB devices. This isn’t a problem for Linux or Mac systems, but if your Windows computer is having this issue it can still be fixed by overriding the wrong driver it’s using with the correct one.
+If you’re failing to update your SLBs firmware and see the message “**Error: LIBUSB_ERROR_NOT_SUPPORTED**”, this stems from the sometimes problematic way that Windows handles USB devices. This isn’t a problem for Linux or Mac systems, but if your Windows computer is having this issue it can still be fixed by overriding the wrong driver it’s using with the correct one.
 
 To do this we’ll use a program called Zadig. The program is only needed to make the fix, which should permanently fix SLB flashing issues:
 
@@ -93,6 +102,20 @@ To do this we’ll use a program called Zadig. The program is only needed to mak
 1. Make sure that “WinUSB” is the selected driver type.
 1. Click the “Replace Driver” button and wait for the operation to complete.
 1. Power cycle the board to exit DFU mode, then give flashing another shot. If you followed all the steps you should now be able to change and update your SLBs firmware now!
+
+#### Bad Driver Install
+
+If you got the error message "**Unable to find valid device using vendor ID and product ID**" and you just fixed your Windows drivers then that means you made a mistake in the driver update steps. If you weren't messing with drivers, then just ensure your SLB is getting into DFU mode by typing "$dfu" into a g-code sender console or using the pin short method shown in the [STM Cube Flashing section](#stm-cube-flashing).
+
+To fix the Windows driver:
+
+1. Open "**Device Manager**" in your Windows start menu
+![](/_images/_gsender/_issues/gs_is_cm_device-manager.png){.aligncenter .size-medium}
+1. Look under the "**Ports**" or "**Universal Serial Bus**" headings for the SLB which should include "STM32" in the name
+![](/_images/_superlongboard/_firmware/slb_fi_p9_stm32-device.png){.aligncenter .size-full .nar}
+1. Right-click  ➜ Uninstall device, then power cycle the board
+1. Once powered back up and reconnected, the SLB should reappear looking more normal. With this done, you can try flashing again - or if Windows still didn't install the correct driver then go through the [Windows Driver Update](#windows-driver-update) again.
+![](/_images/_superlongboard/_firmware/slb_fi_p10_stm32-reset.png){.aligncenter .size-full .nar}
 
 ## Settings Descriptions
 

@@ -29,7 +29,7 @@ Download UGS Platform here: <a href="http://bit.ly/1DkClRW">http://bit.ly/1DkClR
 
 There are a few other choices in g-code sending software that we can recommend once you're comfortable with UGS.
 
-<h3 class="watch-title-container"><b><a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener"><span id="eow-title" class="watch-title" dir="ltr" title="Universal G-code Sender Plugin for Fusion 360">Fusion 360</span></a> UGS Plugin (Optional)</b>
+### <a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener">Fusion 360</a> UGS Plugin (Optional)
 
 This open-source plugin has been under development for a while. Now you can integrate Universal G-code Sender straight into Fusion 360! Check out the <a href="https://www.youtube.com/watch?v=Y7n3THx3L8Q" target="_blank" rel="noopener">great instructional video for how to download and integrate the plugin</a> and let us know what you think.
 

@@ -19,7 +19,9 @@ When making g-code for any CNC machine, there will come a time where you'll clic
 
 This is where post processing comes in. A 'post processor' is simply a set of rules that can be followed to add tweaks to the main g-code and ensure it'll work for particular machines. If the post processor isn't selected or set up correctly this will usually result in errors, stalls, or unexpected behaviour while running your jobs.
 
-To help out, we've put together a simple table which shows popular CAM programs and their LongMill-compatible post processors. Some CAM programs may not have post processor options since they're already designed for hobby CNC use:
+To help out, we've put together a simple table which shows popular CAM programs and their LongMill-compatible post processors. Some CAM programs may not have post processor options since they're already designed for hobby CNC use.
+
+**Note that**: even if you design in inches, you'll usually want to export files in **millimeters** since CNCs are most comfortable with those
 
 [su_table responsive="yes"]
 <table>
@@ -30,11 +32,11 @@ To help out, we've put together a simple table which shows popular CAM programs 
 </tr>
 <tr>
 <td>Vectric Cut2D, Vectric VCarve, Vectric Aspire</td>
-<td>grbl (in) or grbl (mm)</td>
+<td>grbl (mm)</td>
 </tr>
 <tr>
 <td>Carveco Maker, Carveco Maker+</td>
-<td>grbl (in) or grbl (mm)</td>
+<td>grbl (mm)</td>
 </tr>
 <tr>
 <td>Fusion 360</td>
@@ -58,7 +60,7 @@ To help out, we've put together a simple table which shows popular CAM programs 
 </tr>
 <tr>
 <td>FreeCAD</td>
-<td>grbl (in) or grbl (mm)</td>
+<td>grbl (mm)</td>
 </tr>
 <tr>
 <td>BobCAD/CAM</td>
@@ -66,7 +68,7 @@ To help out, we've put together a simple table which shows popular CAM programs 
 </tr>
 <tr>
 <td>Inventor CAM</td>
-<td>grbl (in) or grbl (mm)</td>
+<td>grbl (mm)</td>
 </tr>
 </tbody>
 </table>
