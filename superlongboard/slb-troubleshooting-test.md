@@ -12,7 +12,7 @@ custom_fields:
     KBName: SuperLongBoard
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_superlongboard/_troubleshooting/slb_trouble_p1.jpg
+featured_image: _images/_superlongboard/slb_slb-leds.jpg
 ---
 
 If you're having any issues with your SLB, whether that's understanding its settings or diagnosing a regular problem, you'll likely find your solution here. This includes:
@@ -81,7 +81,7 @@ There are several other small ‘status’ lights you’ll notice as you look ar
 
 This is a list of all the lights and how they function:
 
-![](/_images/_superlongboard/_troubleshooting/slb_trouble_p1.jpg){.aligncenter .size-medium}
+![](/_images/_superlongboard/slb_slb-leds.jpg){.aligncenter .size-medium}
 
 **NOTE:** only LEDs set up for ‘inputs’ like limit switches and E-stop buttons need the hardware to be hooked up to confirm an incoming signal. Otherwise, LEDs for ‘outputs’ like PWM or motor signals will still turn on and off without needing to hook up the components.
 

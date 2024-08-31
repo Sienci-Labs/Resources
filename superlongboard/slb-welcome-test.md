@@ -12,7 +12,7 @@ custom_fields:
     KBName: SuperLongBoard
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_superlongboard/_welcome/slb_welcome_p1_SLBoard.jpg
+featured_image: _images/_superlongboard/slb_slb-top.jpg
 ---
 
 Hello and welcome!
@@ -67,7 +67,7 @@ We're continuing to add more information to documentation on the SLB including m
 
 If you're still needing some extra support with your new SLB, you can always contact us directly at <a href="mailto:support@sienci.com">support@sienci.com</a>.
 
-![](/_images/_superlongboard/_welcome/slb_welcome_p6_SLBMounted.jpg){.aligncenter .size-medium}
+![](/_images/_superlongboard/slb_slb-mounted.jpg){.aligncenter .size-medium}
 
 ## FAQ
 

@@ -12,7 +12,7 @@ custom_fields:
     KBName: SuperLongBoard
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_superlongboard/_techmanual/slb_techmanual_p1_Board.jpg
+featured_image: _images/_superlongboard/_manual/slb_ma_p1_Board.jpg
 ---
 
 [basepress-notice style="default"]If there's any extra information you'd like to see regarding the SLBs specs, just let us know and we'll work to add it 👍[/basepress-notice]
@@ -21,7 +21,7 @@ This document is the “SLB bible” for any of the ‘raw’ answers you might 
 
 You’ll find that the SLB builds a lot onto our original LongBoard while maintaining a lot of the familiar behaviour and features. If you find any holes in this documentation, brush up on the original LongBoard documentation here: <a href="https://resources.sienci.com/view/lmk2-LongBoard-details/">https://resources.sienci.com/view/lmk2-longboard-details/</a>. Learn more about the latest updates on Beta testing and board developments on our company Blog or SLB page: <a href="https://sienci.com/product/slb/">https://sienci.com/product/slb/</a>
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p1_Board.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p1_Board.jpg){.aligncenter .size-full}
 
 ### Features List
 
@@ -47,16 +47,16 @@ Comparing the SLB to our Original LongBoard and to other controllers on the mark
 
 The SuperLongBoard is a typical PCB with a roughly 210 x 100 x 20mm (8.3x4x0.8”) footprint, not including plug stick-out on the short ends. It’s designed to either fit inside its enclosure, accommodate up to 4mm of edge mounting on the long side, or mount via 4 standoffs.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p2_DrawBoard.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p2_DrawBoard.jpg){.aligncenter .size-full}
 
 The enclosure has a rough size of 215 x 112 x 50mm (8.5x4.4x2”) not including the 16mm (0.63”) flanges on the short ends. These flanges allow it to be mounted to any flat surface either horizontally or vertically as pictured. The backside of the enclosure also has a feature to fit a bracket which allows the SLB to mount to the Y-axis rail of any LongMill MK2 CNC.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p3_SLBCase.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p3_SLBCase.jpg){.aligncenter .size-full}
 
 The enclosure has been designed with reasonable consideration for dust penetration, but if you are a more cautious person you can feel free to mount the box further away from your CNC. When placing your SLB on its own or among other CNC control electronics, consider that most wires are designed to route out the backside of the enclosure with the exception of a handful of more typically accessible plugs on its front like the E-stop and USB-C. For more information on mounting the enclosure see the section on <a href="#enclosure-mounting">Enclosure Mounting</a>.
 <p style="text-align: center;"><em><b>Note</b>: for the rest of the docs the typical naming orientation for the SLB is shown below</em></p>
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p4_TopBottom.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p4_TopBottom.jpg){.aligncenter .size-full}
 
 ### Software
 
@@ -84,15 +84,15 @@ The SLB accepts the same or similar input and output plugs as our original LongB
 
 Some of the connectors are inside the enclosure so you’ll need to remove the cover to access them. To remove the cover, unscrew the top-right thumbscrew a couple turns (pictured) then slide the cover to the right. Once the hole in the cover lines up, you’ll be able to pull the top of the cover towards you and it will come free.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p5_Open.png){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p5_Open.png){.aligncenter .size-full}
 
 Route all the wires from inside the enclosure through the two cable guides at the back so you can close the lid again. The smaller, bottom one is meant to snugly fit all the motor cables, while the remaining cables should all fit into the larger, upper opening. These cable guides will keep all your wires in place when you’re accessing the inside.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p6_WiresMotor.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p6_WiresMotor.jpg){.aligncenter .size-full}
 
 Here’s a general wiring ‘map’ you can use as a reference to start hooking things up. It covers the full scope of plugs and features that the SLB currently supports. Go <a href="#connectors-list">here for the full list of connectors</a>.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p7_ColourQuads.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p7_ColourQuads.jpg){.aligncenter .size-full}
 
 [su_table responsive="yes" fixed="yes"]
 <table>
@@ -162,7 +162,7 @@ Otherwise, the SLB needs a 24V 10A power supply to run all stepper motors at rat
    - **E-stop** pin on the bottom left to act as an override if the main E-stop switch is broken
    - **Reset pin** on the top right to quickly power-cycle the board
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p8_PowerEstop.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p8_PowerEstop.jpg){.aligncenter .size-full}
 
 A good rule of thumb is to **have the power switch ‘Off’** (slide it UP to be in the OFF position) whenever you plug or unplug the power cable. **MAKE SURE** the polarity of the power supply connector is correct before plugging it in (red/+ on top and black/- on the bottom, Sienci power supplies should already be correctly wired).
 
@@ -170,7 +170,7 @@ Once the SLB is powered up, press down on the E-stop to engage it and twist it c
 
 Since each SLB comes with an E-stop and pre-made wiring, you’ll only need to reference the diagram above if you want to make a custom setup or for troubleshooting. If you accidentally plug the E-stop cable into the Ethernet port, this shouldn’t cause any damage to your SLB.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p9_EStopButts.jpg){.aligncenter .size-medium}
+![](/_images/_superlongboard/_manual/slb_ma_p9_EStopButts.jpg){.aligncenter .size-medium}
 
 If you want to set up the custom action buttons for your E-stop now, jump forward to the <a href="#action-buttons">Action Buttons</a> section :)
 
@@ -178,13 +178,13 @@ If you want to set up the custom action buttons for your E-stop now, jump forwar
 
 The SLB offers USB-C as well as Ethernet as a way to connect your CNC to your computer. Both are isolated for noise, with larger data buffers, and should provide a reliable connection. Though Ethernet is generally considered to be more reliable, we worked hard on a robust USB interface with far more data checks and signal isolation to match a typical Ethernet setup. This means you can use either, but USB-C is more beginner friendly and at the minimum a USB-C connection is needed to perform the initial board setup. If you want to place your computer further away from your machine or feel that the USB is still occasionally causing you issues then we'd recommend switching over to Ethernet.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p10_RedBoxes.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p10_RedBoxes.jpg){.aligncenter .size-full}
 
 The SLB needs to be powered via 12-24V and turned on for you to be able to make any USB or Ethernet connection.
 
 To connect over USB, plug the cable into the front of the control box and into an available USB port on your computer, then refresh the USB list in gSender or ioSender, click the new device, and connect. Ensure that the USB cable you use is capable of data transfer and not just charging. You should see the light near the USB port turn on to confirm a connection (not working on current boards). If in gSender it doesn’t connect, make sure you’ve selected ‘grblHAL’ in the dropdown.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p11_PowerPlug.png "Plug the USB-C cable into the front"){.aligncenter .size-medium}
+![](/_images/_superlongboard/_manual/slb_ma_p11_PowerPlug.png "Plug the USB-C cable into the front"){.aligncenter .size-medium}
 
 To connect over Ethernet, you'll need:
 
@@ -193,30 +193,30 @@ To connect over Ethernet, you'll need:
 - A device with a free Ethernet port that can also run the g-code sender
   - If your computer only has one Ethernet port and it’s already used, you can try picking up a USB to Ethernet dongle or adding an additional Ethernet card. You don’t need anything fancy since the SLB only needs 1-2 Mbps of bandwidth to run. If you use the dongle, the USB side will plug into your computer, and the Ethernet side will connect an Ethernet cable that you’ll run to the SLB.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p12_USB.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p12_USB.jpg){.aligncenter .size-full}
 
 Keep in mind that setting up Ethernet is a bit more involved, and at the time of SLB launch we’ll be primarily aiming to support direct Ethernet communication from a computer to the SLB; not sending over a network. Also the SLBs STM32 chip isn't capable of supporting firmware flashing over Ethernet so keep the USB-C cable handy if you need to do any future updates or recover from a board reset.
 
 #### Ethernet on Windows
 
 1. To start, connect to your CNC over USB to note down the EEPROM values set for the IP address and Netmask (302 and 304). The defaults should be IP:192.168.5.1 and Netmask:255.255.255.0 with the IP mode set to 'static'.
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p13_IPMode.jpg){.aligncenter .size-full .nar}
+![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode.jpg){.aligncenter .size-full .nar}
 
 1. Once confirmed, you can unplug your USB and connect the Ethernet cable directly from your PC to your board. If you look where you plugged the Ethernet cable into the SLBs port from the outside, you should see a green light on and a flickering yellow light.
 
 1. You’ll need to configure the PC’s Ethernet interface. Open network connections to get a list of Ethernet ports.
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p14_TCP.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p14_TCP.jpg){.aligncenter .size-full}
 
 1. Right click your Ethernet port and go to Properties and then find the “Internet Protocol Version 4 (TCP/IPv4)” entry and open its properties.
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p15_IP.jpg){.aligncenter .size-full .nar}
+![](/_images/_superlongboard/_manual/slb_ma_p15_IP.jpg){.aligncenter .size-full .nar}
 
 1. Select the “Use the following IP address:” option and configure it as above. You want the subnet mask to be the same value from the EEPROM 'Netmask'. The IP address should have a different last digit on the same mask - so if the board is device 1 (192.168.5.1), you could call your PC device 5 (192.168.5.5). Click “OK” to save and close the options.
 
 1. Back in gSenders general Settings, make sure the IP Range matches the IP from the EEPROM.
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p16_EEPROM.jpg){.aligncenter .size-full .nar}
+![](/_images/_superlongboard/_manual/slb_ma_p16_EEPROM.jpg){.aligncenter .size-full .nar}
 
 1. With the grblHAL firmware selected, choose the ‘Network Devices’ option and you should see it connect successfully :)
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p17_Connected.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p17_Connected.jpg){.aligncenter .size-full}
 
 1. If you have a problem connecting with Ethernet, go back over the setup steps. You can also reconnect over USB to double-check your SLB Ethernet settings.
 
@@ -224,7 +224,7 @@ Keep in mind that setting up Ethernet is a bit more involved, and at the time of
 
 The board comes with 4 onboard stepper motor drivers so you can plug a typical XYYZ CNC router straight in. We recommend putting the left side motor on Y1 and the right side motor on Y2. If you ever need to swap cables around, grabbing the connectors by their sides and wiggling back and forth helps them pop back off easily.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p18_MotorsPlugs.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p18_MotorsPlugs.jpg){.aligncenter .size-full}
 
 The TMC2660C motor drivers are capable of 2800mA RMS and should allow for faster speeds than the previous LongBoard's TB6600 drivers due to their higher efficiency which also means the machine runs quieter. Though they can all run independently (allowing Y-axis auto-squaring in the future), the two Y-axes are currently running ‘mirrored’.
 
@@ -259,7 +259,7 @@ Useful in cases of:
 
 We’ve found that a minimum of 15% works for lead screw-driven CNCs. These hold current settings will also apply even if $37 is off when the machine is cutting but that axis isn’t moving. Note that these settings won’t work for an A-axis since that would typically be done using the DIP switches on the external motor driver.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p19_Steppers.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p19_Steppers.jpg){.aligncenter .size-full}
 
 ### Touch Plate/Probe
 
@@ -267,11 +267,11 @@ Connect your touch plate or probe here. Any Sienci touch plate and many 3rd-part
 
 If your touch plate has a third pin for power, consider wiring it to the <a href="#tls">TLS input at the back of the board</a> instead just to make hookup easier. If you plan to use both the TLS and a 3-pin touch plate, then you can pick up 24V from the E-stop plug or 5V from the Ring LED plug. VCC from the AUX Limit Switch Plus is also typically available.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p20_EstopPlug.jpg "Touch plate cable goes in the front, above the E-stop cables"){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p20_EstopPlug.jpg "Touch plate cable goes in the front, above the E-stop cables"){.aligncenter .size-full}
 
 If you want to check continuity, tapping the touch plate and magnet together should turn on the yellow ‘PRB’ LED near the touch plate connector. For a NC probe this behaviour will be inverted.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p21_GIF.gif){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p21_GIF.gif){.aligncenter .size-full}
 
 You should find that probing with the SLB is faster due to its 32-bit processor, speeding up cycle times for zeroing and tool changing. You might also find that the touches are so much more sensitive that you don’t need to hold the touch plate in place anymore. Otherwise, all other aspects of probing should follow what you're familiar with.
 
@@ -289,7 +289,7 @@ A new and simple way to know your CNC status at a glance or from a distance. Hoo
 
 <p style="text-align: center;"><em><b>Note:</b> if you ever see the light change from green to white during a job, this is normal and can happen during G4 dwells or when changing spindle speeds.</em></p>
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p22_Status.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p22_Status.jpg){.aligncenter .size-full}
 
 There are also plenty of other status lights on the board for the purpose of troubleshooting, go <a href="https://resources.sienci.com/view/slb-troubleshooting/#troubleshooting-lights">HERE</a> to see what they all do.
 
@@ -298,13 +298,13 @@ There are also plenty of other status lights on the board for the purpose of tro
 See below for more options on LED accessories! If you're buying your own LEDs make sure the wires don't say "R, G, B" on them and also make sure you don't buy the 4-wire type or a strip that already has a colour controller built-in. Instead search for "neopixel" style RGB LEDs which always have 3 wires for power, signal, and ground. If you don't want different colours and **just want your LEDs to turn on and off**, instead consider using the SLBs <a href="https://resources.sienci.com/view/slb-manual/#switch-amp-aux-power">AUX Power outputs</a>.
 
 - The top “**Ring**” plug is a second, unique RGB LED output that we recommend you only power up to 20 external LEDs. These could be mounted near the Router head to illuminate your cutting area or somewhere else that you don’t need a lot of light output.
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p23_RingStrip.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p23_RingStrip.jpg){.aligncenter .size-full}
 - The bottom “**Rail**” plug extends from the on-board light to run a much longer LED strip using an external 5-24V, max 3A power supply (denoted **LED PWR**). You could mount this strip under your CNCs X or Y-axis rails or use multiple strips to light up your whole enclosure.
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p24_RGBLED.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p24_RGBLED.jpg){.aligncenter .size-full}
 
 The wiring for both of these is the same and is written on the board: power, signal, ground (left-to-right). The plug is a standard ‘JST XH 2.54 3-Pin Female Connector’ which should be very common to find. ‘Dupont 2.54 Wire Female’ connectors could also work as single or 3-pin form which are also very ubiquitous and tend to be included with many beginner electronic kits (shown respectively).
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p25_PlugEnds.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p25_PlugEnds.jpg){.aligncenter .size-full}
 
 Once you're done wiring up, update the $664 (ring) or $665 (rail) firmware settings for the number of LEDs you've plugged in and power-cycle the board for the changes to take effect. Enjoy your new pizazz! A member of our community, Jim, also made his own LED write-up if you'd like to check that out too: <a href="https://resources.sienci.com/wp-content/uploads/2024/04/Jims-SLB-Rail-LED-Guide.pdf" target="_blank" rel="noopener">Jim's SLB Rail LED Guide (PDF)</a>
 
@@ -345,7 +345,7 @@ Any common limit switch is supported on the SLB: **NC** (normally closed) and **
 
 Dual Y homing will be available in the future, but for now do NOT use the Y2 limit switch plug.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p26_LimitBoard.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p26_LimitBoard.jpg){.aligncenter .size-full}
 
 If you’re looking for advice on how to ensure you have reliable sensing:
 
@@ -358,7 +358,7 @@ If you’re looking for advice on how to ensure you have reliable sensing:
 
 Using the big green connector is the same as using the smaller white JST connectors, they are connected to each other on the board so it doesn’t matter which one you use. The terminal pinouts are 5V, X, Y1, Y2, Z, A, GND going left to right, and the JSTs are 5V, GND, N/A, LIM going top to bottom. The most common custom setup is shown below (**NC switches or NPN sensors wired to the green connector**).
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p27_LSWiring.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p27_LSWiring.jpg){.aligncenter .size-full}
 
 If you want to wire for a different setup, see below for other wiring variations:
 
@@ -366,21 +366,21 @@ If you want to wire for a different setup, see below for other wiring variations
 - NO, NO with hard-stops
 - NPN (already shown above), and NPN with hard-stops
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p28_NCNO.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p28_NCNO.jpg){.aligncenter .size-full}
 
 If you’d like to use the white JST connectors instead, the wiring pinouts are below for both mechanical switches and inductive sensors. Note that all plug outputs can also be changed to throughput 24V if needed by breaking the 0Ω resistor on R9 and creating a solder bridge across R10 (outlined in red in the middle of the first homing picture).
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p29_WCPins.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p29_WCPins.jpg){.aligncenter .size-full}
 
 <b>Homing &amp; Limits Setup</b>
 
 If you’ve set up your own NC sensors (not from Sienci), the first thing you’ll want to do is invert all the limit pins for $5 like shown below.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p30_InvertLP.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p30_InvertLP.jpg){.aligncenter .size-full}
 
 On top of the typical settings that the original LongBoard has when it comes to homing like homing speed and direction, the SLB brings along some new options that you can configure. If you'd like to match the SLB behaviour to the typical LongMill/grbl setup, then we'd recommend you enable all the settings shown in the picture (homing on startup, set machine origin to 0, and override locks), otherwise learn about all the settings in the table below.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p31_HomingFirm.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p31_HomingFirm.jpg){.aligncenter .size-full}
 
 [su_table responsive="yes" fixed="yes"]
 <table>
@@ -440,7 +440,7 @@ If you have a Laser diode accessory for your CNC connect it here. Use the top, t
 
 **Warning:** lasers are very dangerous devices that can instantly damage your vision and cause fires. Become knowledgeable on staying safe by reading documentation by your laser manufacturer, the SLB, how<a href="https://github.com/gnea/grbl/blob/master/doc/markdown/laser_mode.md"> laser mode in grbl</a> and grblHAL works, and how your g-code sender handles laser commands. Even then do not become complacent; continue to treat your laser with caution and respect and turn off power completely to the laser driver when you’re not using it. You can never be sure when the laser might fire unexpectedly and hobby equipment and software can be imperfect. If you have the driver turned on, everyone around should always be wearing eye protection and there should also be clear warning or signage to protect others.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p32_Laser.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p32_Laser.jpg){.aligncenter .size-full}
 
 When you mount your laser driver board and electronics, you’ll likely want to stick to whatever your manufacturer recommends. This will probably be in a more secluded spot away from dust and vibrations, since laser electronics tend to be more sensitive and require more air cooling.
 
@@ -458,7 +458,7 @@ The laser isn’t set as the default for safety reasons, but further down is inf
 
 You can only control one at a time, so to select which one you’d like to control you can use the dropdown selector in gSender or use the selection commands. This selection will also apply when you send manual spindle commands in other ways like the console.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p33_gSenderLaser.png){.aligncenter .size-medium}
+![](/_images/_superlongboard/_manual/slb_ma_p33_gSenderLaser.png){.aligncenter .size-medium}
 
 For other g-code senders, you’ll need to use the selection commands:
 
@@ -542,7 +542,7 @@ There are also a handful of more advanced pre-made actions such as:
 
 This is where you can get fancy; levelling up your CNC by controlling more accessories to create your own custom setup. Control IOT relays, power relays or solenoids, switch on even more LED strips, and more! This takes the form of 5 plugs: Flood, Switch 1 and 2, and Auxiliary Power 1 and 2 (going left-to-right, ‘+’ then ‘-’). These are all 2-pin plugs that either output a voltage or can switch power through them like a low-power relay.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p34_AccOut.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p34_AccOut.jpg){.aligncenter .size-full}
 
 #### Flood
 
@@ -557,9 +557,9 @@ Read more about setting up an IOT Relay here: <a href="https://resources.sienci.
 These outputs are far more powerful and customizable than Flood:
 
 - **Switch 1 and Switch 2 outputs** are like electrical switches that you can use to ‘switch on’ any external circuits up to **24V 1A**. This means you’ll need to provide an additional power supply separately to the circuit. Think of these like a mini version of a relay, known as a MOSFET.
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p35_S1S2.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p35_S1S2.jpg){.aligncenter .size-full}
 - **Auxiliary Power outputs 1 and 2** can be used to provide **24V** to any powered accessory like a relay, SSR, solenoid for a mister or ATC, or LED strip; up to **250mA** per plug. This can be more convenient for powering less power-hungry components since the power comes straight from the SLB. It also makes more sense if you plan to then use an SSR to switch an air pump, dust collector motor, or spindle water cooling pump on and off.
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p36_AO12.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p36_AO12.jpg){.aligncenter .size-full}
 
 As opposed to the ‘Flood’ output which is controlled with M8 and M9, you can also customize what M commands will turn each of these outputs on and off in EEPROM. If you go to the ‘Firmware’ tool, you’ll see that $456-459 give you 4 options to choose from:
 
@@ -570,7 +570,7 @@ As opposed to the ‘Flood’ output which is controlled with M8 and M9, you can
   - Turns on/off with M62/63, but waits in line before running
   - Turns on/off immediately with M64/65
   - To select which output to control, refer to the picture below:
-  ![](/_images/_superlongboard/_techmanual/slb_techmanual_p37_P0P3.jpg){.aligncenter .size-full}
+  ![](/_images/_superlongboard/_manual/slb_ma_p37_P0P3.jpg){.aligncenter .size-full}
   - For example, to turn on ‘Switch 1’ immediately, we’d send the command “**M64 P0**”
   - Read more here: <a href="https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65" target="_blank" rel="noopener">https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65</a>
 
@@ -588,7 +588,7 @@ If you opted for an out-of-the box experience by picking up a <a href="https://s
 
 **Note**: currently the SLB doesn’t support SaS (‘Spindle-at-Speed’, a signal that some VFDs can send back to the board so that the board can wait for the spindle to speed up before starting the cutting process).
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p38_RS485.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p38_RS485.jpg){.aligncenter .size-full}
 
 #### Safety and AC Wiring
 
@@ -605,10 +605,10 @@ If you have any inquiries or questions, please direct them to the **manufacturer
 
 1. Ensure mains power is connected to your spindle VFD with appropriate wire gauge (recommended #14 to #12, rating should be printed on cable). The VFD should have 3 input terminals (R, S, T or L,N) and a Ground/Earth hookup (indicated by a ground symbol, metal plate, and sometimes red wax on the screw) where for 110V Hot (black) is connected to R or L, Neutral (white) to S or N, and Ground (green or yellow+green) to Ground. If you have 220v, the second Hot goes to T.
 1. The wire from the VFD to the spindle should be well-shielded to help reduce issues with EMI. Typically the VFD will have 3 output terminals (U, V, W) that connect to pins 1, 2, and 3 respectively on the spindle. The 4th pin should be grounded to the spindle body, through to the VFD ground, or you can run your own separate wire if you’d like.
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p39_VFDWire.jpg){.aligncenter .size-medium}
+![](/_images/_superlongboard/_manual/slb_ma_p39_VFDWire.jpg){.aligncenter .size-medium}
 
 1. **If your spindle came pre-wired, you can likely skip to this step.** You’ll want to make sure the spindle and VFD work exactly as expected when controlled manually using the panel on the VFD. This includes: start, stop, forward, reverse, and controlling speed. ‘Forwards’ should make the spindle turn clockwise when looking at it from above, if this isn’t the case then swap the U and V wires on the VFD.
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p40_SpindleDir.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p40_SpindleDir.jpg){.aligncenter .size-full}
 
 #### VFD Settings
 
@@ -651,7 +651,7 @@ For RS485, you can use EITHER the 4-pin connector with B, A, 5V, and GND (left-t
 
 **Note:** if the VFD has a jumper to swap from controlling the spindle with the panel to using the wire signals, change this over. In the example below it’s the left 2 pins and called “VI”.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p41_PlugsVFD.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p41_PlugsVFD.jpg){.aligncenter .size-full}
 
 #### 5V PWM Hookup
 
@@ -661,7 +661,7 @@ Some VFDs don’t accept 5V PWM, in which case you can either try setting up RS4
 
 **Note:** if the VFD has a jumper to swap from controlling the spindle with the panel to using the wire signals, change this over. In the example below it’s the left 2 pins and called “VI”.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p42_TermPlug.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p42_TermPlug.jpg){.aligncenter .size-full}
 
 #### SLB Spindle Settings
 
@@ -707,13 +707,13 @@ Modbus over RS485 is also a much more ubiquitous communication protocol used in 
 
 Short for “Tool Length Sensor”, this is a very common accessory for slightly more fancy CNC routers. Mounted somewhere the CNC can reach, they’re used as a reliable place to go to re-zero the Z-axis on jobs that require multiple tools/ tool changes. This is also handy when your original Z zero is lost because the material is cut away, a perk over a standard Touch Plate. TLSs are typically NC (normally closed) switches so that if the wire gets cut the machine doesn’t crash into the sensor. The TLS output on the SLB also provides 5V power for powered TLSs, the wire order being power, signal, gnd (top-to-bottom).
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p43_TLSBoard.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p43_TLSBoard.jpg){.aligncenter .size-full}
 
 If your TLS is wired correctly, you should be able to press it and see the “TLS” status light toggle on or off (either is fine, on is NO, off is NC). If you’re unsure with your wiring or your TLS has more than 3 wires, you can use a multimeter and check any two wires until you find a set that contact or open when pressed and those will be the ones you use for the signal and gnd; the third might be power. If you have 4 wires your TLS might have 2 switches, one that triggers when pressed down just a bit then the next one pressed in case of over travel. This would typically trigger an E-stop or Pause but you only really have to use the one that triggers first.
 
 Lastly, check in your g-code sender if the TLS signal is set up correctly. This signal is shared with the touch plate, so activating either of them should be recognized. The SLBs defaults expect NO to not cause confusion for non-TLS owners. If the signal is on and only turns off when the TLS is pressed, then go to the $668 firmware setting and toggle it to the opposite of what it was set to:
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p44_TLSInput.png){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p44_TLSInput.png){.aligncenter .size-full}
 
 ### Rotary Axis
 
@@ -750,7 +750,7 @@ This takes the form of two independent plugs labelled for an “A-axis”, where
 
 This is the most complex to set up, not just because of the custom wiring involved but because we also currently don’t have many recommendations when it comes to making 4th axis toolpaths easily or without having to pay for expensive options. There are some things that we’ve tried to work well though like Snapmaker’s Luban software. We’ll update this section with more once we have more to recommend.We’ll also look into offering a pre-made wiring loom and driver kit to purchase in the future. For now most motor drivers on the market will do like a **DM542** or **TB6600** but use your best judgement and be mindful of who you buy from.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p45_4thAxis.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p45_4thAxis.jpg){.aligncenter .size-full}
 
 #### Driver Wiring
 
@@ -767,9 +767,9 @@ Below we’ve illustrated two examples that you can use to better understand how
 - GD goes to the Driver ground pins like DIR-, PUL-, etc.
 - AL- likely won’t be supported by your driver, but is an active-low alarm signal for the motor driver to tell the board if something has gone wrong similar to the E-stop
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p46_TB6600.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p46_TB6600.jpg){.aligncenter .size-full}
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p47_DM542.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p47_DM542.jpg){.aligncenter .size-full}
 
 Once the wiring is complete, in your g-code sender check that the rotary is moving at the speed, distance, and direction you’d expect and that the limit switch is working if you have one. If there’s anything wrong you’ll want to check your typical A-axis settings for **movement** ($2, 3, 4, 37, 103, 113, 123, 133, and 376) and for **homing/limits** ($5, 18, 23, 44, 45, and 46). Note that some settings like $143, 153, 183, 193, 203, 213, 223, 338, 339 won’t have any effect on your setup since the 4th axis is an external stepper motor driver.
 
@@ -808,15 +808,15 @@ Some of the extra tools you'll need:
 
 For rail mounting, slide the two T-nuts onto the track above the left Y-rail and loosely thread on the two M5 bolts. You may need to remove your limit switch on MK2’s temporarily to enable the nuts to be slid into the rail.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p48_Mount1.png){.aligncenter .size-medium}
+![](/_images/_superlongboard/_manual/slb_ma_p48_Mount1.png){.aligncenter .size-medium}
 
 Insert the sheet metal bracket into the slot at the back of the SLB enclosure. The bracket will feel loose for now so you’ll want to hold it in place until the next step.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p49_Mount2.png){.aligncenter .size-medium}
+![](/_images/_superlongboard/_manual/slb_ma_p49_Mount2.png){.aligncenter .size-medium}
 
 Place the bracket-enclosure assembly onto the Y-rail and slide the two screws into the slots in the bracket, then tighten the two screws with an Allen key to lock the entire assembly onto the rail.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p50_Mount3.jpg){.aligncenter .size-medium}
+![](/_images/_superlongboard/_manual/slb_ma_p50_Mount3.jpg){.aligncenter .size-medium}
 
 ### Screw Down
 
@@ -824,7 +824,7 @@ You can mount your SLB flat on your wasteboard next to your machine, or even on 
 
 When placing your SLB on its own or among other CNC control electronics, consider that most wires are designed to route out the backside of the enclosure with the exception of a handful of more typically accessible plugs on its front like the E-stop and USB.
 
-![](/_images/_superlongboard/_techmanual/slb_techmanual_p51_2Mounts.png)
+![](/_images/_superlongboard/_manual/slb_ma_p51_2Mounts.png)
 
 It’s easy to use the enclosure as a template to mark and drill the holes. The holes are 4.5mm large, spaced 45mm from each other and 230mm from the opposite pair. They’re not perfectly centered on the box but close to it.
 
