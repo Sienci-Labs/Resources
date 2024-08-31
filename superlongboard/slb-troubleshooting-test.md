@@ -3,7 +3,7 @@ title: ytsb Troubleshooting Test
 menu_order: 4
 post_status: draft
 post_excerpt: See more on SLB settings and troubleshooting, especially useful on DIY CNC setups to better understand how to configure your SLB for your machine.
-post_date: 2024-04-03 16:44
+post_date: 2024-04-03 16:44:00
 taxonomy:
     knowledgebase_cat: slb-handbook
     knowledgebase_tag:
@@ -17,77 +17,63 @@ featured_image: _images/_superlongboard/_troubleshooting/slb_trouble_p1.jpg
 
 If you're having any issues with your SLB, whether that's understanding its settings or diagnosing a regular problem, you'll likely find your solution here. This includes:
 
-<ul>
-  <li>Fixes to common issues</li>
-  <li>Explaining Errors and Alarms</li>
-  <li>Using the lights on the board to pinpoint the problem</li>
-</ul>
+- Fixes to common issues
+- Explaining Errors and Alarms
+- Using the lights on the board to pinpoint the problem
 
 You might also find that a couple items are useful to have on hand when troubleshooting, though in most cases none of these are strictly necessary:
 
-<ul>
-  <li>A small shorting wire, header pins, or something metal to bridge contact</li>
-  <li>Tiny flathead screwdriver to rewire terminal connectors</li>
-  <li>Multimeter</li>
-</ul>
+- A small shorting wire, header pins, or something metal to bridge contact
+- Tiny flathead screwdriver to rewire terminal connectors
+- Multimeter
 
 ### Issues at Setup
 
 The SLB is set up to be automatically compatible with most LongMills by default. If you're finding this isn't the case then generally the best approach is to send the "$rst=$" command in the 'Console' tab then use the power switch on the back of the board to turn it off then back on again. This will reset your board back to the default values and then you can continue further troubleshooting from there.
 
-<ul>
-  <li><b>Firmware settings look funny, don't have descriptions, changing settings causes unexpected changes to happen:</b> if you're using gSender, check that you've selected 'grblHAL' as the firmware when you connect to your machine, not 'grbl'.</li>
-  <li><b>Pressing to ‘Zero’ axes isn’t working</b>: ensure "work coordinate offset" is enabled for $10 or that $10 = 511</li>
-  <li><b>Probing isn’t passing continuity check</b>: ensure the yellow ‘PRB’ light is coming on, if isn't then check your touch plate wiring, and if it is then ensure “pin state” is enabled for $10 or that $10 = 511</li>
-  <li><b>Dual Y-axes drifting out of sync</b>: for grblHAL there is a new solution to this which is $37. This is better than the old $1=255 solution because $37 can hold individual motors rather than holding all of them. If you’d like to turn it on to keep your dual Y-axes in sync then turn it on for ‘Y’ or set $37=2.</li>
-  <li><b>CNC losing location during goto, outlining, probing, or running a job</b>: all of these situations use high-speed ‘G0’ movements where the motors might not be able to keep up if your machine is not mechanically sound. First, confirm this is the problem by manually jogging your machine using the jog arrows and slowly increasing the jogging ‘Speed’ value until you notice any of the axes moving intermittently. Since your machine should be able to handle these speeds, it’s likely there’s some components that you’ve assembled too loose or too tight or misaligned. Check if you can turn your lead screws by hand, if your belts or v-wheels are too tight, if you have a coupler that’s too loose. These will all be the same components you should be looking at during regular machine maintenance. If you still can’t manage to get your machine to run at full speed the other option is to consider lowering the SLBs maximum speed with settings 110, 111, and 112 and maximum accelerations with settings 120, 121, and 122 until the problem goes away.</li>
-  <li><b>Overriding speed, spindle, or laser doesn't seem to work on shorter files</b>: this is an outlying grblHAL issue which should only occur on shorter files. If you want to still override, you should still have the option to set the override before starting the job.</li>
-  <li><b>Homing gets stuck or disconnects</b>: try reducing the homing “seek rate” (25) or increasing the “debounce delay” (26) settings. Depending on your setup or sensors, the default values might be a bit too aggressive.</li>
-  <li><b>Issues with Independant A-axis homing or hard limits</b>: earlier versions of SLB firmware might exhibit difficulties with this. In this case you’ll have to disable hard limits when doing 4-axis cutting, and if you want to do independent A-axis homing you’ll want to temporarily add it to $44 or 45, then run the independent homing cycle using the button in gSender or sending “$ha”, then remove the A-axis again from $44 or 45.</li>
-  <li><b>Other unexpected behaviours</b>: sometimes there might be a case where your SLB isn’t doing what you’d expect it to do but you don’t see the solution in our resources. In these cases feel free to report it to us so we can try to investigate it further, but otherwise you might find that the old adage may still hold true where turning it off and back on again with the main power switch on the back resolves your issue.</li>
-</ul>
+- **Firmware settings look funny, don't have descriptions, changing settings causes unexpected changes to happen:** if you're using gSender, check that you've selected 'grblHAL' as the firmware when you connect to your machine, not 'grbl'.
+- **Pressing to ‘Zero’ axes isn’t working**: ensure "work coordinate offset" is enabled for $10 or that $10 = 511
+- **Probing isn’t passing continuity check**: ensure the yellow ‘PRB’ light is coming on, if isn't then check your touch plate wiring, and if it is then ensure “pin state” is enabled for $10 or that $10 = 511
+- **Dual Y-axes drifting out of sync**: for grblHAL there is a new solution to this which is $37. This is better than the old $1=255 solution because $37 can hold individual motors rather than holding all of them. If you’d like to turn it on to keep your dual Y-axes in sync then turn it on for ‘Y’ or set $37=2.
+- **CNC losing location during goto, outlining, probing, or running a job**: all of these situations use high-speed ‘G0’ movements where the motors might not be able to keep up if your machine is not mechanically sound. First, confirm this is the problem by manually jogging your machine using the jog arrows and slowly increasing the jogging ‘Speed’ value until you notice any of the axes moving intermittently. Since your machine should be able to handle these speeds, it’s likely there’s some components that you’ve assembled too loose or too tight or misaligned. Check if you can turn your lead screws by hand, if your belts or v-wheels are too tight, if you have a coupler that’s too loose. These will all be the same components you should be looking at during regular machine maintenance. If you still can’t manage to get your machine to run at full speed the other option is to consider lowering the SLBs maximum speed with settings 110, 111, and 112 and maximum accelerations with settings 120, 121, and 122 until the problem goes away.
+- **Overriding speed, spindle, or laser doesn't seem to work on shorter files**: this is an outlying grblHAL issue which should only occur on shorter files. If you want to still override, you should still have the option to set the override before starting the job.
+- **Homing gets stuck or disconnects**: try reducing the homing “seek rate” (25) or increasing the “debounce delay” (26) settings. Depending on your setup or sensors, the default values might be a bit too aggressive.
+- **Issues with Independant A-axis homing or hard limits**: earlier versions of SLB firmware might exhibit difficulties with this. In this case you’ll have to disable hard limits when doing 4-axis cutting, and if you want to do independent A-axis homing you’ll want to temporarily add it to $44 or 45, then run the independent homing cycle using the button in gSender or sending “$ha”, then remove the A-axis again from $44 or 45.
+- **Other unexpected behaviours**: sometimes there might be a case where your SLB isn’t doing what you’d expect it to do but you don’t see the solution in our resources. In these cases feel free to report it to us so we can try to investigate it further, but otherwise you might find that the old adage may still hold true where turning it off and back on again with the main power switch on the back resolves your issue.
 
 ### Bad E-stop
 
 The E-stop behaviour should be such that all 3 Action buttons light up the Action button lights on the SLB, and the main E-stop button should be illuminated. Once the E-stop button is pressed it should unlight and stay latched closed - this will cause the motors controlled by the SLB to lose power and an Alarm 10 to appear in your g-code sender and halt all motions. Once you untwist the E-stop button it should pop back up and become lit again, then you should be able to clear the Alarm and resume operation. If you experience anything else:
-<ul>
-  <li><b>E-stop light stays on even after the button is pressed, or SLB doesn't seem to respond to E-stop being pressed:</b> there's a backup option on the board which is able to act as the E-stop and it looks like two metal pins sticking out near the back of the board where you plug the power in. Once you find these two pins, grab anything conductive like a flat head screwdriver and insert it between the two pins that are sticking up to 'connect' them together electrically. This should activate the E-stop if you weren't able to activate it before, or if your problem was that it was never deactivating then keep conducting the pins while turning the toggle switch on the board off then back on again and you should see the red lights for the E-stop turn off. If this is successful then you've either got a loose E-stop wire (check your connections) or your E-stop button is broken. If neither of these work then your board is likely defective and you can contact us to replace it.</li>
-  <li><b>E-stop doesn't latch closed or doesn't untwist or move:</b> your E-stop button is likely broken and we can replace it if it's under warranty</li>
-  <li><b>Unlocking after E-stop press freezes up machine:</b> this is a bug we've found to exist in the 5.0.3 version of the SLBs firmware. We've implemented a solution in a new firmware version that you should upgrade to since this behaviour can be bothersome. See <a href="https://resources.sienci.com/view/slb-firmware-flashing/">Firmware Flashing</a> for more.</li>
-</ul>
+
+- **E-stop light stays on even after the button is pressed, or SLB doesn't seem to respond to E-stop being pressed:** there's a backup option on the board which is able to act as the E-stop and it looks like two metal pins sticking out near the back of the board where you plug the power in. Once you find these two pins, grab anything conductive like a flat head screwdriver and insert it between the two pins that are sticking up to 'connect' them together electrically. This should activate the E-stop if you weren't able to activate it before, or if your problem was that it was never deactivating then keep conducting the pins while turning the toggle switch on the board off then back on again and you should see the red lights for the E-stop turn off. If this is successful then you've either got a loose E-stop wire (check your connections) or your E-stop button is broken. If neither of these work then your board is likely defective and you can contact us to replace it.
+- **E-stop doesn't latch closed or doesn't untwist or move:** your E-stop button is likely broken and we can replace it if it's under warranty
+- **Unlocking after E-stop press freezes up machine:** this is a bug we've found to exist in the 5.0.3 version of the SLBs firmware. We've implemented a solution in a new firmware version that you should upgrade to since this behaviour can be bothersome. See <a href="https://resources.sienci.com/view/slb-firmware-flashing/">Firmware Flashing</a> for more.
 
 ### Common Alarms &amp; Errors
 
-<ul>
-  <li><b>Supposed to have multiple Alarms but only one showed up OR after clearing E-stop Alarm there's no message to remind you to home:</b> this is a current flaw in how grblHAL handles Alarms since they can stack on top of each other but can't be dismissed selectively so all of them get cleared at once. In these situations just be mindful of what's happened so, for instance, you can still remember to home your machine on startup.</li>
-  <li><b>Alarm 3 or 10 take a couple tries to unlock</b>: in the newer versions of gSender (1.4.6 onward) this should be fixed where unlocking just takes some time</li>
-  <li><b>Alarm 10 on startup</b>: you should be able to “Click to Unlock Machine” in gSender. If this doesn’t work, you can try to:
-<ul>
-  <li>Turn on the board without the E-stop doing anything and the big LED should be Red as well as the small light next to "Halt" on the board which is near the big LED.</li>
-  <li>Rotate to unlock the E-stop, this should turn the smaller red "Halt" light off.</li>
-  <li>Click the Unlock button in gSender.</li>
-  <li>If your machine doesn’t change to ‘Idle’ (white status light), turn the board off then on again and repeat this process until it goes through</li>
-</ul>
-</li>
-  <li><b>Alarm 10 when E-stop not pressed</b>: the E-stop signal needs to be safe so it’s designed to be very sensitive. Check if you have any loose wires or have conductive material in contact with the underside circuitry of the E-stop unit, any of these cases could be causing it to trigger unexpectedly</li>
-  <li><b>Alarm 14 unexpectedly or during spindle setup</b>: this would point to an error in how you’ve set up your spindle, either in the wiring, how you’ve set up the SLB EEPROM values, or how you’ve set up the PD values on your VFD. Double-check that everything is as it should be since if there’s a misalignment in any way then the controller won’t receive proper responses and send an Alarm 14 to protect the machine</li>
-  <li><b>Error 1 during Homing</b>: make sure $39 is turned on</li>
-  <li><b>Error 8 or 9 after hitting E-stop</b>: the typical routine after hitting the E-stop will be to first ‘reset’ the board and then ‘unlock’ it, you’ll get either of these errors if a step in this process is missed</li>
-  <li><b>Error 10 when changing firmware settings:</b> you're likely trying to turn on a setting that first requires homing ($22) to be enabled before the other setting can be enabled</li>
-  <li><b>Error 24 in gSender</b>: check that you are not loading up a regular file while in Laser mode</li>
-</ul>
+- **Supposed to have multiple Alarms but only one showed up OR after clearing E-stop Alarm there's no message to remind you to home:** this is a current flaw in how grblHAL handles Alarms since they can stack on top of each other but can't be dismissed selectively so all of them get cleared at once. In these situations just be mindful of what's happened so, for instance, you can still remember to home your machine on startup.
+- **Alarm 3 or 10 take a couple tries to unlock**: in the newer versions of gSender (1.4.6 onward) this should be fixed where unlocking just takes some time
+- **Alarm 10 on startup**: you should be able to “Click to Unlock Machine” in gSender. If this doesn’t work, you can try to:
+  - Turn on the board without the E-stop doing anything and the big LED should be Red as well as the small light next to "Halt" on the board which is near the big LED.
+  - Rotate to unlock the E-stop, this should turn the smaller red "Halt" light off.
+  - Click the Unlock button in gSender.
+  - If your machine doesn’t change to ‘Idle’ (white status light), turn the board off then on again and repeat this process until it goes through
+- **Alarm 10 when E-stop not pressed**: the E-stop signal needs to be safe so it’s designed to be very sensitive. Check if you have any loose wires or have conductive material in contact with the underside circuitry of the E-stop unit, any of these cases could be causing it to trigger unexpectedly
+- **Alarm 14 unexpectedly or during spindle setup**: this would point to an error in how you’ve set up your spindle, either in the wiring, how you’ve set up the SLB EEPROM values, or how you’ve set up the PD values on your VFD. Double-check that everything is as it should be since if there’s a misalignment in any way then the controller won’t receive proper responses and send an Alarm 14 to protect the machine
+- **Error 1 during Homing**: make sure $39 is turned on
+- **Error 8 or 9 after hitting E-stop**: the typical routine after hitting the E-stop will be to first ‘reset’ the board and then ‘unlock’ it, you’ll get either of these errors if a step in this process is missed
+- **Error 10 when changing firmware settings:** you're likely trying to turn on a setting that first requires homing ($22) to be enabled before the other setting can be enabled
+- **Error 24 in gSender**: check that you are not loading up a regular file while in Laser mode
 
 See the meaning of all Alarms here: <a href="https://github.com/grblHAL/core/blob/master/alarms.h" target="_blank" rel="noopener">https://github.com/grblHAL/core/blob/master/alarms.h</a> or type “$eag” into the console
 
 ### Other Troubleshooting
 
-<ul>
-  <li>If there’s a problem when you “Import Settings” from an older Firmware version to a new one in gSender’s Firmware Tool, this is expected. Different versions of the SLB have different EEPROM outputs that won’t be compatible with each other, so for the duration of Beta testing you’ll just have to note down your changed settings manually and revert them manually on new Firmware versions</li>
-  <li>If you change a firmware setting and notice that it isn’t taking effect, check if the setting description mentions that you need to “hard reset” your board for the changes to take effect. Some settings need this, and this just means you’ll need to turn your board off and back on again before the change takes effect.</li>
-  <li>If the gSender screen ever goes black, please let us know what happened leading up till that point, then use the toolbar to select ‘View’ -&gt; ‘Reload’, to get refreshed and the screen showing once again</li>
-  <li>If you hear the SLB ‘clicking’ when you change EEPROM settings, this is normal</li>
-  <li>If you’re experiencing any issues with SLB ‘Disconnection’ while running your CNC, try switching from USB over to Ethernet</li>
-</ul>
+- If there’s a problem when you “Import Settings” from an older Firmware version to a new one in gSender’s Firmware Tool, this is expected. Different versions of the SLB have different EEPROM outputs that won’t be compatible with each other, so for the duration of Beta testing you’ll just have to note down your changed settings manually and revert them manually on new Firmware versions
+- If you change a firmware setting and notice that it isn’t taking effect, check if the setting description mentions that you need to “hard reset” your board for the changes to take effect. Some settings need this, and this just means you’ll need to turn your board off and back on again before the change takes effect.
+- If the gSender screen ever goes black, please let us know what happened leading up till that point, then use the toolbar to select ‘View’ -&gt; ‘Reload’, to get refreshed and the screen showing once again
+- If you hear the SLB ‘clicking’ when you change EEPROM settings, this is normal
+- If you’re experiencing any issues with SLB ‘Disconnection’ while running your CNC, try switching from USB over to Ethernet
 
 ## Troubleshooting Lights
 
@@ -97,7 +83,7 @@ This is a list of all the lights and how they function:
 
 ![](/_images/_superlongboard/_troubleshooting/slb_trouble_p1.jpg){.aligncenter .size-medium}
 
-<b>NOTE:</b> only LEDs set up for ‘inputs’ like limit switches and E-stop buttons need the hardware to be hooked up to confirm an incoming signal. Otherwise, LEDs for ‘outputs’ like PWM or motor signals will still turn on and off without needing to hook up the components.
+**NOTE:** only LEDs set up for ‘inputs’ like limit switches and E-stop buttons need the hardware to be hooked up to confirm an incoming signal. Otherwise, LEDs for ‘outputs’ like PWM or motor signals will still turn on and off without needing to hook up the components.
 
 [su_table responsive="yes" fixed="yes"]
 <table>
@@ -620,84 +606,6 @@ This is a list of all the lights and how they function:
 <td style="text-align: left;">Feed rate has not yet been set or is undefined.</td>
 </tr>
 <tr>
-<td><strong>23</strong></td>
-<td>Invalid g-code ID:23</td>
-<td style="text-align: left;">G-code command in block requires an integer value.</td>
-</tr>
-<tr>
-<td><strong>24</strong></td>
-<td>Invalid g-code ID:24</td>
-<td style="text-align: left;">More than one g-code command that requires axis words found in block.</td>
-</tr>
-<tr>
-<td><strong>25</strong></td>
-<td>Invalid g-code ID:25</td>
-<td style="text-align: left;">Repeated g-code word found in block.</td>
-</tr>
-<tr>
-<td><strong>26</strong></td>
-<td>Invalid g-code ID:26</td>
-<td style="text-align: left;">No axis words found in block for g-code command or current modal state which requires them.</td>
-</tr>
-<tr>
-<td><strong>27</strong></td>
-<td>Invalid g-code ID:27</td>
-<td style="text-align: left;">Line number value is invalid.</td>
-</tr>
-<tr>
-<td><strong>28</strong></td>
-<td>Invalid g-code ID:28</td>
-<td style="text-align: left;">G-code command is missing a required value word.</td>
-</tr>
-<tr>
-<td><strong>29</strong></td>
-<td>Invalid g-code ID:29</td>
-<td style="text-align: left;">G59.x work coordinate systems are not supported.</td>
-</tr>
-<tr>
-<td><strong>30</strong></td>
-<td>Invalid g-code ID:30</td>
-<td style="text-align: left;">G53 only allowed with G0 and G1 motion modes.</td>
-</tr>
-<tr>
-<td><strong>31</strong></td>
-<td>Invalid g-code ID:31</td>
-<td style="text-align: left;">Axis words found in block when no command or current modal state uses them.</td>
-</tr>
-<tr>
-<td><strong>32</strong></td>
-<td>Invalid g-code ID:32</td>
-<td style="text-align: left;">G2 and G3 arcs require at least one in-plane axis word.</td>
-</tr>
-<tr>
-<td><strong>33</strong></td>
-<td>Invalid g-code ID:33</td>
-<td style="text-align: left;">Motion command target is invalid.</td>
-</tr>
-<tr>
-<td><strong>34</strong></td>
-<td>Invalid g-code ID:34</td>
-<td style="text-align: left;">Arc radius value is invalid.</td>
-</tr>
-<tr>
-<td><strong>35</strong></td>
-<td>Invalid g-code ID:35</td>
-<td style="text-align: left;">G2 and G3 arcs require at least one in-plane offset word.</td>
-</tr>
-<tr>
-<td><strong>36</strong></td>
-<td>Invalid g-code ID:36</td>
-<td style="text-align: left;">Unused value words found in block.</td>
-</tr>
-<tr>
-<td><strong>37</strong></td>
-<td>Invalid g-code ID:37</td>
-<td style="text-align: left;">G43.1 dynamic tool length offset is not assigned to configured tool length axis.</td>
-</tr>
-<tr>
-<td><strong>38</strong></td>
-<td>Invalid g-code ID:38</td>
-=======
 <td><b>23</b></td>
 <td>Invalid gcode ID:23</td>
 <td style="text-align: left;">G-code command in block requires an integer value.</td>
