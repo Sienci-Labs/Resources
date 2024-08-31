@@ -358,12 +358,15 @@ This is a list of all the lights and how they function:
 ## Useful commands
 
 <ul>
-  <li><b>$$</b>   lists all Firmware settings</li>
+  <li><b>$</b>   reminder of all grbl commands</li>
+  <li><b>$$</b>   lists all Firmware settings and their values</li>
+  <li><b>$</b>### tells you the value of the specific Firmware setting (ex. "$22")</li>
   <li><b>$rst=$</b>   resets all your EEPROM settings to the default Firmware values</li>
   <li><b>?</b>   reports any active inputs plus some other useful info</li>
   <li><b>$g</b>   lists current active grbl Modals</li>
   <li><b>$i</b>   tells you information on your board Firmware Version and Plugins</li>
-  <li><b>$$=#</b>#   will let you know the Name and Description of that Setting</li>
+  <li><b>$$=</b>###   will let you know the Name and Description of that Setting (ex. "$$=22")</li>
+  <li><b>$#</b>   all the currently stored machine offsets</li>
   <li><b>$esg</b>   will tell you the Names and Descriptions of all Settings</li>
   <li><b>$eag</b>   will tell you the Names and Descriptions of all Alarms</li>
 </ul>

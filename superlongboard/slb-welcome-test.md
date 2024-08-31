@@ -44,8 +44,7 @@ Learn all the nitty gritty about wiring, specs, and firmware.
 </tr>
 <tr>
 <td style="text-align: center;"><a href="https://forum.sienci.com/c/slb/"><img class="flie aligncenter" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/community.png" width="512" height="512" /></a>
-<b><a href="https://forum.sienci.com/c/slb/">Forum</a>
-</b><br>
+<b><a href="https://forum.sienci.com/c/slb/">Forum</a></b><br>
 Share ideas for SLB features, or get help with problems.
 </td>
 <td style="text-align: center;"><img class="flie aligncenter size-full" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/open-source-hardware.png" width="512" height="512" />

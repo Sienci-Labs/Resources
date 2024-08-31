@@ -204,7 +204,7 @@ Then, tap the magnet to the touch plate. You will see the yellow PRB light on th
 
 You’ll know you are successful if the popup button turns blue, and says “Start Probe”.
 
-![](/_images/_superlongboard/_upgrade/slb_up_p31_TouchNoTouch.png){.aligncenter .size-medium}
+![](/_images/_superlongboard/_upgrade/slb_up_p31_Continuity.png){.aligncenter .size-medium}
 
 If the light is coming on but the popup button isn’t turning blue, this can sometimes be fixed by resetting your board settings. Do this by typing “$RST=$” into the console tab and hitting Enter, then use the power switch on the back of the board to “power-cycle” it off and back on again. Once you reconnect in gSender you can try probing again.
 
@@ -351,12 +351,14 @@ There will be some new behaviours to expect from your SLB compared to the way yo
 
 - For now, the SLB will continue working the best with any typical ‘grbl’ post processor setup. If you already had a working grbl setup then you won't need to change anything.
 - Whenever you press the **E-stop, expect an ‘Alarm 10’** to appear. This shows that the board saw your E-stop press and will shut down the motors and all other accessories. Once you untwist the E-stop (the light will come back on), you’ll be able to unlock the machine and continue what you were doing. The E-stop will cancel any currently active job, so if you want to resume you’ll want to re-probe or re-home and then use ‘Start from Line’ to resume the job back where you left off.
-![](/_images/_superlongboard/_upgrade/slb_up_p48_Unlock.jpg){.aligncenter .size-medium}
+
+  ![](/_images/_superlongboard/_upgrade/slb_up_p48_Unlock.jpg){.aligncenter .size-medium}
 - The yellow ‘processing’ lines in the gSender visualizer might extend out further when you’re running a job, this is just because the SLB can store more future movements in its memory than other boards
 - **Swapping between the Spindle/Laser is a bit more involved**, the SLB Manual page goes into it a bit more on it. Because of this, we’d recommend that you set up your SLB for whatever Spindle/Laser output you’d tend to use as your default, so that you can just power on your machine and not have to worry about many other steps after that.
 - There will always show the ‘Unlock’ button in gSender. This is because there might be some times where if your SLB gets stuck, you can use the ‘Unlock’ button to help recover it.
 - This should never change after your first setup, but you’ll need to make sure that from now on you always connect to gSender or other g-code senders with ‘grblHAL’ being the selected firmware
-![](/_images/_superlongboard/_upgrade/slb_up_p49_grblHAL.png){.aligncenter .size-medium}
+
+  ![](/_images/_superlongboard/_upgrade/slb_up_p49_grblHAL.png){.aligncenter .size-medium}
 - Some settings in gSender aren’t used anymore since the SLB stores them itself. This includes the Spindle/Laser settings for spindle min/max speed, laser min/max power, and laser axes offset, as well as all the Rotary settings except for the Rotary toggle.
 - Looking at the gSender Firmware Tool
   - Default machine profiles will be working correctly as of gSender 1.4.6
