@@ -69,7 +69,7 @@ Start by closing any programs (like **gSender**, **UGS**, **CNCjs**, **Easel**, 
 
 ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p4_arduinoIDE.png){.aligncenter .size-medium}
 
- **!! If you have flashed grbl firmware before using Arduino IDE, you will need to make sure to delete any old libraries for grbl.** Arduino typically saves libraries in the *Documents &gt; Arduino &gt; Library* folder of your computer for both Windows and Mac. If you do not delete the old library first, you will install the old version of grbl. **!!**
+ **!! If you have flashed grbl firmware before using Arduino IDE, you will need to make sure to delete any old libraries for grbl.** Arduino typically saves libraries in the *Documents ➜ Arduino ➜ Library* folder of your computer for both Windows and Mac. If you do not delete the old library first, you will install the old version of grbl. **!!**
 
 ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p5_arduinoLib.png){.aligncenter .size-medium}
 
@@ -79,7 +79,7 @@ Once Arduino IDE has been installed, plug your control board into your computer 
 
 ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p6_arduinoSetPort.png){.aligncenter .size-medium}
 
- To ensure that all of the old settings are cleared from the board's memory, we will do an EEPROM clear. You can find this 'example program' under *File &gt; Examples &gt; EEPROM &gt; eeprom_clear.*
+ To ensure that all of the old settings are cleared from the board's memory, we will do an EEPROM clear. You can find this 'example program' under *File ➜ Examples ➜ EEPROM ➜ eeprom_clear.*
 
  ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p7_EEPROMClear.png){.aligncenter .size-medium}
 
@@ -93,7 +93,7 @@ Now that we've erased all previous memory from the control board, we can move fo
 
 ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p9_grblUpload.png){.aligncenter .size-medium}
 
-Before hitting the "Upload" button, another step here is to prepare the grbl library. This is done by clicking on "Sketch" in the menu, then: *Include Library &gt; Add .ZIP library*.
+Before hitting the "Upload" button, another step here is to prepare the grbl library. This is done by clicking on "Sketch" in the menu, then: *Include Library ➜ Add .ZIP library*.
 
 ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p10_AddZipLib.png){.aligncenter .size-medium}
 
@@ -105,7 +105,7 @@ Now, upload the firmware code by clicking on the "**Upload**" button on the top 
 
 ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p12_grblDone.png){.aligncenter .size-medium}
 
-You can check if your firmware has been correctly installed by going to *Tools &gt; Serial Monitor.* This will open a window to show the console output of the Arduino. If your output looks garbled, make sure to set your baud rate to 115200. As you can see, the output shows the firmware version and build date.
+You can check if your firmware has been correctly installed by going to *Tools ➜ Serial Monitor.* This will open a window to show the console output of the Arduino. If your output looks garbled, make sure to set your baud rate to 115200. As you can see, the output shows the firmware version and build date.
 
 ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p13_arduinoConfirm.png){.aligncenter .size-medium}
 
