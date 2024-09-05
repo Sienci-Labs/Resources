@@ -66,7 +66,7 @@ Let’s start moving plugs over to the SLB!
 1. On your computer, unplug the USB cable that ran to the **LongMill**.
 
    ![](/_images/_superlongboard/_upgrade/slb_up_p6_USB.jpg){.aligncenter .size-medium}
-1. Unplug the X, Y1, Y2, and Z connectors from your **LongMill** and plug them into the **SLB** in the same order. There aren’t any extra steps you have to do even if you have the <a href="https://sienci.com/product/vortex-rotary-axis/">Vortex</a>.
+1. Unplug the X, Y1, Y2, and Z connectors from your **LongMill** and plug them into the **SLB** in the same order. There aren’t any extra steps you have to do even if you have the <a href="https://sienci.com/product/vortex-rotary-axis/">Vortex</a> (as long as it's the open-loop type with the rotary switch).
 
    ![](/_images/_superlongboard/_upgrade/slb_up_p7_Motors.jpg){.aligncenter .size-medium}
 1. Unplug your touch plate/probe from the **LongMill** and plug it into the **SLB**, on the **Front Side**.
@@ -123,6 +123,10 @@ On the LongBoard, unplug your 2-pin SpinPWM plug and plug it into the 3-pin Lase
 ### Spindle
 
 If instead you had a Spindle connected to your LongBoard and would like to swap it over to the SLB, just continue through the initial setup steps for now then when you’re ready swap over to the explanation for <a href="https://resources.sienci.com/view/slb-manual/#spindlers485">Spindle wiring in the full SLB Manual</a>.
+
+### Rotary Axis
+
+As [stated above](#wiring), if you have the original Vortex setup with a rotary switch and open-loop motor then there's no additional wiring that's needed outside of just tranferring over your motor wires. If you're trying to set up your own custom rotary axis that doesn't have a switch to share motor signals with the Y-axis, then you might want to [read typical wiring setups here](https://resources.sienci.com/view/slb-manual/#4tha-axis).
 
 ### IOT Relay
 
@@ -271,6 +275,12 @@ Ensure your power is set to 1% and your ‘Test Duration’ to one second. Now w
 ![](/_images/_superlongboard/_upgrade/slb_up_p39_LaserTest.jpg){.aligncenter .size-full}
 
 If the laser testing didn’t go as planned, check your wiring and that you’ve turned on your driver correctly. If you go back through the steps still with no success, you can always read more about laser setup on our more advanced <a href="https://resources.sienci.com/view/slb-manual/#laser">SLB Manual page</a>.
+
+### Rotary Test
+
+One thing worth double-checking is that you're getting the correct amount of movement out of your rotary axis. You can do this by simply jogging the A-axis by 360 degrees to see if it makes one full rotation.
+
+If this doesn't happen, then your steps/mm machine setting might be set incorrectly. You can find this in the Firmware tool under "A=axis travel resolution" also known as $103, and for the Vortex rotary this value should be `79.01234568`. If you're not using the Vortex, then there's some [other troubleshooting here](https://resources.sienci.com/view/vx-troubleshooting/#rotation-is-incorrect).
 
 ## Routing
 
