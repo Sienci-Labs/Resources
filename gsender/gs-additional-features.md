@@ -191,7 +191,7 @@ If you want some initial inspiration, see other macros **made by our community**
 1. You'll want to develop your understanding of typical <a href="https://linuxcnc.org/docs/html/gcode/g-code.html" target="_blank" rel="noopener">g-codes</a> and <a href="https://linuxcnc.org/docs/devel/html/gcode/m-code.html" target="_blank" rel="noopener">m-codes</a> that are used for CNC control (the pages linked are very good sources for that)
 1. The "Macro Variables" dropdown in gSender shows many of the most commonly used operations when making your own macro
 1. Make your own variable with `%variable = value_you_want_to_set` (ex. % probeSpeed = 150)
-1. Use your variable in g-code, like `G0 G91 G21 X[variable]` (moves the X-axis by the amount set in the variable)
+1. Use your variable in g-code, like `G21 G91 G0 X[variable]` (moves the X-axis by the amount set in the variable)
 1. Test your code by printing it to the console `([variable])`
 1. Make dialog boxes appear on the screen to confirm a value or position by putting in an M0 line with a comment, for example `M0 ;Remember to turn on your router before the next step` which will pause the macro and give you the option to 'continue' or 'cancel'
 1. Start experimenting with basic math using numbers and variables
@@ -203,6 +203,13 @@ If you want some initial inspiration, see other macros **made by our community**
    - `%nextLight = global.lightState || 0`
    - `M356 P0 Q[nextLight % 3]`
    - `%global.lightState = Number(nextLight) + 1`
+1. Store many variables in an array so that those variables can be used in other macros without assigning them all as global
+   - `%setup = {}`
+   - `%setup.this = 0`
+   - `%setup.that = 1`
+   - `%global.setup = setup`
+   - then in the other macro `%setup = global.setup`
+1. Create functions that you can then call later such as `%rapid = function (x, y) {return 'G53 G90 G0 X' + x + ' Y' + y + '\n'}` then later run it with `[rapid(x, y)]`
 1. Read more about the Esprima library here: <a href="https://docs.esprima.org/en/latest/syntactic-analysis.html" target="_blank" rel="noopener">https://docs.esprima.org/en/latest/syntactic-analysis.html</a>
 
 ## Console
