@@ -71,7 +71,7 @@ See the meaning of all Alarms here: <a href="https://github.com/grblHAL/core/blo
 
 - If there’s a problem when you “Import Settings” from an older Firmware version to a new one in gSender’s Firmware Tool, this is expected. Different versions of the SLB have different EEPROM outputs that won’t be compatible with each other, so for the duration of Beta testing you’ll just have to note down your changed settings manually and revert them manually on new Firmware versions
 - If you change a firmware setting and notice that it isn’t taking effect, check if the setting description mentions that you need to “hard reset” your board for the changes to take effect. Some settings need this, and this just means you’ll need to turn your board off and back on again before the change takes effect.
-- If the gSender screen ever goes black, please let us know what happened leading up till that point, then use the toolbar to select ‘View’ -&gt; ‘Reload’, to get refreshed and the screen showing once again
+- If the gSender screen ever goes black, please let us know what happened leading up till that point, then use the toolbar to select ‘View’ ➜ ‘Reload’, to get refreshed and the screen showing once again
 - If you hear the SLB ‘clicking’ when you change EEPROM settings, this is normal
 - If you’re experiencing any issues with SLB ‘Disconnection’ while running your CNC, try switching from USB over to Ethernet
 

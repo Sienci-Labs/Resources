@@ -793,7 +793,7 @@ If you’re ever running into a situation where clicking “Zero A” in gSender
 - Remember to define the tool geometry
 - After you export the code, remove the default header since it contains a bunch of Snapmaker specific M-codes that grbl doesn’t support
 - Check the first Z-movement to make sure there are no unexpected plunges
-- Do a find and replace such that X-&gt;Y; Y-&gt;X; B-&gt;A. The rotary on the Snapmaker machine is lined up along the Y-axis, so such replacements are needed.
+- Do a find and replace such that X➜Y; Y➜X; B➜A. The rotary on the Snapmaker machine is lined up along the Y-axis, so such replacements are needed.
 
 ## Enclosure Mounting
 

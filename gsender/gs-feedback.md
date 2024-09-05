@@ -62,7 +62,7 @@ We'll continue keeping our ears out for common stumbling points while using gSen
 
 If you find that gSender goes blank after you open it or while using it, there are a couple things you can try.
 
-1. If you’re using gSender Edge, you’ll see a toolbar at the top of the app where you can click: View -&gt; Toggle Developer Tools -&gt; then look at the ‘Console’ where if you find any errors you can share these with us. Also if you click: View -&gt; Reload, you’ll be able to refresh gSender to not show the blank screen anymore.
+1. If you’re using gSender Edge, you’ll see a toolbar at the top of the app where you can click: View ➜ Toggle Developer Tools ➜ then look at the ‘Console’ where if you find any errors you can share these with us. Also if you click: View ➜ Reload, you’ll be able to refresh gSender to not show the blank screen anymore.
 1. Otherwise if you’re using the main version of gSender, you can try updating to the <a href="https://sienci.com/gSender/">latest version</a>.
 1. Check your antivirus software or Windows Defender and add gSender as an exception.
 1. Check to ensure you have read/write permissions for the preferences file
@@ -133,7 +133,7 @@ Alternatively, you could be getting an error for 'soft limits'. If this is the c
 
 If you can't access your gamepad shortcuts or there's a problem with the profile, the easiest way to fix it is to delete the profile and remake it. This can suck depending on how much you customized it, and we'll keep working to make this process work better into the future.
 
-If you can connect and jog with your gamepad but the jogging is sometimes unpredictable, then the problem might actually be the gamepad itself. Go to Settings -&gt; Shortcuts -&gt; Gamepad -&gt; Gamepad Profile -&gt; and click the 'Help' button at the top of the window. This will take you to a 3rd party Gamepad Tester website (that you can also visit at <a href="https://hardwaretester.com/gamepad" target="_blank" rel="noopener">https://hardwaretester.com/gamepad</a>) where you can try pressing buttons and moving joysticks to see if they're all behaving properly. If anything seems out of place then you might want to try using a different gamepad to control your CNC.
+If you can connect and jog with your gamepad but the jogging is sometimes unpredictable, then the problem might actually be the gamepad itself. Go to Settings ➜ Shortcuts ➜ Gamepad ➜ Gamepad Profile ➜ and click the 'Help' button at the top of the window. This will take you to a 3rd party Gamepad Tester website (that you can also visit at <a href="https://hardwaretester.com/gamepad" target="_blank" rel="noopener">https://hardwaretester.com/gamepad</a>) where you can try pressing buttons and moving joysticks to see if they're all behaving properly. If anything seems out of place then you might want to try using a different gamepad to control your CNC.
 
 ### Changes between "Running" and "Idle" during a Job
 

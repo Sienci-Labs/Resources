@@ -338,7 +338,7 @@ When any of these errors appear in gSender, it can typically be traced back to 3
 
 1. **The g-code file has errors in it**: if this is true, then
    - Keep the file loaded
-   - Go to gSenders Settings -&gt; Safety -&gt; to make sure ‘Warn if invalid line detected’ is turned on
+   - Go to gSenders Settings ➜ Safety ➜ to make sure ‘Warn if invalid line detected’ is turned on
    - Next to the ‘Load File’ button on the main screen, you’ll see another button that says ‘Verify Job’ (previously ‘Test Run’)
    - Click this button and it will go through your g-code file, and if the same errors pop up then it’s likely that the file is bad. Go back and check your design software or post processor to make sure it’s all been set up correctly and then try re-generating the file.
 1. **You have an unstable connection to your CNC**: if the file didn’t have errors, then this is the next most likely issue. You’ll want to

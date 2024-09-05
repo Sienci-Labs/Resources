@@ -135,7 +135,7 @@ User: <em>pi</em>
 
 These are needed when performing ‘sudo’ super user access, a type of administrator access needed to alter system-specific things. Once you’re set up with your Pi we recommend creating a new user account with different credentials as a security precaution, especially if you’re running gSender in remote mode or connecting your Pi to the internet. If these credentials don’t work for you then either check with your manufacturer or congratulations you’ve already created your own account and changed the default password ;)
 
-To change the default pi user password. It's just menu -&gt; Preferences -&gt; Raspberry Pi Configuration and then the "Change Password" option
+To change the default pi user password. It's just menu ➜ Preferences ➜ Raspberry Pi Configuration and then the "Change Password" option
 
 ![](/_images/_gsender/_install/gs_in_ras-pi-credentials.png){.aligncenter .size-medium}
 
@@ -148,7 +148,7 @@ All application logs can be found in “<em>~/.config/gSender/logs</em>” and c
 gSender can size responsively but only to a minimum point. Because of this, some Pi users might find gSender isn't fitting their screen properly. This can be accommodated on most Pis by:
 
 - Click the Pi icon on the top right
-- Preferences -&gt; Screen configuration -&gt; Configure -&gt; Screens
+- Preferences ➜ Screen configuration ➜ Configure ➜ Screens
 - Click HDMI-1 (or whichever screen that is connected to the Pi), then you'll find you can select your Resolution
 - We'd suggest you choose a minimum resolution of 1280x1024. Once chosen, you should be able to verify if this fix has worked for you or you can go back and continue to tweak it as needed.
 

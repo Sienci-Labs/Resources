@@ -80,7 +80,7 @@ You can also add tools here if you want the probe widget to remember your most c
 
 UGS comes with a simple plugin that allows for your machine to send the commands to your machine to utilize the touch plate for finding the X, Y, and Z-axis.
 
-Start by going to the top of your screen and clicking Window -&gt; Plugin -&gt; Probe Module. You will see a new tab appear on your screen.
+Start by going to the top of your screen and clicking Window ➜ Plugin ➜ Probe Module. You will see a new tab appear on your screen.
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p4.jpg){.aligncenter .size-medium}
 

@@ -114,7 +114,7 @@ Manual replacement can get old quick, so other methods exist to automate this pr
 Another option if you're using CNCjs is to set up custom 'Events':
 
 <ol>
-  <li>Go to Settings (gears on the left) -&gt; Events, and add a new event for the both commands</li>
+  <li>Go to Settings (gears on the left) ➜ Events, and add a new event for the both commands</li>
   <li>Use events “G-code: Start” for the M8 command and “G-code: Stop” for M9</li>
 </ol>
 
