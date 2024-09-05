@@ -43,7 +43,7 @@ You can choose to either use gSender or the STM Cube Programmer software to upda
 
 1. Be connected to your SLB over USB with the power on, ensure the firmware selected is “grblHAL” not “grbl”
 
-   ![](/_images/_superlongboard/_firmware/slb_fi_p1_Connected.jpg){.aligncenter .size-medium}
+   ![](/_images/_superlongboard/_firmware/slb_fi_p1_Connected.png){.aligncenter .size-medium}
 1. Go to the ‘Firmware’ tool and click the “Flash grblHAL” button
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p2_FlashgrblHAL.jpg){.aligncenter .size-medium}
