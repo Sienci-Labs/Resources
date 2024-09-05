@@ -97,7 +97,7 @@ If you just updated gSender and are finding that it's not working for you, downg
 
 ## Chromebook
 
-You can run gSender by using Linux inside of ChromeOS as long as you’re running 64-bit. Set up Linux on your Chromebook with <a href="https://support.google.com/chromebook/answer/9145439?hl=en" target="_blank" rel="noopener">these instructions</a>. Open the command line and type: <code class="inline">cat /etc/os-release</code> or <code class="inline">uname -m</code> to see what architecture/operating system you are using, so you’ll know which gSender file to download. In the example below you can see we are running aarch64, which means we will want to download "arm-64bit.AppImage".
+You can run gSender by using Linux inside of ChromeOS as long as you’re running 64-bit. Set up Linux on your Chromebook with <a href="https://support.google.com/chromebook/answer/9145439?hl=en" target="_blank" rel="noopener">these instructions</a>. Open the command line and type: `cat /etc/os-release` or `uname -m` to see what architecture/operating system you are using, so you’ll know which gSender file to download. In the example below you can see we are running aarch64, which means we will want to download "arm-64bit.AppImage".
 
 ![](/_images/_gsender/_install/gs_in_chromebook-arch.png){.aligncenter .size-medium}
 

@@ -280,7 +280,7 @@ If the laser testing didn’t go as planned, check your wiring and that you’ve
 
 One thing worth double-checking is that you're getting the correct amount of movement out of your rotary axis. You can do this by simply jogging the A-axis by 360 degrees to see if it makes one full rotation.
 
-If this doesn't happen, then your steps/mm machine setting might be set incorrectly. You can find this in the Firmware tool under "A=axis travel resolution" also known as $103, and for the Vortex rotary this value should be `79.01234568`. If you're not using the Vortex, then there's some [other troubleshooting here](https://resources.sienci.com/view/vx-troubleshooting/#rotation-is-incorrect).
+If this doesn't happen, then your steps/mm machine setting might be set incorrectly. You can find this in the Firmware tool under "A-axis travel resolution" also known as $103, and for the Vortex rotary this value should be `79.01234568`. If you're not using the Vortex, then there's some [other troubleshooting here](https://resources.sienci.com/view/vx-troubleshooting/#rotation-is-incorrect).
 
 ## Routing
 

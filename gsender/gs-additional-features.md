@@ -190,18 +190,19 @@ If you want some initial inspiration, see other macros **made by our community**
 
 1. You'll want to develop your understanding of typical <a href="https://linuxcnc.org/docs/html/gcode/g-code.html" target="_blank" rel="noopener">g-codes</a> and <a href="https://linuxcnc.org/docs/devel/html/gcode/m-code.html" target="_blank" rel="noopener">m-codes</a> that are used for CNC control (the pages linked are very good sources for that)
 1. The "Macro Variables" dropdown in gSender shows many of the most commonly used operations when making your own macro
-1. Make your own variable with <code class="inline"> %variable = value_you_want_to_set</code> (ex. % probeSpeed = 150)
-1. Use your variable in g-code, like <code class="inline">G0 G91 G21 X[variable]</code> (moves the X-axis by the amount set in the variable)
-1. Test your code by printing it to the console <code class="inline">([variable])</code>
+1. Make your own variable with `%variable = value_you_want_to_set` (ex. % probeSpeed = 150)
+1. Use your variable in g-code, like `G0 G91 G21 X[variable]` (moves the X-axis by the amount set in the variable)
+1. Test your code by printing it to the console `([variable])`
+1. Make dialog boxes appear on the screen to confirm a value or position by putting in an M0 line with a comment, for example `M0 ;Remember to turn on your router before the next step` which will pause the macro and give you the option to 'continue' or 'cancel'
 1. Start experimenting with basic math using numbers and variables
-1. Use global variables <code class="inline">global.variable</code> if you want variables that you can use in other macros (note that these get reset once gSender is closed)
+1. Use global variables `global.variable` if you want variables that you can use in other macros (note that these get reset once gSender is closed)
 1. Read up on all the other Math features available like <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math" target="_blank" rel="noopener">absolute value, rounding, and trigonometry</a> (become very useful for more advanced probing cycles for example)
-1. Start to add more logic to your code using ternary expressions to choose between two outcomes (e.g. <code class="inline">%variable = (30 &gt; 20) ? 10 : 20</code> which is checking if 30 is bigger than 20, and if it is it'll make the variable = 10, otherwise it'll make the variable = 20).
+1. Start to add more logic to your code using ternary expressions to choose between two outcomes (e.g. `%variable = (30 &gt; 20) ? 10 : 20` which is checking if 30 is bigger than 20, and if it is it'll make the variable = 10, otherwise it'll make the variable = 20).
 1. Here's an example of a more advanced macro, made by gSenders Lead Developer, which shows off much of the guidance given above. This macro was made for our new <a href="https://sienci.com/product/slb/" target="_blank" rel="noopener">SLB control board</a> in order to cycle between its 3 <a href="https://resources.sienci.com/view/slb-manual/#status-lights" target="_blank" rel="noopener">status light states</a>.
    - The macro is only 3 lines.  First it checks what the current light state is and sets it to 0 if it doesn't have a state. Next, it sets the lights to the current state but applies a modulus of 3 since we can only have a state value of 0, 1, or 2 so we'll get an error if the value is 3 or above. Lastly, it adds +1 to the state so that if the macro is run again it'll put the lights into a new state.
-   - <code class="inline">%nextLight = global.lightState || 0</code>
-   - <code class="inline">M356 P0 Q[nextLight % 3]</code>
-   - <code class="inline">%global.lightState = Number(nextLight) + 1</code>
+   - `%nextLight = global.lightState || 0`
+   - `M356 P0 Q[nextLight % 3]`
+   - `%global.lightState = Number(nextLight) + 1`
 1. Read more about the Esprima library here: <a href="https://docs.esprima.org/en/latest/syntactic-analysis.html" target="_blank" rel="noopener">https://docs.esprima.org/en/latest/syntactic-analysis.html</a>
 
 ## Console
@@ -482,7 +483,7 @@ During initial setup, you might see a Security Alert window pop up or run into a
 
 ![](/_images/_gsender/_features/_remote/gs_fe_re_firewall-windows.jpg){.aligncenter .size-medium}
 
-**For Mac / Linux / Pi:** If you find that you can’t connect with outside devices or just want some extra safety you might want to try opening the Universal FireWall (UFW) on a given port to allow external access. This can be started with <code class="inline">sudo ufw enable</code> (if UFW is not found then install it using <code class="inline">sudo apt-get install ufw</code> and your root password) then opening the desired port, for example <code class="inline">sudo ufw allow 8080</code> opens port 8080 for external access. If you want to see what ports are already open, you can use <code class="inline">ufw status verbose</code>.
+**For Mac / Linux / Pi:** If you find that you can’t connect with outside devices or just want some extra safety you might want to try opening the Universal FireWall (UFW) on a given port to allow external access. This can be started with `sudo ufw enable` (if UFW is not found then install it using `sudo apt-get install ufw` and your root password) then opening the desired port, for example `sudo ufw allow 8080` opens port 8080 for external access. If you want to see what ports are already open, you can use `ufw status verbose`.
 
 ### Using gSender Remotely
 
