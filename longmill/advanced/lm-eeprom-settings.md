@@ -23,6 +23,7 @@ Start by sending the command "$$" to your machine. Your console will give you a 
 
 ## Default Settings
 
+[su_table]
 <table>
 <tbody>
   <tr>
@@ -252,6 +253,7 @@ Start by sending the command "$$" to your machine. Your console will give you a 
   </tr>
 </tbody>
 </table>
+[/su_table]
 
 To change a setting, simply send the command that corresponds to what setting you want to change. For example, if I want to set my maximum feed rate in the Z-axis to 1500mm/min, then I would send the command "$112=1500".
 
