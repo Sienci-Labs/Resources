@@ -651,7 +651,7 @@ For RS485, you can use EITHER the 4-pin connector with B, A, 5V, and GND (left-t
 
 **Note:** if the VFD has a jumper to swap from controlling the spindle with the panel to using the wire signals, change this over. In the example below it’s the left 2 pins and called “VI”.
 
-![](/_images/_superlongboard/_manual/slb_ma_p41_PlugsVFD.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p41_PlugsVFD-2.jpg){.aligncenter .size-full}
 
 #### 5V PWM Hookup
 
