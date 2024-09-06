@@ -2,7 +2,7 @@
 title: Firmware & Flashing
 menu_order: 4
 post_status: publish
-post_excerpt: See more on SLB settings and troubleshooting, especially useful on DIY CNC setups to better understand how to configure your SLB for your machine.
+post_excerpt: 
 post_date: 2024-04-03 18:00:00
 taxonomy:
     knowledgebase_cat: slb-handbook
@@ -17,7 +17,7 @@ featured_image: _images/_superlongboard/_firmware/slb_fi_p1_Connected.jpg
 
 Your board will likely ship with the latest firmware already installed, but we occasionally make updates. These updates will typically add new features to the SLB or address any discovered bugs. You may also choose to re-flash the firmware onto your board if you’ve attempted to customize it or for troubleshooting purposes.
 
-<b><span class="redText">Do not flash your SLB unless you've done it before and are absolutely sure you know what you're doing or are being guided by our team.</span></b> The flashing process can be touchy the first time, so if you're having problems then please contact our team first otherwise be prepared to accept a regretful outcome.
+<b><span class="redText">Do not flash your SLB unless you've done it before and are absolutely sure you know what you're doing or are being guided by our team.</span> The flashing process can be touchy the first time, so if you're having problems then please contact our team first otherwise be prepared to accept a regretful outcome.</b>
 
 Before getting started, check what your current version is by going to the ‘Console’ of your g-code sender and send the command “$i”. The result will be a long list of text in square brackets. If you scroll down to about the 9th line you’ll see something like “[BOARD:” where you’ll also see the version number at the end. Compare this to the version list below to see which one you’d like to flash:
 
