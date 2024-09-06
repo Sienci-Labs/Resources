@@ -54,13 +54,13 @@ The 'Rapid', 'Normal', and 'Precise' buttons will allow you to toggle to differe
 Each g-code file or project will have a starting position that all other movements are referenced off of. This is the zero or origin. There are two ways to manually set your zero on gSender.
 
 1. Set the zero for each axis one at a time using 'Zero X', 'Zero Y', and 'Zero Z' buttons
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-individual_updated.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-individual.png){.aligncenter .size-full}
 1. Set the zeros all at once using 'Zero All'
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-all_Updated.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-all.png){.aligncenter .size-full}
 
 The large blue numbers tell you the current position of your machine. If you want to return to your zero position, you can press the 'Go to' for each individual axis.
 
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos_Updated.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos.png){.aligncenter .size-medium}
 
 You can also use the'Go to XY0' to return to the starting position in X and Y in one movement. You should see all three large blue numbers read “0.00” once you have returned to your zero for all axes.
 

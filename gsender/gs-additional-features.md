@@ -117,7 +117,7 @@ If your joystick isn’t performing as well as the automatic controls, you can m
 - The **Zero Threshold** dials in how far you have to push a joystick for it to register.
 - The **Movement Distance Override** allows you to fine-tune the jogging distance that is calculated when moving your joystick around. If you notice some stuttering when jogging, then the system is hungry for more commands, so try increasing the override value to help send jog commands more often. You will know you have eliminated lag if you see and hear the unit move around smoothly.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-joystick-thresh_Updated.png){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-joystick-thresh.png){.aligncenter .size-full .nar}
 
 Another cool feature is the **Use MPG** selection. If you map one of your joysticks to an axis with MPG selected, it will automatically grey out the other stick selections. Now you can rotate your stick in any direction and for each quarter rotation, your axis will move once, according to your preselected Jog Controls.
 
@@ -565,7 +565,7 @@ For CNC machines, tool changes are pauses that are programmed in the g-code for 
 
 The tool change options are in the Settings ➜ Tool Change menu. You can select from one of 6 different options.
 
-![](/_images/_gsender/_features/gs_fe_tool-change-strat_Update.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/gs_fe_tool-change-strat.png){.aligncenter .size-full}
 
 You can **Ignore** any M6 tool change commands, **Pause** the job when a tool change is recognized, or select one of the last three **Wizards** that will guide you through pre-set tool changing methods. In the split image below, you can see an example of the job **Pause** on the left side and the **Wizard** on the right.
 
@@ -646,7 +646,7 @@ All setup steps need to happen on the inline computer (the computer you’ll hav
      1. First you’ll want to click the ‘Enable Remote Mode’ toggle.
      1. Second, click the box next to ‘IP’ and select one of the options that gSender tries to recommend for your particular computer network. For an average setup the ‘Port’ value can also be left alone.
      1. The third step is to click on OK once you have completed the configuration. **You can also use your camera to scan the QR code, and be taken directly to your remote interface!**
-![](/_images/_gsender/_features/_remote/gs_fe_re_setup-config_Update.png){.aligncenter .size-full}<br>
+![](/_images/_gsender/_features/_remote/gs_fe_re_setup-config.png){.aligncenter .size-full}<br>
 If you’re an **advanced user** or have tried the default values without success, you can type in any other IP address or Port that you’d like since the defaults aren’t guaranteed to work. Common port values are 3000, 8000, and 8080 and generally don’t go below 1024 since those are considered privileged. Changing IP addresses can also help if you’re running a VPN or need a different internal IP to external IP mapping.
 1. gSender needs to restart in order for the remaining changes to take place. You can choose to restart immediately or wait until later.
 ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-restart.jpg){.aligncenter .size-medium}
