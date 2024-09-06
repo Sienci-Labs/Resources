@@ -2,8 +2,8 @@
 title: Edge Features
 menu_order: 4
 post_status: publish
-post_excerpt: Learn the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, lasers, coolant, and more.
-post_date: 2021-07-01 15:55
+post_excerpt: 
+post_date: 2021-07-01 15:55:00
 taxonomy:
     knowledgebase_cat: gdocs
     knowledgebase_tag:
