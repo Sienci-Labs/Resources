@@ -82,7 +82,7 @@ To better guarantee your experience using a gamepad in gSender, we’ve taken th
 </table>
 [/su_table]
 
-Having a listed gamepad means you can both be more confident that your hardware will be compatible with gSender, as well as many of the ‘tested gamepads’ will have pre-made shortcut profiles built right in to save you time setting up your own. Find these pre-made ‘profiles’ alongside all the other gamepad settings in the Shortcuts ➜ Gamepad tab.
+Having a listed gamepad means you can both be more confident that your hardware will be compatible with gSender, as well as many of the ‘tested gamepads’ will have pre-made shortcut profiles built right in to save you time setting up your own. Find these pre-made ‘profiles’ alongside all the other gamepad settings in the **Shortcuts ➜ Gamepad tab**.
 
 ### Shortcut Printing
 
@@ -398,7 +398,7 @@ For the text-box of the situation you want the action to happen, type in the g-c
 
 For CNC machines, tool changes are pauses that are programmed in the g-code for a user to switch out the cutting tool for a different one, thus allowing for multiple toolpaths (cutting operations) within one g-code file. The g-code for tool changing is an M6 command, in which the program will pause until the user tells it to continue, usually through a 'Resume' and/or 'Confirm Tool Change' button on the machine interface program. On gSender, you can program what happens when there is M6 in your g-code.
 
-The tool change options are in the Settings ➜ Tool Change menu. You can select from one of 5 different options.
+The tool change options are in the Settings ➜ Tool Change menu. You can select from one of 6 different options.
 
 ![](/_images/_gsender/_features/gs_fe_tool-change-strat.png){.aligncenter .size-full}
 
