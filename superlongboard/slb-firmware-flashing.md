@@ -96,7 +96,7 @@ To do this we’ll use a program called Zadig. The program is only needed to mak
 1. Put the SLB into DFU mode. There is two methods for this:
    - Connect to the SLB in gSender and type “$dfu” in the Console tab. This will disconnect it from gSender and it will no longer appear in the dropdown connection area.
    - Or use a jumper, flathead screwdriver, or other small piece of metal to short between two pins on the SLB near the USB port. The two pins will have “SPIN” written near them, and you'll need to be shorting them while you use the power toggle switch to turn the SLB on.
-1. Open Zadig and in the toolbar click ‘Options’ -&gt; “List all Devices”
+1. Open Zadig and in the toolbar click ‘Options’ ➜ “List all Devices”
 1. In the main dropdown, find and select the “STM32 Bootloader” device. This name might change depending on your current operating system.
 ![](/_images/_superlongboard/_firmware/slb_fi_p8_SMT32.png){.aligncenter .size-medium}
 1. Make sure that “WinUSB” is the selected driver type.

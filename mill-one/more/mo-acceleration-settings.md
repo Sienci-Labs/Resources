@@ -29,9 +29,9 @@ The default speeds of the Mill One have been set to be relatively slow, to ensur
 
 Changing acceleration settings on your Mill One is extremely easy to do, especially with Universal G-Code Sender or UGS Platform. First you must access the firmware settings.
 
-For Universal G-Code Sender, from the upper left hand corner, click <b>Settings -&gt; Firmware Settings</b>
+For Universal G-Code Sender, from the upper left hand corner, click <b>Settings ➜ Firmware Settings</b>
 
-For UGS Platform, from the upper left hand corner, click <b>Machine -&gt; Firmware Settings</b>
+For UGS Platform, from the upper left hand corner, click <b>Machine ➜ Firmware Settings</b>
 
 This will bring up a window that looks like this:
 
