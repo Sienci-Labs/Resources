@@ -49,7 +49,7 @@ Many users really love this feature since using a controller is convenient (espe
 
 You can select one of the preset and tested profiles or create your own. To create your own, connect your joystick to your computer and create a new profile using the ‘Add New Gamepad Profile’ button. This will enable you to set up multiple profiles if desired, for different controllers, as they each have their own unique ID.
 
-If you run into difficulty with getting a particular joystick set up in gSender, consider searching for documentation provided by the manufacturer (for example, <a href="https://support.xbox.com/en-CA/help/hardware-network/controller/connect-xbox-wireless-controller-to-pc">Xbox</a> or <a href="https://www.playstation.com/en-ca/support/hardware/ps4-pair-dualshock-4-wireless-with-pc-or-mac/">PlayStation</a>). Some joysticks may also require drivers to be downloaded so your computer can read the signals that the joystick sends out.
+If you run into difficulty with getting a particular joystick set up in gSender, consider searching for documentation provided by the manufacturer (for example, <a href="https://support.xbox.com/en-CA/help/hardware-network/controller/connect-xbox-wireless-controller-to-pc" target="_blank" rel="noopener">Xbox</a> or <a href="https://www.playstation.com/en-ca/support/hardware/ps4-pair-dualshock-4-wireless-with-pc-or-mac/" target="_blank" rel="noopener">PlayStation</a>). Some joysticks may also require drivers to be downloaded so your computer can read the signals that the joystick sends out.
 
 ![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-add.jpg){.aligncenter .size-full}
 
@@ -61,10 +61,7 @@ To better guarantee your experience using a gamepad in gSender, we’ve taken th
 <table>
 <tbody>
 <tr>
-<td>
-
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_controller-xbox.jpg){.alignnone .size-medium}
-</td>
+<td><img class="non alignnone" src="https://resources.sienci.com/wp-content/uploads/2024/08/gs_fe_sh_controller-xbox-1.png" alt="" width="240" height="180" /></td>
 <td><b>YCCTeam Xbox Controller</b>
 <ul>
   <li>Wireless</li>
@@ -73,10 +70,7 @@ To better guarantee your experience using a gamepad in gSender, we’ve taken th
 </td>
 </tr>
 <tr>
-<td>
-
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_controller-logi.jpg){.alignnone .size-medium}
-</td>
+<td><img class="non alignnone" src="https://resources.sienci.com/wp-content/uploads/2024/08/gs_fe_sh_controller-logi-1.png" alt="" width="240" height="180" /></td>
 <td><b>Logitech F710</b>
 <ul>
   <li>Wireless</li>
@@ -175,7 +169,7 @@ Many hobby CNCers don't have a need for coolant and so prefer to use these outpu
 
 ![](/_images/_gsender/_features/gs_fe_coolant-run.jpg){.aligncenter .size-medium}
 
-## Spindle &amp; Laser Support
+## Spindle & Laser Support
 
 Similar to the manual coolant control, this area is for manual control of a spindle or laser outside of g-code sending. If you have a spindle or laser, you can activate these controls by going to the settings gear at the far right. In the ‘Spindle/Laser’ section in the left toolbar, press the toggle for ‘Spindle/Laser’.
 
@@ -284,7 +278,7 @@ In gSender, select the rotary axis tab, then Click ‘Probe Rotary Z-axis’ and
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_z-probe.jpg){.aligncenter .size-full .nar}
 
-##### Setting X &amp; A axis
+##### Setting X & A axis
 
 Setting both the X-axis and the A-axis are done manually.
 
@@ -468,8 +462,8 @@ Surfacing the wasteboard of your machine can easily be done right inside gSender
 ![](/_images/_gsender/_features/_surface/gs_fe_su_open.jpg){.aligncenter .size-full}
 
 1. Start by entering the settings you’d like to use to generate your surfacing job:
-   - **X &amp; Y**: decides the cutting size (width and depth) you want to surface. If you’re surfacing your wasteboard, use the manufacturer’s spec on max machine travel or manually jog to the limits to cover the full cutting area, or if you’re surfacing a piece of material then you can use a measuring tape.<br>- **LongMill MK2**: 818mm (32.2”) or 1278 (50.3”) x 366mm (14.4”) or 866 (34.1”)<br>(if using limit switches, remove about 8mm/0.3” in X and 11mm/0.43” in Y)<br>- **LongMill MK1**: 320mm (12.6”) or 805 (31.7”) x 344mm (13.54”) or 844 (33.23”)<br>(if using limit switches, remove about 35mm/1.38” in X and 24mm/0.94” in Y)<br>(if using magnetic dust shoe, remove about 34mm/1.34” in X)<br>- **Mill One**: 235mm (9.25”) or 257 (10.1”) x 185mm (7.28”)
-   - **Cut Depth &amp; Max**: describes how deep you want to cut per pass and the total depth you want to cut down. For larger surfacing bits usually you should keep cut depth below 1mm, max depth should be increased to a couple millimeters if you think your material is very warped.
+   - **X & Y**: decides the cutting size (width and depth) you want to surface. If you’re surfacing your wasteboard, use the manufacturer’s spec on max machine travel or manually jog to the limits to cover the full cutting area, or if you’re surfacing a piece of material then you can use a measuring tape.<br>- **LongMill MK2**: 818mm (32.2”) or 1278 (50.3”) x 366mm (14.4”) or 866 (34.1”)<br>(if using limit switches, remove about 8mm/0.3” in X and 11mm/0.43” in Y)<br>- **LongMill MK1**: 320mm (12.6”) or 805 (31.7”) x 344mm (13.54”) or 844 (33.23”)<br>(if using limit switches, remove about 35mm/1.38” in X and 24mm/0.94” in Y)<br>(if using magnetic dust shoe, remove about 34mm/1.34” in X)<br>- **Mill One**: 235mm (9.25”) or 257 (10.1”) x 185mm (7.28”)
+   - **Cut Depth & Max**: describes how deep you want to cut per pass and the total depth you want to cut down. For larger surfacing bits usually you should keep cut depth below 1mm, max depth should be increased to a couple millimeters if you think your material is very warped.
    - **Bit** (typically 6 - 25mm): make sure you have the right bit for the job like a surfacing tool or a large, flat end mill since this will give you a better surface finish.
    - **Spindle RPM** (default 1700): only applies if you have an automatic speed control, otherwise set this manually on your router.
    - **Feed rate** (default 2500mm/min): influenced by the RPM, step over, bit diameter, and cut depth. Luckily if you set it incorrectly you’ll be able to override it during the job since surfacing can cause burning when cutting too slow or can have worse surface finish when cutting too fast.
@@ -486,7 +480,7 @@ Did you know that surfacing can be used for more than your wasteboard? It’s gr
 
 ## Job Stats and CNC Maintenance
 
-Curious to know how many jobs you’ve completed, how many hours you’ve put on your machine or what maintenance you should be focusing on? Find this information in the “Job History &amp; Stats” section of settings. Here you will find 3 tabs; Statistics, Job Table, and Maintenance.
+Curious to know how many jobs you’ve completed, how many hours you’ve put on your machine or what maintenance you should be focusing on? Find this information in the “Job History & Stats” section of settings. Here you will find 3 tabs; Statistics, Job Table, and Maintenance.
 
 ![](/_images/_gsender/_features/gs_fe_stats-gif.gif){.aligncenter .size-full}
 

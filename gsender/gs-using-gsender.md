@@ -130,7 +130,7 @@ A blue button called 'Start Probe' will appear if you have successfully confirme
 
 If you have already prepared a project file, ensure the following:
 
-1. The file is an *.nc,*.g-code, *.tap,*.gc, or *.cnc file.
+1. The file is an \*.nc, \*.g-code, \*.tap, \*.gc, or \*.cnc file.
 1. The file is exported to the correct post processor for the LongMill. Please see this page for the correct post processor for your CAM software: <a href="https://resources.sienci.com/view/lm-post-processors/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-post-processors/</a>.
 
 To run your project on gSender, press the 'Load File' button. A dialog box should pop up, where you can navigate to where your file is. If you want to reload a previous file you can also click the ‘&gt;’ button which will allow you to select from recently opened files.
