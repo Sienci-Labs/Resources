@@ -12,7 +12,7 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_gsender/_setup/gs_se_main-layout.png
+featured_image: _images/_gsender/_setup/gs_se_main-layout.jpg
 ---
 
 ## Anonymous Information
@@ -29,7 +29,7 @@ Before starting to use gSender, let's briefly cover the way its functions are la
 - The left-side control (boxed in green) has all the functions you need for loading, monitoring, and controlling g-code files and cutting jobs
 - The right-side control (boxed in purple) has all the functions you need to manually control your CNC when jobs aren't running. This includes jogging, zero setting, homing, probing, running macros, manual laser / spindle control, and more.
 
-![](/_images/_gsender/_setup/gs_se_main-layout.png){.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_se_main-layout.jpg){.aligncenter .size-medium}
 
 We’ve built gSender’s layout around these primary boxed sections so that you can have all of the CNC functionality most hobbyists need on one screen without getting confused about what each button does. If you’re doing anything **during** a job it’ll be on the left side, if you’re doing anything **outside** a job it’ll likely be on the right, and if you want greater customization or functionality it’ll be found in the tools or settings.
 
@@ -49,7 +49,7 @@ Let's do some configuration before connecting up to your CNC. Click the 'gear' a
 - **Visualizer Settings**
   - Set to light theme if you prefer
 
-  ![](/_images/_gsender/_setup/gs_se_config-vis.png){.aligncenter .size-full}
+  ![](/_images/_gsender/_setup/gs_se_config-vis.jpg){.aligncenter .size-full}
 
 ### Machine Profiles
 
@@ -85,14 +85,14 @@ Now, whichever plan you have currently selected (circled in the picture) will be
 
 Go to the second drop-down and set both battery and plugged in selection to **Never**, save the changes to ensure that your computer never dozes off on its own.
 
-![](/_images/_gsender/_setup/gs_se_awake-never-sleep.png){.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_se_awake-never-sleep.jpg){.aligncenter .size-medium}
 
 To keep the USB ports on, click **Change advanced power settings**
 
-![](/_images/_gsender/_setup/gs_se_awake-advanced.png){.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_se_awake-advanced.jpg){.aligncenter .size-medium}
 
 In the separate window that appears, you’ll want to Expand the **USB Settings**, then **USB selective suspend setting**, and finally change both the battery and plugged in settings for these drop-downs to ‘**Disabled**’. Click OK to **Apply** these new settings.
 
-![](/_images/_gsender/_setup/gs_se_awake-USB.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_se_awake-usb.jpg){.aligncenter .size-medium}
 
 After having done all of this, just be mindful now that sometimes a Windows update can remove these settings. If you have an update and want to be confident running your CNC, we'd recommend checking back on these settings to make sure they're still set properly.

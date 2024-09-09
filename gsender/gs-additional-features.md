@@ -51,7 +51,7 @@ You can select one of the preset and tested profiles or create your own. To crea
 
 If you run into difficulty with getting a particular joystick set up in gSender, consider searching for documentation provided by the manufacturer (for example, <a href="https://support.xbox.com/en-CA/help/hardware-network/controller/connect-xbox-wireless-controller-to-pc">Xbox</a> or <a href="https://www.playstation.com/en-ca/support/hardware/ps4-pair-dualshock-4-wireless-with-pc-or-mac/">PlayStation</a>). Some joysticks may also require drivers to be downloaded so your computer can read the signals that the joystick sends out.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-add.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-add.jpg){.aligncenter .size-full}
 
 ### Tested Gamepads
 
@@ -61,7 +61,10 @@ To better guarantee your experience using a gamepad in gSender, we’ve taken th
 <table>
 <tbody>
 <tr>
-<td><img class="non alignnone" src="https://resources.sienci.com/wp-content/uploads/2024/08/gs_fe_sh_controller-xbox-1.png" alt="" width="240" height="180" /></td>
+<td>
+
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_controller-xbox.jpg){.alignnone .size-medium}
+</td>
 <td><b>YCCTeam Xbox Controller</b>
 <ul>
   <li>Wireless</li>
@@ -70,7 +73,10 @@ To better guarantee your experience using a gamepad in gSender, we’ve taken th
 </td>
 </tr>
 <tr>
-<td><img class="non alignnone" src="https://resources.sienci.com/wp-content/uploads/2024/08/gs_fe_sh_controller-logi-1.png" alt="" width="240" height="180" /></td>
+<td>
+
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_controller-logi.jpg){.alignnone .size-medium}
+</td>
 <td><b>Logitech F710</b>
 <ul>
   <li>Wireless</li>
@@ -86,7 +92,7 @@ Having a listed gamepad means you can both be more confident that your hardware 
 
 Connect your controller to your PC and press any button on it. gSender will identify and provide a profile if one is available. You can see in the screenshot below, it correctly identifies the DualSense Wireless Controller I’m adding. Enter your profile name and hit **Add New Profile**.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-new.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-new.jpg){.aligncenter .size-full}
 
 Your new profile will now appear on the Gamepad tab of the Shortcuts page in Settings. Click on the profile you want to edit.
 
@@ -117,7 +123,7 @@ If your joystick isn’t performing as well as the automatic controls, you can m
 - The **Zero Threshold** dials in how far you have to push a joystick for it to register.
 - The **Movement Distance Override** allows you to fine-tune the jogging distance that is calculated when moving your joystick around. If you notice some stuttering when jogging, then the system is hungry for more commands, so try increasing the override value to help send jog commands more often. You will know you have eliminated lag if you see and hear the unit move around smoothly.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-joystick-thresh.png){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-joystick-thresh.jpg){.aligncenter .size-full .nar}
 
 Another cool feature is the **Use MPG** selection. If you map one of your joysticks to an axis with MPG selected, it will automatically grey out the other stick selections. Now you can rotate your stick in any direction and for each quarter rotation, your axis will move once, according to your preselected Jog Controls.
 
@@ -127,17 +133,17 @@ Another cool feature is the **Use MPG** selection. If you map one of your joysti
 
 Find yourself forgetting how you’ve configured your keyboard or gamepad profile shortcuts? Hit the ‘Print’ button to generate a simple PDF that you can store on a tablet or print on some paper to keep next to your CNC. This PDF will contain all the shortcuts you’ve created and what actions they’re assigned to.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_print.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_print.jpg){.aligncenter .size-full}
 
 ## Lightweight Mode
 
 This mode enables gSender to run faster on computers that are less powerful and prone to lagging. ‘Lightweight Mode’ reduces the memory gSender uses by turning off processor-heavy aspects of the visualizer, from reducing detail to disabling it altogether. You can toggle it on or off using the slider positioned at the top right of the visualizer.
 
-![](/_images/_gsender/_features/gs_fe_lightweight-1.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_fe_lightweight-1.jpg){.aligncenter .size-medium}
 
 If you go to the visualizer settings, you can also customize what features are active in both ‘Regular’ and ‘Lightweight’ modes.
 
-![](/_images/_gsender/_features/gs_fe_lightweight-2.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_fe_lightweight-2.jpg){.aligncenter .size-medium}
 
 If gSender's visualizer is impacting the performance of your machine but Lightweight mode only helps once the whole visualizer is turned off, this hybrid option could help. Found in the Visualizer settings, the ‘SVG Visualizer’ substitutes the default 3D viewer with a pre-rendered, top-down image of your project, drastically reducing computer strain but still allowing the project to be displayed.
 
@@ -145,7 +151,7 @@ If gSender's visualizer is impacting the performance of your machine but Lightwe
 
 Once you toggle on ‘Enable SVG Visualizer’, whenever you turn on Lightweight Mode in the top right of the visualizer, you’ll see the alternate view with all animations turned off.
 
-![](/_images/_gsender/_features/gs_fe_lightweight-4.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/gs_fe_lightweight-4.jpg){.aligncenter .size-full}
 
 ## Touch Plate Setup
 
@@ -159,7 +165,7 @@ For a Z Probe, setting up is simple since you just need the thickness of the ‘
 
 If you’re trying to set up a custom ‘standard block’ plate, use some calipers to pick up on the measurements noted below. Once these are noted down, enter these into gSender’s ‘Probe’ settings in similarly named entries, and now you should find that gSender’s probing routine has been altered to fit the shape of your touch plate.
 
-![](/_images/_gsender/_features/_probing/gs_fe_pr_dimensions.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_probing/gs_fe_pr_dimensions.jpg){.aligncenter .size-medium}
 
 ## Coolant Control / IOT Relay
 
@@ -167,7 +173,7 @@ If you have a coolant control pin on your CNC machine, gSender has a tab for man
 
 Many hobby CNCers don't have a need for coolant and so prefer to use these outputs for controlling other periphery. The most common is an IOT relay that can be used to automatically control a vacuum for dust collection, the CNC's router, LED lighting, and more. See an example of how to set that up here: <a href="https://resources.sienci.com/view/lm-iot-relay/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-iot-relay/</a>
 
-![](/_images/_gsender/_features/gs_fe_coolant-run.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_fe_coolant-run.jpg){.aligncenter .size-medium}
 
 ## Spindle &amp; Laser Support
 
@@ -179,11 +185,11 @@ Back at the main screen, you'll see the ‘Spindle/Laser’ tab at the bottom ri
 
 In spindle mode you can set the spindle speed with a slider, spin it up in either direction, and stop it again with the 'Stop' button. These are all based on g-code commands that can also be entered into the console manually if desired. The speed slider is set from your grbl firmware settings, so max and min speed can be altered in the Firmware Tool.
 
-![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_spindle-on.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_spindle-on.jpg){.aligncenter .size-medium}
 
 'Laser Mode' is very similar, allowing for On/Off control, a slider for setting the laser power during manual control, and a ‘Laser Test’ button. The laser testing function is handy when troubleshooting your laser setup or for other sorts of locating and alignment because it only enables the laser for a short time before turning it back off again. Though this is much safer than regular on/off control, we still highly advise that you have you have a hand on a kill switch or E-stop during testing or control of either Laser or Spindle modes so that in case something goes wrong with your computer or the program they can still be safely deactivated.
 
-![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_laser-on.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_laser-on.jpg){.aligncenter .size-medium}
 
 ### Laser Diode Support
 
@@ -195,7 +201,7 @@ Since many CNCs are coming with diode accessories, gSender has some unique featu
 - Turn on the laser at low power when running a job outline (enabled in the Spindle/Laser settings). This will help you to better see where your project is going to be located on the material
 - Switch to a specialized visualization designed to show raster engraving images better than typical g-code visualizers. Seeing the laser intensity in the movements is very useful to get a better idea of what your projects are going to look like when they’re run. This will only apply to files loaded after ‘Laser mode’ is enabled and the colour can be customized in the settings
 
-![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_laser-vis.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_laser-vis.jpg){.aligncenter .size-medium}
 
 ### Rotary
 
@@ -272,7 +278,7 @@ You can set your **Z-axis** to either the rotating axis center, or the surface o
 
 To do this, jog the cutting bit to be hovering approximately ~15mm just above the chuck. **Double check that your probing wires are in place before proceeding!**
 
-![](/_images/_gsender/_features/_rotary/gs_fe_ro_z-position.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_z-position.jpg){.aligncenter .size-medium}
 
 In gSender, select the rotary axis tab, then Click ‘Probe Rotary Z-axis’ and the Z-axis will begin probing automatically, setting the Z-zero point for you. This will need to be done for each tool change in addition to the beginning of each job.
 
@@ -327,19 +333,19 @@ Macros are standalone buttons within the gSender interface that allow you to exe
 
 You can create macros using the ‘+’ button under the ‘Macros’ tab. Here you'll see a space for inputting your custom g-code and adding a name and description for the macro. Advanced users may also want to leverage ‘Macro Variables’ which allow for greater g-code manipulation and pseudo-programming. Press ‘Add New Macro’ when completed.
 
-![](/_images/_gsender/_features/gs_fe_macro-variable.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/gs_fe_macro-variable.jpg){.aligncenter .size-full}
 
 New macros will appear as buttons in the ‘Macro’ tab that can be rearranged by dragging them around. These buttons will display the macro name, show the description if you hover your mouse over them, and can always be later altered or deleted by clicking on their '...' button.
 
 Any macro can be executed by pressing it. Before pressing it, a play icon will appear to show that you can select it. Once running, you should see the macro start to pulse green while a toast notification on the bottom left hand side of gSender also notifies you that it's running.
 
-![](/_images/_gsender/_features/gs_fe_macro-run.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_fe_macro-run.jpg){.aligncenter .size-medium}
 
 Macros can also be executed using shortcuts. Every time you create a new macro it'll become available at the bottom of the shortcuts list for you to assign a key or joystick button to. Add your keybindings and enable them by pressing the slider beside the label.
 
 You can share macros with other users or transfer them between computers by using the import and export features. To import one or multiple macros, just press the button with the downward arrow and a browsing window will appear so that you can select the macros you wish to import. Similarly, to export all your current macros, press the button with the upward arrow and it'll generate a save file for you.
 
-![](/_images/_gsender/_features/gs_fe_macro-share.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/gs_fe_macro-share.jpg){.aligncenter .size-full}
 
 ### Advanced Macros
 
@@ -391,7 +397,7 @@ The 'Calibration Tool' on gSender enables you to make finer adjustments to your 
 - Movement Tuning
 - Surfacing Wasteboard
 
-![](/_images/_gsender/_features/_calibrate/gs_fe_ca_tool.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/_calibrate/gs_fe_ca_tool.jpg){.aligncenter .size-full}
 
 ### Diagnostics
 
@@ -399,7 +405,7 @@ If you’d like to see general information about your CNC or are experiencing is
 
 Here you'll see machine information, notable firmware settings, and at-a-glance status on whether your limit switches, touch probe, or other pins are activated. This can be handy if you’re encountering odd behaviour with certain machine accessories or to double-check your wiring.
 
-![](/_images/_gsender/_issues/gs_is_diagnostic-file.png){.aligncenter .size-full}
+![](/_images/_gsender/_issues/gs_is_diagnostic-file.jpg){.aligncenter .size-full}
 
 Another valuable feature is the ability to download a Diagnostic PDF file of your CNC machine when you click ‘Download Now!’. This PDF file is meant to include information on your computer, your CNC, recent alarms / errors, any currently loaded g-code file, and more. It's basically a treasure trove of information that you can share on community forums, Facebook groups, or with your CNC customer support. This can go a long way towards getting help from others on diagnosing any problems your CNC might be experiencing.
 
@@ -407,7 +413,7 @@ To download the PDF, click the “**Download Now!**” button. This will open a 
 
 Lastly, you can copy the last 40 lines of code in the gSender console (1), by hitting the double page icon to the left of the Run button (2). This will copy the code to your clipboard, so you can paste it to forums or share it with support teams.
 
-![](/_images/_gsender/_features/gs_fe_console-copy.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/gs_fe_console-copy.jpg){.aligncenter .size-full}
 
 ### XY Squaring
 
@@ -415,7 +421,7 @@ When mounting your LongMill on the table, there is a basic squaring process illu
 
 When you access the ‘Calibration Tool’ window, the ‘XY Squaring’ procedure is shown on the first tab. All instructions are illustrated in the window, however a brief overview will be provided.
 
-![](/_images/_gsender/_features/_calibrate/gs_fe_ca_square-xy-1.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_calibrate/gs_fe_ca_square-xy-1.jpg){.aligncenter .size-medium}
 
 You will need the following:
 
@@ -425,11 +431,11 @@ You will need the following:
 
 1. Jog the machine to the front left corner, with the bit raised slightly over the surface of your wasteboard
 1. Mark the points with tape and move the machine as directed
-![](/_images/_gsender/_features/_calibrate/gs_fe_ca_square-xy-2.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_calibrate/gs_fe_ca_square-xy-2.jpg){.aligncenter .size-medium}
 1. Measure the distance between the marked points and record the values
-![](/_images/_gsender/_features/_calibrate/gs_fe_ca_square-xy-3.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_calibrate/gs_fe_ca_square-xy-3.jpg){.aligncenter .size-medium}
 1. Adjust your rail positions with the values determined by the XY Squaring procedure
-![](/_images/_gsender/_features/_calibrate/gs_fe_ca_square-xy-result.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_calibrate/gs_fe_ca_square-xy-result.jpg){.aligncenter .size-medium}
 
 The great advantage to this tool is it saves you having to do the trigonometry yourself and will also let you know if your machine is aligned closely enough that it’s not worth worrying about.
 
@@ -444,13 +450,13 @@ You will need:
 
 1. Jog your machine to the middle of whichever axes you choose to tune, so that there is enough room to complete this procedure. For example, on the X-axis you would jog halfway on the X-axis rail
 1. Select what axis to tune on the drop down menu
-![](/_images/_gsender/_features/_calibrate/gs_fe_ca_tune-1.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_calibrate/gs_fe_ca_tune-1.jpg){.aligncenter .size-medium}
 1. Mark down the location of your reference on the machine. For example the X-axis tuning references the edge of the XZ gantry on the X rail
 1. Move the axis a chosen distance
 1. Measure the travel distance between the marked location and the reference edge
-![](/_images/_gsender/_features/_calibrate/gs_fe_ca_tune-2.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_calibrate/gs_fe_ca_tune-2.jpg){.aligncenter .size-medium}
 1. Change the EEPROM setting as recommended by the procedure by pressing 'Set EEPROM setting'
-![](/_images/_gsender/_features/_calibrate/gs_fe_ca_tune-result.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_calibrate/gs_fe_ca_tune-result.jpg){.aligncenter .size-medium}
 1. Repeat the procedure for each axis you wish to tune
 
 ### Surfacing
@@ -459,7 +465,7 @@ https://youtu.be/jfInIEOB3kU
 
 Surfacing the wasteboard of your machine can easily be done right inside gSender! The first thing you’ll want to do is decide where you want to start surfacing and in most cases the front, left of the machine is the most convenient. You might also want to remove any accessories that might get in the way of your machine travelling around during surfacing as well as have a good vacuum on hand because surfacing can get really messy. You can find the Surfacing Tool under the Calibrate tab, or under the Surfacing tab.
 
-![](/_images/_gsender/_features/_surface/gs_fe_su_open.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/_surface/gs_fe_su_open.jpg){.aligncenter .size-full}
 
 1. Start by entering the settings you’d like to use to generate your surfacing job:
    - **X &amp; Y**: decides the cutting size (width and depth) you want to surface. If you’re surfacing your wasteboard, use the manufacturer’s spec on max machine travel or manually jog to the limits to cover the full cutting area, or if you’re surfacing a piece of material then you can use a measuring tape.<br>- **LongMill MK2**: 818mm (32.2”) or 1278 (50.3”) x 366mm (14.4”) or 866 (34.1”)<br>(if using limit switches, remove about 8mm/0.3” in X and 11mm/0.43” in Y)<br>- **LongMill MK1**: 320mm (12.6”) or 805 (31.7”) x 344mm (13.54”) or 844 (33.23”)<br>(if using limit switches, remove about 35mm/1.38” in X and 24mm/0.94” in Y)<br>(if using magnetic dust shoe, remove about 34mm/1.34” in X)<br>- **Mill One**: 235mm (9.25”) or 257 (10.1”) x 185mm (7.28”)
@@ -468,13 +474,13 @@ Surfacing the wasteboard of your machine can easily be done right inside gSender
    - **Spindle RPM** (default 1700): only applies if you have an automatic speed control, otherwise set this manually on your router.
    - **Feed rate** (default 2500mm/min): influenced by the RPM, step over, bit diameter, and cut depth. Luckily if you set it incorrectly you’ll be able to override it during the job since surfacing can cause burning when cutting too slow or can have worse surface finish when cutting too fast.
    - **Step over** (default 40%): sticking around 40% tends to be a good balance between speed (using a higher %) and better surface finish (using a lower %).
-![](/_images/_gsender/_features/_surface/gs_fe_su_settings.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/_surface/gs_fe_su_settings.jpg){.aligncenter .size-full}
 1. Select a Start Position of any four corners or the center by clicking the dot; this is where the surfacing will begin. You can also select a surfacing pattern of spiral or zig-zag. The spiral will only cut from the inside-out if the start position is the centre. If you toggle the flip cut direction, the spiral will cut conventional instead of climb, and the zig-zag pattern will cut vertically instead of horizontally.
-![](/_images/_gsender/_features/_surface/gs_fe_su_position.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/_surface/gs_fe_su_position.jpg){.aligncenter .size-full}
 1. Press ‘Generate G-code’ and check your surfacing tool path using the ‘Visualizer Preview’ tab. You can also see the raw g-code using the ‘G-code Viewer’ tab and can copy and save it to a g-code file if you’d like to use it again later.
-![](/_images/_gsender/_features/_surface/gs_fe_su_generate.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/_surface/gs_fe_su_generate.jpg){.aligncenter .size-full}
 1. Press ‘Run on Main Visualizer’ to bring the g-code into gSender’s main screen. Make sure that you jog to the starting point and set your zero in the right place before starting the job. You can also press the ‘Outline’ button as an easy way to check that you’ll be surfacing where you expect and if you find the dimensions aren’t correct you can always re-open the surfacing tool, tweak the size, and try again. Feel free to start the job whenever you’re ready!
-![](/_images/_gsender/_features/_surface/gs_fe_su_result.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_surface/gs_fe_su_result.jpg){.aligncenter .size-medium}
 
 Did you know that surfacing can be used for more than your wasteboard? It’s great for creating a perfectly flat surface of your starting materials, just like a jointer or surface planer would. You can also use the <a href="https://docs.google.com/document/d/1yUO8bMAw5XoRO8AWGc3ZB5_WVj12ARP-kvf5pciUNL0/edit#heading=h.r1c788pgn92b">Rotary Surfacing</a> tool if you are wanting round stock.
 
@@ -565,7 +571,7 @@ For CNC machines, tool changes are pauses that are programmed in the g-code for 
 
 The tool change options are in the Settings ➜ Tool Change menu. You can select from one of 6 different options.
 
-![](/_images/_gsender/_features/gs_fe_tool-change-strat.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/gs_fe_tool-change-strat.jpg){.aligncenter .size-full}
 
 You can **Ignore** any M6 tool change commands, **Pause** the job when a tool change is recognized, or select one of the last three **Wizards** that will guide you through pre-set tool changing methods. In the split image below, you can see an example of the job **Pause** on the left side and the **Wizard** on the right.
 
@@ -578,19 +584,19 @@ If you are using one of the wizard options, know that you can access all other g
 1. **Standard Re-zero** (Wizard)<br>Titled ‘standard’ because it’s exactly the same as the standard process you might normally follow for running a file, changing the tool, re-zeroing Z, then running the next file except it’s applied to a single file with multiple toolpaths. Since the process is so familiar, this is a great way to dip your toes into tool changing within one file. Compatible with using a touch plate or the paper method, zero out at a predetermined spot (usually at the front left corner), and use jogging to move around. The advantage of introducing this extra automation and guidance during tool changes is that you don’t have to worry about custom macros and it reminds you of simple steps like turning the router back on or zeroing Z.
 1. **Flexible Re-zero** (Wizard)<br>Similar to the ‘standard’ wizard with similar steps and manual movements but provides the ability to zero Z off a point that wasn’t your starting Z when it comes time to change the tool. This is useful if you tend to carve away your material and lose the starting Z or you don’t have limit switches but would like a process similar to a tool length sensor.
 1. **Fixed Tool Sensor** (Wizard)<br>This is the most automated setting where all probes and movements are done for you, you only need to intervene by changing the tools. Set up the job and zero normally then expect the machine to move to the sensor location when it reaches a tool change, verify tool length, prompt for a change, probe new tool, then resume cutting. Your machine will need to be homed, have limit switches, and have a tool length sensor (compatible with Carbide 3D bitsetter for example) in order for this option to work. To set up the sensor mount the router/spindle as far down as you might typically put it, with the longest bit mounted in it, then jog it to hover over the tool length sensor with some room to spare and open the settings menu to save that location. This will be the spot your machine moves to every tool change so if it’s too low or your sensor doesn’t work it’ll run into the sensor.
-![](/_images/_gsender/_features/gs_fe_tool-change-tls.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/gs_fe_tool-change-tls.jpg){.aligncenter .size-full}
 1. **Code** You can enter your own macros before and after the tool change with this strategy selected.
-![](/_images/_gsender/_features/gs_fe_tool-change-Code.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_fe_tool-change-code.jpg){.aligncenter .size-medium}
 
 If you want to skip how gSender handles tool changes, you can toggle **Passthrough** on the Tool Change settings page. This will send the toolchange line in your g-code as is. Your firmware must be able to handle both M6 and T commands.
 
-![](/_images/_gsender/_features/gs_fe_tool-change-Passthrough.png)
+![](/_images/_gsender/_features/gs_fe_tool-change-passthrough.jpg){.aligncenter .size-medium}
 
 ## Workspaces
 
 Usually you would only have one origin or zero position for your project, therefore gSender will only save one zero. However, if you plan to do a series of projects that require different zero positions, or are lining up to do some more complex jigging or part batches, you may want to set up multiple workspaces all at once. This can save you time by not having to set a zero position for repetitive tasks or specific jig setups. You can do this by creating up to six different zero positions with the six workspaces in gSender. Access each 'Workspace' at the top right of the program by pressing the drop down to select which workspace to use. gSender will act completely in-line with whatever workspace you've selected, whether you want to set zero, probe, surface, or anything else.
 
-![](/_images/_gsender/_features/gs_fe_workspace.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_fe_workspace.jpg){.aligncenter .size-medium}
 
 The video below explains the process in greater detail.
 
@@ -605,12 +611,12 @@ gSender’s settings are stored on a file on whatever computer is used to run it
 To transfer your settings over:
 
 1. Begin by opening gSender, going to the settings gear in the top-right corner, and clicking the ‘Export Settings’ button in the ‘General’ tab
-![](/_images/_gsender/_features/gs_fe_settings-transfer-1.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_fe_settings-transfer-1.jpg){.aligncenter .size-medium}
 1. Save the file somewhere onto your computer that you can find afterwards
 ![](/_images/_gsender/_features/gs_fe_settings-transfer-2.jpg){.aligncenter .size-medium}
 1. Outside of gSender, find the file and transfer it using a memory stick or sending it over the internet by emailing to yourself or using Google Drive or OneDrive.
 1. Once you’ve got the file onto the other computer it’s now easy enough to open gSender on that computer, or in the web browser if you’re doing remote control, and go to the settings and click the ‘Import Settings’ button in the ‘General’ tab.
-![](/_images/_gsender/_features/gs_fe_settings-transfer-3.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_fe_settings-transfer-3.jpg){.aligncenter .size-medium}
 1. Locate the file and click ‘Open’
 ![](/_images/_gsender/_features/gs_fe_settings-transfer-4.jpg){.aligncenter .size-medium}
 1. You’ll get a warning. Click ‘Import Settings’ if you want to continue. Once you do, gSender will disconnect and you’ll need to reconnect the machine to resume operation but the settings should now be brought over.
@@ -646,7 +652,7 @@ All setup steps need to happen on the inline computer (the computer you’ll hav
      1. First you’ll want to click the ‘Enable Remote Mode’ toggle.
      1. Second, click the box next to ‘IP’ and select one of the options that gSender tries to recommend for your particular computer network. For an average setup the ‘Port’ value can also be left alone.
      1. The third step is to click on OK once you have completed the configuration. **You can also use your camera to scan the QR code, and be taken directly to your remote interface!**
-![](/_images/_gsender/_features/_remote/gs_fe_re_setup-config.png){.aligncenter .size-full}<br>
+![](/_images/_gsender/_features/_remote/gs_fe_re_setup-config.jpg){.aligncenter .size-full}<br>
 If you’re an **advanced user** or have tried the default values without success, you can type in any other IP address or Port that you’d like since the defaults aren’t guaranteed to work. Common port values are 3000, 8000, and 8080 and generally don’t go below 1024 since those are considered privileged. Changing IP addresses can also help if you’re running a VPN or need a different internal IP to external IP mapping.
 1. gSender needs to restart in order for the remaining changes to take place. You can choose to restart immediately or wait until later.
 ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-restart.jpg){.aligncenter .size-medium}
@@ -710,7 +716,7 @@ If you ran into issues during remote control setup, here are some other checks y
 
 You can find the release notes for the latest version of gSender in the “About” section of the settings.
 
-![](/_images/_gsender/_features/gs_fe_about.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_fe_about.jpg){.aligncenter .size-medium}
 
 ## More
 

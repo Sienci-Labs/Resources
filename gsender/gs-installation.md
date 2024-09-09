@@ -12,7 +12,7 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_gsender/_install/gs_in_windows-finish.png
+featured_image: _images/_gsender/_install/gs_in_windows-finish.jpg
 ---
 
 ## Download
@@ -37,25 +37,25 @@ Once you've downloaded the EXE file, double-click to run it. gSender isn't yet s
 
 If the "More info" option isn't available, it could be that Windows is fully blocking installation. This can be fixed by going to "App &amp; browser control" and switching "Check app and files" to "Warn" or "Off" just for the installation of gSender. You can always turn it back on afterwards.
 
-![](/_images/_gsender/_install/gs_in_windows-defender-override.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_windows-defender-override.jpg){.aligncenter .size-medium}
 
 With permission to run, you should be met with a license agreement. gSender is provided "as is" which means there's no expectation that it'll run your CNC perfectly - especially as it's still in very active development. We want you to understand this before moving forward. If you agree, you'll be able to choose your install options from there (who to install for and where) and then begin installing.
 
-![](/_images/_gsender/_install/gs_in_windows-setup.png){.aligncenter .size-full}
+![](/_images/_gsender/_install/gs_in_windows-setup.jpg){.aligncenter .size-full}
 
 Install completion will be indicated by a completion screen. If the 'Run gSender' box is checked off you should be able to click 'Finish' and be greeted with a splash screen followed by the full program. If not, you can always open the program manually after install.
 
-![](/_images/_gsender/_install/gs_in_windows-finish.png){.aligncenter .size-full}
+![](/_images/_gsender/_install/gs_in_windows-finish.jpg){.aligncenter .size-full}
 
 ## Mac Install
 
 Once you've downloaded the DMG file, double-click to run it. A window will popup that will look like the one below. Click and drag the gSender app and let go the applications folder to save it to your Mac.
 
-![](/_images/_gsender/_install/gs_in_mac-download.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_mac-download.jpg){.aligncenter .size-medium}
 
 Navigate to your applications folder on your Mac and the gSender program should be there and ready for use.
 
-![](/_images/_gsender/_install/gs_in_mac-finder.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_mac-finder.jpg){.aligncenter .size-medium}
 
 **Note:** we've been having problems creating an Arm build for Mac, but for now you should still be able to install the Intel version and use Rosetta just fine.
 
@@ -75,7 +75,7 @@ gSender will notify you when new updates are available, allowing you to download
 
 gSender updates always have the chance of encountering quirks, so if you have an important carve coming up or are just satisfied with your current setup then we'd typically recommend holding off until updating will be less 'mission-critical'. If you update accidentally and want to go back, you can also always <a href="#older-versions">downgrade</a>.
 
-![](/_images/_gsender/_install/gs_in_updater.png){.aligncenter .size-full}
+![](/_images/_gsender/_install/gs_in_updater.jpg){.aligncenter .size-full}
 
 **Note:** If you are upgrading to a new version or gSender, or downgrading to an older version, and you run into problems trying to get it to open or run, you’ll want to find a file called “**.sender_rc**” and rename it. This will allow gSender to generate a new version and clean up any errors you may be encountering. It also allows you to recover your old Start/Stop events and macros from the file in the future if needed.
 
@@ -99,9 +99,9 @@ If you just updated gSender and are finding that it's not working for you, downg
 
 You can run gSender by using Linux inside of ChromeOS as long as you’re running 64-bit. Set up Linux on your Chromebook with <a href="https://support.google.com/chromebook/answer/9145439?hl=en" target="_blank" rel="noopener">these instructions</a>. Open the command line and type: <code class="inline">cat /etc/os-release</code> or <code class="inline">uname -m</code> to see what architecture/operating system you are using, so you’ll know which gSender file to download. In the example below you can see we are running aarch64, which means we will want to download "arm-64bit.AppImage".
 
-![](/_images/_gsender/_install/gs_in_chromebook-arch.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_chromebook-arch.jpg){.aligncenter .size-medium}
 
-![](/_images/_gsender/_install/gs_in_chromebook-arm64.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_chromebook-arm64.jpg){.aligncenter .size-medium}
 
 Download the .appimage file from the latest release of gSender and double click to launch. You will need to have the g-code files you want to carve in the same folder too. If you have success and find we’ve missed any steps here, let us know and we will update our resources!
 
@@ -137,7 +137,7 @@ These are needed when performing ‘sudo’ super user access, a type of adminis
 
 To change the default pi user password. It's just menu ➜ Preferences ➜ Raspberry Pi Configuration and then the "Change Password" option
 
-![](/_images/_gsender/_install/gs_in_ras-pi-credentials.png){.aligncenter .size-medium}
+![](/_images/_gsender/_install/gs_in_ras-pi-credentials.jpg){.aligncenter .size-medium}
 
 **Error log location:**
 All application logs can be found in “<em>~/.config/gSender/logs</em>” and can be shared for any app-specific problems.

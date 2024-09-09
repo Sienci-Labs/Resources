@@ -27,7 +27,7 @@ Connect to your CNC machine by hovering over ‘Connect to Machine’ at the top
 
 Sometimes there’s more than one COM port available, so you may need to try both to see which one your machine is connected to. If you are seeing errors pop up or your machine isn’t acting correctly, ensure that you have selected the correct connection type.
 
-![](/_images/_gsender/_using/gs_us_connect.png){.aligncenter .size-full}
+![](/_images/_gsender/_using/gs_us_connect.jpg){.aligncenter .size-full}
 
 Once you have selected the COM port, your machine should be connected. This is confirmed when you see the plug icon turn green with a check mark. You should also see the status on the top right corner of the visualizer change to 'Idle', and the controls activate, allowing you to press them.
 
@@ -43,7 +43,7 @@ If you are not seeing those changes when you connect, please check the following
 
 You can move the machine by using the Jog Control, through the arrow buttons. Change the 'XY move' and 'Z move' to adjust the distance you travel per click. You can also change 'Speed', which determines how fast the machine will move when jogging.
 
-![](/_images/_gsender/_using/gs_us_jogging.png){.aligncenter .size-full}
+![](/_images/_gsender/_using/gs_us_jogging.jpg){.aligncenter .size-full}
 
 The 'Rapid', 'Normal', and 'Precise' buttons will allow you to toggle to different distance and speed values quickly. You can change these values by going to the settings and editing the 'Jogging Presets' in the 'General' section.
 
@@ -54,21 +54,21 @@ The 'Rapid', 'Normal', and 'Precise' buttons will allow you to toggle to differe
 Each g-code file or project will have a starting position that all other movements are referenced off of. This is the zero or origin. There are two ways to manually set your zero on gSender.
 
 1. Set the zero for each axis one at a time using 'Zero X', 'Zero Y', and 'Zero Z' buttons
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-individual.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-individual.jpg){.aligncenter .size-full}
 1. Set the zeros all at once using 'Zero All'
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-all.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-all.jpg){.aligncenter .size-full}
 
 The large blue numbers tell you the current position of your machine. If you want to return to your zero position, you can press the 'Go to' for each individual axis.
 
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos.jpg){.aligncenter .size-medium}
 
 You can also use the'Go to XY0' to return to the starting position in X and Y in one movement. You should see all three large blue numbers read “0.00” once you have returned to your zero for all axes.
 
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos_GoXY0.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos_goxy0.jpg){.aligncenter .size-medium}
 
 *Note: 'Go XY0' **will not** move the z-axis to its zero. Also, if you’ve set up “Safe Height” in gSender, then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
 
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos_GoTo.png){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos_goto.jpg){.aligncenter .size-medium}
 
 Hitting the Go To button will bring up a popup that will allow you to enter specific coordinates for each axis (Absolute or relative positioning). When you hit the Go button, you will move to the location you’ve designated!
 
@@ -96,7 +96,7 @@ gSender provides unique features if you have endstops on your machine for homing
 - Four “quick-travel” buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed, you’ll also notice a house icon appear at the corner that your machine homes to.
 - If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials (before it would move up by the safe height amount).
 
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_quick-travel.PNG){.aligncenter .size-full}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_quick-travel.jpg){.aligncenter .size-full}
 
 If you’re having issues with the “quick-travel” buttons, then check the “maximum travel” settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings in the Firmware tool as $130-133.
 
@@ -120,11 +120,11 @@ Once you have set up the touch plate, banana plug and magnet on the machine, you
 
 Before the process begins, there is a conductivity test to ensure that the touch plate components can conduct electricity, which allows a signal to be sent to the LongBoard when there is contact. You can either bring the touch plate to the end mill or touch the banana plug and magnet together. Make contact a few times just to confirm there is conductivity, as the red circle should flicker to green.
 
-![](/_images/_gsender/_features/_probing/gs_fe_pr_confirm.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/_probing/gs_fe_pr_confirm.jpg){.aligncenter .size-full}
 
 A blue button called 'Start Probe' will appear if you have successfully confirmed conductivity. Ensure that the touch plate components are set up for probing, then press 'Start Probe'. The machine will move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press 'Go to XY0'. The bit should be overtop the bottom left corner of the stock material, and pressing 'Go to' next to the 'Zero Z' should bring it to touch the surface. More information can be found on our touch-plate resource page. <a href="https://resources.sienci.com/view/lmk2-touch-plate/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-touch-plate/</a>
 
-![](/_images/_gsender/_features/_probing/gs_fe_pr_success.PNG){.aligncenter .size-full}
+![](/_images/_gsender/_features/_probing/gs_fe_pr_success.jpg){.aligncenter .size-full}
 
 ## Loading Job Files
 
@@ -204,4 +204,4 @@ gSender is set up to do many things by default to help keep you aware about thin
 1. **Soft limits warning**: enables gSender to tell you when a loaded file might exceed the cutting area of your machine. This requires that your machine has limit switches and soft limits enabled.
 1. **History of Errors and Alarms**: great for tracking problems you might’ve recently run into to help troubleshooting or getting support. All entries are listed in-order and stamped with a date and time.
 
-![](/_images/_gsender/_using/gs_us_safety.png){.aligncenter .size-full}
+![](/_images/_gsender/_using/gs_us_safety.jpg){.aligncenter .size-full}
