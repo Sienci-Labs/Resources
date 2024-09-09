@@ -488,7 +488,7 @@ Did you know that surfacing can be used for more than your wasteboard? It’s gr
 
 Curious to know how many jobs you’ve completed, how many hours you’ve put on your machine or what maintenance you should be focusing on? Find this information in the “Job History &amp; Stats” section of settings. Here you will find 3 tabs; Statistics, Job Table, and Maintenance.
 
-![](/_images/_gsender/_edge/gs_fe_stats.gif){.aligncenter .size-full}
+![](/_images/_gsender/_features/gs_fe_stats-gif.gif){.aligncenter .size-full}
 
 ### Statistics
 
@@ -588,7 +588,7 @@ If you are using one of the wizard options, know that you can access all other g
 1. **Code** You can enter your own macros before and after the tool change with this strategy selected.
 ![](/_images/_gsender/_features/gs_fe_tool-change-code.jpg){.aligncenter .size-medium}
 
-If you want to skip how gSender handles tool changes, you can toggle **Passthrough** on the Tool Change settings page. This will send the toolchange line in your g-code as is. Your firmware must be able to handle both M6 and T commands.
+If you want to skip how gSender handles tool changes, you can toggle **Passthrough** on the Tool Change settings page. This will send the tool change line in your g-code as is. Your firmware must be able to handle both M6 and T commands.
 
 ![](/_images/_gsender/_features/gs_fe_tool-change-passthrough.jpg){.aligncenter .size-medium}
 
