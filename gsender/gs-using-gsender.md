@@ -58,19 +58,19 @@ Each g-code file or project will have a starting position that all other movemen
 1. Set the zeros all at once using 'Zero All'
 ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-all.jpg){.aligncenter .size-full}
 
-The large blue numbers tell you the current position of your machine. If you want to return to your zero position, you can press the 'Go to' for each individual axis.
+The large blue numbers tell you the current position of your machine. If you want to return to your zero position, you can press the 'Go to' for each individual axis and the large blue numbers will read “0.00” once it's finished moving.
 
 ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos.jpg){.aligncenter .size-medium}
 
-You can also use the'Go to XY0' to return to the starting position in X and Y in one movement. You should see all three large blue numbers read “0.00” once you have returned to your zero for all axes.
+You can also use the 'Go to XY0' to return to the starting position in X and Y in one movement. 'Go XY0' **will not** move the z-axis to its zero.
 
 ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos_goxy0.jpg){.aligncenter .size-medium}
 
-*Note: 'Go XY0' **will not** move the z-axis to its zero. Also, if you’ve set up “Safe Height” in gSender, then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
+*Note: if you’ve set up “Safe Height” in gSender, then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
 
 ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos_goto.jpg){.aligncenter .size-medium}
 
-Hitting the Go To button will bring up a popup that will allow you to enter specific coordinates for each axis (Absolute or relative positioning). When you hit the Go button, you will move to the location you’ve designated!
+If you want to go somewhere else quickly without manually jogging there, you can also use the 'Go To' button to bring you to a specific location. You'll see a popup asking you where you want to go and you either type a specific location (absolute) or move some amount from where you are now (relative).
 
 ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_goto-location-gif.gif){.aligncenter .size-medium}
 
@@ -79,14 +79,6 @@ You can reset your zeros anytime when the machine is not actively running a job.
 You can also enter coordinates directly by clicking the location value. It’ll turn into a white box where you can type any number, then hit the ‘enter’ key to confirm it. For instance you could set your Z-axis to 0.1mm instead of 0 if you’re using the paper method and you want to account for the paper thickness. Another example is instead of jogging 10mm to the right and clicking ‘zero’ to begin cutting a duplicate job that’s shifted over, you can just type “-10” and start the job right away (since if ‘zero’ is 10mm to the right, then your current location would be 0 - 10 = -10mm).
 
 ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_dro-typing.jpg){.aligncenter .size-full}
-
-### Warn on Zero
-
-If you've ever accidentally zeroed an axis when you meant to go to the existing zero, this is an option you can turn on that double checks when you want to zero. In settings on the safety tab, you can toggle this feature on. Then when you click on Zero X, Zero Y or Zero Z, you will see a popup asking for confirmation.
-
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn.jpg){.aligncenter .size-full}
-
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn-gif.gif){.aligncenter .size-full}
 
 ## Endstop buttons
 
@@ -104,11 +96,7 @@ If you'd like more information on how to set up and use limit switches, read her
 
 ## Probing
 
-Most people prefer to probe the front, left corner of their material as the zero-point of their job, since that corner is easy to access, but in rare cases you might want to probe elsewhere, using a touch plate. If you're not using a Sienci touch plate, <a href="https://resources.sienci.com/view/gs-additional-features/#touch-plate-setup">read here to make sure your settings are set up correctly</a>.
-
-If you would like to probe from a different spot on your workpiece, you can rotate to the corner of your choice. Simply press the icon in the top right corner to highlight where you are starting to probe. For example, if you wish to probe from the back right corner, hit the icon twice to move the highlighted section to the back right.
-
-![](/_images/_gsender/_features/_probing/gs_fe_pr_change-corner.gif){.aligncenter .size-full}
+Probing automatically sets a zero position, usually at the bottom left corner of the stock material, using a touch plate. If you're not using a Sienci touch plate, <a href="https://resources.sienci.com/view/gs-additional-features/#touch-plate-setup">read here to make sure your settings are set up correctly</a>.
 
 Usually you'd have to enter a tool diameter each time you probe, but gSender also gives the option to save tool sizes for re-use. You can see this in the 'Tools' section of the ‘Probe’ settings. Add different tools by entering the diameter in millimeters or inches, and then pressing 'Add Tool', and if you tend to use a specific-sized tool the most then make sure to have it at the top of the list to make it your Default.
 
@@ -125,6 +113,10 @@ Before the process begins, there is a conductivity test to ensure that the touch
 A blue button called 'Start Probe' will appear if you have successfully confirmed conductivity. Ensure that the touch plate components are set up for probing, then press 'Start Probe'. The machine will move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press 'Go to XY0'. The bit should be overtop the bottom left corner of the stock material, and pressing 'Go to' next to the 'Zero Z' should bring it to touch the surface. More information can be found on our touch-plate resource page. <a href="https://resources.sienci.com/view/lmk2-touch-plate/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-touch-plate/</a>
 
 ![](/_images/_gsender/_features/_probing/gs_fe_pr_success.jpg){.aligncenter .size-full}
+
+If you have a different setup where probing the front, left corner is less convenient for you, gSender can also probe other corners by clicking the corner button. You'll see the blue arrow point to the corner you want to probe from, then you can follow the rest of the probing process the same way.
+
+![](/_images/_gsender/_features/_probing/gs_fe_pr_change-corner.gif){.aligncenter .size-full}
 
 ## Loading Job Files
 
@@ -199,6 +191,9 @@ In the unlikely event that there is a USB port disconnect from your CNC while ru
 
 gSender is set up to do many things by default to help keep you aware about things going on with your machine. Though we can’t guarantee it can handle everything, we’ve recently introduced a new Settings menu for Safety where you can access many safety items in one place. This includes:
 
+1. **Warn on Zero**: an optional popup that appears when you click to 'zero' just in case you mis-clicked it.
+  ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn.jpg){.aligncenter .size-full}
+  ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn-gif.gif){.aligncenter .size-full}
 1. **Safe height movement**: this number is used when using the ‘goto’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the goto movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the goto movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
 1. **G-code warnings**: reports back when it sees g-code lines that don’t look correct when the file is loaded or once it’s being sent to the machine. G-code has to follow specific ‘grammatical rules’ similar to other languages for the ‘sentences’ to be correct, so if the lines don’t look correct then your machine might run into problems understanding what it’s supposed to do.
 1. **Soft limits warning**: enables gSender to tell you when a loaded file might exceed the cutting area of your machine. This requires that your machine has limit switches and soft limits enabled.
