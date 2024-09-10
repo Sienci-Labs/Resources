@@ -134,7 +134,7 @@ This box includes:
   - Aluminum standoff (x12)
   - 1.25”, 1.5”, and 2” board screws (x10 each)
   - Eccentric nut (x6)
-- Three un-threaded motors (X &amp; Y axis) and one threaded motor (Z axis)
+- Three un-threaded motors (X & Y-axis) and one threaded motor (Z-axis)
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p14_Motors.JPG){.aligncenter .size-medium}
 - The power brick with its AC power cable inside a white cardboard box
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p15_PowerCable.JPG){.aligncenter .size-medium}

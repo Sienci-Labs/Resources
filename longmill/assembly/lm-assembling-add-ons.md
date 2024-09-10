@@ -46,7 +46,7 @@ When properly wired, the red wire will be on the Probe pin and the black wire wi
 
 Next, plug the banana plug into one of the two holes on the touch plate. Ensure that it is well seated. You can pick the hole you want to use that helps keep your wires out of the way.
 
-Ensure you have an end mill firmly secured in your collet. If you are planning on doing a probe on the X and or Y axis, make sure that you have at least 15 to 20mm of your bit coming out of the collet. For other notes on end mill compatibility, please go to the end of this guide.
+Ensure you have an end mill firmly secured in your collet. If you are planning on doing a probe on the X and or Y-axis, make sure that you have at least 15 to 20mm of your bit coming out of the collet. For other notes on end mill compatibility, please go to the end of this guide.
 
 Attach the magnet to your end mill. You can also attach it to the collet nut or another part of your router or spindle as long as you have a conductive path through your end mill.
 

@@ -140,9 +140,9 @@ By default, your LongMill is set to **$22=0**, disabling the ability to use the 
 
 <b>$23 - Homing direction invert, mask</b>
 
-By default, your LongMill is set to <b>*$23=0*</b>. This setting is used to select the direction that the machine moves to home each axis. By default, when <b>*$23=0*</b>, the machine will move home up in the Z direction, and then to the upper left corner (moving towards the left on the X axis and moving up to the top on the Y axis).
+By default, your LongMill is set to <b>*$23=0*</b>. This setting is used to select the direction that the machine moves to home each axis. By default, when <b>*$23=0*</b>, the machine will move home up in the Z direction, and then to the upper left corner (moving towards the left on the X-axis and moving up to the top on the Y-axis).
 
-In some cases you may want to change the direction that you want to home, either based on the location of your limit switch and the way you want to set up your workflow. For example, if you have a square at the bottom left corner of your machine where you can set a corner you can set rectangular material on so that you can repeat the same job over and over again, you may want to invert the Y axis homing direction so that your machine homes to the bottom left corner of the machine.
+In some cases you may want to change the direction that you want to home, either based on the location of your limit switch and the way you want to set up your workflow. For example, if you have a square at the bottom left corner of your machine where you can set a corner you can set rectangular material on so that you can repeat the same job over and over again, you may want to invert the Y-axis homing direction so that your machine homes to the bottom left corner of the machine.
 
 <table role="table">
 <thead>
