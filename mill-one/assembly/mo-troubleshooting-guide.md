@@ -36,9 +36,9 @@ To solve the first, remove the nut at the bottom of the router along with the re
 
 Put the above assembly back into the router and fix into place with the collet nut. Cutting should now go as expected. If this isn't fixing the problem then it means you've told the Mill One to cut much faster than it's supposed to. When the machine is pushing the rotating bit really hard into the material, it forced the bit out of the router. Refer to our <b>Speeds and Feeds</b> page to adjust as necessary. Otherwise, send us an email and we'll be sure to help you out.
 
-#### My machine randomly plunges down on the Z axis, or moves down when I don't want it to.
+#### My machine randomly plunges down on the Z-axis, or moves down when I don't want it to.
 
-If your Z axis doesn't stay still you can use the motors on your Mill One to hold the axis still. Send the command $1= 255 to the console, which will activate all the steppers to hold when the machine comes to a stop. You can deactivate this feature by sending the command $1= 25. Check out this <a href="https://sienci.com/2018/03/30/my-z-axis-keeps-dropping-a-simple-guide-on-using-1-255/">guide</a> to learn more and get more details.
+If your Z-axis doesn't stay still you can use the motors on your Mill One to hold the axis still. Send the command $1= 255 to the console, which will activate all the steppers to hold when the machine comes to a stop. You can deactivate this feature by sending the command $1= 25. Check out this <a href="https://sienci.com/2018/03/30/my-z-axis-keeps-dropping-a-simple-guide-on-using-1-255/">guide</a> to learn more and get more details.
 
 #### The machine isn't cutting deep enough...
 

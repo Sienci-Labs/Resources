@@ -144,7 +144,7 @@ Look on the top of your LongBoard to see the revision number just below the Sien
 
 Remove the green 5 port connector installed in the '5V, Xlim, Ylim, Zlim, GND' port on the LongBoard. Then loosen the screw terminals of the connector and insert three capacitors into the connector as shown in the photo above. For each capacitor, one prong should be inserted to the GND port, and one prong into the X, Y, or Z port. Re-tighten each of the screw terminals on the connector then plug the connector back into the secondary limit switch port.
 
-Plug in the X, Y, and Z axis limit switch connectors into each of the three white connectors as shown in the photo above.
+Plug in the X, Y, and Z-axis limit switch connectors into each of the three white connectors as shown in the photo above.
 
 ### Step 5: Changing your settings for limit switches
 
@@ -166,7 +166,7 @@ Now that we’re working with the default settings, we will modify a few to make
   <li>Hard and soft limits ON</li>
   <li>Homing cycle ON</li>
   <li>Homing direction invert</li>
-  <li>X and Y axis travel limits CHANGED</li>
+  <li>X and Y-axis travel limits CHANGED</li>
 </ul>
 
 #### Hard limits, soft limits, homing cycle, and homing direction
@@ -189,7 +189,7 @@ By enabling the homing cycle, you are able to home your machine with the sensors
 
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p11_Mk1homing.jpg){.aligncenter .size-medium}
 
-If you want to set your home at the front left corner and have installed your inductive sensors thus, you will need to invert your X and Y axis.
+If you want to set your home at the front left corner and have installed your inductive sensors thus, you will need to invert your X and Y-axis.
 
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p12_HomingFrontLeft.jpg){.aligncenter .size-medium}
 

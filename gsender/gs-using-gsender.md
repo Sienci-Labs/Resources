@@ -27,7 +27,7 @@ Connect to your CNC machine by hovering over ‘Connect to Machine’ at the top
 
 Sometimes there’s more than one COM port available, so you may need to try both to see which one your machine is connected to. If you are seeing errors pop up or your machine isn’t acting correctly, ensure that you have selected the correct connection type.
 
-![](/_images/_gsender/_using/gs_us_connect.png){.aligncenter .size-full}
+![](/_images/_gsender/_using/gs_us_connect.jpg){.aligncenter .size-full}
 
 Once you have selected the COM port, your machine should be connected. This is confirmed when you see the plug icon turn green with a check mark. You should also see the status on the top right corner of the visualizer change to 'Idle', and the controls activate, allowing you to press them.
 
@@ -43,7 +43,7 @@ If you are not seeing those changes when you connect, please check the following
 
 You can move the machine by using the Jog Control, through the arrow buttons. Change the 'XY move' and 'Z move' to adjust the distance you travel per click. You can also change 'Speed', which determines how fast the machine will move when jogging.
 
-![](/_images/_gsender/_using/gs_us_jogging.png){.aligncenter .size-full}
+![](/_images/_gsender/_using/gs_us_jogging.jpg){.aligncenter .size-full}
 
 The 'Rapid', 'Normal', and 'Precise' buttons will allow you to toggle to different distance and speed values quickly. You can change these values by going to the settings and editing the 'Jogging Presets' in the 'General' section.
 
@@ -58,11 +58,21 @@ Each g-code file or project will have a starting position that all other movemen
 1. Set the zeros all at once using 'Zero All'
 ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-all.jpg){.aligncenter .size-full}
 
-The large blue numbers tell you the current position of your machine. If you want to return to your zero position, you can press the 'Go to' for each individual axis or 'Go to XY0' to return to the starting position in X and Y in one movement. You should see all three large blue numbers read “0.00” once you have returned to your zero for all axes.
+The large blue numbers tell you the current position of your machine. If you want to return to your zero position, you can press the 'Go to' for each individual axis and the large blue numbers will read “0.00” once it's finished moving.
 
-Note that 'Go XY0' **will not** move the z-axis to its zero. Also, if you’ve set up “Safe Height” in gSender, then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos.jpg){.aligncenter .size-medium}
 
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos.jpg){.aligncenter .size-full}
+You can also use the 'Go to XY0' to return to the starting position in X and Y in one movement. 'Go XY0' **will not** move the z-axis to its zero.
+
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos_goxy0.jpg){.aligncenter .size-medium}
+
+*Note: if you’ve set up “Safe Height” in gSender, then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
+
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos_goto.jpg){.aligncenter .size-medium}
+
+If you want to go somewhere else quickly without manually jogging there, you can also use the 'Go To' button to bring you to a specific location. You'll see a popup asking you where you want to go and you either type a specific location (absolute) or move some amount from where you are now (relative).
+
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_goto-location-gif.gif){.aligncenter .size-medium}
 
 You can reset your zeros anytime when the machine is not actively running a job. The machine will remember your zero in most cases. If you turn the lead screw with your fingers or push the gantry, the machine does not know you moved it, therefore it will lose the zero position. You can jog on the Jog Control without losing your zero position because gSender knows you are moving the machine.
 
@@ -78,7 +88,7 @@ gSender provides unique features if you have endstops on your machine for homing
 - Four “quick-travel” buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed, you’ll also notice a house icon appear at the corner that your machine homes to.
 - If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials (before it would move up by the safe height amount).
 
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_quick-travel.PNG){.aligncenter .size-full}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_quick-travel.jpg){.aligncenter .size-full}
 
 If you’re having issues with the “quick-travel” buttons, then check the “maximum travel” settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings in the Firmware tool as $130-133.
 
@@ -98,17 +108,21 @@ Once you have set up the touch plate, banana plug and magnet on the machine, you
 
 Before the process begins, there is a conductivity test to ensure that the touch plate components can conduct electricity, which allows a signal to be sent to the LongBoard when there is contact. You can either bring the touch plate to the end mill or touch the banana plug and magnet together. Make contact a few times just to confirm there is conductivity, as the red circle should flicker to green.
 
-![](/_images/_gsender/_features/_probing/gs_fe_pr_confirm.png){.aligncenter .size-full}
+![](/_images/_gsender/_features/_probing/gs_fe_pr_confirm.jpg){.aligncenter .size-full}
 
 A blue button called 'Start Probe' will appear if you have successfully confirmed conductivity. Ensure that the touch plate components are set up for probing, then press 'Start Probe'. The machine will move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press 'Go to XY0'. The bit should be overtop the bottom left corner of the stock material, and pressing 'Go to' next to the 'Zero Z' should bring it to touch the surface. More information can be found on our touch-plate resource page. <a href="https://resources.sienci.com/view/lmk2-touch-plate/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-touch-plate/</a>
 
-![](/_images/_gsender/_features/_probing/gs_fe_pr_success.PNG){.aligncenter .size-full}
+![](/_images/_gsender/_features/_probing/gs_fe_pr_success.jpg){.aligncenter .size-full}
+
+If you have a different setup where probing the front, left corner is less convenient for you, gSender can also probe other corners by clicking the corner button. You'll see the blue arrow point to the corner you want to probe from, then you can follow the rest of the probing process the same way.
+
+![](/_images/_gsender/_features/_probing/gs_fe_pr_change-corner.gif){.aligncenter .size-full}
 
 ## Loading Job Files
 
 If you have already prepared a project file, ensure the following:
 
-1. The file is an *.nc, *.g-code, *.tap, *.gc, or *.cnc file.
+1. The file is an \*.nc, \*.g-code, \*.tap, \*.gc, or \*.cnc file.
 1. The file is exported to the correct post processor for the LongMill. Please see this page for the correct post processor for your CAM software: <a href="https://resources.sienci.com/view/lm-post-processors/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-post-processors/</a>.
 
 To run your project on gSender, press the 'Load File' button. A dialog box should pop up, where you can navigate to where your file is. If you want to reload a previous file you can also click the ‘&gt;’ button which will allow you to select from recently opened files.
@@ -177,9 +191,12 @@ In the unlikely event that there is a USB port disconnect from your CNC while ru
 
 gSender is set up to do many things by default to help keep you aware about things going on with your machine. Though we can’t guarantee it can handle everything, we’ve recently introduced a new Settings menu for Safety where you can access many safety items in one place. This includes:
 
+1. **Warn on Zero**: an optional popup that appears when you click to 'zero' just in case you mis-clicked it.
+  ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn.jpg){.aligncenter .size-full}
+  ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn-gif.gif){.aligncenter .size-full}
 1. **Safe height movement**: this number is used when using the ‘goto’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the goto movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the goto movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
 1. **G-code warnings**: reports back when it sees g-code lines that don’t look correct when the file is loaded or once it’s being sent to the machine. G-code has to follow specific ‘grammatical rules’ similar to other languages for the ‘sentences’ to be correct, so if the lines don’t look correct then your machine might run into problems understanding what it’s supposed to do.
 1. **Soft limits warning**: enables gSender to tell you when a loaded file might exceed the cutting area of your machine. This requires that your machine has limit switches and soft limits enabled.
 1. **History of Errors and Alarms**: great for tracking problems you might’ve recently run into to help troubleshooting or getting support. All entries are listed in-order and stamped with a date and time.
 
-![](/_images/_gsender/_using/gs_us_safety.png){.aligncenter .size-full}
+![](/_images/_gsender/_using/gs_us_safety.jpg){.aligncenter .size-full}
