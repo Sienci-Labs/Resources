@@ -649,9 +649,9 @@ Otherwise, below are some example setups you can reference. Setting numbers can 
 
 For RS485, you can use EITHER the 4-pin connector with B, A, 5V, and GND (left-to-right) or the RJ “phone jack” plug if you have one on hand or your VFD has a matching input plug. For most VFDs, all you’ll have to do is connect A to RS+ and B to RS- from the SLB to your VFD. If your wires need to be long, consider using twisted wiring for the A/B cable for added EMI resilience.
 
-**Note:** if the VFD has a jumper to swap from controlling the spindle with the panel to using the wire signals, change this over. In the example below it’s the left 2 pins and called “VI”.
+![](/_images/_superlongboard/_manual/slb_ma_p41_PlugsVFD-2.jpg){.aligncenter .size-full}
 
-![](/_images/_superlongboard/_manual/slb_ma_p41_PlugsVFD.jpg){.aligncenter .size-full}
+**Note:** if the VFD has a jumper to swap from controlling the spindle with the panel to using the wire signals, change this over. In the example below it’s the left 2 pins and called “VI”. Also, make sure your RJ cable has 6 positions or "6P" so it's compatible to plug in. The RJ standard is a bit confusing and plugs that fall under RJ11, 12, 14, and 25 all seem to be compatible for hookup.
 
 #### 5V PWM Hookup
 

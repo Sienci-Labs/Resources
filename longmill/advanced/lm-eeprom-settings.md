@@ -21,152 +21,239 @@ You can make changes to your machine's settings by changing the values in your E
 
 Start by sending the command "$$" to your machine. Your console will give you a list of values.
 
-## DEFAULT SETTINGS
+## Default Settings
 
-<table class="wp-table" width="500px">
+[su_table]
+<table>
 <tbody>
-<tr>
-<th>Value</th>
-<th>Purpose</th>
-</tr>
-<tr>
-<td><em>$0=10</em></td>
-<td>Step pulse time [microseconds]</td>
-</tr>
-<tr>
-<td><em>$1=100</em></td>
-<td>Step idle delay [milliseconds]</td>
-</tr>
-<tr>
-<td><em>$2=1</em></td>
-<td>Step pulse invert [mask]</td>
-</tr>
-<tr>
-<td><em>$3=5</em></td>
-<td>Step direction invert [mask]</td>
-</tr>
-<tr>
-<td><em>$4=1</em></td>
-<td>Invert step enable pin [boolean]</td>
-</tr>
-<tr>
-<td><em>$5=0</em></td>
-<td>Invert limit pins [boolean]</td>
-</tr>
-<tr>
-<td><em>$6=0</em></td>
-<td>Invert probe pin [boolean]</td>
-</tr>
-<tr>
-<td><em>$10=1</em></td>
-<td>Status report options [mask]</td>
-</tr>
-<tr>
-<td><em>$11=0.010</em></td>
-<td>Junction deviation [millimeters]</td>
-</tr>
-<tr>
-<td><em>$12=0.002</em></td>
-<td>Arc tolerance [millimeters]</td>
-</tr>
-<tr>
-<td><em>$13=0</em></td>
-<td>Report in inches [boolean]</td>
-</tr>
-<tr>
-<td><em>$20=0</em></td>
-<td>Soft limits enable [boolean]</td>
-</tr>
-<tr>
-<td><em>$21=0</em></td>
-<td>Hard limits enable [boolean]</td>
-</tr>
-<tr>
-<td><em>$22=0</em></td>
-<td>Homing cycle enable [boolean]</td>
-</tr>
-<tr>
-<td><em>$23=0</em></td>
-<td>Homing direction invert [mask]</td>
-</tr>
-<tr>
-<td><em>$24=25.000</em></td>
-<td>Homing locate feed rate [mm/min]</td>
-</tr>
-<tr>
-<td><em>$25 = 500.000</em></td>
-<td>Homing search seek rate [mm/min]</td>
-</tr>
-<tr>
-<td><em>$26 = 250</em></td>
-<td>Homing switch debounce delay [milliseconds]</td>
-</tr>
-<tr>
-<td><em>$27 = 1.000</em></td>
-<td>Homing switch pull-off distance [millimeters]</td>
-</tr>
-<tr>
-<td><em>$30 = 30000</em></td>
-<td>Maximum spindle speed [RPM]</td>
-</tr>
-<tr>
-<td><em>$31 = 0</em></td>
-<td>Minimum spindle speed [RPM]</td>
-</tr>
-<tr>
-<td><em>$32 = 0</em></td>
-<td>Laser-mode enable [boolean]</td>
-</tr>
-<tr>
-<td><em>$100 = 200.000</em></td>
-<td>X-axis travel resolution [step/mm]</td>
-</tr>
-<tr>
-<td><em>$101 = 200.000</em></td>
-<td>Y-axis travel resolution [step/mm]</td>
-</tr>
-<tr>
-<td><em>$102 = 200.000</em></td>
-<td>Z-axis travel resolution [step/mm]</td>
-</tr>
-<tr>
-<td><em>$110 = 4000.000</em></td>
-<td>X-axis maximum rate [mm/min]</td>
-</tr>
-<tr>
-<td><em>$111 = 4000.000</em></td>
-<td>Y-axis maximum rate [mm/min]</td>
-</tr>
-<tr>
-<td><em>$112 = 3000.000</em></td>
-<td>Z-axis maximum rate [mm/min]</td>
-</tr>
-<tr>
-<td><em>$120 = 750.000</em></td>
-<td>X-axis acceleration [mm/sec^2]</td>
-</tr>
-<tr>
-<td><em>$121 = 750.000</em></td>
-<td>Y-axis acceleration [mm/sec^2]</td>
-</tr>
-<tr>
-<td><em>$122 = 500.000</em></td>
-<td>Z-axis acceleration [mm/sec^2]</td>
-</tr>
-<tr>
-<td><em>$130 = 812.000</em></td>
-<td>X-axis maximum travel [millimeters]</td>
-</tr>
-<tr>
-<td>$131 = 812.000</td>
-<td>Y-axis maximum travel [millimeters]</td>
-</tr>
-<tr>
-<td><em>$132 = 105.000</em></td>
-<td>Z-axis maximum travel [millimeters]</td>
-</tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td colspan="4">Value (number)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Title</td>
+    <td>$</td>
+    <td>12x12</td>
+    <td>12x30</td>
+    <td>30x30</td>
+    <td>48x30</td>
+    <td>Units</td>
+  </tr>
+  <tr>
+    <td>Step pulse time</td>
+    <td>0</td>
+    <td colspan="4">10</td>
+    <td>microseconds</td>
+  </tr>
+  <tr>
+    <td>Step idle delay</td>
+    <td>1</td>
+    <td colspan="4">100</td>
+    <td>milliseconds</td>
+  </tr>
+  <tr>
+    <td>Step pulse invert</td>
+    <td>2</td>
+    <td colspan="4">X: ON<br>Y: OFF<br>Z: OFF<br>(1)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Step direction invert</td>
+    <td>3</td>
+    <td colspan="4">X: ON<br>Y: OFF<br>Z: ON<br>(5)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Invert step enable pin</td>
+    <td>4</td>
+    <td colspan="4">Enabled (1)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Invert limit pins</td>
+    <td>5</td>
+    <td colspan="4">Disabled (0)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Invert probe pin</td>
+    <td>6</td>
+    <td colspan="4">Disabled (0)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Status report options</td>
+    <td>10</td>
+    <td colspan="4">MPos<br>Buffer: OFF<br>(1)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Junction deviation</td>
+    <td>11</td>
+    <td colspan="4">0.010</td>
+    <td>mm</td>
+  </tr>
+  <tr>
+    <td>Arc tolerance</td>
+    <td>12</td>
+    <td colspan="4">0.002</td>
+    <td>mm</td>
+  </tr>
+  <tr>
+    <td>Report in inches</td>
+    <td>13</td>
+    <td colspan="4">Disabled (0)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Soft limits enable</td>
+    <td>20</td>
+    <td colspan="4">Disabled (0)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Hard limits enable</td>
+    <td>21</td>
+    <td colspan="4">Disabled (0)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Homing cycle enable</td>
+    <td>22</td>
+    <td colspan="4">Disabled (0)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Homing direction invert</td>
+    <td>23</td>
+    <td colspan="4">X: ON<br>Y: ON<br>Z: OFF<br>(3)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Homing locate feed rate</td>
+    <td>24</td>
+    <td colspan="4">25</td>
+    <td>mm/min</td>
+  </tr>
+  <tr>
+    <td>Homing search seek rate</td>
+    <td>25</td>
+    <td colspan="4">1500</td>
+    <td>mm/min</td>
+  </tr>
+  <tr>
+    <td>Homing switch debounce delay</td>
+    <td>26</td>
+    <td colspan="4">250</td>
+    <td>milliseconds</td>
+  </tr>
+  <tr>
+    <td>Homing switch pull-off distance</td>
+    <td>27</td>
+    <td colspan="4">1</td>
+    <td>mm</td>
+  </tr>
+  <tr>
+    <td>Maximum spindle speed</td>
+    <td>30</td>
+    <td colspan="4">30000</td>
+    <td>RPM</td>
+  </tr>
+  <tr>
+    <td>Minimum spindle speed</td>
+    <td>31</td>
+    <td colspan="4">0</td>
+    <td>RPM</td>
+  </tr>
+  <tr>
+    <td>Laser-mode enable</td>
+    <td>32</td>
+    <td colspan="4">Disabled (0)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>X-axis travel resolution</td>
+    <td>100</td>
+    <td colspan="4">200</td>
+    <td>step/mm</td>
+  </tr>
+  <tr>
+    <td>Y-axis travel resolution</td>
+    <td>101</td>
+    <td colspan="4">200</td>
+    <td>step/mm</td>
+  </tr>
+  <tr>
+    <td>Z-axis travel resolution</td>
+    <td>102</td>
+    <td colspan="4">200</td>
+    <td>step/mm</td>
+  </tr>
+  <tr>
+    <td>X-axis maximum rate</td>
+    <td>110</td>
+    <td colspan="4">4000</td>
+    <td>mm/min</td>
+  </tr>
+  <tr>
+    <td>Y-axis maximum rate</td>
+    <td>111</td>
+    <td colspan="4">4000</td>
+    <td>mm/min</td>
+  </tr>
+  <tr>
+    <td>Z-axis maximum rate</td>
+    <td>112</td>
+    <td colspan="4">3000</td>
+    <td>mm/min</td>
+  </tr>
+  <tr>
+    <td>X-axis acceleration</td>
+    <td>120</td>
+    <td colspan="4">750</td>
+    <td>mm/sec^2</td>
+  </tr>
+  <tr>
+    <td>Y-axis acceleration</td>
+    <td>121</td>
+    <td colspan="4">750</td>
+    <td>mm/sec^2</td>
+  </tr>
+  <tr>
+    <td>Z-axis acceleration</td>
+    <td>122</td>
+    <td colspan="4">500</td>
+    <td>mm/sec^2</td>
+  </tr>
+  <tr>
+    <td>X-axis maximum travel</td>
+    <td>130</td>
+    <td>285</td>
+    <td>770</td>
+    <td>770</td>
+    <td>1230</td>
+    <td>mm</td>
+  </tr>
+  <tr>
+    <td>Y-axis maximum travel</td>
+    <td>131</td>
+    <td>320</td>
+    <td>320</td>
+    <td>820</td>
+    <td>820</td>
+    <td>mm</td>
+  </tr>
+  <tr>
+    <td>Z-axis maximum travel</td>
+    <td>132</td>
+    <td colspan="4">110</td>
+    <td>mm</td>
+  </tr>
 </tbody>
 </table>
+[/su_table]
 
 To change a setting, simply send the command that corresponds to what setting you want to change. For example, if I want to set my maximum feed rate in the Z-axis to 1500mm/min, then I would send the command "$112=1500".
 
