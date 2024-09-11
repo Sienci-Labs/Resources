@@ -22,11 +22,10 @@ featured_image:
     <h1>Sample HTML Page</h1>
 </header>
 
-<nav>
-    <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-    </ul>
-</nav>
+<ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Contact</li>
+</ul>
+
 <p>Hello out there!</p>

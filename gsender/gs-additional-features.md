@@ -271,6 +271,7 @@ The console is a tab that you can access at the bottom right hand side of the gS
 - Manually send g-code commands to your CNC
 - Check for errors or alarms and the g-code that caused them (normally the line that comes before)
 - Copy text straight from the console to send in an email for help by clicking the icon beside the "Run" button
+- Even open the console in another window by pressing the top, right icon to help you see more console text at a time (if you press the button again once you reconnect to your CNC, it'll reconnect the console stream to the original window too)
 
 ![](/_images/_gsender/_features/gs_fe_console.jpg){.aligncenter .size-full}
 
