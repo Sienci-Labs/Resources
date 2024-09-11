@@ -182,7 +182,7 @@ This feature is handy in cases where:
 1. At a point when the bit is above the workpiece and not cutting material, stop the job and turn off your router.
 1. If you **don't** have the limit switches, move the machine back to your zero starting point by clicking go XY0. This will move the machine back to the starting X and Y axis. Then click "go to Z" to lower the bit to the Z height. You should see the numbers beside the XYZ all zeros. Once the router is at the initial starting Zero you can turn off the computer and controller.
 ![](/_images/_gsender/_using/gs_us_job-loss2.jpg){.aligncenter .size-medium}
-
+*Note: If you lose your zeroes and you have used a touchplate to set them, you can reuse it to find your starting spot again, before resuming the job*
 1. When you are ready to cut again, load up your g-code file. Your location should still read all zeros for each of the axes. Raise the router a bit above your material and turn on.
 1. You should see the green ‘Start Job’ button, with a small icon on the top right of the button.
 ![](/_images/_gsender/_using/gs_us_job-loss3.jpg){.aligncenter .size-medium}
