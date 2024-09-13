@@ -48,7 +48,7 @@ Learn all the nitty gritty about wiring, specs, and firmware.
 Share ideas for SLB features, or get help with problems.
 </td>
 <td style="text-align: center;"><a href="#open-source"><img class="flie aligncenter size-full" style="padding: 5% 15%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/open-source-hardware.png" width="512" height="512" /></a>
-<b><a href="#open-source">Open-Source</a></b><br>
+<b><a href="#open-source">Open Source</a></b><br>
 Licensing and files for replication are now rolled out!
 </td>
 </tr>
@@ -98,7 +98,7 @@ Some of its **<u>notable attributes</u>** included:
 
 - Standard Arduino Uno as the ‘brains’ of the board
   - Powers all board IO via 5V 0.5A supplied over USB from the tethered computer
-  - [Grbl](https://github.com/gnea/grbl/wiki)-based: a well performing and efficient CNC firmware built by Simen, Sonny and many other open-source community contributors, setting the stage for the existence of nearly all hobby CNCs to-date
+  - [Grbl](https://github.com/gnea/grbl/wiki)-based: a well performing and efficient CNC firmware built by Simen, Sonny and many other open source community contributors, setting the stage for the existence of nearly all hobby CNCs to-date
 - Accepts 12-48V for all non-IO but shipped to use a 24V 10A power brick
 - 4, solder in-place standard TB6600 driver boards (X, duplicated Y, and Z-axis control)
   - <https://toshiba.semicon-storage.com/us/semiconductor/product/motor-driver-ics/stepping-motor-driver-ics/detail.TB6600HG.html>

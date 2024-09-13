@@ -59,7 +59,7 @@ Specification for the driver may vary due to the operating limits of periphery c
 
 #### Dimensions
 
-For 3D models of the LongBoard, please visit our open-source documentation page for access to files if you wish to acquire additional dimensioning: <a href="https://resources.sienci.com/view/lm-open-source-and-modifications/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-open-source-and-modifications/</a>
+For 3D models of the LongBoard, please visit our open source documentation page for access to files if you wish to acquire additional dimensioning: <a href="https://resources.sienci.com/view/lm-open-source-and-modifications/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-open-source-and-modifications/</a>
 
 ![](/_images/_longmill/_advanced/_12_LBDetails/lm_lbdeets_p1_DrawingRev1.4.jpg){.aligncenter .size-medium}
 

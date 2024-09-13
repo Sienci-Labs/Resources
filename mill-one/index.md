@@ -36,7 +36,7 @@ More Projects
 Machine Maintenance
 Troubleshooting Guide
 
-Open-source & Mods
+Open Source & Mods
 Touch Plate Wiring
 Changing Acceleration Settings
 Safety Manual

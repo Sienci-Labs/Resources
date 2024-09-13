@@ -174,7 +174,7 @@ These are the settings you’d change to improve the performance of your cutting
 
 <b>CAD</b> - Computer aided design, a software program used to produce a 2D or 3D design.
 
-<b>CAM</b> - Computer aided manufacturing, a software program that converts designs into toolpaths to generate a g-code file. The program requires inputs from the user, such as feed rates, bit size and geometry, and post-processor.
+<b>CAM</b> - Computer aided manufacturing, a software program that converts designs into toolpaths to generate a g-code file. The program requires inputs from the user, such as feed rates, bit size and geometry, and post processor.
 
 <b>g-code</b> - The text used by CNC machines to interpret and communicate commands. Many machines use g-code, not just CNC machines but laser cutters and 3D printers. There are many different languages within g-code, for various applications made by different manufacturers and researchers.
 

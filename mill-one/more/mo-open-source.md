@@ -15,7 +15,7 @@ skip_file: no
 featured_image: 
 ---
 
-Sienci Labs is dedicated to growing the maker community and advancing the development of open-source automated manufacturing technologies. Because of our vision, designs for the Mill One are open for anyone to use.
+Sienci Labs is dedicated to growing the maker community and advancing the development of open source automated manufacturing technologies. Because of our vision, designs for the Mill One are open for anyone to use.
 
 We encourage makers around the world to use our designs and ideas to modify existing Mill Ones and even build their own from scratch. Check out the resources available below for files, instructions, and other information.
 

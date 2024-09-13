@@ -106,7 +106,7 @@ If you're looking for software that takes advantage of most CNC features while r
 <td>Inkscape</td>
 <td><span class="redText">2D Design</span>, <span class="blueText">2D CAM</span></td>
 <td>3</td>
-<td>Stick with something that's open-source with lots of features for 2D project design</td>
+<td>Stick with something that's open source with lots of features for 2D project design</td>
 <td>All desktops</td>
 <td>Free</td>
 </tr>
@@ -176,7 +176,7 @@ Carbide Create is an awesome free (with paid pro features) program that works gr
 
 <b>Inkscape</b> (<a href="https://inkscape.org/" target="_blank" rel="noopener noreferrer">https://inkscape.org/</a>)
 
-Inkscape is a free and open-source desktop tool that lets you draw vector drawings or convert regular pictures into vector format with lots of granular control. This program has been around for a long while and though it was never really meant for CNC it gets the job done using community-source plugins. There are many advanced features and tons of resources online to help you learn Inkscape.<br>
+Inkscape is a free and open source desktop tool that lets you draw vector drawings or convert regular pictures into vector format with lots of granular control. This program has been around for a long while and though it was never really meant for CNC it gets the job done using community-source plugins. There are many advanced features and tons of resources online to help you learn Inkscape.<br>
 <a href="https://www.youtube.com/watch?v=5aEcng_4sVA" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p4_Inkscape.JPG){.aligncenter .size-medium}
@@ -185,7 +185,7 @@ Inkscape is a free and open-source desktop tool that lets you draw vector drawin
 
 <b>F-Engrave</b> (<a href="https://www.scorchworks.com/Fengrave/fengrave.html" target="_blank" rel="noopener noreferrer">link to site</a>)
 
-F-Engrave is a free and open-source software which provides several useful features if you are looking to do engraving work. This includes v-carving, b-carving, importing DXF and bitmap files, and more. To learn about how it works, check out the <a href="http://www.scorchworks.com/Fengrave/fengrave.html#documentation" target="_blank" rel="noreferrer noopener">documentation</a> online or watch the YouTube tutorial videos.<br>
+F-Engrave is a free and open source software which provides several useful features if you are looking to do engraving work. This includes v-carving, b-carving, importing DXF and bitmap files, and more. To learn about how it works, check out the <a href="http://www.scorchworks.com/Fengrave/fengrave.html#documentation" target="_blank" rel="noreferrer noopener">documentation</a> online or watch the YouTube tutorial videos.<br>
 <a href="https://www.youtube.com/playlist?list=PLEqJxTyAwzThLLbS33drahi0B-LQhdZME" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p5_FEngrave.JPG){.aligncenter .size-medium}
@@ -318,7 +318,7 @@ Fusion 360 is one of the most popular 3D modelling and CAM combination programs 
 Many of our software picks don't tend to have a built-in machine interface so we have a couple of independent programs that we've found work well. For most users, we recommend using <b>gSender</b> as the go-to interface software:
 
 <ul>
-<li>This is an open-source program developed by us, Sienci Labs, which you can download for free here: <a href="https://sienci.com/gSender/" target="_blank" rel="noopener">https://sienci.com/gsender/</a></li>
+<li>This is an open source program developed by us, Sienci Labs, which you can download for free here: <a href="https://sienci.com/gSender/" target="_blank" rel="noopener">https://sienci.com/gsender/</a></li>
 <li>We used to recommend highly some other senders, but hearing about their flaws we decided to make gSender as a solution to all the feedback we received</li>
 <li>Detailed instructions on how to use gSender can be found here: <a href="https://resources.sienci.com/view/gs-installation/" target="_blank" rel="noopener">https://resources.sienci.com/view/gs-installation/</a></li>
 <li>gSender is designed to work right out of the box for the LongMill CNC</li>

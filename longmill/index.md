@@ -51,14 +51,14 @@ More Projects
 Maintenance
 Common Issues & Fixes
 
-Open-source & Modifications
+Open Source & Modifications
 Noise, EMI, & Grounding
 Tool Changing
 Inductive Sensors
 Custom Limit Switches
 IOT Relay Control
 Adding a Laser
-GRBL Firmware
+grbl Firmware
 EEPROM Settings
 Adjusting Stepper Driver Current
 Changing Microstepping

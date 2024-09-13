@@ -546,7 +546,7 @@ This is where you can get fancy; levelling up your CNC by controlling more acces
 
 #### Flood
 
-If you’ve used a ‘Coolant’ output previously (our LongBoard had one), this 5V output still serves the same function. Simply turn the digital signal on or off using M8 and M9 commands, manually, in g-code using your post-processor, or using your g-code sender’s start/end g-code code blocks.
+If you’ve used a ‘Coolant’ output previously (our LongBoard had one), this 5V output still serves the same function. Simply turn the digital signal on or off using M8 and M9 commands, manually, in g-code using your post processor, or using your g-code sender’s start/end g-code code blocks.
 
 This output is commonly used to automatically control a vacuum or router to turn on/off at the start/end of a job using an IOT Relay. It also can be used for any other purpose with any component that accepts a 5V 40mA digital signal.
 
@@ -574,7 +574,7 @@ As opposed to the ‘Flood’ output which is controlled with M8 and M9, you can
   - For example, to turn on ‘Switch 1’ immediately, we’d send the command “**M64 P0**”
   - Read more here: <a href="https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65" target="_blank" rel="noopener">https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65</a>
 
-Similar to the ‘Flood’ output, you’ll now be able to control ‘Switch’ and ‘AuxPwr’ outputs either manually, in g-code using your post-processor, or using your g-code sender’s start/end g-code code blocks.
+Similar to the ‘Flood’ output, you’ll now be able to control ‘Switch’ and ‘AuxPwr’ outputs either manually, in g-code using your post processor, or using your g-code sender’s start/end g-code code blocks.
 
 **Note:** The ‘Auxiliary Power’ outputs are always providing power by default, so when it's 'turning on' it's actually enabling the 'ground' to allow current to flow. This means you can’t typically use it to drive logic, only to drive current components.
 

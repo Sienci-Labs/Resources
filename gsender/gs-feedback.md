@@ -141,7 +141,7 @@ This is Normal. Sometimes there can be pauses or long changes in direction in th
 
 ### Workspace changes during/after a job
 
-If your g-code includes any workspace commands from G54 to G59, G59.1 to G59.3, or has an M2 or M30 command at the end of the program this will alter your selected workspace either to the one specified or revert it to G54. These commands affect how grbl stores the active workspace and so also affect the workspace stored by gSender. If you're experiencing this issue then you'll want to check your CAM post-processor and ensure that it stops inserting these commands when you export your g-code jobs.
+If your g-code includes any workspace commands from G54 to G59, G59.1 to G59.3, or has an M2 or M30 command at the end of the program this will alter your selected workspace either to the one specified or revert it to G54. These commands affect how grbl stores the active workspace and so also affect the workspace stored by gSender. If you're experiencing this issue then you'll want to check your CAM post processor and ensure that it stops inserting these commands when you export your g-code jobs.
 
 Alternatively, gSender's 'Start/Stop G-code' can also be equipped to sidestep problems with changing workspaces by saving the active workspace at the start of the program and then re-loading it at the end. This can be done with the commands `%global.state.workspace=modal.wcs` and `[global.state.workspace]` as shown in the picture below. Remember to 'Update Event' on both entries:
 
