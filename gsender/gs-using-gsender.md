@@ -161,18 +161,15 @@ Now you're off and cutting, what a thrill! While your job is running keep an eye
 
 ## **Job Loss Recovery**
 
-Also referred to as “Start from Line” this feature is built right into gSender for the purpose of recovering a carve you were working on that was disrupted by a power loss, USB disconnect, mechanical malfunction, or other failures.
+Also called “Start from Line”, this feature can recover a carve you were working on that:
 
-*Note: gSender keeps your computer awake to combat job loss!*
+1. Was disrupted by a power loss, USB disconnect, mechanical malfunction, or other failure so you need to resume from where it failed
+1. Was really long, so you want to resume carving after you paused it for the night
+1. You only wanted to run part of the job anyway
+
+
 
 When a job is lost from a disconnect, clicking ‘Stop Job’, or anything similar, your first step should be to ensure that the job you were running is currently loaded, otherwise you need to load it back onto gSender. This is an alternate way of starting / resuming a job.
-
-**Using Start from line gSender:**<br>
-This feature is handy in cases where:
-
-1. You only want to cut part of a project, not the entire thing
-1. Your job has been interrupted, so you need to resume from a specific point of the project
-1. You are running a very long job, and need to stop for the night
 
 **Please follow these steps to leave the machine.**
 
@@ -182,7 +179,7 @@ This feature is handy in cases where:
 1. At a point when the bit is above the workpiece and not cutting material, stop the job and turn off your router.
 1. If you **don't** have the limit switches, move the machine back to your zero starting point by clicking go XY0. This will move the machine back to the starting X and Y axis. Then click "go to Z" to lower the bit to the Z height. You should see the numbers beside the XYZ all zeros. Once the router is at the initial starting Zero you can turn off the computer and controller.
 ![](/_images/_gsender/_using/gs_us_job-loss2.jpg){.aligncenter .size-medium}
-*Note: If you lose your zeroes and you have used a touchplate to set them, you can reuse it to find your starting spot again, before resuming the job*
+*Note: If you lose your zeroes and you have used a touch plate to set them, you can reuse it to find your starting spot again, before resuming the job*
 1. When you are ready to cut again, load up your g-code file. Your location should still read all zeros for each of the axes. Raise the router a bit above your material and turn on.
 1. You should see the green ‘Start Job’ button, with a small icon on the top right of the button.
 ![](/_images/_gsender/_using/gs_us_job-loss3.jpg){.aligncenter .size-medium}
@@ -196,7 +193,7 @@ This feature is handy in cases where:
 
 *Tip - If your machine was running for a long while after the failure then you’ll want to subtract more from the last line recorded, or if the failure was quick you might only need to subtract 10 or 20 lines. For example: if the last recorded line was 1040 but I hadn’t been paying attention for several minutes and the job had already been running for an hour, then I could assume that maybe 100 lines had passed since the failure so I could restart on line 940.*
 
-7. From my example above I'd type 731 into "Resume job at line:" Turn on the router.
+1. From my example above I'd type 731 into "Resume job at line:" Turn on the router.
 ![](/_images/_gsender/_using/gs_us_job-loss4.jpg){.aligncenter .size-medium}
 1. Press "Start from Line" and the machine moves to the last location and begins cutting again.
 
