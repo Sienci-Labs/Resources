@@ -37,7 +37,7 @@ Below, we've tried to include as many instructions as possible so that you can f
 
 #### Making Changes
 
-To find the page you'd like to change, the easiest way is to go to the page on our [Resources site](https://resources.sienci.com/) and click the "**Suggest edits to this Page**" button at the top, right of the page. Alternatively, you can go through the GitHub folders until you find a page with the same URL.
+To find the page you'd like to change, the easiest way is to go to the page on our [Resources site](https://resources.sienci.com/) and click the "**Page Suggestions?**" button at the top, right of the page. Alternatively, you can go through the GitHub folders until you find a page with the same URL.
 
 Once you're at the document, you'll be able to edit it with your changes by clicking the pencil.
 

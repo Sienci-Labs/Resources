@@ -737,7 +737,7 @@ https://www.youtube.com/watch?v=454pWYtZgBU
 
 ## Community Macros
 
-<b><span class="redText">Disclaimer!</span> these are Macros submitted by our community. They aren't vetted by us and might cause damage to your machine so use them at your own risk!</b>
+<b><span class="redText">Disclaimer!</span> These Macros are submitted by our community. They aren't vetted by us and might cause damage to your machine so use them at your own risk!</b>
 
 [su_spoiler title="<b>SLB Light-Cycling</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 **Author:** Kevin G.<br>
@@ -757,7 +757,7 @@ M356 P0 Q[nextLight % 3]
 
 ### Formatting
 
-If you'd like to add your own macros to this page, [edit the page on GitHub](https://github.com/Sienci-Labs/Resources?tab=readme-ov-file#contributing) and use the template below for each macro.
+If you'd like to add your own macros to this page, [edit the page on GitHub](https://github.com/Sienci-Labs/Resources?tab=readme-ov-file#making-changes) and use the template below for each macro.
 
 [su_spoiler title="<b>Macro Title</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 **Author:** John D.<br>
