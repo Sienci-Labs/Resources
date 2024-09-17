@@ -739,12 +739,36 @@ https://www.youtube.com/watch?v=454pWYtZgBU
 
 <b><span class="redText">Disclaimer!</span> these are Macros submitted by our community. They aren't vetted by us and might cause damage to your machine so use them at your own risk!</b>
 
+[su_spoiler title="<b>SLB Light-Cycling</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+Author: Kevin G.<br>
+Updated: Apr 15, 2024
+
+Description: Currently only supports the SLB. Allows you to cycle the status light between it's three states of 'Automatic', 'All white', and 'Off' so you can change the light output easily.
+
+Code:
+
+```js
+%nextLight = global.lightState || 0
+M356 P0 Q[nextLight % 3]
+%global.lightState = Number(nextLight) + 1
+```
+
+[/su_spoiler]
+
 ### Formatting
 
 If you'd like to add your own macros to this page, [edit the page on GitHub](https://github.com/Sienci-Labs/Resources?tab=readme-ov-file#contributing) and use the template below for each macro.
 
 [su_spoiler title="<b>Macro Title</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
-Describe the functionality of the macro and any additional details a user may need to configure or steps to run it.
+Author: name (Mike S.)<br>
+Updated: date (Aug 7, 2024)
 
-`Paste your macro code here.`
+Description: Describe the function of the macro, what hardware it's for, and any other details a user may need to configure or steps to run it.
+
+Code:
+
+```js
+Paste your macro code here.
+```
+
 [/su_spoiler]
