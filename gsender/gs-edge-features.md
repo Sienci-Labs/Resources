@@ -43,37 +43,37 @@ As of version **1.50** the current notable features / improvements to Edge are:
 
 ### Available Now
 
-- New UI Control Screen
+- **New UI Control Screen**
     - **Jog Control**
     - **New DRO**
     - **Endstop buttons**
     - **Visualizer**
     - **Settings**
-    - **Running Jobs**
+    - **Running Jobs**-Feed & Laser Speed Bar really got a punch of colour! Use the slider or the + and - buttons to change speed
     - **Alarms** are focused in the top/center of the screen for easier reading
     - **Outline & Start From**
-    - **Feed & Laser Speed Bar** really got a punch of colour! Use the slider or the + and - buttons to change speed
+    
     - **Running status bar** is now an endmill, showing your progress through your job visually, in a percentage in in time shown
-- Updated Mobile & Tablet screens
-- Notification System
+- **Updated Mobile & Tablet screens**
+- **Notification System**
     - **Info button** provides a footprint of your machine information, including firmware modals and pin indication lights
     - **Notification bell** allows you to sort your notifications by tab, showing errors, info and successful jobs completed
     - **Tool is ON** buttons will appear on the top bar if you have the laser or rotary tools enabled
 
-- Config Tab
+- **Config Tab**
 
-- Stat/Info Tab
+- **Stat/Info Tab**
 
-- Tool/CAM Tab
+- **Tool/CAM Tab**
 
-- Job Files rethunk
+- **Job Files rethunk**
     - **Load File** has been updated to give you more power over your files
     - **Recent Files** listed, just press and load
     - **Last Job** includes the file name, run time and status
 
 ### Coming Soon
 
-- Dark Mode
+- **Dark Mode**
 
 ### Improved Layout/Control Screen
 
@@ -89,31 +89,59 @@ Another of gSender’s Design Principals is colouring. It can be scary to have a
 
 #### Jog Control
 
+![](/_images/_gsender/_edge/jog_controls.jpg){.aligncenter .size-medium}
 #### New DRO
 
+![](/_images/_gsender/_edge/dro.jpg){.aligncenter .size-medium}
 #### Endstop buttons
+
 
 #### Visualizer
 
+
 #### Settings
 
+
 #### Running Jobs
+![](/_images/_gsender/_edge/RunJob.jpg){.aligncenter .size-medium}
+
+#### Running status bar
+![](/_images/_gsender/_edge/StatusBar.jpg){.aligncenter .size-medium}
 
 #### Alarms 
+![](/_images/_gsender/_edge/alarmstate.jpg){.aligncenter .size-medium}
 
 #### Outline & Start From
 
-#### Feed & Laser Speed Bar 
-
-#### Running status bar
-
 ### Config Tab
+![](/_images/_gsender/_edge/config_main.jpg){.aligncenter .size-medium}
+
+![](/_images/_gsender/_edge/config_tabs.jpg){.aligncenter .size-medium}
+
+![](/_images/_gsender/_edge/config_search.jpg){.aligncenter .size-medium}
+
+![](/_images/_gsender/_edge/app_preferences.jpg){.aligncenter .size-medium}
+
+![](/_images/_gsender/_edge/config_machine_firmware.jpg){.aligncenter .size-medium}
 
 ### Stat/Info Tab
 
 ### Tool/CAM Tab
+![](/_images/_gsender/_edge/tool_cam_icon.jpg){.aligncenter .size-medium}
+
+![](/_images/_gsender/_edge/tool_cam_start.jpg){.aligncenter .size-medium}
 
 ### Job Files
+![](/_images/_gsender/_edge/file_load.jpg){.aligncenter .size-medium}
+
+### Updated Mobile & Tablet screens
+![](/_images/_gsender/_edge/mobile_screens.jpg){.aligncenter .size-medium}
+
+### Notification System
+![](/_images/_gsender/_edge/notification.jpg){.aligncenter .size-medium}
+
+
+
   
 While gSender Edge, our development version of the application, has been quiet for the last bit, we’d like to share some of the things we’ve been working on for the next release in that channel. Internally, we’re dubbing the next version “New U”, which will bring a new look and feel to the application as a whole.
 
