@@ -23,3 +23,5 @@ Where you can source bits
 Typical bit geometry terms 
 
 Need to insert all writing that Kelly did outlining how to use the Makita (maintenance)
+
+https://www.reddit.com/r/hobbycnc/comments/1ffiojs/is_a_larger_bit_better_for_cutting_profiles/
