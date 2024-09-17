@@ -760,8 +760,8 @@ M356 P0 Q[nextLight % 3]
 If you'd like to add your own macros to this page, [edit the page on GitHub](https://github.com/Sienci-Labs/Resources?tab=readme-ov-file#contributing) and use the template below for each macro.
 
 [su_spoiler title="<b>Macro Title</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
-**Author:** name (Mike S.)<br>
-**Updated:** date (Aug 7, 2024)
+**Author:** John D.<br>
+**Updated:** Aug 7, 2024
 
 **Description:** Describe the function of the macro, what hardware it's for, and any other details a user may need to configure or steps to run it.
 
