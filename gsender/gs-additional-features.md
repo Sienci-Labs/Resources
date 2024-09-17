@@ -238,7 +238,7 @@ You can share macros with other users or transfer them between computers by usin
 
 gSenders Macro architecture is based on **JavaScript** and uses the Esprima library (<a href="https://esprima.org/" target="_blank" rel="noopener">https://esprima.org/</a>) and so will theoretically support any code that it does. This is exciting because Macros can move far past basic variables if you’d like to perform advanced functions on your CNC:
 
-If you want some initial inspiration, see other macros **made by our community** or ones <a href="https://github.com/cncjs/CNCjs-Macros/blob/master/Hole_Center" target="_blank" rel="noopener"><b>made for CNCjs</b></a> (another g-code sender) which should also work in gSender. Otherwise, here are some other points of guidance:
+If you want some initial inspiration, see other macros [**made by our community**](#community-macros) or ones <a href="https://github.com/cncjs/CNCjs-Macros/blob/master/Hole_Center" target="_blank" rel="noopener"><b>made for CNCjs</b></a> (another g-code sender) which should also work in gSender. Otherwise, here are some other points of guidance:
 
 1. You'll want to develop your understanding of typical <a href="https://linuxcnc.org/docs/html/gcode/g-code.html" target="_blank" rel="noopener">g-codes</a> and <a href="https://linuxcnc.org/docs/devel/html/gcode/m-code.html" target="_blank" rel="noopener">m-codes</a> that are used for CNC control (the pages linked are very good sources for that)
 1. The "Macro Variables" dropdown in gSender shows many of the most commonly used operations when making your own macro
@@ -734,3 +734,17 @@ You can find the release notes for the latest version of gSender in the “About
 Check out this livestream if you'd like to see a super deep dive on gSender and all of its features as of 0.6.9. Chris spends a lot of time answering questions live about gSender and how to set up for a project:
 
 https://www.youtube.com/watch?v=454pWYtZgBU
+
+## Community Macros
+
+<b><span class="redText">Disclaimer!</span> these are Macros submitted by our community. They aren't vetted by us and might cause damage to your machine so use them at your own risk!</b>
+
+### Formatting
+
+If you'd like to add your own macros to this page, [edit the page on GitHub](https://github.com/Sienci-Labs/Resources?tab=readme-ov-file#contributing) and use the template below for each macro.
+
+[su_spoiler title="<b>Macro Title</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+Describe the functionality of the macro and any additional details a user may need to configure or steps to run it.
+
+`Paste your macro code here.`
+[/su_spoiler]
