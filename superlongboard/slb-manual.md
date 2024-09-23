@@ -846,8 +846,13 @@ The SuperLongBoard comes with many inputs and outputs that are easy to wire in f
 - **Spindle**: <a href="https://www.lcsc.com/product-detail/Pluggable-System-Terminal-Block_Ningbo-Kangnex-Elec-WJ15EDGK-3-81-5P_C3804.html" target="_blank" rel="noopener">5-pin 3.81mm pitch Pluggable</a> Terminal Block (x1)
 - **RS485**: <a href="https://www.lcsc.com/product-detail/Pluggable-System-Terminal-Block_Ningbo-Kangnex-Elec-WJ15EDGK-3-81-4P_C7244.html" target="_blank" rel="noopener">4-pin 3.81mm pitch Pluggable</a> Terminal Block (x1)
 - **Aux Spindle, Pendant**: RJ25 Phone Jack
-- **A-axis**: <a href="https://www.digikey.ca/en/products/detail/adam-tech/FCS-08-SG/9832361" target="_blank" rel="noopener">2x8-pin 2.54mm pitch Female IDC Flat Ribbon Cable Connector</a> (x1)
+- **A-axis**: <a href="https://www.digikey.ca/en/products/detail/adam-tech/FCS-08-SG/9832361" target="_blank" rel="noopener">2x4-pin 2.54mm pitch Female IDC Flat Ribbon Cable Connector</a> (x1)
 - **AUX COMM Header**: <a href="https://www.sparkfun.com/products/13028" target="_blank" rel="noopener">40-pin 2.54mm pitch GPIO Cable</a> (x1)
+
+SLB EXT Plugs:
+
+- **Motor Power**: <a href="https://www.lcsc.com/product-detail/Pluggable-System-Terminal-Block_Ningbo-Kangnex-Elec-WJ15EDGK-3-81-2P_C8466.html" target="_blank" rel="noopener">2-pin 3.81mm pitch Pluggable</a> Terminal Block (x4)
+- **Motor Signal**: <a href="https://www.digikey.ca/en/products/detail/adam-tech/FCS-08-SG/9832361" target="_blank" rel="noopener">2x4-pin 2.54mm pitch Female IDC Flat Ribbon Cable Connector</a> (x4)
 
 If you don’t happen to have these specific connectors on hand there are also common ‘hookup wires’ that ship with many electronics or Arduino kits that are 2.54mm pitch that you could also use to make many of the above connections.
 
