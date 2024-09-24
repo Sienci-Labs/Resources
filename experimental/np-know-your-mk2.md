@@ -6,17 +6,17 @@ post_excerpt:
 post_date: 2024-09-10 10:45
 taxonomy:
     knowledgebase_cat: 
-    knowledgebase_tag:
-        
+    knowledgebase_tag:        
 custom_fields:
     KBName: 
     basepress_post_icon: bp-caret-right
 skip_file: yes
 featured_image: 
 ---
+
 Needs to be a complete, general coverage of everything you’d want to keep in mind when using your LongMill
 
-Safeheights on regular and Vortex
+Safe heights on regular and Vortex
 
 Clarify homing and safe Z
 https://discord.com/channels/1098978580169510923/1119277236516823153/1242848042172944456

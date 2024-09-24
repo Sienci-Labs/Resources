@@ -6,14 +6,14 @@ post_excerpt: Workholding is the method you use to keep material secured while c
 post_date: 2024-09-10 10:08
 taxonomy:
     knowledgebase_cat: 
-    knowledgebase_tag:
-        
+    knowledgebase_tag:        
 custom_fields:
     KBName: 
     basepress_post_icon: bp-caret-right
 skip_file: yes
 featured_image: _images/_experimental-writing/lm_workholding_p1_TTracks.PNG
 ---
+
 Re-framed the whole page to contain not just surfacing but also other project fixturing methods that we can expand on in the future such as tiling, flip milling, end grain cutting, etc.
 
 Still need to fill out fixture documentation
