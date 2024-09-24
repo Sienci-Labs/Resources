@@ -15,3 +15,14 @@ skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 
+gSender page order should be as follows:
+
+Full Documentation
+
+- Installation
+- Setup & Layout
+- Using gSender
+- Additional Features
+- Edge Features
+- Problems / Bugs?
+- grbl Alarms & Errors

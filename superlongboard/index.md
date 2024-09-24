@@ -15,3 +15,12 @@ skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 
+SuperLongBoard page order should be as follows:
+
+Handbook
+
+- Welcome!
+- Upgrading to SLB
+- Troubleshooting
+- Technical Manual
+- Firmware & Flashing

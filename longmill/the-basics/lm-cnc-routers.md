@@ -1,5 +1,5 @@
 ---
-title: CNC routers
+title: CNC Routers
 menu_order: 4
 post_status: publish
 post_excerpt: What is a CNC router? What can it cut? An explanation of how the LongMill and other 3-axis CNCs work and their capabilities when creating projects.
