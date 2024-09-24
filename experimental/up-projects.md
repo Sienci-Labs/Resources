@@ -6,14 +6,14 @@ post_excerpt:
 post_date: 2024-09-10 10:31
 taxonomy:
     knowledgebase_cat: 
-    knowledgebase_tag:
-        
+    knowledgebase_tag:        
 custom_fields:
     KBName: 
     basepress_post_icon: bp-caret-right
 skip_file: yes
 featured_image: 
 ---
+
 full explanation of projects and the bits you'd normally use to make them (maybe even have a test at the end of the page to validate their knowledge)
 
 The types of materials you typically cut
@@ -48,6 +48,8 @@ https://www.turbosquid.com/Search/3D-Models/free/cnc/stl
 https://www.pinterest.ca/pin/383861568244710781/
 https://3dmodelsart.com/free-stl-files-for-cnc-routers-best-models-of-2021-3dmodelsart/
 
+More 3D model websites https://youtu.be/bwbTWaBSS8A
+
 DXFs
 https://www.dxfforcnc.com/collections/free-dxf-files
 https://www.cnccookbook.com/free-dxf-files/
@@ -57,4 +59,3 @@ https://dxf1.com/
 
 Mix
 https://readytocut.com//
-

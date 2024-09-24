@@ -6,14 +6,14 @@ post_excerpt:
 post_date: 2024-09-10 10:30
 taxonomy:
     knowledgebase_cat: 
-    knowledgebase_tag:
-        
+    knowledgebase_tag:        
 custom_fields:
     KBName: 
     basepress_post_icon: bp-caret-right
 skip_file: yes
 featured_image: 
 ---
+
 Goes over the basics or posts existing good guides on a variety of packages people tend to use
 
 What type of files do I need?

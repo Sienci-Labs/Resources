@@ -6,14 +6,14 @@ post_excerpt:
 post_date: 2024-09-10 3:55
 taxonomy:
     knowledgebase_cat: 
-    knowledgebase_tag:
-        
+    knowledgebase_tag:        
 custom_fields:
     KBName: 
     basepress_post_icon: bp-caret-right
 skip_file: yes
 featured_image: 
 ---
+
 Can go in “The Basics” section and be a sort of page that can set the expectations of someone starting on the CNC journey to set a reasonable bar of cost, learning curve, failure, machine maintenance, etc.
 
 Here are some basics. This kind of work is cut with a CNC router, usually using various diameters of round nosed bits. Fine detail and smooth surfaces are challenging. All round nose bits produce a scalloped surface. Putting the scallops close together reduces the effect, but it can't ever be eliminated. Closely spaced cuts take time, lots of time, especially on inexpensive machines that move slowly. It's a tradeoff between hours cutting vs hours sanding. Fine detail requires small bits. Removing lots of material requires large bits. The work is usually done with one or more roughing passes followed by one or more finish passes.

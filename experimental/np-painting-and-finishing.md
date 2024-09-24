@@ -6,8 +6,7 @@ post_excerpt:
 post_date: 2024-09-10 3:45
 taxonomy:
     knowledgebase_cat: 
-    knowledgebase_tag:
-        
+    knowledgebase_tag:        
 custom_fields:
     KBName: 
     basepress_post_icon: bp-caret-right
@@ -28,6 +27,9 @@ Questions
 5. What is a tack cloth and do I need one?
 5. Paintbrush vs sprayer
 
+### Indoor vs Outdoor Finishing
+
+https://sawsonskates.com/spar-urethane-vs-polyurethane/
 
 5. Whew, that is a lot of info. TLDR? available
 
