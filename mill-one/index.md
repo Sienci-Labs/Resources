@@ -17,7 +17,7 @@ featured_image: _images/post-image.jpg
 
 Mill One page order should be as follows:
 
-The Basics
+👍 The Basics
 
 - Welcome
 - Router Options
@@ -25,14 +25,14 @@ The Basics
 - Cutting Tool Guide
 - Feeds & Speeds
 
-Software
+💻 Software
 
 - Basic Toolchain
 - CAD
 - CAM
 - G-Code Senders
 
-Assembly
+🔧 Assembly
 
 - Unboxing
 - Assemble
@@ -43,7 +43,7 @@ Assembly
 - Machine Maintenance
 - Troubleshooting Guide
 
-More
+📙 More
 
 - Open Source & Mods
 - Touch Plate Wiring

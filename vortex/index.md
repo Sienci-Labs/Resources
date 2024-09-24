@@ -15,3 +15,31 @@ skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 
+Vortex page order should be as follows:
+
+👍 The Basics
+
+- Welcome!
+- Software
+
+🔧 Assembly
+
+- Unboxing
+- Headstock
+- Tailstock
+- Track
+- Electronics - Open Loop Motor
+- Electronics - Closed Loop Motor
+- Table Setup
+- Quick Start Guide
+
+📙 Handbook
+
+- Your First Project
+- Your Second Project
+- Find 3D Models
+- Chuck & Workholding
+- Rotary Feeds & Speeds
+- Troubleshooting
+- Maintenance
+- Using other CNC routers

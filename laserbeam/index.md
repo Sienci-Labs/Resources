@@ -15,3 +15,49 @@ skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 
+LaserBeam page order should be as follows:
+
+📁 Safety
+
+- User & Safety Manual
+
+👍 The Basics
+
+- Welcome
+- Laser Diode
+- Laser Driver
+- Lenses
+- Laser Safety Glasses
+- LaserBeam Demos
+- FAQ
+
+💻 Software
+
+- Choosing Laser Software
+- Laser Test LightBurn Files
+- Using Offsets in gSender
+
+🔧 Assembly
+
+- Unboxing
+- Introduction
+- Mounting Laser Assembly
+- Cables and Connections
+- Driver Power Supply
+- Turning Driver On
+- Setting Max Current DIP Switch
+- Installing Lens
+- LightBurn Settings
+- gSender Settings
+- Test Out Your Laser
+- Focusing
+- Set XY Zero
+
+📙 Handbook
+
+- Air Assist
+- Material Guide
+- Cleaning & Maintenance
+- LaserBeam Vortex Riser Mount
+- Common Issues and Fixes
+- Troubleshooting Files

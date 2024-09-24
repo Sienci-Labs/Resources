@@ -16,3 +16,69 @@ skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 
+LongMill MK2 page order should be as follows:
+
+👍 The Basics
+
+- Welcome!
+- CNC Routers
+- Materials
+- Cutting Tools 🌀
+- Workholding 🕳️
+- Routers/Spindles
+- Dust Collection
+- Touch Plates ⚡
+- Table/Enclosure
+
+💻 Software
+
+- Software Explained 🗣️
+- Choosing Software 🎛️
+- Post Processors
+- Visualizers
+- Software Table
+- System Requirements 📊
+
+🔧 Assembly
+
+- Unboxing 📦
+- X & Z-Axes
+- Y-Axis Gantries
+- Axes Completion 🗜️
+- Motors & Wiring
+- Checks & 1st Moves
+- Table Mounting 📐
+- Your First Project
+- Extra 48x30 Steps
+
+↔️ Add-ons
+
+- Touch Plate
+- Dust Shoe & Shields
+- Limit Switches ⛔
+- T-Track & Clamps
+- 48" Extension Kit
+- Laser 🔥
+- LongMill Spindle Kit
+- Automated / IOT Relay
+
+📙 Handbook
+
+- Your MK2
+- Tools & Router
+- Feeds & Speeds ⏩
+- Wasteboard & Fixtures
+- Running Jobs
+- Explore Projects 🪑
+- Maintenance 🛠️
+- CNC Issues & Fixes 🩹
+- Common CNC Terms
+
+🧩 Advanced
+
+- Open Source 🥽
+- LongBoard Details
+- GRBL Firmware 🤖
+- EEPROM Settings
+- Stepper Driver Current
+- Changing Microstepping

@@ -17,7 +17,7 @@ featured_image: _images/post-image.jpg
 
 gSender page order should be as follows:
 
-Full Documentation
+📙 Full Documentation
 
 - Installation
 - Setup & Layout

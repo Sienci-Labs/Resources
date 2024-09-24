@@ -17,7 +17,7 @@ featured_image: _images/post-image.jpg
 
 SuperLongBoard page order should be as follows:
 
-Handbook
+📙 Handbook
 
 - Welcome!
 - Upgrading to SLB
