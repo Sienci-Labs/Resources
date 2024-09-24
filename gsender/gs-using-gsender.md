@@ -163,13 +163,12 @@ Now you're off and cutting, what a thrill! While your job is running keep an eye
 
 Also called “Start from Line”, this feature can recover a carve you were working on that:
 
+1. You had to manually stop part-way through
 1. Was disrupted by a power loss, USB disconnect, mechanical malfunction, or other failure so you need to resume from where it failed
-1. Was really long, so you want to resume carving after [pausing it for the night](#steps-to-pause-cutting-mid-job)
+1. Was really long, so you want to resume carving after [pausing it for the night](#pause-cutting-mid-job)
 1. You only wanted to run part of the job anyway
 
-This will work whether it's your first time running the file, you've reloaded it, you stopped it manually, it got disconnected somehow, or any other situation.
-
-There is a lot to consider when recovering a job that was previously stopped. We worked hard to make this feature account for all of the typical 'setup' g-code that is at the start of your file. This includes items such as your previous job selection of inches or millimeters, where you set your zeros, are you using a spindle or laser, where we need to go next and any extra automatic g-code commands that may be in the file. You can be confident in returning to your projects and continuing to carve, even when something has gone awry.
+It does this by looking through the whole g-code file up to where you want to resume running to see all the movements up to that point, what accessories were turned on, the power of a spindle or laser, and runs any automatic commands you've set up in gSender. This way you can be confident in returning to your projects, even when something has gone awry.
 
 ### Steps to Resume Cutting
 
@@ -193,7 +192,7 @@ There is a lot to consider when recovering a job that was previously stopped. We
 
 ![](/_images/_gsender/_using/gs_us_job-loss-notice.jpg "Example of USB port disconnect while running a job where you'll want to check your USB cable, write down the suggested line, then use the ‘Start from Line’ feature as normal."){.aligncenter .size-full}
 
-### Steps to Pause Cutting
+### Pause Cutting Mid-Job
 
 1. If a carve is dragging on and you need to leave the machine for the night, first you'll want to note down the approximate g-code line number it's at. In the example below you'd note down "731 lines".
 ![](/_images/_gsender/_using/gs_us_job-loss1.jpg){.aligncenter .size-medium}
