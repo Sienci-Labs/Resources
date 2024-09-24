@@ -33,7 +33,7 @@ Check that the wires are connected appropriately by tugging on them. Secure them
 
 The wires, looking down from the side with the screw heads, should be, from left to right, BLUE, YELLOW, GREEN, RED (pictured). Check if the color pattern on all four of your motor wires is correct and re-arrange them if needed. As previously, also check that the wires are connected securely to the connector.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p4.JPG "The wiring color pattern should be blue, yellow, green, red.")"{.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_electronics/lm_electronics_p4.JPG "The wiring color pattern should be blue, yellow, green, red."){.aligncenter .size-medium}
 
 While you're at it, double check that the motor-side, white connectors on each axis are pushed all the way into the motor housing to ensure a good connection. If these connectors are sitting too loosely, then they can cause issues later on since the motor won't move as expected.
 

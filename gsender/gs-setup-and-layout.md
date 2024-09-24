@@ -67,7 +67,7 @@ If you're running into an issue where the size isn't correct when using Soft Lim
 
 ## Running Longer Jobs (optional)
 
-Windows machines can have a tendency to 'fall asleep' on the display and USB ports when running longer CNC jobs, this can cause your intricate cuts to stop short. To circumvent this, you'll have to change your computer power settings so that the port 'stays awake' while cutting.
+Windows computers can tend to have their screens and USB ports 'fall asleep' even in the middle of running a long carving job. This can cause your intricate cuts to stop short and the job to fail. gSender tries to fight against this by keeping your computer awake (we use similar tactics to auto-clicker apps), but sometimes this still isn't enough so you have to change your computer settings manually.
 
 To keep the display on, you'll want to click the **Windows** icon at the bottom left corner of your screen and start to type “<em>control panel</em>” to bring it up.
 
@@ -79,11 +79,11 @@ Once you’ve clicked to open it, go to **Hardware and Sound** then **Power Opti
 
 ![](/_images/_gsender/_setup/gs_se_awake-power-options.jpg){.aligncenter .size-medium}
 
-Now, whichever plan you have currently selected (circled in the picture) will be the one that you want to change. You can see in this example we will be editing the **Balanced** plan. Click on the Change plan settings text (highlighted with an arrow).
+The plan that's currently selected (circled in the picture) will be the one that you want to change. In this example we will be editing the **Balanced** plan. Click on the "Change plan settings" text (highlighted with an arrow).
 
 ![](/_images/_gsender/_setup/gs_se_awake-plan-settings.jpg){.aligncenter .size-medium}
 
-Go to the second drop-down and set both battery and plugged in selection to **Never**, save the changes to ensure that your computer never dozes off on its own.
+Go to the second drop-down and set both 'battery' and 'plugged in' selection to **Never**, save the changes to ensure that your computer never dozes off on its own.
 
 ![](/_images/_gsender/_setup/gs_se_awake-never-sleep.jpg){.aligncenter .size-medium}
 
@@ -91,7 +91,7 @@ To keep the USB ports on, click **Change advanced power settings**
 
 ![](/_images/_gsender/_setup/gs_se_awake-advanced.jpg){.aligncenter .size-medium}
 
-In the separate window that appears, you’ll want to Expand the **USB Settings**, then **USB selective suspend setting**, and finally change both the battery and plugged in settings for these drop-downs to ‘**Disabled**’. Click OK to **Apply** these new settings.
+In the separate window that appears, you’ll want to Expand the **USB Settings**, then **USB selective suspend setting**, and finally change both the 'battery' and 'plugged in' settings for these drop-downs to ‘**Disabled**’. Click OK to **Apply** these new settings.
 
 ![](/_images/_gsender/_setup/gs_se_awake-usb.jpg){.aligncenter .size-medium}
 

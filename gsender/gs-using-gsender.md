@@ -161,31 +161,45 @@ Now you're off and cutting, what a thrill! While your job is running keep an eye
 
 ## **Job Loss Recovery**
 
-Also referred to as “Start from Line” this feature is built right into gSender for the purpose of recovering a carve you were working on that was disrupted by a power loss, USB disconnect, mechanical malfunction, or other failures.
+Also called “Start from Line”, this feature can recover a carve you were working on that:
 
-When a job is lost from a disconnect, clicking ‘Stop Job’, or anything similar, your first step should be to ensure that the job you were running is currently loaded, otherwise you need to load it back onto gSender. This is an alternate way of starting / resuming a job so you’ll find this feature as a part of the ‘Start Job’ button on the main visualizer shown as three lines.
+1. You had to manually stop part-way through
+1. Was disrupted by a power loss, USB disconnect, mechanical malfunction, or other failure so you need to resume from where it failed
+1. Was really long, so you want to resume carving after [pausing it for the night](#pause-cutting-mid-job)
+1. You only wanted to run part of the job anyway
 
-![](/_images/_gsender/_using/gs_us_job-loss-1.jpg){.aligncenter .size-full}
+It does this by looking through the whole g-code file up to where you want to resume running to see all the movements up to that point, what accessories were turned on, the power of a spindle or laser, and runs any automatic commands you've set up in gSender. This way you can be confident in returning to your projects, even when something has gone awry.
 
-In this popup, you’ll get some important information. Remember that every job you run on your CNC is a series of line-by-line instructions as a ‘g-code’ file:
+### Steps to Resume Cutting
 
-- **Line last recorded**: shows where gSender remembers the file failed
-- **Maximum line number**: shows the total instruction lines in your file
-- **Start at line**: for you to enter manually where you want to resume cutting from. If your machine was running for a long while after the failure then you’ll want to subtract more from the last line recorded, or if the failure was quick you might only need to subtract 10 or 20 lines. For example: if the last recorded line was 1040 but I hadn’t been paying attention for several minutes and the job had already been running for an hour, then I could assume that maybe 100 lines had passed since the failure so I could restart on line 940.
+1. Make sure to have the g-code file loaded that got interrupted (or that you want to start carving part-way through).
+1. If you think your machine lost its location:
+   - Re-home the machine (it should remember the zero location of the project if nothing else moved).
+   - If you don't have limit switches, the project moved, or your original cutting bit broke, try to re-use whatever setup method you used to set your zero location originally. This could be with a touch plate, 3D probe, paper method - whatever possible to set the project back up the way it was before it failed.
+1. Once everything looks set up correctly, you should be able to 'goto' the original zero position and see that the bit is lined up correctly to the material. The location should read all zeros for each axis.
+1. Raise up the Z-axis a couple millimeters for safety.
+1. Click the small icon at the top right of the green ‘Start Job’ button to open the window.
+  ![](/_images/_gsender/_using/gs_us_job-loss3.jpg){.aligncenter .size-medium}
+1. Here you'll see:
+  ![](/_images/_gsender/_using/gs_us_job-loss4.jpg){.aligncenter .size-medium}
+   - When you **Last stopped** your file, how many **Total lines** it has, and a **Recommended start line**: this number is generally reliable to use, but in some situations the 'last stopped' number can't be recovered. In these cases you'll want to have noted down the approximate line number that the job failed at then work from there.
+   ![](/_images/_gsender/_using/gs_us_job-loss1.jpg){.aligncenter .size-medium}
+   - **Resume job at line**: once you've decided where to resume from, you can type the line number in here.
+   - **Safe height**: if your CNC has extra Z movement above the failed job, you can put a larger number here to make sure that it doesn't hit clamps while moving into position to resume cutting.
+1. Once everything looks good, remember to turn on anything that isn't automated like a trim router or vacuum, then click 'Start from Line' to resume cutting.
 
-![](/_images/_gsender/_using/gs_us_job-loss-2.jpg){.aligncenter .size-full}
+**Example**: you were present when the job failed and hit 'Stop' immediately. Nothing moved but the bit broke so you swapped it out and used a touch plate to probe Z. It says the last recorded line was 731 but to be safe you'll subtract 20 and start at 711. The job starts back up a little before the failure and you're able to resume as expected. If instead you hadn't been paying attention for several minutes then you might subtract 50-100 lines instead just to be safe.
 
-Now you should be ready to get back into cutting by clicking ‘Start from Line’. This feature took us a long time to create since it:
+![](/_images/_gsender/_using/gs_us_job-loss-notice.jpg "Example of USB port disconnect while running a job where you'll want to check your USB cable, write down the suggested line, then use the ‘Start from Line’ feature as normal."){.aligncenter .size-full}
 
-- Runs the Start/Stop g-code as you’d expect
-- Accounts for all the typical ‘setup’ g-code that is at the start of the file like units, zeros, spindle speed or laser power
-- Looks at every past machine movement to locate exactly where it needs to resume from
+### Pause Cutting Mid-Job
 
-This way you can be confident in returning to your projects even when something goes awry.
-
-In the unlikely event that there is a USB port disconnect from your CNC while running a cutting job, in specific instances gSender will be able to recognize the problem and alert you about it. In these cases, check your USB cable then ensure you write down the “Suggested line to start from” before you confirm the window. From here you can use the ‘Start from Line’ feature as normal, entering in the suggested line number and hopefully resuming cutting where you left off. In the image below, we would be restarting at line 18.
-
-![](/_images/_gsender/_using/gs_us_job-loss-notice.jpg){.aligncenter .size-full}
+1. If a carve is dragging on and you need to leave the machine for the night, first you'll want to note down the approximate g-code line number it's at. In the example below you'd note down "731 lines".
+![](/_images/_gsender/_using/gs_us_job-loss1.jpg){.aligncenter .size-medium}
+1. Once noted down, 'Pause', then 'Stop' the job. This allows the machine to stop more slowly instead of emergency stop.
+1. Quickly turn off anything that isn't automated like a router or dust collector and jog the Z-axis up so you don't burn or mar the material. You can also try to pause strategically when the bit is moving and not cutting to avoid damaging your material.
+1. At this point it's best to return the cutting tool to the project zero point if possible using 'Go XY0' then 'Go to' for the Z-axis. This way if the zero point is lost when you resume cutting later, then you can just manually set your zero knowing you're still at the zero location.
+1. If you're concerned your machine might drift over time for example if you're using a heavy spindle, then another option is to place a block of wood under your cutting tool and jog down to it using the paper method. Once the bit is touching, you can note down the location where you left the machine, then when you resume you can type that location back in (see the end of [Set Zero and Gotos](#set-zero-and-gotos)).
 
 ## Safety
 
