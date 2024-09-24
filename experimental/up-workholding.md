@@ -17,6 +17,7 @@ featured_image: _images/_experimental-writing/lm_workholding_p1_TTracks.PNG
 Re-framed the whole page to contain not just surfacing but also other project fixturing methods that we can expand on in the future such as tiling, flip milling, end grain cutting, etc.
 
 Still need to fill out fixture documentation
+https://forum.sienci.com/t/diy-longmill-cnc-vertical-clamping-setup-part-2/13925
 ---
 
 Another aspect of learning how to use your CNC router involves knowing how to properly secure material down to the bed of the machine. Rigidly securing material to the machine bed is crucial when setting up to cut. Some clamping methods are rigid but are more intrusive, while others keep a low profile but aren't quite as strong. Play around with these methods to see which ones you can use individually or in combination for your ideal setup.
