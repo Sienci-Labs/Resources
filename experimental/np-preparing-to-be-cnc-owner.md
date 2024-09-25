@@ -14,7 +14,8 @@ skip_file: yes
 featured_image: 
 ---
 
-Can go in “The Basics” section and be a sort of page that can set the expectations of someone starting on the CNC journey to set a reasonable bar of cost, learning curve, failure, machine maintenance, etc.
+Can go in “The Basics” section
+Set the expectations of someone starting on the CNC journey to set a reasonable bar of cost, learning curve, failure, machine maintenance, etc.
 
 Here are some basics. This kind of work is cut with a CNC router, usually using various diameters of round nosed bits. Fine detail and smooth surfaces are challenging. All round nose bits produce a scalloped surface. Putting the scallops close together reduces the effect, but it can't ever be eliminated. Closely spaced cuts take time, lots of time, especially on inexpensive machines that move slowly. It's a tradeoff between hours cutting vs hours sanding. Fine detail requires small bits. Removing lots of material requires large bits. The work is usually done with one or more roughing passes followed by one or more finish passes.
 
@@ -30,11 +31,11 @@ It's a lot to learn, but can be very rewarding. Unless you have a lot of money, 
 
 You've done the hours of research and are ready to embark on your CNC journey. Ready to push the boat from the shore and jump in with both oars straining under your power. You will make magnificent creations that the world will line up to gander at. In time your marvels will be in a museum! Wait, is that rain I feel on my cheek? (Downpour of information incoming) Why am I veering off to the left all the time in this boat? (Machine maintenance) Did I remember to pack a bailer to get this water out?(How am I gonna do this? Community can help)
 
-We get it. It's a really exciting time and you are eager to start! Let's review what you are getting yourself into, the learning journey you will be taking and what iceburgs to look out for along the way.
+We get it. It's a really exciting time and you are eager to start! Let's review what you are getting yourself into, the learning journey you will be taking and what icebergs to look out for along the way.
 
 ### Costs
 
-Machine, router or spindle, accessories, endmills<br>
+Machine, router or spindle, accessories, end mills<br>
 Dust collection strategy<br>
 Safety equipment<br>
 Computer, monitor, mouse<br>
@@ -60,5 +61,3 @@ One thing that I’m sure you know to consider is the amp draw of your spindle +
 ### Failure
 
 ### Machine Maintenance
-
-

@@ -1,5 +1,5 @@
 ---
-title: Preparing to be a CNC Owner
+title: Leaving CNC
 menu_order: 4
 post_status: draft
 post_excerpt: 
@@ -14,4 +14,11 @@ skip_file: yes
 featured_image: 
 ---
 
-Reselling brings great value, where to resell, if not selling that metal holds value so make sure to scrap and still make some money
+Can go in “Handbook” section
+
+- If machine still works but not large enough, upgrade size
+- If machine starting to break down, pick up new parts to get it working again
+- If no longer interested, resell, where to resell (Forum, FB group, FB Marketplace and other online marketplaces) or convert into another style of machine like dedicated laser engraver
+- If not planning to sell, metal holds value so make sure to scrap and still make some money
+
+---

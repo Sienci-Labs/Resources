@@ -1,5 +1,5 @@
 ---
-title: Workholding Expanded
+title: Workholding 🕳️
 menu_order: 4
 post_status: draft
 post_excerpt: Workholding is the method you use to keep material secured while cutting on a CNC machine. Methods include T-tracks, threaded inserts, clamps and hot glue.
@@ -14,11 +14,15 @@ skip_file: yes
 featured_image: _images/_experimental-writing/lm_workholding_p1_TTracks.PNG
 ---
 
-Re-frame page to be in the context of the general types of project the person is wanting to do, then recommending workholding based on those project styles e.g. sign-cutting, metal, 3D carves, cookie surfacing.
+Re-frame page https://resources.sienci.com/view/lmk2-workholding/ to be in the context of the general types of project the person is wanting to do, then recommending workholding based on those project styles e.g. sign-cutting, metal, 3D carves, cookie surfacing.
 
-Also include other considerations when making a wasteboard like tiling needing space to pass material through, flip milling needing reference surfaces when flipping, end grain cutting needing space at the end of the table to clamp wood with
-
-https://forum.sienci.com/t/diy-longmill-cnc-vertical-clamping-setup-part-2/13925
+- Revise page to include all up-to-date Workholding options and the ones we recommend for different project styles / materials
+- Explain where each method excels and what situations or materials they simply can’t handle
+- Give examples of where to buy each type (both specific and generic)
+- Also include other considerations when making a wasteboard like tiling needing space to pass material through, flip milling needing reference surfaces when flipping, end grain cutting needing space at the end of the table to clamp wood with
+- New research on more information we can include https://docs.google.com/document/d/1PDLbZyhQaEzvSSDIwUEN9I4QXlXSRr85oOOaqGCHA1o/edit#heading=h.jjkoazaklfhv
+- https://forum.sienci.com/t/diy-longmill-cnc-vertical-clamping-setup-part-2/13925
+- Might want to move it back up into a more general section since this would be info that people would want before setting their CNC up?
 
 ---
 

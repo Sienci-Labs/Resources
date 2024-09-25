@@ -14,7 +14,7 @@ skip_file: yes
 featured_image: 
 ---
 
-full explanation of projects and the bits you'd normally use to make them (maybe even have a test at the end of the page to validate their knowledge)
+Full explanation of projects and the bits you'd normally use to make them (maybe even have a test at the end of the page to validate their knowledge)
 
 The types of materials you typically cut
 
