@@ -14,10 +14,9 @@ skip_file: yes
 featured_image: 
 ---
 
-Outlines how a CNC works and moves
+Improve on https://resources.sienci.com/view/lmk2-cnc-routers/ but make the information more general about what CNCs can do more broadly
 
-The kinds of projects you can make
-
-Add Sally’s cutting display? Faces project
-
-https://www.youtube.com/watch?v=NWDrWbCbI3s CNC routers can do all that?!!?
+- Outline how a CNC works and moves
+- The kinds of projects you can make
+- Add Sally’s cutting display? Faces project
+- https://www.youtube.com/watch?v=NWDrWbCbI3s CNC routers can do all that?!!?
