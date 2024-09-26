@@ -59,3 +59,6 @@ https://dxf1.com/
 
 Mix
 https://readytocut.com//
+
+Epoxy clear test
+https://www.youtube.com/watch?v=aEoMvZe8KQ8&t=4s
