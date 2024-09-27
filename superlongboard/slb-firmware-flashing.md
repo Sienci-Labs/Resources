@@ -129,8 +129,9 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <th>$</th>
      <th>Name</th>
+     <th>Value (number)</th>
+     <th>Units</th>
      <th>Description</th>
-     <th>Unit (example)</th>
      <th>How to Use</th>
    </tr>
 </thead>
@@ -141,7 +142,6 @@ For added clarity, settings that are currently unused on the SLB have been highl
      <td>5</td>
      <td>microseconds</td>
      <td style="text-align: left;">Sets time length per step. Minimum 2 microseconds.<br><br>This needs to be reduced from the default value of 10 when max. step rates exceed approximately 80 kHz.</td>
-     <td>microseconds (5)</td>
      <td></td>
    </tr>
    <tr>
@@ -205,7 +205,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
      <td>PWM Spindle</td>
      <td></td>
      <td>mask (1)</td>
-     <td style="text-align: left;">Enable: Controls PWM output availability.<br><br>RPM controls spindle enable signal: When M3 or M4 is active,  S &gt; 0 turns on spindle enable and S0 turns it off.</td>
+     <td style="text-align: left;">Enable: Controls PWM output availability.<br>RPM controls spindle enable signal: When M3 or M4 is active,  S &gt; 0 turns on spindle enable and S0 turns it off.</td>
      <td></td>
    </tr>
    <tr>
@@ -213,7 +213,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
      <td>Status report options</td>
      <td></td>
      <td>mask (511)</td>
-     <td style="text-align: left;">Specifies optional data included in status reports.<br><br>If Run substatus is enabled it may be used for simple probe protection.NOTE: Parser state will be sent separately after the status report and only on changes.</td>
+     <td style="text-align: left;">Specifies optional data included in status reports. If Run substatus is enabled it may be used for simple probe protection.NOTE: Parser state will be sent separately after the status report and only on changes.</td>
      <td></td>
    </tr>
    <tr>
@@ -584,7 +584,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
      <td>X-axis travel resolution</td>
      <td>800</td>
      <td>step/mm</td>
-     <td style="text-align: left;">Travel resolution in steps per millimeter.</td>
+     <td style="text-align: left;" rowspan="4">Travel resolution in steps per millimeter.</td>
      <td></td>
    </tr>
    <tr>
@@ -592,7 +592,6 @@ For added clarity, settings that are currently unused on the SLB have been highl
      <td>Y-axis travel resolution</td>
      <td>800</td>
      <td>step/mm</td>
-     <td style="text-align: left;">Travel resolution in steps per millimeter.</td>
      <td></td>
    </tr>
    <tr>
@@ -600,7 +599,6 @@ For added clarity, settings that are currently unused on the SLB have been highl
      <td>Z-axis travel resolution</td>
      <td>800</td>
      <td>step/mm</td>
-     <td style="text-align: left;">Travel resolution in steps per millimeter.</td>
      <td></td>
    </tr>
    <tr>
@@ -608,7 +606,6 @@ For added clarity, settings that are currently unused on the SLB have been highl
      <td>A-axis travel resolution</td>
      <td>79.01234568</td>
      <td>step/deg</td>
-     <td style="text-align: left;">Travel resolution in steps per millimeter.</td>
      <td></td>
    </tr>
    <tr>
@@ -616,7 +613,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
      <td>X-axis maximum rate</td>
      <td>5500</td>
      <td>mm/min</td>
-     <td style="text-align: left;">Maximum rate. Used as G0 rapid rate.</td>
+     <td style="text-align: left;" rowspan="4">Maximum rate. Used as G0 rapid rate.</td>
      <td rowspan="8"><a href="https://resources.sienci.com/view/slb-manual/#movement-amp-cutting-speeds">Docs</a></td>
    </tr>
    <tr>
@@ -624,56 +621,47 @@ For added clarity, settings that are currently unused on the SLB have been highl
      <td>Y-axis maximum rate</td>
      <td>5500</td>
      <td>mm/min</td>
-     <td style="text-align: left;">Maximum rate. Used as G0 rapid rate.</td>
    </tr>
    <tr>
      <td><b>$112</b></td>
      <td>Z-axis maximum rate</td>
      <td>4500</td>
      <td>mm/min</td>
-     <td style="text-align: left;">Maximum rate. Used as G0 rapid rate.</td>
    </tr>
    <tr>
      <td><b>$113</b></td>
      <td>A-axis maximum rate</td>
      <td>8000</td>
      <td>deg/min</td>
-     <td style="text-align: left;">Maximum rate. Used as G0 rapid rate.</td>
    </tr>
    <tr>
      <td><b>$120</b></td>
      <td>X-axis acceleration</td>
      <td>1000</td>
      <td>mm/sec^2</td>
-     <td style="text-align: left;">Acceleration. Used for motion planning to not exceed motor torque and lose steps.</td>
+     <td style="text-align: left;" rowspan="4">Acceleration. Used for motion planning to not exceed motor torque and lose steps.</td>
    </tr>
    <tr>
      <td><b>$121</b></td>
      <td>Y-axis acceleration</td>
      <td>1000</td>
      <td>mm/sec^2</td>
-     <td style="text-align: left;">Acceleration. Used for motion planning to not exceed motor torque and lose steps.</td>
-   </tr>
    <tr>
      <td><b>$122</b></td>
      <td>Z-axis acceleration</td>
      <td>750</td>
      <td>mm/sec^2</td>
-     <td style="text-align: left;">Acceleration. Used for motion planning to not exceed motor torque and lose steps.</td>
-   </tr>
    <tr>
      <td><b>$123</b></td>
      <td>A-axis acceleration</td>
      <td>1000</td>
      <td>deg/sec^2</td>
-     <td style="text-align: left;">Acceleration. Used for motion planning to not exceed motor torque and lose steps.</td>
-   </tr>
    <tr>
      <td><b>$130</b></td>
      <td>X-axis maximum travel</td>
      <td>810</td>
      <td>mm</td>
-     <td style="text-align: left;">Maximum axis travel distance from homing switch. Determines valid machine space for soft-limits and homing search distances.</td>
+     <td style="text-align: left;" rowspan="4">Maximum axis travel distance from homing switch. Determines valid machine space for soft-limits and homing search distances.</td>
      <td></td>
    </tr>
    <tr>
@@ -681,7 +669,6 @@ For added clarity, settings that are currently unused on the SLB have been highl
      <td>Y-axis maximum travel</td>
      <td>855</td>
      <td>mm</td>
-     <td style="text-align: left;">Maximum axis travel distance from homing switch. Determines valid machine space for soft-limits and homing search distances.</td>
      <td></td>
    </tr>
    <tr>
@@ -689,7 +676,6 @@ For added clarity, settings that are currently unused on the SLB have been highl
      <td>Z-axis maximum travel</td>
      <td>120</td>
      <td>mm</td>
-     <td style="text-align: left;">Maximum axis travel distance from homing switch. Determines valid machine space for soft-limits and homing search distances.</td>
      <td></td>
    </tr>
    <tr>
@@ -697,7 +683,6 @@ For added clarity, settings that are currently unused on the SLB have been highl
      <td>A-axis maximum travel</td>
      <td>0</td>
      <td>deg</td>
-     <td style="text-align: left;">Maximum axis travel distance from homing switch. Determines valid machine space for soft-limits and homing search distances.</td>
      <td></td>
    </tr>
    <tr>
@@ -1381,9 +1366,9 @@ For added clarity, settings that are currently unused on the SLB have been highl
    </tr>
    <tr style="color: var(--sl-blue-d);">
      <td><b>$662</b></td>
+     <td>CoolStep seimin</td>
      <td>0</td>
      <td></td>
-     <td>CoolStep seimin</td>
      <td style="text-align: left;">Minimum CoolStep current as a factor of the set motor current.<br>0: 1/2, 1: 1/4</td>
      <td></td>
    </tr>
