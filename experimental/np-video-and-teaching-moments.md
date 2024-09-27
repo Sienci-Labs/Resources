@@ -14,41 +14,31 @@ skip_file: yes
 featured_image: 
 ---
 
+Can go in “Handbook” section
 Video navigation of curated YouTube content from our channel and others
 
-Advanced follow-along project with a goal to get to finished tangible product (such as making gifts to give to your wife and family) while allowing for three software training levels: beginner, intermediate, and advanced
+Video list / ideas
 
-Video List
+- CNC Routers Can Do ALL That? - WOOD magazine https://www.youtube.com/watch?v=NWDrWbCbI3s
+- Things to teach through running a project
+  - How to setup and start a job
+  - How to resume a job
+  - How to run a long job overnight
+  - Clarify how to set 0 on the:
+    - Touch plate
+    - AutoZero touch plate
+    - AutoZero doesn’t go to 0.0. https://forum.sienci.com/t/auto-zero-touch-plate-not-going-to-z-0-00/12762
+    - Vortex (A in switch and 4th axis modes)
+  - What is safe height?
+- How to Vcarve to get file to gSender
+- Macro to prevent workspace reset. Go to Settings Program Events:Prevents Workspace reset to G54
+  - %global.state.workspace=modal.wcs ‘WS Start’
+  - [global.state.workspace] ‘WS Stop’
+- Start from/Job Loss Recovery - Is there a way to determine what line of g-code to continue from? My spoil board is sloppy because I had to re-zero several times and then continue from a guessed line.
+- How to use calipers and measure stock
+- Hole Plug
+  - Plug cutter - Filling holes with plug https://www.youtube.com/shorts/xZdUkRBE2FY
+- AI inspired project
+  - https://forum.sienci.com/t/fire-breathing-dragon/11482/6
 
-CNC Routers Can Do ALL That? - WOOD magazine
-
-Things to teach through running a project
-
-How to setup and start a job
-How to resume a job
-
-How to run a long job overnight
-
-Clarify how to set 0 on the:
-AutoZero doesn’t go to 0.0. https://forum.sienci.com/t/auto-zero-touch-plate-not-going-to-z-0-00/12762
-
-Touch plate
-
-AutoZero touch plate
-
-Vortex (A in switch and 4th axis modes)
-
-How to Vcarve to get file to gSender
-
-Macro to prevent workspace reset. Go to Settings Program Events:Prevents Workspace reset to G54
-%global.state.workspace=modal.wcs ‘WS Start’
-[global.state.workspace] ‘WS Stop’
-
-Start from/Job Loss Recovery - Is there a way to determine what line of g-code to continue from? My spoil board is sloppy because I had to re-zero several times and then continue from a guessed line.
-
-How to use calipers and measure stock
-
-Hole Plug
-Plug cutter - Filling holes with plug https://www.youtube.com/shorts/xZdUkRBE2FY
-
-AI inspired project
+---

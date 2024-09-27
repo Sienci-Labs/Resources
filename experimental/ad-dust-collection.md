@@ -19,6 +19,7 @@ Improves on https://resources.sienci.com/view/lmk2-dust-collection/
 - Refined discussion on dust shoes, pros/cons, what to choose
 - Discuss more about setup and options for vacuums and dust collectors, talk about their pros/cons, and make purchase suggestions
 - How to use all the sawdust you collect?
+- Oneida has a new low-profile cyclone to fit to a bucket
 
 ---
 
@@ -62,8 +63,8 @@ Whether a dust shoe is fixed or adjustable depends on how it’s mounted:
 <tbody>
 <tr>
 <td></td>
-<td><strong>Fixed</strong></td>
-<td><strong>Adjustable</strong></td>
+<td><b>Fixed</b></td>
+<td><b>Adjustable</b></td>
 </tr>
 <tr>
 <td style="background: #44bc72 !important;">Pros</td>
