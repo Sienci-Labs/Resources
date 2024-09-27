@@ -1,6 +1,6 @@
 ---
 title: Vortex Post
-menu_order: 4
+menu_order: 1
 post_status: draft
 post_excerpt: Resources for the Vortex Rotary Axis by Sienci Labs. Still in progress, but soon find all information on assembly, technology introduction, toolpaths, and more.
 post_date: 2024-07-18 18:14:53
@@ -19,27 +19,27 @@ Vortex page order should be as follows:
 
 👍 The Basics
 
-- Welcome!
-- Software
+1. Welcome!
+2. Software
 
 🔧 Assembly
 
-- Unboxing
-- Headstock
-- Tailstock
-- Track
-- Electronics - Open Loop Motor
-- Electronics - Closed Loop Motor
-- Table Setup
-- Quick Start Guide
+1. Unboxing
+2. Headstock
+3. Tailstock
+4. Track
+5. Electronics - Open Loop Motor
+6. Electronics - Closed Loop Motor
+7. Table Setup
+8. Quick Start Guide
 
 📙 Handbook
 
-- Your First Project
-- Your Second Project
-- Find 3D Models
-- Chuck & Workholding
-- Rotary Feeds & Speeds
-- Troubleshooting
-- Maintenance
-- Using other CNC routers
+1. Your First Project
+2. Your Second Project
+3. Find 3D Models
+4. Chuck & Workholding
+5. Rotary Feeds & Speeds
+6. Troubleshooting
+7. Maintenance
+8. Using other CNC routers

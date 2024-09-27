@@ -1,6 +1,6 @@
 ---
 title: Welcome!
-menu_order: 4
+menu_order: 1
 post_status: publish
 post_excerpt: Documentation for the SuperLongBoard, the controller board for the LongMill Benchtop CNC router. Includes electrical and mechanical specifications.
 post_date: 2024-03-03 14:43:00

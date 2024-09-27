@@ -1,6 +1,6 @@
 ---
 title: SuperLongBoard Post
-menu_order: 4
+menu_order: 1
 post_status: draft
 post_excerpt: See more on SLB settings and troubleshooting, especially useful on DIY CNC setups to better understand how to configure your SLB for your machine.
 post_date: 2024-07-18 18:14
@@ -19,8 +19,8 @@ SuperLongBoard page order should be as follows:
 
 📙 Handbook
 
-- Welcome!
-- Upgrading to SLB
-- Troubleshooting
-- Technical Manual
-- Firmware & Flashing
+1. Welcome!
+2. Upgrading to SLB
+3. Troubleshooting
+4. Technical Manual
+5. Firmware & Flashing

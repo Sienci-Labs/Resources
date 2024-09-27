@@ -1,6 +1,6 @@
 ---
 title: Machine Maintenance
-menu_order: 4
+menu_order: 7
 post_status: publish
 post_excerpt: 
 post_date: 2021-04-30 19:10:00

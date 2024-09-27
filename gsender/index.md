@@ -1,6 +1,6 @@
 ---
 title: gSender Post
-menu_order: 4
+menu_order: 1
 post_status: draft
 post_excerpt: Read about where to download gSender and how to install it onto Windows, Mac, Linux, or other PCs, as well as how to check for updates.
 post_date: 2024-07-18 18:14:53
@@ -19,10 +19,10 @@ gSender page order should be as follows:
 
 📙 Full Documentation
 
-- Installation
-- Setup & Layout
-- Using gSender
-- Additional Features
-- Edge Features
-- Problems / Bugs?
-- grbl Alarms & Errors
+1. Installation
+2. Setup & Layout
+3. Using gSender
+4. Additional Features
+5. Edge Features
+6. Problems / Bugs?
+7. grbl Alarms & Errors

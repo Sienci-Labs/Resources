@@ -1,6 +1,6 @@
 ---
 title: This post has HTML
-menu_order: 4
+menu_order: 6
 post_status: draft
 post_excerpt: Testing
 post_date: 2023-05-07 15:29:20
