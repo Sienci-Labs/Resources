@@ -1,6 +1,6 @@
 ---
 title: Setup & Layout
-menu_order: 4
+menu_order: 2
 post_status: publish
 post_excerpt: See the gSender's layout to get an understanding of where tools and features are located and where you can go to change your settings or setup your CNC.
 post_date: 2021-07-01 14:21:00

@@ -1,6 +1,6 @@
 ---
 title: Installation
-menu_order: 4
+menu_order: 1
 post_status: publish
 post_excerpt: Read about where to download gSender and how to install it onto Windows, Mac, Linux, or other PCs, as well as how to check for updates.
 post_date: 2021-07-01 14:11:00

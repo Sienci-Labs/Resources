@@ -1,6 +1,6 @@
 ---
 title: Problems / Bugs?
-menu_order: 4
+menu_order: 6
 post_status: publish
 post_excerpt: A list of common problems and fixes for gSender users as well as links through to submitting issues or finding more support through our forums or videos.
 post_date: 2021-07-01 16:28:00
