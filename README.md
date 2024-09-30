@@ -113,8 +113,9 @@ Before you get started writing, look over the text you just pasted in and edit i
 1. Write a **title** and **post_excerpt** for what the content of the page will be (emojis still work)
 1. The excerpt shouldn't be over 160 characters
 1. Write the **post_status** as "draft" if you don't plan on "publish"ing it yet
-1. Choose what section the page will appear in in the docs by typing out the **knowledgebase_cat**, the template should list all current options for that Knowledge Base
-1. Choose what specific order the page will appear in by entering a **post date** that falls between the post dates of the surrounding pages (**example:** go find the starting text of the other pages, then if you want to appear between the 'Welcome' page with date 2024-03-03 and the 'Upgrading' page with date 2024-03-22, then any date between them will make the page appear where you want - like 2024-03-12)
+1. Write the **post date** as the date you began writing the page with format YYYY-MM-DD HH:MM:SS (24 hour)
+1. Choose what section the page will appear in in the docs by typing out the **knowledgebase_cat** (the "index" page in the folder should list all current options for that Knowledge Base)
+1. Choose what specific order the page will appear in by entering its **menu order**, for example if you want it to be 3rd in its section then give a menu_order of 3, but then make sure to update the pages after it to all be one number higher
 1. Choose a **featured image** or leave it blank if you don't have one yet
 1. Add **optional tags**
 1. Change **skip_file** to "no" if you'd like to begin syncing your page to the WordPress site
