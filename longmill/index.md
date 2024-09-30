@@ -19,56 +19,56 @@ LongMill page order should be as follows:
 
 👍 The Basics
 
-- Welcome!
-- CNC Routers
-- Cutting Tools
-- Feeds & Speeds
-- Materials
-- Workholding
-- Routers/Spindles
-- Dust Shoes
-- Touch Plates
-- CNC Table/Enclosure
-- Common CNC Terms
+1. Welcome!
+2. CNC Routers
+3. Cutting Tools
+4. Feeds & Speeds
+5. Materials
+6. Workholding
+7. Routers/Spindles
+8. Dust Shoes
+9. Touch Plates
+10. CNC Table/Enclosure
+11. Common CNC Terms
 
 💻 Software
 
-- Software Explained 🗣️
-- Choosing Software 🎛️
-- Post Processors
-- Visualizers
-- Software Table
-- System Requirements 📊
+1. Software Explained 🗣️
+2. Choosing Software 🎛️
+3. Post Processors
+4. Visualizers
+5. Software Table
+6. System Requirements 📊
 
 🔧 Assembly
 
-- Unboxing 📦
-- XZ-Axis Gantry
-- Y-Axis Gantries
-- X-Axis Rail 📏
-- Y-axis Rails
-- Drag Chains and Wiring
-- Electronics
-- Table Mounting 📐
-- Starter Projects 🧱
-- Assembling Add-ons
-- 48" Extension Kit
-- Wasteboard Surfacing
-- More Projects 🪑
-- Maintenance 🛠️
-- Common Issues & Fixes 🩹
+1. Unboxing 📦
+2. XZ-Axis Gantry
+3. Y-Axis Gantries
+4. X-Axis Rail 📏
+5. Y-axis Rails
+6. Drag Chains and Wiring
+7. Electronics
+8. Table Mounting 📐
+9. Starter Projects 🧱
+10. Assembling Add-ons
+11. 48" Extension Kit
+12. Wasteboard Surfacing
+13. More Projects 🪑
+14. Maintenance 🛠️
+15. Common Issues & Fixes 🩹
 
 🧩 Advanced
 
-- Open Source & Modifications 🥽
-- Noise, EMI, & Grounding
-- Tool Changing
-- Inductive Sensors
-- Custom Limit Switches
-- IOT Relay Control
-- Adding a Laser
-- grbl Firmware
-- EEPROM Settings
-- Adjusting Stepper Driver Current
-- Changing Microstepping
-- LongBoard Details 🤖
+1. Open Source & Modifications 🥽
+2. Noise, EMI, & Grounding
+3. Tool Changing
+4. Inductive Sensors
+5. Custom Limit Switches
+6. IOT Relay Control
+7. Adding a Laser
+8. grbl Firmware
+9. EEPROM Settings
+10. Adjusting Stepper Driver Current
+11. Changing Microstepping
+12. LongBoard Details 🤖

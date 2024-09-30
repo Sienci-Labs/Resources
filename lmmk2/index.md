@@ -20,65 +20,65 @@ LongMill MK2 page order should be as follows:
 
 👍 The Basics
 
-- Welcome!
-- CNC Routers
-- Materials
-- Cutting Tools 🌀
-- Workholding 🕳️
-- Routers/Spindles
-- Dust Collection
-- Touch Plates ⚡
-- Table/Enclosure
+1. Welcome!
+2. CNC Routers
+3. Materials
+4. Cutting Tools 🌀
+5. Workholding 🕳️
+6. Routers / Spindles
+7. Dust Collection
+8. Touch Plates ⚡
+9. Table / Enclosure
 
 💻 Software
 
-- Software Explained 🗣️
-- Choosing Software 🎛️
-- Post Processors
-- Visualizers
-- Software Table
-- System Requirements 📊
+1. Software Explained 🗣️
+2. Choosing Software 🎛️
+3. Post Processors
+4. Visualizers
+5. Software Table
+6. System Requirements 📊
 
 🔧 Assembly
 
-- Unboxing 📦
-- X & Z-Axes
-- Y-Axis Gantries
-- Axes Completion 🗜️
-- Motors & Wiring
-- Checks & 1st Moves
-- Table Mounting 📐
-- Your First Project
-- Extra 48x30 Steps
+1. Unboxing 📦
+2. X & Z-Axes
+3. Y-Axis Gantries
+4. Axes Completion 🗜️
+5. Motors & Wiring
+6. Checks & 1st Moves
+7. Table Mounting 📐
+8. Your First Project
+9. Extra 48x30 Steps
 
 ↔️ Add-ons
 
-- Touch Plate
-- Dust Shoe & Shields
-- Limit Switches ⛔
-- T-Track & Clamps
-- 48" Extension Kit
-- Laser 🔥
-- LongMill Spindle Kit
-- Automated / IOT Relay
+1. Touch Plate
+2. Dust Shoe & Shields
+3. Limit Switches ⛔
+4. T-Track & Clamps
+5. 48" Extension Kit
+6. Laser 🔥
+7. LongMill Spindle Kit
+8. Automated / IOT Relay
 
 📙 Handbook
 
-- Your MK2
-- Tools & Router
-- Feeds & Speeds ⏩
-- Wasteboard & Fixtures
-- Running Jobs
-- Explore Projects 🪑
-- Maintenance 🛠️
-- CNC Issues & Fixes 🩹
-- Common CNC Terms
+1. Your MK2
+2. Tools & Router
+3. Feeds & Speeds ⏩
+4. Wasteboard & Fixtures
+5. Running Jobs
+6. Explore Projects 🪑
+7. Maintenance 🛠️
+8. CNC Issues & Fixes 🩹
+9. Common CNC Terms
 
 🧩 Advanced
 
-- Open Source 🥽
-- LongBoard Details
-- GRBL Firmware 🤖
-- EEPROM Settings
-- Stepper Driver Current
-- Changing Microstepping
+1. Open Source 🥽
+2. LongBoard Details
+3. GRBL Firmware 🤖
+4. EEPROM Settings
+5. Stepper Driver Current
+6. Changing Microstepping

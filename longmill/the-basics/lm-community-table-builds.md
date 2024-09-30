@@ -1,6 +1,6 @@
 ---
 title: CNC Table/Enclosure
-menu_order: 0
+menu_order: 10
 post_status: publish
 post_excerpt: Inspiration for building your table to hold the LongMill CNC. See designs using T-tracks, enclosures, threaded inserts, lifters, pivoting mechanisms and more!
 post_date: 2021-04-19 16:40:00

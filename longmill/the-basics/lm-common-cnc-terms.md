@@ -1,6 +1,6 @@
 ---
 title: Common CNC Terms
-menu_order: 0
+menu_order: 11
 post_status: publish
 post_excerpt: How to cut multiple toolpaths for CAM programs without tool changing functionality. This method is suitable for the LongMill Benchtop CNC, and other hobby CNCs.
 post_date: 2021-04-19 16:45:00

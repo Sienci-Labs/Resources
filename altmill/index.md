@@ -18,44 +18,53 @@ AltMill page order should be as follows:
 
 👍 Basics
 
-- Welcome
-- I Have Questions!
-- Prep for your AltMill
-- CNC Terminology
-- Safety
+1. Welcome
+2. I Have Questions!
+3. Prep for your AltMill
+4. CNC Terminology
+5. Safety
 
 💻 Software
 
-- Software Explained
-- Post Processors
-- System Requirements
-- Design Files
+1. Software Explained
+2. Post Processors
+3. System Requirements
+4. Design Files
 
 🔧 Assembly
 
-- Best Practices
-- Unboxing
-- Table Setup
-- X and Y Gantries
-- Z Gantry
-- Motors
-- Dust Shields
-- Drag Chain Ends
-- Wiring
-- Controller Setup
-- First Movements
-- Spindle Kit Setup
-- Wasteboard
+1. Best Practices
+2. Unboxing
+3. Table Setup
+4. X and Y Gantries
+5. Z Gantry
+6. Motors
+7. Dust Shields
+8. Drag Chain Ends
+9. Wiring
+10. Controller Setup
+11. First Movements
+12. Spindle Kit Setup
+13. Wasteboard
 
-🧩 Troubleshooting
+📙 Handbook
 
-- Common Key Solutions
-- Machine Control
-- Spindle
-- Homing and Machine Limits
-- Movement and Power
-- Maintenance
+1. About your AltMill
+2. Open Source
+3. SLB-Ext Controller
+4. Closed Loop Stepper Motors
+5. Tuning
 
 ↔️ Add-ons
 
-- Dust Shoe
+1. Dust Shoe
+2. LaserBeam
+
+🧩 Troubleshooting
+
+1. Common Key Solutions
+2. Machine Control
+3. Spindle
+4. Homing and Machine Limits
+5. Movement and Power
+6. Maintenance
