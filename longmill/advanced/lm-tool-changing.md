@@ -1,6 +1,6 @@
 ---
 title: Tool Changing
-menu_order: 4
+menu_order: 0
 post_status: publish
 post_excerpt: How to cut multiple toolpaths for CAM programs without tool changing functionality. This method is suitable for the LongMill Benchtop CNC, and other hobby CNCs.
 post_date: 2021-04-30 17:20:00

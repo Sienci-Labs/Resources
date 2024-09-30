@@ -1,6 +1,6 @@
 ---
 title: Welcome!
-menu_order: 4
+menu_order: 0
 post_status: publish
 post_excerpt: Resources and documentation for the LongMill Benchtop CNC. You will find info about routers, software, assembly, end mills - everything you need to get started.
 post_date: 2021-04-19 16:19:00

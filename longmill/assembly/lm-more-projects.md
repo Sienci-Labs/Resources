@@ -1,6 +1,6 @@
 ---
 title: More Projects 🪑
-menu_order: 4
+menu_order: 0
 post_status: publish
 post_excerpt: What can you make with the LongMill? We provide ideas on projects, additional sample projects, and websites for 2D and 3D files you can download.
 post_date: 2021-04-30 15:30:00

@@ -1,6 +1,6 @@
 ---
 title: Software Explained 🗣️
-menu_order: 4
+menu_order: 0
 post_status: publish
 post_excerpt: The CNC software process starts from creating a design (CAD), making toolpaths to produce g-code (CAM), sending the g-code to the LongMill (machine interface).
 post_date: 2021-04-20 16:36:00
