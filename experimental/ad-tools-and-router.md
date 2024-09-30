@@ -23,10 +23,7 @@ Improves on https://resources.sienci.com/view/lmk2-router-and-tools/
 - Need to insert all writing that Kelly did outlining how to use the Makita (maintenance)
 - https://www.reddit.com/r/hobbycnc/comments/1ffiojs/is_a_larger_bit_better_for_cutting_profiles/
 
----
-
-# Kelly's Writing
-
+**Kelly's Writing**
 Basically the section would be along the lines of: "Here's how the Makita router works" and would consist of general points such as:
 
 - speed control dial: what the speed range is of the router and what speeds the numbers on the dial correspond with. Also, what's the general dial setting that's a good default to work in most situations with most materials

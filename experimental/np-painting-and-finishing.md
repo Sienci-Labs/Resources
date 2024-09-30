@@ -16,7 +16,14 @@ featured_image:
 
 Can go in “Handbook” section
 Very beneficial to those who are less familiar with sanding, selecting stains or clear-coats, painting, and other aspects of finishing off your average CNC project
+**Stephen is working on this**
+
 There's also a section here that has a bit of content to build off of: https://resources.sienci.com/view/lmk2-running-jobs/#post-processing-work-pieces
+
+- A metal file is surprisingly good for breaking edges when you go to sand your wood
+- Finishing with a disk sander to get the perimeter to shape
+- Small fuzzy dremel tool can painlessly remove all the v-carve fuzzies without actually sanding the wood - link to where to purchase
+- Epoxy clarity test https://www.youtube.com/watch?v=aEoMvZe8KQ8
 
 ---
 

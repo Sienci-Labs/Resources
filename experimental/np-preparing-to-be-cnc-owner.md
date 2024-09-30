@@ -16,6 +16,9 @@ featured_image:
 
 Can go in “The Basics” section
 Set the expectations of someone starting on the CNC journey to set a reasonable bar of cost, learning curve, failure, machine maintenance, etc.
+**Stephen is working on this**
+
+---
 
 Here are some basics. This kind of work is cut with a CNC router, usually using various diameters of round nosed bits. Fine detail and smooth surfaces are challenging. All round nose bits produce a scalloped surface. Putting the scallops close together reduces the effect, but it can't ever be eliminated. Closely spaced cuts take time, lots of time, especially on inexpensive machines that move slowly. It's a tradeoff between hours cutting vs hours sanding. Fine detail requires small bits. Removing lots of material requires large bits. The work is usually done with one or more roughing passes followed by one or more finish passes.
 
@@ -24,8 +27,6 @@ Creating toolpath is done with CAM software. The good stuff is expensive, shocki
 Machines range from cheap and small to large and expensive. Rigidity and repeatability are critical. If you are going to be running a small cutter over the pattern for 10 hours, you need to make sure the machine is able to hold tolerance for that time
 
 It's a lot to learn, but can be very rewarding. Unless you have a lot of money, start with a small, cheap machine and cheap/free software. Make simple designs until you get familiar, then add complexity as your skills grow
-
----
 
 ### Setting Expectations
 

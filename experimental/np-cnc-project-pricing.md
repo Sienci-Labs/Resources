@@ -14,7 +14,13 @@ skip_file: yes
 featured_image: 
 ---
 
-page for help with CNC project pricing (excel file was posted to the LM FB group)
+Can go in “The Basics” section
+Page for help those running a business with CNC project pricing
+
+- Excel file was posted to the LM FB group
+- Lots of other videos on the topic
+
+---
 
 ### Pricing Your Services
 
