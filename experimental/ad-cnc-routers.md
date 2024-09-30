@@ -15,6 +15,7 @@ featured_image:
 ---
 
 Improves on https://resources.sienci.com/view/lmk2-cnc-routers/ but make the information more general about what CNCs can do more broadly
+**Kelly has said that she'll be working on this**
 
 - Outline how a CNC works and moves
 - The kinds of projects you can make

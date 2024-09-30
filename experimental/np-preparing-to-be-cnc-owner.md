@@ -16,6 +16,7 @@ featured_image:
 
 Can go in “The Basics” section
 Set the expectations of someone starting on the CNC journey to set a reasonable bar of cost, learning curve, failure, machine maintenance, etc.
+**Stephen is working on this**
 
 ---
 
