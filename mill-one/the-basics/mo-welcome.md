@@ -25,7 +25,7 @@ You are now on a journey with us to change the future of manufacturing. Join our
 
 Use the bottom buttons to navigate step-by-step or use the sidebar to quickly travel to a desired page. Some pages will be split up with basic information on top and more advanced info further down. Use the advanced sections once you're comfortable on your Mill One. We hope you enjoy your experience with the Sienci Mill One V3 and we’re excited to see what amazing creations you make next!
 
--The Sienci Labs Teams
+-The Sienci Labs Team
 
 &nbsp;
 
