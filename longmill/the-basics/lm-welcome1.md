@@ -26,3 +26,7 @@ Each page will have buttons at the bottom to navigate step-by-step or you can us
 &nbsp;
 
 [su_button url="https://resources.sienci.com/view/lm-unboxing1/" target="self" style="flat" background="var(--sl-blue)" color="#FFFFFF" size="8" wide="no" center="yes" radius="3" icon="" icon_color="#FFFFFF" text_shadow="none" desc="" download="" onclick="" rel="" title="" id="" class=""]Start building and read the rest later![/su_button]
+
+We hope you enjoy your experience with the LongMill CNC and we’re excited to see what amazing creations you make next!
+
+-The Sienci Labs Team
