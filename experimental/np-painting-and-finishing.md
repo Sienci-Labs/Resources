@@ -35,10 +35,6 @@ Questions
 1. What is a tack cloth and do I need one?
 1. Paintbrush vs sprayer
 
-### Indoor vs Outdoor Finishing
-
-https://sawsonskates.com/spar-urethane-vs-polyurethane/
-
 1. Whew, that is a lot of info. TLDR? available
 
 Add pics
@@ -49,13 +45,13 @@ Add a TLDR to each section
 Add cool tips to each section with some great detail that may be missed
 Add link to community to share real life example if possible
 
-# Finishing CNC Projects: A Step-by-Step Guide
+# Finishing CNC Projects
 
 Once your project is complete, it’s important to finish it properly to enhance durability & improve aesthetics. This guide covers the main stages: **sanding**, **raising the grain**, **painting**, **staining**, and **sealing**.
 
 ---
 
-## Table of Contents
+
 
 1. [Sanding](#sanding)
 1. [Raising the Grain](#raising-the-grain)
@@ -68,9 +64,89 @@ Once your project is complete, it’s important to finish it properly to enhance
 
 ## 1. Sanding
 
-Sanding is crucial to smooth out rough edges left by the CNC process and prepare the surface for painting or staining. Here's a step-by-step sanding process:
+Sanding is crucial to smooth out rough edges left by the CNC process and prepare the surface for painting or staining. Sanding can be used for some light molding or levelling of your finished piece and really bring out the natural grain of wood. In addition to wood, you can use sanding tools to remove rust from metal, polish fibreglass or epoxy.
 
-### Sanding Grit Guide:
+Always protect yourself when sanding with protective glasses and a dusk mask.
+
+### Hand Sanding Tools
+
+Hand sanding tools are ideal for precision work, tight spaces, or when you want more control over the sanding process.
+
+### **Sandpaper**
+
+- **Description**: Coated abrasive paper available in different grits.
+  - **Usage**: Use lower grit (40-60) for aggressive sanding and higher grits (180-400) for finishing.
+  - **Types**: Aluminum oxide (general use), silicon carbide (wet/dry), garnet (fine finishing).
+
+   ![](/_images/_experimental-writing/sandpaper.jpg){.aligncenter .size-medium}
+
+### **Sanding Block**
+
+- **Description**: A block used to hold sandpaper flat for even sanding.
+- **Usage**: Prevents uneven sanding and helps apply uniform pressure.
+
+![](/_images/_experimental-writing/sandingblock.jpg){.aligncenter .size-medium}
+
+### **Sanding Sponge**
+- **Description**: Flexible sponge coated with abrasive material.
+- **Usage**: Ideal for contours, curves, and irregular surfaces.
+
+![](/_images/_experimental-writing/sandingsponge.jpg){.aligncenter .size-medium}
+
+## Power Sanding Tools
+
+Power tools make the sanding process quicker and are ideal for larger surfaces or more intensive sanding tasks.
+
+### **Orbital Sander**
+
+- **Description**: A handheld sander that moves in small circles. You can also get a random orbital sander, that moves randomly instead of in circles.
+- **Usage**: General-purpose sanding, producing a fine finish with minimal swirl marks.
+
+![](/_images/_experimental-writing/orbitalsander.jpg){.aligncenter .size-medium}
+
+### **Belt Sander**
+
+- **Description**: Uses a continuous loop of sandpaper. Can be a stationary or handheld unit.
+- **Usage**: Best for removing large amounts of material quickly and levelling surfaces.
+
+![](/_images/_experimental-writing/beltsander.jpg){.aligncenter .size-medium}
+
+### **Detail Sander**
+
+- **Description**: Small triangular-shaped sander.
+- **Usage**: Designed for tight spaces, corners, and detailed work.
+
+![](/_images/_experimental-writing/detailsander.jpg){.aligncenter .size-medium}
+
+### **Drum Sander**
+
+- **Description**: A large, stationary sander with a rotating drum.
+- **Usage**: Ideal for sanding large surfaces such as wooden floors.
+
+![](/_images/_experimental-writing/drumsander.webp){.aligncenter .size-medium}
+
+### **Disc Sander**
+
+- **Description**: Uses a spinning disc of sandpaper.
+- **Usage**: Suitable for rough sanding or shaping edges.
+
+![](/_images/_experimental-writing/discsander.jpg){.aligncenter .size-medium}
+
+## Safety Tips
+
+- **Wear protective gear** (safety glasses, dust mask).
+- Use a **dust collection system** or sand in a well-ventilated area.
+- Ensure the **sander is appropriate for the material** being worked on.
+
+By choosing the right tool for each stage, you can achieve a high-quality finish on your woodworking projects.
+
+### Choosing the right Grit
+
+The higher the sandpaper’s grit, the smoother the result. “Grit” refers to the particles of sand that make up the sandpaper. Larger, fewer particles with more space between them is coarse grit. The smaller and more packed together the particles, the finer the grit. Coarse sandpaper removes imperfections faster and with less effort than fine sandpaper – which is great if you are trying to shape or level. Fine grit is used for the later stages of wood sanding – for smoothing and polishing. Begin with a coarser grit to level the wood, then buff scratches with finer grits until you reach the desired smoothness. Between fine and coarse, there are quite a bit of variations to make sure you are getting the level of smoothness desired!
+
+The golden rule of sanding, it to move the sandpaper in the same direction as the wood grain. This reduces visible scratches and results in a smoother finish.
+
+### Sanding Grit Guide
 
 | **Step**          | **Grit Level**    | **Purpose**                              |
 |-------------------|-------------------|------------------------------------------|
@@ -78,7 +154,7 @@ Sanding is crucial to smooth out rough edges left by the CNC process and prepare
 | Medium Sanding    | 120-150 grit      | Smoothens the surface, removes tool marks. |
 | Fine Sanding      | 220-320 grit      | Prepares for paint/stain, smooth texture. |
 
-### Step-by-Step Process:
+### Step-by-Step Process
 
 1. **Start with Rough Sanding (80-100 Grit):**  
    Use this grit to remove any visible tool marks or uneven surfaces created by the CNC machine.
@@ -87,13 +163,15 @@ Sanding is crucial to smooth out rough edges left by the CNC process and prepare
    Smooth out any remaining roughness, ensuring an even surface. Use an orbital sander or sanding block for flat surfaces.
 
 1. **Fine Sanding (220-320 Grit):**  
-   This grit is for a silky-smooth finish, ideal before applying paint, stain, or sealant.
+   This grit is for a silky-smooth finish, ideal before applying paint, stain, or sealant. Do be aware that the higher the grit you use at this stage, will reduce the ability of stains and finished to penetrate the wood. If you are using 1000 grit for example, you are no longer cutting the wood, but packing sawdust into the wood pours, burnishing it. The surface will become shiny and very smooth, but not allow stain or seal to penetrate fully.
 
-> **Tip**: For curved or intricate designs, consider using sanding sponges, soft pads, or hand sanding to access tight spaces.
+> **Tip**: For curved or intricate designs, consider using sanding sponges, soft pads, or hand sanding to access tight spaces. Depending on your project, getting into the crevices of your design can be difficult. Small scrapers are handy to remove fuzzy bits. Cone Sanders are useful for larger designs. What if you carved a 3d relief? Sanding mops in different grits work great here. They can get into the details without removing too much material and ruining the design.
+
+Here is a great video that explains moving up the grits in under 2 minutes! https://www.youtube.com/watch?v=KiE4Pk_gu50
 
 ---
 
-## 2. Raising the Grain
+### Raising the Grain
 
 Raising the grain is an essential step, especially when working with water-based finishes. The process involves initial sanding, wetting the wood, sanding again, then moving on to other finishing steps.
 
@@ -104,18 +182,22 @@ When you apply water-based finishes or stains to wood, the wood fibers absorb mo
 - **Prepares the wood**: Especially important when applying water-based stains, paints, or sealers.
 - **Prevents rough surfaces**: Stops the grain from rising after the finish is applied, ensuring a smooth final result.
 
-### Step-by-Step Process:
+### Step-by-Step Process
 
-1. **Moisten the Surface**:  
+1. **Sand the Wood**
+   Sand your wood project to a smooth finish using progressively finer grits of sandpaper (start with 120 grit and work up to 220 grit or finer).
+   Make sure the surface is free of any visible scratches or rough spots.
+
+1. **Moisten the Surface**
    Use a damp cloth to lightly moisten the surface of the wood with a clean, damp cloth. You don’t want to soak the wood, just enough moisture to slightly wet the surface. Make sure the water is put on evenly across the entire surface to raise the grain evenly.
 
-1. **Allow the Wood to Dry**:  
+1. **Allow the Wood to Dry**
    Let the surface to air-dry completely. This usually takes 1-2 hours, depending on the humidity. As the wood dries, the fibers will rise, creating a rough texture on the surface.
 
-1. **Sand the Raised Grain (220-320 Grit)**:  
+1. **Sand the Raised Grain (220-320 Grit)**
    Once dry, lightly sand the surface to smooth out the raised fibers. Be gentle to avoid removing too much material.
 
-1. **Continue with the Next Finishing Steps**:  
+1. **Continue with the Next Finishing Steps**
    After sanding, you can proceed with your usual finishing process like painting, staining, or sealing.
 
 > **Tip**: Always raise the grain before applying water-based products to ensure a professional-looking finish.
@@ -123,8 +205,7 @@ When you apply water-based finishes or stains to wood, the wood fibers absorb mo
 How to Raise the Grain
 Initial Sanding
 
-Start by sanding the wood: Sand your wood project to a smooth finish using progressively finer grits of sandpaper (start with 120 grit and work up to 220 grit or finer).
-Make sure the surface is free of any visible scratches or rough spots.
+
 Moisten the Wood
 
 Let it dry naturally:
@@ -254,7 +335,9 @@ This chart helps you compare different finishing options for your CNC project:
 By following this guide, you’ll achieve a beautiful, durable finish on your CNC project. Happy crafting!
 
 
+Indoor vs Outdoor Finishing
 
+https://sawsonskates.com/spar-urethane-vs-polyurethane/
 
 
 Finishing a wood CNC project for indoor use involves several steps to ensure a polished look and durability. Here’s a guide to help you through the process:

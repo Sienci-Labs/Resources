@@ -20,6 +20,8 @@ Improves on https://resources.sienci.com/view/lmk2-dust-collection/
 - Discuss more about setup and options for vacuums and dust collectors, talk about their pros/cons, and make purchase suggestions
 - How to use all the sawdust you collect?
 
+https://forum.sienci.com/t/dust-questions-for-newbie/14028/5
+
 ---
 
 https://www.youtube.com/watch?v=94r4hgr2SgA
