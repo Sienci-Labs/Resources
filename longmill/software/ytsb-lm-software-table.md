@@ -1,6 +1,6 @@
 ---
 title: ytsb Software Table
-menu_order: 2
+menu_order: 0
 post_status: draft
 post_excerpt: How to choose what CNC software works for you! A list of compatible CAD, CAM and g-code senders for the LongMill CNC machine.
 post_date: 2021-04-20 16:55:00

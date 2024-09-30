@@ -1,6 +1,6 @@
 ---
 title: Y-Axis Gantries
-menu_order: 0
+menu_order: 3
 post_status: publish
 post_excerpt: Y-gantry assembly instructions for the LongMill CNC. Mounting the V-wheels, motor, anti-backlash nut, drag chain mounts and shoulder brackets.
 post_date: 2021-04-30 14:40:00

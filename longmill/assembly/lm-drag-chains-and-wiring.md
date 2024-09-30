@@ -1,6 +1,6 @@
 ---
 title: Drag Chains and Wiring
-menu_order: 0
+menu_order: 6
 post_status: publish
 post_excerpt: How to assemble the drag chain and manage the wiring for the LongMill Benchtop CNC. Wire routing for the Makita router and motors is illustrated.
 post_date: 2021-04-30 14:55:00

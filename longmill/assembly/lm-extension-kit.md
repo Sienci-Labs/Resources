@@ -1,6 +1,6 @@
 ---
 title: 48" Extension Kit
-menu_order: 0
+menu_order: 11
 post_status: publish
 post_excerpt: 
 post_date: 2021-04-30 15:20:00

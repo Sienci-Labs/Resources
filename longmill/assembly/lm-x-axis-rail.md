@@ -1,6 +1,6 @@
 ---
 title: X-Axis Rail 📏
-menu_order: 0
+menu_order: 4
 post_status: publish
 post_excerpt: X-axis rail assembly instructions for the LongMill CNC. Bringing the Y-gantries onto the rail, adding the lead screw, coupler, bearings and ACME nut.
 post_date: 2021-04-30 14:45:00
