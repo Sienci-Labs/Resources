@@ -187,7 +187,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$6</b></td>
      <td>Invert probe pin</td>
-     <td>Enabled (1)</td>
+     <td><b>Enabled</b> (1)</td>
      <td></td>
      <td style="text-align: left;">Inverts the probe input pin signal.</td>
      <td></td>
@@ -195,7 +195,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$8</b></td>
      <td>Ganged axes direction invert</td>
-     <td>Disabled (0)</td>
+     <td><b>Disabled</b> (0)</td>
      <td></td>
      <td style="text-align: left;">Inverts the direction signals for the second motor used for ganged axes.<br><br>NOTE: This inversion will be applied in addition to the inversion from setting $3.</td>
      <td></td>
@@ -219,7 +219,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$11</b></td>
      <td>Junction deviation</td>
-     <td>0.010</td>
+     <td><b>0.010</b></td>
      <td>mm</td>
      <td style="text-align: left;">Sets how fast Grbl travels through consecutive motions. Lower value slows it down.</td>
      <td></td>
@@ -227,7 +227,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$12</b></td>
      <td>Arc tolerance</td>
-     <td>0.002</td>
+     <td><b>0.002</b></td>
      <td>mm</td>
      <td style="text-align: left;">Sets the G2 and G3 arc tracing accuracy based on radial error. Beware: A very small value may effect performance.</td>
      <td></td>
@@ -235,7 +235,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$13</b></td>
      <td>Report in inches</td>
-     <td>Disabled (0)</td>
+     <td><b>Disabled</b> (0)</td>
      <td></td>
      <td style="text-align: left;">Enables inch units when returning any position and rate value that is not a settings value.</td>
      <td></td>
@@ -283,7 +283,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$19</b></td>
      <td>Pullup disable probe pin</td>
-     <td>Disabled (0)</td>
+     <td><b>Disabled</b> (0)</td>
      <td></td>
      <td style="text-align: left;">Disable the probe signal pullup resistor. Potentially enables pulldown resistor if available.</td>
      <td></td>
@@ -291,7 +291,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$20</b></td>
      <td>Soft limits enable</td>
-     <td>Disabled (0)</td>
+     <td><b>Disabled</b> (0)</td>
      <td></td>
      <td style="text-align: left;">Enables soft limits checks within machine travel and sets alarm when exceeded. Requires homing.</td>
      <td rowspan="8"><a href="https://resources.sienci.com/view/slb-manual/#homing-amp-limit-switches">Docs</a></td>
@@ -306,8 +306,8 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$22</b></td>
      <td>Homing cycle</td>
+     <td>Enable: <b>OFF</b><br>Single axis commands: <b>OFF</b><br>Homing on startup: <b>OFF</b><br>Set machine origin: <b>OFF</b><br>Two switches share one input: <b>OFF</b><br>Allow manual: <b>OFF</b><br>Override locks: <b>OFF</b><br>Keep homed status on reset: <b>OFF</b><br>(205)</td>
      <td></td>
-     <td>mask (205)</td>
      <td style="text-align: left;">Enables homing cycle. Requires limit switches on axes to be automatically homed.<br><br>When `Enable single axis commands` is checked, single axis homing can be performed by $H&lt;axis letter&gt; commands.<br><br>When `Allow manual` is checked, axes not homed automatically may be homed manually by $H or $H&lt;axis letter&gt; commands.<br><br>`Override locks` is for allowing a soft reset to disable `Homing on startup required`.</td>
    </tr>
    <tr>
@@ -320,35 +320,35 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$24</b></td>
      <td>Homing locate feed rate</td>
-     <td>150</td>
+     <td><b>150</b></td>
      <td>mm/min</td>
      <td style="text-align: left;">Feed rate to slowly engage limit switch to determine its location accurately.</td>
    </tr>
    <tr>
      <td><b>$25</b></td>
      <td>Homing search seek rate</td>
-     <td>4300</td>
+     <td><b>4300</b></td>
      <td>mm/min</td>
      <td style="text-align: left;">Seek rate to quickly find the limit switch before the slower locating phase.</td>
    </tr>
    <tr>
      <td><b>$26</b></td>
      <td>Homing switch debounce delay</td>
-     <td>25</td>
+     <td><b>25</b></td>
      <td>milliseconds</td>
      <td style="text-align: left;">Sets a short delay between phases of homing cycle to let a switch debounce.</td>
    </tr>
    <tr>
      <td><b>$27</b></td>
      <td>Homing switch pull-off distance</td>
-     <td>1.5</td>
+     <td><b>1.5</b></td>
      <td>mm</td>
      <td style="text-align: left;">Retract distance after triggering switch to disengage it. Homing will fail if switch isn't cleared.</td>
    </tr>
    <tr>
      <td><b>$28</b></td>
      <td>G73 retract distance</td>
-     <td>0.1</td>
+     <td><b>0.1</b></td>
      <td>mm</td>
      <td style="text-align: left;">G73 retract distance (for chip breaking drilling).</td>
      <td></td>
@@ -356,7 +356,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$29</b></td>
      <td>Pulse delay</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td>microseconds</td>
      <td style="text-align: left;">Step pulse delay.<br><br>Normally leave this at 0 as there is an implicit delay on direction changes when AMASS is active.</td>
      <td></td>
@@ -393,14 +393,14 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$34</b></td>
      <td>Spindle PWM off value</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td>percent</td>
      <td style="text-align: left;">Spindle PWM off value in percent (duty cycle).</td>
    </tr>
    <tr>
      <td><b>$35</b></td>
      <td>Spindle PWM min value</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td>percent</td>
      <td style="text-align: left;">Spindle PWM min value in percent (duty cycle).</td>
    </tr>
@@ -422,7 +422,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$39</b></td>
      <td>Enable legacy RT commands</td>
-     <td>Enabled (1)</td>
+     <td><b>Enabled</b> (1)</td>
      <td></td>
      <td style="text-align: left;">Enables "normal" processing of ?, ! and ~ characters when part of $-setting or comment. If disabled then they are added to the input string instead.</td>
      <td></td>
@@ -430,7 +430,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$40</b></td>
      <td>Limit jog commands</td>
-     <td>Enabled (1)</td>
+     <td><b>Enabled</b> (1)</td>
      <td></td>
      <td style="text-align: left;">Limit jog commands to machine limits for homed axes.</td>
      <td><a href="https://resources.sienci.com/view/slb-manual/#homing-amp-limit-switches">Docs</a></td>
@@ -526,7 +526,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$60</b></td>
      <td>Restore overrides</td>
-     <td>Enabled (1)</td>
+     <td><b>Enabled</b> (1)</td>
      <td></td>
      <td style="text-align: left;">Restore overrides to default values at program end.</td>
      <td></td>
@@ -542,7 +542,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$62</b></td>
      <td>Sleep enable</td>
-     <td>Disabled (0)</td>
+     <td><b>Disabled</b> (0)</td>
      <td></td>
      <td style="text-align: left;">Enable sleep mode.</td>
      <td></td>
@@ -558,7 +558,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$64</b></td>
      <td>Force init alarm</td>
-     <td>Disabled (0)</td>
+     <td><b>Disabled</b> (0)</td>
      <td></td>
      <td style="text-align: left;">Starts Grbl in alarm mode after a cold reset.</td>
      <td></td>
@@ -566,7 +566,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$65</b></td>
      <td>Probing feed override</td>
-     <td>Disabled (0)</td>
+     <td><b>Disabled</b> (0)</td>
      <td></td>
      <td style="text-align: left;">Allow feed override during probing.</td>
      <td></td>
@@ -681,7 +681,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$133</b></td>
      <td>A-axis maximum travel</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td>deg</td>
      <td></td>
    </tr>
@@ -704,7 +704,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-orange);">
      <td><b>$143</b></td>
      <td>A-axis motor current</td>
-     <td>0</td>
+     <td><b>0</b></td>
    </tr>
    <tr>
      <td><b>$150</b></td>
@@ -730,7 +730,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$180</b></td>
      <td>X-axis homing locate feed rate</td>
-     <td rowspan="4">150</td>
+     <td rowspan="4"><b>150</b></td>
      <td rowspan="4">mm/min</td>
      <td style="text-align: left;" rowspan="4">Feed rate to slowly engage limit switch to determine its location accurately.<br><br>NOTE: Defaults to $24 setting if axis isn't controlled by a Trinamic driver.</td>
      <td rowspan="4"><a href="https://resources.sienci.com/view/slb-manual/#homing-amp-limit-switches">Docs</a></td>
@@ -750,7 +750,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$190</b></td>
      <td>X-axis homing search seek rate</td>
-     <td rowspan="4">4300</td>
+     <td rowspan="4"><b>4300</b></td>
      <td rowspan="4">mm/min</td>
      <td style="text-align: left;" rowspan="4">Seek rate to quickly find the limit switch before the slower locating phase.<br><br>NOTE: Defaults to $25 setting if axis isn't controlled by a Trinamic driver.</td>
      <td rowspan="4"><a href="https://resources.sienci.com/view/slb-manual/#homing-amp-limit-switches">Docs</a></td>
@@ -904,7 +904,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$340</b></td>
      <td>Spindle at speed tolerance</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td>percent</td>
      <td style="text-align: left;">Spindle at speed tolerance as percentage deviation from programmed speed, set to 0 to disable.<br><br>If not within tolerance when checked after spindle on delay ($392) alarm 14 is raised.</td>
      <td></td>
@@ -928,7 +928,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$343</b></td>
      <td>Tool change locate feed rate</td>
-     <td>25</td>
+     <td><b>25</b></td>
      <td>mm/min</td>
      <td style="text-align: left;">Feed rate to slowly engage tool change sensor to determine the tool offset accurately.</td>
      <td></td>
@@ -952,7 +952,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$346</b></td>
      <td>Restore position after M6</td>
-     <td>Enabled (1)</td>
+     <td><b>Enabled</b> (1)</td>
      <td></td>
      <td style="text-align: left;">When set the spindle is moved so that the controlled point (tool tip) is the same as before the M6 command, if not the spindle is only moved to the Z home position.</td>
      <td></td>
@@ -1000,7 +1000,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$384</b></td>
      <td>Disable G92 persistence</td>
-     <td>Disabled (0)</td>
+     <td><b>Disabled</b> (0)</td>
      <td></td>
      <td style="text-align: left;">Disables save/restore of G92 offset to non-volatile storage (NVS).</td>
      <td></td>
@@ -1197,7 +1197,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$481</b></td>
      <td>Autoreport interval</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td>ms</td>
      <td style="text-align: left;">Interval the real time report will be sent, set to 0 to disable.<br>~Controller reset required for setting change to take effect~</td>
      <td></td>
@@ -1205,7 +1205,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$484</b></td>
      <td>Unlock required after E-stop</td>
-     <td>Enabled (1)</td>
+     <td><b>Enabled</b> (1)</td>
      <td></td>
      <td style="text-align: left;">If set, unlock (by sending $X) is required after resetting a cleared E-Stop condition.</td>
      <td></td>
@@ -1243,28 +1243,28 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$520</b></td>
      <td>Spindle 0 tool number start</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td></td>
      <td style="text-align: left;">Start of tool numbers for selecting spindle 0 (default spindle). Normally leave this at 0.</td>
    </tr>
    <tr>
      <td><b>$521</b></td>
      <td>Spindle 1 tool number start</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td></td>
      <td style="text-align: left;">Start of tool numbers for selecting spindle 1.</td>
    </tr>
    <tr>
      <td><b>$522</b></td>
      <td>Spindle 2 tool number start</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td></td>
      <td style="text-align: left;">Start of tool numbers for selecting spindle 2.</td>
    </tr>
    <tr>
      <td><b>$523</b></td>
      <td>Spindle 3 tool number start</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td></td>
      <td style="text-align: left;">Start of tool numbers for selecting spindle 3.</td>
    </tr>
@@ -1287,7 +1287,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$652</b></td>
      <td>Chopper chm</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td></td>
      <td style="text-align: left;">Chopper mode. Affects HDEC, HEND, and HSTRT parameters.<br>0: Standard mode (SpreadCycle).<br>1: Constant TOFF with fast decay time. Fast decay is after on time. Fast decay time is also terminated when the negative nominal current is reached.</td>
      <td></td>
@@ -1311,7 +1311,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$655</b></td>
      <td>Chopper hdec</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td></td>
      <td style="text-align: left;">CHM=0: Hysteresis decrement interval period in system clock periods. Determines the slope of the hysteresis during on time from fast to very slow (0-3 = 16,32,48,64).<br>CHM=1: Fast decay mode.</td>
      <td></td>
@@ -1351,7 +1351,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$660</b></td>
      <td>CoolStep semax</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td></td>
      <td style="text-align: left;">Upper CoolStep threshold offset from lower threshold. If SG is sampled above (SEMIN+SEMAX+1)x32 enough times, the coil current scaling factor is decremented (0-15).</td>
      <td></td>
@@ -1367,7 +1367,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$662</b></td>
      <td>CoolStep seimin</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td></td>
      <td style="text-align: left;">Minimum CoolStep current as a factor of the set motor current.<br>0: 1/2, 1: 1/4</td>
      <td></td>
@@ -1383,7 +1383,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$664</b></td>
      <td>Ring pixels</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td></td>
      <td style="text-align: left;">Number of individual pixels or LEDs connected.<br>~Controller reset required for setting change to take effect~</td>
      <td rowspan="2"><a href="https://resources.sienci.com/view/slb-manual/#status-lights">Docs</a></td>
@@ -1406,7 +1406,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$668</b></td>
      <td>Invert TLS input</td>
-     <td>Enabled (1)</td>
+     <td><b>Enabled</b> (1)</td>
      <td></td>
      <td style="text-align: left;">Invert the TLS input ahead of the OR function.<br>~Controller reset required for setting change to take effect~</td>
      <td></td>
@@ -1422,7 +1422,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$731</b></td>
      <td>Minimum laser power</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td></td>
      <td style="text-align: left;">Minimum S word power for laser.</td>
    </tr>
@@ -1436,14 +1436,14 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$734</b></td>
      <td>Laser PWM off value</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td>percent</td>
      <td style="text-align: left;">Laser PWM off value in percent (duty cycle).</td>
    </tr>
    <tr>
      <td><b>$735</b></td>
      <td>Laser PWM min value</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td>percent</td>
      <td style="text-align: left;">Laser PWM min value in percent (duty cycle).</td>
    </tr>
@@ -1457,14 +1457,14 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$741</b></td>
      <td>Laser X offset</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td>mm</td>
      <td style="text-align: left;">Laser offset from spindle on X-axis.</td>
    </tr>
    <tr>
      <td><b>$742</b></td>
      <td>Laser Y offset</td>
-     <td>0</td>
+     <td><b>0</b></td>
      <td>mm</td>
      <td style="text-align: left;">Laser offset from spindle on Y-axis.</td>
    </tr>
