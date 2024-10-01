@@ -203,17 +203,17 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$9</b></td>
      <td>PWM Spindle</td>
+     <td>Enable: ON<br>RPM controls spindle en signal: OFF<br>(1)</td>
      <td></td>
-     <td>mask (1)</td>
      <td style="text-align: left;">Enable: Controls PWM output availability.<br>RPM controls spindle enable signal: When M3 or M4 is active,  S &gt; 0 turns on spindle enable and S0 turns it off.</td>
      <td></td>
    </tr>
    <tr>
      <td><b>$10</b></td>
      <td>Status report options</td>
-     <td></td>
+     <td>Position in machine coords: ON<br>Buffer state: ON<br>Line numbers: ON<br>Feed & speed: ON<br>Pin state: ON<br>Work coord offset: ON<br>Overrides: ON<br>Probe coords: ON<br>Buffer sync on WCO change: ON<br>Parser state: OFF<br>Alarm substatus: OFF<br>Run substatus: OFF<br>(511)</td>
      <td>mask (511)</td>
-     <td style="text-align: left;">Specifies optional data included in status reports. If Run substatus is enabled it may be used for simple probe protection.NOTE: Parser state will be sent separately after the status report and only on changes.</td>
+     <td style="text-align: left;">Specifies optional data included in status reports. If Run substatus is enabled it may be used for simple probe protection.<br><br>NOTE: Parser state will be sent separately after the status report and only on changes.</td>
      <td></td>
    </tr>
    <tr>
@@ -243,16 +243,16 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$14</b></td>
      <td>Invert control pins</td>
+     <td>Reset: OFF<br>Feed hold: ON<br>Cycle start: ON<br>Safety door: ON<br>EStop: OFF<br>(14)</td>
      <td></td>
-     <td>mask (14)</td>
      <td style="text-align: left;">Inverts the control signals (active low).<br><br>NOTE: Block delete, Optional stop, EStop and Probe connected are optional signals, availability is driver dependent.</td>
      <td></td>
    </tr>
    <tr>
      <td><b>$15</b></td>
      <td>Invert coolant pins</td>
+     <td>Flood: OFF<br>Mist: OFF<br>(0)</td>
      <td></td>
-     <td>mask (0)</td>
      <td style="text-align: left;">Inverts the coolant and mist signals (active low).</td>
      <td></td>
    </tr>
@@ -267,8 +267,8 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$17</b></td>
      <td>Pullup disable control pins</td>
+     <td>Reset: OFF<br>Feed hold: OFF<br>Cycle start: OFF<br>Safety door: OFF<br>EStop: OFF<br>(0)</td>
      <td></td>
-     <td>mask (0)</td>
      <td style="text-align: left;">Disable the control signals pullup resistors. Potentially enables pulldown resistor if available.<br><br>NOTE: Block delete, Optional stop and EStop are optional signals, availability is driver dependent.</td>
      <td></td>
    </tr>
