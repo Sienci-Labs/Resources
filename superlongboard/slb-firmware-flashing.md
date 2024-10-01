@@ -139,7 +139,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$0</b></td>
      <td>Step pulse time</td>
-     <td>5</td>
+     <td><b>5</b></td>
      <td>microseconds</td>
      <td style="text-align: left;">Sets time length per step. Minimum 2 microseconds.<br><br>This needs to be reduced from the default value of 10 when max. step rates exceed approximately 80 kHz.</td>
      <td></td>
@@ -147,7 +147,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$1</b></td>
      <td>Step idle delay</td>
-     <td>254</td>
+     <td><b>254</b></td>
      <td>milliseconds</td>
      <td style="text-align: left;">Sets a short hold delay when stopping to let dynamics settle before disabling steppers. Value 255 keeps motors enabled.</td>
      <td></td>
@@ -155,7 +155,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$2</b></td>
      <td>Step pulse invert</td>
-     <td>X: OFF<br>Y: OFF<br>Z: OFF<br>A: OFF<br>(0)</td>
+     <td>X: <b>OFF</b><br>Y: <b>OFF</b><br>Z: <b>OFF</b><br>A: <b>OFF</b><br>(0)</td>
      <td></td>
      <td style="text-align: left;">Inverts the step signals (active low).</td>
      <td></td>
@@ -163,7 +163,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$3</b></td>
      <td>Step direction invert</td>
-     <td>X: OFF<br>Y: ON<br>Z: ON<br>A: OFF<br>(6)</td>
+     <td>X: <b>OFF</b><br>Y: <b>ON</b><br>Z: <b>ON</b><br>A: <b>OFF</b><br>(6)</td>
      <td></td>
      <td style="text-align: left;">Inverts the direction signals (active low).</td>
      <td></td>
@@ -171,7 +171,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$4</b></td>
      <td>Invert stepper enable pin(s)</td>
-     <td>X: ON<br>Y: ON<br>Z: ON<br>A: ON<br>(15)</td>
+     <td>X: <b>ON</b><br>Y: <b>ON</b><br>Z: <b>ON</b><br>A: <b>ON</b><br>(15)</td>
      <td></td>
      <td style="text-align: left;">Inverts the stepper driver enable signals. Most drivers uses active low enable requiring inversion.<br><br>NOTE: If the stepper drivers shares the same enable signal only X is used.</td>
      <td></td>
@@ -179,7 +179,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$5</b></td>
      <td>Invert limit pins</td>
-     <td>X: ON<br>Y: ON<br>Z: ON<br>A: ON<br>(15)</td>
+     <td>X: <b>ON</b><br>Y: <b>ON</b><br>Z: <b>ON</b><br>A: <b>ON</b><br>(15)</td>
      <td></td>
      <td style="text-align: left;">Inverts the axis limit input signals.</td>
      <td></td>
@@ -203,7 +203,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$9</b></td>
      <td>PWM Spindle</td>
-     <td>Enable: ON<br>RPM controls spindle en signal: OFF<br>(1)</td>
+     <td>Enable: <b>ON</b><br>RPM controls spindle en signal: <b>OFF</b><br>(1)</td>
      <td></td>
      <td style="text-align: left;">Enable: Controls PWM output availability.<br>RPM controls spindle enable signal: When M3 or M4 is active,  S &gt; 0 turns on spindle enable and S0 turns it off.</td>
      <td></td>
@@ -211,8 +211,8 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$10</b></td>
      <td>Status report options</td>
-     <td>Position in machine coords: ON<br>Buffer state: ON<br>Line numbers: ON<br>Feed & speed: ON<br>Pin state: ON<br>Work coord offset: ON<br>Overrides: ON<br>Probe coords: ON<br>Buffer sync on WCO change: ON<br>Parser state: OFF<br>Alarm substatus: OFF<br>Run substatus: OFF<br>(511)</td>
-     <td>mask (511)</td>
+     <td>Position in machine coords: <b>ON</b><br>Buffer state: <b>ON</b><br>Line numbers: <b>ON</b><br>Feed & speed: <b>ON</b><br>Pin state: <b>ON</b><br>Work coord offset: <b>ON</b><br>Overrides: <b>ON</b><br>Probe coords: <b>ON</b><br>Buffer sync on WCO change: <b>ON</b><br>Parser state: <b>OFF</b><br>Alarm substatus: <b>OFF</b><br>Run substatus: <b>OFF</b><br>(511)</td>
+     <td></td>
      <td style="text-align: left;">Specifies optional data included in status reports. If Run substatus is enabled it may be used for simple probe protection.<br><br>NOTE: Parser state will be sent separately after the status report and only on changes.</td>
      <td></td>
    </tr>
@@ -243,7 +243,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$14</b></td>
      <td>Invert control pins</td>
-     <td>Reset: OFF<br>Feed hold: ON<br>Cycle start: ON<br>Safety door: ON<br>EStop: OFF<br>(14)</td>
+     <td>Reset: <b>OFF</b><br>Feed hold: <b>ON</b><br>Cycle start: <b>ON</b><br>Safety door: <b>ON</b><br>EStop: <b>OFF</b><br>(14)</td>
      <td></td>
      <td style="text-align: left;">Inverts the control signals (active low).<br><br>NOTE: Block delete, Optional stop, EStop and Probe connected are optional signals, availability is driver dependent.</td>
      <td></td>
@@ -251,7 +251,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$15</b></td>
      <td>Invert coolant pins</td>
-     <td>Flood: OFF<br>Mist: OFF<br>(0)</td>
+     <td>Flood: <b>OFF</b><br>Mist: <b>OFF</b><br>(0)</td>
      <td></td>
      <td style="text-align: left;">Inverts the coolant and mist signals (active low).</td>
      <td></td>
@@ -259,15 +259,15 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$16</b></td>
      <td>Invert spindle signals</td>
+     <td>Spindle en: <b>OFF</b><br>Spindle dir: <b>OFF</b><br>PWM: <b>OFF</b><br>(0)</td>
      <td></td>
-     <td>mask (0)</td>
      <td style="text-align: left;">Inverts the spindle on, counterclockwise and PWM signals (active low).<br><br>NOTE: A hard reset of the controller is required after changing this setting.</td>
      <td></td>
    </tr>
    <tr>
      <td><b>$17</b></td>
      <td>Pullup disable control pins</td>
-     <td>Reset: OFF<br>Feed hold: OFF<br>Cycle start: OFF<br>Safety door: OFF<br>EStop: OFF<br>(0)</td>
+     <td>Reset: <b>OFF</b><br>Feed hold: <b>OFF</b><br>Cycle start: <b>OFF</b><br>Safety door: <b>OFF</b><br>EStop: <b>OFF</b><br>(0)</td>
      <td></td>
      <td style="text-align: left;">Disable the control signals pullup resistors. Potentially enables pulldown resistor if available.<br><br>NOTE: Block delete, Optional stop and EStop are optional signals, availability is driver dependent.</td>
      <td></td>
@@ -275,7 +275,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$18</b></td>
      <td>Pullup disable limit pins</td>
-     <td>X: OFF<br>Y: OFF<br>Z: OFF<br>A: OFF<br>(0)</td>
+     <td>X: <b>OFF</b><br>Y: <b>OFF</b><br>Z: <b>OFF</b><br>A: <b>OFF</b><br>(0)</td>
      <td></td>
      <td style="text-align: left;">Disable the limit signals pullup resistors. Potentially enables pulldown resistor if available.</td>
      <td></td>
@@ -299,8 +299,8 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$21</b></td>
      <td>Hard limits enable</td>
+     <td>Enable: <b>OFF</b><br>Strict mode: <b>OFF</b><br>(0)</td>
      <td></td>
-     <td>mask (0)</td>
      <td style="text-align: left;">When enabled immediately halts motion and throws an alarm when a limit switch is triggered. In strict mode only homing is possible when a switch is engaged.</td>
    </tr>
    <tr>
@@ -313,7 +313,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$23</b></td>
      <td>Homing direction invert</td>
-     <td>X: ON<br>Y: ON<br>Z: OFF<br>A: ON<br>(11)</td>
+     <td>X: <b>ON</b><br>Y: <b>ON</b><br>Z: <b>OFF</b><br>A: <b>ON</b><br>(11)</td>
      <td></td>
      <td style="text-align: left;">Homing searches for a switch in the positive direction. Set axis bit to search in negative direction.</td>
    </tr>
@@ -379,8 +379,8 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$32</b></td>
      <td>Mode of operation</td>
+     <td>Normal<br>(0)</td>
      <td></td>
-     <td>integer (0)</td>
      <td style="text-align: left;">Laser mode: consecutive G1/2/3 commands will not halt when spindle speed is changed.<br><br>Lathe mode: allows use of G7, G8, G96 and G97.</td>
    </tr>
    <tr>
@@ -414,7 +414,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$37</b></td>
      <td>Steppers de-energize</td>
-     <td>X: OFF<br>Y: OFF<br>Z: OFF<br>A: OFF<br>(0)</td>
+     <td>X: <b>OFF</b><br>Y: <b>OFF</b><br>Z: <b>OFF</b><br>A: <b>OFF</b><br>(0)</td>
      <td></td>
      <td style="text-align: left;">Specifies which steppers not to disable when stopped.</td>
      <td><a href="https://resources.sienci.com/view/slb-manual/#independent-motor-holding">Docs</a></td>
@@ -462,7 +462,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$44</b></td>
      <td>Axes homing, first pass</td>
-     <td>X: OFF<br>Y: OFF<br>Z: ON<br>A: OFF<br>(4)</td>
+     <td>X: <b>OFF</b><br>Y: <b>OFF</b><br>Z: <b>ON</b><br>A: <b>OFF</b><br>(4)</td>
      <td></td>
      <td style="text-align: left;">Axes to home in first pass.</td>
      <td></td>
@@ -470,7 +470,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$45</b></td>
      <td>Axes homing, second pass</td>
-     <td>X: ON<br>Y: ON<br>Z: OFF<br>A: OFF<br>(3)</td>
+     <td>X: <b>ON</b><br>Y: <b>ON</b><br>Z: <b>OFF</b><br>A: <b>OFF</b><br>(3)</td>
      <td></td>
      <td style="text-align: left;">Axes to home in second pass.</td>
      <td></td>
@@ -478,7 +478,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$46</b></td>
      <td>Axes homing, third pass</td>
-     <td>X: OFF<br>Y: OFF<br>Z: OFF<br>A: OFF<br>(0)</td>
+     <td>X: <b>OFF</b><br>Y: <b>OFF</b><br>Z: <b>OFF</b><br>A: <b>OFF</b><br>(0)</td>
      <td></td>
      <td style="text-align: left;">Axes to home in third pass.</td>
      <td></td>
@@ -486,7 +486,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$47</b></td>
      <td>Axes homing, fourth pass</td>
-     <td>X: OFF<br>Y: OFF<br>Z: OFF<br>A: OFF<br>(0)</td>
+     <td>X: <b>OFF</b><br>Y: <b>OFF</b><br>Z: <b>OFF</b><br>A: <b>OFF</b><br>(0)</td>
      <td></td>
      <td style="text-align: left;">Axes to home in fourth pass.</td>
      <td></td>
@@ -888,7 +888,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$338</b></td>
      <td>Trinamic driver</td>
-     <td>X: ON<br>Y: ON<br>Z: ON<br>A: OFF<br>(7)</td>
+     <td>X: <b>ON</b><br>Y: <b>ON</b><br>Z: <b>ON</b><br>A: <b>OFF</b><br>(7)</td>
      <td></td>
      <td style="text-align: left;">Enable SPI or UART controlled Trinamic drivers for axes.</td>
      <td></td>
@@ -896,7 +896,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$339</b></td>
      <td>Sensorless homing</td>
-     <td>X: OFF<br>Y: OFF<br>Z: OFF<br>A: OFF<br>(0)</td>
+     <td>X: <b>OFF</b><br>Y: <b>OFF</b><br>Z: <b>OFF</b><br>A: <b>OFF</b><br>(0)</td>
      <td></td>
      <td style="text-align: left;">Enable sensorless homing for axes. Requires SPI or UART controlled Trinamic drivers.</td>
      <td></td>
@@ -992,7 +992,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$376</b></td>
      <td>Rotational axes</td>
-     <td>A-Axis: ON<br>(1)</td>
+     <td>A-Axis: <b>ON</b><br>(1)</td>
      <td></td>
      <td style="text-align: left;"></td>
      <td></td>
