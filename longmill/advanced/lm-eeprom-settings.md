@@ -38,7 +38,7 @@ Start by sending the command "$$" to your machine. Your console will give you a 
      <td><b>12x12</b></td>
      <td><b>12x30</b></td>
      <td><b>30x30</b></td>
-     <td>48x30</td>
+     <td><b>48x30</b></td>
      <td><b>Units</b></td>
    </tr>
    <tr>
