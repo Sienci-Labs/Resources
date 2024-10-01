@@ -306,7 +306,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$22</b></td>
      <td>Homing cycle</td>
-     <td>Enable: <b>OFF</b><br>Single axis commands: <b>OFF</b><br>Homing on startup: <b>OFF</b><br>Set machine origin: <b>OFF</b><br>Two switches share one input: <b>OFF</b><br>Allow manual: <b>OFF</b><br>Override locks: <b>OFF</b><br>Keep homed status on reset: <b>OFF</b><br>(205)</td>
+     <td>Enable: <b>OFF</b><br>Single axis commands: <b>OFF</b><br>Homing on startup: <b>OFF</b><br>Set machine origin: <b>OFF</b><br>Two switches share one input: <b>OFF</b><br>Allow manual: <b>OFF</b><br>Override locks: <b>OFF</b><br>Keep homed status on reset: <b>OFF</b><br>(0)</td>
      <td></td>
      <td style="text-align: left;">Enables homing cycle. Requires limit switches on axes to be automatically homed.<br><br>When `Enable single axis commands` is checked, single axis homing can be performed by $H&lt;axis letter&gt; commands.<br><br>When `Allow manual` is checked, axes not homed automatically may be homed manually by $H or $H&lt;axis letter&gt; commands.<br><br>`Override locks` is for allowing a soft reset to disable `Homing on startup required`.</td>
    </tr>
@@ -364,7 +364,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$30</b></td>
      <td>Maximum spindle speed</td>
-     <td>24000</td>
+     <td><b>24000</b></td>
      <td>RPM</td>
      <td style="text-align: left;">Maximum spindle speed, can be overridden by spindle plugins.</td>
      <td rowspan="7"><a href="https://resources.sienci.com/view/slb-manual/#spindlers485">Docs</a></td>
@@ -372,21 +372,21 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$31</b></td>
      <td>Minimum spindle speed</td>
-     <td>7200</td>
+     <td><b>7200</b></td>
      <td>RPM</td>
      <td style="text-align: left;">Minimum spindle speed, can be overridden by spindle plugins.</td>
    </tr>
    <tr>
      <td><b>$32</b></td>
      <td>Mode of operation</td>
-     <td>Normal<br>(0)</td>
+     <td><b>Normal</b><br>(0)</td>
      <td></td>
      <td style="text-align: left;">Laser mode: consecutive G1/2/3 commands will not halt when spindle speed is changed.<br><br>Lathe mode: allows use of G7, G8, G96 and G97.</td>
    </tr>
    <tr>
      <td><b>$33</b></td>
      <td>Spindle PWM frequency</td>
-     <td>1000</td>
+     <td><b>1000</b></td>
      <td>Hz</td>
      <td style="text-align: left;">Spindle PWM frequency.</td>
    </tr>
@@ -407,7 +407,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$36</b></td>
      <td>Spindle PWM max value</td>
-     <td>100</td>
+     <td><b>100</b></td>
      <td>percent</td>
      <td style="text-align: left;">Spindle PWM max value in percent (duty cycle).</td>
    </tr>
@@ -438,23 +438,23 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-orange);">
      <td><b>$41</b></td>
      <td>Parking cycle</td>
+     <td>Enable: <b>ON</b><br>Parking override control: <b>OFF</b><br>Deactivate upon init: <b>OFF</b><br>(1)</td>
      <td></td>
-     <td>mask (1)</td>
      <td style="text-align: left;">Enables parking cycle, requires parking axis homed.</td>
      <td></td>
    </tr>
    <tr style="color: var(--sl-orange);">
      <td><b>$42</b></td>
      <td>Parking axis</td>
+     <td><b>Z</b><br>(2)</td>
      <td></td>
-     <td>integer (2)</td>
      <td style="text-align: left;">Define which axis that performs the parking motion.</td>
      <td></td>
    </tr>
    <tr>
      <td><b>$43</b></td>
      <td>Homing passes</td>
-     <td>1</td>
+     <td><b>1</b></td>
      <td></td>
      <td style="text-align: left;">Number of homing passes. Minimum 1, maximum 128.</td>
      <td></td>
@@ -494,7 +494,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-orange);">
      <td><b>$56</b></td>
      <td>Parking pull-out distance</td>
-     <td>5</td>
+     <td><b>5</b></td>
      <td>mm</td>
      <td style="text-align: left;">Spindle pull-out and plunge distance in mm.Incremental distance.</td>
      <td></td>
@@ -502,7 +502,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-orange);">
      <td><b>$57</b></td>
      <td>Parking pull-out rate</td>
-     <td>100</td>
+     <td><b>100</b></td>
      <td>mm/min</td>
      <td style="text-align: left;">Spindle pull-out/plunge slow feed rate in mm/min.</td>
      <td></td>
@@ -510,7 +510,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-orange);">
      <td><b>$58</b></td>
      <td>Parking target</td>
-     <td>-5</td>
+     <td><b>-5</b></td>
      <td>mm</td>
      <td style="text-align: left;">Parking axis target. In mm, as machine coordinate [-max_travel, 0].</td>
      <td></td>
@@ -518,7 +518,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-orange);">
      <td><b>$59</b></td>
      <td>Parking fast rate</td>
-     <td>500</td>
+     <td><b>500</b></td>
      <td>mm/min</td>
      <td style="text-align: left;">Parking fast rate to target after pull-out in mm/min.</td>
      <td></td>
@@ -534,7 +534,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-orange);">
      <td><b>$61</b></td>
      <td>Safety door options</td>
-     <td></td>
+     <td>Ignore when idle: <b>ON</b><br>Keep coolant state: <b>ON</b><br>(3)</td>
      <td>mask (3)</td>
      <td style="text-align: left;">Enable this if it is desirable to open the safety door when in IDLE mode (eg. for jogging).</td>
      <td></td>
@@ -550,8 +550,8 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$63</b></td>
      <td>Feed hold actions</td>
+     <td>Disable laser: <b>ON</b><br>Restore spindle and coolant state: <b>ON</b><br>(3)</td>
      <td></td>
-     <td>mask (3)</td>
      <td style="text-align: left;">Actions taken during feed hold and on resume from feed hold.</td>
      <td></td>
    </tr>
@@ -574,15 +574,15 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$70</b></td>
      <td>Network services</td>
+     <td>Telnet: <b>ON</b><br>Websocket: <b>ON</b><br>FTP: <b>ON</b><br>(11)</td>
      <td></td>
-     <td>mask (11)</td>
      <td style="text-align: left;">Network services/protocols to enable.<br><br>NOTE: A hard reset of the controller is required after changing this setting.</td>
      <td><a href="https://resources.sienci.com/view/slb-manual/#ethernet-on-windows">Docs</a></td>
    </tr>
    <tr>
      <td><b>$100</b></td>
      <td>X-axis travel resolution</td>
-     <td>800</td>
+     <td><b>800</b></td>
      <td>step/mm</td>
      <td style="text-align: left;" rowspan="4">Travel resolution in steps per millimeter.</td>
      <td></td>
@@ -590,14 +590,14 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$101</b></td>
      <td>Y-axis travel resolution</td>
-     <td>800</td>
+     <td><b>800</b></td>
      <td>step/mm</td>
      <td></td>
    </tr>
    <tr>
      <td><b>$102</b></td>
      <td>Z-axis travel resolution</td>
-     <td>800</td>
+     <td><b>800</b></td>
      <td>step/mm</td>
      <td></td>
    </tr>
@@ -637,14 +637,14 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$120</b></td>
      <td>X-axis acceleration</td>
-     <td>1000</td>
+     <td><b>1000</b></td>
      <td>mm/sec^2</td>
      <td style="text-align: left;" rowspan="4">Acceleration. Used for motion planning to not exceed motor torque and lose steps.</td>
    </tr>
    <tr>
      <td><b>$121</b></td>
      <td>Y-axis acceleration</td>
-     <td>1000</td>
+     <td><b>1000</b></td>
      <td>mm/sec^2</td>
    <tr>
      <td><b>$122</b></td>
@@ -654,7 +654,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$123</b></td>
      <td>A-axis acceleration</td>
-     <td>1000</td>
+     <td><b>1000</b></td>
      <td>deg/sec^2</td>
    <tr>
      <td><b>$130</b></td>
@@ -1016,7 +1016,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-orange);">
      <td><b>$393</b></td>
      <td>Coolant on delay</td>
-     <td>1</td>
+     <td><b>1</b></td>
      <td>s</td>
      <td style="text-align: left;">Delay to allow coolant to restart after safety door is opened.</td>
      <td></td>
@@ -1148,7 +1148,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$467</b></td>
      <td>Stop command</td>
-     <td>1</td>
+     <td><b>1</b></td>
      <td>decimal</td>
      <td style="text-align: left;">MODVFD command word for stop.</td>
    </tr>
@@ -1176,7 +1176,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$471</b></td>
      <td>RPM output divider</td>
-     <td>100</td>
+     <td><b>100</b></td>
      <td></td>
      <td style="text-align: left;">MODVFD RPM value divider for reading RPM.</td>
    </tr>
@@ -1271,7 +1271,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$650</b></td>
      <td>Chopper toff</td>
-     <td>1</td>
+     <td><b>1</b></td>
      <td></td>
      <td style="text-align: left;">Off time. Duration of slow decay phase as a multiple of system clock periods: NCLK= 24 + (32 x TOFF). This will limit the maximum chopper frequency (0-15).<br>0: MOSFETs shut off, driver disabled.<br>1: Use with TBL of minimum 24 clocks.</td>
      <td></td>
@@ -1279,7 +1279,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$651</b></td>
      <td>Chopper tbl</td>
-     <td>1</td>
+     <td><b>1</b></td>
      <td></td>
      <td style="text-align: left;">Blanking time interval in system clock periods (0-3 = 16,24,36,54). Needs to cover the switching event and the duration of the ringing on the sense resistor.</td>
      <td></td>
@@ -1319,7 +1319,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$656</b></td>
      <td>Chopper rndtf</td>
-     <td>1</td>
+     <td><b>1</b></td>
      <td></td>
      <td style="text-align: left;">Change from fixed to randomized TOFF times, by dNCLK= -24 to +6 clocks. Only for CHM=1.</td>
      <td></td>
@@ -1391,7 +1391,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$665</b></td>
      <td>Rail pixels</td>
-     <td>1</td>
+     <td><b>1</b></td>
      <td></td>
      <td style="text-align: left;">Number of individual pixels or LEDs connected. Include the onboard LED.<br>~Controller reset required for setting change to take effect~</td>
    </tr>
@@ -1429,7 +1429,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$733</b></td>
      <td>Laser PWM frequency</td>
-     <td>1000</td>
+     <td><b>1000</b></td>
      <td>Hz</td>
      <td style="text-align: left;">Laser PWM frequency.</td>
    </tr>
@@ -1450,7 +1450,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$736</b></td>
      <td>Laser PWM max value</td>
-     <td>100</td>
+     <td><b>100</b></td>
      <td>percent</td>
      <td style="text-align: left;">Laser PWM max value in percent (duty cycle).</td>
    </tr>
