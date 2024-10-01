@@ -50,8 +50,9 @@ You can choose to either use gSender or the STM Cube Programmer software to upda
 1. Ensure the COM port is correct (matches the board you’re connected to)
 1. Click ‘Choose File’ to select the “.hex” firmware file you plan to update to, in the picture below it’s the 5.0.7 firmware
 1. Click ‘Yes’ to begin the flashing process. If it stops before 100% and you see an error for:
-   - "LIBUSB_ERROR_NOT_SUPPORTED", you'll need to <a href="#windows-driver-update">update your Windows driver</a>
-   - "Unable to find valid device", you might have <a href="#bad-driver-install">installed your Windows drivers incorrectly</a>
+   - "LIBUSB_ERROR_NOT_SUPPORTED", you'll need to [update your Windows driver](#windows-driver-update)
+   - "Unable to find valid device", you might have [installed your Windows drivers incorrectly](#bad-driver-install)
+   - "LIBUSB_ERROR_ACCESS", your Ubuntu device might be having a [USB rights issue](#ubuntu-driver-update)
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p3_Choose.jpg){.aligncenter .size-medium}
 1. Once you see the loading bar at 100%, flashing is complete. Exit out of the firmware window and switch off the board with the power switch at the back then turn it back on again.
@@ -116,6 +117,58 @@ To fix the Windows driver:
 1. Right-click  ➜ Uninstall device, then power cycle the board
 1. Once powered back up and reconnected, the SLB should reappear looking more normal. With this done, you can try flashing again - or if Windows still didn't install the correct driver then go through the [Windows Driver Update](#windows-driver-update) again.
 ![](/_images/_superlongboard/_firmware/slb_fi_p10_stm32-reset.png){.aligncenter .size-full .nar}
+
+### Ubuntu Driver Update
+
+[su_spoiler title="<h3>Ubuntu Driver Update</h3>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+
+To set up **udev** rules to give your user account access to the SLB on Linux, follow these steps:
+
+1. Plug in your SLB
+1. Open a terminal and list all connected USB devices with `lsusb`
+1. Note the vendor ID and product ID. In the example, `1234` is the vendor ID and `5678` is the product ID.
+
+   ```bash
+   Bus 001 Device 002: ID 1234:5678 Sample USB Device
+   ```
+
+1. Create a new `udev` rule file in the `/etc/udev/rules.d/` directory; we'll name it `slb.rules`:
+
+   ```bash
+   sudo nano /etc/udev/rules.d/slb.rules
+   ```
+
+1. Add the following line to the file, replacing `1234` with the vendor ID and `5678` with the product ID:
+
+   ```bash
+   SUBSYSTEM=="usb", ATTR{idVendor}=="1234", ATTR{idProduct}=="5678", MODE="0660", GROUP="plugdev"
+   ```
+
+1. Now add your user to the new `plugdev` group:
+
+   ```bash
+   sudo usermod -aG plugdev $USER
+   ```
+
+1. Log out and log back in to apply the group changes.
+1. Reload the `udev` rules to apply the remaining changes:
+
+   ```bash
+   sudo udevadm control --reload-rules
+   sudo udevadm trigger
+   ```
+
+1. Finally, unplug and replug your SLB then check the device permissions have been set correctly (the exact path may vary according to your system):
+
+   ```bash
+   ls -l /dev/bus/usb/001/002
+   ```
+
+1. You may also need to issue `sudo chmod -R 777 /dev/bus/usb/`
+
+After completing these steps, you should have access to the SLB without needing `sudo`. If you still encounter issues, make sure that no other kernel drivers are conflicting with the device access. If everything is looking good, then go back up to continue [Firmware flashing with gSender](#gsender-flashing).
+
+[/su_spoiler]
 
 ## Settings Descriptions
 
