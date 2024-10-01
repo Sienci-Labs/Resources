@@ -535,7 +535,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
      <td><b>$61</b></td>
      <td>Safety door options</td>
      <td>Ignore when idle: <b>ON</b><br>Keep coolant state: <b>ON</b><br>(3)</td>
-     <td>mask (3)</td>
+     <td></td>
      <td style="text-align: left;">Enable this if it is desirable to open the safety door when in IDLE mode (eg. for jogging).</td>
      <td></td>
    </tr>
@@ -604,14 +604,14 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$103</b></td>
      <td>A-axis travel resolution</td>
-     <td>79.01234568</td>
+     <td><b>79.01234568</b></td>
      <td>step/deg</td>
      <td></td>
    </tr>
    <tr>
      <td><b>$110</b></td>
      <td>X-axis maximum rate</td>
-     <td>5500</td>
+     <td><b>5500</b></td>
      <td>mm/min</td>
      <td style="text-align: left;" rowspan="4">Maximum rate. Used as G0 rapid rate.</td>
      <td rowspan="8"><a href="https://resources.sienci.com/view/slb-manual/#movement-amp-cutting-speeds">Docs</a></td>
@@ -619,19 +619,19 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$111</b></td>
      <td>Y-axis maximum rate</td>
-     <td>5500</td>
+     <td><b>5500</b></td>
      <td>mm/min</td>
    </tr>
    <tr>
      <td><b>$112</b></td>
      <td>Z-axis maximum rate</td>
-     <td>4500</td>
+     <td><b>4500</b></td>
      <td>mm/min</td>
    </tr>
    <tr>
      <td><b>$113</b></td>
      <td>A-axis maximum rate</td>
-     <td>8000</td>
+     <td><b>8000</b></td>
      <td>deg/min</td>
    </tr>
    <tr>
@@ -649,7 +649,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$122</b></td>
      <td>Z-axis acceleration</td>
-     <td>750</td>
+     <td><b>750</b></td>
      <td>mm/sec^2</td>
    <tr>
      <td><b>$123</b></td>
@@ -659,7 +659,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$130</b></td>
      <td>X-axis maximum travel</td>
-     <td>810</td>
+     <td><b>810</b></td>
      <td>mm</td>
      <td style="text-align: left;" rowspan="4">Maximum axis travel distance from homing switch. Determines valid machine space for soft-limits and homing search distances.</td>
      <td></td>
@@ -667,14 +667,14 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$131</b></td>
      <td>Y-axis maximum travel</td>
-     <td>855</td>
+     <td><b>855</b></td>
      <td>mm</td>
      <td></td>
    </tr>
    <tr>
      <td><b>$132</b></td>
      <td>Z-axis maximum travel</td>
-     <td>120</td>
+     <td><b>120</b></td>
      <td>mm</td>
      <td></td>
    </tr>
@@ -688,7 +688,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$140</b></td>
      <td>X-axis motor current</td>
-     <td rowspan="3">2800</td>
+     <td rowspan="3"><b>2800</b></td>
      <td rowspan="4">mA</td>
      <td style="text-align: left;" rowspan="4">Motor current in mA (RMS).<br><br>NOTE: Only used for axes controlled by a Trinamic driver.</td>
      <td rowspan="4"></td>
@@ -709,7 +709,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$150</b></td>
      <td>X-axis microsteps</td>
-     <td rowspan="3">32</td>
+     <td rowspan="3"><b>32</b></td>
      <td rowspan="4">steps</td>
      <td style="text-align: left;" rowspan="4">Microsteps per fullstep.<br><br>NOTE: Only used for axes controlled by a Trinamic driver.</td>
      <td rowspan="4"></td>
@@ -725,7 +725,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-orange);">
      <td><b>$153</b></td>
      <td>A-axis microsteps</td>
-     <td>16</td>
+     <td><b>16</b></td>
    </tr>
    <tr>
      <td><b>$180</b></td>
@@ -770,7 +770,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$200</b></td>
      <td>X-axis StallGuard2 fast threshold</td>
-     <td rowspan="4">22</td>
+     <td rowspan="4"><b>22</b></td>
      <td rowspan="4"></td>
      <td style="text-align: left;" rowspan="4">StallGuard threshold for fast (seek) homing phase.<br><br>NOTE: Only used for axes controlled by a Trinamic driver.</td>
      <td rowspan="4"></td>
@@ -790,7 +790,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$210</b></td>
      <td>X-axis hold current</td>
-     <td rowspan="3">35</td>
+     <td rowspan="3"><b>35</b></td>
      <td rowspan="4">%</td>
      <td style="text-align: left;" rowspan="4">Motor current at standstill as a percentage of full current.<br><br>NOTE: If grblHAL is configured to disable motors on standstill this setting has no use. Only used for axes controlled by a Trinamic driver.</td>
      <td rowspan="4"><a href="https://resources.sienci.com/view/slb-manual/#independent-motor-holding">Docs</a></td>
@@ -806,12 +806,12 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-orange);">
      <td><b>$213</b></td>
      <td>A-axis hold current</td>
-     <td>50</td>
+     <td><b>50</b></td>
    </tr>
    <tr style="color: var(--sl-blue-d);">
      <td><b>$220</b></td>
      <td>X-axis stallGuard2 slow threshold</td>
-     <td rowspan="4">22</td>
+     <td rowspan="4"><b>22</b></td>
      <td rowspan="4"></td>
      <td style="text-align: left;" rowspan="4">StallGuard threshold for slow (feed) homing phase.<br><br>NOTE: Only used for axes controlled by a Trinamic driver.</td>
      <td rowspan="4"></td>
@@ -920,7 +920,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$342</b></td>
      <td>Tool change probing distance</td>
-     <td>30</td>
+     <td><b>30</b></td>
      <td>mm</td>
      <td style="text-align: left;">Maximum probing distance for automatic or $TPW touch off.</td>
      <td></td>
@@ -936,7 +936,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$344</b></td>
      <td>Tool change search seek rate</td>
-     <td>200</td>
+     <td><b>200</b></td>
      <td>mm/min</td>
      <td style="text-align: left;">Seek rate to quickly find the tool change sensor before the slower locating phase.</td>
      <td></td>
@@ -944,7 +944,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$345</b></td>
      <td>Tool change probe pull-off rate</td>
-     <td>200</td>
+     <td><b>200</b></td>
      <td>mm/min</td>
      <td style="text-align: left;">Pull-off rate for the retract move before the slower locating phase.</td>
      <td></td>
@@ -984,7 +984,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$375</b></td>
      <td>Modbus RX timeout</td>
-     <td>50</td>
+     <td><b>50</b></td>
      <td>milliseconds</td>
      <td style="text-align: left;"></td>
      <td></td>
@@ -1008,7 +1008,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-orange);">
      <td><b>$392</b></td>
      <td>Spindle on delay</td>
-     <td>4</td>
+     <td><b>4</b></td>
      <td>s</td>
      <td style="text-align: left;">Delay to allow spindle to spin up after safety door is opened.</td>
      <td></td>
@@ -1032,7 +1032,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$398</b></td>
      <td>Planner buffer blocks</td>
-     <td>128</td>
+     <td><b>128</b></td>
      <td></td>
      <td style="text-align: left;">Number of blocks in the planner buffer.<br>~Controller reset required for setting change to take effect~</td>
      <td></td>
@@ -1062,21 +1062,21 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$453</b></td>
      <td>Button 1 macro</td>
-     <td>G4P0</td>
+     <td><b>G4P0</b></td>
      <td></td>
      <td style="text-align: left;">Macro content, limited to 127 characters. Separate lines with the vertical bar character |.</td>
    </tr>
    <tr>
      <td><b>$454</b></td>
      <td>Button 2 macro</td>
-     <td>G4P0</td>
+     <td><b>G4P0</b></td>
      <td></td>
      <td style="text-align: left;">Macro content, limited to 127 characters. Separate lines with the vertical bar character |.</td>
    </tr>
    <tr>
      <td><b>$455</b></td>
      <td>Button 3 macro</td>
-     <td>G4P0</td>
+     <td><b>G4P0</b></td>
      <td></td>
      <td style="text-align: left;">Macro content, limited to 127 characters. Separate lines with the vertical bar character |.</td>
    </tr>
@@ -1155,7 +1155,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$468</b></td>
      <td>RPM input multiplier</td>
-     <td>50</td>
+     <td><b>50</b></td>
      <td></td>
      <td style="text-align: left;">MODVFD RPM value multiplier for programming RPM.</td>
    </tr>
@@ -1183,14 +1183,14 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$478</b></td>
      <td>Spindle 2 Modbus address</td>
-     <td>3</td>
+     <td><b>3</b></td>
      <td></td>
      <td style="text-align: left;">Spindle 2 Modbus address.</td>
    </tr>
    <tr>
      <td><b>$479</b></td>
      <td>Spindle 3 Modbus address</td>
-     <td>4</td>
+     <td><b>4</b></td>
      <td></td>
      <td style="text-align: left;">Spindle 3 Modbus address.</td>
    </tr>
@@ -1295,7 +1295,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$653</b></td>
      <td>Chopper hstr</td>
-     <td>2</td>
+     <td><b>2</b></td>
      <td></td>
      <td style="text-align: left;">CHM=0: Hysteresis start, offset from HEND (0-7 = 1-8). To be effective, HEND+HSTRT must be ≤15.<br>CHM=1: Fast decay time. Three least-significant bits of the duration of the fast decay phase. The MSB is HDEC0. Fast decay time is a multiple of system clock periods: NCLK= 32 x (HDEC0+HSTRT).</td>
      <td></td>
@@ -1303,7 +1303,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$654</b></td>
      <td>Chopper hend</td>
-     <td>8</td>
+     <td><b>8</b></td>
      <td></td>
      <td style="text-align: left;">Can be either negative, zero, or positive, 0-15 = -3 to 12.<br>CHM=0: Hysteresis end (low). Sets the hysteresis end value after a number of decrements, used for the hysteresis chopper and controlled by HDEC. HSTRT+HEND must be less than 16. 1/512 adds to the current setting.<br>CHM=1: Sine wave offset. A positive offset corrects for zero crossing error. 1/512 adds to the absolute value of each sine wave entry.</td>
      <td></td>
@@ -1327,7 +1327,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$657</b></td>
      <td>THRESH</td>
-     <td>22</td>
+     <td><b>22</b></td>
      <td></td>
      <td style="text-align: left;">StallGuard threshold.</td>
      <td></td>
@@ -1335,7 +1335,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$658</b></td>
      <td>CoolStep semin</td>
-     <td>7</td>
+     <td><b>7</b></td>
      <td></td>
      <td style="text-align: left;">Lower CoolStep threshold. If the SG value falls below SEMIN x 32, the coil current scaling factor is increased (0-15).<br>0: CoolStep disabled.</td>
      <td></td>
@@ -1343,7 +1343,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$659</b></td>
      <td>CoolStep seup</td>
-     <td>3</td>
+     <td><b>3</b></td>
      <td></td>
      <td style="text-align: left;">Number of increments of the coil current each time SG is sampled below the lower threshold (0-3 = 1,2,4,8).</td>
      <td></td>
@@ -1359,7 +1359,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$661</b></td>
      <td>CoolStep sedn</td>
-     <td>3</td>
+     <td><b>3</b></td>
      <td></td>
      <td style="text-align: left;">Number of times SG must be sampled above the upper threshold before the coil current is decremented (0-3 = 32,8,2,1).</td>
      <td></td>
@@ -1414,7 +1414,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$730</b></td>
      <td>Maximum laser power</td>
-     <td>255</td>
+     <td><b>255</b></td>
      <td></td>
      <td style="text-align: left;">Maximum S word power for laser.</td>
      <td rowspan="9"><a href="https://resources.sienci.com/view/slb-manual/#laser">Docs</a></td>
@@ -1471,8 +1471,8 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$743</b></td>
      <td>Invert laser signals</td>
+     <td>Enable: <b>OFF</b><br>PWM: <b>OFF</b><br>(0)</td>
      <td></td>
-     <td>mask (0)</td>
      <td style="text-align: left;">Inverts the laser enable and PWM signals (active high).<br>~Controller reset required for setting change to take effect~</td>
    </tr>
 </tbody>
