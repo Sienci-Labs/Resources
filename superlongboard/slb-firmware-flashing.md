@@ -831,7 +831,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$300</b></td>
      <td>Hostname</td>
-     <td>grblHAL</td>
+     <td><b>grblHAL</b></td>
      <td></td>
      <td style="text-align: left;">Network hostname.<br>~Controller reset required for setting change to take effect~</td>
      <td rowspan="8"><a href="https://resources.sienci.com/view/slb-manual/#ethernet-on-windows">Docs</a></td>
@@ -839,49 +839,49 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$301</b></td>
      <td>IP mode</td>
+     <td><b>Static</b><br>(0)</td>
      <td></td>
-     <td>integer (0)</td>
      <td style="text-align: left;">IP mode.<br>~Controller reset required for setting change to take effect~</td>
    </tr>
    <tr>
      <td><b>$302</b></td>
      <td>IP address</td>
-     <td>192.168.5.1</td>
+     <td><b>192.168.5.1</b></td>
      <td></td>
      <td style="text-align: left;">Static IP address.<br>~Controller reset required for setting change to take effect~</td>
    </tr>
    <tr>
      <td><b>$303</b></td>
      <td>Gateway</td>
-     <td>192.168.5.1</td>
+     <td><b>192.168.5.1</b></td>
      <td></td>
      <td style="text-align: left;">Static gateway address.<br>~Controller reset required for setting change to take effect~</td>
    </tr>
    <tr>
      <td><b>$304</b></td>
      <td>Netmask</td>
-     <td>255.255.255.0</td>
+     <td><b>255.255.255.0</b></td>
      <td></td>
      <td style="text-align: left;">Static netmask.<br>~Controller reset required for setting change to take effect~</td>
    </tr>
    <tr>
      <td><b>$305</b></td>
      <td>Telnet port</td>
-     <td>23</td>
+     <td><b>23</b></td>
      <td></td>
      <td style="text-align: left;">(Raw) Telnet port number listening for incoming connections.<br>~Controller reset required for setting change to take effect~</td>
    </tr>
    <tr>
      <td><b>$307</b></td>
      <td>Websocket port</td>
-     <td>80</td>
+     <td><b>80</b></td>
      <td></td>
      <td style="text-align: left;">Websocket port number listening for incoming connections.<br>NOTE: WebUI requires this to be HTTP port number + 1.<br>~Controller reset required for setting change to take effect~</td>
    </tr>
    <tr>
      <td><b>$308</b></td>
      <td>FTP port</td>
-     <td>21</td>
+     <td><b>21</b></td>
      <td></td>
      <td style="text-align: left;">FTP port number listening for incoming connections.<br>~Controller reset required for setting change to take effect~</td>
    </tr>
@@ -912,8 +912,8 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$341</b></td>
      <td>Tool change mode</td>
+     <td><b>Normal</b><br>(0)</td>
      <td></td>
-     <td>integer (0)</td>
      <td style="text-align: left;">Normal: allows jogging for manual touch off. Set new position manually.<br><br>Manual touch off: retracts tool axis to home position for tool change, use jogging or $TPW for touch off.<br><br>Manual touch off @ G59.3: retracts tool axis to home position then to G59.3 position for tool change, use jogging or $TPW for touch off.<br><br>Automatic touch off @ G59.3: retracts tool axis to home position for tool change, then to G59.3 position for automatic touch off.<br><br>All modes except "Normal" and "Ignore M6" returns the tool (controlled point) to original position after touch off.</td>
      <td></td>
    </tr>
@@ -960,24 +960,24 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$370</b></td>
      <td>Invert I/O Port inputs</td>
+     <td>(0)</td>
      <td></td>
-     <td>mask (0)</td>
      <td style="text-align: left;">Invert IOPort inputs.</td>
      <td></td>
    </tr>
    <tr>
      <td><b>$372</b></td>
      <td>Invert I/O Port outputs</td>
+     <td>(0)</td>
      <td></td>
-     <td>mask (0)</td>
      <td style="text-align: left;">Invert IOPort output.</td>
      <td></td>
    </tr>
    <tr>
      <td><b>$374</b></td>
      <td>Modbus baud rate</td>
+     <td><b>19200</b><br>(3)</td>
      <td></td>
-     <td>integer (3)</td>
      <td style="text-align: left;"></td>
      <td></td>
    </tr>
@@ -1024,8 +1024,8 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$395</b></td>
      <td>Default spindle</td>
+     <td><b>SLB_SPINDLE</b><br>(0)</td>
      <td></td>
-     <td>integer (0)</td>
      <td style="text-align: left;">Spindle selected on startup.</td>
      <td></td>
    </tr>
@@ -1040,23 +1040,23 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$450</b></td>
      <td>Button 1 action</td>
+     <td><b>Cycle start</b><br>(1)</td>
      <td></td>
-     <td>integer (1)</td>
      <td style="text-align: left;">Assign a real-time action to button 1, or run your own macro g-code.</td>
      <td rowspan="6"><a href="https://resources.sienci.com/view/slb-manual/#action-buttons">Docs</a></td>
    </tr>
    <tr>
      <td><b>$451</b></td>
      <td>Button 2 action</td>
+     <td><b>Pause</b><br>(2)</td>
      <td></td>
-     <td>integer (2)</td>
      <td style="text-align: left;">Assign a real-time action to button 2, or run your own macro g-code.</td>
    </tr>
    <tr>
      <td><b>$452</b></td>
      <td>Button 3 action</td>
+     <td><b>Halt</b><br>(4)</td>
      <td></td>
-     <td>integer (4)</td>
      <td style="text-align: left;">Assign a real-time action to button 3, or run your own macro g-code.</td>
    </tr>
    <tr>
@@ -1083,7 +1083,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$456</b></td>
      <td>Aux output 0 trigger</td>
-     <td></td>
+     <td><b>Spindle/Laser enable</b><br>(0)</td>
      <td>integer (0)</td>
      <td style="text-align: left;">A second, more common action can be assigned to trigger this output. M62/63 P# is always available as a buffered on/off or M64/65 P# as an immediate on/off.</td>
      <td rowspan="4"><a href="https://resources.sienci.com/view/slb-manual/#switch-amp-aux-power">Docs</a></td>
@@ -1091,28 +1091,28 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$457</b></td>
      <td>Aux output 1 trigger</td>
+     <td><b>Flood enable</b><br>(2)</td>
      <td></td>
-     <td>integer (2)</td>
      <td style="text-align: left;">A second, more common action can be assigned to trigger this output. M62/63 P# is always available as a buffered on/off or M64/65 P# as an immediate on/off.</td>
    </tr>
    <tr>
      <td><b>$458</b></td>
      <td>Aux output 2 trigger</td>
+     <td><b>Spindle/Laser enable</b><br>(0)</td>
      <td></td>
-     <td>integer (0)</td>
      <td style="text-align: left;">A second, more common action can be assigned to trigger this output. M62/63 P# is always available as a buffered on/off or M64/65 P# as an immediate on/off.</td>
    </tr>
    <tr>
      <td><b>$459</b></td>
      <td>Aux output 3 trigger</td>
+     <td><b>Flood enable</b><br>(2)</td>
      <td></td>
-     <td>integer (2)</td>
      <td style="text-align: left;">A second, more common action can be assigned to trigger this output. M62/63 P# is always available as a buffered on/off or M64/65 P# as an immediate on/off.</td>
    </tr>
    <tr>
      <td><b>$462</b></td>
      <td>Run/stop register</td>
-     <td>8192</td>
+     <td><b>8192</b></td>
      <td>decimal</td>
      <td style="text-align: left;">MODVFD register for run/stop.</td>
      <td rowspan="12"><a href="https://resources.sienci.com/view/slb-manual/#spindlers485">Docs</a></td>
@@ -1120,28 +1120,28 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$463</b></td>
      <td>Frequency set register</td>
-     <td>8193</td>
+     <td><b>8193</b></td>
      <td>decimal</td>
      <td style="text-align: left;">MODVFD register to set frequency.</td>
    </tr>
    <tr>
      <td><b>$464</b></td>
      <td>Frequency get register</td>
-     <td>8451</td>
+     <td><b>8451</b></td>
      <td>decimal</td>
      <td style="text-align: left;">MODVFD register to get frequency.</td>
    </tr>
    <tr>
      <td><b>$465</b></td>
      <td>Run CW command</td>
-     <td>18</td>
+     <td><b>18</b></td>
      <td>decimal</td>
      <td style="text-align: left;">MODVFD command word for CW.</td>
    </tr>
    <tr>
      <td><b>$466</b></td>
      <td>Run CCW command</td>
-     <td>34</td>
+     <td><b>34</b></td>
      <td>decimal</td>
      <td style="text-align: left;">MODVFD command word for CCW.</td>
    </tr>
@@ -1162,14 +1162,14 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$469</b></td>
      <td>RPM input divider</td>
-     <td>60</td>
+     <td><b>60</b></td>
      <td></td>
      <td style="text-align: left;">MODVFD RPM value divider for programming RPM.</td>
    </tr>
    <tr>
      <td><b>$470</b></td>
      <td>RPM output multiplier</td>
-     <td>60</td>
+     <td><b>60</b></td>
      <td></td>
      <td style="text-align: left;">MODVFD RPM value multiplier for reading RPM.</td>
    </tr>
@@ -1213,31 +1213,31 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$486</b></td>
      <td>Lock coordinate systems</td>
+     <td>G59.1: <b>OFF</b><br>G59.2: <b>OFF</b><br>G59.3: <b>OFF</b><br>(0)</td>
      <td></td>
-     <td>mask (0)</td>
      <td style="text-align: left;">Lock coordinate systems against accidental changes.</td>
      <td></td>
    </tr>
    <tr>
      <td><b>$511</b></td>
      <td>Spindle 1</td>
+     <td><b>SLB_LASER</b><br>(7)</td>
      <td></td>
-     <td>integer (7)</td>
      <td style="text-align: left;">Spindle to use as spindle 1.<br>~Controller reset required for setting change to take effect~</td>
      <td rowspan="7"><a href="https://resources.sienci.com/view/slb-manual/#spindlers485">Docs</a></td>
    </tr>
    <tr>
      <td><b>$512</b></td>
      <td>Spindle 2</td>
+     <td><b>Disabled</b><br>(8)</td>
      <td></td>
-     <td>integer (8)</td>
      <td style="text-align: left;">Spindle to use as spindle 2.<br>~Controller reset required for setting change to take effect~</td>
    </tr>
    <tr>
      <td><b>$513</b></td>
      <td>Spindle 3</td>
+     <td><b>MODVFD</b><br>(5)</td>
      <td></td>
-     <td>integer (5)</td>
      <td style="text-align: left;">Spindle to use as spindle 3.<br>~Controller reset required for setting change to take effect~</td>
    </tr>
    <tr>
@@ -1375,7 +1375,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-blue-d);">
      <td><b>$663</b></td>
      <td>drvconf_reg</td>
-     <td>41759</td>
+     <td><b>41759</b></td>
      <td></td>
      <td style="text-align: left;">DRVCONF register defaults 0xA31F. All protections enabled.</td>
      <td></td>
@@ -1398,8 +1398,8 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-orange);">
      <td><b>$666</b></td>
      <td>Using add-ons</td>
+     <td>(0)</td>
      <td></td>
-     <td>mask (0)</td>
      <td style="text-align: left;">Sienci specific capability flags.</td>
      <td></td>
    </tr>
