@@ -118,8 +118,6 @@ To fix the Windows driver:
 1. Once powered back up and reconnected, the SLB should reappear looking more normal. With this done, you can try flashing again - or if Windows still didn't install the correct driver then go through the [Windows Driver Update](#windows-driver-update) again.
 ![](/_images/_superlongboard/_firmware/slb_fi_p10_stm32-reset.png){.aligncenter .size-full .nar}
 
-### Ubuntu Driver Update
-
 [su_spoiler title="<h3>Ubuntu Driver Update</h3>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 
 To set up **udev** rules to give your user account access to the SLB on Linux, follow these steps:

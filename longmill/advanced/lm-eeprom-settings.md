@@ -33,222 +33,222 @@ Start by sending the command "$$" to your machine. Your console will give you a 
      <td></td>
    </tr>
    <tr>
-     <td>Title</td>
-     <td>$</td>
-     <td>12x12</td>
-     <td>12x30</td>
-     <td>30x30</td>
+     <td><b>Title</b></td>
+     <td><b>$</b></td>
+     <td><b>12x12</b></td>
+     <td><b>12x30</b></td>
+     <td><b>30x30</b></td>
      <td>48x30</td>
-     <td>Units</td>
+     <td><b>Units</b></td>
    </tr>
    <tr>
      <td>Step pulse time</td>
      <td>$0</td>
-    <td colspan="4">10</td>
+    <td colspan="4"><b>10</b></td>
      <td>microseconds</td>
    </tr>
    <tr>
      <td>Step idle delay</td>
      <td>$1</td>
-    <td colspan="4">100</td>
+    <td colspan="4"><b>100</b></td>
      <td>milliseconds</td>
    </tr>
    <tr>
      <td>Step pulse invert</td>
      <td>$2</td>
-    <td colspan="4">X: ON<br>Y: OFF<br>Z: OFF<br>(1)</td>
+    <td colspan="4">X: <b>ON</b><br>Y: <b>OFF</b><br>Z: <b>OFF</b><br>(1)</td>
      <td></td>
    </tr>
    <tr>
      <td>Step direction invert</td>
      <td>$3</td>
-    <td colspan="4">X: ON<br>Y: OFF<br>Z: ON<br>(5)</td>
+    <td colspan="4">X: <b>ON</b><br>Y: <b>OFF</b><br>Z: <b>ON</b><br>(5)</td>
      <td></td>
    </tr>
    <tr>
      <td>Invert step enable pin</td>
      <td>$4</td>
-    <td colspan="4">Enabled (1)</td>
+    <td colspan="4"><b>Enabled</b> (1)</td>
      <td></td>
    </tr>
    <tr>
      <td>Invert limit pins</td>
      <td>$5</td>
-    <td colspan="4">Disabled (0)</td>
+    <td colspan="4"><b>Disabled</b> (0)</td>
      <td></td>
    </tr>
    <tr>
      <td>Invert probe pin</td>
      <td>$6</td>
-    <td colspan="4">Disabled (0)</td>
+    <td colspan="4"><b>Disabled</b> (0)</td>
      <td></td>
    </tr>
    <tr>
      <td>Status report options</td>
      <td>$10</td>
-    <td colspan="4">MPos<br>Buffer: OFF<br>(1)</td>
+    <td colspan="4"><b>MPos</b><br>Buffer: <b>OFF</b><br>(1)</td>
      <td></td>
    </tr>
    <tr>
      <td>Junction deviation</td>
      <td>$11</td>
-    <td colspan="4">0.010</td>
+    <td colspan="4"><b>0.010</b></td>
      <td>mm</td>
    </tr>
    <tr>
      <td>Arc tolerance</td>
      <td>$12</td>
-    <td colspan="4">0.002</td>
+    <td colspan="4"><b>0.002</b></td>
      <td>mm</td>
    </tr>
    <tr>
      <td>Report in inches</td>
      <td>$13</td>
-    <td colspan="4">Disabled (0)</td>
+    <td colspan="4"><b>Disabled</b> (0)</td>
      <td></td>
    </tr>
    <tr>
      <td>Soft limits enable</td>
      <td>$20</td>
-    <td colspan="4">Disabled (0)</td>
+    <td colspan="4"><b>Disabled</b> (0)</td>
      <td></td>
    </tr>
    <tr>
      <td>Hard limits enable</td>
      <td>$21</td>
-    <td colspan="4">Disabled (0)</td>
+    <td colspan="4"><b>Disabled</b> (0)</td>
      <td></td>
    </tr>
    <tr>
      <td>Homing cycle enable</td>
      <td>$22</td>
-    <td colspan="4">Disabled (0)</td>
+    <td colspan="4"><b>Disabled</b> (0)</td>
      <td></td>
    </tr>
    <tr>
      <td>Homing direction invert</td>
      <td>$23</td>
-    <td colspan="4">X: ON<br>Y: ON<br>Z: OFF<br>(3)</td>
+    <td colspan="4">X: <b>ON</b><br>Y: <b>ON</b><br>Z: <b>OFF</b><br>(3)</td>
      <td></td>
    </tr>
    <tr>
      <td>Homing locate feed rate</td>
      <td>$24</td>
-    <td colspan="4">25</td>
+    <td colspan="4"><b>25</b></td>
      <td>mm/min</td>
    </tr>
    <tr>
      <td>Homing search seek rate</td>
      <td>$25</td>
-    <td colspan="4">1500</td>
+    <td colspan="4"><b>1500</b></td>
      <td>mm/min</td>
    </tr>
    <tr>
      <td>Homing switch debounce delay</td>
      <td>$26</td>
-    <td colspan="4">250</td>
+    <td colspan="4"><b>250</b></td>
      <td>milliseconds</td>
    </tr>
    <tr>
      <td>Homing switch pull-off distance</td>
      <td>$27</td>
-    <td colspan="4">1</td>
+    <td colspan="4"><b>1</b></td>
      <td>mm</td>
    </tr>
    <tr>
      <td>Maximum spindle speed</td>
      <td>$30</td>
-    <td colspan="4">30000</td>
+    <td colspan="4"><b>30000</b></td>
      <td>RPM</td>
    </tr>
    <tr>
      <td>Minimum spindle speed</td>
      <td>$31</td>
-    <td colspan="4">0</td>
+    <td colspan="4"><b>0</b></td>
      <td>RPM</td>
    </tr>
    <tr>
      <td>Laser-mode enable</td>
      <td>$32</td>
-    <td colspan="4">Disabled (0)</td>
+    <td colspan="4"><b>Disabled</b> (0)</td>
      <td></td>
    </tr>
    <tr>
      <td>X-axis travel resolution</td>
      <td>$100</td>
-    <td colspan="4">200</td>
+    <td colspan="4"><b>200</b></td>
      <td>step/mm</td>
    </tr>
    <tr>
      <td>Y-axis travel resolution</td>
      <td>$101</td>
-    <td colspan="4">200</td>
+    <td colspan="4"><b>200</b></td>
      <td>step/mm</td>
    </tr>
    <tr>
      <td>Z-axis travel resolution</td>
      <td>$102</td>
-    <td colspan="4">200</td>
+    <td colspan="4"><b>200</b></td>
      <td>step/mm</td>
    </tr>
    <tr>
      <td>X-axis maximum rate</td>
      <td>$110</td>
-    <td colspan="4">4000</td>
+    <td colspan="4"><b>4000</b></td>
      <td>mm/min</td>
    </tr>
    <tr>
      <td>Y-axis maximum rate</td>
      <td>$111</td>
-    <td colspan="4">4000</td>
+    <td colspan="4"><b>4000</b></td>
      <td>mm/min</td>
    </tr>
    <tr>
      <td>Z-axis maximum rate</td>
      <td>$112</td>
-    <td colspan="4">3000</td>
+    <td colspan="4"><b>3000</b></td>
      <td>mm/min</td>
    </tr>
    <tr>
      <td>X-axis acceleration</td>
      <td>$120</td>
-    <td colspan="4">750</td>
+    <td colspan="4"><b>750</b></td>
      <td>mm/sec^2</td>
    </tr>
    <tr>
      <td>Y-axis acceleration</td>
      <td>$121</td>
-    <td colspan="4">750</td>
+    <td colspan="4"><b>750</b></td>
      <td>mm/sec^2</td>
    </tr>
    <tr>
      <td>Z-axis acceleration</td>
      <td>$122</td>
-    <td colspan="4">500</td>
+    <td colspan="4"><b>500</b></td>
      <td>mm/sec^2</td>
    </tr>
    <tr>
      <td>X-axis maximum travel</td>
      <td>$130</td>
-     <td>285</td>
-     <td>770</td>
-     <td>770</td>
-     <td>1230</td>
+     <td><b>285</b></td>
+     <td><b>770</b></td>
+     <td><b>770</b></td>
+     <td><b>1230</b></td>
      <td>mm</td>
    </tr>
    <tr>
      <td>Y-axis maximum travel</td>
      <td>$131</td>
-     <td>320</td>
-     <td>320</td>
-     <td>820</td>
-     <td>820</td>
+     <td><b>320</b></td>
+     <td><b>320</b></td>
+     <td><b>820</b></td>
+     <td><b>820</b></td>
      <td>mm</td>
    </tr>
    <tr>
      <td>Z-axis maximum travel</td>
      <td>$132</td>
-    <td colspan="4">110</td>
+    <td colspan="4"><b>110</b></td>
      <td>mm</td>
    </tr>
 </tbody>
