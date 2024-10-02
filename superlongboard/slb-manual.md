@@ -713,7 +713,7 @@ If your TLS is wired correctly, you should be able to press it and see the “TL
 
 Lastly, check in your g-code sender if the TLS signal is set up correctly. This signal is shared with the touch plate, so activating either of them should be recognized. The SLBs defaults expect NO to not cause confusion for non-TLS owners. If the signal is on and only turns off when the TLS is pressed, then go to the $668 firmware setting and toggle it to the opposite of what it was set to:
 
-![](/_images/_superlongboard/_manual/slb_ma_p44_TLSInput.png){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p44_tls-input.png){.aligncenter .size-full}
 
 ### Rotary Axis
 
