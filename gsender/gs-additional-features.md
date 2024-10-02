@@ -492,7 +492,7 @@ Usually you would only have one origin or zero position for your project, theref
 
 ![](/_images/_gsender/_features/gs_fe_workspace.jpg){.aligncenter .size-medium}
 
-The video below explains the process in greater detail.
+The video below explains the process in greater detail. If you're coming from a more technical background, you'd usually call these 'workspaces' G54, G55, G56, ... G59.
 
 https://youtu.be/jmiaWA5tiVw?t=336
 
