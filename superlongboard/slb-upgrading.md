@@ -202,6 +202,13 @@ If you find that your axes are not moving in the correct direction, you can go i
 
 <p style="text-align: center;"><em>Above, the Z-axis was flipped since the SLB was being set up on an MK1 LongMill</em></p>
 
+If you've done 'movement tuning' of your CNCs steps/mm ($100-102), you can transfer these over to the SLB. When you do this remember that:
+
+- The LongBoard used **1/8th** microstepping (or find what you were using if switching from another board)
+- The SLB uses **1/32nd** microstepping by default (x4 more precise)
+- This means you'll want to take your old values and multiply them by 4 when you add them to the SLB. For example the old value might be 201.5, so the new one should be 806 steps/mm
+- Once added, you can double-check that the movement distances look correct
+
 While you’re here, if you used to use $1=255 to hold your motors (typically used for heavier spindles or CNCs mounted vertically), you can now instead scroll down to setting 37 “Steppers de-energize” where you can now choose to hold individual motors.
 
 ### Touch Plate Test
