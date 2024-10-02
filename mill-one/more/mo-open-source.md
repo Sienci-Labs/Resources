@@ -62,7 +62,7 @@ Here are some other contributions for modifying or upgrading your Mill One:
 
 If you'd like to control your machine at the hardware level, you can wire in NO (normally open) buttons to the Mill Ones CNC shield to Play, Pause, and E-stop without needing to find the button in software.
 
-![](../../_images/_mill-one/_more/mo_add-buttons.jpg)
+![](/_images/_mill-one/_more/mo_add-buttons.jpg){.aligncenter .size-medium}
 
 ## Version Enhancements
 
