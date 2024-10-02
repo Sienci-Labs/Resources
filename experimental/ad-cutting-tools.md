@@ -16,6 +16,10 @@ featured_image:
 
 Improves on https://resources.sienci.com/view/lmk2-cutting-tools/
 
+- What are they
+- Used for cutting materials
+- There are lots of different sizes, materials, coatings, and shapes
+- What are the types
 - Full explanation of projects and the bits you'd normally use to make them
 - Tool range for the CNC and how they’re generally used
 - When it makes sense to buy more expensive bits and when it doesn't
