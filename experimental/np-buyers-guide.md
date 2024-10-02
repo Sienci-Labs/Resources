@@ -35,5 +35,6 @@ Try to make as neutral a writeup as possible on how to choose what CNC is best f
 - Great video, part near the end that talks about tool price and what a higher price gets you https://youtu.be/pktydCxlqz4
 - Mention 3-in-1 machines and why they just don't make sense nowadays with cheap 3D printers and cheap laser cutters
   - Link some forum posts and whatnot, like: https://reddit.com/r/hobbycnc/s/g3yojwhAXE
+- Buying options
 
 ---

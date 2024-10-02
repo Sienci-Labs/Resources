@@ -17,7 +17,7 @@ featured_image:
 Improves on https://resources.sienci.com/view/lmk2-materials/
 
 - Types of materials you typically cut
-- Add: where you can normally source those materials
+- Where you can normally source those materials
 - Great tips for finding places to buy wood, middle of video https://youtu.be/pktydCxlqz4?si=Iem1aD8KLB90I2eJ
 
 ---

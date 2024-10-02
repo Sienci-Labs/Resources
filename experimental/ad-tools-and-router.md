@@ -22,6 +22,7 @@ Improves on https://resources.sienci.com/view/lmk2-router-and-tools/
 - Typical bit geometry terms
 - Need to insert all writing that Kelly did outlining how to use the Makita (maintenance)
 - https://www.reddit.com/r/hobbycnc/comments/1ffiojs/is_a_larger_bit_better_for_cutting_profiles/
+- Overlaps with "Cutting TOols" page, so ensure this one covers more quick-reference material for handbook understanding while the other covers mostly introductory/buying
 
 **Kelly's Writing**
 Basically the section would be along the lines of: "Here's how the Makita router works" and would consist of general points such as:
