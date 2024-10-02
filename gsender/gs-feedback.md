@@ -45,9 +45,9 @@ Send us the information, questions, or suggestions either on:
 - <b><a href="https://github.com/Sienci-Labs/gSender" target="_blank" rel="noopener">Github page</a></b> (feel free to also submit PRs)
 - You can join the discussion on secondary communities like our <a href="https://www.facebook.com/groups/gSender" target="_blank" rel="noopener">Facebook gSender Group</a>, and <a href="https://www.facebook.com/groups/mill.one" target="_blank" rel="noopener">Facebook CNC Group</a>, but we can't provide as much support or hear feedback in these groups.
 
-## Common Problems &amp; Fixes
+## Common Problems & Fixes
 
-We'll continue keeping our ears out for common stumbling points while using gSender and ensure we address them here for quick reference.
+We'll continue keeping our ears out for common stumbling points while using gSender and ensure we address them here for quick reference. If these tips don't help you, remember you can contact our support if you have a CNC from Sienci Labs or contact your own manufacturer's support for instructions on fixing your machine.
 
 ### Issues downloading or opening gSender
 
@@ -62,6 +62,7 @@ We'll continue keeping our ears out for common stumbling points while using gSen
 
 If you find that gSender goes blank after you open it or while using it, there are a couple things you can try.
 
+1. Try to close and reopen gSender. If it makes a black screen again, then close and open gSender again ➜ Go to the settings ➜ Export your current settings if you care about them and want to later reload them ➜ then "Restore Default settings". After doing this it's more likely you won't have an issue again.
 1. If you’re using gSender Edge, you’ll see a toolbar at the top of the app where you can click: View ➜ Toggle Developer Tools ➜ then look at the ‘Console’ where if you find any errors you can share these with us. Also if you click: View ➜ Reload, you’ll be able to refresh gSender to not show the blank screen anymore.
 1. Otherwise if you’re using the main version of gSender, you can try updating to the <a href="https://sienci.com/gSender/">latest version</a>.
 1. Check your antivirus software or Windows Defender and add gSender as an exception.
@@ -74,14 +75,16 @@ If you find that gSender goes blank after you open it or while using it, there a
 
 ### Connects but status says Disconnected
 
-If your machine connects on a COM port successfully but the machine status still says "Disconnected" then this is not an issue with gSender. Connecting in the top-left only indicates a USB connection has been made successfully, meanwhile the machine status box indicates whether gSender has been able to recognize the CNC machine. Your control board may have a faulty connection: gSender looks for the standard grbl response and boards that are loose or have become corrupted won't emit this response, if this is the case you can contact our support if you have a CNC from Sienci Labs or contact your own manufacturer's support for instructions on fixing your machine.
+If your machine connects on a COM port successfully but the machine status says "Disconnected" then this is not an issue with gSender. A 'Disconnected' status means that gSender isn't able to recognize your CNC even though it can see it.
 
 ![](/_images/_gsender/_issues/gs_is_cm_connect-disconnect.jpg){.aligncenter .size-medium}
 
-1. Power off your machine, then use a non-conductive tool like a plastic utensil to push down on all 4 corners of your control board shield or Arduino. For the LongBoard you don’t need to open it, just flip it upside down and you’ll be able to access the Arduino through the slats on the bottom. Doing this will ensure that everything is fully plugged in since sometimes if the Arduino is slightly off the control board it can mess with its communication.
+1. Check that you have the right settings for your board, for instance click Settings ➜ Baud rate where most boards use 115200. Also your machine might not be supported yet by gSender if it isn't using grbl or grblHAL or your manufacturer edited the core firmware too much.
+1. Your board may have a faulty connection. Try unplugging it then plugging back in, use a different USB cable, a different USB port on your computer, or plug the cable directly in if you were using a USB hub.
+1. Your board might have other loose connections. Power off your machine, then use a non-conductive tool like a plastic utensil to push down on all 4 corners of your control board shield or Arduino. For the LongBoard you don’t need to open it, just flip it upside down and you’ll be able to access the Arduino through the slats on the bottom. Doing this will ensure that everything is fully plugged in since sometimes if the Arduino is slightly off the control board it can mess with its communication.
 ![](/_images/_gsender/_issues/gs_is_cm_push-uno.jpg){.aligncenter .size-medium}
-1. Re-flash your machine by following the instructions here: <a href="https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Connected-but-No-Controls.pdf">gSender - Connected but No Controls</a>
-1. Your machine isn't supported yet by gSender: if your CNC isn't grbl-based or your manufacturer had edited grbl too much or is using a different flavour from the standard version it's likely that gSender won't be able to recognize or control your machine
+1. Your board might have corrupted firmware. Re-flash your board if it's a [LongBoard](https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Connected-but-No-Controls.pdf), [SLB](https://resources.sienci.com/view/slb-firmware-flashing/), or by following your manufacturers instructions.
+1. At the least when you plug the board to your computer over USB you should hear a 'connection' sound from your computer. You should also see a new device appear under the Devices and Printers on your computer. If none of these are happening, then that means your computer isn't recognizing the board so you might want to look at drivers or getting further technical support.
 
 ### My CNC Profile is not listed
 
@@ -89,7 +92,7 @@ Much of the information that gSender needs about your CNC actually comes from it
 
 If some aspects of your machine don't seem right, it'll either be because your machine's manufacturer didn't flash your CNC with the appropriate EEPROM settings out of the box or they have some type of documentation which explains the values you need to change manually.
 
-### Port not detected for 3018 CNC
+### Port not Found (3018 CNC)
 
 The 3018 and similar variations have been tested to work with gSender. Sainsmart points out in their documentation that sometimes an additional driver is needed for your computer to recognize the CNC via the USB port. They make this driver <a href="http://s3.amazonaws.com/s3.image.smart/download/101-60-280PRO/CH341SER.ZIP" target="_blank" rel="noopener">available for download here</a>.
 
@@ -97,9 +100,13 @@ In case this link stops working, the <a href="https://docs.sainsmart.com/article
 
 For most of their machines they recommend using a 115200 baud rate, so double-check you're using that value as well.
 
-### Port not detected for my CNC
+### Port not Found
 
-As long as you're using an Arduino-based board with grbl loaded onto it and you've selected the correct Baud rate in the settings then connection should be possible. Double-check that you're not connected to your machine in another sending program at the same time as you're trying to connect with gSender. As well, sometimes pendants or other forms of non-computer controllers can impede on a g-code sender's ability to connect to the machine.
+As long as your board is running normal grbl or grblHAL and you've selected the correct Baud rate in the settings then connection should be possible. Double-check that you're not connected to your machine elsewhere like with:
+
+- Other senders like Easel, CNCjs, UGS, Lightburn (some programs might auto-connect so you might have to close them entirely)
+- Pendants or offline controllers since typically a sender and controller can't be used at the same time
+- Other programs like Arduino IDE or STMCubeProgrammer
 
 We're still working on making gSender work best across all devices and one aspect of this is port detection for a variety of CNCs. If your CNC still isn't showing up on the port detector, we'd really like to hear from you.
 

@@ -296,7 +296,7 @@ You can close an alarm by clicking on the button that appears next to it in the 
 <td>33</td>
 <td>Invalid gcode ID:33</td>
 <td>Motion command target is invalid.</td>
-<td></td>
+<td><a href="#error-33">Example</a></td>
 </tr>
 <tr>
 <td>34</td>
@@ -347,3 +347,7 @@ When any of these errors appear in gSender, it can typically be traced back to 3
    - Don’t use a USB Stick, make sure the files on are the hard-drive of your computer.
    - Try running the same job in the air with your router/spindle and dust collector turned off to see if the same errors appear as when you run the job. If they go away then try running the job with full cutting again in some scrap material just to confirm the errors come back. Once confirmed, you’ll want to look to see if your equipment isn’t properly grounded, could have improved electrical shielding, or try using another computer. An example of this is to put your controller and computer on a separate power circuit than the router/spindle and dust collector.
 1. **Some gSender versions can have bugs**: this is the least likely cause, but a couple gSender versions have been known to make errors appear that aren’t actually happening. If you’ve already tried everything else, you should first double-check that you’re connected to the “grbl” firmware if you’re using a grbl board like the LongBoard, or to “grblHAL” for boards like the SLB. After checking that, try installing and <a href="https://resources.sienci.com/view/gs-installation/#older-versions">using a different gSender version</a>.
+
+### Error 33
+
+Can pop up as "Motion command target is invalid" and usually comes from issues with G2 or G3 arc/curve movements in the g-code. If the target is invalid you might want to verify the file again in gSender or regenerated it in CAM with the right post processor. If this isn't the cause, then refer to the steps shown for [Errors 1, 2, 20, 24, 26, 28](#error-1-2-20-24-26-28) shown above.
