@@ -58,6 +58,12 @@ Here are some other contributions for modifying or upgrading your Mill One:
 <a href="https://www.thingiverse.com/thing:2929267">➜ Sienci Mill – Angle Mount – 4 holes</a> by M1kka
 <a href="https://www.thingiverse.com/thing:2933997">➜ 52mm Spindle Bracket for Sienci Mill One</a> by Matty812004
 
+## Adding Buttons
+
+If you'd like to control your machine at the hardware level, you can wire in NO (normally open) buttons to the Mill Ones CNC shield to Play, Pause, and E-stop without needing to find the button in software.
+
+![](../../_images/_mill-one/_more/mo_add-buttons.jpg)
+
 ## Version Enhancements
 
 Moving along versions through Mill One V1, V2, then V3 notably came with increases in rigidity and cutting area while keeping all else relatively equal (e.g. core components like motors, lead screws, etc.). The most prominent tweaks were:
