@@ -1,6 +1,6 @@
 ---
 title: Preparing to be a CNC Owner
-menu_order: 4
+menu_order: 0
 post_status: draft
 post_excerpt: 
 post_date: 2024-09-10 3:55
@@ -17,6 +17,9 @@ featured_image:
 Can go in “The Basics” section
 Set the expectations of someone starting on the CNC journey to set a reasonable bar of cost, learning curve, failure, machine maintenance, etc.
 **Stephen is working on this**
+
+- What accessories to buy and where to buy them
+- The bits required to make different projects and where to source them
 
 ---
 
