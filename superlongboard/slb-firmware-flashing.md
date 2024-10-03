@@ -1135,7 +1135,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
      <td><b>$456</b></td>
      <td>Aux output 0 trigger</td>
      <td><b>Spindle/Laser enable</b><br>(0)</td>
-     <td>integer (0)</td>
+     <td></td>
      <td style="text-align: left;">A second, more common action can be assigned to trigger this output. M62/63 P# is always available as a buffered on/off or M64/65 P# as an immediate on/off.</td>
      <td rowspan="4"><a href="https://resources.sienci.com/view/slb-manual/#switch-amp-aux-power">Docs</a></td>
    </tr>

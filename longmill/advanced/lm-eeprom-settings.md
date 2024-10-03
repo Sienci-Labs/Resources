@@ -19,7 +19,7 @@ featured_image: /_images/_longmill/_advanced/_8_GRBL/lm_grbl_p2_FirmTool.png
 
 You can make changes to your machine's settings by changing the values in your EEPROM. These are settings that will persist even after you power off your machine and control things like the maximum speed, the acceleration, steps per mm, and more.
 
-Start by sending the command "$$" to your machine. Your console will give you a list of values.
+Start by sending the command "$$" to your machine. The console will give you a list of values.
 
 ## Default Settings
 

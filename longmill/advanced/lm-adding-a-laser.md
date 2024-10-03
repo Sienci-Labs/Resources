@@ -17,9 +17,24 @@ featured_image: /_images/_longmill/_advanced/_7_Laser/lm_laser_p1_PSupply.jpg
 
 Putting a laser on your LongMill or any CNC machine can be a fun and useful tool in expanding your creativity. The LongMill fully supports the addition of a laser module.
 
-Please note that lasers are very dangerous. Sienci Labs is not responsible for injury or damage caused by the use or installation of lasers.
+**Why a laser?** Because lasers focus down to a very small point, you can cut and engrave extremely small details that even small v-bits might have difficulty replicating. There are also some materials that lasers do well with that cutting can't achieve.
 
-## Safety Recommendations
+Pros:
+
+- Ability to cut extremely fine details
+- No need for workholding
+- No cutting tools to wear out
+- Burnt engravings and edges provide a contrast against the base material
+
+Cons:
+
+- Creates smoke and is a fire hazard
+- Lasers can be very dangerous
+- Lasers leave a burned edge where it is engraving or cutting, which can be undesirable at times
+
+## Laser Safety
+
+Please note that lasers are very dangerous. Sienci Labs is not responsible for injury or damage caused by the use or installation of lasers.
 
 <ul>
   <li>Always wear eye protection, specifically laser safety glasses with the correct Optical density (OD) to match your laser's wavelength range (nm)</li>
@@ -29,21 +44,6 @@ Please note that lasers are very dangerous. Sienci Labs is not responsible for i
   <li>Never leave the machine and laser unattended, and make sure that you always have the equipment on hand to deal with fires</li>
 </ul>
 
-In this application, a laser is used to burn or ablate materials in the CNC machine to cut and engrave them. It works very similarly how many of us would have used a magnifying glass to burn things outside by focusing the sun into a very small point. Because lasers focus down to a very very small point, you can cut and engrave extremely small details. Here are some pros and cons of using a laser with your LongMill:
-
-<b>Pros:</b>
-<ul>
-  <li>Ability to cut extremely fine details</li>
-  <li>No need for workholding</li>
-  <li>No tools or end mills to wear out</li>
-  <li>Burnt engravings and edges provide a contrast against the base material</li>
-</ul>
-<b>Cons:</b>
-<ul>
-  <li>Creates smoke and is a fire hazard</li>
-  <li>Lasers can be very dangerous</li>
-  <li>Lasers leave a burned edge where it is engraving or cutting, which can be undesirable at times</li>
-</ul>
 https://youtu.be/fvlab9rpTRQ
 
 ## Choosing a Laser
@@ -52,38 +52,33 @@ While there are a couple different types of lasers used in cutting and engraving
 
 When purchasing a laser, you want to look for:
 
-<ul>
-  <li>PWM (pulse width modulation) control</li>
-  <li>Power supply, driver, and laser module</li>
-</ul>
+1. **Laser driver** which is usually a separate circuit that handles laser switching
+1. **PWM** (pulse width modulation) **control** so the CNC can set its power (check the product description)
+1. **Power supply** to power it
 
 You will also want to choose a power rating that works for you:
 
-<ul>
-  <li>High-power, high quality laser diodes can be expensive or hard to find</li>
-  <li>Single diode lasers can produce up to 7-10 watts of continuous optical power</li>
-  <li>The listed power may refer to continuous power or peak power (not the same thing)</li>
-  <li>Sometimes manufacturers falsify the actual laser power rating or overclock a diode with a lower rating which can lead to quick component degradation. This is why low quality high-power laser diodes typically do not last as long</li>
-</ul>
+- **Single diode** lasers can produce up to 7-10 watts of continuous optical power and can be very good for engraving or light cutting.
+- **Higher-power**, high quality laser diodes can go past 40 watts but can be expensive or hard to find and benefit on more purpose-build systems or for cutting thicker material.
+- The **listed power** may refer to continuous/average power or peak/pulse power (not the same thing), so double-check your not buying a weaker one than you think.
+- Sometimes manufacturers falsify the laser power rating or overclock a diode with a lower rating which can lead to quick component degradation. This is why low quality high-power laser diodes typically do not last as long.
 
 ## Wiring up the Laser
 
-Installing a laser onto your LongMill is fairly easy. There are just three major connections to make.
+Installing a laser onto your LongMill is fairly easy. There are just three connections to make. If any of your wires are too short, you can lengthen them with butt splices or solder them with heatshrink for a more secure connection.
 
-<b>1) Connect the laser to the driver</b>
+<b>1) Connect the laser to the driver</b><br>
+Typically there will be two pairs of wires, one to power the laser diode and another to power the cooling fan. You can extend these wires to route them through your CNCs drag chains.
 
-Typically there will be two pairs of wires, one to power the laser diode and another to power the cooling fan. You can extend these wires to route them through your CNC's drag chains.
-
-<b>2) Connect the driver to the LongBoard controller</b>
-
+<b>2) Connect the driver to the controller</b><br>
 The laser driver will have a + and - input for PWM (sometimes it's marked as TTL) that can be wired into the LongBoard controller on the Spindle PWM port (marked as SpinPWM). Use a flat head screwdriver to attach the wires to the terminal connector on the LongBoard and ensure you get the polarity correct otherwise the laser won’t work.
 
-<b>3) Connect the driver to its power supply</b>
-
+<b>3) Connect the driver to its power supply</b><br>
 Use the power supply that came with the laser driver, plugging the power connector into the indicated socket on the driver.
 
-<b>Additional step</b>
+![](/_images/_longmill/_advanced/_7_Laser/lm_laser_p0_wiring.jpg){aligncenter .size-medium}
 
+<b>Additional step</b><br>
 As reported by members of our community, some laser drivers (like the common Banggood SW-LD75 V1.1, bought as a package #: LA03-5000) require an extra step since their internal circuitry is a bit wonky. This involves picking up a **1kΩ resistor** and wiring it up from the **PWM** pin on the driver board to **any GND** connection on the LongBoard. In the case of the picture below, you can see that the free pin on the 3-pin power connector (circled in yellow) is being used rather than splitting off the PWM+ wire on the 2-pin signal connector (circled in green). That wire then has the resistor soldered on and follows to the GND connection for Coolant in this case.
 
 ![](/_images/_longmill/_advanced/_7_Laser/lm_laser_p1_PSupply.jpg){aligncenter .size-medium}
@@ -92,22 +87,18 @@ As reported by members of our community, some laser drivers (like the common Ban
 
 All g-code senders will have a way to access your LongMill's settings - whether via a **Firmware** settings window or a **Console**. If you run your LongMill with a spindle, want to note down the current spindle settings because you'll either need to use them when making your laser g-code, or if you change the values as outlined below then you'll need to change them back later. You can do this in the Console by typing "$$" and hitting the *Enter* or *Send* key. Write down the values for $31 and $32 from the list that appears.
 
-You can find all the info about grbl and how “laser mode” works on this page: <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/redirect?v=fvlab9rpTRQ&amp;redir_token=4aMeWUw7bkU75KvVkDDk4ScJqXp8MTU3NzU2ODU1NEAxNTc3NDgyMTU0&amp;event=video_description&amp;q=https%3A%2F%2Fgithub.com%2Fgnea%2Fgrbl%2Fwiki%2FGrbl-v1.1-Laser-Mode" target="_blank" rel="nofollow noopener noreferrer">https://github.com/gnea/grbl/wiki/Grb...</a> The key takeaways are that you'll need to alter three machine settings to prepare your CNC for using a laser:
+You can find all the info about grbl and how “laser mode” works on this page: <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.youtube.com/redirect?v=fvlab9rpTRQ&amp;redir_token=4aMeWUw7bkU75KvVkDDk4ScJqXp8MTU3NzU2ODU1NEAxNTc3NDgyMTU0&amp;event=video_description&amp;q=https%3A%2F%2Fgithub.com%2Fgnea%2Fgrbl%2Fwiki%2FGrbl-v1.1-Laser-Mode" target="_blank" rel="nofollow noopener noreferrer">https://github.com/gnea/grbl/wiki/Grb...</a>. The key takeaways are that you'll need to alter three machine settings to prepare your CNC for using a laser:
 
-<ol>
-  <li>Set the maximum spindle speed ($30) to a value of 100, or send the command "$30=100”. Lightburn documentation recommends using 255 or 1000</li>
-  <li>Set the minimum spindle speed ($31) to a value of 0, or send the command "$31=0”</li>
-  <li>Enable laser mode ($32) by setting it to a value of 1, or send the command “$32=1”</li>
-</ol>
+1. Set the maximum spindle speed ($30) to a value of 255, or send the command `$30=255`. Lightburn documentation recommends using 255 or 1000
+1. Set the minimum spindle speed ($31) to a value of 0, or send the command `$31=0`
+1. Enable laser mode ($32) by setting it to a value of 1, or send the command `$32=1`
 
 The machine firmware will now know that it's running a laser via the SpinPWM connector.
 
 If you ever finish up using the laser, or want to toggle back to using a spindle on your LongMill, you will need to revert these settings. You can do this by sending the commands through the console window like before, or by creating a macro that saves these values for you.
 
-<ol>
-  <li>To disable laser mode, send the command “$32=0”. Using the Spindle/laser toggle in gSender does this automatically</li>
-  <li>If you changed your spindle values, revert back to your original values for $31 and $30</li>
-</ol>
+1. To disable laser mode, send the command `$32=0`. Using the Spindle/laser toggle in gSender does this automatically
+1. If you changed your spindle values, revert back to your original values for $31 and $30
 
 Remember that you can always check your settings anytime by typing $$ in the console window. The key with setting the Maximum Spindle Speed is to just match it between your settings and your laser design/CAM software.
 
@@ -132,6 +123,10 @@ Bringing all these commands together you get the full command "G1 F1 M3 S10" whi
 *Keep in mind that these commands are for a Maximum Spindle Speed of 100, if it's 255 for example then you'll want to use "G1 F1 M3 S25" for 10% laser power.
 
 If none of this testing is going as expected, go back and check your wiring first in case you missed anything or if you have a multi-meter on hand try using it in resistance or continuity mode to confirm that all your connections are secure. Be mindful when poking around with a multi-meter, testing output current or voltage while the laser diode is connected can sometimes damage the diode depending on your laser driver design.
+
+## Mounting
+
+Most CNCs have a router mount by default and most diodes have holes to mount them. Most times, it's easy to draw up a simple plate with all the holes to attach between the laser and the router mount and then hand cut it or use your CNC to cut some wood or acrylic.
 
 ## Laser CAM Software
 
