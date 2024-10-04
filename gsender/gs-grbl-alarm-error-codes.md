@@ -350,4 +350,8 @@ When any of these errors appear in gSender, it can typically be traced back to 3
 
 ### Error 33
 
-Can pop up as "Motion command target is invalid" and usually comes from issues with G2 or G3 arc/curve movements in the g-code. If the target is invalid you might want to verify the file again in gSender or regenerated it in CAM with the right post processor. If this isn't the cause, then refer to the steps shown for [Errors 1, 2, 20, 24, 26, 28](#error-1-2-20-24-26-28) shown above.
+Can pop up as "Motion command target is invalid" and usually comes from issues with G2 or G3 arc/curve movements in the g-code. If the target is invalid you might want to verify the file again in gSender or regenerate it in CAM with the right post processor.
+
+For example, there have been [many](https://forum.sienci.com/t/invalid-g-code-id-33-in-gsender/10904) [reports](https://community.carbide3d.com/t/grbl-error-invalid-gcode-id-33/1204) that if you use the `inch` post processor in Vectric, Carveco, or Fusion 360 then they won't add enough decimal places to satisfy arc curve calculations - which will cause an Error 33. The best solution is to just use a `mm` post processor to get more accurate movements, or for Carveco use `UGS grbl`.
+
+If this isn't the cause, then refer to the steps shown for [Errors 1, 2, 20, 24, 26, 28](#error-1-2-20-24-26-28) shown above.
