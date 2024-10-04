@@ -18,34 +18,18 @@ Can go in “Handbook” section
 Very beneficial to those who are less familiar with sanding, selecting stains or clear-coats, painting, and other aspects of finishing off your average CNC project
 **Stephen is working on this**
 
-- Epoxy clarity test https://www.youtube.com/watch?v=aEoMvZe8KQ8
+NOTES 
+- Index can be removed as WP creates it based on header. I used it to navigate in this doc.
+- AI pics are used for each header and can be removed. Playing around to see if it could be of use. Fairly generic, so thought I'd include them for funz.
+- I can add pics of cans of stain and finish and more paint if you think that would be helpful
+- Hard to tell how the pics will turn out, as they don't format in the preview on git
 
 ---
+## Finishing CNC Projects
 
-A General guide on Finishing CNC projects. Sanding, Painting, Staining, Sealing...
+Once your CNC woodworking project is complete, it's crucial to apply the right finishing touches to enhance both its durability and appearance. Proper finishing not only improves aesthetics but also helps protect the wood by sealing it from moisture, preventing it from absorbing water or releasing it.
 
-Questions
-
-1. What is a stain vs a finish
-1. How to apply varnish
-1. How to apply poly
-1. Can you mix oil stains and polyurethane
-1. What are gel stains and poly
-1. What are water based finishes
-1. What is water based stain
-1. What is a tack cloth and do I need one?
-1. What is Patina? Natural vs man made
-1. How do I mask a sign when painting?
-Spraypaint added?
-
-https://forum.sienci.com/t/how-should-i-finish-this/13995/2
-
-Add Troubleshooting sections
-Add link to community to share real life example if possible
-
-# Finishing CNC Projects
-
-Once your project is complete, it’s important to finish it properly to enhance durability & improve aesthetics. We want to prevent moisture from coming out of the wood & moisture getting into the wood at this stage. This section covers the main stages: **sanding**, **painting**, **staining**, and **sealing**.
+Continue reading to explore the key steps of finishing: **sanding**, **painting**, **staining**, and **sealing**, ensuring your project is long-lasting and visually appealing.
 
 ---
 
@@ -55,29 +39,27 @@ Once your project is complete, it’s important to finish it properly to enhance
    - [Choosing the Right Grit](#choosing-the-right-grit)
    - [Grit Guide](#grit-guide)
    - [Step By Step](#step-by-step-process)
-   - [Tips & Videos](#tips--video-links)
+   - [Tips & Videos](#sanding-tips--videos)
    - [Raising the Grain](#raising-the-grain)
    - [Breaking the Edges](#break-the-edges)
-1. [Painting](#3-painting)
+1. [Painting](#2-painting)
    - [Tools](#tools)
    - [Types of Paint & Primer](#types-of-paint--primer)
    - [Step By Step](#step-by-step-painting-process)
-   - [Tips & Videos](#tips--videos)
-1. [Staining](#staining)
+   - [Tips & Videos](#painting-tips--videos)
+1. [Staining](#3-staining)
    - [Stain Types](#stain-types)
    - [Step By Step](#step-by-step-staining-process)
-   - [Tips & Videos](#tips--videos-1)
-1. [Sealing](#sealing)
+   - [Tips & Videos](#staining-tips--videos)
+1. [Sealing](#4-sealing)
    - [Types of Sealant](#sealer-types)
    - [Step By Step](#step-by-step-sealing-process)
-   - [Tips & Videos](#tips--videos-2)
+   - [Tips & Videos](#sealing-tips--videos)
    - [Finish Comparison Chart](#finish-comparison-chart)
 
 ---
 
 ## 1. Sanding
-
-### TL;DR
 
 Sanding is essential for smoothing rough surfaces left by the CNC process, removing imperfections, and preparing wood for finishing. Use different **hand tools** (sandpaper, sanding block, sanding sponge) or **power tools** (orbital sander, detail sander, belt sander) depending on the task. Choose the correct grit to begin and follow the grit progression (rough, medium, fine) for the best results.
 
@@ -86,6 +68,8 @@ Sanding is essential for smoothing rough surfaces left by the CNC process, remov
 For best results, always sand in the direction of the grain, use protective gear, and consider the project requirements when choosing your tools and techniques.
 
 > ***Tip:** Always protect yourself when sanding with protective glasses and a dusk mask.*
+
+![](/_images/_experimental-writing/aisand.jpg){.aligncenter .size-medium}
 
 ### Hand Sanding Tools
 
@@ -188,17 +172,16 @@ By choosing the right tool for each stage, you can achieve a high-quality finish
 1. **Fine Sanding (220-320 Grit):**  
    This grit is for a silky-smooth finish, ideal before applying paint, stain, or sealant. Do be aware that the higher the grit you use at this stage, will reduce the ability of stains and finished to penetrate the wood. If you are using 1000 grit for example, you are no longer cutting the wood, but packing sawdust into the wood pours, burnishing it. The surface will become shiny and very smooth, but not allow stain or seal to penetrate fully.
 
-### Tips & Video Links
+### Sanding Tips & Videos
 
-> **Safety Tips**: Wear protective gear (safety glasses, dust mask). Use a dust collection system or sand in a well-ventilated area.<br>
+> - **Safety Tips**: Wear protective gear (safety glasses, dust mask). Use a dust collection system or sand in a well-ventilated area.<br>
+> - **Tip**: For curved or intricate designs, consider using sanding sponges, soft pads, or hand sanding to access tight spaces. Depending on your project, getting into the crevices of your design can be difficult. Small scrapers are handy to remove fuzzy bits. What if you carved a 3d relief? Sanding mops in different grits work great here. They can get into the details without removing too much material and ruining the design.
 
-> **Tip**: For curved or intricate designs, consider using sanding sponges, soft pads, or hand sanding to access tight spaces. Depending on your project, getting into the crevices of your design can be difficult. Small scrapers are handy to remove fuzzy bits. What if you carved a 3d relief? Sanding mops in different grits work great here. They can get into the details without removing too much material and ruining the design.
-
-Here is a great video that explains moving up the grits in under 2 minutes. [Move up the Grits!!](https://www.youtube.com/watch?v=KiE4Pk_gu50)
-
-Top 5 tips for Orbital sanding from the pros in under a min! https://www.youtube.com/shorts/FXmkWtLTgJw
-
-Filling in a crack or gap with sawdust and wood glue to match in 3 min https://www.youtube.com/watch?v=UE-elux6fQw
+| **Video Title**                                  | **Description**                                                     | **Duration**    | **Link**                                                               |
+|--------------------------------------------------|---------------------------------------------------------------------|-----------------|----------------------------------------------------------------------|
+| Move up the Grits!!                              | Explains how to move up the grits when sanding.                      | Under 2 minutes | [Watch Video](https://www.youtube.com/watch?v=KiE4Pk_gu50)            |
+| Top 5 Tips for Orbital Sanding                   | Pro tips for orbital sanding.                                        | Under 1 minute  | [Watch Video](https://www.youtube.com/shorts/FXmkWtLTgJw)             |
+| Filling a Crack or Gap with Sawdust and Glue     | Shows how to fill cracks or gaps with sawdust and glue to match.     | 3 minutes       | [Watch Video](https://www.youtube.com/watch?v=UE-elux6fQw)            |
 
 ---
 
@@ -240,8 +223,10 @@ By raising the grain and sanding it smooth before finishing, you’ll end up wit
 
 > **Tip**: Always raise the grain before applying water-based products to ensure a professional-looking finish.
 
-Here is a video on raising the grain that is under 2 min. [Raise the grain!](https://www.youtube.com/watch?v=CynRU6QIy28)<br>
-For a more detailed explanation, check out this longer video. [Raise the Grain! Wait, what?](https://www.youtube.com/watch?v=jM7rGoqemCQ)
+| **Video Title**                                | **Description**                                                          | **Duration**  | **Link**                                                                 |
+|------------------------------------------------|--------------------------------------------------------------------------|---------------|--------------------------------------------------------------------------|
+| Raise the Grain                                | A quick video on raising the grain of wood.                               | Under 2 minutes | [Watch Video](https://www.youtube.com/watch?v=CynRU6QIy28)               |
+| Raise the Grain! Wait, what?                   | A more detailed explanation of the process of raising the grain of wood.  | Longer video  | [Watch Video](https://www.youtube.com/watch?v=jM7rGoqemCQ)               |
 
 ### Break the edges
 
@@ -270,13 +255,13 @@ To do this, simply use a medium or fine grit sanding block, to make a couple of 
 
 > ***Tip** A metal file is surprisingly good for breaking edges when you go to sand your wood*
 
-Here is a great short video explaining why and how to break your edges in under 1 minute. [Break the Edge](https://www.google.com/search?q=woodworking+sanding+break+the+edge&rlz=1C1CHBF_enCA943CA943&oq=woodworking+sanding+break+the+edge&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRifBTIHCAMQIRifBdIBCDY0MDBqMGo3qAIIsAIB&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:7ed923a5,vid:_BfKo2Yn-5A,st:38)
+| **Video Title**           | **Description**                                                       | **Duration**   | **Link**                                                                 |
+|---------------------------|-----------------------------------------------------------------------|----------------|--------------------------------------------------------------------------|
+| Break the Edge             | A short video explaining why and how to break your edges during sanding. | Under 1 minute | [Watch Video](https://www.google.com/search?q=woodworking+sanding+break+the+edge&rlz=1C1CHBF_enCA943CA943&oq=woodworking+sanding+break+the+) |
 
 ---
 
-## 3. Painting
-
-### TL;DR
+## 2. Painting
 
 Painting wood serves multiple purposes, including protection & surface sealing, helping to prevent chips, cracks, warping, mold and moisture. It also adds endless design possibilities and customization.
 
@@ -284,6 +269,8 @@ Painting wood enhances both its durability and visual appeal, making it a versat
 
 > ***Tip** The most important thing to a successful paint job is surface preparation. <br>
 Check out the section above on sanding to ensure you are ready to paint!*
+
+![](/_images/_experimental-writing/aipaint.jpg){.aligncenter .size-medium}
 
 ### Tools
 
@@ -413,29 +400,39 @@ A tack cloth is a sticky, lint-free cloth used to remove dust, dirt, and debris 
    - Remove Painter’s Tape: Carefully peel off the tape to reveal clean edges
    - Cure the Paint: Allow the final coat to cure fully (up to 24 hours) before using or moving the piece
 
-### Tips & Videos
+### Painting Tips & Videos
 
 > ***Tips** Always paint in a well-ventilated area
 Use quality brushes and rollers to avoid streaks and brush marks
 Avoid applying thick coats to prevent drips or uneven coverage*
 
-Here is a 20 min video on which spray paint is best on wood furniture! https://www.youtube.com/watch?app=desktop&v=uM_boGIOTIM
-
-4 min video of using a flat roller to paint a Vcarved sign! https://www.youtube.com/watch?v=0kI5crkiXi4
+| **Video Title**                                | **Description**                                                                             | **Duration**  | **Link**                                                                 |
+|------------------------------------------------|---------------------------------------------------------------------------------------------|---------------|--------------------------------------------------------------------------|
+| Which Spray Paint is Best on Wood Furniture?   | This video explores different types of spray paints and their effectiveness on wood furniture. | 20 minutes    | [Watch Video](https://www.youtube.com/watch?app=desktop&v=uM_boGIOTIM)   |
+| Using a Flat Roller to Paint a V-Carved Sign   | A quick tutorial on how to use a flat roller for painting a V-carved sign.                    | 4 minutes     | [Watch Video](https://www.youtube.com/watch?v=0kI5crkiXi4)               |
 
 ---
 
-## 4. Staining
+## 3. Staining
 
-Staining enhances the natural beauty of wood by bringing out its grain and adding rich color. There are different types of stains:
+Staining wood offers a natural and elegant way to enhance the grain and color of the wood while still providing protection and durability. Wood stain penetrates the surface, allowing the texture and beauty of the wood to remain visible, unlike paint, which covers it. Stains come in a variety of shades, offering plenty of design options while preserving the wood's organic appearance.
+
+The process involves applying the stain evenly, letting it soak into the wood, and wiping off the excess. Multiple coats can be applied for a richer finish, and **pre-stain conditioner** is recommended for softwoods to ensure even absorption.
+
+> ***Tip:** Proper surface preparation, such as sanding, is crucial for an even and smooth stain application.*
+
+![](/_images/_experimental-writing/aistain.jpg){.aligncenter .size-medium}
 
 ### Stain Types
 
 | **Type of Stain**     | **Description**                               | **Best Used On**              |
 |-----------------------|-----------------------------------------------|-------------------------------|
-| Oil-Based Stain       | Deep penetration, rich color.                 | Hardwood projects.            |
-| Water-Based Stain     | Easy cleanup, less odor, quick drying.        | Softwood and general projects. |
-| Gel Stain             | Sits on top, great for vertical applications. | Complex, detailed surfaces.    |
+| Oil-Based Stain       | Deep penetration, rich color               | Hardwood projects            |
+| Water-Based Stain     | Easy cleanup, less odor, quick drying        | Softwood and general projects |
+| Gel Stain             | Sits on top, great for vertical applications | Complex, detailed surfaces    |
+| Varnish Stain             | Combines stain and varnish for protective finish | Furniture & picture frames|
+
+![](/_images/_experimental-writing/staintypes.jpg "In this image you can see an oil based stain on the left, water in the middle and gel on the right"){.aligncenter .size-medium}
 
 ### Step-by-Step Staining Process
 
@@ -451,15 +448,21 @@ Staining enhances the natural beauty of wood by bringing out its grain and addin
 1. **Apply Additional Coats (Optional)**:  
    If you want a deeper color, you can apply multiple coats, allowing full drying between each.
 
-### Tips & Videos
+### Staining Tips & Videos
 
 Exposing the grain with paint or stain in 1 min video with this cool tool. https://www.youtube.com/shorts/Z_xj91QG2zY
 
 ---
 
-## 5. Sealing
+## 4. Sealing
 
-Sealing your CNC project protects it from moisture, scratches, and wear. It also assists in preventing paint from bleeding into your projects that may use a V bit to carve a sign.
+Applying a wood finish is essential for enhancing both the appearance and longevity of your project. A wood finish helps protect the surface from wear, moisture, and environmental damage, while also adding a subtle sheen that highlights the wood’s natural beauty. Unlike stains or paints, finishes are typically clear or semi-transparent, preserving the wood’s original color and grain.
+
+The application process involves evenly applying the finish, allowing it to dry, and lightly sanding between coats for a smooth, professional look. You may also want to choose between different finishes like **oil-based**, **water-based**, or **lacquer**, depending on the desired effect and durability.
+
+> ***Tip:** A good sealant assists in preventing paint from bleeding into your projects that may use a V bit to carve a sign. You may want to use a sealant during parts of your carve to keep lines & text sharp.*
+
+![](/_images/_experimental-writing/aifinish.jpg){.aligncenter .size-medium}
 
 ### Sealer Types
 
@@ -470,28 +473,13 @@ Sealing your CNC project protects it from moisture, scratches, and wear. It also
 | Shellac               | High Gloss              | Easy to apply, traditional wood finish.      |
 | Wax                   | Soft, Matte Finish      | Low durability, but smooth, natural look.    |
 
-### Finish Comparison Chart
-
-This chart helps you compare different finishing options for your project:
-
-| **Finish Type**       | **Durability** | **Ease of Application** | **Drying Time**      | **Appearance**               |
-|-----------------------|----------------|-------------------------|----------------------|------------------------------|
-| **Polyurethane**       | High           | Moderate                 | 6-24 hours            | Glossy, durable               |
-| **Acrylic Paint**      | Moderate       | Easy                     | 1-2 hours per coat    | Colorful, matte/satin/glossy  |
-| **Oil-Based Stain**    | High           | Moderate                 | 4-6 hours             | Enhances wood grain           |
-| **Water-Based Stain**  | Moderate       | Easy                     | 1-2 hours             | Lighter color, easy cleanup   |
-| **Lacquer**            | High           | Moderate                 | 30 minutes - 1 hour   | Glossy, professional finish   |
-| **Beeswax Finish**     | Low            | Easy                     | Immediate             | Soft, natural matte           |
-
----
-
 ### Step-by-Step Sealing Process
 
-1. **Clean the Surface**:
- Remove any dust and debris from the CNC process using a soft brush or vacuum.
-Inspect for Imperfections: Check for any rough edges, burn marks, or tool marks. Sand these areas smooth. 
+1. **Clean the Surface**:<br>
+   Remove any dust and debris:  from the CNC process using a soft brush or vacuum.
+   Inspect for Imperfections: Check for any rough edges, burn marks, or tool marks. Sand these areas smooth.
 
-**Apply Sealer with a Brush or Rag**:  
+1. **Apply Sealer with a Brush or Rag**:  
    Start with a thin layer. Apply evenly, following the wood grain
 
 1. **Allow to Dry Fully**:  
@@ -503,271 +491,32 @@ Inspect for Imperfections: Check for any rough edges, burn marks, or tool marks.
 1. **Apply 2-3 Coats for Maximum Protection**:  
    More coats provide better durability and water resistance, especially for surfaces exposed to moisture
 
-### Indoor vs Outdoor Finishing
+### Sealing Tips & Videos
 
-https://sawsonskates.com/spar-urethane-vs-polyurethane/
+> - Always work in a **well-ventilated area** to ensure proper drying and avoid inhaling harmful fumes.<br>
+> - Test finishes on **scrap wood** before applying them to your main project.<br>
+> - Follow the **manufacturer’s instructions** for all products to ensure the best results.
 
-### Tips & Videos
+| **Video Title**                                  | **Description**                                                                                              | **Duration**  | **Link**                                                                           |
+|--------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------|-----------------------------------------------------------------------------------|
+| Unlock the Secret to Bleed-Free Projects!        | Learn techniques for bleed-free woodworking projects.                                                         | 11 minutes    | [Watch Video](https://www.youtube.com/watch?v=pCFW9ZdOu4k)  |
+| Beer Sign with Oramask: Super Crisp Lines        | Create a beer sign with crisp, clean lines using Easel and Xcarve with Oramask.                                | 32 minutes    | [Watch Video](https://www.youtube.com/watch?v=-ozmKRhxYOk)                        |
+| Start-to-Finish Sign Using Oramask               | A quick guide on making a sign using Oramask, from start to finish.                                            | 5 minutes     | [Watch Video](https://youtu.be/3_eTo8G4-vk?si=BdGsTRKzCKLGsDcj)                  |
+| Using Spray Paint and Masking for Signs          | Tutorial on using spray paint and masking techniques for making signs.                                         | 5 minutes     | [Watch Video](https://www.youtube.com/watch?v=ybz4rd2sG-Y)                        |
+| Sanding Techniques for Finishing Signs           | Learn why a sanding block may be better than a random orbital sander when finishing signs, with Mark Lindsey.   | 14 minutes    | [Watch Video](https://www.youtube.com/watch?v=bZPEaOhzx0s)                        |
 
-Unlock the secret to bleed free projects! 11 min https://www.youtube.com/watch?v=pCFW9ZdOu4k
+### Finish Comparison Chart
 
-- Always work in a **well-ventilated area** to ensure proper drying and avoid inhaling harmful fumes.
-- Test finishes on **scrap wood** before applying them to your main project.
-- Follow the **manufacturer’s instructions** for all products to ensure the best results.
+This chart helps you compare different finishing options for your project by comparing durability, drying time, appearance and if it's suitable for the outdoors.
 
-Beer sign with Oramask in 32 min with super crisp lines https://www.youtube.com/watch?v=-ozmKRhxYOk Using Easel and the Xcarve
+| **Finish Type**        | **Durability** | **Indoor/Outdoor** | **Drying Time**           | **Appearance**                 |
+|------------------------|----------------|--------------------|---------------------------|--------------------------------|
+| **Polyurethane**           | High           | Indoor             | 6-24 hours                | Glossy, durable                |
+| **Acrylic Paint**           | Moderate       | Indoor             | 1-2 hours per coat        | Colorful, matte/satin/glossy    |
+| **Oil-Based Stain**         | High           | Outdoor            | 4-6 hours                 | Enhances wood grain            |
+| **Water-Based Stain**       | Moderate       | Indoor             | 1-2 hours                 | Lighter color, easy cleanup    |
+| **Lacquer**                 | High           | Indoor             | 30 minutes - 1 hour       | Glossy, professional finish    |
+| **Beeswax Finish**          | Low            | Indoor               | Immediate                 | Soft, natural matte            |
+| **Spar Urethane**       | High           | Outdoor            | 2-4 hours per coat        | Flexible, durable, glossy/satin|
 
-Check out this 5 min video on a start to finish sign Using Oramask
-https://youtu.be/3_eTo8G4-vk?si=BdGsTRKzCKLGsDcj
-
-Using spray paint and masking for signs in 5 min! https://www.youtube.com/watch?v=ybz4rd2sG-Y
-
-Using a sanding block instead of a random orbital sander when finishing a sign in 14 min w Mark Lindsey https://www.youtube.com/watch?v=bZPEaOhzx0s
-
-
-
-
-
-Finishing a wood CNC project for indoor use involves several steps to ensure a polished look and durability. Here’s a guide to help you through the process:
-
-1. Preparation
-
-1. Sanding
-Choose Your Grit: Start with a coarser grit (like 120) and gradually move to finer grits (up to 220 or higher).
-Sand the Edges and Surfaces: Sand all visible surfaces and edges to achieve a smooth finish. Pay special attention to corners and curves.
-1. Sealing (Optional)
-Apply a Wood Conditioner: If you’re using softwoods or uneven-grained woods, consider applying a wood conditioner to promote even stain absorption.
-1. Staining (Optional)
-Choose the Right Stain: Select a stain that complements your wood. Test on a scrap piece to see how the color looks once dried.
-Apply Stain Evenly: Use a brush or cloth to apply the stain. Wipe off excess after a few minutes to achieve your desired shade.
-Allow to Dry: Follow the manufacturer’s instructions for drying times.
-1. Finishing
-Select a Finish: Choose a finish suitable for indoor use, such as polyurethane, lacquer, or oil. Polyurethane is durable and available in different sheens (matte, satin, gloss).
-Apply the Finish: Use a brush, roller, or cloth to apply a thin coat of your chosen finish. Be sure to apply it in the direction of the grain.
-Sand Between Coats: Once the first coat is dry (check drying times), lightly sand the surface with fine-grit sandpaper (320 or higher) to ensure good adhesion for subsequent coats.
-Apply Additional Coats: Repeat the application and sanding process for at least 2-3 coats, depending on the finish and desired durability.
-1. Final Touches
-Inspect the Finish: After the final coat, check for any imperfections and lightly sand if necessary.
-Buff (if applicable): For certain finishes, you might want to buff the surface with a soft cloth to enhance the shine.
-1. Curing
-Let it Cure: Allow the finished piece to cure fully before use. This could take several days to a week, depending on the finish used.
-1. Maintenance
-Regular Cleaning: Use a soft, damp cloth to clean your finished piece. Avoid harsh chemicals that could damage the finish.
-By following these steps, you can achieve a beautiful and durable finish for your wood CNC project!
-
-The primary difference between spar urethane and polyurethane lies in their intended use and specific properties. Here's a breakdown:
-
-1. Intended Use
-Spar Urethane: Originally developed for marine applications, spar urethane is designed to protect wood in outdoor environments. It's commonly used on outdoor furniture, boats, decks, and any wood exposed to harsh elements like moisture, UV rays, and temperature changes.
-Polyurethane: Typically used for indoor wood projects, polyurethane is ideal for furniture, floors, cabinetry, and other indoor wood surfaces that need protection from wear, moisture, and heat.
-1. UV Protection
-Spar Urethane: Contains UV inhibitors that protect wood from sun damage, making it ideal for outdoor use where the wood is exposed to sunlight. This prevents fading, cracking, and degradation from UV rays.
-Polyurethane: Lacks UV protection and is more susceptible to damage and discoloration if exposed to direct sunlight for prolonged periods.
-1. Flexibility
-Spar Urethane: More flexible than polyurethane. This flexibility allows the finish to expand and contract with the wood in response to changes in temperature and humidity, which is critical for outdoor wood exposed to varying weather conditions.
-Polyurethane: Harder and more rigid once cured, which works well for indoor projects where the wood doesn’t experience significant expansion or contraction.
-1. Durability
-Spar Urethane: While spar urethane is more resistant to weather conditions, it is generally softer and less durable to physical wear (scratches, dents) than polyurethane.
-Polyurethane: Provides a harder, more durable surface that resists scratches, abrasions, and wear, making it ideal for high-traffic areas like floors or furniture.
-1. Moisture Resistance
-Spar Urethane: Has a higher resistance to moisture, making it suitable for outdoor projects exposed to rain, snow, or humidity.
-Polyurethane: While polyurethane provides good moisture resistance, it is not typically recommended for long-term exposure to outdoor conditions or standing water.
-1. Application
-Spar Urethane: Usually applied in multiple thin coats, often requiring more careful application because it’s slower drying, especially in humid conditions.
-Polyurethane: Easier to apply indoors, dries faster, and often requires fewer coats than spar urethane. Available in both oil-based and water-based forms.
-1. Appearance
-Spar Urethane: Tends to have a glossier finish due to its flexibility, but it may yellow slightly over time, especially in oil-based versions.
-Polyurethane: Available in various finishes, including matte, satin, semi-gloss, and gloss. Oil-based polyurethane can also yellow with age, but water-based polyurethane remains clear.
-Summary:
-Spar Urethane: Best for outdoor projects needing UV protection, moisture resistance, and flexibility.
-Polyurethane: Best for indoor projects requiring a hard, durable finish that resists scratches and wear.
-If you're finishing an indoor CNC wood project, polyurethane is typically the better choice, unless the piece will be exposed to direct sunlight, in which case you might consider spar urethane for added UV protection.
-
-There are several types of wood stains, each with unique properties and uses. Here’s a breakdown of the most common types:
-
-1. Oil-Based Stains
-Composition: These stains are made from a mix of pigments, oil (usually linseed oil), and a solvent (typically mineral spirits).
-Properties:
-Penetrates deeply into the wood, enhancing the grain.
-Dries slowly, giving you more time to work and adjust the finish.
-Provides a rich, warm look.
-Requires proper ventilation during application due to strong fumes.
-Easy to apply with a brush or rag.
-Best For: Furniture, cabinets, and projects where durability is a priority.
-1. Water-Based Stains
-Composition: These are made with water as the solvent and may contain acrylic or polyurethane resins.
-Properties:
-Dries quickly, allowing for faster project completion.
-Produces fewer fumes, making it safer for indoor use.
-Cleans up easily with water.
-Colors are often more vibrant but may raise the wood grain slightly, requiring light sanding between coats.
-Best For: Environmentally conscious users or when a fast-drying stain is needed for indoor projects.
-1. Gel Stains
-Composition: Gel stains are thicker than traditional liquid stains and have a gel-like consistency.
-Properties:
-Stays on the surface, making it easier to control and ideal for vertical surfaces.
-Penetrates less deeply than oil- or water-based stains, creating an even, consistent color.
-Works well for staining non-porous or blotch-prone woods (e.g., pine, cherry).
-Best For: Vertical surfaces, fiberglass, or when you need a more uniform look on difficult woods.
-1. Lacquer Stains
-Composition: These stains are lacquer-based and offer a fast-drying finish.
-Properties:
-Dries extremely quickly, making them harder to work with for beginners.
-Provides a durable finish with excellent clarity.
-Often used in commercial and high-production environments.
-Best For: Professional projects where speed and durability are important, such as cabinetry.
-1. Varnish Stains
-Composition: A combination of stain and varnish in one, providing both color and protection in a single product.
-Properties:
-Dries to a hard, protective finish.
-Provides both color and protection, eliminating the need for a separate topcoat.
-Tends to be glossy, though matte finishes are also available.
-Best For: Projects where simplicity is key and a one-step process is preferred.
-1. Water-Soluble Dye Stains
-Composition: Made from water-soluble aniline dyes, which dissolve in water and create vibrant colors.
-Properties:
-Penetrates deeply into the wood, offering more vibrant and uniform color than traditional stains.
-Allows for more color control and can be diluted with water to adjust the intensity.
-Less likely to obscure the wood grain compared to pigmented stains.
-Best For: Projects requiring bright, intense colors with a more transparent look.
-1. Non-Grain Raising (NGR) Stains
-Composition: Alcohol or acetone-based stains designed to penetrate deeply without raising the wood grain.
-Properties:
-Dries very quickly and doesn’t raise the grain, eliminating the need for additional sanding.
-Often used by professionals due to their rapid drying time and ability to cover large areas quickly.
-Best For: Fine furniture or cabinetry where grain raising is a concern.
-1. Penetrating Oil Stains
-Composition: Similar to oil-based stains but designed specifically to penetrate deeply into the wood.
-Properties:
-Enhances the natural beauty of the wood without obscuring the grain.
-Provides a more subtle and natural look compared to surface stains.
-Best For: Hardwood floors, high-end furniture, and projects where the natural grain should be emphasized.
-1. Metalized or Polyurethane-Based Stains
-Composition: Contains polyurethane, which provides a built-in protective finish.
-Properties:
-Offers color and protection in a single application.
-Forms a durable, long-lasting finish.
-Best For: High-traffic areas where durability is crucial, like floors.
-1. Pigmented Stains
-Composition: Contain finely ground pigments that sit on the surface of the wood, rather than penetrating deeply.
-Properties:
-Offers more opacity compared to dye stains.
-Can help mask imperfections in lower-quality wood.
-Available in a wide range of colors.
-Best For: Wood with uneven grain or when you want a less transparent, more solid look.
-Summary of Use Cases:
-For rich, warm colors and deep grain penetration: Use oil-based stains.
-For a faster, eco-friendly option: Use water-based stains.
-For an even application on blotch-prone woods: Use gel stains.
-For a durable, fast-drying option: Use lacquer stains.
-For a simplified one-step finish: Use varnish stains.
-For vibrant, intense colors: Use water-soluble dye stains.
-Selecting the right stain depends on your project needs, the type of wood you're working with, and the desired final look.
-
-There are several types of paint you can use to finish wood CNC projects, each with different properties and benefits. Here’s a guide to the most common types of paint suitable for wood:
-
-1. Acrylic Paint
-Properties:
-Water-based and easy to clean up with water.
-Dries quickly, allowing for multiple coats in a short amount of time.
-Available in a wide range of colors and finishes (matte, satin, gloss).
-Provides good coverage and adheres well to wood surfaces.
-Low odor and non-toxic, making it ideal for indoor projects.
-Best For: Small to medium-sized indoor CNC projects, art pieces, or items where fast drying and easy cleanup are important.
-1. Latex Paint
-Properties:
-Another water-based option, commonly used for home improvement projects.
-Easy to apply, dries quickly, and has low levels of fumes.
-Available in a wide range of colors and finishes (flat, satin, semi-gloss, gloss).
-Durable and flexible, but not as hard-wearing as some oil-based alternatives.
-Works best with a primer to improve adhesion.
-Best For: Large indoor projects like furniture, wall decor, or shelving.
-1. Chalk Paint
-Properties:
-Water-based with a matte, chalky finish.
-Requires minimal surface preparation and can adhere to most surfaces without priming.
-Easy to create distressed or vintage looks with sanding or waxing after application.
-Dries quickly but requires sealing with a topcoat (wax or varnish) for durability.
-Best For: Decorative CNC projects, furniture, and pieces with a rustic or shabby-chic style.
-1. Milk Paint
-Properties:
-Made from natural ingredients like milk protein (casein), limestone, and pigment.
-Non-toxic, biodegradable, and has a very low environmental impact.
-Produces a matte, vintage finish, similar to chalk paint.
-Available in powder form, which you mix with water, or pre-mixed options.
-Requires a topcoat for durability, especially for items exposed to moisture or wear.
-Best For: Antique-style projects, eco-friendly crafts, or creating an aged, rustic look.
-1. Oil-Based Paint
-Properties:
-Provides a durable and hard-wearing finish that stands up well to wear and tear.
-Takes longer to dry than water-based paints but offers superior coverage and a smooth finish.
-Provides a high-gloss finish that resists moisture and stains.
-Requires mineral spirits or paint thinner for cleanup and has a strong odor.
-Best For: Projects exposed to high traffic, moisture, or requiring a tough finish (e.g., furniture, cabinetry, or outdoor CNC projects).
-1. Enamel Paint
-Properties:
-A hard, glossy, and durable oil-based or water-based paint.
-Dries to a tough, scratch-resistant finish, often used for high-use or outdoor projects.
-Provides excellent coverage and protection, particularly with oil-based enamel paints.
-Available in gloss, semi-gloss, and satin finishes.
-Best For: High-use items like tabletops, chairs, cabinetry, or outdoor CNC projects.
-1. Spray Paint
-Properties:
-Comes in aerosol cans, making it easy to apply evenly to complex or detailed surfaces.
-Available in oil-based and water-based formulas, with a variety of finishes (matte, satin, gloss, metallic).
-Dries quickly and can reach difficult areas in intricate CNC projects.
-Provides a smooth, uniform finish when applied properly.
-Requires good ventilation and care to avoid overspray.
-Best For: Projects with fine details, intricate designs, or large surface areas where a smooth finish is needed.
-1. Polyurethane-Based Paint
-Properties:
-Contains polyurethane, offering a strong, protective layer on top of the color.
-Dries to a durable, water-resistant, and scratch-resistant finish.
-Available in various finishes (matte, satin, gloss) and suitable for both indoor and outdoor use.
-Requires good ventilation as it can produce strong fumes during application.
-Best For: High-traffic areas, outdoor furniture, or any project needing extra durability.
-1. Epoxy Paint
-Properties:
-Two-part paint that combines resin and hardener, forming a very tough, durable coating.
-Extremely resistant to water, chemicals, and impact.
-Provides a high-gloss finish and excellent protection for surfaces exposed to wear and moisture.
-Requires careful mixing and application but results in a long-lasting, hard finish.
-Best For: CNC projects that will be exposed to high moisture, like countertops or outdoor installations.
-1. Shellac-Based Paint (Primer)
-Properties:
-Often used as a primer or sealer due to its ability to block stains and knots in the wood.
-Provides good adhesion for other paint types and creates a smooth surface.
-Quick-drying but not highly durable without a topcoat.
-Best For: Priming wood before applying other types of paint or sealing wood that may have discoloration or tannin bleed.
-Summary of Use Cases:
-For a fast, vibrant, and easy-to-use option: Acrylic or Latex Paint.
-For a distressed, vintage look: Chalk Paint or Milk Paint.
-For a durable, high-traffic finish: Oil-Based Paint or Enamel Paint.
-For detailed or large surfaces requiring a smooth finish: Spray Paint.
-For extra-durable, water-resistant finishes: Polyurethane Paint or Epoxy Paint.
-Choose a paint type that matches the requirements of your CNC wood project, whether it's a decorative piece, furniture, or something exposed to wear and tear. Proper surface preparation, including sanding and priming, is key to achieving a high-quality, lasting finish.
-
-Spray painting wood can result in a smooth and professional-looking finish, but one of the common challenges is paint bleed, where the paint seeps into unwanted areas or results in an uneven application. Here’s a guide on how to prevent spray paint bleed and achieve clean, crisp results on wood.
-
-1. Prepare the Wood Surface Properly
-Sand the Wood: Ensure the wood surface is smooth by sanding it with fine-grit sandpaper (start with 120 and move to 220). Rough wood can lead to uneven paint absorption and contribute to bleeding.
-Clean the Surface: After sanding, clean the wood thoroughly to remove dust, debris, and oils that might affect paint adhesion. Use a tack cloth or a lint-free cloth dampened with water or mineral spirits.
-1. Use a Primer or Sealer
-Seal the Wood: Applying a primer or wood sealer is key to preventing paint bleed. Wood is porous, and unsealed wood can absorb paint unevenly, causing it to bleed.
-Use a Quality Primer: Choose a primer compatible with your spray paint (either water- or oil-based) and apply an even coat. This will help create a barrier between the wood grain and the paint.
-Sand After Priming: Lightly sand the primed surface with fine sandpaper (320 grit) after it has dried. This will smooth out any raised grain or imperfections.
-1. Mask Off Areas Carefully
-Use Painter’s Tape: To prevent bleed around edges or patterns, use high-quality painter’s tape specifically designed for wood. Ensure the tape is firmly pressed down along the edges to avoid gaps where the paint could seep through.
-Use a Clear Coat Barrier: Before applying spray paint, consider spraying a thin coat of clear sealer or varnish over the taped edges. This helps to seal the tape's edge, preventing the colored paint from bleeding underneath.
-Remove the Tape Properly: After spraying, wait until the paint is tacky but not fully dry, then carefully remove the tape at an angle to prevent lifting paint.
-1. Spray Paint with Care
-Use Thin Coats: Apply multiple thin coats of spray paint rather than one thick coat. Thicker applications are more prone to bleeding as the excess paint can seep into cracks or unsealed wood.
-Maintain Proper Distance: Hold the spray can 8-12 inches away from the surface and move it in smooth, sweeping motions to avoid oversaturating any area.
-Check for Drips: Watch for drips and runs during application, as they can lead to uneven coverage and bleed.
-1. Consider Using a Paint Stencil Adhesive
-If you're using stencils for designs, use stencil adhesive or low-tack adhesive spray to secure the stencil tightly to the wood. This ensures clean lines and prevents the paint from seeping under the edges of the stencil.
-1. Allow Proper Drying Between Coats
-Dry Between Layers: Let each coat of spray paint dry completely before applying the next one. Rushing the process can cause the paint to smear or bleed, particularly in areas that are still wet.
-1. Finish with a Topcoat
-Seal the Paint: After the final coat of spray paint, consider sealing the surface with a clear protective topcoat (such as polyurethane or lacquer). This not only enhances durability but also prevents any future bleed or fading.
-By following these steps, you can effectively prevent spray paint bleed on wood and achieve a clean, professional finish. Proper preparation, careful masking, and applying the paint in thin, even coats are key to controlling the outcome.
+---
