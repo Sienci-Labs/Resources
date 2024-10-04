@@ -18,13 +18,15 @@ Can go in “Handbook” section
 Very beneficial to those who are less familiar with sanding, selecting stains or clear-coats, painting, and other aspects of finishing off your average CNC project
 **Stephen is working on this**
 
-NOTES 
+NOTES
+
 - Index can be removed as WP creates it based on header. I used it to navigate in this doc.
-- AI pics are used for each header and can be removed. Playing around to see if it could be of use. Fairly generic, so thought I'd include them for funz.
+- AI pics are used for each header and can be removed. Playing around to see if it could be of use. Fairly generic, so thought I'd include them for fun.
 - I can add pics of cans of stain and finish and more paint if you think that would be helpful
 - Hard to tell how the pics will turn out, as they don't format in the preview on git
 
 ---
+
 ## Finishing CNC Projects
 
 Once your CNC woodworking project is complete, it's crucial to apply the right finishing touches to enhance both its durability and appearance. Proper finishing not only improves aesthetics but also helps protect the wood by sealing it from moisture, preventing it from absorbing water or releasing it.

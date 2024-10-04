@@ -33,6 +33,14 @@ https://www.reddit.com/r/CNC/comments/k2sz4k/advice_needed_for_pricing_of_cnc_ro
 
 https://forum.vectric.com/viewtopic.php?t=27160
 
+| **Video Title**                                  | **Description**                                                      | **Duration**    | **Link**                                                               |
+|--------------------------------------------------|----------------------------------------------------------------------|-----------------|-----------------------------------------------------------------------|
+| IDC Woodworking CNC Business from Home           | A guide to starting a CNC woodworking business from home, including tips on setup and marketing. | 15 minutes      | [Watch Video](https://www.youtube.com/watch?v=RlDV8TmQ0fM)             |
+| CNC Business Secrets                             | Insights and tips for running a successful CNC woodworking business.  | 12 minutes      | [Watch Video](https://www.youtube.com/watch?v=oWStIjcmMNs)             |
+-
+
+
+
 ### Pricing Your Projects
 
 ### Calculations To Consider
