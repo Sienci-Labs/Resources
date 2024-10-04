@@ -1,6 +1,6 @@
 ---
 title: LaserBeam Post
-menu_order: 1
+menu_order: 0
 post_status: draft
 post_excerpt: Resources and documentation to get you started with your LaserBeam. You will find info about routers, software, assembly, end mills - everything you need to get started.
 post_date: 2024-07-18 18:14:53

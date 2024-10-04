@@ -1,6 +1,6 @@
 ---
 title: Vortex Post
-menu_order: 1
+menu_order: 0
 post_status: draft
 post_excerpt: Resources for the Vortex Rotary Axis by Sienci Labs. Still in progress, but soon find all information on assembly, technology introduction, toolpaths, and more.
 post_date: 2024-07-18 18:14:53
