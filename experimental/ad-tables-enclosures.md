@@ -21,6 +21,9 @@ Improves on https://resources.sienci.com/view/lmk2-table-enclosure/
 - Enclosure warn about tiling restrictions
 - Wiring - I have my LongMill, shop vac, router, and laptop powered by a single hub. When surfacing my spoil board, it shut off entirely (power hub, not circuit breaker). What are my options to prevent this or buff it up?
 
+Tilting cart for 48x30 Longmill
+https://forum.sienci.com/t/tilting-cnc-cart-for-longmill-mk2-48x30/14080
+
 ---
 
 There has been a variety of table designs to pop up within our community as each LongMill owner works to set up their machine to suit their cutting needs. Your table design will largely depend on how you plan on using your machine and your space constraints A big space can mean a big table, meanwhile, a small space might require a folding or retractable table. Knowing where you want your wires to run as well as drawers or shelves for storage, accessories, and your computer can all help make your final layout that much better.
