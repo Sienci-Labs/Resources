@@ -1,6 +1,6 @@
 ---
 title: Cutting Tools 🌀
-menu_order: 4
+menu_order: 0
 post_status: draft
 post_excerpt: 
 post_date: 2024-09-10 10:31
@@ -16,6 +16,10 @@ featured_image:
 
 Improves on https://resources.sienci.com/view/lmk2-cutting-tools/
 
+- What are they
+- Used for cutting materials
+- There are lots of different sizes, materials, coatings, and shapes
+- What are the types
 - Full explanation of projects and the bits you'd normally use to make them
 - Tool range for the CNC and how they’re generally used
 - When it makes sense to buy more expensive bits and when it doesn't
@@ -24,10 +28,10 @@ Improves on https://resources.sienci.com/view/lmk2-cutting-tools/
 - Making a sign, 3D image, cutout shape, font depths (same depth doesn’t work for all)
 - When/Why use ¼ vs ⅛ bit
 - If you're a beginner, use larger bits while you learn because they're less likely to break and saves your mistakes
-- Where you can source those bits
+- Where you can source bits
 - How do you store your bits & keep them organized
 - Types of materials you typically cut
-- Add: where you can normally source those materials
+- Overlaps with "Tools & Router" page, so ensure this one covers more introductory/buying while the other covers mostly quick-reference material for handbook understanding
 
 ---
 

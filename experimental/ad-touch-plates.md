@@ -1,6 +1,6 @@
 ---
 title: Touch Plates ⚡
-menu_order: 4
+menu_order: 0
 post_status: draft
 post_excerpt: 
 post_date: 2024-09-10 10:31
@@ -29,8 +29,7 @@ The <a href="https://sienci.com/product/touch-plate/" target="_blank" rel="noope
 
 https://www.youtube.com/watch?v=H_fYFjtFc3Q
 
-https://www.youtube.com/watch?v=Wad9O_TqJkI"
-
+https://www.youtube.com/watch?v=Wad9O_TqJkI
 
 - How each is used could be explained better
 - Should ideally be rewritten to show wiring as its own section
