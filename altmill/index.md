@@ -14,7 +14,7 @@ skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 
-AltMill page order should be as follows:
+AltMill page order should be as follows:  (last updated as of Oct 1, 2024)
 
 👍 Basics
 

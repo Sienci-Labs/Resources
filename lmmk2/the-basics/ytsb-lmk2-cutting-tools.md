@@ -1,9 +1,9 @@
 ---
 title: ytsb Cutting Tools 🌀
-menu_order: 0
+menu_order: 4
 post_status: draft
 post_excerpt: CNC cutting tools guide for the LongMill. Bits can vary by features like tip shape, size, and flutes, making them suitable for many uses like aluminum milling.
-post_date: 2021-04-19 16:23:00
+post_date: 2022-03-17 19:44:00
 taxonomy:
     knowledgebase_cat: lmk2-the-basics
     knowledgebase_tag:
@@ -12,8 +12,10 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: 
+featured_image: _images/_longmill/_the-basics/lm_cuttingtools_p1_TipTypes.jpg
 ---
+
+https://www.youtube.com/watch?v=VqJVRo_KdJs
 
 CNC routers work by using a rotating cutting tool to cut or carve away materials in order to create the final object. Different cutting tools are used for different types of projects and applications. They can vary in size, shape, material, and design; and are sometimes also referred to as cutting bits or end mills.
 

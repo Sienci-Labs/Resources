@@ -15,7 +15,7 @@ skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 
-LaserBeam page order should be as follows:
+LaserBeam page order should be as follows:  (last updated as of Oct 1, 2024)
 
 📁 Safety
 

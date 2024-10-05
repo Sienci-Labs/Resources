@@ -25,10 +25,10 @@ LongMill page order should be as follows:
 4. Feeds & Speeds
 5. Materials
 6. Workholding
-7. Routers/Spindles
-8. Dust Shoes
+7. Routers / Spindles
+8. Dust Collection
 9. Touch Plates
-10. CNC Table/Enclosure
+10. Table / Enclosure
 11. Common CNC Terms
 
 💻 Software

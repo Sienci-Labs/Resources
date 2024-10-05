@@ -1,6 +1,6 @@
 ---
 title: ytsb Workholding 🕳️
-menu_order: 0
+menu_order: 5
 post_status: draft
 post_excerpt: Workholding is the method you use to keep material secured while cutting on a CNC machine. Methods include T-tracks, threaded inserts, clamps and hot glue.
 post_date: 2021-04-19 16:29:00
@@ -12,16 +12,16 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: 
+featured_image: _images/_longmill/_the-basics/lm_workholding_p1_t-track.jpg
 ---
 
 Another aspect of learning how to use your CNC router involves knowing how to properly secure material down to the bed of the machine. Rigidly securing material to the machine bed is crucial when setting up to cut. Some clamping methods are rigid but are more intrusive, while others keep a low profile but aren't quite as strong. Play around with these methods to see which ones you can use individually or in combination for your ideal setup.
 
 ### T-Tracks
 
-T-tracks allow you to insert a variety of clamps along their length, such as toe clamps, making it a very quick and versatile way to secure items to your bed. You can find aluminum t-track and compatible clamps online and at your local woodworking store.
+T-tracks allow you to insert a variety of clamps along their length, such as toe clamps, making it a very quick and versatile way to secure items to your bed. You can find aluminum t-track and compatible clamps online, <a href="https://sienci.com/product/t-track/">on our store</a>, and at your local woodworking store.
 
-![](/_images/_longmill/_the-basics/lm_workholding_p1_TTracks.PNG){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_workholding_p1_t-track.jpg){.aligncenter .size-medium}
 
 <b>Tips:</b>
 
@@ -30,6 +30,10 @@ T-tracks allow you to insert a variety of clamps along their length, such as toe
 <li>If you have a thick enough waste bed, you can use your machine to cut the grooves for your t-track. Just cut grooves to fit the width of your t-track.</li>
 <li>We designed a custom t-track system that works with hex-headed 1/4"-20 hardware that you can see in our store here: <a href="https://sienci.com/product/t-track/" target="_blank" rel="noopener">https://sienci.com/product/t-track/</a> and has a setup guide here: <a href="https://resources.sienci.com/view/assembling-add-ons/" target="_blank" rel="noopener">Installing the LongMill T-Track set</a></li>
 </ul>
+
+https://www.youtube.com/watch?v=T4QVgtnZMDw
+
+https://www.youtube.com/watch?v=cwDvnuouFlw
 
 ### Screws
 

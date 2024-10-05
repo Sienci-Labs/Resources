@@ -1,9 +1,9 @@
 ---
 title: ytsb Touch Plates ⚡
-menu_order: 0
+menu_order: 8
 post_status: draft
 post_excerpt: LongMill touch plate documentation found here. A touch plate is an easy way to find the origin point on your material, for accurate positioning of the material.
-post_date: 2021-04-19 16:35:00
+post_date: 2022-03-17 19:48:00
 taxonomy:
     knowledgebase_cat: lmk2-the-basics
     knowledgebase_tag:
@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: 
+featured_image: /_images/_longmill/_assembly/_addons/lm_addons_p8_Corner.png
 ---
 
 A touch plate can make it quicker and easier to find your origin point on your material. There are a lot of different types of touch plates, but the vast majority use some sort of metal block that detects when your end mill makes contact with its surface by completing a circuit.

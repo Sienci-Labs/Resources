@@ -1,9 +1,9 @@
 ---
 title: ytsb Materials
-menu_order: 0
+menu_order: 3
 post_status: draft
 post_excerpt: A list of materials that can be cut by the LongMill CNC, with considerations for cutting tools and best practices. Wood, plastic, foam and soft metal suggested.
-post_date: 2021-04-19 16:27:00
+post_date: 2022-03-17 19:45:00
 taxonomy:
     knowledgebase_cat: lmk2-the-basics
     knowledgebase_tag:

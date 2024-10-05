@@ -15,6 +15,8 @@ skip_file: no
 featured_image: _images/_longmill/_the-basics/lm_cuttingtools_p1_TipTypes.jpg
 ---
 
+https://www.youtube.com/watch?v=VqJVRo_KdJs
+
 CNC routers work by using a rotating cutting tool to cut or carve away materials in order to create the final object. Different cutting tools are used for different types of projects and applications. They can vary in size, shape, material, and design; and are sometimes also referred to as cutting bits or end mills.
 
 Most CNC cutting tools can be thought of like drill bits. However, not only can these cutting tools drill downward like drill bits, they can usually cut side-to-side as well; this enables the CNC router to be 3D carving machine rather than just a drilling machine. In order to provide you with an understanding of the variation in features that these cutting tools can have, each of the tabs below address one of the major features which can be accounted for when deciding on which tool you need for your project.

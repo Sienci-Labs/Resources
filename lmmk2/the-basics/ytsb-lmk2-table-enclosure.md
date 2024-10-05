@@ -1,9 +1,9 @@
 ---
 title: ytsb Table / Enclosure
-menu_order: 0
+menu_order: 9
 post_status: draft
 post_excerpt: Inspiration for building your table to hold the LongMill CNC. See designs using T-tracks, enclosures, threaded inserts, lifters, pivoting mechanisms and more!
-post_date: 2021-04-19 16:40:00
+post_date: 2022-03-17 19:49:00
 taxonomy:
     knowledgebase_cat: lmk2-the-basics
     knowledgebase_tag:
@@ -12,16 +12,18 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: 
+featured_image: /_images/_longmill/_the-basics/lm_communitytable_p1_Mike.png
 ---
 
-There has been a variety of table designs to pop up within our community, as each LongMill owner works to set up their machine to suit their cutting needs. On this page we consolidated the most unique designs so that you can gain inspiration for your own table build by seeing what's worked for others before you. Each example will link to the original post where the table was shown off so that you can readily follow up with the original table designers if you'd like to inquire on their design further.
+There has been a variety of table designs to pop up within our community as each LongMill owner works to set up their machine to suit their cutting needs. Your table design will largely depend on how you plan on using your machine and your space constraints A big space can mean a big table, meanwhile, a small space might require a folding or retractable table. Knowing where you want your wires to run as well as drawers or shelves for storage, accessories, and your computer can all help make your final layout that much better.
+
+On this page, we consolidated the most unique designs so that you can gain inspiration for your own table build by seeing what's worked for others before you. Each example will link to the original post where the table was shown off so that you can readily follow up with the original table designers if you'd like to inquire about their design further.
 
 ## Community Table Builds
 
 ### Simple Table Design
 
-When beginning to prepare for the arrival of their machines: Kris, Mike, and many others started out with a simple table design which would be dedicated to holding their LongMill rigidly at a good, working height. There are many approaches to this, the one pictured was done by Mike:
+When beginning to prepare for the arrival of their machines: Kris, Mike, and many others started out with a simple table design that would be dedicated to holding their LongMill rigidly at a good, working height. There are many approaches to this, the one pictured was done by Mike:
 
 ![](/_images/_longmill/_the-basics/lm_communitytable_p1_Mike.png){.aligncenter .size-large}
 
@@ -126,18 +128,13 @@ Original post: <a href="https://forum.sienci.com/t/what-are-your-plans-for-a-tab
 
 ## Machine Enclosure
 
-There are many CNC enclosure designs out there, but Paul and Dave made especially impressive contributions by showing off their designs. Both stuck to using readily accessible materials while ensuring a good view of their machine while in operation, sound dampening, and a great lighting setup. Certainly check out their designs if you have the chance, especially Dave's video where he outlines the entire building process behind his enclosure:
+Adding an enclosure to your CNC is a great way to reduce noise and dust in the shop. Here we are lucky to have Dave, Charles, and Paul show off their designs. They stuck to using readily accessible materials while ensuring a good view of their machine while in operation, sound dampening, and a great lighting setup. Charles has a well laid out guide on our community forum and Dave has made a video where he outlines the entire building process behind his enclosure:
 
-![](/_images/_longmill/_the-basics/lm_communitytable_p11_PaulDaveEnclosure.png){.aligncenter .size-large}
+![](/_images/_longmill/_the-basics/lm_communitytable_p11_PaulDaveCharlesEnclosure.jpg){.aligncenter .size-large}
 
-Original posts:
-
-<ul>
-  <li><a href="https://www.facebook.com/groups/mill.one/permalink/835391973598802/" target="_blank" rel="noopener noreferrer">https://www.facebook.com/groups/mill.one/permalink/835391973598802/</a></li>
-  <li><a href="https://www.facebook.com/groups/mill.one/permalink/802501683554498/" target="_blank" rel="noopener noreferrer">https://www.facebook.com/groups/mill.one/permalink/802501683554498/</a></li>
-</ul>
-
-Dave's video: <a href="https://www.youtube.com/watch?v=SxiLNjUlw3c" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=SxiLNjUlw3c</a>
+Dave’s video - <a href="https://www.youtube.com/watch?v=SxiLNjUlw3c">https://www.youtube.com/watch?v=SxiLNjUlw3c</a><br>
+Charles' guide - <a href="https://forum.sienci.com/t/custom-cover-for-longmill-mk2-30x48/10423">https://forum.sienci.com/t/custom-cover-for-longmill-mk2-30x48/10423</a><br>
+Paul’s post - <a href="https://www.facebook.com/groups/mill.one/permalink/835391973598802/">https://www.facebook.com/groups/mill.one/permalink/835391973598802/</a>
 
 ## Other Modifications
 

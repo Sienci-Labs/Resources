@@ -1,6 +1,6 @@
 ---
 title: ytsb Welcome!
-menu_order: 0
+menu_order: 1
 post_status: draft
 post_excerpt: Resources and documentation for the LongMill Benchtop CNC. You will find info about routers, software, assembly, end mills - everything you need to get started.
 post_date: 2021-04-19 16:19:00
@@ -15,20 +15,74 @@ skip_file: yes
 featured_image: 
 ---
 
-![](/_images/_longmill/_the-basics/lm_welcome_p1.jpg){.aligncenter .size-medium}
+<p style="margin-bottom: -20px;">Hello and welcome to your ⤦</p>
 
-Hello and welcome to the LongMill Resources section of the website. This has been made to act as your comprehensive guide on everything you need to know to start making things with your LongMill.
+## LongMill MK2 Resources
 
-Each page will have buttons at the bottom to navigate step-by-step or you can use the sidebar to quickly travel to a desired page. Some pages also have tabs to switch between the beginner-friendly and advanced content. We have forums on our <a href="https://forum.sienci.com/" target="_blank" rel="noopener noreferrer">Website</a> and on <a href="https://www.facebook.com/groups/mill.one/" target="_blank" rel="noopener noreferrer">Facebook</a> if you want to talk with others or have further questions.
+This is an area that we've spent years writing, photographing, and tweaking to make it the easiest and most all-encompassing area to learn about all things LongMill and hobby CNC.
 
-[su_button url="https://resources.sienci.com/view/lm-cnc-routers/" target="self" style="flat" background="var(--sl-blue)" color="#FFFFFF" size="8" wide="no" center="yes" radius="3" icon="" icon_color="#FFFFFF" text_shadow="none" desc="" download="" onclick="" rel="" title="" id="" class=""]Learn about CNC machines and their software[/su_button]
+Find pages dedicated to:
 
-&nbsp;
+- basic CNC concepts
+- selecting your **software**
+- **assembling** your machine and add-ons
+- making your **first cuts**
+- guidance on **best practices**
+- sources for projects and **project inspiration**
+- Troubleshooting and maintenance
 
-[su_button url="https://resources.sienci.com/view/lm-unboxing1/" target="self" style="flat" background="var(--sl-blue)" color="#FFFFFF" size="8" wide="no" center="yes" radius="3" icon="" icon_color="#FFFFFF" text_shadow="none" desc="" download="" onclick="" rel="" title="" id="" class=""]Start building and read the rest later![/su_button]
+https://www.youtube.com/watch?v=xhuofvUA7vA
 
-&nbsp;
+You'll want to bookmark 🔖 this page for all your future use. Think of it like a paper manual you might normally receive when you buy tools - except online. Though learning to use a CNC router isn't a cakewalk, we're not here to sell you a machine and leave you to the sharks. We want to ensure we're doing everything we can to stock your quiver with the knowledge you need to take you all the way through your hobby CNC journey 🙂
 
-We hope you enjoy your experience with the LongMill CNC and we’re excited to see what amazing creations you make next!
+## Navigation
 
--The Sienci Labs Team
+You may already want to jump to a common page such as:
+
+<table class="community-table" style="height: 50px; width: 95%; margin-left: auto; margin-right: auto; text-align: center; border-collapse: collapse; table-layout: fixed; padding: 5px !important; border: none !important;">
+<tbody>
+<tr>
+<td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/lmk2-software-explained/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]💻 Software[/su_button]</td>
+<td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/lm-unboxing/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]🔧 Assembly[/su_button]</td>
+<td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/lmk2-know-your-cnc/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]📔 Handbook[/su_button]</td>
+</tr>
+</tbody>
+</table>
+
+if you have yet to choose your CNC design software, are looking to begin assembling your machine, or want to quickly jump to your condensed CNC Handbook.
+
+If you're not in a rush, take a moment to understand how to navigate through your online manual. Understanding how to navigate these pages will ensure you can find the information you're looking for in the future:
+
+1. The MK2 Resources is divided into sections like chapters in a book. Open and scroll through these and click on pages you want to read, these will always be available on the left side of the screen. Read 'The Basics' or 'Software' to become informed about CNC, 'Assembly' or 'Add-ons' to assemble your machine, and reference 'Handbook' for all your day-to-day information on using, learning with, and maintaining your machine
+1. Searching particular words will find pages containing those words, speeding up the process of finding the right page
+1. The 'Page Contents' acts as a way to quickly scroll along the page you're on to any section of that page. On smaller screens this will appear at the top rather than the right side
+1. Any page can be saved or 'printed' if you'd like to reference them offline
+
+<img class="size-medium wp-image-3058 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Resources-Navigation-ann-850x396.png" alt="" width="850" height="396" />
+
+Lastly, each page will have buttons at the bottom to move on to the next or previous page. This is handy because it allows you to "flip the page" in the chapter you're reading, allowing you to go step-by-step learning information or navigating assembly.
+
+<img class="size-medium wp-image-3089 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Resources-Navigation-2-850x161.png" alt="" width="850" height="161" />
+
+<h2>Community</h2>
+
+Questions and learning is always further enhanced in groups. Our CNC community is FULL of hobby CNCers at every step along their journey, from the computer-nervous traditional woodworkers to the seasoned veterans. We've prioritized an environment where no question is too 'dumb' and all CNC conversation is welcome.
+
+If you'd like to converse and learn from others, please check out either our Forum or Facebook communities. Remember to encourage and help others as you receive so that we can continue to support positive learning.
+
+<table class="community-table" style="height: 100px; width: 95%; margin-left: auto; margin-right: auto; text-align: center; border-collapse: collapse; table-layout: fixed; max-width: 300px; padding: 5px !important; border: none !important;">
+<tbody>
+<tr>
+<td style="text-align: center; padding: 5px; border: none;"><a href="https://forum.sienci.com/" target="_blank" rel="noopener"><img class="flie alignnone wp-image-1439 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/06/Icon2-scaled-1.jpg" alt="" width="600" height="600" /></a></td>
+<td style="text-align: center; padding: 5px; border: none;"><a href="https://www.facebook.com/groups/mill.one/" target="_blank" rel="noopener"><img class="flie alignnone wp-image-1438 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/06/Icon1-scaled-1.jpg" alt="" width="600" height="600" /></a></td>
+</tr>
+<tr>
+<td style="text-align: center; padding: 5px; border: none;"><strong>Community Forum</strong></td>
+<td style="text-align: center; padding: 5px; border: none;"><strong>Facebook Group</strong></td>
+</tr>
+</tbody>
+</table>
+
+We hope your LongMill becomes a great start to your hobby CNC journey and wish you all the best from our team (or at least the ones we could wrangle into a picture) here at Sienci Labs!
+
+<img class="size-medium wp-image-3106 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Team-shot-850x478.jpg" alt="" width="850" height="478" />
