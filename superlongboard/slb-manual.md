@@ -339,11 +339,11 @@ The lights will automatically change colour based on the CNC’s status by defau
 </table>
 [/su_table]
 
-### Homing &amp; Limit Switches
+### Homing & Limit Switches
 
 Any common limit switch is supported on the SLB: **NC** (normally closed) and **NO** (normally open) mechanical switches, **NPN** Inductive sensors, and more. You can wire one-per-axis, or two-per-axis if you’d prefer to have your CNC set up with hard-stops at the min and max travel. Some switches will already be able to plug straight into the white, 4-pin JST connectors for each axis (<a href="https://sienci.com/product/inductive-sensor-kit-for-the-LongMill-mk2/" target="_blank" rel="noopener">like our inductive sensors</a>) - otherwise we’d recommend wiring to the green terminal connector (circled at the top of the picture).
 
-Dual Y homing will be available in the future, but for now do NOT use the Y2 limit switch plug.
+Dual Y homing will be available in the future, but for now do **NOT** use the Y2 limit switch plug.
 
 ![](/_images/_superlongboard/_manual/slb_ma_p26_LimitBoard.jpg){.aligncenter .size-full}
 
@@ -368,13 +368,13 @@ If you want to wire for a different setup, see below for other wiring variations
 
 ![](/_images/_superlongboard/_manual/slb_ma_p28_NCNO.jpg){.aligncenter .size-full}
 
-If you’d like to use the white JST connectors instead, the wiring pinouts are below for both mechanical switches and inductive sensors. Note that all plug outputs can also be changed to throughput 24V if needed by breaking the 0Ω resistor on R9 and creating a solder bridge across R10 (outlined in red in the middle of the first homing picture).
+If you’d like to use the white JST connectors instead, the wiring pinouts are below for both mechanical switches and inductive sensors. Note that all VCC outputs can also be changed from 5V to 24V if you'd like by breaking the 0Ω resistor on R9 and creating a solder bridge across R10 (outlined in red in the middle of the first homing picture).
 
 ![](/_images/_superlongboard/_manual/slb_ma_p29_WCPins.jpg){.aligncenter .size-full}
 
-<b>Homing &amp; Limits Setup</b>
+### Limits Settings
 
-If you’ve set up your own NC sensors (not from Sienci), the first thing you’ll want to do is invert all the limit pins for $5 like shown below.
+If you’ve set up your own **NC sensors**, the first thing you’ll want to do is invert all the limit pins for $5 like shown below. **Don't do this if you have the inductive sensors from Sienci!**
 
 ![](/_images/_superlongboard/_manual/slb_ma_p30_InvertLP.jpg){.aligncenter .size-full}
 
