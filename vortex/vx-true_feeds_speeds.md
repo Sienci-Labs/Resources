@@ -19,9 +19,9 @@ Let’s explore the relationship between feed rate and machining diameter.
 
 Essentially, since our ‘feed rate’ is given by how fast the cutting bit travels linearly through the material, we’re concerned with the surface speed of the bit against the material while it rotates. This ‘surface speed’ is defined by:
 
-<p style="text-align: center;"><strong>Rotational Speed</strong> X <strong>Distance of the Bit from the Rotating Axis</strong><br>(<em>usually dependent on your stock diameter</em>)</p>
+<p style="text-align: center;"><b>Rotational Speed</b> X <b>Distance of the Bit from the Rotating Axis</b><br>(<em>usually dependent on your stock diameter</em>)</p>
 
-This relationship means that if your stock diameter is <strong>halved</strong>, then your feed rate for the A-axis/rotary axis should be <strong>doubled</strong>.
+This relationship means that if your stock diameter is **halved**, then your feed rate for the A-axis/rotary axis should be **doubled**.
 
 One issue that arises in doing this is that VCarve/Aspire (and many other CAM software programs) do not allow you to adjust feed rate in only one cutting direction. This means that if you’ve sped up your feed rate to be 4000 mm/min to compensate for very small diameter stock, then cutting in the X-axis will also happen at this speed, however it will likely be much too fast. The good news is that if your cutting passes are in the A-axis direction then you’ll only have small stepovers in the X-axis direction for each next pass. These stepovers may be slightly aggressive, but are generally small enough that they won’t matter.
 

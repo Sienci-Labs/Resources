@@ -20,28 +20,28 @@ So you’ve finished your first project and are ready to move onto carving more 
 We'll cover several key concepts in this project, including:
 
 <ul>
-  <li>Fundamental <strong>Limitations</strong> of rotary carving</li>
-  <li>Setting up <strong>Tabs</strong></li>
-  <li><strong>Tool changing</strong> to use a roughing and finishing strategy</li>
-  <li>Advanced <strong>Workholding</strong></li>
-  <li><strong>Stock Turning</strong></li>
+  <li>Fundamental <b>Limitations</b> of rotary carving</li>
+  <li>Setting up <b>Tabs</b></li>
+  <li><b>Tool changing</b> to use a roughing and finishing strategy</li>
+  <li>Advanced <b>Workholding</b></li>
+  <li><b>Stock Turning</b></li>
 </ul>
 
 To complete this project, we will be using:
 
 <ul>
-  <li><strong>A 4” long piece of stock with a diameter of 2.5” which we'll make ourselves</strong></li>
+  <li><b>A 4” long piece of stock with a diameter of 2.5” which we'll make ourselves</b></li>
   <li><a href="https://www.thingiverse.com/thing:5499565/files">3D skull file</a></li>
-  <li><strong>VCarve Software</strong></li>
-  <li><strong>¼” upcut end mill for roughing</strong></li>
-  <li><a href="https://resources.sienci.com/wp-content/uploads/2023/08/3D-Roughing-1.gcode" rel="noopener" download="">Roughing Pass</a> <strong>g-code file</strong></li>
-  <li><strong>¼” tapered ball end mill for finishing</strong></li>
-  <li><a href="https://resources.sienci.com/wp-content/uploads/2023/08/3D-Finish-1.gcode" rel="noopener" download="">Finishing Pass</a> <strong>g-code file</strong></li>
-  <li><strong>gSender</strong></li>
-  <li><strong>LongMill with Vortex attachment</strong></li>
+  <li><b>VCarve Software</b></li>
+  <li><b>¼” upcut end mill for roughing</b></li>
+  <li><a href="https://resources.sienci.com/wp-content/uploads/2023/08/3D-Roughing-1.gcode" rel="noopener" download="">Roughing Pass</a> <b>g-code file</b></li>
+  <li><b>¼” tapered ball end mill for finishing</b></li>
+  <li><a href="https://resources.sienci.com/wp-content/uploads/2023/08/3D-Finish-1.gcode" rel="noopener" download="">Finishing Pass</a> <b>g-code file</b></li>
+  <li><b>gSender</b></li>
+  <li><b>LongMill with Vortex attachment</b></li>
 </ul>
 
-<h2>Model Selection</h2>
+## Model Selection
 
 A big misconception of rotary carving is that only round objects are suitable. It’s completely natural to attribute round things with a process that involves spinning, but rotary carving with the use of a CNC machine is quite unique.
 
@@ -53,11 +53,11 @@ On that note, for our second project, we’ll be carving something quite a bit m
 
 <img class="nar aligncenter wp-image-5766 size-full" src="https://resources.sienci.com/wp-content/uploads/2023/08/Thing-files-for-3d-Scanned-Human-Skull-using-Creaform-Handyscan-by-djrevz-Thingiverse-Google-Chrome-2023-08-11_12-50-32.jpg" alt="" width="549" height="453" />
 
-<h3>Limitations of Wrapped Rotary Carving</h3>
+### Limitations of Wrapped Rotary Carving
 
-We mention that we’ll be able to make any sort of shape using a rotary axis, and this is generally true, however there are some caveats and limitations to this. Two limitations to be aware of are <strong>overhangs</strong>, and trying to <strong>machine below the middle axis</strong>.
+We mention that we’ll be able to make any sort of shape using a rotary axis, and this is generally true, however there are some caveats and limitations to this. Two limitations to be aware of are <b>overhangs</b>, and trying to <b>machine below the middle axis</b>.
 
-<strong>Overhang</strong> isn't necessarily a limitation new to rotary axis carving, it’s something we’re limited by in any regular XYZ carving, but is a bit more apparent once we’ve taken this same carving and wrapped it around an axis for rotary carving.
+<b>Overhang</b> isn't necessarily a limitation new to rotary axis carving, it’s something we’re limited by in any regular XYZ carving, but is a bit more apparent once we’ve taken this same carving and wrapped it around an axis for rotary carving.
 
 If we simply import this 3d model without any repositioning, you can see that we will have a large overhang marked in yellow in the image below. This results in a model that is missing a lot of detail.
 
@@ -69,7 +69,7 @@ We can see a red cylinder passing through the entire model, showing us the curre
 
 The question is of course: where should this red cylinder lie relative to our model? Simply put, this red cylinder should ideally pass through as much of the model as possible, across its entire length. Any section where this red cylinder sticks out from outside the model, there will be an unmachined area below.
 
-If we rotate the model on the Z axis, we can raise the chin, allowing the bit to maximize its coverage. This way we produce a clean front to the model and eliminate our overhang. In the example below, we rotate the model and then resize it to fit our stock. <strong>Overhang eliminated!</strong>
+If we rotate the model on the Z axis, we can raise the chin, allowing the bit to maximize its coverage. This way we produce a clean front to the model and eliminate our overhang. In the example below, we rotate the model and then resize it to fit our stock. <b>Overhang eliminated!</b>
 
 <img class="aligncenter wp-image-5776 size-full" src="https://resources.sienci.com/wp-content/uploads/2023/08/2023-08-23_09-29-59.gif" alt="" width="1280" height="720" />
 
@@ -87,45 +87,45 @@ Sometimes this is more of a fundamental limitation, like being unable to carve o
 
 With all this in mind, we’ll move on to creating our project in VCarve.
 
-<h2>Generating g-code</h2>
+## Generating g-code
 
 Just like in our first project where we made a chess piece, we’ll start out by sizing our project in the job setup tab, as well as of course selecting this as a rotary job type. We’ll then go on to import our model for this carve.
 
-<h3>Optimizing Your Model’s Orientations</h3>
+### Optimizing Your Model’s Orientations
 
 Like we’ve just gone over previously, we’ll want to orient our model in a way that allows us to machine most overhanging features, or at the very least - the overhanging features we care about most.
 
 In our case with the skull, we have a few options for orienting the model - each with their own result. Obviously, there are many more options than shown below, but we’ll go through the 3 most obvious options below:
 
-<p style="text-align: center;"><strong>Option 1</strong> - Skull model oriented sideways (A-axis is the red cylinder going ear to ear)</p>
+<p style="text-align: center;"><b>Option 1</b> - Skull model oriented sideways (A-axis is the red cylinder going ear to ear)</p>
 
 <img class="nar aligncenter wp-image-5770 size-thumbnail" src="https://resources.sienci.com/wp-content/uploads/2023/08/VCarve-Pro-11.506-Sienci-Labs-Andy-Lee-Demo-Licence-New-2023-08-11_15-41-50-250x250.jpg" alt="" width="250" height="250" />
 
-This option allows us to get just about all geometry carved, but won’t be very efficient in terms of fitting this skull into our material. You’ll usually find that finding round stock of a certain <strong>length</strong> is much easier than finding stock of a certain <strong>diameter</strong> - we generally prefer to orient models in a way that will maximize the utilization of the length of stock we have. Since this skull model is quite a bit longer than it is wide, we’ll prefer to orient this model differently.
+This option allows us to get just about all geometry carved, but won’t be very efficient in terms of fitting this skull into our material. You’ll usually find that finding round stock of a certain <b>length</b> is much easier than finding stock of a certain <b>diameter</b> - we generally prefer to orient models in a way that will maximize the utilization of the length of stock we have. Since this skull model is quite a bit longer than it is wide, we’ll prefer to orient this model differently.
 
-<p style="text-align: center;"><strong>Option 2</strong> - Skull model is oriented in it’s longest orientation (A-axis is going from chin to back-top of skull head)</p>
+<p style="text-align: center;"><b>Option 2</b> - Skull model is oriented in it’s longest orientation (A-axis is going from chin to back-top of skull head)</p>
 
 [gallery columns="2" size="large" ids="5783,5782"]
 
-By passing the A-axis through the longest section possible, which is the path from the chin to the top of the head, we’re able to make this model <strong>as large as possible</strong>. This orientation also allows us to machine almost all of the important front-facing features such as the teeth and nose. There will be unmachined areas at the back of the skull behind the jaw, but of course these areas aren’t all that important so we’re okay with this detail missing.
+By passing the A-axis through the longest section possible, which is the path from the chin to the top of the head, we’re able to make this model <b>as large as possible</b>. This orientation also allows us to machine almost all of the important front-facing features such as the teeth and nose. There will be unmachined areas at the back of the skull behind the jaw, but of course these areas aren’t all that important so we’re okay with this detail missing.
 
-<p style="text-align: center;"><strong>Option 3</strong> - Skull model is oriented looking down (A-axis is passing through direct bottom to top of skull, sort of how a spine would be oriented)</p>
+<p style="text-align: center;"><b>Option 3</b> - Skull model is oriented looking down (A-axis is passing through direct bottom to top of skull, sort of how a spine would be oriented)</p>
 
 [gallery columns="2" size="medium" ids="5756,5785"]
 
-This last option is not all that different from option 2, but has the skull oriented in a more ‘upright’ orientation across the A-axis. This doesn't change much in our model fundamentally, but we start to notice some areas have an <strong>overhang</strong>, with more unmachined material at the back of the skull.
+This last option is not all that different from option 2, but has the skull oriented in a more ‘upright’ orientation across the A-axis. This doesn't change much in our model fundamentally, but we start to notice some areas have an <b>overhang</b>, with more unmachined material at the back of the skull.
 
 <em>This orientation may be the best for exposing as much of the detailed face as possible, allowing for great detail, however we are using this example to show a large overhang you may want to avoid. You may opt for this orientation for your project, as the skull is more upright.</em>
 
-Asides from this, we'll utilize a bit less of the length of the material which means we’ll end up with a <strong>slightly smaller scale</strong> finished model.
+Asides from this, we'll utilize a bit less of the length of the material which means we’ll end up with a <b>slightly smaller scale</b> finished model.
 
-Given our three main options for orienting this model, we’ll be going with <strong>option #2</strong> for this project, since it gives us the best results overall, as well as enlarging the scale of this model as much as possible.
+Given our three main options for orienting this model, we’ll be going with <b>option #2</b> for this project, since it gives us the best results overall, as well as enlarging the scale of this model as much as possible.
 
-<h3>Adding Tabs</h3>
+### Adding Tabs
 
 In our first project carving a chess piece, we were able to hold this chess piece from one end, while the model was machined from left to right. This is because the widest part of the chess piece was at its base where we held the model in the chuck.
 
-The skull model is quite a bit different, since both the left and right ends taper into a much smaller point from which we can hold it. This time around, we’ll approach holding our model by using what we’ll call <strong>Tabs</strong>. These are a bit like the tabs you might use while cutting our parts from a sheet of material in regular XYZ cutting, since they serve to hold the model in place as it’s machined to its final form.
+The skull model is quite a bit different, since both the left and right ends taper into a much smaller point from which we can hold it. This time around, we’ll approach holding our model by using what we’ll call <b>Tabs</b>. These are a bit like the tabs you might use while cutting our parts from a sheet of material in regular XYZ cutting, since they serve to hold the model in place as it’s machined to its final form.
 
 You can see the space where we will be putting in our tabs below. These will fill up the remaining space of our stock material which sticks out from our model.
 
@@ -137,7 +137,7 @@ When looking at the 2d view, you will see your model in the middle, with a white
 
 [gallery columns="2" size="medium" ids="5786,5757"]
 
-Navigate to the Clipart tab, and you will see a Library Folder called 3D Tabs. Select this folder and then click and drag your<strong> _Rectangular tab</strong> icon to your 2d view.
+Navigate to the Clipart tab, and you will see a Library Folder called 3D Tabs. Select this folder and then click and drag your <b>_Rectangular tab</b> icon to your 2d view.
 
 <img class="nar aligncenter wp-image-5758 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/VCarve-Pro-11.506-Sienci-Labs-Andy-Lee-Demo-Licence-New-2023-08-11_16-12-55-850x488.png" alt="" width="850" height="488" />
 
@@ -147,7 +147,7 @@ Reposition it to ensure that it touches the edge of the project, and the project
 
 With two tabs in place, you can see our model is now supported on both sides. You can adjust the spacing and size of the tabs to ensure you have a firm hold on the model, while at the same time, reducing the amount of material you will have to remove once the carve is done.
 
-<h3>Full Length Single Tab</h3>
+### Full Length Single Tab
 
 We can also add a single tab that runs along the entire length of your model. This is great if you are using a hollow model or looking to have a bust display.
 
@@ -162,20 +162,20 @@ This is helpful to give a hollow model a ‘bottom’ to prevent the end mill fr
 This is what our final skull tabs look like:
 
 <ol>
-  <li><strong>Full Length</strong> tab that serves as a spine and connects the Workholding and Base tabs.</li>
-  <li><strong>Workholding</strong> tab that protects the faceplate and screws at the top of the model.</li>
-  <li><strong>Base</strong> tab that secures the bottom of the model in the tailstock, and holds the full length tab in place.</li>
+  <li><b>Full Length</b> tab that serves as a spine and connects the Workholding and Base tabs.</li>
+  <li><b>Workholding</b> tab that protects the faceplate and screws at the top of the model.</li>
+  <li><b>Base</b> tab that secures the bottom of the model in the tailstock, and holds the full length tab in place.</li>
 </ol>
 
 <img class="nar aligncenter wp-image-5761 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/2023-08-21_13-01-55-850x447.jpg" alt="" width="850" height="447" />
 
-<h3>Generating Toolpaths</h3>
+### Generating Toolpaths
 
-A larger stock size will typically take longer to carve, so for this project we’ll use a <strong>roughing path</strong> strategy before we run our <strong>finishing toolpath</strong>. This is really no different than regular XYZ 3D carving, where you’ll typically use a roughing pass on larger projects to save some time and reduce the load on your finishing tool.
+A larger stock size will typically take longer to carve, so for this project we’ll use a <b>roughing path</b> strategy before we run our <b>finishing toolpath</b>. This is really no different than regular XYZ 3D carving, where you’ll typically use a roughing pass on larger projects to save some time and reduce the load on your finishing tool.
 
 In our first project where we made a simple chess piece, we were able to get away with carving this without any roughing pass, this is because we were able to have the bit enter the material from the base of the chess piece, and only remove a small amount of material at a time.
 
-This time around, the bit will be milling away lots of material at both the bottom and top of the model so we’ll need to have a <strong>Roughing pass</strong> and then a <strong>Finishing Pass</strong>.
+This time around, the bit will be milling away lots of material at both the bottom and top of the model so we’ll need to have a <b>Roughing pass</b> and then a <b>Finishing Pass</b>.
 
 Select the roughing pass toolpath icon.
 
@@ -191,9 +191,10 @@ Once the roughing pass is complete, run a finishing pass just like we did in <a 
 
 Save and export your g-code for your roughing and finishing toolpaths with the new post processor just like we did in <a href="https://resources.sienci.com/view/vx-first-project/">Your First Project</a>.
 
-<h2>Preflight Checklist</h2>
+## Preflight Checklist
 
 What we’ve done so far:
+
 <ul>
   <li><a href="https://resources.sienci.com/view/vx-first-project/#prepping-material">Measured and Prepped</a> your material (we will do even more prep)</li>
   <li><a href="https://resources.sienci.com/view/vx-first-project/#exporting-g-code">Exported 2 g-code files</a> w Vortex post processors</li>
@@ -211,11 +212,11 @@ Before we take off:
   <li>Explore Tool Changing options</li>
 </ul>
 
-<h3>Workholding</h3>
+### Workholding
 
-In Your First Project, because our stock diameter was 1”we used the <strong>chuck’s jaws</strong> to clamp the wood directly into the chuck. For this project, we will be using the <strong>screw-on workholding face plate</strong>, because we are using tabs. We will also be using the tailstock to add some support to our job.
+In Your First Project, because our stock diameter was 1”we used the <b>chuck’s jaws</b> to clamp the wood directly into the chuck. For this project, we will be using the <b>screw-on workholding face plate</b>, because we are using tabs. We will also be using the tailstock to add some support to our job.
 
-<h4>Faceplate</h4>
+#### Faceplate
 
 The face plate can use four #4 - #6 sized screws that are not included. The center hole is great for centering the faceplate on your stock, but not necessary for running your job.
 
@@ -231,7 +232,7 @@ Once the faceplate is secured, place it into the chuck so that the screws are be
 
 <img class="nar aligncenter wp-image-5856 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/8.p30_Faceplatev2-850x581.jpg" alt="" width="850" height="581" />
 
-<h4>Tailstock</h4>
+#### Tailstock
 
 Once your stock is held firmly in the headstock, you can slide the tailstock towards the center, by keeping the red flange up. Check that the live center is flush against the tailstock, and not extended yet.
 
@@ -245,9 +246,9 @@ Now you can spin the tailstock live center away from you to tighten it down. Onc
 
 Congrats! Your material is in place, let’s turn it into stock we can use for our roughing pass now.
 
-<h3>Rotary Surfacing</h3>
+### Rotary Surfacing
 
-Now it’s time to turn that square stock down to a cylinder and reduce the strain on our end mill for the roughing pass. We will be using a <strong>¼ inch upcut end mill</strong> for turning stock, as it's the most efficient. Fire up gSender and focus on the Rotary tab.
+Now it’s time to turn that square stock down to a cylinder and reduce the strain on our end mill for the roughing pass. We will be using a <b>¼ inch upcut end mill</b> for turning stock, as it's the most efficient. Fire up gSender and focus on the Rotary tab.
 
 <img class="nar aligncenter wp-image-5841 size-full" src="https://resources.sienci.com/wp-content/uploads/2023/08/Rotary-Surfacing.jpg" alt="" width="517" height="309" />
 
@@ -258,18 +259,18 @@ You will need to be in <a href="https://resources.sienci.com/view/vx-first-proje
 Rotary surfacing is similar to the regular XYZ surfacing wizard. Let’s explore this a bit further.
 
 <ol>
-  <li>Your <strong>start height</strong> is the largest diameter on your stock. Usually this means the diagonal distance from opposite corners if you’re starting with square or rectangular stock.<img class="nar aligncenter wp-image-5812 size-full" src="https://resources.sienci.com/wp-content/uploads/2023/08/2023-08-10_10-01-28.jpg" alt="" width="218" height="213" /></li>
-  <li>Your <strong>final height</strong> is determined by the short side of your stock, although it can be even smaller if needed.<img class="nar aligncenter wp-image-5809 size-full" src="https://resources.sienci.com/wp-content/uploads/2023/08/Final-Diameter.jpg" alt="" width="300" height="200" /><img class="nar aligncenter wp-image-5813 size-thumbnail" src="https://resources.sienci.com/wp-content/uploads/2023/08/2023-08-22_12-51-17-250x250.jpg" alt="" width="250" height="250" /></li>
-  <li>With a starting height of 90mm and a finished height of 63.5mm, we are removing 26.5mm of material. <strong>However</strong>, since we have the Z axis set at the center of the material, we will need to divide that 26.5mm in half. We are basically taking 13.25mm off of the top and the bottom.If you want a <strong>single pass</strong>, your stepdown would be 13.25mm. Dividing that by two and setting the stepdown to 6.625mm, means that we will be doing <strong>two</strong> passes. This will produce a piece of round stock with the maximum diameter possible.</li>
+  <li>Your <b>start height</b> is the largest diameter on your stock. Usually this means the diagonal distance from opposite corners if you’re starting with square or rectangular stock.<img class="nar aligncenter wp-image-5812 size-full" src="https://resources.sienci.com/wp-content/uploads/2023/08/2023-08-10_10-01-28.jpg" alt="" width="218" height="213" /></li>
+  <li>Your <b>final height</b> is determined by the short side of your stock, although it can be even smaller if needed.<img class="nar aligncenter wp-image-5809 size-full" src="https://resources.sienci.com/wp-content/uploads/2023/08/Final-Diameter.jpg" alt="" width="300" height="200" /><img class="nar aligncenter wp-image-5813 size-thumbnail" src="https://resources.sienci.com/wp-content/uploads/2023/08/2023-08-22_12-51-17-250x250.jpg" alt="" width="250" height="250" /></li>
+  <li>With a starting height of 90mm and a finished height of 63.5mm, we are removing 26.5mm of material. <b>However</b>, since we have the Z axis set at the center of the material, we will need to divide that 26.5mm in half. We are basically taking 13.25mm off of the top and the bottom.If you want a <b>single pass</b>, your stepdown would be 13.25mm. Dividing that by two and setting the stepdown to 6.625mm, means that we will be doing <b>two</b> passes. This will produce a piece of round stock with the maximum diameter possible.</li>
 </ol>
 
-<p style="text-align: center;"><strong>(Start Height - Finishing Height) / 2 = Total Stepdown for ONE pass</strong></p>
+<p style="text-align: center;"><b>(Start Height - Finishing Height) / 2 = Total Stepdown for ONE pass</b></p>
 
 <img class="aligncenter size-full wp-image-5808" src="https://resources.sienci.com/wp-content/uploads/2023/08/IMG_6104.gif" alt="" width="424" height="238" />
 
-<strong>Congrats!</strong> You have prepped your stock for its roughing pass. Since we are using the same ¼” endmill, you can simply load up your roughing g-code and hit start.
+<b>Congrats!</b> You have prepped your stock for its roughing pass. Since we are using the same ¼” end mill, you can simply load up your roughing g-code and hit start.
 
-<h3>Tool Changing</h3>
+### Tool Changing
 
 Since we’ve got two separate toolpaths, with two separate cutting tools used for roughing and finishing, we’ll have to decide on how we’ll be changing out these tools. This is no different than any regular tool changing you might do with a regular XYZ CNC project, we can either:
 
@@ -285,9 +286,9 @@ Since we’ve got two separate toolpaths, with two separate cutting tools used f
 
 Which of these two options you’d like to use likely depends on your personal preference and experience between the two, but either will work the same.
 
-During the tool change, one thing to be <strong>very mindful</strong> of is to not bump into the Vortex chuck or mounted stock. Similar to how you’d want to make sure the X or Y axis doesn’t move when changing tools, you’ll want to pay special attention to not rotate the A-axis.
+During the tool change, one thing to be <b>very mindful</b> of is to not bump into the Vortex chuck or mounted stock. Similar to how you’d want to make sure the X or Y axis doesn’t move when changing tools, you’ll want to pay special attention to not rotate the A-axis.
 
-One way to do this is to enable <strong>holding current</strong> in your firmware settings. Simply navigate to your Firmware tab and ensure that you have $1 set for 255. This will keep the A-axis stiff and prevent you from bumping it out of alignment. If you’re unsure of this setting and what it does, leave this unchanged as it could cause more issues than good.
+One way to do this is to enable <b>holding current</b> in your firmware settings. Simply navigate to your Firmware tab and ensure that you have $1 set for 255. This will keep the A-axis stiff and prevent you from bumping it out of alignment. If you’re unsure of this setting and what it does, leave this unchanged as it could cause more issues than good.
 
 <img class="nar aligncenter wp-image-5824 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/2023-08-22_14-43-00-850x492.jpg" alt="" width="850" height="492" />
 

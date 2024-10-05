@@ -19,4 +19,4 @@ The Vortex rotary axis was designed to be a reliable, fully enclosed unit which 
 
 The only maintenance item is the wear of the belt-pulley system which drives the chuck. Over time and with lots of use, the belt may slowly stretch and become slightly loose, producing backlash or ‘looseness’ in the chuck. You can check for this by wiggling/turning the chuck by hand with the controller USB cable unplugged, and the machine powered on. Just like the effects of backlash in your linear X, Y, Z axis, having excessive backlash in your A-axis can result in strange artifacting and oscillations in projects done with your Vortex.
 
-<span style="font-weight: 400;">To re-tighten the belt and reduce the effects of this, you can check out our troubleshooting guide </span><a href="https://resources.sienci.com/view/vx-troubleshooting/#pulley-is-slipping"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">.</span>
+To re-tighten the belt and reduce the effects of this, you can check out our troubleshooting guide <a href="https://resources.sienci.com/view/vx-troubleshooting/#pulley-is-slipping">here</a>.

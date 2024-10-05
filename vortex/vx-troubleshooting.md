@@ -19,7 +19,7 @@ This page serves as a reference in the event that something goes wrong with your
 
 For any issues relating to your LongMill, such as general issues while running jobs, connecting to your machine, or the motion of the X, Y, and Z axes, please reference our <a href="https://resources.sienci.com/view/lmk2-issues-and-fixes/">CNC Issues &amp; Fixes</a> page instead.
 
-<h2>Pulley is Slipping</h2>
+## Pulley is Slipping
 
 It’s likely that the belt joining the Vortex motor and chuck pulleys was slightly under-tensioned when assembled, or became loose over time.
 
@@ -31,7 +31,7 @@ Re-assemble the rest of the components in reverse order. Ensure that the pulley 
 
 If you’ve checked that the belt on your headstock is fully tightened and not allowing for any slop in the chuck’s rotation, you may be cutting too aggressively and causing the motor to skip. This is especially more likely when cutting very large diameter stock (such as 2”+) since cutting forces from the bit will create much more torque applied to the router. You’ll likely want to reference our recommended feeds and speeds chart found <a href="https://resources.sienci.com/view/lmk2-feeds-and-speeds/">here</a>, as well as read about how feeds and speeds are affected by the rotary axis work <a href="https://docs.google.com/document/d/1RF5jf80w3Yz1kDkBp57oEkEwA6wZn1wLWwsUkLjg2Vg/edit?pli=1#heading=h.lmy47gotwdcj">here</a>.
 
-<h2>Backlash in the Headstock</h2>
+## Backlash in the Headstock
 
 If it seems like the chuck can be spun by hand freely back and forth, it’s likely that one of the set screws within the motor or headstock shaft pulley have come loose.
 
@@ -39,11 +39,11 @@ To check this, remove the two screws holding the rear cover of the headstock in 
 
 If a pulley seems loose, identify the small set screw which sits closest to the flat portion of its respective shaft, then tighten this so that the screw bottoms out onto the shaft and there is no more play in the pulley. Tighten the second screw as well.
 
-<h2>Chuck & Stock Wobbly</h2>
+## Chuck & Stock Wobbly
 
 A wobbling chuck (and stock being held) indicates that the chuck back plate was not installed fully seated. Remove the three screws at the back of the chuck, then check the tightness of the three screws mounting this plate onto the headstock shaft. If you can see any small gaps between these two components, tighten down these three screws to continue pulling the two into alignment.
 
-<h2>Tailstock is Not Parallel</h2>
+## Tailstock is Not Parallel
 
 If you notice when cutting with the Vortex that certain sections of your carved model have curved lines (when they should be straight), and certain sections seem warped, it’s possible that your moving X-axis is not aligned parallel perfectly to the Vortex’s rotary axis.
 
@@ -62,13 +62,13 @@ This can happen for one of two reasons and can be resolved as follows:
 </li>
 </ul>
 
-<h2>Rotation is Incorrect</h2>
+## Rotation is Incorrect
 
 If your vortex is rotating an unexpected distance when using the SuperLongBoard and gSender 1.4.7, there is a bug that isn't changing the values correctly. Please do the following to have the correct values that will allow you to swap between rotary and normal operation. The software team is working on fixing this bug for future versions of gSender.
 
 1. Make sure you are not in rotary mode.
   <img id="image_01af82da-116f-4438-8ff5-d5fe9979d1c9" class="image_resized" src="https://sienci.zendesk.com/attachments/token/nu0AZSh4kfFB0l6VBSqXec4bY/?name=inline-408367304.png" />
-2. Click console and input or copy/paste the following exactly, <strong>​$103=79.012345679,</strong> ​then click RUN. Write this number down in case the settings have been changed back to default.
+2. Click console and input or copy/paste the following exactly, **​$103=79.012345679**, ​then click RUN. Write this number down in case the settings have been changed back to default.
   <img id="image_3a95637d-5a71-4747-a8a9-1647c7285833" class="image_resized" src="https://sienci.zendesk.com/attachments/token/KkZFLN2Wd2IdK1CoQ9pblBODG/?name=inline1850320849.png" />​
 3. Disconnect from, then reconnect to the controller.
 4. Open the firmware tool and confirm the setting has been updated. It should appear as below.

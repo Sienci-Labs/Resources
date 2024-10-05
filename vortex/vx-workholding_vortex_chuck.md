@@ -17,20 +17,20 @@ featured_image: _images/post-image.jpg
 
 Even with regular XYZ CNC machining, setting up workholding for your material can be one of the more challenging aspects of a project.
 
-<h2>Clamping Jaws</h2>
+## Clamping Jaws
 
 The four-jaw chuck used on the Vortex includes two sets of jaws:
 
 <img class="nar aligncenter wp-image-5876 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/9.p01_DefaultJaws-850x487.jpg" alt="" width="850" height="487" />
 
 <ul>
-  <li>A <strong>Default</strong> set of jaws for material that is 0-0.9” diameter. This ‘internal’ set of jaws has the ability to clamp the internal diameter of hollow objects such as pipes, cups, or any other internal geometry.These are named <strong>Default</strong> because they come installed on your Vortex!</li>
+  <li>A <b>Default</b> set of jaws for material that is 0-0.9” diameter. This ‘internal’ set of jaws has the ability to clamp the internal diameter of hollow objects such as pipes, cups, or any other internal geometry.These are named <b>Default</b> because they come installed on your Vortex!</li>
 </ul>
 
 <img class="nar aligncenter wp-image-5875 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/9.p2_DefaultJaws-850x580.png" alt="" width="850" height="580" />
 
 <ul>
-  <li>An <b>Alternative </b>set of jaws (for stock that is 1-2.5” diameter).</li>
+  <li>An <b>Alternative</b> set of jaws (for stock that is 1-2.5” diameter).</li>
 </ul>
 
 <img class="nar aligncenter wp-image-5874 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/9.p3_Alternal-Jaws-850x580.jpg" alt="" width="850" height="580" />
@@ -65,7 +65,7 @@ Once all jaws have been inserted, you can tighten them all the way down to meet 
 
 <img class="nar aligncenter wp-image-5867 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/9.p9_Alljawsclosed-850x638.jpg" alt="" width="850" height="638" />
 
-<h2>Faceplate</h2>
+## Faceplate
 
 Not every piece of wood will be perfectly square or perfectly round, but that shouldn't stop us from using these pieces in a potential rotary project. With the included workholding faceplate, you’ll be able to screw on a mounting point to the end of your stock material, allowing you to mount almost any type of geometry for carving.
 

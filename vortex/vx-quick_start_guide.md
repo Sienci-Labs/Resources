@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=njbUQo0OzLY
 
 You can use the list below as a checklist to get started on each project you run on the Vortex.
 
-<h2>Switching To the Vortex</h2>
+## Switching To the Vortex
 
 <ul>
   <li>Mount track on wasteboard</li>
@@ -32,20 +32,20 @@ You can use the list below as a checklist to get started on each project you run
   <li>Flip the toggle switch towards yourself &amp; enable rotary mode in gSender</li>
 </ul>
 
-<h3>Homing on the Vortex </h3>
+### Homing on the Vortex
 
 <ul>
   <li>Select <b>Home All</b> in gSender *<em>If you have limit switches installed</em>*</li>
 </ul>
 
-<h2>Workholding</h2>
+## Workholding
 
 <ul>
   <li>Install correct jaw set</li>
   <li>Attach faceplate or use jaws to hold stock</li>
 </ul>
 
-<h2>Using the Tailstock</h2>
+## Using the Tailstock
 
 <ul>
   <li>Slide against end of stock</li>
@@ -54,7 +54,7 @@ You can use the list below as a checklist to get started on each project you run
   <li>Lock the live center with the red knob</li>
 </ul>
 
-<h2>Setting Your Zero</h2>
+## Setting Your Zero
 
 <ul>
   <li>Jog bit to the right to clear faceplate and workholding</li>
@@ -66,7 +66,7 @@ You can use the list below as a checklist to get started on each project you run
   <li>Click <b>Probe Rotary Z-Axis</b></li>
 </ul>
 
-<h2>Rotary Surfacing</h2>
+## Rotary Surfacing
 
 <ul>
   <li>Measure largest dimension</li>

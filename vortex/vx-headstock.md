@@ -22,10 +22,12 @@ To start, we’ll be assembling the headstock. This will take approximately 20 m
 <img class="wid aligncenter wp-image-10522 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p8_Header1CLS-850x201.jpg" alt="" width="850" height="201" />
 
 <img class="aligncenter wp-image-6186 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p9_B2_MotorStandoffs-850x531.jpg" alt="" width="850" height="531" />
-<p style="text-align: center;"><strong>OR</strong></p>
+
+<p style="text-align: center;"><b>OR</b></p>
+
 <img class="aligncenter size-medium wp-image-10521" src="https://resources.sienci.com/wp-content/uploads/2023/08/1.1_Motor-Assembly-with-CLS-Motor-850x531.jpg" alt="" width="850" height="531" />
 
-Align the motor standoff pieces with the four mounting holes on the stepper motor <strong>as shown</strong> (this is a tricky one to get right on your first try!) and secure them onto the motor using the four M5x16mm bolts. The round corners of the standoffs face the center of the motor. Depending on whether you're assembling a 'closed loop motor' kit or 'open loop motor' kit, follow the above instructions as appropriate.
+Align the motor standoff pieces with the four mounting holes on the stepper motor **as shown** (this is a tricky one to get right on your first try!) and secure them onto the motor using the four M5x16mm bolts. The round corners of the standoffs face the center of the motor. Depending on whether you're assembling a 'closed loop motor' kit or 'open loop motor' kit, follow the above instructions as appropriate.
 
 Make sure that the motor square connector is facing towards one of the two standoffs.
 
@@ -45,27 +47,31 @@ Loop the belt around the larger pulley on the headstock and snag it with the sma
 
 Pass four M5-50mm bolts through slots in the headstock body and thread the bolts into the motor standoffs.
 
-<strong>Don’t tighten these yet</strong>, since we’ll need to tension the belt in the next step before fully locking them down.
+**Don’t tighten these yet**, since we’ll need to tension the belt in the next step before fully locking them down.
 
 Double check that the motor cable is facing the right or left side.
-<h2>Tension the Belt</h2>
+
+## Tension the Belt
+
 <img class="aligncenter wp-image-5403 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p15_Belt-Tensioning-850x531.jpg" alt="" width="850" height="531" />
 
-Using your thumb and index finger, <strong>press down on the motor standoffs</strong>. This will apply tension to the belt.
+Using your thumb and index finger, **press down on the motor standoffs**. This will apply tension to the belt.
 
 With the standoffs held down, secure the four M5-50mm bolts that we left loose in the previous step.
 
 Test the belt to make sure it is tensioned properly.
-<h2>Final Check</h2>
+
+## Final Check
+
 [gallery size="full" columns="2" ids="5530,5531"]
 
-&nbsp;
-<p style="text-align: left;"><span style="font-weight: 400;">NOTE: To make this belt tensioning step easier, you can also try clamping the headstock body to your table or asking a friend to help hold it down, while you tighten the bolts.</span></p>
+<p style="text-align: left;">NOTE: To make this belt tensioning step easier, you can also try clamping the headstock body to your table or asking a friend to help hold it down, while you tighten the bolts.</p>
+
 <img class="wid aligncenter wp-image-5406 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.P18_Header-4-850x201.jpg" alt="" width="850" height="201" />
 
 <img class="aligncenter wp-image-5407 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.P19_Chuck-Backplate-850x531.jpg" alt="" width="850" height="531" />
 
-Secure the chuck backplate using the three M5 bolts. <strong>One of the three M5 bolts is longer</strong> and the choice of hole does not matter.
+Secure the chuck backplate using the three M5 bolts. **One of the three M5 bolts is longer** and the choice of hole does not matter.
 
 These bolts should be very tight.
 
@@ -83,7 +89,7 @@ Tighten each bolt a little at a time and rotate in between bolts to ensure even 
 
 <img class="aligncenter size-medium wp-image-5411" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.P23_Proximity-Sensor_V3-850x531.jpg" alt="" width="850" height="531" />
 
-You won't need to perform this step if you <strong>don't have limit switches installed</strong> on your machine and aren't planning on installing them anytime soon, but you’ll still need to attach the front alignment piece in the next step. If you do have limit switches, then carry on.
+You won't need to perform this step if you **don't have limit switches installed** on your machine and aren't planning on installing them anytime soon, but you’ll still need to attach the front alignment piece in the next step. If you do have limit switches, then carry on.
 
 Push the switch up against the stop in the alignment piece and push down firmly to secure the switch (You can push it against the table to snap it in place).
 

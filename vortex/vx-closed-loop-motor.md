@@ -19,14 +19,14 @@ featured_image: _images/post-image.jpg
 
 <img class="aligncenter size-medium wp-image-10530" src="https://resources.sienci.com/wp-content/uploads/2023/08/9.1_CLS-Motor-Wire-850x532.jpg" alt="" width="850" height="532" />
 
-<span style="font-weight: 400;">Grab the motor cable included in the Vortex rotary axis kit and plug the two green connectors into their respective plugs on the rear of the closed loop motor. Tighten the two small screws on the 2 pin power connector using a small flathead screwdriver.</span>
+Grab the motor cable included in the Vortex rotary axis kit and plug the two green connectors into their respective plugs on the rear of the closed loop motor. Tighten the two small screws on the 2 pin power connector using a small flathead screwdriver.
 
 <img class="aligncenter size-medium wp-image-10649" src="https://resources.sienci.com/wp-content/uploads/2024/09/SLBExtVortexCLSMotorWiring-850x656.jpg" alt="" width="850" height="656" />
 
-<span style="font-weight: 400;">At the controller, plug in the black and green connectors into their appropriate locations as shown below. Make note of the orientation in which both connectors plug in. </span>
+At the controller, plug in the black and green connectors into their appropriate locations as shown below. Make note of the orientation in which both connectors plug in.
 
-<span style="font-weight: 400;">If you’re installing this kit with your SLB-Ext controller (used on the AltMill) plug in the green connector directly into the matching plug as shown below.</span>
+If you’re installing this kit with your SLB-Ext controller (used on the AltMill) plug in the green connector directly into the matching plug as shown below.
 
-<span style="font-weight: 400;">If you’re installing this kit with your SLB controller (used on the LongMill), you’ll need to use the included power splitter cable to connect the power connector on this motor cable.</span>
+If you’re installing this kit with your SLB controller (used on the LongMill), you’ll need to use the included power splitter cable to connect the power connector on this motor cable.
 
-<strong>Congratulations!</strong> A job well done, you’ve completed the assembly steps. Take a deep breath, we are almost ready for a test drive.
+**Congratulations!** A job well done, you’ve completed the assembly steps. Take a deep breath, we are almost ready for a test drive.

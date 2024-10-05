@@ -29,9 +29,9 @@ Insert the barrel nut into the cam handle, then place the cam washer underneath 
 
 <img class="aligncenter size-medium wp-image-5443" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p32_Tailstock-handle-850x531.jpg" alt="" width="850" height="531" />
 
-Position the cam handle sub-assembly from the last step into the large rectangular gap in the tailstock body. <strong>Make sure the end of this lever faces opposite the large hole.</strong>
+Position the cam handle sub-assembly from the last step into the large rectangular gap in the tailstock body. **Make sure the end of this lever faces opposite the large hole.**
 
-Pass the M6 bolt through the hole in the bottom of the tailstock body and thread the bolt into the barrel nut of the cam handle sub-assembly. We will adjust this bolt later to slide onto the track, so <strong>there is no need to tighten it right now.</strong>
+Pass the M6 bolt through the hole in the bottom of the tailstock body and thread the bolt into the barrel nut of the cam handle sub-assembly. We will adjust this bolt later to slide onto the track, so **there is no need to tighten it right now.**
 
 <img class="wid aligncenter wp-image-5444 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p33_Header-10-V2-850x201.jpg" alt="" width="850" height="201" />
 
@@ -53,7 +53,7 @@ Loosen the 2” bolt by 1/2 to 3/4 of a turn before moving to the next step.
 
 Secure the cover to the tailstock body with the three M5 bolts. The hex nut will nest in the matching recess of the cover.
 
-Wriggle the 2” bolt from the last step, from the other side and <strong>make sure that it feels very loose.</strong> If it feels very tight, remove the cover and loosen the screw by ½ - ¾ turn and re-install the cover.
+Wriggle the 2” bolt from the last step, from the other side and **make sure that it feels very loose.** If it feels very tight, remove the cover and loosen the screw by ½ - ¾ turn and re-install the cover.
 
 <img class="wid aligncenter wp-image-5449 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p38_Header-12-850x201.jpg" alt="" width="850" height="201" />
 

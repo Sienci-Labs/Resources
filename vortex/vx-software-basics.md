@@ -23,39 +23,37 @@ We also recommend that you use <a href="https://sienci.com/gsender/">gSender</a>
 
 <img class="aligncenter wp-image-5292 " src="https://resources.sienci.com/wp-content/uploads/2023/06/Vortex-Snaggit-850x430.jpg" alt="" width="555" height="281" />
 
-<h2>Create Toolpaths with VCarve</h2>
+## Create Toolpaths with VCarve
 
 The basics of using VCarve is extensively covered by <a href="https://www.vectric.com/support/tutorials/vcarve-pro?playlist=the-basics">Vectric’s official training videos</a> alongside other online resources. We especially recommend that you gain some experience importing 3D models and creating 3D toolpaths in VCarve before moving onto rotary carvings as the skills gained there are highly transferable. Having said that, we are going to assume that you know the basics of using VCarve and we are only going to highlight what makes rotary toolpathing tick in this section.
 
-<h3>The Concept of Wrapping</h3>
+### The Concept of Wrapping
 
-To begin with, it is important for you to understand rotary carvings as <strong>single-sided carvings that are wrapped around a cylinder</strong>. You still lay out your designs in 2D, but those designs are then wrapped around a cylinder when it is being previewed or carved. If you have ever carved letters or reliefs into a piece of flat material, you can imagine rolling the end results up into a cylinder and you’ve essentially got the gist of rotary carving in VCarve.
+To begin with, it is important for you to understand rotary carvings as **single-sided carvings that are wrapped around a cylinder**. You still lay out your designs in 2D, but those designs are then wrapped around a cylinder when it is being previewed or carved. If you have ever carved letters or reliefs into a piece of flat material, you can imagine rolling the end results up into a cylinder and you’ve essentially got the gist of rotary carving in VCarve.
 
 <img class="aligncenter wp-image-5296 " src="https://resources.sienci.com/wp-content/uploads/2023/06/4.p2_Sienci-1-850x483.jpg" alt="" width="643" height="365" />
 
-<h3>Job Setup</h3>
+### Job Setup
 
 [caption id="attachment_5247" align="aligncenter" width="577"]<img class="nar wp-image-5247 size-full" src="https://resources.sienci.com/wp-content/uploads/2023/06/4.p3_JobSetup.jpg" alt="" width="577" height="432" /> Rotary Axis Job Setup[/caption]
 
 When you start your project, there are a few Vortex specific settings that you should pay attention to in the Job Setup panel. In particular:
 
-<ol>
-  <li><strong>Job Type</strong> - Simply select the "<strong>Rotary</strong>" option. You will see it changes the options below once a bit once selected.</li>
-  <li><strong>Z Zero Position</strong> - You should set the Z-axis zero position for your job to “<strong>Cylinder axis</strong>”. This helps the visualizer display toolpaths correctly and makes zeroing easier as you will have a more consistent touch off point to work with even after you have performed a roughing pass. If you try to set the Z-axis zero position to your work surface and do a roughing pass, you no longer have a reference point, since the material has been roughed away.</li>
-  <li><strong>Orientation</strong> - You should set your job orientation to “<strong>Along X Axis</strong>” as this is the default orientation for the Vortex.</li>
-</ol>
+1. **Job Type** - Simply select the "**Rotary**" option. You will see it changes the options below once a bit once selected.
+1. **Z Zero Position** - You should set the Z-axis zero position for your job to “**Cylinder axis**”. This helps the visualizer display toolpaths correctly and makes zeroing easier as you will have a more consistent touch off point to work with even after you have performed a roughing pass. If you try to set the Z-axis zero position to your work surface and do a roughing pass, you no longer have a reference point, since the material has been roughed away.
+1. **Orientation** - You should set your job orientation to “**Along X Axis**” as this is the default orientation for the Vortex.
 
 Your 2D view will now represent the outer surface of your material, where the height of the workspace corresponds to the circumference of your material, and the width of the workspace corresponds to the length of your material.
 
 <img class="aligncenter wp-image-5298 " src="https://resources.sienci.com/wp-content/uploads/2023/06/4.p3_StockSize-850x722.jpg" alt="" width="575" height="488" />
 
-<h3>Designs in 2D</h3>
+### Designs in 2D
 
 We will go over how 3D models work in VCarve in the next subsection, but we’d like to note here that you can still create some amazingly intricate designs (Such as embossing details onto a rolling pin) without using a 3D model. This is possible as you retain access to all conventional drawing tools, including the options to bring in vector files and images in rotary mode, with which you can create V-carvings, pockets and more like you would on a piece of flat material. Just remember that your designs are ultimately going to be wrapped around your stock cylinder.
 
 [caption id="attachment_5245" align="aligncenter" width="850"]<img class="wp-image-5245 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/06/4.p5_Wrap-850x565.jpg" alt="" width="850" height="565" /> VCarving using a 2D pattern[/caption]
 
-<h3>Designs in 3D</h3>
+### Designs in 3D
 
 See our page on “<a href="https://resources.sienci.com/view/vx-where_to_find_3d_models/">Finding 3D models</a>” for more information about where you can find 3D models to carve.
 
@@ -69,7 +67,7 @@ Once your 3D model is imported, it is also a good idea to add some supporting ge
 
 [caption id="attachment_5262" align="aligncenter" width="850"]<img class="wp-image-5262 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/06/4.p7_Head-1.jpg-1-850x455.jpg" alt="" width="850" height="455" /> Adding some material connect your material with the stock cylinder[/caption]
 
-<h3>Creating Toolpaths</h3>
+### Creating Toolpaths
 
 Once you are happy with your design, you can move on to creating toolpaths for carving. Since we are dealing with an unwrapped cylinder in 2D, all of the usual carving options are available at our disposal such as 2D contouring & V-Carving, or 3D roughing & finishing. The resulting toolpaths will again simply be wrapped around a cylinder to create the final desired cuts.
 
@@ -81,7 +79,7 @@ To improve surface finish, we recommend that you use the “Raster” strategy w
 
 Lastly, a note on feed rate since it is interpreted differently on the rotary axis. You should not be surprised that actual carving speed is slower than what is specified. Our recommendation is for you to start with using our <a href="https://sienci.com/tool-libraries/">MK2 Feeds and Speeds</a> library and make adjustments on the fly with the feed rate override in gSender.
 
-<h3>Exporting Toolpaths</h3>
+### Exporting Toolpaths
 
 <img class="aligncenter wp-image-5304 " src="https://resources.sienci.com/wp-content/uploads/2023/06/4.p10_Toolpaths-850x524.jpg" alt="" width="670" height="413" />
 
@@ -89,13 +87,13 @@ To export your toolpaths into a g-code file, you will need to import and use a n
 
 <p style="text-align: center;"><a href="https://resources.sienci.com/wp-content/uploads/2023/06/Vortex-A_axis-Grbl.pp" target="_blank" rel="noopener" download="">Vortex A-axis Post Processor</a></p>
 
-<h3>Post Processor Installation</h3>
+### Post Processor Installation
 
-To install these post processors in VCarve Desktop, select <strong>Install Post-Processor</strong> under the Machine tab.
+To install these post processors in VCarve Desktop, select **Install Post-Processor** under the Machine tab.
 
 <img class="nar aligncenter wp-image-5651" src="https://resources.sienci.com/wp-content/uploads/2023/06/ppinstall.jpg" alt="" width="631" height="365" />
 
-Select the <strong>Vortex A-axis Grbl.pp</strong> file from your recent download.
+Select the **Vortex A-axis Grbl.pp** file from your recent download.
 
 <img class="nar aligncenter wp-image-5691 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/06/PP-File-850x486.jpg" alt="" width="850" height="486" />
 
@@ -103,7 +101,7 @@ Now when you go to save your toolpath, you will be able to select the correct po
 
 <img class="aligncenter size-medium wp-image-5696" src="https://resources.sienci.com/wp-content/uploads/2023/06/vectric-pp-850x550.jpg" alt="" width="850" height="550" />
 
-<h2>Cue gSender</h2>
+## Cue gSender
 
 Once you have your g-code file at hand, you will want to bring the exported g-code over to gSender where you will be able to visualize the toolpath you just created.
 

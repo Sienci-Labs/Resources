@@ -21,7 +21,7 @@ If you’ve had experience creating your own 3D models, you’ll know that you c
 
 <img class="nar aligncenter wp-image-5877 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/Printables-850x483.jpg" alt="" width="850" height="483" />
 
-To help you get started, we recommend that you check out one of the following websites. Most of the models are available in a .<strong>stl</strong> OR .<strong>obj</strong> file format which is what you will want for use with Vectric software.
+To help you get started, we recommend that you check out one of the following websites. Most of the models are available in a **.stl** OR **.obj** file format which is what you will want for use with Vectric software.
 
 <ul>
   <li><a href="https://www.thingiverse.com/">Thingiverse</a> (Free)</li>

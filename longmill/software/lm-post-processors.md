@@ -77,7 +77,7 @@ To help out, we've put together a simple table which shows popular CAM programs 
 **To avoid potential issues with Fusion 360, we also recommend you make the following checks to your post processor:
 
 <ul>
-  <li><b>G28</b><b> Safe Retracts</b> set as “Clearance Height”</li>
+  <li><b>G28 Safe Retracts</b> set as “Clearance Height”</li>
   <li><b>Output M6</b> set as "No"</li>
   <li><b>Output Tool Number</b> set as "No"</li>
 </ul>
