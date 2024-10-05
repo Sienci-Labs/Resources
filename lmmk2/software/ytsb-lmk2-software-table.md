@@ -15,7 +15,7 @@ skip_file: yes
 featured_image: 
 ---
 
-Choosing which software you want to use with your LongMill CNC can be a daunting task. Below is a list of software we've tried along with details that might help you find your toolchain.
+Choosing which software you want to use with your LongMill can be a daunting task. Below is a list of software we've tried along with details that might help you find your toolchain.
 
 <div id="ToolTable"></div>
 <p><script src="https://resources.sienci.com/wp-content/react/tooltable.js"></script></p>

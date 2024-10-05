@@ -15,100 +15,157 @@ skip_file: yes
 featured_image: 
 ---
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p1_cover.jpg){.aligncenter .size-medium}
+<img class="wp-image-7263 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Title-Motors-Wiring-850x646.png" alt="" width="850" height="646" />
 
-The LongMill electronics come pre-assembled and are pretty much ready to go out of the box. However, we recommend double-checking a few things before powering-on.
+<h2>Stepper Motor Mounting</h2>
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p2_v3.jpg){.aligncenter .size-medium}
+<img class="wid aligncenter wp-image-5028 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-45_1r2-1536x386-1.jpg" alt="" width="1536" height="386" />
 
-## DC power supply connector polarity and E-stop connector
+<img class="aligncenter size-full wp-image-5030" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-45_2r2-1536x864-1.jpg" alt="" width="1536" height="864" />
 
-It's important that the connector coming from the DC power brick has a <b>white</b> or <b>red</b> wire on the left side and a <b>black</b> one on the right when the screw terminal is facing you (as pictured). Both this connector and the connector coming from the E-stop should have the wires attached very securely. The order of the wires going to the E-stop connector don't matter.
+You’re really making your way along, celebrate with a friend and a cold drink!! Look back to the yellow bag and grab the 35mm spacers, M5-50mm bolts and also grab the NEMA 23 stepper motors out of the motor box. You’ll be inserting four M5-50mm bolts into the four holes on each motor along side the aluminum spacer. These assemblies will attach to each axis of the machine. <b>Note:</b> Earlier versions of the LongMill shipped with Nylon washers. If your machine has these washers, install the washers between the 35mm spacer and the metal gantry plates and feet.
 
-Check that the wires are connected appropriately by tugging on them. Secure them using the screw terminals and a flat head screwdriver if they’re loose or disconnected.
+<img class="wp-image-7261 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Motors-Wiring_2-850x492.png" alt="" width="850" height="492" />
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p3.JPG){.aligncenter .size-medium}
+For both Y-axes, position a motor assembly at the back foot making sure the motor wire faces down. Slide the motor shaft into the coupler, then tighten all four M5-50mm screws into the foot. Once the motor is secure, tighten the set screw on the motor side of the coupler (pictured).
 
-## Motor connector wiring
+<img class="aligncenter wp-image-7260 size-medium" title="nar" src="https://resources.sienci.com/wp-content/uploads/2022/03/Motors-Wiring_3-850x850.png" alt="" width="850" height="850" />
 
-The wires, looking down from the side with the screw heads, should be, from left to right, BLUE, YELLOW, GREEN, RED (pictured). Check if the color pattern on all four of your motor wires is correct and re-arrange them if needed. As previously, also check that the wires are connected securely to the connector.
+If everything has come together well so far, you should be able to now check that the lead screw can spin relatively easily. If you find that the motor <b>shaft doesn’t fit into the coupler</b> it’s likely that you tightened the motor-side set screw earlier on and have now deformed it. There is a chance for fixing this: take the motor-side set screw out of the coupler and insert anything thin like a box knife, putty knife, or paint scraper into the vertical slot of the coupler. Then screw in the set screw from the opposite side until it hits the inserted object. Rotate it against the object a couple turns to open up the slot again, then back the screw out again, remove the object, and reinsert the screw back to where it should be.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p4.JPG "The wiring color pattern should be blue, yellow, green, red."){.aligncenter .size-medium}
+<img class="wp-image-7078 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2024/06/double-pic-green-circle-850x327.png" alt="" width="850" height="327" />
 
-While you're at it, double check that the motor-side, white connectors on each axis are pushed all the way into the motor housing to ensure a good connection. If these connectors are sitting too loosely, then they can cause issues later on since the motor won't move as expected.
+Bring a motor assembly to the left Y-gantry plate making sure the motor wire faces back and upwards (pictured). Slide the motor shaft into the coupler, then tighten the four M5-50mm bolts into the gantry. At the coupler, tighten the set screw at the motor side and ensure the lead screw can spin without excessive force. <img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2022/03/48EX-symbol.png" alt="" width="61" height="30" />
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p5.JPG){.aligncenter .size-medium}
+<a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#ex-lead-screw-assembly"><img class="fortye aligncenter wp-image-3950 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX5C-850x68.png" alt="" width="850" height="68" /></a>
 
-## Properly seated DIP switches
+<img class="wp-image-7082 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2024/06/double-pic-green-circle-2-1-850x382.png" alt="" width="850" height="382" />
 
-Looking at the underside of the control box, you should notice four red switch blocks on the circuit board through the slots in the steel (pictured). These are a way of toggling how the motors are controlled by their respective motor controllers, where the slots in the steel have been made wide enough so that you can reach in with a small flat head screwdriver or an Allen key to adjust these switches without dissembling anything.
+Bring the last motor assembly to the Z-axis motor mount making sure the motor wire faces backwards. Slide the motor shaft into the coupler, then tighten the four M5-50mm bolts into the motor mount. At the coupler, tighten the set screw at the motor side and ensure the lead screw can spin without excessive force.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p6.jpg){.aligncenter .size-medium}
+<h2>Attaching Drag Chain Ends</h2>
 
-These DIP switches normally <b>look</b> like they've been properly switched when in reality they're 'floating' between the up and down positions, as is the case for switch 2 in the picture below. Because of this, it's a good idea to push every single switch into it's correct position before moving on to the next step, putting switches 1 and 3 into the 'up' position and switches 2 and 4 into the 'down' position (pictured).
+<img class="wid aligncenter wp-image-2771 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-49_1-850x220.jpg" alt="" width="850" height="220" />
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p7.jpg){.aligncenter .size-medium}
+We will now be installing the drag chains which can be found in the long rail box inside the Y-axis rails. These contain and guide the wires on the LongMill so they aren’t in the way during cutting. They also keep wires from wearing out from bending or being cinched around corners.
 
-## Plugging in the motors and power supply
+<img class="wp-image-3217 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-49_2-1-850x358.jpg" alt="" width="850" height="358" />
 
-With these checks done, start by connecting the motors. Track each cable from each motor to its corresponding green connector and connect it to the board. The fit of these connectors is tight but you need to be sure to push them ALL THE WAY in so that there is good contact between the plug and the connector. Each plug on the board is labelled on the top (note that there isn't a difference between the Y1 and Y2 plugs, the Y-axis motors can be connected to either of them).
+Start by unclipping all the drag chain clips using a flat head screwdriver or anything else sharp like a wood screw underneath the clip tabs. These hold the wires into the chain but can open or be completely removed, giving flexibility to add or remove wires on your machine when needed. If you’re struggling with this the LongMill wrench also has a taper that can help you open them.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p8.jpg){.aligncenter .size-medium}
+We recommend permanently removing every other clip if you plan on adding more wiring in the future since accessing the wire will take half the time and the chains will still work fine. Stick the extras into a baggy to save for later if you wish.
 
-Next, plug the connector coming from the power brick into the rear of the LongMill's control box (pictured); wait until after it's plugged in before plugging the other power supply cable into the wall. A green LED on the power supply brick should light up to indicate that it's receiving wall power.
+Now, remove the end links from both sets of drag chains. For the pin-type link (left picture), squeeze it together then twist and pull to disconnect it. For the hole-type end link (right picture), pull on one side of the link then twist it away to separate it. A flat head screwdriver or thin shim can also be handy for this, just be careful not to cut yourself.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p9.jpg){.aligncenter .size-medium}
+<img class="wp-image-3219 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-50_1-1-850x363.jpg" alt="" width="850" height="363" />
 
-Now, connect the emergency stop button to the control box via the connector on the top. You should be able to find your E-stop button (pictured on the right) in a bubble wrapped bag the #3 top carton. Turn it on by rotating the button clockwise. You should see a red light on top of the box light up to confirm that everything is receiving power.
+Do this for all four end pieces, two hole-types and two pin-types, and set them aside.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p10.jpg){.aligncenter .size-medium}
+<img class="aligncenter wp-image-2774 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-50_2-850x478.jpg" alt="" width="850" height="478" />
 
-Once you’ve checked that the lights are turning on, press the E-stop button to turn it back off.
+<img class="aligncenter wp-image-2775 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-51_1-850x352.jpg" alt="" width="850" height="352" />
 
-A note on the control box is that it will be limited in it's placement due to the length of the Z-axis motor cable. If you don't think you'll be using the on-board control buttons feel free to mount the box out of the way - the basic operations can be controlled via a USB cable and the E-stop. If you wish to place it further from the machine, extending the wires for that cable is quite straightforward either through the use of a soldering iron or through crimp-able wire extenders.
+Grabbing the bag of t-nuts and M5-10mm bolts, we will attach these end links to the machine starting with the left Y-axis. Slide a t-nut onto the Y-axis rail through the hole in the front foot.
 
-## Connecting the LongMill to your computer
+<img class="aligncenter wp-image-2776 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-51_2-850x353.jpg" alt="" width="850" height="353" />
 
-To manipulate your LongMill and send it files, you'll need a g-code sender which acts as the control software. We recommend using gSender, which is what we'll be using to show the next couple of steps and in the remaining part of the assembly.
+You’ll want to position it a little further back than halfway on the rail for both machine models (30x30 pictured).
 
-gSender works with any operating system: Windows / PC , Mac, Linux, and more. If you are not sure which type of Windows you are using, you are most likely using a 64 bit computer. You can try both and see which one starts.
+<img class="aligncenter wp-image-2777 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-51_3-850x478.jpg" alt="" width="850" height="478" />
 
-You can download gSender here: <a href="https://sienci.com/gSender/" target="_blank" rel="noopener">https://sienci.com/gsender/</a> Choose the download for you, and if you get stuck you can always reference here for more help: <a href="https://resources.sienci.com/view/gs-installation/" target="_blank" rel="noopener">https://resources.sienci.com/view/gs-installation/</a>
+Once in position, use an M5-10mm bolt to fasten a <b>hole-type</b> end link in place with the M5 Allen key (pictured).
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p11.png){.aligncenter .size-medium}
+<img class="aligncenter wp-image-2778 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-52_1-850x478.jpg" alt="" width="850" height="478" />
 
-Once you have gSender installed, go ahead and run it on your computer. One was is to double click the shortcut on your desktop.
+Now get a <b>pin-type</b> end link (pictured) along with the 3D printed chain aligner from the yellow hardware bag to mount the other end of the drag chain. The printed aligner has a nub that will align to a hole in the end link (pictured).
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p12.png){.aligncenter .size-medium}
+<img class="aligncenter wp-image-2779 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-52_2-850x478.jpg" alt="" width="850" height="478" />
 
-You should be greeted with a screen that looks like this.
+These will attach to the drag chain mount from the underside with another bolt.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p13.png){.aligncenter .size-medium}
+<img class="wp-image-3218 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-53_1-1-850x304.jpg" alt="" width="850" height="304" />
 
-Connect your computer to the LongMill control box via USB.
+On the X-axis the process will be repeated. Slide in a t-nut through the hole in the right Y-gantry and bring it all the way to the left side next to the drag chain mount where you’ll bolt in a <b>pin-type</b> end link. Ensure the end link is snug up against the drag chain mount (pictured).
 
-<b>Note: Your computer will automatically install drivers for the Arduino at this point if they are not already on your computer (can take a minute or two). If you try to connect your machine but you cannot, you may need to manually install the drivers. You can do this by installing the <a href="https://www.arduino.cc/en/main/software">Arduino IDE</a> which will install the drivers during the installation, or you can follow the instructions on doing them <a href="https://www.arduino.cc/en/Guide/DriverInstallation">manually for Windows</a>.</b>
+<img class="wp-image-2782 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-53_2-850x415.jpg" alt="" width="850" height="415" />
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p13_v2.jpg "Plug in the USB cable onto the LongBoard.")"{.aligncenter .size-medium}
+Lastly, attach the final end link onto the Z-axis motor mount using one last bolt to the inner hole. Note the direction the link is facing.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p14.JPG "Connect your USB cable to your computer.")"{.aligncenter .size-medium}
+<h2>Routing Wires</h2>
 
-Once that is done, hover to the top left corner of the program at “Connect to Machine”. You should see an available device to connect to. Sometimes there’s more than one port available, so you can either unplug the other items you have plugged in, or you can try connecting to each one to see which one is your LongMill.
+<img class="wid aligncenter wp-image-6203 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/Long-wires-850x275.jpg" alt="" width="850" height="275" />
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p15.png){.aligncenter .size-medium}
+For the remaining assembly you won’t need any more of the loose hardware except for the provided wood screws and the 3D printed ACME nut covers. If you want, take a second to clean off your space and feel free to stick all the extra remains into a box for later use or maintenance on your machine.
 
-Once you've selected the port, your machine should be connected. If your machine is powered on, you will usually hear a gentle hiss and a thump noise when the machine connects which is a nice audible confirmation. If you don’t hear that sound, make sure you have released the E-stop so power is going to your machine - indicated by and orange power light on your control box.
+<img class="aligncenter wp-image-2784 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-54_2-850x479.jpg" alt="" width="850" height="479" />
 
-You should also see "Connect to Machine" change to "Connected", the plug icon turn green with a check mark, the status on the top right corner of the visualizer change from "Disconnected" to "Idle", and the other controls that were greyed out will now be activated, allowing you to press them.
+Before we attach the drag chains back onto the end links we’ll be moving around a couple links to get the right fit. To do this, put your hands on either side of the link you want to break, then twist and pull them apart to disconnect. Set aside the remaining, unused links - they can come in use if you’re planning on upgrading to a larger sized LongMill later.
+Depending on the size of LongMill you have, remove and add links to each drag chain as follows:
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p16.png){.aligncenter .size-medium}
+<ul>
+  <li>For the 12x30 LongMill, remove <b>16 links</b> off of the Y-axis drag chain and add <b>3 links</b> onto the X-axis chain.</li>
+  <li>For the 30x30 LongMill, remove <b>13 links</b> off of the Y-axis drag chain and add <b>3 links</b> onto the X-axis chain.</li>
+  <li>For the 48x30 LongMill, remove <b>13 links</b> off of the Y-axis drag chain and leave the longer X-axis drag chain at its original length.</li>
+</ul>
 
-You can now try playing around with moving the machine. You can jog the machine in the direction you want within the "Jog Control" section on the right side. It’s alive!
+This will make it so the chains are the correct length to travel the whole range of motion of the machine while also staying as short as possible to maximize the wire length going to the controller.
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p17.png){.aligncenter .size-medium}
+<img class="wp-image-7066 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2024/06/Allen-key-router-850x283.jpg" alt="" width="850" height="283" />
 
-You can choose the amount that the machine will move in the XY directions by changing the “XY move”, the amount in the Z direction with “Z move”, and the feed rate / speed of movement with “Speed.” gSender has defaults for large, medium, and small movements that you can switch between by pressing the "Rapid", "Normal", and "Precise" buttons.
+At this stage, it’s a good idea to grab the router you’ll be using with your machine. We’ll show these steps using the Makita RT0700 / RT0701 trim router that we recommend (pictured). Also, grab the motor wires from the motor box while you’re at it.
 
-Also, if you prefer inches instead of millimeters you can also switch over using the gear icon on the top right of the gSender window.
+<b>Note: when using the Makita RT0700 / RT0701 it’ll come with a base attached. Remove this as you’ll just need the main router body for the CNC.</b>
 
-For now, moving the machine around will be important for when we mount the machine to the wasteboard. On to the table mounting!
+To mount your router, loosen off the mount's front bolts until it slides in. Place it nearly all the way down with the power cable facing left and rotated slightly backward (pictured) then tighten back up to secure it. Go back and forth between the two bolts to keep equal clamping force and make sure not to over-tighten them.
+
+<img class="aligncenter wp-image-2786 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-55_2-850x553.jpg" alt="" width="850" height="553" />
+
+Confirm the angle by turning the Z-axis lead screw by hand until its upper limit - the blue part of the router body shouldn’t collide with the Z-axis motor mount at any point. You can adjust the router height later depending on your setup: lower if you use tiny tools on thin material or higher if you use longer tools on 3-4” thick material.
+
+This maximum position is also where you can access the 4 bolts holding in the router mount from behind for future swapping or tramming. You'll simply lift up the drag chain and go through the hole in the X-gantry, being mindful not to damage the aluminum rail edge with the Allen key.
+
+Optionally use the top left hole on the X-gantry as a zip tie point to keep your router wire out of the way during operation. To set it up right, move the Z-axis all the way down and then zip it on with some extra slack still available (pictured).
+
+<img class="aligncenter wp-image-2787 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-56_1-850x478.jpg" alt="" width="850" height="478" />
+
+<img class="aligncenter wp-image-2788 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-56_2-850x478.jpg" alt="" width="850" height="478" />
+
+Now onto the remaining wiring. Grab (the longer one) a motor cable and connect it to the Z-axis NEMA 23 motor. The connector can only go in one way so keep trying until it easily clicks in.
+
+<img class="aligncenter wp-image-2789 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-57_1-850x478.jpg" alt="" width="850" height="478" />
+
+Grab the drag chain for the X-axis (the longer one) and seat in the Z-axis motor cable and router wire. Ensure you have the correct end of the drag chain so it’ll attach onto the end link and bend in the right direction. Reattach it onto the end link and start to re-clip the clips into place.
+
+<img class="aligncenter wp-image-2790 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-57_2-850x478.jpg" alt="" width="850" height="478" />
+
+<b>Note:</b> if you purchased the limit switch add-on kit you’ll want to leave enough clips open that running the wires for the switches later on will be easier to do.
+
+<img class="aligncenter wp-image-2791 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-58_1-850x479.jpg" alt="" width="850" height="479" />
+
+Leaving the last few clips open, bring the other end of the drag chain around and attach it onto the other end link on the X-axis rail. Pull the wires through and around the drag chain mount and finish closing the remaining clips.
+
+<img class="aligncenter wp-image-2792 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-58_2-850x478.jpg" alt="" width="850" height="478" />
+
+Attach a motor cable onto the X-axis NEMA 23 stepper motor.
+
+<img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2022/03/48EX-symbol.png" alt="" width="61" height="30" />
+
+<a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#cable-extension-installation"><img class="fortye aligncenter wp-image-3953 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX6C-850x72.png" alt="" width="850" height="72" /></a>
+
+<img class="aligncenter wp-image-2793 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-59-850x478.jpg" alt="" width="850" height="478" />
+
+Take the X and Z-axis stepper motor cables and the router cable and insert them into the Y-axis drag chain. Keep in mind the bend of the drag chain and attach it, clipping in the clips to secure the wires.
+
+<img class="aligncenter wp-image-2794 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-60_1-850x478.jpg" alt="" width="850" height="478" />
+
+Bring the other end of the drag chain around and attach it onto the other end link on the Y-axis rail. Pull the wires through and off to the left side of the rail and close the remaining clips.
+
+<img class="aligncenter wp-image-2795 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-60_2-850x478.jpg" alt="" width="850" height="478" />
+
+Lastly plug in the cables for the motors on the two Y-axis NEMA 23 stepper motors.
+
+<img class="aligncenter wp-image-2796 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-61_1-850x478.jpg" alt="" width="850" height="478" />
+
+Bring the cables around to the left of the machine so they’re now all bundled together (pictured). You’ll be plugging the motors cables into the control box shortly but otherwise the machine wiring is now complete!
+
+<img class="aligncenter wp-image-2797 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-61_2-850x478.jpg" alt="" width="850" height="478" />

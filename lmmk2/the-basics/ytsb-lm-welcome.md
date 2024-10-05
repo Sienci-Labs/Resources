@@ -77,8 +77,8 @@ If you'd like to converse and learn from others, please check out either our For
 <td style="text-align: center; padding: 5px; border: none;"><a href="https://www.facebook.com/groups/mill.one/" target="_blank" rel="noopener"><img class="flie alignnone wp-image-1438 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/06/Icon1-scaled-1.jpg" alt="" width="600" height="600" /></a></td>
 </tr>
 <tr>
-<td style="text-align: center; padding: 5px; border: none;"><strong>Community Forum</strong></td>
-<td style="text-align: center; padding: 5px; border: none;"><strong>Facebook Group</strong></td>
+<td style="text-align: center; padding: 5px; border: none;"><b>Community Forum</b></td>
+<td style="text-align: center; padding: 5px; border: none;"><b>Facebook Group</b></td>
 </tr>
 </tbody>
 </table>

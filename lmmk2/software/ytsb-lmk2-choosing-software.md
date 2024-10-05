@@ -25,6 +25,8 @@ Whichever software toolchain you choose should make the most sense for you and y
 <li>and computer operating system</li>
 </ul>
 
+https://www.youtube.com/watch?v=m6ymuF8soTU
+
 To give maximum flexibility, we made the LongMill software agnostic meaning it can accept input from nearly any software out there. Here's an example:
 
 <ol>
@@ -41,8 +43,8 @@ To help you decide what software would work best for you we've done three things
 
 <ol>
 <li>Created a <b><a href="#toolchain-wizard">Toolchain Wizard</a></b> which can provide you with smart recommendations after asking you 5 easy questions</li>
-<li>Compiled a list of programs that we'd <a href="#programs-we-recommend"><b>personally recommend</b></a> for the average CNCer</li>
-<li>Put every common CNC program into a <b><a href="https://resources.sienci.com/view/lm-software-table/" target="_blank" rel="noopener">Master Table</a></b> (over 80!) that you can search and filter through if you'd like to comb through all the options yourself. This table is what powers our Toolchain Wizard :)</li>
+<li>Compiled a list of programs that we'd <a href="#our-recommendations"><b>personally recommend</b></a> for the average CNCer</li>
+<li>Put every common CNC program into a <b><a href="https://resources.sienci.com/view/lmk2-software-table/" target="_blank" rel="noopener">Master Table</a></b> (over 80!) that you can search and filter through if you'd like to comb through all the options yourself. This table is what powers our Toolchain Wizard :)</li>
 </ol>
 
 ## Toolchain Wizard
@@ -53,7 +55,7 @@ This wizard will provide you with general software suggestions based on your CNC
 <p><script src="https://resources.sienci.com/wp-content/react/wizard.js"></script></p>
 <style>@import url('https://resources.sienci.com/wp-content/react/wizard.css')</style></p>
 
-## Programs we recommend
+## Our Recommendations
 
 Many of our go-to software picks tend to be available for free and can range from beginner-friendly to more advanced. We also tend to more highly recommend software that is both Design-and-CAM-in-one since that helps to streamline the process of making projects on your CNC.
 
@@ -62,7 +64,7 @@ Many of our go-to software picks tend to be available for free and can range fro
 [su_button url="resources.sienci.com/view/lm-more-projects/" target="self" style="flat" background="var(--sl-blue)" color="#FFFFFF" size="8" wide="no" center="yes" radius="3" icon="" icon_color="#FFFFFF" text_shadow="none" desc="" download="" onclick="" rel="" title="" id="" class=""]Design sharing websites[/su_button]
 &nbsp;
 
-### Design &amp; CAM (beginner-friendly)
+### Design & CAM (beginner-friendly)
 
 If you're looking for software that takes advantage of most CNC features while remaining easy to pick up, we recommend checking out these software options:
 
@@ -167,7 +169,7 @@ Easel is a free (with paid pro features) web application that makes it easy to d
 
 <b>Carbide Create</b> (<a href="https://carbide3d.com/carbidecreate/" target="_blank" rel="noopener noreferrer">https://carbide3d.com/carbidecreate/</a>)
 
-Carbide Create is an awesome free (with paid pro features) program that works great for 2D and 2.5D carvings, if you want to work with SVGs and DXFs, or if you're looking to do V-carving. With a much larger list of presets for common bits and materials, as well as a simple user interface and some additional features, it manages to outperform Easel in many aspects: though these advantages come with some additional complexity. Still, it's an awesome program for getting started with CNCing and similar to Easel there are tons of guides on <a href="https://www.youtube.com/results?search_query=carbide+create">YouTube</a> to check out.<br>
+Carbide Create is an awesome free (with paid pro features) program that works great for 2D and 2.5D carvings, if you want to work with SVGs and DXFs, or if you're looking to do V-carving. With a much larger list of presets for common bits and materials, as well as a simple user interface and some additional features, it manages to outperform Easel in many aspects: though these advantages come with some additional complexity. Note that <b>V7 and up had g-code exporting removed, now requiring you to take the C2D file, <a href="https://my.carbide3d.com/extractgcode/" target="_blank" rel="noopener">go to this page</a>, create a login, and extract the g-code</b>. The only other option is to download an earlier version if you want to save yourself the trouble. Still, it's a good program for getting started with CNCing and similar to Easel there are tons of guides on <a href="https://www.youtube.com/results?search_query=carbide+create">YouTube</a> to check out.<br>
 <a href="https://www.youtube.com/watch?v=pZGo8jfoOQU" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p3_Carbide.JPG){.aligncenter .size-medium}
@@ -321,7 +323,7 @@ Many of our software picks don't tend to have a built-in machine interface so we
 <li>This is an open source program developed by us, Sienci Labs, which you can download for free here: <a href="https://sienci.com/gSender/" target="_blank" rel="noopener">https://sienci.com/gsender/</a></li>
 <li>We used to recommend highly some other senders, but hearing about their flaws we decided to make gSender as a solution to all the feedback we received</li>
 <li>Detailed instructions on how to use gSender can be found here: <a href="https://resources.sienci.com/view/gs-installation/" target="_blank" rel="noopener">https://resources.sienci.com/view/gs-installation/</a></li>
-<li>gSender is designed to work right out of the box for the LongMill CNC</li>
+<li>gSender is designed to work right out of the box for the LongMill</li>
 </ul>
 
 The full list of grbl-compatible senders is generally maintained here: <a href="https://github.com/gnea/grbl/wiki/Using-Grbl" target="_blank" rel="noopener">https://github.com/gnea/grbl/wiki/Using-Grbl</a> but we've put together a more digestible list that you can reference below of the ones we've gone through and personally experimented with. All of these work well in most capacities and are easy to learn and pick up:

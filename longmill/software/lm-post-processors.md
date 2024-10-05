@@ -32,11 +32,11 @@ To help out, we've put together a simple table which shows popular CAM programs 
 </tr>
 <tr>
 <td>Vectric Cut2D, Vectric VCarve, Vectric Aspire</td>
-<td>grbl (mm)</td>
+<td>grbl (mm). Newer versions of Vectric may come with a default "LongMill" option.</td>
 </tr>
 <tr>
 <td>Carveco Maker, Carveco Maker+</td>
-<td>grbl (mm)</td>
+<td>UGS grbl</td>
 </tr>
 <tr>
 <td>Fusion 360</td>
@@ -55,7 +55,7 @@ To help out, we've put together a simple table which shows popular CAM programs 
 <td>No selection required</td>
 </tr>
 <tr>
-<td>ESTL CAM</td>
+<td>Estlcam</td>
 <td>No selection required</td>
 </tr>
 <tr>
@@ -64,7 +64,7 @@ To help out, we've put together a simple table which shows popular CAM programs 
 </tr>
 <tr>
 <td>BobCAD/CAM</td>
-<td>Custom: <a href="https://forum.sienci.com/t/CAD-CAM-software-post-processors/436/3" target="_blank" rel="noopener">https://forum.sienci.com/t/cad-cam-software-post-processors/436/3</a></td>
+<td>Custom: <a href="https://forum.sienci.com/t/cad-cam-software-post-processors/436/3" target="_blank" rel="noopener">https://forum.sienci.com/t/cad-cam-software-post-processors/436/3</a></td>
 </tr>
 <tr>
 <td>Inventor CAM</td>
@@ -77,9 +77,9 @@ To help out, we've put together a simple table which shows popular CAM programs 
 **To avoid potential issues with Fusion 360, we also recommend you make the following checks to your post processor:
 
 <ul>
-  <li><b>G28 Safe Retracts</b> set as “Clearance Height”</li>
-  <li><b>Output M6</b> set as "No"</li>
-  <li><b>Output Tool Number</b> set as "No"</li>
+  <li>Change the '<b>Safe Retracts</b>' to “Clearance Height” and NOT “G28”. It will be obvious that you have this on if you don't have limit switches or forget to home your machine and at the start of the job your bit plunges suddenly really deep into your material.</li>
+  <li><b>Output M6</b> set as "No" (unless you plan to set up tool changing)</li>
+  <li><b>Output Tool Number</b> set as "No" (unless you plan to set up tool changing)</li>
 </ul>
 
 If you're interested, there have also been instances of LM community members putting their own post processors to download. Some examples include:
@@ -90,3 +90,5 @@ If you're interested, there have also been instances of LM community members put
 </ul>
 
 <b>Fun fact:</b> some other members of the grbl CNC family include OpenBuilds, Shapeoko, BobsCNC and X-Carve - all starting just as the LongMill has from an Arduino Uno.
+
+https://youtu.be/6Hr-pja4eI8

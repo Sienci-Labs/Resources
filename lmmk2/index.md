@@ -32,12 +32,12 @@ LongMill MK2 page order should be as follows:  (last updated as of Oct 4, 2024)
 
 💻 Software
 
-1. Software Explained 🗣️
-2. Choosing Software 🎛️
-3. Post Processors
-4. Visualizers
-5. Software Table
-6. System Requirements 📊
+1. Software Explained 🗣️ (MK1 & MK2 same)
+2. Choosing Software 🎛️ (MK1 & MK2 same except one link)
+3. Post Processors (MK1 & MK2 same)
+4. Visualizers (MK1 & MK2 same)
+5. Software Table (MK1 & MK2 same)
+6. System Requirements 📊 (MK1 & MK2 same except one link)
 
 🔧 Assembly
 
@@ -72,7 +72,7 @@ LongMill MK2 page order should be as follows:  (last updated as of Oct 4, 2024)
 6. Explore Projects 🪑
 7. Maintenance 🛠️
 8. CNC Issues & Fixes 🩹
-9. Common CNC Terms
+9. Common CNC Terms (MK1 & MK2 same)
 
 🧩 Advanced
 

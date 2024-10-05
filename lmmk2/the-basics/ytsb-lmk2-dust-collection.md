@@ -26,7 +26,7 @@ A **dust shoe** is basically a fancy vacuum attachment for your CNC machine, it 
 
 https://www.youtube.com/watch?v=94r4hgr2SgA
 
-That said, dust management can still come in other forms like building an [enclosure for your CNC](\lmmk2\the-basics\ytsb-lmk2-table-enclosure.md) or cutting outside. You might choose to do these if you:
+That said, dust management can still come in other forms like building an [enclosure for your CNC](https://resources.sienci.com/view/lmk2-table-enclosure/#machine-enclosure) or cutting outside. You might choose to do these if you:
 
 - are worried about the noise from running a vacuum or dust collector (though the noise of cutting can get similarly loud)
 - don't want to deal with the dust shoe colliding with clamps, material, or getting in the way during tool changes
@@ -45,8 +45,8 @@ Whether a dust shoe is fixed or adjustable depends on how it’s mounted:
 <tbody>
 <tr>
 <td></td>
-<td><strong>Fixed</strong></td>
-<td><strong>Adjustable</strong></td>
+<td><b>Fixed</b></td>
+<td><b>Adjustable</b></td>
 </tr>
 <tr>
 <td style="background: #44bc72 !important;">Pros</td>

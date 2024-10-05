@@ -15,122 +15,116 @@ skip_file: yes
 featured_image: 
 ---
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p1_Drawing.jpg){.aligncenter .size-medium}
+<img class="wp-image-7247 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Header-routing-cables-1-850x567.png" alt="" width="850" height="567" />
 
-## Preparing the X-axis rail
+<h2>Nut Assemblies</h2>
 
-[tabby title="12x12"]
+<img class="wid wp-image-7015 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2024/06/Header-1-850x195.jpg" alt="" width="850" height="195" />
 
-The 12×12 LongMill is a smaller build envelope so it doesn’t require an X-axis reinforcement bar. Move onto the next step “Attaching the Shoulder Brackets”, but keep in mind that the remaining pictures may show another piece of angled aluminum attached to the back of the X-axis rail. Pay no mind to this since the assembly process is otherwise the same.
+<img class="alignnone wp-image-7909 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/XZAxies_p1-850x461.jpg" alt="" width="850" height="461" />
 
-[tabby title="12x30 and 30x30" open="yes"]
+Now, find bags labeled for ‘M5-nylock nuts’, (there should only be 4 or 5 in the bag), and the final one which contains some large rectangular plastic blocks. These are called ‘T8 spring loaded anti-backlash nuts’, and you’ll see later how they work to give your CNC movement and keep it accurate.
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p2_RailParts.jpg){.aligncenter .size-medium .wid}
+Start by pressing the M5-nylock nuts into the hexagonal cutouts in the plastic blocks. It’ll be tempting to face the round part of the nut downwards for easier installation, but these have to actually face upward out of the plastic so that they can be properly bolted on later. It may require some force to push the nuts into the cutouts - feel free to use pliers, one of the steel plates, a vise, or anything else to get them in-place as long as you’re careful to take your time. You’ll need 4 blocks, set aside spares as extra.
 
-The 12×30 and 30×30 model LongMills use a second aluminum extrusion as a reinforcement bar to make the primary rail on the X-axis more rigid. These are the two longest and largest aluminum lengths on your machine and can be found in the heaviest long box alongside the other rails.
+With four blocks ready, set them aside.
 
-Of the two, the longer one is the X-axis rail and the shorter one is the reinforcement. You can also distinguish the two since the X-axis rail has sets of four threaded holes at its ends.
+<h2>Z-axis Motor Mount</h2>
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p3.JPG){.aligncenter .size-medium}
+<img class="wid aligncenter wp-image-2699 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-10_1-850x190.jpg" alt="" width="850" height="190" />
 
-Start by orienting the rails into a ‘lighting bolt’ pattern like in the photo so that the set of six holes on both can be aligned. Also, make sure to check that the small threaded hole on the X-axis rail (yellow) is oriented as shown so that you’ll be able to attach your drag chain later on.
+<img class="alignnone wp-image-7910 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/XZAxies_p2-850x487.jpg" alt="" width="850" height="487" />
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p4.jpg){.aligncenter .size-medium}
+With the prep out of the way, let’s continue on to the overall XZ-axis assembly. First you’ll want to get your Z-axis motor mount from where it would’ve been kept with the rest of the cutting tools and add-ons, we call this box the ‘variable box’. It’ll be a wrapped aluminum part similar in size to the router mount.
 
-Grabbing the M8-16mm bolts from the orange bag, you can use six of these to fasten these parts together; the bolts will go through the larger holes on the reinforcement bar and thread into the X-axis rail from the back (pictured). Start by turning each of these short M8 bolts in by hand to get all the holes aligned, then go back and tighten each of them down well with a size 6 Allen key.
+With this in hand you’ll also want to get the bag with bearings in it, of which you’ll just need two for now. Press these into both sides of the bore on the Z-axis motor mount. You should be able to assemble these easily with your thumbs.
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p5.JPG){.aligncenter .size-medium}
+<h2>Z-axis Mount Sub-assembly</h2>
 
-Your completed rail should now look something like this.
+<img class="wid aligncenter wp-image-7018 size-medium" src="https://resources.sienci.com/wp-content/uploads/2024/06/Header-3-1-850x205.jpg" alt="" width="850" height="205" />
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p6.jpg){.aligncenter .size-medium}
+<img class="wp-image-7244 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/XZAxies_p3-850x305.png" alt="" width="850" height="305" />
 
-[tabbyending]
+Going back to the parts, you’ll want to look for the short lead screw which will be packaged alongside the other, longer lead screws. This step will also use a locking ACME nut and a coupler from the bag of couplers. Grab the ACME nut and thread a couple inches (as pictured) onto the lead screw. Make sure the ACME nut still has its set screw.
 
-## Sandwiching the rail with the Y-gantries
+<b>Please Note:</b> There is a small bump coming out of one side of the clamping nut, that will need to face towards the short side of the lead screw.
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p11_parts.jpg){.aligncenter .size-medium .wid}
+<img class="wp-image-7243 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/XZAxies_p4-850x394.png" alt="" width="850" height="394" />
 
-After the previous step, you should now have four major assemblies completed: the <b>XZ-axis gantry</b>, the two <b>Y-gantries</b>, and the <b>X-axis rail</b>. These assemblies will all be coming together in this step, starting by sliding the XZ-axis gantry assembly onto the X-axis rail.
+Next, slide the short end of the lead screw through the bearings on the Z-axis motor mount. This fit may be tight so just do your best to hold everything in place and try to wiggle the lead screw or tap it with a mallet if needed. Make sure the bearings are sitting straight in the bore before applying force.
 
-<b>DO NOT</b> stand the completed assembly up on the v-wheels, it can roll away or become unbalanced which may cause it to fall and become damaged; just leave it laying on its back for the next steps. You can consider propping it up at an angle as well if you don’t want the weight of the assembly pressing on the back of the Z-axis motor mount.
+<img class="wp-image-7242 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/XZAxies_p5-850x418.png" alt="" width="850" height="418" />
 
-Before we start, you want to make sure that the eccentric nuts on the XZ-gantry are positioned correctly; this can be checked visually. Since the eccentric nuts have an offset hole point, rotating the nut will change the hole position. Looking at the gantry assembly from the front, this pictures shows the top, right eccentric nut at its lowest position. This puts the v-wheel closest to the bottom v-wheel, making the wheel spacing too narrow to install onto the X-axis rail.
+On the coupler, identify the end with the larger hole - this will be the only side that fits onto the lead screw. Push the coupler on until it bottoms out, then tighten the ‘lead screw side’ set screw using an M5 Allen key. <b>BEWARE!</b> Only tighten ONE of the set screws - the one on the lead screw side (as pictured). You’ll tighten the other set screw near the end of machine assembly. If you overtighten the wrong set screw it can deform your coupler and cause assembly issues.
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p12.jpg){.aligncenter .size-medium}
+<img class="wp-image-7241 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/XZAxies_p6-850x464.png" alt="" width="850" height="464" />
 
-Below, the eccentric nut is in its highest position. This spreads the v-wheels furthest apart, making it easy to slide the gantry on. This is how you want your eccentric nuts to be oriented to proceed with the assembly. This should also demonstrate the concept of how these eccentric nuts can be used to ‘clamp’ the v-wheels onto the aluminum rail in order to have rolling movement along the rail while still being rigid in other directions.
+Now rotate the coupler and ACME nut in opposite directions so that they come together to clamp onto the two bearings. Once they’re together, making a ‘bolted sandwich’, everything should be touching (as pictured).  Once in this position, tighten the set screw on the locking ACME nut. If assembled properly, this should now feel like a solid, single piece where the lead screw should only be allowed to rotate, and not move in-and-out. Set this assembly aside for now.
 
-To adjust the eccentric nuts, you’ll have to make sure that the bolts on the v-wheels are still loose, then you’ll be able to use an 8mm wrench or a pair of pliers to rotate the nut into the correct position. Once the eccentric nut is where you want it, re-tighten the bolt with a size 4 Allen key to secure the nut into position. Do this for both nuts.
+<h2>XZ-axis Gantry Sub-assembly</h2>
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p13.jpg){.aligncenter .size-medium}
+<img class="wid aligncenter wp-image-2706 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-13_1-850x237.jpg" alt="" width="850" height="237" />
 
-Lay the X-axis rail down along its length with the inside of the ‘L’ shape facing you and the small, tapped hole oriented to your left. Now take the XZ-axis gantry and slide it onto the rail.
+<img class="wp-image-3259 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/04/MK2-13_2-850x249.jpg" alt="" width="850" height="249" />
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p14.JPG "XZ-axis gantry being slide onto the X-axis rail from the right-hand side"){.aligncenter .size-medium}
+From the green bag, grab the ‘M5 washers’, ‘M5-25mm bolts’ and the ‘Delrin V-wheels’. If the v-wheels have an off-centered ring in the middle (pictured), use the small Allen key to move the ring back to the center.
 
-The v-wheels fit over the aluminum rail as pictured below. Check that they are sitting on the rail in the correct fashion and make sure that they roll along the edge of the rail properly.
+<img class="wp-image-3258 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/04/MK2-13_3-850x387.jpg" alt="" width="850" height="387" />
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p15.jpg){.aligncenter .size-medium}
+Using all 12 v-wheels, put the bolts through each with a washer on the other end. Ensure the washer is in the correct place, because this keeps the wheel from rubbing against the gantry and provides the correct spacing between the gantry and the lead screw.
 
-Now the eccentric nuts need to be tensioned in order for the v-wheels to properly hold onto the X-axis rail. This process is just like before when you widened the eccentric nuts, except now you want to rotate the nuts so that the v-wheels are brought closer together. Follow the process of loosening the v-wheel bolts with an Allen key, rotating the nut a small amount, re- tightening the bolts, and then checking the looseness of the wheels with your fingers. A properly tensioned system should roll smoothly along the rail but it should be difficult to use your fingers to turn the wheels by hand while the gantry is stationary. This applies to all four v-wheels, so be sure to check the wheels on both the top and the bottom.
+<img class="wp-image-3257 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/04/MK2-14-850x438.jpg" alt="" width="850" height="438" />
 
-Next, we’ll be putting the two Y-gantries onto each end of the X-axis rail. The orientation of each Y-gantry will be such that the wheels on the gantry will be facing towards the outside. Let’s start with the right-hand side.
+You should now find the XZ-gantry assembly among the cardboard wrap of the steel gantries. This looks like a smaller steel plate (Z-gantry) attached to a larger steel plate (X-gantry) via two sliding rails (pictured). First, check the movement of the Z-gantry by moving it up and down with your hand. The motion should be smooth, and there should not be any binding. The existing bolts going into the front and back of the plates should also already be reasonably secure but not fully torqued down.
 
-Line up the ‘L’-shaped slot on the steel plate with the rail and tap the plate into place. It works best if you put the slot and the rail head-on so that the slot and the rail line up straight. Note that because of the variance of paint thickness in the slot, you’ll chip some of it out as you mount the plate. These parts are a tight fit so that twisting in the X-axis can be kept to a minimum, so using a mallet and some coercion may be necessary but most importantly take your time.
+<img class="wp-image-7251 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/XZAxies_p14-815x850.png" alt="" width="815" height="850" />
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p16.JPG){.aligncenter .size-medium}
+Install two of the v-wheel assemblies onto the XZ-gantry assembly with two nylock nuts. Use the included wrench to keep the nuts in place, while you use an M5 (size 4) Allen key to tighten the v-wheels. The rounded end of the nylock nuts should face away from the gantry. Ensure that the nylock nuts are firmly secured.
 
-Once you get the plate on, get the M8-16 bolts from the orange bag and use four of each to secure the steel brackets to the rail. Tighten the bolts down with a size 6 Allen key until snug.
+<img class="wp-image-3293 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/04/MK2-15_2-edited-850x478.jpg" alt="" width="850" height="478" />
 
-Repeat the same process on the other side, being careful not to cause damage to the motor or the drag chain mount in the process if you need to use some force.
+Install two v-wheel assemblies at the bottom edge of the gantry - except this time, use two eccentric nuts. When placing the eccentric nuts inside the gantry holes, ensure the inner holes of the nuts are oriented towards the bottom edge of the gantry (pictured). Use the included wrench to keep the nuts in place, while you use the Allen key to loosely attach the v-wheels.
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p19.JPG){.aligncenter .size-medium}
+<img class="wp-image-3276 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/04/MK2-16-850x492.jpg" alt="" width="850" height="492" />
 
-Now that the larger X-axis assembly is done, this is what the completed assembly should look like!
+<h2>Attaching Anti-backlash Nuts</h2>
 
-## Adding the power transmission components
+<img class="wid wp-image-7004 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2024/06/Header-5-850x202.jpg" alt="" width="850" height="202" />
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p20_parts.jpg){.aligncenter .size-medium .wid}
+<img class="wp-image-8328 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/XZAxies_p7v2-850x806.png" alt="" width="850" height="806" />
 
-This step will attach the remaining components to the larger X-axis assembly.
+Using two M5-25mm bolts, loosely attach one Delrin anti-backlash nut to the back of the sliding Z-gantry. Make sure to use the two holes near the notch on the gantry (pictured).
 
-Start by grabbing the lead screws which you set aside much earlier in the assembly. Your LongMill comes with three lead screws, not accounting for the earlier one which was used for the Z-axis. For the 12×12 and 30×30 they’re all the same length and for the 12×30 the longer one is for this X-axis assembly. Get your lead screw and run it through the large hole on the right-side Y-gantry, threading it through the plastic block of the anti-backlash assembly as well.
+<img class="wp-image-8327 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/XZAxies_p8v2-712x850.png" alt="" width="712" height="850" />
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p21.JPG "Slide the lead screw through the hole on the right side"){.aligncenter .size-medium}
+Using another two bolts, loosely attach a second Delrin anti-backlash nut to the back of the X-gantry.
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p22.JPG "Turn the lead screw into the nut with your hand.")"{.aligncenter .size-medium}
+<img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2022/03/48EX-symbol.png" alt="" width="61" height="30" />
 
-Push the lead screw into the opposite bearing. Don't push it all the way into the coupler just yet.
+<a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#ex-delrin-nut-mounting"><img class="fortye aligncenter wp-image-3938 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX2-850x73.png" alt="" width="850" height="73" /></a>
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p23.JPG "Push the lead screw into the bearing."){.aligncenter .size-medium}
+<h2>Connecting the Sub-assemblies</h2>
 
-Take an M8 washer (found in the orange bag) and slide it between the coupler and the bearing and then push the lead screw through all three.
+<img class="wid wp-image-7254 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/XZAxies_p15-850x267.png" alt="" width="850" height="267" />
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p24.JPG){.aligncenter .size-medium}
+<img class="wp-image-8333 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/XZAxies_p5v2-3-850x716.png" alt="" width="850" height="716" />
 
-If the lead screw is getting a bit stuck on the bearing or coupler, you may have to do some wiggling or lightly tap it into position with a mallet from the other end.
+Slide the Z-axis motor mount onto the XZ-gantry assembly, checking that the orientation is correct (pictured). Thread the lead screw into the Z-gantry anti-backlash block between the two steel plates.
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p25.JPG "Put an M8 washer between the coupler and bearing."){.aligncenter .size-medium}
+<img class="wp-image-7236 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/XZAxies_p11-850x602.png" alt="" width="850" height="602" />
 
-In addition, on the other end you'll want to push the coupler all the way into the lead screw while holding the lead screw in the other hand so that the coupler is pushes the washer into the face of the flange bearing. Then tighten the set screw - on the lead screw side of the coupler - using a size 2.5 Allen key.
+Fasten two M5-25mm bolts on both sides of the Z-axis motor mount to secure the two assemblies together.
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p27.JPG "Fully seat and secure the lead screw."){.aligncenter .size-medium}
+<img class="wp-image-6998 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2024/06/Pic-11-850x481.jpg" alt="" width="850" height="481" />
 
-Now on the other side of the X-axis rail assembly, take a second flange bearing and slide it into place as shown. It should fit into the bore on the right-hand side of the right-side steel plate and if the fit is a bit tight then you can wiggle it or tap it into place.
+With everything secured together, you can finish tightening the two bolts holding the Z anti-backlash nut. Alternate making a couple turns onto one bolt and then the other until they’re both tightened down. If you twist hard onto just one bolt while the other one is loose it can twist the anti-backlash nut and misalign it to the lead screw.
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p28.JPG){.aligncenter .size-medium}
+<h2>Attaching the Router Mount</h2>
 
-There should still be three ACME locking nut assemblies that you’ve previously assembled. Grab one of these and thread it onto the lead screw from the right, turning it all the way until it’s against the bearing, then tighten the set screw to hold it in place. Make sure the nut is really tightened into place before tightening its set screw.
+<img class="wid aligncenter wp-image-2720 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-21_1-850x175.jpg" alt="" width="850" height="175" />
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p29.JPG){.aligncenter .size-medium}
+<img class="wp-image-7235 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/XZAxies_p12-850x308.png" alt="" width="850" height="308" />
 
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p29-2.JPG){.aligncenter .size-medium}
+Grabbing the router mount from the ‘variable box’, loosely attach the front using two M5-25mm bolts, then bolt the mount to the XZ-gantry assembly with another four M5-25mm bolts. Ensure the bottom of the router mount is flush with the bottom of the Z-gantry.
 
-This nut is used in combination with the coupler at the other end of the assembly to constrain the lead screw on the X-axis from moving side-to-side. As such, it’s a good idea to check that everything is secure by gently pulling on the lead screw to check for any looseness. Adjust the couplers and tighten the ACME lock nut more if you feel any play since you should be able to rotate the lead screw freely but not feel any side-to-side looseness.
-
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p30.JPG "Check for play by gently pulling on the lead screw both ways."){.aligncenter .size-medium}
-
-Once you're satisfied that the lead screw well mounted, you can revisit the X-axis motor coupler to finally tighten the set screw on the motor shaft side to properly couple the motor to the lead screw (pictured).
-
-![](/_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p31.JPG){.aligncenter .size-medium}
+<img class="wp-image-8325 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/XZAxies_p12v2-850x668.png" alt="" width="850" height="668" />

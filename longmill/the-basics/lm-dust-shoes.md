@@ -26,7 +26,7 @@ A **dust shoe** is basically a fancy vacuum attachment for your CNC machine, it 
 
 ![](/_images/_longmill/_the-basics/lm_dustshoe_p1.jpg){.aligncenter .size-medium}
 
-That said, dust management can still come in other forms like building an [enclosure for your CNC](\longmill\the-basics\lm-community-table-builds.md) or cutting outside. You might choose to do these if you:
+That said, dust management can still come in other forms like building an [enclosure for your CNC](https://resources.sienci.com/view/lm-community-table-builds/#machine-enclosure) or cutting outside. You might choose to do these if you:
 
 - are worried about the noise from running a vacuum or dust collector (though the noise of cutting can get similarly loud)
 - don't want to deal with the dust shoe colliding with clamps, material, or getting in the way during tool changes
