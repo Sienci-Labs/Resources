@@ -25,6 +25,10 @@ NOTES
 - I can add pics of cans of stain and finish and more paint if you think that would be helpful
 - Hard to tell how the pics will turn out, as they don't format in the preview on git
 
+**Add section** on Epoxy finishing - https://forum.sienci.com/t/how-should-i-finish-this/13995/20<br>
+**Add section** on French polishing - a wood finishing technique that results in a very high gloss surface, with a deep colour and chatoyancy. French polishing consists of applying many thin coats of shellac dissolved in denatured alcohol using a rubbing pad lubricated with one of a variety of oils
+**Emphasize** sealing as you go to stop bleed into the grain.
+
 ---
 
 ## Finishing CNC Projects

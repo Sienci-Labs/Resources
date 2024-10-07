@@ -30,6 +30,8 @@ Re-frame page https://resources.sienci.com/view/lmk2-workholding/ to be in the c
 - Might want to move it back up into a more general section since this would be info that people would want before setting their CNC up?
 
 top 5 methods to keep projects secure - IDCWoodcraft - https://www.youtube.com/watch?v=rRkjuLSV6Bc
+
+Community post - https://forum.sienci.com/t/hold-down-tip-contact-cement-instead-of-super-glue/2681/23
 ---
 
 Another aspect of learning how to use your CNC router involves knowing how to properly secure material down to the bed of the machine. Rigidly securing material to the machine bed is crucial when setting up to cut. Some clamping methods are rigid but are more intrusive, while others keep a low profile but aren't quite as strong. Play around with these methods to see which ones you can use individually or in combination for your ideal setup.
