@@ -23,9 +23,9 @@ NOTES
 - Index can be removed as WP creates it based on header. I used it to navigate in this doc.
 - I can add pics of cans of stain and finish and more paint if you think that would be helpful
 - Hard to tell how the pics will turn out, as they don't format in the preview on git
-- Wonder if we could do affiliate links with the products, most of the pics I grabbed from online stores (amazon, etc)
+- Wonder if we could do affiliate links with the products, most of the pics I grabbed from online stores (Amazon, etc)
 
-**Add section** on Epoxy finishing - https://forum.sienci.com/t/how-should-i-finish-this/13995/20<br> 
+**Add section** on Epoxy finishing - https://forum.sienci.com/t/how-should-i-finish-this/13995/20<br>
 
 or should this go into a new/separate page about epoxy design, pouring, sanding, polishing type of thing?
 
@@ -409,9 +409,9 @@ A tack cloth is a sticky, lint-free cloth used to remove dust, dirt, and debris 
 
 ### Painting Tips & Videos
 
-> ***Tips** Always paint in a well-ventilated area
-Use quality brushes and rollers to avoid streaks and brush marks
-Avoid applying thick coats to prevent drips or uneven coverage*
+> ***Tips** Always paint in a well-ventilated area.
+Use quality brushes and rollers to avoid streaks and brush marks.
+Avoid applying thick coats to prevent drips or uneven coverage.*
 
 | **Video Title**                                | **Description**                                                                             | **Duration**  | **Link**                                                                 |
 |------------------------------------------------|---------------------------------------------------------------------------------------------|---------------|--------------------------------------------------------------------------|
@@ -509,9 +509,9 @@ The application process involves evenly applying the finish, allowing it to dry,
 > - Test finishes on **scrap wood** before applying them to your main project.<br>
 > - Follow the **manufacturer’s instructions** for all products to ensure the best results.
 
-| **Video Title**                                  | **Description**                                                                                              | **Duration**  | **Link**                                                                           |
-|--------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------|-----------------------------------------------------------------------------------|
-| Unlock the Secret to Bleed-Free Projects!        | Learn techniques for bleed-free woodworking projects.                                                         | 11 minutes    | [Watch Video](https://www.youtube.com/watch?v=pCFW9ZdOu4k)  |
+|**Video Title**|**Description**|**Duration**| **Link**|
+|---|---|---|---|
+|Unlock the Secret to Bleed-Free Projects!|Learn techniques for bleed-free woodworking projects.| 11 minutes|[Watch Video](https://www.youtube.com/watch?v=pCFW9ZdOu4k)|
 | Beer Sign with Oramask: Super Crisp Lines        | Create a beer sign with crisp, clean lines using Easel and Xcarve with Oramask.                                | 32 minutes    | [Watch Video](https://www.youtube.com/watch?v=-ozmKRhxYOk)                        |
 | Start-to-Finish Sign Using Oramask               | A quick guide on making a sign using Oramask, from start to finish.                                            | 5 minutes     | [Watch Video](https://youtu.be/3_eTo8G4-vk?si=BdGsTRKzCKLGsDcj)                  |
 | Using Spray Paint and Masking for Signs          | Tutorial on using spray paint and masking techniques for making signs.                                         | 5 minutes     | [Watch Video](https://www.youtube.com/watch?v=ybz4rd2sG-Y)                        |
