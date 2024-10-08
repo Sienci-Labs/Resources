@@ -186,6 +186,7 @@ If you plan to commit a more dedicated setup to editing CNC resources, we have s
     - **Canadian English - Code Spell Checker** (since we tend to write in Canadian English)
     - **Batch Rename** (if you plan to rename large groups of files)
 1. Also a great website if you end up frequently making HTML tables is <https://www.tablesgenerator.com/html_tables#>
+1. And for comparing content between pages <https://www.textcompare.org/html/>
 
 Guide on using Git source control: <https://code.visualstudio.com/docs/sourcecontrol/overview>
 
