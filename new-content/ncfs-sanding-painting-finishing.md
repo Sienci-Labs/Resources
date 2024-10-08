@@ -20,14 +20,11 @@ Very beneficial to those who are less familiar with sanding, selecting stains or
 
 NOTES
 
-- Index can be removed as WP creates it based on header. I used it to navigate in this doc.
 - I can add pics of cans of stain and finish and more paint if you think that would be helpful
 - Hard to tell how the pics will turn out, as they don't format in the preview on git
 - Wonder if we could do affiliate links with the products, most of the pics I grabbed from online stores (Amazon, etc)
 
-**Add section** on Epoxy finishing - https://forum.sienci.com/t/how-should-i-finish-this/13995/20<br>
-
-or should this go into a new/separate page about epoxy design, pouring, sanding, polishing type of thing?
+**Add section** on Epoxy finishing - https://forum.sienci.com/t/how-should-i-finish-this/13995/20 or should this go into a new/separate page about epoxy design, pouring, sanding, polishing type of thing?
 
 ---
 
@@ -63,6 +60,8 @@ Continue reading to explore the key steps of finishing: **sanding**, **painting*
    - [Tips & Videos](#sealing-tips--videos)
    - [Finish Comparison Chart](#finish-comparison-chart)
    - [French Finishing](#french-finishing)
+
+This can be removed once publishing since WP creates its own. Just useful to navigate the doc before publish.
 
 ---
 
