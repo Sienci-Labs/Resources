@@ -21,13 +21,13 @@ Very beneficial to those who are less familiar with sanding, selecting stains or
 NOTES
 
 - Index can be removed as WP creates it based on header. I used it to navigate in this doc.
-- AI pics are used for each header and can be removed. Playing around to see if it could be of use. Fairly generic, so thought I'd include them for fun.
 - I can add pics of cans of stain and finish and more paint if you think that would be helpful
 - Hard to tell how the pics will turn out, as they don't format in the preview on git
+- Wonder if we could do affiliate links with the products, most of the pics I grabbed from online stores (amazon, etc)
 
-**Add section** on Epoxy finishing - https://forum.sienci.com/t/how-should-i-finish-this/13995/20<br>
-**Add section** on French polishing - a wood finishing technique that results in a very high gloss surface, with a deep colour and chatoyancy. French polishing consists of applying many thin coats of shellac dissolved in denatured alcohol using a rubbing pad lubricated with one of a variety of oils
-**Emphasize** sealing as you go to stop bleed into the grain.
+**Add section** on Epoxy finishing - https://forum.sienci.com/t/how-should-i-finish-this/13995/20<br> 
+
+or should this go into a new/separate page about epoxy design, pouring, sanding, polishing type of thing?
 
 ---
 
@@ -62,6 +62,7 @@ Continue reading to explore the key steps of finishing: **sanding**, **painting*
    - [Step By Step](#step-by-step-sealing-process)
    - [Tips & Videos](#sealing-tips--videos)
    - [Finish Comparison Chart](#finish-comparison-chart)
+   - [French Finishing](#french-finishing)
 
 ---
 
@@ -75,7 +76,7 @@ For best results, always sand in the direction of the grain, use protective gear
 
 > ***Tip:** Always protect yourself when sanding with protective glasses and a dusk mask.*
 
-![](aisand.jpg){.aligncenter .size-medium}
+![](_ncfs_lmk2_sandpaintfinish_aisand.jpg){.aligncenter .size-medium}
 
 ### Hand Sanding Tools
 
@@ -87,21 +88,21 @@ Hand sanding tools are ideal for precision work, tight spaces, or when you want 
   - **Usage**: Use lower grit for aggressive sanding and higher grits for finishing
   - **Types**: Aluminum oxide (general use), silicon carbide (wet/dry), garnet (fine finishing)
 
-   ![](sandpaper.jpg){.aligncenter .size-medium}
+ ![](_ncfs_lmk2_sandpaintfinish_sandpaper.jpg){.aligncenter .size-medium}
 
 #### **Sanding Block**
 
 - A block used to hold sandpaper flat for even sanding. Cut a strip of sandpaper and attach to the sanding block. Fast & comfortable to use
   - **Usage**: Prevents uneven sanding and helps apply uniform pressure
 
-![](sandingblock.jpg){.aligncenter .size-medium}
+![](_ncfs_lmk2_sandpaintfinish_sandingblock.jpg){.aligncenter .size-medium}
 
 #### **Sanding Sponge**
 
 - Flexible sponge coated with abrasive material. No sandpaper needed as it's already on the sponge!
 - **Usage**: Ideal for contours, curves, and irregular surfaces
 
-![](sandingsponge.jpg){.aligncenter .size-medium}
+![](_ncfs_lmk2_sandpaintfinish_sandingsponge.jpg){.aligncenter .size-medium}
 
 ### Power Sanding Tools
 
@@ -112,44 +113,44 @@ Power tools make the sanding process quicker and are ideal for larger surfaces o
 - A handheld sander that moves in small circles. You can also get a random orbital sander, that moves randomly instead of in circles
   - **Usage**: General-purpose sanding, producing a fine finish with minimal swirl marks
 
-![](orbitalsander.jpg){.aligncenter .size-medium}
+![](_ncfs_lmk2_sandpaintfinish_orbitalsander.jpg){.aligncenter .size-medium}
 
 #### **Detail Sander**
 
 - Small triangular-shaped sander
   - **Usage**: Designed for tight spaces, corners, and detailed work
 
-![](detailsander.jpg){.aligncenter .size-medium}
+![](_ncfs_lmk2_sandpaintfinish_detailsander.jpg){.aligncenter .size-medium}
 
 #### **Hand Drill & Dremel**
 
 - Uses drum, disc or mop sanding attachments that fit into a dremel or drill. These can be found online.
   - **Usage**: Use when light sanding is required or the surface is quite soft. Mops are great to get into tight spaces to remove wood fuzz
 
-![](dremel.jpg){.aligncenter .size-medium}
+![](_ncfs_lmk2_sandpaintfinish_dremel.jpg){.aligncenter .size-medium}
 
-![](/_images/_experimental-writing/dremelsandingbits.jpg){.aligncenter .size-medium}
+![](_ncfs_lmk2_sandpaintfinish_dremelsandingbits.jpg){.aligncenter .size-medium}
 
 #### **Belt Sander**
 
 - Uses a continuous loop of sandpaper. Can be a wide strip or thin wand unit
   - **Usage**: Best for removing large amounts of material quickly and levelling surfaces
 
-![](/_images/_experimental-writing/beltsanders.jpg){.aligncenter size-medium}
+![](_ncfs_lmk2_sandpaintfinish_beltsanders.jpg){.aligncenter size-medium}
 
 #### **Stationary Disc & Belt Sanders**
 
 - Uses a spinning disc of sandpaper, or a combo of belt and disc sandpaper. Can be mounted on a workbench or table
   - **Usage**: Suitable for rough sanding or shaping edges
 
-![](/_images/_experimental-writing/beltdrumsandercombo2.jpg){.aligncenter .size-medium}
+![](_ncfs_lmk2_sandpaintfinish_beltdrumsandercombo2.jpg){.aligncenter .size-medium}
 
 #### **Drum Sander**
 
 - A large, stationary sander with a rotating drum
   - **Usage**: Ideal for sanding large surfaces such as wooden floor boards. Great for removing old paint, varnish or discolourations and for levelling and smoothing large surfaces
 
-![](/_images/_experimental-writing/drumsander.webp){.aligncenter .size-medium}
+![](_ncfs_lmk2_sandpaintfinish_drumsander.jpg){.aligncenter .size-medium}
 
 By choosing the right tool for each stage, you can achieve a high-quality finish on your woodworking projects.
 
@@ -276,7 +277,7 @@ Painting wood enhances both its durability and visual appeal, making it a versat
 > ***Tip** The most important thing to a successful paint job is surface preparation. <br>
 Check out the section above on sanding to ensure you are ready to paint!*
 
-![](/_images/_experimental-writing/aipaint.jpg){.aligncenter .size-medium}
+![](_ncfs_lmk2_sandpaintfinish_aipaint.jpg){.aligncenter .size-medium}
 
 ### Tools
 
@@ -290,7 +291,7 @@ A versatile tool with bristles made from synthetic or natural materials, used fo
   - **Angled Brush**: For cutting-in and painting edges.
   - **Round Brush**: For detailed or decorative work.
 
-  ![](/_images/_experimental-writing/paintbrushes.jpg){.aligncenter .size-medium}
+  ![](_ncfs_lmk2_sandpaintfinish_paintbrushes.jpg){.aligncenter .size-medium}
 
 #### **Foam Brush**
 
@@ -299,7 +300,7 @@ A foam pad on a wooden handle used for applying paint or varnish with minimal br
 - **Usage**: Great for spreading thin, even coats without leaving bristle marks.
 - **Types**: Disposable foam brushes are available in different sizes, typically ranging from 1 to 4 inches.
 
-  ![](/_images/_experimental-writing/foambrushes.jpg){.aligncenter .size-medium}
+  ![](_ncfs_lmk2_sandpaintfinish_foambrushes.jpg){.aligncenter .size-medium}
 
 This is the markdown for your foam roller guide, and the image tag includes the specified formatting attributes `{.aligncenter .size-medium}`. You can adjust the image URL or text as needed.
 
@@ -310,7 +311,7 @@ An inexpensive, all-purpose brush with natural bristles. Not meant for fine fini
 - **Usage**: Ideal for quick touch-ups, stains, or cleaning jobs.
 - **Types**: Disposable or reusable, usually made with natural hog bristles.
 
-  ![](/_images/_experimental-writing/chipbrush.jpg){.aligncenter .size-medium}
+  ![](_ncfs_lmk2_sandpaintfinish_chipbrush.jpg){.aligncenter .size-medium}
 
 #### **Detail Brush**
 
@@ -319,7 +320,7 @@ A small, fine brush used for precise work, such as painting intricate patterns, 
 - **Usage**: Best for fine detailing, small touch-ups, and tight spaces.
 - **Types**: Synthetic or natural bristles, typically round or angular in shape.
 
-  ![](/_images/_experimental-writing/detailbrush.jpg){.aligncenter .size-medium}
+  ![](_ncfs_lmk2_sandpaintfinish_detailbrush.jpg){.aligncenter .size-medium}
 
 #### **Stain Brush**
 
@@ -328,7 +329,7 @@ A thick, wide brush designed for applying wood stains and varnishes. Has a high 
 - **Usage**: Apply stains and varnishes evenly over large surfaces.
 - **Types**: Available in various sizes and bristle materials, often 3–4 inches wide.
 
-  ![](/_images/_experimental-writing/stainbrush.jpg){.aligncenter .size-medium}
+ ![](_ncfs_lmk2_sandpaintfinish_stainbrush.jpg){.aligncenter .size-medium}
 
 #### **Spray Paint**
 
@@ -337,7 +338,7 @@ An aerosolized paint that allows for quick, even application over a wide area. I
 - **Usage**: Ideal for covering surfaces evenly, sign letters, stencils, or projects requiring multiple light coats.
 - **Types**: Available in various finishes such as matte, glossy, and metallic. Comes in different formulations, including general-purpose for wood/plastic/metal, primer and paint+primer.
 
-  ![](/_images/_experimental-writing/spraypaintcombo.jpg){.aligncenter .size-medium}
+![](_ncfs_lmk2_sandpaintfinish_spraypaintcombo.jpg){.aligncenter .size-medium}
 
 #### **Painter's Tape**
 
@@ -346,7 +347,7 @@ A specialized tape used to mask off areas that should not be painted, ensuring c
 - **Usage**: Apply along edges, trim, or anywhere you want to create crisp lines or protect from paint splatter. Make sure to press down firmly to prevent paint from seeping underneath.
 - **Types**: Available in different widths and adhesion levels, designed for various surfaces like drywall, wood, or glass.
 
-  ![](/_images/_experimental-writing/bluepaintape.jpg){.aligncenter .size-medium}
+![](_ncfs_lmk2_sandpaintfinish_bluepaintape.jpg){.aligncenter .size-medium}
 
 #### **Tack Cloth**
 
@@ -355,7 +356,7 @@ A tack cloth is a sticky, lint-free cloth used to remove dust, dirt, and debris 
 - **Usage**: Gently wipe the surface with the tack cloth to pick up fine dust and particles before applying primer or paint
 - **Types**: Available in various sizes and tackiness levels for different surface types. Some are designed for light-duty cleaning, while others are more robust for larger projects
 
-![](/_images/_experimental-writing/tackcloth.jpg){.aligncenter .size-medium}
+![](_ncfs_lmk2_sandpaintfinish_tackcloth.jpg){.aligncenter .size-medium}
 
 #### **Brush Care Tips**
 
@@ -427,7 +428,7 @@ The process involves applying the stain evenly, letting it soak into the wood, a
 
 > ***Tip:** Proper surface preparation, such as sanding, is crucial for an even and smooth stain application.*
 
-![](/_images/_experimental-writing/aistain.jpg){.aligncenter .size-medium}
+![](_ncfs_lmk2_sandpaintfinish_aistain.jpg){.aligncenter .size-medium}
 
 ### Stain Types
 
@@ -438,7 +439,7 @@ The process involves applying the stain evenly, letting it soak into the wood, a
 | Gel Stain             | Sits on top, great for vertical applications | Complex, detailed surfaces    |
 | Varnish Stain             | Combines stain and varnish for protective finish | Furniture & picture frames|
 
-![](/_images/_experimental-writing/staintypes.jpg "In this image you can see an oil based stain on the left, water in the middle and gel on the right"){.aligncenter .size-medium}
+![](_ncfs_lmk2_sandpaintfinish_staintypes.jpg "In this image you can see an oil based stain on the left, water in the middle and gel on the right"){.aligncenter .size-medium}
 
 ### Step-by-Step Staining Process
 
@@ -456,7 +457,12 @@ The process involves applying the stain evenly, letting it soak into the wood, a
 
 ### Staining Tips & Videos
 
-Exposing the grain with paint or stain in 1 min video with this cool tool. https://www.youtube.com/shorts/Z_xj91QG2zY
+> ***Tips** - Be careful trying to stain over any spots with left over wood glue, as the stain will not react the same as on the wood, and will expose a difference in colour.*
+
+| **Video Title**                                | **Description**                                                                             | **Duration**  | **Link**                                                                 |
+|------------------------------------------------|---------------------------------------------------------------------------------------------|---------------|--------------------------------------------------------------------------|
+| Cool Paint Tool    | This short video shows exposing the grain with a cool tool. | 1 minute    | [Watch Video](https://www.youtube.com/shorts/Z_xj91QG2zY)   |
+| Wood Staining Basics | Biggest wood staining mistakes and misconceptions | 8 minutes  | [Watch Video](https://www.youtube.com/watch?v=vfeAxUfoEdE)   |
 
 ---
 
@@ -468,7 +474,7 @@ The application process involves evenly applying the finish, allowing it to dry,
 
 > ***Tip:** A good sealant assists in preventing paint from bleeding into your projects that may use a V bit to carve a sign. You may want to use a sealant during parts of your carve to keep lines & text sharp.*
 
-![](/_images/_experimental-writing/aifinish.jpg){.aligncenter .size-medium}
+![](_ncfs_lmk2_sandpaintfinish_aifinish.jpg){.aligncenter .size-medium}
 
 ### Sealer Types
 
@@ -515,14 +521,60 @@ The application process involves evenly applying the finish, allowing it to dry,
 
 This chart helps you compare different finishing options for your project by comparing durability, drying time, appearance and if it's suitable for the outdoors.
 
-| **Finish Type**        | **Durability** | **Indoor/Outdoor** | **Drying Time**           | **Appearance**                 |
-|------------------------|----------------|--------------------|---------------------------|--------------------------------|
-| **Polyurethane**           | High           | Indoor             | 6-24 hours                | Glossy, durable                |
-| **Acrylic Paint**           | Moderate       | Indoor             | 1-2 hours per coat        | Colorful, matte/satin/glossy    |
-| **Oil-Based Stain**         | High           | Outdoor            | 4-6 hours                 | Enhances wood grain            |
-| **Water-Based Stain**       | Moderate       | Indoor             | 1-2 hours                 | Lighter color, easy cleanup    |
-| **Lacquer**                 | High           | Indoor             | 30 minutes - 1 hour       | Glossy, professional finish    |
-| **Beeswax Finish**          | Low            | Indoor               | Immediate                 | Soft, natural matte            |
-| **Spar Urethane**       | High           | Outdoor            | 2-4 hours per coat        | Flexible, durable, glossy/satin|
+| **Finish Type**           | **Durability** | **Indoor/Outdoor** | **Drying Time**           | **Appearance**                 |
+|---------------------------|----------------|--------------------|---------------------------|--------------------------------|
+| **Polyurethane**          | High           | Indoor             | 6-24 hours                | Glossy, durable                |
+| **Acrylic Paint**         | Moderate       | Indoor             | 1-2 hours per coat        | Colorful, matte/satin/glossy   |
+| **Oil-Based Stain**       | High           | Outdoor            | 4-6 hours                 | Enhances wood grain            |
+| **Water-Based Stain**     | Moderate       | Indoor             | 1-2 hours                 | Lighter color, easy cleanup    |
+| **Lacquer**               | High           | Indoor             | 30 minutes - 1 hour       | Glossy, professional finish    |
+| **Beeswax Finish**        | Low            | Indoor             | Immediate                 | Soft, natural matte            |
+| **Spar Urethane**         | High           | Outdoor            | 2-4 hours per coat        | Flexible, durable, glossy/satin|
+| **Shellac**               | Moderate       | Indoor             | 30 minutes - 1 hour       | Warm, high-gloss, rich depth   |
 
 ---
+
+### Advanced Techniques
+
+### French Finishing
+
+French finishing, also known as French polishing, is a traditional wood finishing technique that creates a high-gloss, mirror-like surface. This method is typically used on fine furniture and musical instruments, like a guitar and involves applying multiple thin layers of shellac.
+
+#### What is French Finishing?
+
+It's a labor-intensive process that uses shellac, alcohol, and a rubbing pad to build up a lustrous, deep finish on wood surfaces. This technique dates back to the 18th century and is still highly regarded for the rich, warm look it provides, especially on high-quality wood.
+
+- **Enhances wood beauty**: Ideal for bringing out the grain and natural warmth of the wood.
+- **Creates a durable surface**: Although delicate, the multiple layers of shellac create a surprisingly resilient finish.
+
+#### French Finishing Process
+
+1. **Prepare the Wood**
+   Sand the wood to a very smooth surface, progressing through grits from 120 up to 320 or even finer. Ensure the wood is free of any dust, scratches, or imperfections, as French finishing will highlight these.
+
+1. **Create the Padding**
+   Make a French polishing pad, or “rubber,” by wrapping a small ball of cotton in a soft, lint-free cloth. The pad should be shaped so that it has a smooth, even surface to glide over the wood without leaving marks.
+
+1. **Apply the Shellac**
+   Start by saturating the pad with a mixture of shellac and alcohol (typically a 1:1 ratio). Apply the shellac in long, sweeping motions, working in small circular or figure-eight movements to evenly coat the wood. Be careful not to press too hard, as this can damage the finish. Work in thin layers, allowing each layer to dry before applying the next.
+
+1. **Build Up Layers**
+   Continue applying layers of shellac until the desired depth and shine are achieved. This can take multiple sessions, as each layer should be allowed to dry for at least 30 minutes between applications. For a rich, glossy look, French polishers may apply 10-20 layers of shellac.
+
+1. **Lubricate with Oil**
+   To prevent the pad from sticking to the wood as you build layers, add a few drops of oil (such as mineral oil) to the pad. This will act as a lubricant and help achieve a smoother finish. Be sparing with the oil, as too much can dull the finish.
+
+1. **Finish and Buff**
+   Once you've built up a sufficient number of layers and achieved a deep gloss, allow the finish to fully cure (which may take up to a week). Then, lightly buff the surface with a clean, soft cloth to remove any residual oil and enhance the shine.
+
+   - French finishing works best on fine woods like mahogany and walnut.
+   - Avoid using the finish in high-moisture areas, as shellac can be sensitive to water.
+
+By following this process, you can achieve a stunning, professional-quality finish with a deep, luxurious sheen that highlights the natural beauty of the wood.
+
+> **Tip**: Practice on a scrap piece of wood to perfect your technique before applying French finish to a larger project.
+
+| **Video Title**                                | **Description**                                                        | **Duration**  | **Link**                                                                 |
+|------------------------------------------------|--------------------------------------------------------------------------|---------------|--------------------------------------------------------------------------|
+| French Polishing for the complete beginner                   | A quick overview of the French polishing method.                          |  8 minutes | [Watch Video](https://www.youtube.com/watch?v=XJQuk05jlyE)               |
+| Wood Magazine                     | The centuries-old process of applying finish using a shellac-soaked cloth pad                | 5 minutes  | [Watch Video](https://www.youtube.com/watch?v=PDoXn0uM2gw)               |
