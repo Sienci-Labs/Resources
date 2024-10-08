@@ -75,7 +75,7 @@ For best results, always sand in the direction of the grain, use protective gear
 
 > ***Tip:** Always protect yourself when sanding with protective glasses and a dusk mask.*
 
-![](/_images/_experimental-writing/aisand.jpg){.aligncenter .size-medium}
+![](aisand.jpg){.aligncenter .size-medium}
 
 ### Hand Sanding Tools
 
@@ -87,21 +87,21 @@ Hand sanding tools are ideal for precision work, tight spaces, or when you want 
   - **Usage**: Use lower grit for aggressive sanding and higher grits for finishing
   - **Types**: Aluminum oxide (general use), silicon carbide (wet/dry), garnet (fine finishing)
 
-   ![](/_images/_experimental-writing/sandpaper.jpg){.aligncenter .size-medium}
+   ![](sandpaper.jpg){.aligncenter .size-medium}
 
 #### **Sanding Block**
 
 - A block used to hold sandpaper flat for even sanding. Cut a strip of sandpaper and attach to the sanding block. Fast & comfortable to use
   - **Usage**: Prevents uneven sanding and helps apply uniform pressure
 
-![](/_images/_experimental-writing/sandingblock.jpg){.aligncenter .size-medium}
+![](sandingblock.jpg){.aligncenter .size-medium}
 
 #### **Sanding Sponge**
 
 - Flexible sponge coated with abrasive material. No sandpaper needed as it's already on the sponge!
 - **Usage**: Ideal for contours, curves, and irregular surfaces
 
-![](/_images/_experimental-writing/sandingsponge.jpg){.aligncenter .size-medium}
+![](sandingsponge.jpg){.aligncenter .size-medium}
 
 ### Power Sanding Tools
 
@@ -112,21 +112,21 @@ Power tools make the sanding process quicker and are ideal for larger surfaces o
 - A handheld sander that moves in small circles. You can also get a random orbital sander, that moves randomly instead of in circles
   - **Usage**: General-purpose sanding, producing a fine finish with minimal swirl marks
 
-![](/_images/_experimental-writing/orbitalsander.jpg){.aligncenter .size-medium}
+![](orbitalsander.jpg){.aligncenter .size-medium}
 
 #### **Detail Sander**
 
 - Small triangular-shaped sander
   - **Usage**: Designed for tight spaces, corners, and detailed work
 
-![](/_images/_experimental-writing/detailsander.jpg){.aligncenter .size-medium}
+![](detailsander.jpg){.aligncenter .size-medium}
 
 #### **Hand Drill & Dremel**
 
 - Uses drum, disc or mop sanding attachments that fit into a dremel or drill. These can be found online.
   - **Usage**: Use when light sanding is required or the surface is quite soft. Mops are great to get into tight spaces to remove wood fuzz
 
-![](/_images/_experimental-writing/dremel.jpg){.aligncenter .size-medium}
+![](dremel.jpg){.aligncenter .size-medium}
 
 ![](/_images/_experimental-writing/dremelsandingbits.jpg){.aligncenter .size-medium}
 
