@@ -19,6 +19,7 @@ Page for help those running a business with CNC project pricing
 
 - Excel file was posted to the LM FB group
 - Lots of other videos on the topic
+- What to sell, where to sell, How to price, Efficiencies & time savings
 
 ---
 
