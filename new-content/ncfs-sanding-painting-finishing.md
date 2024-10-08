@@ -511,7 +511,7 @@ The application process involves evenly applying the finish, allowing it to dry,
 |**Video Title**|**Description**|**Duration**| **Link**|
 |---|---|---|---|
 |Unlock the Secret to Bleed-Free Projects!|Learn techniques for bleed-free woodworking projects.| 11 minutes|[Watch Video](https://www.youtube.com/watch?v=pCFW9ZdOu4k)|
-| Beer Sign with Oramask: Super Crisp Lines        | Create a beer sign with crisp, clean lines using Easel and Xcarve with Oramask.                                | 32 minutes    | [Watch Video](https://www.youtube.com/watch?v=-ozmKRhxYOk)                        |
+| Beer Sign with Oramask: Super Crisp Lines        | Create a beer sign with crisp, clean lines using Easel and X-carve with Oramask.                                | 32 minutes    | [Watch Video](https://www.youtube.com/watch?v=-ozmKRhxYOk)                        |
 | Start-to-Finish Sign Using Oramask               | A quick guide on making a sign using Oramask, from start to finish.                                            | 5 minutes     | [Watch Video](https://youtu.be/3_eTo8G4-vk?si=BdGsTRKzCKLGsDcj)                  |
 | Using Spray Paint and Masking for Signs          | Tutorial on using spray paint and masking techniques for making signs.                                         | 5 minutes     | [Watch Video](https://www.youtube.com/watch?v=ybz4rd2sG-Y)                        |
 | Sanding Techniques for Finishing Signs           | Learn why a sanding block may be better than a random orbital sander when finishing signs, with Mark Lindsey.   | 14 minutes    | [Watch Video](https://www.youtube.com/watch?v=bZPEaOhzx0s)                        |
