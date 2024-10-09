@@ -17,10 +17,14 @@ featured_image:
 Improves on https://resources.sienci.com/view/lmk2-cnc-routers/ but make the information more general about what CNCs can do more broadly
 **Kelly has said that she'll be working on this**
 
-- Outline how a CNC works and moves
-- The kinds of projects you can make
+- Outline how a CNC works and moves and act as a landing page to distribute out to other common questions
+- Pictures of what you can make with a CNC, examples of common projects
 - Add Sally’s cutting display? Faces project
 - https://www.youtube.com/watch?v=NWDrWbCbI3s CNC routers can do all that?!!?
+- Good intro CNC vid inspiration https://youtu.be/ta0xnLkr4AU
+- List of common costs to consider to own a CNC arranged from generally most expensive to least and gives price ranges
+- That list also briefly talks about why those items are needed and then links through to full explainer pages
+- Explain that CNCs can typically be used for fun and training all the way up to industry
 
 ---
 

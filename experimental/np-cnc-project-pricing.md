@@ -19,7 +19,11 @@ Page for help those running a business with CNC project pricing
 
 - Excel file was posted to the LM FB group
 - Lots of other videos on the topic
+- Do you really want to be a business owner? https://youtu.be/YLs0_jACteA
 - What to sell, where to sell, How to price, Efficiencies & time savings
+- Really REALLY great point at the end of this video that addresses the reasons for charging a rate vs. wage for custom-made goods that I think we should definitely pass on to our customers https://youtu.be/9GxrUYu6NL4
+- https://carbide3d.com/learn/cnc-projects-that-sell/
+- https://discuss.inventables.com/t/pricing-for-products-made-with-x-carve/149670
 
 ---
 

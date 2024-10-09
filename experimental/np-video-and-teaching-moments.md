@@ -17,7 +17,11 @@ featured_image:
 Can go in “Handbook” section
 Video navigation of curated YouTube content from our channel and others
 
-Video list / ideas
+The playlists are very hectic, but hopefully there's some good content you can find in there. Also I'm sure other videos I just haven't saved over the years
+https://youtube.com/playlist?list=PLRDpJ3bWCwJEDsgkDgAd09ZGNk5PmsgwY
+https://youtube.com/playlist?list=PLRDpJ3bWCwJEXh-snA7O5IP6XDKuInWZj
+
+Video list / ideas https://docs.google.com/spreadsheets/d/1E0OjxS94refzqD2dPYFVux_vyTAK2U0YEE0Yzp3Sc9U/edit?gid=0#gid=0
 
 - CNC Routers Can Do ALL That? - WOOD magazine https://www.youtube.com/watch?v=NWDrWbCbI3s
 - Things to teach through running a project

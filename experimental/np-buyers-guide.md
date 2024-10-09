@@ -22,6 +22,8 @@ Try to make as neutral a writeup as possible on how to choose what CNC is best f
 - What style machine best suits people's needs
 - Lay out pros and cons of all the linear motion systems
   - Mechanical engineering perspective of different motion systems and how they pertain to maintenance, cost, accuracy, etc. This would be stuff like V-wheels, linear rails, belts, lead screws, ball screws
+  - https://www.avidcnc.com/support/faq/#which-is-better-a-screw-or-rack-and-pinion-drive
+  - https://www.camaster.com/frequently-asked-questions/
   - Argument of running wheels vs. rails, Grant thinks that it might actually come down to people wanting to blame the CNC suddenly going wrong to attribute it to the v-wheels since they need constant adjustment so they think if they switched to rails then that wouldn't happen anymore
   - FAQ in forum about why adjustable wheels are on top
   - Use pictures from the most recent Onefinity post showing problems
@@ -32,9 +34,11 @@ Try to make as neutral a writeup as possible on how to choose what CNC is best f
   - https://www.etsy.com/ca/listing/1122074243/onefinity-cnc-ball-screw-wipers-complete
   - https://forum.onefinitycnc.com/t/wiper-comes-loose-white-plastic-ring-on-ball-screw/3687
   - https://forum.onefinitycnc.com/t/tightening-a-loose-wiper-in-the-foot-of-the-onefinity-cnc-support/11007
+- The accuracy of different homing sensors, referencing many other write-ups and videos on the topics including the accuracy of the sensorless homing
 - Great video, part near the end that talks about tool price and what a higher price gets you https://youtu.be/pktydCxlqz4
 - Mention 3-in-1 machines and why they just don't make sense nowadays with cheap 3D printers and cheap laser cutters
   - Link some forum posts and whatnot, like: https://reddit.com/r/hobbycnc/s/g3yojwhAXE
+- Typical types of maintenance needed
 - Buying options
 
 ---
