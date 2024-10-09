@@ -24,6 +24,7 @@ Before getting started, check what your current version is by going to the ‘Co
 - <a href="https://drive.google.com/file/d/1OkQO__QnYzhPuF42d4AN5KY_MbVRJlqy/view?usp=drive_link" target="_blank" rel="noopener">5.0.3</a>: firmware shipped with original batch of SLBs
 - <a href="https://drive.google.com/file/d/1-1W322z5idOQmhREUlAVHQBAa6PCsN63/view?usp=sharing" target="_blank" rel="noopener">5.0.5</a>: the current, most up-to-date available
   - Updated default homing speed to stop occasional disconnection issues
+  - Fixed issue with E-stop hit requiring board power cycle to clear
 - AltMill firmware (<a href="https://drive.google.com/file/d/1M3tsSpptwMZusubu4m91cdJ5OqTFyJH8/view?usp=drive_link" target="_blank" rel="noopener">5.0.11</a>)
 
 ## Flashing Summary
