@@ -87,20 +87,30 @@ We also share a record of every part and assembly of every version of add-on tha
 
 [su_row]
 [su_column size="1/2" center="no" class="viewer-desc"]**T-Track and Hold Down Clamps**
-Custom T-track can uniquely fit common 1/4-20 hardware, clamps can be cut from wood, and clamp ends can be 3D printed to replace them when damaged.<br>
+Custom T-track can uniquely fit common 1/4-20 hardware, clamps can be cut from wood, and clamp ends can be 3D printed to replace them when damaged.<br><br>
 <a href="https://resources.sienci.com/wp-content/uploads/2022/03/sienci-wood-clamp-100mm.stl">⭳ CNC the Wood Clamps (STL)</a>
 <a href="https://resources.sienci.com/wp-content/uploads/2022/03/sienci-steel-clamp-end-cap.stl">⭳ 3D print the End Caps (STL)</a>
 <a href="https://cad.onshape.com/documents/4002cf32491a7a7a17c84759/w/f9f2dc06d2e8375fa2fb89a3/e/b15017972da9d310d5b53e22" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
 [/su_column] [su_column size="1/2" center="no" class=""]![](/_images/_longmill/_advanced/lm-os-sienci-t-tracks-and-clamps.jpg){.aligncenter .size-medium .opensource}[/su_column]
 [/su_row]
 
-**Original dust shoe:** <a href="https://CAD.onshape.com/documents/07e5303fe93ccde67c101960/w/c7cd5aa0b4420ce125d689ab/e/69e82b99626dfcaf2b1c2d59" target="_blank" rel="noopener noreferrer">https://cad.onshape.com/documents/07e5303fe93ccde67c101960/w/c7cd5aa0b4420ce125d689ab/e/69e82b99626dfcaf2b1c2d59</a>
-
-**3-axis touch plate:** <a href="https://CAD.onshape.com/documents/b76785c85e8458b0e88b64a5/w/0eed2327264503a991f2d6eb/e/52643898e09eacae9cfe69aa" target="_blank" rel="noopener noreferrer">https://cad.onshape.com/documents/b76785c85e8458b0e88b64a5/w/0eed2327264503a991f2d6eb/e/52643898e09eacae9cfe69aa</a>
-
 **Magnetic dust shoe:** <a href="https://CAD.onshape.com/documents/a9fe29798e2a4a3b922e0f4c/w/5dddcc3c2571fe6d5db5e9f9/e/9ac187bdd116a3cac962083b" target="_blank" rel="noopener noreferrer">https://cad.onshape.com/documents/a9fe29798e2a4a3b922e0f4c/w/5dddcc3c2571fe6d5db5e9f9/e/9ac187bdd116a3cac962083b</a>
 
-**Inductive Limit Switch kit:** <a href="https://CAD.onshape.com/documents/15239cb55b0f1ca51ac023d5/w/99c28fb4551b087c3e771995/e/f03172e385d7c2967cc4f03c?">https://cad.onshape.com/documents/15239cb55b0f1ca51ac023d5/w/99c28fb4551b087c3e771995/e/f03172e385d7c2967cc4f03c?</a>
+**Original dust shoe:** <a href="https://CAD.onshape.com/documents/07e5303fe93ccde67c101960/w/c7cd5aa0b4420ce125d689ab/e/69e82b99626dfcaf2b1c2d59" target="_blank" rel="noopener noreferrer">https://cad.onshape.com/documents/07e5303fe93ccde67c101960/w/c7cd5aa0b4420ce125d689ab/e/69e82b99626dfcaf2b1c2d59</a>
+
+[su_row]
+[su_column size="1/2" center="no" class="viewer-desc"]**Touch Plate (3-axis / block-style)**
+A typical block-style, 3-axis touch plate we designed for finding X, Y, and Z-zero on 3-axis CNCs.<br><br>
+<a href="https://cad.onshape.com/documents/b76785c85e8458b0e88b64a5/w/0eed2327264503a991f2d6eb/e/47780af64de032893b1197da" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
+[/su_column] [su_column size="1/2" center="no" class=""] [3d_viewer id="11179"] [/su_column]
+[/su_row]
+
+[su_row]
+[su_column size="1/2" center="no" class="viewer-desc"]**MK1 Inductive Sensor kit**
+5V inductive barrel sensors for reliable homing in any environment. Take measurements in Onshape if you want to make your own mounting setup.<br><br>
+<a href="https://cad.onshape.com/documents/15239cb55b0f1ca51ac023d5/w/99c28fb4551b087c3e771995/e/f03172e385d7c2967cc4f03c" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
+[/su_column] [su_column size="1/2" center="no" class=""]![](/_images/_longmill/_advanced/lm-os-longmill-mk1-inductive-sensors.jpg){.aligncenter .size-medium .opensource}[/su_column]
+[/su_row]
 
 **BOM of all add-ons:** <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1028766194" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1028766194</a>
 
