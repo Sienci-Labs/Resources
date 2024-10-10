@@ -14,7 +14,7 @@ Actionable items:
 - Running jobs page could use more elaboration in places, and pictures
 - Mention how to handle safe heights regularly vs with the Vortex
 - How to zero in different scenarios or find zero on a piece of round stock or in stock center
-  - Great video Idea but there’s a much easier way to do this https://www.youtube.com/watch?v=P6TMRDtXMGA
+  - Great video idea but there’s a much easier way to do this https://www.youtube.com/watch?v=P6TMRDtXMGA
 - Mention in surfacing page that it's useful for flatten material for v-carving to keep text at a consistent depth
 - Your MK2, write section on how to identify your LongMill model
 
