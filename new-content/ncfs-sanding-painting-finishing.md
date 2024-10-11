@@ -35,37 +35,48 @@ If you've made it this far, it means you've had some success on your machine and
 ### 🔍 **I want to:**
 
 **Do a general cleanup of my piece**
-   - ➡️ Jump right into the [**Step By Step Guide**](#step-by-step-process), or use the [**Grit Guide**](#grit-guide) to ensure you are [**Choosing the Right Grit**](#choosing-the-right-grit).
-   - 🛠️ You can also sand most projects with [**Hand Tools**](#hand-sanding-tools).
+
+- ➡️ Jump right into the [**Step By Step Guide**](#step-by-step-process), or use the [**Grit Guide**](#grit-guide) to ensure you are [**Choosing the Right Grit**](#choosing-the-right-grit).
+- 🛠️ You can also sand most projects with [**Hand Tools**](#hand-sanding-tools).
 
 **Remove tool marks**
-   - 💪 For a bit of extra muscle, head over to the [**Power Tools**](#power-sanding-tools) section. These tools will help you smooth out any lingering tool marks.
+
+- 💪 For a bit of extra muscle, head over to the [**Power Tools**](#power-sanding-tools) section. These tools will help you smooth out any lingering tool marks.
 
 **Remove wood fuzzies left over from a 3D carve**
-   - 🔧 Reach for a [**Dremel or hand drill**](#hand-drill--dremel) and check out the [**Tips & Videos**](#sanding-tips--videos) section for techniques on handling those delicate fuzzies.
+
+- 🔧 Reach for a [**Dremel or hand drill**](#hand-drill--dremel) and check out the [**Tips & Videos**](#sanding-tips--videos) section for techniques on handling those delicate fuzzies.
 
 **Complete a box, cutting board, or sign**
-   - 🔪 Discover **5 reasons why** [**Breaking the Edges**](#break-the-edges) should be the norm when finishing these projects!
+
+- 🔪 Discover **5 reasons why** [**Breaking the Edges**](#break-the-edges) should be the norm when finishing these projects!
 
 **Apply a water-based paint, finish or stain**
-   - 🌊 [**Raising the Grain**](#raising-the-grain) is a key step you don’t want to miss, especially when applying a water-based finish or stain.
+
+- 🌊 [**Raising the Grain**](#raising-the-grain) is a key step you don’t want to miss, especially when applying a water-based finish or stain.
 
 **Paint my project**
-   - 🎨 First select your [**Tools**](#tools) and [**Paint**](#types-of-paint--primer), then follow the [**Step By Step**](#step-by-step-painting-process) guide.
+
+- 🎨 First select your [**Tools**](#tools) and [**Paint**](#types-of-paint--primer), then follow the [**Step By Step**](#step-by-step-painting-process) guide.
 
 **Stain my project**
-   - 🖌️ With your [**Stain**](#stain-types) selected, begin the [**Step By Step**](#step-by-step-staining-process) process.
+
+- 🖌️ With your [**Stain**](#stain-types) selected, begin the [**Step By Step**](#step-by-step-staining-process) process.
 
 **Have a food safe finish**
-   - 🍴Safety first! Check out the [**Types of Sealant**](#sealer-types) chart to ensure you are using the correct sealer for you kitchen items. You can also use the [**Step By Step**](#step-by-step-sealing-process) guide!
+
+- 🍴Safety first! Check out the [**Types of Sealant**](#sealer-types) chart to ensure you are using the correct sealer for you kitchen items. You can also use the [**Step By Step**](#step-by-step-sealing-process) guide!
 
 **Seal my sign for outdoor use**
-   - 🪧 Use the [**Finish Comparison Chart**](#finish-comparison-chart) to see what products can be used outdoors.
+
+- 🪧 Use the [**Finish Comparison Chart**](#finish-comparison-chart) to see what products can be used outdoors.
 
 **Level up with some hot tips**
-   - 💡Swing by the [**Tips 4 Sanding**](#sanding-tips--videos), [**Tips 4 Painting**](#painting-tips--videos), [**Tips 4 Staining**](#staining-tips--videos), [**Tips 4 Sealing**](#sealing-tips--videos). Explore [**French Finishing**](#french-finishing) for a mirror like finish.
+
+- 💡Swing by the [**Tips 4 Sanding**](#sanding-tips--videos), [**Tips 4 Painting**](#painting-tips--videos), [**Tips 4 Staining**](#staining-tips--videos), [**Tips 4 Sealing**](#sealing-tips--videos). Explore [**French Finishing**](#french-finishing) for a mirror like finish.
 
 **Know everything**
+
 - 🎓 Every journey begins with the first step, or page in this case. Go straight to the front of the line and read everything about [**Sanding**](#sanding), [**Painting**](#painting), [**Staining**](#sanding) or [**Sealing**](#sealing). You can let us know if we missed anything by sending us a message at the bottom of the page!
 
 ---
@@ -193,7 +204,7 @@ By choosing the right tool for each stage, you can achieve a high-quality finish
 | Move up the Grits!!                              | Explains how to move up the grits when sanding.                      | Under 2 minutes | [Watch Video](https://www.youtube.com/watch?v=KiE4Pk_gu50)            |
 | Top 5 Tips for Orbital Sanding                   | Pro tips for orbital sanding.                                        | Under 1 minute  | [Watch Video](https://www.youtube.com/shorts/FXmkWtLTgJw)             |
 | Filling a Crack or Gap with Sawdust and Glue     | Shows how to fill cracks or gaps with sawdust and glue to match.     | 3 minutes       | [Watch Video](https://www.youtube.com/watch?v=UE-elux6fQw)            |
-|Mini Mops? Like a sanding mop just smaller?       | Great explanation on small detail sanding.                          | 3 minutes       |[Watch Video](https://youtu.be/2r2Zt_K76O4?si=1A82kGx5OyQTXx_V)
+|Mini Mops? Like a sanding mop just smaller?       | Great explanation on small detail sanding.                          | 3 minutes       |[Watch Video](https://youtu.be/2r2Zt_K76O4?si=1A82kGx5OyQTXx_V) |
 
 ---
 
@@ -486,10 +497,10 @@ The application process involves evenly applying the finish, allowing it to dry,
 | Polyurethane              | Gloss/Satin/Matte       | High-traffic areas, durability               | No                                          |
 | Lacquer                   | High Gloss, Fast Drying | Professional-quality finish, easy to repair  | No                                          |
 | Shellac                   | High Gloss              | Easy to apply, traditional wood finish       | Yes (once fully cured)                      |
-| Beeswax                       | Soft, Matte Finish      | Low durability, but smooth, natural look     | Yes  |
+| Beeswax                   | Soft, Matte Finish      | Low durability, but smooth, natural look     | Yes  |
 | Mineral Oil               | Low sheen               | Cutting boards, bowls, and utensils          | Yes                                         |
 | Walnut Oil                | Low sheen               | Food-safe finish for cutting boards and utensils | Yes                                     |
-| Tung Oil                  | Matte/Natural           | Penetrates wood well, durable natural finish | Yes (pure tung oil)                         |
+| Tung Oil                  | Matte/Natural           | Penetrates wood well, durable natural finish | Yes                         |
 | Food-Grade Linseed Oil    | Matte/Natural           | Butcher blocks, cutting boards, wooden bowls | Yes                                         |
 
 You can use this Markdown table in your documentation, and it will render with the same columns and rows, making it easy to read and understand.
