@@ -18,50 +18,59 @@ Can go in “Handbook” section
 Very beneficial to those who are less familiar with sanding, selecting stains or clear-coats, painting, and other aspects of finishing off your average CNC project
 **Stephen is working on this**
 
-NOTES
-
-- 
-
 ---
 
 ## Finishing CNC Projects
 
 Once your CNC woodworking project is complete, it's crucial to apply the right finishing touches to enhance both its durability and appearance. Proper finishing not only improves aesthetics but also helps protect the wood by sealing it from moisture, preventing it from absorbing water or releasing it.
 
-Continue reading to explore the key steps of finishing: **sanding**, **painting**, **staining**, and **sealing**, ensuring your project is long-lasting and visually appealing.
+### 🎉 Congrats! 🎉  
+
+If you've made it this far, it means you've had some success on your machine and created something worth… finishing! 🛠️ There are several approaches you can take, and this guide is packed with useful information. Depending on what you’re sanding, painting, staining, or finishing, you may find that different techniques work better for your specific project. Let's see if we can guide you in the right direction.  
+
+🪵 Explore the projects below for links to different finishing techniques:  
 
 ---
 
-1. [Sanding](#1-sanding)
-   - [Hand Tools](#hand-sanding-tools)
-   - [Power Tools](#power-sanding-tools)
-   - [Choosing the Right Grit](#choosing-the-right-grit)
-   - [Grit Guide](#grit-guide)
-   - [Step By Step](#step-by-step-process)
-   - [Tips & Videos](#sanding-tips--videos)
-   - [Raising the Grain](#raising-the-grain)
-   - [Breaking the Edges](#break-the-edges)
-1. [Painting](#2-painting)
-   - [Tools](#tools)
-   - [Types of Paint & Primer](#types-of-paint--primer)
-   - [Step By Step](#step-by-step-painting-process)
-   - [Tips & Videos](#painting-tips--videos)
-1. [Staining](#3-staining)
-   - [Stain Types](#stain-types)
-   - [Step By Step](#step-by-step-staining-process)
-   - [Tips & Videos](#staining-tips--videos)
-1. [Sealing](#4-sealing)
-   - [Types of Sealant](#sealer-types)
-   - [Step By Step](#step-by-step-sealing-process)
-   - [Tips & Videos](#sealing-tips--videos)
-   - [Finish Comparison Chart](#finish-comparison-chart)
-   - [French Finishing](#french-finishing)
+### 🔍 **I want to:**
 
-This can be removed once publishing since WP creates its own. Just useful to navigate the doc before publish.
+**Do a general cleanup of my piece**
+   - ➡️ Jump right into the [**Step By Step Guide**](#step-by-step-process), or use the [**Grit Guide**](#grit-guide) to ensure you are [**Choosing the Right Grit**](#choosing-the-right-grit).
+   - 🛠️ You can also sand most projects with [**Hand Tools**](#hand-sanding-tools).
+
+**Remove tool marks**
+   - 💪 For a bit of extra muscle, head over to the [**Power Tools**](#power-sanding-tools) section. These tools will help you smooth out any lingering tool marks.
+
+**Remove wood fuzzies left over from a 3D carve**
+   - 🔧 Reach for a [**Dremel or hand drill**](#hand-drill--dremel) and check out the [**Tips & Videos**](#sanding-tips--videos) section for techniques on handling those delicate fuzzies.
+
+**Complete a box, cutting board, or sign**
+   - 🔪 Discover **5 reasons why** [**Breaking the Edges**](#break-the-edges) should be the norm when finishing these projects!
+
+**Apply a water-based paint, finish or stain**
+   - 🌊 [**Raising the Grain**](#raising-the-grain) is a key step you don’t want to miss, especially when applying a water-based finish or stain.
+
+**Paint my project**
+   - 🎨 First select your [**Tools**](#tools) and [**Paint**](#types-of-paint--primer), then follow the [**Step By Step**](#step-by-step-painting-process) guide.
+
+**Stain my project**
+   - 🖌️ With your [**Stain**](#stain-types) selected, begin the [**Step By Step**](#step-by-step-staining-process) process.
+
+**Have a food safe finish**
+   - 🍴Safety first! Check out the [**Types of Sealant**](#sealer-types) chart to ensure you are using the correct sealer for you kitchen items. You can also use the [**Step By Step**](#step-by-step-sealing-process) guide!
+
+**Seal my sign for outdoor use**
+   - 🪧 Use the [**Finish Comparison Chart**](#finish-comparison-chart) to see what products can be used outdoors.
+
+**Level up with some hot tips**
+   - 💡Swing by the [**Tips 4 Sanding**](#sanding-tips--videos), [**Tips 4 Painting**](#painting-tips--videos), [**Tips 4 Staining**](#staining-tips--videos), [**Tips 4 Sealing**](#sealing-tips--videos). Explore [**French Finishing**](#french-finishing) for a mirror like finish.
+
+**Know everything**
+- 🎓 Every journey begins with the first step, or page in this case. Go straight to the front of the line and read everything about [**Sanding**](#sanding), [**Painting**](#painting), [**Staining**](#sanding) or [**Sealing**](#sealing). You can let us know if we missed anything by sending us a message at the bottom of the page!
 
 ---
 
-## 1. Sanding
+## Sanding
 
 Sanding is essential for smoothing rough surfaces left by the CNC process, removing imperfections, and preparing wood for finishing. Use different **hand tools** (sandpaper, sanding block, sanding sponge) or **power tools** (orbital sander, detail sander, belt sander) depending on the task. Choose the correct grit to begin and follow the grit progression (rough, medium, fine) for the best results.
 
@@ -184,6 +193,7 @@ By choosing the right tool for each stage, you can achieve a high-quality finish
 | Move up the Grits!!                              | Explains how to move up the grits when sanding.                      | Under 2 minutes | [Watch Video](https://www.youtube.com/watch?v=KiE4Pk_gu50)            |
 | Top 5 Tips for Orbital Sanding                   | Pro tips for orbital sanding.                                        | Under 1 minute  | [Watch Video](https://www.youtube.com/shorts/FXmkWtLTgJw)             |
 | Filling a Crack or Gap with Sawdust and Glue     | Shows how to fill cracks or gaps with sawdust and glue to match.     | 3 minutes       | [Watch Video](https://www.youtube.com/watch?v=UE-elux6fQw)            |
+|Mini Mops? Like a sanding mop just smaller?       | Great explanation on small detail sanding.                          | 3 minutes       |[Watch Video](https://youtu.be/2r2Zt_K76O4?si=1A82kGx5OyQTXx_V)
 
 ---
 
@@ -263,7 +273,7 @@ To do this, simply use a medium or fine grit sanding block, to make a couple of 
 
 ---
 
-## 2. Painting
+## Painting
 
 Painting wood serves multiple purposes, including protection & surface sealing, helping to prevent chips, cracks, warping, mold and moisture. It also adds endless design possibilities and customization.
 
@@ -413,7 +423,7 @@ Avoid applying thick coats to prevent drips or uneven coverage.*
 
 ---
 
-## 3. Staining
+## Staining
 
 Staining wood offers a natural and elegant way to enhance the grain and color of the wood while still providing protection and durability. Wood stain penetrates the surface, allowing the texture and beauty of the wood to remain visible, unlike paint, which covers it. Stains come in a variety of shades, offering plenty of design options while preserving the wood's organic appearance.
 
@@ -459,7 +469,7 @@ The process involves applying the stain evenly, letting it soak into the wood, a
 
 ---
 
-## 4. Sealing
+## Sealing
 
 Applying a wood finish is essential for enhancing both the appearance and longevity of your project. A wood finish helps protect the surface from wear, moisture, and environmental damage, while also adding a subtle sheen that highlights the wood’s natural beauty. Unlike stains or paints, finishes are typically clear or semi-transparent, preserving the wood’s original color and grain.
 
@@ -471,12 +481,18 @@ The application process involves evenly applying the finish, allowing it to dry,
 
 ### Sealer Types
 
-| **Sealer Type**      | **Finish**              | **Best For**                                 |
-|----------------------|-------------------------|----------------------------------------------|
-| Polyurethane          | Gloss/Satin/Matte       | High-traffic areas, durability.              |
-| Lacquer               | High Gloss, Fast Drying | Professional-quality finish, easy to repair. |
-| Shellac               | High Gloss              | Easy to apply, traditional wood finish.      |
-| Wax                   | Soft, Matte Finish      | Low durability, but smooth, natural look.    |
+| **Sealer Type**           | **Finish**              | **Best For**                                 | **Food Safe**                               |
+|---------------------------|-------------------------|----------------------------------------------|---------------------------------------------|
+| Polyurethane              | Gloss/Satin/Matte       | High-traffic areas, durability               | No                                          |
+| Lacquer                   | High Gloss, Fast Drying | Professional-quality finish, easy to repair  | No                                          |
+| Shellac                   | High Gloss              | Easy to apply, traditional wood finish       | Yes (once fully cured)                      |
+| Beeswax                       | Soft, Matte Finish      | Low durability, but smooth, natural look     | Yes  |
+| Mineral Oil               | Low sheen               | Cutting boards, bowls, and utensils          | Yes                                         |
+| Walnut Oil                | Low sheen               | Food-safe finish for cutting boards and utensils | Yes                                     |
+| Tung Oil                  | Matte/Natural           | Penetrates wood well, durable natural finish | Yes (pure tung oil)                         |
+| Food-Grade Linseed Oil    | Matte/Natural           | Butcher blocks, cutting boards, wooden bowls | Yes                                         |
+
+You can use this Markdown table in your documentation, and it will render with the same columns and rows, making it easy to read and understand.
 
 ### Step-by-Step Sealing Process
 
