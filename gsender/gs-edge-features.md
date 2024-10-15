@@ -140,4 +140,5 @@ Another of gSender’s Design Principals is colouring. It can be scary to have a
 
 ![](/_images/_gsender/_edge/notification.jpg){.aligncenter .size-medium}
 
-
+testing, testing, testing
+testing new lappy connection!
