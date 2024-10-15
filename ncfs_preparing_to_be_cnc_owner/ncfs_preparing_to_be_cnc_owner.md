@@ -3,7 +3,7 @@ title: Preparing to be a CNC Owner
 menu_order: 0
 post_status: draft
 post_excerpt: 
-post_date: 2024-09-10 3:55
+post_date: 2024-10-15 3:55
 taxonomy:
     knowledgebase_cat: 
     knowledgebase_tag:        
@@ -19,7 +19,7 @@ Set the expectations of someone starting on the CNC journey to set a reasonable 
 **Stephen is working on this**
 
 - What accessories to buy and where to buy them
-- The bits required to make different projects and where to source them
+- The bits required to make different projects and where to source them - Starter kits
 
 Ensure this is positive and doesn't scare people off
 
@@ -27,17 +27,25 @@ Ensure this is positive and doesn't scare people off
 
 You've done the hours of research and are ready to embark on your CNC journey. Ready to push the boat from the shore and jump in with both oars straining under your power. You will make magnificent creations that the world will line up to gander at. In time your marvels will be in a museum! Wait, is that rain I feel on my cheek? (Downpour of information incoming) Why am I veering off to the left all the time in this boat? (Machine maintenance) Did I remember to pack a bailer to get this water out?(How am I gonna do this? Community can help)
 
+This isn't like 3D printing, where you will be able to find a file and drop it into your printer software to produce an object. You will need to tell the cnc where you want it to cut or what toolpath to follow.
+
 We get it. It's a really exciting time and you are eager to start! Let's review what you are getting yourself into, the learning journey you will be taking and what icebergs to look out for along the way.
 
 ### Costs
 
-Machine, router or spindle, accessories, end mills<br>
-Dust collection strategy<br>
-Safety equipment<br>
-Computer, monitor, mouse<br>
-Software<br>
-Supplies - workholding, sandpaper, finishing oils & stains, saws, sanders, etc<br>
-Table - worktable + wasteboard + enclosure (video playlist here?!!?)<br>
+Hobby CNC machines come in various types and price ranges, often depending on the specific brand, build quality, size, and functionality. You will need to purchase the machine,  router or spindle, accessories, end mills<br>
+
+| Component                                    | Description                                               | Cost Range       |
+|----------------------------------------------|-----------------------------------------------------------|------------------|
+| **CNC Machine**                              | Various hobby CNC machines suitable for different projects | $200 - $10,000   |
+| **Router or Spindle**                        | Motorized component for cutting or milling; may vary in power and precision | $50 - $300       |
+| **Accessories**                              | Essential tools such as end mills, clamps, and wrenches   | $20 - $200+      |
+| **Dust Collection System**                   | Setup for managing dust and debris, essential for clean workspace | $50 - $300       |
+| **Safety Equipment**                         | Protective gear like safety glasses, hearing protection, and masks | $10 - $100       |
+| **Computer, Monitor, and Mouse**             | Necessary hardware to run CNC software; quality may vary depending on project needs | $300 - $1,000    |
+| **Software (CAM/CAD)**                       | Software for computer-aided design and manufacturing; may include free or paid options | $100 - $1,000    |
+| **Supplies**                                 | Consumables such as workholding devices, sandpaper, and finishing products | $50 - $200+      |
+| **Table and Enclosure Setup**                | Custom worktable, wasteboard, and enclosure to stabilize and contain the CNC machine | $100 - $500      |
 
 ### Machine Maintenance
 
