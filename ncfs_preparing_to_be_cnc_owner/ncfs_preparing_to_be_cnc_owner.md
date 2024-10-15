@@ -70,6 +70,8 @@ Setting up your CNC woodworking area requires careful planning, as you'll need m
 - **Tools and Bits:**  
   Over time, you’ll accumulate a variety of bits, clamps, and accessories. Make sure you have proper storage for these tools near your CNC machine to ensure quick access and to avoid misplacing or damaging small, delicate items like end mills and bits.
 
+  Digital calipers are a must for a cnc machine operator. 
+
 The **Sienci Labs SuperLongBoard (SLB)** and the spindle you'll be using with your CNC setup have specific power requirements you should be aware of, particularly when it comes to **amp draw**.
 
 1. **Spindle Power Draw**:
@@ -111,6 +113,7 @@ Make sure to plan your workshop's electrical setup to accommodate these requirem
 
 - **Software Updates:** CAD/CAM software is constantly evolving, so you’ll need to stay updated on new features or changes. This might require learning new tools or workflows.
 - **Firmware and Hardware Upgrades:** Occasionally, you may need to update the firmware of your CNC machine or upgrade components as new technologies are released, improving precision and functionality.
+Often you can purchase and or download finished 3D models or files directly from Etsy or Thingaverse, so you don't have to design everything from scratch. Often you can insert your name or begin to make tweaks to the files once you own them.
 
 ### 8. **Community Support**
 
