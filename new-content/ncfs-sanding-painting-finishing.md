@@ -13,17 +13,6 @@ custom_fields:
 skip_file: yes
 featured_image: 
 ---
-
-Can go in “Handbook” section
-Very beneficial to those who are less familiar with sanding, selecting stains or clear-coats, painting, and other aspects of finishing off your average CNC project
-**Stephen is working on this**
-
-- Wonder if we could do affiliate links with the products, most of the pics I grabbed from online stores (Amazon, etc)
-
-**Add section** on Epoxy finishing - https://forum.sienci.com/t/how-should-i-finish-this/13995/20 or should this go into a new/separate page about epoxy design, pouring, sanding, polishing type of thing?
-
----
-
 ## Finishing CNC Projects
 
 Once your CNC woodworking project is complete, it's crucial to apply the right finishing touches to enhance both its durability and appearance. Proper finishing not only improves aesthetics but also helps protect the wood by sealing it from moisture, preventing it from absorbing water or releasing it.
