@@ -356,11 +356,11 @@ If you’re looking for advice on how to ensure you have reliable sensing:
 - Occasionally check your wiring by pulling or wiggling it to make sure nothing is loose - all switches share the same ground and VCC signals, plus individual limit signals, so a false trigger could ruin a job
 - Using shielded cable can help dissipate electrical noise in the wires and prevent unexpected triggers
 
-Using the big green connector is the same as using the smaller white JST connectors, they are connected to each other on the board so it doesn’t matter which one you use. The terminal pinouts are 5V, X, Y1, Y2, Z, A, GND going left to right, and the JSTs are 5V, GND, N/A, LIM going top to bottom. The most common custom setup is shown below (**NC switches or NPN sensors wired to the green connector**).
+Using the big green connector is the same as using the smaller white JST connectors, they are connected to each other on the board so it doesn’t matter which one you use. The terminal pinouts are VCC, X, Y1, Y2, Z, A, GND going left to right, and the JSTs are VCC, GND, N/A, LIM going top to bottom. The most common custom setup is shown below (**NC switches or NPN sensors wired to the green connector**).
 
 ![](/_images/_superlongboard/_manual/slb_ma_p27_LSWiring.jpg){.aligncenter .size-full}
 
-If you want to wire for a different setup, see below for other wiring variations:
+By default, VCC outputs 5V. If you want to wire for a different setup, see below for other wiring variations:
 
 - NC (also already shown above), NC with hard-stops
 - NO, NO with hard-stops
@@ -368,7 +368,7 @@ If you want to wire for a different setup, see below for other wiring variations
 
 ![](/_images/_superlongboard/_manual/slb_ma_p28_NCNO.jpg){.aligncenter .size-full}
 
-If you’d like to use the white JST connectors instead, the wiring pinouts are below for both mechanical switches and inductive sensors. Note that all VCC outputs can also be changed from 5V to 24V if you'd like by breaking the 0Ω resistor on R9 and creating a solder bridge across R10 (outlined in red in the middle of the first homing picture).
+If you’d like to use the white JST connectors instead, the wiring pinouts are below for both mechanical switches and inductive sensors. All VCC outputs can also be changed from 5V to 24V if you'd like by breaking the 0Ω resistor on R9 and creating a solder bridge across R10 (outlined in red in the middle of the first homing picture).
 
 ![](/_images/_superlongboard/_manual/slb_ma_p29_WCPins.jpg){.aligncenter .size-full}
 
@@ -493,7 +493,9 @@ At this point, you should be able to use commands to power your laser on and off
 
 ### Action Buttons
 
-With the SLB you can set up three customizable buttons to help control your CNC however you prefer. These actions can be something simple like Starting or Pausing a cutting job, toggling a signal to an IOT relay, or even custom g-code for probing, or moving the cutting head backwards once you’ve finished a job. The pins only need simple buttons that can handle a digital signal to work.
+With the SLB you can set up three customizable buttons to help control your CNC however you prefer. These actions can be something simple like Starting or Pausing a cutting job, toggling a signal to an IOT relay, or even custom g-code for probing, or moving the cutting head backwards once you’ve finished a job. These buttons are available on the SLBs E-stop, but you can also digitally short the pins to ground through the E-stop connector if you want to do custom wiring.
+
+![](/_images/_superlongboard/_manual/slb_ma_p9_EStopButts.jpg){.aligncenter .size-medium}
 
 By default, the Action buttons have been set up so that 1 is **Resume**, 2 is **Pause**, and 3 is **Stop**. There is the full list of pre-made actions like this that you can choose from such as:
 
@@ -740,21 +742,27 @@ You can read more about how this control works and our approach here: <a href="h
 
 ### 4th/A-axis
 
-Available if you’re looking to set up a fourth, fully independent cutting axis. This rotary “A-axis” is set up to run along the width/X-axis of your CNC and also has an independent limit switch hookup. Advantages over ‘rotary switch’ setups are:
+The SLB is able to support an extra fourth, fully independent cutting axis too. This rotary “A-axis” is set up to run along the width (X-axis) of your CNC and has some advantages over a typical ‘rotary switch’ setup:
 
 - The Y-axis motors can stay powered while cutting, meaning they can hold their position for more accurate cutting and not rely on lead screw friction clamping the CNCs Y-axis
 - There’s no ‘changeover’ process which saves you time and mistakes since you don’t need to swap back to realign the rotary, or bother with toggling switches or changing settings
 - If you’re ready to dive in, you can generate much more complex and efficient cuts using all 4 axes of movement and creating even more impressive projects
 
-This takes the form of two independent plugs labelled for an “A-axis”, where you can plug in your rotary axis limit switch and external motor driver. Any motor driver rated for the stepper motor you’re planning to use and can be driven by Step/Dir common-cathode arranged signals will work. If your limit switch doesn’t have a JST connector, you can also use the terminal connector ‘Limits’ A-axis output.
+If you set one of these up yourself, you can either check out our [Vortex rotary axis with a pre-made wiring loom and closed-loop NEMA 23 with a built-in driver](https://sienci.com/product/vortex-rotary-axis/) that you can use for your own rotary setup or upgrade your existing open-loop Vortex, or you should pick up your own independant motor driver. Most motor drivers on the market will do like a **DM542** or **TB6600** but use your best judgement and be mindful of who you buy from.
 
-This is the most complex to set up, not just because of the custom wiring involved but because we also currently don’t have many recommendations when it comes to making 4th axis toolpaths easily or without having to pay for expensive options. There are some things that we’ve tried to work well though like Snapmaker’s Luban software. We’ll update this section with more once we have more to recommend.We’ll also look into offering a pre-made wiring loom and driver kit to purchase in the future. For now most motor drivers on the market will do like a **DM542** or **TB6600** but use your best judgement and be mindful of who you buy from.
-
-![](/_images/_superlongboard/_manual/slb_ma_p45_4thAxis.jpg){.aligncenter .size-full}
+The main downside of this setup though is that most hobby CAM software is yet to catch up to the hardware and support 4-axis toolpaths. This means that you'll either still use it for 3-axis cutting (alongside some of the benefits mentioned above) or you'll have to get creative in finding a solution that works for you by manually modifying code, using indexing, or paying for a more expensive CAM software. We've currently only tried [Snapmaker’s Luban software](#tips-for-luban-a-axis-cam), though we’ll update this section once we have more to recommend.
 
 #### Driver Wiring
 
-For wiring up the 4th axis driver, you’ll need to provide it with an external power source as well as connect the drivers signal pins to the SLB. The exact connector is a "Female IDC Flat Ribbon Cable Connector, 8 pins, 2 Row, 2.54mm Pitch", but you can also realistically use any 2.54mm spaced connector cables.
+![](/_images/_superlongboard/_manual/slb_ma_p45_4thAxis.jpg){.aligncenter .size-full}
+
+This takes the form of two independent plugs labelled for an “A-axis”, where you can plug in your:
+
+1. Motor driver to the drivers signals on the SLB (black plug)
+2. A-axis limit switch (white plug), and
+3. Additional power supply to your motor driver
+
+Any motor driver that can be driven by Step/Dir common-cathode arranged signals will work as long as it's rated for the stepper motor you’re planning to use. The black connector is a "Female IDC Flat Ribbon Cable Connector, 8 pins, 2 Row, 2.54mm Pitch", but you can also use any 2.54mm spaced connector cables. Also if your limit switch doesn’t have a JST connector, you use the terminal connector ‘Limits’ A-axis output.
 
 - <a href="https://www.digikey.ca/en/products/detail/adam-tech/FCS-08-SG/9832361" target="_blank" rel="noopener">https://www.digikey.ca/en/products/detail/adam-tech/FCS-08-SG/9832361</a>
 - <a href="https://www.amazon.ca/Elegoo-120pcs-Multicolored-Breadboard-arduino/dp/B01EV70C78/" target="_blank" rel="noopener">https://www.amazon.ca/Elegoo-120pcs-Multicolored-Breadboard-arduino/dp/B01EV70C78/</a>
@@ -775,7 +783,7 @@ Once the wiring is complete, in your g-code sender check that the rotary is movi
 
 If you're experiencing movement precision problems, check the 2nd point in the <a href="#troubleshoot-rotary">Troubleshoot Rotary section</a>.
 
-#### Cut &amp; Experiment
+#### Cut & Experiment
 
 If you’re happy that your rotary is turning successfully, feel free to try out some sample 4th axis files we made to test how your setup is working. Some things to keep in mind to carve these sample files successfully:
 
@@ -787,13 +795,16 @@ If you’re happy that your rotary is turning successfully, feel free to try ou
 
 If you’re ever running into a situation where clicking “Zero A” in gSender sets the value to 0.01 or 0.02 instead of zero, this is a known bug with grbl and grblHAL where the location doesn’t get reported back from the machine correctly, but the location is definitely being set to zero. This can be a little stressful to see but unfortunately we don’t have the ability to fix it ourselves.
 
-<b>Tips to set up Luban for A-axis CAM:</b>
+#### Tips for Luban A-axis CAM
 
-- Select “link” as the carve option inside Luban, otherwise you’ll just get 3 axis movements
-- Remember to define the tool geometry
-- After you export the code, remove the default header since it contains a bunch of Snapmaker specific M-codes that grbl doesn’t support
-- Check the first Z-movement to make sure there are no unexpected plunges
-- Do a find and replace such that X➜Y; Y➜X; B➜A. The rotary on the Snapmaker machine is lined up along the Y-axis, so such replacements are needed.
+Download it here: <https://www.snapmaker.com/en-US/snapmaker-luban>
+
+- Select “link” as the carve option inside Luban, otherwise you’ll just get 3-axis movements
+- Remember to define the shape of your tool
+- After you export the code, open it in a text editor to:
+  - Remove the default header since it contains some Snapmaker-specific M-codes that grbl doesn’t support
+  - Check the first Z-movement to make sure there are no unexpected plunges
+  - Do a find and replace to change X into Y; then Y➜X; then B➜A. The rotary on the Snapmaker machine is lined up along the Y-axis, so you need to switch it to be along the X-axis.
 
 ## Enclosure Mounting
 
