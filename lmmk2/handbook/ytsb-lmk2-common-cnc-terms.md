@@ -146,7 +146,7 @@ Cutting away material on a CNC is affected by two major factors:
 
 **g-code** - The text used by CNC machines to interpret and communicate commands. Many machines use g-code, not just CNC machines but laser cutters and 3D printers. There are many different languages within g-code, for various applications made by different manufacturers and researchers.
 
-**grbl** - A CNC g-code language used by many hobby level CNC machines, such as Shapeoko, XCarve, Onefinity and the LongMill. grbl is compatible with Arduino,  therefore many CNC machines use the Arduino as the “brains.”
+**grbl** - A CNC g-code language used by many hobby level CNC machines, such as Shapeoko, X-Carve, Onefinity and the LongMill. grbl is compatible with Arduino,  therefore many CNC machines use the Arduino as the “brains.”
 
 **Machine Interface** - a software program that controls the CNC machine by sending g-code to the machine. Features such as running and visualizing g-code files, jogging and zeroing are commonly found in machine interface programs.
 
