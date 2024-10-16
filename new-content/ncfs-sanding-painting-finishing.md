@@ -32,56 +32,85 @@ Once your CNC woodworking project is complete, it's crucial to apply the right f
 
 If you've made it this far, it means you've had some success on your machine and created something worth… finishing! 🛠️ There are several approaches you can take, and this guide is packed with useful information. Depending on what you’re sanding, painting, staining, or finishing, you may find that different techniques work better for your specific project. Let's see if we can guide you in the right direction.  
 
-🪵 Explore the projects below for links to different finishing techniques:  
+🪵 Click the following topics to explore links to different finishing techniques:  
 
 ---
 
-### 🔍 **I want to:**
+<details>
+<summary><strong style="font-size: 1.2em;">Sanding</strong> - Once the piece comes off the CNC, sanding will remove imperfections, improve appearance and prep your project for colouring or protecting.</summary>
 
-**Do a general cleanup of my piece**
+### Do a general cleanup of my piece
 
-- ➡️ Jump right into the [**Step By Step Guide**](#step-by-step-process), or use the [**Grit Guide**](#grit-guide) to ensure you are [**Choosing the Right Grit**](#choosing-the-right-grit).
-- 🛠️ You can also sand most projects with [**Hand Tools**](#hand-sanding-tools).
+- ➡️ For almost all of your projects you will want to have sanding as a part of the process. Jump right into the [**Step By Step Guide**](#step-by-step-process), or use the [**Grit Guide**](#grit-guide) to ensure you are [**Choosing the Right Grit**](#choosing-the-right-grit) sandpaper.
+- 🛠️ Most projects can be sanded by hand, with [**Hand Tools**](#hand-sanding-tools).
 
-**Remove tool marks**
+### For a bit of extra muscle
 
-- 💪 For a bit of extra muscle, head over to the [**Power Tools**](#power-sanding-tools) section. These tools will help you smooth out any lingering tool marks.
+- 💪 Sometimes you are working on a larger project, doing batches, or have discovered that your project is showing some tool marks. In these cases, head over to the [**Power Tools**](#power-sanding-tools) section. These tools will help you work faster with more power. They really help get out stuborn ridges left behind by your bit and help smooth out any lingering tool marks.
 
-**Remove wood fuzzies left over from a 3D carve**
+![](_ncfs_lmk2_sandpaintfinish_toolmarks.jpg "Tool marks left from surfacing"){.aligncenter .size-medium}
+
+### Remove wood fuzzies left over from a 3D carve
 
 - 🔧 Reach for a [**Dremel or hand drill**](#hand-drill--dremel) and check out the [**Tips & Videos**](#sanding-tips--videos) section for techniques on handling those delicate fuzzies.
 
-**Complete a box, cutting board, or sign**
+![](_ncfs_lmk2_sandpaintfinish_rawwood.jpg "Here you can see some wood fuzzies on the left. This piece is unfinished at this point."){.aligncenter .size-medium}
+
+### Protect the edges of a box, cutting board, or sign
 
 - 🔪 Discover **5 reasons why** [**Breaking the Edges**](#break-the-edges) should be the norm when finishing these projects!
 
-**Apply a water-based paint, finish or stain**
+![](_ncfs_lmk2_sandpaintfinish_brokeedge.jpg "The top of the box has a broken edge, but not the inside of the lid. This ensures a clean seam"){.aligncenter .size-medium}
+
+### Apply a water-based paint, finish or stain
 
 - 🌊 [**Raising the Grain**](#raising-the-grain) is a key step you don’t want to miss, especially when applying a water-based finish or stain.
 
-**Paint my project**
+</details>
+
+<details>
+<summary><strong style="font-size: 1.2em;">Change colour</strong> - Painting and staining not only protect your wood, but enhance the appearance, highlight grain and unleash your creativity.</summary>
+
+### Paint my project
 
 - 🎨 First select your [**Tools**](#tools) and [**Paint**](#types-of-paint--primer), then follow the [**Step By Step**](#step-by-step-painting-process) guide.
 
-**Stain my project**
+![](_ncfs_lmk2_sandpaintfinish_painting.jpg "Even one simple colour can really make projects pop!"){.aligncenter .size-medium}
+
+### Stain my project
 
 - 🖌️ With your [**Stain**](#stain-types) selected, begin the [**Step By Step**](#step-by-step-staining-process) process.
 
-**Have a food safe finish**
+![](_ncfs_lmk2_sandpaintfinish_stainhandles.jpg "Both handles came from the same branch. Unstained on the left, quickly stained on the right"){.aligncenter .size-medium}
 
-- 🍴Safety first! Check out the [**Types of Sealant**](#sealer-types) chart to ensure you are using the correct sealer for you kitchen items. You can also use the [**Step By Step**](#step-by-step-sealing-process) guide!
+</details>
 
-**Seal my sign for outdoor use**
+<details>
+<summary><strong style="font-size: 1.2em;">Project Protection</strong> - Avoid having your project crack, split or fade and prevent moisture from going in/out. You worked hard to make this, the final step is to protect it!</summary>
 
-- 🪧 Use the [**Finish Comparison Chart**](#finish-comparison-chart) to see what products can be used outdoors.
+<br>
 
-**Level up with some hot tips**
+![](_ncfs_lmk2_sandpaintfinish_crackedlion.jpg "Without anything to protect the lion, it cracked up"){.aligncenter .size-medium}
 
-- 💡Swing by the [**Tips 4 Sanding**](#sanding-tips--videos), [**Tips 4 Painting**](#painting-tips--videos), [**Tips 4 Staining**](#staining-tips--videos), [**Tips 4 Sealing**](#sealing-tips--videos). Explore [**French Finishing**](#french-finishing) for a mirror like finish.
+### Have a food safe finish
 
-**Know everything**
+- 🍴 Safety first! Check out the [**Types of Sealant**](#sealer-types) chart to ensure you are using the correct sealer for your kitchen items. You can also use the [**Step By Step**](#step-by-step-sealing-process) guide!
 
-- 🎓 Every journey begins with the first step, or page in this case. Go straight to the front of the line and read everything about [**Sanding**](#sanding), [**Painting**](#painting), [**Staining**](#sanding), or [**Sealing**](#sealing). You can let us know if we missed anything by sending us a message at the bottom of the page!
+![](_ncfs_lmk2_sandpaintfinish_cuttingboard.jpg "This cutting board was sealed with Tung Oil"){.aligncenter .size-medium}
+
+### Seal my sign for outdoor use
+
+- 🪧 Use the [**Finish Comparison Chart**](#finish-comparison-chart) to see what products can be used on signs that go outdoors.
+
+### Level up with some hot tips
+
+- 💡 Swing by [**Tips 4 Sanding**](#sanding-tips--videos), [**Tips 4 Painting**](#painting-tips--videos), [**Tips 4 Staining**](#staining-tips--videos), [**Tips 4 Sealing**](#sealing-tips--videos). Explore [**French Finishing**](#french-finishing) for a mirror-like finish.
+
+### Know everything
+
+- 🎓 Every journey begins with the first step, or page in this case. Go straight to the front of the line and read everything about [**Sanding**](#sanding), [**Painting**](#painting), [**Staining**](#staining), or [**Sealing**](#sealing). You can let us know if we missed anything by sending us a message at the bottom of the page!
+
+</details>
 
 ---
 
@@ -442,7 +471,7 @@ Avoid applying thick coats to prevent drips or uneven coverage.*
 
 Staining wood offers a natural and elegant way to enhance the grain and color of the wood while still providing protection and durability. Wood stain penetrates the surface, allowing the texture and beauty of the wood to remain visible, unlike paint, which covers it. Stains come in a variety of shades, offering plenty of design options while preserving the wood's organic appearance.
 
-The process involves applying the stain evenly, letting it soak into the wood, and wiping off the excess. Multiple coats can be applied for a richer finish, and **pre-stain conditioner** is recommended for softwoods to ensure even absorption.
+The process involves applying the stain evenly, letting it soak into the wood, and wiping off the excess. Multiple coats can be applied for a richer finish, and **pre-stain conditioner** can be used for softwoods to ensure even absorption.
 
 > ***Tip:** Proper surface preparation, such as sanding, is crucial for an even and smooth stain application.*
 
