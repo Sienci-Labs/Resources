@@ -21,18 +21,24 @@ Sometimes projects can come off your machine looking exactly how you want, but o
 
 Find what best applies to your situation, then click the links to learn more:
 
-- **Sanding**: improve the appearance of your projects by removing wood fuzz and smoothing rough surfaces left by the CNC. Sanding is also a necessary step to prepare for colouring or protecting the wood.
+- **Sanding**: improve the appearance of your projects by removing fuzz off edges or smoothing rough surfaces left by the CNC. Sanding is also a necessary step to prepare for painting, colouring, or protecting wood.
   [su_table responsive="yes"]
 
-  | **Type**          | **Description**    | **Picture**                                |
-  |-------------------|-------------------|--------------------------------------------|
-  | General cleanup     | 60-100 grit       | Removes large burrs, rough edges.          |
-  | Medium Sanding    | 120-150 grit      | Smoothens the surface, removes tool marks. |
-  | Fine Sanding      | 220-320 grit      | Prepares for paint/stain, smooth texture.  |
+  | **Type** | **Description** | **Picture** |
+  |----------|-----------------|-------------|
+  | [🖐️ General cleanup](#hand-sanding) | Small fuzzies and sharp edges usually only need simple hand sanding to get the project looking right. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title.jpg){.aligncenter .size-medium} |
+  | [⛰️ 3D Carves]() | Clean up fuzz in hard-to-reach spaces using a sanding mop on a drill or Dremel. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_raw-wood.jpg){.aligncenter .size-medium} |
+  | [💪 Tool Marks](#power-sanding) | If you see deep ridges or scars left over from cutting, start off using power tools to save time sanding. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tool-marks.jpg){.aligncenter .size-medium} |
+  | [🛠️ Other Methods](#break-the-edges) | "Break the edge" to smooth sharp corners or "raise the grain" to give wood faces a smoother finish. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tool-marks.jpg){.aligncenter .size-medium} |
+
   
+  If mistakes happen or you're carving too fast and you see cutting scars left over, save yourself time by sanding with power tools.
+  Sometimes you are working on a larger project, doing batches, or have discovered that your project is showing some tool marks. In these cases, head over to the [**Power Tools**](#power-sanding) section. These tools will help you work faster with more power. They really help get out stubborn ridges left behind by your bit and help smooth out any lingering tool marks.
+
   [/su_table]
 
-Use different hand tools (sandpaper, sanding block, sanding sponge) or power tools (orbital sander, detail sander, belt sander) depending on the task. Choose the correct grit to begin and follow the grit progression (rough, medium, fine) for the best results.
+Choose the correct grit to begin and follow the grit progression (rough, medium, fine) for the best results.
+
 
 <details>
 <summary><strong style="font-size: 1.2em;">Sanding</strong> - Once the piece comes off the CNC, sanding will remove imperfections, improve appearance and prep your project for colouring or protecting.</summary>
