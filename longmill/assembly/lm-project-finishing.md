@@ -31,176 +31,84 @@ Improve the appearance of your projects by removing fuzz off edges or smoothing 
 
 | **Goal** ||
 |----------|-------------|
-| [🖐️ General cleanup](#hand-sanding)<br>Small fuzzies and sharp edges usually only need simple hand sanding to get the project looking right. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title-2.jpg){.aligncenter .size-medium .non} |
-| [⛰️ 3D or V Carves]()<br>Clean up fuzz in hard-to-reach spaces using a sanding mop on a drill or Dremel. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_raw-wood-4.jpg){.aligncenter .size-medium .non} |
+| [🖐️ General cleanup](#learn-sanding)<br>Small fuzzies and sharp edges usually only need simple hand sanding to get the project looking right. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title-2.jpg){.aligncenter .size-medium .non} |
+| [⛰️ 3D or V Carves](#sanding-steps)<br>Clean up fuzz in hard-to-reach spaces using a sanding mop on a drill or Dremel. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_raw-wood-4.jpg){.aligncenter .size-medium .non} |
 | [💪 Tool Marks](#power-sanding)<br>If you see deep ridges or scars left over from cutting, start off using power tools to save time sanding. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tool-marks-3.jpg){.aligncenter .size-medium .non} |
-| [🛠️ Other Methods](#break-the-edges)<br>"Break the edge" to smooth sharp corners or "raise the grain" to give wood faces a smoother finish. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_broke-edge-2.jpg){.aligncenter .size-medium .non} |
+| [🛠️ Other Methods](#advanced-sanding)<br>Consider "raising the grain" to give wood faces a smoother finish. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_broke-edge-2.jpg){.aligncenter .size-medium .non} |
 
 [/su_table]
 
-### Protecting
+You can also [Read More](#learn-sanding), [Learn the Steps](#sanding-steps), or see [Tips and Videos](#sanding-tips--videos) on Sanding.
 
-<summary><strong style="font-size: 1.2em;">Project Protection</strong> - Avoid having your project crack, split or fade and prevent moisture from going in/out. You worked hard to make this, the final step is to protect it!</summary>
+## Learn Sanding
 
-<br>
+Sanding is essential for smoothing rough surfaces left by the CNC process, removing imperfections, and preparing wood for finishing. When it comes to cleaning your projects, you can use different [**hand tools**](#hand-sanding) or [**power tools**](#power-sanding) depending on the task but no matter the approach, you'll want to start with the correct grit.
 
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_cracked-lion.jpg "Without anything to protect the lion, it cracked up"){.aligncenter .size-medium}
+The "**grit**" rating on sandpaper describes if it uses larger, sharper particles or smaller, smoother ones and can range from "extra-coarse" to "ultra-fine" (30 to 1000+). The reason for these ratings is that sharper "coarse" sandpaper can make deeper scratches which helps to remove material faster to clean up large cuts or gashes, whereas using smoother "finer" sandpaper makes sense to use once you want the surface to start to look smoother and less 'scratched'. This creates a process where you should:
 
-### Have a food safe finish
-
-- 🍴 Safety first! Check out the [**Types of Sealant**](#sealer-types) chart to ensure you are using the correct sealer for your kitchen items. You can also use the [**Step By Step**](#step-by-step-sealing-process) guide!
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_cutting-board.jpg "This cutting board was sealed with Tung Oil"){.aligncenter .size-medium}
-
-### Seal my sign for outdoor use
-
-- 🪧 Use the [**Finish Comparison Chart**](#finish-comparison-chart) to see what products can be used on signs that go outdoors.
-
-### Colouring
-
-Painting and staining not only protect your wood, but they allow you to get more creative with your projects by enhancing their appearance or highlighting the wood grain.
+1. Look at your material and decide how much touching-up it needs.
+1. If it needs a lot, start with coarse sandpaper, if it needs a little use only fine sandpaper, and if you don't know then choose a medium-grit sandpaper.
+1. If you started with coarse or medium grit, then consider sanding the whole material again but with a finer grit to continue to clean it up. For best results don't skip grits, so if you were on coarse go to medium, and on medium go to fine.
 
 [su_table responsive="yes"]
 
-| **Goal** | **Description** | **Picture** |
-|----------|-----------------|-------------|
-| [🖐️ General cleanup](#hand-sanding) | Small fuzzies and sharp edges usually only need simple hand sanding to get the project looking right. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title.jpg){.aligncenter .size-medium .non} |
-| [⛰️ 3D or V Carves]() | Clean up fuzz in hard-to-reach spaces using a sanding mop on a drill or Dremel. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_raw-wood.jpg){.aligncenter .size-medium .non} |
-| [💪 Tool Marks](#power-sanding) | If you see deep ridges or scars left over from cutting, start off using power tools to save time sanding. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tool-marks-2.jpg){.aligncenter .size-medium .non} |
-| [🛠️ Other Methods](#break-the-edges) | "Break the edge" to smooth sharp corners or "raise the grain" to give wood faces a smoother finish. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_broke-edge.jpg){.aligncenter .size-medium .non} |
+| **Sanding Level** | **Grit Range** | **Purpose**                                |
+|-------------------|-------------------|--------------------------------------------|
+| Rough / Coarse   | 60-100      | Removes imperfections the fastest, like large burrs and rough edges, and great for further shaping the material.          |
+| Medium           | 120-150      | Good for smoothing small bumps and dents and a good stopping point if you're only aiming for a general-purpose sanding. |
+| Fine             | 220-320      | For detailed touch-ups, and also necessary if preparing for decorative coating staining, smoothing, or polishing.  |
 
 [/su_table]
 
-### Paint my project
-
-- 🎨 First select your [**Tools**](#tools) and [**Paint**](#types-of-paint--primer), then follow the [**Step By Step**](#step-by-step-painting-process) guide.
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_painting.jpg "Even one simple colour can really make projects pop!"){.aligncenter .size-medium}
-
-### Stain my project
-
-- 🖌️ With your [**Stain**](#stain-types) selected, begin the [**Step By Step**](#step-by-step-staining-process) process.
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain-handles.jpg "Both handles came from the same branch. Unstained on the left, quickly stained on the right"){.aligncenter .size-medium}
-
-
-  
-  If mistakes happen or you're carving too fast and you see cutting scars left over, save yourself time by sanding with power tools.
-  Sometimes you are working on a larger project, doing batches, or have discovered that your project is showing some tool marks. In these cases, head over to the [**Power Tools**](#power-sanding) section. These tools will help you work faster with more power. They really help get out stubborn ridges left behind by your bit and help smooth out any lingering tool marks.
-
-  
-
-Choose the correct grit to begin and follow the grit progression (rough, medium, fine) for the best results.
-
-
-<details>
-<summary><strong style="font-size: 1.2em;">Sanding</strong> - Once the piece comes off the CNC, sanding will remove imperfections, improve appearance and prep your project for colouring or protecting.</summary>
-
-### Do a general cleanup of my piece
-
-- ➡️ For almost all of your projects you will want to have sanding as a part of the process. Jump right into the [**Step By Step Guide**](#step-by-step-process), or use the [**Grit Guide**](#grit-guide) to ensure you are [**Choosing the Right Grit**](#choosing-the-right-grit) sandpaper.
-- 🛠️ Most projects can be sanded by hand, with [**Hand Tools**](#hand-sanding).
-
-### For a bit of extra muscle
-
-- 💪 Sometimes you are working on a larger project, doing batches, or have discovered that your project is showing some tool marks. In these cases, head over to the [**Power Tools**](#power-sanding) section. These tools will help you work faster with more power. They really help get out stubborn ridges left behind by your bit and help smooth out any lingering tool marks.
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tool-marks.jpg "Tool marks left from surfacing"){.aligncenter .size-medium}
-
-### Remove wood fuzzies left over from a 3D carve
-
-- 🔧 Reach for a **Dremel or hand drill** and check out the [**Tips & Videos**](#sanding-tips--videos) section for techniques on handling those delicate fuzzies.
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_raw-wood.jpg "Here you can see some wood fuzzies on the left. This piece is unfinished at this point."){.aligncenter .size-medium}
-
-### Protect the edges of a box, cutting board, or sign
-
-- 🔪 Discover **5 reasons why** [**Breaking the Edges**](#break-the-edges) should be the norm when finishing these projects!
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_broke-edge.jpg "The top of the box has a broken edge, but not the inside of the lid. This ensures a clean seam"){.aligncenter .size-medium}
-
-### Apply a water-based paint, finish or stain
-
-- 🌊 [**Raising the Grain**](#raising-the-grain) is a key step you don’t want to miss, especially when applying a water-based finish or stain.
-
-</details>
-
-<details>
-<summary><strong style="font-size: 1.2em;">Change colour</strong> - Painting and staining not only protect your wood, but enhance the appearance, highlight grain and unleash your creativity.</summary>
-
-### Paint my project
-
-- 🎨 First select your [**Tools**](#tools) and [**Paint**](#types-of-paint--primer), then follow the [**Step By Step**](#step-by-step-painting-process) guide.
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_painting.jpg "Even one simple colour can really make projects pop!"){.aligncenter .size-medium}
-
-### Stain my project
-
-- 🖌️ With your [**Stain**](#stain-types) selected, begin the [**Step By Step**](#step-by-step-staining-process) process.
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain-handles.jpg "Both handles came from the same branch. Unstained on the left, quickly stained on the right"){.aligncenter .size-medium}
-
-</details>
-
-<details>
-<summary><strong style="font-size: 1.2em;">Project Protection</strong> - Avoid having your project crack, split or fade and prevent moisture from going in/out. You worked hard to make this, the final step is to protect it!</summary>
-
-<br>
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_cracked-lion.jpg "Without anything to protect the lion, it cracked up"){.aligncenter .size-medium}
-
-### Have a food safe finish
-
-- 🍴 Safety first! Check out the [**Types of Sealant**](#sealer-types) chart to ensure you are using the correct sealer for your kitchen items. You can also use the [**Step By Step**](#step-by-step-sealing-process) guide!
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_cutting-board.jpg "This cutting board was sealed with Tung Oil"){.aligncenter .size-medium}
-
-### Seal my sign for outdoor use
-
-- 🪧 Use the [**Finish Comparison Chart**](#finish-comparison-chart) to see what products can be used on signs that go outdoors.
-
-### Level up with some hot tips
-
-- 💡 Swing by [**Tips 4 Sanding**](#sanding-tips--videos), [**Tips 4 Painting**](#painting-tips--videos), [**Tips 4 Staining**](#staining-tips--videos), [**Tips 4 Sealing**](#sealing-tips--videos). Explore [**French Finishing**](#french-finishing) for a mirror-like finish.
-
-### Know everything
-
-- 🎓 Every journey begins with the first step, or page in this case. Go straight to the front of the line and read everything about [**Sanding**](#sanding), [**Painting**](#painting), [**Staining**](#staining), or [**Sealing**](#sealing). You can let us know if we missed anything by sending us a message at the bottom of the page!
-
-</details>
-
-
-Proper finishing not only improves aesthetics but also helps protect the wood by sealing it from moisture, preventing it from absorbing water or releasing it.
-
-There are several approaches you can take, and this guide is packed with useful information. Depending on what you’re sanding, painting, staining, or finishing, you may find that different techniques work better for your specific project. Let's see if we can guide you in the right direction.
-
-## Sanding
-
-Sanding is essential for smoothing rough surfaces left by the CNC process, removing imperfections, and preparing wood for finishing. Use different **hand tools** (sandpaper, sanding block, sanding sponge) or **power tools** (orbital sander, detail sander, belt sander) depending on the task. Choose the correct grit to begin and follow the grit progression (rough, medium, fine) for the best results.
-
-**Breaking the edge** (rounding off sharp corners) enhances safety, finish quality, and durability, while **raising the grain** prevents wood fibers from lifting when applying water-based finishes.
-
-For best results, always sand in the direction of the grain, use protective gear, and consider the project requirements when choosing your tools and techniques.
-
-> ***Tip**: always protect yourself when sanding with protective glasses and a dusk mask.*
-
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title.jpg){.aligncenter .size-medium}
+
+### Sanding Steps
+
+1. **Rough Sanding (80-100 Grit)**:  
+Use this grit to remove any visible tool marks or uneven surfaces created by the CNC machine on your material. You can also shape the wood a bit or break the edge if desired.
+1. **Break the Edges** (medium or fine grit, optional):  
+Make a couple passes over any sharp edges at a 45-degree angle either now or at the end of sanding using a flat sanding tool like a sanding block or even a metal file. This can give your project a more refined look by softening the profile, make the edge less likely to splinter or chip off during handling or finishing which also gives it a longer durability, and help paint, stain, or varnish adhere better and more evenly where sharp edges tend to accumulate excess finish. The amount of rounding can be done to your preference.
+1. **Medium Sanding (120-150 Grit)**:  
+Smooth out any remaining roughness, ensuring an even surface. An orbital sander or sanding block can be quick and easy to use for flat surfaces.
+1. **Smooth Details on 3D and V Carves** (medium or fine grit, optional):  
+See the [Power Sanding](#power-sanding) section on the sanding attachments available for drill and rotary tools which will save you lots of time clearing out the nooks of intricate carves. If you don't have these available, sometimes a less-aggressive bristle brush or even a toothbrush can help release fibers that were left behind.
+1. **Fine Sanding (220-320 Grit)**:  
+This grit is for a silky-smooth finish, ideal before applying paint, stain, or sealant. Do be aware that the higher the grit you use at this stage, will reduce the ability of stains and finished to penetrate the wood. If you are using 1000 grit for example, you are no longer cutting the wood, but packing sawdust into the wood pours, burnishing it. The surface will become shiny and very smooth, but not allow stain or seal to penetrate fully.
+1. [**Raise the grain**](#raising-the-grain) (optional):  
+Do this to further improve to surface finish on woods that you plan on finishing. This technique prevents wood fibers from lifting when applying water-based finishes.
+
+### Sanding Tips & Videos
+
+- It's important to move through the grits and not skip from a rough one, straight to a fine one.
+- Move the sandpaper in the same direction as the wood grain. This reduces visible scratches and results in a smoother finish.
+- To protect your lungs while sanding, wear protective gear (safety glasses, dust mask) alongside a dust collection system, or sand in a well-ventilated area.
+- For curved or intricate designs, consider using sanding sponges, soft pads, or hand sanding to access tight spaces. Sanding mops in higher grits can also help since they can get into the details without ruining the design by removing too much material.
+
+[su_table responsive="yes"]
+
+| **Video Title** | **Description** | **Duration** | **Link** |
+|-----------------|-----------------|--------------|----------|
+| Move up the Grits!! | Explains how to move up the grits when sanding. | 3 minutes | [Watch Video](https://youtu.be/KiE4Pk_gu50) |
+| Top 5 Tips for Orbital Sanding | Pro tips for orbital sanding. | Under 1 minute | [Watch Video](https://youtube.com/shorts/FXmkWtLTgJw) |
+| Filling a Crack or Gap with Sawdust and Glue | Shows how to fill cracks or gaps with sawdust and glue to match. | 3 minutes | [Watch Video](https://youtu.be/UE-elux6fQw) |
+|Mini Mops? Like a sanding mop just smaller? | Great explanation on small detail sanding. | 3 minutes |[Watch Video](https://youtu.be/2r2Zt_K76O4) |
+| Breaking the Edges to Preserve Them | A short video explaining why and how to break your edges during sanding. | Under 1 minute | [Watch Video](https://youtu.be/_BfKo2Yn-5A) |
+
+[/su_table]
 
 ### Hand Sanding
 
 Hand sanding tools are ideal for precision work, tight spaces, or when you want more control over the sanding process.
 
-- **Sandpaper**: coated abrasive paper available in different grits. Comes in many shapes and sizes from sheets to discs to loops. You can fold it or cut it into smaller pieces to use by hand. Check out the [grit guide](#grit-guide) below.
+- **Sandpaper**: coated abrasive paper available in different grits. Comes in many shapes and sizes from sheets to discs to loops. You can fold it or cut it into smaller pieces to use by hand. Check out the [grit guide](#learn-sanding) for more.
   - **Usage**: use lower grit for aggressive sanding and higher grits for finishing
   - **Types**: aluminum oxide (general use), silicon carbide (wet/dry), garnet (fine finishing)
 
   ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sandpaper-storage.jpg "Source - https://youtu.be/K6VtiejgwZM?si=OsaT7zSpiwqotTuG"){.aligncenter .size-medium}
-
-- **Sanding Block**: a block used to hold sandpaper flat for even sanding. Cut a strip of sandpaper and attach to the sanding block. Fast & comfortable to use
+- **Sanding Block**: a block used to hold sandpaper flat for even sanding. Cut a strip of sandpaper and attach to the sanding block. Fast & comfortable to use.
   - **Usage**: prevents uneven sanding and helps apply uniform pressure
   
   ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-block.jpg){.aligncenter .size-medium}
-
 - **Sanding Sponge**: flexible sponge coated with abrasive material. No sandpaper needed as it's already on the sponge!
   - **Usage**: ideal for contours, curves, and irregular surfaces
 
@@ -208,136 +116,46 @@ Hand sanding tools are ideal for precision work, tight spaces, or when you want 
 
 ### Power Sanding
 
-Power tools make the sanding process quicker and are ideal for larger surfaces or more intensive sanding tasks.
+Power tools are more ideal and make the sanding process faster for larger surfaces or more intensive sanding tasks. For instance roughing out larger pieces of furniture or signs, a project that has many cutting scars or stubborn ridges left over, or increasing efficiency on batch jobs.
 
-- **Orbital Sander**: a handheld sander that moves in small circles. You can also get a random orbital sander, that moves randomly instead of in circles
+- **Orbital Sander**: a handheld sander that moves in small circles. You can also get a random orbital sander, that moves randomly instead of in circles.
   - **Usage**: general-purpose sanding, producing a fine finish with minimal swirl marks
 
   ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_orbital-sand.jpg){.aligncenter .size-medium}
-
-- **Detail Sander**: small triangular-shaped sander
+- **Detail Sander**: small triangular-shaped sander that vibrates.
   - **Usage**: designed for tight spaces, corners, and detailed work
 
   ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_detail-sanders.jpg){.aligncenter .size-medium}
-
 - **Dremel or Hand Drill**: uses drum, disc, or mop sanding attachments that fit into a dremel or drill. These can be found online.
   - **Usage**: use when light sanding is required or the surface is quite soft. Mops are great to get into tight spaces to remove wood fuzz
 
   ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_drill-dremel.jpg "Source - https://www.wwgoa.com/post/make-wooden-sign"){.aligncenter .size-medium}
-
   ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_dremel-sanding.jpg){.aligncenter .size-medium}
-
-- **Belt Sander**: uses a continuous loop of sandpaper. Can be a wide strip or thin wand unit
+- **Belt Sander**: uses a continuous loop of sandpaper. Can be a wide strip or thin wand unit.
   - **Usage**: best for removing large amounts of material quickly and levelling surfaces
 
   ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_belt-sanders.jpg){.aligncenter size-medium}
-
-- **Stationary Disc / Belt Sander**: uses a spinning disc of sandpaper, or a combo of belt and disc sandpaper. Can be mounted on a workbench or table and hooked up to a dust collection system
+- **Stationary Disc / Belt Sander**: uses a spinning disc of sandpaper, or a combo of belt and disc sandpaper. Can be mounted on a workbench or table and hooked up to a dust collection system.
   - **Usage**: suitable for rough sanding or shaping edges
 
   ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_belt-disc-sander.jpg){.aligncenter .size-medium}
-
-- **Drum Sander**: a large, stationary sander with a rotating drum
+- **Drum Sander**: a large, stationary sander with a rotating drum. Typically more expensive an used for more professional applications.
   - **Usage**: ideal for sanding large surfaces such as wooden floor boards. Great for removing old paint, varnish, or discolourations and for levelling and smoothing large surfaces
 
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_drum-sander.jpg "Source: https://www.nationalassemblers.com/post/drum-sanders"){.aligncenter .size-medium}
+  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_drum-sander.jpg "Source: https://www.nationalassemblers.com/post/drum-sanders"){.aligncenter .size-medium}
 
 By choosing the right tool for each stage, you can achieve a high-quality finish on your woodworking projects.
 
-### Choosing the right Grit
+### Advanced Sanding
 
-**Grit** refers to the particles of sand that make up the sandpaper. Larger, fewer particles with more space between them is coarse grit. The smaller and more packed together the particles, the finer the grit. Coarse sandpaper removes imperfections faster and with less effort than fine sandpaper – which is great if you are trying to shape or level. Fine grit is used for the later stages of wood sanding – for smoothing and polishing. The higher the sandpaper’s grit, the smoother the result. Begin with a coarser grit to level the wood, then buff scratches with finer grits until you reach the desired smoothness. It is important to move through the grits and not skip from a rough one, straight to a fine one.
+#### Raising the grain
 
-***Tip**: the golden rule of sanding is to move the sandpaper in the same direction as the wood grain. This reduces visible scratches and results in a smoother finish.*
-
-### Grit Guide
-
-[su_table responsive="yes"]
-
-| **Step**          | **Grit Level**    | **Purpose**                                |
-|-------------------|-------------------|--------------------------------------------|
-| Rough Sanding     | 60-100 grit       | Removes large burrs, rough edges.          |
-| Medium Sanding    | 120-150 grit      | Smoothens the surface, removes tool marks. |
-| Fine Sanding      | 220-320 grit      | Prepares for paint/stain, smooth texture.  |
-
-[/su_table]
-
-### Step-by-Step Process
-
-1. **Start with Rough Sanding (80-100 Grit)**:  
-   Use this grit to remove any visible tool marks or uneven surfaces created by the CNC machine. You can shape the wood a bit or break the edge if desired.
-
-1. **Medium Sanding (120-150 Grit)**:  
-   Smooth out any remaining roughness, ensuring an even surface. Use an orbital sander or sanding block for flat surfaces.
-
-1. **Fine Sanding (220-320 Grit)**:  
-   This grit is for a silky-smooth finish, ideal before applying paint, stain, or sealant. Do be aware that the higher the grit you use at this stage, will reduce the ability of stains and finished to penetrate the wood. If you are using 1000 grit for example, you are no longer cutting the wood, but packing sawdust into the wood pours, burnishing it. The surface will become shiny and very smooth, but not allow stain or seal to penetrate fully.
-
-### Sanding Tips & Videos
-
-> - **Safety Tips**: wear protective gear (safety glasses, dust mask). Use a dust collection system or sand in a well-ventilated area.<br>
-> - **Tip**: for curved or intricate designs, consider using sanding sponges, soft pads, or hand sanding to access tight spaces. Depending on your project, getting into the crevices of your design can be difficult. Small scrapers are handy to remove fuzzy bits. What if you carved a 3d relief? Sanding mops in different grits work great here. They can get into the details without removing too much material and ruining the design.
-
-[su_table responsive="yes"]
-
-| **Video Title**                                  | **Description**                                                     | **Duration**    | **Link**                                                               |
-|--------------------------------------------------|---------------------------------------------------------------------|-----------------|----------------------------------------------------------------------|
-| Move up the Grits!!                              | Explains how to move up the grits when sanding.                      | Under 2 minutes | [Watch Video](https://www.youtube.com/watch?v=KiE4Pk_gu50)            |
-| Top 5 Tips for Orbital Sanding                   | Pro tips for orbital sanding.                                        | Under 1 minute  | [Watch Video](https://www.youtube.com/shorts/FXmkWtLTgJw)             |
-| Filling a Crack or Gap with Sawdust and Glue     | Shows how to fill cracks or gaps with sawdust and glue to match.     | 3 minutes       | [Watch Video](https://www.youtube.com/watch?v=UE-elux6fQw)            |
-|Mini Mops? Like a sanding mop just smaller?       | Great explanation on small detail sanding.                          | 3 minutes       |[Watch Video](https://youtu.be/2r2Zt_K76O4?si=1A82kGx5OyQTXx_V) |
-
-[/su_table]
-
-## Advanced Sanding
-
-### Break the edges
-
-Breaking the edges is a common woodworking practice that serves several important purposes. The process involves a simple sanding of the sharp edges during or upon completion of your project, with a sanding block.
-
-#### Why break the edges?
-
-- **Safety and Comfort**  
-Sharp edges can be a safety hazard because they are more prone to chipping or breaking off during handling. Additionally, sharp edges can cut or cause splinters, making the finished piece less comfortable to touch or use.
-
-- **Improved Finish Quality**  
-Sanding sharp edges helps paint, stain, or varnish adhere better. Sharp corners tend to accumulate excess finish, leading to uneven coverage. By softening the edges, you ensure that the finish is more evenly applied and visually appealing.
-
-- **Reduced Risk of Tear-Out**  
-Sharp edges are more likely to experience tear-out, especially when cutting or routing. By slightly rounding or chamfering the edges you reduce the chance of fibers breaking off, resulting in a cleaner look.
-
-- **Aesthetic Appeal**  
-Softened or rounded edges often look more refined and professional compared to sharp edges. The softened profile can enhance the overall visual balance of the project and make the design appear more intentional and polished.
-
-- **Longer Lifespan**  
-Rounded edges are less susceptible to damage from impact or wear and tear over time. This durability is especially important for furniture pieces or items that will experience regular use.
-
-#### Break the edge process
-
-To do this, simply use a medium or fine grit sanding block and make a couple of passes over each sharp edge at a 45-degree angle. You can do this before assembly, and repeat until the edge is softened to your preference.
-
-> ***Tip** A metal file is surprisingly good for breaking edges when you go to sand your wood*
-
-[su_table responsive="yes"]
-
-| **Video Title**      | **Description**                                                       | **Duration**   | **Link**                                                                 |
-|---------------------------|-----------------------------------------------------------------------|----------------|--------------------------------------------------------------------------|
-| Break the Edge       | A short video explaining why and how to break your edges during sanding. | Under 1 minute | [Watch Video](https://www.google.com/search?q=woodworking+sanding+break+the+edge&rlz=1C1CHBF_enCA943CA943&oq=woodworking+sanding+break+the+) |
-
-[/su_table]
-
-### Raising the grain
-
-Raising the grain is an essential step, especially when working with water-based finishes. The process involves initial sanding, wetting the wood, sanding again, then moving on to other finishing steps.
-
-#### Why raise the grain?
-
-When you apply water-based finishes or stains to wood, the wood fibers absorb moisture and swell, causing the grain to rise, which results in a rough texture. By raising the grain beforehand and sanding it smooth, you prevent this from happening after the finish or stain is applied, ensuring a smoother final result.
+Raising the grain is an essential step, especially when working with water-based finishes, if you want a professional-looking finish. The process involves initial sanding, wetting the wood, sanding again, then moving on to other finishing steps.
 
 - **Prepares the wood**: especially important when applying water-based stains, paints, or sealers.
 - **Prevents rough surfaces**: stops the grain from rising after the finish is applied, ensuring a smooth final result.
 
-#### Raise the grain process
+When you apply water-based finishes or stains to wood, the wood fibers absorb moisture and swell, causing the grain to rise, which results in a rough texture. By raising the grain beforehand and sanding it smooth, you prevent this from happening after the finish or stain is applied, ensuring a smoother final result. The general steps are:
 
 1. **Sand the Wood**  
 Sand your wood project to a smooth finish using progressively finer grits of sandpaper (start with 120 grit and work up to 220 grit or finer). Make sure the surface is free of any visible scratches or rough spots.
@@ -354,16 +172,48 @@ After raising the grain and sanding it smooth, you can proceed to apply your sta
 
 By raising the grain and sanding it smooth before finishing, you’ll end up with a much smoother and more professional finish, especially when using water-based products.
 
-> ***Tip**: always raise the grain before applying water-based products to ensure a professional-looking finish.*
+[su_table responsive="yes"]
+
+| **Video Title** | **Description** | **Duration** | **Link** |
+|-----------------|-----------------|--------------|---------|
+| Raise the Grain | A quick video on raising the grain of wood. | Under 2 minutes | [Watch Video](https://youtu.be/CynRU6QIy28) |
+| Raise the Grain! Wait, what? | A more detailed explanation of the process of raising the grain of wood.  | Longer video | [Watch Video](https://youtu.be/jM7rGoqemCQ) |
+
+[/su_table]
+
+
+### Protection
+
+Avoid having your project crack, split or fade and prevent moisture from going in or out. You worked hard to make this, so you might as well protect it!
+
+Improve the appearance of your projects by removing fuzz off edges or smoothing rough surfaces left by the CNC. Sanding is also a necessary step to prepare for painting, colouring, or protecting wood.
 
 [su_table responsive="yes"]
 
-| **Video Title**                                | **Description**                                                          | **Duration**  | **Link**                                                                 |
-|------------------------------------------------|--------------------------------------------------------------------------|---------------|--------------------------------------------------------------------------|
-| Raise the Grain                                | A quick video on raising the grain of wood.                               | Under 2 minutes | [Watch Video](https://www.youtube.com/watch?v=CynRU6QIy28)               |
-| Raise the Grain! Wait, what?                   | A more detailed explanation of the process of raising the grain of wood.  | Longer video  | [Watch Video](https://www.youtube.com/watch?v=jM7rGoqemCQ)               |
+| **Goal** ||
+|----------|-------------|
+| [🖐️ General cleanup](#learn-sanding)<br>Small fuzzies and sharp edges usually only need simple hand sanding to get the project looking right. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title-2.jpg){.aligncenter .size-medium .non} |
+| [⛰️ 3D or V Carves](#sanding-steps)<br>Clean up fuzz in hard-to-reach spaces using a sanding mop on a drill or Dremel. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_raw-wood-4.jpg){.aligncenter .size-medium .non} |
+| [💪 Tool Marks](#power-sanding)<br>If you see deep ridges or scars left over from cutting, start off using power tools to save time sanding. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tool-marks-3.jpg){.aligncenter .size-medium .non} |
+| [🛠️ Other Methods](#advanced-sanding)<br>Consider "raising the grain" to give wood faces a smoother finish. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_broke-edge-2.jpg){.aligncenter .size-medium .non} |
 
 [/su_table]
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_cracked-lion.jpg "Without anything to protect the lion, it cracked up"){.aligncenter .size-medium}
+
+### Have a food safe finish
+
+- 🍴 Safety first! Check out the [**Types of Sealant**](#sealer-types) chart to ensure you are using the correct sealer for your kitchen items. You can also use the [**Step By Step**](#step-by-step-sealing-process) guide!
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_cutting-board.jpg "This cutting board was sealed with Tung Oil"){.aligncenter .size-medium}
+
+### Seal my sign for outdoor use
+
+- 🪧 Use the [**Finish Comparison Chart**](#finish-comparison-chart) to see what products can be used on signs that go outdoors.
+
+Proper finishing not only improves aesthetics but also helps protect the wood by sealing it from moisture, preventing it from absorbing water or releasing it.
+
+There are several approaches you can take, and this guide is packed with useful information. Depending on what you’re sanding, painting, staining, or finishing, you may find that different techniques work better for your specific project. Let's see if we can guide you in the right direction.
 
 ## Sealing
 
@@ -441,6 +291,43 @@ This chart helps you compare different finishing options for your project by com
 | **Shellac**               | Moderate       | Indoor             | 30 minutes - 1 hour       | Warm, high-gloss, rich depth    |
 
 [/su_table]
+
+### Colouring
+
+Painting and staining not only protect your wood, but they allow you to get more creative with your projects by enhancing their appearance or highlighting the wood grain.
+
+[su_table responsive="yes"]
+
+| **Goal** | **Description** | **Picture** |
+|----------|-----------------|-------------|
+| [🖐️ General cleanup](#hand-sanding) | Small fuzzies and sharp edges usually only need simple hand sanding to get the project looking right. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title.jpg){.aligncenter .size-medium .non} |
+| [⛰️ 3D or V Carves]() | Clean up fuzz in hard-to-reach spaces using a sanding mop on a drill or Dremel. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_raw-wood.jpg){.aligncenter .size-medium .non} |
+| [💪 Tool Marks](#power-sanding) | If you see deep ridges or scars left over from cutting, start off using power tools to save time sanding. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tool-marks-2.jpg){.aligncenter .size-medium .non} |
+| [🛠️ Other Methods](#break-the-edges) | "Break the edge" to smooth sharp corners or "raise the grain" to give wood faces a smoother finish. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_broke-edge.jpg){.aligncenter .size-medium .non} |
+
+[/su_table]
+
+### Apply a water-based paint, finish or stain
+
+- 🌊 [**Raising the Grain**](#raising-the-grain) is a key step you don’t want to miss, especially when applying a water-based finish or stain.
+
+<summary><strong style="font-size: 1.2em;">Change colour</strong> - Painting and staining not only protect your wood, but enhance the appearance, highlight grain and unleash your creativity.</summary>
+
+### Paint my project
+
+- 🎨 First select your [**Tools**](#tools) and [**Paint**](#types-of-paint--primer), then follow the [**Step By Step**](#step-by-step-painting-process) guide.
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_painting.jpg "Even one simple colour can really make projects pop!"){.aligncenter .size-medium}
+
+### Stain my project
+
+- 🖌️ With your [**Stain**](#stain-types) selected, begin the [**Step By Step**](#step-by-step-staining-process) process.
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain-handles.jpg "Both handles came from the same branch. Unstained on the left, quickly stained on the right"){.aligncenter .size-medium}
+
+### Know everything
+
+- 🎓 Every journey begins with the first step, or page in this case. Go straight to the front of the line and read everything about [**Sanding**](#sanding), [**Painting**](#painting), [**Staining**](#staining), or [**Sealing**](#sealing). You can let us know if we missed anything by sending us a message at the bottom of the page!
 
 ## Painting
 
