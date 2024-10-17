@@ -31,10 +31,10 @@ Improve the appearance of your projects by removing fuzz off edges or smoothing 
 
 | **Goal** | **Description** | **Picture** |
 |----------|-----------------|-------------|
-| [🖐️ General cleanup](#hand-sanding) | Small fuzzies and sharp edges usually only need simple hand sanding to get the project looking right. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title.jpg){.aligncenter .size-medium .non} |
-| [⛰️ 3D or V Carves]() | Clean up fuzz in hard-to-reach spaces using a sanding mop on a drill or Dremel. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_raw-wood.jpg){.aligncenter .size-medium .non} |
+| [🖐️ General cleanup](#hand-sanding) | Small fuzzies and sharp edges usually only need simple hand sanding to get the project looking right. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title-2.jpg){.aligncenter .size-medium .non} |
+| [⛰️ 3D or V Carves]() | Clean up fuzz in hard-to-reach spaces using a sanding mop on a drill or Dremel. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_raw-wood-3.jpg){.aligncenter .size-medium .non} |
 | [💪 Tool Marks](#power-sanding) | If you see deep ridges or scars left over from cutting, start off using power tools to save time sanding. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tool-marks-2.jpg){.aligncenter .size-medium .non} |
-| [🛠️ Other Methods](#break-the-edges) | "Break the edge" to smooth sharp corners or "raise the grain" to give wood faces a smoother finish. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_broke-edge.jpg){.aligncenter .size-medium .non} |
+| [🛠️ Other Methods](#break-the-edges) | "Break the edge" to smooth sharp corners or "raise the grain" to give wood faces a smoother finish. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_broke-edge-2.jpg){.aligncenter .size-medium .non} |
 
 [/su_table]
 
