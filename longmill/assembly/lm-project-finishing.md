@@ -7,7 +7,7 @@ post_date: 2024-09-10 15:45:00
 taxonomy:
     knowledgebase_cat: lm-assembly
     knowledgebase_tag:
-        - mk1     
+        - mk1
 custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
@@ -21,7 +21,7 @@ Sometimes projects can come off your machine looking exactly how you want, but o
 
 Find what best applies to your situation, then click the links to learn more:
 
-- **Sanding:** improve the appearance of your projects by removing wood fuzz and smoothing rough surfaces left by the CNC. Sanding is also a necessary step to prepare for colouring or protecting the wood.
+- **Sanding**: improve the appearance of your projects by removing wood fuzz and smoothing rough surfaces left by the CNC. Sanding is also a necessary step to prepare for colouring or protecting the wood.
   | **Type**          | **Description**    | **Picture**                                |
   |-------------------|-------------------|--------------------------------------------|
   | General cleanup     | 60-100 grit       | Removes large burrs, rough edges.          |
@@ -36,17 +36,17 @@ Use different hand tools (sandpaper, sanding block, sanding sponge) or power too
 ### Do a general cleanup of my piece
 
 - ➡️ For almost all of your projects you will want to have sanding as a part of the process. Jump right into the [**Step By Step Guide**](#step-by-step-process), or use the [**Grit Guide**](#grit-guide) to ensure you are [**Choosing the Right Grit**](#choosing-the-right-grit) sandpaper.
-- 🛠️ Most projects can be sanded by hand, with [**Hand Tools**](#hand-sanding-tools).
+- 🛠️ Most projects can be sanded by hand, with [**Hand Tools**](#hand-sanding).
 
 ### For a bit of extra muscle
 
-- 💪 Sometimes you are working on a larger project, doing batches, or have discovered that your project is showing some tool marks. In these cases, head over to the [**Power Tools**](#power-sanding-tools) section. These tools will help you work faster with more power. They really help get out stubborn ridges left behind by your bit and help smooth out any lingering tool marks.
+- 💪 Sometimes you are working on a larger project, doing batches, or have discovered that your project is showing some tool marks. In these cases, head over to the [**Power Tools**](#power-sanding) section. These tools will help you work faster with more power. They really help get out stubborn ridges left behind by your bit and help smooth out any lingering tool marks.
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tool-marks.jpg "Tool marks left from surfacing"){.aligncenter .size-medium}
 
 ### Remove wood fuzzies left over from a 3D carve
 
-- 🔧 Reach for a [**Dremel or hand drill**](#hand-drill--dremel) and check out the [**Tips & Videos**](#sanding-tips--videos) section for techniques on handling those delicate fuzzies.
+- 🔧 Reach for a **Dremel or hand drill** and check out the [**Tips & Videos**](#sanding-tips--videos) section for techniques on handling those delicate fuzzies.
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_raw-wood.jpg "Here you can see some wood fuzzies on the left. This piece is unfinished at this point."){.aligncenter .size-medium}
 
@@ -119,81 +119,63 @@ Sanding is essential for smoothing rough surfaces left by the CNC process, remov
 
 For best results, always sand in the direction of the grain, use protective gear, and consider the project requirements when choosing your tools and techniques.
 
-> ***Tip:** Always protect yourself when sanding with protective glasses and a dusk mask.*
+> ***Tip**: always protect yourself when sanding with protective glasses and a dusk mask.*
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title.jpg){.aligncenter .size-medium}
 
-### Hand Sanding Tools
+### Hand Sanding
 
 Hand sanding tools are ideal for precision work, tight spaces, or when you want more control over the sanding process.
 
-#### **Sandpaper**
+- **Sandpaper**: coated abrasive paper available in different grits. Comes in many shapes and sizes from sheets to discs to loops. You can fold it or cut it into smaller pieces to use by hand. Check out the [grit guide](#grit-guide) below.
+  - **Usage**: use lower grit for aggressive sanding and higher grits for finishing
+  - **Types**: aluminum oxide (general use), silicon carbide (wet/dry), garnet (fine finishing)
 
-- Coated abrasive paper available in different grits. Comes in many shapes and sizes from sheets to discs to loops. You can fold it or cut it into smaller pieces to use by hand. Check out the [grit guide](#grit-guide) below.
-  - **Usage**: Use lower grit for aggressive sanding and higher grits for finishing
-  - **Types**: Aluminum oxide (general use), silicon carbide (wet/dry), garnet (fine finishing)
+  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sandpaper-storage.jpg "Source - https://youtu.be/K6VtiejgwZM?si=OsaT7zSpiwqotTuG"){.aligncenter .size-medium}
 
- ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sandpaper-storage.jpg "Source - https://youtu.be/K6VtiejgwZM?si=OsaT7zSpiwqotTuG"){.aligncenter .size-medium}
+- **Sanding Block**: a block used to hold sandpaper flat for even sanding. Cut a strip of sandpaper and attach to the sanding block. Fast & comfortable to use
+  - **Usage**: prevents uneven sanding and helps apply uniform pressure
+  
+  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-block.jpg){.aligncenter .size-medium}
 
-#### **Sanding Block**
+- **Sanding Sponge**: flexible sponge coated with abrasive material. No sandpaper needed as it's already on the sponge!
+  - **Usage**: ideal for contours, curves, and irregular surfaces
 
-- A block used to hold sandpaper flat for even sanding. Cut a strip of sandpaper and attach to the sanding block. Fast & comfortable to use
-  - **Usage**: Prevents uneven sanding and helps apply uniform pressure
+  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-sponge.jpg){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-block.jpg){.aligncenter .size-medium}
-
-#### **Sanding Sponge**
-
-- Flexible sponge coated with abrasive material. No sandpaper needed as it's already on the sponge!
-- **Usage**: Ideal for contours, curves, and irregular surfaces
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-sponge.jpg){.aligncenter .size-medium}
-
-### Power Sanding Tools
+### Power Sanding
 
 Power tools make the sanding process quicker and are ideal for larger surfaces or more intensive sanding tasks.
 
-#### **Orbital Sander**
+- **Orbital Sander**: a handheld sander that moves in small circles. You can also get a random orbital sander, that moves randomly instead of in circles
+  - **Usage**: general-purpose sanding, producing a fine finish with minimal swirl marks
 
-- A handheld sander that moves in small circles. You can also get a random orbital sander, that moves randomly instead of in circles
-  - **Usage**: General-purpose sanding, producing a fine finish with minimal swirl marks
+  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_orbital-sand.jpg){.aligncenter .size-medium}
 
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_orbital-sand.jpg){.aligncenter .size-medium}
+- **Detail Sander**: small triangular-shaped sander
+  - **Usage**: designed for tight spaces, corners, and detailed work
 
-#### **Detail Sander**
+  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_detail-sanders.jpg){.aligncenter .size-medium}
 
-- Small triangular-shaped sander
-  - **Usage**: Designed for tight spaces, corners, and detailed work
+- **Dremel or Hand Drill**: uses drum, disc, or mop sanding attachments that fit into a dremel or drill. These can be found online.
+  - **Usage**: use when light sanding is required or the surface is quite soft. Mops are great to get into tight spaces to remove wood fuzz
 
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_detail-sanders.jpg){.aligncenter .size-medium}
+  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_drill-dremel.jpg "Source - https://www.wwgoa.com/post/make-wooden-sign"){.aligncenter .size-medium}
 
-#### **Hand Drill & Dremel**
+  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_dremel-sanding.jpg){.aligncenter .size-medium}
 
-- Uses drum, disc, or mop sanding attachments that fit into a dremel or drill. These can be found online.
-  - **Usage**: Use when light sanding is required or the surface is quite soft. Mops are great to get into tight spaces to remove wood fuzz
+- **Belt Sander**: uses a continuous loop of sandpaper. Can be a wide strip or thin wand unit
+  - **Usage**: best for removing large amounts of material quickly and levelling surfaces
 
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_drill-dremel.jpg "Source - https://www.wwgoa.com/post/make-wooden-sign"){.aligncenter .size-medium}
+  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_belt-sanders.jpg){.aligncenter size-medium}
 
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_dremel-sanding.jpg){.aligncenter .size-medium}
+- **Stationary Disc / Belt Sander**: uses a spinning disc of sandpaper, or a combo of belt and disc sandpaper. Can be mounted on a workbench or table and hooked up to a dust collection system
+  - **Usage**: suitable for rough sanding or shaping edges
 
-#### **Belt Sander**
+  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_belt-disc-sander.jpg){.aligncenter .size-medium}
 
-- Uses a continuous loop of sandpaper. Can be a wide strip or thin wand unit
-  - **Usage**: Best for removing large amounts of material quickly and levelling surfaces
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_belt-sanders.jpg){.aligncenter size-medium}
-
-#### **Stationary Disc & Belt Sanders**
-
-- Uses a spinning disc of sandpaper, or a combo of belt and disc sandpaper. Can be mounted on a workbench or table and hooked up to a dust collection system
-  - **Usage**: Suitable for rough sanding or shaping edges
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_belt-disc-sander.jpg){.aligncenter .size-medium}
-
-#### **Drum Sander**
-
-- A large, stationary sander with a rotating drum
-  - **Usage**: Ideal for sanding large surfaces such as wooden floor boards. Great for removing old paint, varnish, or discolourations and for levelling and smoothing large surfaces
+- **Drum Sander**: a large, stationary sander with a rotating drum
+  - **Usage**: ideal for sanding large surfaces such as wooden floor boards. Great for removing old paint, varnish, or discolourations and for levelling and smoothing large surfaces
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_drum-sander.jpg "Source: https://www.nationalassemblers.com/post/drum-sanders"){.aligncenter .size-medium}
 
@@ -203,7 +185,7 @@ By choosing the right tool for each stage, you can achieve a high-quality finish
 
 **Grit** refers to the particles of sand that make up the sandpaper. Larger, fewer particles with more space between them is coarse grit. The smaller and more packed together the particles, the finer the grit. Coarse sandpaper removes imperfections faster and with less effort than fine sandpaper – which is great if you are trying to shape or level. Fine grit is used for the later stages of wood sanding – for smoothing and polishing. The higher the sandpaper’s grit, the smoother the result. Begin with a coarser grit to level the wood, then buff scratches with finer grits until you reach the desired smoothness. It is important to move through the grits and not skip from a rough one, straight to a fine one.
 
-***Tip**: The golden rule of sanding is to move the sandpaper in the same direction as the wood grain. This reduces visible scratches and results in a smoother finish.*
+***Tip**: the golden rule of sanding is to move the sandpaper in the same direction as the wood grain. This reduces visible scratches and results in a smoother finish.*
 
 ### Grit Guide
 
@@ -215,19 +197,19 @@ By choosing the right tool for each stage, you can achieve a high-quality finish
 
 ### Step-by-Step Process
 
-1. **Start with Rough Sanding (80-100 Grit):**  
+1. **Start with Rough Sanding (80-100 Grit)**:  
    Use this grit to remove any visible tool marks or uneven surfaces created by the CNC machine. You can shape the wood a bit or break the edge if desired.
 
-1. **Medium Sanding (120-150 Grit):**  
+1. **Medium Sanding (120-150 Grit)**:  
    Smooth out any remaining roughness, ensuring an even surface. Use an orbital sander or sanding block for flat surfaces.
 
-1. **Fine Sanding (220-320 Grit):**  
+1. **Fine Sanding (220-320 Grit)**:  
    This grit is for a silky-smooth finish, ideal before applying paint, stain, or sealant. Do be aware that the higher the grit you use at this stage, will reduce the ability of stains and finished to penetrate the wood. If you are using 1000 grit for example, you are no longer cutting the wood, but packing sawdust into the wood pours, burnishing it. The surface will become shiny and very smooth, but not allow stain or seal to penetrate fully.
 
 ### Sanding Tips & Videos
 
-> - **Safety Tips**: Wear protective gear (safety glasses, dust mask). Use a dust collection system or sand in a well-ventilated area.<br>
-> - **Tip**: For curved or intricate designs, consider using sanding sponges, soft pads, or hand sanding to access tight spaces. Depending on your project, getting into the crevices of your design can be difficult. Small scrapers are handy to remove fuzzy bits. What if you carved a 3d relief? Sanding mops in different grits work great here. They can get into the details without removing too much material and ruining the design.
+> - **Safety Tips**: wear protective gear (safety glasses, dust mask). Use a dust collection system or sand in a well-ventilated area.<br>
+> - **Tip**: for curved or intricate designs, consider using sanding sponges, soft pads, or hand sanding to access tight spaces. Depending on your project, getting into the crevices of your design can be difficult. Small scrapers are handy to remove fuzzy bits. What if you carved a 3d relief? Sanding mops in different grits work great here. They can get into the details without removing too much material and ruining the design.
 
 | **Video Title**                                  | **Description**                                                     | **Duration**    | **Link**                                                               |
 |--------------------------------------------------|---------------------------------------------------------------------|-----------------|----------------------------------------------------------------------|
@@ -244,19 +226,19 @@ Breaking the edges is a common woodworking practice that serves several importan
 
 #### Why break the edges?
 
-- **Safety and Comfort**
+- **Safety and Comfort**  
 Sharp edges can be a safety hazard because they are more prone to chipping or breaking off during handling. Additionally, sharp edges can cut or cause splinters, making the finished piece less comfortable to touch or use.
 
-- **Improved Finish Quality**
+- **Improved Finish Quality**  
 Sanding sharp edges helps paint, stain, or varnish adhere better. Sharp corners tend to accumulate excess finish, leading to uneven coverage. By softening the edges, you ensure that the finish is more evenly applied and visually appealing.
 
-- **Reduced Risk of Tear-Out**
+- **Reduced Risk of Tear-Out**  
 Sharp edges are more likely to experience tear-out, especially when cutting or routing. By slightly rounding or chamfering the edges you reduce the chance of fibers breaking off, resulting in a cleaner look.
 
-- **Aesthetic Appeal**
+- **Aesthetic Appeal**  
 Softened or rounded edges often look more refined and professional compared to sharp edges. The softened profile can enhance the overall visual balance of the project and make the design appear more intentional and polished.
 
-- **Longer Lifespan**
+- **Longer Lifespan**  
 Rounded edges are less susceptible to damage from impact or wear and tear over time. This durability is especially important for furniture pieces or items that will experience regular use.
 
 #### Break the edge process
@@ -277,33 +259,27 @@ Raising the grain is an essential step, especially when working with water-based
 
 When you apply water-based finishes or stains to wood, the wood fibers absorb moisture and swell, causing the grain to rise, which results in a rough texture. By raising the grain beforehand and sanding it smooth, you prevent this from happening after the finish or stain is applied, ensuring a smoother final result.
 
-- **Prepares the wood**: Especially important when applying water-based stains, paints, or sealers.
-- **Prevents rough surfaces**: Stops the grain from rising after the finish is applied, ensuring a smooth final result.
+- **Prepares the wood**: especially important when applying water-based stains, paints, or sealers.
+- **Prevents rough surfaces**: stops the grain from rising after the finish is applied, ensuring a smooth final result.
 
 #### Raise the grain process
 
-1. **Sand the Wood**
-   Sand your wood project to a smooth finish using progressively finer grits of sandpaper (start with 120 grit and work up to 220 grit or finer).
-   Make sure the surface is free of any visible scratches or rough spots.
-
-1. **Moisten the Surface**
-   Use a damp cloth to lightly moisten the surface of the wood with a clean, damp cloth. You don’t want to soak the wood, just enough moisture to slightly wet the surface. Make sure the water is put on evenly across the entire surface to raise the grain evenly.
-
-1. **Allow the Wood to Dry**
-   Let the surface to air-dry completely. This usually takes 1-2 hours, depending on the humidity. As the wood dries, the fibers will rise, creating a rough texture on the surface.
-
-1. **Sand the Raised Grain (220-320 Grit)**
-   Once the wood is completely dry, lightly sand the surface with fine-grit sandpaper (320 or higher). The goal is to knock down the raised fibers without removing too much material or damaging the wood. Use light pressure and sand with the grain to avoid scratches. Feel the wood to ensure it’s smooth again.
-
-1. **Continue with the Next Finishing Steps**
-   After raising the grain and sanding it smooth, you can proceed to apply your stain or finish. Since you’ve pre-raised the grain, the finish or stain will go on smoother and result in a more even texture. Keep in mind:
-
+1. **Sand the Wood**  
+Sand your wood project to a smooth finish using progressively finer grits of sandpaper (start with 120 grit and work up to 220 grit or finer). Make sure the surface is free of any visible scratches or rough spots.
+1. **Moisten the Surface**  
+Use a damp cloth to lightly moisten the surface of the wood with a clean, damp cloth. You don’t want to soak the wood, just enough moisture to slightly wet the surface. Make sure the water is put on evenly across the entire surface to raise the grain evenly.
+1. **Allow the Wood to Dry**  
+Let the surface to air-dry completely. This usually takes 1-2 hours, depending on the humidity. As the wood dries, the fibers will rise, creating a rough texture on the surface.
+1. **Sand the Raised Grain (220-320 Grit)**  
+Once the wood is completely dry, lightly sand the surface with fine-grit sandpaper (320 or higher). The goal is to knock down the raised fibers without removing too much material or damaging the wood. Use light pressure and sand with the grain to avoid scratches. Feel the wood to ensure it’s smooth again.
+1. **Continue with the Next Finishing Steps**  
+After raising the grain and sanding it smooth, you can proceed to apply your stain or finish. Since you’ve pre-raised the grain, the finish or stain will go on smoother and result in a more even texture. Keep in mind:
    - Water-Based finishes tend to raise the grain more than oil-based finishes, so it’s especially important to raise the grain beforehand if you’re using water-based products.
    - Oil-based stains and finishes don't raise the grain as much, but it’s still a good practice to prepare the wood properly.
 
 By raising the grain and sanding it smooth before finishing, you’ll end up with a much smoother and more professional finish, especially when using water-based products.
 
-> **Tip**: Always raise the grain before applying water-based products to ensure a professional-looking finish.
+> ***Tip**: always raise the grain before applying water-based products to ensure a professional-looking finish.*
 
 | **Video Title**                                | **Description**                                                          | **Duration**  | **Link**                                                                 |
 |------------------------------------------------|--------------------------------------------------------------------------|---------------|--------------------------------------------------------------------------|
@@ -323,86 +299,86 @@ Check out the section above on sanding to ensure you are ready to paint!*
 
 ### Tools
 
-#### **Paintbrush**
+#### Paintbrush
 
 A versatile tool with bristles made from synthetic or natural materials, used for applying paint, varnish, or stain. Brushes come in different shapes and sizes for various applications.
 
-- **Usage**: Best for cutting-in edges, detailed work, stencilling, and applying smooth coats.
+- **Usage**: best for cutting-in edges, detailed work, stencilling, and applying smooth coats.
 - **Types**:
-  - **Flat Brush**: For large, flat surfaces and broad strokes.
-  - **Angled Brush**: For cutting-in and painting edges.
-  - **Round Brush**: For detailed or decorative work.
+  - **Flat Brush**: for large, flat surfaces and broad strokes.
+  - **Angled Brush**: for cutting-in and painting edges.
+  - **Round Brush**: for detailed or decorative work.
 
-  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_paint-brushes.jpg "Source - https://www.thesignmill.com/, https://nakleo.co.uk/2022/09/21/4-hints-how-to-stencil-wooden-tissue-box/ "){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_paint-brushes.jpg "Source - https://www.thesignmill.com/, https://nakleo.co.uk/2022/09/21/4-hints-how-to-stencil-wooden-tissue-box/ "){.aligncenter .size-medium}
 
-#### **Foam Brush**
+#### Foam Brush
 
 A foam pad on a wooden handle used for applying paint or varnish with minimal brush strokes. Ideal for smooth finishes and water-based products.
 
-- **Usage**: Great for spreading thin, even coats without leaving bristle marks.
-- **Types**: Disposable foam brushes are available in different sizes, typically ranging from 1 to 4 inches.
+- **Usage**: great for spreading thin, even coats without leaving bristle marks.
+- **Types**: disposable foam brushes are available in different sizes, typically ranging from 1 to 4 inches.
 
   ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_foam-brush.jpg){.aligncenter .size-medium}
 
-#### **Chip Brush**
+#### Chip Brush
 
 An inexpensive, all-purpose brush with natural bristles. Not meant for fine finishes, but useful for rough surfaces or for applying glue and other adhesives.
 
-- **Usage**: Ideal for quick touch-ups, stains, or cleaning jobs.
-- **Types**: Disposable or reusable, usually made with natural hog bristles.
+- **Usage**: ideal for quick touch-ups, stains, or cleaning jobs.
+- **Types**: disposable or reusable, usually made with natural hog bristles.
 
   ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_chip-brush.jpg "Source - https://www.jackspaint.co.za/index.php/diy-blog/36-paint-vs-varnish, https://www.confessionsofaserialdiyer.com/the-best-way-to-paint-furniture-white/"){.aligncenter .size-medium}
 
-#### **Detail Brush**
+#### Detail Brush
 
 A small, fine brush used for precise work, such as painting intricate patterns, corners, or detailed trim.
 
-- **Usage**: Best for fine detailing, small touch-ups, and tight spaces.
-- **Types**: Synthetic or natural bristles, typically round or angular in shape.
+- **Usage**: best for fine detailing, small touch-ups, and tight spaces.
+- **Types**: synthetic or natural bristles, typically round or angular in shape.
 
   ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_detail-brushes.jpg "Source - https://club.chicacircle.com/colorful-wood-grain-wall-art-diy/"){.aligncenter .size-medium}
 
-#### **Stain Brush**
+#### Stain Brush
 
 A thick, wide brush designed for applying wood stains and varnishes. Has a high bristle density to hold more product and provide good coverage.
 
-- **Usage**: Apply stains and varnishes evenly over large surfaces.
-- **Types**: Available in various sizes and bristle materials, often 3–4 inches wide.
+- **Usage**: apply stains and varnishes evenly over large surfaces.
+- **Types**: available in various sizes and bristle materials, often 3–4 inches wide.
 
  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain-brush.jpg "Source - https://renopaintmart.com/expert-advice-on-how-to-stain-a-fence/"){.aligncenter .size-medium}
 
-#### **Spray Paint**
+#### Spray Paint
 
 An aerosolized paint that allows for quick, even application over a wide area. It is convenient for both small and large-scale projects where speed and ease of use are essential. You can get a grip attachment that helps hold the can better and dispense the paint smoothly.
 
-- **Usage**: Ideal for covering surfaces evenly, sign letters, stencils, or projects requiring multiple light coats.
-- **Types**: Available in various finishes such as matte, glossy, and metallic. Comes in different formulations, including general-purpose for wood/plastic/metal, primer and paint+primer.
+- **Usage**: ideal for covering surfaces evenly, sign letters, stencils, or projects requiring multiple light coats.
+- **Types**: available in various finishes such as matte, glossy, and metallic. Comes in different formulations, including general-purpose for wood/plastic/metal, primer and paint+primer.
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_spray-paint.jpg "Source - https://www.craftcuts.com/community/home-decor/stencil-farmhouse-sign/attachment/farmhouse-wood-sign-spray-paint/, https://kmtools.com/blogs/news/how-to-lacquer-finish"){.aligncenter .size-medium}
 
-#### **Painter's Tape & Oramask**
+#### Painter's Tape & Oramask
 
 A specialized tape used to mask off areas that should not be painted, ensuring clean, sharp lines and protecting surfaces from unwanted paint. Painter's tape is easy to apply and remove, leaving no residue behind.
 
-- **Usage**: Apply along edges, trim, or anywhere you want to create crisp lines or protect from paint splatter. Make sure to press down firmly to prevent paint from seeping underneath.
-- **Types**: Available in different widths and adhesion levels, designed for various surfaces like drywall, wood, or glass.
+- **Usage**: apply along edges, trim, or anywhere you want to create crisp lines or protect from paint splatter. Make sure to press down firmly to prevent paint from seeping underneath.
+- **Types**: available in different widths and adhesion levels, designed for various surfaces like drywall, wood, or glass.
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tape-oramask.jpg "Source - https://www.homeright.com/projects/diy-wood-sign/, https://youtu.be/-liCG8_jhQs"){.aligncenter .size-medium}
 
-#### **Tack Cloth**
+#### Tack Cloth
 
 A tack cloth is a sticky, lint-free cloth used to remove dust, dirt, and debris from surfaces before painting. It ensures a smooth, clean surface to help achieve a professional finish without imperfections.
 
-- **Usage**: Gently wipe the surface with the tack cloth to pick up fine dust and particles before applying primer or paint
-- **Types**: Available in various sizes and tackiness levels for different surface types. Some are designed for light-duty cleaning, while others are more robust for larger projects
+- **Usage**: gently wipe the surface with the tack cloth to pick up fine dust and particles before applying primer or paint
+- **Types**: available in various sizes and tackiness levels for different surface types. Some are designed for light-duty cleaning, while others are more robust for larger projects
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tack-cloth.jpg "Source - https://www.thehandymansdaughter.com/tack-cloth/, https://sawsonskates.com/what-is-a-tack-cloth/"){.aligncenter .size-medium}
 
-#### **Brush Care Tips**
+#### Brush Care Tips
 
-- **Cleaning**: Use water for water-based paints and mineral spirits for oil-based products.
-- **Storage**: Wrap the brush in plastic wrap or use a brush cover to keep bristles straight and prevent drying.
-- **Maintenance**: Comb out bristles to keep them aligned and store brushes hanging or flat.
+- **Cleaning**: use water for water-based paints and mineral spirits for oil-based products.
+- **Storage**: wrap the brush in plastic wrap or use a brush cover to keep bristles straight and prevent drying.
+- **Maintenance**: comb out bristles to keep them aligned and store brushes hanging or flat.
 
 ### Types of Paint & Primer
 
@@ -420,38 +396,36 @@ A tack cloth is a sticky, lint-free cloth used to remove dust, dirt, and debris 
 
 ### Step-by-Step Painting Process
 
-1. **Prepare the Surface**<br>
-   - Remove Dust: Wipe down with a tack cloth to eliminate any dust left after sanding
-   - Tape Applied: Mask off any areas you don't want the paint to go
-
-1. **Prime the Surface** (Optional but Recommended):  
-   - Choose the Right Primer: Use a stain-blocking primer if the wood is knotty or has discolorations<br>
-   - Apply an Even Coat: Use a brush, following the wood grain <br>
-   - Allow it to dry according to the manufacturer’s instructions<br>
-   - Light Sanding: Once dry, sand lightly with 220-grit paper and wipe away dust<br>
-
+1. **Prepare the Surface**
+   - Remove Dust: wipe down with a tack cloth to eliminate any dust left after sanding
+   - Tape Applied: mask off any areas you don't want the paint to go
+1. **Prime the Surface** (Optional but Recommended):
+   - Choose the Right Primer: use a stain-blocking primer if the wood is knotty or has discolorations
+   - Apply an Even Coat: use a brush, following the wood grain
+   - Allow it to dry according to the manufacturer’s instructions
+   - Light Sanding: once dry, sand lightly with 220-grit paper and wipe away dust
 1. **Apply Paint in Thin Layers**
-   - Mix the Paint: Stir the paint thoroughly with a stir stick or shake the can
-   - Apply the First Coat: Use a brush for detailed areas and a roller or spray paint for flat surfaces. Apply thin, even coats
-   - Let it Dry: Allow the paint to dry completely (usually 4-6 hours or per instructions)
-   - Sand Between Coats: Lightly sand with 220-grit sandpaper for a smooth finish, then wipe away dust
-   - Apply Additional Coats: Repeat the process until you achieve the desired opacity and finish (typically 2-3 coats)
-
+   - Mix the Paint: stir the paint thoroughly with a stir stick or shake the can
+   - Apply the First Coat: use a brush for detailed areas and a roller or spray paint for flat surfaces. Apply thin, even coats
+   - Let it Dry: allow the paint to dry completely (usually 4-6 hours or per instructions)
+   - Sand Between Coats: lightly sand with 220-grit sandpaper for a smooth finish, then wipe away dust
+   - Apply Additional Coats: repeat the process until you achieve the desired opacity and finish (typically 2-3 coats)
 1. **Final Sanding (320-400 Grit)**
    - This helps smooth any imperfections or raised grain caused by moisture in the paint before applying the final coat
-
 1. **Apply Final Coat**  
    - After applying the desired number of layers (typically 2-3), let the project dry completely before moving on to sealing
-
 1. **Finishing Touches**
-   - Remove Painter’s Tape: Carefully peel off the tape to reveal clean edges
-   - Cure the Paint: Allow the final coat to cure fully (up to 24 hours) before using or moving the piece
+   - Remove Painter’s Tape: carefully peel off the tape to reveal clean edges
+   - Cure the Paint: allow the final coat to cure fully (up to 24 hours) before using or moving the piece
 
 ### Painting Tips & Videos
 
-> ***Tips** Always paint in a well-ventilated area.
-Use quality brushes and rollers to avoid streaks and brush marks.
-Avoid applying thick coats to prevent drips or uneven coverage.*
+> ***Tips**:*
+>
+> 1. *Always paint in a well-ventilated area.*
+> 1. *Use quality brushes and rollers to avoid streaks and brush marks.*
+> 1. *Avoid applying thick coats to prevent drips or uneven coverage.*
+>
 
 | **Video Title**                              | **Description**                                                                                | **Duration**  | **Link**                                                  |
 |----------------------------------------------|------------------------------------------------------------------------------------------------|---------------|----------------------------------------------------------|
@@ -464,7 +438,7 @@ Staining wood offers a natural and elegant way to enhance the grain and color of
 
 The process involves applying the stain evenly, letting it soak into the wood, and wiping off the excess. Multiple coats can be applied for a richer finish, and **pre-stain conditioner** can be used for softwoods to ensure even absorption.
 
-> ***Tip:** Proper surface preparation, such as sanding, is crucial for an even and smooth stain application.*
+> ***Tip**: proper surface preparation, such as sanding, is crucial for an even and smooth stain application.*
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain.jpg "Source - https://mrsander.co.uk/blog/to-stain-or-not-to-stain/"){.aligncenter .size-medium}
 
@@ -481,17 +455,14 @@ The process involves applying the stain evenly, letting it soak into the wood, a
 
 ### Step-by-Step Staining Process
 
-1. **Pre-Stain Conditioner (Optional but Recommended):**  
-   Use a wood conditioner on softwoods (e.g. pine, maple) to ensure even stain absorption.
-
+1. **Pre-Stain Conditioner** (optional):  
+Use a wood conditioner on softwoods (e.g. pine, maple) to ensure even stain absorption.
 1. **Apply Stain with a Brush or Cloth**:  
-   Work the stain into the wood, following the grain. Wipe away excess after 5-10 minutes.
-
+Work the stain into the wood, following the grain. Wipe away excess after 5-10 minutes.
 1. **Let the Stain Dry**:  
-   Allow at least 4-6 hours (oil-based) or 1-2 hours (water-based) before applying a second coat or moving to the sealing stage.
-
+Allow at least 4-6 hours (oil-based) or 1-2 hours (water-based) before applying a second coat or moving to the sealing stage.
 1. **Apply Additional Coats (Optional)**:  
-   If you want a deeper color, you can apply multiple coats, allowing full drying between each.
+If you want a deeper color, you can apply multiple coats, allowing full drying between each.
 
 ### Staining Tips & Videos
 
@@ -508,7 +479,7 @@ Applying a wood finish is essential for enhancing both the appearance and longev
 
 The application process involves evenly applying the finish, allowing it to dry, and lightly sanding between coats for a smooth, professional look. You may also want to choose between different finishes like **oil-based**, **water-based**, or **lacquer** depending on the desired effect and durability.
 
-> ***Tip:** A good sealant assists in preventing paint from bleeding into your projects that may use a V bit to carve a sign. You may want to use a sealant during parts of your carve to keep lines & text sharp.*
+> ***Tip**: a good sealant assists in preventing paint from bleeding into your projects that may use a V bit to carve a sign. You may want to use a sealant during parts of your carve to keep lines & text sharp.*
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_poly-finish.jpg "Source - https://www.woodmagazine.com/woodworking-tips/techniques/finishing/polyurethane"){.aligncenter .size-medium}
 
@@ -527,26 +498,21 @@ The application process involves evenly applying the finish, allowing it to dry,
 
 ### Step-by-Step Sealing Process
 
-1. **Clean the Surface**:<br>
-   Remove any dust and debris:  from the CNC process using a soft brush or vacuum.
-   Inspect for Imperfections: Check for any rough edges, burn marks, or tool marks. Sand these areas smooth.
-
+1. **Clean the Surface**:  
+Remove any dust and debris: from the CNC process using a soft brush or vacuum. Inspect for Imperfections: check for any rough edges, burn marks, or tool marks. Sand these areas smooth.
 1. **Apply Sealer with a Brush or Rag**:  
-   Start with a thin layer. Apply evenly, following the wood grain
-
+Start with a thin layer. Apply evenly, following the wood grain.
 1. **Allow to Dry Fully**:  
-   Drying times vary depending on the product (typically 4-24 hours)
-
+Drying times vary depending on the product (typically 4-24 hours).
 1. **Sand Lightly Between Coats (320+ Grit)**:  
-   This removes any dust or imperfections, ensuring a smooth final finish
-
+This removes any dust or imperfections, ensuring a smooth final finish.
 1. **Apply 2-3 Coats for Maximum Protection**:  
-   More coats provide better durability and water resistance, especially for surfaces exposed to moisture
+More coats provide better durability and water resistance, especially for surfaces exposed to moisture.
 
 ### Sealing Tips & Videos
 
-> - Always work in a **well-ventilated area** to ensure proper drying and avoid inhaling harmful fumes.<br>
-> - Test finishes on **scrap wood** before applying them to your main project.<br>
+> - Always work in a **well-ventilated area** to ensure proper drying and avoid inhaling harmful fumes.
+> - Test finishes on **scrap wood** before applying them to your main project.
 > - Follow the **manufacturer’s instructions** for all products to ensure the best results.
 
 |**Video Title**|**Description**|**Duration**| **Link**|
@@ -582,35 +548,29 @@ French finishing, also known as French polishing, is a traditional wood finishin
 
 It's a labor-intensive process that uses shellac, alcohol, and a rubbing pad to build up a lustrous, deep finish on wood surfaces. This technique dates back to the 18th century and is still highly regarded for the rich, warm look it provides, especially on high-quality wood.
 
-- **Enhances wood beauty**: Ideal for bringing out the grain and natural warmth of the wood.
-- **Creates a durable surface**: Although delicate, the multiple layers of shellac create a surprisingly resilient finish.
+- **Enhances wood beauty**: ideal for bringing out the grain and natural warmth of the wood.
+- **Creates a durable surface**: although delicate, the multiple layers of shellac create a surprisingly resilient finish.
 
 #### French Finishing Process
 
-1. **Prepare the Wood**
-   Sand the wood to a very smooth surface, progressing through grits from 120 up to 320 or even finer. Ensure the wood is free of any dust, scratches, or imperfections, as French finishing will highlight these.
-
-1. **Create the Padding**
-   Make a French polishing pad, or “rubber,” by wrapping a small ball of cotton in a soft, lint-free cloth. The pad should be shaped so that it has a smooth, even surface to glide over the wood without leaving marks.
-
-1. **Apply the Shellac**
-   Start by saturating the pad with a mixture of shellac and alcohol (typically a 1:1 ratio). Apply the shellac in long, sweeping motions, working in small circular or figure-eight movements to evenly coat the wood. Be careful not to press too hard, as this can damage the finish. Work in thin layers, allowing each layer to dry before applying the next.
-
-1. **Build Up Layers**
-   Continue applying layers of shellac until the desired depth and shine are achieved. This can take multiple sessions, as each layer should be allowed to dry for at least 30 minutes between applications. For a rich, glossy look, French polishers may apply 10-20 layers of shellac.
-
-1. **Lubricate with Oil**
-   To prevent the pad from sticking to the wood as you build layers, add a few drops of oil (such as mineral oil) to the pad. This will act as a lubricant and help achieve a smoother finish. Be sparing with the oil, as too much can dull the finish.
-
-1. **Finish and Buff**
-   Once you've built up a sufficient number of layers and achieved a deep gloss, allow the finish to fully cure (which may take up to a week). Then, lightly buff the surface with a clean, soft cloth to remove any residual oil and enhance the shine.
-
+1. **Prepare the Wood**  
+Sand the wood to a very smooth surface, progressing through grits from 120 up to 320 or even finer. Ensure the wood is free of any dust, scratches, or imperfections, as French finishing will highlight these.
+1. **Create the Padding**  
+Make a French polishing pad, or “rubber,” by wrapping a small ball of cotton in a soft, lint-free cloth. The pad should be shaped so that it has a smooth, even surface to glide over the wood without leaving marks.
+1. **Apply the Shellac**  
+Start by saturating the pad with a mixture of shellac and alcohol (typically a 1:1 ratio). Apply the shellac in long, sweeping motions, working in small circular or figure-eight movements to evenly coat the wood. Be careful not to press too hard, as this can damage the finish. Work in thin layers, allowing each layer to dry before applying the next.
+1. **Build Up Layers**  
+Continue applying layers of shellac until the desired depth and shine are achieved. This can take multiple sessions, as each layer should be allowed to dry for at least 30 minutes between applications. For a rich, glossy look, French polishers may apply 10-20 layers of shellac.
+1. **Lubricate with Oil**  
+To prevent the pad from sticking to the wood as you build layers, add a few drops of oil (such as mineral oil) to the pad. This will act as a lubricant and help achieve a smoother finish. Be sparing with the oil, as too much can dull the finish.
+1. **Finish and Buff**  
+Once you've built up a sufficient number of layers and achieved a deep gloss, allow the finish to fully cure (which may take up to a week). Then, lightly buff the surface with a clean, soft cloth to remove any residual oil and enhance the shine.
    - French finishing works best on fine woods like mahogany and walnut.
    - Avoid using the finish in high-moisture areas, as shellac can be sensitive to water.
 
 By following this process, you can achieve a stunning, professional-quality finish with a deep, luxurious sheen that highlights the natural beauty of the wood.
 
-> **Tip**: Practice on a scrap piece of wood to perfect your technique before applying French finish to a larger project.
+> **Tip**: practice on a scrap piece of wood to perfect your technique before applying French finish to a larger project.
 
 | **Video Title**                                | **Description**                                                        | **Duration**  | **Link**                                                                 |
 |------------------------------------------------|--------------------------------------------------------------------------|---------------|--------------------------------------------------------------------------|
