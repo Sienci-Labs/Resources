@@ -22,11 +22,15 @@ Sometimes projects can come off your machine looking exactly how you want, but o
 Find what best applies to your situation, then click the links to learn more:
 
 - **Sanding**: improve the appearance of your projects by removing wood fuzz and smoothing rough surfaces left by the CNC. Sanding is also a necessary step to prepare for colouring or protecting the wood.
+  [su_table responsive="yes"]
+
   | **Type**          | **Description**    | **Picture**                                |
   |-------------------|-------------------|--------------------------------------------|
   | General cleanup     | 60-100 grit       | Removes large burrs, rough edges.          |
   | Medium Sanding    | 120-150 grit      | Smoothens the surface, removes tool marks. |
   | Fine Sanding      | 220-320 grit      | Prepares for paint/stain, smooth texture.  |
+  
+  [/su_table]
 
 Use different hand tools (sandpaper, sanding block, sanding sponge) or power tools (orbital sander, detail sander, belt sander) depending on the task. Choose the correct grit to begin and follow the grit progression (rough, medium, fine) for the best results.
 
