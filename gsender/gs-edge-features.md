@@ -32,7 +32,7 @@ Downloading Edge is similar to the Main version of gSender and is available on t
 
 If you used to see a feature here but don’t see it any longer, it’s likely been added into the main version of gSender! Look for it on the other gSender documentation pages.
 
-The core of our next iteration of gSender Edge is a User Interface (UI) refresh with a few specific goals in mind. As gSender has evolved over the years, with new features and support for various new hardware extensions and firmware, we’ve inevitably run into constraints within the current design - space, look and feel, and responsiveness. We’d like to spend the next Edge cycle addressing these constraints with a few other goals in mind. For this version of Edge, which we call *New U* our goals are as follows:
+The core of our next iteration of gSender Edge is a User Interface (UI) refresh with a few specific goals in mind. As gSender has evolved over the years, with new features and support for various new hardware extensions and firmware, we’ve inevitably run into constraints within the current design - space, look and feel, and responsiveness. We’ve spent this Edge cycle addressing these constraints with a few other goals in mind. For this version of Edge, which we call *New U* our goals are as follows:
 
 - Maintaining gSender primary principles of simplistic unopinionated controls, substitute technical jargon for simple language, and only showing functionality that you need for your specific machine.
 - Better support for various screen sizes (from desktop down to phone) and more intuitive, usable touchscreen support.
@@ -46,17 +46,16 @@ As of version **1.50** the current notable features / improvements to Edge are:
 - **New UI Control Screen**
   - **Jog Control** - Received a makeover including button size, spacing and adding in A axis
   - **New DRO** - Toggle between setting your zeros and going to your zeros, updated end stop buttons
-  - **Visualizer** -
+  - **Visualizer** - 
   - **Settings** - Separate App preferences to export, import or reset your settings in addition to machine profile, size and import/export functions
   - **Running Jobs**-Feed & Laser Speed Bar really got a punch of colour! Use the slider or the + and - buttons to change speed
   - **Alarms** - Now focused in the top/center of the screen for easier reading
   - **Outline & Start From** - Start from now has it's own button!
   - **Running status bar** - Upgraded visual is now an end mill, showing your progress through your job visually, in a percentage of time shown
 - **Updated Mobile & Tablet screens** - Use your phone or your tablet with our power packed mobile UI update
-- **Notification System** - gSender wants to tell you something!
-  - **Info button** - provides a footprint of your machine information, including firmware modals and pin indication lights
-  - **Notification bell** - allows you to sort your notifications by tab, showing errors, info and successful jobs completed
-  - **Tool is ON** - buttons will appear on the top bar if you have the laser or rotary tools enabled
+
+### Coming Soon
+
 - **Config Tab** - A whole new page to dial in your settings or use a wizard to assist
 - **Stat/Info Tab** - Review your usage and statistics on this tab
 - **Tool/CAM Tab** -
@@ -64,10 +63,11 @@ As of version **1.50** the current notable features / improvements to Edge are:
   - **Load File** - Updated to give you more power over your files
   - **Recent Files** - Are now listed, just press and load
   - **Last Job** - Includes new details like the file name, run time and status
-
-### Coming Soon
-
 - **Dark Mode** - Run gSender at night while in dark mode. Oooh, spooky.
+- **Notification System** - gSender wants to tell you something!
+  - **Info button** - provides a footprint of your machine information, including firmware modals and pin indication lights
+  - **Notification bell** - allows you to sort your notifications by tab, showing errors, info and successful jobs completed
+  - **Tool is ON** - buttons will appear on the top bar if you have the laser or rotary tools enabled
 
 ### Improved Layout/Control Screen
 
