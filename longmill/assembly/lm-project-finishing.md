@@ -62,10 +62,10 @@ Painting and staining not only protect your wood, but they allow you to get more
 
 [su_table responsive="yes"]
 
-| **Goal** | **Description** | **Picture** |
-|----------|-----------------|-------------|
-| [🎨 Get Painting](#learn-painting) | Even one simple colour can really make projects pop! | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_painting.jpg){.aligncenter .size-medium .non} |
-| [🖌️ Staining](#learn-staining) | Enhance the grain and color of your wood while still providing protection and durability. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain-handles-2.jpg){.aligncenter .size-medium .non} |
+| **Goal** | |
+|----------|-------------|
+| [🎨 Get Painting](#learn-painting)<br>Even one simple colour can really make projects pop! | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_painting.jpg){.aligncenter .size-medium .non} |
+| [🖌️ Staining](#learn-staining)<br>Enhance the grain and color of your wood while still providing protection and durability. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain-handles-2.jpg){.aligncenter .size-medium .non} |
 
 [/su_table]
 
@@ -85,9 +85,9 @@ The "**grit**" rating on sandpaper describes if it uses larger, sharper particle
 
 | **Sanding Level** | **Grit Range** | **Purpose** |
 |-------------------|----------------|-------------|
-| Rough / Coarse | 60-100 | Removes imperfections the fastest, like large burrs and rough edges, and great for further shaping the material. |
-| Medium | 120-150 | Good for smoothing small bumps and dents and a good stopping point if you're only aiming for a general-purpose sanding. |
-| Fine | 220-320 | For detailed touch-ups, and also necessary if preparing for decorative coating staining, smoothing, or polishing. |
+| **Rough / Coarse** | 60-100 | Removes imperfections the fastest, like large burrs and rough edges, and great for further shaping the material. |
+| **Medium** | 120-150 | Good for smoothing small bumps and dents and a good stopping point if you're only aiming for a general-purpose sanding. |
+| **Fine** | 220-320 | For detailed touch-ups, and also necessary if preparing for decorative coating staining, smoothing, or polishing. |
 
 [/su_table]
 
@@ -361,9 +361,9 @@ The most important thing to a successful paint job is surface preparation which 
 
 | **Primer Type** | **Finish** | **Best For** |
 |-----------------|------------|--------------|
-| Acrylic Primer | Matte/Satin | General indoor and outdoor surfaces, wood, drywall, and plaster. |
-| Oil-Based Primer | Smooth | Wood, metal, and surfaces prone to stains or rust. |
-| Shellac Primer | Glossy/Matte | Sealing in odors and stains, providing a strong barrier on wood, metal, and plaster. |
+| **Acrylic Primer** | Matte/Satin | General indoor and outdoor surfaces, wood, drywall, and plaster. |
+| **Oil-Based Primer** | Smooth | Wood, metal, and surfaces prone to stains or rust. |
+| **Shellac Primer** | Glossy/Matte | Sealing in odors and stains, providing a strong barrier on wood, metal, and plaster. |
 
 [/su_table]
 
@@ -371,9 +371,9 @@ The most important thing to a successful paint job is surface preparation which 
 
 | **Paint Type** | **Finish** | **Best For** |
 |----------------|------------|--------------|
-| Acrylic Paint | Matte/Satin/Gloss | Small to medium projects, easy application. |
-| Spray Paint | Smooth, Glossy | Large areas, quick coverage. |
-| Latex Paint | Matte or Gloss | Projects requiring durability and flexibility. |
+| **Acrylic Paint** | Matte/Satin/Gloss | Small to medium projects, easy application. |
+| **Spray Paint** | Smooth, Glossy | Large areas, quick coverage. |
+| **Latex Paint** | Matte or Gloss | Projects requiring durability and flexibility. |
 
 [/su_table]
 
@@ -422,9 +422,7 @@ Remove dust left after sanding by vacuuming or wiping it down with a tack cloth.
 
 Staining wood offers a natural and elegant way to enhance the grain and color of the wood while still providing protection and durability. Wood stain penetrates the surface, allowing the texture and beauty of the wood to remain visible, unlike paint, which covers it. Stains come in a variety of shades, offering plenty of design options while preserving the wood's organic appearance.
 
-The process involves applying the stain evenly, letting it soak into the wood, and wiping off the excess. Multiple coats can be applied for a richer finish, and **pre-stain conditioner** can be used for softwoods to ensure even absorption.
-
-> ***Tip**: proper surface preparation, such as sanding, is crucial for an even and smooth stain application.*
+The most important thing when staining is to properly prepare the surface [by sanding](#learn-sanding) to get an even and smooth result. The remaining process involves applying the stain evenly, letting it soak into the wood, and wiping off the excess. Multiple coats can be applied for a richer finish, and **pre-stain conditioner** can be used for softwoods to ensure even absorption.
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain.jpg "Source - https://mrsander.co.uk/blog/to-stain-or-not-to-stain/"){.aligncenter .size-medium}
 
@@ -557,7 +555,7 @@ Once you've built up a sufficient number of layers and achieved a deep gloss, al
 
 By following this process, you can achieve a stunning, professional-quality finish with a deep, luxurious sheen that highlights the natural beauty of the wood.
 
-> **Tip**: practice on a scrap piece of wood to perfect your technique before applying French finish to a larger project.
+**Tip**: practice on a scrap piece of wood to perfect your technique before applying French finish to a larger project.
 
 [su_table responsive="yes"]
 
