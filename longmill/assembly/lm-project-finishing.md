@@ -31,10 +31,10 @@ Improve the appearance of your projects by removing fuzz off edges or smoothing 
 
 | **Goal** | |
 |----------|-------------|
-| [🖐️ General Cleanup](#learn-sanding)<br>Small fuzzies and sharp edges usually only need simple hand sanding to get the project looking right. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title-2.jpg){.aligncenter .size-medium .non} |
-| [⛰️ 3D or V Carves](#sanding-steps)<br>Clean up fuzz in hard-to-reach spaces using a sanding mop on a drill or Dremel. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_raw-wood-4.jpg){.aligncenter .size-medium .non} |
-| [💪 Tool Marks](#power-sanding)<br>If you see deep ridges or scars left over from cutting, start off using power tools to save time sanding. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tool-marks-3.jpg){.aligncenter .size-medium .non} |
-| [🛠️ Other Methods](#advanced-sanding)<br>Consider "raising the grain" to give wood faces a smoother, more professional finish. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_broke-edge-2.jpg){.aligncenter .size-medium .non} |
+| [🖐️ General Cleanup](#learn-sanding)<br>Small fuzzies and sharp edges usually only need simple hand sanding to get the project looking right. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title.jpg){.aligncenter .size-medium .non} |
+| [⛰️ 3D or V Carves](#sanding-steps)<br>Clean up fuzz in hard-to-reach spaces using a sanding mop on a drill or Dremel. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_raw-wood-5.jpg){.aligncenter .size-medium .non} |
+| [💪 Tool Marks](#power-sanding)<br>If you see deep ridges or scars left over from cutting, start off using power tools to save time sanding. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tool-marks-4.jpg){.aligncenter .size-medium .non} |
+| [🛠️ Other Methods](#advanced-sanding)<br>Consider "raising the grain" to give wood faces a smoother, more professional finish. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_broke-edge.jpg){.aligncenter .size-medium .non} |
 
 [/su_table]
 
@@ -48,9 +48,9 @@ Protect your project from wear, moisture, and environmental damage, while also a
 
 | **Goal** | |
 |----------|-------------|
-| [🖐️ General Steps](#learn-sealing)<br>Any type of finish on your project will go a long way toward preventing long-term cracks and degradation. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_cracked-lion-2.jpg){.aligncenter .size-medium .non} |
-| [🪧 Outdoor Use](#finish-comparison)<br>Compare common finishes to see which ones are best at protecting outdoor projects long-term. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_outdoor-sign.jpg){.aligncenter .size-medium .non} |
-| [🍴 Food Safe](#sealing-types)<br>See what types of sealant you can choose from if you've made something for your kitchen or to be handled by children. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_cutting-board-2.jpg){.aligncenter .size-medium .non} |
+| [🖐️ General Steps](#learn-sealing)<br>Any type of finish on your project will go a long way toward preventing long-term cracks and degradation. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_cracked-lion-3.jpg){.aligncenter .size-medium .non} |
+| [🪧 Outdoor Use](#finish-comparison)<br>Compare common finishes to see which ones are best at protecting outdoor projects long-term. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_outdoor-sign-2.jpg){.aligncenter .size-medium .non} |
+| [🍴 Food Safe](#sealing-types)<br>See what types of sealant you can choose from if you've made something for your kitchen or to be handled by children. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_cutting-board-3.jpg){.aligncenter .size-medium .non} |
 
 [/su_table]
 
