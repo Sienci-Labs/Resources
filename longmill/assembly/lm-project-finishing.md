@@ -17,7 +17,7 @@ featured_image: /_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title.jpg
 
 If you're successfully making projects on your CNC, congrats! 🎉
 
-Sometimes projects can come off your machine looking exactly how you want, but other times you might want to make small improvements or protect them so they last longer. That's where this page comes in. Below is packed with information on "finishing" mostly wooden projects off a CNC (because plastics and metals don't tend to need the same level of protection).
+Sometimes projects can come off your machine looking exactly how you want, but other times you might want to make small improvements or protect them so they last longer. That's where this page comes in. Below is packed with information on "finishing" mostly wooden projects off a CNC (because plastics and metals don't tend to need the same level of protection). Every journey begins with the first step, or page in this case, so be curious and let us know if we missed anything by sending us a message at the bottom of the page!
 
 ## Guide
 
@@ -34,7 +34,7 @@ Improve the appearance of your projects by removing fuzz off edges or smoothing 
 | [🖐️ General Cleanup](#learn-sanding)<br>Small fuzzies and sharp edges usually only need simple hand sanding to get the project looking right. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title-2.jpg){.aligncenter .size-medium .non} |
 | [⛰️ 3D or V Carves](#sanding-steps)<br>Clean up fuzz in hard-to-reach spaces using a sanding mop on a drill or Dremel. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_raw-wood-4.jpg){.aligncenter .size-medium .non} |
 | [💪 Tool Marks](#power-sanding)<br>If you see deep ridges or scars left over from cutting, start off using power tools to save time sanding. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tool-marks-3.jpg){.aligncenter .size-medium .non} |
-| [🛠️ Other Methods](#advanced-sanding)<br>Consider "raising the grain" to give wood faces a smoother finish. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_broke-edge-2.jpg){.aligncenter .size-medium .non} |
+| [🛠️ Other Methods](#advanced-sanding)<br>Consider "raising the grain" to give wood faces a smoother, more professional finish. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_broke-edge-2.jpg){.aligncenter .size-medium .non} |
 
 [/su_table]
 
@@ -49,12 +49,27 @@ Protect your project from wear, moisture, and environmental damage, while also a
 | **Goal** | |
 |----------|-------------|
 | [🖐️ General Steps](#learn-sealing)<br>Any type of finish on your project will go a long way toward preventing long-term cracks and degradation. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_cracked-lion-2.jpg){.aligncenter .size-medium .non} |
-| [🪧 Outdoor Use](#finish-comparison-chart)<br>Compare common finishes to see which ones are best at protecting outdoor projects long-term. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_outdoor-sign.jpg){.aligncenter .size-medium .non} |
+| [🪧 Outdoor Use](#finish-comparison)<br>Compare common finishes to see which ones are best at protecting outdoor projects long-term. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_outdoor-sign.jpg){.aligncenter .size-medium .non} |
 | [🍴 Food Safe](#sealing-types)<br>See what types of sealant you can choose from if you've made something for your kitchen or to be handled by children. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_cutting-board-2.jpg){.aligncenter .size-medium .non} |
 
 [/su_table]
 
 You can also [Read More](#learn-sealing), [Learn the Steps](#sealing-steps), or see [Tips and Videos](#sealing-tips--videos) on Sealing.
+
+### Colouring
+
+Painting and staining not only protect your wood, but they allow you to get more creative with your projects by enhancing their appearance or colouring and highlighting the wood grain.
+
+[su_table responsive="yes"]
+
+| **Goal** | **Description** | **Picture** |
+|----------|-----------------|-------------|
+| [🎨 Get Painting](#learn-painting) | Even one simple colour can really make projects pop! | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_painting.jpg){.aligncenter .size-medium .non} |
+| [🖌️ Staining](#learn-staining) | Enhance the grain and color of your wood while still providing protection and durability. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain-handles-2.jpg){.aligncenter .size-medium .non} |
+
+[/su_table]
+
+You can also see Tips and Videos on [Painting](#painting-tips--videos) and [Staining](#staining-tips--videos) to get more comfortable with them.
 
 ## Learn Sanding
 
@@ -80,6 +95,8 @@ The "**grit**" rating on sandpaper describes if it uses larger, sharper particle
 
 ### Sanding Steps
 
+1. **Get Equipped**:  
+Select your sanding tools based on your project. Pull out the [power tools](#power-sanding) if you have lots of material to remove or many projects to sand, or just use [hand tools](#hand-sanding) if you're project is smaller or only needs a couple touch-ups.
 1. **Rough Sanding (80-100 Grit)**:  
 Use this grit to remove any visible tool marks or uneven surfaces created by the CNC machine on your material. You can also shape the wood a bit or break the edge if desired.
 1. **Break the Edges** (medium or fine grit, optional):  
@@ -90,7 +107,7 @@ Smooth out any remaining roughness, ensuring an even surface. An orbital sander 
 See the [Power Sanding](#power-sanding) section on the sanding attachments available for drill and rotary tools which will save you lots of time clearing out the nooks of intricate carves. If you don't have these available, sometimes a less-aggressive bristle brush or even a toothbrush can help release fibers that were left behind.
 1. **Fine Sanding (220-320 Grit)**:  
 This grit is for a silky-smooth finish, ideal before applying paint, stain, or sealant. Do be aware that the higher the grit you use at this stage, will reduce the ability of stains and finished to penetrate the wood. If you are using 1000 grit for example, you are no longer cutting the wood, but packing sawdust into the wood pores, burnishing it. The surface will become shiny and very smooth, but not allow stain or seal to penetrate fully.
-1. [**Raise the grain**](#raising-the-grain) (optional):  
+1. [**Raise the Grain**](#raising-the-grain) (optional):  
 Do this to further improve to surface finish on woods that you plan on finishing. This technique prevents wood fibers from lifting when applying water-based finishes.
 
 ### Sanding Tips & Videos
@@ -218,11 +235,11 @@ By raising the grain and sanding it smooth before finishing, you’ll end up wit
 
 Finishing generally involves evenly applying a sealant, allowing it to dry, and lightly sanding between coats until it's smoothed to your preference. Proper finishing not only improves aesthetics but also helps protect your project from cracks and splits, or fading with time. Once the sealant seeps into the exposed wood grains it becomes a barrier against dirt and moisture getting in and stops the inside of the wood from getting too moist or cracking from drying out.
 
-The easiest way to seal wood is to simply coat it with an oil, even something simple like olive oil or vegetable oil, but there are also many purpose-made sealants to choose from in the form of waxes, urethanes, and laquers. [Paint and Stain]() can also protect wood, but these usually require that you colour the wood in some way whereas sealers are clear or semi-transparent, preserving the wood’s original color and grain. Read the [table comparing different finishes](#finish-comparison-chart) to help you decide what approach you want for your project, since you might decide you prefer paints or stains over sealants.
+The easiest way to seal wood is to simply coat it with an oil, even something simple like olive oil or vegetable oil, but there are also many purpose-made sealants to choose from in the form of waxes, urethanes, and laquers. [Paint](#learn-painting) and [Stain](#learn-staining) can also protect wood, but these usually require that you colour the wood in some way whereas sealers are clear or semi-transparent, preserving the wood’s original color and grain. Read the [table comparing different finishes](#finish-comparison) to help you decide what approach you want for your project, since you might decide you prefer paints or stains over sealants.
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_poly-finish.jpg "Source - https://www.woodmagazine.com/woodworking-tips/techniques/finishing/polyurethane"){.aligncenter .size-medium}
 
-### Finish Comparison Chart
+### Finish Comparison
 
 This chart helps you compare different finishing options for your project by comparing durability, drying time, appearance, and if it's suitable for the outdoors.
 
@@ -262,6 +279,8 @@ If you've chosen to move forward with using a sealant, double-check the table be
 
 ### Sealing Steps
 
+1. **Get Equipped**:  
+Select your [sealant](#sealing-types) as well as [brushes and other tools](#finishing-tools) based on your project.
 1. **Clean the Surface**:  
 Remove any dust and debris from the CNC process using a soft brush or vacuum. Make sure you've also sanded the piece to remove rough edges, burns, or tool marks otherwise you won't get an even, protective coat.
 1. **Apply Sealer with a Brush or Rag**:  
@@ -276,6 +295,7 @@ More coats provide better durability and water resistance, especially for surfac
 ### Sealing Tips & Videos
 
 - Always work in a well-ventilated area to ensure proper drying and avoid inhaling harmful fumes.
+- [Care for your brushes](#brush-care) if you want them to last a long time.
 - Test finishes on scrap wood before applying them to your main project.
 - Follow the manufacturer’s instructions for all products to ensure the best results.
 
@@ -310,75 +330,148 @@ More coats provide better durability and water resistance, especially for surfac
 **Spray Paint**: an aerosolized paint that allows for quick, even application over a wide area. It is convenient for both small and large-scale projects where speed and ease of use are essential. You can get a grip attachment that helps hold the can better and dispense the paint smoothly.
 
 - **Usage**: ideal for covering surfaces evenly, sign letters, stencils, or projects requiring multiple light coats.
-- **Types**: available in various finishes such as matte, glossy, and metallic. Comes in different formulations, including general-purpose for wood/plastic/metal, primer and paint+primer.
+- **Types**: available in various finishes such as matte, glossy, and metallic. Comes in different formulations, including general-purpose for wood/plastic/metal, primer, and paint+primer.
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_spray-paint.jpg "Source - https://www.craftcuts.com/community/home-decor/stencil-farmhouse-sign/attachment/farmhouse-wood-sign-spray-paint/, https://kmtools.com/blogs/news/how-to-lacquer-finish"){.aligncenter .size-medium}
 
 **Tack Cloth**: a sticky, lint-free cloth used to remove dust, dirt, and debris from surfaces before painting. It ensures a smooth, clean surface to help achieve a professional finish without imperfections.
 
-- **Usage**: gently wipe the surface with the tack cloth to pick up fine dust and particles before applying primer or paint
-- **Types**: available in various sizes and tackiness levels for different surface types. Some are designed for light-duty cleaning, while others are more robust for larger projects
+- **Usage**: gently wipe the surface with the tack cloth to pick up fine dust and particles before applying primer or paint.
+- **Types**: available in various sizes and tackiness levels for different surface types. Some are designed for light-duty cleaning, while others are more robust for larger projects.
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tack-cloth.jpg "Source - https://www.thehandymansdaughter.com/tack-cloth/, https://sawsonskates.com/what-is-a-tack-cloth/"){.aligncenter .size-medium}
 
-#### Brush Care Tips
+#### Brush Care
 
 - **Cleaning**: use water for water-based paints and mineral spirits for oil-based products.
 - **Storage**: wrap the brush in plastic wrap or use a brush cover to keep bristles straight and prevent drying.
 - **Maintenance**: comb out bristles to keep them aligned and store brushes hanging or flat.
 
+## Learn Painting
 
+The obvious aspect of painting is that it provides many ways to customize the look of your projects. Whether you're masking, blending, or layering, paint offers lots of versatility with its design possibilities. Less well known is that painting wood can also seal the surface against warping and mold, and create a more durable coating to prevent prevent chipping and cracks.
 
-
-### Colouring
-
-Painting and staining not only protect your wood, but they allow you to get more creative with your projects by enhancing their appearance or highlighting the wood grain.
-
-[su_table responsive="yes"]
-
-| **Goal** | **Description** | **Picture** |
-|----------|-----------------|-------------|
-| [🖐️ General cleanup](#hand-sanding) | Small fuzzies and sharp edges usually only need simple hand sanding to get the project looking right. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title.jpg){.aligncenter .size-medium .non} |
-| [⛰️ 3D or V Carves]() | Clean up fuzz in hard-to-reach spaces using a sanding mop on a drill or Dremel. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_raw-wood.jpg){.aligncenter .size-medium .non} |
-| [💪 Tool Marks](#power-sanding) | If you see deep ridges or scars left over from cutting, start off using power tools to save time sanding. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tool-marks-2.jpg){.aligncenter .size-medium .non} |
-| [🛠️ Other Methods](#break-the-edges) | "Break the edge" to smooth sharp corners or "raise the grain" to give wood faces a smoother finish. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_broke-edge.jpg){.aligncenter .size-medium .non} |
-
-[/su_table]
-
-### Apply a water-based paint, finish or stain
-
-- 🌊 [**Raising the Grain**](#raising-the-grain) is a key step you don’t want to miss, especially when applying a water-based finish or stain.
-
-<summary><strong style="font-size: 1.2em;">Change colour</strong> - Painting and staining not only protect your wood, but enhance the appearance, highlight grain and unleash your creativity.</summary>
-
-### Paint my project
-
-- 🎨 First select your [**Tools**](#tools) and [**Paint**](#types-of-paint--primer), then follow the [**Step By Step**](#step-by-step-painting-process) guide.
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_painting.jpg "Even one simple colour can really make projects pop!"){.aligncenter .size-medium}
-
-### Stain my project
-
-- 🖌️ With your [**Stain**](#stain-types) selected, begin the [**Step By Step**](#step-by-step-staining-process) process.
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain-handles.jpg "Both handles came from the same branch. Unstained on the left, quickly stained on the right"){.aligncenter .size-medium}
-
-### Know everything
-
-- 🎓 Every journey begins with the first step, or page in this case. Go straight to the front of the line and read everything about [**Sanding**](#sanding), [**Painting**](#painting), [**Staining**](#staining), or [**Sealing**](#sealing). You can let us know if we missed anything by sending us a message at the bottom of the page!
-
-## Painting
-
-Painting wood serves multiple purpose including protection & surface sealing, helping to prevent chips, cracks, warping, mold, and moisture. It also adds endless design possibilities and customization.
-
-Painting wood enhances both its durability and visual appeal, making it a versatile and practical finishing option. The process is simply applying paint in thin layers, allowing it to dry and sanding in between coats. You may want to use a **primer** to begin.
-
-> ***Tip** The most important thing to a successful paint job is surface preparation. <br>
-Check out the section above on sanding to ensure you are ready to paint!*
+The most important thing to a successful paint job is surface preparation which is covered quite well in the [sanding section](#learn-sanding). Depending on the material, you may also want to use a **primer** before painting, since these are designed to help the paint stick better to the surface you're painting. Once the surface is prepared, simply apply the paint in thin layers, allowing it to dry and sanding in between coats.
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_paint-title.jpg "Source - https://www.wwgoa.com/post/make-wooden-sign"){.aligncenter .size-medium}
 
-### Tools
+### Paints & Primers
+
+[su_table responsive="yes"]
+
+| **Primer Type** | **Finish** | **Best For** |
+|-----------------|------------|--------------|
+| Acrylic Primer | Matte/Satin | General indoor and outdoor surfaces, wood, drywall, and plaster. |
+| Oil-Based Primer | Smooth | Wood, metal, and surfaces prone to stains or rust. |
+| Shellac Primer | Glossy/Matte | Sealing in odors and stains, providing a strong barrier on wood, metal, and plaster. |
+
+[/su_table]
+
+[su_table responsive="yes"]
+
+| **Paint Type** | **Finish** | **Best For** |
+|----------------|------------|--------------|
+| Acrylic Paint | Matte/Satin/Gloss | Small to medium projects, easy application. |
+| Spray Paint | Smooth, Glossy | Large areas, quick coverage. |
+| Latex Paint | Matte or Gloss | Projects requiring durability and flexibility. |
+
+[/su_table]
+
+### Step-by-Step Painting Process
+
+1. **Get Equipped**:  
+Select your [paint](#paints--primers) as well as [brushes and other tools](#brushes--other-tools) based on your project.
+1. **Prepare the Surface**:  
+Remove dust left after sanding by vacuuming or wiping it down with a tack cloth. Also, apply tape if you want to mask off any areas you don't want painted.
+1. **Prime the Surface** (optional but recommended):
+   - Choose the Right Primer: use a stain-blocking primer if the wood is knotty or has discolorations
+   - Apply an Even Coat: use a brush, following the wood grain
+   - Allow it to dry according to the manufacturer’s instructions
+   - Light Sanding: once dry, sand lightly with 220-grit paper and wipe away dust
+1. **Apply Paint in Thin Layers**:
+   - Mix the Paint: stir the paint thoroughly with a stir stick or shake the can
+   - Apply the First Coat: use a brush for detailed areas and a roller or spray paint for flat surfaces. Apply thin, even coats
+   - Let it Dry: allow the paint to dry completely (usually 4-6 hours or per instructions)
+   - Sand Between Coats: lightly sand with 220-grit sandpaper for a smooth finish, then wipe away dust
+   - Apply Additional Coats: repeat the process until you achieve the desired opacity and finish (typically 2-3 coats)
+1. **Final Sanding (320-400 Grit)**:
+   - This helps smooth any imperfections or raised grain caused by moisture in the paint before applying the final coat
+1. **Apply Final Coat**:
+   - After applying the desired number of layers (typically 2-3), let the project dry completely before moving on to sealing
+1. **Finishing Touches**:
+   - Remove Painter’s Tape: carefully peel off the tape to reveal clean edges
+   - Cure the Paint: allow the final coat to cure fully (up to 24 hours) before using or moving the piece
+
+### Painting Tips & Videos
+
+- If you want to paint the inside of your carves, like painting a signature black while leaving the rest of the wood grain exposed, then you can either apply a mask before carving (like Oramask) or consider [sealing the wood](#learn-sealing) before cutting it on the CNC. Either technique can really help leave crisp lines where paint would normally "bleed" around the edges.
+- Always paint in a well-ventilated area.
+- Use quality brushes and rollers to avoid streaks and brush marks.
+- Avoid applying thick coats to prevent drips or uneven coverage.
+
+[su_table responsive="yes"]
+
+| **Video Title** | **Description** | **Duration** | **Link** |
+|-----------------|-----------------|--------------|---------|
+| Which Spray Paint is Best on Wood Furniture? | This video explores different types of spray paints and their effectiveness on wood furniture. | 20 minutes | [Watch Video](https://www.youtube.com/watch?app=desktop&v=uM_boGIOTIM) |
+| Using a Flat Roller to Paint a V-Carved Sign | A quick tutorial on how to use a flat roller for painting a V-carved sign. | 4 minutes | [Watch Video](https://www.youtube.com/watch?v=0kI5crkiXi4) |
+
+[/su_table]
+
+## Learn Staining
+
+Staining wood offers a natural and elegant way to enhance the grain and color of the wood while still providing protection and durability. Wood stain penetrates the surface, allowing the texture and beauty of the wood to remain visible, unlike paint, which covers it. Stains come in a variety of shades, offering plenty of design options while preserving the wood's organic appearance.
+
+The process involves applying the stain evenly, letting it soak into the wood, and wiping off the excess. Multiple coats can be applied for a richer finish, and **pre-stain conditioner** can be used for softwoods to ensure even absorption.
+
+> ***Tip**: proper surface preparation, such as sanding, is crucial for an even and smooth stain application.*
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain.jpg "Source - https://mrsander.co.uk/blog/to-stain-or-not-to-stain/"){.aligncenter .size-medium}
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain-handles-2.jpg "Both handles came from the same branch. Unstained on the left, quickly stained on the right"){.aligncenter .size-medium}
+
+### Stain Types
+
+[su_table responsive="yes"]
+
+| **Type of Stain** | **Description** | **Best Used On** |
+|-------------------|-----------------|------------------|
+| Oil-Based Stain | Deep penetration, rich color | Hardwood projects |
+| Water-Based Stain | Easy cleanup, less odor, quick drying | Softwood and general projects |
+| Gel Stain | Sits on top, great for vertical applications | Complex, detailed surfaces |
+| Varnish Stain | Combines stain and varnish for protective finish | Furniture & picture frames |
+
+[/su_table]
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain-types.jpg "In this image you can see an oil based stain on the left, water in the middle and gel on the right"){.aligncenter .size-medium}
+
+### Step-by-Step Staining Process
+
+1. **Get Equipped**:  
+Select your [stain](#stain-types) as well as [brushes and other tools](#brushes--other-tools) based on your project.
+1. **Pre-Stain Conditioner** (optional):  
+Use a wood conditioner on softwoods (e.g. pine, maple) to ensure even stain absorption.
+1. **Apply Stain with a Brush or Cloth**:  
+Work the stain into the wood, following the grain. Wipe away excess after 5-10 minutes.
+1. **Let the Stain Dry**:  
+Allow at least 4-6 hours (oil-based) or 1-2 hours (water-based) before applying a second coat or moving to the sealing stage.
+1. **Apply Additional Coats** (optional):  
+If you want a deeper color, you can apply multiple coats, allowing full drying between each.
+
+### Staining Tips & Videos
+
+- Be careful trying to stain over any spots with left over wood glue, as the stain will not react the same as on the wood, and will expose a difference in colour.*
+
+[su_table responsive="yes"]
+
+| **Video Title** | **Description** | **Duration** | **Link** |
+|-----------------|-----------------|--------------|---------|
+| Cool Paint Tool | This short video shows exposing the grain with a cool tool. | 1 minute | [Watch Video](https://www.youtube.com/shorts/Z_xj91QG2zY) |
+| Wood Staining Basics | Biggest wood staining mistakes and misconceptions | 8 minutes | [Watch Video](https://www.youtube.com/watch?v=vfeAxUfoEdE) |
+
+[/su_table]
+
+### Brushes & other Tools
 
 **Paintbrush**: a versatile tool with bristles made from synthetic or natural materials, used for applying paint, varnish, or stain. Brushes come in different shapes and sizes for various applications.
 
@@ -421,14 +514,14 @@ Check out the section above on sanding to ensure you are ready to paint!*
 **Spray Paint**: an aerosolized paint that allows for quick, even application over a wide area. It is convenient for both small and large-scale projects where speed and ease of use are essential. You can get a grip attachment that helps hold the can better and dispense the paint smoothly.
 
 - **Usage**: ideal for covering surfaces evenly, sign letters, stencils, or projects requiring multiple light coats.
-- **Types**: available in various finishes such as matte, glossy, and metallic. Comes in different formulations, including general-purpose for wood/plastic/metal, primer and paint+primer.
+- **Types**: available in various finishes such as matte, glossy, and metallic. Comes in different formulations, including general-purpose for wood/plastic/metal, primer, and paint+primer.
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_spray-paint.jpg "Source - https://www.craftcuts.com/community/home-decor/stencil-farmhouse-sign/attachment/farmhouse-wood-sign-spray-paint/, https://kmtools.com/blogs/news/how-to-lacquer-finish"){.aligncenter .size-medium}
 
 **Tack Cloth**: a sticky, lint-free cloth used to remove dust, dirt, and debris from surfaces before painting. It ensures a smooth, clean surface to help achieve a professional finish without imperfections.
 
-- **Usage**: gently wipe the surface with the tack cloth to pick up fine dust and particles before applying primer or paint
-- **Types**: available in various sizes and tackiness levels for different surface types. Some are designed for light-duty cleaning, while others are more robust for larger projects
+- **Usage**: gently wipe the surface with the tack cloth to pick up fine dust and particles before applying primer or paint.
+- **Types**: available in various sizes and tackiness levels for different surface types. Some are designed for light-duty cleaning, while others are more robust for larger projects.
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tack-cloth.jpg "Source - https://www.thehandymansdaughter.com/tack-cloth/, https://sawsonskates.com/what-is-a-tack-cloth/"){.aligncenter .size-medium}
 
@@ -438,121 +531,6 @@ Check out the section above on sanding to ensure you are ready to paint!*
 - **Types**: available in different widths and adhesion levels, designed for various surfaces like drywall, wood, or glass.
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tape-oramask.jpg "Source - https://www.homeright.com/projects/diy-wood-sign/, https://youtu.be/-liCG8_jhQs"){.aligncenter .size-medium}
-
-
-### Types of Paint & Primer
-
-[su_table responsive="yes"]
-
-| **Primer Type** | **Finish** | **Best For** |
-|-----------------|------------|--------------|
-| Acrylic Primer | Matte/Satin | General indoor and outdoor surfaces, wood, drywall, and plaster. |
-| Oil-Based Primer | Smooth | Wood, metal, and surfaces prone to stains or rust. |
-| Shellac Primer | Glossy/Matte | Sealing in odors and stains, providing a strong barrier on wood, metal, and plaster. |
-
-[/su_table]
-
-[su_table responsive="yes"]
-
-| **Paint Type** | **Finish** | **Best For** |
-|----------------|------------|--------------|
-| Acrylic Paint | Matte/Satin/Gloss | Small to medium projects, easy application. |
-| Spray Paint | Smooth, Glossy | Large areas, quick coverage. |
-| Latex Paint | Matte or Gloss | Projects requiring durability and flexibility. |
-
-[/su_table]
-
-### Step-by-Step Painting Process
-
-1. **Prepare the Surface**
-   - Remove Dust: wipe down with a tack cloth to eliminate any dust left after sanding
-   - Tape Applied: mask off any areas you don't want the paint to go
-1. **Prime the Surface** (Optional but Recommended):
-   - Choose the Right Primer: use a stain-blocking primer if the wood is knotty or has discolorations
-   - Apply an Even Coat: use a brush, following the wood grain
-   - Allow it to dry according to the manufacturer’s instructions
-   - Light Sanding: once dry, sand lightly with 220-grit paper and wipe away dust
-1. **Apply Paint in Thin Layers**
-   - Mix the Paint: stir the paint thoroughly with a stir stick or shake the can
-   - Apply the First Coat: use a brush for detailed areas and a roller or spray paint for flat surfaces. Apply thin, even coats
-   - Let it Dry: allow the paint to dry completely (usually 4-6 hours or per instructions)
-   - Sand Between Coats: lightly sand with 220-grit sandpaper for a smooth finish, then wipe away dust
-   - Apply Additional Coats: repeat the process until you achieve the desired opacity and finish (typically 2-3 coats)
-1. **Final Sanding (320-400 Grit)**
-   - This helps smooth any imperfections or raised grain caused by moisture in the paint before applying the final coat
-1. **Apply Final Coat**
-   - After applying the desired number of layers (typically 2-3), let the project dry completely before moving on to sealing
-1. **Finishing Touches**
-   - Remove Painter’s Tape: carefully peel off the tape to reveal clean edges
-   - Cure the Paint: allow the final coat to cure fully (up to 24 hours) before using or moving the piece
-
-### Painting Tips & Videos
-
-> ***Tips**:*
-Sealing wood before cutting it on the CNC can be a great technique  assists in preventing paint from bleeding into your projects that may use a V bit to carve a sign. You may want to use a sealant during parts of your carve to keep lines & text sharp.*
->
-> 1. *Always paint in a well-ventilated area.*
-> 1. *Use quality brushes and rollers to avoid streaks and brush marks.*
-> 1. *Avoid applying thick coats to prevent drips or uneven coverage.*
->
-
-[su_table responsive="yes"]
-
-| **Video Title** | **Description** | **Duration** | **Link** |
-|-----------------|-----------------|--------------|---------|
-| Which Spray Paint is Best on Wood Furniture? | This video explores different types of spray paints and their effectiveness on wood furniture. | 20 minutes | [Watch Video](https://www.youtube.com/watch?app=desktop&v=uM_boGIOTIM) |
-| Using a Flat Roller to Paint a V-Carved Sign | A quick tutorial on how to use a flat roller for painting a V-carved sign. | 4 minutes | [Watch Video](https://www.youtube.com/watch?v=0kI5crkiXi4) |
-
-[/su_table]
-
-## Staining
-
-Staining wood offers a natural and elegant way to enhance the grain and color of the wood while still providing protection and durability. Wood stain penetrates the surface, allowing the texture and beauty of the wood to remain visible, unlike paint, which covers it. Stains come in a variety of shades, offering plenty of design options while preserving the wood's organic appearance.
-
-The process involves applying the stain evenly, letting it soak into the wood, and wiping off the excess. Multiple coats can be applied for a richer finish, and **pre-stain conditioner** can be used for softwoods to ensure even absorption.
-
-> ***Tip**: proper surface preparation, such as sanding, is crucial for an even and smooth stain application.*
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain.jpg "Source - https://mrsander.co.uk/blog/to-stain-or-not-to-stain/"){.aligncenter .size-medium}
-
-### Stain Types
-
-[su_table responsive="yes"]
-
-| **Type of Stain** | **Description** | **Best Used On** |
-|-------------------|-----------------|------------------|
-| Oil-Based Stain | Deep penetration, rich color | Hardwood projects |
-| Water-Based Stain | Easy cleanup, less odor, quick drying | Softwood and general projects |
-| Gel Stain | Sits on top, great for vertical applications | Complex, detailed surfaces |
-| Varnish Stain | Combines stain and varnish for protective finish | Furniture & picture frames |
-
-[/su_table]
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain-types.jpg "In this image you can see an oil based stain on the left, water in the middle and gel on the right"){.aligncenter .size-medium}
-
-### Step-by-Step Staining Process
-
-1. **Pre-Stain Conditioner** (optional):  
-Use a wood conditioner on softwoods (e.g. pine, maple) to ensure even stain absorption.
-1. **Apply Stain with a Brush or Cloth**:  
-Work the stain into the wood, following the grain. Wipe away excess after 5-10 minutes.
-1. **Let the Stain Dry**:  
-Allow at least 4-6 hours (oil-based) or 1-2 hours (water-based) before applying a second coat or moving to the sealing stage.
-1. **Apply Additional Coats (Optional)**:  
-If you want a deeper color, you can apply multiple coats, allowing full drying between each.
-
-### Staining Tips & Videos
-
-> ***Tips** - Be careful trying to stain over any spots with left over wood glue, as the stain will not react the same as on the wood, and will expose a difference in colour.*
-
-[su_table responsive="yes"]
-
-| **Video Title** | **Description** | **Duration** | **Link** |
-|-----------------|-----------------|--------------|---------|
-| Cool Paint Tool | This short video shows exposing the grain with a cool tool. | 1 minute | [Watch Video](https://www.youtube.com/shorts/Z_xj91QG2zY) |
-| Wood Staining Basics | Biggest wood staining mistakes and misconceptions | 8 minutes | [Watch Video](https://www.youtube.com/watch?v=vfeAxUfoEdE) |
-
-[/su_table]
 
 ## Advanced Techniques
 
