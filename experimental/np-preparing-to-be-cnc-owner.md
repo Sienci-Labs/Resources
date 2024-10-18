@@ -23,6 +23,8 @@ Set the expectations of someone starting on the CNC journey to set a reasonable 
 
 Ensure this is positive and doesn't scare people off
 
+https://www.reddit.com/r/CNC/comments/xugn99/is_there_any_cnc_machine_for_home_at_an/
+
 ## Setting Expectations
 
 You've done the hours of research and are ready to embark on your CNC journey. Ready to push the boat from the shore and jump in with both oars straining under your power. You will make magnificent creations that the world will line up to gander at. In time your marvels will be in a museum! Wait, is that rain I feel on my cheek? (Downpour of information incoming) Why am I veering off to the left all the time in this boat? (Machine maintenance) Did I remember to pack a bailer to get this water out?(How am I gonna do this? Community can help)
