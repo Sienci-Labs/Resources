@@ -1,17 +1,17 @@
 ---
 title: Sanding & Finishing
-menu_order: 13
-post_status: publish
+menu_order: 0
+post_status: draft
 post_excerpt: Everything you need to know about finishing your average CNC'd wood project. Become familiar with sanding, stains, painting, clear-coats, and common tools used.
 post_date: 2024-09-10 15:45:00
 taxonomy:
-    knowledgebase_cat: lm-assembly
+    knowledgebase_cat: lmk2-handbook
     knowledgebase_tag:
-        - mk1
+        - mk2
 custom_fields:
-    KBName: LongMill CNC
+    KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
-skip_file: no
+skip_file: yes
 featured_image: /_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title.jpg
 ---
 
