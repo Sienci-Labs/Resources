@@ -1,9 +1,9 @@
 ---
 title: ytsb Extra 48x30 Steps
-menu_order: 0
+menu_order: 9
 post_status: draft
 post_excerpt: 
-post_date: 2024-04-30 18:14
+post_date: 2022-03-17 20:18:00
 taxonomy:
     knowledgebase_cat: lmk2-assembly
     knowledgebase_tag:

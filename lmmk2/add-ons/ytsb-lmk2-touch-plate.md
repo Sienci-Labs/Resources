@@ -1,9 +1,9 @@
 ---
 title: ytsb Touch Plate
-menu_order: 0
+menu_order: 1
 post_status: draft
-post_excerpt: How to set up and assemble the add-ons for the LongMill CNC router which include the dust shoe, touch plate, and T-tracks.
-post_date: 2021-04-30 15:15:00
+post_excerpt: How to set up and use the touch plates for your LongMill CNC.
+post_date: 2022-03-17 20:19:00
 taxonomy:
     knowledgebase_cat: lmk2-add-ons
     knowledgebase_tag:

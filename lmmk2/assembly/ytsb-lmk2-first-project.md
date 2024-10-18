@@ -1,9 +1,9 @@
 ---
 title: ytsb Your First Project
-menu_order: 0
+menu_order: 8
 post_status: draft
 post_excerpt: Beginner projects to try out on the LongMill CNC. These simple test cuts will allow you to gauge if every is working properly after assembling your machine.
-post_date: 2021-04-30 15:10:00
+post_date: 2022-03-17 20:17:00
 taxonomy:
     knowledgebase_cat: lmk2-assembly
     knowledgebase_tag:

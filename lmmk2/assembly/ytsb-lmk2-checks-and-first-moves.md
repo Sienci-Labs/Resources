@@ -1,9 +1,9 @@
 ---
 title: ytsb Checks & 1st Moves
-menu_order: 0
+menu_order: 6
 post_status: draft
-post_excerpt: 
-post_date: 2024-04-30 18:14
+post_excerpt: After assembly, you can set up the electronics and g-code sender for the LongMill CNC. Wiring is shown for the control box, power supply, motors and more.
+post_date: 2022-03-17 20:13:00
 taxonomy:
     knowledgebase_cat: lmk2-assembly
     knowledgebase_tag:

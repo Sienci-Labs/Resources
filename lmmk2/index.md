@@ -69,10 +69,11 @@ LongMill MK2 page order should be as follows:  (last updated as of Oct 4, 2024)
 3. Feeds & Speeds ⏩
 4. Wasteboard & Fixtures
 5. Running Jobs
-6. Explore Projects 🪑
-7. Maintenance 🛠️
-8. CNC Issues & Fixes 🩹
-9. Common CNC Terms (MK1 & MK2 same)
+6. Sanding & Finishing
+7. Explore Projects 🪑
+8. Maintenance 🛠️
+9. CNC Issues & Fixes 🩹
+10. Common CNC Terms (MK1 & MK2 same)
 
 🧩 Advanced
 

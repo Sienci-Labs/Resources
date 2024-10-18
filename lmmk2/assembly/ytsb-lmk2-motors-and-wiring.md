@@ -1,9 +1,9 @@
 ---
 title: ytsb Motors & Wiring
-menu_order: 0
+menu_order: 5
 post_status: draft
-post_excerpt: After assembly, you can set up the electronics and g-code sender for the LongMill CNC. Wiring is shown for the control box, power supply, motors and more.
-post_date: 2021-04-30 15:00:00
+post_excerpt: How to assemble the drag chain and manage the wiring for the LongMill Benchtop CNC. Wire routing for the Makita router and motors is illustrated.
+post_date: 2022-03-17 20:11:00
 taxonomy:
     knowledgebase_cat: lmk2-assembly
     knowledgebase_tag:

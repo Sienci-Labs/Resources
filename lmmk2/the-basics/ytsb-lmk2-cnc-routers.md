@@ -3,7 +3,7 @@ title: ytsb CNC Routers
 menu_order: 2
 post_status: draft
 post_excerpt: What is a CNC router? What can it cut? An explanation of how the LongMill and other 3-axis CNCs work and their capabilities when creating projects.
-post_date: 2022-03-17 19:41:00
+post_date: 2022-03-17 19:42:00
 taxonomy:
     knowledgebase_cat: lmk2-the-basics
     knowledgebase_tag:

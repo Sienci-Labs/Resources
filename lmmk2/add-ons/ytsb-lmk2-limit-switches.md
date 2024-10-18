@@ -1,9 +1,9 @@
 ---
 title: ytsb Limit Switches ⛔
-menu_order: 0
+menu_order: 3
 post_status: draft
-post_excerpt: Limit switches, end stops or homing switches are sensors that sit at one or both ends of each movement axis of a CNC. Repeatably locates the machine via homing.
-post_date: 2021-04-30 17:25:00
+post_excerpt: See how to mount and wire custom limit switches or the inductive limit switch kit to the LongMill MK2. See how limit switches work and if they're for you.
+post_date: 2022-03-17 20:23:00
 taxonomy:
     knowledgebase_cat: lmk2-add-ons
     knowledgebase_tag:

@@ -198,7 +198,7 @@ By choosing the right tool for each stage, you can achieve a high-quality finish
 
 ### Advanced Sanding
 
-#### Raising the grain
+#### Raising the Grain
 
 Raising the grain is an essential step, especially when working with water-based finishes, if you want a professional-looking finish. The process involves initial sanding, wetting the wood, sanding again, then moving on to other finishing steps.
 

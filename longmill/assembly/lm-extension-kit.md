@@ -31,5 +31,3 @@ Congratulations on getting your LongMill 48” extension kit! In just a few step
 </tr>
 </tbody>
 </table>
-
-&nbsp;

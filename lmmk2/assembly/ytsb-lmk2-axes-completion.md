@@ -1,9 +1,9 @@
 ---
 title: ytsb Axes Completion 🗜️
-menu_order: 0
+menu_order: 4
 post_status: draft
-post_excerpt: LongMill Benchtop CNC assembly guide for the Y-axis rails sub-assembly. Using 3D printed parts, couplers, ACME nuts, motors, aluminum rails and V-wheels.
-post_date: 2021-04-30 14:50:00
+post_excerpt: X-axis rail assembly instructions for the LongMill CNC. Bringing the Y-gantries onto the rail, adding the lead screw, coupler, bearings and ACME nut.
+post_date: 2022-03-17 20:09:00
 taxonomy:
     knowledgebase_cat: lmk2-assembly
     knowledgebase_tag:

@@ -1,9 +1,9 @@
 ---
 title: ytsb X & Z-Axes
-menu_order: 0
+menu_order: 2
 post_status: draft
-post_excerpt: X-axis rail assembly instructions for the LongMill CNC. Bringing the Y-gantries onto the rail, adding the lead screw, coupler, bearings and ACME nut.
-post_date: 2021-04-30 14:45:00
+post_excerpt: Assembly guide for XZ-axis gantry for the LongMill Benchtop CNC. Uses linear guides, router mount, Z-axis motor mount, anti-backlash block, 200mm lead screw.
+post_date: 2022-03-17 20:05:00
 taxonomy:
     knowledgebase_cat: lmk2-assembly
     knowledgebase_tag:

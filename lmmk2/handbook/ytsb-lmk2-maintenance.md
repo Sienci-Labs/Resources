@@ -3,7 +3,7 @@ title: ytsb Maintenance 🛠️
 menu_order: 0
 post_status: draft
 post_excerpt: Maintenance guide for the LongMill CNC, to check rails and V-wheels, tension anti-backlash nut and V-wheels, lubricate linear guides.
-post_date: 2021-04-30 15:35:00
+post_date: 2022-03-17 20:27:00
 taxonomy:
     knowledgebase_cat: lmk2-handbook
     knowledgebase_tag:
