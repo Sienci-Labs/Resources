@@ -25,13 +25,13 @@ Find what best applies to your situation, then click the links to learn more:
 
 ### Sanding
 
-Improve the appearance of your projects by removing fuzz off edges or smoothing rough surfaces left by the CNC. Sanding is also a necessary step to prepare for painting, colouring, or protecting wood.
+Improve the appearance of your projects by removing fuzz off edges or smoothing rough surfaces left by the CNC. Sanding is also a necessary step to prepare for painting, colouring, or sealing wood.
 
 [su_table responsive="yes"]
 
-| **Goal** ||
+| **Goal** | |
 |----------|-------------|
-| [🖐️ General cleanup](#learn-sanding)<br>Small fuzzies and sharp edges usually only need simple hand sanding to get the project looking right. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title-2.jpg){.aligncenter .size-medium .non} |
+| [🖐️ General Cleanup](#learn-sanding)<br>Small fuzzies and sharp edges usually only need simple hand sanding to get the project looking right. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title-2.jpg){.aligncenter .size-medium .non} |
 | [⛰️ 3D or V Carves](#sanding-steps)<br>Clean up fuzz in hard-to-reach spaces using a sanding mop on a drill or Dremel. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_raw-wood-4.jpg){.aligncenter .size-medium .non} |
 | [💪 Tool Marks](#power-sanding)<br>If you see deep ridges or scars left over from cutting, start off using power tools to save time sanding. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tool-marks-3.jpg){.aligncenter .size-medium .non} |
 | [🛠️ Other Methods](#advanced-sanding)<br>Consider "raising the grain" to give wood faces a smoother finish. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_broke-edge-2.jpg){.aligncenter .size-medium .non} |
@@ -40,9 +40,25 @@ Improve the appearance of your projects by removing fuzz off edges or smoothing 
 
 You can also [Read More](#learn-sanding), [Learn the Steps](#sanding-steps), or see [Tips and Videos](#sanding-tips--videos) on Sanding.
 
+### Sealing
+
+Protect your project from wear, moisture, and environmental damage, while also adding a subtle sheen to highlight the wood’s natural beauty. You worked hard to get this far, so why not finish it right?
+
+[su_table responsive="yes"]
+
+| **Goal** | |
+|----------|-------------|
+| [🖐️ General Steps](#learn-sealing)<br>Any type of finish on your project will go a long way toward preventing long-term cracks and degradation. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_cracked-lion-2.jpg){.aligncenter .size-medium .non} |
+| [🪧 Outdoor Use](#finish-comparison-chart)<br>Compare common finishes to see which ones are best at protecting outdoor projects long-term. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_outdoor-sign.jpg){.aligncenter .size-medium .non} |
+| [🍴 Food Safe](#sealing-types)<br>See what types of sealant you can choose from if you've made something for your kitchen or to be handled by children. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_cutting-board-2.jpg){.aligncenter .size-medium .non} |
+
+[/su_table]
+
+You can also [Read More](#learn-sealing), [Learn the Steps](#sealing-steps), or see [Tips and Videos](#sealing-tips--videos) on Sealing.
+
 ## Learn Sanding
 
-Sanding is essential for smoothing rough surfaces left by the CNC process, removing imperfections, and preparing wood for finishing. When it comes to cleaning your projects, you can use different [**hand tools**](#hand-sanding) or [**power tools**](#power-sanding) depending on the task but no matter the approach, you'll want to start with the correct grit.
+Sanding is essential for smoothing rough surfaces left by the CNC process, removing imperfections, and preparing wood for finishing. When it comes to cleaning your projects, you can use different [**hand tools**](#hand-sanding) or [**power tools**](#power-sanding) depending on the task, but no matter the approach you'll want to start with the correct grit.
 
 The "**grit**" rating on sandpaper describes if it uses larger, sharper particles or smaller, smoother ones and can range from "extra-coarse" to "ultra-fine" (30 to 1000+). The reason for these ratings is that sharper "coarse" sandpaper can make deeper scratches which helps to remove material faster to clean up large cuts or gashes, whereas using smoother "finer" sandpaper makes sense to use once you want the surface to start to look smoother and less 'scratched'. This creates a process where you should:
 
@@ -52,11 +68,11 @@ The "**grit**" rating on sandpaper describes if it uses larger, sharper particle
 
 [su_table responsive="yes"]
 
-| **Sanding Level** | **Grit Range** | **Purpose**                                |
-|-------------------|-------------------|--------------------------------------------|
-| Rough / Coarse   | 60-100      | Removes imperfections the fastest, like large burrs and rough edges, and great for further shaping the material.          |
-| Medium           | 120-150      | Good for smoothing small bumps and dents and a good stopping point if you're only aiming for a general-purpose sanding. |
-| Fine             | 220-320      | For detailed touch-ups, and also necessary if preparing for decorative coating staining, smoothing, or polishing.  |
+| **Sanding Level** | **Grit Range** | **Purpose** |
+|-------------------|----------------|-------------|
+| Rough / Coarse | 60-100 | Removes imperfections the fastest, like large burrs and rough edges, and great for further shaping the material. |
+| Medium | 120-150 | Good for smoothing small bumps and dents and a good stopping point if you're only aiming for a general-purpose sanding. |
+| Fine | 220-320 | For detailed touch-ups, and also necessary if preparing for decorative coating staining, smoothing, or polishing. |
 
 [/su_table]
 
@@ -73,7 +89,7 @@ Smooth out any remaining roughness, ensuring an even surface. An orbital sander 
 1. **Smooth Details on 3D and V Carves** (medium or fine grit, optional):  
 See the [Power Sanding](#power-sanding) section on the sanding attachments available for drill and rotary tools which will save you lots of time clearing out the nooks of intricate carves. If you don't have these available, sometimes a less-aggressive bristle brush or even a toothbrush can help release fibers that were left behind.
 1. **Fine Sanding (220-320 Grit)**:  
-This grit is for a silky-smooth finish, ideal before applying paint, stain, or sealant. Do be aware that the higher the grit you use at this stage, will reduce the ability of stains and finished to penetrate the wood. If you are using 1000 grit for example, you are no longer cutting the wood, but packing sawdust into the wood pours, burnishing it. The surface will become shiny and very smooth, but not allow stain or seal to penetrate fully.
+This grit is for a silky-smooth finish, ideal before applying paint, stain, or sealant. Do be aware that the higher the grit you use at this stage, will reduce the ability of stains and finished to penetrate the wood. If you are using 1000 grit for example, you are no longer cutting the wood, but packing sawdust into the wood pores, burnishing it. The surface will become shiny and very smooth, but not allow stain or seal to penetrate fully.
 1. [**Raise the grain**](#raising-the-grain) (optional):  
 Do this to further improve to surface finish on woods that you plan on finishing. This technique prevents wood fibers from lifting when applying water-based finishes.
 
@@ -100,49 +116,66 @@ Do this to further improve to surface finish on woods that you plan on finishing
 
 Hand sanding tools are ideal for precision work, tight spaces, or when you want more control over the sanding process.
 
-- **Sandpaper**: coated abrasive paper available in different grits. Comes in many shapes and sizes from sheets to discs to loops. You can fold it or cut it into smaller pieces to use by hand. Check out the [grit guide](#learn-sanding) for more.
-  - **Usage**: use lower grit for aggressive sanding and higher grits for finishing
-  - **Types**: aluminum oxide (general use), silicon carbide (wet/dry), garnet (fine finishing)
+**Sandpaper**: coated abrasive paper available in different grits. Comes in many shapes and sizes from sheets to discs to loops. You can fold it or cut it into smaller pieces to use by hand. Check out the [grit guide](#learn-sanding) for more.
 
-  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sandpaper-storage.jpg "Source - https://youtu.be/K6VtiejgwZM?si=OsaT7zSpiwqotTuG"){.aligncenter .size-medium}
-- **Sanding Block**: a block used to hold sandpaper flat for even sanding. Cut a strip of sandpaper and attach to the sanding block. Fast & comfortable to use.
-  - **Usage**: prevents uneven sanding and helps apply uniform pressure
-  
-  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-block.jpg){.aligncenter .size-medium}
-- **Sanding Sponge**: flexible sponge coated with abrasive material. No sandpaper needed as it's already on the sponge!
-  - **Usage**: ideal for contours, curves, and irregular surfaces
+- **Usage**: use lower grit for aggressive sanding and higher grits for finishing
+- **Types**: aluminum oxide (general use), silicon carbide (wet/dry), garnet (fine finishing)
 
-  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-sponge.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sandpaper-storage.jpg "Source - https://youtu.be/K6VtiejgwZM?si=OsaT7zSpiwqotTuG"){.aligncenter .size-medium}
+
+**Sanding Block**: a block used to hold sandpaper flat for even sanding. Cut a strip of sandpaper and attach to the sanding block. Fast & comfortable to use.
+
+- **Usage**: prevents uneven sanding and helps apply uniform pressure
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-block.jpg){.aligncenter .size-medium}
+
+**Sanding Sponge**: flexible sponge coated with abrasive material. No sandpaper needed as it's already on the sponge!
+
+- **Usage**: ideal for contours, curves, and irregular surfaces
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-sponge.jpg){.aligncenter .size-medium}
 
 ### Power Sanding
 
 Power tools are more ideal and make the sanding process faster for larger surfaces or more intensive sanding tasks. For instance roughing out larger pieces of furniture or signs, a project that has many cutting scars or stubborn ridges left over, or increasing efficiency on batch jobs.
 
-- **Orbital Sander**: a handheld sander that moves in small circles. You can also get a random orbital sander, that moves randomly instead of in circles.
-  - **Usage**: general-purpose sanding, producing a fine finish with minimal swirl marks
+**Orbital Sander**: a handheld sander that moves in small circles. You can also get a random orbital sander, that moves randomly instead of in circles which makes for an even better finish.
 
-  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_orbital-sand.jpg){.aligncenter .size-medium}
-- **Detail Sander**: small triangular-shaped sander that vibrates.
-  - **Usage**: designed for tight spaces, corners, and detailed work
+- **Usage**: general-purpose sanding, producing a fine finish with minimal swirl marks
 
-  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_detail-sanders.jpg){.aligncenter .size-medium}
-- **Dremel or Hand Drill**: uses drum, disc, or mop sanding attachments that fit into a dremel or drill. These can be found online.
-  - **Usage**: use when light sanding is required or the surface is quite soft. Mops are great to get into tight spaces to remove wood fuzz
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_orbital-sand.jpg){.aligncenter .size-medium}
 
-  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_drill-dremel.jpg "Source - https://www.wwgoa.com/post/make-wooden-sign"){.aligncenter .size-medium}
-  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_dremel-sanding.jpg){.aligncenter .size-medium}
-- **Belt Sander**: uses a continuous loop of sandpaper. Can be a wide strip or thin wand unit.
-  - **Usage**: best for removing large amounts of material quickly and levelling surfaces
+**Detail Sander**: small triangular-shaped sander that vibrates.
 
-  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_belt-sanders.jpg){.aligncenter size-medium}
-- **Stationary Disc / Belt Sander**: uses a spinning disc of sandpaper, or a combo of belt and disc sandpaper. Can be mounted on a workbench or table and hooked up to a dust collection system.
-  - **Usage**: suitable for rough sanding or shaping edges
+- **Usage**: designed for tight spaces, corners, and detailed work
 
-  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_belt-disc-sander.jpg){.aligncenter .size-medium}
-- **Drum Sander**: a large, stationary sander with a rotating drum. Typically more expensive an used for more professional applications.
-  - **Usage**: ideal for sanding large surfaces such as wooden floor boards. Great for removing old paint, varnish, or discolourations and for levelling and smoothing large surfaces
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_detail-sanders.jpg){.aligncenter .size-medium}
 
-  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_drum-sander.jpg "Source: https://www.nationalassemblers.com/post/drum-sanders"){.aligncenter .size-medium}
+**Dremel or Hand Drill**: can use a drum, disc, or mop sanding attachment that fits into the Dremel or drill. These can be found online.
+
+- **Usage**: use when light sanding is required or the surface is quite soft. Mops are great to get into tight spaces to remove wood fuzz.
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_drill-dremel.jpg "Source - https://www.wwgoa.com/post/make-wooden-sign"){.aligncenter .size-medium}
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_dremel-sanding.jpg){.aligncenter .size-medium}
+
+**Belt Sander**: uses a continuous loop of sandpaper. Can be a wide strip or thin wand unit.
+
+- **Usage**: best for removing large amounts of material quickly and levelling surfaces
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_belt-sanders.jpg){.aligncenter size-medium}
+
+**Stationary Disc / Belt Sander**: uses a spinning disc of sandpaper, or a combo of belt and disc sandpaper. Can be mounted on a workbench or table and permanently hooked up to a dust collection system.
+
+- **Usage**: suitable for rough sanding or shaping edges
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_belt-disc-sander.jpg){.aligncenter .size-medium}
+
+**Drum Sander**: a large, stationary sander with a rotating drum. Typically more expensive and used for more professional applications.
+
+- **Usage**: ideal for sanding large surfaces such as wooden floor boards. Great for removing old paint, varnish, or discolourations and for levelling and smoothing large surfaces
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_drum-sander.jpg "Source: https://www.nationalassemblers.com/post/drum-sanders"){.aligncenter .size-medium}
 
 By choosing the right tool for each stage, you can achieve a high-quality finish on your woodworking projects.
 
@@ -160,7 +193,7 @@ When you apply water-based finishes or stains to wood, the wood fibers absorb mo
 1. **Sand the Wood**  
 Sand your wood project to a smooth finish using progressively finer grits of sandpaper (start with 120 grit and work up to 220 grit or finer). Make sure the surface is free of any visible scratches or rough spots.
 1. **Moisten the Surface**  
-Use a damp cloth to lightly moisten the surface of the wood with a clean, damp cloth. You don’t want to soak the wood, just enough moisture to slightly wet the surface. Make sure the water is put on evenly across the entire surface to raise the grain evenly.
+Lightly moisten the surface of the wood with a clean, damp cloth. You don’t want to soak the wood, just enough moisture to slightly wet the surface. Make sure the water is spread evenly across the entire surface to raise the grain equally.
 1. **Allow the Wood to Dry**  
 Let the surface to air-dry completely. This usually takes 1-2 hours, depending on the humidity. As the wood dries, the fibers will rise, creating a rough texture on the surface.
 1. **Sand the Raised Grain (220-320 Grit)**  
@@ -177,75 +210,60 @@ By raising the grain and sanding it smooth before finishing, you’ll end up wit
 | **Video Title** | **Description** | **Duration** | **Link** |
 |-----------------|-----------------|--------------|---------|
 | Raise the Grain | A quick video on raising the grain of wood. | Under 2 minutes | [Watch Video](https://youtu.be/CynRU6QIy28) |
-| Raise the Grain! Wait, what? | A more detailed explanation of the process of raising the grain of wood.  | Longer video | [Watch Video](https://youtu.be/jM7rGoqemCQ) |
+| Raise the Grain! Wait, what? | A more detailed explanation of the process of raising the grain of wood. | Longer video | [Watch Video](https://youtu.be/jM7rGoqemCQ) |
 
 [/su_table]
 
+## Learn Sealing
 
-### Protection
+Finishing generally involves evenly applying a sealant, allowing it to dry, and lightly sanding between coats until it's smoothed to your preference. Proper finishing not only improves aesthetics but also helps protect your project from cracks and splits, or fading with time. Once the sealant seeps into the exposed wood grains it becomes a barrier against dirt and moisture getting in and stops the inside of the wood from getting too moist or cracking from drying out.
 
-Avoid having your project crack, split or fade and prevent moisture from going in or out. You worked hard to make this, so you might as well protect it!
-
-Improve the appearance of your projects by removing fuzz off edges or smoothing rough surfaces left by the CNC. Sanding is also a necessary step to prepare for painting, colouring, or protecting wood.
-
-[su_table responsive="yes"]
-
-| **Goal** ||
-|----------|-------------|
-| [🖐️ General cleanup](#learn-sanding)<br>Small fuzzies and sharp edges usually only need simple hand sanding to get the project looking right. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title-2.jpg){.aligncenter .size-medium .non} |
-| [⛰️ 3D or V Carves](#sanding-steps)<br>Clean up fuzz in hard-to-reach spaces using a sanding mop on a drill or Dremel. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_raw-wood-4.jpg){.aligncenter .size-medium .non} |
-| [💪 Tool Marks](#power-sanding)<br>If you see deep ridges or scars left over from cutting, start off using power tools to save time sanding. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tool-marks-3.jpg){.aligncenter .size-medium .non} |
-| [🛠️ Other Methods](#advanced-sanding)<br>Consider "raising the grain" to give wood faces a smoother finish. | ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_broke-edge-2.jpg){.aligncenter .size-medium .non} |
-
-[/su_table]
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_cracked-lion.jpg "Without anything to protect the lion, it cracked up"){.aligncenter .size-medium}
-
-### Have a food safe finish
-
-- 🍴 Safety first! Check out the [**Types of Sealant**](#sealer-types) chart to ensure you are using the correct sealer for your kitchen items. You can also use the [**Step By Step**](#step-by-step-sealing-process) guide!
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_cutting-board.jpg "This cutting board was sealed with Tung Oil"){.aligncenter .size-medium}
-
-### Seal my sign for outdoor use
-
-- 🪧 Use the [**Finish Comparison Chart**](#finish-comparison-chart) to see what products can be used on signs that go outdoors.
-
-Proper finishing not only improves aesthetics but also helps protect the wood by sealing it from moisture, preventing it from absorbing water or releasing it.
-
-There are several approaches you can take, and this guide is packed with useful information. Depending on what you’re sanding, painting, staining, or finishing, you may find that different techniques work better for your specific project. Let's see if we can guide you in the right direction.
-
-## Sealing
-
-Applying a wood finish is essential for enhancing both the appearance and longevity of your project. A wood finish helps protect the surface from wear, moisture, and environmental damage, while also adding a subtle sheen that highlights the wood’s natural beauty. Unlike stains or paints, finishes are typically clear or semi-transparent, preserving the wood’s original color and grain.
-
-The application process involves evenly applying the finish, allowing it to dry, and lightly sanding between coats for a smooth, professional look. You may also want to choose between different finishes like **oil-based**, **water-based**, or **lacquer** depending on the desired effect and durability.
-
-> ***Tip**: a good sealant assists in preventing paint from bleeding into your projects that may use a V bit to carve a sign. You may want to use a sealant during parts of your carve to keep lines & text sharp.*
+The easiest way to seal wood is to simply coat it with an oil, even something simple like olive oil or vegetable oil, but there are also many purpose-made sealants to choose from in the form of waxes, urethanes, and laquers. [Paint and Stain]() can also protect wood, but these usually require that you colour the wood in some way whereas sealers are clear or semi-transparent, preserving the wood’s original color and grain. Read the [table comparing different finishes](#finish-comparison-chart) to help you decide what approach you want for your project, since you might decide you prefer paints or stains over sealants.
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_poly-finish.jpg "Source - https://www.woodmagazine.com/woodworking-tips/techniques/finishing/polyurethane"){.aligncenter .size-medium}
 
-### Sealer Types
+### Finish Comparison Chart
+
+This chart helps you compare different finishing options for your project by comparing durability, drying time, appearance, and if it's suitable for the outdoors.
 
 [su_table responsive="yes"]
 
-| **Sealer Type**           | **Finish**              | **Best For**                                     | **Food Safe**                |
-|---------------------------|-------------------------|--------------------------------------------------|------------------------------|
-| Polyurethane              | Gloss/Satin/Matte       | High-traffic areas, durability                   | No                           |
-| Lacquer                   | High gloss, fast drying | Professional-quality finish, easy to repair      | No                           |
-| Shellac                   | High gloss              | Easy to apply, traditional wood finish           | Yes (once fully cured)       |
-| Beeswax                   | Soft, matte finish      | Low durability, but smooth, natural look         | Yes                          |
-| Mineral Oil               | Low sheen               | Cutting boards, bowls, and utensils              | Yes                          |
-| Walnut Oil                | Low sheen               | Food-safe finish for cutting boards and utensils | Yes                          |
-| Tung Oil                  | Matte/Natural           | Penetrates wood well, durable natural finish     | Yes                          |
-| Food-Grade Linseed Oil    | Matte/Natural           | Butcher blocks, cutting boards, wooden bowls     | Yes                          |
+| **Finish Type** | **Durability** | **Indoor/Outdoor** | **Drying Time** | **Appearance** |
+|-----------------|----------------|--------------------|----------------|----------------|
+| **Polyurethane** | High | Indoor | 6-24 hours | Glossy, durable |
+| **Spar Urethane** | High | Outdoor | 2-4 hours per coat | Flexible, durable, glossy/satin |
+| **Lacquer** | High | Indoor | 30 minutes - 1 hour | Glossy, professional finish |
+| **Shellac** | Moderate | Indoor | 30 minutes - 1 hour | Warm, high-gloss, rich depth |
+| **Beeswax** | Low | Indoor | Immediate | Soft, natural matte |
+| **Oil-Based Stain** | High | Outdoor | 4-6 hours | Enhances wood grain |
+| **Water-Based Stain** | Moderate | Indoor | 1-2 hours | Lighter color, easy cleanup |
+| **Acrylic Paint** | Moderate | Indoor | 1-2 hours per coat | Colorful, matte/satin/glossy |
 
 [/su_table]
 
-### Step-by-Step Sealing Process
+### Sealing Types
+
+If you've chosen to move forward with using a sealant, double-check the table below to help you choose between different finishes like **oil-based**, **water-based**, or **lacquer** depending on the desired effect and durability.
+
+[su_table responsive="yes"]
+
+| **Sealing Type** | **Finish** | **Best For** | **Food Safe** |
+|-----------------|------------|--------------|--------------|
+| **Polyurethane** | Gloss/Satin/Matte | High-traffic areas, durability | No |
+| **Lacquer** | High gloss, fast drying | Professional-quality finish, easy to repair | No |
+| **Shellac** | High gloss | Easy to apply, traditional wood finish | Yes (once fully cured) |
+| **Beeswax** | Soft, matte finish | Low durability, but smooth, natural look | Yes |
+| **Mineral Oil** | Low sheen | Cutting boards, bowls, and utensils | Yes |
+| **Walnut Oil** | Low sheen | Food-safe finish for cutting boards and utensils | Yes |
+| **Tung Oil** | Matte/Natural | Penetrates wood well, durable natural finish | Yes |
+| **Food-Grade Linseed Oil** | Matte/Natural | Butcher blocks, cutting boards, wooden bowls | Yes |
+
+[/su_table]
+
+### Sealing Steps
 
 1. **Clean the Surface**:  
-Remove any dust and debris: from the CNC process using a soft brush or vacuum. Inspect for Imperfections: check for any rough edges, burn marks, or tool marks. Sand these areas smooth.
+Remove any dust and debris from the CNC process using a soft brush or vacuum. Make sure you've also sanded the piece to remove rough edges, burns, or tool marks otherwise you won't get an even, protective coat.
 1. **Apply Sealer with a Brush or Rag**:  
 Start with a thin layer. Apply evenly, following the wood grain.
 1. **Allow to Dry Fully**:  
@@ -257,40 +275,60 @@ More coats provide better durability and water resistance, especially for surfac
 
 ### Sealing Tips & Videos
 
-> - Always work in a **well-ventilated area** to ensure proper drying and avoid inhaling harmful fumes.
-> - Test finishes on **scrap wood** before applying them to your main project.
-> - Follow the **manufacturer’s instructions** for all products to ensure the best results.
+- Always work in a well-ventilated area to ensure proper drying and avoid inhaling harmful fumes.
+- Test finishes on scrap wood before applying them to your main project.
+- Follow the manufacturer’s instructions for all products to ensure the best results.
 
 [su_table responsive="yes"]
 
 | **Video Title** | **Description** | **Duration** | **Link** |
 |---|---|---|---|
-|Unlock the Secret to Bleed-Free Projects!|Learn techniques for bleed-free woodworking projects.| 11 minutes|[Watch Video](https://www.youtube.com/watch?v=pCFW9ZdOu4k)|
-| Beer Sign with Oramask: Super Crisp Lines        | Create a beer sign with crisp, clean lines using Easel and X-carve with Oramask.                                | 32 minutes    | [Watch Video](https://www.youtube.com/watch?v=-ozmKRhxYOk)                        |
-| Start-to-Finish Sign Using Oramask               | A quick guide on making a sign using Oramask, from start to finish.                                            | 5 minutes     | [Watch Video](https://youtu.be/3_eTo8G4-vk?si=BdGsTRKzCKLGsDcj)                  |
-| Using Spray Paint and Masking for Signs          | Tutorial on using spray paint and masking techniques for making signs.                                         | 5 minutes     | [Watch Video](https://www.youtube.com/watch?v=ybz4rd2sG-Y)                        |
-| Sanding Techniques for Finishing Signs           | Learn why a sanding block may be better than a random orbital sander when finishing signs, with Mark Lindsey.   | 14 minutes    | [Watch Video](https://www.youtube.com/watch?v=bZPEaOhzx0s)                        |
+|Unlock the Secret to Bleed-Free Projects! | Learn techniques for bleed-free woodworking projects. | 11 minutes | [Watch Video](https://youtu.be/pCFW9ZdOu4k)|
+| Beer Sign with Oramask: Super Crisp Lines | Create a beer sign with crisp, clean lines using Oramask. | 32 minutes | [Watch Video](https://youtu.be/-ozmKRhxYOk) |
+| Start-to-Finish Sign Using Oramask | A quick guide on making a sign using Oramask, from start to finish. | 5 minutes | [Watch Video](https://youtu.be/3_eTo8G4-vk) |
+| Using Spray Paint and Masking for Signs | Tutorial on using spray paint and masking techniques for making signs. | 5 minutes | [Watch Video](https://youtu.be/ybz4rd2sG-Y) |
+| Sanding Techniques for Finishing Signs | Learn why a sanding block may be better than a random orbital sander when finishing signs, with Mark Lindsay. | 14 minutes | [Watch Video](https://youtu.be/bZPEaOhzx0s) |
 
 [/su_table]
 
-### Finish Comparison Chart
+### Finishing Tools
 
-This chart helps you compare different finishing options for your project by comparing durability, drying time, appearance, and if it's suitable for the outdoors.
+**Foam Brush**: a foam pad on a wooden handle used for applying paint or varnish with minimal brush strokes. Ideal for smooth finishes and water-based products.
 
-[su_table responsive="yes"]
+- **Usage**: great for spreading thin, even coats without leaving bristle marks.
+- **Types**: disposable foam brushes are available in different sizes, typically ranging from 1 to 4 inches.
 
-| **Finish Type**           | **Durability** | **Indoor/Outdoor** | **Drying Time**           | **Appearance**                  |
-|---------------------------|----------------|--------------------|---------------------------|---------------------------------|
-| **Polyurethane**          | High           | Indoor             | 6-24 hours                | Glossy, durable                 |
-| **Acrylic Paint**         | Moderate       | Indoor             | 1-2 hours per coat        | Colorful, matte/satin/glossy    |
-| **Oil-Based Stain**       | High           | Outdoor            | 4-6 hours                 | Enhances wood grain             |
-| **Water-Based Stain**     | Moderate       | Indoor             | 1-2 hours                 | Lighter color, easy cleanup     |
-| **Lacquer**               | High           | Indoor             | 30 minutes - 1 hour       | Glossy, professional finish     |
-| **Beeswax Finish**        | Low            | Indoor             | Immediate                 | Soft, natural matte             |
-| **Spar Urethane**         | High           | Outdoor            | 2-4 hours per coat        | Flexible, durable, glossy/satin |
-| **Shellac**               | Moderate       | Indoor             | 30 minutes - 1 hour       | Warm, high-gloss, rich depth    |
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_poly-finish.jpg "Source - https://www.woodmagazine.com/woodworking-tips/techniques/finishing/polyurethane"){.aligncenter .size-medium}
 
-[/su_table]
+**Stain Brush**: a thick, wide brush designed for applying wood stains and varnishes. Has a high bristle density to hold more product and provide good coverage.
+
+- **Usage**: apply stains and varnishes evenly over large surfaces.
+- **Types**: available in various sizes and bristle materials, often 3–4 inches wide.
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain-brush.jpg "Source - https://renopaintmart.com/expert-advice-on-how-to-stain-a-fence/"){.aligncenter .size-medium}
+
+**Spray Paint**: an aerosolized paint that allows for quick, even application over a wide area. It is convenient for both small and large-scale projects where speed and ease of use are essential. You can get a grip attachment that helps hold the can better and dispense the paint smoothly.
+
+- **Usage**: ideal for covering surfaces evenly, sign letters, stencils, or projects requiring multiple light coats.
+- **Types**: available in various finishes such as matte, glossy, and metallic. Comes in different formulations, including general-purpose for wood/plastic/metal, primer and paint+primer.
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_spray-paint.jpg "Source - https://www.craftcuts.com/community/home-decor/stencil-farmhouse-sign/attachment/farmhouse-wood-sign-spray-paint/, https://kmtools.com/blogs/news/how-to-lacquer-finish"){.aligncenter .size-medium}
+
+**Tack Cloth**: a sticky, lint-free cloth used to remove dust, dirt, and debris from surfaces before painting. It ensures a smooth, clean surface to help achieve a professional finish without imperfections.
+
+- **Usage**: gently wipe the surface with the tack cloth to pick up fine dust and particles before applying primer or paint
+- **Types**: available in various sizes and tackiness levels for different surface types. Some are designed for light-duty cleaning, while others are more robust for larger projects
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tack-cloth.jpg "Source - https://www.thehandymansdaughter.com/tack-cloth/, https://sawsonskates.com/what-is-a-tack-cloth/"){.aligncenter .size-medium}
+
+#### Brush Care Tips
+
+- **Cleaning**: use water for water-based paints and mineral spirits for oil-based products.
+- **Storage**: wrap the brush in plastic wrap or use a brush cover to keep bristles straight and prevent drying.
+- **Maintenance**: comb out bristles to keep them aligned and store brushes hanging or flat.
+
+
+
 
 ### Colouring
 
@@ -342,9 +380,7 @@ Check out the section above on sanding to ensure you are ready to paint!*
 
 ### Tools
 
-#### Paintbrush
-
-A versatile tool with bristles made from synthetic or natural materials, used for applying paint, varnish, or stain. Brushes come in different shapes and sizes for various applications.
+**Paintbrush**: a versatile tool with bristles made from synthetic or natural materials, used for applying paint, varnish, or stain. Brushes come in different shapes and sizes for various applications.
 
 - **Usage**: best for cutting-in edges, detailed work, stencilling, and applying smooth coats.
 - **Types**:
@@ -354,94 +390,75 @@ A versatile tool with bristles made from synthetic or natural materials, used fo
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_paint-brushes.jpg "Source - https://www.thesignmill.com/, https://nakleo.co.uk/2022/09/21/4-hints-how-to-stencil-wooden-tissue-box/ "){.aligncenter .size-medium}
 
-#### Foam Brush
-
-A foam pad on a wooden handle used for applying paint or varnish with minimal brush strokes. Ideal for smooth finishes and water-based products.
-
-- **Usage**: great for spreading thin, even coats without leaving bristle marks.
-- **Types**: disposable foam brushes are available in different sizes, typically ranging from 1 to 4 inches.
-
-  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_foam-brush.jpg){.aligncenter .size-medium}
-
-#### Chip Brush
-
-An inexpensive, all-purpose brush with natural bristles. Not meant for fine finishes, but useful for rough surfaces or for applying glue and other adhesives.
+**Chip Brush**: an inexpensive, all-purpose brush with natural bristles. Not meant for fine finishes, but useful for rough surfaces or for applying glue and other adhesives.
 
 - **Usage**: ideal for quick touch-ups, stains, or cleaning jobs.
 - **Types**: disposable or reusable, usually made with natural hog bristles.
 
-  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_chip-brush.jpg "Source - https://www.jackspaint.co.za/index.php/diy-blog/36-paint-vs-varnish, https://www.confessionsofaserialdiyer.com/the-best-way-to-paint-furniture-white/"){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_chip-brush.jpg "Source - https://www.jackspaint.co.za/index.php/diy-blog/36-paint-vs-varnish, https://www.confessionsofaserialdiyer.com/the-best-way-to-paint-furniture-white/"){.aligncenter .size-medium}
 
-#### Detail Brush
-
-A small, fine brush used for precise work, such as painting intricate patterns, corners, or detailed trim.
+**Detail Brush**: a small, fine brush used for precise work, such as painting intricate patterns, corners, or detailed trim.
 
 - **Usage**: best for fine detailing, small touch-ups, and tight spaces.
 - **Types**: synthetic or natural bristles, typically round or angular in shape.
 
-  ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_detail-brushes.jpg "Source - https://club.chicacircle.com/colorful-wood-grain-wall-art-diy/"){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_detail-brushes.jpg "Source - https://club.chicacircle.com/colorful-wood-grain-wall-art-diy/"){.aligncenter .size-medium}
 
-#### Stain Brush
+**Foam Brush**: a foam pad on a wooden handle used for applying paint or varnish with minimal brush strokes. Ideal for smooth finishes and water-based products.
 
-A thick, wide brush designed for applying wood stains and varnishes. Has a high bristle density to hold more product and provide good coverage.
+- **Usage**: great for spreading thin, even coats without leaving bristle marks.
+- **Types**: disposable foam brushes are available in different sizes, typically ranging from 1 to 4 inches.
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_foam-brush.jpg){.aligncenter .size-medium}
+
+**Stain Brush**: a thick, wide brush designed for applying wood stains and varnishes. Has a high bristle density to hold more product and provide good coverage.
 
 - **Usage**: apply stains and varnishes evenly over large surfaces.
 - **Types**: available in various sizes and bristle materials, often 3–4 inches wide.
 
- ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain-brush.jpg "Source - https://renopaintmart.com/expert-advice-on-how-to-stain-a-fence/"){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_stain-brush.jpg "Source - https://renopaintmart.com/expert-advice-on-how-to-stain-a-fence/"){.aligncenter .size-medium}
 
-#### Spray Paint
-
-An aerosolized paint that allows for quick, even application over a wide area. It is convenient for both small and large-scale projects where speed and ease of use are essential. You can get a grip attachment that helps hold the can better and dispense the paint smoothly.
+**Spray Paint**: an aerosolized paint that allows for quick, even application over a wide area. It is convenient for both small and large-scale projects where speed and ease of use are essential. You can get a grip attachment that helps hold the can better and dispense the paint smoothly.
 
 - **Usage**: ideal for covering surfaces evenly, sign letters, stencils, or projects requiring multiple light coats.
 - **Types**: available in various finishes such as matte, glossy, and metallic. Comes in different formulations, including general-purpose for wood/plastic/metal, primer and paint+primer.
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_spray-paint.jpg "Source - https://www.craftcuts.com/community/home-decor/stencil-farmhouse-sign/attachment/farmhouse-wood-sign-spray-paint/, https://kmtools.com/blogs/news/how-to-lacquer-finish"){.aligncenter .size-medium}
 
-#### Painter's Tape & Oramask
-
-A specialized tape used to mask off areas that should not be painted, ensuring clean, sharp lines and protecting surfaces from unwanted paint. Painter's tape is easy to apply and remove, leaving no residue behind.
-
-- **Usage**: apply along edges, trim, or anywhere you want to create crisp lines or protect from paint splatter. Make sure to press down firmly to prevent paint from seeping underneath.
-- **Types**: available in different widths and adhesion levels, designed for various surfaces like drywall, wood, or glass.
-
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tape-oramask.jpg "Source - https://www.homeright.com/projects/diy-wood-sign/, https://youtu.be/-liCG8_jhQs"){.aligncenter .size-medium}
-
-#### Tack Cloth
-
-A tack cloth is a sticky, lint-free cloth used to remove dust, dirt, and debris from surfaces before painting. It ensures a smooth, clean surface to help achieve a professional finish without imperfections.
+**Tack Cloth**: a sticky, lint-free cloth used to remove dust, dirt, and debris from surfaces before painting. It ensures a smooth, clean surface to help achieve a professional finish without imperfections.
 
 - **Usage**: gently wipe the surface with the tack cloth to pick up fine dust and particles before applying primer or paint
 - **Types**: available in various sizes and tackiness levels for different surface types. Some are designed for light-duty cleaning, while others are more robust for larger projects
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tack-cloth.jpg "Source - https://www.thehandymansdaughter.com/tack-cloth/, https://sawsonskates.com/what-is-a-tack-cloth/"){.aligncenter .size-medium}
 
-#### Brush Care Tips
+**Painter's Tape & Oramask**: a specialized tape used to mask off areas that should not be painted, ensuring clean, sharp lines and protecting surfaces from unwanted paint. Painter's tape is easy to apply and remove, leaving no residue behind.
 
-- **Cleaning**: use water for water-based paints and mineral spirits for oil-based products.
-- **Storage**: wrap the brush in plastic wrap or use a brush cover to keep bristles straight and prevent drying.
-- **Maintenance**: comb out bristles to keep them aligned and store brushes hanging or flat.
+- **Usage**: apply along edges, trim, or anywhere you want to create crisp lines or protect from paint splatter. Make sure to press down firmly to prevent paint from seeping underneath.
+- **Types**: available in different widths and adhesion levels, designed for various surfaces like drywall, wood, or glass.
+
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_tape-oramask.jpg "Source - https://www.homeright.com/projects/diy-wood-sign/, https://youtu.be/-liCG8_jhQs"){.aligncenter .size-medium}
+
 
 ### Types of Paint & Primer
 
 [su_table responsive="yes"]
 
-| **Paint Type**   | **Finish**        | **Best For**                                                                          |
-|------------------|-------------------|---------------------------------------------------------------------------------------|
-| Acrylic Paint    | Matte/Satin/Gloss | Small to medium projects, easy application.                                           |
-| Spray Paint      | Smooth, Glossy    | Large areas, quick coverage.                                                          |
-| Latex Paint      | Matte or Gloss    | Projects requiring durability and flexibility.                                        |
+| **Primer Type** | **Finish** | **Best For** |
+|-----------------|------------|--------------|
+| Acrylic Primer | Matte/Satin | General indoor and outdoor surfaces, wood, drywall, and plaster. |
+| Oil-Based Primer | Smooth | Wood, metal, and surfaces prone to stains or rust. |
+| Shellac Primer | Glossy/Matte | Sealing in odors and stains, providing a strong barrier on wood, metal, and plaster. |
 
 [/su_table]
 
 [su_table responsive="yes"]
 
-| **Primer Type**  | **Finish**        | **Best For**                                                                          |
-|------------------|-------------------|---------------------------------------------------------------------------------------|
-| Acrylic Primer   | Matte/Satin       | General indoor and outdoor surfaces, wood, drywall, and plaster.                      |
-| Oil-Based Primer | Smooth            | Wood, metal, and surfaces prone to stains or rust.                                    |
-| Shellac Primer   | Glossy/Matte      | Sealing in odors and stains, providing a strong barrier on wood, metal, and plaster.  |
+| **Paint Type** | **Finish** | **Best For** |
+|----------------|------------|--------------|
+| Acrylic Paint | Matte/Satin/Gloss | Small to medium projects, easy application. |
+| Spray Paint | Smooth, Glossy | Large areas, quick coverage. |
+| Latex Paint | Matte or Gloss | Projects requiring durability and flexibility. |
 
 [/su_table]
 
@@ -463,7 +480,7 @@ A tack cloth is a sticky, lint-free cloth used to remove dust, dirt, and debris 
    - Apply Additional Coats: repeat the process until you achieve the desired opacity and finish (typically 2-3 coats)
 1. **Final Sanding (320-400 Grit)**
    - This helps smooth any imperfections or raised grain caused by moisture in the paint before applying the final coat
-1. **Apply Final Coat**  
+1. **Apply Final Coat**
    - After applying the desired number of layers (typically 2-3), let the project dry completely before moving on to sealing
 1. **Finishing Touches**
    - Remove Painter’s Tape: carefully peel off the tape to reveal clean edges
@@ -472,6 +489,7 @@ A tack cloth is a sticky, lint-free cloth used to remove dust, dirt, and debris 
 ### Painting Tips & Videos
 
 > ***Tips**:*
+Sealing wood before cutting it on the CNC can be a great technique  assists in preventing paint from bleeding into your projects that may use a V bit to carve a sign. You may want to use a sealant during parts of your carve to keep lines & text sharp.*
 >
 > 1. *Always paint in a well-ventilated area.*
 > 1. *Use quality brushes and rollers to avoid streaks and brush marks.*
@@ -480,10 +498,10 @@ A tack cloth is a sticky, lint-free cloth used to remove dust, dirt, and debris 
 
 [su_table responsive="yes"]
 
-| **Video Title**                              | **Description**                                                                                | **Duration**  | **Link**                                                  |
-|----------------------------------------------|------------------------------------------------------------------------------------------------|---------------|----------------------------------------------------------|
-| Which Spray Paint is Best on Wood Furniture? | This video explores different types of spray paints and their effectiveness on wood furniture. | 20 minutes    | [Watch Video](https://www.youtube.com/watch?app=desktop&v=uM_boGIOTIM) |
-| Using a Flat Roller to Paint a V-Carved Sign | A quick tutorial on how to use a flat roller for painting a V-carved sign.                     | 4 minutes     | [Watch Video](https://www.youtube.com/watch?v=0kI5crkiXi4)             |
+| **Video Title** | **Description** | **Duration** | **Link** |
+|-----------------|-----------------|--------------|---------|
+| Which Spray Paint is Best on Wood Furniture? | This video explores different types of spray paints and their effectiveness on wood furniture. | 20 minutes | [Watch Video](https://www.youtube.com/watch?app=desktop&v=uM_boGIOTIM) |
+| Using a Flat Roller to Paint a V-Carved Sign | A quick tutorial on how to use a flat roller for painting a V-carved sign. | 4 minutes | [Watch Video](https://www.youtube.com/watch?v=0kI5crkiXi4) |
 
 [/su_table]
 
@@ -501,12 +519,12 @@ The process involves applying the stain evenly, letting it soak into the wood, a
 
 [su_table responsive="yes"]
 
-| **Type of Stain**     | **Description**                                  | **Best Used On**              |
-|-----------------------|--------------------------------------------------|-------------------------------|
-| Oil-Based Stain       | Deep penetration, rich color                     | Hardwood projects             |
-| Water-Based Stain     | Easy cleanup, less odor, quick drying            | Softwood and general projects |
-| Gel Stain             | Sits on top, great for vertical applications     | Complex, detailed surfaces    |
-| Varnish Stain         | Combines stain and varnish for protective finish | Furniture & picture frames    |
+| **Type of Stain** | **Description** | **Best Used On** |
+|-------------------|-----------------|------------------|
+| Oil-Based Stain | Deep penetration, rich color | Hardwood projects |
+| Water-Based Stain | Easy cleanup, less odor, quick drying | Softwood and general projects |
+| Gel Stain | Sits on top, great for vertical applications | Complex, detailed surfaces |
+| Varnish Stain | Combines stain and varnish for protective finish | Furniture & picture frames |
 
 [/su_table]
 
@@ -529,10 +547,10 @@ If you want a deeper color, you can apply multiple coats, allowing full drying b
 
 [su_table responsive="yes"]
 
-| **Video Title**      | **Description**                                             | **Duration** | **Link**                                                   |
-|----------------------|-------------------------------------------------------------|--------------|------------------------------------------------------------|
-| Cool Paint Tool      | This short video shows exposing the grain with a cool tool. | 1 minute     | [Watch Video](https://www.youtube.com/shorts/Z_xj91QG2zY)  |
-| Wood Staining Basics | Biggest wood staining mistakes and misconceptions           | 8 minutes    | [Watch Video](https://www.youtube.com/watch?v=vfeAxUfoEdE) |
+| **Video Title** | **Description** | **Duration** | **Link** |
+|-----------------|-----------------|--------------|---------|
+| Cool Paint Tool | This short video shows exposing the grain with a cool tool. | 1 minute | [Watch Video](https://www.youtube.com/shorts/Z_xj91QG2zY) |
+| Wood Staining Basics | Biggest wood staining mistakes and misconceptions | 8 minutes | [Watch Video](https://www.youtube.com/watch?v=vfeAxUfoEdE) |
 
 [/su_table]
 
@@ -565,9 +583,9 @@ By following this process, you can achieve a stunning, professional-quality fini
 
 [su_table responsive="yes"]
 
-| **Video Title**                                | **Description**                                                        | **Duration**  | **Link**                                                                 |
-|------------------------------------------------|--------------------------------------------------------------------------|---------------|--------------------------------------------------------------------------|
-| French Polishing for the complete beginner                   | A quick overview of the French polishing method.                          |  8 minutes | [Watch Video](https://www.youtube.com/watch?v=XJQuk05jlyE)               |
-| Wood Magazine                     | The centuries-old process of applying finish using a shellac-soaked cloth pad                | 5 minutes  | [Watch Video](https://www.youtube.com/watch?v=PDoXn0uM2gw)               |
+| **Video Title** | **Description** | **Duration** | **Link** |
+|-----------------|-----------------|--------------|---------|
+| French Polishing for the complete beginner | A quick overview of the French polishing method. | 8 minutes | [Watch Video](https://www.youtube.com/watch?v=XJQuk05jlyE) |
+| Wood Magazine | The centuries-old process of applying finish using a shellac-soaked cloth pad | 5 minutes | [Watch Video](https://www.youtube.com/watch?v=PDoXn0uM2gw) |
 
 [/su_table]
