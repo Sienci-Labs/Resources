@@ -1,9 +1,9 @@
 ---
 title: ytsb LongBoard Details
-menu_order: 0
+menu_order: 2
 post_status: draft
 post_excerpt: Documentation for the Longboard, the controller board for the LongMill Benchtop CNC router. Includes electrical and mechanical specifications.
-post_date: 2021-04-30 18:05:00
+post_date: 2022-03-18 00:07:00
 taxonomy:
     knowledgebase_cat: lmk2-advanced
     knowledgebase_tag:

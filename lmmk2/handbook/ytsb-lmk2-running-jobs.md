@@ -1,9 +1,9 @@
 ---
 title: ytsb Running Jobs
-menu_order: 0
+menu_order: 5
 post_status: draft
-post_excerpt: 
-post_date: 2022-03-17 20:27:00
+post_excerpt: How to cut multiple toolpaths for CAM programs without tool changing functionality. This method is suitable for the LongMill Benchtop CNC, and other hobby CNCs.
+post_date: 2022-03-17 20:36:00
 taxonomy:
     knowledgebase_cat: lmk2-handbook
     knowledgebase_tag:

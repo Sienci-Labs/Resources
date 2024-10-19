@@ -589,7 +589,7 @@ If you ran into issues during remote control setup, here are some other checks y
 1. Double-check your remote mode configuration menu, antenna icon, and IP address are showing on the inline computer
 1. Ensure both your computers / devices are on the same internet network and the IP numbers match on both devices
 1. Double check you took the right steps in the Firewall Setup section. Your inline computer might be blocking gSender’s ability to send information to the internet because of the firewall. On Windows, follow these steps to modify the firewall:
-   - Click Start and open your computer's Control Panel  
+   - Click Start and open your computer's Control Panel
    ![](/_images/_gsender/_features/_remote/gs_fe_re_issues-control-panel.jpg){.aligncenter .size-medium}
    - Open the ‘System and Security’ settings
    ![](/_images/_gsender/_features/_remote/gs_fe_re_issues-security.jpg){.aligncenter .size-medium}

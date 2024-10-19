@@ -16,7 +16,7 @@ skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 
-LongMill MK2 page order should be as follows:  (last updated as of Oct 4, 2024)
+LongMill MK2 page order should be as follows: (last updated as of Oct 4, 2024)
 
 👍 The Basics
 
@@ -79,7 +79,7 @@ LongMill MK2 page order should be as follows:  (last updated as of Oct 4, 2024)
 
 1. Open Source 🥽
 2. LongBoard Details
-3. GRBL Firmware 🤖
+3. grbl Firmware 🤖
 4. EEPROM Settings
 5. Stepper Driver Current
 6. Changing Microstepping

@@ -1,9 +1,9 @@
 ---
 title: ytsb Tools & Router
-menu_order: 0
+menu_order: 2
 post_status: draft
-post_excerpt: 
-post_date: 2022-03-17 20:27:00
+post_excerpt: Basic feeds and speeds explanation for the LongMill CNC. Feed recommendations, definitions for commonly used terms, and Makita RT0701 speed range provided.
+post_date: 2022-03-17 20:33:00
 taxonomy:
     knowledgebase_cat: lmk2-handbook
     knowledgebase_tag:

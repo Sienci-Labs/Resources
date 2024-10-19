@@ -82,7 +82,7 @@ Download the software from here (we recommend version 2.15.0): <a href="https://
    1. Go to the “Erasing &amp; Programming” tab on the left side of the screen
    1. Select the blue “Browse” button to select the latest hex file (firmware file) on your computer
    1. Press the blue “Start Programming” button
-  
+
    ![](/_images/_superlongboard/_firmware/slb_fi_p7_STI.jpg){.aligncenter .size-medium}
 1. Once complete, you’ll have to exit out of a bunch of small windows
 1. Switch off the board power switch then turn back on again, then reconnect to the board in gSender, ioSender, or any other g-code sender.
@@ -115,7 +115,7 @@ To fix the Windows driver:
 ![](/_images/_gsender/_issues/gs_is_cm_device-manager.png){.aligncenter .size-medium}
 1. Look under the "**Ports**" or "**Universal Serial Bus**" headings for the SLB which should include "STM32" in the name
 ![](/_images/_superlongboard/_firmware/slb_fi_p9_stm32-device.png){.aligncenter .size-full .nar}
-1. Right-click  ➜ Uninstall device, then power cycle the board
+1. Right-click ➜ Uninstall device, then power cycle the board
 1. Once powered back up and reconnected, the SLB should reappear looking more normal. With this done, you can try flashing again - or if Windows still didn't install the correct driver then go through the [Windows Driver Update](#windows-driver-update) again.
 ![](/_images/_superlongboard/_firmware/slb_fi_p10_stm32-reset.png){.aligncenter .size-full .nar}
 

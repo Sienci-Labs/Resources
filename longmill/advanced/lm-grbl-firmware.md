@@ -84,9 +84,9 @@ Once Arduino IDE has been installed, plug your control board into your computer 
  ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p7_EEPROMClear.png){.aligncenter .size-medium}
 
   Clicking this will open up a new window where you'll see the window is titled "**eeprom_clear**". Click on the "Upload" button on the top left of the program to compile and upload this code. If you run into an upload error at this step, you might still be connected to your LongMill on your computer in gSender, UGS, CNCjs, or even LightBurn. You'll need to disconnect from the LongMill in that program and then you should be able to retry the Upload.
-  
+
   ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p8_Upload.png){.aligncenter .size-medium}
-  
+
 ### 3. Upload the grbl firmware
 
 Now that we've erased all previous memory from the control board, we can move forward by giving it new instructions to remember: this will be a brand new firmware installation. We keep all major LongMill firmware instances available for download, you'll likely want to click to download the most recent one: <a href="https://sienci.com/wp-content/uploads/2019/10/grbl-master-LongMill-V4.zip">LongMill Firmware (Oct 21, 2019)</a> <a href="https://sienci.com/wp-content/uploads/2020/02/grbl-LongMill-Firmware-Feb-25-2020.zip">LongMill Firmware (Feb 25, 2020)</a> <a href="https://resources.sienci.com/wp-content/uploads/2021/04/grbl-LongMill-Firmware-Sept-8-2021.zip">LongMill Firmware (Sept 8, 2021)</a> Once downloaded, this will appear onto your computer as a compressed or 'zipped' file. Locate the downloaded file in your computer folders, ‘un-zip’ or ‘extract’ it (usually found when you right-click the file), and then you'll notice a firmware folder with a name that matches the downloaded file and contains all the necessary files. If you open this folder up you should see a folder called "**grbl**", and from there if you open up the "**examples**" folder followed by the "**grblUpload**" folder. If you notice a file called "**grblUpload.ino**" this is what you'll want to open with the Arduino IDE program (this should be as simple as double-clicking the file which will open up a new window where you'll see the window is titled "**grblUpload**").

@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: bp-caret-right
-skip_file: no   
+skip_file: no
 featured_image: _images/_mill-one/_assembly/mo_unboxing_p2_ElectronicsMailer.png
 ---
 

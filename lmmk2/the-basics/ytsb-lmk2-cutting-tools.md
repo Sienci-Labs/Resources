@@ -39,11 +39,11 @@ V-bits can be used for simple line-drawing engravings and are also commonly used
 
 ![](/_images/_longmill/_the-basics/lm_cuttingtools_p3_Wave.jpg){.aligncenter .size-medium}
 
-<b>Flat end:</b>  this type of end mill simply has a flat or "square" tip profile and normally comes in the form of a spiral bit, but rabbit and dado bits also fall under this category. These cutting tools are the most common of any type due to their versatility for rapid material removal, pocketing, and generally being able to do most CNC projects you may have in mind. At the very least they come in handy if you're considering levelling a large cut of material or need to cut the outer profile of a sign to separate it from the stock material.
+<b>Flat end:</b> this type of end mill simply has a flat or "square" tip profile and normally comes in the form of a spiral bit, but rabbit and dado bits also fall under this category. These cutting tools are the most common of any type due to their versatility for rapid material removal, pocketing, and generally being able to do most CNC projects you may have in mind. At the very least they come in handy if you're considering levelling a large cut of material or need to cut the outer profile of a sign to separate it from the stock material.
 
 ![](/_images/_longmill/_the-basics/lm_cuttingtools_p4_WoodBox.jpg){.aligncenter .size-medium}
 
-<b>Ball nose:</b>  great for 3D / relief carving where your project contains contoured surfaces. By stitching many close passes of its rounded profile together the result can be a perfectly smooth, curved surface right off your machine. Smaller ball nose bits are commonly tapered so that the bit is less likely to snap but you're still able to cut out very fine details. All this being said, one aspect these bits can't handle is flat surfaces due to the "scalloping" they introduce. This type of carving is certainly more advanced than others but at the end of the day it certainly adds an extra dimension to your projects.
+<b>Ball nose:</b> great for 3D / relief carving where your project contains contoured surfaces. By stitching many close passes of its rounded profile together the result can be a perfectly smooth, curved surface right off your machine. Smaller ball nose bits are commonly tapered so that the bit is less likely to snap but you're still able to cut out very fine details. All this being said, one aspect these bits can't handle is flat surfaces due to the "scalloping" they introduce. This type of carving is certainly more advanced than others but at the end of the day it certainly adds an extra dimension to your projects.
 
 ![](/_images/_longmill/_the-basics/lm_cuttingtools_p5_3DFoam.jpg){.aligncenter .size-medium}
 
@@ -59,7 +59,7 @@ Cutting tools can normally be described by a few key dimensions:
 
 <b>Cutting length:</b>  the length of cutting profile that the bit has. This length determines the maximum height of material that can be 'engaged' with your bit while cutting, however most of the time when making slotted profile cuts it's a good rule of thumb to cut down half of the cutting diameter at a time.
 
-<b>Shank diameter:</b>  this is where your router or spindle will be holding onto the bit, so make sure it fits! This can be whether you have a 1/4" collet, an 1/8" one, or a collet adapter. When attaching your bit into the collet, it's best practice to push it in all the way to the end of the shank length, otherwise if it's sticking far out then it'll be prone to snapping during a cutting job.
+<b>Shank diameter:</b> this is where your router or spindle will be holding onto the bit, so make sure it fits! This can be whether you have a 1/4" collet, an 1/8" one, or a collet adapter. When attaching your bit into the collet, it's best practice to push it in all the way to the end of the shank length, otherwise if it's sticking far out then it'll be prone to snapping during a cutting job.
 
 <b>General rules:</b>
 

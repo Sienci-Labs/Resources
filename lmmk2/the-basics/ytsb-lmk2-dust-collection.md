@@ -13,7 +13,7 @@ custom_fields:
     basepress_post_icon: bp-caret-right
 skip_file: yes
 featured_image: 
---- 
+---
 
 CNCs can create a lot of mess just like many other cutting tools. Think about the chips and fine dust you get drilling a single hole or cutting a piece of wood in half and then stretch that out over hours of constant cutting. This is where dust collection helps out.
 

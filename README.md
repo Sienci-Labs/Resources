@@ -204,6 +204,7 @@ If you're looking to bulk-transfer content over from another source, here are so
 1. GiW can only handle syncing about 80 pictures at a time, so if you're pushing more than that to main then you'll need to manually Pull Changes repeatedly until everything comes through
 1. Only once you're ready, publish pages with matched up the Titles and URLs to existing pages - this will have GIW overwrite the new page onto the old one and keep it synced moving forward (don't forget to "undraft" the pages)
 1. Check that page navigation is still good, sometimes bringing in new pages requires that you go to the Article Order and Reset the Order so that pages navigate between each other properly
+1. Use " \n" in regex search to find page entries with blank excerpts or featured images
 
 <sub>For smaller text</sub>
 

@@ -1,5 +1,5 @@
 ---
-title: Workholding Methods  
+title: Workholding Methods
 menu_order: 3
 post_status: publish
 post_excerpt: 

@@ -5,7 +5,7 @@ post_status: publish
 post_excerpt: 
 post_date: 2021-04-30 18:48:00
 taxonomy:
-    knowledgebase_cat: mo-software 
+    knowledgebase_cat: mo-software
     knowledgebase_tag:
         - mill-one
 custom_fields:

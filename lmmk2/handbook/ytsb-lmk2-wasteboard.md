@@ -1,9 +1,9 @@
 ---
 title: ytsb Wasteboard & Fixtures
-menu_order: 0
+menu_order: 4
 post_status: draft
-post_excerpt: How to surface your wasteboard on the LongMill Benchtop CNC. You can download the surfacing g-code here or generate your own on INTUWiz.
-post_date: 2022-03-17 20:27:00
+post_excerpt: Learn how to enhance your LongMill's capabilities with matching a wasteboard and fixtures to your cutting needs. Also covers wasteboard surfacing.
+post_date: 2022-03-17 20:37:00
 taxonomy:
     knowledgebase_cat: lmk2-handbook
     knowledgebase_tag:
