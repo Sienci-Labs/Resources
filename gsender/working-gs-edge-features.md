@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
-skip_file: no
+skip_file: yes
 featured_image: _images/_gsender/_edge/gs_edge-cycle.jpg
 ---
 
@@ -47,13 +47,9 @@ As of version **1.50-Edge-1** the current notable features / improvements to Edg
   - **Jog Control** - Received a makeover including button size, spacing and adding in A axis
   - **New DRO** - Toggle between setting your zeros and going to your zeros, updated end stop buttons
   - **Running Jobs** - Feed & Laser Speed Bar really got a punch of colour! Use the slider or the + and - buttons to change speed
-  - **Outline & Start From** - Start from now has it's own button!
   - **Alarms** - Now focused in the top/center of the screen for easier reading
+  - **Outline & Start From** - Start from now has it's own button!
   - **Running status bar** - Upgraded visual is now an end mill, showing your progress through your job visually, in a percentage of time shown
-- **Job Files Revamp** - We've made it faster and easier to load and use your files.
-  - **Load File** - Updated to give you more power over your files
-  - **Recent Files** - Are now listed, just press and load
-  - **Last Job** - Includes new details like the file name, run time and status
 
 ### Coming Soon
 
@@ -71,6 +67,11 @@ As of version **1.50-Edge-1** the current notable features / improvements to Edg
 - **Tool/CAM Tab** - Surface a project, prep for a V carve or prepare a flat wasteboard
 
 - **Firmware recognition Feature** - Automatically identify which version you are running
+
+- **Job Files Revamp** - We've made it faster and easier to load and use your files.
+  - **Load File** - Updated to give you more power over your files
+  - **Recent Files** - Are now listed, just press and load
+  - **Last Job** - Includes new details like the file name, run time and status
   
 - **Dark Mode** - Run gSender at night while in dark mode. Oooh, spooky.
 
@@ -102,22 +103,46 @@ Spindle and Feed overrides now more closely associated with the other workflow c
 
 ![](/_images/_gsender/_edge/gs_edge_runcontrols.jpg){.aligncenter .size-medium}
 
-#### Alarms
-
-Machine status is now at the top and the center of your attention. Alarms will appear directly below the status triangle.
-
-![](/_images/_gsender/_edge/gs_edge_alarmstate.jpg){.aligncenter .size-medium}
-
 #### Touch Screen
 
 Secondary widgets get an update to allow for touch screen activation.
 
 ![](/_images/_gsender/_edge/gs_edge_secondarywidget.jpg){.aligncenter .size-medium}
 
-### Load Job Files
+---
 
-Extra power has been added to your file manager. Flip between job information and job size. Reload your file or access recent files accessed.
+### Updated Mobile & Tablet screens
 
-![](/_images/_gsender/_edge/gs_edge_fileinfo.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_mobilescreens.jpg)
 
-![](/_images/_gsender/_edge/gs_edge_filesize.jpg){.aligncenter .size-medium}
+#### Running status bar
+
+![](/_images/_gsender/_edge/StatusBar.jpg){.aligncenter .size-medium}
+
+#### Alarms
+
+![](/_images/_gsender/_edge/alarmstate.jpg){.aligncenter .size-medium}
+
+### Config Tab
+
+![](/_images/_gsender/_edge/config_main.jpg){.aligncenter .size-medium}
+
+![](/_images/_gsender/_edge/config_tabs.jpg){.aligncenter .size-medium}
+
+![](/_images/_gsender/_edge/config_search.jpg){.aligncenter .size-medium}
+
+### Tool/CAM Tab
+
+![](/_images/_gsender/_edge/tool_cam_icon.jpg){.aligncenter .size-medium}
+
+![](/_images/_gsender/_edge/tool_cam_start.jpg){.aligncenter .size-medium}
+
+### Notification System
+
+![](/_images/_gsender/_edge/notification.jpg){.aligncenter .size-medium}
+
+#### Settings
+
+![](/_images/_gsender/_edge/app_preferences.jpg){.aligncenter .size-medium}
+
+![](/_images/_gsender/_edge/config_machine_firmware.jpg){.aligncenter .size-medium}
