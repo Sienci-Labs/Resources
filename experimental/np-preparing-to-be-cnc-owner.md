@@ -25,6 +25,8 @@ Ensure this is positive and doesn't scare people off
 
 https://www.reddit.com/r/CNC/comments/xugn99/is_there_any_cnc_machine_for_home_at_an/
 
+CNC Basics - What you need to get started. 9 min video https://youtu.be/lQ-MYnyxh7M
+
 ## Setting Expectations
 
 You've done the hours of research and are ready to embark on your CNC journey. Ready to push the boat from the shore and jump in with both oars straining under your power. You will make magnificent creations that the world will line up to gander at. In time your marvels will be in a museum! Wait, is that rain I feel on my cheek? (Downpour of information incoming) Why am I veering off to the left all the time in this boat? (Machine maintenance) Did I remember to pack a bailer to get this water out?(How am I gonna do this? Community can help)
@@ -41,7 +43,33 @@ Software<br>
 Supplies - workholding, sandpaper, finishing oils & stains, saws, sanders, etc<br>
 Table - worktable + wasteboard + enclosure (video playlist here?!!?)<br>
 
+### Machine Assembly
+
+How long does it take, what do I need, how hard is it.
+
 ### Machine Maintenance
+
+What needs to be done and how often to maintain the machine performance
+
+### Software
+
+CAD to start, then add a dash of CAM. https://resources.sienci.com/view/lmk2-software-explained/
+
+### Bits
+
+What bits do you need to start? What can I make with each one?
+
+### Wood
+
+Where do you get it? What should I start with? Sheets or boards?
+
+### Workholding
+
+How am I going to hold my projects down? Tape, clamps, screws?
+
+### Dust Collection
+
+How am I going to remove dust? Dust shoe and shop vac?
 
 Starting your journey with a CNC setup is exciting, but it’s important to set realistic expectations to ensure a smoother experience. Here are some key aspects to consider:
 
