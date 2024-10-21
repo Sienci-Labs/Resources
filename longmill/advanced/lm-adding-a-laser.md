@@ -15,7 +15,7 @@ skip_file: no
 featured_image: /_images/_longmill/_advanced/_7_Laser/lm_laser_p1_PSupply.jpg
 ---
 
-Putting a laser on your LongMill or any CNC machine can be a fun and useful tool in expanding your creativity. The LongMill fully supports the addition of a laser module.
+Putting a laser on your LongMill or any CNC machine can be a fun and useful tool in expanding your creativity. The LongMill fully supports the use of either our own LaserBeam module or an aftermarket laser module.
 
 If you've purchased a laser module from us, all the information about assembling and using the <a href="https://sienci.com/product/laser/" target="_blank" rel="noopener">LaserBeam System</a> can be found in it's own resources section here: <a href="https://resources.sienci.com/view/lb-manual/">https://resources.sienci.com/view/lb-manual/</a>
 

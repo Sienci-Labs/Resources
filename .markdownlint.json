@@ -5,6 +5,6 @@
   "MD033": { "allowed_elements": ["div", "h1", "h2", "h3", "h4", "h5", "p", "span", "b", "strong", "em", "u", "a", "br", "ul", "ol", "li", "img", "table", "thead", "tbody", "th", "tr", "td", "code", "blockquote", "script", "style"] },
   "MD034": false,
   "MD041": { "level": 2 },
-  "MD044": { "names": ["LongMill", "gSender", "SuperLongBoard", "LongBoard", "AutoZero", "LaserBeam", "grbl", "Grbl", "grblHAL", "EEPROM", "g-code", "G-code", "G-Code", "CAD", "CAM", "E-stop", "YouTube"] },
+  "MD044": { "names": ["LongMill", "gSender", "SuperLongBoard", "LongBoard", "AutoZero", "LaserBeam", "grbl", "Grbl", "grblHAL", "EEPROM", "g-code", "G-code", "G-Code", "CAD", "CAM", "E-stop", "YouTube", "PwnCNC"] },
   "MD045": false
 }

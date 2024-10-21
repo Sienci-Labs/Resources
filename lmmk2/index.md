@@ -53,14 +53,14 @@ LongMill MK2 page order should be as follows: (last updated as of Oct 4, 2024)
 
 ↔️ Add-ons
 
-1. Touch Plate
+1. Touch Plate (MK1 & MK2 same)
 2. Dust Shoe & Shields
-3. Limit Switches ⛔
-4. T-Track & Clamps
+3. Limit Switches ⛔       TODO
+4. T-Track & Clamps (MK1 & MK2 same except title and link)
 5. 48" Extension Kit
-6. Laser 🔥
+6. Laser 🔥 (MK1 & MK2 same)
 7. LongMill Spindle Kit
-8. Automated / IOT Relay
+8. Automated / IOT Relay (MK1 & MK2 same)
 
 📙 Handbook
 

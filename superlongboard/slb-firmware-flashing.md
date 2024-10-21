@@ -15,17 +15,28 @@ skip_file: no
 featured_image: _images/_superlongboard/_firmware/slb_fi_p1_Connected.jpg
 ---
 
-Your board will likely ship with the latest firmware already installed, but we occasionally make updates. These updates will typically add new features to the SLB or address any discovered bugs. You may also choose to re-flash the firmware onto your board if you’ve attempted to customize it or for troubleshooting purposes.
+Your board will likely ship with the latest firmware already installed, but we occasionally make updates to add new features or address any discovered issues. You may also choose to re-flash the firmware onto your board if you’ve attempted to customize it or for troubleshooting purposes.
 
 <b><span class="redText">Do not flash your SLB unless you've done it before and are absolutely sure you know what you're doing or are being guided by our team.</span> The flashing process can be touchy the first time, so if you're having problems then please contact our team first otherwise be prepared to accept a regretful outcome.</b>
 
-Before getting started, check what your current version is by going to the ‘Console’ of your g-code sender and send the command “$i”. The result will be a long list of text in square brackets. If you scroll down to about the 9th line you’ll see something like “[BOARD:” where you’ll also see the version number at the end. Compare this to the version list below to see which one you’d like to flash:
+Before getting started, **check what your current version is** by going to the ‘Console’ of your g-code sender and send the command “$i”. The result will be a long list of text in square brackets. If you scroll down to about the 9th line you’ll see something like “[BOARD:” where you’ll also see the version number at the end. Compare this to the version list below to see which one you’d like to flash:
 
-- <a href="https://drive.google.com/file/d/1OkQO__QnYzhPuF42d4AN5KY_MbVRJlqy/view?usp=drive_link" target="_blank" rel="noopener">5.0.3</a>: firmware shipped with original batch of SLBs
-- <a href="https://drive.google.com/file/d/1-1W322z5idOQmhREUlAVHQBAa6PCsN63/view?usp=sharing" target="_blank" rel="noopener">5.0.5</a>: the current, most up-to-date available
+**Most Recent Firmware:**
+
+- SLB: <a href="https://drive.google.com/file/d/1LZ1YFt5J4Ws01XqielJuWaJpGJ2OgbCj/view?usp=drive_link" target="_blank" rel="noopener">5.0.5b</a>
+  - Updated default A-axis step/mm to match typical Vortex setups using 32nd microstepping
+  - Updated defaults to accommodate some machine setups that couldn't handle the max speeds and accelerations of the SLB
+  - Changed min spindle speed, spindle on delay, and default enabled spindles to match typical spindle setups using the SLB
+- SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1M3tsSpptwMZusubu4m91cdJ5OqTFyJH8/view?usp=drive_link" target="_blank" rel="noopener">5.0.11</a>
+
+[su_spoiler title="<b>Past Versions:</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+
+- <a href="https://drive.google.com/file/d/1-1W322z5idOQmhREUlAVHQBAa6PCsN63/view?usp=sharing" target="_blank" rel="noopener">5.0.5</a>: default for June ➜ Oct 2024
   - Updated default homing speed to stop occasional disconnection issues
-  - Fixed issue with E-stop hit requiring board power cycle to clear
-- AltMill firmware (<a href="https://drive.google.com/file/d/1M3tsSpptwMZusubu4m91cdJ5OqTFyJH8/view?usp=drive_link" target="_blank" rel="noopener">5.0.11</a>)
+  - Fixed E-stop hit requiring board power cycle to clear
+- <a href="https://drive.google.com/file/d/1OkQO__QnYzhPuF42d4AN5KY_MbVRJlqy/view?usp=drive_link" target="_blank" rel="noopener">5.0.3</a>: firmware on original batch of 500 SLBs (April 2024)
+
+[/su_spoiler]
 
 ## Flashing Summary
 

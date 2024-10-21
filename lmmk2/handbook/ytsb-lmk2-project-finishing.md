@@ -180,7 +180,7 @@ Power tools are more ideal and make the sanding process faster for larger surfac
 
 - **Usage**: best for removing large amounts of material quickly and levelling surfaces
 
-![](/_images/_longmill/_assembly/_sandfinish/lm_sf_belt-sanders.jpg){.aligncenter size-medium}
+![](/_images/_longmill/_assembly/_sandfinish/lm_sf_belt-sanders.jpg){.aligncenter .size-medium}
 
 **Stationary Disc / Belt Sander**: uses a spinning disc of sandpaper, or a combo of belt and disc sandpaper. Can be mounted on a workbench or table and permanently hooked up to a dust collection system.
 
