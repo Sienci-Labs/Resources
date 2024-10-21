@@ -46,42 +46,38 @@ As of version **1.50** the current notable features / improvements to Edge are:
 - **New UI Control Screen**
   - **Jog Control** - Received a makeover including button size, spacing and adding in A axis
   - **New DRO** - Toggle between setting your zeros and going to your zeros, updated end stop buttons
-  - **Visualizer** - 
-  - **Settings** - Separate App preferences to export, import or reset your settings in addition to machine profile, size and import/export functions
   - **Running Jobs**-Feed & Laser Speed Bar really got a punch of colour! Use the slider or the + and - buttons to change speed
   - **Alarms** - Now focused in the top/center of the screen for easier reading
   - **Outline & Start From** - Start from now has it's own button!
   - **Running status bar** - Upgraded visual is now an end mill, showing your progress through your job visually, in a percentage of time shown
+
 - **Updated Mobile & Tablet screens** - Use your phone or your tablet with our power packed mobile UI update
 
 ### Coming Soon
 
-- **Config Tab** - A whole new page to dial in your settings or use a wizard to assist
-- **Stat/Info Tab** - Review your usage and statistics on this tab
-- **Tool/CAM Tab** -
-- **Job Files Revamp** - We've made it faster and easier to load and use your files.
-  - **Load File** - Updated to give you more power over your files
-  - **Recent Files** - Are now listed, just press and load
-  - **Last Job** - Includes new details like the file name, run time and status
-- **Dark Mode** - Run gSender at night while in dark mode. Oooh, spooky.
 - **Notification System** - gSender wants to tell you something!
   - **Info button** - provides a footprint of your machine information, including firmware modals and pin indication lights
   - **Notification bell** - allows you to sort your notifications by tab, showing errors, info and successful jobs completed
   - **Tool is ON** - buttons will appear on the top bar if you have the laser or rotary tools enabled
 
+- **Config Tab** - A whole new page to dial in your settings or use a wizard to assist
+
+- **Stat/Info Tab** - Review your usage and statistics on this tab
+
+- **Tool/CAM Tab** - Surface a project, prep for a V carve or prepare a flat wasteboard
+
+- **Firmware recognition Feature** - Automatically identify which version you are running
+
+- **Job Files Revamp** - We've made it faster and easier to load and use your files.
+  - **Load File** - Updated to give you more power over your files
+  - **Recent Files** - Are now listed, just press and load
+  - **Last Job** - Includes new details like the file name, run time and status
+  
+- **Dark Mode** - Run gSender at night while in dark mode. Oooh, spooky.
+
 ### Improved Layout/Control Screen
 
-The program only has one main screen, separated into three major sections:
-
-- The top and side toolbar have all the things you’ll only use occasionally. This includes machine connection on the left side (boxed in red) and gSender’s main page Control, Config, Stat/Info, Tool/CAM, and other additional ‘Tools’ on the left (boxed in blue).
-- The left-side control (boxed in green) has all the functions you need for loading, monitoring, and controlling g-code files and cutting jobs
-- The right-side control (boxed in purple) has all the functions you need to manually control your CNC when jobs aren’t running. This includes jogging, zero setting, homing, probing, running macros, manual laser / spindle control, and more
-
-![](</_images/_gsender/_edge/layout updated.jpg>){.aligncenter .size-medium}
-
-We’ve built gSender’s layout around these primary boxed sections so that you can have all of the CNC functionality most hobbyists need on one screen without getting confused about what each button does. If you’re doing anything during a job it’ll be on the left side, if you’re doing anything outside a job it’ll likely be on the right, and if you want greater customization or functionality it’ll be found in the tools or settings.
-
-Another of gSender’s Design Principals is colouring. It can be scary to have an assortment of buttons in front of you and not know what they’re going to do. This is why we made every button on the right-side control that moves the CNC, blue. This means you shouldn’t ever find yourself startled when the machine moves unexpectedly since the colour will help to communicate whether it’s a ‘machine moving’ button or not.
+![](/_images/_gsender/_edge/gs_edge_mainscreenconnected.jpg){.aligncenter .size-medium}
 
 #### Jog Control
 
@@ -89,11 +85,12 @@ Another of gSender’s Design Principals is colouring. It can be scary to have a
 
 #### New DRO
 
-![](/_images/_gsender/_edge/dro.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_edge_mainscreenhome.jpg){.aligncenter .size-medium}
 
-#### Visualizer
+![](/_images/_gsender/_edge/gs_edge_mainscreenzero.jpg){.aligncenter .size-medium}
 
 #### Settings
+
 ![](/_images/_gsender/_edge/app_preferences.jpg){.aligncenter .size-medium}
 
 ![](/_images/_gsender/_edge/config_machine_firmware.jpg){.aligncenter .size-medium}
@@ -139,6 +136,3 @@ Another of gSender’s Design Principals is colouring. It can be scary to have a
 ### Notification System
 
 ![](/_images/_gsender/_edge/notification.jpg){.aligncenter .size-medium}
-
-testing, testing, testing
-testing new lappy connection!
