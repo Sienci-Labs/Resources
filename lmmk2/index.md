@@ -16,7 +16,7 @@ skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 
-LongMill MK2 page order should be as follows: (last updated as of Oct 4, 2024)
+LongMill MK2 page order should be as follows: (last updated as of Oct 22, 2024)
 
 👍 The Basics
 
@@ -55,7 +55,7 @@ LongMill MK2 page order should be as follows: (last updated as of Oct 4, 2024)
 
 1. Touch Plate (MK1 & MK2 same)
 2. Dust Shoe & Shields
-3. Limit Switches ⛔       TODO
+3. Limit Switches ⛔   revisit)
 4. T-Track & Clamps (MK1 & MK2 same except title and link)
 5. 48" Extension Kit
 6. Laser 🔥 (MK1 & MK2 same)
@@ -65,20 +65,20 @@ LongMill MK2 page order should be as follows: (last updated as of Oct 4, 2024)
 📙 Handbook
 
 1. Your MK2
-2. Tools & Router
+2. Tools & Router (MK1 "Feeds & Speeds" & MK2 same)
 3. Feeds & Speeds ⏩
-4. Wasteboard & Fixtures
+4. Wasteboard & Fixtures   revisit)
 5. Running Jobs
-6. Sanding & Finishing
-7. Explore Projects 🪑
-8. Maintenance 🛠️
-9. CNC Issues & Fixes 🩹
+6. Sanding & Finishing (MK1 & MK2 same)
+7. Explore Projects 🪑 (MK1 & MK2 same)
+8. Maintenance 🛠️ (MK1 & MK2 close, diff pics, bottom text)
+9. CNC Issues & Fixes 🩹   revisit)
 10. Common CNC Terms (MK1 & MK2 same)
 
 🧩 Advanced
 
-1. Open Source 🥽
-2. LongBoard Details
+1. Open Source 🥽 (MK1 & MK2 half overlap)
+2. LongBoard Details (MK1 & MK2 close, MK2 in text and link)
 3. grbl Firmware 🤖
 4. EEPROM Settings
 5. Stepper Driver Current

@@ -77,62 +77,63 @@ When jogging or running the LongMill, one of the motors does not move correctly 
 - Make sure your Arduino is fully seated in your control board. You can typically use a non-conductive tool to push it into the socket if it is starting to come loose.
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p4_ControlBoard.jpg){.aligncenter .size-medium}
 
-### My machine is not moving in the right direction
+### Machine is moving the wrong direction
 
-- Ensure that all plugs and cables are fully seated and connected properly.
-- Check the colour pattern of each wire coming from the motor and connected to the LongBoard. Is the pattern all the same with each motor? If not, change the order of the wires to match.
-- Reload the EEPROM settings on your Arduino, as these settings may have changed when using various g-code senders. These settings control aspects such as the jogging direction and the machine’s work space boundaries. To access them, go to the Firmware tool in gSender, or the Firmware Settings in UGS. gSender will have the ability to "Restore Defaults" and revert to the LongMills regular setting. For UGS, make sure you have the default settings (found here: <a href="https://resources.sienci.com/view/lm-EEPROM-settings/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-eeprom-settings/</a>) by going through each line and manually changing the values, or download the zip file, unzip it, and load it into UGS.
+- Ensure that all plugs and cables are fully seated and connected properly. Check the other plugs for reference.
+- Check the colour pattern of each wire coming from the motor and connected to the LongBoard. Is the pattern the same with each motor? If not, change the order of the wires to match.
+- Reload the EEPROM settings on your Arduino, as these settings may have changed when using various g-code senders. These settings control aspects such as the jogging direction and the machine’s work space boundaries. To access them, go to the Firmware tool in gSender, or the Firmware Settings in UGS. gSender will have the ability to "Restore Defaults" and revert to the LongMills factory settings. For UGS, make sure you have the default settings (found <a href="https://resources.sienci.com/view/lm-EEPROM-settings/" target="_blank" rel="noopener">here</a>) by going through each line and manually changing the values, or download the configuration zip file, unzip it, and load it into UGS.
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p5_Wiring.jpg "The wiring colour pattern should be blue, yellow, green, red."){.aligncenter .size-medium}
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p6_USGEEPROM.png "Where to find the EEPROM settings on UGS Platform."){.aligncenter .size-medium}
 
-### My machine is not moving the correct amount
+### Machine is not moving the correct distance
 
 - The microstepping on your drivers may not be set correctly. Check the drivers under your machine and make sure that they are set to 1/8" <a href="https://resources.sienci.com/view/lm-microstepping/" target="_blank" rel="noopener">microstepping</a> by ensuring that the DIP switches are in the correct position.
 - Your coupler may be slipping. Ensure that the screws on your coupler are fully tightened.
 - Try restarting your g-code sender.
 
-### My motors are stalling
+### Motors are stalling
 
 - Make sure that all of the motor wires are seated properly.
-- Make sure that you have not overtightened the Delrin anti-backlash nuts on your machine. Loosen the two M5-25mm screws that hold the nut in place and see if that helps.
+- Make sure that you have not over-tightened the Delrin anti-backlash nuts on your machine as this can distort the threads that run on the lead screw. Loosen the two M5-25mm screws that hold the nut in place and see if that helps.
 - Ensure that the couplers are secured onto the motor shaft and lead screw with the set screws. If the coupler is slipping and requires re-tightening often, there is a possibility that the coupler threads are stripped.
 - Re-flash the Arduino with the firmware to ensure that the code on the Arduino hasn't been altered somehow. Since the Arduino acts as the "brains" of the control board, it can affect how the motors are running. The instructions for flashing the Arduino are found here: <a href="https://resources.sienci.com/view/lm-grbl-firmware/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-grbl-firmware/</a>
 
-### My Y-axis is skewing (one side moves further than the other)
+### Y-axis is skewing (one side moves further than the other)
 
 - Run the machine to the back until you hear a grinding noise, this will realign your y-axis gantries to be square with the X-axis. See if the issue is still persisting by jogging back and forth, moving through the entirety of the Y-axis travel.
 - Power off the machine. Using your hands, turn each Y-axis lead screw a few rotations, checking that they are difficult but not impossible to turn and that they are equally hard to turn.  If that is not the case, adjust by slightly loosening the fasteners in the anti-backlash nut with an Allen key (both the mounting screws and the single screw sticking out). Keep checking and adjusting the lead screws until they are equal and difficult to turn by hand.
 - The microstepping on your drivers may not be set correctly. Check the drivers under your machine and make sure that they are set to 1/8" <a href="https://resources.sienci.com/view/lm-microstepping/" target="_blank" rel="noopener">microstepping</a> by ensuring that the DIP switches are in the correct position.
 
-## Operation
+## Cutting Issues
 
-### My cuts are not coming out accurately
+### Cuts are not coming out accurately
 
 - Try reducing your speeds and feeds, or use a different cutting tool.
-- Check that there is no dust in the collet of your router, so that the bit does not slip in the collet during operation.
+- Check that there is no dust in the collet of your router so that the bit does not slip in the collet during operation.
 - You may have a loose component. Make sure that all of your fasteners are tight and your eccentric nuts and Delrin anti-backlash nuts are tensioned correctly.
 - Your motor or lead screw may be slipping inside the coupler. Ensure that the coupler is fully tightened and pressed firmly against the flange bearing to eliminate movement axially.
 
-### My cuts on the Z-axis are not the correct depth
+### Cuts on the Z-axis are not the correct depth
 
-- Ensure that the set screws on the two pulleys on the Z-axis assembly are tight and the belt is tensioned
+- Ensure that the set screws on the two pulleys on the Z-axis assembly are tight and the belt is tensioned. The Z-axis lead screw should not be able to slide up and down.
 - Ensure that the LongMill has enough travel on the Z-axis for it to cut deep enough. It may be bottoming out.
 - If your LongMill is bottoming out, lower the position of your router or use a longer end mill. The LongMill comes with two set of holes on the Z-axis gantry plate for placing the router mount (upper and lower), and using the lower mount position on the Z-axis may work better.
 
-### My lead screws wobble excessively
+### Lead screws wobble excessively
 
 Excessive wobble is when the lead screw is deviating from center by more than about 3mm or 1/8". This means that butting a measuring tape or ruler against the LongMill wasteboard and recording down the height of the lead screw at its lowest point, and then again at its highest point, should result in a difference in the two measurements of no more than 6mm or 1/4". Wobble can happen due to a loose lead screw or due to the screw being physically bent: if it's bent then the wobble will happen at any movement speed, whereas if it's loose then it will wobble mostly at higher movement speeds (above 2000mm/min).
 
 - **Loose screw:** loosen the two M5-25mm screws that hold the Delrin anti-backlash nuts slightly for the axis which the lead screw is on and run the machine back and forth. This will align the lead screw and the nut. Re-tighten the screws once the wobbling as gone away. Also check the ACME locking nut and coupler on both ends of the screw are firmly tightened and sandwiching the lead screw properly.
-- **Bent screw:** a sure way to confirm is to completely remove the screw and roll it along a surface that is very flat and seeing if it rolls evenly.
+- **Bent screw:** a sure way to confirm is to completely remove the screw and roll it along a surface that is very flat to see if it rolls evenly.
 
 ### The machine moves really slowly or not at all when I jog it
 
 - If you are jogging your machine for the first time, your feed rate may be set to 10mm/min. This means it will only move 10mm in one minute (really really slow). Try increasing the speed until it is perceptible. 1000mm/min is a good place to start.
 - If you are running code or a job, make sure that your feed rates are set correctly.
 
-### My machine randomly cuts lines during my job
+### Machine is cutting lines into my project
 
+- If you have the 'homing cycle' enabled in your firmware settings, any 'G28' command used for a safe retract height will cause the machine to move to it's Z-axis home position. If you have not homed the machine before this command is called, the Z-axis may not lift high enough, or plunge into the work material. With the 'homing cycle' disabled, gSender will automatically ignore these 'G28' commands and will lift the Z-axis to a clearance height instead.
 - If you are using Fusion 360, ensure that ‘Safe Retracts’ is set to ‘Clearance Height.’
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p7_f360.png){.aligncenter .size-medium}
 - Ensure that you are not hitting the Z-axis movement limits when running the job.

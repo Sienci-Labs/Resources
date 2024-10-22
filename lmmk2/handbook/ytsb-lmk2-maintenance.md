@@ -15,100 +15,117 @@ skip_file: yes
 featured_image: 
 ---
 
-All CNCs require maintenance and doing regular maintenance on your LongMill is quick and easy. Getting into the habit of doing machine checkups will ensure that:
+All CNCs require maintenance. Doing maintenance on your LongMill is quick and easy, plus regular checkups will ensure that:
 
-<ol>
-  <li>Things are caught before potentially affecting your carves</li>
-  <li>Your machine will run at the top of its game for many years</li>
-</ol>
+1. Things are caught before potentially affecting your carves
+1. Your machine will run at the top of its game for many years
 
-The normal areas of maintenance you'll want to keep your eyes on will include:
+## Typical Maintenance
 
-<ol>
-  <li>Clean rails and wheels</li>
-  <li>Tensioned delrin nuts, a.k.a. robots</li>
-  <li>Tensioned eccentric nuts / v-wheels</li>
-  <li>Lubricating linear rails</li>
-  <li>Checking for loose fasteners</li>
-</ol>
+The normal areas you'll want to keep your eyes on will be:
 
-Frequency of maintenance will vary based on the nature of the work you do on your LongMill: dust produced and cutting forces. For example, always cutting hard materials with no dust boot will require much more regular checkups versus light PCB cutting. It's generally a good idea to clean the rails and check the nuts and v-wheels every 10-20 hours, then check for loose hardware (bolts, nuts, set screws on pulley and couplers) and oil the linear guides every 20-30 hours.
+1. Cleaned rails and wheels
+1. Tightened eccentric nuts / v-wheels
+1. Tensioned Delrin nuts, a.k.a. robot heads
+1. Lubricated linear rails
+1. Checking for loose fasteners
 
-In addition, you'll notice that the nuts and v-wheels are consumables, meaning that they'll eventually wear out to the point that they need replacing. We recommend replacing your delrin anti-backlash nuts every 1500-2000 hours, or when the tensioning screw does not allow for any more adjustment. Similarly, we recommend replacing your v-wheels every 1500-2000 hours, or when the v-wheels have worn down to the level where the eccentric nuts no longer provide any tension. You can tell if they need replacing if the gantries are loose on the rails even after adjusting the eccentric nuts to their extreme position.
+with rails, v-wheels, and Delrin nuts being checked and cleaned every **10-20 hours**, and linear guides and loose hardware being checked every **20-30 hours**. The v-wheels and Delrin nuts also wear out over time (they're consumables) so on average they'll need replacing every **1500-2000 hours**. You'll know when to replace them when the eccentric nuts can't be rotated any further to tighten up the v-wheels or the tensioning screw on the nut doesn't allow for any more adjustment.
 
-## Cleaning your rails and wheels
+If you don't have great dust pickup or you tend to push your machine harder or longer for production then you'll have to perform maintenance more often. For example, always cutting hard materials with no dust boot will require much more regular checkups versus light PCB cutting.
 
-Over time, your rails and wheels may accumulate dust which takes the form of black splotches. It gets compressed into this black form after being rolled over by the v-wheels. We recommend regularly cleaning off this gunk with a small brush, plastic scraper, wood scrap, or even your fingernails. Remember to clean both the top and bottom edges of each rail and try your best to get into the crevices of all the wheels.
+## Tuning your LongMill
 
-This is something that you won't have to do as often if you have good dust collection.
+While the instructions in the video below are specific to the MK2 48x30, the adjustment and tuning of the motor couplers, anti-backlash nuts, and v-wheels will be similar for other LongMills.
 
-![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p1_DirtRail.jpg "Black dirt on the edges of the rail.")
+https://www.youtube.com/watch?v=p5SpgoUza7o
 
-## Adjusting the tension on your Delrin anti-backlash nuts
+## Cleaning your Rails and Wheels
 
-The LongMill comes with four Delrin anti-backlash nuts that allow users to reduce backlash and compensate for wear over time. For more information about backlash and how it can affect the precision of your machine, check out this awesome page here: <a href="http://www.machinetoolhelp.com/Repairing/What_is_backlash.html">http://www.machinetoolhelp.com/Repairing/What_is_backlash.html </a>
+Over time on the rails you'll notice black splotches and on the wheels a faint grey buildup. This happens when ambient dust settles on the rail edges and the wheels repeatedly roll over it. The gunk on both the wheels and rails is easy to get off with a small brush, plastic scraper, wood scrap, or even your fingernails. Remember to clean the rails on both the top and bottom edges and try your best to get into the crevices of all the wheels. A trick for the wheels is to put a thin material into the top of the wheel groove while you rotate the wheel; this works well to push out the gunk along the entire circumference.
 
-<ol>
-  <li>Check if you have backlash in your machine by pushing each axis back and forth. If you can feel the machine move, even though the lead screws are stationary, you may need to tension your nut.</li>
-  <li>Use an allen key to reach each of the tensioning screws. Photos of the locations for each screw are below. Start by very lightly turning the screw and checking for play. Note that over-tightening your nut can cause premature wear, you should only need a small amount of tension to remove backlash from your system. <b>Also note</b> that once the delrin nut is worn excessively, the M5 bolt head could start to rub or bind against the lead screw and damage it. Backlash nuts are consumable, so if they are excessively worn then they should be <a href="https://sienci.com/product/delrin-anti-backlash-block/" target="_blank" rel="noopener noreferrer">replaced</a>.</li>
-</ol>
+If you have good dust collection this is something that you won't have to do as often.
 
-![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p2_AntiLYAxis.jpg "Left Y-axis"){.aligncenter .size-medium}
+<img class="wp-image-3394 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/04/IMG_6893-2-850x478.jpg" alt="" width="850" height="478" />
 
-![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p3_AntiRYAxis.jpg "Right Y-axis"){.aligncenter .size-medium}
+## Adjusting the Eccentric Nuts
 
-![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p4_AntiXAxis.jpg "X-axis"){.aligncenter .size-medium}
+Eccentric nuts are ‘eccentric’ or ‘off center’ nuts and this means that by turning them you can change the gap between the v-wheels attached to them and the fixed v-wheels on the other side of the rail. This ‘tightening’ system allows the wheels to clamp onto the rails just the right amount to create rigid yet smooth motion.
 
-![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p5_AntiZAxis.jpg "Z-axis"){.aligncenter .size-medium}
+You can see in the animation below, as the eccentric nut rotates, it makes the v-wheel tighten or loosen onto the rail.
 
-## Adjusting your eccentric nuts
+<img class="aligncenter wp-image-6076 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/ENut-Final.gif" alt="" width="1117" height="620" />
 
-You can watch this video for a demonstration of how to adjust the eccentric nuts, with pictures and notes to guide you.
+You can see below what it looks like when an eccentric nut is all the way open (largest gap between wheels) and all the way closed (smallest gap between wheels) for both the Y and X-axes.
 
-[su_youtube url="https://youtu.be/Z7WLmOk90V4"]
+<img class="wp-image-2815 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-70_2-850x299.jpg" alt="" width="850" height="299" />
 
-The eccentric nuts allow users to adjust the tension on the Delrin v-wheels to bring them closer or further away from the edge of the rail. The wheels need to grip the edge firmly, while still allowing the machine to move smoothly.
+<img class="wp-image-2816 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-71_1-850x333.jpg" alt="" width="850" height="333" />
 
-![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p6_DelrinUpHigh.jpg "Eccentric nut at its highest position."){.aligncenter .size-medium}
+One simple way to tell if your wheels have the right spacing to clamp onto the rails is to check them by hand. The 'sweet spot' is where you're able to barely turn each wheel with your fingers, if they spin easily or not at all then the wheel spacing is either too far apart or too close together.
 
-![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p7_DelrindownLow.jpg "Eccentric nut at its lowest position."){.aligncenter .size-medium}
+<img class="wp-image-3393 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/04/IMG_6861-1-850x478.jpg" alt="" width="850" height="478" />
 
-One simple way to check if your v-wheels have the right amount of pre-load is to check if you can turn the wheel with your fingers. Your wheels should be tight enough that it should be difficult to use your fingers to turn them, but not tight enough that they do not rotate when you move the axis back and forth.
+If you've noticed any wheels have worn out, you'll need to ‘tighten’ them back down. Get your LongMill wrench and an M5 Allen key and start by loosening the wheel bolt far enough that you can rotate the eccentric nut with the wrench (pictured).
 
-We recommend checking the tension on your v-wheels on a regular basis.
+<img class="size-medium wp-image-2817 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-71_2-850x478.jpg" alt="" width="850" height="478" />
 
-![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p8_DelrinWheelTurn.jpg "Checking for the tension on the Delrin v-wheels."){.aligncenter .size-medium}
+Turn the nut so the eccentric hole gets closer to the rail which will bring the wheel closer to the rail as well (in this case turning the nut clockwise brings the wheel closer to the rail). This adjustment should be very small since it can have a big impact on the wheel placement, plus over-tightening the wheels can put added stress on your machine and also cause premature wear.
+
+<img class="size-medium wp-image-3182 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Wrench-tightening-manual-850x476.png" alt="" width="850" height="476" />
+
+Once you're satisfied with the nut placement, re-tighten the M5 bolt with the Allen key to confirm the new location. At this point you’ll want to check both the wheel you just tightened as well as its static 'partner' wheel on the opposite side of the rail for the right 'sweet spot'. Whichever wheel is on top will always be harder to spin.
+
+<img class="size-medium wp-image-2818 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-72_2-850x478.jpg" alt="" width="850" height="478" />
+
+And that should conclude the process! If the wheels still don't feel right go back and repeat the steps as needed. If you wish, you can also watch this video for a better visual demonstration on how to adjust your eccentric nuts.
+
+https://youtu.be/Z7WLmOk90V4
+
+## Adjusting your Anti-backlash nuts
+
+The LongMill comes with four Delrin anti-backlash nuts that allow users to reduce backlash and compensate for wear over time. This is normally noticeable as a slight wiggle in that axis of the machine and if left unchecked will reduce the accuracy of your cuts and sturdiness of your CNC. You can read more about backlash and how it can affect the precision of your machine on this awesome page: <a href="http://www.machinetoolhelp.com/Repairing/What_is_backlash.html">http://www.machinetoolhelp.com/Repairing/What_is_backlash.html</a>
+
+1. If you have the dust shield add-on for your machine, remove it so you can access the mechanics underneath.
+1. Check X, Z, and both Y plates by moving each of them back and forth. If you can feel them wiggle a little bit even though the lead screws are stationary you may need to tension the anti-backlash nut.
+1. You can see in the picture below how tightening this screw widens the nut to remove any looseness. For the plates that you noticed were wiggling, use an M5 allen key to reach the tensioning screws (locations are shown in the pictures below). <b>Adjusting each screw should only happen a very very tiny rotation at a time before checking again for looseness in the plate</b>. These screws normally require very little rotation and if you over-tighten them it can put added stress on your machine and also cause premature wear. Remember that once the Delrin nut is worn excessively, the M5 bolt head could start to rub or bind against the lead screw and damage it so it should be <a href="https://sienci.com/product/delrin-anti-backlash-block/" target="_blank" rel="noopener noreferrer">replaced</a>.
+
+<img class="wp-image-3191 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-74_2-1-850x404.jpg" alt="" width="850" height="404" />
+
+[caption id="attachment_3290" align="aligncenter" width="850"]<img class="wp-image-3290 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/04/MK2-75_2-edited-850x479.jpg" alt="" width="850" height="479" /> Y-axis nut tensioning (mirrored for other side)[/caption]
+
+[caption id="attachment_3292" align="aligncenter" width="850"]<img class="wp-image-3292 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/04/MK2-75_1-edited-850x478.jpg" alt="" width="850" height="478" /> X-axis[/caption]
+
+[caption id="attachment_3291" align="aligncenter" width="850"]<img class="wp-image-3291 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/04/MK2-75_3-edited-850x478.jpg" alt="" width="850" height="478" /> Z-axis[/caption]
 
 ## Maintaining your Linear Guides
 
-![](/_images/_longmill/_assembly/_maintenance/lm_maintenance_p9_Lube.jpg){.aligncenter .size-medium}
+<img class="wp-image-3395 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/04/IMG_6870-1-850x478.jpg" alt="" width="850" height="478" />
 
-Though the frequency of lubricating your linear guides will vary depending on the type of cutting you do and the frequency of use, we would recommend doing this procedure every 20-30 hours. If you experience grinding noises or roughness in your gantry, we recommend doing this procedure more often.
+The frequency of lubricating your linear guides will vary depending on the type of cutting you do and the frequency of machine use. Generally we recommend servicing them every 20-30 hours. If you experience grinding noises or roughness in your gantry, we recommend checking them more often:
 
-<ol>
-  <li>Wipe your linear guides with a clean cloth, paper towel, rag, or shop towel to remove any dust that may have accumulated on your linear guides. Move your Z-axis up and down if needed.</li>
-  <li>Most general-purpose lubrication options such as the 3-in-1 oil should suffice. It is not recommended to use dry lubricants or anything with particulates such as graphite in the lubricant.</li>
-  <li>Apply a liberal of machine oil or grease to your linear guides. Move your Z-axis up and down to ensure that the bearings inside have a chance to get coated.</li>
-</ol>
+1. Wipe your linear guides with a clean cloth, paper towel, rag, or shop towel to remove any dust that may have accumulated on your linear guides. Move your Z-axis up and down if needed.
+1. Most general-purpose lubrication options such as the 3-in-1 oil should suffice. It is not recommended to use dry lubricants or anything with particulates such as graphite in the lubricant.
+1. Apply a liberal of machine oil or grease to your linear guides. Move your Z-axis up and down to ensure that the bearings inside have a chance to get coated.
 
-Here are some links to more info about lubrication:
+Here are some links to more info about lubrication if you're interested:
 
-<ul>
-  <li><a href="https://www.thomsonlinear.com/en/support/tips/what-should-be-used-to-lubricate-linear-bearings">https://www.thomsonlinear.com/en/support/tips/what-should-be-used-to-lubricate-linear-bearings</a></li>
-  <li><a href="https://www.hiwin.com/pdf/lubricating_instructions.pdf">https://www.hiwin.com/pdf/lubricating_instructions.pdf</a></li>
-</ul>
+- <a href="https://www.thomsonlinear.com/en/support/tips/what-should-be-used-to-lubricate-linear-bearings">https://www.thomsonlinear.com/en/support/tips/what-should-be-used-to-lubricate-linear-bearings</a>
+- <a href="https://www.hiwin.com/pdf/lubricating_instructions.pdf">https://www.hiwin.com/pdf/lubricating_instructions.pdf</a>
 
-## Checking for loose fasteners
+## Checking for Loose Hardware
 
-To mitigate fasteners from coming loose over time on the LongMill, we use nylock nuts and spring washers wherever we can. That being said, fasteners can still come loose over time on a CNC with lots of vibration. We recommend doing a check around the whole CNC on occasion to check the bolt tightness and re-tighten the fasteners you find loose.
+'Loose hardware' on your LongMill generally refers to all the visible bolts and nuts, including the set screws on the ACME locking nuts and the couplers. It's best practice to do a check around the whole CNC on occasion to check the bolt tightness and re-tighten the fasteners you find loose. This is because vibrations from cutting can slowly loosen bolts and nuts over time, even though we try to mitigate this by using nylock nuts and spring washers wherever we can.
 
 Some key areas to check:
 
-<ul>
-  <li>Set screws on all couplers, pulleys, and the ACME lock nuts</li>
-  <li>M8 screws along the Y-axis rail.</li>
-  <li>M8 screws holding the X-axis rail and Y-axis plate.</li>
-  <li>M5 screws mounting the Z-axis motor to the steel plate.</li>
-  <li>M5 screws on the X and Y-axis</li>
-  <li>M3 screws on the XZ gantry</li>
-</ul>
+- Set screws on all couplers and ACME locking nuts
+- M5 screws holding the feet onto the Y-rails and Y-axis plates onto the X-rail
+- M5 screws mounting the stepper motors to their steel plates
+- M5 screws on the router mount from in front and where it's held in from behind
+- M3 screws holding the Z-axis steel plate on and the linear rails to the X-axis plate
+- Any assorted fasteners on any add-ons you may have received with your MK2
+
+## Community Comments
+
+Barry: <a href="https://www.facebook.com/groups/mill.one/permalink/1229321364205859/" target="_blank" rel="noopener">https://www.facebook.com/groups/mill.one/permalink/1229321364205859/</a>

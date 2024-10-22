@@ -19,25 +19,21 @@ The LongMill project is at its core an open source project. Many of its design c
 
 We believe that by making this design open source, we will be able to drive the CNC community forward through sharing and improving CNC technology. The idea is for:
 
-<ul>
-  <li>Users to modify and improve their machines to fit their needs</li>
-  <li>Machine owners to share their designs with the community to help others that have similar needs</li>
-  <li>Makers to use our design ideas and design philosophy to create other types of machines, such as laser cutters, plasma cutters, and 3D printers</li>
-  <li>Us to gain inspiration from the community to help us guide our development of current and future products and features</li>
-</ul>
+- Users to modify and improve their machines to fit their needs
+- Machine owners to share their designs with the community to help others that have similar needs
+- Makers to use our design ideas and design philosophy to create other types of machines, such as laser cutters, plasma cutters, and 3D printers
+- Us to gain inspiration from the community to help us guide our development of current and future products and features
 
 ## License
 
 This is accomplished by putting the project under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons BY-SA license</a><span class="cc-license-title">:</span>
 
-<ul>
-  <li>The entire mechanical design of our LongMills Benchtop CNC available in a range of 3D file types and as drawings where applicable</li>
-  <li>Any internal assembly jigs and other supporting hardware for the LongMill</li>
-  <li>Documentation of general manufacturing techniques used to produce the LongMills various custom components including general 3D printing settings</li>
-  <li>All educational information provided within the LongMill Resources area including machine assembly instructions and modifications</li>
-  <li>The mechanical BOM which documents all the components required to build a LongMill</li>
-  <li>Every aspect of the electrical design behind our custom LongBoard CNC controller including BOM, schematics, gerber file, etc.</li>
-</ul>
+- The entire mechanical design of our LongMill Benchtop CNC available in a range of 3D file types and as drawings where applicable
+- Any internal assembly jigs and other supporting hardware for the LongMill
+- Documentation of general manufacturing techniques used to produce the LongMills various custom components including general 3D printing settings
+- All educational information provided within the LongMill Resources area including machine assembly instructions and modifications
+- The mechanical BOM which documents all the components required to build a LongMill
+- Every aspect of the electrical design behind our custom LongBoard CNC controller including BOM, schematics, gerber file, etc.
 
 and by sharing the LongMills modified firmware profile, a small modification of the <a href="https://github.com/gnea/grbl/wiki" target="_blank" rel="noopener noreferrer">grbl open source project</a>, under the <a href="https://www.gnu.org/licenses/quick-guide-gplv3.en.html" target="_blank" rel="noopener noreferrer">GPLv3 license</a> just as the original project is.
 
@@ -47,13 +43,11 @@ All this information is continually updated as the LongMill project continues to
 
 The LongMill has gone through four major iterations of its design:
 
-<ul>
-  <li>V1 was our Kickstarter batch which was shipped from September 2019 to mid-January 2020.</li>
-  <li>V2 came with some additional improvements and shipped March 2020 to August 14th, 2020. These changes were mostly process/QA related or were fixes that we implemented to make assembly and packaging easier on our end. The only noticeable improvements made for the end user is the steel vs. plastic ‘arm’ (which really only comes into play during assembly), the longer motor cables, the improved control box (where the primary improvement is the ability to now fasten it down easily), a new LongMill wrench shipped with the machine and better hole clearances.</li>
-  <li>V3 introduced even more quality of life improvements such as packing more spare hardware, changing to a new motor connector that ensures more reliable connectivity between the stepper motors and the LongBoard controller, and adding mounting holes for our new dust shoe design. The biggest change with this version were the tweaks to the LongBoard controller which brought a detachable E-stop switch to control power to the box, a top-mounted LED to better indicate power to the board, and some tweaks to the input circuitry so that it could be run a bit more reliably. V3 shipped August 14th, 2020 to November 3rd, 2020.</li>
-  <li>V4 was a smaller step in development. Other than introducing the new motor connector as a carry-over from V3 and making a number of small tweaks to hole placement, sizing, drawings, slotting, and removing some legacy features there was nothing too exciting noticeable to LM users, as most changes were made to benefit manufacturing reliability. V4 shipped November 23rd, 2020 to January 11th, 2021.</li>
-  <li>V4b has been our step towards a more scalable manufactured LM, bringing along some new parts being sheet metal rather than 3D printed (shoulder brackets and drag chain mount) as well as more improvements to process/QA for more reliable production and easier assembly. Later V4b machines also came with improved hardware bagging and a new, thicker 65mm router mount for added rigidity holding onto the router body. V4b began shipping January 11th, 2021.</li>
-</ul>
+- V1 was our Kickstarter batch which was shipped from September 2019 to mid-January 2020.
+- V2 came with some additional improvements and shipped March 2020 to August 14th, 2020. These changes were mostly process/QA related or were fixes that we implemented to make assembly and packaging easier on our end. The only noticeable improvements made for the end user is the steel vs. plastic ‘arm’ (which really only comes into play during assembly), the longer motor cables, the improved control box (where the primary improvement is the ability to now fasten it down easily), a new LongMill wrench shipped with the machine and better hole clearances.
+- V3 introduced even more quality of life improvements such as packing more spare hardware, changing to a new motor connector that ensures more reliable connectivity between the stepper motors and the LongBoard controller, and adding mounting holes for our new dust shoe design. The biggest change with this version were the tweaks to the LongBoard controller which brought a detachable E-stop switch to control power to the box, a top-mounted LED to better indicate power to the board, and some tweaks to the input circuitry so that it could be run a bit more reliably. V3 shipped August 14th, 2020 to November 3rd, 2020.
+- V4 was a smaller step in development. Other than introducing the new motor connector as a carry-over from V3 and making a number of small tweaks to hole placement, sizing, drawings, slotting, and removing some legacy features there was nothing too exciting noticeable to LM users, as most changes were made to benefit manufacturing reliability. V4 shipped November 23rd, 2020 to January 11th, 2021.
+- V4b has been our step towards a more scalable manufactured LM, bringing along some new parts being sheet metal rather than 3D printed (shoulder brackets and drag chain mount) as well as more improvements to process/QA for more reliable production and easier assembly. Later V4b machines also came with improved hardware bagging and a new, thicker 65mm router mount for added rigidity holding onto the router body. V4b began shipping January 11th, 2021.
 
 You can find the designs of every part and assembly of every version of the LongMill Benchtop CNC in the linked Onshape documents below:
 
@@ -170,3 +164,58 @@ If there are any known noteworthy designs or modifications made to the LongMill,
   <li><a href="https://forum.sienci.com/t/what-does-your-dust-collection-hose-management-look-like/458/15" target="_blank" rel="noopener noreferrer">David</a>'s <b>dust hose boom</b>: <a href="https://www.thingiverse.com/thing:4082855" target="_blank" rel="noopener noreferrer">https://www.thingiverse.com/thing:4082855</a>
 <a href="https://CAD.onshape.com/documents/57648b7f221a8b14202c6da4/w/09ca17006a988771f02d3db7/e/6ef8f0a441b6df6b9b3ffa87" target="_blank" rel="noopener noreferrer">https://cad.onshape.com/documents/57648b7f221a8b14202c6da4/w/09ca17006a988771f02d3db7/e/6ef8f0a441b6df6b9b3ffa87</a></li>
 </ul>
+
+## Onshape
+
+You may notice that many of the 3D models we share in our open source documents link to a 3D file on a website called “Onshape”. This is the browser-based software that the engineers and designers on our team use to design and iterate on all the products we produce at Sienci Labs. The fact that it’s online has the great advantage that anytime we make an update or release a new product, you are able to see them live or download them for yourself. We feel this is a great way to keep our company open and make our designs easily accessible to others.
+
+### Interact with Designs
+
+Let’s cover a couple things you can do with the open source Onshape files:
+
+<img class="size-full wp-image-10638 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/onshape-file-viewing.jpg" alt="" width="988" height="165" />
+
+1. **Look at the design from all sides**
+   - **Rotate** around by right-clicking on your mouse and dragging around on the screen, or clicking the ‘rotate’ tool on the toolbar and left-click dragging on the screen, or clicking the buttons on the cube at the top, right of the screen
+   - **Zoom** in and out by scrolling on your mouse or clicking the down arrow next to the magnifying glass on the toolbar and then left-click and drag up-and-down to see closer and further
+1. **See a list of all the parts** in the design
+   - This shows up on the left-hand side of the window, where if you click the name it’ll highlight the 3D model
+   - This makes it easy to know the names and parts of everything that makes up the full design
+1. **Measure different parts** of the design
+   - After selecting the measuring tape on the toolbar and selecting the units you’d like to measure, you can click anywhere on the model to get length of a line, distance between two points or faces, angle between two lines or faces, surface area, and more
+   - If you want to measure something else, just click somewhere in the blank space or hit the spacebar and then select the new spots you want to measure
+   - This is especially useful for quickly verifying dimensions, checking clearances, and ensuring design accuracy. Feel free to save measurements by writing them down or taking screenshots as a reference for your own purposes
+1. Even see the **Mass and Volume** of the parts!
+   - This uses the right-most Mass tool on the toolbar where after selecting the tool and selecting a part you can get even more information on its properties
+   - This can be useful is you’re working on a modification and need to decide how strong to make it based on the weight of some other parts
+   - We try to make sure these values are all as accurate as possible but there still might be some discrepancy
+
+### Export or Modify
+
+If you want to Export our Onshape designs as either a **3D model** (STL, IGES, STEP) or a **2D drawing** (DWG, DXF) for your own tweaks or accessories, then unfortunately Onshape requires you to make an account first; though luckily it’s free to make one:
+
+1. Open your web browser and go to the <a href="https://www.onshape.com/en/sign-up" target="_blank" rel="noopener">Onshape Sign up page</a>.
+1. Enter your Name and Email Address, then Onshape will ask for some other information that you might need to fill out and some Terms & Conditions.
+1. Once you get to the end, you’ll be sent a verification email which you can click through to set up your password. You don’t need to enter a Company name but you do need to agree to some more Terms & Conditions.
+1. Once you’re set up, feel free to set your default units and controls - or get straight to downloading the models since you can always change these later in your settings.
+
+Once you've successfully created an account and you’re logged in:
+
+1. Open the link to the design you’d like to download.
+1. Use the ‘Export’ option in the toolbar to either export the whole design or use the down arrow to allow you to export only individual parts or assemblies. You can select these parts by clicking on the 3D model or by clicking on the parts list on the left-hand side of the window.  
+<img class="aligncenter wp-image-10647 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/mk25_ad_onshape1-e1726085290809.jpg" alt="" width="385" height="206" />
+1. When you’ve selected all your parts, you’ll be given more options to choose the file type you want to download as and other options based on your selections. Typically STLs are used for 3D printing, IGES and STEP are good for importing to other design software to modify the files, and DXF or DWG are used for laser or plasma cutting. Typically the other files defaults tend to be good to use.
+<img class="size-full wp-image-10646 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/mk25_ad_onshape2.jpg" alt="" width="1008" height="603" />
+1. After configuring the settings, click "Export" and you should find the file appears in your typical download location.
+
+If instead of Exporting the files, you’d like to use Onshape as your main design software to make and publish modifications, you can also:
+
+1. Copy our entire design file into your own workspace by clicking the button with three lines at the top, left corner of the window, and select **Copy workspace**.
+<img class="aligncenter wp-image-10645 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/mk25_ad_onshape3-e1726085340430.jpg" alt="" width="1159" height="566" />
+1. Give the copied version its own name.
+1. You can now make changes to the file using Onshape’s various editing tools! These tools allow you to add or remove features, adjust dimensions, edit sketches, modify assemblies, and more.
+<img class="aligncenter wp-image-10644 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/mk25_ad_onshape4-e1726085361506.jpg" alt="" width="1457" height="664" />
+1. As you make modifications, Onshape will automatically save your progress, and if you’re unfamiliar with what the features do there are plenty of guides out there on how to use Onshape.
+1. Once you’re done, remember to share your work with us and the community by sharing the link to your Onshape designs so everyone can see your cool stuff!
+
+The sky's the limit now that you can measure, export, copy and modify all of your CAD projects! Remember to **share your learnings and collaborate with others** to continue the spread of open source ideas.

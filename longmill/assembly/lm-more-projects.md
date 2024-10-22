@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: /_images/_longmill/_assembly/_moreprojects/lm_mprojects_p1.jpg
+featured_image: /_images/_longmill/_assembly/_moreprojects/lm_mprojects_p2.jpg
 ---
 
 There's plenty more that CNC routers like the LongMill are capable of doing once you're comfortable with the process of going from an idea on a piece of paper to a final product.
@@ -94,7 +94,7 @@ If you'd like some inspiration, we spent some time putting together a categorize
   <li>Elastic gun</li>
   <li>Wooden animals</li>
   <li>Dice holder / roller</li>
-  <li>LongBoard</li>
+  <li>Longboard</li>
   <li>Slingshot</li>
   <li>RC cars &amp; planes</li>
 </ul>
@@ -128,6 +128,16 @@ If you'd like some inspiration, we spent some time putting together a categorize
 </ul>
 
 [tabbyending]
+
+## CNC Creator Guides
+
+If you are looking for cool projects to create, then you are at the right place. We are creating individual e-books for awesome projects that we make YouTube video tutorials on called CNC Creator Guides. These guides are perfect for beginners interested in learning how to create projects on their CNC. They consist of downloadable project files and contain detailed step-by-step instructions with images, making it easier for the maker to understand and follow along. By following these guides, you can successfully build these projects and show off all your hard work.
+
+<img class="aligncenter size-full wp-image-4790" src="https://resources.sienci.com/wp-content/uploads/2022/03/mockup_ebook_stepstool.jpg" alt="" width="1200" height="675" />
+
+Creator Guide List (to be continued)
+
+- <a href="https://resources.sienci.com/wp-content/uploads/2022/03/Creator-Guide-Step-Stool-Project.pdf">Creator Guide - Step Stool Project</a>
 
 ## Online CNC File Sites
 
@@ -169,14 +179,14 @@ General sources:
 
 <ul>
   <li><a href="https://mydxf.blogspot.co.uk/" target="_blank" rel="noopener noreferrer">My DXF</a></li>
-  <li><a href="https://lovesvg.com/product-category/free-svg-files/" target="_blank" rel="noopener noreferrer">Love SVG</a></li>
-  <li><a href="https://www.pngrepo.com/">PNG Repo</a></li>
-  <li><a href="https://www.svgrepo.com/">SVG Repo</a></li>
-  <li><a href="https://plotterfiles.com/">PlotterFiles</a></li>
-  <li><a href="https://www.flaticon.com/">flaticon</a> (icons &amp; icon packs, sign-up rqd, free &amp; paid)</li>
-  <li><a href="https://pixabay.com/">Pixabay</a> (must check captcha for download unless logged in)</li>
-  <li><a href="https://www.vhv.rs/">VHV.RS</a> (non-commercial use)</li>
-  <li><a href="http://clipart-library.com/">Clipart Library</a> (non-commercial use)</li>
+  <li><a href="https://lovesvg.com/product-category/free-svg-files/" target="_blank" rel="noopener">Love SVG</a></li>
+  <li><a href="https://www.pngrepo.com/" target="_blank" rel="noopener">PNG Repo</a></li>
+  <li><a href="https://www.svgrepo.com/" target="_blank" rel="noopener">SVG Repo</a></li>
+  <li><a href="https://plotterfiles.com/" target="_blank" rel="noopener">PlotterFiles</a></li>
+  <li><a href="https://www.flaticon.com/" target="_blank" rel="noopener">flaticon</a> (icons &amp; icon packs, sign-up rqd, free &amp; paid)</li>
+  <li><a href="https://pixabay.com/" target="_blank" rel="noopener">Pixabay</a> (must check captcha for download unless logged in)</li>
+  <li><a href="https://www.vhv.rs/" target="_blank" rel="noopener">VHV.RS</a> (non-commercial use)</li>
+  <li><a href="http://clipart-library.com/" target="_blank" rel="noopener">Clipart Library</a> (non-commercial use)</li>
   <li>Some of the 2D file making programs also come with a small subset of free 2D files</li>
 </ul>
 
@@ -221,7 +231,7 @@ General sources:
 
 [tabbyending]
 
-## More sample projects
+## More Sample Projects
 
 There are a few more internally designed projects that you can also try out if you wish. Each project has a download which contains both the g-code files made for each specific project (pictured) and the original 3D files if you want to CAM them yourself. There are even more designs that we've made for use on the LongMill, they can be found here: <a href="https://CAD.onshape.com/documents/526b7c6287b77b77c4b50603/w/e1e191a2557529d4dc468313/e/92d2cf99720fafafddaba831" target="_blank" rel="noopener noreferrer">LongMill Demo Pieces</a>
 

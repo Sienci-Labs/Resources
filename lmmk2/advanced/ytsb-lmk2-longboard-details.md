@@ -15,7 +15,7 @@ skip_file: yes
 featured_image: 
 ---
 
-The LongBoard is a powerful, three axis CNC controller and driver system for the LongMill and other CNC routers. LongBoards run with grbl firmware and come with four TB6600 driver modules that run single X and Z-axis, and dual Y-axis bipolar stepper motors making them suitable for small to medium size hobby CNC routers. They also come with an assortment of inputs and outputs that allow users to connect items such as limit switches, probes, spindle control, coolant control, lasers, and more.
+The LongBoard is a powerful, three-axis CNC controller and driver system for the LongMill and other CNC routers. LongBoards run with grbl firmware and come with four TB6600 driver modules that run single X and Z-axis, and dual Y-axis bipolar stepper motors making them suitable for small to medium size hobby CNC routers. They also come with an assortment of inputs and outputs that allow users to connect items such as limit switches, probes, spindle control, coolant control, lasers, and more.
 
 The LongBoard was jointly designed by our friend Chris Hadjuk and the rest of the Sienci Labs team.
 
@@ -29,11 +29,9 @@ The LongBoard has an operating voltage range of 12V to 48V. Most LongMills come 
 
 The input voltage to the drivers can impact the performance of your machine. For more info, check out these articles:
 
-<ul>
-  <li><a href="http://www.e-jpc.com/blog/?p=111#:~:text=Because%20of%20these%20benefits%2C%20stepper,used%20for%20motion%20control%20systems." target="_blank" rel="noopener">Elinco International JPC - Stepper Motor Voltage Explained</a></li>
-  <li><a href="https://www.machinedesign.com/motors-drives/article/21835161/misconceptions-about-stepper-motors-explained" target="_blank" rel="noopener">MachineDesign - Misconceptions about Stepper Motors Explained</a></li>
-  <li><a href="http://users.ece.utexas.edu/~valvano/Datasheets/Stepper_ST.pdf" target="_blank" rel="noopener">SGS-Thomson Microelectronics - Stepper Motor Driving</a></li>
-</ul>
+- <a href="http://www.e-jpc.com/blog/?p=111#:~:text=Because%20of%20these%20benefits%2C%20stepper,used%20for%20motion%20control%20systems." target="_blank" rel="noopener">Elinco International JPC - Stepper Motor Voltage Explained</a>
+- <a href="https://www.machinedesign.com/motors-drives/article/21835161/misconceptions-about-stepper-motors-explained" target="_blank" rel="noopener">MachineDesign - Misconceptions about Stepper Motors Explained</a>
+- <a href="http://users.ece.utexas.edu/~valvano/Datasheets/Stepper_ST.pdf" target="_blank" rel="noopener">SGS-Thomson Microelectronics - Stepper Motor Driving</a>
 
 The LongBoard also comes with an Arduino UNO as the "brains" of the controller. The Arduino UNO requires a 5V input from the computer to operate correctly. In some instances, the UNO can operate at a voltage of 3.3V but some of the output voltages (such as for the limit switches or spindle control) may not work correctly.
 
@@ -59,7 +57,7 @@ Specification for the driver may vary due to the operating limits of periphery c
 
 #### Dimensions
 
-For 3D models of the LongBoard, please visit our open source documentation page for access to files if you wish to acquire additional dimensioning: <a href="https://resources.sienci.com/view/lm-open-source-and-modifications/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-open-source-and-modifications/</a>
+For 3D models of the LongBoard, please visit our open source documentation page for access to files if you wish to acquire additional dimensioning: <a href="https://resources.sienci.com/view/lmk2-open-source/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-open-source/</a>
 
 ![](/_images/_longmill/_advanced/_12_LBDetails/lm_lbdeets_p1_DrawingRev1.4.jpg){.aligncenter .size-medium}
 
@@ -95,10 +93,10 @@ It accepts standards-compliant g-code and has been tested with the output of sev
 Grbl includes full acceleration management with look ahead. That means the controller will look up to 16 motions into the future and plan its velocities ahead to deliver smooth acceleration and jerk-free cornering.
 
 <ul>
-  <li><a href="https://github.com/gnea/grbl/wiki/Licensing" target="_blank" rel="noopener">Licensing</a>: Grbl is free software, released under the GPLv3 license.</li>
-  <li>For more information and help, check out our <b><a href="https://github.com/gnea/grbl/wiki" target="_blank" rel="noopener">Wiki pages!</a></b> If you find that the information is out-dated, please to help us keep it updated by editing it or notifying our community! Thanks!</li>
-  <li>Lead Developer: Sungeun "Sonny" Jeon, Ph.D. (USA) aka @chamnit</li>
-  <li>Built on the wonderful Grbl v0.6 (2011) firmware written by Simen Svale Skogsrud (Norway).</li>
+ <li><a href="https://github.com/gnea/grbl/wiki/Licensing" target="_blank" rel="noopener">Licensing</a>: Grbl is free software, released under the GPLv3 license.</li>
+ <li>For more information and help, check out our <b><a href="https://github.com/gnea/grbl/wiki" target="_blank" rel="noopener">Wiki pages!</a></b> If you find that the information is out-dated, please to help us keep it updated by editing it or notifying our community! Thanks!</li>
+ <li>Lead Developer: Sungeun "Sonny" Jeon, Ph.D. (USA) aka @chamnit</li>
+ <li>Built on the wonderful Grbl v0.6 (2011) firmware written by Simen Svale Skogsrud (Norway).</li>
 </ul>
 </blockquote>
 
@@ -108,25 +106,25 @@ There is a wealth of information and knowledge available on the <a href="https:/
 
 #### grbl Firmware
 
-Download links to LongMill firmware can be found here: <a href="https://resources.sienci.com/view/lm-grbl-firmware/">https://resources.sienci.com/view/lm-grbl-firmware/</a>
+Download links to LongMill MK2 firmware can be found here: <a href="https://resources.sienci.com/view/lmk2-grbl-firmware/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-grbl-firmware/</a>
 
 For information about flashing your Arduino with new firmware, please visit the link above or visit the instructions provided in the grbl Wiki: <a href="https://github.com/gnea/grbl/wiki/Flashing-Grbl-to-an-Arduino" target="_blank" rel="noopener">https://github.com/gnea/grbl/wiki/Flashing-Grbl-to-an-Arduino</a>
 
-#### Default LongMill grbl EEPROM settings
+#### Default LongMill MK2 grbl EEPROM settings
 
-The LongBoard comes with EEPROM settings set to work best with the LongMill. For information about what each setting is and what it does, please visit: <a href="https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration" target="_blank" rel="noopener">https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration</a>
+The LongBoard comes with EEPROM settings set to work best with the LongMill MK2. For information about what each setting is and what it does, please visit: <a href="https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration" target="_blank" rel="noopener">https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration</a>
 
 You may need to change EEPROM settings if you wish to add additional functionality, such as limit switches or spindle control.
 
-Each setting can be changed to suit the user and their machine. We recommend that LongMill users keep the same default settings for their machines, and check their settings if they are having issues.
+Each setting can be changed to suit the user and their machine. We recommend that LongMill MK2 users keep the same default settings for their machines, and check their settings if they are having issues.
 
-To see the **list of LongMill default EEPROM settings** and for more EEPROM info, please visit: <a href="https://resources.sienci.com/view/lm-EEPROM-settings/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-eeprom-settings/</a>
+To see the **list of LongMill MK2 default EEPROM settings** and for more EEPROM info, please visit: <a href="https://resources.sienci.com/view/lmk2-eeprom-settings/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-eeprom-settings/</a>
 
 ## Inputs and outputs
 
 ### Power and switch
 
-Rev1.4 of the LongBoard comes with a detachable emergency stop button that can be plugged into the controller to kill power to the controller in the case of emergency or just to turn the machine off.
+The LongBoard comes with a detachable emergency stop button that can be plugged into the controller to kill power to the controller in the case of emergency or just to turn the machine off.
 
 ![](/_images/_longmill/_advanced/_12_LBDetails/lm_lbdeets_p3_Estop.png){.aligncenter .size-medium}
 
@@ -146,38 +144,33 @@ These buttons may be useful for some users as it allows you to play, pause, or s
 
 ![](/_images/_longmill/_advanced/_12_LBDetails/lm_lbdeets_p4_PausePlayStop.jpg){.aligncenter .size-medium}
 
-<b>Play:</b>
-
+**Play:**  
 *NOTE* The machine must be paused in the middle of a job for the play button to work. The play button can be used to resume a job that has been paused.
 
-<b>Pause:</b>
-
+**Pause:**  
 The pause button will pause a running job. Pressing the play button will resume the job.
 
-<b>Stop:</b>
-
+**Stop:**  
 The stop button will stop a running job. Once you press the stop button, you will not be able to continue a job. When you press the stop button it will also throw an alarm and you will have to reset your connection with UGS or perform a "soft reset".
 
 ### Limit switches
 
-For info about adding limit switches please visit:<a href="https://resources.sienci.com/view/lm-adding-limit-switches/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-adding-limit-switches/</a>
+For info about adding limit switches please visit:<a href="https://resources.sienci.com/view/lmk2-limit-switches/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-limit-switches/</a>
 
 ### Spindle/Laser control
 
 You can control spindles and lasers using the SpinPWM and SpinDirection outputs on your LongBoard.
 
-<b>SpinPWM: </b>
-
+**SpinPWM:**  
 SpinPWM allows users to send a M3 SXXX or M4 SXXX command to control the spindle speed. It is important that you have the correct minimum and maximum spindle speeds on your EEPROM settings as the PWM signal outputted by the controller will be linearly related to the spindle speed scale.
 
 For example, if your minimum spindle speed is 0 and your maximum spindle speed is 30,000, then the command "M3 S15000" will signal the PWM to be on half of the time, or if you measure with a voltmeter, should read 2.5V.
 
 As a side note, M5 sets the SpindlePWM signal to LOW.
 
-You can also use SpinPWM to control a laser. For additional documentation for lasers, please visit: <a href="https://resources.sienci.com/view/lm-adding-a-laser/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-adding-a-laser/</a>
+You can also use SpinPWM to control a laser. For additional documentation for lasers, please visit: <a href="https://resources.sienci.com/view/lmk2-adding-a-laser/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-adding-a-laser/</a>
 
-<b>Spin Direction:</b>
-
+**Spin Direction:**  
 The M3 command turns the Spin Direction output to HIGH, indicating that the spindle should rotate clockwise.
 
 The M4 command turns the Spin Direction output to LOW, indicating that the spindle should rotate counterclockwise.
@@ -188,7 +181,7 @@ Oftentimes, you may not have the option to control the direction of your spindle
 
 The probe input allows the use of a touch plate or probe with the LongBoard.
 
-For documentation on setting this up, please visit: <a href="https://resources.sienci.com/view/lm-touch-plates/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-touch-plates/</a>
+For documentation on setting this up, please visit: <a href="https://resources.sienci.com/view/lmk2-touch-plate/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-touch-plate/</a>
 
 ### Coolant control
 
@@ -198,13 +191,11 @@ Coolant works similar to spindle control. Sending an M7 command sets the coolant
 
 With the inputs and outputs available on the LongBoard controller, it's easy to adapt it to to any given CNC system with:
 
-<ul>
-  <li>up to four, 4-wire stepper motors</li>
-  <li>up to three pairs of 2-wire limit switches</li>
-  <li>one 2-wire probe</li>
-  <li>one spindle, wired to a VFD that can accept a 0V or 5V direction signal and a 0-5V PWM signal</li>
-  <li>and remaining periphery for one, constant 12V and one, switchable 5V signal</li>
-</ul>
+- up to four, 4-wire stepper motors
+- up to three pairs of 2-wire limit switches
+- one 2-wire probe
+- one spindle, wired to a VFD that can accept a 0V or 5V direction signal and a 0-5V PWM signal
+- and remaining periphery for one, constant 12V and one, switchable 5V signal
 
 We'll use an X-Carve as an example. Out the back of the X-Controller™, you can see stepper motor inputs labelled as "X AXIS", "Y1 AXIS", "Y2 AXIS", and "Z AXIS". These are already bundled into 4-wire terminal connectors, the same kind that the LongBoard uses, so by unplugging them from the X-Controller™ and plugging them into the similarly labelled sockets on the LongBoard you've already got the motors transferred over.
 
@@ -216,31 +207,25 @@ The other common inputs (the limit switches and probe), are also easy to bring o
 
 With the wiring complete, the last step is to configure the EEPROM of the LongBoard. The LongBoard should already come pre-flashed to accommodate most machines, but it won't know if the motor is turning the wrong way, what the size of the machine is, or if you have a spindle or limit switches. This step is to give the controller an understand of what your CNC looks like so the controller can know how to move it around correctly. Many CNC manufacturers will provide these settings to their customers for proper configuration. Some examples are (though understand that machine settings can change all the time so these values might be out of date):
 
-<ul>
-  <li>Shapeoko: <a href="https://wiki.shapeoko.com/index.php/Grbl_Configuration" target="_blank" rel="noopener">https://wiki.shapeoko.com/index.php/Grbl_Configuration</a></li>
-  <li>X-Carve: <a href="https://discuss.inventables.com/t/x-carve-grbl-default-settings-500mm/13824" target="_blank" rel="noopener">https://discuss.inventables.com/t/x-carve-grbl-default-settings-500mm/13824</a></li>
-</ul>
+- Shapeoko: <a href="https://wiki.shapeoko.com/index.php/Grbl_Configuration" target="_blank" rel="noopener">https://wiki.shapeoko.com/index.php/Grbl_Configuration</a>
+- X-Carve: <a href="https://discuss.inventables.com/t/x-carve-grbl-default-settings-500mm/13824" target="_blank" rel="noopener">https://discuss.inventables.com/t/x-carve-grbl-default-settings-500mm/13824</a>
 
 The values that you'll be most interested in for initial setup will be:
 
-<ul>
-  <li>$2 and $3 to get your motors moving in the correct direction</li>
-  <li>$100, $101, and $102 to get your motors moving the correct distances</li>
-  <li>$5 and $22 to $27 to accommodate your limit switch type, enable homing, and set other homing settings</li>
-  <li>$20 and $21 for other options based on how you want to be using your limit switches</li>
-</ul>
+- $2 and $3 to get your motors moving in the correct direction
+- $100, $101, and $102 to get your motors moving the correct distances
+- $5 and $22 to $27 to accommodate your limit switch type, enable homing, and set other homing settings
+- $20 and $21 for other options based on how you want to be using your limit switches
 
 Otherwise, some of the more optional values would be:
 
-<ul>
-  <li>$30 and $31 for configuring spindle speed range</li>
-  <li>$110 to $132 for configuring the machine boundaries, maximum velocity, and maximum acceleration</li>
-</ul>
+- $30 and $31 for configuring spindle speed range
+- $110 to $132 for configuring the machine boundaries, maximum velocity, and maximum acceleration
 
 Once you've determined that these values reflect the current mechanics of your machine, you should be ready to go!
 
 ## Arduino Routing
 
-Fundamentally most of the work that LongBoard does is reroute the Arduino Uno's IO with some added circuitry to reduce EMI, added motor drivers and onboard buttons, and routed IO to convenient connectors for easier machine setup. The routing of the IO is the same as what's shown below (image credit to <a href="https://lo.manuals.plus/cndy-shield/grbl-cnc-arduino-uno-manual" target="_blank" rel="noopener">https://lo.manuals.plus/cndy-shield/grbl-cnc-arduino-uno-manual</a>)
+Fundamentally most of the work the LongBoard does is reroute the Arduino Uno's IO to convenient connectors for easier machine setup, with some added circuitry to reduce EMI, plus motor drivers and onboard buttons. The routing of the IO is the same as what's shown below (image credit to <a href="https://lo.manuals.plus/cndy-shield/grbl-cnc-arduino-uno-manual" target="_blank" rel="noopener">https://lo.manuals.plus/cndy-shield/grbl-cnc-arduino-uno-manual</a>)
 
 ![](/_images/_longmill/_advanced/_12_LBDetails/lm_lbdeets_p7_ArduinoRouting.png){.aligncenter .size-medium}

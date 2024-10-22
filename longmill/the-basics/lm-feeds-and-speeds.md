@@ -17,11 +17,9 @@ featured_image:
 
 When cutting material with a rotating bit, you can imagine that going too slow will dull or break the bit very quickly. For example, imagine trying to cut through a plank of wood with a saw except instead of moving the saw back and forth you're just trying to push it directly through. Similarly, a bit that's moving too fast can burn or melt the material that you're cutting. Finding a happy medium between these two extremes is a balancing act between three main factors:
 
-<ol>
-<li>How quickly the tool is translating (feed rate/plunge rate)</li>
-<li>How fast the tool is spinning (spindle speed)</li>
-<li>How much material the tool is removing at any given time (depth of cut &amp; step over)</li>
-</ol>
+1. How quickly the tool is translating (feed rate/plunge rate)
+1. How fast the tool is spinning (spindle speed)
+1. How much material the tool is removing at any given time (depth of cut & step over)
 
 Each of these factors must be suited to the properties of the material that you're cutting; cutting through foam can happen much faster than cutting aluminum. We generalize these variables under the term 'feeds and speeds', and each cutting tool has a different set of ideal feeds and speeds. Learning how to tie a tool's size and shape to its movement, rotation speed, material type, and material removal rate is nearly an art form. There are engineers whose job is knowing how to properly balance all these numbers and apply them based on part geometry, desired finish, and the total job cutting time. Without the proper planning, you can expect many headaches along the way including broken tools, broken material, and an uneven or rough surface finish on your project. Feed and speed choice depends on the material you are cutting, the type of tool you use, the speed of the router, the rigidity of the machine, and even the geometry of the model. In order to balance speed, finish quality, and precision you must account for bit deflection and material hardness. When cutting, the tool can be pushed away from where it should be since it's not able to cut the material fast enough. Harder materials require a more rigid machine and longer milling times to steadily cut the material away. Sometimes it will take some trial and error to dial-in the right settings for your desired setup and materials.
 
@@ -29,11 +27,11 @@ Each of these factors must be suited to the properties of the material that you'
 
 ## Terminology
 
-<b>Feed rate:</b> how quickly the tool moves in the X and Y directions, usually defined in millimeters (or inches) per minute.<br>
-<b>Plunge rate:</b> how quickly the tool moves in the Z direction, usually defined in millimeters (or inches) per minute.<br>
-<b>Spindle speed:</b> the speed that the tool spins in the rotary tool, defined in RPM (rotations per minute). Most compact routers operate at speeds between 10,000 and 30,000 RPM.<br>
-<b>Depth of cut/Step down:</b> the amount of depth that the CNC machine removes with every cutting pass, defined in millimeters or inches.<br>
-<b>Step over:</b> the offset that is applied between the old cutting pass and the new one, usually defined as a percentage of the tool's cutting diameter.
+**Feed rate:** how quickly the tool moves in the X and Y directions, usually defined in millimeters (or inches) per minute.<br>
+**Plunge rate:** how quickly the tool moves in the Z direction, usually defined in millimeters (or inches) per minute.<br>
+**Spindle speed:** the speed that the tool spins in the rotary tool, defined in RPM (rotations per minute). Most compact routers operate at speeds between 10,000 and 30,000 RPM.<br>
+**Depth of cut/Step down:** the amount of depth that the CNC machine removes with every cutting pass, defined in millimeters or inches.<br>
+**Step over:** the offset that is applied between the old cutting pass and the new one, usually defined as a percentage of the tool's cutting diameter.
 
 ## Recommendations
 
@@ -41,7 +39,7 @@ Since there are so many different types and sizes of cutting tools, we've create
 
 Ensure that any cutting tool you end up using is installed as deeply as possible into the router, with a bare-minimum of 3/8” of the tool being inside the router for light cuts.
 
-These feeds and speeds are meant to be a starting point in finding the right parameters that work best for your setup. Feeds and speeds listed on this page have been tested to work with <b>2-flute, 1/8" carbide end mills</b>, the type of cutting tool that is most readily available <a href="http://sienci.com/product/18-flat-end-mill/" target="_blank" rel="noopener noreferrer">in our store</a>. Unless you're doing 3D contour cutting where the z-axis moves up and down a lot, we usually recommended lower plunge rates (100mm/min to 300mm/min) for most materials. You'll need to know the speed range of the Makita RT0701:
+These feeds and speeds are meant to be a starting point in finding the right parameters that work best for your setup. Feeds and speeds listed on this page have been tested to work with **2-flute, 1/8" carbide end mills**, the type of cutting tool that is most readily available <a href="http://sienci.com/product/18-flat-end-mill/" target="_blank" rel="noopener noreferrer">in our store</a>. Unless you're doing 3D contour cutting where the z-axis moves up and down a lot, we usually recommended lower plunge rates (100mm/min to 300mm/min) for most materials. You'll need to know the speed range of the Makita RT0701:
 
 <table class="wp-table" width="70%">
 <tbody>
