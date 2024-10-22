@@ -24,6 +24,8 @@ Improves on https://resources.sienci.com/view/lmk2-dust-collection/
 
 https://forum.sienci.com/t/dust-questions-for-newbie/14028/5
 
+Dust Cyclone Separator Cart - 15 min video https://youtu.be/lGnGNYrxqjs
+
 ---
 
 CNCs can create a lot of mess just like many other cutting tools. Think about the chips and fine dust you get drilling a single hole or cutting a piece of wood in half and then stretch that out over hours of constant cutting. This is where dust collection helps out.
