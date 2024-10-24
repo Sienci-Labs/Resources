@@ -42,8 +42,7 @@ If you're looking for a 'catch-all' solution, these are normally less effective 
 
 If you plan to try this, ensure that you only use **one ground point**</b>** for your entire machine setup (including dust collection). For example, if your home has just one electrical panel, you can ground it on that or the attached ground stake outside. This avoids possible ground loops which can create additional interference.
 
-**Materials**
-
+**Materials**  
 <ul>
   <li>Bare solid copper wire between 10 to 18 AWG</li>
   <li>Fastening hardware such as prong connector, screw, or ground plug

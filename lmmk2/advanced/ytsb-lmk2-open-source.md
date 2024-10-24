@@ -15,7 +15,7 @@ skip_file: yes
 featured_image: 
 ---
 
-The LongMill MK2 project is the successor to the LongMill project, both at their core being open source projects. With much striving towards making design choices that would make the MK2 project as replicable and well-supported as possible, the MK2 wavers a little further away from replicability than its predecessor mainly in its rail design and reduced usage of 3D printed parts. If you want to understand why we made these choices, know it wasn't taken lightly and we discussed it more on our blog post: <a href="https://sienci.com/2021/12/30/all-about-the-longmill-mk2/" target="_blank" rel="noopener">https://sienci.com/2021/12/30/all-about-the-longmill-mk2/</a>
+The LongMill MK2 project is the successor to the LongMill project, both at their core being open source projects. With much striving towards making design choices that would make the MK2 project as replicable and well-supported as possible, the MK2 wavers a little further away from replicability than its predecessor mainly in its rail design and reduced usage of 3D printed parts. If you want to understand why we made these choices, know it wasn't taken lightly and we discussed it more on our blog post: <a href="https://sienci.com/2021/12/30/all-about-the-LongMill-mk2/" target="_blank" rel="noopener">https://sienci.com/2021/12/30/all-about-the-LongMill-mk2/</a>
 
 Other than these changes, all other aspects of the LongMill MK2 project are shared with the original LongMill which will continue to be maintained (and can be referenced here: <a href="https://resources.sienci.com/view/lm-open-source-and-modifications/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-open-source-and-modifications/</a>). We believe that by making this design open source, we will be able to drive the CNC community forward through sharing and improving CNC technology. The idea is for:
 
@@ -44,11 +44,11 @@ All this information is continually updated as the LongMill MK2 project continue
 The LongMill MK2 has gone through two major iterations of its design:
 
 - MK2 distinguishes itself from the original LongMill project by a couple key factors. Though many of the common components carry over such as v-wheels, lead screws, motors, anti-backlash nuts, etc. the biggest differentiator is the use of two completely custom designed extrusions for each X and Y-axes which allow for much higher rigidity, easy of assembly, reduced part count, and more rigid mounting of the Y-rails to the tabletop surface. The MK2 design was also further optimized by the shape of the X, Y, an Z carriage plates to squeeze more travel out of the same length lead screws while also increasing the CNCs rigidity by how the v-wheels are located. The blank canvas of the MK2 also meant we could ensure that add-ons our customers have been enjoying on their existing LongMills could be make available on the MK2 with much simpler implementation such as dust shields, dust shoe, and limit switches. Batch 1 began production in October 2021 and started shipping in April 2022.
-- MK2.5 was a notable step toward easier servicing and better reliability by introducing the SuperLongBoard 5xHAL controller, a new and novel spring-loaded anti-backlash nut design we created to reduce maintenance on the machines lead screws and improve accuracy, as well as strengthening up some maintenance components and using M5 hardware in place of M3 for more robust, long-term adjustment. You can read more on all these changes in our <a href="https://sienci.com/2024/05/10/introducing-longmill-mk2-5/" target="_blank" rel="noopener">blog post here</a>.</li>
+- MK2.5 was a notable step toward easier servicing and better reliability by introducing the SuperLongBoard 5xHAL controller, a new and novel spring-loaded anti-backlash nut design we created to reduce maintenance on the machines lead screws and improve accuracy, as well as strengthening up some maintenance components and using M5 hardware in place of M3 for more robust, long-term adjustment. You can read more on all these changes in our <a href="https://sienci.com/2024/05/10/introducing-LongMill-mk2-5/" target="_blank" rel="noopener">blog post here</a>.</li>
 
 You can find the BOM and designs of every part and assembly of the LongMill MK2 Benchtop CNC in the linked Onshape and spreadsheet documents below:
 
-**MK2:** <a href="https://cad.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/99a028de0f32d790196bbe8a" target="_blank" rel="noopener">https://cad.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/99a028de0f32d790196bbe8a</a>
+**MK2:** <a href="https://CAD.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/99a028de0f32d790196bbe8a" target="_blank" rel="noopener">https://CAD.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/99a028de0f32d790196bbe8a</a>
 
 **BOM:** <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1540965623" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1540965623</a>
 
@@ -56,7 +56,7 @@ You can find the BOM and designs of every part and assembly of the LongMill MK2 
 
 The LongBoard CNC Controller is the control system and brains of the LongMill. This board was designed by our friend Chris Hadjuk and the Sienci Labs team with KiCAD. This design has been carried over from the original LongMill project's LongBoard which had four major public revisions but in the context of the LongMill MK2 it'll continue moving forward from the most recent 1.4.3. You can find the designs of every version in the form of gerber, assembly, schematic, and BOM files in their respective zip files below as well as a link to a more readable BOM for every board version if you'd like to source your own components.
 
-<a href="https://resources.sienci.com/view/lm-open-source-and-modifications/#longboard-cnc-controller" target="_blank" rel="noopener">Original LongBoard Project Designs</a>
+<a href="https://resources.sienci.com/view/lm-open-source-and-modifications/#LongBoard-cnc-controller" target="_blank" rel="noopener">Original LongBoard Project Designs</a>
 
 <a href="https://resources.sienci.com/wp-content/uploads/2021/04/Sienci-LongBoard-Rev-1.4.3-1.zip" target="_blank" rel="noopener">Rev-1.4.3 LongBoard Design</a>
 
@@ -72,7 +72,7 @@ Custom T-track can uniquely fit common 1/4-20 hardware, clamps can be cut from w
 
 <a href="https://resources.sienci.com/wp-content/uploads/2022/03/sienci-wood-clamp-100mm.stl">⭳ CNC the Wood Clamps (STL)</a>
 <a href="https://resources.sienci.com/wp-content/uploads/2022/03/sienci-steel-clamp-end-cap.stl">⭳ 3D print the End Caps (STL)</a>
-<a href="https://cad.onshape.com/documents/4002cf32491a7a7a17c84759/w/f9f2dc06d2e8375fa2fb89a3/e/b15017972da9d310d5b53e22" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
+<a href="https://CAD.onshape.com/documents/4002cf32491a7a7a17c84759/w/f9f2dc06d2e8375fa2fb89a3/e/b15017972da9d310d5b53e22" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
 [/su_column] [su_column size="1/2" center="no" class=""]<img class="opensource aligncenter wp-image-11210 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/lm-os-sienci-t-tracks-and-clamps-850x566.jpg" alt="" width="850" height="566" />[/su_column]
 [/su_row]
 
@@ -81,7 +81,7 @@ Custom T-track can uniquely fit common 1/4-20 hardware, clamps can be cut from w
 Specially designed adjustable-style dust shoe that allows for height adjustment and removal with the same set of magnets and a spring-loaded trigger.
 
 <a href="https://resources.sienci.com/wp-content/uploads/2022/07/Sienci-LongMill-MK2-Magnetic-Dust-Shoe-Body-print.stl">⭳ 3D print the Shoe Body (STL)</a>
-<a href="https://cad.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/fe3b50adb5e27c41f23cd9cc" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
+<a href="https://CAD.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/fe3b50adb5e27c41f23cd9cc" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
 [/su_column] [su_column size="1/2" center="no" class=""] [3d_viewer id="11153"] [/su_column]
 [/su_row]
 
@@ -98,7 +98,7 @@ The main part of the Air Assist on our LaserBeam diode, in case you burn or brea
 Custom designed, plug-and-play rotary axis which adds another carving dimension to 3-axis CNCs.
 
 <a href="https://resources.sienci.com/wp-content/uploads/2023/08/ELBB-0001-R1.zip">⭳ Switching PCB design (ZIP)</a>
-<a href="https://cad.onshape.com/documents/ae39a5fcc77f3d9fd98c1651/w/0565761952616ac0420258c4/e/45038dcaaaafbe48b1cc0005" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
+<a href="https://CAD.onshape.com/documents/ae39a5fcc77f3d9fd98c1651/w/0565761952616ac0420258c4/e/45038dcaaaafbe48b1cc0005" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
 [/su_column] [su_column size="1/2" center="no" class=""]<img class="opensource aligncenter wp-image-11217 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/lm-os-sienci-vortex-rotary-2-850x667.jpg" alt="" width="850" height="667" />[/su_column]
 [/su_row]
 
@@ -106,7 +106,7 @@ Custom designed, plug-and-play rotary axis which adds another carving dimension 
 [su_column size="1/2" center="no" class="viewer-desc"]<strong>Touch Plate (3-axis / block-style)</strong>
 A typical block-style, 3-axis touch plate we designed for finding X, Y, and Z-zero on 3-axis CNCs.
 
-<a href="https://cad.onshape.com/documents/b76785c85e8458b0e88b64a5/w/0eed2327264503a991f2d6eb/e/47780af64de032893b1197da?renderMode=0&amp;uiState=6706bc3b23645768105a7bd9" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
+<a href="https://CAD.onshape.com/documents/b76785c85e8458b0e88b64a5/w/0eed2327264503a991f2d6eb/e/47780af64de032893b1197da?renderMode=0&amp;uiState=6706bc3b23645768105a7bd9" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
 [/su_column] [su_column size="1/2" center="no" class=""] [3d_viewer id="11179"]
 [/su_column]
 [/su_row]
@@ -115,23 +115,23 @@ A typical block-style, 3-axis touch plate we designed for finding X, Y, and Z-ze
 [su_column size="1/2" center="no" class="viewer-desc"]<strong>MK2 Inductive Sensor kit</strong>
 5V inductive barrel sensors for reliable homing in any environment. Take measurements in Onshape if you want to make your own mounting setup.
 
-<a href="https://cad.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/8798d6686ac6483e61334a3b" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
-[/su_column] [su_column size="1/2" center="no" class=""]<img class="opensource wp-image-11214 size-full aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/lm-os-longmill-mk2-inductive-sensors.jpg" alt="" width="577" height="433" />[/su_column]
+<a href="https://CAD.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/8798d6686ac6483e61334a3b" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
+[/su_column] [su_column size="1/2" center="no" class=""]<img class="opensource wp-image-11214 size-full aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/lm-os-LongMill-mk2-inductive-sensors.jpg" alt="" width="577" height="433" />[/su_column]
 [/su_row]
 
 [su_row]
 [su_column size="1/2" center="no" class="viewer-desc"]<strong>MK2 Magnetic Dust Shields</strong>
 Keeps dust off the Y-axes of the LongMill MK2, made out of a single piece of bent stainless steel.
 
-<a href="https://cad.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/f8ea1bc43d5996622ad6bbb5" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
-[/su_column] [su_column size="1/2" center="no" class=""]<img class="opensource aligncenter wp-image-11190 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/lm-os-longmill-mk2-dust-shield-e1728498275422.jpg" alt="" width="837" height="669" />[/su_column]
+<a href="https://CAD.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/f8ea1bc43d5996622ad6bbb5" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
+[/su_column] [su_column size="1/2" center="no" class=""]<img class="opensource aligncenter wp-image-11190 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/lm-os-LongMill-mk2-dust-shield-e1728498275422.jpg" alt="" width="837" height="669" />[/su_column]
 [/su_row]
 
 **BOM of all add-ons:** <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1028766194" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1028766194</a>
 
 ## 3D Printing
 
-To read more about our print settings to help you print your own parts, read this post here: <a href="https://sienci.com/2019/11/11/3d-printing-settings-for-LongMill-parts/">https://sienci.com/2019/11/11/3d-printing-settings-for-longmill-parts/</a>
+To read more about our print settings to help you print your own parts, read this post here: <a href="https://sienci.com/2019/11/11/3d-printing-settings-for-LongMill-parts/">https://sienci.com/2019/11/11/3d-printing-settings-for-LongMill-parts/</a>
 STL files can be directly downloaded from the Onshape document. You may need to make an account to download STL files.
 
 ## Onshape

@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/_mill-one/_more/mo_touch_plate_p1_Arduino.jpg
 ---
 
-Though the Mill One never shipped with a touch plate or officially supported one during it's production life, its Arduino Uno CNC shield had provisions for connecting one. This can be a simple Z-axis 'puck' that you can find for cheap online, or a surface-probing mechanical switch, all the way up to the <a href="https://sienci.com/product/autozero/" target="_blank" rel="noopener">AutoZero touch plate</a> accessory that's now widely used on the LongMill CNC.
+Though the Mill One never shipped with a touch plate or officially supported one during it's production life, its Arduino Uno CNC shield had provisions for connecting one. This can be a simple Z-axis 'puck' that you can find for cheap online, or a surface-probing mechanical switch, all the way up to the <a href="https://sienci.com/product/AutoZero/" target="_blank" rel="noopener">AutoZero touch plate</a> accessory that's now widely used on the LongMill CNC.
 
 To wire it up you'll want to locate the positive 5V touch plate pin (marked as "SCL", noted with the red arrow) and any spare ground pin as the second pin (marked as "GND", noted with the green arrow, the row of black pins, and still more can be found on the board).
 

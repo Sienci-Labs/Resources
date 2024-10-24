@@ -19,7 +19,7 @@ Having **troubles with gSender** or have **suggestions to improve it?** Here are
 
 1. <a href="#questions-or-suggestions"><b>Questions</b> or <b>suggestions</b></a> are always welcome!
 1. If you're **having a problem**, first help us out by ensuring that it's not an issue on your end with your computer or CNC. If you can try with another computer or g-code sender and still see the same problem then certainly let us know.
-1. If you're sure about the issue, and have already checked our docs, <a href="https://youtube.com/playlist?list=PLE43LQy2a1ioE8_sH0lcy8leYwrxvGhZ8" target="_blank" rel="noopener">YouTube playlist</a>, and <a href="https://resources.sienci.com/view/gs-feedback/#common-problems-amp-fixes">Common Problems &amp; Fixes</a> below, give us a hand by sending us **as much information as possible** so we can help diagnose your problem more easily.
+1. If you're sure about the issue, and have already checked our docs, <a href="https://YouTube.com/playlist?list=PLE43LQy2a1ioE8_sH0lcy8leYwrxvGhZ8" target="_blank" rel="noopener">YouTube playlist</a>, and <a href="https://resources.sienci.com/view/gs-feedback/#common-problems-amp-fixes">Common Problems &amp; Fixes</a> below, give us a hand by sending us **as much information as possible** so we can help diagnose your problem more easily.
 
 ## Information to Send
 

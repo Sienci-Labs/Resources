@@ -37,7 +37,7 @@ If everything has come together well so far, you should be able to now check tha
 
 Bring a motor assembly to the left Y-gantry plate making sure the motor wire faces back and upwards (pictured). Slide the motor shaft into the coupler, then tighten the four M5-50mm bolts into the gantry. At the coupler, tighten the set screw at the motor side and ensure the lead screw can spin without excessive force. <img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2022/03/48EX-symbol.png" alt="" width="61" height="30" />
 
-<a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#ex-lead-screw-assembly"><img class="fortye aligncenter wp-image-3950 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX5C-850x68.png" alt="" width="850" height="68" /></a>
+<a href="https://resources.sienci.com/view/48x30-LongMill-mk2-accompanying-manual/#ex-lead-screw-assembly"><img class="fortye aligncenter wp-image-3950 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX5C-850x68.png" alt="" width="850" height="68" /></a>
 
 <img class="wp-image-7082 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2024/06/double-pic-green-circle-2-1-850x382.png" alt="" width="850" height="382" />
 
@@ -150,7 +150,7 @@ Attach a motor cable onto the X-axis NEMA 23 stepper motor.
 
 <img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2022/03/48EX-symbol.png" alt="" width="61" height="30" />
 
-<a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#cable-extension-installation"><img class="fortye aligncenter wp-image-3953 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX6C-850x72.png" alt="" width="850" height="72" /></a>
+<a href="https://resources.sienci.com/view/48x30-LongMill-mk2-accompanying-manual/#cable-extension-installation"><img class="fortye aligncenter wp-image-3953 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX6C-850x72.png" alt="" width="850" height="72" /></a>
 
 <img class="aligncenter wp-image-2793 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-59-850x478.jpg" alt="" width="850" height="478" />
 

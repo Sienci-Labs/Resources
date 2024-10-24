@@ -39,7 +39,7 @@ We have updated several of the parts you will use in upgrading to the 48”. The
 
 ## 48” X-axis rail box unpacking
 
-https://www.youtube.com/watch?v=KjirFKNT3pM
+https://www.YouTube.com/watch?v=KjirFKNT3pM
 
 Inside the 48” X-axis rail box, you’ll find the X-axis rail packaged with 5 boxes.
 
@@ -505,7 +505,7 @@ With the X-axis now being extended to 48” working capacity, your LongMill will
 
 <img class="aligncenter size-full wp-image-4020" src="https://resources.sienci.com/wp-content/uploads/2022/07/MK2-Base-Layout1.png" alt="" width="710" height="459" />
 
-Despite the larger size, the table mounting process remains the same as the original 30x30 LongMill MK2. Follow the table mounting instructions for this found <a href="https://resources.sienci.com/view/lmk2-table-mounting/#mounting-your-longmill">here</a>.
+Despite the larger size, the table mounting process remains the same as the original 30x30 LongMill MK2. Follow the table mounting instructions for this found <a href="https://resources.sienci.com/view/lmk2-table-mounting/#mounting-your-LongMill">here</a>.
 
 Congratulations on finishing the installation of your LongMill MK2 48” extension kit! While the operation of your LongMill will stay largely the same, we hope you can take advantage of the extra cutting real estate and benefits that come with the larger X-axis material capacity. Good luck and happy making!
 

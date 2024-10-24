@@ -24,7 +24,7 @@ A **dust shoe** is basically a fancy vacuum attachment for your CNC machine, it 
 - saves you time cleaning up that you'd have to do anyway
 - keeps your shop air cleaner which is safer for your lungs
 
-https://www.youtube.com/watch?v=94r4hgr2SgA
+https://www.YouTube.com/watch?v=94r4hgr2SgA
 
 That said, dust management can still come in other forms like building an [enclosure for your CNC](https://resources.sienci.com/view/lmk2-table-enclosure/#machine-enclosure) or cutting outside. You might choose to do these if you:
 
@@ -83,7 +83,7 @@ Whether a dust shoe is fixed or adjustable depends on how it’s mounted:
 </table>
 [/su_table]
 
-For general purpose cutting, we'd recommend using an adjustable dust shoe as it is significantly better at collecting dust and debris, and relies less on how powerful your vacuum system is. It's also much better suited toward flat or sheet material which is the type of material that's most commonly used by hobby CNCers for sign-making and v-carving.
+For general purpose cutting, we recommend using an adjustable dust shoe as it is significantly better at collecting dust and debris, and relies less on how powerful your vacuum system is. It's also much better suited toward flat or sheet material which is the type of material that's most commonly used by hobby CNCers for sign-making and v-carving.
 
 ### Choosing Hose Size
 

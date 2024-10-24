@@ -157,7 +157,7 @@ With the bit in position, click the ‘Zero All’ button and you’ll see to th
 
 If you haven't already, download your project's g-code file by clicking on the project name in the project table above. We'll be opening this file up to run it so click the 'Load File' button in the bottom left of gSender (pictured) and then select your downloaded project file to open it up. The common places to check on your computer will be the 'documents' or 'downloads' folders.
 
-Once selected, you should see your project appear in the visualizer and the location of the virtual bit should match to what you have set up on on your CNC. If everything looks good, double-check that you've set your Makita router speed dial to match what's needed for your project, turn the router on, then click 'Start Job'! Remember you can reach for the e-stop if you think something's going wrong.
+Once selected, you should see your project appear in the visualizer and the location of the virtual bit should match to what you have set up on on your CNC. If everything looks good, double-check that you've set your Makita router speed dial to match what's needed for your project, turn the router on, then click 'Start Job'! Remember you can reach for the E-stop if you think something's going wrong.
 
 <img class="size-medium wp-image-3588 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/LongMill-Lettering-Start-job-850x478.png" alt="" width="850" height="478" />
 
@@ -185,7 +185,7 @@ The <b>Handbook</b> section that follows the add-on assembly will be the spot yo
 
 <h2>Our YouTube channel</h2>
 
-We also have a <b><a href="https://www.youtube.com/channel/UCS4SdQ0sqFhvjitLjh4EsGQ?">YouTube channel</a></b> where you can find videos and tutorials on using your LongMill like:
+We also have a <b><a href="https://www.YouTube.com/channel/UCS4SdQ0sqFhvjitLjh4EsGQ?">YouTube channel</a></b> where you can find videos and tutorials on using your LongMill like:
 
 <ul>
 <li>How to go from idea to completed project</li>
@@ -199,15 +199,15 @@ We also have a <b><a href="https://www.youtube.com/channel/UCS4SdQ0sqFhvjitLjh4E
 
 Each of these project videos come with step-by-step instructions on making your own!
 
-https://www.youtube.com/watch?v=Dfwy2fDhUZ8
+https://www.YouTube.com/watch?v=Dfwy2fDhUZ8
 
-https://www.youtube.com/watch?v=cwDvnuouFlw
+https://www.YouTube.com/watch?v=cwDvnuouFlw
 
-https://www.youtube.com/watch?v=b4HOfNXsrb0
+https://www.YouTube.com/watch?v=b4HOfNXsrb0
 
 https://youtu.be/uzgvDvpbq4s
 
-https://www.youtube.com/watch?v=T3CF0i_SUlo
+https://www.YouTube.com/watch?v=T3CF0i_SUlo
 
 https://youtu.be/GRZNaJl7-Ww
 

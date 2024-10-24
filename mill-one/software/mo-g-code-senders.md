@@ -31,7 +31,7 @@ There are a few other choices in g-code sending software that we can recommend o
 
 ### <a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener">Fusion 360</a> UGS Plugin (Optional)
 
-This open source plugin has been under development for a while. Now you can integrate Universal G-code Sender straight into Fusion 360! Check out the <a href="https://www.youtube.com/watch?v=Y7n3THx3L8Q" target="_blank" rel="noopener">great instructional video for how to download and integrate the plugin</a> and let us know what you think.
+This open source plugin has been under development for a while. Now you can integrate Universal G-code Sender straight into Fusion 360! Check out the <a href="https://www.YouTube.com/watch?v=Y7n3THx3L8Q" target="_blank" rel="noopener">great instructional video for how to download and integrate the plugin</a> and let us know what you think.
 
 Download the plugin here: <a href="https://github.com/tapnair/UGS_Fusion" target="_blank" rel="noopener">https://github.com/tapnair/UGS_Fusion</a>
 

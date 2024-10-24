@@ -19,7 +19,7 @@ featured_image: /_images/_longmill/_advanced/_4_Inductive/lm_inductive_p1_DSC004
 
 The Inductive Sensor Kit is a plug-and-play add-on kit for your LongMill, which adds three inductive sensors to your machine to act as limit and homing switches. **The kit can be ordered on our <a href="https://sienci.com/product/inductive-sensor-kit/">store</a>.**
 
-https://www.youtube.com/watch?v=MZBsJED4Ktg
+https://www.YouTube.com/watch?v=MZBsJED4Ktg
 
 ### Step 1: Unpacking
 

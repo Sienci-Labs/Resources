@@ -51,7 +51,7 @@ This program is designed for 2D cutting and etching. It's very simple and also b
 
 Access it here: <a href="http://www.makercam.com/" target="_blank" rel="noopener">http://www.makercam.com/</a>
 
-Check out the Caleb Peters' <a href="https://www.youtube.com/watch?v=-CHJJRMeAGU&amp;list=PLxm-7P1GnMICaQdDBz4kpNNXRcxo-IcqQ" target="_blank" rel="noopener">three part tutorial</a> outlining a gear coaster he designed and built. In the second video, he shows how to import the gear drawing into MakerCAM and generate the g-code for it:
+Check out the Caleb Peters' <a href="https://www.YouTube.com/watch?v=-CHJJRMeAGU&amp;list=PLxm-7P1GnMICaQdDBz4kpNNXRcxo-IcqQ" target="_blank" rel="noopener">three part tutorial</a> outlining a gear coaster he designed and built. In the second video, he shows how to import the gear drawing into MakerCAM and generate the g-code for it:
 
 ### Conclusion
 
@@ -71,7 +71,7 @@ Download it here: <a href="https://inkscape.org/en/download/" target="_blank" re
 
 ### <a href="http://www.scorchworks.com/Fengrave/fengrave.html#vcarve" target="_blank" rel="noopener">F-Engrave</a> (2D Drawings)
 
-F-Engrave is a free and open source software which provides several useful features if you are looking to do engraving work. This includes v-carving, b-carving, importing DXF and bitmap files, and more. To learn about how it works, check out the <a href="http://www.scorchworks.com/Fengrave/fengrave.html#documentation" target="_blank" rel="noopener">documentation</a> online or watch the <a href="https://www.youtube.com/playlist?list=PLEqJxTyAwzThLLbS33drahi0B-LQhdZME" target="_blank" rel="noopener">YouTube tutorial videos</a>.
+F-Engrave is a free and open source software which provides several useful features if you are looking to do engraving work. This includes v-carving, b-carving, importing DXF and bitmap files, and more. To learn about how it works, check out the <a href="http://www.scorchworks.com/Fengrave/fengrave.html#documentation" target="_blank" rel="noopener">documentation</a> online or watch the <a href="https://www.YouTube.com/playlist?list=PLEqJxTyAwzThLLbS33drahi0B-LQhdZME" target="_blank" rel="noopener">YouTube tutorial videos</a>.
 
 Download it here: <a href="http://www.scorchworks.com/Fengrave/fengrave.html#download" target="_blank" rel="noopener">http://www.scorchworks.com/Fengrave/fengrave.html#download</a>
 
@@ -79,6 +79,6 @@ Download it here: <a href="http://www.scorchworks.com/Fengrave/fengrave.html#dow
 
 ### <a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener">Fusion 360</a> (3D Models)
 
-Fusion 360 is a powerful, industry-used software that has both CAD and CAM software built-in. It's free for makers and hobbyists and they offer great <a href="https://academy.autodesk.com/software/fusion-360" target="_blank" rel="noopener">training resources</a> as well as a <a href="https://www.youtube.com/watch?v=Qmx5DUvvmxI&amp;list=PLmA_xUT-8UlK9rndthGGHsjjnZtPO8XRV" target="_blank" rel="noopener">full playlist</a> which teaches every step in learning how to use the CAM part of Fusion.
+Fusion 360 is a powerful, industry-used software that has both CAD and CAM software built-in. It's free for makers and hobbyists and they offer great <a href="https://academy.autodesk.com/software/fusion-360" target="_blank" rel="noopener">training resources</a> as well as a <a href="https://www.YouTube.com/watch?v=Qmx5DUvvmxI&amp;list=PLmA_xUT-8UlK9rndthGGHsjjnZtPO8XRV" target="_blank" rel="noopener">full playlist</a> which teaches every step in learning how to use the CAM part of Fusion.
 
 Download it here: <a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener">https://www.autodesk.com/products/fusion-360/overview</a>

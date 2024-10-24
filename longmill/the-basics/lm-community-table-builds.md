@@ -58,7 +58,7 @@ Keith is one of our Beta testers who made a really cool T-track wasteboard desig
 ![](/_images/_longmill/_the-basics/lm_communitytable_p4_KeithWaste.png){.aligncenter .size-large}
 
 Original post: <a href="https://www.facebook.com/groups/mill.one/permalink/584763838661618/" target="_blank" rel="noopener noreferrer">https://www.facebook.com/groups/mill.one/permalink/584763838661618/</a><br>
-Similar post: <a href="https://forum.sienci.com/t/longmill-up-and-running/187" target="_blank" rel="noopener noreferrer">https://forum.sienci.com/t/longmill-up-and-running/187</a>
+Similar post: <a href="https://forum.sienci.com/t/LongMill-up-and-running/187" target="_blank" rel="noopener noreferrer">https://forum.sienci.com/t/LongMill-up-and-running/187</a>
 
 ### Full T-track Tables
 
@@ -71,7 +71,7 @@ Original posts:
 <ul>
   <li><a href="https://www.facebook.com/groups/mill.one/permalink/767608623710471/" target="_blank" rel="noopener noreferrer">https://www.facebook.com/groups/mill.one/permalink/767608623710471/</a></li>
   <li><a href="https://www.facebook.com/groups/mill.one/permalink/807686936369306/" target="_blank" rel="noopener noreferrer">https://www.facebook.com/groups/mill.one/permalink/807686936369306/</a></li>
-  <li><a href="https://www.thissmarthouse.net/sienci-longmill-our-first-cnc/" target="_blank" rel="noopener noreferrer">https://www.thissmarthouse.net/sienci-longmill-our-first-cnc/</a></li>
+  <li><a href="https://www.thissmarthouse.net/sienci-LongMill-our-first-cnc/" target="_blank" rel="noopener noreferrer">https://www.thissmarthouse.net/sienci-LongMill-our-first-cnc/</a></li>
 </ul>
 
 ### Drawer Storage
@@ -132,8 +132,8 @@ Adding an enclosure to your CNC is a great way to reduce noise and dust in the s
 
 ![](/_images/_longmill/_the-basics/lm_communitytable_p11_PaulDaveCharlesEnclosure.jpg){.aligncenter .size-large}
 
-Dave’s video - <a href="https://www.youtube.com/watch?v=SxiLNjUlw3c">https://www.youtube.com/watch?v=SxiLNjUlw3c</a><br>
-Charles' guide - <a href="https://forum.sienci.com/t/custom-cover-for-longmill-mk2-30x48/10423">https://forum.sienci.com/t/custom-cover-for-longmill-mk2-30x48/10423</a><br>
+Dave’s video - <a href="https://www.YouTube.com/watch?v=SxiLNjUlw3c">https://www.YouTube.com/watch?v=SxiLNjUlw3c</a><br>
+Charles' guide - <a href="https://forum.sienci.com/t/custom-cover-for-LongMill-mk2-30x48/10423">https://forum.sienci.com/t/custom-cover-for-LongMill-mk2-30x48/10423</a><br>
 Paul’s post - <a href="https://www.facebook.com/groups/mill.one/permalink/835391973598802/">https://www.facebook.com/groups/mill.one/permalink/835391973598802/</a>
 
 ## Other Modifications

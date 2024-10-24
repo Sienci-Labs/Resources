@@ -24,7 +24,7 @@ featured_image:
 
 Figuring out how to cut materials nicely on your machine can be confusing and time consuming. Most cutting tool manufacturers spec industry-grade speeds that hobby-grade machines can’t achieve and tool information that hobby CAM software can’t use. Chatter analysis, optimizing material removal rate, tool life preservation, and more simply fall out of range for most hobby CNC'ers since they don't do the high-load or large capacity work of business and industry. We wanted to see what we could do to help with this.
 
-The result is a simple reference-table that you can use as a starting point for your next project. This required us to do a crazy amount of math, create internal testing patterns and procedures, run tests on all the common CNC bits and materials we could think of, and break a lot of bits along the way to hone what we hope will power up your ability to get the most out of your LongMill. We’ve also included more reading later down the page if you’re curious about the theory that drove these cutting parameters and their outcomes: <i>‘<a href="#cutting-theory">Cutting Theory</a>’</i>.
+The result is a simple reference-table that you can use as a starting point for your next project. This required us to do a crazy amount of math, create internal testing patterns and procedures, run tests on all the common CNC bits and materials we could think of, and break a lot of bits along the way to hone what we hope will power up your ability to get the most out of your LongMill. We’ve also included more reading later down the page if you’re curious about the theory that drove these cutting parameters and their outcomes: <em>‘<a href="#cutting-theory">Cutting Theory</a>’</em>.
 
 ## Using the F&S Tables
 
@@ -88,7 +88,7 @@ Not the colloquial ‘softwood’, rather any woods, plywoods, or MDF that have 
   <li>Cutting soft woods will often leave strands and burrs on your finished project. To prevent this, try reducing your feed rates slightly (~20%) or running a second finishing pass if your software allows this</li>
   <li>Plywoods (and some stringy soft woods) are prone to splintering at the surface during cutting. Using a downcut or compression bit can help with this immensely since they won’t tear the material up and over the surface. You can read more about how compression bits work <a href="https://sienci.com/2021/03/01/introducing-1-8-compression-bits-to-our-store/">here</a></li>
   <li>If you notice burning, ensure that: you’re using a wood-compatible tool, sawdust isn’t getting stuck in your cut (downcut bits can cause this), your cutting speed isn’t too slow, or router/spindle RPM isn’t too high</li>
-  <li>Even though MDF is a cheap and clean-cutting material on CNCs, make sure to wear appropriate PPE since the dust is incredibly fine and can be dangerous to breathe in. Using a <a href="https://sienci.com/product/longmill-magnetic-dust-shoe-mk2/">dust shoe</a> is a good option to help reduce the amount of generated dust</li>
+  <li>Even though MDF is a cheap and clean-cutting material on CNCs, make sure to wear appropriate PPE since the dust is incredibly fine and can be dangerous to breathe in. Using a <a href="https://sienci.com/product/LongMill-magnetic-dust-shoe-mk2/">dust shoe</a> is a good option to help reduce the amount of generated dust</li>
 </ul>
 
 [tabby title="Reduced Speed"]
@@ -164,7 +164,7 @@ Plastic is a material used everywhere in our modern world with each plastic havi
 For cutting acrylic we highly recommend you use <strong>cast acrylic</strong> (usually has paper backing) instead of extruded acrylic (plastic backing). Cast acrylic will always have a better surface finish compared to extruded acrylic which is significantly more difficult to cut due to its lower melting temperature.
 
 [gallery columns="2" size="medium" ids="4482,4483"]
-<p style="text-align: center;"><i>Machining on extruded (left) vs cast (right) acrylic using the same g-code</i></p>
+<p style="text-align: center;"><em>Machining on extruded (left) vs cast (right) acrylic using the same g-code</em></p>
 
 <strong>General tips and tricks for these materials are:</strong>
 
@@ -272,43 +272,43 @@ Handy for printing out as a quick reference to keep on your computer or by your 
 
 ## FAQ
 
-<strong><i>Are you ever going to provide feeds and speeds for material X?</i></strong>
+<strong><em>Are you ever going to provide feeds and speeds for material X?</em></strong>
 
 <p style="padding-left: 40px;">We’ve tried to cover most common/popular materials and hope to expand our feeds and speeds to include other materials in the future, but we can’t cover everything. Less popular materials such as FR4, carbon fiber, and steel can all be cut, but aren’t very popular. If there’s a particular material you’d like us to provide, feel free to contact us and let us know.</p>
 
-<strong><i>Will these feeds and speeds work with the cutting bit I got from X?</i></strong>
+<strong><em>Will these feeds and speeds work with the cutting bit I got from X?</em></strong>
 
 <p style="padding-left: 40px;">As long as the important cutting bit geometry is the same, probably. There is a misconception in the hobby CNC router space that different sources of cutting bits will perform completely differently. Some may be sharper or higher quality than others but most will perform fairly similarly in common materials such as woods.</p>
 
-<strong><i>The router speed/RPM you suggest for this bit is much slower than I normally use, isn't faster always better?</i></strong>
+<strong><em>The router speed/RPM you suggest for this bit is much slower than I normally use, isn't faster always better?</em></strong>
 
 <p style="padding-left: 40px;">The router speed/RPM is determined by the geometry of the bit, type of material, and feed rate which might end up being slower than you would expect. This is further discussed in the topic of <a href="https://resources.sienci.com/view/lmk2-feeds-and-speeds/#chip-load-">chip load</a>. It’s intuitive to think that cranking up your router speed will help cuts come out better - and to some extent it might - but an appropriate router speed is one that generates chips not too large (overloading the bit) and not too small (causing burning).</p>
 
-<strong><i>I’m used to cutting much faster than what these recommended feeds and speeds are, am I doing something wrong?</i></strong>
+<strong><em>I’m used to cutting much faster than what these recommended feeds and speeds are, am I doing something wrong?</em></strong>
 
 <p style="padding-left: 40px;">When cutting softer materials, you might find that you can cut much more aggressively than what we recommend. This is because the recommended feeds and speeds are more based around retaining good cut quality, and less around cutting as fast as possible. In our own testing, soft woods can actually be cut about twice as aggressively as what is recommended, but you’ll likely encounter losses in quality, splintering/splitting, and even large chunks of wood stripped out depending on the wood grain.</p>
 
-<strong><i>Am I going to wear out my tools faster by cutting with more aggressive settings?</i></strong>
+<strong><em>Am I going to wear out my tools faster by cutting with more aggressive settings?</em></strong>
 
 <p style="padding-left: 40px;">Technically, yes, but in practice no. Some bits may be sharper than others from the factory, but you can expect tools to perform about the same throughout their lifespan regardless of how aggressively you run them. The main detriment which causes premature tool wear is using an inappropriate <a href="https://resources.sienci.com/view/lmk2-feeds-and-speeds/#chip-load-">chip load</a>.</p>
 
-<strong><i>Are you ever going to make a downloadable tool database for X CAM program?</i></strong>
+<strong><em>Are you ever going to make a downloadable tool database for X CAM program?</em></strong>
 
 <p style="padding-left: 40px;">Many CAM programs don’t have the functionality of importing and exporting tool databases/libraries, so we focused on two popular CAM programs which do.</p>
 
-<strong><i>My CAM software only allows me to input my stepover as a % value, not in mm or inches. What should I use?</i></strong>
+<strong><em>My CAM software only allows me to input my stepover as a % value, not in mm or inches. What should I use?</em></strong>
 
 <p style="padding-left: 40px;">Almost all of the suggested stepover values are based on a 45% stepover value so you can use this for any software which requires this value. You might even find that your CAM software is already defaulting to this value.</p>
 
-<strong><i>Why are there no cutting parameters for cutting X material with X cutting bit?</i></strong>
+<strong><em>Why are there no cutting parameters for cutting X material with X cutting bit?</em></strong>
 
 <p style="padding-left: 40px;">If you can’t find specific cutting parameters for a particular material-bit combination, it’s likely because this is a material-bit combination we cannot advise. Some examples of inadvisable combinations might include cutting aluminum with a corn cob end mill, or using a surfacing bit on acrylic.</p>
 
-<strong><i>Why is my machine struggling to cut even when using the ‘Reduced’ cutting parameters?</i></strong>
+<strong><em>Why is my machine struggling to cut even when using the ‘Reduced’ cutting parameters?</em></strong>
 
 <p style="padding-left: 40px;">These cutting parameters were developed to be used on the average LongMill MK2 without overstressing the machine, if yours doesn't seem to be keeping up at these parameters it might be your machine’s way of telling you that something is loose, worn, or misassembled. Check out our page <a href="https://resources.sienci.com/view/lmk2-maintenance/">here</a> covering tuning, maintenance, and checks for loose components.</p>
 
-<strong><i>Can I use these feeds and speeds on my non-LongMill machine?</i></strong>
+<strong><em>Can I use these feeds and speeds on my non-LongMill machine?</em></strong>
 
 <p style="padding-left: 40px;">Hobby CNC routers can vary greatly in terms of their rigidity and capabilities, so this will depend. If you’re using these on an industrial machine, these cutting parameters might be a bit conservative but will work just fine. If you’re using these on a slightly less robust machine, you might want to dial back some of these settings and proceed with caution. Either way, use your best judgment and adjust accordingly.</p>
 
@@ -337,7 +337,7 @@ To calculate chip load there’s a simple formula shown below. Since we usually 
 
 <p style="text-align: center;"><em><code>Chip Load  = ( Feed Rate ) / ( Router Speed x # Flutes )</code></em></p>
 
-<p style="text-align: center;"><i>For example, if we’d like a chip load of </i><b><i>0.0031”</i></b><i>, we can run a </i><b><i>2 flute</i></b><i> end mill at a speed of </i><b><i>17000 rpm</i></b><i> and feed rate of </i><b><i>105.4 inches/min</i></b><i> (2677.16 mm/min) to achieve this.</i></p>
+<p style="text-align: center;"><em>For example, if we’d like a chip load of </em><b><em>0.0031”</em></b><em>, we can run a </em><b><em>2 flute</em></b><em> end mill at a speed of </em><b><em>17000 rpm</em></b><em> and feed rate of </em><b><em>105.4 inches/min</em></b><em> (2677.16 mm/min) to achieve this.</em></p>
 
 <p style="text-align: center;"><em><code>Chip Load  = 0.0031" = ( 105.4 ipm ) / ( 17,000 RPM x 2 Flutes)</code></em></p>
 

@@ -75,7 +75,7 @@ Tips:
 
 ### Prototype Clamping System
 
-We've made our own custom clamping system for the Mill One that can be made completely with an 1/8" end mill! These prototype machinist clamps will allow you to securely mount material to your Mill One with a very low profile using PVC, HDPE, and aluminum. <a href="https://resources.sienci.com/wp-content/uploads/2021/05/Mill-One-Prototype-Clamping-System.zip">Download the files to make your own</a>, <a href="https://www.youtube.com/watch?v=_wNAAiY-gRc&amp;feature=youtu.be" target="_blank" rel="noopener">watch our video</a> if you need some guidance, and let us know what you think!
+We've made our own custom clamping system for the Mill One that can be made completely with an 1/8" end mill! These prototype machinist clamps will allow you to securely mount material to your Mill One with a very low profile using PVC, HDPE, and aluminum. <a href="https://resources.sienci.com/wp-content/uploads/2021/05/Mill-One-Prototype-Clamping-System.zip">Download the files to make your own</a>, <a href="https://www.YouTube.com/watch?v=_wNAAiY-gRc&amp;feature=youtu.be" target="_blank" rel="noopener">watch our video</a> if you need some guidance, and let us know what you think!
 
 ![](/_images/_mill-one/_the-basics/mo_workholding_p5_ClampSys.jpg){.aligncenter .size-medium}
 

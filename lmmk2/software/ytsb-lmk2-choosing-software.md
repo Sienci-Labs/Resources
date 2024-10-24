@@ -25,7 +25,7 @@ Whichever software toolchain you choose should make the most sense for you and y
 <li>and computer operating system</li>
 </ul>
 
-https://www.youtube.com/watch?v=m6ymuF8soTU
+https://www.YouTube.com/watch?v=m6ymuF8soTU
 
 To give maximum flexibility, we made the LongMill software agnostic meaning it can accept input from nearly any software out there. Here's an example:
 
@@ -160,8 +160,8 @@ Vectr is a simple web and desktop-based vector graphics editor that lets you dra
 
 <b>Easel</b> (<a href="http://easel.inventables.com/" target="_blank" rel="noopener noreferrer">http://easel.inventables.com/</a>)
 
-Easel is a free (with paid pro features) web application that makes it easy to design and cut objects online. With a handful of presets for common bits and materials, as well as a simple user interface, it's an awesome program for getting started with CNCing. There are tons of guides on <a href="https://www.youtube.com/results?search_query=easel+cnc">YouTube</a> that cover lots of different things you can do with Easel. A very simple, intuitive design and CAM program for beginners.<br>
-<a href="https://www.youtube.com/results?search_query=easel+cnc" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
+Easel is a free (with paid pro features) web application that makes it easy to design and cut objects online. With a handful of presets for common bits and materials, as well as a simple user interface, it's an awesome program for getting started with CNCing. There are tons of guides on <a href="https://www.YouTube.com/results?search_query=easel+cnc">YouTube</a> that cover lots of different things you can do with Easel. A very simple, intuitive design and CAM program for beginners.<br>
+<a href="https://www.YouTube.com/results?search_query=easel+cnc" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p2_Easel.JPG){.aligncenter .size-medium}
 
@@ -169,8 +169,8 @@ Easel is a free (with paid pro features) web application that makes it easy to d
 
 <b>Carbide Create</b> (<a href="https://carbide3d.com/carbidecreate/" target="_blank" rel="noopener noreferrer">https://carbide3d.com/carbidecreate/</a>)
 
-Carbide Create is an awesome free (with paid pro features) program that works great for 2D and 2.5D carvings, if you want to work with SVGs and DXFs, or if you're looking to do V-carving. With a much larger list of presets for common bits and materials, as well as a simple user interface and some additional features, it manages to outperform Easel in many aspects: though these advantages come with some additional complexity. Note that <b>V7 and up had g-code exporting removed, now requiring you to take the C2D file, <a href="https://my.carbide3d.com/extractgcode/" target="_blank" rel="noopener">go to this page</a>, create a login, and extract the g-code</b>. The only other option is to download an earlier version if you want to save yourself the trouble. Still, it's a good program for getting started with CNCing and similar to Easel there are tons of guides on <a href="https://www.youtube.com/results?search_query=carbide+create">YouTube</a> to check out.<br>
-<a href="https://www.youtube.com/watch?v=pZGo8jfoOQU" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
+Carbide Create is an awesome free (with paid pro features) program that works great for 2D and 2.5D carvings, if you want to work with SVGs and DXFs, or if you're looking to do V-carving. With a much larger list of presets for common bits and materials, as well as a simple user interface and some additional features, it manages to outperform Easel in many aspects: though these advantages come with some additional complexity. Note that <b>V7 and up had g-code exporting removed, now requiring you to take the C2D file, <a href="https://my.carbide3d.com/extractgcode/" target="_blank" rel="noopener">go to this page</a>, create a login, and extract the g-code</b>. The only other option is to download an earlier version if you want to save yourself the trouble. Still, it's a good program for getting started with CNCing and similar to Easel there are tons of guides on <a href="https://www.YouTube.com/results?search_query=carbide+create">YouTube</a> to check out.<br>
+<a href="https://www.YouTube.com/watch?v=pZGo8jfoOQU" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p3_Carbide.JPG){.aligncenter .size-medium}
 
@@ -179,7 +179,7 @@ Carbide Create is an awesome free (with paid pro features) program that works gr
 <b>Inkscape</b> (<a href="https://inkscape.org/" target="_blank" rel="noopener noreferrer">https://inkscape.org/</a>)
 
 Inkscape is a free and open source desktop tool that lets you draw vector drawings or convert regular pictures into vector format with lots of granular control. This program has been around for a long while and though it was never really meant for CNC it gets the job done using community-source plugins. There are many advanced features and tons of resources online to help you learn Inkscape.<br>
-<a href="https://www.youtube.com/watch?v=5aEcng_4sVA" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
+<a href="https://www.YouTube.com/watch?v=5aEcng_4sVA" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p4_Inkscape.JPG){.aligncenter .size-medium}
 
@@ -188,7 +188,7 @@ Inkscape is a free and open source desktop tool that lets you draw vector drawin
 <b>F-Engrave</b> (<a href="https://www.scorchworks.com/Fengrave/fengrave.html" target="_blank" rel="noopener noreferrer">link to site</a>)
 
 F-Engrave is a free and open source software which provides several useful features if you are looking to do engraving work. This includes v-carving, b-carving, importing DXF and bitmap files, and more. To learn about how it works, check out the <a href="http://www.scorchworks.com/Fengrave/fengrave.html#documentation" target="_blank" rel="noreferrer noopener">documentation</a> online or watch the YouTube tutorial videos.<br>
-<a href="https://www.youtube.com/playlist?list=PLEqJxTyAwzThLLbS33drahi0B-LQhdZME" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
+<a href="https://www.YouTube.com/playlist?list=PLEqJxTyAwzThLLbS33drahi0B-LQhdZME" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p5_FEngrave.JPG){.aligncenter .size-medium}
 
@@ -197,7 +197,7 @@ F-Engrave is a free and open source software which provides several useful featu
 <b>Halftoner</b> (<a href="https://jasondorie.com/page_cnc.html" target="_blank" rel="noopener noreferrer">https://jasondorie.com/page_cnc.html</a>)
 
 The halftoner program is quite old but very simple. By importing images, you're able to chose from a selection of patterns which will enable you generate black-and-white halftone v-carves from that photo. Its use case is very limited but it's good at what it does.<br>
-<a href="https://www.youtube.com/watch?v=ovtCDXCxhkI" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
+<a href="https://www.YouTube.com/watch?v=ovtCDXCxhkI" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p6_Halftoner.JPG){.aligncenter .size-medium}
 
@@ -206,7 +206,7 @@ The halftoner program is quite old but very simple. By importing images, you're 
 <b>Kiri:Moto</b> (<a href="https://grid.space/kiri#cnc" target="_blank" rel="noopener noreferrer">https://grid.space/kiri#cnc</a>)
 
 Kiri:Moto is a 3D CAM software which allows you to create g-code toolpaths using STL files through your browser. To add to it's convenience, Onshape has support for Kiri:Moto as a plugin. This means that you can create your 3D files in Onshape and bring them into Kiri in the same browser window! Stewart Allen (the creator) is a great guy who works hard to keep the software updated and working well. It's a great and simple program for cutting 3D parts.<br>
-<a href="https://www.youtube.com/watch?v=BV8s5v1WnVc&amp;list=PLRoVgyRoWZps-MD0NigZhWNkAL6NRjXwN" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
+<a href="https://www.YouTube.com/watch?v=BV8s5v1WnVc&amp;list=PLRoVgyRoWZps-MD0NigZhWNkAL6NRjXwN" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p7_Kiri.JPG){.aligncenter .size-medium}
 
@@ -215,7 +215,7 @@ Kiri:Moto is a 3D CAM software which allows you to create g-code toolpaths using
 <b>CAMLab</b> (<a href="http://camlab.sienci.com/" target="_blank" rel="noopener noreferrer">http://camlab.sienci.com/</a>)
 
 CAMLab is our very own 3D CAM software which allows you to create g-code toolpaths using 3D, STL files through your browser. We've been working hard on it so that it can be easy to use while having a variety of very powerful features. Cut 2.5D profiles, and 3D reliefs with ease by generating the g-code through your browser, exporting it to your computer, and using a g-code sender like gSender to run it on your machine! CAMLab is based on <a href="https://github.com/GridSpace/apps/wiki/Kiri:Moto">Kiri:Moto</a> so Stewart Allen (the creator of Kiri:Moto) deserves a lot of credit for all his great work. Another simple program that's great for cutting 3D parts.<br>
-<a href="https://www.youtube.com/watch?v=Kx8WJ4ABFik" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
+<a href="https://www.YouTube.com/watch?v=Kx8WJ4ABFik" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p8_CAMLab.JPG){.aligncenter .size-medium}
 
@@ -280,7 +280,7 @@ For those that are looking to use their CNC more regularly and want to unlock it
 <b>Carveco Maker</b> (<a href="https://carveco.com/carveco-software-range/carveco-maker/" target="_blank" rel="noopener noreferrer">link to site</a>)
 
 Carveco Maker is Carveco's entry-level product yet it comes with quite a bit of power. It has a lot of features similar to Vectrics VCarve software such as standard toolpaths, 2D drawing, V-carving, and 3D importing but it can also create reliefs from 3D models and images and allows you to perform manual relief smoothing. This is a highly featured software that's built for semi-professional CNC use and its capabilities reflect that. It's also impressive how clean the user interface is when factoring in all the features it has. If you're interested, check out this comparison we did between Carveco Maker and Vectric VCarve Desktop: <a href="https://sienci.com/2020/11/19/vectric-vcarve-desktop-vs-carveco-maker-which-should-you-choose/" target="_blank" rel="noopener noreferrer">Vectric VCarve Desktop vs Carveco Maker – Which Should You Choose</a><br>
-<a href="https://www.youtube.com/watch?v=4f-NpoQmnCE&amp;list=PLalFSVzdLCiZKsYkrcHJr1kUYnVgX5LPs" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
+<a href="https://www.YouTube.com/watch?v=4f-NpoQmnCE&amp;list=PLalFSVzdLCiZKsYkrcHJr1kUYnVgX5LPs" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p9_CarvecoM.JPG){.aligncenter .size-medium}
 
@@ -289,7 +289,7 @@ Carveco Maker is Carveco's entry-level product yet it comes with quite a bit of 
 <b>Vectric VCarve Desktop</b> (<a href="https://www.vectric.com/products/vcarve-desktop" target="_blank" rel="noopener noreferrer">link to site</a>)
 
 Vectric VCarve Desktop is one of Vectrics mid-level products, with products like Cut2D and PhotoVCarve being more entry-level. It has quite a lot of features similar to Carveco Maker such as standard toolpaths, 2D drawing, V-carving, and 3D importing but it's limited in that it can't modify 3D models and all projects are limited to a 24"x24" cutting size. It still has unique CAM toolpaths and has also been built for semi-professional CNC use so its capabilities reflect that. If you're interested, check out this comparison we did between Vectric VCarve Desktop and Carveco Maker: <a href="https://sienci.com/2020/11/19/vectric-vcarve-desktop-vs-carveco-maker-which-should-you-choose/" target="_blank" rel="noopener noreferrer">Vectric VCarve Desktop vs Carveco Maker – Which Should You Choose</a><br>
-<a href="https://www.youtube.com/channel/UCMrMqMabXS5_cFcq5K9Ob-w" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
+<a href="https://www.YouTube.com/channel/UCMrMqMabXS5_cFcq5K9Ob-w" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p10_VCarve.JPG){.aligncenter .size-medium}
 
@@ -298,7 +298,7 @@ Vectric VCarve Desktop is one of Vectrics mid-level products, with products like
 <b>Onshape</b> (<a href="https://www.onshape.com/" target="_blank" rel="noopener noreferrer">https://www.onshape.com/</a>)
 
 Onshape is a powerful, cloud-based 3D modelling software suitable for both beginners and experienced modellers. Since it runs completely in your internet browser, you can run it on almost any modern computing device without having to download anything. Some perks are that it has a large library of user-created models and standard hardware that you can directly import, use, or edit. It also has data management features such as file versioning, and a bill of materials. Ultimately quite advanced however its CAM plugins can vary in quality.<br>
-<a href="https://www.youtube.com/watch?v=E5NKgFbP2Ig&amp;list=PL4FdDkwWXT9oY5tm3Ql5pMe8bitozQcub" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
+<a href="https://www.YouTube.com/watch?v=E5NKgFbP2Ig&amp;list=PL4FdDkwWXT9oY5tm3Ql5pMe8bitozQcub" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p11_Onshape.JPG){.aligncenter .size-medium}
 
@@ -306,8 +306,8 @@ Onshape is a powerful, cloud-based 3D modelling software suitable for both begin
 
 <b>Fusion 360</b> (<a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener noreferrer">link to site</a>)
 
-Fusion 360 is one of the most popular 3D modelling and CAM combination programs used by hobbyists. It has powerful, industry-level features with the most complete CAM package for 2D and 3D cutting operations. It's free for makers and hobbyists (with some restrictions) and they offer great <a href="http://au.autodesk.com/au-online/classes-on-demand/search?full-text=&amp;productName=Fusion+360&amp;language=&amp;year=2015" target="_blank" rel="noreferrer noopener">training resources</a> as well as a <a href="https://www.youtube.com/watch?v=Qmx5DUvvmxI&amp;list=PLmA_xUT-8UlK9rndthGGHsjjnZtPO8XRV" target="_blank" rel="noreferrer noopener">full playlist</a> which teaches every step in learning how to use the CAM part of Fusion. Fusion 360 is a great option if you're wanting to take the deep dive on CNC programming.<br>
-<a href="https://www.youtube.com/watch?v=q9qWRAAU3cs" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
+Fusion 360 is one of the most popular 3D modelling and CAM combination programs used by hobbyists. It has powerful, industry-level features with the most complete CAM package for 2D and 3D cutting operations. It's free for makers and hobbyists (with some restrictions) and they offer great <a href="http://au.autodesk.com/au-online/classes-on-demand/search?full-text=&amp;productName=Fusion+360&amp;language=&amp;year=2015" target="_blank" rel="noreferrer noopener">training resources</a> as well as a <a href="https://www.YouTube.com/watch?v=Qmx5DUvvmxI&amp;list=PLmA_xUT-8UlK9rndthGGHsjjnZtPO8XRV" target="_blank" rel="noreferrer noopener">full playlist</a> which teaches every step in learning how to use the CAM part of Fusion. Fusion 360 is a great option if you're wanting to take the deep dive on CNC programming.<br>
+<a href="https://www.YouTube.com/watch?v=q9qWRAAU3cs" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p12_Fusion360.JPG){.aligncenter .size-medium}
 

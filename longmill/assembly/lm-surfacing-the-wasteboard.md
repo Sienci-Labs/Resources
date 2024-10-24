@@ -15,7 +15,7 @@ skip_file: no
 featured_image: /_images/_longmill/_assembly/_surfacing/lm_surface_p1.png
 ---
 
-https://www.youtube.com/embed/aW27K_1OLT0
+https://www.YouTube.com/embed/aW27K_1OLT0
 
 ## Why surface your wasteboard?
 

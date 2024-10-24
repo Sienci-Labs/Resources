@@ -35,7 +35,7 @@ These are the minimum system requirements we believe will provide the best exper
 **Ports:** USB 2.0 or higher<br>
 **Memory:** 200Mb of hard drive space
 
-<a href="https://resources.sienci.com/view/gs-installation/">gSender</a> is software we recommend you use to interact with your machine. It is free and can be <a href="https://sienci.com/gsender/">downloaded from our website</a> at any time. gSender is designed to be lightweight and has been tested to run on both low and high-end hardware. Generally speaking, if your computer was made in the last 5 years, you should be able to use gSender without any issues. If you are not sure if gSender will work on your computer, we suggest downloading it to test it out. Most other g-code senders also tend to have similar requirements.
+<a href="https://resources.sienci.com/view/gs-installation/">gSender</a> is software we recommend you use to interact with your machine. It is free and can be <a href="https://sienci.com/gSender/">downloaded from our website</a> at any time. gSender is designed to be lightweight and has been tested to run on both low and high-end hardware. Generally speaking, if your computer was made in the last 5 years, you should be able to use gSender without any issues. If you are not sure if gSender will work on your computer, we suggest downloading it to test it out. Most other g-code senders also tend to have similar requirements.
 
 <b>*Note: After <em>gSender version 1.2.2</em>, support for 32-bit systems and Windows 7/8 had to be dropped since most new software packages can no longer support systems 10+ years old.</b>
 

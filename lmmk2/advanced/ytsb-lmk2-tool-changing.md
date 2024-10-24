@@ -38,7 +38,7 @@ This method will also work for g-code sending programs that do not have tool cha
 
 This is a tool change method inspired by the work of Stuart McRae (a LongMill customer).
 
-### Setup:
+### Setup
 
 <ol>
   <li>Generate your g-code to the file format .nc or .gcode.</li>
@@ -137,4 +137,4 @@ G0 Z2.0<br>
 
 ## Method 3: gSender Tool Change
 
-The g-code for tool changing is an M6 command, in which the program will pause until the user tells it to continue, usually through a ‘Resume’ and/or ‘Confirm Tool Change’ button on the machine interface program. In CAM programs, this M6 will be inserted in your g-code if there are toolpaths using different bits, thus requiring tool changes. On <a href="https://sienci.com/gsender/">gSender</a>, you can program what happens when there is M6 in your g-code, therefore allowing you to easily change your bits with pre-programmed actions. Full instructions can be found <a href="https://resources.sienci.com/view/gs-additional-features/#tool-changing">here</a>.
+The g-code for tool changing is an M6 command, in which the program will pause until the user tells it to continue, usually through a ‘Resume’ and/or ‘Confirm Tool Change’ button on the machine interface program. In CAM programs, this M6 will be inserted in your g-code if there are toolpaths using different bits, thus requiring tool changes. On <a href="https://sienci.com/gSender/">gSender</a>, you can program what happens when there is M6 in your g-code, therefore allowing you to easily change your bits with pre-programmed actions. Full instructions can be found <a href="https://resources.sienci.com/view/gs-additional-features/#tool-changing">here</a>.

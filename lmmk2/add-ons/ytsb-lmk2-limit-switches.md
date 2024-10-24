@@ -15,11 +15,9 @@ skip_file: yes
 featured_image: 
 ---
 
-## Installation
-
 The Inductive Sensor Kit is a plug-and-play add-on kit for your LongMill, which adds three inductive sensors to your machine to act as limit and homing switches. **The kit can be ordered on our <a href="https://sienci.com/product/inductive-sensor-kit/">store</a>.**
 
-https://www.youtube.com/watch?v=MZBsJED4Ktg
+https://www.YouTube.com/watch?v=MZBsJED4Ktg
 
 ### Step 1: Unpacking
 
@@ -483,4 +481,3 @@ By default, this time is set to ***$26=250***, which controls the delay before t
 <b>$27 Homing pull-off distance, mm</b>
 
 By default, this distance is set to ***$27=1***. This distance determines the distance that the machine needs to move away from the switch to un-trigger it. For some sensors, such as mechanical switches, this can be a few millimeters, while inductive proximity sensors may only need a fraction of a millimeter. For inductive sensors, we recommend keeping your default homing pull-off distance at 1mm, while if you are using mechanical switches, use about 2-4mm to ensure that your switch is completely un-triggered after your homing sequence.
-

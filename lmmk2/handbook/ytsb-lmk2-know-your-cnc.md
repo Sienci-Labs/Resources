@@ -182,12 +182,12 @@ We’ve got a great online community that is well worth visiting and being a par
 If you haven't, check out our YouTube channel or one of our affiliated customers. We can’t say enough how helpful and useful they are.
 
 <ul>
-  <li><a href="https://www.youtube.com/channel/UCS4SdQ0sqFhvjitLjh4EsGQ" target="_blank" rel="noopener">Sienci Labs YouTube</a> - Our own channel with product updates, repair guides and tutorials</li>
-  <li><a href="https://www.youtube.com/c/IDCWoodcraft" target="_blank" rel="noopener">CNC Routers, Beginners &amp; Beyond - Garrett Fromme</a> Very resourceful with a lot of tips and tricks especially with VCarve</li>
-  <li><a href="https://www.youtube.com/c/BuckysCustoms" target="_blank" rel="noopener">Bucky’s Customs</a> - Another user showcasing tutorials while using the LongMill</li>
+  <li><a href="https://www.YouTube.com/channel/UCS4SdQ0sqFhvjitLjh4EsGQ" target="_blank" rel="noopener">Sienci Labs YouTube</a> - Our own channel with product updates, repair guides and tutorials</li>
+  <li><a href="https://www.YouTube.com/c/IDCWoodcraft" target="_blank" rel="noopener">CNC Routers, Beginners &amp; Beyond - Garrett Fromme</a> Very resourceful with a lot of tips and tricks especially with VCarve</li>
+  <li><a href="https://www.YouTube.com/c/BuckysCustoms" target="_blank" rel="noopener">Bucky’s Customs</a> - Another user showcasing tutorials while using the LongMill</li>
 </ul>
 
-https://www.youtube.com/watch?v=Kt53x5CYwzU
+https://www.YouTube.com/watch?v=Kt53x5CYwzU
 
 <h2>Community Modifications</h2>
 
@@ -199,7 +199,7 @@ If there are any known noteworthy designs or modifications made to the LongMill,
   <li>coogle's <strong>Control box feet mounts</strong>: <a href="https://www.thingiverse.com/thing:4049019" target="_blank" rel="noopener">https://www.thingiverse.com/thing:4049019</a></li>
   <li>coogle's <strong>CNC table design</strong>: <a href="https://www.thingiverse.com/thing:4049035" target="_blank" rel="noopener">https://www.thingiverse.com/thing:4049035</a></li>
   <li><a href="https://forum.sienci.com/t/new-control-box-in-progress/428/2" target="_blank" rel="noopener noreferrer">David</a>'s <strong>switching box</strong>: <a href="https://www.thingiverse.com/thing:4077356" target="_blank" rel="noopener noreferrer">https://www.thingiverse.com/thing:4077356</a>
-<a href="https://cad.onshape.com/documents/4a032d38229a5e4fdfc29ad2/w/3fdd62166f15b2bca45b86dd/e/76713fef2f3d04737acac6ce" target="_blank" rel="noopener noreferrer">https://cad.onshape.com/documents/4a032d38229a5e4fdfc29ad2/w/3fdd62166f15b2bca45b86dd/e/76713fef2f3d04737acac6ce</a></li>
+<a href="https://CAD.onshape.com/documents/4a032d38229a5e4fdfc29ad2/w/3fdd62166f15b2bca45b86dd/e/76713fef2f3d04737acac6ce" target="_blank" rel="noopener noreferrer">https://CAD.onshape.com/documents/4a032d38229a5e4fdfc29ad2/w/3fdd62166f15b2bca45b86dd/e/76713fef2f3d04737acac6ce</a></li>
   <li><a href="https://forum.sienci.com/t/homing-limit-switches/99/10" target="_blank" rel="noopener noreferrer">sysimgrp</a>'s 3D printable <strong>laser diode centre-point locator</strong>: <a href="https://www.thingiverse.com/thing:4189396" target="_blank" rel="noopener noreferrer">https://www.thingiverse.com/thing:4189396</a></li>
   <li><a href="https://forum.sienci.com/u/mikecmp">Mike</a>'s CNCable <strong>keyboard and monitor shelf</strong>: <a href="https://forum.sienci.com/t/what-are-your-plans-for-a-table/95/30" target="_blank" rel="noopener noreferrer">https://forum.sienci.com/t/what-are-your-plans-for-a-table/95/30</a></li>
   <li><a href="https://forum.sienci.com/u/gwilki">Grant</a>'s Y-axis <strong>plastic bumpers</strong>: <a href="https://forum.sienci.com/t/y-axis-modification-bumpers/560" target="_blank" rel="noopener noreferrer">https://forum.sienci.com/t/y-axis-modification-bumpers/560</a></li>
@@ -215,7 +215,7 @@ If there are any known noteworthy designs or modifications made to the LongMill,
   <li>Keith’s <b>controller box mounting</b> feet:<a href="https://www.facebook.com/groups/mill.one/permalink/903958263408839/"> https://www.facebook.com/groups/mill.one/permalink/903958263408839/</a></li>
   <li>Spike’s <b>control panel</b>:<a href="https://www.facebook.com/groups/mill.one/permalink/902963963508269/"> https://www.facebook.com/groups/mill.one/permalink/902963963508269/</a></li>
   <li><a href="https://forum.sienci.com/u/chrismakesstuff" target="_blank" rel="noopener noreferrer">Chris</a>' <strong>vertical stand design</strong>: <a href="https://forum.sienci.com/t/stand-design-for-permanent-vertical-cutting/1112" target="_blank" rel="noopener noreferrer">https://forum.sienci.com/t/stand-design-for-permanent-vertical-cutting/1112</a></li>
-  <li>coreyker's <strong>pen/pencil spring mount</strong>: <a href="https://github.com/coreyker/longmill/tree/main/PenMountV1" target="_blank" rel="noopener">https://github.com/coreyker/longmill/tree/main/PenMountV1</a></li>
+  <li>coreyker's <strong>pen/pencil spring mount</strong>: <a href="https://github.com/coreyker/LongMill/tree/main/PenMountV1" target="_blank" rel="noopener">https://github.com/coreyker/LongMill/tree/main/PenMountV1</a></li>
   <li>DustinTheMaker's <strong>power supply mount</strong>: <a href="https://www.thingiverse.com/thing:4569748" target="_blank" rel="noopener">https://www.thingiverse.com/thing:4569748</a></li>
   <li>JimAlex's <strong>Makita speed stop</strong>: <a href="https://www.thingiverse.com/thing:4939138" target="_blank" rel="noopener">https://www.thingiverse.com/thing:4939138</a></li>
   <li>JimAlex's <strong>Tramming bar: </strong><a href="https://www.thingiverse.com/thing:4939863" target="_blank" rel="noopener">https://www.thingiverse.com/thing:4939863</a></li>
@@ -225,7 +225,7 @@ If there are any known noteworthy designs or modifications made to the LongMill,
 
 <ul>
   <li>SimtechBen’s <b>touch plate holder</b>: <a href="https://www.thingiverse.com/thing:4948964" target="_blank" rel="noopener">https://www.thingiverse.com/thing:4948964</a></li>
-  <li>Michael’s <b>touch plate holder</b>:<a href="https://www.prusaprinters.org/prints/32598-longmill-touch-plate-holder"> https://www.prusaprinters.org/prints/32598-longmill-touch-plate-holder</a></li>
+  <li>Michael’s <b>touch plate holder</b>:<a href="https://www.prusaprinters.org/prints/32598-LongMill-touch-plate-holder"> https://www.prusaprinters.org/prints/32598-LongMill-touch-plate-holder</a></li>
   <li><a href="https://forum.sienci.com/t/homing-limit-switches/99/10" target="_blank" rel="noopener noreferrer">sysimgrp</a>'s redesigned <strong>touch plate magnet cover</strong>: <a href="https://www.thingiverse.com/thing:4173451" target="_blank" rel="noopener noreferrer">https://www.thingiverse.com/thing:4173451</a></li>
   <li><a href="https://forum.sienci.com/t/homing-limit-switches/99/10" target="_blank" rel="noopener noreferrer">sysimgrp</a>'s <strong>limit switch mounts</strong>: <a href="https://www.thingiverse.com/thing:4189426">https://www.thingiverse.com/thing:4189426</a></li>
   <li>mcol82's <strong>limit switch mounts</strong>: <a href="https://www.thingiverse.com/thing:4060347" target="_blank" rel="noopener">https://www.thingiverse.com/thing:4060347</a></li>
@@ -236,15 +236,15 @@ If there are any known noteworthy designs or modifications made to the LongMill,
 
 <ul>
   <li><a href="https://forum.sienci.com/t/dust-shoe-modification/472/10" target="_blank" rel="noopener noreferrer">sysimgrp</a>'s alternative <strong>dust shoe design</strong>: <a href="https://www.thingiverse.com/thing:4189543" target="_blank" rel="noopener noreferrer">https://www.thingiverse.com/thing:4189543</a></li>
-  <li><a href="https://forum.sienci.com/t/is-anyone-working-on-something-cool-to-add-functionality-or-improve-their-machine/41/15" target="_blank" rel="noopener noreferrer">Buebeli</a>'s “dustshoe2shopvac” <strong>adapter</strong>: <a href="https://cad.onshape.com/documents/68a2af8c900b7568ef2876f5/w/2b75c1cf11dc8870a9c8668e/e/46aa8d16723a461387d04d44" target="_blank" rel="noopener noreferrer">https://cad.onshape.com/documents/68a2af8c900b7568ef2876f5/w/2b75c1cf11dc8870a9c8668e/e/46aa8d16723a461387d04d44</a></li>
+  <li><a href="https://forum.sienci.com/t/is-anyone-working-on-something-cool-to-add-functionality-or-improve-their-machine/41/15" target="_blank" rel="noopener noreferrer">Buebeli</a>'s “dustshoe2shopvac” <strong>adapter</strong>: <a href="https://CAD.onshape.com/documents/68a2af8c900b7568ef2876f5/w/2b75c1cf11dc8870a9c8668e/e/46aa8d16723a461387d04d44" target="_blank" rel="noopener noreferrer">https://CAD.onshape.com/documents/68a2af8c900b7568ef2876f5/w/2b75c1cf11dc8870a9c8668e/e/46aa8d16723a461387d04d44</a></li>
   <li>Keith’s alternative <b>dust shoe design</b>:<a href="https://www.facebook.com/groups/mill.one/permalink/941497279654937/"> https://www.facebook.com/groups/mill.one/permalink/941497279654937/</a></li>
-  <li>Xavier’s alternative <b>dust shoe design</b>:<a href="https://www.prusaprinters.org/prints/30167-longmill-dust-shoe-redesign/files"> https://www.prusaprinters.org/prints/30167-longmill-dust-shoe-redesign/files</a></li>
-  <li>Stewart’s alternative <b>dust shoe design</b>:<a href="https://cad.onshape.com/documents/f33531ce079ad207c663875f/w/ac37eff1df8958b7eb7f4130/e/a0d7b7aa72f4d9a34b68fc87"> https://cad.onshape.com/documents/f33531ce079ad207c663875f/w/ac37eff1df8958b7eb7f4130/e/a0d7b7aa72f4d9a34b68fc87</a></li>
+  <li>Xavier’s alternative <b>dust shoe design</b>:<a href="https://www.prusaprinters.org/prints/30167-LongMill-dust-shoe-redesign/files"> https://www.prusaprinters.org/prints/30167-LongMill-dust-shoe-redesign/files</a></li>
+  <li>Stewart’s alternative <b>dust shoe design</b>:<a href="https://CAD.onshape.com/documents/f33531ce079ad207c663875f/w/ac37eff1df8958b7eb7f4130/e/a0d7b7aa72f4d9a34b68fc87"> https://CAD.onshape.com/documents/f33531ce079ad207c663875f/w/ac37eff1df8958b7eb7f4130/e/a0d7b7aa72f4d9a34b68fc87</a></li>
   <li>Stephen’s alternative<b> dust shoe design:</b><a href="https://www.facebook.com/groups/mill.one/permalink/909165219554810/"> https://www.facebook.com/groups/mill.one/permalink/909165219554810/</a></li>
   <li><a href="https://forum.sienci.com/t/what-does-your-dust-collection-hose-management-look-like/458/15" target="_blank" rel="noopener noreferrer">David</a>'s <strong>dust hose boom</strong>: <a href="https://www.thingiverse.com/thing:4082855" target="_blank" rel="noopener noreferrer">https://www.thingiverse.com/thing:4082855</a>
-<a href="https://cad.onshape.com/documents/57648b7f221a8b14202c6da4/w/09ca17006a988771f02d3db7/e/6ef8f0a441b6df6b9b3ffa87" target="_blank" rel="noopener noreferrer">https://cad.onshape.com/documents/57648b7f221a8b14202c6da4/w/09ca17006a988771f02d3db7/e/6ef8f0a441b6df6b9b3ffa87</a></li>
+<a href="https://CAD.onshape.com/documents/57648b7f221a8b14202c6da4/w/09ca17006a988771f02d3db7/e/6ef8f0a441b6df6b9b3ffa87" target="_blank" rel="noopener noreferrer">https://CAD.onshape.com/documents/57648b7f221a8b14202c6da4/w/09ca17006a988771f02d3db7/e/6ef8f0a441b6df6b9b3ffa87</a></li>
 </ul>
 
 <h2>Warranty</h2>
 
-You can find detailed information on the warranty, returns, and replacement parts <a href="https://sienci.com/product/longmill-mk2/" target="_blank" rel="noopener">here</a>.
+You can find detailed information on the warranty, returns, and replacement parts <a href="https://sienci.com/product/LongMill-mk2/" target="_blank" rel="noopener">here</a>.

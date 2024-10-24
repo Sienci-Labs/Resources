@@ -2,7 +2,7 @@
 title: ytsb grbl Firmware 🤖
 menu_order: 3
 post_status: draft
-post_excerpt: The LongMill runs off the GRBL firmware, an open-source firmware that is designed for Arduino-based CNC machines. You can reflash by using gSender or UGS.
+post_excerpt: The LongMill runs off the grbl firmware, an open-source firmware that is designed for Arduino-based CNC machines. You can reflash by using gSender or UGS.
 post_date: 2022-03-18 00:09:00
 taxonomy:
     knowledgebase_cat: lmk2-advanced
@@ -12,84 +12,86 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: 
+featured_image: /_images/_longmill/_advanced/_8_GRBL/lm_grbl_p1_MachinePreset.png
 ---
 
 The LongMill runs off the <a href="https://github.com/gnea/grbl/releases" target="_blank" rel="noopener noreferrer">grbl firmware</a>, an open source firmware that is designed for Arduino-based CNC machines. Sometimes your machine could use a re-flash of this firmware in the case that:
 
-<ul>
-<li>Your firmware has somehow gotten corrupted which is causing unpredictable behaviour of your machine</li>
-<li>You're looking to upgrade your LongBoard to the latest version of grbl</li>
-</ul>
+- Your firmware has somehow gotten corrupted which is causing unpredictable behaviour of your machine
+- You're looking to upgrade your LongBoard to the latest version of grbl
 
-This page covers how to perform a re-flash of grbl already baked for the LongMill. This can be done either by:
+This page covers how to perform a re-flash of grbl already baked for the LongMill MK2. This can be done either by:
 
-<ol>
-<li><b>Using gSender</b> - this is the easiest method since gSender will always contain the most up-to-date LongMill firmware and it also performs the entire process automatically</li>
-<li><b>Using the Arduino IDE</b> - this is a more complex process that you can fall back on if you're unable to flash the firmware using gSender or you'd like to make your own firmware modifications</li>
-</ol>
+1. **Using gSender** - this is the easiest method since gSender will always contain the most up-to-date LongMill MK2 firmware and it also performs the entire process automatically
+1. **Using the Arduino IDE** - this is a more complex process that you can fall back on if you're unable to flash the firmware using gSender or you'd like to make your own firmware modifications
 
 If you'd like to experiment with anything outside of the basic flashing process, the <a href="https://github.com/gnea/grbl/wiki" target="_blank" rel="noopener noreferrer">grbl Wiki</a> has a wealth of knowledge on compiling, connecting, flashing, and modifying grbl.
 
 ## Flashing grbl using gSender
 
-### 1. Download gSender
+https://youtu.be/GsZX0NbCTYk
 
-You can download the installer for gSender here: <a href="https://sienci.com/gSender/" target="_blank" rel="noopener">https://sienci.com/gsender/</a>.
+### Download gSender
+
+You can download the installer for gSender here: <a href="https://sienci.com/gSender/" target="_blank" rel="noopener">https://sienci.com/gSender/</a>.
 
 If you need instructions on how to install it, this documentation goes through the steps: <a href="https://resources.sienci.com/view/gs-installation/" target="_blank" rel="noopener">https://resources.sienci.com/view/gs-installation/</a>.
 
-### 2. Utilize the Firmware Tool
+### Use the Firmware Tool
 
-Once you've completed the installation, open gSender and connect to your machine. Ensure you've selected your particular machine in the machine presets dropdown so that the correct firmware is flashed. This is available on the main settings page using the 'gear' in the top corner.
+Once you've completed the installation, open gSender and connect to your machine. Open the 'Firmware' tool and check that you've selected your specific CNC in the profiles drop down so that the correct firmware is flashed. Click the "Flash grbl" button to bring up the confirmation prompt.
 
-![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p1_MachinePreset.png){.aligncenter .size-medium}
-
-Access the Firmware Tool on the header of the program then look for the "Flash grbl" button to bring up the confirmation prompt.
+<img class="aligncenter size-large wp-image-4209" src="https://resources.sienci.com/wp-content/uploads/2022/03/gSender-Machine-profiles-1024x529.jpg" alt="gSender machine profile selection " width="1024" height="529" />
 
 **NOTE:** If you've made custom changes to your machines firmware that you don't want to lose, use the 'Export Settings' button to save your settings to a file that you can then reload when flashing is complete.
 
-![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p2_FirmTool.png){.aligncenter .size-medium}
+<img class="aligncenter size-medium wp-image-4212" src="https://resources.sienci.com/wp-content/uploads/2022/03/gSender-export-prompt-850x402.jpg" alt="" width="850" height="402" />
 
-You will see a warning about the risk of flashing the firmware. If you own a LongMill and have not made any modifications to your control board, there is almost no risk in completing this process. Press "OK" to continue.
+You will see a warning about the risk of flashing the firmware. If you own a LongMill MK2 and have not made any modifications to your control board, there is almost no risk in completing this process. Press "OK" to continue.
 
-![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p3_FToolWarn.png){.aligncenter .size-medium}
+<img class="aligncenter wp-image-4210 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/gSender-flashing-prompt-850x533.jpg" alt="" width="850" height="533" />
 
-### 3. Restore Settings
+### Restore Settings
 
-Once the flashing process is completed, you'll have to reconnect to your machine using the connection drop-down at the top-left corner. Go back to the Firmware Tools and press "Restore Defaults" to ensure your EEPROM settings are correct for the LongMill. If you previously exported your own custom settings, you can instead click the 'Import Settings' button to load your original settings back onto your machine. Close the Firmware Tool window, and try jogging to ensure the machine is working properly.
+Once the flashing process is completed, you'll have to reconnect to your machine using the connection drop-down at the top-left corner. To make sure your machine is properly set up with all the default settings, go back to the Firmware Tool and press "Restore Defaults" and then click "Yes".
 
-## Flashing grbl using the Arduino IDE
+If you previously exported your own custom settings, you can instead click the 'Import Settings' button to load your original settings back onto your machine. Close the Firmware Tool window, and try jogging to ensure the machine is working properly.
+
+## Flashing grbl using Arduino IDE
 
 **NOTE:** If you've made custom changes to your machines firmware that you don't want to lose, you'll want to record them down before starting the flashing process. Whichever g-code sender you use you'll want to find the 'console' area and type '$$' and hit 'Enter'. This will pop up a block of values that you'll want to record however you wish. When you complete the flashing process you'll then be able to go back into your g-code sender and compare the new values the written ones and adjust them appropriately.
 
-### 1. Download the Arduino IDE
+https://youtu.be/ME4zKua-kZ4
 
-Start by closing any programs (like **gSender**, **UGS**, **CNCjs**, **Easel**, etc.) that can connect to your LongMill controller. Since the LongBoard's 'brains' come from an Arduino that it has on-board, you will need a program called "**Arduino IDE**" in order to compile and flash any firmware changes onto the LongMill. The download page can be found here:<a href="https://www.arduino.cc/en/software" target="_blank" rel="noopener noreferrer">https://www.arduino.cc/en/software</a> .
+### Download Arduino IDE
+
+Start by closing any programs (like **gSender**, **UGS**, **CNCjs**, **Easel**, etc.) that can connect to your LongMill MK2 controller. Since the LongBoards 'brains' come from an Arduino that it has on-board, you will need a program called "**Arduino IDE**" in order to compile and flash any firmware changes onto the LongMill. The download page can be found here: <a href="https://www.arduino.cc/en/software" target="_blank" rel="noopener noreferrer">https://www.arduino.cc/en/software</a>.
 
 ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p4_arduinoIDE.png){.aligncenter .size-medium}
 
- **!! If you have flashed grbl firmware before using Arduino IDE, you will need to make sure to delete any old libraries for grbl.** Arduino typically saves libraries in the *Documents ➜ Arduino ➜ Library* folder of your computer for both Windows and Mac. If you do not delete the old library first, you will install the old version of grbl. **!!**
+**!! If you have flashed grbl firmware before using Arduino IDE, you will need to make sure to delete any old libraries for grbl.** Arduino typically saves libraries in the *Documents ➜ Arduino ➜ Library* folder of your computer for both Windows and Mac. If you do not delete the old library first, you will install the old version of grbl. **!!**
 
 ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p5_arduinoLib.png){.aligncenter .size-medium}
 
-### 2. Clear the board's EEPROM
+### Clear the board's EEPROM
 
 Once Arduino IDE has been installed, plug your control board into your computer then open the **Arduino IDE** program. Click on the "**Tools**" menu at the top and make sure that "Board" is set to "**Arduino Uno**" or "**Arduino/Genuino Uno**" and "Port" is set to the port you normally use for your LongMill (for example, COM3). The naming scheme for port names on Mac can look a little bit different, but typically the correct port is indicated with "**(Arduino/Genuino Uno)**" in the name. Later on if your program fails to upload, you can come back and try a different port until you find the correct one.
 
 ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p6_arduinoSetPort.png){.aligncenter .size-medium}
 
- To ensure that all of the old settings are cleared from the board's memory, we will do an EEPROM clear. You can find this 'example program' under *File ➜ Examples ➜ EEPROM ➜ eeprom_clear.*
+To ensure that all of the old settings are cleared from the board's memory, we will do an EEPROM clear. You can find this 'example program' under *File ➜ Examples ➜ EEPROM ➜ eeprom_clear.*
 
- ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p7_EEPROMClear.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p7_EEPROMClear.png){.aligncenter .size-medium}
 
-  Clicking this will open up a new window where you'll see the window is titled "**eeprom_clear**". Click on the "Upload" button on the top left of the program to compile and upload this code. If you run into an upload error at this step, you might still be connected to your LongMill on your computer in gSender, UGS, CNCjs, or even LightBurn. You'll need to disconnect from the LongMill in that program and then you should be able to retry the Upload.
+Clicking this will open up a new window where you'll see the window is titled "**eeprom_clear**". Click on the "Upload" button on the top left of the program to compile and upload this code. If you run into an upload error at this step, you might still be connected to your LongMill on your computer in gSender, UGS, CNCjs, or even LightBurn. You'll need to disconnect from the LongMill in that program and then you should be able to retry the Upload.
 
-  ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p8_Upload.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p8_Upload.png){.aligncenter .size-medium}
 
-### 3. Upload the grbl firmware
+### Upload the grbl firmware
 
-Now that we've erased all previous memory from the control board, we can move forward by giving it new instructions to remember: this will be a brand new firmware installation. We keep all major LongMill firmware instances available for download, you'll likely want to click to download the most recent one: <a href="https://sienci.com/wp-content/uploads/2019/10/grbl-master-LongMill-V4.zip">LongMill Firmware (Oct 21, 2019)</a> <a href="https://sienci.com/wp-content/uploads/2020/02/grbl-LongMill-Firmware-Feb-25-2020.zip">LongMill Firmware (Feb 25, 2020)</a> <a href="https://resources.sienci.com/wp-content/uploads/2021/04/grbl-LongMill-Firmware-Sept-8-2021.zip">LongMill Firmware (Sept 8, 2021)</a> Once downloaded, this will appear onto your computer as a compressed or 'zipped' file. Locate the downloaded file in your computer folders, ‘un-zip’ or ‘extract’ it (usually found when you right-click the file), and then you'll notice a firmware folder with a name that matches the downloaded file and contains all the necessary files. If you open this folder up you should see a folder called "**grbl**", and from there if you open up the "**examples**" folder followed by the "**grblUpload**" folder. If you notice a file called "**grblUpload.ino**" this is what you'll want to open with the Arduino IDE program (this should be as simple as double-clicking the file which will open up a new window where you'll see the window is titled "**grblUpload**").
+Now that we've erased all previous memory from the control board, we can move forward by giving it new instructions to remember: this will be a brand new firmware installation. We keep all major LongMill firmware instances available for download, you'll likely want to click to download the most recent one: <a href="https://resources.sienci.com/wp-content/uploads/2022/03/grbl-LongMill-MK2-Firmware-Feb-11-2022.zip">LongMill MK2 Firmware (Feb 11, 2022)</a>
+
+Once downloaded, this will appear onto your computer as a compressed or 'zipped' file. Locate the downloaded file in your computer folders, ‘un-zip’ or ‘extract’ it (usually found when you right-click the file), and then you'll notice a firmware folder with a name that matches the downloaded file and contains all the necessary files. If you open this folder up you should see a folder called "**grbl**", and from there if you open up the "**examples**" folder followed by the "**grblUpload**" folder. If you notice a file called "**grblUpload.ino**" this is what you'll want to open with the Arduino IDE program (this should be as simple as double-clicking the file which will open up a new window where you'll see the window is titled "**grblUpload**").
 
 ![](/_images/_longmill/_advanced/_8_GRBL/lm_grbl_p9_grblUpload.png){.aligncenter .size-medium}
 

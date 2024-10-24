@@ -16,7 +16,7 @@ skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 
-LongMill MK2 page order should be as follows: (last updated as of Oct 22, 2024)
+LongMill MK2 page order should be as follows: (last updated as of Oct 24, 2024)
 
 👍 The Basics
 
@@ -79,7 +79,7 @@ LongMill MK2 page order should be as follows: (last updated as of Oct 22, 2024)
 
 1. Open Source 🥽 (MK1 & MK2 half overlap)
 2. LongBoard Details (MK1 & MK2 close, MK2 in text and link)
-3. grbl Firmware 🤖
-4. EEPROM Settings
-5. Stepper Driver Current
-6. Changing Microstepping
+3. grbl Firmware 🤖 (MK1 & MK2 close, MK2 in text and link)
+4. EEPROM Settings (MK1 & MK2 different values)
+5. Stepper Driver Current (MK1 & MK2 same)
+6. Changing Microstepping (MK1 & MK2 same)

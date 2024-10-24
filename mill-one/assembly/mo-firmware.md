@@ -17,7 +17,7 @@ featured_image:
 
 Installing our firmware on your Mill One's Arduino Uno will enable your computer to stream cutting files to the Arduino using the USB cable. The Arduino Uno runs the Mill One by using a tailored version of the <a href="https://github.com/gnea/grbl" target="_blank" rel="noopener">grbl</a> v1.1g firmware. This firmware is set up for ⅛ microstepping and can be flashed onto your Arduino by using the Arduino IDE.
 
-<a href="https://resources.sienci.com/wp-content/uploads/2021/05/GRBL-1.1g-Sienci-Mill-One.zip">Click this to download the firmware</a>, then follow these steps:
+<a href="https://resources.sienci.com/wp-content/uploads/2021/05/grbl-1.1g-Sienci-Mill-One.zip">Click this to download the firmware</a>, then follow these steps:
 
 <ol>
   <li>Plug the Arduino into your computer with the USB cable (don't connect the power supply for now)</li>

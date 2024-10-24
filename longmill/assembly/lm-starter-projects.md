@@ -23,7 +23,7 @@ This is a very simple file which follows a line writing to spell out "LongMill".
 
 ![](/_images/_longmill/_assembly/_starterprojects/lm_starterp_p1.png "Tool (yellow) in the bottom left-hand corner (visualized using CAMotics)"){.aligncenter .size-medium}
 
-<a href="https://resources.sienci.com/wp-content/uploads/2021/05/longmill-line1.zip">LongMill-line.zip</a>
+<a href="https://resources.sienci.com/wp-content/uploads/2021/05/LongMill-line1.zip">LongMill-line.zip</a>
 
 Download the file above, 'unzip' or 'extract' it, then load it into gSender by clicking the "Load File" button. Once loaded, you'll be able to see a visualization of the tools movements. If you're satisfied, turn on your router (note this file doesn't currently contain spindle control commands) then run the file!
 
@@ -82,7 +82,7 @@ Now that you've got your machine running successfully, we've got a lot more info
 
 ## Our YouTube channel
 
-Did you know we have a <b><a href="https://www.youtube.com/channel/UCS4SdQ0sqFhvjitLjh4EsGQ?">YouTube channel</a></b> where you can find videos and tutorials on using your LongMill? We cover things like:
+Did you know we have a <b><a href="https://www.YouTube.com/channel/UCS4SdQ0sqFhvjitLjh4EsGQ?">YouTube channel</a></b> where you can find videos and tutorials on using your LongMill? We cover things like:
 
 <ul>
 <li>How to go from idea to completed project</li>
@@ -92,7 +92,7 @@ Did you know we have a <b><a href="https://www.youtube.com/channel/UCS4SdQ0sqFhv
 <li>and more!</li>
 </ul>
 
-https://www.youtube.com/embed/Q-sfK-QxwzQ
+https://www.YouTube.com/embed/Q-sfK-QxwzQ
 
 We really hope you enjoy using your LongMill Benchtop CNC in the days, weeks, and months to come. Remember that CNC routers are an amazing tool that you can use for whatever you like, and the point of the LongMill and it's community is to offer you resources and support so that you can be confident in using your CNC to make what you imagine. Good luck and happy making!
 

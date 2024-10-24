@@ -233,7 +233,7 @@ General sources:
 
 ## More Sample Projects
 
-There are a few more internally designed projects that you can also try out if you wish. Each project has a download which contains both the g-code files made for each specific project (pictured) and the original 3D files if you want to CAM them yourself. There are even more designs that we've made for use on the LongMill, they can be found here: <a href="https://CAD.onshape.com/documents/526b7c6287b77b77c4b50603/w/e1e191a2557529d4dc468313/e/92d2cf99720fafafddaba831" target="_blank" rel="noopener noreferrer">LongMill Demo Pieces</a>
+There are a few more internally designed projects that you can also try out if you wish. Each project has a download which contains both the g-code files made for each specific project (pictured) and the original 3D files if you want to CAM them yourself. There are even more designs that we've made for use on the LongMill that can be found here if you're interested in giving them a shot: <a href="https://CAD.onshape.com/documents/526b7c6287b77b77c4b50603/w/e1e191a2557529d4dc468313/e/92d2cf99720fafafddaba831" target="_blank" rel="noopener noreferrer">LongMill Demo Pieces</a>
 
 ### Wooden Box
 

@@ -53,7 +53,7 @@ The Vortex switching module includes three white JST XH2.54 connectors used for 
 
 ### Software
 
-Much of what makes the Vortex Rotary Axis straightforward to use is the integration of this ‘Y-axis used as an A-axis’ functionality into our machine interface software, <a href="https://sienci.com/gsender/">gSender</a>. This software is compatible with any grbl-based controller/machine, so reaping the benefits of this for your machine should be possible. That being said, this rotary axis functionality within gSender has had limited testing across other controller/machines, so we cannot guarantee full support and functionality.
+Much of what makes the Vortex Rotary Axis straightforward to use is the integration of this ‘Y-axis used as an A-axis’ functionality into our machine interface software, <a href="https://sienci.com/gSender/">gSender</a>. This software is compatible with any grbl-based controller/machine, so reaping the benefits of this for your machine should be possible. That being said, this rotary axis functionality within gSender has had limited testing across other controller/machines, so we cannot guarantee full support and functionality.
 
 For other non-grbl based controllers, we recommend checking with your manufacturer to see if A-axis control is supported.
 

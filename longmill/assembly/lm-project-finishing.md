@@ -122,7 +122,7 @@ Do this to further improve to surface finish on woods that you plan on finishing
 | **Video Title** | **Description** | **Duration** | **Link** |
 |-----------------|-----------------|--------------|----------|
 | Move up the Grits!! | Explains how to move up the grits when sanding. | 3 minutes | [Watch Video](https://youtu.be/KiE4Pk_gu50) |
-| Top 5 Tips for Orbital Sanding | Pro tips for orbital sanding. | Under 1 minute | [Watch Video](https://youtube.com/shorts/FXmkWtLTgJw) |
+| Top 5 Tips for Orbital Sanding | Pro tips for orbital sanding. | Under 1 minute | [Watch Video](https://YouTube.com/shorts/FXmkWtLTgJw) |
 | Filling a Crack or Gap with Sawdust and Glue | Shows how to fill cracks or gaps with sawdust and glue to match. | 3 minutes | [Watch Video](https://youtu.be/UE-elux6fQw) |
 |Mini Mops? Like a sanding mop just smaller? | Great explanation on small detail sanding. | 3 minutes |[Watch Video](https://youtu.be/2r2Zt_K76O4) |
 | Breaking the Edges to Preserve Them | A short video explaining why and how to break your edges during sanding. | Under 1 minute | [Watch Video](https://youtu.be/_BfKo2Yn-5A) |
@@ -413,8 +413,8 @@ Remove dust left after sanding by vacuuming or wiping it down with a tack cloth.
 
 | **Video Title** | **Description** | **Duration** | **Link** |
 |-----------------|-----------------|--------------|---------|
-| Which Spray Paint is Best on Wood Furniture? | This video explores different types of spray paints and their effectiveness on wood furniture. | 20 minutes | [Watch Video](https://www.youtube.com/watch?app=desktop&v=uM_boGIOTIM) |
-| Using a Flat Roller to Paint a V-Carved Sign | A quick tutorial on how to use a flat roller for painting a V-carved sign. | 4 minutes | [Watch Video](https://www.youtube.com/watch?v=0kI5crkiXi4) |
+| Which Spray Paint is Best on Wood Furniture? | This video explores different types of spray paints and their effectiveness on wood furniture. | 20 minutes | [Watch Video](https://www.YouTube.com/watch?app=desktop&v=uM_boGIOTIM) |
+| Using a Flat Roller to Paint a V-Carved Sign | A quick tutorial on how to use a flat roller for painting a V-carved sign. | 4 minutes | [Watch Video](https://www.YouTube.com/watch?v=0kI5crkiXi4) |
 
 [/su_table]
 
@@ -464,8 +464,8 @@ If you want a deeper color, you can apply multiple coats, allowing full drying b
 
 | **Video Title** | **Description** | **Duration** | **Link** |
 |-----------------|-----------------|--------------|---------|
-| Cool Paint Tool | This short video shows exposing the grain with a cool tool. | 1 minute | [Watch Video](https://www.youtube.com/shorts/Z_xj91QG2zY) |
-| Wood Staining Basics | Biggest wood staining mistakes and misconceptions | 8 minutes | [Watch Video](https://www.youtube.com/watch?v=vfeAxUfoEdE) |
+| Cool Paint Tool | This short video shows exposing the grain with a cool tool. | 1 minute | [Watch Video](https://www.YouTube.com/shorts/Z_xj91QG2zY) |
+| Wood Staining Basics | Biggest wood staining mistakes and misconceptions | 8 minutes | [Watch Video](https://www.YouTube.com/watch?v=vfeAxUfoEdE) |
 
 [/su_table]
 
@@ -561,7 +561,7 @@ By following this process, you can achieve a stunning, professional-quality fini
 
 | **Video Title** | **Description** | **Duration** | **Link** |
 |-----------------|-----------------|--------------|---------|
-| French Polishing for the complete beginner | A quick overview of the French polishing method. | 8 minutes | [Watch Video](https://www.youtube.com/watch?v=XJQuk05jlyE) |
-| Wood Magazine | The centuries-old process of applying finish using a shellac-soaked cloth pad | 5 minutes | [Watch Video](https://www.youtube.com/watch?v=PDoXn0uM2gw) |
+| French Polishing for the complete beginner | A quick overview of the French polishing method. | 8 minutes | [Watch Video](https://www.YouTube.com/watch?v=XJQuk05jlyE) |
+| Wood Magazine | The centuries-old process of applying finish using a shellac-soaked cloth pad | 5 minutes | [Watch Video](https://www.YouTube.com/watch?v=PDoXn0uM2gw) |
 
 [/su_table]

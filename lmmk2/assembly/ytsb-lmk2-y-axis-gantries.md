@@ -31,7 +31,7 @@ Now, loosely install two v-wheel assemblies in the upper set of holes on each Y-
 
 <img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2022/03/48EX-symbol.png" alt="" width="61" height="30" />
 
-<a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#ex-y-gantry-assembly"><img class="fortye aligncenter wp-image-3932 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/V-wheelSidebyside-850x391.png" alt="" width="850" height="391" /></a>
+<a href="https://resources.sienci.com/view/48x30-LongMill-mk2-accompanying-manual/#ex-y-gantry-assembly"><img class="fortye aligncenter wp-image-3932 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/V-wheelSidebyside-850x391.png" alt="" width="850" height="391" /></a>
 
 <h2>Y-axis Anti-backlash Nuts</h2>
 

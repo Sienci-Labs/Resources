@@ -85,7 +85,7 @@ If you are a beginner user, we highly recommend sticking with a Makita RT0701. T
 
 ![](/_images/_longmill/_the-basics/lm_routersspindle_p4_Spindle.jpeg){.aligncenter .size-medium}
 
-We supply <a href="https://sienci.com/product/router-mount-for-longmill-benchtop-cnc/" target="_blank" rel="noopener">65mm, 71mm, and 80mm router mounts</a> that are sized to match with commonly available 3-phase spindles. From our experience, most come in 65mm and 80mm diameters.
+We supply <a href="https://sienci.com/product/router-mount-for-LongMill-benchtop-cnc/" target="_blank" rel="noopener">65mm, 71mm, and 80mm router mounts</a> that are sized to match with commonly available 3-phase spindles. From our experience, most come in 65mm and 80mm diameters.
 
 Although we do not offer technical support on adding a spindle, here are some general steps on adding a spindle:
 
@@ -104,7 +104,7 @@ From here you can mount your spindle and wire the cables through the drag chains
 **3. Test your spindle and motion system**<br>
 Because the spindle is most likely heavier than the Makita RT0701, the machine will need to work harder to move the spindle around. Although it's not likely you'll need to change any settings, it is recommended to try moving your machine around with the heavier spindle and slow down your machine's max feed rates in the firmware if you run into any stalling. Note that the added weight may affect the wear and tear on components such as the Delrin nuts and V-wheels.
 
-<a href="https://sienci.com/2022/07/21/adding-a-spindle-to-your-longmill/" target="_blank" rel="noopener">For a longer form, general article on adding a spindle, check out our full blog post</a>.
+<a href="https://sienci.com/2022/07/21/adding-a-spindle-to-your-LongMill/" target="_blank" rel="noopener">For a longer form, general article on adding a spindle, check out our full blog post</a>.
 
 Some settings you might need to change are shown below. If you're moving a specific axis of the machine and it's 'stalling out'/ not moving then you definitely need to update these values. You'd want to focus first on the 'maximum rates' (110 to 112), reducing the value for the stalling axis by increments of 100 until the problem goes away. If  this doesn't work you can also try lowering the 'acceleration' values (120 to 122)
 

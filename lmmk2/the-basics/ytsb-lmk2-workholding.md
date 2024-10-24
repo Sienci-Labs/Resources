@@ -31,9 +31,9 @@ T-tracks allow you to insert a variety of clamps along their length, such as toe
 <li>We designed a custom t-track system that works with hex-headed 1/4"-20 hardware that you can see in our store here: <a href="https://sienci.com/product/t-track/" target="_blank" rel="noopener">https://sienci.com/product/t-track/</a> and has a setup guide here: <a href="https://resources.sienci.com/view/assembling-add-ons/" target="_blank" rel="noopener">Installing the LongMill T-Track set</a></li>
 </ul>
 
-https://www.youtube.com/watch?v=T4QVgtnZMDw
+https://www.YouTube.com/watch?v=T4QVgtnZMDw
 
-https://www.youtube.com/watch?v=cwDvnuouFlw
+https://www.YouTube.com/watch?v=cwDvnuouFlw
 
 ### Screws
 

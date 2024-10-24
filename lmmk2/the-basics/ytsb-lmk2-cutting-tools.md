@@ -15,7 +15,7 @@ skip_file: yes
 featured_image: _images/_longmill/_the-basics/lm_cuttingtools_p1_TipTypes.jpg
 ---
 
-https://www.youtube.com/watch?v=VqJVRo_KdJs
+https://www.YouTube.com/watch?v=VqJVRo_KdJs
 
 CNC routers work by using a rotating cutting tool to cut or carve away materials in order to create the final object. Different cutting tools are used for different types of projects and applications. They can vary in size, shape, material, and design; and are sometimes also referred to as cutting bits or end mills.
 
@@ -89,7 +89,7 @@ There are also many router bits which don't have spiral flutes at all. The diffe
 
 As a CNC operator, you will learn to choose the correct end mill for the job and use the correct speeds and feeds in your CAM program to get the best results in your project. As you start to dive into the world of cutting tools you'll start to see how their geometry, material characteristics, and performance can become very nuanced from tool to tool. Two of the largest additional factors which weren't previously mentioned are the tools material composition and its coating. Below will be an introduction to these topics:
 
-#### Composition
+### Composition
 
 Cutting tools can be manufactured out of a variety of material which are all engineered to be able to sustain high loads during the cutting process and remain sharp enough in order to shear the material away from the stock. Of these, the most commonly used materials are high speed steel (HSS) and solid carbide.
 [caption id="attachment_695" align="aligncenter" width="800"]
@@ -100,7 +100,7 @@ HSS usually combines with a variety of other alloys to have a high wear resistan
 
 Solid carbide tools are very hard so they’ll stay sharp for longer and won’t wear as much at higher temperatures. Recently, carbide tools have become much cheaper and accessible for use in CNC routing, however it’s important to note that carbide cutting tools typically require higher speeds in order to mill properly. This makes them a great candidate for cutting finishing passes, milling PCBs, and cutting materials that won’t easily burn or melt.
 
-#### Coatings
+### Coatings
 
 Carbide cutting tools have the ability to be covered in fancy coatings like TiN (titanium nitride), TiCN (titanium carbonitride), TiAlN (titanium aluminum nitride), and AlTiN (aluminum titanium nitride). All of these coatings can enhance the tool's abilities by increasing its wear resistance, making it more thermally stable, lowering its coefficient of friction, or increasing its ductility.
 
@@ -108,7 +108,7 @@ For more non-abrasive materials, coatings will only have an affect on the lifeti
 
 <b>In summary:</b>  if you're on the lookout for a reliable set of cutting tools, make the jump and invest carbide or coatings if the application makes sense. Otherwise, if you're on a tight budget or you're still learning how to use your machine then hold onto your money for the time being.
 
-#### More
+### More
 
 In case you're feeling curious, there's many more resources out there which provide plenty of information on the ins and outs of cutting tools. Here are a few that we've documented:
 

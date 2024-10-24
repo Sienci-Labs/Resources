@@ -19,7 +19,7 @@ This is a setup guide for the LongMill Spindle Kit, installed on the LongMill MK
 
 If you prefer to watch a video of this process, check out Jason's video below:
 
-https://www.youtube.com/watch?v=5mEJLWWHE-Y
+https://www.YouTube.com/watch?v=5mEJLWWHE-Y
 
 <h2>Machine Setup</h2>
 
@@ -80,7 +80,7 @@ You will need:
 [caption id="attachment_9030" align="aligncenter" width="850"]<img class="size-medium wp-image-9030" src="https://resources.sienci.com/wp-content/uploads/2024/08/spindleconnector-850x478.png" alt="" width="850" height="478" /> Spindle cable connected[/caption]</li>
   <li>Plug in the RS485 wire into the SLB controller.
 
-[caption id="attachment_9028" align="aligncenter" width="850"]<img class="size-medium wp-image-9028" src="https://resources.sienci.com/wp-content/uploads/2024/08/RS485-longmill--850x478.png" alt="" width="850" height="478" /> RS485 wire connected to controller[/caption]</li>
+[caption id="attachment_9028" align="aligncenter" width="850"]<img class="size-medium wp-image-9028" src="https://resources.sienci.com/wp-content/uploads/2024/08/RS485-LongMill--850x478.png" alt="" width="850" height="478" /> RS485 wire connected to controller[/caption]</li>
   <li>Plug the VFD into power, the VFD screen should blink on with red text.
 
 [caption id="attachment_9056" align="aligncenter" width="850"]<img class="size-medium wp-image-9056" src="https://resources.sienci.com/wp-content/uploads/2024/08/VFD-powered-on_short.gif" alt="" width="850" height="478" /> VFD powered on[/caption]</li>

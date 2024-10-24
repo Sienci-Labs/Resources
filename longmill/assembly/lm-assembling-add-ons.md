@@ -23,7 +23,7 @@ This dust shoe is a Z-axis independent style dust shoe designed to collect dust 
 
 The assembly is shown after the initial reveal in the following video:
 
-[su_youtube url="https://www.youtube.com/watch?v=r_QqMye3dLo"]
+[su_youtube url="https://www.YouTube.com/watch?v=r_QqMye3dLo"]
 
 ## Standard Block-Style Plate
 
@@ -209,7 +209,7 @@ You may have some issues with using your touch probe if your cutting tool is:
 
 The AutoZero Touch Plate is specifically designed for use with the latest version of <a href="https://sienci.com/gSender/">gSender</a>. Please download the latest program first.
 
-https://www.youtube.com/watch?v=H_fYFjtFc3Q
+https://www.YouTube.com/watch?v=H_fYFjtFc3Q
 
 ### Step 1: Unwrapping and setting up your touch plate
 
@@ -298,7 +298,7 @@ Note: These macros were tested on the Buildbotics controller but they should als
 
 Note: The macros environment in UGS does not support arithmetic operations so probing with the X and/or Y axis using the AutoZero touch plate is a semi-automatic process. More specifically, you will need to click on the “Control Status (DRO)” panel and enter “/2” to halve the active coordinates in the X and/or Y after probing in these directions. If you have only probed either the X or the Y axis, you will only need to divide the coordinate of the axis which was probed.
 
-<img class="aligncenter wp-image-4777 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/AZ-Coordinate-Division-UGS.gif" alt="" width="600" height="338" /><i>Example dividing the X and Y axis coordinates after probing in UGS</i>
+<img class="aligncenter wp-image-4777 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/AZ-Coordinate-Division-UGS.gif" alt="" width="600" height="338" /><em>Example dividing the X and Y axis coordinates after probing in UGS</em>
 
 **Macros for other Senders:** <a href="https://resources.sienci.com/wp-content/uploads/2022/03/AZ-All-Software.zip"><b>Download for other Senders</b></a>
 
@@ -308,10 +308,10 @@ To do so:
 
 1. Run the desired probing macro.
 1. If the macro involves probing in the X and/or Y axis (i.e. not probing Z alone), manually divide the coordinates you see after probing by 2.
-1. Enter the command <b><i>G10 L20 P0 X[divided X coordinate] Y[divided Y coordinate] </i></b> into the console substituting the coordinates in square brackets with ones manually calculated in step 2. If you have only probed either the X or the Y axis, you will only need to divide and substitute the coordinate for the axis which was probed.
+1. Enter the command <b><em>G10 L20 P0 X[divided X coordinate] Y[divided Y coordinate] </em></b> into the console substituting the coordinates in square brackets with ones manually calculated in step 2. If you have only probed either the X or the Y axis, you will only need to divide and substitute the coordinate for the axis which was probed.
 1. Home X and/or Y to check if the tool is at origin
 
-<img class="aligncenter wp-image-4776 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/AZ-Coordinate-Division-Generic.gif" alt="" width="600" height="338" /> <i>Example dividing the X and Y axis coordinates after probing in any CNC control software</i>
+<img class="aligncenter wp-image-4776 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/AZ-Coordinate-Division-Generic.gif" alt="" width="600" height="338" /> <em>Example dividing the X and Y axis coordinates after probing in any CNC control software</em>
 
 ## Troubleshooting
 
@@ -336,7 +336,7 @@ If this was not the problem:
 - Check that the bit you are using is not tapered and is conductive at the both its sides and end so that it can make electrical contact with the touch plate.
 - Ensure the settings you use are from the touch plate page on our website (not the settings in the video): <a href="https://resources.sienci.com/view/lmk2-touch-plate/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-touch-plates/</a>
 - Make sure your work coordinates match your touch plate settings (usually G54)
-- Check that there's proper electrical contact from your control box through to your magnet and touch plate. An easy way to check this is to run a Z probe with the router high up in the air and manually tap the magnet to the plate while they're held in each of your hands. If the bit stops and raises slightly up then lowers down again, this should indicate some form of connectivity from the magnet and touch plate to the control box. If you tap them together again, this should conclude the probing process and no errors should appear. If you don't observe this behaviour, then you should try this test again and if it again shows an error then check the electrical connections. See if the magnet is making contact with the metal leads of the wire by unscrewing the fastener in the centre and do the same for the banana plug as well. You may need to strip more insulation off the ends of the wire to get more contact with the metal surfaces. There’s a great video showing how to deal with banana connectors assembly/disassembly <a href="https://www.youtube.com/watch?v=cH0C_g_lfXo" target="_blank" rel="noopener">here.</a>
+- Check that there's proper electrical contact from your control box through to your magnet and touch plate. An easy way to check this is to run a Z probe with the router high up in the air and manually tap the magnet to the plate while they're held in each of your hands. If the bit stops and raises slightly up then lowers down again, this should indicate some form of connectivity from the magnet and touch plate to the control box. If you tap them together again, this should conclude the probing process and no errors should appear. If you don't observe this behaviour, then you should try this test again and if it again shows an error then check the electrical connections. See if the magnet is making contact with the metal leads of the wire by unscrewing the fastener in the centre and do the same for the banana plug as well. You may need to strip more insulation off the ends of the wire to get more contact with the metal surfaces. There’s a great video showing how to deal with banana connectors assembly/disassembly <a href="https://www.YouTube.com/watch?v=cH0C_g_lfXo" target="_blank" rel="noopener">here.</a>
 - Check for continuity between the banana clip and the connector. If there's no continuity, test the bare end of the wire. If there is continuity, ensure the bare end of the wire is properly seated in the connector.
   <img class="size-medium wp-image-4198 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Touch-Plate-banana-clip-continuity-test-850x349.jpg" alt="Electrical meter testing the continuity of between an electrical connector and a banana style clip" width="850" height="349" />
 - Check for continuity between the magnet and and the connector. If not continuity, repeat the same steps above.
@@ -359,7 +359,7 @@ The reason we decided to make this t-track system available is because we design
 
 The t-track system is very flexible and can be used however you wish. If you'd like to see a generic approach to installation, you can follow either the write-up or video below. Scott begins the t-track installation starting at about 4 minutes into the video.
 
-https://www.youtube.com/watch?v=T4QVgtnZMDw?t=242
+https://www.YouTube.com/watch?v=T4QVgtnZMDw?t=242
 
 This layout minimizes reductions in cutting area and depth, and can be prepared in advance before your machine arrives. It uses a 48”x48”x ¾” MDF sheet, which can be purchased and cut to size at home or at your local hardware store.
 
@@ -367,10 +367,10 @@ This layout minimizes reductions in cutting area and depth, and can be prepared 
 
 1. Cut a 48” x 48” x ¾” MDF sheet into five pieces of 6” wide planks, and two pieces of 5 ½ ” wide planks.
 1. Lay out the T-tracks and planks on the table, and fasten them down with wood screws. The machine will sit on top of the 5 ½” planks, as the 6” planks are arranged between them. They should be fastened with screws at least 1” in length. Leave about 1” of space between the screws and the ends of the MDF planks.
-1. To ensure your planks are flat against your table, drill counterbore holes in the middle of the 5 ½” planks. You can use the LongMill or a counterboring bit to create the holes, making sure you have removed enough material to recess the screw heads and surface the MDF planks at least 1mm deep. Then fasten them down with wood screws.
-1. Complete the rest of the Table Mounting process as described in the LongMill Resources page: <a href="https://resources.sienci.com/view/lm-table-mounting/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-table-mounting/</a>
-1. Surface the MDF planks, as described in the LongMill Resources page: <a href="https://resources.sienci.com/view/lm-surfacing-wasteboard/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-surfacing-wasteboard/</a>
-1. Mount your clamps onto your newly installed T-track table, and enjoy!
+1. To ensure your planks are flat against your table, drill counterbore holes in the middle of the 5 ½” planks. You can use the LongMill, a counterboring bit, or a larger drill bit to create the holes, making sure you have removed enough material to recess the screw heads and surface the MDF planks at least 1mm deep. Then fasten them down with wood screws.
+1. Complete the rest of the Table Mounting process as described previously if not yet done: <a href="https://resources.sienci.com/view/lm-table-mounting/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-table-mounting/</a>
+1. Surface the MDF planks, as you would normally conduct wasteboard surfacing: <a href="https://resources.sienci.com/view/lm-surfacing-wasteboard/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-surfacing-wasteboard/</a>
+1. Mount your clamps or clamping system onto your newly installed T-track table, and enjoy!
 
 ## The T-Clamp System
 
@@ -408,10 +408,10 @@ T-clamps are simple and reliable workholding tools that are used alongside T-Tra
 
 The great thing about having a CNC machine is that you can make your own clamps for it!
 
-https://www.youtube.com/watch?v=cwDvnuouFlw
+https://www.YouTube.com/watch?v=cwDvnuouFlw
 
-For full details and file downloads, please see the <a href="https://sienci.com/2022/07/20/make-your-own-cnc-workholding-with-your-longmill/">full article</a>.
+For full details and file downloads, please see the <a href="https://sienci.com/2022/07/20/make-your-own-cnc-workholding-with-your-LongMill/">full article</a>.
 
 ## Regular Dust Shoe
 
-https://www.youtube.com/watch?v=j6JFbru7j3I
+https://www.YouTube.com/watch?v=j6JFbru7j3I

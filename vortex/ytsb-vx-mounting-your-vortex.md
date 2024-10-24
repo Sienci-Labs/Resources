@@ -17,7 +17,7 @@ featured_image: _images/post-image.jpg
 
 Check out our video on how to mount your Vortex!
 
-https://www.youtube.com/watch?v=TUwrwqpvdsI
+https://www.YouTube.com/watch?v=TUwrwqpvdsI
 
 <img class="aligncenter size-medium wp-image-5683" src="https://resources.sienci.com/wp-content/uploads/2023/08/Section-Headers_Table-Mounting-1-850x532.jpg" alt="" width="850" height="532" />
 
@@ -65,7 +65,7 @@ If you have such a setup, we recommend that you <b>raise the feet</b> of your ma
 <td>⚠️Under 4” cutting volume
 ⚠️Difficulty using the probing feature in gSender to zero the Y and Z-axis.</td>
 <td>Move to top router mounting
-<i>Illustration shows correct position</i></td>
+<em>Illustration shows correct position</em></td>
 <td><img class="aligncenter size-full wp-image-5592" src="https://resources.sienci.com/wp-content/uploads/2023/08/6.p4_LowerMounting.jpg" alt="" width="640" height="480" /></td>
 </tr>
 <tr>
@@ -74,7 +74,7 @@ If you have such a setup, we recommend that you <b>raise the feet</b> of your ma
 ⚠️Insufficient surfaced area on waste board to fit the track</td>
 <td>To cut the full 4" volume, the dust shoe bracket will need to be removed.
 Remove the bracket before re-surfacing the wasteboard and installing the threaded inserts.
-<i>Illustration shows short wasteboard due to bracket</i></td>
+<em>Illustration shows short wasteboard due to bracket</em></td>
 <td><img class="aligncenter size-full wp-image-5594" src="https://resources.sienci.com/wp-content/uploads/2023/08/6.p6_Dustbracket.jpg" alt="" width="640" height="480" /></td>
 </tr>
 </tbody>
@@ -83,7 +83,7 @@ Remove the bracket before re-surfacing the wasteboard and installing the threade
 
 ### gSender
 
-We will be using the latest version of <a href="https://sienci.com/gsender/">gSender</a> to create your mounting holes. Simply click the link to navigate to the downloads page.
+We will be using the latest version of <a href="https://sienci.com/gSender/">gSender</a> to create your mounting holes. Simply click the link to navigate to the downloads page.
 
 <img class="aligncenter size-medium wp-image-5719" src="https://resources.sienci.com/wp-content/uploads/2023/08/gSender-Edge-850x462.jpg" alt="" width="850" height="462" />
 

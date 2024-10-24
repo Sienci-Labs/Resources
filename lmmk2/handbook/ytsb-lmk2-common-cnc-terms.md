@@ -21,7 +21,7 @@ Know the names for the fundamental parts that make up an average hobby CNC.
 
 **Axis** - The number of unique directions of movement that the CNC is capable of moving in. Most traditional CNC routers are 3-axis, where those three axes are in the left-right (x-axis), forward-back (y-axis), and up-down (z-axis) directions.
 
-**Backlash** - When there’s looseness in the drive system of the CNC. This means that it won’t be able to make motions as rigidly as expected, it also has an effect on the accuracy of its movements.   On the LongMill, if the anti-backlash nut threads wear out, it needs to be ‘re-tensioned’ by pushing the two thread profiles back away from each other using the M5 bolts. Tensioning too much can cause excess friction and wear, but done correctly it can keep your machine running reliably.
+**Backlash** - When there’s looseness in the drive system of the CNC. This means that it won’t be able to make motions as rigidly as expected, it also has an effect on the accuracy of its movements. On the LongMill, if the anti-backlash nut threads wear out, it needs to be ‘re-tensioned’ by pushing the two thread profiles back away from each other using the M5 bolts. Tensioning too much can cause excess friction and wear, but done correctly it can keep your machine running reliably.
 
 ![](/_images/_longmill/_the-basics/lm_cncterms_p1_Backlash.jpg){.aligncenter .size-medium}
 

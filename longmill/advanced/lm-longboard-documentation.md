@@ -106,7 +106,7 @@ There is a wealth of information and knowledge available on the <a href="https:/
 
 #### grbl Firmware
 
-Download links to LongMill firmware can be found here: <a href="https://resources.sienci.com/view/lm-grbl-firmware/">https://resources.sienci.com/view/lm-grbl-firmware/</a>
+Download links to LongMill firmware can be found here: <a href="https://resources.sienci.com/view/lm-grbl-firmware/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-grbl-firmware/</a>
 
 For information about flashing your Arduino with new firmware, please visit the link above or visit the instructions provided in the grbl Wiki: <a href="https://github.com/gnea/grbl/wiki/Flashing-Grbl-to-an-Arduino" target="_blank" rel="noopener">https://github.com/gnea/grbl/wiki/Flashing-Grbl-to-an-Arduino</a>
 

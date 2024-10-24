@@ -164,7 +164,7 @@ One thing to note about wood is that it can burn if:
 
 <ul>
 <li>MDF is a cheap, easy to cut material that tends to cut quite cleanly and evenly on the CNC router.</li>
-<li>MDF dust is incredibly fine and can be dangerous. Make sure to use appropriate dust collection and a mask. A using a <a href="https://sienci.com/product/longmill-magnetic-dust-shoe/" target="_blank" rel="noopener">dust shoe</a> is a good option.</li>
+<li>MDF dust is incredibly fine and can be dangerous. Make sure to use appropriate dust collection and a mask. A using a <a href="https://sienci.com/product/LongMill-magnetic-dust-shoe/" target="_blank" rel="noopener">dust shoe</a> is a good option.</li>
 <li>Like plywood, MDF also has chemicals and glues in the material. Make sure to check and ensure that they are clean between cuts</li>
 </ul>
 

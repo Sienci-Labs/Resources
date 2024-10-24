@@ -23,7 +23,7 @@ Foam is a soft material and thus an extremely forgiving material to carve. You c
 
 You can access Kiri:Moto <a href="https://grid.space/kiri" target="_blank" rel="noopener">here</a> and the project files consisting of our pre-compiled g-code and the CNSheep STL can be downloaded <a href="https://resources.sienci.com/wp-content/uploads/2021/05/CNSheep-files3.zip">here</a>.
 
-[su_youtube_advanced url="https://www.youtube.com/watch?v=iQhA9xS2jNo" rel="no" modestbranding="yes" title="This video will explain how to prepare your Mill One to start cutting your first projects."]
+[su_youtube_advanced url="https://www.YouTube.com/watch?v=iQhA9xS2jNo" rel="no" modestbranding="yes" title="This video will explain how to prepare your Mill One to start cutting your first projects."]
 
 Congratulations on your cute new sheep! You should now have a fully functional Mill One, and a basic understanding on how to use it. What new things will you make now?
 

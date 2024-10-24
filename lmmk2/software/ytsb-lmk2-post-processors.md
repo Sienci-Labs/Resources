@@ -64,7 +64,7 @@ To help out, we've put together a simple table which shows popular CAM programs 
 </tr>
 <tr>
 <td>BobCAD/CAM</td>
-<td>Custom: <a href="https://forum.sienci.com/t/cad-cam-software-post-processors/436/3" target="_blank" rel="noopener">https://forum.sienci.com/t/cad-cam-software-post-processors/436/3</a></td>
+<td>Custom: <a href="https://forum.sienci.com/t/CAD-CAM-software-post-processors/436/3" target="_blank" rel="noopener">https://forum.sienci.com/t/CAD-cam-software-post-processors/436/3</a></td>
 </tr>
 <tr>
 <td>Inventor CAM</td>

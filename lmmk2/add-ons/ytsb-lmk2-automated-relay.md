@@ -27,7 +27,7 @@ This IOT setup method is written for the LongBoard controller and was inspired b
 Parts needed:
 
 - **IOT relay**
-  - We’ve tested the IOT Relay from Digital Loggers, but it can be found on a few sites such as <a href="https://www.digikey.ca/en/products/detail/sparkfun-electronics/COM-14236/7652745" target="_blank" rel="noopener">DigiKey</a>, <a href="https://pwncnc.com/products/iot-power-strip" target="_blank" rel="noopener">PwnCNC</a>, and Amazon. Find more info here: <a href="https://www.digital-loggers.com/iotfaqs.html" target="_blank" rel="noopener">https://www.digital-loggers.com/iotfaqs.html</a>.
+  - We’ve tested the IOT Relay from Digital Loggers, but it can be found on a few sites such as <a href="https://www.digikey.ca/en/products/detail/sparkfun-electronics/COM-14236/7652745" target="_blank" rel="noopener">DigiKey</a>, <a href="https://PwnCNC.com/products/iot-power-strip" target="_blank" rel="noopener">PwnCNC</a>, and Amazon. Find more info here: <a href="https://www.digital-loggers.com/iotfaqs.html" target="_blank" rel="noopener">https://www.digital-loggers.com/iotfaqs.html</a>.
   - Includes surge suppression, debounce, and a safety breaker
   - Consists of 4 outlets - x1 Always On, x1 Normally On (NO), x2 Normally Off (NC)
   - Can also be controlled by a standalone Arduino or Raspberry Pi

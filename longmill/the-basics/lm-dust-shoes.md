@@ -83,7 +83,7 @@ Whether a dust shoe is fixed or adjustable depends on how it’s mounted:
 </table>
 [/su_table]
 
-For general purpose cutting, we'd recommend using an adjustable dust shoe as it is significantly better at collecting dust and debris, and relies less on how powerful your vacuum system is. It's also much better suited toward flat or sheet material which is the type of material that's most commonly used by hobby CNCers for sign-making and v-carving.
+For general purpose cutting, we recommend using an adjustable dust shoe as it is significantly better at collecting dust and debris, and relies less on how powerful your vacuum system is. It's also much better suited toward flat or sheet material which is the type of material that's most commonly used by hobby CNCers for sign-making and v-carving.
 
 ### Choosing Hose Size
 

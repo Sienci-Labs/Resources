@@ -25,7 +25,7 @@ The LongMill MK2 had two add-ons designed alongside it for added dust management
 
 ## Magnetic Dust Shoe
 
-From our store: <a href="https://sienci.com/product/longmill-magnetic-dust-shoe-mk2/" target="_blank" rel="noopener">https://sienci.com/product/longmill-magnetic-dust-shoe-mk2/</a>
+From our store: <a href="https://sienci.com/product/LongMill-magnetic-dust-shoe-mk2/" target="_blank" rel="noopener">https://sienci.com/product/LongMill-magnetic-dust-shoe-mk2/</a>
 
 To make dust collection easy on your MK2, we spent the time to create its own purpose-made magnetic dust shoe. With a tapered opening it's able to accommodate a range of hose sizes from 2″ to 2-1/8″ on the outside and 1.5″ on the inside. You can even push this a little further with adapters or adding extra thickness with a couple loops of tape.
 
@@ -45,11 +45,11 @@ https://youtu.be/COwusQzX49w
 
 See more about how the shoe can be used for dust collection on your CNC as well!
 
-https://www.youtube.com/watch?v=94r4hgr2SgA
+https://www.YouTube.com/watch?v=94r4hgr2SgA
 
 ## Dust Shields
 
-From our store: <a href="https://sienci.com/product/longmill-mk2-lead-screw-dust-shield/" target="_blank" rel="noopener">https://sienci.com/product/longmill-mk2-lead-screw-dust-shield/</a>
+From our store: <a href="https://sienci.com/product/LongMill-mk2-lead-screw-dust-shield/" target="_blank" rel="noopener">https://sienci.com/product/LongMill-mk2-lead-screw-dust-shield/</a>
 
 The MK2 dust shields are stainless steel and are designed to be easily installed and removed in order to give you easy access to the LongMill's mechanics for maintenance and cleaning. Dust shields come in many forms, this style isn't 'sealed' but is instead meant to provide a reasonable barrier to dust entry in order to discourage build-up on the mechanical areas closest to the cutting action. <span style="color: #d22329;"><strong>Please Note:</strong></span> <span style="color: #d22329;"><strong>These shields aren't compatible with the 12x30 MK2</strong></span>
 

@@ -579,7 +579,7 @@ With setup complete, regular use is pretty straightforward:
    - When you click to ‘load a file’ you’ll see that you’ll only be able to load files from the device you’re currently on, don’t expect to gain access to the files stored on the opposite device. However once the file is loaded into gSender, you’ll be able to run it from any device
    - There can be multiple remote devices all connected to the same inline computer at the same time to control your CNC from multiple devices. There can also be multiple inline computers controlled from the same remote computer, giving you multi-CNC control from the same device
    - gSender settings like ‘safe height’, ‘start/stop g-code’, ‘tool changing’, and any other gSender specific settings won’t carry over to the remote computer. If you want to make sure files are run the same way every time you’ll need to transfer your gSender settings over by following the ‘Transfer Settings’ instructions below
-1. If you’re using your phone, save the unique URL to a bookmark on your home-screen so you can open Remote gSender easily every time! Check out <a href="https://www.youtube.com/watch?v=UrlDJOY3i-8">this video</a> for details
+1. If you’re using your phone, save the unique URL to a bookmark on your home-screen so you can open Remote gSender easily every time! Check out <a href="https://www.YouTube.com/watch?v=UrlDJOY3i-8">this video</a> for details
 
 ### Troubleshooting
 
@@ -733,7 +733,7 @@ You can find the release notes for the latest version of gSender in the “About
 
 Check out this livestream if you'd like to see a super deep dive on gSender and all of its features as of 0.6.9. Chris spends a lot of time answering questions live about gSender and how to set up for a project:
 
-https://www.youtube.com/watch?v=454pWYtZgBU
+https://www.YouTube.com/watch?v=454pWYtZgBU
 
 ## Community Macros
 

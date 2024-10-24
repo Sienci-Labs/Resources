@@ -71,7 +71,7 @@ To manipulate your LongMill and send it files, you’ll need a g-code sender whi
 
 <ol>
   <li><b>We recommend using gSender</b> for this since it’s our own software and easy to use</li>
-  <li>We’ll use gSender for the remaining assembly steps, download it here: <a href="https://sienci.com/gsender/"><b>https://sienci.com/gsender/</b></a> and choose for Windows / PC , Mac, Linux, or others.</li>
+  <li>We’ll use gSender for the remaining assembly steps, download it here: <a href="https://sienci.com/gSender/"><b>https://sienci.com/gSender/</b></a> and choose for Windows / PC , Mac, Linux, or others.</li>
   <li>If you get stuck at any point or want to learn more about gSender you can always <a href="https://resources.sienci.com/view/gs-installation/" target="_blank" rel="noopener">find more help here</a></li>
   <li>There are still other options you can see in our ‘Software’ resources if you prefer them, but make sure they are able to communicate with "<b>grblHAL</b>" machines, if they only support "grbl" then they won't work for your LongMill</li>
 </ol>
@@ -197,7 +197,7 @@ To perform ‘tensioning’ the idea is to loosen the M5 bolt with an Allen key 
 
 You’ll likely need to repeat *loosening, turning the nut slightly, tightening, then checking the wheels* a couple times for each wheel pair until you reach the right clamping force. Take your time to slowly approach the right point rather than over-rotate the eccentric nut and put too much force on the wheels. Also, know that the wheels don’t need to be 100% perfect to have a well-operating machine so if you feel like you’ve gotten close enough then feel free to move on to the next step. If you need more help visualizing how to do this you can watch our video:
 
-https://www.youtube.com/watch?v=Z7WLmOk90V4
+https://www.YouTube.com/watch?v=Z7WLmOk90V4
 
 Once you’re done tensioning the wheels on all axes you should find that it’s still easy to rotate each lead screw with your hands but if you grab the steel gantry it shouldn’t move around on the rail. It might be a bit loose moving the plate back-and-forth and that’s the next step when tuning.
 

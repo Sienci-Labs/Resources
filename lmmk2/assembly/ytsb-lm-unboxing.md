@@ -120,7 +120,7 @@ Diving into your LongMill box you’ll be met with a whole lot of boxes within. 
 
 Check out the ‘welcome items’ where you’ll find our letter alongside some tools provided for assembly and some fun stickers. Also check out the ‘variable box’ and ‘rail box’ for extra goodies, some are hidden within the rails themselves. Set aside items like the Makita and NEMA23 motor box as well any add-ons from the variable box like bits, dust shoe, touch plate, since you won’t need these until much later on in the assembly.
 
-<a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#48-x-axis-rail-box-unpacking"><img class="fortye aligncenter wp-image-3936 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX1-1-850x156.png" alt="" width="850" height="156" /></a>
+<a href="https://resources.sienci.com/view/48x30-LongMill-mk2-accompanying-manual/#48-x-axis-rail-box-unpacking"><img class="fortye aligncenter wp-image-3936 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX1-1-850x156.png" alt="" width="850" height="156" /></a>
 
 <h3>Tools you’ll need</h3>
 
@@ -185,7 +185,7 @@ This manual contains some technical language as well as a distinct visual langua
 <td style="text-align: center; padding: 5px; border: none;"><img class="alignnone wp-image-3147 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/Unboxing-tips-5a-850x371.png" alt="" width="850" height="371" /></td>
 </tr>
 <tr>
-<td style="text-align: left; padding: 5px; border: none;">• X, Y, and Z: during assembly if you see these capitalized letters used it’s because we refer to some parts by the axis they belong to. For reference, if you’re looking at the Longmill from the front the X-axis is when the machine moves left/right (red), the Y-axis is towards/away from you (green), and the Z-axis is moving up/down from the tabletop (blue)</td>
+<td style="text-align: left; padding: 5px; border: none;">• X, Y, and Z: during assembly if you see these capitalized letters used it’s because we refer to some parts by the axis they belong to. For reference, if you’re looking at the LongMill from the front the X-axis is when the machine moves left/right (red), the Y-axis is towards/away from you (green), and the Z-axis is moving up/down from the tabletop (blue)</td>
 <td style="text-align: center; padding: 5px; border: none;"><img class="alignnone wp-image-3155 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-Showing-Axes-850x478.jpg" alt="" width="850" height="478" /></td>
 </tr>
 <tr>

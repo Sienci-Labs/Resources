@@ -21,6 +21,6 @@ The following video will talk about common workholding methods that you can use 
 
 <b>Note:</b> if you have a Mac and are having issues connecting with UGS, try re-opening the Arduino IDE to see what the name of the connection to the machine is, then copy this name back into UGS and click "Open".
 
-[su_youtube_advanced url="https://www.youtube.com/watch?v=aCVZ8CV5q6E" rel="no" modestbranding="yes" title="This video will explain how to prepare your Mill One to start cutting your first projects."]
+[su_youtube_advanced url="https://www.YouTube.com/watch?v=aCVZ8CV5q6E" rel="no" modestbranding="yes" title="This video will explain how to prepare your Mill One to start cutting your first projects."]
 
 Once your sacrificial board is ready, you're ready to start cutting on your Mill One! Head over to the next step where we take you through the steps of making your first test project with your machine, the CNSheep.

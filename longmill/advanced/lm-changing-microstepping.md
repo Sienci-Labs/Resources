@@ -30,11 +30,12 @@ Microstepping is a technique that allows for steps to be broken down into 'sub-s
 
 ## Current Values
 
-Currently, the steps/mm EEPROM settings in the LongMill (<em>$100, </em><em>$101, </em>and <em>$102</em>) are set to 200. This value helps the controller turn g-code into linear movements, then into rotational step signals for the motors. This number comes from taking the values below and running them through the formula:
+The steps/mm EEPROM settings in the LongMill (<em>$100, </em><em>$101, </em>and <em>$102</em>) are set to 200. This value helps the controller turn g-code into linear movements, then into rotational step signals for the motors. This number comes from taking the values below and running them through the formula:
 
 - LongMill stepper motors are **200** steps/rotation
 - Drivers set to **1/8** microstepping by default
-- Each axis is direct drive and Z-axis has **1-to-1** pulley ratio
+- MK1 Longmills: X and Y-axes are direct drive and the Z-axis has **1-to-1** pulley ratio
+- MK2 Longmills: all axes are direct drive
 - Our lead screws have a **2mm** pitch and are **4-start**, 2mm x 4 = 8mm **lead**
 
 <em>Steps/mm  =   Steps/revolution</em><em>  </em><b>/</b><em>  (microstepping value  </em>x<em>  gearing ratio from motor to lead screw  </em>x<em>  lead screw pitch  </em>x<em>  # of starts)</em>
@@ -48,9 +49,9 @@ If you'd like to change your machines microstepping values, you'll have to:
 1. Change the positions of the desired drivers onboard DIP switches and
 1. Set the EEPROM setting to match.
 
-For example, changing the Z-axis driver to have 1/16 microstepping would require following the table below and then in your UGS console sending the command "<em>$102  = 400</em>" to set the appropriate steps/mm of the Z-axis.
+For example, changing the Z-axis driver to have 1/16 microstepping would require following the table below and then in your g-code sender console sending the command "<em>$102  = 400</em>" to set the appropriate steps/mm of the Z-axis.
 
-Each driver can be adjusted to use either single-step or 1/2 step, 1/4 step, 1/8 step, and 1/16 step microstepping. Bare in mind that changes to the DIP switches should only be made when your LongMill is powered off. Also, understand that if you play with microstepping you'll find that positional resolution and torque tend to be inversely proportional.
+Each driver can be adjusted to use either single-step or 1/2 step, 1/4 step, 1/8 step, and 1/16 step microstepping. Bear in mind that changes to the DIP switches should only be made when your LongMill is powered off. Also, understand that if you play with microstepping you'll find that positional resolution and torque tend to be inversely proportional.
 
 <table class="wp-table" width="50%">
 <tbody>

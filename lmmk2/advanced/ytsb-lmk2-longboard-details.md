@@ -118,7 +118,7 @@ You may need to change EEPROM settings if you wish to add additional functionali
 
 Each setting can be changed to suit the user and their machine. We recommend that LongMill MK2 users keep the same default settings for their machines, and check their settings if they are having issues.
 
-To see the **list of LongMill MK2 default EEPROM settings** and for more EEPROM info, please visit: <a href="https://resources.sienci.com/view/lmk2-eeprom-settings/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-eeprom-settings/</a>
+To see the **list of LongMill MK2 default EEPROM settings** and for more EEPROM info, please visit: <a href="https://resources.sienci.com/view/lmk2-EEPROM-settings/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-eeprom-settings/</a>
 
 ## Inputs and outputs
 

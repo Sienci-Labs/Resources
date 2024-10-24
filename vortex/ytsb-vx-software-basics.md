@@ -19,7 +19,7 @@ The process of creating toolpaths for the Vortex rotary axis is largely similar 
 
 We highly recommend that you use software by Vectric (<a href="https://sienci.com/product/vectric-vcarve-desktop-v11/">VCarve Desktop</a> / <a href="https://sienci.com/product/vectric-vcarve-pro-v11/">VCarve Pro</a> / Aspire) since it offers best-in-class support for rotary and is relatively inexpensive. For the purposes of this article we will focus on how to create rotary toolpaths in VCarve.
 
-We also recommend that you use <a href="https://sienci.com/gsender/">gSender</a> as your sending software since it offers native support for the Vortex rotary axis (almost as if we built it ourselves 😃) alongside a host of other features to make your rotary experience as seamless as possible.
+We also recommend that you use <a href="https://sienci.com/gSender/">gSender</a> as your sending software since it offers native support for the Vortex rotary axis (almost as if we built it ourselves 😃) alongside a host of other features to make your rotary experience as seamless as possible.
 
 <img class="aligncenter wp-image-5292 " src="https://resources.sienci.com/wp-content/uploads/2023/06/Vortex-Snaggit-850x430.jpg" alt="" width="555" height="281" />
 

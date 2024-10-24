@@ -23,7 +23,7 @@ If you’ve come here you’re either interested in or have already purchased o
 
 Started in mid-2022, this project has been truly a labour of love for us. Thanks to the initial interest from the first 500 SLB purchasers, we were able to finish bringing the project to life. If you're one of those 500, a special welcome! As you go through our instructions let us know if there's any sticking points you run into and we'll be happy to get them sorted as soon as we can. The SLB may still have some quirks in its early days despite the many months of testing that we've put it through - but we're keen to make it the best it can be and trust we can all work together to make that happen :)
 
-https://www.youtube.com/watch?v=LkZIeJQSzdM
+https://www.YouTube.com/watch?v=LkZIeJQSzdM
 
 ## Diving In
 
@@ -61,7 +61,7 @@ Licensing and files for replication are now rolled out!
 We're continuing to add more information to documentation on the SLB including more information on wiring hookups, recommended accessory compatibilities, and more technical specifications. Otherwise, we've already covered lots of **Frequently Asked Questions** on:
 
 - The <a href="https://sienci.com/product/slb/">SuperLongBoard product page</a>
-- Recent videos on our <a href="https://www.youtube.com/@SienciLabs">YouTube channel</a>
+- Recent videos on our <a href="https://www.YouTube.com/@SienciLabs">YouTube channel</a>
 - Many <a href="https://sienci.com/2023/11/08/next-big-slb-update/">blogs covering the history</a> of the development of the SLB
 
 If you're still needing some extra support with your new SLB, you can always contact us directly at <a href="mailto:support@sienci.com">support@sienci.com</a>.
@@ -165,7 +165,7 @@ Seasoned CNCers might see this list of goals and features and wonder why we didn
   - Many of these have had plenty of time in the market to work out kinks and become reliable for a variety of uses
   - They also come with their own proprietary machine control software and board designs, meaning that you can just drop in the board customized to your setup and be ready to go which many CNC manufacturers can appreciate
   - For us this was a downside though, because as a company we've always been keen to use open solutions in our hardware and software, and though you're getting a package deal for an all-in-one solution it also usually comes at a notable cost increase which could have a large impact on the cost of our budget CNCs
-  - We'd also done years of work already maintaining and improving [our own open source g-code sender](https://sienci.com/gsender/) which we felt had become an asset to the community, so we preferred to find a solution that could leverage that work
+  - We'd also done years of work already maintaining and improving [our own open source g-code sender](https://sienci.com/gSender/) which we felt had become an asset to the community, so we preferred to find a solution that could leverage that work
   - Another downside is that more established board manufacturers tended to use more complex industry terms and solutions in their documentation, support, and design approach which we felt intimidated many hobbyists and reduced ease-of-use
 - **Open but Dispersed systems**
   - This seemed to include options such as [Buildbotics](https://buildbotics.com/), [ShopBot FabMo](http://gofabmo.org/), [Beaglebone running MachineKit](https://www.beagleboard.org/boards), [Smoothieboard](https://smoothieware.org/smoothieboard), [g2core](https://github.com/synthetos/g2) used by Bantam Tools, as well as expanded versions of grbl on the Arduino Mega like [grbl-Mega](https://github.com/gnea/grbl-Mega), [grbl-Mega-5X](https://github.com/fra589/grbl-Mega-5X), or [RabbitGRBL](https://github.com/SourceRabbit/RabbitGRBL)
@@ -202,7 +202,7 @@ With thanks to Andrew and the Expatria team, Terje, grblHAL, our Beta testing co
 - [SuperLongBoard Pre-orders to Launch Dec 4, 2023](https://sienci.com/2023/11/27/superlongboard-pre-orders-to-launch-dec-4-2023/) (Nov 27, 23)
 - [SLB January Updates](https://sienci.com/2024/01/25/slb-january-updates/) (Jan 25, 23)
 - [Feb-ulous SLB news](https://sienci.com/2024/02/29/feb-ulous-slb-news/) (Feb 29, 24)
-- [Introducing the LongMill MK2.5](https://sienci.com/2024/05/10/introducing-longmill-mk2-5/) (May 10, 24)
+- [Introducing the LongMill MK2.5](https://sienci.com/2024/05/10/introducing-LongMill-mk2-5/) (May 10, 24)
 
 All in all, we feel the launch of this board means we succeeded in taking one of the largest steps in achieving our goals towards more reliable, capable, and future-proofed hobby CNC systems for many years to come. Those in the community also seem to strongly agree - as of the time of writing, we've already sold nearly 700 boards to a wide range of CNC owners all over the world.
 
