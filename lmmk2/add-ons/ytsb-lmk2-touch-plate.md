@@ -15,20 +15,18 @@ skip_file: yes
 featured_image: /_images/_longmill/_assembly/_addons/lm_addons_p1.jpg
 ---
 
-## Standard Block-Style Plate
-
 Setting up any style of touch plate on your LongMill is easy. Since it only requires a ‘closed’ connection between two wires you can use all sorts of plate designs from a thin metal sheet to a more common block style to probing off the material itself if it’s conductive. Once wired, the last step is to check that your g-code sender understands the shape of your touch plate and how you plan to use it.
 
 All the touch plates that we provide have instructions below and are fully supported by gSender as well as have some support for other popular senders like UGS, CNCjs, and more.
 
+## Standard Block-Style Plate
+
 This guide covers set up and use of our Standard Touch Plate. If you have a different or custom touch plate that’s a block shape these steps can also be applied for software setup and usage.
 
-<b>Inside the package:</b>
+**Inside the package:**
 
-<ol>
-<li>Block-style touch plate</li>
-<li>Cable with a banana plug and magnet (~1.8m)</li>
-</ol>
+- Block-style touch plate
+- Cable with a banana plug and magnet (~1.8m)
 
 ### Wiring
 
@@ -54,11 +52,9 @@ gSender comes pre-loaded with all the settings needed for our touch plate and is
 
 All probing happens in the Probe tab in the main window. Here you can select what type of probing you'd like to perform as well as select the tool you'll be using or you can type in the tool size manually.
 
-<ul>
-<li><b>Z</b>: Finds the Z height only.</li>
-<li><b>XYZ</b>: Finds the zero point on the front, left corner of your material in all axes.</li>
-<li><b>XY, X, Y</b>: Finds the zero point in the X and/or Y directions only.</li>
-</ul>
+- **Z**: Finds the Z height only.
+- **XYZ**: Finds the zero point on the front, left corner of your material in all axes.
+- **XY, X, Y**: Finds the zero point in the X and/or Y directions only.
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p2Real.png){.aligncenter .size-medium}
 
@@ -88,11 +84,9 @@ Next, we will change a few settings. Click on the "Settings" button on the plugi
 
 Within the left side of the plugin, you'll also see a few more tabs
 
-<ul>
-<li><b>XYZ</b>: Finds the origin/datum point on the corner of your material in all axes.</li>
-<li><b>XY</b>: Finds the origin/datum point in the X and Y direction only.</li>
-<li><b>Z</b>: Finds the Z height only.</li>
-</ul>
+- **XYZ**: Finds the origin/datum point on the corner of your material in all axes.
+- **XY**: Finds the origin/datum point in the X and Y direction only.
+- **Z**: Finds the Z height only.
 
 In these sections, makes sure that these settings are changed. If your section does not have that setting available to change, you can skip it. This means that in the **XYZ** tab you'll enter all these settings, in the **XY** tab you'll only use the settings pertaining to the **x and y-directions**, and in the **Z** tab you'll only use the settings pertaining to the **z-direction**.
 
@@ -112,15 +106,10 @@ We're pretty much ready to go!
 
 If you want to run a probing operation, first we need to place the touch plate and set up the magnet. There needs to always be an electrical connection between the block and magnet for probing to work. gSender has a feature to check this for you, meanwhile UGS you'll need to do this manually.
 
-<ul>
-<li>Make sure the magnet is attached to the collet nut of the Makita router.</li>
-<li>For XYZ probing:
-<ol>
-<li>Place the touch plate on the front left corner of your material. Make sure that both of the inner faces of the touch plate are contacting the edges of your material.</li>
-<li>Jog your machine to position the cutting tool about 10mm (½") or closer above the circular logo on the touch plate.</li>
-</ol>
-</li>
-</ul>
+- Make sure the magnet is attached to the collet nut of the Makita router.
+- For XYZ probing:
+  1. Place the touch plate on the front left corner of your material. Make sure that both of the inner faces of the touch plate are contacting the edges of your material.
+  1. Jog your machine to position the cutting tool about 10mm (½") or closer above the circular logo on the touch plate.
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p5.png "1/4″ end mill positioned for an XYZ probe"){.aligncenter .size-medium}
 
@@ -160,26 +149,15 @@ Remove your magnet and set your touch plate aside, and you're done!
 
 Here are some other options you can use when probing:
 
-<ul>
-<li>For just finding the top of your material (Z):
-<ol>
-<li>Flip your touch plate upside down and place it on top of the material that you want to find the top of.</li>
-<li>Position the cutting tool so that it's above the indented part of the touch plate.</li>
-</ol>
-</li>
-<li>For XY probing:
-<ol>
-<li>Place the touch plate on the front left corner of your material. Make sure that both of the inner faces of the touch plate are contacting the edges of your material.</li>
-<li>Jog your machine to position the cutting tool at the outer corner of the plate, lowered down from its top surface.</li>
-</ol>
-</li>
-<li>For X and Y probing:
-<ol>
-<li>Place the touch plate on the front left corner of your material. Make sure that both of the inner faces of the touch plate are contacting the edges of your material.</li>
-<li>Jog your machine to position the cutting tool away from the X or Y face.</li>
-</ol>
-</li>
-</ul>
+- For just finding the top of your material (Z):
+   1. Flip your touch plate upside down and place it on top of the material that you want to find the top of.
+   1. Position the cutting tool so that it's above the indented part of the touch plate.
+- For XY probing:
+   1. Place the touch plate on the front left corner of your material. Make sure that both of the inner faces of the touch plate are contacting the edges of your material.
+   1. Jog your machine to position the cutting tool at the outer corner of the plate, lowered down from its top surface.
+- For X and Y probing:
+   1. Place the touch plate on the front left corner of your material. Make sure that both of the inner faces of the touch plate are contacting the edges of your material.
+   1. Jog your machine to position the cutting tool away from the X or Y face.
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p9_AllProbe.png "Cutting tool positions for each probe type"){.aligncenter .size-medium}
 
@@ -187,11 +165,9 @@ Here are some other options you can use when probing:
 
 You may have some issues with using your touch probe if your cutting tool is:
 
-<ul>
-<li>Irregularly shaped (v bits, dado bits) and the side of the widest point of the bit does not touch off on the side of the touch plate</li>
-<li>Non-conductive</li>
-<li>You've entered the incorrect plate dimensions. You can refer to our own design below or the dimensions supplied by your third-party touch plate manufacturer:</li>
-</ul>
+- Irregularly shaped (v bits, dado bits) and the side of the widest point of the bit does not touch off on the side of the touch plate
+- Non-conductive
+- You've entered the incorrect plate dimensions. You can refer to our own design below or the dimensions supplied by your third-party touch plate manufacturer:
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p10_Layout.jpg){.aligncenter .size-medium}
 
@@ -199,7 +175,7 @@ You may have some issues with using your touch probe if your cutting tool is:
 
 The AutoZero Touch Plate is specifically designed for use with the latest version of <a href="https://sienci.com/gSender/">gSender</a>. Please download the latest program first.
 
-https://www.YouTube.com/watch?v=H_fYFjtFc3Q
+https://www.youtube.com/watch?v=H_fYFjtFc3Q
 
 ### Step 1: Unwrapping and setting up your touch plate
 
@@ -255,7 +231,7 @@ During the probing process, the touch plate may slide during the touch off proce
 
 You'll also have the option for choosing which tool you're using, either "Auto" or "Tip". **Auto** measures the diameter on **straight end mills and bits.** On the other hand, **Tip** uses the tip of **v-bits, tapered bits, and ball nose** bits touching against the bottom chamfer to determine its position. Using the correct setting will ensure the most accurate probing for your bit.
 
-<em>Finally, </em>click on the probe to check the continuity and start the probing process.
+<em>Finally,</em> click on the probe to check the continuity and start the probing process.
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p17.png){.aligncenter .size-medium .nar}
 
@@ -298,7 +274,7 @@ To do so:
 
 1. Run the desired probing macro.
 1. If the macro involves probing in the X and/or Y axis (i.e. not probing Z alone), manually divide the coordinates you see after probing by 2.
-1. Enter the command <b><em>G10 L20 P0 X[divided X coordinate] Y[divided Y coordinate]</em></b> into the console substituting the coordinates in square brackets with ones manually calculated in step 2. If you have only probed either the X or the Y axis, you will only need to divide and substitute the coordinate for the axis which was probed.
+1. Enter the command `G10 L20 P0 X[divided X coordinate] Y[divided Y coordinate]` into the console substituting the coordinates in square brackets with ones manually calculated in step 2. If you have only probed either the X or the Y axis, you will only need to divide and substitute the coordinate for the axis which was probed.
 1. Home X and/or Y to check if the tool is at origin
 
 <img class="aligncenter wp-image-4776 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/AZ-Coordinate-Division-Generic.gif" alt="" width="600" height="338" /> <em>Example dividing the X and Y axis coordinates after probing in any CNC control software</em>

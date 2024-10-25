@@ -198,16 +198,12 @@ We also have a <b><a href="https://www.YouTube.com/channel/UCS4SdQ0sqFhvjitLjh4E
 <h2>Additional Project Videos</h2>
 
 Each of these project videos come with step-by-step instructions on making your own!
-
-https://www.YouTube.com/watch?v=Dfwy2fDhUZ8
-
-https://www.YouTube.com/watch?v=cwDvnuouFlw
-
-https://www.YouTube.com/watch?v=b4HOfNXsrb0
+https://www.youtube.com/watch?v=Dfwy2fDhUZ8
+https://www.youtube.com/watch?v=cwDvnuouFlw
+https://www.youtube.com/watch?v=b4HOfNXsrb0
 
 https://youtu.be/uzgvDvpbq4s
-
-https://www.YouTube.com/watch?v=T3CF0i_SUlo
+https://www.youtube.com/watch?v=T3CF0i_SUlo
 
 https://youtu.be/GRZNaJl7-Ww
 

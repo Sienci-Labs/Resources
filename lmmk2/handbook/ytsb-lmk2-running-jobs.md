@@ -118,7 +118,7 @@ Some bits like v-bits or surfacing bits require the bit shaft to be placed throu
 <img class="aligncenter size-medium wp-image-3700" src="https://resources.sienci.com/wp-content/uploads/2022/03/collet-v-bit-triptych-1-850x288.jpg" alt="" width="850" height="288" />
 
 When installing the bits into the router, always tighten using the wrenches. The router can be damaged using the button and wrench when tightening. Loose bits can be tricky. Hold the bit in place with one finger. Press the red button with your thumb to lock the shaft in place. With the other hand finger tighten the collet nut till the bit can be held on its own. Use both wrenches to tighten firmly.
-<a href="https://www.YouTube.com/watch?v=LFeBRBjBYbk" target="_blank" rel="noopener">https://www.YouTube.com/watch?v=LFeBRBjBYbk</a>
+<a href="https://www.YouTube.com/watch?v=LFeBRBjBYbk" target="_blank" rel="noopener">https://www.youtube.com/watch?v=LFeBRBjBYbk</a>
 
 <img class="aligncenter size-medium wp-image-3701" src="https://resources.sienci.com/wp-content/uploads/2022/03/red-button-fingertighten-850x478.jpg" alt="" width="850" height="478" />
 

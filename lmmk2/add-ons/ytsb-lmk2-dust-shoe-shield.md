@@ -44,8 +44,7 @@ Watch the assembly and installation video:
 https://youtu.be/COwusQzX49w
 
 See more about how the shoe can be used for dust collection on your CNC as well!
-
-https://www.YouTube.com/watch?v=94r4hgr2SgA
+https://www.youtube.com/watch?v=94r4hgr2SgA
 
 ## Dust Shields
 

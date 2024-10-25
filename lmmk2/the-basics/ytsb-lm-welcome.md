@@ -30,8 +30,7 @@ Find pages dedicated to:
 - guidance on **best practices**
 - sources for projects and **project inspiration**
 - Troubleshooting and maintenance
-
-https://www.YouTube.com/watch?v=xhuofvUA7vA
+https://www.youtube.com/watch?v=xhuofvUA7vA
 
 You'll want to bookmark 🔖 this page for all your future use. Think of it like a paper manual you might normally receive when you buy tools - except online. Though learning to use a CNC router isn't a cakewalk, we're not here to sell you a machine and leave you to the sharks. We want to ensure we're doing everything we can to stock your quiver with the knowledge you need to take you all the way through your hobby CNC journey 🙂
 

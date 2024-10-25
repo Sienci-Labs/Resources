@@ -19,6 +19,14 @@ There has been a variety of table designs to pop up within our community as each
 
 On this page, we consolidated the most unique designs so that you can gain inspiration for your own table build by seeing what's worked for others before you. Each example will link to the original post where the table was shown off so that you can readily follow up with the original table designers if you'd like to inquire about their design further.
 
+## Table Size
+
+The minimum size of your table will depend on the size of your machine (48x30, 30x30, or 12x30). Below is a guide on the outside dimensions and working area of each version of the LongMill.
+
+<img class="alignnone size-full wp-image-42390" src="https://sienci.com/wp-content/uploads/2021/12/MK2-Dimensions.png" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://sienci.com/wp-content/uploads/2021/12/MK2-Dimensions.png 1200w, https://sienci.com/wp-content/uploads/2021/12/MK2-Dimensions-300x225.png 300w, https://sienci.com/wp-content/uploads/2021/12/MK2-Dimensions-1024x768.png 1024w, https://sienci.com/wp-content/uploads/2021/12/MK2-Dimensions-768x576.png 768w, https://sienci.com/wp-content/uploads/2021/12/MK2-Dimensions-324x243.png 324w, https://sienci.com/wp-content/uploads/2021/12/MK2-Dimensions-416x312.png 416w" alt="" width="1200" height="900" />
+
+Your table should be at least the "Machine Footprint" dimensions to fully support the machine. This indicates the approximate distances from each outside corner of the machine. However, we recommend building your table larger than needed to give extra space to make mounting and maintenance easier, as well as space for tools, computers, and wiring to sit.
+
 ## Community Table Builds
 
 ### Simple Table Design
@@ -132,10 +140,10 @@ Adding an enclosure to your CNC is a great way to reduce noise and dust in the s
 
 ![](/_images/_longmill/_the-basics/lm_communitytable_p11_PaulDaveCharlesEnclosure.jpg){.aligncenter .size-large}
 
-Dave’s video - <a href="https://www.YouTube.com/watch?v=SxiLNjUlw3c">https://www.YouTube.com/watch?v=SxiLNjUlw3c</a><br>
+Dave’s video - <a href="https://www.YouTube.com/watch?v=SxiLNjUlw3c">https://www.youtube.com/watch?v=SxiLNjUlw3c</a><br>
 Charles' guide - <a href="https://forum.sienci.com/t/custom-cover-for-LongMill-mk2-30x48/10423">https://forum.sienci.com/t/custom-cover-for-LongMill-mk2-30x48/10423</a><br>
 Paul’s post - <a href="https://www.facebook.com/groups/mill.one/permalink/835391973598802/">https://www.facebook.com/groups/mill.one/permalink/835391973598802/</a>
 
 ## Other Modifications
 
-There are even more great modifications that can be made to your CNC table to improve its usability and the usability of the machine itself. To see the full list of current modifications ranging from David's dust collection hose boom and switching box, to Philip's 3D printable laser diode centre-point locator, click the link here: <a href="https://resources.sienci.com/view/lm-open-source-and-modifications/" target="_blank" rel="noopener noreferrer">https://resources.sienci.com/view/lm-open-source-and-modifications/</a>
+There are even more great modifications that can be made to your CNC table to improve its usability and the usability of the machine itself. To see the full list of current modifications ranging from David's dust collection hose boom and switching box, to Philip's 3D printable laser diode centre-point locator, click the link here: <a href="https://resources.sienci.com/view/lmk2-open-source/">https://resources.sienci.com/view/lmk2-open-source/</a>

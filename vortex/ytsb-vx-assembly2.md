@@ -16,8 +16,7 @@ featured_image: _images/post-image.jpg
 ---
 
 Congratulations on receiving your new Vortex Rotary Axis! Check out our unboxing and assembly video or continue reading below.
-
-https://www.YouTube.com/watch?v=AEDRXNzc2PE
+https://www.youtube.com/watch?v=AEDRXNzc2PE
 
 When you open up the box:
 

@@ -132,7 +132,7 @@ Adding an enclosure to your CNC is a great way to reduce noise and dust in the s
 
 ![](/_images/_longmill/_the-basics/lm_communitytable_p11_PaulDaveCharlesEnclosure.jpg){.aligncenter .size-large}
 
-Dave’s video - <a href="https://www.YouTube.com/watch?v=SxiLNjUlw3c">https://www.YouTube.com/watch?v=SxiLNjUlw3c</a><br>
+Dave’s video - <a href="https://www.YouTube.com/watch?v=SxiLNjUlw3c">https://www.youtube.com/watch?v=SxiLNjUlw3c</a><br>
 Charles' guide - <a href="https://forum.sienci.com/t/custom-cover-for-LongMill-mk2-30x48/10423">https://forum.sienci.com/t/custom-cover-for-LongMill-mk2-30x48/10423</a><br>
 Paul’s post - <a href="https://www.facebook.com/groups/mill.one/permalink/835391973598802/">https://www.facebook.com/groups/mill.one/permalink/835391973598802/</a>
 

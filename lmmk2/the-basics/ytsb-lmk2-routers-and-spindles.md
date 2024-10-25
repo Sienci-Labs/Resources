@@ -89,19 +89,19 @@ We supply <a href="https://sienci.com/product/router-mount-for-LongMill-benchtop
 
 Although we do not offer technical support on adding a spindle, here are some general steps on adding a spindle:
 
-**1. Choose the correct size, voltage, RPM, cooling, and power requirements**<br>
+**1. Choose the correct size, voltage, RPM, cooling, and power requirements**  
 Most spindles in this size range will have a 1.5-2.2kW rating, or 2HP to 3HP approximately, and come with a 65mm or 80mm body. The larger the spindle, generally the higher the power and larger the end mills you can use; going past 2.2kW on any hobby machine though immediately diminishes returns since the rigidity of the machine becomes the main limitation. Most spindles will also use 110V or 220V power and must be matched with the correct VFD to work properly, and you will have to make sure your household wiring can provide the amount of power required to run your spindle.
 
 Most spindles also come with either air cooling or water cooling. Water cooling spindles may be more compact at the spindle side but require an additional setup for the water and pumps to work properly. Air-cooled spindles are simpler and easier to install but may be larger than water-cooled and create more noise.
 
-**2. Properly wire, shield, and program your spindle**<br>
+**2. Properly wire, shield, and program your spindle**  
 Installing your router mount is fairly straightforward. Simply move your machine to the highest point on the Z-axis and undo the four M5 bolts from the back. Swap out the router mount to the size you need.
 
 ![](/_images/_longmill/_the-basics/lm_routersspindle_p5_WireRoute.jpeg){.aligncenter .size-medium}
 
 From here you can mount your spindle and wire the cables through the drag chains. It is very important to use a properly shielded cable and ground your cable properly, as 3-phase spindles can create a lot of interference. You will also need to program your VFD using the appropriate values to control things like the method of control, your input voltage and frequency, your output voltage and frequency, PWM signal speed ranges, and more.
 
-**3. Test your spindle and motion system**<br>
+**3. Test your spindle and motion system**  
 Because the spindle is most likely heavier than the Makita RT0701, the machine will need to work harder to move the spindle around. Although it's not likely you'll need to change any settings, it is recommended to try moving your machine around with the heavier spindle and slow down your machine's max feed rates in the firmware if you run into any stalling. Note that the added weight may affect the wear and tear on components such as the Delrin nuts and V-wheels.
 
 <a href="https://sienci.com/2022/07/21/adding-a-spindle-to-your-LongMill/" target="_blank" rel="noopener">For a longer form, general article on adding a spindle, check out our full blog post</a>.

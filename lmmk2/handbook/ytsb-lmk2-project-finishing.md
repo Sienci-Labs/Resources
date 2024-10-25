@@ -122,7 +122,7 @@ Do this to further improve to surface finish on woods that you plan on finishing
 | **Video Title** | **Description** | **Duration** | **Link** |
 |-----------------|-----------------|--------------|----------|
 | Move up the Grits!! | Explains how to move up the grits when sanding. | 3 minutes | [Watch Video](https://youtu.be/KiE4Pk_gu50) |
-| Top 5 Tips for Orbital Sanding | Pro tips for orbital sanding. | Under 1 minute | [Watch Video](https://YouTube.com/shorts/FXmkWtLTgJw) |
+| Top 5 Tips for Orbital Sanding | Pro tips for orbital sanding. | Under 1 minute | [Watch Video](https://www.YouTube.com/shorts/FXmkWtLTgJw) |
 | Filling a Crack or Gap with Sawdust and Glue | Shows how to fill cracks or gaps with sawdust and glue to match. | 3 minutes | [Watch Video](https://youtu.be/UE-elux6fQw) |
 |Mini Mops? Like a sanding mop just smaller? | Great explanation on small detail sanding. | 3 minutes |[Watch Video](https://youtu.be/2r2Zt_K76O4) |
 | Breaking the Edges to Preserve Them | A short video explaining why and how to break your edges during sanding. | Under 1 minute | [Watch Video](https://youtu.be/_BfKo2Yn-5A) |

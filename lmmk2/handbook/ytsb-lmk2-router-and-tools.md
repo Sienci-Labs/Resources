@@ -35,7 +35,7 @@ Each of these factors must be suited to the properties of the material that you'
 
 ## Recommendations
 
-Since there are so many different types and sizes of cutting tools, we've created a list below of just 3 different cutting tools that we strongly recommend to get started on your machine. We've created <a href="https://resources.sienci.com/view/lm-materials/" target="_blank" rel="noopener noreferrer">feed and speed tables</a> for these tools for cutting in various materials so that you can copy/paste the values you need for your first projects. If you're looking to get started with this recommended list, all of these tools can be found for purchase <a href="https://sienci.com/product-category/cutting-tools/" target="_blank" rel="noopener noreferrer">in our store!</a>
+Since there are so many different types and sizes of cutting tools, we've created a list below of just 3 different cutting tools that we strongly recommend to get started on your machine. We've created <a href="https://resources.sienci.com/view/lmk2-feeds-and-speeds/" target="_blank" rel="noopener noreferrer">feed and speed tables</a> for these tools for cutting in various materials so that you can copy/paste the values you need for your first projects. If you're looking to get started with this recommended list, all of these tools can be found for purchase <a href="https://sienci.com/product-category/cutting-tools/" target="_blank" rel="noopener noreferrer">in our store!</a>
 
 Ensure that any cutting tool you end up using is installed as deeply as possible into the router, with a bare-minimum of 3/8” of the tool being inside the router for light cuts.
 

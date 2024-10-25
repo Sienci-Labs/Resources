@@ -37,8 +37,7 @@ If you don't have great dust pickup or you tend to push your machine harder or l
 ## Tuning your LongMill
 
 While the instructions in the video below are specific to the MK2 48x30, the adjustment and tuning of the motor couplers, anti-backlash nuts, and v-wheels will be similar for other LongMills.
-
-https://www.YouTube.com/watch?v=p5SpgoUza7o
+https://www.youtube.com/watch?v=p5SpgoUza7o
 
 ## Cleaning your Rails and Wheels
 

@@ -23,109 +23,97 @@ If you'd like some inspiration, we spent some time putting together a categorize
 
 [tabby title="General" open="yes"]
 
-<ul>
-  <li>Signs (house number, business, alert, etc.)</li>
-  <li>Lettering (indoor decoration / kids names)</li>
-  <li>Picture frames</li>
-  <li>Wood boxes</li>
-  <li>Stands, organizing trays, bins</li>
-  <li>Clamping system</li>
-  <li>Wood &amp; wire inlays</li>
-  <li>Automated CNC joinery</li>
-  <li>Bow ties &amp; inlays</li>
-  <li>Stencils</li>
-  <li>Engrave existing objects</li>
-</ul>
+- Signs (house number, business, alert, etc.)
+- Lettering (indoor decoration / kids names)
+- Picture frames
+- Wood boxes
+- Stands, organizing trays, bins
+- Clamping system
+- Wood & wire inlays
+- Automated CNC joinery
+- Bow ties & inlays
+- Stencils
+- Engrave existing objects
 
 [tabby title="Furniture"]
 
-<ul>
-  <li>Cabinetry</li>
-  <li>Stools, step stools, poop stool</li>
-  <li>Shelf / shelving unit / bookshelf</li>
-  <li>Chairs</li>
-  <li>Cradle / rocking chair</li>
-  <li>Small bench</li>
-  <li>Side tables / nightstands</li>
-  <li>Laptop, tablet stands</li>
-  <li>Monitor riser</li>
-  <li>Coat rack</li>
-  <li>Shoe rack</li>
-  <li>Lamp</li>
-  <li>Drawer pulls</li>
-  <li>Tool storage / holders</li>
-</ul>
+- Cabinetry
+- Stools, step stools, poop stool
+- Shelf / shelving unit / bookshelf
+- Chairs
+- Cradle / rocking chair
+- Small bench
+- Side tables / nightstands
+- Laptop, tablet stands
+- Monitor riser
+- Coat rack
+- Shoe rack
+- Lamp
+- Drawer pulls
+- Tool storage / holders
 
 [tabby title="Household"]
 
-<ul>
-  <li>Coasters / trivets</li>
-  <li>Cutting boards</li>
-  <li>Wooden plates, bowls, utensils</li>
-  <li>Trays, charcuterie boards</li>
-  <li>Cat / dog bowl stands</li>
-  <li>Bottle opener</li>
-  <li>Balance board</li>
-  <li>Money bank</li>
-  <li>Bookmarks / holders</li>
-  <li>Candle holder</li>
-  <li>Comb</li>
-  <li>Toothbrush holder</li>
-  <li>Shopping bag holder</li>
-  <li>Glass rimmer</li>
-  <li>Bookends</li>
-  <li>Bird house</li>
-  <li>Keychain</li>
-  <li>Bathroom organizer</li>
-</ul>
+- Coasters / trivets
+- Cutting boards
+- Wooden plates, bowls, utensils
+- Trays, charcuterie boards
+- Cat / dog bowl stands
+- Bottle opener
+- Balance board
+- Money bank
+- Bookmarks / holders
+- Candle holder
+- Comb
+- Toothbrush holder
+- Shopping bag holder
+- Glass rimmer
+- Bookends
+- Bird house
+- Keychain
+- Bathroom organizer
 
-[tabby title="Toys &amp; Activities"]
+[tabby title="Toys & Activities"]
 
-<ul>
-  <li>Puzzles</li>
-  <li>Mazes</li>
-  <li>Chess Board</li>
-  <li>Wooden sword</li>
-  <li>Wooden cars / vehicles</li>
-  <li>Board game</li>
-  <li>Cribbage board</li>
-  <li>Connect four</li>
-  <li>Awards / trophies</li>
-  <li>Elastic gun</li>
-  <li>Wooden animals</li>
-  <li>Dice holder / roller</li>
-  <li>Longboard</li>
-  <li>Slingshot</li>
-  <li>RC cars &amp; planes</li>
-</ul>
+- Puzzles
+- Mazes
+- Chess Board
+- Wooden sword
+- Wooden cars / vehicles
+- Board game
+- Cribbage board
+- Connect four
+- Awards / trophies
+- Elastic gun
+- Wooden animals
+- Dice holder / roller
+- Longboard
+- Slingshot
+- RC cars & planes
 
 [tabby title="Art"]
 
-<ul>
-  <li>Sculpture</li>
-  <li>Props, model making</li>
-  <li>Custom guitar body</li>
-  <li>Earring, necklace, pendant</li>
-  <li>Badge</li>
-  <li>Topography / mountain range</li>
-  <li>Ocean / lake carving</li>
-  <li>3D face</li>
-  <li>Custom mask</li>
-  <li>Custom stamp</li>
-  <li>Branding iron</li>
-</ul>
+- Sculpture
+- Props, model making
+- Custom guitar body
+- Earring, necklace, pendant
+- Badge
+- Topography / mountain range
+- Ocean / lake carving
+- 3D face
+- Custom mask
+- Custom stamp
+- Branding iron
 
 [tabby title="Other"]
 
-<ul>
-  <li>Injection mold dies</li>
-  <li>Carbon fibre frames</li>
-  <li>Circuit boards</li>
-  <li>Lost foam / wax casting</li>
-  <li>Gears</li>
-  <li>Custom ruler</li>
-  <li>Coins</li>
-</ul>
+- Injection mold dies
+- Carbon fibre frames
+- Circuit boards
+- Lost foam / wax casting
+- Gears
+- Custom ruler
+- Coins
 
 [tabbyending]
 
@@ -145,89 +133,81 @@ If you're looking for some more inspiration, or would like to start by making so
 
 [tabby title="Art / Drawings" open="yes"]
 
-<ul>
-  <li><a href="https://obrary.com/collections/open-designs" target="_blank" rel="noopener noreferrer">Obrary</a></li>
-  <li><a href="http://maslowcommunitygarden.org/index.html" target="_blank" rel="noopener noreferrer">Maslow Community Garden </a></li>
-  <li><a href="https://www.freepatternsarea.com/free-patterns-templates/" target="_blank" rel="noopener noreferrer">FreePatternsArea (templates)</a></li>
-  <li><a href="https://www.freepatternsarea.com/free-projects/" target="_blank" rel="noopener noreferrer">FreePatternsArea (projects)</a></li>
-  <li><a href="https://www.ameede.com/" target="_blank" rel="noopener noreferrer">Ameede</a> (need to wait 45 seconds for download)</li>
-  <li><a href="https://freedxf.com/product-category/free/" target="_blank" rel="noopener">FreeDXF</a> (sign-up rqd, free &amp; paid content)</li>
-  <li><a href="http://3axis.co/" target="_blank" rel="noopener noreferrer">3axis.co</a> (need to wait 5 seconds for download)</li>
-  <li><a href="https://www.cnccookbook.com/free-dxf-files/" target="_blank" rel="noopener noreferrer">CNC Cookbook (free dxf files)</a></li>
-  <li><a href="https://cncfilesharing.com/">CNC File Sharing</a> (sign-up rqd)</li>
-  <li><a href="https://www.toolstoday.com/t-cnc-pattern-directories">ToolsToday Pattern Directory</a> (links to free and paid content)</li>
-  <li><a href="https://www.scan2cad.com/free-downloads/dxf/" target="_blank" rel="noopener noreferrer">Scan2CAD</a> (free collection every month, sign-up rqd)</li>
-  <li><a href="https://www.zenziwerken.de/">ZenziWerken</a> (2D and 3D files, all free, made by one guy: Daniel)</li>
-  <li><a href="https://cutrocket.com/list/all/" target="_blank" rel="noopener noreferrer">CutRocket</a> (good project details, files only for Carbide Create, sign-up rqd)</li>
-  <li><a href="https://www.inventables.com/projects" target="_blank" rel="noopener noreferrer">Inventables Projects</a> (can only open projects in Easel, sign-up rqd)</li>
-  <li><a href="https://www.shapertools.com/hub/search" target="_blank" rel="noopener noreferrer">ShaperHub</a> (can only open files in Shaper Website, sign-up rqd)</li>
-  <li><a href="https://www.readytocut.com/community/forums/cnc-art-file-sharing.136/">Ready To Cut</a> (projects from the community, sign-up rqd)</li>
-  <li><a href="https://akerkits.com/collections/source-files" target="_blank" rel="noopener noreferrer">AKER (source files)</a> (garden products, need to “pay” $0 for files)</li>
-  <li><a href="http://betterblock.org/wikiblock/designs/">wikiblock</a> (most content is paid)</li>
-  <li><a href="https://www.modifile.com/designs" target="_blank" rel="noopener noreferrer">modifile</a> (parametric furniture, sign-up rqd, all content is paid)</li>
-  <li><a href="https://www.cncdesignshop.com/" target="_blank" rel="noopener noreferrer">DesignShop</a> (paid membership rqd, most models paid in addition)</li>
-  <li><a href="https://aribabox.com/collections/all-designs">Ariba Box</a> (sign-up rqd, free &amp; paid content)</li>
-  <li><a href="https://www.etsy.com/market/cnc_patterns">Etsy (CNC patterns)</a> (sign-up rqd, all paid content)</li>
-  <li><a href="https://cncrouterdesign.com/">CNC Router Design</a> (sign-up rqd, all paid content)</li>
-  <li><a href="https://projects.buildbotics.com/explore/creations">Buildbotics Projects</a> (old, almost empty, broken images)<b></b></li>
-  <li><a href="http://www.cnc4free.org/">cnc4free.org</a> (non-commercial use)</li>
-  <li><a href="http://atfab.co/cnc-furniture/">AtFAB</a> (furniture, sign-up rqd)</li>
-  <li><a href="https://www.opendesk.cc/designs">https://www.opendesk.cc/designs</a> (furniture)</li>
-</ul>
+- <a href="https://obrary.com/collections/open-designs" target="_blank" rel="noopener noreferrer">Obrary</a>
+- <a href="http://maslowcommunitygarden.org/index.html" target="_blank" rel="noopener noreferrer">Maslow Community Garden </a>
+- <a href="https://www.freepatternsarea.com/free-patterns-templates/" target="_blank" rel="noopener noreferrer">FreePatternsArea (templates)</a>
+- <a href="https://www.freepatternsarea.com/free-projects/" target="_blank" rel="noopener noreferrer">FreePatternsArea (projects)</a>
+- <a href="https://www.ameede.com/" target="_blank" rel="noopener noreferrer">Ameede</a> (need to wait 45 seconds for download)
+- <a href="https://freedxf.com/product-category/free/" target="_blank" rel="noopener">FreeDXF</a> (sign-up rqd, free &amp; paid content)
+- <a href="http://3axis.co/" target="_blank" rel="noopener noreferrer">3axis.co</a> (need to wait 5 seconds for download)
+- <a href="https://www.cnccookbook.com/free-dxf-files/" target="_blank" rel="noopener noreferrer">CNC Cookbook (free dxf files)</a>
+- <a href="https://cncfilesharing.com/">CNC File Sharing</a> (sign-up rqd)
+- <a href="https://www.toolstoday.com/t-cnc-pattern-directories">ToolsToday Pattern Directory</a> (links to free and paid content)
+- <a href="https://www.scan2cad.com/free-downloads/dxf/" target="_blank" rel="noopener noreferrer">Scan2CAD</a> (free collection every month, sign-up rqd)
+- <a href="https://www.zenziwerken.de/">ZenziWerken</a> (2D and 3D files, all free, made by one guy: Daniel)
+- <a href="https://cutrocket.com/list/all/" target="_blank" rel="noopener noreferrer">CutRocket</a> (good project details, files only for Carbide Create, sign-up rqd)
+- <a href="https://www.inventables.com/projects" target="_blank" rel="noopener noreferrer">Inventables Projects</a> (can only open projects in Easel, sign-up rqd)
+- <a href="https://www.shapertools.com/hub/search" target="_blank" rel="noopener noreferrer">ShaperHub</a> (can only open files in Shaper Website, sign-up rqd)
+- <a href="https://www.readytocut.com/community/forums/cnc-art-file-sharing.136/">Ready To Cut</a> (projects from the community, sign-up rqd)
+- <a href="https://akerkits.com/collections/source-files" target="_blank" rel="noopener noreferrer">AKER (source files)</a> (garden products, need to “pay” $0 for files)
+- <a href="http://betterblock.org/wikiblock/designs/">wikiblock</a> (most content is paid)
+- <a href="https://www.modifile.com/designs" target="_blank" rel="noopener noreferrer">modifile</a> (parametric furniture, sign-up rqd, all content is paid)
+- <a href="https://www.cncdesignshop.com/" target="_blank" rel="noopener noreferrer">DesignShop</a> (paid membership rqd, most models paid in addition)
+- <a href="https://aribabox.com/collections/all-designs">Ariba Box</a> (sign-up rqd, free &amp; paid content)
+- <a href="https://www.etsy.com/market/cnc_patterns">Etsy (CNC patterns)</a> (sign-up rqd, all paid content)
+- <a href="https://cncrouterdesign.com/">CNC Router Design</a> (sign-up rqd, all paid content)
+- <a href="https://projects.buildbotics.com/explore/creations">Buildbotics Projects</a> (old, almost empty, broken images)<b></b>
+- <a href="http://www.cnc4free.org/">cnc4free.org</a> (non-commercial use)
+- <a href="http://atfab.co/cnc-furniture/">AtFAB</a> (furniture, sign-up rqd)
+- <a href="https://www.opendesk.cc/designs">https://www.opendesk.cc/designs</a> (furniture)
 
 General sources:
 
-<ul>
-  <li><a href="https://mydxf.blogspot.co.uk/" target="_blank" rel="noopener noreferrer">My DXF</a></li>
-  <li><a href="https://lovesvg.com/product-category/free-svg-files/" target="_blank" rel="noopener">Love SVG</a></li>
-  <li><a href="https://www.pngrepo.com/" target="_blank" rel="noopener">PNG Repo</a></li>
-  <li><a href="https://www.svgrepo.com/" target="_blank" rel="noopener">SVG Repo</a></li>
-  <li><a href="https://plotterfiles.com/" target="_blank" rel="noopener">PlotterFiles</a></li>
-  <li><a href="https://www.flaticon.com/" target="_blank" rel="noopener">flaticon</a> (icons &amp; icon packs, sign-up rqd, free &amp; paid)</li>
-  <li><a href="https://pixabay.com/" target="_blank" rel="noopener">Pixabay</a> (must check captcha for download unless logged in)</li>
-  <li><a href="https://www.vhv.rs/" target="_blank" rel="noopener">VHV.RS</a> (non-commercial use)</li>
-  <li><a href="http://clipart-library.com/" target="_blank" rel="noopener">Clipart Library</a> (non-commercial use)</li>
-  <li>Some of the 2D file making programs also come with a small subset of free 2D files</li>
-</ul>
+- <a href="https://mydxf.blogspot.co.uk/" target="_blank" rel="noopener noreferrer">My DXF</a>
+- <a href="https://lovesvg.com/product-category/free-svg-files/" target="_blank" rel="noopener">Love SVG</a>
+- <a href="https://www.pngrepo.com/" target="_blank" rel="noopener">PNG Repo</a>
+- <a href="https://www.svgrepo.com/" target="_blank" rel="noopener">SVG Repo</a>
+- <a href="https://plotterfiles.com/" target="_blank" rel="noopener">PlotterFiles</a>
+- <a href="https://www.flaticon.com/" target="_blank" rel="noopener">flaticon</a> (icons &amp; icon packs, sign-up rqd, free &amp; paid)
+- <a href="https://pixabay.com/" target="_blank" rel="noopener">Pixabay</a> (must check captcha for download unless logged in)
+- <a href="https://www.vhv.rs/" target="_blank" rel="noopener">VHV.RS</a> (non-commercial use)
+- <a href="http://clipart-library.com/" target="_blank" rel="noopener">Clipart Library</a> (non-commercial use)
+- Some of the 2D file making programs also come with a small subset of free 2D files
 
 [tabby title="3D Models"]
 
-<ul>
-  <li><a href="https://www.thingiverse.com/SienciLabs/collections/cnc-projects-to-try" target="_blank" rel="noopener noreferrer">Sienci Labs' Thingiverse collection</a> (our curated list)</li>
-  <li><a href="https://cults3d.com/en/tags/bas-relief" target="_blank" rel="noopener noreferrer">Cults 3D (reliefs)</a></li>
-  <li><a href="https://www.thingiverse.com/search?sort=things&amp;q=cnc+projects&amp;type=collections" target="_blank" rel="noopener noreferrer">Thingiverse (CNC projects)</a></li>
-  <li><a href="https://store.designandmake.com/" target="_blank" rel="noopener noreferrer">Design &amp; Make</a> (good models, sign-up rqd, most content is paid)</li>
-  <li><a href="https://www.vectorclip3d.com/" target="_blank" rel="noopener noreferrer">VectorClip3D</a> (sign-up rqd, most content is paid)</li>
-  <li><a href="https://3dwave.us/" target="_blank" rel="noopener noreferrer">3D Wave</a> (sign-up rqd, all content is paid)</li>
-</ul>
+- <a href="https://www.thingiverse.com/SienciLabs/collections/cnc-projects-to-try" target="_blank" rel="noopener noreferrer">Sienci Labs' Thingiverse collection</a> (our curated list)
+- <a href="https://cults3d.com/en/tags/bas-relief" target="_blank" rel="noopener noreferrer">Cults 3D (reliefs)</a>
+- <a href="https://www.thingiverse.com/search?sort=things&amp;q=cnc+projects&amp;type=collections" target="_blank" rel="noopener noreferrer">Thingiverse (CNC projects)</a>
+- <a href="https://store.designandmake.com/" target="_blank" rel="noopener noreferrer">Design &amp; Make</a> (good models, sign-up rqd, most content is paid)
+- <a href="https://www.vectorclip3d.com/" target="_blank" rel="noopener noreferrer">VectorClip3D</a> (sign-up rqd, most content is paid)
+- <a href="https://3dwave.us/" target="_blank" rel="noopener noreferrer">3D Wave</a> (sign-up rqd, all content is paid)
 
 General sources:
 
-<ul>
-  <li><a href="https://www.thingiverse.com/" target="_blank" rel="noopener noreferrer">Thingiverse</a> (nice community, good selection)</li>
-  <li><a href="https://www.myminifactory.com/pages/explore" target="_blank" rel="noopener noreferrer">MyMiniFactory</a> (nice community, most models free)</li>
-  <li><a href="https://free3d.com/" target="_blank" rel="noopener noreferrer">Free3D</a> (cool models, some content is paid)</li>
-  <li><a href="https://www.youmagine.com/" target="_blank" rel="noopener noreferrer">YouMagine</a></li>
-  <li><a href="https://clara.io/library">Clara.io</a> (medium-sized database, sign-up rqd)</li>
-  <li><a href="https://www.3dcontentcentral.com/" target="_blank" rel="noopener noreferrer">3DContentCentral</a> (large database, sign-up rqd)</li>
-  <li><a href="https://grabcad.com/library" target="_blank" rel="noopener noreferrer">GrabCAD</a> (large database, sign-up rqd)</li>
-  <li><a href="https://cults3d.com/en" target="_blank" rel="noopener noreferrer">Cults3D</a> (sign-up rqd, lots of paid content)</li>
-  <li><a href="https://pinshape.com/" target="_blank" rel="noopener noreferrer">pinshape</a> (nice community, sign-up rqd, some content is paid)</li>
-  <li><a href="https://thangs.com/">Thangs</a></li>
-  <li><a href="https://b2b.partcommunity.com/community/partcloud/" target="_blank" rel="noopener noreferrer">PARTcloud</a> (assorted models)</li>
-  <li><a href="https://open3dmodel.com/" target="_blank" rel="noopener noreferrer">Open3DModel</a></li>
-  <li><a href="https://libre3d.com/" target="_blank" rel="noopener noreferrer">Libre3D</a></li>
-  <li><a href="https://repables.com/" target="_blank" rel="noopener noreferrer">Repables</a></li>
-  <li><a href="https://touchterrain.geol.iastate.edu/" target="_blank" rel="noopener noreferrer">TouchTerrain</a> (topography generator, limited abilities)</li>
-  <li><a href="http://jthatch.com/Terrain2STL/" target="_blank" rel="noopener">Terrain2STL</a> (topography generator, limited abilities)</li>
-  <li><a href="https://terrainator.com" target="_blank" rel="noopener noreferrer">The Terrainator</a> (topography generator, sign-up rqd, paid)</li>
-  <li><a href="https://nasa3d.arc.nasa.gov/models/printable" target="_blank" rel="noopener noreferrer">NASA (3D resources)</a> (NASA models)</li>
-  <li><a href="https://www.embodi3d.com/files/" target="_blank" rel="noopener noreferrer">embodi3D</a> (medical models, sign-up rqd, some content is paid)</li>
-  <li><a href="https://africanfossils.org/search" target="_blank" rel="noopener noreferrer">AfricanFossils.org</a> (models of African fossils, sign-up rqd)</li>
-  <li><a href="https://library.zortrax.com/" target="_blank" rel="noopener noreferrer">zortrax</a> (small collection, sign-up rqd)</li>
-  <li><a href="https://www.3dcadbrowser.com/3dmodels.aspx">3D CAD Browser</a> (sign-up rqd, odd system of requiring uploads to download, free &amp; paid models)</li>
-  <li><a href="https://www.yeggi.com/" target="_blank" rel="noopener noreferrer">yeggi</a> (search engine for 3D printable models)</li>
-</ul>
+- <a href="https://www.thingiverse.com/" target="_blank" rel="noopener noreferrer">Thingiverse</a> (nice community, good selection)
+- <a href="https://www.myminifactory.com/pages/explore" target="_blank" rel="noopener noreferrer">MyMiniFactory</a> (nice community, most models free)
+- <a href="https://free3d.com/" target="_blank" rel="noopener noreferrer">Free3D</a> (cool models, some content is paid)
+- <a href="https://www.youmagine.com/" target="_blank" rel="noopener noreferrer">YouMagine</a>
+- <a href="https://clara.io/library">Clara.io</a> (medium-sized database, sign-up rqd)
+- <a href="https://www.3dcontentcentral.com/" target="_blank" rel="noopener noreferrer">3DContentCentral</a> (large database, sign-up rqd)
+- <a href="https://grabcad.com/library" target="_blank" rel="noopener noreferrer">GrabCAD</a> (large database, sign-up rqd)
+- <a href="https://cults3d.com/en" target="_blank" rel="noopener noreferrer">Cults3D</a> (sign-up rqd, lots of paid content)
+- <a href="https://pinshape.com/" target="_blank" rel="noopener noreferrer">pinshape</a> (nice community, sign-up rqd, some content is paid)
+- <a href="https://thangs.com/">Thangs</a>
+- <a href="https://b2b.partcommunity.com/community/partcloud/" target="_blank" rel="noopener noreferrer">PARTcloud</a> (assorted models)
+- <a href="https://open3dmodel.com/" target="_blank" rel="noopener noreferrer">Open3DModel</a>
+- <a href="https://libre3d.com/" target="_blank" rel="noopener noreferrer">Libre3D</a>
+- <a href="https://repables.com/" target="_blank" rel="noopener noreferrer">Repables</a>
+- <a href="https://touchterrain.geol.iastate.edu/" target="_blank" rel="noopener noreferrer">TouchTerrain</a> (topography generator, limited abilities)
+- <a href="http://jthatch.com/Terrain2STL/" target="_blank" rel="noopener">Terrain2STL</a> (topography generator, limited abilities)
+- <a href="https://terrainator.com" target="_blank" rel="noopener noreferrer">The Terrainator</a> (topography generator, sign-up rqd, paid)
+- <a href="https://nasa3d.arc.nasa.gov/models/printable" target="_blank" rel="noopener noreferrer">NASA (3D resources)</a> (NASA models)
+- <a href="https://www.embodi3d.com/files/" target="_blank" rel="noopener noreferrer">embodi3D</a> (medical models, sign-up rqd, some content is paid)
+- <a href="https://africanfossils.org/search" target="_blank" rel="noopener noreferrer">AfricanFossils.org</a> (models of African fossils, sign-up rqd)
+- <a href="https://library.zortrax.com/" target="_blank" rel="noopener noreferrer">zortrax</a> (small collection, sign-up rqd)
+- <a href="https://www.3dcadbrowser.com/3dmodels.aspx">3D CAD Browser</a> (sign-up rqd, odd system of requiring uploads to download, free &amp; paid models)
+- <a href="https://www.yeggi.com/" target="_blank" rel="noopener noreferrer">yeggi</a> (search engine for 3D printable models)
 
 [tabbyending]
 

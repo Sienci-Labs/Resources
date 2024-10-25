@@ -24,7 +24,7 @@ A **dust shoe** is basically a fancy vacuum attachment for your CNC machine, it 
 - saves you time cleaning up that you'd have to do anyway
 - keeps your shop air cleaner which is safer for your lungs
 
-https://www.YouTube.com/watch?v=94r4hgr2SgA
+https://www.youtube.com/watch?v=94r4hgr2SgA
 
 That said, dust management can still come in other forms like building an [enclosure for your CNC](https://resources.sienci.com/view/lmk2-table-enclosure/#machine-enclosure) or cutting outside. You might choose to do these if you:
 

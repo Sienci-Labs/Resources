@@ -25,8 +25,7 @@ The reason we decided to make this t-track system available is because we design
 ## Installing the T-Track
 
 The t-track system is very flexible and can be used however you wish. If you'd like to see a generic approach to installation, you can follow either the write-up or video below. Scott begins the t-track installation starting at about 4 minutes into the video.
-
-https://www.YouTube.com/watch?v=T4QVgtnZMDw?t=242
+https://www.youtube.com/watch?v=T4QVgtnZMDw?t=242
 
 This layout minimizes reductions in cutting area and depth, and can be prepared in advance before your machine arrives. It uses a 48”x48”x ¾” MDF sheet, which can be purchased and cut to size at home or at your local hardware store.
 
@@ -74,7 +73,6 @@ T-clamps are simple and reliable workholding tools that are used alongside T-Tra
 ## Making your own clamps
 
 The great thing about having a CNC machine is that you can make your own clamps for it!
-
-https://www.YouTube.com/watch?v=cwDvnuouFlw
+https://www.youtube.com/watch?v=cwDvnuouFlw
 
 For full details and file downloads, please see the <a href="https://sienci.com/2022/07/20/make-your-own-cnc-workholding-with-your-LongMill/">full article</a>.

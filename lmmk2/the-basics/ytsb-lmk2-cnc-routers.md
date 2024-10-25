@@ -31,7 +31,7 @@ Jobs can vary from simple surface engravings or v-carving to cutting line profil
 
 Even more complex objects can be made on a CNC router after diving into the world of '3D' carving. Cuts like these are normally made by finding or making a 3D file, then processing that for the machine to cut. This is a slightly more involved process than using a drawing or picture. These "relief" cuts, as well as a few other examples of classic CNC router projects can be seen below.
 
-https://www.YouTube.com/watch?v=yOywuK02vVY
+https://www.youtube.com/watch?v=yOywuK02vVY
 
 ![](/_images/_longmill/_the-basics/lm_cncrouters_p3_OsmoSign.jpg "Surface cutting the Osmo logo for their booth"){.aligncenter .size-medium}
 

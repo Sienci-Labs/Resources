@@ -18,8 +18,7 @@ featured_image:
 This is a setup guide for the LongMill Spindle Kit, installed on the LongMill MK2 and using the SLB controller.
 
 If you prefer to watch a video of this process, check out Jason's video below:
-
-https://www.YouTube.com/watch?v=5mEJLWWHE-Y
+https://www.youtube.com/watch?v=5mEJLWWHE-Y
 
 <h2>Machine Setup</h2>
 
