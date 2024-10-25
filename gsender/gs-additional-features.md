@@ -732,6 +732,7 @@ You can find the release notes for the latest version of gSender in the “About
 ## More
 
 Check out this livestream if you'd like to see a super deep dive on gSender and all of its features as of 0.6.9. Chris spends a lot of time answering questions live about gSender and how to set up for a project:
+
 https://www.youtube.com/watch?v=454pWYtZgBU
 
 ## Community Macros

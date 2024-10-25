@@ -38,6 +38,7 @@ We have updated several of the parts you will use in upgrading to the 48”. The
 <img class="wid aligncenter wp-image-8348 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX-48-Add-On-WP-pic-850x400.png" alt="" width="850" height="400" />
 
 ## 48” X-axis rail box unpacking
+
 https://www.youtube.com/watch?v=KjirFKNT3pM
 
 Inside the 48” X-axis rail box, you’ll find the X-axis rail packaged with 5 boxes.

@@ -196,6 +196,7 @@ To perform ‘tensioning’ the idea is to loosen the M5 bolt with an Allen key 
 <img class="aligncenter wp-image-2818 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-72_2-850x478.jpg" alt="" width="850" height="478" />
 
 You’ll likely need to repeat *loosening, turning the nut slightly, tightening, then checking the wheels* a couple times for each wheel pair until you reach the right clamping force. Take your time to slowly approach the right point rather than over-rotate the eccentric nut and put too much force on the wheels. Also, know that the wheels don’t need to be 100% perfect to have a well-operating machine so if you feel like you’ve gotten close enough then feel free to move on to the next step. If you need more help visualizing how to do this you can watch our video:
+
 https://www.youtube.com/watch?v=Z7WLmOk90V4
 
 Once you’re done tensioning the wheels on all axes you should find that it’s still easy to rotate each lead screw with your hands but if you grab the steel gantry it shouldn’t move around on the rail. It might be a bit loose moving the plate back-and-forth and that’s the next step when tuning.

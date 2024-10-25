@@ -16,6 +16,7 @@ featured_image: _images/post-image.jpg
 ---
 
 If you want to jump right in with your own project instead of following along with <a href="https://resources.sienci.com/view/vx-first-project/">Your First Project</a> and <a href="https://resources.sienci.com/view/vx-second-project/">Your Second Project</a>, fear not! Check out our video where Johann goes step by step on how to get setup and start quickly for each Vortex project.
+
 https://www.youtube.com/watch?v=njbUQo0OzLY
 
 You can use the list below as a checklist to get started on each project you run on the Vortex.

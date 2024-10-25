@@ -22,6 +22,7 @@ If you’ve come here you’re either interested in or have already purchased o
 <img class="non aligncenter size-medium" style="width: 80%; margin-left: 10%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/SLB-VB6-scaled.jpg"/>
 
 Started in mid-2022, this project has been truly a labour of love for us. Thanks to the initial interest from the first 500 SLB purchasers, we were able to finish bringing the project to life. If you're one of those 500, a special welcome! As you go through our instructions let us know if there's any sticking points you run into and we'll be happy to get them sorted as soon as we can. The SLB may still have some quirks in its early days despite the many months of testing that we've put it through - but we're keen to make it the best it can be and trust we can all work together to make that happen :)
+
 https://www.youtube.com/watch?v=LkZIeJQSzdM
 
 ## Diving In

@@ -91,6 +91,7 @@ Did you know we have a <b><a href="https://www.YouTube.com/channel/UCS4SdQ0sqFhv
 <li>Live Webinars and Q&amp;A sessions</li>
 <li>and more!</li>
 </ul>
+
 https://www.youtube.com/embed/Q-sfK-QxwzQ
 
 We really hope you enjoy using your LongMill Benchtop CNC in the days, weeks, and months to come. Remember that CNC routers are an amazing tool that you can use for whatever you like, and the point of the LongMill and it's community is to offer you resources and support so that you can be confident in using your CNC to make what you imagine. Good luck and happy making!

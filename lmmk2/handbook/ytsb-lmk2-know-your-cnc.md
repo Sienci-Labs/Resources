@@ -186,6 +186,7 @@ If you haven't, check out our YouTube channel or one of our affiliated customers
   <li><a href="https://www.YouTube.com/c/IDCWoodcraft" target="_blank" rel="noopener">CNC Routers, Beginners &amp; Beyond - Garrett Fromme</a> Very resourceful with a lot of tips and tricks especially with VCarve</li>
   <li><a href="https://www.YouTube.com/c/BuckysCustoms" target="_blank" rel="noopener">Bucky’s Customs</a> - Another user showcasing tutorials while using the LongMill</li>
 </ul>
+
 https://www.youtube.com/watch?v=Kt53x5CYwzU
 
 <h2>Community Modifications</h2>

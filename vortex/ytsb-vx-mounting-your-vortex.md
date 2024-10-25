@@ -16,6 +16,7 @@ featured_image: _images/post-image.jpg
 ---
 
 Check out our video on how to mount your Vortex!
+
 https://www.youtube.com/watch?v=TUwrwqpvdsI
 
 <img class="aligncenter size-medium wp-image-5683" src="https://resources.sienci.com/wp-content/uploads/2023/08/Section-Headers_Table-Mounting-1-850x532.jpg" alt="" width="850" height="532" />

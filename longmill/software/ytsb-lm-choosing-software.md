@@ -24,6 +24,7 @@ Whichever software toolchain you choose should make the most sense for you and y
 <li>budget</li>
 <li>and computer operating system</li>
 </ul>
+
 https://www.youtube.com/watch?v=m6ymuF8soTU
 
 To give maximum flexibility, we made the LongMill software agnostic meaning it can accept input from nearly any software out there. Here's an example:
