@@ -2,13 +2,14 @@
 title: Dust Collection
 menu_order: 0
 post_status: draft
-post_excerpt: 
-post_date: 2024-09-10 10:12
+post_excerpt: Dust shoe, vacuum collection, and hose size considerations for the LongMill CNC. Pros and cons of Z-independent and dependent dust shoes discussed.
+post_date: 2022-03-17 19:47:00
 taxonomy:
-    knowledgebase_cat: 
-    knowledgebase_tag:        
+    knowledgebase_cat: lmk2-the-basics
+    knowledgebase_tag:
+        - mk2
 custom_fields:
-    KBName: 
+    KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
 featured_image: 
@@ -96,7 +97,7 @@ Whether a dust shoe is fixed or adjustable depends on how it’s mounted:
 </table>
 [/su_table]
 
-For general purpose cutting, we'd recommend using an adjustable dust shoe as it is significantly better at collecting dust and debris, and relies less on how powerful your vacuum system is. It's also much better suited toward flat or sheet material which is the type of material that's most commonly used by hobby CNCers for sign-making and v-carving.
+For general purpose cutting, we recommend using an adjustable dust shoe as it is significantly better at collecting dust and debris, and relies less on how powerful your vacuum system is. It's also much better suited toward flat or sheet material which is the type of material that's most commonly used by hobby CNCers for sign-making and v-carving.
 
 ### Choosing Hose Size
 

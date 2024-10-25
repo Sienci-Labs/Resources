@@ -2,13 +2,14 @@
 title: Tools & Router
 menu_order: 0
 post_status: draft
-post_excerpt: 
-post_date: 2024-09-10 3:26
+post_excerpt: Basic feeds and speeds explanation for the LongMill CNC. Feed recommendations, definitions for commonly used terms, and Makita RT0701 speed range provided.
+post_date: 2022-03-17 20:33:00
 taxonomy:
-    knowledgebase_cat: 
-    knowledgebase_tag:        
+    knowledgebase_cat: lmk2-handbook
+    knowledgebase_tag:
+        - mk2
 custom_fields:
-    KBName: 
+    KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
 featured_image: 
@@ -104,7 +105,7 @@ When cutting material with a rotating bit, you can imagine that going too slow w
 1. How much material the tool is removing at any given time (depth of cut & step over)
 
 Each of these factors must be suited to the properties of the material that you're cutting; cutting through foam can happen much faster than cutting aluminum. We generalize these variables under the term 'feeds and speeds', and each cutting tool has a different set of ideal feeds and speeds. Learning how to tie a tool's size and shape to its movement, rotation speed, material type, and material removal rate is nearly an art form. There are engineers whose job is knowing how to properly balance all these numbers and apply them based on part geometry, desired finish, and the total job cutting time. Without the proper planning, you can expect many headaches along the way including broken tools, broken material, and an uneven or rough surface finish on your project. Feed and speed choice depends on the material you are cutting, the type of tool you use, the speed of the router, the rigidity of the machine, and even the geometry of the model. In order to balance speed, finish quality, and precision you must account for bit deflection and material hardness. When cutting, the tool can be pushed away from where it should be since it's not able to cut the material fast enough. Harder materials require a more rigid machine and longer milling times to steadily cut the material away. Sometimes it will take some trial and error to dial-in the right settings for your desired setup and materials.
-  
+
 **Higher tool RPM produces smaller chips, while higher feed rates produce larger chips. Overall, if the chips are too large, your bit will be likely to break, but if your chips are too small (like fine powder), you will be dulling your bit. It’s all about getting the right balance.**
 
 ## Terminology

@@ -3,15 +3,16 @@ title: Workholding 🕳️
 menu_order: 0
 post_status: draft
 post_excerpt: Workholding is the method you use to keep material secured while cutting on a CNC machine. Methods include T-tracks, threaded inserts, clamps and hot glue.
-post_date: 2024-09-10 10:08
+post_date: 2022-03-17 19:45:00
 taxonomy:
-    knowledgebase_cat: 
-    knowledgebase_tag:        
+    knowledgebase_cat: lmk2-the-basics
+    knowledgebase_tag:
+        - mk2
 custom_fields:
-    KBName: 
+    KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: _images/_experimental-writing/lm_workholding_p1_TTracks.PNG
+featured_image: _images/_longmill/_the-basics/lm_workholding_p1_t-track.jpg
 ---
 
 Re-frame page https://resources.sienci.com/view/lmk2-workholding/ to be in the context of the general types of project the person is wanting to do, then recommending workholding based on those project styles e.g. sign-cutting, metal, 3D carves, cookie surfacing.
@@ -32,6 +33,7 @@ Re-frame page https://resources.sienci.com/view/lmk2-workholding/ to be in the c
 top 5 methods to keep projects secure - IDCWoodcraft - https://www.youtube.com/watch?v=rRkjuLSV6Bc
 
 Community post - https://forum.sienci.com/t/hold-down-tip-contact-cement-instead-of-super-glue/2681/23
+
 ---
 
 Another aspect of learning how to use your CNC router involves knowing how to properly secure material down to the bed of the machine. Rigidly securing material to the machine bed is crucial when setting up to cut. Some clamping methods are rigid but are more intrusive, while others keep a low profile but aren't quite as strong. Play around with these methods to see which ones you can use individually or in combination for your ideal setup.

@@ -23,7 +23,7 @@ Can go in “Handbook” section
 
 ---
 
-If you find that the LongMill isn’t what you had in mind, you can post your machine for sale on our community forums, Facebook marketplace, Kijiji or Craigslist. We know a lot of people are interested in our machines and are always looking for a good deal. 
+If you find that the LongMill isn’t what you had in mind, you can post your machine for sale on our community forums, Facebook marketplace, Kijiji or Craigslist. We know a lot of people are interested in our machines and are always looking for a good deal.
 
 https://www.facebook.com/groups/166433110494695/search/?q=for%20sale
 https://forum.sienci.com/c/marketplace/
