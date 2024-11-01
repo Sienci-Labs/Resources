@@ -31,7 +31,19 @@ Improves on https://resources.sienci.com/view/lmk2-cnc-routers/ but make the inf
 
 https://youtu.be/pqVG3SMj99g
 
-The LongMill is a 3-axis CNC router which falls under the category of 'CNC machine'. This is a category of machines that receive and execute incoming commands from a computer.  What makes a CNC 3-axis is the ability to move in three independent directions. For the LongMill, these directions are all straight-line motions. If you remember back to high-school geometry or math, these would be called X, Y, and Z directions, enabling it to cut 3D objects in 3D space.
+The many hobby CNCs are known as "3-axis CNC routers". What does that mean? Let's break the phrase down into its components:
+
+- **CNC** → stands for “computer numerical control”; a type of machine that can be controlled by a computer using movement instructions
+- **Router** → a woodworking tool that acts like a drill; it spins a cutting tool to cut through material
+- **3-axis** → the ability to move in three, independent directions
+
+Putting it all together, you get a machine with the ability to cut complex **3D objects** with a **spinning cutter** controlled by a **computer**.
+
+***It cuts these complex shapes by combining the movements of 3 motors in 3 unique directions   in this by combining The router’s motion is defined by three directions, which are straight lines called the X, Y and Z axes.***
+
+***For the LongMill, these directions are all straight-line motions. If you remember back to high-school geometry or math, these would be called X, Y, and Z directions, enabling it to cut 3D objects in 3D space.***
+
+![](/_images/_experimental-writing/longmill-labelled-axes.png){.aligncenter .size-medium}
 
 The movement system on the LongMill uses wheels and screws for simple and affordable motion. The v-shaped wheels riding on the edge of the extruded aluminum profiles brings affordability yet remain accurate, and the screws bring the power. Industrial CNC milling machines take all these concepts a step further. This can mean introducing more directions of movement, more powerful and repeatable drive systems, and sometimes much larger build volumes as well.
 

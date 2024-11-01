@@ -18,10 +18,11 @@ TODO
 
 ## Elaborate / more Comprehensive content on
 
+- **Claimed by Kelly** "CNC Routers" general explanation on CNCs and what they can do
+- **Claimed by Stephen** "Dust Collection" more reference material for setup, suggestions
+- **Claimed by Chris** "Vortex basics" explanation, fine by Daniel as long as it's not too technical
 - "Workholding" all the revised methods available, sorted to help choose which one is best for your project plans
-- "CNC Routers" general explanation on CNCs and what they can do
 - "Cutting Tools" different types, how they're used, how to pick them
-- "Dust Collection" more reference material for setup, suggestions
 - "Materials" change to talk about materials typically cut, why you'd choose them, where to source them
 - "Projects" walk through more of the steps to get to the point of creating a project
 - "Routers/Spindles" explore what situations you should choose which
@@ -35,8 +36,8 @@ TODO
 
 ## New Pages
 
-- Tramming
-- Preparing to be a CNC Owner
+- **Claimed by Stephen** Tramming
+- **Claimed by Stephen** Preparing to be a CNC Owner
 - CNC Buyers Guide
 - How to Price CNC Projects
 - Video Compilation Page
