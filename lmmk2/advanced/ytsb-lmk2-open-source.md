@@ -161,14 +161,7 @@ Let’s cover a couple things you can do with the open source Onshape files:
 
 ### Export or Modify
 
-If you want to Export our Onshape designs as either a **3D model** (STL, IGES, STEP) or a **2D drawing** (DWG, DXF) for your own tweaks or accessories, then unfortunately Onshape requires you to make an account first; though luckily it’s free to make one:
-
-1. Open your web browser and go to the <a href="https://www.onshape.com/en/sign-up" target="_blank" rel="noopener">Onshape Sign up page</a>.
-1. Enter your Name and Email Address, then Onshape will ask for some other information that you might need to fill out and some Terms & Conditions.
-1. Once you get to the end, you’ll be sent a verification email which you can click through to set up your password. You don’t need to enter a Company name but you do need to agree to some more Terms & Conditions.
-1. Once you’re set up, feel free to set your default units and controls - or get straight to downloading the models since you can always change these later in your settings.
-
-Once you've successfully created an account and you’re logged in:
+If you want to Export our Onshape designs as either a **3D model** (STL, IGES, STEP) or a **2D drawing** (DWG, DXF) for your own tweaks or accessories, then:
 
 1. Open the link to the design you’d like to download.
 1. Use the ‘Export’ option in the toolbar to either export the whole design or use the down arrow to allow you to export only individual parts or assemblies. You can select these parts by clicking on the 3D model or by clicking on the parts list on the left-hand side of the window.  
@@ -177,7 +170,14 @@ Once you've successfully created an account and you’re logged in:
 <img class="size-full wp-image-10646 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/mk25_ad_onshape2.jpg" alt="" width="1008" height="603" />
 1. After configuring the settings, click "Export" and you should find the file appears in your typical download location.
 
-If instead of Exporting the files, you’d like to use Onshape as your main design software to make and publish modifications, you can also:
+If instead of Exporting the files, you’d like to use Onshape as your main design software to make and publish modifications, then you'll need to make an account first; though luckily it’s free to make one:
+
+1. Open your web browser and go to the <a href="https://www.onshape.com/en/sign-up" target="_blank" rel="noopener">Onshape Sign up page</a>.
+1. Enter your Name and Email Address, then Onshape will ask for some other information that you might need to fill out and some Terms & Conditions.
+1. Once you get to the end, you’ll be sent a verification email which you can click through to set up your password. You don’t need to enter a Company name but you do need to agree to some more Terms & Conditions.
+1. Once you’re set up, feel free to set your default units and controls - or get straight to downloading the models since you can always change these later in your settings.
+
+Once you've successfully created an account and you’re logged in:
 
 1. Copy our entire design file into your own workspace by clicking the button with three lines at the top, left corner of the window, and select **Copy workspace**.
 <img class="aligncenter wp-image-10645 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/mk25_ad_onshape3-e1726085340430.jpg" alt="" width="1159" height="566" />

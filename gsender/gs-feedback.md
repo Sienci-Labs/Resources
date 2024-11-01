@@ -73,6 +73,13 @@ If you find that gSender goes blank after you open it or while using it, there a
    1. If not, select edit, choose your computer name, and grant permissions.
 1. If you’re still getting a blank screen, locate your log file and send it in to us. It's located at: C:/Users/{your user name}/AppData/Roaming/gSender/Logs/main.log
 
+### 'Use' gSender without a CNC
+
+It's not easy for us to simulate how a real CNC will behave if you're not connected to one, but luckily there are some workarounds:
+
+1. **Buy a cheap "Arduino Uno"**: this board is the 'brain' that runs many Hobby CNCs and can be easily found online or in some stores for around $10. Once picked up you can connect it to your computer over USB, <a href="https://resources.sienci.com/view/lmk2-grbl-firmware/" target="_blank" rel="noopener">flash Firmware onto it</a> to make it behave like a CNC, then you'll be able to connect to it in gSender. There are limitations such as not being able to home or probe (any sensor inputs) unless you manually short them together yourself; and this is because obviously you're not connected to a real CNC.
+2. **Use a file simulator**: this won't let you pretend to run your CNC in gSender, but can simulate how a cut might turn out. You can <a href="https://resources.sienci.com/view/lmk2-visualizers/" target="_blank" rel="noopener">read more about these options here</a>.
+
 ### Connects but status says Disconnected
 
 If your machine connects on a COM port successfully but the machine status says "Disconnected" then this is not an issue with gSender. A 'Disconnected' status means that gSender isn't able to recognize your CNC even though it can see it.
