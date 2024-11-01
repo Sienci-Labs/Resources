@@ -21,6 +21,7 @@ Improves on https://resources.sienci.com/view/lmk2-wasteboard/
 - https://youtu.be/brGlPX6lb-k
 - Mention that surfacing is also used to prepare material for v-carving to keep text at a consistent depth
 - Add some more visuals, like this GIF: https://www.reddit.com/r/CNC/comments/1fw5aps/the_satisfaction_of_a_freshly_milled_table/
+- You can even have your table outta wack by leaning on it! https://www.facebook.com/share/p/3WBSi67qJWgmsQzy/
 
 ---
 

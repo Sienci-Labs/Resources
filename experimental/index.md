@@ -45,11 +45,8 @@ TODO
 
 ## Bits 'n Bobs
 
+- Make a comparison table between the LongMill and AltMill, and between the SLB and SLB EXT https://www.facebook.com/share/p/d5zSZWVBKmvNspPi/
 - Refresh "Software Table" https://github.com/Sienci-Labs/Resources/issues/23
-- Maintenance
-  - Maintenance of spring loaded backlash nuts: you just have to replace them
-  - Add replace v-wheels to maintenance section [Bucky’s Customs](https://www.youtube.com/watch?v=EjTjpZvvniY&t=1140s) Video
-  - Customers video showing how to [adjust the v-wheels and anti-backlash nuts](https://www.facebook.com/groups/mill.one/permalink/1788550111616312/)
 - Issues and Fixes
   - Add pics for MK2.5
   - After noticing that the y-axes were binding up right near the end of the movement of the axis I went through the process of loosening and re-tightening the anti-backlash blocks which solved the problem (really make a video on this sometime)
@@ -61,8 +58,12 @@ TODO
     - Talk with users or try to imagine yourself what sort of content you tend to need to reference while cutting, things like job setup, maintenance, common fixes
     - Shouldn't include any basic concepts (though pages on basic concepts can be linked to) since 'The Basics' and 'Software' make up their own sections
   - Actionable items:
+    - Your MK2, write a section on how to identify your LongMill model https://www.facebook.com/share/p/PC7vMCizMHi94jfb/
     - Running jobs page could use more elaboration in places, and pictures
     - Mention how to handle safe heights regularly vs with the Vortex
     - How to zero in different scenarios or find zero on a piece of round stock or in stock center
       - Great video idea but there’s a much easier way to do this https://www.youtube.com/watch?v=P6TMRDtXMGA
-    - Your MK2, write section on how to identify your LongMill model
+- Sanding & Finishing
+  - Do affiliate links for products? Most of the pics are grabbed from online stores (Amazon, etc)
+  - Add section on Epoxy finishing - https://forum.sienci.com/t/how-should-i-finish-this/13995/20 or should this go into a new/separate page about epoxy design, pouring, sanding, polishing type of thing?
+- Good initial explanation of open source https://youtu.be/F7iLfuci75Y?si=CLqkkr1pYQIpH6BC

@@ -26,6 +26,7 @@ Improves on https://resources.sienci.com/view/lmk2-cutting-tools/
 - When it makes sense to buy more expensive bits and when it doesn't
 - Maybe even have a test at the end of the page to validate their knowledge
 - Sample/reference projects showing what each bit can do
+  - Pictures of projects at the top of the page where the pictures are tabs that open up to explain how the shape of the tip is being used to cut that geometry with a red line to further clarify. Then get into the details of bit length and shape and flutes and stuff later on in the doc since its more dry material
 - Making a sign, 3D image, cutout shape, font depths (same depth doesn’t work for all)
 - When/Why use ¼ vs ⅛ bit
 - If you're a beginner, use larger bits while you learn because they're less likely to break and saves your mistakes
