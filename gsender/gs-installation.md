@@ -84,7 +84,7 @@ gSender updates always have the chance of encountering quirks, so if you have an
 ![](/_images/_gsender/_install/gs_in_update-rcold.jpg){.aligncenter .size-medium}
 - For Mac/Linux: the file is in the home directory as a **hidden file**. You can either:
   - In Finder go to **Go ➜ Computer ➜ Drive ➜ Users ➜ {your username}** then unhide the ".sender_rc" file by pressing `CMD + Shift + .` keys. Rename it to whatever you like, like “**.sender_rc_old**”, then try to reinstall gSender again.
-  - Go into the Mac/Linux console and enter the command “**mv ~/.sender_rc ~/.sender_rc_old**”. You’ll be able to double check the renaming was successful by sending “**ls -al | grep sender**” in the console, where if you only see “**.sender_rc_old**”, you have successfully remanded and are ready to try to reinstall gSender.
+  - Go into the Mac/Linux console and enter the command `mv ~/.sender_rc ~/.sender_rc_old`. You’ll be able to double check the renaming was successful by sending `ls -al | grep sender` in the console, where if you only see `.sender_rc_old`, you have successfully remanded and are ready to try to reinstall gSender.
 
 ## Older Versions
 

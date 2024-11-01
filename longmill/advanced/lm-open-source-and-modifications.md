@@ -100,7 +100,7 @@ Adjustable-style dust shoe that allows for height adjustment and removal with th
 [su_row]
 [su_column size="1/2" center="no" class="viewer-desc"]**Original Dust Shoe**
 Uses 2020 extrusion and knobs to be able to set the height of your shoe based on the material you're cutting.<br><br>
-[⭳ 3D print the Hose Piece (STL)](/_downloads/longmill-mk1-dust-shoe-hose-adapter.stl)
+<a href="https://resources.sienci.com/wp-content/uploads/2024/11/longmill-mk1-dust-shoe-hose-adapter.stl">⭳ 3D print the Hose Piece (STL)</a>
 <a href="https://CAD.onshape.com/documents/07e5303fe93ccde67c101960/w/c7cd5aa0b4420ce125d689ab/e/69e82b99626dfcaf2b1c2d59" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
 [/su_column] [su_column size="1/2" center="no" class=""]![](/_images/_longmill/_advanced/lm-os-longmill-mk1-dust-shoe.jpg){.aligncenter .size-medium .opensource}[/su_column]
 [/su_row]
