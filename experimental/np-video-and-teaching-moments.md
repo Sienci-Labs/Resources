@@ -23,6 +23,7 @@ https://youtube.com/playlist?list=PLRDpJ3bWCwJEXh-snA7O5IP6XDKuInWZj
 
 Video list / ideas https://docs.google.com/spreadsheets/d/1E0OjxS94refzqD2dPYFVux_vyTAK2U0YEE0Yzp3Sc9U/edit?gid=0#gid=0
 
+- Recommended channels for CNC content
 - CNC Routers Can Do ALL That? - WOOD magazine https://www.youtube.com/watch?v=NWDrWbCbI3s
 - Things to teach through running a project
   - How to setup and start a job

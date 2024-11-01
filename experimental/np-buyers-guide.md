@@ -24,6 +24,7 @@ Try to make as neutral a writeup as possible on how to choose what CNC is best f
   - Mechanical engineering perspective of different motion systems and how they pertain to maintenance, cost, accuracy, etc. This would be stuff like V-wheels, linear rails, belts, lead screws, ball screws
   - https://www.avidcnc.com/support/faq/#which-is-better-a-screw-or-rack-and-pinion-drive
   - https://www.camaster.com/frequently-asked-questions/
+  - Belts vs linear rails https://www.youtube.com/watch?v=zVs3KqnWgFk
   - Argument of running wheels vs. rails, Grant thinks that it might actually come down to people wanting to blame the CNC suddenly going wrong to attribute it to the v-wheels since they need constant adjustment so they think if they switched to rails then that wouldn't happen anymore
   - FAQ in forum about why adjustable wheels are on top
   - Use pictures from the most recent Onefinity post showing problems
@@ -40,5 +41,9 @@ Try to make as neutral a writeup as possible on how to choose what CNC is best f
   - Link some forum posts and whatnot, like: https://reddit.com/r/hobbycnc/s/g3yojwhAXE
 - Typical types of maintenance needed
 - Buying options
+- Reference materials:
+  - [IDC Woodcraft Buyers Guide](https://drive.google.com/file/d/1Uz80Web_QEQcUe7cYJh8K9gEsScAPhIR/)
+  - https://www.click.idcwoodcraft.com/buyers-guide
+  - https://www.click.idcwoodcraft.com/thank-you-for-your-purchase--e9b8e
 
 ---

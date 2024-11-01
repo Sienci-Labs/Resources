@@ -21,6 +21,7 @@ Improves on https://resources.sienci.com/view/lmk2-routers-and-spindles/ but mod
 - Is a spindle needed on a hobby CNC?
 - [10 Differences Between CNC Spindles & Routers](https://youtu.be/IpCkRmNxC_s)
 - [Is a Spindle Needed on a Hobbyist CNC?](https://www.youtube.com/watch?v=mqqlSh0VJ1o)
+- Router VS spindle https://youtu.be/mGJ6ZNjhlH8
 - Differences between air cooled and water cooled spindle and why you'd choose one or the other
 
 ---

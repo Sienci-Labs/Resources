@@ -25,6 +25,7 @@ Page for help those running a business with CNC project pricing
 - https://carbide3d.com/learn/cnc-projects-that-sell/
 - https://discuss.inventables.com/t/pricing-for-products-made-with-x-carve/149670
 - 7 hard truths about cnc business - https://www.youtube.com/watch?v=5A9LlmvxVAo
+- Tangential Print cost calculator https://makerworld.com/en/models/724437#profileId-655571
 
 ---
 

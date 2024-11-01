@@ -23,6 +23,7 @@ Cover all aspects of tramming but try to keep it general to apply to any CNC
 - Find if any other community videos have been made for our machines in particular
 - My spoil board has slight stripes as opposed to being perfectly flat… is this normal or do I have a tilt on my router that needs to be fixed? If so, how’s that done?
 - https://forum.sienci.com/t/tramming-suggestions/13812/7
+- https://www.reddit.com/r/hobbycnc/s/XAy2e2vF1a
 - Intertwine tramming page with surfacing page like Garrett did https://youtu.be/Afw1VdArLuo
 - Either here or in surfacing, mention how budget machines don't need levelling as opposed to industrial machines, the only case where levelling makes sense is if you want to use it as a method for seeing how square your machine is
   - https://youtu.be/DdyMjsz4BVs
