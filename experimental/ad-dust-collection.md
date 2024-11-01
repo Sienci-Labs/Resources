@@ -25,11 +25,9 @@ Improves on https://resources.sienci.com/view/lmk2-dust-collection/
 
 https://forum.sienci.com/t/dust-questions-for-newbie/14028/5
 
-Dust Cyclone Separator Cart - 15 min video https://youtu.be/lGnGNYrxqjs
-
 ---
 
-CNCs can create a lot of mess just like many other cutting tools. Think about the chips and fine dust you get drilling a single hole or cutting a piece of wood in half and then stretch that out over hours of constant cutting. This is where dust collection helps out.
+CNCs can create a lot of mess just like many other cutting tools. Think about the chips and fine dust you get drilling a single hole or cutting a piece of wood in half and then stretch that out over hours of constant cutting on a cnc machine. This is where dust collection helps out. Most woodworkers will setup a dust collection system that can quickly connect to whatever tool or machine they are using at the time. Adding an air filter to the shop, can help to catch and trap the fine sawdust.
 
 A **dust shoe** is basically a fancy vacuum attachment for your CNC machine, it stays near the cutter to stop chips and fine dust from flying away while the **vacuum system** pulls it all away. This is good for you because it:
 
@@ -99,6 +97,18 @@ Whether a dust shoe is fixed or adjustable depends on how it’s mounted:
 
 For general purpose cutting, we recommend using an adjustable dust shoe as it is significantly better at collecting dust and debris, and relies less on how powerful your vacuum system is. It's also much better suited toward flat or sheet material which is the type of material that's most commonly used by hobby CNCers for sign-making and v-carving.
 
+https://forum.sienci.com/t/a-new-kind-of-articulating-dust-shoe/1681
+
+https://forum.sienci.com/t/making-a-mostly-3d-printable-automatic-dust-shoe-that-is-driven-by-a-stepper-motor/13349
+
+### Choosing a Vacuum  / Dust collector / Dust Extractor
+
+Your dust shoe will need a source of suction. Most times an existing dust collector or Shop-Vac with a cyclone separator will be able to fit the bill since these systems are set up to run for many hours and provide reasonable suction. Depending on the dust shoe used and the hosing size you use for your shop, you may want to look at your system’s CFM and suction lift specifications depending on your needs.
+
+CFM (cubic feet per minute) denotes the amount of air your vacuum can pass through. The higher the CFM, the more volume of material you can move. You will want a higher CFM rating if you are cutting a large amount of material.
+
+Suction power (sometimes called Water Lift, Static Lift, Static Pressure…) indicates how fast the air is moving through the system. The higher your suction is, the harder the dust is pulled through your dust shoe and hose. You will typically want a higher suction vacuum if you are cutting heavier materials like metals, need to draw chips out of narrow cuts, or are using a fixed-style dust shoe.
+
 ### Choosing Hose Size
 
 Your vacuum or dust collector will probably come with a hose of a certain diameter. Your system will probably work most optimally if you use hoses that are similar in diameter.
@@ -109,10 +119,81 @@ Shop-Vacs, on the other hand, have smaller CFMs but higher suction power. These 
 
 Depending on the design of your dust shoe, you may need to adapt your hose to match. You can find adapters that can help switch between hose diameters. You may also want to opt for a hose that will keep static buildup along it's length to a minimum in which case more specialized options exist such as the 36mm antistatic hose from Festool.
 
-### Choosing a Dust collector / Vacuum
+### Hanging Your Hose
 
-Your dust shoe will need a source of suction. Most times an existing dust collector or Shop-Vac with a cyclone separator will be able to fit the bill since these systems are set up to run for many hours and provide reasonable suction. Depending on the dust shoe used and the hosing size you use for your shop, you may want to look at your system’s CFM and suction lift specifications depending on your needs.
+Easy CNC Swing Arm: 3 min: https://youtu.be/RwYulYI8uRw
+Custom Dust Collection Swing Arm: 18 min:  https://youtu.be/KufOYrTFBPA
 
-CFM (cubic feet per minute) denotes the amount of air your vacuum can pass through. The higher the CFM, the more volume of material you can move. You will want a higher CFM rating if you are cutting a large amount of material.
+### Adding a Cyclone
 
-Suction power (sometimes called Water Lift, Static Lift, Static Pressure…) indicates how fast the air is moving through the system. The higher your suction is, the harder the dust is pulled through your dust shoe and hose. You will typically want a higher suction vacuum if you are cutting heavier materials like metals, need to draw chips out of narrow cuts, or are using a fixed-style dust shoe.
+Adding a second stage to your dust collection strategy can drastically reduce the amount of filters your shop vac or dust collection system uses.
+
+How do Cyclone dust separators work?:  5 min:  https://youtu.be/3fB_uH5k6RQ
+Adding a Dust Separator to a shop vac:  12 min:  https://youtu.be/jRuLmnQymXg
+Dust Cyclone Separator Cart:  15 min:  https://youtu.be/lGnGNYrxqjs
+
+### User Setups
+
+You can customize your shop to have a simple shop vac with hose hanging above your cnc, upgrade to a 2 stage system and add a cyclone, or build a cart for portability. Upgrade further to a wall mounted dust collection system, and run it to each tool in your shop. You can even add blast gates to your system, activated manually or automatically!
+
+Dust collection for Beginners:  10 min:  https://youtu.be/-g3GqsNJ60U
+
+Attic Based & Voice Activated System: 15 min: https://youtu.be/6swtBtcTGwY
+
+Wall mounted Dust Collector Setup:  6 min:  https://youtu.be/jRuLmnQymXg
+
+Cart for shop vac and cyclone:  2 min:  https://youtu.be/nnVQyKaR9Cg
+
+Upgrade from shop vac to dust collection:  4 min:  https://youtu.be/WHnnJmsoz_Q
+
+Advanced setup with blast gates for each tool:  11 min:  https://youtu.be/SkIFPjJOQNU
+
+### Sawdust Safety
+
+
+
+### Sawdust Recycling
+
+Sawdust from a woodworking shop has a surprising number of useful applications. Mix with wax for a camping fire starter or mix with wood glue to make art. Mulch your flower beds or make a bed for your livestock. What ever you do, don't throw it all away!
+
+**Workshop Uses**
+
+- **Wood Filler**: Combine sawdust with wood glue to fill in gaps or cracks in woodworking projects. You can often match the colour of the project if you use sawdust from that project.
+- **Absorbent Material**: Sawdust soaks up spills well, making it useful for cleaning up oil or paint spills.
+
+**Gardening and Landscaping**
+
+- **Mulch**: Sawdust can be spread around plants to retain moisture and suppress weeds. Just be cautious with hardwood sawdust, as it can deplete nitrogen from the soil.
+- **Compost**: Mix sawdust with other organic matter to create a rich compost. Be mindful of the wood type; avoid sawdust from treated wood.
+- **Pathways**: It creates a soft, natural-looking walkway and prevents muddy paths in gardens.
+
+**Pet and Livestock Care**
+
+- **Animal Bedding**: Use sawdust as bedding for small animals, chickens, or livestock. Be careful with aromatic woods like cedar, which might irritate some animals.
+
+**Crafts and DIY Projects**
+
+- **Wood Stain**: Darker sawdust can be boiled in water to create a natural stain.
+- **Molded Wood Projects**: Mixing sawdust with resin or glue can create a wood-based composite for small molded items.
+
+**Environmental Uses**
+
+- **Fire Starters**: Mix sawdust with wax to create fire starters, or simply use small piles of sawdust on kindling. Great to take camping!
+- **Pathways for Erosion Control**: Spread on slopes or muddy areas to reduce erosion.
+- **Ice Melt Substitute**: In winter, use sawdust on sidewalks or driveways for traction instead of salt. Good idea Eh!?
+
+#### Video Tips
+
+Collect different types of wood sawdust to match your projects, or make a new project with your freshly made sawdust. If you do want to throw it all out, the last short video is a great way to make smaller bags.
+
+[su_table responsive="yes"]
+
+| **Title**                             | **Description**                                                                                             | **Length** | **Video Link**                                   |
+|---------------------------------------|-------------------------------------------------------------------------------------------------------------|------------|--------------------------------------------------|
+| **Save Sawdust in Tins for Glue**     | Collect and store different types of sawdust in separate tins. Mix with glue to use for repairs in woodworking projects. | Short      | [Watch Video](https://youtube.com/shorts/B3DerwmNEaI) |
+| **Reuse Sawdust for Art**             | Repurpose sawdust in art projects, adding unique textures or effects to artwork.                             | Short      | [Watch Video](https://youtube.com/shorts/KCMPF9GwKro) |
+| **41 Creative Uses of Sawdust**       | Amazing ideas for using sawdust around the homestead and garden, from composting to fire starters.          | 5 min      | [Watch Video](https://youtu.be/V8CRrCH_eZw)      |
+| **Sawdust Flowerpot Project**         | Turn scrap sawdust into a project to sell by creating a flowerpot.                                          | 12 min     | [Watch Video](https://youtu.be/u52tGEYJL08)      |
+| **Compact Sawdust Bags**              | Compress sawdust bags to make them more compact, saving space and making them easier to store or dispose of. | Short      | [Watch Video](https://youtube.com/shorts/QOYwWEAp1P0) |
+
+[/su_table]
