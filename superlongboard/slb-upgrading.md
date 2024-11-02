@@ -17,7 +17,7 @@ featured_image: _images/_superlongboard/_upgrade/slb_up_p1_SLB.jpg
 
 Congrats on upgrading to our newest and most powerful CNC controller to date, the **SuperLongBoard**!
 
-Our main goal in this section is to have you go in with a working CNC, then leave with an **SLB-boosted machine** without skipping a beat. This guide will be mostly written with LongMill owners in mind who have the older LongBoard (**LB, pictured on the left**) that they’ll be swapping out for the SuperLongBoard (**SLB, on the right**), though there will be minimal differences for other CNC owners with a LongBoard.
+Our main goal in this section is to have you go in with a working CNC, then leave with an **SLB-boosted machine** without skipping a beat. This guide will be mostly written with LongMill owners in mind who have the older LongBoard (**LB, pictured on the left**) that they’ll be swapping out for the SuperLongBoard (**SLB, on the right**), though there will be minimal differences for other CNC owners with a LongBoard. If you're swapping from the <a href="https://www.spark-concepts.com/cnc-xpro-v5/" target="_blank" rel="noopener">CNC xPRO V5 controller</a>, we have a [separate writeup for that here](/superlongboard/slb-other-controllers.md).
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p1_SLB.jpg){.aligncenter .size-medium}
 
@@ -66,7 +66,7 @@ Let’s start moving plugs over to the SLB!
 1. On your computer, unplug the USB cable that ran to the **LongMill**.
 
    ![](/_images/_superlongboard/_upgrade/slb_up_p6_USB.jpg){.aligncenter .size-medium}
-1. Unplug the X, Y1, Y2, and Z connectors from your **LongMill** and plug them into the **SLB** in the same order. There aren’t any extra steps you have to do even if you have the <a href="https://sienci.com/product/vortex-rotary-axis/">Vortex</a> (as long as it's the open-loop type with the rotary switch).
+1. Unplug the X, Y1, Y2, and Z connectors from your **LongMill** and plug them into the **SLB** in the same order. There aren’t any extra steps you have to do even if you have the <a href="https://sienci.com/product/vortex-rotary-axis/" target="_blank" rel="noopener">Vortex</a> (as long as it's the open-loop type with the rotary switch).
 
    ![](/_images/_superlongboard/_upgrade/slb_up_p7_Motors.jpg){.aligncenter .size-medium}
 1. Unplug your touch plate/probe from the **LongMill** and plug it into the **SLB**, on the **Front Side**.
@@ -85,7 +85,7 @@ Let’s start moving plugs over to the SLB!
 
    ![](/_images/_superlongboard/_upgrade/slb_up_p12_OnOff.jpg){.aligncenter .size-medium}
 
-**Congratulations!** You’ve wired up your new SLB with all its typical accessories! If you still have other, slightly less common accessories to wire in, then keep reading the next section; otherwise you can move over to <a href="https://resources.sienci.com/view/slb-upgrading/#gSender">gSender</a> to connect and do some quick tests.
+**Congratulations!** You’ve wired up your new SLB with all its typical accessories! If you still have other, slightly less common accessories to wire in, then keep reading the next section; otherwise you can move over to <a href="https://resources.sienci.com/view/slb-upgrading/#gSender" target="_blank" rel="noopener">gSender</a> to connect and do some quick tests.
 
 ## Optional Wiring
 

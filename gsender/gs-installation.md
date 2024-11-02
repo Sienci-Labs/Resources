@@ -77,7 +77,8 @@ gSender updates always have the chance of encountering quirks, so if you have an
 
 ![](/_images/_gsender/_install/gs_in_updater.jpg){.aligncenter .size-full}
 
-**Note:** If you are upgrading to a new version or gSender, or downgrading to an older version, and you run into problems trying to get it to open or run, you’ll want to find a file called “**.sender_rc**” and rename it. This will allow gSender to generate a new version and clean up any errors you may be encountering. It also allows you to recover your old Start/Stop events and macros from the file in the future if needed.
+**If you upgrade to a new version, or downgrade to an older version, and gSender won't open or run (blank screen):**  
+You’ll want to find a file called “**.sender_rc**” and rename it so gSender can generate a new version without errors. Sometimes you might also want to delete the “**.sienci-sessions**” folder too.
 
 - For Windows: the file can usually be found on your hard drive, at: **C:/users/{your username}/.sender_rc**. Rename it to whatever you like, like “**.sender_rc_old**”, then try to reinstall gSender again.
 ![](/_images/_gsender/_install/gs_in_update-senderrc.jpg){.aligncenter .size-medium}
@@ -85,6 +86,7 @@ gSender updates always have the chance of encountering quirks, so if you have an
 - For Mac/Linux: the file is in the home directory as a **hidden file**. You can either:
   - In Finder go to **Go ➜ Computer ➜ Drive ➜ Users ➜ {your username}** then unhide the ".sender_rc" file by pressing `CMD + Shift + .` keys. Rename it to whatever you like, like “**.sender_rc_old**”, then try to reinstall gSender again.
   - Go into the Mac/Linux console and enter the command `mv ~/.sender_rc ~/.sender_rc_old`. You’ll be able to double check the renaming was successful by sending `ls -al | grep sender` in the console, where if you only see `.sender_rc_old`, you have successfully remanded and are ready to try to reinstall gSender.
+- If this solves your problem, you'll still be able to recover your old Start/Stop events and macros from the renamed file; just open it in a text editor and copy the macros you want to save so you can paste them back into gSender.
 
 ## Older Versions
 
