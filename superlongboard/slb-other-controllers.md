@@ -103,7 +103,7 @@ Once you're feeling comfortable with your setup, you can go back to the main ["U
 
 For wiring other accessories like a Laser Diode, IOT Relay, Spindle over RS485, and more, then we'd suggest <a href="https://resources.sienci.com/view/slb-manual/" target="_blank" rel="noopener">reading our full Technical Manual page here</a>.
 
-Some of this is also addressed in the second-half of SparksTech's video where he was able to get Spindle RS485 for the H100 VFD set up, as well as he provides a 3D printable adapter for the E-stop to mount it to his Ultimate Bee CNC:
+Some of this is also addressed in the second-half of SparksTech's video where he was able to get Spindle RS485 for the H100 VFD set up, as well as he provides a 3D printable adapter for the E-stop to mount it to his Ultimate Bee CNC. There's also a <a href="https://forum.sienci.com/t/my-road-to-a-SuperLongBoard-from-xpro-v5/12877" target="_blank" rel="noopener">topic on our forum discussing the switch-over</a>.
 
 https://youtu.be/-kVbz-u0nL0
 
