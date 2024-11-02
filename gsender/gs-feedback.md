@@ -73,7 +73,7 @@ If you find that gSender goes blank after you open it or while using it, there a
    1. If not, select edit, choose your computer name, and grant permissions.
 1. If you’re still getting a blank screen, locate your log file and send it in to us. It's located at: C:/Users/{your user name}/AppData/Roaming/gSender/Logs/main.log
 
-### 'Use' gSender without a CNC
+### Use gSender without a CNC
 
 It's not easy for us to simulate how a real CNC will behave if you're not connected to one, but luckily there are some workarounds:
 
