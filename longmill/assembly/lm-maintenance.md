@@ -30,7 +30,7 @@ The normal areas you'll want to keep your eyes on will be:
 1. Lubricated linear rails
 1. Checking for loose fasteners
 
-with rails, v-wheels, and Delrin nuts being checked and cleaned every **10-20 hours**, and linear guides and loose hardware being checked every **20-30 hours**. The v-wheels and Delrin nuts also wear out over time (they're consumables) so on average [they'll need replacing every **1500-2000 hours**](#replace-v-wheels--nuts). You'll know when to replace them when the eccentric nuts can't be rotated any further to tighten up the v-wheels or the tensioning screw on the nut doesn't allow for any more adjustment.
+with rails, v-wheels, and Delrin nuts being checked and cleaned every **10-20 hours**, and linear guides and loose hardware being checked every **20-30 hours**. The v-wheels and Delrin nuts also wear out over time (they're consumables) so on average [they'll need replacing every **1500-2000 hours**](#replace-v-wheels-nuts). You'll know when to replace them when the eccentric nuts can't be rotated any further to tighten up the v-wheels or the tensioning screw on the nut doesn't allow for any more adjustment.
 
 If you don't have great dust pickup or you tend to push your machine harder or longer for production then you'll have to perform maintenance more often. For example, always cutting hard materials with no dust boot will require much more regular checkups versus light PCB cutting.
 
@@ -136,7 +136,7 @@ Some key areas to check:
 - M3 screws holding the Z-axis steel plate on and the linear rails to the X-axis plate
 - Any assorted fasteners on any add-ons you may have received with your LongMill
 
-## Replace V-wheels & Nuts
+## Replace V-wheels, Nuts
 
 V-wheels and Delrin nuts wear out over time and you'll know when to replace them when the eccentric nuts can't be rotated any further to tighten up the v-wheels or the tensioning screw on the nut doesn't allow for any more adjustment. This can also happen for the white anti-backlash nuts which eventually start to become loose.
 
