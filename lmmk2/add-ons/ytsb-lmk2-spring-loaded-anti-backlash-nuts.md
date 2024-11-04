@@ -28,9 +28,11 @@ We are going to be removing the old anti-backlash nuts from the X axis, and both
 
 Move the Y axis all the way to the back of the machine, to be closer to the back left motor.
 
-![](/_images/_lmmk2/_addons/lmk2_spring_loaded_antibacklash2.jpg){.aligncenter size-medium}
+![](/_images/_lmmk2/_addons/lmk2_spring_loaded_antibacklash1.jpg){.aligncenter size-medium}
 
 Remove the mounting screws from the backlash nuts and move the gantry to expose the backlash nut.
+
+![](/_images/_lmmk2/_addons/lmk2_spring_loaded_antibacklash2.jpg){.aligncenter size-medium}
 
 ![](/_images/_lmmk2/_addons/lmk2_spring_loaded_antibacklash3.jpg){.aligncenter size-medium}
 
