@@ -57,6 +57,7 @@ TODO
     - Cover any of the common information that a user might need for day-to-day operation of their machine once it's been set up
     - Talk with users or try to imagine yourself what sort of content you tend to need to reference while cutting, things like job setup, maintenance, common fixes
     - Shouldn't include any basic concepts (though pages on basic concepts can be linked to) since 'The Basics' and 'Software' make up their own sections
+    - Cross-reference how troubleshooting is handled with the whole section allocated in AltMill https://resources.sienci.com/view/am-common-key-solutions/
   - Actionable items:
     - Your MK2, write a section on how to identify your LongMill model https://www.facebook.com/share/p/PC7vMCizMHi94jfb/
     - Running jobs page could use more elaboration in places, and pictures

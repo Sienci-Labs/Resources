@@ -23,6 +23,9 @@ Improves on https://resources.sienci.com/view/lmk2-routers-and-spindles/ but mod
 - [Is a Spindle Needed on a Hobbyist CNC?](https://www.youtube.com/watch?v=mqqlSh0VJ1o)
 - Router VS spindle https://youtu.be/mGJ6ZNjhlH8
 - Differences between air cooled and water cooled spindle and why you'd choose one or the other
+- https://support.pwncnc.com/kb/article/62-comparing-spindles-and-palm-routers/
+- https://resources.sienci.com/view/am-spindles-and-trim-routers/
+- https://resources.sienci.com/view/am-third-party-spindles/
 
 ---
 

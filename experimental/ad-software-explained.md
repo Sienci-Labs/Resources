@@ -28,6 +28,7 @@ Improves on https://resources.sienci.com/view/lmk2-software-explained/
   - https://www.core77.com/posts/67499/Understanding-the-Different-Types-of-3D-Files
   - https://www.adobe.com/creativecloud/file-types/image/vector/stl-file.html
   - https://www.jett3d.com/blog-jett-3d/the-ultimate-guide-to-the-most-popular-3d-printing-file-types
+- https://resources.sienci.com/view/am-software-explained/
 
 I've been developing software as an alternative to the pricey ones out there that are popular like V-Carve, ArtCAM/Carveco, and the like. It also does things a little differently for those who have more of a background in and familiarity with graphics design rather than CAD and manufacturing. Most programs operate on 2D vectors or 3D models as input where my strategy was to make it easier to use images for a project, but now it's able to handle loading and compositing images, vectors, and models together into a project's design and generating toolpaths for all kinds of projects - not just relief carvings like you have found here.
 
