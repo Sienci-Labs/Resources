@@ -21,7 +21,7 @@ TODO
 - **Claimed by Kelly** "CNC Routers" general explanation on CNCs and what they can do
 - **Claimed by Stephen** "Dust Collection" more reference material for setup, suggestions
 - **Claimed by Chris** "Vortex basics" explanation, fine by Daniel as long as it's not too technical
-- "Workholding" all the revised methods available, sorted to help choose which one is best for your project plans
+- **Claimed by Stephen** "Workholding" all the revised methods available, sorted to help choose which one is best for your project plans
 - "Cutting Tools" different types, how they're used, how to pick them
 - "Materials" change to talk about materials typically cut, why you'd choose them, where to source them
 - "Projects" walk through more of the steps to get to the point of creating a project
@@ -32,7 +32,7 @@ TODO
 - "Tools & Router" more handbook material on quick-reference on tool and spindle/router handling
 - "Touch Plate" clearer, simpler explanation on setting up our add-ons
 - "Touch Plates" why are they used on CNCs, what are the other options
-- "Surfacing" better explain what it's accomplishing, bit selection, and the different ways to set it up
+- **Claimed by Kelly** "Surfacing" better explain what it's accomplishing, bit selection, and the different ways to set it up
 
 ## New Pages
 
