@@ -39,6 +39,8 @@ The many hobby CNCs are known as "3-axis CNC routers". What does that mean? Let'
 
 Putting it all together, you get a machine with the ability to cut complex **3D objects** with a **spinning cutter** controlled by a **computer**.
 
+pic
+
 ***It cuts these complex shapes by combining the movements of 3 motors in 3 unique directions   in this by combining The router’s motion is defined by three directions, which are straight lines called the X, Y and Z axes.***
 
 ***For the LongMill, these directions are all straight-line motions. If you remember back to high-school geometry or math, these would be called X, Y, and Z directions, enabling it to cut 3D objects in 3D space.***
