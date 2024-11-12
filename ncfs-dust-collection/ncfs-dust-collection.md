@@ -25,6 +25,8 @@ Improves on https://resources.sienci.com/view/lmk2-dust-collection/
 
 https://forum.sienci.com/t/dust-questions-for-newbie/14028/5
 
+Clean/Maintain your shop vac  https://www.familyhandyman.com/list/cleaning-and-maintaining-your-shop-vac/
+
 ---
 
 CNCs can create a lot of mess just like many other cutting tools. Think about the chips and fine dust you get drilling a single hole or cutting a piece of wood in half and then stretch that out over hours of constant cutting on a cnc machine. This is where dust collection helps out. Most woodworkers will setup a dust collection system that can quickly connect to whatever tool or machine they are using at the time. Adding an air filter to the shop, can help to catch and trap the fine sawdust.
