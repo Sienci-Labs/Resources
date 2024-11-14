@@ -31,6 +31,8 @@ Cover all aspects of tramming but try to keep it general to apply to any CNC
 
 - https://forum.sienci.com/t/how-to-ensure-spindle-is-perpendicular-to-table/14118/4
 
+Tramming tool - https://www.amazon.ca/SST-Mill-Lathe-Adjustable-Tramming/dp/B07D84Y1ZD/ref=sr_1_1
+
 ---
 
 Tramming is the process of making the flat bottom of a cutting tool parallel to the X and Y Rails. It most often comes up when customers talk about lines appearing when surfacing. It's caused by the flat bottom of bits not being parallel to the rails. The router is slightly angled causing one side of the bit to be higher than the other.
