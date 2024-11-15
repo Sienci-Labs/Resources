@@ -131,7 +131,7 @@ Here’s a general wiring ‘map’ you can use as a reference to start hooking 
 </tr>
 <tr>
 <td style="background: #ffee66 !important;"><a href="#accessory-outputs"><b>Accessory Outputs</b></a></td>
-<td>2 SWITCH outputs that turn on any external circuits up to 24V 1A, and 2 AUX POWER outputs which provide up to 24V 250mA to external accessories</td>
+<td>2 SWITCH outputs that turn on any external circuits 1-24V up to 1A, and 2 AUX POWER outputs which provide up to 24V 250mA to external accessories</td>
 </tr>
 <tr>
 <td style="background: #f6a66b !important;"><a href="#spindlers485"><b>Spindle/RS485</b></a></td>
@@ -279,10 +279,10 @@ If you go to probe and find that there’s a touch being detected when there sho
 
 ### Status Lights
 
-A new and simple way to know your CNC status at a glance or from a distance. Hook up your own RGB LED strips to light up your machine, enclosure, or surrounding work area, or reference the on-board RGB LED which is visible from most angles and illuminates the SLBs enclosure cover.
+A new and simple way to know your CNC status at a glance or from a distance. The RGB light on the board is visible from most angles and shines through the clear cover but you can also hook up more if you want to light up your machine, enclosure, or surrounding work area.
 
 - ⬜ **White**: CNC is Idle, flashing white means a job has completed
-- 🟩 **Green**: Jogging or actively Running a Job
+- 🟩 **Green**: Jogging or Running a Job
 - 🟨 **Yellow**: Paused or the Door is open
 - 🟥 **Red**: E-stop is pressed or an Alarm occurred
 - 🟦 **Blue**: Homing or Verifying a job (check state)
@@ -295,12 +295,23 @@ There are also plenty of other status lights on the board for the purpose of tro
 
 #### LED Strips
 
-See below for more options on LED accessories! If you're buying your own LEDs make sure the wires don't say "R, G, B" on them and also make sure you don't buy the 4-wire type or a strip that already has a colour controller built-in. Instead search for "neopixel" style RGB LEDs which always have 3 wires for power, signal, and ground. If you don't want different colours and **just want your LEDs to turn on and off**, instead consider using the SLBs <a href="https://resources.sienci.com/view/slb-manual/#switch-amp-aux-power">AUX Power outputs</a>.
+The SLB is able to have two different LED strips plugged into it:
 
 - The top “**Ring**” plug is a second, unique RGB LED output that we recommend you only power up to 20 external LEDs. These could be mounted near the Router head to illuminate your cutting area or somewhere else that you don’t need a lot of light output.
 ![](/_images/_superlongboard/_manual/slb_ma_p23_RingStrip.jpg){.aligncenter .size-full}
-- The bottom “**Rail**” plug extends from the on-board light to run a much longer LED strip using an external 5-24V, max 3A power supply (denoted **LED PWR**). You could mount this strip under your CNCs X or Y-axis rails or use multiple strips to light up your whole enclosure.
+- The bottom “**Rail**” plug extends from the on-board light to run a much longer LED strip using an external 5V, max 3A power supply (denoted **LED PWR**). You could mount this strip under your CNCs X or Y-axis rails or use multiple strips to light up your whole enclosure.
 ![](/_images/_superlongboard/_manual/slb_ma_p24_RGBLED.jpg){.aligncenter .size-full}
+
+If you want to connect more **RGB LED** strips to the SLB, make sure you buy the right ones:
+
+- Try to buy just the LED strip, no remote or other circuitry
+- It have 3 or 5 wires (not 4) and be marked as "5V" (not 12 or 24 volts)
+- If they're 5V, the LEDs will likely be called "NeoPixels" or "WS2812" in the name or description, check this is true
+- Some we've tested:
+  - <a href="https://www.amazon.ca/gp/product/B088FK4SMQ/" target="_blank" rel="noopener">BTF-LIGHTING</a> (1m/3.3' strip, 60 LEDs), <a href="https://www.amazon.ca/gp/product/B01CDTED80/" target="_blank" rel="noopener">another style</a>
+  - <a href="https://www.amazon.ca/gp/product/B08DKPYZ7L/" target="_blank" rel="noopener">airgoo NEON</a> (two 16" strips, 42 LEDs)
+  - <a href="https://www.amazon.ca/gp/product/B0BYD9ZDRM/" target="_blank" rel="noopener">Geekstory ring light</a> (78mm ID, 35 LEDs)
+- If you don't want different colours and **just want your LEDs to turn on and off**, consider using the SLBs <a href="https://resources.sienci.com/view/slb-manual/#switch-amp-aux-power">AUX Power outputs</a>
 
 The wiring for both of these is the same and is written on the board: power, signal, ground (left-to-right). The plug is a standard ‘JST XH 2.54 3-Pin Female Connector’ which should be very common to find. ‘Dupont 2.54 Wire Female’ connectors could also work as single or 3-pin form which are also very ubiquitous and tend to be included with many beginner electronic kits (shown respectively).
 
@@ -558,7 +569,7 @@ Read more about setting up an IOT Relay here: <a href="https://resources.sienci.
 
 These outputs are far more powerful and customizable than Flood:
 
-- **Switch 1 and Switch 2 outputs** are like electrical switches that you can use to ‘switch on’ any external circuits up to **24V 1A**. This means you’ll need to provide an additional power supply separately to the circuit. Think of these like a mini version of a relay, known as a MOSFET.
+- **Switch 1 and Switch 2 outputs** are like electrical switches that you can use to ‘switch on’ any external **1-24V circuits up to 1A**. This means you’ll need to provide an additional power supply separately to the circuit. Think of these like a mini version of a relay, known as a MOSFET.
 ![](/_images/_superlongboard/_manual/slb_ma_p35_S1S2.jpg){.aligncenter .size-full}
 - **Auxiliary Power outputs 1 and 2** can be used to provide **24V** to any powered accessory like a relay, SSR, solenoid for a mister or ATC, or LED strip; up to **250mA** per plug. This can be more convenient for powering less power-hungry components since the power comes straight from the SLB. It also makes more sense if you plan to then use an SSR to switch an air pump, dust collector motor, or spindle water cooling pump on and off.
 ![](/_images/_superlongboard/_manual/slb_ma_p36_AO12.jpg){.aligncenter .size-full}
