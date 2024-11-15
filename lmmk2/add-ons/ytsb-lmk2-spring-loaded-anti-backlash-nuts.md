@@ -1,8 +1,8 @@
 ---
-title: ytsb Spring loaded anti-backlash nuts
+title: ytsb Spring-loaded anti-backlash nuts
 menu_order: 7
 post_status: draft
-post_excerpt: How to replace your backlash nuts with the updated spring loaded anti-backlash nuts.
+post_excerpt: How to replace your backlash nuts with the updated spring-loaded anti-backlash nuts.
 post_date: 2022-03-17 20:29:00
 taxonomy:
     knowledgebase_cat: lmk2-add-ons
@@ -15,13 +15,11 @@ skip_file: yes
 featured_image: 
 ---
 
-## Spring-loaded Nuts
+Anti-backlash nuts are used on your machine to both reduce backlash and to compensate for wear over time. This upgrade removes the need to adjust the pressure this part applies by hand in your maintenance schedule. Upgrading from anti-backlash nuts to automatically adjusting, T8 spring-loaded anti-backlash nut is fairly simple.
 
-Anti-backlash nuts are used on your machine to both reduce backlash and to compensate for wear over time. This upgrade removes the need to adjust the pressure this part applies by hand in your maintenance schedule. Upgrading from anti-backlash nuts to automatically adjusting, T8 spring loaded anti-backlash nut is fairly simple.
+Check out the video below or follow along for step by step instructions on how to swap out the, new auto adjusting nuts.
 
-Check out the video below or follow along for step by step instructions on how to swap out the new auto adjusting nuts.
-
-Join Jay as he adds the new auto adjusting spring loaded anti-backlash nuts to his MK2 [HERE](https://www.youtube.com/watch?v=1Cl_ykfQgqQ).
+Join Jay as he adds the new auto adjusting spring-loaded anti-backlash nuts to his MK2 [HERE](https://www.youtube.com/watch?v=1Cl_ykfQgqQ).
 
 ### Y-Axes
 
