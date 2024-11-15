@@ -14,21 +14,6 @@ custom_fields:
 skip_file: yes
 featured_image: 
 ---
-
-Improves on https://resources.sienci.com/view/lmk2-dust-collection/
-
-- Refined discussion on dust shoes, pros/cons, what to choose
-- Discuss more about setup and options for vacuums and dust collectors, talk about their pros/cons, and make purchase suggestions
-- Tends to be needed for lung protection and keep the workspace clean while cutting but it can be accomplished with smaller shop vacs, larger dust collectors, or sometimes even just an enclosure that you vacuum up later
-- How to use all the sawdust you collect?
-- Oneida has a new low-profile cyclone to fit to a bucket
-
-https://forum.sienci.com/t/dust-questions-for-newbie/14028/5
-
-Clean/Maintain your shop vac  https://www.familyhandyman.com/list/cleaning-and-maintaining-your-shop-vac/
-
----
-
 CNCs can create a lot of mess just like many other cutting tools. Think about the chips and fine dust you get drilling a single hole or cutting a piece of wood in half and then stretch that out over hours of constant cutting on a cnc machine. This is where dust collection helps out. Most woodworkers will setup a dust collection system that can quickly connect to whatever tool or machine they are using at the time.
 
 A **dust shoe** is basically a fancy vacuum attachment for your CNC machine, it stays near the cutter to stop chips and fine dust from flying away while the **vacuum system** pulls it all away. This is good for you because it:
@@ -55,9 +40,11 @@ Whether a dust shoe is fixed or adjustable depends on how it’s mounted:
 
 ![](dust_boot_fixed.jpg "Source - https://community.carbide3d.com/t/hall-of-dust-shoes/7717/20?page=2, https://maniacallabs.com/2019/02/25/cnc-dust-boot-for-dewalt-router/"){.aligncenter .size-medium}
 
-- An adjustable-style dust shoe is typically mounted to the X-axis of the CNC. This means that it never moves unless you change it's height, allowing the Z-axis to raise and plunge during cutting while the dust shoe stays in the spot you set it.
+- An adjustable-style dust shoe is typically mounted to the X-axis of the CNC. This means that it never moves unless you change it's height, allowing the Z-axis to raise and plunge during cutting while the dust shoe stays in the spot you set it. It can be secured with a couple bolts as in the left image, or held in place with strong magnets for quick and easy adjustments as shown in the right image below.
 
 ![](dust_boot_adjustable.jpg "Source - https://www.nymolabs.com/products/cnc-dust-shoe-only-for-nbs-6040-nbx-5040"){.aligncenter .size-medium}
+
+For general purpose cutting, we recommend using an adjustable dust shoe as it is significantly better at collecting dust and debris, and relies less on how powerful your vacuum system is. It's also much better suited toward flat or sheet material which is the type of material that's most commonly used by hobby CNCers for sign-making and v-carving.
 
 [su_table responsive="yes"]
 <table>
@@ -102,11 +89,11 @@ Whether a dust shoe is fixed or adjustable depends on how it’s mounted:
 </table>
 [/su_table]
 
-For general purpose cutting, we recommend using an adjustable dust shoe as it is significantly better at collecting dust and debris, and relies less on how powerful your vacuum system is. It's also much better suited toward flat or sheet material which is the type of material that's most commonly used by hobby CNCers for sign-making and v-carving.
-
-https://forum.sienci.com/t/a-new-kind-of-articulating-dust-shoe/1681
-
-https://forum.sienci.com/t/making-a-mostly-3d-printable-automatic-dust-shoe-that-is-driven-by-a-stepper-motor/13349
+| **Build Name**                                   | **Description**                                              | **Link**                                                                                           |
+|--------------------------------------------------|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| Articulating Dust Shoe                          | User-created articulating dust shoe design                   | [Forum Discussion](https://forum.sienci.com/t/a-new-kind-of-articulating-dust-shoe/1681)         |
+| 3D Printable Automatic Dust Shoe (Stepper Motor) | 3D printable dust shoe driven by a stepper motor             | [Forum Discussion](https://forum.sienci.com/t/making-a-mostly-3d-printable-automatic-dust-shoe-that-is-driven-by-a-stepper-motor/13349) |
+| AutoDustBoot Version 2.0                        | An improved automatic dust boot solution                    | [YouTube Video](https://youtu.be/1Jvo0tx4MSM)                                                     |
 
 ### Choosing a Vacuum  / Dust collector / Dust Extractor
 
@@ -118,16 +105,20 @@ Suction power (sometimes called Water Lift, Static Lift, Static Pressure…) ind
 
 ### 1. Shop Vac
 
-A **shop vac** is a versatile, high-suction device primarily designed to pick up larger particles, such as wood chips, sawdust, and even liquid spills. 
+A **shop vac** is a versatile, high-suction device primarily designed to pick up larger particles, such as wood chips, sawdust, and even liquid spills.
 
 - **Power and Filtration**: Shop vacs provide high suction power but often lack fine filtration. Many have basic or HEPA filters, which helps capture some finer dust, but they are generally more effective at picking up heavier, larger debris.
 - **Airflow (CFM)**: Shop vacs typically operate at lower cubic feet per minute (CFM) airflow, often ranging between 100-200 CFM. This is sufficient for spot-cleaning work areas and individual tools.
 - **Portability**: Shop vacs are small, lightweight, and portable, making them easy to move around for cleaning various areas of the workshop.
-- **Best Use**: Ideal for smaller, occasional cleanups, especially when dealing with larger wood particles, chips, or heavier dust around tools like miter saws, table saws, and hand tools.
+- **Best Use**: Ideal for smaller, occasional cleanups, especially when dealing with larger wood particles, chips, or heavier dust around tools like mitre saws, table saws, and hand tools.
 
-WEN VC9209 | 10-Amp 9.25-Gallon 6.5 Peak HP Wet/Dry Shop Vacuum | https://wenproducts.com/collections/dust-management/products/wen-vc9209-10-amp-9-25-gallon-6-5-peak-hp-wet-dry-shop-vacuum-and-blower-with-0-3-micron-hepa-filter-hose-and-accessories
-
-
+| **Model**              | **Description**                                    | **Link**                                  |
+|-------------------------|----------------------------------------------------|-------------------------------------------|
+| WEN VC9209             | 10-Amp 9.25-Gallon 6.5 Peak HP Wet/Dry Shop Vacuum | [Link](https://wenproducts.com/collections/dust-management/products/wen-vc9209-10-amp-9-25-gallon-6-5-peak-hp-wet-dry-shop-vacuum-and-blower-with-0-3-micron-hepa-filter-hose-and-accessories) |
+| Uline Wet/Dry Vacuum   | 10 Gallon, Stainless Steel                          | [Link](https://www.uline.ca/Product/Detail/H-8931/Wet-Dry-Vacuums/DeWalt-Wet-Dry-Vacuum-10-Gallon-Stainless-Steel) |
+| Rigid Wet/Dry Vacuum   | 10 Gallon, 6HP                                      | [Link](https://www.homedepot.ca/product/ridgid-375l-10-gal-60-peak-hp-stainless-steel-wet-dry-shop-vacuum-with-filter-hose-and-accessories/1001063385) |
+| Vacmaster Professional | 8 Gallon, Hepa Filter                               | [Link](https://vacmaster.com/wet-dry-vacuums/vacmaster-pro/8-gallon-11amp-hepa-vacuum/) |
+| Hercules | 12 Gallon, Dual Hepa Filter, Noise adjustable                               | [Link](https://www.harborfreight.com/power-tools/vacuums-blowers/dust-collectors/12-gallon-osha-compliant-dust-extractor-58966.html) |
 
 ### 2. Dust Collector
 
@@ -138,15 +129,12 @@ A **dust collector** is designed to capture large volumes of dust and wood chips
 - **Stationary Setup**: Dust collectors are usually larger and stationary or semi-stationary units. They often involve ductwork to connect multiple tools, providing centralized dust management in the shop.
 - **Best Use**: Ideal for woodworking shops with larger power tools, capturing high volumes of sawdust and debris from continuous operation.
 
-Check out these examples!
-
-Powertech | 1 HP Dust Collector with 1 Micron Dust Collector Bags | https://www.amazon.com/dp/B0CV3HJXRR/ref=cm_sw_r_cp_apan_glt_fabc_57VH7EJ6PTNK7ZXSE27F?th=1
-
-WEN | 5.7 AMP 660 CFM Rolling Dust Collector | https://wenproducts.com/collections/dust-management/products/wen-dc3401-57-amp-660-cfm-rolling-dust-collector-with-12-gallon-bag-and-optional-wall-mount
-
-Grizzly G0944 | 1-1/2 HP Wall-Mount Dust Collector with Canister Filter | https://www.grizzly.com/products/grizzly-1-1-2-hp-wall-mount-dust-collector-with-canister-filter/g0944
-
-Grizzly G0548ZP | 2 HP Canister Dust Collector w/Aluminum Impeller | https://www.grizzly.com/products/grizzly-2-hp-canister-dust-collector-w-aluminum-impeller/g0548zp
+| **Model**              | **Description**                                              | **Link**                                                                                               |
+|-------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| Powertech              | 1 HP Dust Collector with 1 Micron Dust Collector Bags         | [Link](https://www.amazon.com/dp/B0CV3HJXRR/ref=cm_sw_r_cp_apan_glt_fabc_57VH7EJ6PTNK7ZXSE27F?th=1)   |
+| WEN                    | 5.7 AMP 660 CFM Rolling Dust Collector                        | [Link](https://wenproducts.com/collections/dust-management/products/wen-dc3401-57-amp-660-cfm-rolling-dust-collector-with-12-gallon-bag-and-optional-wall-mount) |
+| Grizzly G0944          | 1-1/2 HP Wall-Mount Dust Collector with Canister Filter       | [Link](https://www.grizzly.com/products/grizzly-1-1-2-hp-wall-mount-dust-collector-with-canister-filter/g0944) |
+| Grizzly G0548ZP        | 2 HP Canister Dust Collector w/Aluminum Impeller              | [Link](https://www.grizzly.com/products/grizzly-2-hp-canister-dust-collector-w-aluminum-impeller/g0548zp) |
 
 ### 3. Dust Extractor
 
@@ -157,9 +145,10 @@ A **dust extractor** is a specialized type of vacuum designed to capture fine, h
 - **Portability**: They are generally portable and compact, making them easy to connect directly to handheld tools (like sanders or circular saws) for on-tool dust collection.
 - **Best Use**: Dust extractors are best suited for capturing fine dust particles from sanding, concrete grinding, or other tasks that create hazardous, respirable dust.
 
-WEN AF1270 | 4.2-Amp 3-Speed Remote-Controlled Industrial-Strength Air Filtration System | https://wenproducts.com/collections/dust-management/products/wen-af1270-4-2-amp-3-speed-remote-controlled-industrial-strength-air-filtration-system-750-950-1270-cfm
-
-
+| **Model**      | **Description**                                                       | **Link**                                                                                                  |
+|-----------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| WEN AF1270     | 4.2-Amp 3-Speed Remote-Controlled Industrial-Strength Air Filtration System | [Link](https://wenproducts.com/collections/dust-management/products/wen-af1270-4-2-amp-3-speed-remote-controlled-industrial-strength-air-filtration-system-750-950-1270-cfm) |
+| Fein 9-20-27   | Turbo Vacuum, 5.8 Gallon, HEPA filter                                 | [Link](https://www.amazon.ca/dp/B00K69ILFQ/ref=asc_df_B00K74N8RQ&mcid=6207cf8f1eaa34e0ba6f2390c8adf5ea)   |
 
 ### Features Comparison
 
@@ -175,7 +164,7 @@ WEN AF1270 | 4.2-Amp 3-Speed Remote-Controlled Industrial-Strength Air Filtratio
 
 - **Use a Shop Vac** if you need portability and versatility for general cleanup or larger wood particles and debris.
 - **Choose a Dust Collector** if you have a dedicated woodworking shop with stationary tools and need continuous dust collection.
-- **Opt for a Dust Extractor** if you frequently work with hazardous fine dust from sanding, concrete grinding, or materials that produce respirable particles and need HEPA-level filtration for safety. 
+- **Opt for a Dust Extractor** if you frequently work with hazardous fine dust from sanding, concrete grinding, or materials that produce respirable particles and need HEPA-level filtration for safety.
 
 Each of these tools has its strengths, costs, size and power requirements. Often woodworkers start small and build up to a combination of a dust collector and dust extractor, which can create an optimal setup for a safer, cleaner workshop.
 
@@ -187,18 +176,26 @@ Dust collectors for example typically have higher CFMs but lower suction, thus b
 
 Shop-Vacs, on the other hand, have smaller CFMs but higher suction power. These types of vacuums are happy with using smaller diameter hoses.
 
-Depending on the design of your dust shoe, you may need to adapt your hose to match. You can find adapters that can help switch between hose diameters. You may also want to opt for a hose that will keep static buildup along it's length to a minimum in which case more specialized options exist such as the 36mm antistatic hose from Festool.
-
-Adaptors
+Depending on the design of your dust shoe, you may need to adapt your hose to match. You can find adapters that can help switch between hose diameters. You may also want to opt for a hose that will keep static buildup along it's length to a minimum in which case more specialized options exist such as the [36mm antistatic hose from Festool](https://www.festoolcanada.com/accessories/dust-extraction/suction-hoses-and-cleaning-accessories/suction-hoses/204923---d3632x3,5m-asr).
 
 ### Hanging Your Hose
 
-Easy CNC Swing Arm: 3 min: https://youtu.be/RwYulYI8uRw
-Custom Dust Collection Swing Arm: 18 min:  https://youtu.be/KufOYrTFBPA
+It's important to have the dust collection hose hang above the dust shoe, so that it doesn't put any pressure on the router, or get caught up in your work. You can simply hang it from the ceiling or use a more advanced solution like an articulating arm. Make your own, or [grab one from Etsy!](https://www.etsy.com/ca/listing/736098852/vacuum-hose-boom-for-small-medium-and)
+
+![](dust_arms.jpg "Source - https://forum.avidcnc.com/t/one-dust-collection-solution/1400"){.aligncenter .size-medium}
+
+| **Title**                        | **Duration** | **Link**                          |
+|----------------------------------|--------------|------------------------------------|
+| Easy CNC Swing Arm               | 3 min        | [Link](https://youtu.be/RwYulYI8uRw) |
+| Custom Dust Collection Swing Arm | 18 min       | [Link](https://youtu.be/KufOYrTFBPA) |
 
 ### Adding a Cyclone
 
-Adding a second stage to your dust collection strategy can drastically reduce the amount of filters your shop vac or dust collection system uses.
+Adding a second stage to your dust collection strategy can drastically reduce the amount of filters your shop vac or dust collection system uses. Often called a cyclone, it works by using centrifugal force to separate dust and debris from the air. When dust-laden air enters the cyclone chamber, it is spun rapidly in a vortex. The heavier particles are flung outward against the chamber walls, where they lose momentum and fall into a collection bin below. Meanwhile, the lighter, cleaner air is directed upwards and exits through the top outlet, often passing through a secondary filter for finer particles. This process improves efficiency, reduces filter clogging, and extends the lifespan of the dust collection system.
+
+Many user will make their own, or you can purchase a pre-made one. [Here](https://www.leevalley.com/en-ca/shop/tools/workshop/dust-collection/dust-extractors/116856-dust-deputy-low-pro-deluxe) is a neat low profile cyclone!
+
+![](dust_cyclones.jpg){.aligncenter .size-medium}
 
 | Video Title                               | Duration | Link                                           |
 |-------------------------------------------|----------|------------------------------------------------|
@@ -226,19 +223,22 @@ You can customize your shop to have a simple shop vac with hose hanging above yo
 Being in an environment where you are exposed to high amounts of aerosolized sawdust isn't good for you, and can cause a chronic cough, chest pain, runny nose, headaches, bronchitis and more. The worst for your health is the fine particle that can't be seen by the naked eye. In the woodworking hobby, dust is classified into categories—L (low-risk), M (medium-risk), and H (high-risk)—based on the type of material and associated health risks.
 
 ### L-Class Dust (Low-Risk Dust)
+
 L-class dust poses the least risk and includes materials that, while potentially irritating, generally have minimal health effects with short-term exposure. However, L-class dust still requires basic dust collection and protection measures, especially for prolonged exposure.
 
 - **Softwoods** (e.g., pine, cedar): These woods produce dust that can be irritating to the respiratory system but are generally considered less toxic than hardwoods.
 - **Plastics**: Dust from sanding certain plastics can be irritating but is generally categorized as low risk, although it should still be managed to avoid respiratory discomfort.
 
 ### M-Class Dust (Medium-Risk Dust)
+
 M-class dust poses a higher health risk and includes materials that can cause respiratory issues with regular exposure. This category requires enhanced dust extraction measures and PPE, such as respirators rated for medium dust filtration.
 
 - **Hardwoods** (e.g., oak, beech): These woods produce finer dust particles that can be inhaled deeply into the lungs, potentially causing respiratory issues and allergic reactions. Some hardwood dusts are also linked to nasal cancer with prolonged exposure.
-- **Plywood and MDF (Medium Density Fiberboard)**: These engineered woods can release formaldehyde and other chemicals as fine dust, which are more hazardous to health, especially in confined spaces.
+- **Plywood and MDF (Medium Density Fibreboard)**: These engineered woods can release formaldehyde and other chemicals as fine dust, which are more hazardous to health, especially in confined spaces.
 - **Painted or coated surfaces**: Sanding painted wood or surfaces coated with certain chemicals can release toxic particles, particularly if the coatings contain lead or other harmful compounds.
 
 ### H-Class Dust (High-Risk Dust)
+
 H-class dust is the most hazardous, typically containing carcinogenic or highly toxic materials. Special dust control equipment with high-filtration capabilities and sealed PPE are required to handle these materials safely.
 
 - **Asbestos**: While not common in hobby woodworking, asbestos dust can be encountered in renovations or demolition work involving older materials. It’s extremely hazardous and known to cause lung cancer and mesothelioma.
