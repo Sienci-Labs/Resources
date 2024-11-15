@@ -31,7 +31,7 @@ You’ll find the EX lead screw securely wrapped onto the X-axis rail. Unwrap th
 
 <img class="wp-image-7187 size-full aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/48x30_MK2.5_packing_layout.png" alt="" width="18640" height="9012" />
 
-The ‘EX hardware box’ contains various hardware that is used when assembling the X-axis of your 48x30 machine, and the ‘MK2.5 EX hardware box’ contains other small parts specific to 48x30 MK2.5 LongMill. The ‘EX Drag chain box &amp; cable box’ contains the longer 1400mm drag chain used on the X-axis, as well as some cable extensions. During sections of the assembly to follow, parts will be called from each of the boxes relevant to that section.
+The ‘EX hardware box’ contains various hardware that is used when assembling the X-axis of your 48x30 machine, and the ‘MK2.5 EX hardware box’ contains other small parts specific to 48x30 MK2.5 LongMill. The ‘EX Drag chain box & cable box’ contains the longer 1400mm drag chain used on the X-axis, as well as some cable extensions. During sections of the assembly to follow, parts will be called from each of the boxes relevant to that section.
 
 <img class="aligncenter size-medium wp-image-3794" src="https://resources.sienci.com/wp-content/uploads/2022/06/IMG_4375-850x567.jpg" alt="" width="850" height="567" />
 
@@ -161,11 +161,11 @@ Loosen the bolt mounting the X-axis drag chain onto the X-axis rail and slide th
 
 <img class="aligncenter size-medium wp-image-3841" src="https://resources.sienci.com/wp-content/uploads/2022/06/IMG_4509-850x567.jpg" alt="" width="850" height="567" />
 
-Grab the router power extension cable and motor cable from the drag chain &amp; cable box. <b>The motor cable has been updated to not need an extension cable, it can now reach all the way to the controller!</b>
+Grab the router power extension cable and motor cable from the drag chain & cable box. <b>The motor cable has been updated to not need an extension cable, it can now reach all the way to the controller!</b>
 
 <b>Only applicable if installing the inductive sensor kit as well:</b>
 
-If you purchased the inductive sensor add-on kit, you’ll want to install the Z-axis limit switch now. Grab the limit switch cable extension from the EX drag chain &amp; cable box, as well as one of the three inductive sensors from within the kit.
+If you purchased the inductive sensor add-on kit, you’ll want to install the Z-axis limit switch now. Grab the limit switch cable extension from the EX drag chain & cable box, as well as one of the three inductive sensors from within the kit.
 
 Route one inductive sensor cable through the X-axis drag chain, leaving some slack at the sensor for mounting the sensor later. Install the included limit switch extension cable as shown below to extend this cable. The excess cable length will be bundled with the Z-axis motor cable and router power cable in the next section.
 

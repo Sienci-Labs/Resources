@@ -122,7 +122,7 @@ One key bit of information that we need on our end is a picture or screenshot of
 1. Make sure your CNC is plugged into your current computer via USB
 1. Open "Device Manager" in your Windows start menu
 ![](/_images/_gsender/_issues/gs_is_cm_device-manager.jpg){.aligncenter .size-medium}
-1. Expand the "Ports (COM &amp; LPT)" heading
+1. Expand the "Ports (COM & LPT)" heading
 ![](/_images/_gsender/_issues/gs_is_cm_device-port.jpg){.aligncenter .size-medium}
 1. Find the listing related to your CNC. This will be the one that disappears and reappears if you unplug your CNC and plug it back in. It'll also be the port you normally connect to on other g-code senders.
 1. Right click that device and open "Properties"

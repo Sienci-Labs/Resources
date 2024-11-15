@@ -224,7 +224,7 @@ CAMLab is our very own 3D CAM software which allows you to create g-code toolpat
 </div>
 &nbsp;
 
-### Design &amp; CAM (advanced)
+### Design & CAM (advanced)
 
 For those that are looking to use their CNC more regularly and want to unlock its full potential. If you plan on learning 3D design for the first time, an awesome resource which teaches you how to design for CNC can be found here: <a href="https://www.hubs.com/knowledge-base/how-design-parts-cnc-machining/">https://www.hubs.com/knowledge-base/how-design-parts-cnc-machining/</a>
 

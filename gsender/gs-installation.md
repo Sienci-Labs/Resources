@@ -35,7 +35,7 @@ Once you've downloaded the EXE file, double-click to run it. gSender isn't yet s
 
 ![](/_images/_gsender/_install/gs_in_windows-defender.jpg){.aligncenter .size-medium}
 
-If the "More info" option isn't available, it could be that Windows is fully blocking installation. This can be fixed by going to "App &amp; browser control" and switching "Check app and files" to "Warn" or "Off" just for the installation of gSender. You can always turn it back on afterwards.
+If the "More info" option isn't available, it could be that Windows is fully blocking installation. This can be fixed by going to "App & browser control" and switching "Check app and files" to "Warn" or "Off" just for the installation of gSender. You can always turn it back on afterwards.
 
 ![](/_images/_gsender/_install/gs_in_windows-defender-override.jpg){.aligncenter .size-medium}
 
@@ -62,7 +62,7 @@ Navigate to your applications folder on your Mac and the gSender program should 
 If you're having issues installing gSender on your Mac:
 
 1. Open System Preferences.
-1. Go to the Security &amp; Privacy tab.
+1. Go to the Security & Privacy tab.
 1. Click on the lock and enter your password so you can make changes.
 1. Change the setting to 'App Store and identified developers'
 1. After, you’ll see the option to override app blocking by clicking the temporary button to 'Open Anyway'

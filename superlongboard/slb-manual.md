@@ -33,7 +33,7 @@ Comparing the SLB to our Original LongBoard and to other controllers on the mark
 - Detachable E-stop gives you something to reach for if your CNC starts going where you didn't expect
 - RGB CNC Status lights visible from a distance to always know what your CNC is up to or if something’s gone wrong. Light onboard plus support for external RGB strips to set up as you wish: under your X-axis rail, a router/spindle ring light
 - 3 programmable buttons for you to customize your CNC to your workflow
-- Live overrides to fine-tune your feeds &amp; speeds on the fly when running a job
+- Live overrides to fine-tune your feeds & speeds on the fly when running a job
 - Supports inductive sensors for far more accurate and repeatable CNC positioning for job recovery or multi-day runs than using stall homing in a dirty CNC environment, also use mechanical switches
 - Individual axis holding current, allows you to hold just the Z-axis from falling with a heavy spindle without having to keep all other motors powered too
 - Added support for an independent Tool Length Sensor for tool changes
@@ -149,7 +149,7 @@ Here’s a general wiring ‘map’ you can use as a reference to start hooking 
 </table>
 [/su_table]
 
-### Power &amp; E-stop
+### Power & E-stop
 
 Each SLB comes with an E-stop and pre-made wiring to keep you safe out-of-the-box when cutting. When pressed, the E-stop is designed to cut all power to your CNCs stepper motors and also send a signal back to the MCU to disable all other accessories that your SLB controls. This includes turning off the spindle, IOT Relay, and anything else that’s triggered by M3/4 and M7/8 commands. Use the E-stop when there's a hazard during carving and you need to immediately stop the machine.
 
@@ -174,7 +174,7 @@ Since each SLB comes with an E-stop and pre-made wiring, you’ll only need to r
 
 If you want to set up the custom action buttons for your E-stop now, jump forward to the <a href="#action-buttons">Action Buttons</a> section :)
 
-### USB &amp; Ethernet
+### USB & Ethernet
 
 The SLB offers USB-C as well as Ethernet as a way to connect your CNC to your computer. Both are isolated for noise, with larger data buffers, and should provide a reliable connection. Though Ethernet is generally considered to be more reliable, we worked hard on a robust USB interface with far more data checks and signal isolation to match a typical Ethernet setup. This means you can use either, but USB-C is more beginner friendly and at the minimum a USB-C connection is needed to perform the initial board setup. If you want to place your computer further away from your machine or feel that the USB is still occasionally causing you issues then we'd recommend switching over to Ethernet.
 
@@ -228,7 +228,7 @@ The board comes with 4 onboard stepper motor drivers so you can plug a typical X
 
 The TMC2660C motor drivers are capable of 2800mA RMS and should allow for faster speeds than the previous LongBoard's TB6600 drivers due to their higher efficiency which also means the machine runs quieter. Though they can all run independently (allowing Y-axis auto-squaring in the future), the two Y-axes are currently running ‘mirrored’.
 
-#### Movement &amp; Cutting Speeds
+#### Movement & Cutting Speeds
 
 The default movement speed of the SLB has been set up to work out-of-the-box for a LongMill CNC with typical tuning on an average setup. Based on your setup you may be able to adjust your Maximum Speeds for X, Y, and Z ($110-112) to be higher than their defaults of 5500mm/min, or you might have to lower them if those speeds are losing steps for you. You can also do this to the Acceleration ($120-122) of each axis from its default of 1000mm/s2 for XY and 750mm/s2 for Z.
 
@@ -241,7 +241,7 @@ To check if your machine is able to handle the default speeds, manually set the 
 
 **Two notes:** Firstly you might be worried that the faster speeds and acceleration might cause faster wear of your CNCs motion system and although this is partially true, these higher speeds won’t typically be reached during cutting which is the majority of the time that your CNC moves so it shouldn't cause much added stress to machine life. Secondly, if your CNC was set up with homing and you’ve tuned its movement speeds after the fact, be sure to re-check your homing offsets if you’re using jigs since motor acceleration can change where your machine homes to.
 
-#### Microsteps &amp; Movement Tuning
+#### Microsteps & Movement Tuning
 
 The default configuration for the SLB is **32nd microstepping** ($150-153). This might seem to go against common internet wisdom and even past articles we've posted where CNCs don't tend to go past 8th microstepping in order to maintain more motor torque, but new drivers like the SLBs TMC2660Cs are able to account for this. The more precise microstepping signalling on these drivers means that they're able to maintain similar torque no matter the microstep settings, they're even set up so that coarser microsteps are still interpolated after-the-fact to make the steps less jarring and reduce resonance. In our testing we found that 32nd worked just as well as 8th, while providing more benefit of reduced motor noise and improved accuracy, but of course at the end of the day you should do what you think would be best for your CNC setup.
 
@@ -291,18 +291,16 @@ A new and simple way to know your CNC status at a glance or from a distance. The
 
 ![](/_images/_superlongboard/_manual/slb_ma_p22_Status.jpg){.aligncenter .size-full}
 
-There are also plenty of other status lights on the board for the purpose of troubleshooting, go <a href="https://resources.sienci.com/view/slb-troubleshooting/#troubleshooting-lights">HERE</a> to see what they all do.
+There are also plenty of other status lights on the board for the purpose of troubleshooting, <a href="https://resources.sienci.com/view/slb-troubleshooting/#troubleshooting-lights">GO HERE</a> to see what they all do.
 
 #### LED Strips
 
-The SLB is able to have two different LED strips plugged into it:
+If you want to have **RGB LEDs** lighting up your CNC, you can connect up to 2 separate strips:
 
-- The top “**Ring**” plug is a second, unique RGB LED output that we recommend you only power up to 20 external LEDs. These could be mounted near the Router head to illuminate your cutting area or somewhere else that you don’t need a lot of light output.
-![](/_images/_superlongboard/_manual/slb_ma_p23_RingStrip.jpg){.aligncenter .size-full}
-- The bottom “**Rail**” plug extends from the on-board light to run a much longer LED strip using an external 5V, max 3A power supply (denoted **LED PWR**). You could mount this strip under your CNCs X or Y-axis rails or use multiple strips to light up your whole enclosure.
-![](/_images/_superlongboard/_manual/slb_ma_p24_RGBLED.jpg){.aligncenter .size-full}
+- A shorter strip of up to **40 LEDs**, powered by the SLB
+- A longer strip of up to **60 LEDs** that needs to be powered by a separate power supply (you'll need to provide one)
 
-If you want to connect more **RGB LED** strips to the SLB, make sure you buy the right ones:
+On the SLB, the plug for the shorter strip is called "**Ring**" since you'd typically mount it near your router/spindle to light up the cutting area, while the longer one is called "**Rail**" since it's a good length to mount under an X or Y-axis rail for more ambient lighting; but realistically you can use both strips however you want. If you want to hook these up, make sure you **buy the right strips**:
 
 - Try to buy just the LED strip, no remote or other circuitry
 - It have 3 or 5 wires (not 4) and be marked as "5V" (not 12 or 24 volts)
@@ -312,12 +310,17 @@ If you want to connect more **RGB LED** strips to the SLB, make sure you buy the
   - <a href="https://www.amazon.ca/gp/product/B08DKPYZ7L/" target="_blank" rel="noopener">airgoo NEON</a> (two 16" strips, 42 LEDs)
   - <a href="https://www.amazon.ca/gp/product/B0BYD9ZDRM/" target="_blank" rel="noopener">Geekstory ring light</a> (78mm ID, 35 LEDs)
 - If you don't want different colours and **just want your LEDs to turn on and off**, consider using the SLBs <a href="https://resources.sienci.com/view/slb-manual/#switch-amp-aux-power">AUX Power outputs</a>
+- **Tip:** if you want your **Rail** LED strip to be longer, try to find one with the LEDs spaced further apart
 
-The wiring for both of these is the same and is written on the board: power, signal, ground (left-to-right). The plug is a standard ‘JST XH 2.54 3-Pin Female Connector’ which should be very common to find. ‘Dupont 2.54 Wire Female’ connectors could also work as single or 3-pin form which are also very ubiquitous and tend to be included with many beginner electronic kits (shown respectively).
+Typically, LED strips will be wired in the same pattern as the SLB: power, signal, ground (left-to-right) - but with the wrong connector. The plug is a standard ‘**JST XH 2.54 3-Pin Female Connector**’ which should be very common to find, where you can either <a href="https://www.amazon.ca/dp/product/B09JNZMBY4" target="_blank" rel="noopener">buy the pre-crimped connector</a> and solder it to the LED strip, or cut off the incorrect connector and <a href="https://www.amazon.ca/dp/product/B0BTGXNGNN" target="_blank" rel="noopener">crimp on a new one</a>.
 
-![](/_images/_superlongboard/_manual/slb_ma_p25_PlugEnds.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p23_RingStrip.jpg){.aligncenter .size-full}
 
-Once you're done wiring up, update the $664 (ring) or $665 (rail) firmware settings for the number of LEDs you've plugged in and power-cycle the board for the changes to take effect. Enjoy your new pizazz! A member of our community, Jim, also made his own LED write-up if you'd like to check that out too: <a href="https://resources.sienci.com/wp-content/uploads/2024/04/Jims-SLB-Rail-LED-Guide.pdf" target="_blank" rel="noopener">Jim's SLB Rail LED Guide (PDF)</a>
+The bottom “**Rail**” plug extends from the on-board light to run a much longer LED strip using an external 5V, max 3A power supply (denoted **LED PWR**). You could mount this strip under your CNCs X or Y-axis rails or use multiple strips to light up your whole enclosure.
+
+![](/_images/_superlongboard/_manual/slb_ma_p24b-rail-led.jpg){.aligncenter .size-full}
+
+Once you're done wiring up, update the $664 (ring) or $665 (rail) firmware settings for the number of LEDs you've plugged in and power-cycle the board for the changes to take effect. Look at the new pizazz! A member of our community, Jim, also made his own LED write-up if you'd like to check that out too: <a href="https://resources.sienci.com/wp-content/uploads/2024/04/Jims-SLB-Rail-LED-Guide.pdf" target="_blank" rel="noopener">Jim's SLB Rail LED Guide (PDF)</a>
 
 #### Manual Control
 
@@ -565,7 +568,7 @@ This output is commonly used to automatically control a vacuum or router to turn
 
 Read more about setting up an IOT Relay here: <a href="https://resources.sienci.com/view/lmk2-automated-relay/">https://resources.sienci.com/view/lmk2-automated-relay/</a>
 
-#### Switch &amp; Aux Power
+#### Switch & Aux Power
 
 These outputs are far more powerful and customizable than Flood:
 
@@ -880,6 +883,6 @@ If you don’t happen to have these specific connectors on hand there are also c
 
 ### Current Unused Ports
 
-Right now there are a handful of plugs and pins on the SLB that technically don’t do anything useful yet which is why there's nothing in the manual on it. The idea was that by adding in the hardware now, over the next year we could keep working on testing and implementing firmware that would continue making more features available to all SLB owners without having to buy a new board. We’re very excited about it but ultimately can't make any guarantees on what will and won't ultimately work, so that's why no features have been promised yet outside of what's already been tested and delivered. These ports include the: **Y2 Limit Switch**, **SaS Spindle pin**, **Pendant**, **SD card**, **Door**, **ADC**, **40-pin AUX COMM Header**, and **AUX IO Header**.
+Right now there are a handful of plugs and pins on the SLB that technically don’t do anything useful yet which is why there's nothing in the manual on it. The idea was that by adding in the hardware at the start, we could keep working on testing and implementing firmware to make more features available to all SLB owners without having to buy a new board. We’re very excited about it but ultimately can't make any guarantees on what will and won't ultimately work, so that's why no features have been promised yet outside of what's already been tested and delivered. These ports include the: **Y2 Limit Switch**, **SaS Spindle pin**, **Pendant**, **SD card**, **Door**, **ADC**, **40-pin AUX COMM Header**, and **AUX IO Header**.
 
-If you’re still interested in trying these out without current support or documentation, we’ll soon have all our board designs and firmware code available online for reference and modification so you can feel free to try your own stuff or contribute back if you’d like!
+If you’re still interested in trying these out without our support or documentation, <a href="https://resources.sienci.com/view/slb-welcome/#open-source" target="_blank" rel="noopener">we have all our board designs and firmware code available online for reference and modification</a> so you can feel free to try your own stuff and even contribute back to the project! For instance, you can see the <a href="https://github.com/Sienci-Labs/SuperLongBoard/blob/master/Project%20Outputs%20for%20Longboard_32bit/Schematic%20and%203D%20Prints/Longboard_32bit_Schematic_B6.1_FULL_PLACE.PDF" target="_blank" rel="noopener">40-pin inputs and outputs in the full schematic PDF</a> on page 19.

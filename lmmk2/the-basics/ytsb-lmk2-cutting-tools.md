@@ -124,7 +124,7 @@ In case you're feeling curious, there's many more resources out there which prov
 
 Below we've put together a list of bit recommendations based on the use case they're being used for:
 
-- **Bulk material removal &amp; simple cuts:** get a surfacing bit for flattening material blanks, some dado bits, and some 1/4" end mills
+- **Bulk material removal & simple cuts:** get a surfacing bit for flattening material blanks, some dado bits, and some 1/4" end mills
 - **Lots of plywood work:** get some downcut end mills (regular ones are upcut) or compression bits to avoid splintering
 - **Sign making:** most of the time a 60° and 90°, 1/4" shank v-bit and an end mill is all you need
 - Intricate contour and relief cuts (3D carving): look into getting small, 2-flute ball or tapered end mills, these can range from 1/8" to being smaller than 1mm
