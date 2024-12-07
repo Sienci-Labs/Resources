@@ -133,7 +133,7 @@ If you're looking for some more inspiration, or would like to start by making so
 
 [tabby title="Art / Drawings" open="yes"]
 
-- <a href="https://drive.google.com/drive/folders/0AP53PdbE_2iRUk9PVA" target="_blank" rel="noopener">Sienci Labs Projects Repository</a> (our Google Drive storing projects we featured on <a href="https://www.YouTube.com/@SienciLabs/videos" target="_blank" rel="noopener">YouTube</a>)
+- <a href="https://drive.google.com/drive/folders/1LdLwBGppp-opl9cudGY60SJcWSO6FKrS" target="_blank" rel="noopener">Sienci Labs Projects Repository</a> (our Google Drive storing projects we featured on <a href="https://www.YouTube.com/@SienciLabs/videos" target="_blank" rel="noopener">YouTube</a>)
 - <a href="https://obrary.com/collections/open-designs" target="_blank" rel="noopener noreferrer">Obrary</a>
 - <a href="http://maslowcommunitygarden.org/index.html" target="_blank" rel="noopener noreferrer">Maslow Community Garden </a>
 - <a href="https://www.freepatternsarea.com/free-patterns-templates/" target="_blank" rel="noopener noreferrer">FreePatternsArea (templates)</a>
@@ -177,7 +177,7 @@ General sources:
 
 [tabby title="3D Models"]
 
-- <a href="https://drive.google.com/drive/folders/0AP53PdbE_2iRUk9PVA" target="_blank" rel="noopener">Sienci Labs Projects Repository</a> (our Google Drive storing projects we featured on <a href="https://www.YouTube.com/@SienciLabs/videos" target="_blank" rel="noopener">YouTube</a>)
+- <a href="https://drive.google.com/drive/folders/1LdLwBGppp-opl9cudGY60SJcWSO6FKrS" target="_blank" rel="noopener">Sienci Labs Projects Repository</a> (our Google Drive storing projects we featured on <a href="https://www.YouTube.com/@SienciLabs/videos" target="_blank" rel="noopener">YouTube</a>)
 - <a href="https://www.thingiverse.com/SienciLabs/collections/cnc-projects-to-try" target="_blank" rel="noopener noreferrer">Sienci Labs' Thingiverse collection</a> (our curated list)
 - <a href="https://cults3d.com/en/tags/bas-relief" target="_blank" rel="noopener noreferrer">Cults 3D (reliefs)</a>
 - <a href="https://www.thingiverse.com/search?sort=things&amp;q=cnc+projects&amp;type=collections" target="_blank" rel="noopener noreferrer">Thingiverse (CNC projects)</a>
