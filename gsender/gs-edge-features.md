@@ -50,22 +50,22 @@ As of version **1.50-Edge-1** the current notable features / improvements to Edg
   - **Outline & Start From** - Start from now has it's own button! Many people never knew it existed since it was hard to notice
   - **Alarms** - Now focused in the top, center of the screen for easier reading
   - **Running status bar** - Upgraded visual is now an end mill, showing your progress through your job visually, in a percentage of time shown
-- **Job Files Revamp** - We've made it faster and easier to load and use your files.
+- **Job Files Revamp** - We've made it faster and easier to load and use your files
   - **Load File** - Updated to give you more power over your files
   - **Recent Files** - Are now listed, just press and load
   - **Last Job** - Includes new details like the file name, run time and status
+- **Firmware detection** - Automatically identify which version you are running, and automatically connect to the correct controller
+- **Config Tab** - A whole new page to dial in your gSender settings and your firmware EEPROM codes, all in one
+- **Machine Info** - See your current firmware modals and pin status at a glance
 
 ### Coming Soon
 
 - **Updated Mobile & Tablet screens** - Use your phone or your tablet with our power-packed mobile UI update
 - **Notification System** - gSender wants to tell you something!
-  - **Info button** - provides a footprint of your machine information, including firmware modals and pin indication lights
   - **Notification bell** - allows you to sort your notifications by tab, showing errors, info, and successful jobs completed
   - **Tool is ON** - indicators will appear on the top bar if you have the laser or rotary tools enabled for better clarity and safety
-- **Config Tab** - A whole new page to dial in your settings or use a wizard to assist
 - **Stat/Info Tab** - Review your usage and statistics on this tab
 - **Tool/CAM Tab** - Surface a project, prepare a flat wasteboard, and hoping to expand to support much more
-- **Firmware recognition** - Automatically identify which version you are running
 - **Dark Mode** - Run gSender at night while in dark mode. Oooh, spooky.
 
 Much of our effort early on has been dedicated to backend changes, tooling and technology changes, and the “main” control UI of the software. As such, some longstanding features such as surfacing, calibration, etc. are not included in this first release - rest assured that these will be coming shortly as we iterate through the remaining features to bring them in line with the UI refresh. There was an enormous effort on the “plumbing” side of things to future proof gSender and now that that’s out of the way, feature development should be quick.
@@ -102,6 +102,12 @@ Machine status is now at the top and the center of your attention. Alarms will a
 
 ![](/_images/_gsender/_edge/gs_ed_alarm-state.jpg){.aligncenter .size-medium}
 
+#### Minimize Handler
+
+You can minimize the sidebar with a simple click of the hamburger icon.
+
+![](/_images/_gsender/_edge/gs_ed_tabs.gif){.aligncenter .size-full}
+
 #### Touch Screen
 
 Secondary widgets get an update to allow for touch screen activation.
@@ -115,3 +121,37 @@ Extra power has been added to your file manager. Flip between job information an
 ![](/_images/_gsender/_edge/gs_ed_file-info.jpg){.aligncenter .size-medium}
 
 ![](/_images/_gsender/_edge/gs_ed_file-size.jpg){.aligncenter .size-medium}
+
+### Firmware Detection
+
+gSender now detects your firmware flavour on connection and chooses the controller for you! No longer do you have to worry about forgetting to swap firmware versions when connecting to different machines or connecting to a new machine. We hope this allows an easier, more plug-and-play experience when connecting to a machine for all users and less situations where behaviour is not what’s intended because the user chose the wrong firmware to connect with.
+
+We’ve made some assumptions - if you’re connecting with ethernet, for example, it will default to grblHAL.
+
+### Configuration Tool
+
+Settings for your machine and the EEPROM settings found in the firmware tool have been combined into a new Configuration tool for a one stop shop in setting up your machine. We’re hopeful that having **gSender settings** and **firmware EEPROM codes** more closely grouped allows the user a more straight forward experience in configuring their CNC.
+
+A tab for Basics, Motors, Probes, Spindle/Laser, etc. are all there for you to explore. The groups should make sense from a high level - for example, the Spindle contains both the settings for gSender to enable the tab and set laser/spindle max and min power, along with any EEPROM settings relevant to configuring your spindle.
+
+*Note - **In cases where grblHAL supports natively some functionality such as laser offsets, the setting will use those EEPROM values instead of the local values for a more seamless user experience and less confusion***
+
+![](/_images/_gsender/_edge/gs_ed_configmain.jpg){.aligncenter .size-medium}
+
+There was a last second emergent issue with some EEPROM controls but the legacy firmware tool is available for the time being if you find it's not working as you expect.
+
+There are also some slight behaviour changes. Settings must be applied instead of automatically saving, for example. We hope there is not too much of a learning curve - we’re excited to hear feedback on both groupings and how it functions!
+
+![](/_images/_gsender/_edge/gs_ed_applychange.jpg){.aligncenter .size-medium}
+
+### Machine Info
+
+We’ve added an easy interactive information modal to let you know about both current firmware modals and pin status. Some of this information was available in the old user interface within the diagnostic tool, but we hope having a single cohesive spot on the main interface will be helpful to non-novice users.
+
+![](/_images/_gsender/_edge/gs_ed_machineinfov2.jpg){.aligncenter .size-medium}
+
+### Notifications
+
+We’ve made some changes to application notifications. No longer will a toast with relevant information get missed- you now have history of application notifications.
+
+![](/_images/_gsender/_edge/gs_ed_notifsv2.jpg){.aligncenter .size-medium}
