@@ -97,7 +97,7 @@ Download the software from here (we recommend version 2.15.0): <a href="https://
    ![](/_images/_superlongboard/_firmware/slb_fi_p7_STI.jpg){.aligncenter .size-medium}
 1. Once complete, you’ll have to exit out of a bunch of small windows
 1. Switch off the board power switch then turn back on again, then reconnect to the board in gSender, ioSender, or any other g-code sender.
-1. Follow the same last 2 steps (4 and 5) of the gSender Flashing process and you should be done!
+1. Follow the same last 2 steps (7 and 8) of the gSender Flashing process and you should be done!
 
 ### Windows Driver Update
 
