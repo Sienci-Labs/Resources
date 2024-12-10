@@ -19,7 +19,7 @@ Your board will likely ship with the latest firmware already installed, but we o
 
 <b><span class="redText">Do not flash your SLB unless you've done it before and are absolutely sure you know what you're doing or are being guided by our team.</span> The flashing process can be touchy the first time, so if you're having problems then please contact our team first otherwise be prepared to accept a regretful outcome.</b>
 
-Before getting started, **check what your current version is** by going to the ‘Console’ of your g-code sender and send the command “$i”. The result will be a long list of text in square brackets. If you scroll down to about the 9th line you’ll see something like “[BOARD:” where you’ll also see the version number at the end. Compare this to the version list below to see which one you’d like to flash:
+Before getting started, **check what your current version is** by going to the ‘Console’ of your g-code sender and send the command `$i`. The result will be a long list of text in square brackets. If you scroll down to about the 9th line you’ll see something like “[BOARD:” where you’ll also see the version number at the end. Compare this to the version list below to see which one you’d like to flash:
 
 **Most Recent Firmware:**
 
@@ -53,10 +53,10 @@ You can choose to either use gSender or the STM Cube Programmer software to upda
 
 ### gSender Flashing
 
-1. Be connected to your SLB over USB with the power on, ensure the firmware selected is “grblHAL” not “grbl”
+1. Be connected to your SLB over USB with the power on, ensure the firmware selected is 'grblHAL' not 'grbl'
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p1_Connected.png){.aligncenter .size-medium}
-1. Go to the ‘Firmware’ tool and click the “Flash grblHAL” button
+1. Go to the ‘Firmware’ tool and click the 'Flash grblHAL' button
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p2_FlashgrblHAL.jpg){.aligncenter .size-medium}
 1. Ensure the COM port is correct (matches the board you’re connected to)
@@ -70,12 +70,12 @@ You can choose to either use gSender or the STM Cube Programmer software to upda
 1. Once you see the loading bar at 100%, flashing is complete. Exit out of the firmware window and switch off the board with the power switch at the back then turn it back on again.
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p4_Flashing.jpg){.aligncenter .size-medium}
-1. Once it’s back on, you should be able to re-connect to it in gSender. Go to the ‘Console’ tab and send the command “$rst=$” to revert your machine back to the default firmware settings.
+1. Once it’s back on, you should be able to re-connect to it in gSender. Go to the ‘Console’ tab and send the command `$rst=$` to revert your machine back to the default firmware settings (you shouldn't get any errors when you send this command).
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p5_ConsoleRST.jpg){.aligncenter .size-medium}
 1. Power the board off and then back on one more time after sending the command. Finally, if you had any specific settings from your previous setup that you want to check or reload, connect back to gSender and change those firmware values back. Remember to hit “Apply New Settings” when you’re doing this and ensure that the settings are being re-added correctly, if they don’t seem to be sticking then make sure that your SLB is in an ‘Idle’ state, cleared of all Alarms, and try turning the SLB off and back on again.
 
-Congrats are in order, well done! If you go back to the ‘Console’ you should now see that sending the “$i” command will give you new text that matches up with the update you’ve made.
+Congrats are in order, well done! If you go back to the ‘Console’ you should now see that sending the `$i` command will give you new text that matches up with the update you’ve made.
 
 ### STM Cube Flashing
 
@@ -87,17 +87,17 @@ Download the software from here (we recommend version 2.15.0): <a href="https://
 1. Now turn the SLBs power toggle switch back on or reconnect power. You should see that most LEDs on the board are turned off now, especially the main Status LED.
 1. You can remove or let go of the BOOT jumper now.
 1. With the STM32 Cube Programmer opened on your computer:
-   1. Select “USB” in the blue drop down box at the top of the right of the window
-   1. Click the refresh button next to “Port”, the board will typically show up as “USB1”
-   1. If the board shows up, press the green “Connect” button. If you still see “No DFU”, check your setup then click the refresh button again
-   1. Go to the “Erasing &amp; Programming” tab on the left side of the screen
-   1. Select the blue “Browse” button to select the latest hex file (firmware file) on your computer
-   1. Press the blue “Start Programming” button
+   1. Select 'USB' in the blue drop down box at the top of the right of the window
+   1. Click the refresh button next to 'Port', the board will typically show up as “USB1”
+   1. If the board shows up, press the green 'Connect' button. If you still see “No DFU”, check your setup then click the refresh button again
+   1. Go to the 'Erasing & Programming' tab on the left side of the screen
+   1. Select the blue 'Browse' button to select the latest hex file (firmware file) on your computer
+   1. Press the blue 'Start Programming' button
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p7_STI.jpg){.aligncenter .size-medium}
 1. Once complete, you’ll have to exit out of a bunch of small windows
 1. Switch off the board power switch then turn back on again, then reconnect to the board in gSender, ioSender, or any other g-code sender.
-1. Follow the same last 2 steps (4 and 5) of the gSender Flashing process and you should be done!
+1. Follow the same last 2 steps (7 and 8) of the gSender Flashing process and you should be done!
 
 ### Windows Driver Update
 
@@ -107,24 +107,24 @@ To do this we’ll use a program called Zadig. The program is only needed to mak
 
 1. Download Zadig at <a href="https://zadig.akeo.ie/#" target="_blank" rel="noopener">https://zadig.akeo.ie/#</a> (there's an <a href="https://github.com/pbatard/libwdi/releases/download/v1.5.0/zadig-2.8.exe" target="_blank" rel="noopener">alternate download here</a>).
 1. Put the SLB into DFU mode. There is two methods for this:
-   - Connect to the SLB in gSender and type “$dfu” in the Console tab. This will disconnect it from gSender and it will no longer appear in the dropdown connection area.
+   - Connect to the SLB in gSender and type `$dfu` in the Console tab. This will disconnect it from gSender and it will no longer appear in the dropdown connection area. **This step needs to happen successfully, if you get an error, assess your setup and do not move on to the next step.**
    - Or use a jumper, flathead screwdriver, or other small piece of metal to short between two pins on the SLB near the USB port. The two pins will have “SPIN” written near them, and you'll need to be shorting them while you use the power toggle switch to turn the SLB on.
-1. Open Zadig and in the toolbar click ‘Options’ ➜ “List all Devices”
+1. Open Zadig and in the toolbar click ‘Options’ ➜ 'List all Devices'
 1. In the main dropdown, find and select the “STM32 Bootloader” device. This name might change depending on your current operating system.
 ![](/_images/_superlongboard/_firmware/slb_fi_p8_SMT32.png){.aligncenter .size-medium}
 1. Make sure that “WinUSB” is the selected driver type.
-1. Click the “Replace Driver” button and wait for the operation to complete.
-1. Power cycle the board to exit DFU mode, then give flashing another shot. If you followed all the steps you should now be able to change and update your SLBs firmware now!
+1. Click the “Replace Driver” button and wait for the operation to complete (if you happen to accidentally delete other drivers in the process, restarting your computer should bring them back).
+1. Power cycle the board to exit DFU mode, then give flashing another shot. If you followed all the steps you should now be able to change and update your SLBs firmware!
 
 #### Bad Driver Install
 
-If you got the error message "**Unable to find valid device using vendor ID and product ID**" and you just fixed your Windows drivers then that means you made a mistake in the driver update steps. If you weren't messing with drivers, then just ensure your SLB is getting into DFU mode by typing "$dfu" into a g-code sender console or using the pin short method shown in the [STM Cube Flashing section](#stm-cube-flashing).
+If you got the error message "**Unable to find valid device using vendor ID and product ID**" and you just fixed your Windows drivers then that means you made a mistake in the driver update steps. If you weren't messing with drivers, then just ensure your SLB is getting into DFU mode by typing `$dfu` into a g-code sender console or using the pin short method shown in the [STM Cube Flashing section](#stm-cube-flashing).
 
 To fix the Windows driver:
 
-1. Open "**Device Manager**" in your Windows start menu
+1. Open '**Device Manager**' in your Windows start menu
 ![](/_images/_gsender/_issues/gs_is_cm_device-manager.png){.aligncenter .size-medium}
-1. Look under the "**Ports**" or "**Universal Serial Bus**" headings for the SLB which should include "STM32" in the name
+1. Look under the '**Ports**' or '**Universal Serial Bus**' headings for the SLB which should include "STM32" in the name
 ![](/_images/_superlongboard/_firmware/slb_fi_p9_stm32-device.png){.aligncenter .size-full .nar}
 1. Right-click ➜ Uninstall device, then power cycle the board
 1. Once powered back up and reconnected, the SLB should reappear looking more normal. With this done, you can try flashing again - or if Windows still didn't install the correct driver then go through the [Windows Driver Update](#windows-driver-update) again.

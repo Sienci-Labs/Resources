@@ -199,7 +199,7 @@ Keep in mind that setting up Ethernet is a bit more involved, and at the time of
 
 #### Ethernet on Windows
 
-1. To start, connect to your CNC over USB to note down the EEPROM values set for the IP address and Netmask (302 and 304). The defaults should be IP:192.168.5.1 and Netmask:255.255.255.0 with the IP mode set to 'static'.
+1. To start, connect to your CNC over USB to note down the EEPROM values set for the IP address and Netmask (302 and 304). The defaults should be IP: `192.168.5.1` and Netmask: `255.255.255.0` with the IP mode set to `static`.
 ![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode.jpg){.aligncenter .size-full .nar}
 
 1. Once confirmed, you can unplug your USB and connect the Ethernet cable directly from your PC to your board. If you look where you plugged the Ethernet cable into the SLBs port from the outside, you should see a green light on and a flickering yellow light.
@@ -219,6 +219,16 @@ Keep in mind that setting up Ethernet is a bit more involved, and at the time of
 ![](/_images/_superlongboard/_manual/slb_ma_p17_Connected.jpg){.aligncenter .size-full}
 
 1. If you have a problem connecting with Ethernet, go back over the setup steps. You can also reconnect over USB to double-check your SLB Ethernet settings.
+
+#### Ethernet on Mac
+
+To set up an Ethernet connection to the SLB from a Mac, you'll follow a lot of the same steps as for [Ethernet on Windows](#ethernet-on-windows) but after doing **Step 2**:
+
+1. On your Mac, click the Apple menu ➜ System Settings ➜ then click '🌐 Network' in the sidebar (you may need to scroll down).
+1. Click Ethernet service ➜ 'Details...'. Note: if your Mac doesn’t have a built-in Ethernet port and you’re using an adapter, look for a service that contains the name of the adapter manufacturer or the type of adapter. For example, the service might be named [manufacturer name] USB-C LAN, or just contain the model number of the adapter.
+1. Click TCP/IP in the sidebar ➜ then for 'Configure IPv4' choose 'Manually' so you can enter the specific IP address and subnet mask. You want the subnet mask to be the same value from the EEPROM 'Netmask'. The IP address should have a different last digit on the same mask - so if the board is device 1 (192.168.5.1), you could call your PC device 5 (192.168.5.5). Click “OK” to save and close the options.
+![](/_images/_superlongboard/_manual/slb_ma_p15-ip-2.jpg){.aligncenter .size-full}
+1. Resume following the Windows instructions at Step 6 to finish the process.
 
 ### Motors
 
@@ -485,6 +495,10 @@ Knowing all this, you can go into the EEPROM to change your selections for the D
 
 If you run into an issue where switching between outputs gets stuck, this can be fixed by power-cycling the board.
 
+Here's a video that explains more about the setup and configuration process:
+
+https://youtu.be/5r_P6eISrnc
+
 #### Laser Configuration
 
 The SLB is set up to work with the LaserBeam by default, so if you have another laser diode you might need to configure the default settings based on your manufacturer's specifications.
@@ -725,11 +739,13 @@ Short for “Tool Length Sensor”, this is a very common accessory for slightly
 
 ![](/_images/_superlongboard/_manual/slb_ma_p43_TLSBoard.jpg){.aligncenter .size-full}
 
-If your TLS is wired correctly, you should be able to press it and see the “TLS” status light toggle on or off (either is fine, on is NO, off is NC). If you’re unsure with your wiring or your TLS has more than 3 wires, you can use a multimeter and check any two wires until you find a set that contact or open when pressed and those will be the ones you use for the signal and gnd; the third might be power. If you have 4 wires your TLS might have 2 switches, one that triggers when pressed down just a bit then the next one pressed in case of over travel. This would typically trigger an E-stop or Pause but you only really have to use the one that triggers first.
+If your TLS is wired correctly, you should be able to press it and see the “PRB” status light toggle on or off on the SLB (either is fine, on is NO, off is NC). If you’re unsure with your wiring or your TLS has more than 3 wires, you can use a multimeter and check any two wires until you find a set that contact/open when pressed and those will be the ones you use for the signal and gnd; the third might be power. If you have 4 wires your TLS might have 2 switches, one that triggers when pressed down just a bit then the next one pressed in case of over travel. This would typically trigger an E-stop or Pause but you only really have to use the one that triggers first.
 
-Lastly, check in your g-code sender if the TLS signal is set up correctly. This signal is shared with the touch plate, so activating either of them should be recognized. The SLBs defaults expect NO to not cause confusion for non-TLS owners. If the signal is on and only turns off when the TLS is pressed, then go to the $668 firmware setting and toggle it to the opposite of what it was set to:
+With wiring done, check in your g-code sender if the TLS signal is set up correctly. This signal is shared with the touch plate, so activating either of them should be recognized. gSender has a status light to help see this in the 'Calibrate' tab and in other senders it should appear as 'P' for probe. If the light in the sender turns on when the TLS is pushed, and also turns on when the probe circuit is connected, then the hardware (SLB and wiring) is working and that means the $ values have been set up correctly. If the signal is on and only turns off when the TLS is pressed, then go to the $668 firmware setting and toggle it to the opposite of what it was set to.
 
 ![](/_images/_superlongboard/_manual/slb_ma_p44_tls-input.png){.aligncenter .size-full}
+
+This flip is usually needed since the SLB defaults to expect NO inputs. Once this all seems to be working, see more documentation here on how to set up tool changing for your SLB (<a href="https://resources.sienci.com/view/gs-additional-features/#tool-changing" target="_blank" rel="noopener">gSender tool changing feature</a>) and make sure you select the 'Fixed tool sensor' option.
 
 ### Rotary Axis
 
