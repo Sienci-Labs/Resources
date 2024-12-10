@@ -34,6 +34,11 @@ top 5 methods to keep projects secure - IDCWoodcraft - https://www.youtube.com/w
 
 Community post - https://forum.sienci.com/t/hold-down-tip-contact-cement-instead-of-super-glue/2681/23
 
+Vertical workholding
+Tiling
+Flip milling
+vacuum table
+
 ---
 
 Another aspect of learning how to use your CNC router involves knowing how to properly secure material down to the bed of the machine. Rigidly securing material to the machine bed is crucial when setting up to cut. Some clamping methods are rigid but are more intrusive, while others keep a low profile but aren't quite as strong. Play around with these methods to see which ones you can use individually or in combination for your ideal setup.
