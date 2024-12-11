@@ -131,7 +131,7 @@ A **dust collector** is designed to capture large volumes of dust and wood chips
 
 | **Model**              | **Description**                                              | **Link**                                                                                               |
 |-------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Powertech              | 1 HP Dust Collector with 1 Micron Dust Collector Bags         | [Link](https://www.amazon.com/dp/B0CV3HJXRR/ref=cm_sw_r_cp_apan_glt_fabc_57VH7EJ6PTNK7ZXSE27F?th=1)   |
+| POWERTEC              | 1 HP Dust Collector with 1 Micron Dust Collector Bags         | [Link](https://www.amazon.com/dp/B0CV3HJXRR/ref=cm_sw_r_cp_apan_glt_fabc_57VH7EJ6PTNK7ZXSE27F?th=1)   |
 | WEN                    | 5.7 AMP 660 CFM Rolling Dust Collector                        | [Link](https://wenproducts.com/collections/dust-management/products/wen-dc3401-57-amp-660-cfm-rolling-dust-collector-with-12-gallon-bag-and-optional-wall-mount) |
 | Grizzly G0944          | 1-1/2 HP Wall-Mount Dust Collector with Canister Filter       | [Link](https://www.grizzly.com/products/grizzly-1-1-2-hp-wall-mount-dust-collector-with-canister-filter/g0944) |
 | Grizzly G0548ZP        | 2 HP Canister Dust Collector w/Aluminum Impeller              | [Link](https://www.grizzly.com/products/grizzly-2-hp-canister-dust-collector-w-aluminum-impeller/g0548zp) |
