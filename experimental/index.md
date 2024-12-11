@@ -19,20 +19,20 @@ TODO
 ## Elaborate / more Comprehensive content on
 
 - **Claimed by Kelly** "CNC Routers" general explanation on CNCs and what they can do
-- **Claimed by Stephen** "Dust Collection" more reference material for setup, suggestions
+- **Claimed by Kelly** "Surfacing" better explain what it's accomplishing, bit selection, and the different ways to set it up
+- **Claimed by Kelly** "Routers/Spindles" explore what situations you should choose which
 - **Claimed by Chris** "Vortex basics" explanation, fine by Daniel as long as it's not too technical
+- **Claimed by Stephen** "Dust Collection" more reference material for setup, suggestions
 - **Claimed by Stephen** "Workholding" all the revised methods available, sorted to help choose which one is best for your project plans
 - "Cutting Tools" different types, how they're used, how to pick them
 - "Materials" change to talk about materials typically cut, why you'd choose them, where to source them
 - "Projects" walk through more of the steps to get to the point of creating a project
-- "Routers/Spindles" explore what situations you should choose which
 - "Software Explained" add in typical files you need/work with and some more pictures like used in Vortex
 - "Tables/Enclosures" more guidance on pre-built tables, how to choose which design, address AC wiring setup
 - "Tool Changing" need to take a fully true stab at explaining all the tool changing methods
 - "Tools & Router" more handbook material on quick-reference on tool and spindle/router handling
 - "Touch Plate" clearer, simpler explanation on setting up our add-ons
 - "Touch Plates" why are they used on CNCs, what are the other options
-- **Claimed by Kelly** "Surfacing" better explain what it's accomplishing, bit selection, and the different ways to set it up
 
 ## New Pages
 
@@ -60,6 +60,7 @@ TODO
     - Cross-reference how troubleshooting is handled with the whole section allocated in AltMill https://resources.sienci.com/view/am-common-key-solutions/
   - Actionable items:
     - Your MK2, write a section on how to identify your LongMill model https://www.facebook.com/share/p/PC7vMCizMHi94jfb/
+    - Restructure maintenance page to go over updating parts but also the steps to replace parts once fully worn out
     - Running jobs page could use more elaboration in places, and pictures
     - Mention how to handle safe heights regularly vs with the Vortex
     - How to zero in different scenarios or find zero on a piece of round stock or in stock center

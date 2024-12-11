@@ -29,6 +29,8 @@ Re-frame page https://resources.sienci.com/view/lmk2-workholding/ to be in the c
 - Flip-milling: https://forum.sienci.com/t/christmas-themed-slot-projects/1960/2
 - Flip-jig: https://www.youtube.com/watch?v=u45tZtebIDM
 - Might want to move it back up into a more general section since this would be info that people would want before setting their CNC up?
+- Good typical spacing of t-track of 6 inches to reach different sized material
+- Some people recommend XFasten tape (https://www.amazon.ca/gp/product/B07BBL4JXJ, https://www.amazon.ca/dp/B01DX1VDG2) but other people find it too thick and gummy and prefer LLPT (https://www.amazon.ca/dp/B07L6BS2KX)
 
 top 5 methods to keep projects secure - IDCWoodcraft - https://www.youtube.com/watch?v=rRkjuLSV6Bc
 

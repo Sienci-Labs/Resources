@@ -21,6 +21,7 @@ Improves on https://resources.sienci.com/view/lmk2-materials/
 - Where you can normally source those materials
 - Great tips for finding places to buy wood, middle of video https://youtu.be/pktydCxlqz4?si=Iem1aD8KLB90I2eJ
 - Purchase Acrylic https://www.facebook.com/share/p/yF7S9VrvyEYurrgf/
+- Buying materials https://www.reddit.com/r/hobbycnc/s/Nvn5rgGjIf
 
 ---
 

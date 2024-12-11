@@ -35,6 +35,7 @@ Try to make as neutral a writeup as possible on how to choose what CNC is best f
   - https://www.etsy.com/ca/listing/1122074243/onefinity-cnc-ball-screw-wipers-complete
   - https://forum.onefinitycnc.com/t/wiper-comes-loose-white-plastic-ring-on-ball-screw/3687
   - https://forum.onefinitycnc.com/t/tightening-a-loose-wiper-in-the-foot-of-the-onefinity-cnc-support/11007
+  - Point Winston makes about v-wheels versus linear rails https://youtu.be/b6GdEEzsulc
 - The accuracy of different homing sensors, referencing many other write-ups and videos on the topics including the accuracy of the sensorless homing
 - Great video, part near the end that talks about tool price and what a higher price gets you https://youtu.be/pktydCxlqz4
 - Mention 3-in-1 machines and why they just don't make sense nowadays with cheap 3D printers and cheap laser cutters
@@ -45,5 +46,6 @@ Try to make as neutral a writeup as possible on how to choose what CNC is best f
   - [IDC Woodcraft Buyers Guide](https://drive.google.com/file/d/1Uz80Web_QEQcUe7cYJh8K9gEsScAPhIR/)
   - https://www.click.idcwoodcraft.com/buyers-guide
   - https://www.click.idcwoodcraft.com/thank-you-for-your-purchase--e9b8e
+  - Things to consider when buying https://youtu.be/B8dkZUJe25o
 
 ---

@@ -26,6 +26,8 @@ Improves on https://resources.sienci.com/view/lmk2-routers-and-spindles/ but mod
 - https://support.pwncnc.com/kb/article/62-comparing-spindles-and-palm-routers/
 - https://resources.sienci.com/view/am-spindles-and-trim-routers/
 - https://resources.sienci.com/view/am-third-party-spindles/
+- Difference in spindle power https://youtu.be/3VAyytVlFMg
+- Air cooled versus water cooled spindle analogy is that it's the same as having a fan versus water-cooled computer
 
 ---
 
