@@ -1,6 +1,6 @@
 ---
 title: Edge Features
-menu_order: 4
+menu_order: 5
 post_status: publish
 post_excerpt: 
 post_date: 2021-07-01 15:55:00
