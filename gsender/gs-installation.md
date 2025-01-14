@@ -148,7 +148,7 @@ To change the default pi user password. It's just menu ➜ Preferences ➜ Raspb
 **Error log location:**
 All application logs can be found in “<em>~/.config/gSender/logs</em>” and can be shared for any app-specific problems.
 
-### Common Issues
+### Common Pi Issues
 
 **Sizing for Smaller Screens**
 gSender can size responsively but only to a minimum point. Because of this, some Pi users might find gSender isn't fitting their screen properly. This can be accommodated on most Pis by:
