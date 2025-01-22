@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: 
+featured_image: _images/_longmill/_software/lm_visualizers_p1_g-code.JPG
 ---
 
 Visualizing how your cutting instructions (g-code file) are going to play out before executing them on your machine is very valuable. It can help you to to verify that the machine is going to cut out your project in the way that you expect it to. Most CAM or Interface software will have built-in g-code visualization for this reason, either showing the line that the cutting tool will follow or rendering a full 3D view of how the material is going to be cut away.

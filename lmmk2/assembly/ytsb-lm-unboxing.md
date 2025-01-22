@@ -116,11 +116,11 @@ You got yourself a LongMill MK2.5 desktop CNC so, now what? Here’s everything 
 
 Diving into your LongMill box you’ll be met with a whole lot of boxes within. This assembly manual is laid out in a way that you unbag and grab things as you need them so don’t feel the need to take stock of everything right away, instead just start off by getting your space organized and getting each initial box opened up.
 
-<img class="size-medium wp-image-2692 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-3-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_boxpacking.jpg){.aligncenter .size-medium}
 
 Check out the ‘welcome items’ where you’ll find our letter alongside some tools provided for assembly and some fun stickers. Also check out the ‘variable box’ and ‘rail box’ for extra goodies, some are hidden within the rails themselves. Set aside items like the Makita and NEMA23 motor box as well any add-ons from the variable box like bits, dust shoe, touch plate, since you won’t need these until much later on in the assembly.
 
-<a href="https://resources.sienci.com/view/48x30-LongMill-mk2-accompanying-manual/#48-x-axis-rail-box-unpacking"><img class="fortye aligncenter wp-image-3936 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX1-1-850x156.png" alt="" width="850" height="156" /></a>
+![](/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_ext48.png)(https://resources.sienci.com/view/48x30-LongMill-mk2-accompanying-manual/#48-x-axis-rail-box-unpacking)
 
 <h3>Tools you’ll need</h3>
 
@@ -162,39 +162,19 @@ Many issues during assembly can be solved by re-examining the instructions. Chec
 Our assembly videos can’t be updated as often as the online or PDF instructions so if packaging or parts change the written manual will always be able to clarify these changes.</li>
   <li><b>Remember the language</b>
 This manual contains some technical language as well as a distinct visual language. Keeping these in mind will make the assembly easier for you to understand and ensure that less mistakes happen.
-<table class="unboxing-table2" style="height: 100px; width: 95%; margin-left: auto; margin-right: auto; text-align: center; border-collapse: collapse; table-layout: fixed; padding: 5px !important; border: none !important;">
-<tbody>
-<tr>
-<td style="text-align: left; padding: 5px; border: none;">• Section title pages: show the part of the machine you’ll be working on next</td>
-<td style="text-align: center; padding: 5px; border: none;"><img class="alignnone wp-image-3151 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/Unboxing-tips-1a-1.png" alt="" width="395" height="173" /></td>
-</tr>
-<tr>
-<td style="text-align: left; padding: 5px; border: none;">• Transparent parts: outlined in blue with a blue arrow path to show where the part starts and where it ends up</td>
-<td style="text-align: center; padding: 5px; border: none;"><img class="alignnone size-medium wp-image-3144" src="https://resources.sienci.com/wp-content/uploads/2022/03/Unboxing-tips-2a-850x372.png" alt="" width="850" height="372" /></td>
-</tr>
-<tr>
-<td style="text-align: left; padding: 5px; border: none;">• Rotation arrows: come as either blue or red, blue indicating a loose placement of the part and red indicating a firm tightening required to fasten the part into place</td>
-<td style="text-align: center; padding: 5px; border: none;"><img class="alignnone wp-image-3148 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/Unboxing-tips-3-850x372.png" alt="" width="850" height="372" /></td>
-</tr>
-<tr>
-<td style="text-align: left; padding: 5px; border: none;">• Caution triangles: marks something that requires attention</td>
-<td style="text-align: center; padding: 5px; border: none;"><img class="alignnone wp-image-3146 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/Unboxing-tips-4a.png" alt="" width="758" height="332" /></td>
-</tr>
-<tr>
-<td style="text-align: left; padding: 5px; border: none;">• Large green circles: provide a secondary view of the current step for added clarity</td>
-<td style="text-align: center; padding: 5px; border: none;"><img class="alignnone wp-image-3147 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/Unboxing-tips-5a-850x371.png" alt="" width="850" height="371" /></td>
-</tr>
-<tr>
-<td style="text-align: left; padding: 5px; border: none;">• X, Y, and Z: during assembly if you see these capitalized letters used it’s because we refer to some parts by the axis they belong to. For reference, if you’re looking at the LongMill from the front the X-axis is when the machine moves left/right (red), the Y-axis is towards/away from you (green), and the Z-axis is moving up/down from the tabletop (blue)</td>
-<td style="text-align: center; padding: 5px; border: none;"><img class="alignnone wp-image-3155 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-Showing-Axes-850x478.jpg" alt="" width="850" height="478" /></td>
-</tr>
-<tr>
-<td style="text-align: left; padding: 5px; border: none;">• 48" EX symbol: always comes after a blurb of text to indicate that you'll need to follow a few different steps outlined in the accompanying manual. If you aren't assembling the 48x30 model of the LongMill MK2 you can ignore these</td>
-<td style="text-align: center; padding: 5px; border: none;"><img class="alignnone wp-image-4869 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/48EX-symbol.png" alt="" width="825" height="408" /></td>
-</tr>
-</tbody>
-</table>
-</li>
+
+<br>
+
+| Description                                                                                  | Image                                                                                                   |
+|:---------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|
+| • Section title pages: show the part of the machine you’ll be working on next               | ![](/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_machinepart.png) |
+| • Transparent parts: outlined in blue with a blue arrow path to show where the part starts and where it ends up | ![](/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_startend.png) |
+| • Rotation arrows: come as either blue or red, blue indicating a loose placement of the part and red indicating a firm tightening required to fasten the part into place | ![](/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_loosefirm.png) |
+| • Caution triangles: marks something that requires attention                                | ![](/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_caution.png)    |
+| • Large green circles: provide a secondary view of the current step for added clarity       | ![](/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_clarity.png) |
+| • X, Y, and Z: during assembly if you see these capitalized letters used it’s because we refer to some parts by the axis they belong to. For reference, if you’re looking at the LongMill from the front the X-axis is when the machine moves left/right (red), the Y-axis is towards/away from you (green), and the Z-axis is moving up/down from the tabletop (blue) | ![](/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_xyzangles.jpg)       |
+| • 48" EX symbol: always comes after a blurb of text to indicate that you'll need to follow a few different steps outlined in the accompanying manual. If you aren't assembling the 48x30 model of the LongMill MK2 you can ignore these | ![](/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_48ex.png)               |
+
   <li><b>Connect with the community</b>
 If you are looking to get quick advice or to share your excitement about the LongMill, post in our <a href="https://forum.sienci.com/" target="_blank" rel="noopener">forum</a> or <a href="https://www.facebook.com/groups/mill.one/" target="_blank" rel="noopener">Facebook group</a>! We have a large and friendly group of CNC enthusiasts who enjoy engaging in conversations and sharing their CNC experiences.</li>
 </ol>

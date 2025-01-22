@@ -23,7 +23,7 @@ On this page, we consolidated the most unique designs so that you can gain inspi
 
 The minimum size of your table will depend on the size of your machine (48x30, 30x30, or 12x30). Below is a guide on the outside dimensions and working area of each version of the LongMill.
 
-<img class="alignnone size-full wp-image-42390" src="https://sienci.com/wp-content/uploads/2021/12/MK2-Dimensions.png" sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://sienci.com/wp-content/uploads/2021/12/MK2-Dimensions.png 1200w, https://sienci.com/wp-content/uploads/2021/12/MK2-Dimensions-300x225.png 300w, https://sienci.com/wp-content/uploads/2021/12/MK2-Dimensions-1024x768.png 1024w, https://sienci.com/wp-content/uploads/2021/12/MK2-Dimensions-768x576.png 768w, https://sienci.com/wp-content/uploads/2021/12/MK2-Dimensions-324x243.png 324w, https://sienci.com/wp-content/uploads/2021/12/MK2-Dimensions-416x312.png 416w" alt="" width="1200" height="900" />
+![](/_images/_lmmk2/_the-basics/lmk2_communitytable_footprint.jpg){.aligncenter .size-medium}
 
 Your table should be at least the "Machine Footprint" dimensions to fully support the machine. This indicates the approximate distances from each outside corner of the machine. However, we recommend building your table larger than needed to give extra space to make mounting and maintenance easier, as well as space for tools, computers, and wiring to sit.
 

@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: 
+featured_image: _images/_lmmk2/_the-basics/lmk2_welcome_navigation.jpg
 ---
 
 <p style="margin-bottom: -20px;">Hello and welcome to your ⤦</p>
@@ -58,11 +58,11 @@ If you're not in a rush, take a moment to understand how to navigate through you
 1. The 'Page Contents' acts as a way to quickly scroll along the page you're on to any section of that page. On smaller screens this will appear at the top rather than the right side
 1. Any page can be saved or 'printed' if you'd like to reference them offline
 
-<img class="size-medium wp-image-3058 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Resources-Navigation-ann-850x396.png" alt="" width="850" height="396" />
+![](/_images/_lmmk2/_the-basics/lmk2_welcome_navigation.jpg){.aligncenter .size-medium}
 
 Lastly, each page will have buttons at the bottom to move on to the next or previous page. This is handy because it allows you to "flip the page" in the chapter you're reading, allowing you to go step-by-step learning information or navigating assembly.
 
-<img class="size-medium wp-image-3089 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Resources-Navigation-2-850x161.png" alt="" width="850" height="161" />
+![](/_images/_lmmk2/_the-basics/lmk2_welcome_navigation2.jpg){.aligncenter .size-medium}
 
 <h2>Community</h2>
 
@@ -70,19 +70,9 @@ Questions and learning is always further enhanced in groups. Our CNC community i
 
 If you'd like to converse and learn from others, please check out either our Forum or Facebook communities. Remember to encourage and help others as you receive so that we can continue to support positive learning.
 
-<table class="community-table" style="height: 100px; width: 95%; margin-left: auto; margin-right: auto; text-align: center; border-collapse: collapse; table-layout: fixed; max-width: 300px; padding: 5px !important; border: none !important;">
-<tbody>
-<tr>
-<td style="text-align: center; padding: 5px; border: none;"><a href="https://forum.sienci.com/" target="_blank" rel="noopener"><img class="flie alignnone wp-image-1439 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/06/Icon2-scaled-1.jpg" alt="" width="600" height="600" /></a></td>
-<td style="text-align: center; padding: 5px; border: none;"><a href="https://www.facebook.com/groups/mill.one/" target="_blank" rel="noopener"><img class="flie alignnone wp-image-1438 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/06/Icon1-scaled-1.jpg" alt="" width="600" height="600" /></a></td>
-</tr>
-<tr>
-<td style="text-align: center; padding: 5px; border: none;"><b>Community Forum</b></td>
-<td style="text-align: center; padding: 5px; border: none;"><b>Facebook Group</b></td>
-</tr>
-</tbody>
-</table>
+| [![Community Forum](/_images/_lmmk2/_the-basics/lmk2_welcome_IconCommunity.jpg)](https://forum.sienci.com/) Community Forum | [![Facebook Group](/_images/_lmmk2/_the-basics/lmk2_welcome_IconFacebook.jpg)](https://www.facebook.com/groups/mill.one/) Facebook Group |
+|:---:|:---:|
 
 We hope your LongMill becomes a great start to your hobby CNC journey and wish you all the best from our team (or at least the ones we could wrangle into a picture) here at Sienci Labs!
 
-<img class="size-medium wp-image-3106 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Team-shot-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_the-basics/lmk2_welcome_team.jpg){.aligncenter .size-medium}
