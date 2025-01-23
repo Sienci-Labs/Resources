@@ -34,8 +34,8 @@ The steps/mm EEPROM settings in the LongMill (<em>$100, </em><em>$101, </em>and 
 
 - LongMill stepper motors are **200** steps/rotation
 - Drivers set to **1/8** microstepping by default
-- MK1 Longmills: X and Y-axes are direct drive and the Z-axis has **1-to-1** pulley ratio
-- MK2 Longmills: all axes are direct drive
+- MK1 LongMills: X and Y-axes are direct drive and the Z-axis has **1-to-1** pulley ratio
+- MK2 LongMills: all axes are direct drive
 - Our lead screws have a **2mm** pitch and are **4-start**, 2mm x 4 = 8mm **lead**
 
 <em>Steps/mm  =   Steps/revolution</em><em>  </em><b>/</b><em>  (microstepping value  </em>x<em>  gearing ratio from motor to lead screw  </em>x<em>  lead screw pitch  </em>x<em>  # of starts)</em>

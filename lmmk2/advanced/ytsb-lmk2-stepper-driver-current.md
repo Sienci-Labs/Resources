@@ -51,7 +51,7 @@ To adjust the current, simply use a small screwdriver to turn the potentiometer 
 
 <a href="https://resources.sienci.com/wp-content/uploads/2022/06/Stepper-Driver-Current-Adjustment.pdf" target="_blank" rel="noopener">Download the instructions to adjust the drivers.</a> The LongBoard allows for a max current setting of 4.5A.
 
-<img class="aligncenter wp-image-3742 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/stepper-driver-potentiometer-scaled-e1729802041286-850x408.jpeg" alt="" width="850" height="408" />
+![](/_images/_lmmk2/_advanced/lmk2_stepper_potentiometer.jpeg){.aligncenter .size-medium}
 
 ## Some theory
 

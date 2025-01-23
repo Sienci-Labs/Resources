@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: 
+featured_image: _images/_lmmk2/_handbook/lmk2_feedsspeeds_Pocketingvsslotting.png
 ---
 
 “Feeds and Speeds” is an all-encompassing term used to describe most of the variables that come into play when using a cutting tool to carve a material. In the hobby-sense, this includes:
@@ -74,7 +74,8 @@ Our tables try to account for the average setup you’ll have with your LongMill
 </ul>
 </li>
 </ol>
-<img class="aligncenter size-medium wp-image-4507" src="https://resources.sienci.com/wp-content/uploads/2022/10/Pocketingvsslotting-850x376.png" alt="" width="850" height="376" />
+
+![](/_images/_lmmk2/_handbook/lmk2_feedsspeeds_Pocketingvsslotting.png){.aligncenter .size-medium}
 
 [su_spoiler title="
 <h3>🪶 Soft Woods, Plywood, and MDF</h3>
@@ -253,18 +254,9 @@ Since aluminum is near the upper limit of hardness that should milled using a ho
 
 Handy for printing out as a quick reference to keep on your computer or by your CNC and available in both imperial and metric units.
 
-<table class="unboxing-table" style="height: 100px; margin-left: auto; margin-right: auto; margin-bottom: -10px; text-align: center; border-collapse: collapse; table-layout: fixed;" width="95%">
-<tbody>
-<tr>
-<td>
-[caption id="attachment_24481" align="alignnone" width="225"]<a href="https://resources.sienci.com/wp-content/uploads/2022/10/FeedsSpeedsMetric.pdf" target="_blank" rel="noopener noreferrer"><img class="flie wp-image-24481" src="https://resources.sienci.com/wp-content/uploads/2022/11/pdf-crop.png" alt="" width="225" height="300" /></a> Feeds &amp; Speeds - Metric[/caption]</td>
-<td>
-[caption id="attachment_24481" align="alignnone" width="225"]<a href="https://resources.sienci.com/wp-content/uploads/2022/03/Feeds-and-Speeds-Imperial.pdf" target="_blank" rel="noopener noreferrer"><img class="flie wp-image-24481" src="https://resources.sienci.com/wp-content/uploads/2022/11/pdf-crop.png" alt="" width="225" height="300" /></a> Feeds &amp; Speeds - Imperial[/caption]</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+| Feeds & Speeds - Metric                                                                                     | Feeds & Speeds - Imperial                                                                                   |     |     |
+|-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-----|-----|
+| [![Feeds & Speeds - Metric](/_images/_lmmk2/_handbook/lmk2_feedsspeeds_pdf-crop.png){.aligncenter .size-small}](/_community-docs/FeedsSpeedsMetric.pdf) | [![Feeds & Speeds - Imperial](/_images/_lmmk2/_handbook/lmk2_feedsspeeds_pdf-crop.png){.aligncenter .size-small}](/_community-docs/Feeds-and-Speeds-Imperial.pdf) |     |     |
 
 ## Tool Library files
 
@@ -331,7 +323,7 @@ Chip load describes the size of each individual chip that is being cut by a sing
 
 This is a very sensitive parameter. If too small, the chips reduce in size to become dust which will wear out the bit and heat up causing burning. If too large, the chips become larger which results in the cutting bit being overloaded and unable to clear the chip out of the cut. The effects of chip load on cut quality can be seen below.
 
-[caption id="attachment_4501" align="aligncenter" width="850"]<img class="size-medium wp-image-4501" src="https://resources.sienci.com/wp-content/uploads/2022/10/Chipload-Illustration-850x631.jpg" alt="" width="850" height="631" /> Two cuts with different chip load produce very different results[/caption]
+![](/_images/_lmmk2/_handbook/lmk2_feedsspeeds_Chipload-Illustration-scaled.jpg "Two cuts with different chip load produce very different results"){.aligncenter .size-medium}
 
 To calculate chip load there’s a simple formula shown below. Since we usually know the number of flutes our cutting bit of choice has, we can modify either feed rate or router speed/RPM to reach the chip load we want. In some cases the speed of the router might not be fast or slow enough to reach the desired chip load so we could change the cutting bit to have more or less flutes to accommodate that. Another approach would be to change the diameter of the bit, thus calling for a different chip load and making it more feasible for the router speed or feed rate you have available.
 
@@ -426,16 +418,16 @@ While the theory presented above holds true for any type of machining, there are
 
 The first constraint to pay attention to is cutting width/stepover. This is a variable that we can typically change to control the rate of material removal but in 3D carving it’s directly tied to surface finish and is typically a small number (~5-15% depending on the size of the bit).
 
-[caption id="attachment_4478" align="aligncenter" width="850"]<img class="wp-image-4478 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/10/Stepover-comparison-850x294.jpeg" alt="" width="850" height="294" /> Acrylic carving with 5, 10, and 15% stepover (left to right)[/caption]
+![](/_images/_lmmk2/_handbook/lmk2_feedsspeeds_Stepover-comparison-scaled.jpeg "Acrylic carving with 5, 10, and 15% stepover (left to right)"){.aligncenter .size-medium}
 
 When a ball end mill carves in several straight, parallel passes it leaves behind small amounts of material in the form of ridges - these are known as 'cusps'. These cusps are the reason for the increase in detail/resolution with a lower stepover; as shown in the photo below, a larger stepover means larger cusps, while a smaller stepover means the cusps continue getting smaller until they're imperceptible to the human eye. Obviously, with lower stepover, this means a greater number of passes, and a much longer total project time. You'll need to decide how much detail you need, and how long you're willing to run the project for. For example, for carving a 2"x2" relief, you'll probably want to use a low stepover amount such as 5-8% since this project won't take more than an hour. If you we're carving <a href="https://youtu.be/yOywuK02vVY" target="_blank" rel="noopener">something much larger</a>, you might want to set your stepover much larger and forego finer detail for a faster overall project time.
 
-<img class="aligncenter size-medium wp-image-4486" src="https://resources.sienci.com/wp-content/uploads/2022/10/Stepover-Chart-white-850x180.png" alt="" width="850" height="180" />
+![](/_images/_lmmk2/_handbook/lmk2_feedsspeeds_Stepover-Chart-white.png){.aligncenter .size-medium}
 
 Cutting depth is the next variable to consider and in relief carving this is again something that you do not have much control over. This is because the tool will need to follow the contours of your 3D model which can vary considerably in depth.
 
-[caption id="attachment_4480" align="aligncenter" width="850"]<img class="wp-image-4480 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/10/Toolload-Explained-e1669414409968-850x489.png" alt="" width="850" height="489" /> Abrupt changes in depth / carving deep reliefs will increase tool load[/caption]
+![](/_images/_lmmk2/_handbook/lmk2_feedsspeeds_Toolload-Explained.png "Abrupt changes in depth / carving deep reliefs will increase tool load"){.aligncenter .size-medium}
 
 The implications of the two constraints above are that tools will tend to be underutilized (removing too little material) on the shallow parts of the relief and struggle on the deeper / steeper parts (removing too much material). For wood based materials, you’re less likely to exceed the tool’s material removal capabilities on even the deepest parts of your relief without running into other constraints in your machine such as feedrate. On harder materials such as acrylic / aluminum however the spikes in material removal is a much bigger concern and is why roughing (with a very shallow depth of cut and minimal stock to leave) is a prerequisite for success.
 
-[caption id="attachment_4481" align="aligncenter" width="850"]<img class="wp-image-4481 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/10/Roughing-Finishing-e1669414425540-850x459.png" alt="" width="850" height="459" /> Keeping tool load in check with separate roughing and finishing passes<strong> <br /></strong>[/caption]
+![](/_images/_lmmk2/_handbook/lmk2_feedsspeeds_roughing-Finishing.png "Keeping tool load in check with separate roughing and finishing passes"){.aligncenter .size-medium}

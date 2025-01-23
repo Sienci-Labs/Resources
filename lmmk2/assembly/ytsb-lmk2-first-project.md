@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: 
+featured_image: _images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_drink-Coaster-1.jpg
 ---
 
 Now that you've put together your MK2.5 let's get something cut out on it! Are you Team Fun or Team Functional?? You can see each project states the type and size of material it supports as well as the type of cutting tool you’ll need to cut it out so choose wisely. Once you choose your project and download the file, scroll further down the page to learn about how you’ll set your machine up and carve your first project.
@@ -20,45 +20,25 @@ Now that you've put together your MK2.5 let's get something cut out on it! Are y
 <h2>Fun Projects</h2>
 
 [su_table responsive="yes"]
-<table>
-<tbody>
-<tr>
-<td><img class="wp-image-3539 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/LongMill-line-CAMotics_43-850x554.png" alt="" width="850" height="554" /></td>
-<td><b>LongMill Lettering</b> <a href="https://resources.sienci.com/wp-content/uploads/2022/04/LongMill-Lettering.nc" target="_blank" rel="noopener"><b>Download g-code</b></a><br />Slowly spells out “LongMill” - a great way to christen your new CNC.<br />• any material (302 x 35 x 2mm)<br />• any cutting tool<br />• zero at the front left corner<br />• 3.5 router speed</td>
-</tr>
-<tr>
-<td><img class="size-medium wp-image-3538 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Kellys-Peonies-850x637.jpg" alt="" width="850" height="637" /></td>
-<td><b>Kelly's Peonies <a href="https://resources.sienci.com/wp-content/uploads/2022/04/Peony-Engraving.nc" target="_blank" rel="noopener">Download g-code</a></b><br />Made by a Sienci team member when she was inspired to make a custom flowery carving. <br />• any material (220 x 200 x 2mm)<br />• v-bit or small ball or flat bit<br />• zero at the front left corner<br />• 3.5 router speed</td>
-</tr>
-<tr>
-<td><img class="size-medium wp-image-3540 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Foam-CNSheep-850x638.jpg" alt="" width="850" height="638" /></td>
-<td><b>The Classic CNSheep</b> <a href="https://resources.sienci.com/wp-content/uploads/2022/04/Classic-CNSheep.nc" target="_blank" rel="noopener"><b>Download g-code</b></a><br />A fun "2.5D" carving of the classic CNSheep. This bleating companion will keep you company for years to come.<br />• foam or soft wood (100 x 70 x 8mm)<br />• 1/8" flat end mill<br />• zero at the center<br />• 3 router speed</td>
-</tr>
-</tbody>
-</table>
+
+| Image                                                                                                   | Description                                                                                                           |
+|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| ![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_LongMill-line-CAMotics_43.png) | **LongMill Lettering** [**Download g-code**](https://resources.sienci.com/wp-content/uploads/2022/04/LongMill-Lettering.nc) <br> Slowly spells out “LongMill” - a great way to christen your new CNC. <br> • any material (302 x 35 x 2mm) <br> • any cutting tool <br> • zero at the front left corner <br> • 3.5 router speed |
+| ![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_Kellys-Peonies-scaled.jpg){.alignleft .size-medium} | **Kelly's Peonies** [**Download g-code**](https://resources.sienci.com/wp-content/uploads/2022/04/Peony-Engraving.nc) <br> Made by a Sienci team member when she was inspired to make a custom flowery carving. <br> • any material (220 x 200 x 2mm) <br> • v-bit or small ball or flat bit <br> • zero at the front left corner <br> • 3.5 router speed |
+| ![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_Foam-CNSheep.jpg){.alignleft .size-medium} | **The Classic CNSheep** [**Download g-code**](https://resources.sienci.com/wp-content/uploads/2022/04/Classic-CNSheep.nc) <br> A fun "2.5D" carving of the classic CNSheep. This bleating companion will keep you company for years to come. <br> • foam or soft wood (100 x 70 x 8mm) <br> • 1/8" flat end mill <br> • zero at the center <br> • 3 router speed |
+
 [/su_table]
 
 <h2>Functional Projects</h2>
 
 [su_table responsive="yes"]
-<table>
-<tbody>
-<tr>
-<td><img class="wp-image-3604 size-full aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Drink-Coaster-1.jpg" alt="" width="817" height="613" /></td>
-<td><b>Drink Coaster</b> <a href="https://resources.sienci.com/wp-content/uploads/2022/04/Sienci-Coaster.nc" target="_blank" rel="noopener"><b>Download g-code</b></a><br />Rest your beverage while admiring the rotational symmetry of the Sienci Labs logo.<br />• any 1/4" thick material (100 x 100 x 6.25mm)<br />• 1/8" flat end mill<br />• zero at the center<br />• 3.5 router speed</td>
-</tr>
-<tr>
-<td><img class="aligncenter wp-image-3626 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/04/SoapDish-850x638.jpg" alt="" width="850" height="638" /></td>
-<td><b>Soap Dish</b> <a href="https://resources.sienci.com/wp-content/uploads/2022/04/Soap-Dish.nc" target="_blank" rel="noopener"><b>Download g-code</b></a><br />A perfect place to put a bar of soap. Requires some form of finishing/sealing before use.<br />• 1/2" thick hardwood, softwood, or bamboo (100 x 80 x 12.7mm)<br />• 1/4" flat end mill<br />• zero at the front left corner<br />• 4 router speed</td>
-</tr>
-<tr>
-<td><img class="aligncenter wp-image-3620 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/04/BitHolder-850x638.jpg" alt="" width="850" height="638" /></td>
-<td>
-<b>Bit Holder</b> <a href="https://resources.sienci.com/wp-content/uploads/2022/04/Bit-Holder.nc"><b>Download g-code</b></a><br />Accessorize your MK2 early with a simple bit holder for 1/8" and 1/4" bits.<br />• 3/4" thick soft wood or MDF (130 x 50x 19mm)<br />• 1/8" flat end mill<br />• zero at the front left corner<br />• 3 router speed
-</td>
-</tr>
-</tbody>
-</table>
+
+| Image                                                                                       | Description                                                                                                           |
+|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| ![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_drink-Coaster-1.jpg)         | **Drink Coaster** [**Download g-code**](https://resources.sienci.com/wp-content/uploads/2022/04/Sienci-Coaster.nc) <br> Rest your beverage while admiring the rotational symmetry of the Sienci Labs logo. <br> • any 1/4" thick material (100 x 100 x 6.25mm) <br> • 1/8" flat end mill <br> • zero at the center <br> • 3.5 router speed |
+| ![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_SoapDish-scaled.jpg)         | **Soap Dish** [**Download g-code**](https://resources.sienci.com/wp-content/uploads/2022/04/Soap-Dish.nc) <br> A perfect place to put a bar of soap. Requires some form of finishing/sealing before use. <br> • 1/2" thick hardwood, softwood, or bamboo (100 x 80 x 12.7mm) <br> • 1/4" flat end mill <br> • zero at the front left corner <br> • 4 router speed |
+| ![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_BitHolder-scaled.jpg)        | **Bit Holder** [**Download g-code**](https://resources.sienci.com/wp-content/uploads/2022/04/Bit-Holder.nc) <br> Accessorize your MK2 early with a simple bit holder for 1/8" and 1/4" bits. <br> • 3/4" thick soft wood or MDF (130 x 50 x 19mm) <br> • 1/8" flat end mill <br> • zero at the front left corner <br> • 3 router speed |
+
 [/su_table]
 
 <h2>Setting Up</h2>
@@ -80,7 +60,7 @@ With the g-code ready for use, there are only a few steps remaining to cut your 
 
 Check the project you selected to see what type of material is suggested and the minimum size needed to cut the project out. Hard insulation foam and soft woods are ideal for starting out since they cut so easily. Once you find a piece of material that fits these requirements you’ve now obtained your ‘stock material’. This term is commonly used in the world of CNC and refers to any material that will act as the raw, blank canvas that you plan to carve into.
 
-<img class="size-medium wp-image-3561 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Finding-stock-material-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_Finding-stock-material-scaled.jpg){.aligncenter .size-medium}
 
 <h3>Securing it in Place</h3>
 
@@ -92,7 +72,7 @@ You can put your material anywhere you want inside the cutting area of your Long
 <li>If you attach your material using hardware like screws or nails, try to select material with some extra space around it or keep the hardware all the way at the edges to avoid running into them when cutting</li>
 </ol>
 
-<img class="size-medium wp-image-3562 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Workholding-alignment_ann-850x478.png" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_Workholding-alignment_ann.png){.aligncenter .size-medium}
 
 If your machine is in the way, use the machine movement skills you gained on the previous page to jog away from the area you want to mount your stock. When mounting, don’t worry about getting fancy for your first project. Feel free to try something quick and easy using whatever you have on-hand so you can get to the fun part faster, cutting! Here’s some inspiration:
 
@@ -109,7 +89,7 @@ Some projects cut slow and others cut faster so whatever you choose, just ensure
 
 Scroll back up to the project you selected and this time check that you’ve got the right tool in-hand for the job. If you got a ‘Starter Pack’ with your machine then grab something from there or look around your shop or a local hardware store if you don’t have tools yet for your machine. Cutting tools come in all shapes and sizes. Machines like the LongMill tend to use purpose-made CNC cutting tools but can also use some of the more traditional and commonly available router bits.
 
-[caption id="attachment_703" align="aligncenter" width="624"]<img class="wp-image-703 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/04/End-mill-tip-types_marked_trim-624x252.jpg" alt="" width="624" height="252" /> Ballnose vs. End mill vs. V-bit[/caption]
+![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_End-mill-tip-types_marked_trim-1-scaled.jpg){.aligncenter .size-medium}
 
 The shape of the tool is usually the most important feature and will either be flat, rounded (a.k.a. ball ended or ball nosed), or v-shaped. The size of the cutting side of the tool is sometimes also important because if you need to carve small details you won’t be able to use a large cutting bit. If your selected project specifies a particular bit size then check the label on the packaging your bit came in to confirm it’ll be able to do the job.
 
@@ -119,27 +99,27 @@ Remember to be safe and mindful when a cutting tool is in or near your hands. Bi
 
 Bring the machine to the front so you have easy access to the router and collect the two wrenches that are included in the Makita box. If this is your first time using a router, look at the bottom where it has a large hex nut and notice just above this the two flats cut into the router shaft. You’ll be using the two wrenches here, one on the nut and one on the flats of the shaft, so the router can ‘clamp’ onto bits before cutting and then release them when you’re finished.
 
-<img class="size-medium wp-image-3565 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Router-nut-close-up_crop-850x478.png" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_Router-nut-close-up_crop.png){.aligncenter .size-medium}
 
 Disassembled you can see the router shaft, standard ¼” Makita collet, and the collet nut. By default the Makita can only hold onto cutting tools with a ¼” shank so also shown are an ⅛” collet and a ¼” to ⅛” adapter which you can use for ⅛” bits. The ⅛” collet is a direct substitute that can swap out the standard collet meanwhile the adapter sticks into the standard collet to adapt it to ⅛” bits. We sell these separately and in bit kits so you may already have one, otherwise they’re readily available online and in stores. Note the orientation of the parts is exactly how they go back together.
 
-<img class="size-medium wp-image-3567 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Exploded-router-nut-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_Exploded-router-nut.jpg){.aligncenter .size-medium}
 
 Loosen the collet nut with the small wrench on the left side and the large wrench on the right. Squeeze them together until the nut comes loose.
 
-<img class="wp-image-3575 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Loosen-nut_ann-1-850x478.png" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_Loosen-nut_ann-1.png){.aligncenter .size-medium}
 
 If you’re using an ⅛” bit, here is where you’ll either remove the nut entirely to swap out for the ⅛” collet, or you’ll slide the ¼” to ⅛” adapter over your ⅛” bit. Insert your ¼” bit or adapted ⅛” bit into the end of the router. Reference the earlier picture with the disassembled collet, collet nut, and adapter to ensure you orient the parts correctly. Push it as far up into the router as you can, if it bottoms out then pull the bit back out a couple millimeters. The more tool shaft that’s inside the router the better the router can hold onto the tool.
 
-<img class="size-medium wp-image-3581 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Installing-bit_crop-850x478.png" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_Installing-bit_crop.png){.aligncenter .size-medium}
 
 Once positioned, use the red button on the Makita to lock the shaft while you hand-tighten the collet nut to initially hold the bit in place. If the bit is falling out safely use a block or your finger to hold it in place.
 
-<img class="wp-image-3583 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Fingertighten-nut_annL-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_Fingertighten-nut_annL.jpg){.aligncenter .size-medium}
 
 After finger tightening, use the wrenches to finish securing the bit. With the small wrench on the right and the large wrench on the left use pressure but don’t squeeze too hard, it shouldn’t take much before the bit feels firmly held in place.
 
-<img class="wp-image-3576 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Tighten-nut_ann-1-850x478.png" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_Tighten-nut_ann-1.png){.aligncenter .size-medium}
 
 <h3>Get Located</h3>
 
@@ -147,11 +127,11 @@ With the material in place and the bit installed the last step is to tell the ma
 
 The image below shows how you’d position for the ‘LongMill Lettering’ project as an example. This project starts at the front left corner but is moved inward in the picture to avoid cutting the mounting screws when the project gets run. A piece of paper is also used to see when the bit is about to touch the top of the stock material.
 
-<img class="size-medium wp-image-3586 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Manual-zero-z-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_Manual-zero-z-1.jpg){.aligncenter .size-medium}
 
 With the bit in position, click the ‘Zero All’ button and you’ll see to the left all the blue X, Y, and Z locations reset to zero.
 
-<img class="size-medium wp-image-3587 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/LongMill-Lettering-Zero-850x481.png" alt="" width="850" height="481" />
+![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_LongMill-Lettering-Zero.png){.aligncenter .size-medium}
 
 <h3>Start cutting!</h3>
 
@@ -159,7 +139,7 @@ If you haven't already, download your project's g-code file by clicking on the p
 
 Once selected, you should see your project appear in the visualizer and the location of the virtual bit should match to what you have set up on on your CNC. If everything looks good, double-check that you've set your Makita router speed dial to match what's needed for your project, turn the router on, then click 'Start Job'! Remember you can reach for the E-stop if you think something's going wrong.
 
-<img class="size-medium wp-image-3588 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/LongMill-Lettering-Start-job-850x478.png" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_LongMill-Lettering-Start-job.png){.aligncenter .size-medium}
 
 <h2>Job Well Done</h2>
 
@@ -169,7 +149,7 @@ Now that you’ve got your machine running successfully, you've reached the end 
 
 If you bought the touch plate, dust shoe, t-track, or any other add-ons alongside your machine, you’ll find the information to assemble and use those next so you can finish levelling up your MK2: <a href="https://resources.sienci.com/view/lmk2-add-ons">https://resources.sienci.com/view/lmk2-add-ons</a>
 
-<img class="size-medium wp-image-3594 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-Next-steps_ann-850x445.png" alt="" width="850" height="445" />
+![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_next-steps_ann.png){.aligncenter .size-medium}
 
 The <b>Handbook</b> section that follows the add-on assembly will be the spot you’ll want to check out next. This contains all the information you'd want to refer to for all your day-to-day CNC operation including:
 

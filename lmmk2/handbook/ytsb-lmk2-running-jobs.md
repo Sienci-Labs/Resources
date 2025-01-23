@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: 
+featured_image: _images/_lmmk2/_handbook/lmk2_runjobs_measuring-materials.jpg
 ---
 
 ## Preparing Your Design
@@ -21,7 +21,7 @@ featured_image:
 
 Before you can start your design, you must know the size and thickness of your material. This is necessary for generating successful toolpaths. Your design should also take into account the material type. Machining different materials will result in different feeds and speeds that will be determined in the CAM software.
 
-<img class="aligncenter size-medium wp-image-3680" src="https://resources.sienci.com/wp-content/uploads/2022/03/measuring-materials-850x288.jpg" alt="" width="850" height="288" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_measuring-materials.jpg){.aligncenter .size-medium}
 
 #### File Creation
 
@@ -35,7 +35,7 @@ A design is needed to create the toolpath. You can use a pre-made design or crea
 
 We’ll now switch to the CAM software. Remember those material dimensions you took earlier, you’ll now input them into your new file. Choose the X and Y location of the zero point in the software. The Z location will either be at the top or at the bottom of the material. The starting or zero point is where the machine will reference from. In the example below, you can see the zero starts at the same location in the software and on the material.
 
-<img class="aligncenter size-medium wp-image-3679" src="https://resources.sienci.com/wp-content/uploads/2022/03/starting-position-triptych-850x288.jpg" alt="" width="850" height="288" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_starting-position-triptych.jpg){.aligncenter .size-medium}
 
 Import your design file into the CAM software. You’ll now choose the CNC bit to create the toolpath. The shape and type of bit will determine the final look of your piece.
 
@@ -43,13 +43,13 @@ Import your design file into the CAM software. You’ll now choose the CNC bit t
 
 CNC bits come in a variety of shapes and sizes. You don’t need a specialty bit to get started. Common router bits are a great way to get your feet wet with machining without spending a lot of money. Common bit shapes are: V-bits; great for signs and lettering. Square End mills; used for carving pockets with flat surfaces. Ball nose and tapered bits; used for relief and detail carvings.
 
-<img class="aligncenter size-medium wp-image-3684" src="https://resources.sienci.com/wp-content/uploads/2022/03/cnc-bit-types-850x288.jpg" alt="" width="850" height="288" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_cnc-bit-types.jpg){.aligncenter .size-medium}
 
 #### Creating Toolpaths
 
 Select the vector lines you want to machine then select the CNC bit. Change any parameters such as feed and speeds for your machine and material. Information on feeds and speeds can be found here. <a href="https://resources.sienci.com/view/lmk2-feeds-and-speeds" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-feeds-and-speeds</a>/ The CAM software will calculate the toolpath. In the example below, the design is in orange, and the toolpaths are blue. Once you are happy with the design, export the g-code.
 
-<img class="aligncenter size-medium wp-image-3694" src="https://resources.sienci.com/wp-content/uploads/2022/03/toolpath-example-850x336.jpg" alt="" width="850" height="336" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_toolpath-example.jpg){.aligncenter .size-medium}
 
 #### Exporting the File
 
@@ -65,97 +65,97 @@ Clamping material to the work surface is necessary for a successful part. Clampi
 
 Hold down clamps hold the material tightly to the work surface. Top clamping is perfect when using upcut bits. Careful consideration must be given to the placement of the clamps in order to prevent the bit from cutting into them.
 
-<img class="aligncenter size-medium wp-image-3693" src="https://resources.sienci.com/wp-content/uploads/2022/03/clamps-hold-and-eccentric-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_clamps-hold-and-eccentric-scaled.jpg){.aligncenter .size-medium}
 
 #### Side clamping
 
 Holding your workpiece with pressure from the sides is useful for flattening the top of a workpiece or doing 3d reliefs where the design extends to the edges. Eccentric clamps or angled blocks pressed against material work well.
 
-<img class="aligncenter size-medium wp-image-3696" src="https://resources.sienci.com/wp-content/uploads/2022/03/side-clamping-850x689.jpg" alt="" width="850" height="689" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_side-clamping.jpg){.aligncenter .size-medium}
 
 #### Screws
 
 Screwing through your material and into the work surface is an excellent holding method. Extra care needs to be taken that you don’t run the bit through the metal screws.
 
-<img class="aligncenter size-medium wp-image-3697" src="https://resources.sienci.com/wp-content/uploads/2022/03/fastening-screws-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_fastening-screws.jpg){.aligncenter .size-medium}
 
 #### Tape and Glue
 
 Tape is applied to the back of the workpiece and to the top of the work surface. Apply fast-acting glue to the work surface and place the workpiece on top with pressure until set. Once finished, remove the tape. Hot gluing your material to the table is also an effective way to hold the piece down when doing light machining.
 
-<img class="aligncenter size-medium wp-image-3717" src="https://resources.sienci.com/wp-content/uploads/2022/03/mounting-gluing-850x288.jpg" alt="" width="850" height="288" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_mounting-gluing.jpg){.aligncenter .size-medium}
 
 Double sided carpet tape is very easy to use. It’s applied to the work surface, then the work piece is pressed to the table.
 
-<img class="aligncenter size-medium wp-image-3718" src="https://resources.sienci.com/wp-content/uploads/2022/03/mounting-carpet-tape-850x288.jpg" alt="" width="850" height="288" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_mounting-carpet-tape.jpg){.aligncenter .size-medium}
 
 ## Installing the Cutting Tools
 
 Bring the machine to the front so you have easy access to the router and collect the two wrenches that are included in the Makita box. If this is your first time using a router, look at the bottom where it has a large hex nut and notice just above this the two flats cut into the router shaft. You’ll be using the two wrenches here, one on the nut and one on the flats of the shaft, so the router can ‘clamp’ onto bits before cutting and then release them when you’re finished.
 
-<img class="aligncenter size-medium wp-image-3715" src="https://resources.sienci.com/wp-content/uploads/2022/03/router-shaft-notch-850x479.jpg" alt="" width="850" height="479" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_router-shaft-notch.jpg){.aligncenter .size-medium}
 
 To loosen the collet nut, place the small wrench onto the router shaft on the left side. Place the large wrench on the collet nut on the right side. Squeeze the wrenches together till the collet nut is loosened.
 
-<img class="aligncenter size-medium wp-image-3687" src="https://resources.sienci.com/wp-content/uploads/2022/03/collet-loosen-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_collet-loosen.jpg){.aligncenter .size-medium}
 
 Always make sure the collet, the adapter, and the nut are free from debris before running. Dust buildup will prevent the collet from being tightened correctly and can ruin a workpiece. Dust can build in the inside corners of the nut and will prevent proper tension. Clean with a small tool or compressed air.
 
-<img class="aligncenter size-medium wp-image-3681" src="https://resources.sienci.com/wp-content/uploads/2022/03/dirty-collet-and-adapter-850x288.jpg" alt="" width="850" height="288" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_dirty-collet-and-adapter.jpg){.aligncenter .size-medium}
 
 1/4” diameter straight bits can be installed into the collet first then inserted through the nut before installing into the router.
 
-<img class="aligncenter size-medium wp-image-3689" src="https://resources.sienci.com/wp-content/uploads/2022/03/4th-bit-install-850x288.jpg" alt="" width="850" height="288" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_4th-bit-install.jpg){.aligncenter .size-medium}
 
 When using ⅛” bits, an adapter or ⅛” collet is necessary. Slide the ⅛” collet adapter into the standard collet, insert your bit, then place it into the collet nut and fasten to the router. The collet adapter should just peak through the bottom of the collet.
 
-<img class="aligncenter size-medium wp-image-3688" src="https://resources.sienci.com/wp-content/uploads/2022/03/8th-bit-install-850x213.jpg" alt="" width="850" height="213" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_8th-bit-install.jpg){.aligncenter .size-medium}
 
-<img class="aligncenter size-medium wp-image-3685" src="https://resources.sienci.com/wp-content/uploads/2022/03/collet-adapter-installed-850x396.jpg" alt="" width="850" height="396" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_collet-adapter-installed.jpg){.aligncenter .size-medium}
 
 Some bits like v-bits or surfacing bits require the bit shaft to be placed through the nut first, then into the collet.
 
-<img class="aligncenter size-medium wp-image-3700" src="https://resources.sienci.com/wp-content/uploads/2022/03/collet-v-bit-triptych-1-850x288.jpg" alt="" width="850" height="288" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_collet-v-bit-triptych-1.jpg){.aligncenter .size-medium}
 
 When installing the bits into the router, always tighten using the wrenches. The router can be damaged using the button and wrench when tightening. Loose bits can be tricky. Hold the bit in place with one finger. Press the red button with your thumb to lock the shaft in place. With the other hand finger tighten the collet nut till the bit can be held on its own. Use both wrenches to tighten firmly.
 <a href="https://www.YouTube.com/watch?v=LFeBRBjBYbk" target="_blank" rel="noopener">https://www.youtube.com/watch?v=LFeBRBjBYbk</a>
 
-<img class="aligncenter size-medium wp-image-3701" src="https://resources.sienci.com/wp-content/uploads/2022/03/red-button-fingertighten-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_red-button-fingertighten.jpg){.aligncenter .size-medium}
 
 To tighten the collet nut, the small wrench is on the right side of the router shaft. Place the large wrench on the collet nut on the left side. Squeeze together until the nut is tight, do not over tighten.
 
-<img class="aligncenter size-medium wp-image-3686" src="https://resources.sienci.com/wp-content/uploads/2022/03/collet_tightening-wrenches-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_collet_tightening-wrenches.jpg){.aligncenter .size-medium}
 
 ## Zeroing Your CNC
 
 It’s important to have the same start location on your workpiece as in your design file. Zeroing the machine can be accomplished in two ways, manually or automatically. Open machine interface software such as gSender or UGS and connect to your machine.
 
-<img class="aligncenter size-medium wp-image-3679" src="https://resources.sienci.com/wp-content/uploads/2022/03/starting-position-triptych-850x288.jpg" alt="" width="850" height="288" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_starting-position-triptych.jpg){.aligncenter .size-medium}
 
 ### Manual Zeroing
 
 Manually jog your machine to the starting location. Zero the X and Y locations. Below are two examples of typical start locations; bottom left corner or centre of the material.
 
-<img class="aligncenter size-medium wp-image-3691" src="https://resources.sienci.com/wp-content/uploads/2022/03/manual-zero-diptych-850x288.jpg" alt="" width="850" height="288" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_manual-zero-diptych.jpg){.aligncenter .size-medium}
 
 Lower the bit to the material by jogging the Z-axis down. When you are just above the surface, change to precise jogging. Place a piece of paper under the bit. Move the paper back and forth and at the same time, lower the bit. When there is resistance sliding the paper, the bit is at the correct position. Zero the Z location in the software. Raise the bit, go to your x and y starting positions and you’re ready to begin.
 
-<img class="aligncenter size-medium wp-image-3703" src="https://resources.sienci.com/wp-content/uploads/2022/03/Manual-zero-z-1-850x377.jpg" alt="" width="850" height="377" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_Manual-zero-z-1.jpg){.aligncenter .size-medium}
 
 ### Automatic Zeroing
 
 Automatic zeroing or probing works by touching a conductive plate with your cnc bit to find the coordinates on the workpiece. The touch plate can find a single axis per probe or multiple axes. Our auto-touch plate allows you to use v-bits for automatic probing.<a href="https://resources.sienci.com/view/lmk2-touch-plate/#AutoZero-touch-plate" target="_blank" rel="noopener"> https://resources.sienci.com/view/lmk2-touch-plate/#autozero-touch-plate</a>
 To find the XYZ axes, place the touch plate on a corner of the material and perform the XYZ probe operation. The router will automatically move through all three axes. It will touch on the top and two sides to accurately find the corner. Detailed information can be found here <a href="https://resources.sienci.com/view/gs-using-gSender/#probing" target="_blank" rel="noopener">https://resources.sienci.com/view/gs-using-gsender/#probing</a>
 
-<img class="aligncenter size-medium wp-image-3683" src="https://resources.sienci.com/wp-content/uploads/2022/03/probing-triptych-850x288.jpg" alt="" width="850" height="288" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_probing-triptych.jpg){.aligncenter .size-medium}
 
 When you only want to do a z-height probe, useful for multi-bit tool changes, flip the touch plate upside down. Use the Z probe function This will find the top surface of the material.
 
-<img class="aligncenter size-medium wp-image-3704" src="https://resources.sienci.com/wp-content/uploads/2022/03/tool-change-zprobe-850x338.jpg" alt="" width="850" height="338" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_tool-change-zprobe.jpg){.aligncenter .size-medium}
 
 If you have limit switches installed, you might encounter an Alarm 2 message. Your material is too close to the sensors for the machine to travel safely. Move your material away from the sensors and begin your probe operation.
 
-<img class="aligncenter size-medium wp-image-3690" src="https://resources.sienci.com/wp-content/uploads/2022/03/alarm2-850x288.jpg" alt="" width="850" height="288" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_alarm2.jpg){.aligncenter .size-medium}
 
 ## Pre-Flight Check-List
 
@@ -183,7 +183,7 @@ Sometimes when you start the job, you’ll need to make adjustments to the machi
 
 When a job has been started, gSender will shoe a feed adjustment control panel beside the machining time. Clicking on the plus or minus button will adjust the feed rate faster and slower. The chart below shows what each of the buttons do.
 
-<img class="aligncenter size-full wp-image-3708" src="https://resources.sienci.com/wp-content/uploads/2022/03/feed-Rate-adjustment..jpg" alt="" width="850" height="149" />
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_feed-Rate-adjustment..jpg){.aligncenter .size-medium}
 
 [su_table responsive="yes"]
 <table>
@@ -267,7 +267,9 @@ This is a tool change method inspired by the work of Stuart McRae (a LongMill cu
 1. Open up the g-code using NC Viewer and check the first few lines for the callout of the correct units (G20 for inches, G21 for mm) and for G90, absolute coordinates.
 1. Go line by line to find where the tool changes should occur, by looking at the toolpath visualization on NC Viewer. Use your mouse or keyboard to move to each line, and you should see an end mill following the coordinates called out in the g-code.
 1. Add the following g-code for each tool change.
+
   [su_table responsive="yes"]
+
   <table>
   <tbody>
   <tr>

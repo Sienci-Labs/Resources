@@ -32,7 +32,7 @@ The LongMill MK2 is a hobby-focused Benchtop CNC with most features any hobby us
 
 The MK2 is a 3-axis CNC that comes in two sizes. Each axis is lead screw driven to increase rigidity and maintain great accuracy in the X-axis (cutting left-to-right), Y-axis (forward and backward), and Z-axis (up and down, cutting into the material).
 
-<img class="wp-image-3725 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Your-CNC-Assembly-View-850x478.png" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_handbook/lmk2_knowcnc_Your-CNC-Assembly-View.png){.aligncenter .size-medium}
 
 [tabby title="12x30"]
 
@@ -120,7 +120,7 @@ Find specifications about add-ons here:
 
 With the appropriate cutting tools the MK2 can comfortably carve a variety of materials including hard and soft woods, plastics, foams, waxes, and much more. It can even produce acceptable work on soft metals like aluminum, bronze, copper, or can be equipped with other accessories like a drag knife, engraving tool, or laser diode to cut vinyl, card stock, cardboard, engrave ceramics, glass, metals, and the list goes on.
 
-<img class="size-medium wp-image-3670 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Materials-on-the-MK2-850x368.jpg" alt="" width="850" height="368" />
+![](/_images/_lmmk2/_handbook/lmk2_knowcnc_materials-on-the-MK2.jpg){.aligncenter .size-medium}
 
 Common carving techniques include profiling, pocketing, v-carving, engraving, and contouring / relief. Other more advanced techniques are also available such as tiling to cut projects larger than the MK2s work area, flip milling and multi-sided cutting for carving more advanced geometries, and CNC joinery that combines end-grain and through-grain cutting to wood joints for many purposes.
 

@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: 
+featured_image: _images/_lmmk2/_handbook/lmk2_maintenance_IMG_6893.jpg
 ---
 
 All CNCs require maintenance. Doing maintenance on your LongMill is quick and easy, plus regular checkups will ensure that:
@@ -46,7 +46,7 @@ Over time on the rails you'll notice black splotches and on the wheels a faint g
 
 If you have good dust collection this is something that you won't have to do as often.
 
-<img class="wp-image-3394 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/04/IMG_6893-2-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_handbook/lmk2_maintenance_IMG_6893.jpg){.aligncenter .size-medium}
 
 ## Adjusting the Eccentric Nuts
 
@@ -54,29 +54,29 @@ Eccentric nuts are ‘eccentric’ or ‘off center’ nuts and this means that 
 
 You can see in the animation below, as the eccentric nut rotates, it makes the v-wheel tighten or loosen onto the rail.
 
-<img class="aligncenter wp-image-6076 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/ENut-Final.gif" alt="" width="1117" height="620" />
+![](/_images/_lmmk2/_handbook/lmk2_maintenance_ENut-Final.gif){.aligncenter .size-full}
 
 You can see below what it looks like when an eccentric nut is all the way open (largest gap between wheels) and all the way closed (smallest gap between wheels) for both the Y and X-axes.
 
-<img class="wp-image-2815 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-70_2-850x299.jpg" alt="" width="850" height="299" />
+![](/_images/_lmmk2/_handbook/lmk2_maintenance_MK2-70_2-1.jpg){.aligncenter .size-medium}
 
-<img class="wp-image-2816 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-71_1-850x333.jpg" alt="" width="850" height="333" />
+![](/_images/_lmmk2/_handbook/lmk2_maintenance_MK2-71_1.jpg){.aligncenter .size-medium}
 
 One simple way to tell if your wheels have the right spacing to clamp onto the rails is to check them by hand. The 'sweet spot' is where you're able to barely turn each wheel with your fingers, if they spin easily or not at all then the wheel spacing is either too far apart or too close together.
 
-<img class="wp-image-3393 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/04/IMG_6861-1-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_handbook/lmk2_maintenance_IMG_6861.jpg){.aligncenter .size-medium}
 
 If you've noticed any wheels have worn out, you'll need to ‘tighten’ them back down. Get your LongMill wrench and an M5 Allen key and start by loosening the wheel bolt far enough that you can rotate the eccentric nut with the wrench (pictured).
 
-<img class="size-medium wp-image-2817 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-71_2-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_handbook/lmk2_maintenance_MK2-71_2.jpg){.aligncenter .size-medium}
 
 Turn the nut so the eccentric hole gets closer to the rail which will bring the wheel closer to the rail as well (in this case turning the nut clockwise brings the wheel closer to the rail). This adjustment should be very small since it can have a big impact on the wheel placement, plus over-tightening the wheels can put added stress on your machine and also cause premature wear.
 
-<img class="size-medium wp-image-3182 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Wrench-tightening-manual-850x476.png" alt="" width="850" height="476" />
+![](/_images/_lmmk2/_handbook/lmk2_maintenance_Wrench-tightening-manual.png){.aligncenter .size-medium}
 
 Once you're satisfied with the nut placement, re-tighten the M5 bolt with the Allen key to confirm the new location. At this point you’ll want to check both the wheel you just tightened as well as its static 'partner' wheel on the opposite side of the rail for the right 'sweet spot'. Whichever wheel is on top will always be harder to spin.
 
-<img class="size-medium wp-image-2818 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-72_2-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_handbook/lmk2_maintenance_MK2-72_2.jpg){.aligncenter .size-medium}
 
 And that should conclude the process! If the wheels still don't feel right go back and repeat the steps as needed. If you wish, you can also watch this video for a better visual demonstration on how to adjust your eccentric nuts. There's also a <a href="https://www.facebook.com/groups/mill.one/permalink/1788550111616312/" target="_blank" rel="noopener noreferrer">community-made video on our Facebook group that does a great job explaining it</a>.
 
@@ -88,26 +88,27 @@ The LongMill comes with four Delrin anti-backlash nuts that allow users to reduc
 
 If you've got the white, spring loaded anti-backlash nuts installed, these use springs to continue adjusting themselves so they don't need any manual upkeep. If you start to notice wiggling in your machine anyway, then the nut has probably worn out and needs replacing. The <a href="https://sienci.com/product/t8-spring-loaded-anti-backlash-nut/" target="_blank" rel="noopener noreferrer">T8 size is used on all axes</a>, except if you have a 48" X-axis which uses <a href="https://sienci.com/product/t12-spring-loaded-anti-backlash-nut-1pc/" target="_blank" rel="noopener noreferrer">one T12 nut</a>.
 
-<img class="aligncenter wp-image-7155 size-medium" title="nar" src="https://resources.sienci.com/wp-content/uploads/2022/03/Tuning-movement-2-850x675.png" alt="" width="850" height="675" />
+![](/_images/_lmmk2/_handbook/lmk2_maintenance_Tuning-movement-2.png){.aligncenter .size-medium}
 
 If your machine still uses the older, black nuts, follow these steps:
 
 1. If you have the dust shield add-on for your machine, remove it so you can access the mechanics underneath.
 1. Check X, Z, and both Y plates by moving each of them back and forth. If you can feel them wiggle a little bit even though the lead screws are stationary you may need to tension the anti-backlash nut.
-  <img class="size-medium wp-image-2820 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-74_1-850x478.jpg" alt="" width="850" height="478" />
+  ![](/_images/_lmmk2/_handbook/lmk2_maintenance_MK2-74_1.jpg){.aligncenter .size-medium}
+
 1. You can see in the picture below how tightening this screw widens the nut to remove any looseness. For the plates that you noticed were wiggling, use an M5 allen key to reach the tensioning screws (locations are shown in the pictures below). <b>Adjusting each screw should only happen a very very tiny rotation at a time before checking again for looseness in the plate</b>. These screws normally require very little rotation and if you over-tighten them it can put added stress on your machine and also cause premature wear. Remember that once the Delrin nut is worn excessively, the M5 bolt head could start to rub or bind against the lead screw and damage it so it should be <a href="https://sienci.com/product/delrin-anti-backlash-block/" target="_blank" rel="noopener noreferrer">replaced</a>.
 
-<img class="wp-image-3191 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-74_2-1-850x404.jpg" alt="" width="850" height="404" />
+![](/_images/_lmmk2/_handbook/lmk2_maintenance_MK2-74_2-1.jpg){.aligncenter .size-medium}
 
-[caption id="attachment_3290" align="aligncenter" width="850"]<img class="wp-image-3290 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/04/MK2-75_2-edited-850x479.jpg" alt="" width="850" height="479" /> Y-axis nut tensioning (mirrored for other side)[/caption]
+![](/_images/_lmmk2/_handbook/lmk2_maintenance_MK2-75_2-edited.jpg "Y-axis nut tensioning (mirrored for other side)"){.aligncenter .size-medium}
 
-[caption id="attachment_3292" align="aligncenter" width="850"]<img class="wp-image-3292 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/04/MK2-75_1-edited-850x478.jpg" alt="" width="850" height="478" /> X-axis[/caption]
+![](/_images/_lmmk2/_handbook/lmk2_maintenance_MK2-75_1-edited.jpg "X-axis"){.aligncenter .size-medium}
 
-[caption id="attachment_3291" align="aligncenter" width="850"]<img class="wp-image-3291 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/04/MK2-75_3-edited-850x478.jpg" alt="" width="850" height="478" /> Z-axis[/caption]
+![](/_images/_lmmk2/_handbook/lmk2_maintenance_MK2-75_3-edited.jpg "Z-axis"){.aligncenter .size-medium}
 
 ## Maintaining your Linear Guides
 
-<img class="wp-image-3395 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/04/IMG_6870-1-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_handbook/lmk2_maintenance_IMG_6870.jpg){.aligncenter .size-medium}
 
 The frequency of lubricating your linear guides will vary depending on the type of cutting you do and the frequency of machine use. Generally we recommend servicing them every 20-30 hours. If you experience grinding noises or roughness in your gantry, we recommend checking them more often:
 
@@ -137,7 +138,7 @@ Some key areas to check:
 
 V-wheels and Delrin nuts wear out over time and you'll know when to replace them when the eccentric nuts can't be rotated any further to tighten up the v-wheels or the tensioning screw on the nut doesn't allow for any more adjustment. This can also happen for the white anti-backlash nuts which eventually start to become loose.
 
-<img class="size-medium wp-image-2820 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-74_1-850x478.jpg" alt="" width="850" height="478" />
+![](/_images/_lmmk2/_handbook/lmk2_maintenance_MK2-74_1.jpg){.aligncenter .size-medium}
 
 To see a great general process of how to fully replace loose wheels, watch this great video by Bucky's Customs:
 
