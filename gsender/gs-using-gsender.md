@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/_gsender/_using/gs_us_p2_IdleConnect.jpg
 ---
 
-Here's a great video that goes over much of how a g-code sender works in the context of gSender. See Kelly explain many of its uses and features:
+Here's an older video that goes over much of how a g-code sender works in the context of gSender. See Kelly explain many of its uses and features:
 
 https://www.youtube.com/watch?v=3XbJ0g7jp0I
 

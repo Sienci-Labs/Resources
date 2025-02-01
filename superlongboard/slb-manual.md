@@ -271,6 +271,8 @@ We’ve found that a minimum of 15% works for lead screw-driven CNCs. These hold
 
 ![](/_images/_superlongboard/_manual/slb_ma_p19_Steppers.jpg){.aligncenter .size-full}
 
+Note that since the Y1 and Y2 outputs share the same enable pin, they cannot be held independently even if they're assigned to different axes.
+
 ### Touch Plate/Probe
 
 Connect your touch plate or probe here. Any Sienci touch plate and many 3rd-party continuity-style touch plates should work and can be configured through gSender. For most touch plates, it doesn’t matter which way you plug them in.
@@ -697,17 +699,17 @@ Some VFDs don’t accept 5V PWM, in which case you can either try setting up RS4
 
 The typical settings if you want the simple signals as default will include:
 
-- $9 PWM Signal: Enable=on, RPM controls spindle enable signal=off
-- $16 Invert spindle signals: Spindle enable=on, Spindle direction=on, PWM=on
-- $30 Maximum spindle speed=30000 RPM
-- $31 Minimum spindle speed=10000 RPM
-- $32 Mode of operation=Normal
-- $33 Spindle PWM frequency=1000 Hz
-- $34 Spindle PWM off value=0%
-- $35 Spindle PWM min value=0%
-- $36 Spindle PWM max value=100%
+- $9 PWM Signal: Enable = on, RPM controls spindle enable signal = off
+- $16 Invert spindle signals: Spindle enable=on, Spindle direction = on, PWM = on
+- $30 Maximum spindle speed = 24000 RPM
+- $31 Minimum spindle speed = 7500 RPM
+- $32 Mode of operation = Normal
+- $33 Spindle PWM frequency = 1000 Hz
+- $34 Spindle PWM off value = 0%
+- $35 Spindle PWM min value = 0%
+- $36 Spindle PWM max value = 100%
 - $395 Default spindle: SLB_SPINDLE
-- $520 Spindle 0 tool number start=0
+- $520 Spindle 0 tool number start = 0
 - $666 Using Add-ons not used yet
 
 Verify these, then power-cycle your board to make sure the changes take effect. If you’re rather wanting to set up RS485 as default, then you’ll want to change $395 to one of the other options.
@@ -902,3 +904,21 @@ If you don’t happen to have these specific connectors on hand there are also c
 Right now there are a handful of plugs and pins on the SLB that technically don’t do anything useful yet which is why there's nothing in the manual on it. The idea was that by adding in the hardware at the start, we could keep working on testing and implementing firmware to make more features available to all SLB owners without having to buy a new board. We’re very excited about it but ultimately can't make any guarantees on what will and won't ultimately work, so that's why no features have been promised yet outside of what's already been tested and delivered. These ports include the: **Y2 Limit Switch**, **SaS Spindle pin**, **Pendant**, **SD card**, **Door**, **ADC**, **40-pin AUX COMM Header**, and **AUX IO Header**.
 
 If you’re still interested in trying these out without our support or documentation, <a href="https://resources.sienci.com/view/slb-welcome/#open-source" target="_blank" rel="noopener">we have all our board designs and firmware code available online for reference and modification</a> so you can feel free to try your own stuff and even contribute back to the project! For instance, you can see the <a href="https://github.com/Sienci-Labs/SuperLongBoard/blob/master/Project%20Outputs%20for%20Longboard_32bit/Schematic%20and%203D%20Prints/Longboard_32bit_Schematic_B6.1_FULL_PLACE.PDF" target="_blank" rel="noopener">40-pin inputs and outputs in the full schematic PDF</a> on page 19.
+
+#### Y-axis auto squaring
+
+Though this isn't yet supported in an official firmware build, you do have an option to try it out experimentally. Find the link here: https://forum.sienci.com/t/auto-squaring-on-the-slb/13753/18
+
+This feature is useful on less rigid machines, since systems with more flex are more likely to have the two Y-axes to get out of sync with each other. For strong-built CNCs it's better to fix the squareness of the hardware itself than to ask the motors to do it. You can imagine that asking your motors to constantly fight to bring the machine back into square puts much more strain on the system, and in some cases compensation might not even be possible.
+
+#### SD Card Macros
+
+Though this isn't yet supported in an official firmware build, you do have an option to try it out experimentally. Find the link here: https://forum.sienci.com/t/auto-squaring-on-the-slb/13753/20
+
+This feature allows you to run complex macros with variables and math from an SD Card inserted into the SLBs SD card slot. Once you flash the firmware, the remaining steps are to:
+
+1. Make a plain text file with standard g-code and/or variables and controls supported by grblHAL
+1. End the file with `M99`
+1. Name the file with a letter and three numbers, and ".macro" as the file extension, e.g. `P101.macro`
+1. Save it on the SD card then put it into the SLB and power cycle the board
+1. In this example, the g-code command `G65 P101` will now run the macro on the SD card

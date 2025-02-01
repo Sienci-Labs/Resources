@@ -129,6 +129,7 @@ To fix the Windows driver:
 1. Right-click ➜ Uninstall device, then power cycle the board
 1. Once powered back up and reconnected, the SLB should reappear looking more normal. With this done, you can try flashing again - or if Windows still didn't install the correct driver then go through the [Windows Driver Update](#windows-driver-update) again.
 ![](/_images/_superlongboard/_firmware/slb_fi_p10_stm32-reset.png){.aligncenter .size-full .nar}
+1. If this still doesn't seem to work, you might've deleted the standard STM driver while using Zadig since the SLB wasn't in DFU mode. In this case go to <a href="https://www.st.com/en/development-tools/stsw-stm32102html" target="_blank" rel="noopener">STMs website to re-download the drivers</a> (they should work even though they say they're for Windows 7-8) then try flashing again.
 
 [su_spoiler title="<h3>Ubuntu Driver Update</h3>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 
@@ -435,7 +436,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$31</b></td>
      <td>Minimum spindle speed</td>
-     <td><b>7200</b></td>
+     <td><b>7500</b></td>
      <td>RPM</td>
      <td style="text-align: left;">Minimum spindle speed, can be overridden by spindle plugins.</td>
    </tr>

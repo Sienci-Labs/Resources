@@ -170,4 +170,4 @@ This is most likely related to webGL not being enabled. You can check inside Chr
 - Relaunch Chrome for the changes to take effect and now these updated settings should be used by gSender’s Electron builder
 
 **Can’t open the port to connect**
-Make sure your user is part of the dialout group. To add your account to this group, go to a terminal and type “<em>sudo usermod -a -G dialout &lt;user&gt;</em>” (replacing “&lt;user&gt;” with your username). Restart after this change and try again.
+Make sure your user is part of the dialout group. To add your account to this group, go to a terminal and type `sudo usermod -a -G dialout &lt;user&gt;` (replacing “&lt;user&gt;” with your username). Restart after this change and try again.
