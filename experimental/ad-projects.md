@@ -26,6 +26,7 @@ Outline the typical steps you'd follow to make a CNC project (link these general
 - Running cutting and swap out cutting tools or change out material as needed
 - Do rough material cleanup and dry-fit pieces to make sure they turned out well
 - Apply any finishing to the material and do final assembly
+- Free3dstlfiles.com
 
 Garrett Fromme sent along an email to all his followers of sites to use for CNCing and I kinda wanted to vet them to see if there were any others worth adding to our own resources in “Explore Projects”
 

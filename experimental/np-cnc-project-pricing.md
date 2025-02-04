@@ -28,6 +28,9 @@ Page for help those running a business with CNC project pricing
 - Advice on pricing https://www.reddit.com/r/graphic_design/s/Q3OWrEta1c
 - Cheap customers https://www.facebook.com/share/p/vpxYWDH8vvMRHHS5/
 - Print cost calculator https://makerworld.com/en/models/724437#profileId-655571
+- If you're starting a business around it, notes for success
+  - Take lots of time on staging your picture with lighting, background, etc. also showing it in its use like put steak or cheeses on your charcuterie boards
+  - Look at Etsy to see which products that aren't ads that are making the top of the lists as a learning opportunity
 
 ---
 

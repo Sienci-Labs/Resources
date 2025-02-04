@@ -52,6 +52,10 @@ TODO
   - After noticing that the y-axes were binding up right near the end of the movement of the axis I went through the process of loosening and re-tightening the anti-backlash blocks which solved the problem (really make a video on this sometime)
   - My spoil board has slight stripes as opposed to being perfectly flat… is this normal or do I have a tilt on my router that needs to be fixed? If so, how’s that done? (link to new tramming page)
   - Add more limit switch stuff (how gSender handles G28 retracts with homing on or off, potential issues with the MK2 Y-axis limit switch mounting)
+  - Position a pointed bit (like a v-bit) near the work surface when you jiggle the axes to help look for looseness that needs tightening up
+  - How to go about machine calibration
+    - Squaring https://www.reddit.com/r/hobbycnc/s/W1Lnou54wt
+    - https://forum.sienci.com/t/longmill-calibration/14254/15
 - Handbook
   - Review how the utility of the 'Handbook' section for the MK2 is looking. It should include aspects that:
     - Cover any of the common information that a user might need for day-to-day operation of their machine once it's been set up
@@ -67,5 +71,15 @@ TODO
       - Great video idea but there’s a much easier way to do this https://www.youtube.com/watch?v=P6TMRDtXMGA
 - Sanding & Finishing
   - Do affiliate links for products? Most of the pics are grabbed from online stores (Amazon, etc)
-  - Add section on Epoxy finishing - https://forum.sienci.com/t/how-should-i-finish-this/13995/20 or should this go into a new/separate page about epoxy design, pouring, sanding, polishing type of thing?
+  - Add section on Epoxy finishing - https://forum.sienci.com/t/how-should-i-finish-this/13995/20 or should this go into a new/separate page about
+  epoxy design, pouring, sanding, polishing type of thing?
+- Prepping to be a CNC owner
+  - Set the expectations of someone starting on the CNC journey to set a reasonable bar of cost, learning curve, failure, machine maintenance, etc.
+  - What accessories to buy and where to buy them
+  - The bits required to make different projects and where to source them
+  - Ensure this is positive and doesn't scare people off
+  - Costs of getting CNCing https://youtu.be/Bh9xpCMKlFY
 - Good initial explanation of open source https://youtu.be/F7iLfuci75Y?si=CLqkkr1pYQIpH6BC
+- CNC resources being made by others
+  - https://www.reddit.com/r/hobbycnc/s/NH3Z6P0XQ2
+  - https://www.reddit.com/r/hobbycnc/s/p39gXJMmkq
