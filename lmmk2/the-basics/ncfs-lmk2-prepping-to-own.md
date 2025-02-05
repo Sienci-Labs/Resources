@@ -11,7 +11,7 @@ custom_fields:
     KBName: 
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: 
+featured_image: _images/_lmmk2/_the-basics/lmk2_prep_shop_pic2.jpg
 ---
 
 ## Setting Expectations
@@ -20,12 +20,17 @@ You’ve done the research, plotted your course, and now you’re ready to set s
 
 **But wait...**
 
-- Need a bigger boat? Head over to explore [costs](#initial-costs), [space](#space-requirements) and [power requirements](#power-requirements)
-- Is that a storm on the horizon? We can help you prepare for a flood of [resources & information](#learning-curve)<br>
-- Why does it feel like your ship is veering off course? Ah, that’s the reality of [machine maintenance](#machine-maintenance)<br>
-- Did you pack a bucket to bail out the water? Don’t worry, [the community](https://forum.sienci.com/) is your lifeboat<br>
+Before you set sail on your CNC journey, let's make sure you're fully prepared for the waters ahead.
 
-We understand the excitement—you're eager to hoist the sails and catch the wind! But before you set off, let’s chart your course, explore the learning waters ahead, and point out a few icebergs to watch for on the journey.
+🚢 Need a bigger boat? Explore [space requirements](#space-requirements), [power requirements](#power-requirements) and [costs](#initial-costs) to get your shop setup and ready to roll<br>
+
+🌊 Is that a storm on the horizon? Prepare for a flood of [resources & information](#learning-curve) on power needs, dust collection and shop efficiency<br>
+
+🧭 Why does it feel like your ship is veering off course? Get back on track with [machine maintenance](#machine-maintenance) tips to keep your CNC running smoothly<br>
+
+🪣 Did you pack a bucket to bail out the water? [the community](https://forum.sienci.com/) is your lifeboat, ready to help you troubleshoot, learn, and grow.<br>
+
+**It's time to get excited, because learning to CNC is a journey!** With our guidance and the help of the community, you'll be more than prepared to chart your course, hoist the sails, and be ready to explore the learning waters ahead while avoiding common icebergs along the way.
 
 Sit back and enjoy a couple of videos about starting your woodworking journey, the dark side of CNC, what you need to get started, and a beginner guide .
 
@@ -40,15 +45,73 @@ Sit back and enjoy a couple of videos about starting your woodworking journey, t
 
 [/su_table]
 
+### **Space Requirements**
+
+Setting up your CNC woodworking area requires careful planning, as you'll quickly find you can use more space than just for the machine itself. Know that you can start off with a simple CNC machine on a table, some simple hand tools and still have success.
+
+Let's check out a cramped single car garage shop and explore some things to consider:
+
+![](/_images/_lmmk2/_the-basics/lmk2_prep_shop_pic2.jpg "Note the two blue arrows indicating this shop has installed a separate power line on the ceiling"){.aligncenter .size-medium}
+
+1. **Wood Storage**<br>
+  You’ll need a space to store wood materials, whether it’s sheets of plywood, hardwoods, or other materials. It’s a good idea to designate a dry, organized area to prevent wood warping or damage and to ensure easy access during projects. *Keep out spiders!*
+
+2. **Tools**<br>
+  Over time, you’ll accumulate a variety of hand tools, sandpaper, clamps, and accessories. Make sure you have proper storage for these tools near your CNC machine to ensure quick access. Having access to a power bar is also very handy.
+
+3. **Bits**<br>
+  Having the original containers for bit or a small shelf or storage bin will help avoid misplacing or damaging small, delicate items like your cutting tools. The shop pictured above has carpet down to prevent any dropped bits from breaking too.
+
+4. **Table**<br>
+  Your CNC machine will need a sturdy, flat table or workbench to rest on. You may want to plan for extra space on the left side of your table to allow you to mount the controller or E-stop button.
+  
+5. **Dust Collection**<br>
+  CNC projects generate a lot of dust, so a proper dust collection system is essential. This could be a small vacuum setup like pictured above, or a dedicated wall mounted dust collector to keep your workspace clean and prevent damage to your machine and electronics, like pictured below.
+
+![](/_images/_lmmk2/_the-basics/lmk2_prep_shop_pic3.jpg){.aligncenter .size-medium}
+
+These videos explore setting up a garage shop, using the ceiling, installing classic workholding and handy tools to add to your shop.
+
+[su_table responsive="yes"]
+
+| Title                                      | Description                                                | Length   | Watch Video                                             |
+|--------------------------------------------|------------------------------------------------------------|----------|---------------------------------------------------------|
+| How To Set Up A Woodworking Shop In A Garage | Fitting both a CNC and a CO2 laser into one garage.       | 39 min   | [Watch Video](https://youtu.be/QrnOjFqNU4g)              |
+| How-to Use your shop ceiling fully!        | Maximize your workshop by using the ceiling for power and dust collection. | 7 min    | [Watch Video](https://youtu.be/9T5khippBBE)              |
+| How to Build a Bench and Install T-Tracks  | A traditional workholding method, added to your workbench. | 7 min    | [Watch Video](https://youtu.be/T4QVgtnZMDw)              |
+| CNC accessories and tools to make life easier | Handy tools and tips for your shop.                      | 18 min   | [Watch Video](https://youtu.be/usCUSXLuIhE)              |
+
+[/su_table]
+
+### Power Requirements
+
+When setting up your shop, it’s important to consider the power requirements of both the **controller**, the **router** or **spindle** used, and any other tools added. Here’s a quick rundown:
+
+1. **Controller** ([SuperLongBoard](https://sienci.com/product/slb/))
+   - The **SLB** requires a **24V** external power supply with a **10-12A capacity** to run. This adds up to about **2 amps** on a 120V circuit which is relatively low, but combined with a spindle or router and other equipment, it’s still essential to keep an eye on your overall power usage.
+1. **Router Power** ([Makita 1.25HP](https://sienci.com/product/makita-rt0701c-1-25-hp-110v-compact-router/))
+   - Many hobbyists start with a **router** instead of a spindle. Routers, like the **Makita RT0701C**, draw around **6-7 amps** on 120V circuits. This is much less than a spindle, making routers a good option if you’re working with limited power supply.
+1. **Spindle Power**
+   - Spindles come in different power levels, which affects how much electricity they use. Common spindles range from **0.8KW** to **2.2KW**.
+     - A **1.5KW spindle** running on **120V** usually draws about **12.5 amps**.
+     - A **2.2KW spindle** on **120V** can draw up to **18 amps**.
+   - For typical 120V circuits (like the ones with **15A breakers** found in many workshops), a **1.5KW spindle** is about the highest you can use without risking a tripped breaker. Larger spindles, like a **2.2KW**, might need a dedicated circuit with a higher amperage or use of a **220V** outlet.
+
+So, if you’re using a **1.5KW spindle** with the SLB on a standard 120V, 15A circuit, you’ll be close to capacity. Adding a dust collection system or other devices might push you over, requiring a separate circuit. Alternatively, if you’re using a **router**, you’ll have more breathing room for other equipment.
+
+Always double-check your circuit’s breaker ratings to avoid overloading your workshop’s electrical setup.
+
 ### **Initial Costs**
 
 - **Machine Cost**<br> CNC machines come in a range of prices depending on size, precision, and brand. Hobby-level machines can start around $500–$2,000, while more advanced or larger machines can go well beyond $5,000.
 - **Additional Costs**<br> You’ll also need software for designing your projects, which could involve one-time purchases or subscription fees. Accessories like end mills, clamps, dust collection systems, and materials (wood, MDF, etc.) will add to your initial investment.
 - **Upgrades**<br> Over time, you may want to upgrade parts, like getting better tooling, a quieter dust collection system or adding additional features (such as an upgraded spindle or a laser engraver).
 
-#### Those sneaky extra costs
+#### Those extra costs can add up
 
-Every shop is a bit different, and customizing yours to fit your needs is always a fun challenge. In the chart below we explore many of the things you will want to consider adding to your shop, before your end mill starts spinning.
+Every shop is a bit different, and customizing yours to fit your needs is always a fun challenge. It's not uncommon to reshuffle/reorganize your shop after you've had your CNC for a bit and understand where you want things.
+
+In the chart below we explore many of the things you may want to consider adding to your shop, before your end mill starts spinning. Don't fret too much about 'keeping up with the Joneses', you can start slow and build up your extras when you are ready.
 
 [su_table responsive="yes"]
 
@@ -83,63 +146,9 @@ Here are some videos to help you save some money when setting up your shop, buyi
 
 [/su_table]
 
-### **Space Requirements**
-
-Setting up your CNC woodworking area requires careful planning, as you'll need more space than just for the machine itself. Let's check out a single car garage shop and explore some things to consider:
-
-![](ncfs_lm_shoppic2.jpg "Note the two blue arrows indicating this shop has installed a separate power line on the ceiling"){.aligncenter .size-medium}
-
-1. **Wood Storage**<br>
-  You’ll need a space to store wood materials, whether it’s sheets of plywood, hardwoods, or other materials. It’s a good idea to designate a dry, organized area to prevent wood warping or damage and to ensure easy access during projects. *Keep out spiders!*
-
-2. **Tools**<br>
-  Over time, you’ll accumulate a variety of hand tools, sandpaper, clamps, and accessories. Make sure you have proper storage for these tools near your CNC machine to ensure quick access. Having access to a power bar is also very handy.
-
-3. **Bits**<br>
-  Having the original containers for bit or a small shelf or storage bin will help avoid misplacing or damaging small, delicate items like your cutting tools. The shop pictured above has carpet down to prevent any dropped bits from breaking too.
-
-4. **Table**<br>
-  Your CNC machine will need a sturdy, flat table or workbench to rest on. You may want to plan for extra space on the left side of your table to allow you to mount the controller or E-stop button.
-  
-5. **Dust Collection**<br>
-  CNC projects generate a lot of dust, so a proper dust collection system is essential. This could be a small vacuum setup like pictured above, or a dedicated wall mounted dust collector to keep your workspace clean and prevent damage to your machine and electronics, like pictured below.
-
-![](ncfs-lm-shoppic3.jpg)
-
-These videos explore setting up a garage shop, using the ceiling, installing classic workholding and handy tools to add to your shop.
-
-[su_table responsive="yes"]
-
-| Title                                      | Description                                                | Length   | Watch Video                                             |
-|--------------------------------------------|------------------------------------------------------------|----------|---------------------------------------------------------|
-| How To Set Up A Woodworking Shop In A Garage | Fitting both a CNC and a CO2 laser into one garage.       | 39 min   | [Watch Video](https://youtu.be/QrnOjFqNU4g)              |
-| How-to Use your shop ceiling fully!        | Maximize your workshop by using the ceiling for power and dust collection. | 7 min    | [Watch Video](https://youtu.be/9T5khippBBE)              |
-| How to Build a Bench and Install T-Tracks  | A traditional workholding method, added to your workbench. | 7 min    | [Watch Video](https://youtu.be/T4QVgtnZMDw)              |
-| CNC accessories and tools to make life easier | Handy tools and tips for your shop.                      | 18 min   | [Watch Video](https://youtu.be/usCUSXLuIhE)              |
-
-[/su_table]
-
-### Power Requirements
-
-When setting up your shop, it’s important to consider the power requirements of both the **controller**, the **router** or **spindle** used, and any other tools added. Here’s a quick rundown:
-
-1. **Controller** ([SuperLongBoard](https://sienci.com/product/slb/))
-   - The **SLB** requires a **24V** external power supply with a **10-12A capacity** to run. This adds up to about **2 amps** on a 120V circuit which is relatively low, but combined with a spindle or router and other equipment, it’s still essential to keep an eye on your overall power usage.
-1. **Router Power** ([Makita 1.25HP](https://sienci.com/product/makita-rt0701c-1-25-hp-110v-compact-router/))
-   - Many hobbyists start with a **router** instead of a spindle. Routers, like the **Makita RT0701C**, draw around **6-7 amps** on 120V circuits. This is much less than a spindle, making routers a good option if you’re working with limited power supply.
-1. **Spindle Power**
-   - Spindles come in different power levels, which affects how much electricity they use. Common spindles range from **0.8KW** to **2.2KW**.
-     - A **1.5KW spindle** running on **120V** usually draws about **12.5 amps**.
-     - A **2.2KW spindle** on **120V** can draw up to **18 amps**.
-   - For typical 120V circuits (like the ones with **15A breakers** found in many workshops), a **1.5KW spindle** is about the highest you can use without risking a tripped breaker. Larger spindles, like a **2.2KW**, might need a dedicated circuit with a higher amperage or use of a **220V** outlet.
-
-So, if you’re using a **1.5KW spindle** with the SLB on a standard 120V, 15A circuit, you’ll be close to capacity. Adding a dust collection system or other devices might push you over, requiring a separate circuit. Alternatively, if you’re using a **router**, you’ll have more breathing room for other equipment.
-
-Always double-check your circuit’s breaker ratings to avoid overloading your workshop’s electrical setup.
-
 ## Learning Curve
 
-There are many moving parts when it comes to producing something from your new CNC machine. A interesting intersection of technology and woodworking. You can produce something on your first try, but it may take several months to become comfortable with all of the steps available to you. Know that you will make some mistakes along the way, but embrace them if you can as learning moments. Store that memory away, and prevent it from happening again. Let's explore some of the new skills you will be learning about, acquiring, and eventually mastering. **You got this!**
+There are many moving parts when it comes to producing something from your new CNC machine. An interesting intersection of technology and woodworking. You can produce something on your first try, but it may take several months to become comfortable with all of the steps available to you. Know that you will make some mistakes along the way, but embrace them if you can as learning moments. Store that memory away, and prevent it from happening again. Let's explore some of the new skills you will be learning about, acquiring, and eventually mastering. **You got this!**
 
 - **Software Skills**<br> A significant part of CNC woodworking involves learning CAD (Computer-Aided Design) and CAM (Computer-Aided Manufacturing) software. Programs like Fusion 360, Easel, or VCarve have varying degrees of complexity, and mastering them takes time.
 - **Toolpaths and Settings**<br> Beyond software, understanding toolpaths (how the machine moves), feed rates, spindle speeds, and materials will come into play. These settings directly affect the success of your projects.
@@ -165,7 +174,7 @@ Here are a couple videos that may prove to be interesting at this point. The fir
 - **Trial and Error**<br> Don’t be discouraged if your first attempts don’t go as planned. It’s common to break bits, misalign materials, or get unexpected results. Mistakes are part of the learning process.
 - **Material Wastage**<br> You will likely waste some material during the learning phase, whether from incorrect settings or accidents. Plan for some losses as you refine your skills.
 
-We all need to laugh at ourselves every now and again, so here are a video about beginner mistakes and some shorts to giggle with. These are those icebergs we were talking about earlier.
+We all need to laugh at ourselves every now and again, so here is a video about beginner mistakes and some shorts to giggle with. These are those icebergs we are hoping to avoid ourselves. Isn't it nice when people share their mistakes so we can all learn from them?
 
 [su_table responsive="yes"]
 
@@ -206,7 +215,7 @@ We all need to laugh at ourselves every now and again, so here are a video about
 
 ### Final Thought: **Start Small**
 
-It’s tempting to jump straight into large or complex projects, but starting with simpler tasks will help you build confidence and understand your machine. Set realistic expectations for your first few months, focus on mastering the basics, and steadily work your way up to more advanced projects. Embarking on your CNC journey can be incredibly rewarding, but it requires patience, learning, and ongoing investment.
+It’s tempting to jump straight into large or complex projects, but starting with simpler tasks will help you build confidence and understand your machine. Set realistic expectations for your first few months, focus on mastering the basics, and steadily work your way up to more advanced projects. Embarking on your CNC journey can be incredibly rewarding, but it requires patience, learning, and ongoing investment. Enjoy the milestones as you learn new skills and upgrade your projects along the way.
 
 **Stay curious, embrace the mistakes as learning opportunities and you may just find your very own gold treasure! May the winds always be at your back.**
 
