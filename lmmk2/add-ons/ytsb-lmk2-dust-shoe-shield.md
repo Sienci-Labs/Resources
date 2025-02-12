@@ -80,7 +80,7 @@ With this placement, you should be able to angle the front of the shield inward 
 
 ![](/_images/_lmmk2/_add-ons/lmk2_dustshoe_IMG_6425.jpg){.aligncenter .size-medium}
 
-The shields should now be held securely in place between the three contact points of the front and back bolts as well as the middle feet. If there's any looseness or rattling check to make sure all four M5-10mm screws are contacting/holding each point of the dust shield securely. Ensure that the lower lip is caught by the two middle feet on each Y-rail.
+The shields should now be held securely in place between the three contact points of the front and back bolts as well as the middle feet. If there's any looseness or rattling check to make sure all four M5-10mm screws are contacting/holding each point of the dust shield securely. Ensure the lower lip is caught by the two middle feet on each Y-rail.
 
 ![](/_images/_lmmk2/_add-ons/lmk2_dustshoe_2022.jpg){.aligncenter .size-medium}
 
