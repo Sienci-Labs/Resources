@@ -41,15 +41,15 @@ If you need instructions on how to install it, this documentation goes through t
 
 Once you've completed the installation, open gSender and connect to your machine. Open the 'Firmware' tool and check that you've selected your specific CNC in the profiles drop down so that the correct firmware is flashed. Click the "Flash grbl" button to bring up the confirmation prompt.
 
-<img class="aligncenter size-large wp-image-4209" src="https://resources.sienci.com/wp-content/uploads/2022/03/gSender-Machine-profiles-1024x529.jpg" alt="gSender machine profile selection " width="1024" height="529" />
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gSender-Machine-profiles.jpg){.aligncenter .size-large}
 
 **NOTE:** If you've made custom changes to your machines firmware that you don't want to lose, use the 'Export Settings' button to save your settings to a file that you can then reload when flashing is complete.
 
-<img class="aligncenter size-medium wp-image-4212" src="https://resources.sienci.com/wp-content/uploads/2022/03/gSender-export-prompt-850x402.jpg" alt="" width="850" height="402" />
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gsender-export-prompt.jpg){.aligncenter .size-medium}
 
 You will see a warning about the risk of flashing the firmware. If you own a LongMill MK2 and have not made any modifications to your control board, there is almost no risk in completing this process. Press "OK" to continue.
 
-<img class="aligncenter wp-image-4210 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/gSender-flashing-prompt-850x533.jpg" alt="" width="850" height="533" />
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gSender-flashing-prompt.jpg){.aligncenter .size-medium}
 
 ### Restore Settings
 

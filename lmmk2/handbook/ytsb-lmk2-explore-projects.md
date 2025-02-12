@@ -87,7 +87,7 @@ If you'd like some inspiration, we spent some time putting together a categorize
 - Elastic gun
 - Wooden animals
 - Dice holder / roller
-- Longboard
+- LongBoard
 - Slingshot
 - RC cars & planes
 
@@ -121,7 +121,7 @@ If you'd like some inspiration, we spent some time putting together a categorize
 
 If you are looking for cool projects to create, then you are at the right place. We are creating individual e-books for awesome projects that we make YouTube video tutorials on called CNC Creator Guides. These guides are perfect for beginners interested in learning how to create projects on their CNC. They consist of downloadable project files and contain detailed step-by-step instructions with images, making it easier for the maker to understand and follow along. By following these guides, you can successfully build these projects and show off all your hard work.
 
-<img class="aligncenter size-full wp-image-4790" src="https://resources.sienci.com/wp-content/uploads/2022/03/mockup_ebook_stepstool.jpg" alt="" width="1200" height="675" />
+![](/_images/_lmmk2/_handbook/lmk2_projects_mockup_ebook_stepstool.jpg){.aligncenter .size-full}
 
 Creator Guide List (to be continued)
 

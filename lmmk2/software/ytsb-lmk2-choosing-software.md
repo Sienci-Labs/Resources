@@ -413,7 +413,7 @@ The full list of grbl-compatible senders is generally maintained here: <a href="
 
 This software is designed to be clean and easy to use no matter your previous CNC experience. It has a variety of features such as macros, CNC calibration, surfacing, tool changing, and firmware control. gSender supports many grbl-based machines and works out-of-the-box on the LongMill CNC.
 
-![](/_images/_longmill/_software/lm_choosingsoft_p13_gSender.png){.aligncenter .size-medium}
+![](/_images/_longmill/_software/lm_choosingsoft_p13_gSender.png){.aligncenter .size-full}
 
 [tabby title="UGS"]
 

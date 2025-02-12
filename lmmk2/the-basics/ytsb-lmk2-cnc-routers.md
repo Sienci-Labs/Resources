@@ -27,7 +27,7 @@ CNC routers are quite capable when it comes to manufacturing a variety of object
 
 Jobs can vary from simple surface engravings or v-carving to cutting line profiles, pocketing, carving reliefs, or even making multi-orientated jigs for cutting from many sides. Most of the time, regular projects can be made with simple 2D cuts (shown with the first examples) and can be designed with simple drawings or pictures.
 
-![](/_images/_longmill/_the-basics/lm_cncrouters_p2_CutTypes.png "Surface cut, v-carve, profile cut, pocket cut, inner contour, outer contour, 2-sided cut (sphere)"){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_cncrouters_p2_cuttype.jpg "Surface cut, v-carve, profile cut, pocket cut, inner contour, outer contour, 2-sided cut (sphere)"){.aligncenter .size-medium}
 
 Even more complex objects can be made on a CNC router after diving into the world of '3D' carving. Cuts like these are normally made by finding or making a 3D file, then processing that for the machine to cut. This is a slightly more involved process than using a drawing or picture. These "relief" cuts, as well as a few other examples of classic CNC router projects can be seen below.
 

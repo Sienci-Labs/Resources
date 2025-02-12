@@ -199,11 +199,11 @@ With the inputs and outputs available on the LongBoard controller, it's easy to 
 
 We'll use an X-Carve as an example. Out the back of the X-Controller™, you can see stepper motor inputs labelled as "X AXIS", "Y1 AXIS", "Y2 AXIS", and "Z AXIS". These are already bundled into 4-wire terminal connectors, the same kind that the LongBoard uses, so by unplugging them from the X-Controller™ and plugging them into the similarly labelled sockets on the LongBoard you've already got the motors transferred over.
 
-![](/_images/_longmill/_advanced/_12_LBDetails/lm_lbdeets_p5_XController.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_12_LBDetails/lm_lbdeets_p5_XController.jpg){.aligncenter .size-full}
 
 The other common inputs (the limit switches and probe), are also easy to bring over due to labelling similarities. The X-Controller™ and the LongBoard also both have terminal block connectors where wires can be easily attached and detached from the connector via the slotted head cutouts in the connector using a small, flat headed screwdriver.
 
-![](/_images/_longmill/_advanced/_12_LBDetails/lm_lbdeets_p6_LBWires.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_12_LBDetails/lm_lbdeets_p6_LBWires.png){.aligncenter .size-full}
 
 With the wiring complete, the last step is to configure the EEPROM of the LongBoard. The LongBoard should already come pre-flashed to accommodate most machines, but it won't know if the motor is turning the wrong way, what the size of the machine is, or if you have a spindle or limit switches. This step is to give the controller an understand of what your CNC looks like so the controller can know how to move it around correctly. Many CNC manufacturers will provide these settings to their customers for proper configuration. Some examples are (though understand that machine settings can change all the time so these values might be out of date):
 

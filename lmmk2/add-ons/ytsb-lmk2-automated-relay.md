@@ -59,7 +59,7 @@ Now's a good time to quickly verify that everything has been hooked up correctly
 
 ![](/_images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p3_Testing.png){.aligncenter .size-medium}
 
-![](/_images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p4_Switch.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p4_Switch.jpg){.aligncenter .size-full}
 
 If you're not seeing the results you expect, double-check you've got your wires running correctly and the connectors are plugged in all the way to the relay and the LongBoard.
 
