@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: /_images/_longmill/_assembly/_moreprojects/lm_mprojects_p2.jpg
 ---
 
