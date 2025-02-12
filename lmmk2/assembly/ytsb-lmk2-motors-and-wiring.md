@@ -19,9 +19,9 @@ featured_image: _images/_lmmk2/_assembly/_motorswires/lmk2_motors_Title-Motors-W
 
 <h2>Stepper Motor Mounting</h2>
 
-![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_45_1r2-1536x386-1.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_45_1r2-1536x386-1.jpg){.aligncenter .size-full}
 
-![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_45_2r2-1536x864-1.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_45_2r2-1536x864-1.jpg){.aligncenter .size-full}
 
 You’re really making your way along, celebrate with a friend and a cold drink!! Look back to the yellow bag and grab the 35mm spacers, M5-50mm bolts and also grab the NEMA 23 stepper motors out of the motor box. You’ll be inserting four M5-50mm bolts into the four holes on each motor along side the aluminum spacer. These assemblies will attach to each axis of the machine. <b>Note:</b> Earlier versions of the LongMill shipped with Nylon washers. If your machine has these washers, install the washers between the 35mm spacer and the metal gantry plates and feet.
 

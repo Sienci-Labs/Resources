@@ -86,7 +86,7 @@ You will need:
   <li>Loosen the front two clamping screws on the 80mm mount.</li>
   <li>Place the spindle through the mount, and fasten the clamping screws to secure the spindle in place (you can adjust the height later).
 
-![](/_images/_lmmk2/_add-ons/lmk2_spindle_placingspindle_short.gif "Sliding spindle into new 80mm mount"){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/lmk2_spindle_placingspindle_short.gif "Sliding spindle into new 80mm mount"){.aligncenter .size-full}
 
 </li>
   <li>Plug in the spindle cable connector into the top of the spindle.
@@ -101,7 +101,7 @@ You will need:
 </li>
   <li>Plug the VFD into power, the VFD screen should blink on with red text.
 
-![](/_images/_lmmk2/_add-ons/lmk2_spindle_VFD-powered-on_short.gif "VFD powered on"){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/lmk2_spindle_VFD-powered-on_short.gif "VFD powered on"){.aligncenter .size-full}
 
 </li>
   <li>Turn ON the controller using the power switch and make sure the E-stop is released. We will now move to setting things up on gSender.

@@ -17,7 +17,7 @@ featured_image:
 
 This page accompanies the main LongMill MK2.5 manual, showing any assembly steps that are specific to the <b>48x30</b> version. If you're installing a 48" extension kit on an existing LongMill MK2.5, you'll want to follow <a href="https://resources.sienci.com/view/48-extension-kit/">this page</a> instead.
 
-![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_EXSymbolDefinitionC.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_EXSymbolDefinitionC.png){.aligncenter .size-full}
 
 There will also be a link to bring you to the alternate steps and another link at the end of those steps to bring you back to the main manual.
 
@@ -29,7 +29,7 @@ Inside the 48” X-axis rail box, you’ll find the X-axis rail packaged with 5 
 
 You’ll find the EX lead screw securely wrapped onto the X-axis rail. Unwrap this and set these both aside for the assembly of the X-axis.
 
-![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48x30_MK2.5_packing_layout.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48x30_MK2.5_packing_layout.png){.aligncenter .size-full}
 
 The ‘EX hardware box’ contains various hardware that is used when assembling the X-axis of your 48x30 machine, and the ‘MK2.5 EX hardware box’ contains other small parts specific to 48x30 MK2.5 LongMill. The ‘EX Drag chain box & cable box’ contains the longer 1400mm drag chain used on the X-axis, as well as some cable extensions. During sections of the assembly to follow, parts will be called from each of the boxes relevant to that section.
 

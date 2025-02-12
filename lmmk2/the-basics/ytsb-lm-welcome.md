@@ -70,8 +70,13 @@ Questions and learning is always further enhanced in groups. Our CNC community i
 
 If you'd like to converse and learn from others, please check out either our Forum or Facebook communities. Remember to encourage and help others as you receive so that we can continue to support positive learning.
 
-| [![Community Forum](/_images/_lmmk2/_the-basics/lmk2_welcome_IconCommunity.jpg)](https://forum.sienci.com/) Community Forum | [![Facebook Group](/_images/_lmmk2/_the-basics/lmk2_welcome_IconFacebook.jpg)](https://www.facebook.com/groups/mill.one/) Facebook Group |
+| [![Community Forum](/_images/_lmmk2/_the-basics/lmk2_welcome_iconcommunity.jpg)](https://forum.sienci.com/) Community Forum | [![Facebook Group](/_images/_lmmk2/_the-basics/lmk2_welcome_iconfacebook.jpg)](https://www.facebook.com/groups/mill.one/) Facebook Group |
 |:---:|:---:|
+
+<tr>
+<td style="text-align: center; padding: 5px; border: none;"><a href="https://forum.sienci.com/" target="_blank" rel="noopener"><img class="flie alignnone wp-image-1439 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/06/Icon2-scaled-1.jpg" alt="" width="600" height="600" /></a></td>
+<td style="text-align: center; padding: 5px; border: none;"><a href="https://www.facebook.com/groups/mill.one/" target="_blank" rel="noopener"><img class="flie alignnone wp-image-1438 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/06/Icon1-scaled-1.jpg" alt="" width="600" height="600" /></a></td>
+</tr>
 
 We hope your LongMill becomes a great start to your hobby CNC journey and wish you all the best from our team (or at least the ones we could wrangle into a picture) here at Sienci Labs!
 

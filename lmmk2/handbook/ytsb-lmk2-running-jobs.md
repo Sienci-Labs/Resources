@@ -183,7 +183,7 @@ Sometimes when you start the job, you’ll need to make adjustments to the machi
 
 When a job has been started, gSender will shoe a feed adjustment control panel beside the machining time. Clicking on the plus or minus button will adjust the feed rate faster and slower. The chart below shows what each of the buttons do.
 
-![](/_images/_lmmk2/_handbook/lmk2_runjobs_feed-Rate-adjustment..jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_feed-Rate-adjustment..jpg){.aligncenter .size-full}
 
 [su_table responsive="yes"]
 <table>

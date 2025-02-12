@@ -41,7 +41,7 @@ If you need instructions on how to install it, this documentation goes through t
 
 Once you've completed the installation, open gSender and connect to your machine. Open the 'Firmware' tool and check that you've selected your specific CNC in the profiles drop down so that the correct firmware is flashed. Click the "Flash grbl" button to bring up the confirmation prompt.
 
-![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gSender-Machine-profiles.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gSender-Machine-profiles.jpg){.aligncenter .size-large}
 
 **NOTE:** If you've made custom changes to your machines firmware that you don't want to lose, use the 'Export Settings' button to save your settings to a file that you can then reload when flashing is complete.
 
