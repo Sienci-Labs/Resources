@@ -51,6 +51,11 @@ To help you decide what software would work best for you we've done three things
 
 This wizard will provide you with general software suggestions based on your CNC needs. Check it out!
 
+<div id="my-react-toolchain"> </div>
+<div id="ToolTable"> </div>
+<p><script src="https://resources.sienci.com/wp-content/react/wizard.js"></script></p>
+<style>@import url('https://resources.sienci.com/wp-content/react/wizard.css')</style></p>
+
 ## Our Recommendations
 
 Many of our go-to software picks tend to be available for free and can range from beginner-friendly to more advanced. We also tend to more highly recommend software that is both Design-and-CAM-in-one since that helps to streamline the process of making projects on your CNC.
