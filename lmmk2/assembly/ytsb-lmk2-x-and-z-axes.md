@@ -103,8 +103,6 @@ Using another two bolts, loosely attach a second Delrin anti-backlash nut to the
 
 <a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#ex-delrin-nut-mounting"><img class="fortye aligncenter wp-image-3938 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX2-850x73.png" alt="" width="850" height="73" /></a>
 
-![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_EX2.png)("https://resources.sienci.com/view/48x30-LongMill-mk2-accompanying-manual/#ex-delrin-nut-mounting"){.aligncenter .size-medium}
-
 <h2>Connecting the Sub-assemblies</h2>
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-5a.png){.aligncenter .size-medium .wid}
