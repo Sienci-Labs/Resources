@@ -148,7 +148,9 @@ Leaving the last few clips open, bring the other end of the drag chain around an
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_58_2.jpg){.aligncenter .size-medium}
 
-Attach a motor cable onto the X-axis NEMA 23 stepper motor. <img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2022/03/48EX-symbol.png" alt="" width="61" height="30" />
+Attach a motor cable onto the X-axis NEMA 23 stepper motor.
+
+<img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2022/03/48EX-symbol.png" alt="" width="61" height="30" />
 
 <a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#cable-extension-installation"><img class="fortye aligncenter wp-image-3953 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_xzaxes_48EX-symbol.png" alt="" width="850" height="72" /></a>
 
