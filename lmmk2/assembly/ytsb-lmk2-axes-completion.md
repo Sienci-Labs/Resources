@@ -57,7 +57,9 @@ Lift the left side of the X-axis rail up to meet the left Y-gantry assembly. The
 
 ![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_Y-Axis-Gantries_8-1.png){.aligncenter .size-medium}
 
-Thread the final lead screw through the anti-backlash block behind the XZ-gantry. The ends of the lead screw should be able to rest in the big holes on both steel Y-gantries.<img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_xzaxes_48EX-symbol.png" alt="" width="61" height="30" />
+Thread the final lead screw through the anti-backlash block behind the XZ-gantry. The ends of the lead screw should be able to rest in the big holes on both steel Y-gantries.
+
+<img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_xzaxes_48EX-symbol.png" alt="" width="61" height="30" />
 
 <a href="https://resources.sienci.com/view/lmk2-motors-and-wiring/"><img class="fortye aligncenter wp-image-3942 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_axescomplete_EX4.png" alt="" width="850" height="77" /></a>
 
