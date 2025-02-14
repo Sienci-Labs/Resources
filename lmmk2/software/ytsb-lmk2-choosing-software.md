@@ -50,8 +50,9 @@ To help you decide what software would work best for you we've done three things
 ## Toolchain Wizard
 
 This wizard will provide you with general software suggestions based on your CNC needs. Check it out!
-<div id="my-react-toolchain"> </div>
-<div id="ToolTable"> </div>
+
+<div id="my-react-toolchain"> </div>
+<div id="ToolTable"> </div>
 <p><script src="https://resources.sienci.com/wp-content/react/wizard.js"></script></p>
 <style>@import url('https://resources.sienci.com/wp-content/react/wizard.css')</style></p>
 

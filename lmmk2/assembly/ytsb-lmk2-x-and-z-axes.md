@@ -15,11 +15,11 @@ skip_file: no
 featured_image: _images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header.png
 ---
 
-![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header.png)
+![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header.png){.aligncenter .size-medium}
 
 <h2>Nut Assemblies</h2>
 
-![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-1.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-1.jpg){.aligncenter .size-medium .wid}
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p1.jpg){.aligncenter .size-medium}
 
@@ -31,7 +31,7 @@ With four blocks ready, set them aside.
 
 <h2>Z-axis Motor Mount</h2>
 
-![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-2.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-2.jpg){.aligncenter .size-medium .wid}
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p2.jpg){.aligncenter .size-medium}
 
@@ -41,7 +41,7 @@ With this in hand you’ll also want to get the bag with bearings in it, of whic
 
 <h2>Z-axis Mount Sub-assembly</h2>
 
-![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-3.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-3.jpg){.aligncenter .size-medium .wid}
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p3.png){.aligncenter .size-medium}
 
@@ -63,7 +63,7 @@ Now rotate the coupler and ACME nut in opposite directions so that they come tog
 
 <h2>XZ-axis Gantry Sub-assembly</h2>
 
-![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-4.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-4.jpg){.aligncenter .size-medium .wid}
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p6a.jpg){.aligncenter .size-medium}
 
@@ -89,7 +89,7 @@ Install two v-wheel assemblies at the bottom edge of the gantry - except this ti
 
 <h2>Attaching Anti-backlash Nuts</h2>
 
-![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-5.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-5.jpg){.aligncenter .size-medium .wid}
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p17.png){.aligncenter .size-medium}
 
@@ -99,13 +99,13 @@ Using two M5-25mm bolts, loosely attach one Delrin anti-backlash nut to the back
 
 Using another two bolts, loosely attach a second Delrin anti-backlash nut to the back of the X-gantry.
 
-![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_48EX-symbol.png){.alignleft .size-small}
+<img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_xzaxes_48EX-symbol.png" alt="" width="61" height="30" />
 
-![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_EX2.png)("https://resources.sienci.com/view/48x30-LongMill-mk2-accompanying-manual/#ex-delrin-nut-mounting"){.aligncenter .size-medium}
+<a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#ex-delrin-nut-mounting"><img class="fortye aligncenter wp-image-3938 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX2-850x73.png" alt="" width="850" height="73" /></a>
 
 <h2>Connecting the Sub-assemblies</h2>
 
-![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-5a.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-5a.png){.aligncenter .size-medium .wid}
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p20.png){.aligncenter .size-medium}
 
@@ -121,7 +121,7 @@ With everything secured together, you can finish tightening the two bolts holdin
 
 <h2>Attaching the Router Mount</h2>
 
-![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-6.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-6.jpg){.aligncenter .size-medium .wid}
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p23.png){.aligncenter .size-medium}
 

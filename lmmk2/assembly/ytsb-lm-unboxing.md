@@ -120,7 +120,7 @@ Diving into your LongMill box you’ll be met with a whole lot of boxes within. 
 
 Check out the ‘welcome items’ where you’ll find our letter alongside some tools provided for assembly and some fun stickers. Also check out the ‘variable box’ and ‘rail box’ for extra goodies, some are hidden within the rails themselves. Set aside items like the Makita and NEMA23 motor box as well any add-ons from the variable box like bits, dust shoe, touch plate, since you won’t need these until much later on in the assembly.
 
-![](/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_ext48.png)(https://resources.sienci.com/view/48x30-LongMill-mk2-accompanying-manual/#48-x-axis-rail-box-unpacking)
+<a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#48-x-axis-rail-box-unpacking"><img class="fortye aligncenter wp-image-3936 size-medium" src="![](/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_ext48.png)" width="850" height="156" /></a>
 
 <h3>Tools you’ll need</h3>
 
@@ -174,6 +174,45 @@ This manual contains some technical language as well as a distinct visual langua
 | • Large green circles: provide a secondary view of the current step for added clarity       | ![](/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_clarity.png){.alignnone .size-medium} |
 | • X, Y, and Z: during assembly if you see these capitalized letters used it’s because we refer to some parts by the axis they belong to. For reference, if you’re looking at the LongMill from the front the X-axis is when the machine moves left/right (red), the Y-axis is towards/away from you (green), and the Z-axis is moving up/down from the tabletop (blue) | ![](/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_xyzangles.jpg){.alignnone .size-medium}       |
 | • 48" EX symbol: always comes after a blurb of text to indicate that you'll need to follow a few different steps outlined in the accompanying manual. If you aren't assembling the 48x30 model of the LongMill MK2 you can ignore these | ![](/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_48ex.png){.alignnone .size-full}               |
+
+<table>
+    <thead>
+        <tr>
+            <th>Description</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>• Section title pages: show the part of the machine you’ll be working on next</td>
+            <td><img src="/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_machinepart.png" class="alignnone size-full" /></td>
+        </tr>
+        <tr>
+            <td>• Transparent parts: outlined in blue with a blue arrow path to show where the part starts and where it ends up</td>
+            <td><img src="/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_startend.png" class="alignnone size-medium" /></td>
+        </tr>
+        <tr>
+            <td>• Rotation arrows: come as either blue or red, blue indicating a loose placement of the part and red indicating a firm tightening required to fasten the part into place</td>
+            <td><img src="/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_loosefirm.png" class="alignnone size-medium" /></td>
+        </tr>
+        <tr>
+            <td>• Caution triangles: marks something that requires attention</td>
+            <td><img src="/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_caution.png" class="alignnone size-full" /></td>
+        </tr>
+        <tr>
+            <td>• Large green circles: provide a secondary view of the current step for added clarity</td>
+            <td><img src="/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_clarity.png" class="alignnone size-medium" /></td>
+        </tr>
+        <tr>
+            <td>• X, Y, and Z: during assembly if you see these capitalized letters used it’s because we refer to some parts by the axis they belong to. For reference, if you’re looking at the LongMill from the front, the X-axis is when the machine moves left/right (red), the Y-axis is towards/away from you (green), and the Z-axis is moving up/down from the tabletop (blue).</td>
+            <td><img src="/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_xyzangles.jpg" class="alignnone size-medium" /></td>
+        </tr>
+        <tr>
+            <td>• 48" EX symbol: always comes after a blurb of text to indicate that you'll need to follow a few different steps outlined in the accompanying manual. If you aren't assembling the 48x30 model of the LongMill MK2 you can ignore these</td>
+            <td><img src="/_images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_48ex.png" class="alignnone size-full" /></td>
+        </tr>
+    </tbody>
+</table>
 
   <li><b>Connect with the community</b>
 If you are looking to get quick advice or to share your excitement about the LongMill, post in our <a href="https://forum.sienci.com/" target="_blank" rel="noopener">forum</a> or <a href="https://www.facebook.com/groups/mill.one/" target="_blank" rel="noopener">Facebook group</a>! We have a large and friendly group of CNC enthusiasts who enjoy engaging in conversations and sharing their CNC experiences.</li>

@@ -19,7 +19,7 @@ featured_image: _images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_Title-Che
 
 <h2>Checking &amp; Plugging In</h2>
 
-![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_Header-checks-1st-moves.jpg){.aligncenter .size-medium}
+<img class="wid wp-image-7096 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_checksmoves_Header-checks-1st-moves.jpg" alt="" width="850" height="236" />
 
 The LongMill electronics come pre-assembled and are pretty much ready to go out of the box. Here are two things you can double-check before plugging in and powering-on.
 
@@ -63,7 +63,7 @@ Next we will be connecting to your computer, booting up gSender and then running
 
 <h2>Connecting the LongMill to your Computer</h2>
 
-![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_Header-computer-connect.jpg){.aligncenter .size-medium}
+<img class="wid wp-image-7128 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_checksmoves_Header-computer-connect.jpg" alt="" width="850" height="251" />
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_Header-computer-connect-1.png){.aligncenter .size-medium}
 
@@ -82,7 +82,7 @@ Once you have gSender installed, go ahead and run it on your computer. One way i
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_67_2.jpg){.aligncenter .size-medium}
 
-<em>You should be greeted with a screen that looks like this.</em>
+<p style="text-align: center;"><em>You should be greeted with a screen that looks like this.</em></p>
 
 At this stage it’s time to connect your computer to the LongMill control box via the provided USB cable and flip the power switch to turn on power to the machine. The USB port on the control box is on the right side.
 

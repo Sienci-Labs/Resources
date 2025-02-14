@@ -19,7 +19,7 @@ featured_image: _images/_lmmk2/_assembly/_autocomplete/lmk2_axescomplete_Y-Axis-
 
 <h2>Drag Chain Mount and Connecting Rails</h2>
 
-![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_Header-Y-Axis-Gantries_2-1.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_Header-Y-Axis-Gantries_2-1.png){.aligncenter .size-medium .wid}
 
 ![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_MK2-36_2.jpg){.aligncenter .size-medium}
 
@@ -41,7 +41,7 @@ Lift the right side of the X-axis rail up to meet with the matching holes on the
 
 <h2>Connecting the Remaining Sub-assemblies</h2>
 
-![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_Header-Y-Axis-Gantries_3-2.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_Header-Y-Axis-Gantries_3-2.png){.aligncenter .size-medium .wid}
 
 ![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_Y-Axis-Gantries_4-1.png){.aligncenter .size-medium}
 
@@ -53,15 +53,15 @@ Lift the left side of the X-axis rail up to meet the left Y-gantry assembly. The
 
 <h2>X-axis Lead Screw</h2>
 
-![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_header-4.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_header-4.jpg){.aligncenter .size-medium .wid}
 
 ![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_Y-Axis-Gantries_8-1.png){.aligncenter .size-medium}
 
 Thread the final lead screw through the anti-backlash block behind the XZ-gantry. The ends of the lead screw should be able to rest in the big holes on both steel Y-gantries.
 
-![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_48EX-symbol.png){.alignleft .size-small}
+<img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_xzaxes_48EX-symbol.png" alt="" width="61" height="30" />
 
-![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_EX4.png){.aligncenter .size-medium}
+<a href="https://resources.sienci.com/view/lmk2-motors-and-wiring/"><img class="fortye aligncenter wp-image-3942 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_axescomplete_EX4.png" alt="" width="850" height="77" /></a>
 
 ![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_MK2-42.jpg){.aligncenter .size-medium}
 
