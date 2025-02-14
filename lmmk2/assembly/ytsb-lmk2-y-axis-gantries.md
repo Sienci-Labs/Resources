@@ -19,7 +19,7 @@ featured_image: _images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_title
 
 <h2>Y-Gantry Wheels</h2>
 
-![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_header-Y-Axis-Gantries_1.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_header-Y-Axis-Gantries_1.png){.aligncenter .size-medium .wid}
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Y-Axis-Gantries_2.png){.aligncenter .size-medium}
 
@@ -27,15 +27,13 @@ Install two v-wheel assemblies to each Y-axis gantry using nylock nuts. Similar 
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Y-Axis-Gantries_1.png){.aligncenter .size-medium}
 
-Now, loosely install two v-wheel assemblies in the upper set of holes on each Y-axis gantry, using eccentric nuts. Orient the inner holes of the eccentric nuts away from the bottom edge of the gantry (pictured below).
+Now, loosely install two v-wheel assemblies in the upper set of holes on each Y-axis gantry, using eccentric nuts. Orient the inner holes of the eccentric nuts away from the bottom edge of the gantry (pictured below).<img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_xzaxes_48EX-symbol.png" alt="" width="61" height="30" />
 
-![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_48EX-symbol.png){.aligncenter .size-small}
-
-![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_V-wheelSidebyside.png)(https://resources.sienci.com/view/48x30-LongMill-mk2-accompanying-manual/#ex-y-gantry-assembly){.aligncenter .size-medium}
+<a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#ex-y-gantry-assembly"><img class="fortye aligncenter wp-image-3932 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_xzaxes_48EX-symbol.png" alt="" width="850" height="391" /></a>
 
 <h2>Y-axis Anti-backlash Nuts</h2>
 
-![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_header-1-1.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_header-1-1.jpg){.aligncenter .size-medium .wid}
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Y-Axis-Gantries_4.png){.aligncenter .size-medium}
 
@@ -43,7 +41,7 @@ Using two M5-25mm bolts, loosely attach the two Delrin anti-backlash nuts to the
 
 <h2>Y-axis Middle Feet</h2>
 
-![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_MK2-26_1.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_MK2-26_1.jpg){.aligncenter .size-medium .wid}
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Y-Axis-Gantries_5.png){.aligncenter .size-medium}
 
@@ -64,12 +62,9 @@ From this point onward until the completion of the Y-axis rail assemblies, we wi
 The following icon will be shown on each page where you should be repeating the steps for the second rail, but mirrored.
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Mirror-Mode-intro.png){.aligncenter .size-medium}
 
-<h2>
+<h2><img class="non alignnone wp-image-3130" src="https://resources.sienci.com/wp-content/uploads/2022/03/Mirror-Mode-icon.png" alt="" width="20" height="20" /> Y-axis End Feet</h2>
 
-![](</_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Mirror-Mode-icon .png>){.alignleft .size-small}
- Y-axis End Feet</h2>
-
-![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Header-Y-Axis-Gantries.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Header-Y-Axis-Gantries.png){.aligncenter .size-medium .wid}
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_MK2-29_2.jpg){.aligncenter .size-medium}
 
@@ -87,7 +82,7 @@ Finding all 4 steel end feet in a cardboard wrap, attach two end feet onto each 
 
 ![](</_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Mirror-Mode-icon .png>){.alignleft .size-small} Y-axis Lead Screws</h2>
 
-![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_header-4.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_header-4.jpg){.aligncenter .size-medium .wid}
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_MK2-31_2.jpg){.aligncenter .size-medium}
 

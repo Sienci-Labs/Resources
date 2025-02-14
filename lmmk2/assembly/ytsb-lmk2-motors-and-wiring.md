@@ -19,7 +19,7 @@ featured_image: _images/_lmmk2/_assembly/_motorswires/lmk2_motors_Title-Motors-W
 
 <h2>Stepper Motor Mounting</h2>
 
-![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_45_1r2-1536x386-1.jpg){.aligncenter .size-full}
+![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_45_1r2-1536x386-1.jpg){.aligncenter .size-full .wid}
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_45_2r2-1536x864-1.jpg){.aligncenter .size-full}
 
@@ -37,9 +37,9 @@ If everything has come together well so far, you should be able to now check tha
 
 Bring a motor assembly to the left Y-gantry plate making sure the motor wire faces back and upwards (pictured). Slide the motor shaft into the coupler, then tighten the four M5-50mm bolts into the gantry. At the coupler, tighten the set screw at the motor side and ensure the lead screw can spin without excessive force.
 
-![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_48EX-symbol.png){.aligncenter .size-small}
+<img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_xzaxes_48EX-symbol.png" alt="" width="61" height="30" />
 
-![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_EX5C.png){.aligncenter .size-medium}
+<a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#ex-lead-screw-assembly"><img class="fortye aligncenter wp-image-3950 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_motors_EX5C.png" alt="" width="850" height="68" /></a>
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_double-pic-green-circle-2-1.png){.aligncenter .size-medium}
 
@@ -47,7 +47,7 @@ Bring the last motor assembly to the Z-axis motor mount making sure the motor wi
 
 <h2>Attaching Drag Chain Ends</h2>
 
-![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_49_1.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_49_1.jpg){.aligncenter .size-medium .wid}
 
 We will now be installing the drag chains which can be found in the long rail box inside the Y-axis rails. These contain and guide the wires on the LongMill so they aren’t in the way during cutting. They also keep wires from wearing out from bending or being cinched around corners.
 
@@ -148,11 +148,9 @@ Leaving the last few clips open, bring the other end of the drag chain around an
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_58_2.jpg){.aligncenter .size-medium}
 
-Attach a motor cable onto the X-axis NEMA 23 stepper motor.
+Attach a motor cable onto the X-axis NEMA 23 stepper motor. <img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2022/03/48EX-symbol.png" alt="" width="61" height="30" />
 
-![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_48EX-symbol.png){.alignleft .size-small}
-
-![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_EX6C.png){.aligncenter .size-medium}
+<a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#cable-extension-installation"><img class="fortye aligncenter wp-image-3953 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_xzaxes_48EX-symbol.png" alt="" width="850" height="72" /></a>
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_59.jpg){.aligncenter .size-medium}
 

@@ -57,6 +57,8 @@ Once the flashing process is completed, you'll have to reconnect to your machine
 
 If you previously exported your own custom settings, you can instead click the 'Import Settings' button to load your original settings back onto your machine. Close the Firmware Tool window, and try jogging to ensure the machine is working properly.
 
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gsender_restore.jpg){.aligncenter .size-medium}
+
 ## Flashing grbl using Arduino IDE
 
 **NOTE:** If you've made custom changes to your machines firmware that you don't want to lose, you'll want to record them down before starting the flashing process. Whichever g-code sender you use you'll want to find the 'console' area and type '$$' and hit 'Enter'. This will pop up a block of values that you'll want to record however you wish. When you complete the flashing process you'll then be able to go back into your g-code sender and compare the new values the written ones and adjust them appropriately.

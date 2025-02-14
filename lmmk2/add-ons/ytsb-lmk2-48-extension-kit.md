@@ -19,6 +19,19 @@ Congratulations on getting your LongMill MK2 48” extension kit! In just a few 
 
 The assembly instructions are available both online and as a PDF that you can download by clicking on the link below:
 
+<table class="unboxing-table" style="height: 100px; margin-left: auto; margin-right: auto; margin-bottom: -10px; text-align: center; border-collapse: collapse; table-layout: fixed;" width="95%">
+<tbody>
+<tr>
+<td>
+
+[caption id="attachment_24481" align="alignnone" width="225"]<a href="_community-docs/MK2-48-Extension-Kit-Assembly-Manual.pdf" target="_blank" rel="noopener noreferrer"><img class="flie wp-image-24481" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_48extkit_pdf.png" alt="" width="225" height="300" /></a> MK2 48" Extension Kit Manual[/caption]</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
 |                                                                                      |     |     |     |
 |--------------------------------------------------------------------------------------|-----|-----|-----|
 | [![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_pdf.png)](_community-docs/MK2-48-Extension-Kit-Assembly-Manual.pdf) <br> **MK2 48" Extension Kit Manual** |     |     |     |
@@ -27,7 +40,7 @@ The assembly instructions are available both online and as a PDF that you can do
 
 We have updated several of the parts you will use in upgrading to the 48”. They will all easily and seamlessly replace the previous ones. To see the most updated version of our 48” assembly PDF or online manual, you can visit our <a href="https://resources.sienci.com/view/lm-unboxing/#starting-up">MK2.5 assembly section</a>.
 
-![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_EX-48-Add-On-WP-pic.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_EX-48-Add-On-WP-pic.png){.aligncenter .size-medium .wid}
 
 ## 48” X-axis rail box unpacking
 
@@ -232,7 +245,7 @@ At the end of the disassembly of the X-axis, stop to make sure you haven’t los
 
 ### EX Y-gantry plate assembly
 
-![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__PN_4.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__PN_4.png){.aligncenter .size-medium .wid}
 
 On the new Y-gantry plates included in the extension kit marked ‘EX’, begin installing the V-wheels into the upper holes of the Y-gantry plates. Make sure the eccentric nuts are rotated so that the V-wheels are in their highest ‘open’ position to make assembly easier.
 
@@ -260,7 +273,7 @@ Fasten the Y-gantry to the delrin nut by using the two M5-25mm screws removed du
 
 ### EX X-axis preparation
 
-![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__PN_1.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__PN_1.png){.aligncenter .size-medium .wid}
 
 On the new 48” X-axis rail extrusion, slide the reused drag chain end link assembly into the T-slot using the T-nut.
 
@@ -294,7 +307,7 @@ Tighten these screws only until the spring lock washer has been flattened on the
 
 ### EX X-axis rail mounting
 
-![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__PN_2.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__PN_2.png){.aligncenter .size-medium .wid}
 
 Attach the X-axis rail to the right Y-axis gantry plate using the four M5-25mm bolts.
 
@@ -310,7 +323,7 @@ Lift the left side of the rail upwards and rest the drag chain mount on the left
 
 ### X-axis motor mounting
 
-![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__PN_3.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__PN_3.png){.aligncenter .size-medium .wid}
 
 Slide a flange bearing into the left Y-gantry plate.
 
@@ -326,7 +339,7 @@ Mount this assembly onto the left Y-gantry plate, keeping the flange bearing in 
 
 ### X-axis lead screw installation
 
-![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_4830_PN_3_REVISEDFORV2NUT.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_4830_PN_3_REVISEDFORV2NUT.png){.aligncenter .size-medium .wid}
 
 Pass the EX lead screw through the right Y-gantry plate towards the XZ-gantry assembly. Be careful not to bend the lead screw while doing this or handling it otherwise.
 

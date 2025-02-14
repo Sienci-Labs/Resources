@@ -32,11 +32,11 @@ This guide covers set up and use of our Standard Touch Plate. If you have a diff
 
 Our touch plates come mostly pre-wired but sometimes a green connector will need to be attached. If your wire harness doesn’t have a green connector attached already, look for it to be plugged into the Probe and GND pin pair on your LongMill control board. These terminal connectors have a built-in clamping system that you can open and close by turning the flat head screw at the top of each connection point.
 
-![](/_images/_lmmk2/_add-ons/lmk2_touchplate_Block-style-assembly-1.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_touchplate_block1.png){.aligncenter .size-medium}
 
 Use a flat head screwdriver to clamp down on the exposed wire ends from the harness ensuring the red and black wires are in the correct order as in the photo. You can check for a reliable connection by giving the wires a small tug and they’ll feel firmly clamped in place. Plug the connector back into the board once finished.
 
-![](/_images/_lmmk2/_add-ons/lmk2_touchplate_Block-style-assembly-2.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_touchplate_block2.png){.aligncenter .size-medium}
 
 At the other end of the wiring harness will be a magnet and a banana plug. The touch plate has two different holes to insert the banana plug so you can choose the hole that keeps wiring tidy for your setup. Make sure you push it in all the way; the connection should feel snug.
 
@@ -215,7 +215,7 @@ https://youtu.be/I1EhAPNXdzQ
 
 The AutoZero can probe in all three axes. The type of probing can be selected with one of the five options on the interface. The selection determines which axis the machine will be probing for and which coordinates it will reset once the probing cycle is complete.
 
-![](/_images/_longmill/_assembly/_addons/lm_addons_p14.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_addons/lm_addons_p14.png){.aligncenter .size-medium .nar}
 
 Before you begin, make sure that both the touch plate is connected and the magnet is connected to the end mill or a nearby conductive surface such as the shank of the router or the router nut. gSender will ask to check for the continuity of the plate before starting the process to ensure your probe has the proper connection by asking you to touch the plate to your bit.
 
@@ -264,7 +264,7 @@ Note: These macros were tested on the Buildbotics controller but they should als
 
 Note: The macros environment in UGS does not support arithmetic operations so probing with the X and/or Y axis using the AutoZero touch plate is a semi-automatic process. More specifically, you will need to click on the “Control Status (DRO)” panel and enter “/2” to halve the active coordinates in the X and/or Y after probing in these directions. If you have only probed either the X or the Y axis, you will only need to divide the coordinate of the axis which was probed.
 
-![](/_images/_lmmk2/_add-ons/lmk2_touchplate_AZ-Coordinate-Division-UGS.gif){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_touchplate_othersender_ugs.gif){.aligncenter .size-full}
 
 <em>Example dividing the X and Y axis coordinates after probing in UGS</em>
 
@@ -279,9 +279,7 @@ To do so:
 1. Enter the command `G10 L20 P0 X[divided X coordinate] Y[divided Y coordinate]` into the console substituting the coordinates in square brackets with ones manually calculated in step 2. If you have only probed either the X or the Y axis, you will only need to divide and substitute the coordinate for the axis which was probed.
 1. Home X and/or Y to check if the tool is at origin
 
-![](/_images/_lmmk2/_add-ons/lmk2_touchplate_AZ-Coordinate-Division-Generic.gif){.aligncenter .size-medium}
-
-<em>Example dividing the X and Y axis coordinates after probing in any CNC control software</em>
+![](/_images/_lmmk2/_add-ons/_all/lmk2_touchplate_othersender_generic.gif "Example dividing the X and Y axis coordinates after probing in any CNC control software"){.aligncenter .size-full}
 
 ## Troubleshooting
 
@@ -299,7 +297,7 @@ If you’re using UGS:
 
 - There is a bug that can cause the touch plate to move farther than the expected origin and plunge the bit into the work surface if you use INCHES units when jogging around. If so, before beginning the probe process ensure that you have set the jog control to MM instead of INCHES. Once probing is completed, you may switch back to INCHES and resume regular machine operation
 
-![](/_images/_lmmk2/_add-ons/lmk2_touchplate_UGS-probe-inches-bug-1.png "Jog control unit setting on UGS")
+![](/_images/_lmmk2/_add-ons/_all/lmk2_touchplate_ugsprobebug.png "Jog control unit setting on UGS"){.aligncenter .size-medium}
 
 If this was not the problem:
 
@@ -309,18 +307,18 @@ If this was not the problem:
 - Check that there's proper electrical contact from your control box through to your magnet and touch plate. An easy way to check this is to run a Z probe with the router high up in the air and manually tap the magnet to the plate while they're held in each of your hands. If the bit stops and raises slightly up then lowers down again, this should indicate some form of connectivity from the magnet and touch plate to the control box. If you tap them together again, this should conclude the probing process and no errors should appear. If you don't observe this behaviour, then you should try this test again and if it again shows an error then check the electrical connections. See if the magnet is making contact with the metal leads of the wire by unscrewing the fastener in the centre and do the same for the banana plug as well. You may need to strip more insulation off the ends of the wire to get more contact with the metal surfaces. There’s a great video showing how to deal with banana connectors assembly/disassembly <a href="https://www.YouTube.com/watch?v=cH0C_g_lfXo" target="_blank" rel="noopener">here.</a>
 - Check for continuity between the banana clip and the connector. If there's no continuity, test the bare end of the wire. If there is continuity, ensure the bare end of the wire is properly seated in the connector.
 
- ![](/_images/_lmmk2/_add-ons/lmk2_touchplate_Touch-Plate-banana-clip-continuity-test-scaled.jpg "Electrical meter testing the continuity of between an electrical connector and a banana style clip")
+![](/_images/_lmmk2/_add-ons/_all/lmk2_touchplate_bananatest.jpg "Electrical meter testing the continuity of between an electrical connector and a banana style clip"){.aligncenter .size-medium}
 
 - Check for continuity between the magnet and and the connector. If not continuity, repeat the same steps above.
 
-![](/_images/_lmmk2/_add-ons/lmk2_touchplate_Touch-Plate-magnet-continuity-test-scaled.jpg "Electrical meter testing the continuity of between an electrical connector and a magnet")
+![](/_images/_lmmk2/_add-ons/_all/lmk2_touchplate_continuitytest.jpg "Electrical meter testing the continuity of between an electrical connector and a magnet"){.aligncenter .size-medium}
 
 - If you have good continuity with the wiring harness, make a jumper connector by placing a wire into both ends of a spare connector.
 
-![](/_images/_lmmk2/_add-ons/lmk2_touchplate_touch-plate-probe-jumper-pin-scaled.jpg "Wire inserted into both side of a connector to create a jumper connector")
+![](/_images/_lmmk2/_add-ons/_all/lmk2_touchplate_jumperpin.jpg "Wire inserted into both side of a connector to create a jumper connector"){.aligncenter .size-medium}
 
 - Insert the jumper connector into the controller. Open gSender, begin the probing operation. You should get the green go ahead to begin. If there is no change, the port on the controller might be the issue.
 
-![](/_images/_lmmk2/_add-ons/lmk2_touchplate_LB-and-SLB-probe-shorting_page.jpg "Wire jumped connector inserted into the LongBoard and SLB controllers")
+![](/_images/_lmmk2/_add-ons/_all/lmk2_touchplate_probeshorting.jpg "Wire jumped connector inserted into the LongBoard and SLB controllers"){.aligncenter .size-medium}
 
 Replacement touch plate cables can be found here: <a href="https://sienci.com/product/touch-plate-cable/" target="_blank" rel="noopener">https://sienci.com/product/touch-plate-cable/</a>

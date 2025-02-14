@@ -45,7 +45,7 @@ The ‘EX hardware box’ contains various hardware that is used when assembling
 
 <h2>EX Delrin nut mounting</h2>
 
-![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_Header-T12-antibacklashspringers.png){.aligncenter .size-medium}
+<img class="wid aligncenter wp-image-7177 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_extra48_Header-T12-antibacklashspringers.png" alt="" width="850" height="200" />
 
 From within the EX hardware box, grab the much larger ‘EX Delrin anti-backlash nut’, as well as two ‘M5-nylock nuts’ from the green hardware bag. Just as the smaller spring-loaded anti-backlash nuts were assembled, this larger T12 nut will have two M5-nylock nuts fitted inside the two hexagonal pockets.
 
@@ -63,7 +63,7 @@ Tighten these bolts only until the spring lock washer has been flattened on the 
 
 <h2>EX Y-gantry assembly</h2>
 
-![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_4830_PN_7.png){.aligncenter .size-medium}
+<img class="wid aligncenter wp-image-10745 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_extra48_4830_PN_7.png" alt="" width="850" height="200" />
 
 The Y-gantry plates will have two sets of holes used for installing the upper V-wheels assemblies. For the LongMill MK2.5 48x30, loosely install the upper V-wheel assemblies into the top two holes using eccentric nuts as shown below. Orient the inner holes of the eccentric nuts away from the bottom edge of the gantry.
 
@@ -79,7 +79,7 @@ Each of these Y-gantry plates will also have two sets of holes used for mounting
 
 <h3>X-axis motor mounting</h3>
 
-![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_Header-new-coupler.png){.aligncenter .size-medium}
+<img class="wid aligncenter wp-image-7171 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_extra48_Header-new-coupler.png" alt="" width="850" height="300" />
 
 Grab an EX flange bearing and EX coupler from the EX hardware box, as well as one pre-assembled motor + standoff assembly.
 
@@ -97,7 +97,7 @@ Mount this assembly onto the left Y-gantry plate, keeping the flange bearing in 
 
 <h3>X-axis lead screw installation</h3>
 
-![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48Xtension-pics-6-1.png){.aligncenter .size-medium}
+<img class="wid aligncenter wp-image-7180 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_extra48_48Xtension-pics-6-1.png" alt="" width="850" height="400" />
 
 From the EX hardware box, grab the longer EX lead screw, as well as the second EX flange bearing, T8 Clamping nut with M5-16mm bolt, and Allen key + standoff assembly.
 
@@ -155,7 +155,7 @@ Remove any screwdrivers, Allen keys, or bolts from the coupler on the opposite s
 
 <h3>Connecting and routing cables</h3>
 
-![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_Header-routing-cables.png){.aligncenter .size-medium}
+<img class="wid aligncenter wp-image-7185 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_extra48_Header-routing-cables.png" alt="" width="850" height="202" />
 
 Loosen the bolt mounting the X-axis drag chain onto the X-axis rail and slide this end link roughly 10” towards the middle of the rail. Re-tighten this mounting bolt after.
 
@@ -191,7 +191,7 @@ Secure the cables inside the drag chain by re-clipping each clip, then Attach th
 
 <h3>Organizing excess cable lengths</h3>
 
-![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_4830_PN_6.png){.aligncenter .size-medium}
+<img class="wid aligncenter wp-image-3800 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_extra48_4830_PN_6.png" alt="" width="850" height="200" />
 
 Grab the two ‘cable hangers’ from the EX hardware box. Align the clip portion of these into the T-slot on the X-rail and press directly downwards firmly to clip these in place. These are installed between the X-axis drag chain end link and the steel drag chain mount as shown.
 
