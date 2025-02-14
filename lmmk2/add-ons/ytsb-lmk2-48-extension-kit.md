@@ -32,10 +32,6 @@ The assembly instructions are available both online and as a PDF that you can do
 </tbody>
 </table>
 
-|                                                                                      |     |     |     |
-|--------------------------------------------------------------------------------------|-----|-----|-----|
-| [![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_pdf.png)](_community-docs/MK2-48-Extension-Kit-Assembly-Manual.pdf) <br> **MK2 48" Extension Kit Manual** |     |     |     |
-
 ## Updated Parts
 
 We have updated several of the parts you will use in upgrading to the 48”. They will all easily and seamlessly replace the previous ones. To see the most updated version of our 48” assembly PDF or online manual, you can visit our <a href="https://resources.sienci.com/view/lm-unboxing/#starting-up">MK2.5 assembly section</a>.
