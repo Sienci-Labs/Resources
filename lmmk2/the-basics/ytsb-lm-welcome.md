@@ -73,8 +73,8 @@ If you'd like to converse and learn from others, please check out either our For
 <table class="community-table" style="height: 100px; width: 95%; margin-left: auto; margin-right: auto; text-align: center; border-collapse: collapse; table-layout: fixed; max-width: 300px; padding: 5px !important; border: none !important;">
 <tbody>
 <tr>
-<td style="text-align: center; padding: 5px; border: none;"><a href="https://forum.sienci.com/" target="_blank" rel="noopener"><img class="flie alignnone wp-image-1439 size-full" src="/_images/_lmmk2/_the-basics/lmk2_welcome_icon_community.jpg" alt="" width="600" height="600" /></a></td>
-<td style="text-align: center; padding: 5px; border: none;"><a href="https://www.facebook.com/groups/mill.one/" target="_blank" rel="noopener"><img class="flie alignnone wp-image-1438 size-full" src="/_images/_lmmk2/_the-basics/lmk2_welcome_icon_facebook.jpg" alt="" width="600" height="600" /></a></td>
+<td style="text-align: center; padding: 5px; border: none;"><a href="https://forum.sienci.com/" target="_blank" rel="noopener"><img class="flie alignnone wp-image-1439 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/06/Icon2-scaled-1.jpg" alt="" width="600" height="600" /></a></td>
+<td style="text-align: center; padding: 5px; border: none;"><a href="https://www.facebook.com/groups/mill.one/" target="_blank" rel="noopener"><img class="flie alignnone wp-image-1438 size-full" src="https://resources.sienci.com/wp-content/uploads/2021/06/Icon1-scaled-1.jpg" alt="" width="600" height="600" /></a></td>
 </tr>
 <tr>
 <td style="text-align: center; padding: 5px; border: none;"><strong>Community Forum</strong></td>

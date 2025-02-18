@@ -93,14 +93,44 @@ Many issues during assembly can be solved by re-examining the instructions. Chec
 This manual contains some technical language as well as a distinct visual language. Keeping these in mind will make the assembly easier for you to understand and ensure that less mistakes happen.
 <br>
 
-| Description                                                                                                                                                                                                                                                                                           | Image                                                                                                                                                                                                                                    |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| • Section title pages: show the part of the machine you’ll be working on next                                                                                                                                                                                                                        | ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_-tips-1a-1.png)                                                                                                                           |
-| • Transparent parts: outlined in blue with a blue arrow path to show where the part starts and where it ends up                                                                                                                                                                                      | ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_-tips-2a.png)                                                                                                                             |
-| • Rotation arrows: come as either blue or red, blue indicating a loose placement of the part and red indicating a firm tightening required to fasten the part into place                                                                                                                             | ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_-tips-3.png)                                                                                                                              |
-| • Caution triangles: marks something that requires attention                                                                                                                                                                                                                                         | ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_-tips-4a.png)                                                                                                                             |
-| • Large green circles: provide a secondary view of the current step for added clarity                                                                                                                                                                                                                | ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_-tips-5a.png)                                                                                                                             |
-| • X, Y, and Z: during assembly if you see these capitalized letters used it’s because we refer to some parts by the axis they belong to. For reference, if you’re looking at the LongMill from the front, the X-axis is when the machine moves left/right (red), the Y-axis is towards/away from you (green), and the Z-axis is moving up/down from the tabletop (blue) | ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_MK2-Showing-Axes.jpg)                                                                                                                           |
+<table>
+    <thead>
+        <tr>
+            <th>Description</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>• Section title pages: show the part of the machine you’ll be working on next</td>
+            <td><img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_unboxing_machinepart.png" class="alignnone size-full"></td>
+        </tr>
+        <tr>
+            <td>• Transparent parts: outlined in blue with a blue arrow path to show where the part starts and where it ends up</td>
+            <td><img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_unboxing_startend.png" class="alignnone size-medium"></td>
+        </tr>
+        <tr>
+            <td>• Rotation arrows: come as either blue or red, blue indicating a loose placement of the part and red indicating a firm tightening required to fasten the part into place</td>
+            <td><img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_unboxing_loosefirm.png" class="alignnone size-medium"></td>
+        </tr>
+        <tr>
+            <td>• Caution triangles: marks something that requires attention</td>
+            <td><img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_unboxing_caution.png" class="alignnone size-full"></td>
+        </tr>
+        <tr>
+            <td>• Large green circles: provide a secondary view of the current step for added clarity</td>
+            <td><img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_unboxing_clarity.png" class="alignnone size-medium"></td>
+        </tr>
+        <tr>
+            <td>• X, Y, and Z: during assembly if you see these capitalized letters used it’s because we refer to some parts by the axis they belong to. For reference, if you’re looking at the LongMill from the front, the X-axis is when the machine moves left/right (red), the Y-axis is towards/away from you (green), and the Z-axis is moving up/down from the tabletop (blue).</td>
+            <td><img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_unboxing_xyzangles.jpg" class="alignnone size-medium"></td>
+        </tr>
+        <tr>
+            <td>• 48" EX symbol: always comes after a blurb of text to indicate that you'll need to follow a few different steps outlined in the accompanying manual. If you aren't assembling the 48x30 model of the LongMill MK2 you can ignore these</td>
+            <td><img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_unboxing_48ex.png" class="alignnone size-full"></td>
+        </tr>
+    </tbody>
+</table>
 
 </li>
   <li><b>Set aside a clean space for disassembled parts</b>
