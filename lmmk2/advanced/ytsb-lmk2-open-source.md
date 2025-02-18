@@ -116,7 +116,7 @@ A typical block-style, 3-axis touch plate we designed for finding X, Y, and Z-ze
 5V inductive barrel sensors for reliable homing in any environment. Take measurements in Onshape if you want to make your own mounting setup.
 
 <a href="https://CAD.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/8798d6686ac6483e61334a3b" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
-[/su_column] [su_column size="1/2" center="no" class=""]<img class="opensource wp-image-11214 size-full aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/lm-os-LongMill-mk2-inductive-sensors.jpg" alt="" width="577" height="433" />[/su_column]
+[/su_column] [su_column size="1/2" center="no" class=""]<img class="opensource wp-image-11214 size-full aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/lm-os-longmill-mk2-inductive-sensors.jpg" alt="" width="577" height="433" />[/su_column]
 [/su_row]
 
 [su_row]
@@ -124,7 +124,7 @@ A typical block-style, 3-axis touch plate we designed for finding X, Y, and Z-ze
 Keeps dust off the Y-axes of the LongMill MK2, made out of a single piece of bent stainless steel.
 
 <a href="https://CAD.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/f8ea1bc43d5996622ad6bbb5" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
-[/su_column] [su_column size="1/2" center="no" class=""]<img class="opensource aligncenter wp-image-11190 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/lm-os-LongMill-mk2-dust-shield-e1728498275422.jpg" alt="" width="837" height="669" />[/su_column]
+[/su_column] [su_column size="1/2" center="no" class=""]<img class="opensource aligncenter wp-image-11190 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/lm-os-longmill-mk2-dust-shield-e1728498275422.jpg" alt="" width="837" height="669" />[/su_column]
 [/su_row]
 
 **BOM of all add-ons:** <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1028766194" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1028766194</a>

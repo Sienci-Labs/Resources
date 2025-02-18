@@ -37,7 +37,7 @@ You will need:
   <li>Allen keys</li>
 </ol>
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_vfd_components.png "VFD components, labelled"){.aligncenter .size-medium}
+![](https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_spindle_vfd_components-1.jpg "VFD components, labelled"){.aligncenter .size-medium}
 
 <strong>***Throughout this assembly, do not disconnect any of the VFD wiring! Miswiring can cause operation errors and damage to the device.</strong>
 
