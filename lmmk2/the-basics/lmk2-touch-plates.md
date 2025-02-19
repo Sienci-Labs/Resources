@@ -1,7 +1,7 @@
 ---
 title: Touch Plates ⚡
 menu_order: 8
-post_status: draft
+post_status: publish
 post_excerpt: LongMill touch plate documentation found here. A touch plate is an easy way to find the origin point on your material, for accurate positioning of the material.
 post_date: 2022-03-17 19:48:00
 taxonomy:

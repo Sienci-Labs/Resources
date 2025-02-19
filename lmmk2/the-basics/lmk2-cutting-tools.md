@@ -1,7 +1,7 @@
 ---
 title: Cutting Tools 🌀
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: CNC cutting tools guide for the LongMill. Bits can vary by features like tip shape, size, and flutes, making them suitable for many uses like aluminum milling.
 post_date: 2022-03-17 19:44:00
 taxonomy:

@@ -1,7 +1,7 @@
 ---
 title: Workholding 🕳️
 menu_order: 5
-post_status: draft
+post_status: publish
 post_excerpt: Workholding is the method you use to keep material secured while cutting on a CNC machine. Methods include T-tracks, threaded inserts, clamps and hot glue.
 post_date: 2022-03-17 19:45:00
 taxonomy:
