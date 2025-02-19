@@ -35,7 +35,7 @@ These are the minimum system requirements we believe will provide the best exper
 **Ports:** USB 2.0 or higher<br>
 **Memory:** 200Mb of hard drive space
 
-<a href="https://resources.sienci.com/view/gs-installation/">gSender</a> is software we recommend you use to interact with your machine. It is free and can be <a href="https://sienci.com/gSender/">downloaded from our website</a> at any time. gSender is designed to be lightweight and has been tested to run on both low and high-end hardware. Generally speaking, if your computer was made in the last 5 years, you should be able to use gSender without any issues. If you are not sure if gSender will work on your computer, we suggest downloading it to test it out. Most other g-code senders also tend to have similar requirements.
+<a href="https://resources.sienci.com/view/gs-installation/" target="_blank" rel="noopener noreferrer">gSender</a> is software we recommend you use to interact with your machine. It is free and can be <a href="https://sienci.com/gSender/" target="_blank" rel="noopener noreferrer">downloaded from our website</a> at any time. gSender is designed to be lightweight and has been tested to run on both low and high-end hardware. Generally speaking, if your computer was made in the last 5 years, you should be able to use gSender without any issues. If you are not sure if gSender will work on your computer, we suggest downloading it to test it out. Most other g-code senders also tend to have similar requirements.
 
 <b>*Note: After <em>gSender version 1.2.2</em>, support for 32-bit systems and Windows 7/8 had to be dropped since most new software packages can no longer support systems 10+ years old.</b>
 
@@ -66,7 +66,7 @@ If you're not sure what software you should use for making g-code or design, we 
 
 ## Raspberry Pi (advanced)
 
-Computer/tech-savvy users can run a g-code sender using a Raspberry Pi. A <a href="https://www.raspberrypi.org/">Raspberry Pi</a> is a low cost, single-board computer that can be used as a dedicated computer to send g-code and operate the machine. Some benefits include:
+Computer/tech-savvy users can run a g-code sender using a Raspberry Pi. A <a href="https://www.raspberrypi.org/" target="_blank" rel="noopener noreferrer">Raspberry Pi</a> is a low cost, single-board computer that can be used as a dedicated computer to send g-code and operate the machine. Some benefits include:
 
 <ul>
   <li>Being fairly inexpensive, with Raspberry Pi's typically costing around $30 to $50.</li>

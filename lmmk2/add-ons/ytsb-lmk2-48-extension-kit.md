@@ -24,7 +24,7 @@ The assembly instructions are available both online and as a PDF that you can do
 <tr>
 <td>
 
-[caption id="attachment_24481" align="alignnone" width="225"]<a href="_community-docs/MK2-48-Extension-Kit-Assembly-Manual.pdf" target="_blank" rel="noopener noreferrer"><img class="flie wp-image-24481" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_48extkit_pdf.png" alt="" width="225" height="300" /></a> MK2 48" Extension Kit Manual[/caption]</td>
+[caption id="attachment_24481" align="alignnone" width="225"]<a href="https://resources.sienci.com/wp-content/uploads/2022/07/MK2-48-Extension-Kit-Assembly-Manual.pdf" target="_blank" rel="noopener noreferrer"><img class="flie wp-image-24481" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_48extkit_pdf.png" alt="" width="225" height="300" /></a> MK2 48" Extension Kit Manual[/caption]</td>
 <td></td>
 <td></td>
 <td></td>
@@ -80,7 +80,7 @@ We supply extra parts so that:
 
 If a part is missing completely, check that you’re looking for the right thing and ensure you look through all the packaging you received with your extension kit. Some parts and add-ons such as the t-tracks ship in a separate package if they can’t fit into the same box.
 
-If a part arrives broken and doesn’t have a spare, the LongMill extension kit’s warranty covers replacement parts and we’ll even be happy to help you out if you break it yourself. Just shoot us a message here (<a href="https://sienci.com/contact-us/">https://sienci.com/contact-us/</a>) and see if there are any other areas of assembly you can continue with in the meantime. We’ll get back to you as soon as we can.
+If a part arrives broken and doesn’t have a spare, the LongMill extension kit’s warranty covers replacement parts and we’ll even be happy to help you out if you break it yourself. Just shoot us a message here (<a href="https://sienci.com/contact-us/" target="_blank" rel="noopener noreferrer">https://sienci.com/contact-us/</a>) and see if there are any other areas of assembly you can continue with in the meantime. We’ll get back to you as soon as we can.
 
 ### Assembly tips
 
@@ -507,7 +507,7 @@ Note: if you’ve installed a Z-axis limit switch and its respective extension c
 
 Before the LongMill can be mounted onto the larger wasteboard, the V-wheels and Delrin nuts on the X and Y axes will need to be tuned to ensure the machine’s axes will all self-align when moved.
 
-The steps outlined for the original LongMill MK2 tuning can be referenced for this <a href="https://resources.sienci.com/view/lmk2-checks-and-first-moves/#tuning-movement">here</a>.
+The steps outlined for the original LongMill MK2 tuning can be referenced for this <a href="https://resources.sienci.com/view/lmk2-checks-and-first-moves/#tuning-movement" target="_blank" rel="noopener noreferrer">here</a>.
 
 ## Table Mounting
 
@@ -515,7 +515,7 @@ With the X-axis now being extended to 48” working capacity, your LongMill will
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_MK2-Base-Layout1.png){.aligncenter .size-medium}
 
-Despite the larger size, the table mounting process remains the same as the original 30x30 LongMill MK2. Follow the table mounting instructions for this found <a href="https://resources.sienci.com/view/lmk2-table-mounting/#mounting-your-LongMill">here</a>.
+Despite the larger size, the table mounting process remains the same as the original 30x30 LongMill MK2. Follow the table mounting instructions for this found <a href="https://resources.sienci.com/view/lmk2-table-mounting/#mounting-your-LongMill" target="_blank" rel="noopener noreferrer">here</a>.
 
 Congratulations on finishing the installation of your LongMill MK2 48” extension kit! While the operation of your LongMill will stay largely the same, we hope you can take advantage of the extra cutting real estate and benefits that come with the larger X-axis material capacity. Good luck and happy making!
 

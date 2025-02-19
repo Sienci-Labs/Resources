@@ -118,7 +118,6 @@ In case you're feeling curious, there's many more resources out there which prov
 - <a href="http://www.hannibalcarbide.com/technical-support/titanium-coatings.php" target="_blank" rel="noopener noreferrer">Hannibal Carbide Tool- Titanium Coatings</a>
 
 [tabbyending]
-&nbsp;
 
 ## Recommendations
 

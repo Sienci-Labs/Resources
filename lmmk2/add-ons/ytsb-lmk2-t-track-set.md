@@ -77,4 +77,4 @@ The great thing about having a CNC machine is that you can make your own clamps 
 
 https://www.youtube.com/watch?v=cwDvnuouFlw
 
-For full details and file downloads, please see the <a href="https://sienci.com/2022/07/20/make-your-own-cnc-workholding-with-your-LongMill/">full article</a>.
+For full details and file downloads, please see the <a href="https://sienci.com/2022/07/20/make-your-own-cnc-workholding-with-your-LongMill/" target="_blank" rel="noopener noreferrer">full article</a>.

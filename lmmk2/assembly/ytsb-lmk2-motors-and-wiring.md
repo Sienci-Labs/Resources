@@ -35,9 +35,9 @@ If everything has come together well so far, you should be able to now check tha
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_double-pic-green-circle.png){.aligncenter .size-medium}
 
-Bring a motor assembly to the left Y-gantry plate making sure the motor wire faces back and upwards (pictured). Slide the motor shaft into the coupler, then tighten the four M5-50mm bolts into the gantry. At the coupler, tighten the set screw at the motor side and ensure the lead screw can spin without excessive force.<img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_xzaxes_48EX-symbol.png" alt="" width="61" height="30" />
+Bring a motor assembly to the left Y-gantry plate making sure the motor wire faces back and upwards (pictured). Slide the motor shaft into the coupler, then tighten the four M5-50mm bolts into the gantry. At the coupler, tighten the set screw at the motor side and ensure the lead screw can spin without excessive force. <img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_xzaxes_48EX-symbol.png" alt="" width="61" height="30" />
 
-<a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#ex-lead-screw-assembly"><img class="fortye aligncenter wp-image-3950 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_motors_EX5C.png" alt="" width="850" height="68" /></a>
+<a href="https://resources.sienci.com/view/48x30-LongMill-mk2-accompanying-manual/#ex-lead-screw-assembly"><img class="fortye aligncenter wp-image-3950 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_motors_EX5C.png" alt="" width="850" height="68" /></a>
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_double-pic-green-circle-2-1.png){.aligncenter .size-medium}
 
@@ -100,6 +100,7 @@ For the remaining assembly you won’t need any more of the loose hardware excep
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_54_2.jpg){.aligncenter .size-medium}
 
 Before we attach the drag chains back onto the end links we’ll be moving around a couple links to get the right fit. To do this, put your hands on either side of the link you want to break, then twist and pull them apart to disconnect. Set aside the remaining, unused links - they can come in use if you’re planning on upgrading to a larger sized LongMill later.
+
 Depending on the size of LongMill you have, remove and add links to each drag chain as follows:
 
 <ul>
@@ -146,9 +147,9 @@ Leaving the last few clips open, bring the other end of the drag chain around an
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_58_2.jpg){.aligncenter .size-medium}
 
-Attach a motor cable onto the X-axis NEMA 23 stepper motor.<img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2022/03/48EX-symbol.png" alt="" width="61" height="30" />
+Attach a motor cable onto the X-axis NEMA 23 stepper motor. <img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2022/03/48EX-symbol.png" alt="" width="61" height="30" />
 
-<a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#cable-extension-installation"><img class="fortye aligncenter wp-image-3953 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_motors_EX6C.png" alt="" width="850" height="72" /></a>
+<a href="https://resources.sienci.com/view/48x30-LongMill-mk2-accompanying-manual/#cable-extension-installation"><img class="fortye aligncenter wp-image-3953 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_motors_EX6C.png" alt="" width="850" height="72" /></a>
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_59.jpg){.aligncenter .size-medium}
 
