@@ -1,5 +1,5 @@
 ---
-title: ytsb Routers / Spindles
+title: Routers / Spindles
 menu_order: 6
 post_status: draft
 post_excerpt: Learn about router and spindle options for the LongMill CNC, with consideration for noise, speed control, cost. The recommended tool is the Makita RT0700/RT0701.

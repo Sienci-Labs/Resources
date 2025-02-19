@@ -1,5 +1,5 @@
 ---
-title: ytsb Table / Enclosure
+title: Table / Enclosure
 menu_order: 9
 post_status: draft
 post_excerpt: Inspiration for building your table to hold the LongMill CNC. See designs using T-tracks, enclosures, threaded inserts, lifters, pivoting mechanisms and more!
