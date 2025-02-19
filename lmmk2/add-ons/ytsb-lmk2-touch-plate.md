@@ -32,11 +32,11 @@ This guide covers set up and use of our Standard Touch Plate. If you have a diff
 
 Our touch plates come mostly pre-wired but sometimes a green connector will need to be attached. If your wire harness doesn’t have a green connector attached already, look for it to be plugged into the Probe and GND pin pair on your LongMill control board. These terminal connectors have a built-in clamping system that you can open and close by turning the flat head screw at the top of each connection point.
 
-<img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_touchplate_block1-1.png" alt="" class="aligncenter size-medium" />
+![](/_images/_lmmk2/_add-ons/_all/lmk2_touchplate_block1.jpg){.aligncenter .size-medium}
 
 Use a flat head screwdriver to clamp down on the exposed wire ends from the harness ensuring the red and black wires are in the correct order as in the photo. You can check for a reliable connection by giving the wires a small tug and they’ll feel firmly clamped in place. Plug the connector back into the board once finished.
 
-<img class="size-medium wp-image-3655 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_touchplate_block2-1.png" alt="" width="850" height="366" />
+![](/_images/_lmmk2/_add-ons/_all/lmk2_touchplate_block2.jpg){.aligncenter .size-medium}
 
 At the other end of the wiring harness will be a magnet and a banana plug. The touch plate has two different holes to insert the banana plug so you can choose the hole that keeps wiring tidy for your setup. Make sure you push it in all the way; the connection should feel snug.
 
@@ -297,8 +297,7 @@ If you’re using UGS:
 
 - There is a bug that can cause the touch plate to move farther than the expected origin and plunge the bit into the work surface if you use INCHES units when jogging around. If so, before beginning the probe process ensure that you have set the jog control to MM instead of INCHES. Once probing is completed, you may switch back to INCHES and resume regular machine operation
 
-[caption id="attachment_925" align="aligncenter" width="850"]<img class="wp-image-925 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_touchplate_ugsprobebug-1.png" alt="" width="850" height="405" /> Jog control unit setting on UGS[/caption]</li>
-</ul>
+![](/_images/_lmmk2/_add-ons/_all/lmk2_touchplate_ugsprobebug.jpg "Jog control unit setting on UGS"){.aligncenter .size-medium}
 
 If this was not the problem:
 

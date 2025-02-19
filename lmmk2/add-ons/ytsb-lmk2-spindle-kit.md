@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_lmmk2/_add-ons/lmk2_spindle_VFD-components.png
+featured_image: _images/_lmmk2/_add-ons/_all/lmk2_spindle_vfd_components.jpg
 ---
 
 This is a setup guide for the LongMill Spindle Kit, installed on the LongMill MK2 and using the SLB controller.
@@ -37,7 +37,7 @@ You will need:
   <li>Allen keys</li>
 </ol>
 
-![](https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_spindle_vfd_components-1.jpg "VFD components, labelled"){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_vfd_components.jpg "VFD components, labelled"){.aligncenter .size-medium}
 
 <strong>***Throughout this assembly, do not disconnect any of the VFD wiring! Miswiring can cause operation errors and damage to the device.</strong>
 
