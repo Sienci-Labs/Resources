@@ -1,7 +1,7 @@
 ---
-title: ytsb Software Explained 🗣️
+title: Software Explained 🗣️
 menu_order: 1
-post_status: draft
+post_status: publish
 post_excerpt: The CNC software process starts from creating a design (CAD), making toolpaths to produce g-code (CAM), sending the g-code to the LongMill (machine interface).
 post_date: 2022-03-17 19:50:00
 taxonomy:

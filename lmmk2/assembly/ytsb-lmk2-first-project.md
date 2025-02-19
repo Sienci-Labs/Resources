@@ -89,7 +89,7 @@ Some projects cut slow and others cut faster so whatever you choose, just ensure
 
 Scroll back up to the project you selected and this time check that you’ve got the right tool in-hand for the job. If you got a ‘Starter Pack’ with your machine then grab something from there or look around your shop or a local hardware store if you don’t have tools yet for your machine. Cutting tools come in all shapes and sizes. Machines like the LongMill tend to use purpose-made CNC cutting tools but can also use some of the more traditional and commonly available router bits.
 
-![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_End-mill-tip-types_marked_trim-1-scaled.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_End-mill-tip-types_marked_trim-1-scaled.jpg "Ballnose vs. End mill vs. V-bit"){.aligncenter .size-medium}
 
 The shape of the tool is usually the most important feature and will either be flat, rounded (a.k.a. ball ended or ball nosed), or v-shaped. The size of the cutting side of the tool is sometimes also important because if you need to carve small details you won’t be able to use a large cutting bit. If your selected project specifies a particular bit size then check the label on the packaging your bit came in to confirm it’ll be able to do the job.
 

@@ -93,7 +93,7 @@ Lastly, attach the final end link onto the Z-axis motor mount using one last bol
 
 <h2>Routing Wires</h2>
 
-![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_53_2.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_routeheader.jpg){.aligncenter .size-medium .wid}
 
 For the remaining assembly you won’t need any more of the loose hardware except for the provided wood screws and the 3D printed ACME nut covers. If you want, take a second to clean off your space and feel free to stick all the extra remains into a box for later use or maintenance on your machine.
 
