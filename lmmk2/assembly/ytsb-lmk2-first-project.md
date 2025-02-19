@@ -147,7 +147,7 @@ How'd it turn out?? Turn off the router, move the machine out of the way, and de
 
 Now that you’ve got your machine running successfully, you've reached the end of assembly! We’ve got a lot more information for you to check out that we hope will continue pushing your CNC journey forwards. This first project doesn’t even mention other aspects like designing your own projects, probing, carving multi-tool jobs, other forms of workholding, feed overrides, and much more! For now be happy / celebrate your first successful project and feel free to be a bit of a show off to your friends and family.
 
-If you bought the touch plate, dust shoe, t-track, or any other add-ons alongside your machine, you’ll find the information to assemble and use those next so you can finish levelling up your MK2: <a href="https://resources.sienci.com/view/lmk2-add-ons">https://resources.sienci.com/view/lmk2-add-ons</a>
+If you bought the touch plate, dust shoe, t-track, or any other add-ons alongside your machine, you’ll find the information to assemble and use those next so you can finish levelling up your MK2: <a href="https://resources.sienci.com/view/lmk2-add-ons" target="_blank" rel="noopener noreferrer">https://resources.sienci.com/view/lmk2-add-ons</a>
 
 ![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_next-steps_ann.png){.aligncenter .size-medium}
 
@@ -160,12 +160,12 @@ The <b>Handbook</b> section that follows the add-on assembly will be the spot yo
 <li>Project sources and inspiration</li>
 <li>CNC terms glossary</li>
 <li>CNC troubleshooting (in case you hit any issues during your assembly)</li>
-<li>and more! <a href="https://resources.sienci.com/view/lmk2-handbook">https://resources.sienci.com/view/lmk2-handbook</a></li>
+<li>and more! <a href="https://resources.sienci.com/view/lmk2-handbook" target="_blank" rel="noopener noreferrer">https://resources.sienci.com/view/lmk2-handbook</a></li>
 </ul>
 
 <h2>Our YouTube channel</h2>
 
-We also have a <b><a href="https://www.YouTube.com/channel/UCS4SdQ0sqFhvjitLjh4EsGQ?">YouTube channel</a></b> where you can find videos and tutorials on using your LongMill like:
+We also have a <b><a href="https://www.YouTube.com/channel/UCS4SdQ0sqFhvjitLjh4EsGQ?" target="_blank" rel="noopener noreferrer">YouTube channel</a></b> where you can find videos and tutorials on using your LongMill like:
 
 <ul>
 <li>How to go from idea to completed project</li>

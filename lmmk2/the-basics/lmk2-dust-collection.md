@@ -1,5 +1,5 @@
 ---
-title: ytsb Dust Collection
+title: Dust Collection
 menu_order: 7
 post_status: draft
 post_excerpt: Dust shoe, vacuum collection, and hose size considerations for the LongMill CNC. Pros and cons of Z-independent and dependent dust shoes discussed.
@@ -26,7 +26,7 @@ A **dust shoe** is basically a fancy vacuum attachment for your CNC machine, it 
 
 https://www.youtube.com/watch?v=94r4hgr2SgA
 
-That said, dust management can still come in other forms like building an [enclosure for your CNC](https://resources.sienci.com/view/lmk2-table-enclosure/#machine-enclosure) or cutting outside. You might choose to do these if you:
+That said, dust management can still come in other forms like building an <a href="https://resources.sienci.com/view/lmk2-table-enclosure/#machine-enclosure" target="_blank" rel="noreferrer noopener">enclosure for your CNC</a> or cutting outside. You might choose to do these if you:
 
 - are worried about the noise from running a vacuum or dust collector (though the noise of cutting can get similarly loud)
 - don't want to deal with the dust shoe colliding with clamps, material, or getting in the way during tool changes

@@ -173,7 +173,7 @@ You may have some issues with using your touch probe if your cutting tool is:
 
 ## AutoZero Touch Plate
 
-The AutoZero Touch Plate is specifically designed for use with the latest version of <a href="https://sienci.com/gSender/">gSender</a>. Please download the latest program first.
+The AutoZero Touch Plate is specifically designed for use with the latest version of <a href="https://sienci.com/gSender/" target="_blank" rel="noopener noreferrer">gSender</a>. Please download the latest program first.
 
 https://www.youtube.com/watch?v=H_fYFjtFc3Q
 

@@ -1,5 +1,5 @@
 ---
-title: ytsb Touch Plates ⚡
+title: Touch Plates ⚡
 menu_order: 8
 post_status: draft
 post_excerpt: LongMill touch plate documentation found here. A touch plate is an easy way to find the origin point on your material, for accurate positioning of the material.
@@ -19,7 +19,7 @@ A touch plate can make it quicker and easier to find your origin point on your m
 
 Among touch plates, you can find ones that measure just the Z-axis or some that can also find the offset between the X and Y-axes as well. Locating in the X and Y-axes is a nice additional feature, but it doesn't work for irregularly shaped bits such as v-bits and dado bits due to their inconsistent diameter along their height or radius.
 
-The <a href="https://sienci.com/product/touch-plate/" target="_blank" rel="noopener">Sienci Labs Touch Plate</a> is an excellent example of a touch plate that lets you find the corner of your material in all three axes automatically. The full written guide on getting it assembled and ready to use can be found here: <a href="https://resources.sienci.com/view/assembling-add-ons/" target="_blank" rel="noopener">Setting up the Sienci Labs Touch Plate</a>
+The <a href="https://sienci.com/product/touch-plate/" target="_blank" rel="noopener">Sienci Labs Touch Plate</a> is an excellent example of a touch plate that lets you find the corner of your material in all three axes automatically. The full written guide on getting it assembled and ready to use can be found here: <a href="https://resources.sienci.com/view/lmk2-touch-plate/" target="_blank" rel="noopener">Setting up the Sienci Labs Touch Plate</a>
 
 https://www.youtube.com/watch?v=H_fYFjtFc3Q
 

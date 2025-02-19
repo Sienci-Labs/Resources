@@ -1,5 +1,5 @@
 ---
-title: ytsb Table / Enclosure
+title: Table / Enclosure
 menu_order: 9
 post_status: draft
 post_excerpt: Inspiration for building your table to hold the LongMill CNC. See designs using T-tracks, enclosures, threaded inserts, lifters, pivoting mechanisms and more!
@@ -140,10 +140,10 @@ Adding an enclosure to your CNC is a great way to reduce noise and dust in the s
 
 ![](/_images/_longmill/_the-basics/lm_communitytable_p11_PaulDaveCharlesEnclosure.jpg){.aligncenter .size-medium}
 
-Dave’s video - <a href="https://www.YouTube.com/watch?v=SxiLNjUlw3c">https://www.youtube.com/watch?v=SxiLNjUlw3c</a><br>
-Charles' guide - <a href="https://forum.sienci.com/t/custom-cover-for-LongMill-mk2-30x48/10423">https://forum.sienci.com/t/custom-cover-for-LongMill-mk2-30x48/10423</a><br>
-Paul’s post - <a href="https://www.facebook.com/groups/mill.one/permalink/835391973598802/">https://www.facebook.com/groups/mill.one/permalink/835391973598802/</a>
+Dave’s video - <a href="https://www.YouTube.com/watch?v=SxiLNjUlw3c" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=SxiLNjUlw3c</a><br>
+Charles' guide - <a href="https://forum.sienci.com/t/custom-cover-for-LongMill-mk2-30x48/10423" target="_blank" rel="noopener noreferrer">https://forum.sienci.com/t/custom-cover-for-LongMill-mk2-30x48/10423</a><br>
+Paul’s post - <a href="https://www.facebook.com/groups/mill.one/permalink/835391973598802/" target="_blank" rel="noopener noreferrer">https://www.facebook.com/groups/mill.one/permalink/835391973598802/</a>
 
 ## Other Modifications
 
-There are even more great modifications that can be made to your CNC table to improve its usability and the usability of the machine itself. To see the full list of current modifications ranging from David's dust collection hose boom and switching box, to Philip's 3D printable laser diode centre-point locator, click the link here: <a href="https://resources.sienci.com/view/lmk2-open-source/">https://resources.sienci.com/view/lmk2-open-source/</a>
+There are even more great modifications that can be made to your CNC table to improve its usability and the usability of the machine itself. To see the full list of current modifications ranging from David's dust collection hose boom and switching box, to Philip's 3D printable laser diode centre-point locator, click the link here: <a href="https://resources.sienci.com/view/lmk2-open-source/" target="_blank" rel="noopener noreferrer">https://resources.sienci.com/view/lmk2-open-source/</a>

@@ -213,4 +213,4 @@ As you use your machine the nuts will wear out, but, thanks to the springs, they
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_Tuning-movement-2.png){.aligncenter .size-medium}
 
-With all the tuning complete, we can move on to mounting your LongMill and starting to cut with it! If you’re planning on using your machine for especially precise cutting, also consider checking out the ‘movement tuning’ feature built-in to the calibration section of gSender: <a href="https://resources.sienci.com/view/gs-additional-features/#movement-tuning">https://resources.sienci.com/view/gs-additional-features/#movement-tuning</a>
+With all the tuning complete, we can move on to mounting your LongMill and starting to cut with it! If you’re planning on using your machine for especially precise cutting, also consider checking out the ‘movement tuning’ feature built-in to the calibration section of gSender: <a href="https://resources.sienci.com/view/gs-additional-features/#movement-tuning" target="_blank" rel="noopener noreferrer">https://resources.sienci.com/view/gs-additional-features/#movement-tuning</a>

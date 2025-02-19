@@ -1,5 +1,5 @@
 ---
-title: ytsb Welcome!
+title: Welcome!
 menu_order: 1
 post_status: draft
 post_excerpt: Resources and documentation for the LongMill Benchtop CNC. You will find info about routers, software, assembly, end mills - everything you need to get started.
