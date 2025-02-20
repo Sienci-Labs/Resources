@@ -87,9 +87,9 @@ Not the colloquial ‘softwood’, rather any woods, plywoods, or MDF that have 
 
 <ul>
   <li>Cutting soft woods will often leave strands and burrs on your finished project. To prevent this, try reducing your feed rates slightly (~20%) or running a second finishing pass if your software allows this</li>
-  <li>Plywoods (and some stringy soft woods) are prone to splintering at the surface during cutting. Using a downcut or compression bit can help with this immensely since they won’t tear the material up and over the surface. You can read more about how compression bits work <a href="https://sienci.com/2021/03/01/introducing-1-8-compression-bits-to-our-store/">here</a></li>
+  <li>Plywoods (and some stringy soft woods) are prone to splintering at the surface during cutting. Using a downcut or compression bit can help with this immensely since they won’t tear the material up and over the surface. You can read more about how compression bits work <a href="https://sienci.com/2021/03/01/introducing-1-8-compression-bits-to-our-store/" target="_blank" rel="noopener">here</a></li>
   <li>If you notice burning, ensure that: you’re using a wood-compatible tool, sawdust isn’t getting stuck in your cut (downcut bits can cause this), your cutting speed isn’t too slow, or router/spindle RPM isn’t too high</li>
-  <li>Even though MDF is a cheap and clean-cutting material on CNCs, make sure to wear appropriate PPE since the dust is incredibly fine and can be dangerous to breathe in. Using a <a href="https://sienci.com/product/LongMill-magnetic-dust-shoe-mk2/">dust shoe</a> is a good option to help reduce the amount of generated dust</li>
+  <li>Even though MDF is a cheap and clean-cutting material on CNCs, make sure to wear appropriate PPE since the dust is incredibly fine and can be dangerous to breathe in. Using a <a href="https://sienci.com/product/LongMill-magnetic-dust-shoe-mk2/" target="_blank" rel="noopener">dust shoe</a> is a good option to help reduce the amount of generated dust</li>
 </ul>
 
 [tabby title="Reduced Speed"]
@@ -212,7 +212,7 @@ Since aluminum is near the upper limit of hardness that should milled using a ho
 
 <ul>
   <li>Setting up your project in a corner of your wasteboard so that the rails have less flex/twist</li>
-  <li>Ensure your <a href="https://resources.sienci.com/view/lmk2-maintenance/#adjusting-the-eccentric-nuts">V-wheels are fully tightened</a>, potentially even a bit over-tightened, and all other tuning aspects of your machine are spot on</li>
+  <li>Ensure your <a href="https://resources.sienci.com/view/lmk2-maintenance/#adjusting-the-eccentric-nuts" target="_blank" rel="noopener">V-wheels are fully tightened</a>, potentially even a bit over-tightened, and all other tuning aspects of your machine are spot on</li>
   <li>Reduce the stick-out length of your cutting bit as much as you can or use short and stubby bits</li>
 </ul>
 
@@ -222,7 +222,7 @@ Since aluminum is near the upper limit of hardness that should milled using a ho
   <li>Single flute upcut bits are the best choice for aluminum since they create large chips and clear them away very well. Avoid using any cutting bits with coatings which contain aluminum such as AITiN or TiAIN since aluminum will stick to these</li>
   <li>Make sure your cutting results in aluminum chips, instead of dust. When chips are cut, they carry away heat from the material and prevent the cutting bit from gumming up with molten aluminum. If your cuts are resulting in dust, try increasing feed rate or decreasing the router speed</li>
   <li>WD-40 or isopropyl alcohol can be used as coolant/cutting lubricant. Be sure that chips are still able to be cleared when using a coolant/cutting lubricant – compressed air is great for occasionally clearing out chips during cutting</li>
-  <li>Using an advanced CNC CAM program such as<a href="https://www.autodesk.com/products/fusion-360/overview"> Fusion 360</a> that allows for adaptive toolpathing can speed up your cutting and give you better results. There is a steep learning curve, but if you’re planning on cutting a lot of aluminum, it may be worth learning</li>
+  <li>Using an advanced CNC CAM program such as<a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener"> Fusion 360</a> that allows for adaptive toolpathing can speed up your cutting and give you better results. There is a steep learning curve, but if you’re planning on cutting a lot of aluminum, it may be worth learning</li>
 </ul>
 
 [tabby title="Reduced Speed"]
@@ -271,7 +271,7 @@ Handy for printing out as a quick reference to keep on your computer or by your 
 
 ## Tool Library files
 
-<a href="https://sienci.com/tool-libraries/">Find them here!</a>
+<a href="https://sienci.com/tool-libraries/" target="_blank" rel="noopener">Find them here!</a>
 
 ## FAQ
 
@@ -285,7 +285,7 @@ Handy for printing out as a quick reference to keep on your computer or by your 
 
 <strong><em>The router speed/RPM you suggest for this bit is much slower than I normally use, isn't faster always better?</em></strong>
 
-<p style="padding-left: 40px;">The router speed/RPM is determined by the geometry of the bit, type of material, and feed rate which might end up being slower than you would expect. This is further discussed in the topic of <a href="https://resources.sienci.com/view/lmk2-feeds-and-speeds/#chip-load-">chip load</a>. It’s intuitive to think that cranking up your router speed will help cuts come out better - and to some extent it might - but an appropriate router speed is one that generates chips not too large (overloading the bit) and not too small (causing burning).</p>
+<p style="padding-left: 40px;">The router speed/RPM is determined by the geometry of the bit, type of material, and feed rate which might end up being slower than you would expect. This is further discussed in the topic of <a href="#chip-load">chip load</a>. It’s intuitive to think that cranking up your router speed will help cuts come out better - and to some extent it might - but an appropriate router speed is one that generates chips not too large (overloading the bit) and not too small (causing burning).</p>
 
 <strong><em>I’m used to cutting much faster than what these recommended feeds and speeds are, am I doing something wrong?</em></strong>
 
@@ -293,7 +293,7 @@ Handy for printing out as a quick reference to keep on your computer or by your 
 
 <strong><em>Am I going to wear out my tools faster by cutting with more aggressive settings?</em></strong>
 
-<p style="padding-left: 40px;">Technically, yes, but in practice no. Some bits may be sharper than others from the factory, but you can expect tools to perform about the same throughout their lifespan regardless of how aggressively you run them. The main detriment which causes premature tool wear is using an inappropriate <a href="https://resources.sienci.com/view/lmk2-feeds-and-speeds/#chip-load-">chip load</a>.</p>
+<p style="padding-left: 40px;">Technically, yes, but in practice no. Some bits may be sharper than others from the factory, but you can expect tools to perform about the same throughout their lifespan regardless of how aggressively you run them. The main detriment which causes premature tool wear is using an inappropriate <a href="#chip-load">chip load</a>.</p>
 
 <strong><em>Are you ever going to make a downloadable tool database for X CAM program?</em></strong>
 
@@ -309,7 +309,7 @@ Handy for printing out as a quick reference to keep on your computer or by your 
 
 <strong><em>Why is my machine struggling to cut even when using the ‘Reduced’ cutting parameters?</em></strong>
 
-<p style="padding-left: 40px;">These cutting parameters were developed to be used on the average LongMill MK2 without overstressing the machine, if yours doesn't seem to be keeping up at these parameters it might be your machine’s way of telling you that something is loose, worn, or misassembled. Check out our page <a href="https://resources.sienci.com/view/lmk2-maintenance/">here</a> covering tuning, maintenance, and checks for loose components.</p>
+<p style="padding-left: 40px;">These cutting parameters were developed to be used on the average LongMill MK2 without overstressing the machine, if yours doesn't seem to be keeping up at these parameters it might be your machine’s way of telling you that something is loose, worn, or misassembled. Check out our page <a href="https://resources.sienci.com/view/lmk2-maintenance/" target="_blank" rel="noopener">here</a> covering tuning, maintenance, and checks for loose components.</p>
 
 <strong><em>Can I use these feeds and speeds on my non-LongMill machine?</em></strong>
 

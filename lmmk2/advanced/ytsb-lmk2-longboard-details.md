@@ -37,7 +37,7 @@ The LongBoard also comes with an Arduino UNO as the "brains" of the controller. 
 
 #### Input current
 
-The LongBoard can draw up to 16A. However, by default, they are set to draw up to 8.8A. You can directly adjust the minimum and maximum current draw of each driver using the potentiometer found on each driver. More info can be found here: <a href="https://resources.sienci.com/view/lm-stepper-driver-current/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-stepper-driver-current/</a>
+The LongBoard can draw up to 16A. However, by default, they are set to draw up to 8.8A. You can directly adjust the minimum and maximum current draw of each driver using the potentiometer found on each driver. More info can be found here: <a href="https://resources.sienci.com/view/lmk2-stepper-driver-current/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-stepper-driver-current/</a>
 
 The Arduino UNO can draw up to 500mA from your computer USB port.
 
@@ -74,7 +74,7 @@ Below are the connectors used with links (male):
 - Connector 4: <a href="https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_Ningbo-Kangnex-Elec-WJ15EDGK-3-81-5P_C3804.html" target="_blank" rel="noopener">WJ15EDGK-3.81-5P</a>
 - Connector 5, 6, 7: <a href="https://lcsc.com/product-detail/Rectangular-Connectors-Housings_JST-Sales-America_XHP-4_JST-Sales-America-XHP-4_C144403.html" target="_blank" rel="noopener">XHP-4</a>
 - Connector 12, 13, 14, 15: <a href="https://lcsc.com/product-detail/Pluggable-System-Terminal-Block_DIBO-DB2EK-5-08-4P_C395757.html" target="_blank" rel="noopener">DB2EK-5.08-4P</a>
-- Connector 12, 13, 14, 15 (Motor side, not board side) <a href="https://www.lcsc.com/product-detail/Rectangular-Connectors-Housings_span-style-background-color-ff0-JST-span-XHP-11_C157889.html">JST XHP-11</a> or <a href="https://www.lcsc.com/product-detail/TE-Connectivity-1586019-4_C498542.html">TE Connectivity 1586019-4</a>
+- Connector 12, 13, 14, 15 (Motor side, not board side) <a href="https://www.lcsc.com/product-detail/Rectangular-Connectors-Housings_span-style-background-color-ff0-JST-span-XHP-11_C157889.html" target="_blank" rel="noopener">JST XHP-11</a> or <a href="https://www.lcsc.com/product-detail/TE-Connectivity-1586019-4_C498542.html" target="_blank" rel="noopener">TE Connectivity 1586019-4</a>
 
 ## Firmware
 
