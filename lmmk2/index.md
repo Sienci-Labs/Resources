@@ -16,7 +16,7 @@ skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 
-LongMill MK2 page order should be as follows: (last updated as of Feb 20, 2025)
+LongMill MK2 page order should be as follows: (last updated as of Feb 21, 2025)
 
 👍 The Basics
 
