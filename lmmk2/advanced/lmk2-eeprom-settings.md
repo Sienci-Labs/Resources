@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: /_images/_longmill/_advanced/_8_GRBL/lm_grbl_p2_FirmTool.png
+featured_image: _images/_longmill/_advanced/_8_GRBL/lm_grbl_p2_FirmTool.png
 ---
 
 <em>For in-depth documentation on all of the settings in grbl and what they mean, visit: </em><a href="https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration" target="_blank" rel="noopener"><em>https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration</em></a>.

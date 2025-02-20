@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_lmmk2/_handbook/lmk2_knowcnc_Your-CNC-Assembly-View.png
 ---
 
 There is a lot of information to take in and learn and it can be overwhelming. Bookmark this page to the list of most common resources for easy access.

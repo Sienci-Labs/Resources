@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_longmill/_assembly/_addons/lm_addons_p18.png
 ---
 
 A T-Track system can be very useful and functional for your CNC bed if you find that it suits your needs. This workholding option comes alongside a wide variety of other options that exist when it comes to mounting materials and setting up jigs for your LongMill which you can read more about here: <a href="https://resources.sienci.com/view/lmk2-workholding/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-workholding/</a>

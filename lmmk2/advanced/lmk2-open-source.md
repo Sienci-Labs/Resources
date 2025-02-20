@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_lmmk2/_advanced/lmk2_opensource_onshape3.jpg
 ---
 
 The LongMill MK2 project is the successor to the LongMill project, both at their core being open source projects. With much striving towards making design choices that would make the MK2 project as replicable and well-supported as possible, the MK2 wavers a little further away from replicability than its predecessor mainly in its rail design and reduced usage of 3D printed parts. If you want to understand why we made these choices, know it wasn't taken lightly and we discussed it more on our blog post: <a href="https://sienci.com/2021/12/30/all-about-the-LongMill-mk2/" target="_blank" rel="noopener">https://sienci.com/2021/12/30/all-about-the-LongMill-mk2/</a>

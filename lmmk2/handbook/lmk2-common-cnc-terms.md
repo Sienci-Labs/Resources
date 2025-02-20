@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_longmill/_the-basics/lm_cncterms_p1_Backlash.jpg
 ---
 
 ## Basics of a CNC Router

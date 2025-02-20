@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: /_images/_longmill/_advanced/lm_current_p1.jpg
+featured_image: _images/_longmill/_advanced/lm_current_p1.jpg
 ---
 
 You can adjust the current on each axis of the LongMill. Each one is set to between 2.0-2.2A by default. At this configuration, the LongMill has a max current draw of 8.8A (4 drivers x 2.2A). Note that this guide only applies to the LongBoard and not the SLB.

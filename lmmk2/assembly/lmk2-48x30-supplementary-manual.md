@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_lmmk2/_assembly/_extra48/lmk2_extra48_48x30_MK2.5_packing_layout.png
 ---
 
 This page accompanies the main LongMill MK2.5 manual, showing any assembly steps that are specific to the <b>48x30</b> version. If you're installing a 48" extension kit on an existing LongMill MK2.5, you'll want to follow <a href="https://resources.sienci.com/view/48-extension-kit/">this page</a> instead.

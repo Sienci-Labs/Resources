@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_longmill/_advanced/_12_LBDetails/lm_lbdeets_p2_DrawingConnectors.jpg
 ---
 
 The LongBoard is a powerful, three-axis CNC controller and driver system for the LongMill and other CNC routers. LongBoards run with grbl firmware and come with four TB6600 driver modules that run single X and Z-axis, and dual Y-axis bipolar stepper motors making them suitable for small to medium size hobby CNC routers. They also come with an assortment of inputs and outputs that allow users to connect items such as limit switches, probes, spindle control, coolant control, lasers, and more.

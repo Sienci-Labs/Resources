@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_longmill/_advanced/_2_noise/lm_noise_p1.png
 ---
 
 Static buildup and other electromagnetic interferences (a.k.a. electrical noise) can be cause for concern on any CNC. These unexpected electrical signals can find their way back to your CNC controller and disrupt it's on-board electronics, affecting how reliably your CNC can cut projects for you. If you've ever found your machine stopping mid-way through a job, disconnecting from the g-code sender, or giving unexpected alerts then you may be experiencing EMI.

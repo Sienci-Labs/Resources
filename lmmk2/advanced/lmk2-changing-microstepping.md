@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: /_images/_longmill/_advanced/lm_Stepper_p1.jpg
+featured_image: _images/_longmill/_advanced/lm_Stepper_p1.jpg
 ---
 
 Every LongMill is powered by our LongBoard CNC controller which has four integrated TB6600 stepper motor drivers (pictured). By default, we set each driver to 1/8 microstepping via the onboard DIP switches. We chose 1/8 microstepping because we found that it's a good balance between motor resolution and torque output. The theoretical resolution with this setup is 0.005mm.

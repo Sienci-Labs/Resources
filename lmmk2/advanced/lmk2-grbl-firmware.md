@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: /_images/_longmill/_advanced/_8_GRBL/lm_grbl_p1_MachinePreset.png
+featured_image: _images/_longmill/_advanced/_8_GRBL/lm_grbl_p1_MachinePreset.png
 ---
 
 The LongMill runs off the <a href="https://github.com/gnea/grbl/releases" target="_blank" rel="noopener noreferrer">grbl firmware</a>, an open source firmware that is designed for Arduino-based CNC machines. Sometimes your machine could use a re-flash of this firmware in the case that:

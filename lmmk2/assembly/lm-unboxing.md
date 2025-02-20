@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_lmmk2/_assembly/_unboxing/lmk2_unboxing_boxpacking.jpg
 ---
 
 Hello and congratulations on receiving your new LongMill MK2.5 Benchtop CNC!
