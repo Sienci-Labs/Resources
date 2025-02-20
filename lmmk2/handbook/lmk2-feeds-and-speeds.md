@@ -1,7 +1,7 @@
 ---
-title: ytsb Feeds & Speeds ⏩
+title: Feeds & Speeds ⏩
 menu_order: 3
-post_status: draft
+post_status: publish
 post_excerpt: A list of materials that can be cut by the LongMill CNC, with considerations for cutting tools and best practices. Wood, plastic, foam and soft metal suggested.
 post_date: 2022-03-17 20:35:00
 taxonomy:

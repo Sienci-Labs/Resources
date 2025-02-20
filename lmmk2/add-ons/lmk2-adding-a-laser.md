@@ -1,7 +1,7 @@
 ---
-title: ytsb Laser 🔥
+title: Laser 🔥
 menu_order: 6
-post_status: draft
+post_status: publish
 post_excerpt: How to set up a laser module for the LongMill CNC. Includes safety considerations, firmware changes, software recommendation, and wiring set-up guidelines.
 post_date: 2022-03-17 20:27:00
 taxonomy:
