@@ -1,7 +1,7 @@
 ---
-title: ytsb Extra 48x30 Steps
+title: Extra 48x30 Steps
 menu_order: 9
-post_status: draft
+post_status: publish
 post_excerpt: 
 post_date: 2022-03-17 20:18:00
 taxonomy:

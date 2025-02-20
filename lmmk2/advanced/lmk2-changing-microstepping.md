@@ -1,7 +1,7 @@
 ---
-title: ytsb Changing Microstepping
+title: Changing Microstepping
 menu_order: 6
-post_status: draft
+post_status: publish
 post_excerpt: How to change microstepping on the LongMill Benchtop CNC to improve accuracy in machine movement. This will cause motors to move more or less per signal.
 post_date: 2022-03-18 00:15:00
 taxonomy:

@@ -1,7 +1,7 @@
 ---
-title: ytsb Motors & Wiring
+title: Motors & Wiring
 menu_order: 5
-post_status: draft
+post_status: publish
 post_excerpt: How to assemble the drag chain and manage the wiring for the LongMill Benchtop CNC. Wire routing for the Makita router and motors is illustrated.
 post_date: 2022-03-17 20:11:00
 taxonomy:
