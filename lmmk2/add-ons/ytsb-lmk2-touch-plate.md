@@ -1,7 +1,7 @@
 ---
-title: Touch Plate
+title: ytsb Touch Plate
 menu_order: 1
-post_status: publish
+post_status: draft
 post_excerpt: How to set up and use the touch plates for your LongMill CNC.
 post_date: 2022-03-17 20:19:00
 taxonomy:

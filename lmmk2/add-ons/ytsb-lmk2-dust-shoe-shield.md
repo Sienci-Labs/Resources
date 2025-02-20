@@ -1,7 +1,7 @@
 ---
-title: Dust Shoe & Shields
+title: ytsb Dust Shoe & Shields
 menu_order: 2
-post_status: publish
+post_status: draft
 post_excerpt: Set up and assemble the Magnetic Dust Shoe and Dust Shields for your LongMill MK2. These add-ons will help keep your work surface free from dust.
 post_date: 2022-03-17 20:21:00
 taxonomy:

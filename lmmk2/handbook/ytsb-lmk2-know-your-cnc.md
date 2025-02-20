@@ -1,7 +1,7 @@
 ---
-title: Your MK2
+title: ytsb Your MK2
 menu_order: 1
-post_status: publish
+post_status: draft
 post_excerpt: A quick start and resource guide for your LongMill CNC machine.
 post_date: 2022-03-17 20:31:00
 taxonomy:
