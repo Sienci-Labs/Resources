@@ -254,9 +254,20 @@ Since aluminum is near the upper limit of hardness that should milled using a ho
 
 Handy for printing out as a quick reference to keep on your computer or by your CNC and available in both imperial and metric units.
 
-| Feeds & Speeds - Metric                                                                                     | Feeds & Speeds - Imperial                                                                                   |     |     |
-|-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-----|-----|
-| [![Feeds & Speeds - Metric](/_images/_lmmk2/_handbook/lmk2_feedsspeeds_pdf-crop.png){.aligncenter .size-small}](/_community-docs/FeedsSpeedsMetric.pdf) | [![Feeds & Speeds - Imperial](/_images/_lmmk2/_handbook/lmk2_feedsspeeds_pdf-crop.png){.aligncenter .size-small}](/_community-docs/Feeds-and-Speeds-Imperial.pdf) |     |     |
+<table class="unboxing-table" style="height: 100px; margin-left: auto; margin-right: auto; margin-bottom: -10px; text-align: center; border-collapse: collapse; table-layout: fixed;" width="95%">
+<tbody>
+<tr>
+<td>
+
+[caption id="attachment_24481" align="alignnone" width="225"]<a href="https://resources.sienci.com/wp-content/uploads/2022/10/FeedsSpeedsMetric.pdf" target="_blank" rel="noopener noreferrer"><img class="flie wp-image-24481" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_feedsspeeds_pdf-crop.jpg" alt="" width="225" height="300" /></a> Feeds &amp; Speeds - Metric[/caption]</td>
+<td>
+
+[caption id="attachment_24481" align="alignnone" width="225"]<a href="https://resources.sienci.com/wp-content/uploads/2022/03/Feeds-and-Speeds-Imperial.pdf" target="_blank" rel="noopener noreferrer"><img class="flie wp-image-24481" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_feedsspeeds_pdf-crop.jpg" alt="" width="225" height="300" /></a> Feeds &amp; Speeds - Imperial[/caption]</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 ## Tool Library files
 

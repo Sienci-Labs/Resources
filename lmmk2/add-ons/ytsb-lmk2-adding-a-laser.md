@@ -19,7 +19,7 @@ Putting a laser on your LongMill or any CNC machine can be a fun and useful tool
 
 If you've purchased a laser module from us, all the information about assembling and using the <a href="https://sienci.com/product/laser/" target="_blank" rel="noopener">LaserBeam System</a> can be found in it's own resources section here: <a href="https://resources.sienci.com/view/lb-manual/">https://resources.sienci.com/view/lb-manual/</a>
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_laserbeam_logo.jpg){.aligncenter .size-medium}(https://resources.sienci.com/view/lb-manual/)
+<a href="https://resources.sienci.com/view/lb-manual/"><img class="flie aligncenter wp-image-3382" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_laserbeam_logo.jpg" alt="" width="600" height="209" /></a>
 
 Users installing an aftermarket laser can follow the instructions below.
 
