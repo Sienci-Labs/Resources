@@ -78,9 +78,7 @@ Finding all 4 steel end feet in a cardboard wrap, attach two end feet onto each 
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_MK2-30_2.jpg){.aligncenter .size-medium}
 
-<h2>
-
-![](</_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Mirror-Mode-icon .png>){.alignleft .size-small} Y-axis Lead Screws</h2>
+<h2><img class="non alignnone wp-image-3130" src="https://resources.sienci.com/wp-content/uploads/2022/03/Mirror-Mode-icon.png" alt="" width="20" height="20" /> Y-axis Lead Screws</h2>
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_header-4.jpg){.aligncenter .size-medium .wid}
 

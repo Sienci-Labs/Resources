@@ -222,7 +222,7 @@ Since aluminum is near the upper limit of hardness that should milled using a ho
   <li>Single flute upcut bits are the best choice for aluminum since they create large chips and clear them away very well. Avoid using any cutting bits with coatings which contain aluminum such as AITiN or TiAIN since aluminum will stick to these</li>
   <li>Make sure your cutting results in aluminum chips, instead of dust. When chips are cut, they carry away heat from the material and prevent the cutting bit from gumming up with molten aluminum. If your cuts are resulting in dust, try increasing feed rate or decreasing the router speed</li>
   <li>WD-40 or isopropyl alcohol can be used as coolant/cutting lubricant. Be sure that chips are still able to be cleared when using a coolant/cutting lubricant – compressed air is great for occasionally clearing out chips during cutting</li>
-  <li>Using an advanced CNC CAM program such as<a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener"> Fusion 360</a> that allows for adaptive toolpathing can speed up your cutting and give you better results. There is a steep learning curve, but if you’re planning on cutting a lot of aluminum, it may be worth learning</li>
+  <li>Using an advanced CNC CAM program such as <a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener">Fusion 360</a> that allows for adaptive toolpathing can speed up your cutting and give you better results. There is a steep learning curve, but if you’re planning on cutting a lot of aluminum, it may be worth learning</li>
 </ul>
 
 [tabby title="Reduced Speed"]
@@ -285,7 +285,7 @@ Handy for printing out as a quick reference to keep on your computer or by your 
 
 <strong><em>The router speed/RPM you suggest for this bit is much slower than I normally use, isn't faster always better?</em></strong>
 
-<p style="padding-left: 40px;">The router speed/RPM is determined by the geometry of the bit, type of material, and feed rate which might end up being slower than you would expect. This is further discussed in the topic of <a href="#chip-load">chip load</a>. It’s intuitive to think that cranking up your router speed will help cuts come out better - and to some extent it might - but an appropriate router speed is one that generates chips not too large (overloading the bit) and not too small (causing burning).</p>
+<p style="padding-left: 40px;">The router speed/RPM is determined by the geometry of the bit, type of material, and feed rate which might end up being slower than you would expect. This is further discussed in the topic of <a href="https://resources.sienci.com/view/lmk2-feeds-and-speeds/#chip-load-">chip load</a>. It’s intuitive to think that cranking up your router speed will help cuts come out better - and to some extent it might - but an appropriate router speed is one that generates chips not too large (overloading the bit) and not too small (causing burning).</p>
 
 <strong><em>I’m used to cutting much faster than what these recommended feeds and speeds are, am I doing something wrong?</em></strong>
 
@@ -293,7 +293,7 @@ Handy for printing out as a quick reference to keep on your computer or by your 
 
 <strong><em>Am I going to wear out my tools faster by cutting with more aggressive settings?</em></strong>
 
-<p style="padding-left: 40px;">Technically, yes, but in practice no. Some bits may be sharper than others from the factory, but you can expect tools to perform about the same throughout their lifespan regardless of how aggressively you run them. The main detriment which causes premature tool wear is using an inappropriate <a href="#chip-load">chip load</a>.</p>
+<p style="padding-left: 40px;">Technically, yes, but in practice no. Some bits may be sharper than others from the factory, but you can expect tools to perform about the same throughout their lifespan regardless of how aggressively you run them. The main detriment which causes premature tool wear is using an inappropriate <a href="https://resources.sienci.com/view/lmk2-feeds-and-speeds/#chip-load-">chip load</a>.</p>
 
 <strong><em>Are you ever going to make a downloadable tool database for X CAM program?</em></strong>
 
