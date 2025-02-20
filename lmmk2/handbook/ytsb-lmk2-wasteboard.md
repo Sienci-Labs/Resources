@@ -38,7 +38,7 @@ Surfacing is simply the process of 'flattening' your LongMill wasteboard setup. 
 
 When surfacing, you'll generally want to buy a purpose-made surfacing bit. These are made for light passes but are usually larger in diameter so they can cover a large area quickly and leave a good surface finish. Larger bits can also reach further outside the cutting area of the machine.
 
-We tend to use the <a href="https://sienci.com/product/22mm-surfacing-bit/">22mm surfacing bit</a> we sell on our store. If you don't have one of these available it's still possible to flatten your wasteboard with something as small as a 1/4" but it's going to take much longer to process your whole cutting area.
+We tend to use the <a href="https://sienci.com/product/22mm-surfacing-bit/" target="_blank" rel="noopener">22mm surfacing bit</a> we sell on our store. If you don't have one of these available it's still possible to flatten your wasteboard with something as small as a 1/4" but it's going to take much longer to process your whole cutting area.
 
 ### Making the G-code
 
@@ -56,6 +56,6 @@ We also have a 'Surfacing' utility built into gSender that you can use for g-cod
 
 ![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gSsender-1-0-5-surfacing-utility-ann.png){.aligncenter .size-medium}
 
-And there are still more options like INTUWiz, an online g-code generation program that is able to generate "facing" g-code (<a href="http://www.intuwiz.com/plane.html#.Xidt8sjYouV">http://www.intuwiz.com/plane.html#.Xidt8sjYouV</a>).
+And there are still more options like INTUWiz, an online g-code generation program that is able to generate "facing" g-code (<a href="http://www.intuwiz.com/plane.html#.Xidt8sjYouV" target="_blank" rel="noopener">http://www.intuwiz.com/plane.html#.Xidt8sjYouV</a>).
 
 ![](/_images/_lmmk2/_handbook/lmk2_wasteboard_INTUWiz-generation.png){.aligncenter .size-medium}

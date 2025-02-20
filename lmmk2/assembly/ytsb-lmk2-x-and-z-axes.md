@@ -97,9 +97,7 @@ Using two M5-25mm bolts, loosely attach one Delrin anti-backlash nut to the back
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p18.png){.aligncenter .size-medium}
 
-Using another two bolts, loosely attach a second Delrin anti-backlash nut to the back of the X-gantry.
-
-<img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_xzaxes_48EX-symbol.png" alt="" width="61" height="30" />
+Using another two bolts, loosely attach a second Delrin anti-backlash nut to the back of the X-gantry. <img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_xzaxes_48EX-symbol.png" alt="" width="61" height="30" />
 
 <a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#ex-delrin-nut-mounting"><img class="fortye aligncenter wp-image-3938 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX2-850x73.png" alt="" width="850" height="73" /></a>
 

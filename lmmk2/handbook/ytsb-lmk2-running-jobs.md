@@ -117,8 +117,7 @@ Some bits like v-bits or surfacing bits require the bit shaft to be placed throu
 
 ![](/_images/_lmmk2/_handbook/lmk2_runjobs_collet-v-bit-triptych-1.jpg){.aligncenter .size-medium}
 
-When installing the bits into the router, always tighten using the wrenches. The router can be damaged using the button and wrench when tightening. Loose bits can be tricky. Hold the bit in place with one finger. Press the red button with your thumb to lock the shaft in place. With the other hand finger tighten the collet nut till the bit can be held on its own. Use both wrenches to tighten firmly.
-<a href="https://www.YouTube.com/watch?v=LFeBRBjBYbk" target="_blank" rel="noopener">https://www.youtube.com/watch?v=LFeBRBjBYbk</a>
+When installing the bits into the router, always tighten using the wrenches. The router can be damaged using the button and wrench when tightening. Loose bits can be tricky. Hold the bit in place with one finger. Press the red button with your thumb to lock the shaft in place. With the other hand finger tighten the collet nut till the bit can be held on its own. Use both wrenches to tighten firmly. <a href="https://www.YouTube.com/watch?v=LFeBRBjBYbk" target="_blank" rel="noopener">IDC Woodcraft has a great video outlining these sorts of things to watch out for.</a>
 
 ![](/_images/_lmmk2/_handbook/lmk2_runjobs_red-button-fingertighten.jpg){.aligncenter .size-medium}
 
@@ -228,7 +227,7 @@ The RPM on the router can be changed on the fly by rotating the dial indicator t
 <td><strong>RPM</strong></td>
 <td style="text-align: center;">10,000</td>
 <td style="text-align: center;">12,000</td>
-<td style="text-align: center;">I17,000</td>
+<td style="text-align: center;">17,000</td>
 <td style="text-align: center;">22,000</td>
 <td style="text-align: center;">27,000</td>
 <td style="text-align: center;">30,000</td>
@@ -360,7 +359,7 @@ G0 Z2.0
 
 ### Method 3: gSender Tool Change
 
-The g-code for tool changing is an M6 command, in which the program will pause until the user tells it to continue, usually through a ‘Resume’ and/or ‘Confirm Tool Change’ button on the machine interface program. In CAM programs, this M6 will be inserted in your g-code if there are toolpaths using different bits, thus requiring tool changes. On <a href="https://sienci.com/gSender/">gSender</a>, you can program what happens when there is M6 in your g-code, therefore allowing you to easily change your bits with pre-programmed actions. Full instructions can be found <a href="https://resources.sienci.com/view/gs-additional-features/#tool-changing">here</a>.
+The g-code for tool changing is an M6 command, in which the program will pause until the user tells it to continue, usually through a ‘Resume’ and/or ‘Confirm Tool Change’ button on the machine interface program. In CAM programs, this M6 will be inserted in your g-code if there are toolpaths using different bits, thus requiring tool changes. On <a href="https://sienci.com/gSender/" target="_blank" rel="noopener">gSender</a>, you can program what happens when there is M6 in your g-code, therefore allowing you to easily change your bits with pre-programmed actions. Full instructions can be found <a href="https://resources.sienci.com/view/gs-additional-features/#tool-changing" target="_blank" rel="noopener">here</a>.
 
 ## Post-Processing Work Pieces
 
@@ -368,12 +367,11 @@ Now that you’ve got your piece machined out, finish the design with a nice smo
 
 ### Sanding
 
-Depending on your project, getting into the crevices of your design can be difficult. Small scrapers are handy to remove fuzzy bits. Cone Sanders are useful for larger designs. What if you carved a 3d relief? Sanding mops in different grits work great here. They can get into the details without removing too much material and ruining the design.
+Depending on your project, getting into the crevices of your design can be difficult. Small scrapers are handy to remove fuzzy bits. Cone Sanders are useful for larger designs. What if you carved a 3D relief? Sanding mops in different grits work great here. They can get into the details without removing too much material and ruining the design.
 
 ### Painting/Staining
 
-There are a few ways to add colour to your work piece. Wood stains help enhance the grain of the wood and should be finished with a good sealer
-Multi-Colour painting can really make a sign pop. Use a masking film
+There are a few ways to add colour to your work piece. Wood stains help enhance the grain of the wood and should be finished with a good sealer Multi-Colour painting can really make a sign pop. Use a masking film
 
 ### Sealing/Finishing
 

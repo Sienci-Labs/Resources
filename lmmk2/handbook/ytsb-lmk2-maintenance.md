@@ -118,8 +118,8 @@ The frequency of lubricating your linear guides will vary depending on the type 
 
 Here are some links to more info about lubrication if you're interested:
 
-- <a href="https://www.thomsonlinear.com/en/support/tips/what-should-be-used-to-lubricate-linear-bearings">https://www.thomsonlinear.com/en/support/tips/what-should-be-used-to-lubricate-linear-bearings</a>
-- <a href="https://www.hiwin.com/pdf/lubricating_instructions.pdf">https://www.hiwin.com/pdf/lubricating_instructions.pdf</a>
+- <a href="https://www.thomsonlinear.com/en/support/tips/what-should-be-used-to-lubricate-linear-bearings" target="_blank" rel="noopener noreferrer">https://www.thomsonlinear.com/en/support/tips/what-should-be-used-to-lubricate-linear-bearings</a>
+- <a href="https://www.hiwin.com/pdf/lubricating_instructions.pdf" target="_blank" rel="noopener noreferrer">https://www.hiwin.com/pdf/lubricating_instructions.pdf</a>
 
 ## Checking for Loose Hardware
 

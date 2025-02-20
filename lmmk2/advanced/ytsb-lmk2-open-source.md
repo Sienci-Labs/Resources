@@ -131,7 +131,7 @@ Keeps dust off the Y-axes of the LongMill MK2, made out of a single piece of ben
 
 ## 3D Printing
 
-To read more about our print settings to help you print your own parts, read this post here: <a href="https://sienci.com/2019/11/11/3d-printing-settings-for-LongMill-parts/">https://sienci.com/2019/11/11/3d-printing-settings-for-LongMill-parts/</a>
+To read more about our print settings to help you print your own parts, read this post here: <a href="https://sienci.com/2019/11/11/3d-printing-settings-for-LongMill-parts/" target="_blank" rel="noopener">https://sienci.com/2019/11/11/3d-printing-settings-for-LongMill-parts/</a>
 STL files can be directly downloaded from the Onshape document. You may need to make an account to download STL files.
 
 ## Onshape
