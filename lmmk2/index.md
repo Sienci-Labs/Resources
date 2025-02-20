@@ -22,12 +22,12 @@ LongMill MK2 page order should be as follows: (last updated as of Oct 24, 2024)
 
 1. Welcome!
 2. CNC Routers (MK1 & MK2 same)
-3. Materials (MK1 & MK2 same)
+3. Materials (MK1 & MK2 same except link to dust shoe)
 4. Cutting Tools 🌀 (MK1 & MK2 same)
 5. Workholding 🕳️ (MK1 & MK2 same)
 6. Routers / Spindles (MK1 & MK2 same)
 7. Dust Collection (MK1 & MK2 same except pic & link)
-8. Touch Plates ⚡ (MK1 & MK2 same)
+8. Touch Plates ⚡ (MK1 & MK2 same except link to touch plate)
 9. Table / Enclosure (MK1 & MK2 same except table size and OS)
 
 💻 Software
