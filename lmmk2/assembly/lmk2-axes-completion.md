@@ -17,7 +17,7 @@ featured_image: _images/_lmmk2/_assembly/_autocomplete/lmk2_axescomplete_Y-Axis-
 
 ![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_Y-Axis-Gantries_1-1.png){.aligncenter .size-medium}
 
-<h2>Drag Chain Mount and Connecting Rails</h2>
+## Drag Chain Mount and Connecting Rails
 
 ![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_Header-Y-Axis-Gantries_2-1.png){.aligncenter .size-medium .wid}
 
@@ -25,7 +25,7 @@ featured_image: _images/_lmmk2/_assembly/_autocomplete/lmk2_axescomplete_Y-Axis-
 
 Grab the M5-10mm bolts, t-nuts, and steel drag chain mount from the yellow hardware bag. Prepare the drag chain mount by loosely threading two M5-10mm bolts into the two t-nuts.
 
-<b>Note:</b> if you want your control box on the right side rather than the left then most of the remaining steps should be flipped including drag chain mount, subassembly steps, X-axis lead screw and motor, and drag chains.
+**Note:** if you want your control box on the right side rather than the left then most of the remaining steps should be flipped including drag chain mount, subassembly steps, X-axis lead screw and motor, and drag chains.
 
 ![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_Y-Axis-Gantries_2-1.png){.aligncenter .size-medium}
 
@@ -39,7 +39,7 @@ Lift the right side of the X-axis rail up to meet with the matching holes on the
 
 ![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_MK2-38_2.jpg){.aligncenter .size-medium}
 
-<h2>Connecting the Remaining Sub-assemblies</h2>
+## Connecting the Remaining Sub-assemblies
 
 ![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_Header-Y-Axis-Gantries_3-2.png){.aligncenter .size-medium .wid}
 
@@ -51,7 +51,7 @@ Slide the XZ-gantry onto the X-axis rail. The v-wheels should sit on the pointed
 
 Lift the left side of the X-axis rail up to meet the left Y-gantry assembly. The drag chain mount is there to assist you with positioning by acting as a rest against the top of the plate while you bolt the plate to the rail. Fully fasten using four M5-25mm bolts.
 
-<h2>X-axis Lead Screw</h2>
+## X-axis Lead Screw
 
 ![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_header-4.jpg){.aligncenter .size-medium .wid}
 

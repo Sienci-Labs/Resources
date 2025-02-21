@@ -29,7 +29,7 @@ We've worked very hard on this new machine as the next step-up in affordable hob
 
 We've kept all this in mind because a simple CNC is one that is more reliable and can be assembled and maintained easier by you. It also means that with the right approach we can reduce manufacturing costs, packaging material, and even the final packed size of the machine. This allows us to manufacture a high-quality machine right in Waterloo, Canada while keeping costs much lower than normal and passing those savings onto you in the form of an affordable and strong hobby CNC. We hope that you’re excited to start making new and interesting things as this CNC router becomes yet another tool you can reach for on your tool belt.
 
-<h2>Starting up</h2>
+## Starting up
 
 We're always making improvements where we can to our CNCs. The main differences between the MK2 and MK2.5 happen during assembly, so when following the instructions make sure you select the right one. All other pages and reference material in our resources will still apply so you can still click and follow advice for the MK2 even if you have a 2.5 since they're part of the same family.
 
@@ -106,13 +106,13 @@ READING</a></td>
 
 Although it's nice to ship a glossy paper manual to you, we make a lot of choices with the LongMill and our business to reduce excess material use and carbon impact where possible; a theme you'll see continues when unboxing your machine. Switch to reading the PDF at this point if you've chosen to download it or continue reading if you'll be following the instructions online.
 
-<h2>Welcome to CNC</h2>
+## Welcome to CNC
 
 You got yourself a LongMill MK2.5 desktop CNC so, now what? Here’s everything you should know before you start building your machine.
 
 <b>Please read this whole section</b> before continuing on with assembly. It will provide you with the startup information and context needed to have a smooth and successful assembly.
 
-<h3>What to expect</h3>
+### What to expect
 
 Diving into your LongMill box you’ll be met with a whole lot of boxes within. This assembly manual is laid out in a way that you unbag and grab things as you need them so don’t feel the need to take stock of everything right away, instead just start off by getting your space organized and getting each initial box opened up.
 
@@ -122,7 +122,7 @@ Check out the ‘welcome items’ where you’ll find our letter alongside some 
 
 <a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#48-x-axis-rail-box-unpacking"><img class="fortye aligncenter wp-image-3936 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX1-1-850x156.png" width="850" height="156" /></a>
 
-<h3>Tools you’ll need</h3>
+### Tools you’ll need
 
 You’ll need these tools on hand for assembly. Most people will have these in their shop:
 
@@ -135,7 +135,7 @@ You’ll need these tools on hand for assembly. Most people will have these in t
 
 We provide a specialized ‘LongMill wrench’ and the needed Allen keys to help complete your assembly and act as dedicated maintenance tools once your machine is in operation. We don’t recommend you use an impact driver for assembly except when mounting the machine because you won’t save much time and some assemblies are prone to damage if they’re overtightened
 
-<h3>Missing/broken parts?</h3>
+### Missing/broken parts?
 
 Don’t sweat it - your kit has spares and redundancy included. If a part is lost or isn’t going together how you expect, no worries; just check through the bags and you’ll likely find what you need to continue assembly. Expect a pile of bolts left over at the end and feel free to set these aside for future machine maintenance.
 
@@ -152,7 +152,7 @@ If a part is missing completely, check that you’re looking for the right thing
 
 If a part arrives broken and doesn’t have a spare, the LongMill’s warranty covers replacement parts and we’ll even be happy to help you out if you break it yourself. Just shoot us a message here (<a href="https://sienci.com/contact-us/">https://sienci.com/contact-us/</a>) and see if there are any other areas of assembly you can continue with in the meantime. We’ll get back to you as soon as we can.
 
-<h3>Assembly tips</h3>
+### Assembly tips
 
 <ol>
   <li><b>Take breaks when needed</b>
@@ -208,7 +208,7 @@ This manual contains some technical language as well as a distinct visual langua
 If you are looking to get quick advice or to share your excitement about the LongMill, post in our <a href="https://forum.sienci.com/" target="_blank" rel="noopener">forum</a> or <a href="https://www.facebook.com/groups/mill.one/" target="_blank" rel="noopener">Facebook group</a>! We have a large and friendly group of CNC enthusiasts who enjoy engaging in conversations and sharing their CNC experiences.</li>
 </ol>
 
-<h3>Final words</h3>
+### Final words
 
 You’ve got this! We want you to succeed and have designed this machine to give you a great CNC experience while not requiring much experience or assembly accuracy from you. Thousands of people have been in the same shoes as you, starting off as CNC beginners who eventually find their way through.
 

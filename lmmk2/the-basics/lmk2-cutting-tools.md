@@ -89,7 +89,7 @@ As a CNC operator, you will learn to choose the correct end mill for the job and
 
 Cutting tools can be manufactured out of a variety of material which are all engineered to be able to sustain high loads during the cutting process and remain sharp enough in order to shear the material away from the stock. Of these, the most commonly used materials are high speed steel (HSS) and solid carbide.
 
-![](/_images/_longmill/_the-basics/lm_cuttingtools_p7_HSSCarbide.jpg "Solid carbide vs. HSS cutting tool")
+![](/_images/_longmill/_the-basics/lm_cuttingtools_p7_HSSCarbide.jpg "Solid carbide vs. HSS cutting tool"){.aligncenter .size-medium}
 
 HSS usually combines with a variety of other alloys to have a high wear resistance and durability for cutting both soft and hard materials. Since HSS is softer than solid carbide it’s less likely to crack and instead wears out over time, so it’s limited to slower cutting speeds. HSS tools are also usually much cheaper than solid carbide tools and can be additionally improved if they come with a coating.
 

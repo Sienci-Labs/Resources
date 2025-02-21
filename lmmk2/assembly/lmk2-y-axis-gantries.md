@@ -17,7 +17,7 @@ featured_image: _images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_title
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_title-Y-Axis.png){.aligncenter .size-medium}
 
-<h2>Y-Gantry Wheels</h2>
+## Y-Gantry Wheels
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_header-Y-Axis-Gantries_1.png){.aligncenter .size-medium .wid}
 
@@ -31,7 +31,7 @@ Now, loosely install two v-wheel assemblies in the upper set of holes on each Y-
 
 <a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#ex-y-gantry-assembly"><img class="fortye aligncenter wp-image-3932 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/V-wheelSidebyside-850x391.png" alt="" width="850" height="391" /></a>
 
-<h2>Y-axis Anti-backlash Nuts</h2>
+## Y-axis Anti-backlash Nuts
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_header-1-1.jpg){.aligncenter .size-medium .wid}
 
@@ -39,7 +39,7 @@ Now, loosely install two v-wheel assemblies in the upper set of holes on each Y-
 
 Using two M5-25mm bolts, loosely attach the two Delrin anti-backlash nuts to the back of each Y-gantry
 
-<h2>Y-axis Middle Feet</h2>
+## Y-axis Middle Feet
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_MK2-26_1.jpg){.aligncenter .size-medium .wid}
 
@@ -47,7 +47,7 @@ Using two M5-25mm bolts, loosely attach the two Delrin anti-backlash nuts to the
 
 At this point of the assembly process we will begin using hardware from the yellow bag in addition to the green bag. The 3D printed middle feet will be alongside the hardware bags and note that 12x30 LongMills will have shorter Y-axis rails than pictured.
 
-From the yellow sticker bag, grab four t-nuts. For all four middle feet, insert M5-25mm bolts through from the underside and turn them 2 turns with an M5 Allen key into the t-nut from above. The t-nuts won’t rest naturally yet because they are initially being held up at a particular spot to allow the feet to slide into the rails more easily. If you feel even a slight increase in resistance <b>stop turning the bolts</b>.
+From the yellow sticker bag, grab four t-nuts. For all four middle feet, insert M5-25mm bolts through from the underside and turn them 2 turns with an M5 Allen key into the t-nut from above. The t-nuts won’t rest naturally yet because they are initially being held up at a particular spot to allow the feet to slide into the rails more easily. If you feel even a slight increase in resistance **stop turning the bolts**.
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Y-Axis-Gantries_6.png){.aligncenter .size-medium}
 
@@ -55,14 +55,14 @@ Slide in two feet assemblies through the slots of each Y-axis. Position them abo
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Y-Axis-Gantries_7.png){.aligncenter .size-medium}
 
-<h2>INTERMISSION</h2>
+## INTERMISSION
 
-From this point onward until the completion of the Y-axis rail assemblies, we will only show the steps for the <b>right</b> Y-axis rail. While you are assembling the right Y-axis rail, complete the steps again for the left Y-axis rail.
+From this point onward until the completion of the Y-axis rail assemblies, we will only show the steps for the **right** Y-axis rail. While you are assembling the right Y-axis rail, complete the steps again for the left Y-axis rail.
 
 The following icon will be shown on each page where you should be repeating the steps for the second rail, but mirrored.
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Mirror-Mode-intro.png){.aligncenter .size-medium}
 
-<h2><img class="non alignnone wp-image-3130" src="https://resources.sienci.com/wp-content/uploads/2022/03/Mirror-Mode-icon.png" alt="" width="20" height="20" /> Y-axis End Feet</h2>
+## <img class="non alignnone wp-image-3130" src="https://resources.sienci.com/wp-content/uploads/2022/03/Mirror-Mode-icon.png" alt="" width="20" height="20" /> Y-axis End Feet
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Header-Y-Axis-Gantries.png){.aligncenter .size-medium .wid}
 
@@ -78,7 +78,7 @@ Finding all 4 steel end feet in a cardboard wrap, attach two end feet onto each 
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_MK2-30_2.jpg){.aligncenter .size-medium}
 
-<h2><img class="non alignnone wp-image-3130" src="https://resources.sienci.com/wp-content/uploads/2022/03/Mirror-Mode-icon.png" alt="" width="20" height="20" /> Y-axis Lead Screws</h2>
+## <img class="non alignnone wp-image-3130" src="https://resources.sienci.com/wp-content/uploads/2022/03/Mirror-Mode-icon.png" alt="" width="20" height="20" /> Y-axis Lead Screws
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_header-4.jpg){.aligncenter .size-medium .wid}
 

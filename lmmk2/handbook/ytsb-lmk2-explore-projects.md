@@ -157,7 +157,7 @@ If you're looking for some more inspiration, or would like to start by making so
 - <a href="https://aribabox.com/collections/all-designs" target="_blank" rel="noopener noreferrer">Ariba Box</a> (sign-up rqd, free &amp; paid content)
 - <a href="https://www.etsy.com/market/cnc_patterns" target="_blank" rel="noopener noreferrer">Etsy (CNC patterns)</a> (sign-up rqd, all paid content)
 - <a href="https://cncrouterdesign.com/" target="_blank" rel="noopener noreferrer">CNC Router Design</a> (sign-up rqd, all paid content)
-- <a href="https://projects.buildbotics.com/explore/creations" target="_blank" rel="noopener noreferrer">Buildbotics Projects</a> (old, almost empty, broken images)<b></b>
+- <a href="https://projects.buildbotics.com/explore/creations" target="_blank" rel="noopener noreferrer">Buildbotics Projects</a> (old, almost empty, broken images)
 - <a href="http://www.cnc4free.org/" target="_blank" rel="noopener noreferrer">cnc4free.org</a> (non-commercial use)
 - <a href="http://atfab.co/cnc-furniture/" target="_blank" rel="noopener noreferrer">AtFAB</a> (furniture, sign-up rqd)
 - <a href="https://www.opendesk.cc/designs" target="_blank" rel="noopener noreferrer">https://www.opendesk.cc/designs</a> (furniture)

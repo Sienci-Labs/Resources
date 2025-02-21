@@ -305,7 +305,7 @@ This is a tool change method inspired by the work of Stuart McRae (a LongMill cu
 
 Below are some examples of how to input the tool changing g-code, which are **bolded**.
 
-<h5>EXAMPLE 1: Carbide Create</h5>
+##### EXAMPLE 1: Carbide Create
 
 G90  
 G21  
@@ -332,7 +332,7 @@ M05
 M02
 
 _____________________________________
-<h5>EXAMPLE 2: CAMLab</h5>
+##### EXAMPLE 2: CAMLab
 
 G21  
 G90  

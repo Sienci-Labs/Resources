@@ -17,7 +17,7 @@ featured_image: _images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_Title-Che
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_Title-Checks.png){.aligncenter .size-medium}
 
-<h2>Checking &amp; Plugging In</h2>
+## Checking & Plugging In
 
 <img class="wid wp-image-7096 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_checksmoves_Header-checks-1st-moves.jpg" alt="" width="850" height="236" />
 
@@ -27,11 +27,11 @@ First, check all wires going into green connectors by tugging on them. This incl
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_Small-flat-head-screwdriver.png){.aligncenter .size-medium}
 
-Second, confirm the wire order for the power supply and motors. It’s important that the DC power brick has a <b>white</b> or <b>red</b> wire on the left side and a <b>black</b> one on the right when the screw terminal is facing you (as pictured).
+Second, confirm the wire order for the power supply and motors. It’s important that the DC power brick has a **white** or **red** wire on the left side and a **black** one on the right when the screw terminal is facing you (as pictured).
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_64_1.jpg){.aligncenter .size-medium}
 
-For the motor connector the wires, looking down from the side with the screw heads, should be, from left to right, <b>BLUE</b>, <b>YELLOW</b>, <b>GREEN</b>, <b>RED</b> (pictured). Check if the color pattern on all four of your motor wires is correct and rearrange them if needed.
+For the motor connector the wires, looking down from the side with the screw heads, should be, from left to right, **BLUE**, **YELLOW**, **GREEN**, **RED** (pictured). Check if the color pattern on all four of your motor wires is correct and rearrange them if needed.
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_SLB-w-case-pic.png){.aligncenter .size-medium}
 
@@ -61,7 +61,7 @@ Now, connect the emergency stop button to the control box via the connector on t
 
 Next we will be connecting to your computer, booting up gSender and then running some quick tests.
 
-<h2>Connecting the LongMill to your Computer</h2>
+## Connecting the LongMill to your Computer
 
 <img class="wid wp-image-7128 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_checksmoves_Header-computer-connect.jpg" alt="" width="850" height="251" />
 
@@ -96,7 +96,7 @@ Connecting to the SLB, requires you to click the gray bar at the bottom labelled
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_-Connect-2.png){.aligncenter .size-medium}
 
-The grey area will open up, revealing two choices. We want to click on <b>grblHAL</b>.
+The grey area will open up, revealing two choices. We want to click on **grblHAL**.
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_-Connect-3.png){.aligncenter .size-medium}
 
@@ -110,11 +110,11 @@ Congrats! You have connected to your new LongMill! Since USB is plug and play, w
 
 With “Connect to Machine” changed to “Connected”, the plug icon turned green with a check mark, the status on the top right corner of the visualizer changed from “Disconnected” to “Idle”, and the other controls that were greyed now being activated, it’s time to take your CNC for a drive!
 
-<h2>Quick Tests</h2>
+## Quick Tests
 
 Now that we have the basics plugged in and are connected in gSender, we’re going to test out a couple things. This will help catch any issues before the SLB controller is more permanently mounted or you start on your wire management ;). Let’s put this LongMill through some paces eh?!!
 
-<h3>Power On Test</h3>
+### Power On Test
 
 When the board is receiving power, you will see two specific green lights come on. One shows you that your 5V power is active, and the other shows that your 3.3V current is working.
 
@@ -124,7 +124,7 @@ Now hit the E-stop button (it may already be pressed down). When you press it do
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_-Connect-7.png){.aligncenter .size-medium}
 
-The SLB will respond by turning several lights RED. Most notably your <b>CNC Status light</b> and a very small led called <b>HALT</b> will both turn red.
+The SLB will respond by turning several lights RED. Most notably your **CNC Status light** and a very small led called **HALT** will both turn red.
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_-Connect-8.png){.aligncenter .size-medium}
 
@@ -132,7 +132,7 @@ Now we can deactivate the E-stop button by turning it clockwise until it’s rai
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_-Connect-9.png){.aligncenter .size-medium}
 
-<b>Congrats!</b> You’ve completed the Power On Quick Test.
+**Congrats!** You’ve completed the Power On Quick Test.
 
 <em>If your lights didn’t come on or you experienced unusual behavior:</em>
 
@@ -141,7 +141,7 @@ Now we can deactivate the E-stop button by turning it clockwise until it’s rai
 - Ensure the SLB power switch has been flipped to be ‘ON’
 - Ensure there are lights on the board
 
-<h3>Move Test</h3>
+### Move Test
 
 Using the jog controls on the main page of gSender, try moving your machine around in the X, Y and Z-axes. Make sure they’re going in the correct directions.
 
@@ -149,7 +149,7 @@ Using the jog controls on the main page of gSender, try moving your machine arou
 
 If you find that your axes are not moving in the correct direction, you can go into your firmware settings and change the axis that’s wrong. Also, if you notice that your CNC reacts intermittently at higher speeds then you might have to either spend some more time tuning your machine’s mechanics, or consider lowering the SLBs maximum speed with settings 110, 110, and 112.
 
-<h3>Touch Plate Test</h3>
+### Touch Plate Test
 
 One last test is to check that your touch plate works. Navigate to the Probe tab and hit the ‘Probe’ button.
 
@@ -167,11 +167,11 @@ If the light is coming on but the popup button isn’t turning blue, this can so
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_-Connect-14.png){.aligncenter .size-medium}
 
-<b>Congrats!</b> Your Quick tests are now complete. This means that all our basic accessories should now be set up and ready to use on your LongMill!
+**Congrats!** Your Quick tests are now complete. This means that all our basic accessories should now be set up and ready to use on your LongMill!
 
 Things will still be a bit loose right now since we haven’t yet tuned up the movement of the machine, but tuning will be the next step and knowing how to move the machine around will be important for when we mount it to a table. While we’re here, take a moment to move each axis to each extreme while checking that the drag chains are reaching to all corners; especially for the y-axis. Don’t be shy moving around, if you hear electronic music that’s normal and if you hear a grinding noise when you hit the limits that’s normal as well.
 
-<h2>Tuning Movement</h2>
+## Tuning Movement
 
 With the machine together and moving, it’s time to tune its movement before we attach it to its work surface. Most of these tuning steps will be the same ones you’ll use when performing maintenance on your machine.
 

@@ -17,7 +17,7 @@ featured_image: _images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header.png
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header.png){.aligncenter .size-medium}
 
-<h2>Nut Assemblies</h2>
+## Nut Assemblies
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-1.jpg){.aligncenter .size-medium .wid}
 
@@ -29,7 +29,7 @@ Start by pressing the M5-nylock nuts into the hexagonal cutouts in the plastic b
 
 With four blocks ready, set them aside.
 
-<h2>Z-axis Motor Mount</h2>
+## Z-axis Motor Mount
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-2.jpg){.aligncenter .size-medium .wid}
 
@@ -39,7 +39,7 @@ With the prep out of the way, let’s continue on to the overall XZ-axis assembl
 
 With this in hand you’ll also want to get the bag with bearings in it, of which you’ll just need two for now. Press these into both sides of the bore on the Z-axis motor mount. You should be able to assemble these easily with your thumbs.
 
-<h2>Z-axis Mount Sub-assembly</h2>
+## Z-axis Mount Sub-assembly
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-3.jpg){.aligncenter .size-medium .wid}
 
@@ -47,7 +47,7 @@ With this in hand you’ll also want to get the bag with bearings in it, of whic
 
 Going back to the parts, you’ll want to look for the short lead screw which will be packaged alongside the other, longer lead screws. This step will also use a locking ACME nut and a coupler from the bag of couplers. Grab the ACME nut and thread a couple inches (as pictured) onto the lead screw. Make sure the ACME nut still has its set screw.
 
-<b>Please Note:</b> There is a small bump coming out of one side of the clamping nut, that will need to face towards the short side of the lead screw.
+**Please Note:** There is a small bump coming out of one side of the clamping nut, that will need to face towards the short side of the lead screw.
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p4.png){.aligncenter .size-medium}
 
@@ -55,13 +55,13 @@ Next, slide the short end of the lead screw through the bearings on the Z-axis m
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p5.png){.aligncenter .size-medium}
 
-On the coupler, identify the end with the larger hole - this will be the only side that fits onto the lead screw. Push the coupler on until it bottoms out, then tighten the ‘lead screw side’ set screw using an M5 Allen key. <b>BEWARE!</b> Only tighten ONE of the set screws - the one on the lead screw side (as pictured). You’ll tighten the other set screw near the end of machine assembly. If you overtighten the wrong set screw it can deform your coupler and cause assembly issues.
+On the coupler, identify the end with the larger hole - this will be the only side that fits onto the lead screw. Push the coupler on until it bottoms out, then tighten the ‘lead screw side’ set screw using an M5 Allen key. **BEWARE!** Only tighten ONE of the set screws - the one on the lead screw side (as pictured). You’ll tighten the other set screw near the end of machine assembly. If you overtighten the wrong set screw it can deform your coupler and cause assembly issues.
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p6.png){.aligncenter .size-medium}
 
 Now rotate the coupler and ACME nut in opposite directions so that they come together to clamp onto the two bearings. Once they’re together, making a ‘bolted sandwich’, everything should be touching (as pictured).  Once in this position, tighten the set screw on the locking ACME nut. If assembled properly, this should now feel like a solid, single piece where the lead screw should only be allowed to rotate, and not move in-and-out. Set this assembly aside for now.
 
-<h2>XZ-axis Gantry Sub-assembly</h2>
+## XZ-axis Gantry Sub-assembly
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-4.jpg){.aligncenter .size-medium .wid}
 
@@ -87,7 +87,7 @@ Install two v-wheel assemblies at the bottom edge of the gantry - except this ti
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p16.jpg){.aligncenter .size-medium}
 
-<h2>Attaching Anti-backlash Nuts</h2>
+## Attaching Anti-backlash Nuts
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-5.jpg){.aligncenter .size-medium .wid}
 
@@ -101,7 +101,7 @@ Using another two bolts, loosely attach a second Delrin anti-backlash nut to the
 
 <a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#ex-delrin-nut-mounting"><img class="fortye aligncenter wp-image-3938 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX2-850x73.png" alt="" width="850" height="73" /></a>
 
-<h2>Connecting the Sub-assemblies</h2>
+## Connecting the Sub-assemblies
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-5a.png){.aligncenter .size-medium .wid}
 
@@ -117,7 +117,7 @@ Fasten two M5-25mm bolts on both sides of the Z-axis motor mount to secure the t
 
 With everything secured together, you can finish tightening the two bolts holding the Z anti-backlash nut. Alternate making a couple turns onto one bolt and then the other until they’re both tightened down. If you twist hard onto just one bolt while the other one is loose it can twist the anti-backlash nut and misalign it to the lead screw.
 
-<h2>Attaching the Router Mount</h2>
+## Attaching the Router Mount
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header-6.jpg){.aligncenter .size-medium .wid}
 

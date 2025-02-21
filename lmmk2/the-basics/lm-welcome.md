@@ -64,7 +64,7 @@ Lastly, each page will have buttons at the bottom to move on to the next or prev
 
 ![](/_images/_lmmk2/_the-basics/lmk2_welcome_navigation2.jpg){.aligncenter .size-medium}
 
-<h2>Community</h2>
+## Community
 
 Questions and learning is always further enhanced in groups. Our CNC community is FULL of hobby CNCers at every step along their journey, from the computer-nervous traditional woodworkers to the seasoned veterans. We've prioritized an environment where no question is too 'dumb' and all CNC conversation is welcome.
 

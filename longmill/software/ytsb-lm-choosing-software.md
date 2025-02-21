@@ -17,25 +17,21 @@ featured_image: _images/_longmill/_software/lm_choosingsoft_p1_Vectr.jpg
 
 Whichever software toolchain you choose should make the most sense for you and your CNCing ambitions. A good, personalized toolchain should meet your:
 
-<ul>
-<li>previous CNC experience</li>
-<li>previous design experience</li>
-<li>types of projects you'll be making</li>
-<li>budget</li>
-<li>and computer operating system</li>
-</ul>
+- previous CNC experience
+- previous design experience
+- types of projects you'll be making
+- budget
+- and computer operating system
 
 https://www.youtube.com/watch?v=m6ymuF8soTU
 
 To give maximum flexibility, we made the LongMill software agnostic meaning it can accept input from nearly any software out there. Here's an example:
 
-<ol>
-<li>Dan has previous experience in graphic design and now he's jumped into the world of CNC routers with the goal of engraving his designs onto nice wood slabs.</li>
-<li>He starts by creating his vector artwork in <b>Adobe Illustrator</b> since he's had previous experience using it for graphic design.</li>
-<li>After having made the artwork, he opens it up in <b>Carbide Create</b>. He prefers Carbide Create because it's an offline software that is easy to use and capable of v-carving, a great process for cutting intricate designs with a CNC.</li>
-<li>Once Carbide Create has made the machine code file, he opens it up in <b>gSender</b>. gSender is the software he uses to interface with his LongMill, allowing him to easily jog it around, set the origin point, perform probing, and he can use it to load and execute cutting files.</li>
-<li>Every time gSender completes a cutting file, Dan is now able to grab his completed artwork engraving off his LongMill!</li>
-</ol>
+1. Dan has previous experience in graphic design and now he's jumped into the world of CNC routers with the goal of engraving his designs onto nice wood slabs.
+1. He starts by creating his vector artwork in **Adobe Illustrator** since he's had previous experience using it for graphic design.
+1. After having made the artwork, he opens it up in **Carbide Create**. He prefers Carbide Create because it's an offline software that is easy to use and capable of v-carving, a great process for cutting intricate designs with a CNC.
+1. Once Carbide Create has made the machine code file, he opens it up in **gSender**. gSender is the software he uses to interface with his LongMill, allowing him to easily jog it around, set the origin point, perform probing, and he can use it to load and execute cutting files.
+1. Every time gSender completes a cutting file, Dan is now able to grab his completed artwork engraving off his LongMill!
 
 In this example, Dan used three pieces of software in his software toolchain. This allowed him to start with a program he was comfortable with for the design aspect (Adobe Illustrator), then move on to a beginner friendly CAM software (Carbide Create), before finally running the generated code file using the machine interface program (gSender). This is just one software combination of many.
 
@@ -50,6 +46,7 @@ To help you decide what software would work best for you we've done three things
 ## Toolchain Wizard
 
 This wizard will provide you with general software suggestions based on your CNC needs. Check it out!
+
 <div id="my-react-toolchain"> </div>
 <div id="ToolTable"> </div>
 <p><script src="https://resources.sienci.com/wp-content/react/wizard.js"></script></p>
@@ -59,7 +56,7 @@ This wizard will provide you with general software suggestions based on your CNC
 
 Many of our go-to software picks tend to be available for free and can range from beginner-friendly to more advanced. We also tend to more highly recommend software that is both Design-and-CAM-in-one since that helps to streamline the process of making projects on your CNC.
 
-<b>Remember that the design step in CNCing can be completely optional.</b> If you'd like to browse a list of sites we put together where people share their CNC project designs either for free or for a price, click the button below. Half of the projects we’ve made ourselves have been off designs we’ve found online; feel free to leverage these resources in your own work with the right permissions.
+**Remember that the design step in CNCing can be completely optional.** If you'd like to browse a list of sites we put together where people share their CNC project designs either for free or for a price, click the button below. Half of the projects we’ve made ourselves have been off designs we’ve found online; feel free to leverage these resources in your own work with the right permissions.
 
 [su_button url="resources.sienci.com/view/lm-more-projects/" target="self" style="flat" background="var(--sl-blue)" color="#FFFFFF" size="8" wide="no" center="yes" radius="3" icon="" icon_color="#FFFFFF" text_shadow="none" desc="" download="" onclick="" rel="" title="" id="" class=""]Design sharing websites[/su_button]
 &nbsp;
@@ -413,7 +410,7 @@ The full list of grbl-compatible senders is generally maintained here: <a href="
 
 This software is designed to be clean and easy to use no matter your previous CNC experience. It has a variety of features such as macros, CNC calibration, surfacing, tool changing, and firmware control. gSender supports many grbl-based machines and works out-of-the-box on the LongMill CNC.
 
-![](/_images/_longmill/_software/lm_choosingsoft_p13_gSender.png){.aligncenter .size-medium}
+![](/_images/_longmill/_software/lm_choosingsoft_p13_gSender.png){.aligncenter .size-full}
 
 [tabby title="UGS"]
 

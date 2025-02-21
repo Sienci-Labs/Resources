@@ -23,7 +23,7 @@ Start by sending the command "$$" to your machine. The console will give you a l
 
 ## Default Settings
 
-These only apply to those using the original LongBoard, if you have the <b>MK2.5</b> or have upgraded to the <b>SuperLongBoard</b>, <a href="https://resources.sienci.com/view/slb-firmware-flashing/#settings-descriptions">see the settings table for that here</a>.
+These only apply to those using the original LongBoard, if you have the **MK2.5** or have upgraded to the **SuperLongBoard**, <a href="https://resources.sienci.com/view/slb-firmware-flashing/#settings-descriptions">see the settings table for that here</a>.
 
 [su_table]
 <table>

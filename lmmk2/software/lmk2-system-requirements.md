@@ -12,18 +12,16 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: /_images/_longmill/_assembly/_electronics/lm_electronics_p14.JPG
 ---
 
 With today's advancements in computing hardware, most users will have no issues using their old or new computers and laptops to run their CNC machines. Generally, as long as your computer is **newer than 5 years old**, you should have no issues running a g-code sender like gSender or UGS. This page discusses hardware requirements and considerations to make for running your CNC machine.
 
 Your system requirements may change depending on:
 
-<ul>
-  <li>Size of your g-code files</li>
-  <li>System requirements of your CAD and CAM software</li>
-  <li>gSender version you are using</li>
-</ul>
+- Size of your g-code files
+- System requirements of your CAD and CAM software
+- gSender version you are using
 
 ## Basic Requirements
 
@@ -35,7 +33,7 @@ These are the minimum system requirements we believe will provide the best exper
 **Ports:** USB 2.0 or higher<br>
 **Memory:** 200Mb of hard drive space
 
-<a href="https://resources.sienci.com/view/gs-installation/" target="_blank" rel="noopener noreferrer">gSender</a> is software we recommend you use to interact with your machine. It is free and can be <a href="https://sienci.com/gSender/" target="_blank" rel="noopener noreferrer">downloaded from our website</a> at any time. gSender is designed to be lightweight and has been tested to run on both low and high-end hardware. Generally speaking, if your computer was made in the last 5 years, you should be able to use gSender without any issues. If you are not sure if gSender will work on your computer, we suggest downloading it to test it out. Most other g-code senders also tend to have similar requirements.
+<a href="https://resources.sienci.com/view/gs-installation/" target="_blank" rel="noopener">gSender</a> is software we recommend you use to interact with your machine. It is free and can be <a href="https://sienci.com/gSender/" target="_blank" rel="noopener">downloaded from our website</a> at any time. gSender is designed to be lightweight and has been tested to run on both low and high-end hardware. Generally speaking, if your computer was made in the last 5 years, you should be able to use gSender without any issues. If you are not sure if gSender will work on your computer, we suggest downloading it to test it out. Most other g-code senders also tend to have similar requirements.
 
 <b>*Note: After <em>gSender version 1.2.2</em>, support for 32-bit systems and Windows 7/8 had to be dropped since most new software packages can no longer support systems 10+ years old.</b>
 
@@ -68,10 +66,8 @@ If you're not sure what software you should use for making g-code or design, we 
 
 Computer/tech-savvy users can run a g-code sender using a Raspberry Pi. A <a href="https://www.raspberrypi.org/" target="_blank" rel="noopener noreferrer">Raspberry Pi</a> is a low cost, single-board computer that can be used as a dedicated computer to send g-code and operate the machine. Some benefits include:
 
-<ul>
-  <li>Being fairly inexpensive, with Raspberry Pi's typically costing around $30 to $50.</li>
-  <li>Being unaffected by dust as it has no moving parts</li>
-  <li>Allowing for more advanced features such as remote monitoring and control and cameras.</li>
-</ul>
+- Being fairly inexpensive, with Raspberry Pi's typically costing around $30 to $50.
+- Being unaffected by dust as it has no moving parts
+- Allowing for more advanced features such as remote monitoring and control and cameras.
 
 There are many different ways to set this up, and more information can be found online. While many users have successfully set their machine up with a Raspberry Pi, it can be complicated and may create new technical issues.

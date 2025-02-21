@@ -17,7 +17,7 @@ featured_image: _images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_drink-C
 
 Now that you've put together your MK2.5 let's get something cut out on it! Are you Team Fun or Team Functional?? You can see each project states the type and size of material it supports as well as the type of cutting tool you’ll need to cut it out so choose wisely. Once you choose your project and download the file, scroll further down the page to learn about how you’ll set your machine up and carve your first project.
 
-<h2>Fun Projects</h2>
+## Fun Projects
 
 [su_table responsive="yes"]
 
@@ -29,7 +29,7 @@ Now that you've put together your MK2.5 let's get something cut out on it! Are y
 
 [/su_table]
 
-<h2>Functional Projects</h2>
+## Functional Projects
 
 [su_table responsive="yes"]
 
@@ -41,51 +41,45 @@ Now that you've put together your MK2.5 let's get something cut out on it! Are y
 
 [/su_table]
 
-<h2>Setting Up</h2>
+## Setting Up
 
 Let’s start from Ground Zero. If you’ve done previous reading or watched videos about CNC you’ve likely heard about the stages of starting with a design, turning that design into a cutting program (a.k.a. g-code), and then running that program on your machine. This design, CAM, then send process is all that you need to keep in mind anytime you want to create something new; and luckily for this first project the design and CAM parts are already taken care of!
 
 With the g-code ready for use, there are only a few steps remaining to cut your first project:
 
-<ol>
-<li>Have a piece of material in-hand that matches the project you selected</li>
-<li>Secure that material within your LongMill cutting area</li>
-<li>Have a cutting tool (a.k.a. “bit”) in-hand that matches your project</li>
-<li>Secure that bit into the router</li>
-<li>Begin at the correct starting point for the selected project</li>
-<li>Turn on the router at the correct speed and then “Start Job”!</li>
-</ol>
+1. Have a piece of material in-hand that matches the project you selected
+1. Secure that material within your LongMill cutting area
+1. Have a cutting tool (a.k.a. “bit”) in-hand that matches your project
+1. Secure that bit into the router
+1. Begin at the correct starting point for the selected project
+1. Turn on the router at the correct speed and then “Start Job”!
 
-<h3>Project Material</h3>
+### Project Material
 
 Check the project you selected to see what type of material is suggested and the minimum size needed to cut the project out. Hard insulation foam and soft woods are ideal for starting out since they cut so easily. Once you find a piece of material that fits these requirements you’ve now obtained your ‘stock material’. This term is commonly used in the world of CNC and refers to any material that will act as the raw, blank canvas that you plan to carve into.
 
 ![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_Finding-stock-material-scaled.jpg){.aligncenter .size-medium}
 
-<h3>Securing it in Place</h3>
+### Securing it in Place
 
 You can put your material anywhere you want inside the cutting area of your LongMill - if the machine can reach it, it can cut it. Some beginner tips when placing your material are:
 
-<ol>
-<li>Place it closer to the front so you can access it more easily when you attach it at the start of a job or remove it at the end</li>
-<li>Don’t attach your material too crooked or wonky, if you can get it square and aligned to the machine then the cut will line up better</li>
-<li>If you attach your material using hardware like screws or nails, try to select material with some extra space around it or keep the hardware all the way at the edges to avoid running into them when cutting</li>
-</ol>
+1. Place it closer to the front so you can access it more easily when you attach it at the start of a job or remove it at the end
+1. Don’t attach your material too crooked or wonky, if you can get it square and aligned to the machine then the cut will line up better
+1. If you attach your material using hardware like screws or nails, try to select material with some extra space around it or keep the hardware all the way at the edges to avoid running into them when cutting
 
 ![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_Workholding-alignment_ann.png){.aligncenter .size-medium}
 
 If your machine is in the way, use the machine movement skills you gained on the previous page to jog away from the area you want to mount your stock. When mounting, don’t worry about getting fancy for your first project. Feel free to try something quick and easy using whatever you have on-hand so you can get to the fun part faster, cutting! Here’s some inspiration:
 
-<ul>
-<li>Wood screws</li>
-<li>Hot glue</li>
-<li>Carpet tape</li>
-<li>Nails hammered in at an angle</li>
-</ul>
+- Wood screws
+- Hot glue
+- Carpet tape
+- Nails hammered in at an angle
 
 Some projects cut slow and others cut faster so whatever you choose, just ensure you can get the material mounted securely. Give it a wiggle with your hands once mounted and it should feel properly stuck-on.
 
-<h3>Cutting Tools</h3>
+### Cutting Tools
 
 Scroll back up to the project you selected and this time check that you’ve got the right tool in-hand for the job. If you got a ‘Starter Pack’ with your machine then grab something from there or look around your shop or a local hardware store if you don’t have tools yet for your machine. Cutting tools come in all shapes and sizes. Machines like the LongMill tend to use purpose-made CNC cutting tools but can also use some of the more traditional and commonly available router bits.
 
@@ -93,7 +87,7 @@ Scroll back up to the project you selected and this time check that you’ve got
 
 The shape of the tool is usually the most important feature and will either be flat, rounded (a.k.a. ball ended or ball nosed), or v-shaped. The size of the cutting side of the tool is sometimes also important because if you need to carve small details you won’t be able to use a large cutting bit. If your selected project specifies a particular bit size then check the label on the packaging your bit came in to confirm it’ll be able to do the job.
 
-<h3>Installing the Tool</h3>
+### Installing the Tool
 
 Remember to be safe and mindful when a cutting tool is in or near your hands. Bits can be deceptively sharp and v-shaped ones can also be very pointy.
 
@@ -121,7 +115,7 @@ After finger tightening, use the wrenches to finish securing the bit. With the s
 
 ![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_Tighten-nut_ann-1.png){.aligncenter .size-medium}
 
-<h3>Get Located</h3>
+### Get Located
 
 With the material in place and the bit installed the last step is to tell the machine where to start cutting. Each project will say what its starting point is so you can check this above. Jog your MK2 so that the location of your cutting tool matches the location for your selected project. For the Z-axis, jog most of the way down to the material then rotate the Z-axis coupler by hand to move the bit the rest of the way until it barely touches the surface.
 
@@ -133,7 +127,7 @@ With the bit in position, click the ‘Zero All’ button and you’ll see to th
 
 ![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_LongMill-Lettering-Zero.png){.aligncenter .size-medium}
 
-<h3>Start cutting!</h3>
+### Start cutting!
 
 If you haven't already, download your project's g-code file by clicking on the project name in the project table above. We'll be opening this file up to run it so click the 'Load File' button in the bottom left of gSender (pictured) and then select your downloaded project file to open it up. The common places to check on your computer will be the 'documents' or 'downloads' folders.
 
@@ -141,7 +135,7 @@ Once selected, you should see your project appear in the visualizer and the loca
 
 ![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_LongMill-Lettering-Start-job.png){.aligncenter .size-medium}
 
-<h2>Job Well Done</h2>
+## Job Well Done
 
 How'd it turn out?? Turn off the router, move the machine out of the way, and detach your material from the cutting area to inspect the result! A new thing was just made right in front of your eyes - it’s magical but also totally real at the same time. You’ve now got the power of CNC at your fingertips.
 
@@ -151,31 +145,27 @@ If you bought the touch plate, dust shoe, t-track, or any other add-ons alongsid
 
 ![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_next-steps_ann.png){.aligncenter .size-medium}
 
-The <b>Handbook</b> section that follows the add-on assembly will be the spot you’ll want to check out next. This contains all the information you'd want to refer to for all your day-to-day CNC operation including:
+The **Handbook** section that follows the add-on assembly will be the spot you’ll want to check out next. This contains all the information you'd want to refer to for all your day-to-day CNC operation including:
 
-<ul>
-<li>Machine maintenance</li>
-<li>Wasteboard surfacing</li>
-<li>Guidance on running jobs from start to finish</li>
-<li>Project sources and inspiration</li>
-<li>CNC terms glossary</li>
-<li>CNC troubleshooting (in case you hit any issues during your assembly)</li>
-<li>and more! <a href="https://resources.sienci.com/view/lmk2-handbook" target="_blank" rel="noopener noreferrer">https://resources.sienci.com/view/lmk2-handbook</a></li>
-</ul>
+- Machine maintenance
+- Wasteboard surfacing
+- Guidance on running jobs from start to finish
+- Project sources and inspiration
+- CNC terms glossary
+- CNC troubleshooting (in case you hit any issues during your assembly)
+- and more! <a href="https://resources.sienci.com/view/lmk2-handbook" target="_blank" rel="noopener noreferrer">https://resources.sienci.com/view/lmk2-handbook</a>
 
-<h2>Our YouTube channel</h2>
+## Our YouTube channel
 
 We also have a <b><a href="https://www.YouTube.com/channel/UCS4SdQ0sqFhvjitLjh4EsGQ?" target="_blank" rel="noopener noreferrer">YouTube channel</a></b> where you can find videos and tutorials on using your LongMill like:
 
-<ul>
-<li>How to go from idea to completed project</li>
-<li>V-carving signs</li>
-<li>Carving 3D hills and terrain</li>
-<li>Live Webinars and Q&amp;A sessions</li>
-<li>and more!</li>
-</ul>
+- How to go from idea to completed project
+- V-carving signs
+- Carving 3D hills and terrain
+- Live Webinars and Q&A sessions
+- and more!
 
-<h2>Additional Project Videos</h2>
+## Additional Project Videos
 
 Each of these project videos come with step-by-step instructions on making your own!
 

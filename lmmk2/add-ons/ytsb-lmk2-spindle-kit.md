@@ -21,7 +21,7 @@ If you prefer to watch a video of this process, check out Jason's video below:
 
 https://www.youtube.com/watch?v=5mEJLWWHE-Y
 
-<h2>Machine Setup</h2>
+## Machine Setup
 
 You will need:
 
@@ -111,7 +111,7 @@ You will need:
 </li>
 </ol>
 
-<h2>gSender Settings</h2>
+## gSender Settings
 
 <ol>
   <li>Connect to the machine on gSender.</li>
@@ -148,7 +148,7 @@ You will need:
 </li>
 </ol>
 
-<h2>Spindle Break-in</h2>
+## Spindle Break-in
 
 The grease inside the bearings may have shifted during transportation, it is recommended that you run a “break-in” cycle to redistribute the grease before using your spindle. To do this, you can download and run the g-code file below on gSender, which should take 1 hour 40 minutes to run.
 

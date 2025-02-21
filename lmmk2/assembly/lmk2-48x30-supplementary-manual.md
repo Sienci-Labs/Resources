@@ -23,7 +23,7 @@ There will also be a link to bring you to the alternate steps and another link a
 
 If you’d like a printed copy of the entire assembly manual for the 48x30 LongMill, print the <a href="/mk2.5-48x30-assembly-manual/" target="_blank" rel="noopener">48x30 MK2.5 assembly manual</a> PDF which includes this document at the end of the main manual. If using a printed assembly manual, follow the name of the assembly step called in the main assembly manual and find that step in this accompanying manual.
 
-<h2>48” X-axis rail box unpacking</h2>
+## 48” X-axis rail box unpacking
 
 Inside the 48” X-axis rail box, you’ll find the X-axis rail packaged with 5 boxes - three of which contain various hardware used throughout assembly, and two empty void boxes which serve to fill empty space inside the rail box and better protect the X-axis rail during shipping. These can be discarded.
 
@@ -43,7 +43,7 @@ The ‘EX hardware box’ contains various hardware that is used when assembling
 
 <a href="https://resources.sienci.com/view/lm-unboxing/#tools-youll-need">Continue to next step in main LongMill MK2.5 assembly manual</a>
 
-<h2>EX Delrin nut mounting</h2>
+## EX Delrin nut mounting
 
 <img class="wid aligncenter wp-image-7177 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_extra48_Header-T12-antibacklashspringers.png" alt="" width="850" height="200" />
 
@@ -61,7 +61,7 @@ Tighten these bolts only until the spring lock washer has been flattened on the 
 
 <a href="https://resources.sienci.com/view/lmk2-x-and-z-axes/#connecting-the-sub-assemblies">Continue to next step in main LongMill MK2.5 assembly manual</a>
 
-<h2>EX Y-gantry assembly</h2>
+## EX Y-gantry assembly
 
 <img class="wid aligncenter wp-image-10745 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_extra48_4830_PN_7.png" alt="" width="850" height="200" />
 
@@ -75,9 +75,9 @@ Each of these Y-gantry plates will also have two sets of holes used for mounting
 
 <a href="https://resources.sienci.com/view/lmk2-y-axis-gantries/#y-axis-middle-feet">Continue to next step in main LongMill MK2.5 assembly manual</a>
 
-<h2>EX Lead screw assembly</h2>
+## EX Lead screw assembly
 
-<h3>X-axis motor mounting</h3>
+### X-axis motor mounting
 
 <img class="wid aligncenter wp-image-7171 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_extra48_Header-new-coupler.png" alt="" width="850" height="300" />
 
@@ -95,7 +95,7 @@ Mount this assembly onto the left Y-gantry plate, keeping the flange bearing in 
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4442.jpg){.aligncenter .size-medium}
 
-<h3>X-axis lead screw installation</h3>
+### X-axis lead screw installation
 
 <img class="wid aligncenter wp-image-7180 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_extra48_48Xtension-pics-6-1.png" alt="" width="850" height="400" />
 
@@ -151,9 +151,9 @@ Remove any screwdrivers, Allen keys, or bolts from the coupler on the opposite s
 
 <a href="https://resources.sienci.com/view/lmk2-motors-and-wiring/">Continue to next step in main LongMill MK2.5 assembly manual</a>
 
-<h2>Cable extension installation</h2>
+## Cable extension installation
 
-<h3>Connecting and routing cables</h3>
+### Connecting and routing cables
 
 <img class="wid aligncenter wp-image-7185 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_extra48_Header-routing-cables.png" alt="" width="850" height="202" />
 
@@ -189,7 +189,7 @@ Secure the cables inside the drag chain by re-clipping each clip, then Attach th
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4545.jpg){.aligncenter .size-medium}
 
-<h3>Organizing excess cable lengths</h3>
+### Organizing excess cable lengths
 
 <img class="wid aligncenter wp-image-3800 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_extra48_4830_PN_6.png" alt="" width="850" height="200" />
 
