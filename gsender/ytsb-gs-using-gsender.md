@@ -14,22 +14,36 @@ custom_fields:
 skip_file: no
 featured_image: 
 ---
+Questions:
 
-Here's a great video that goes over much of how a g-code sender works in the context of gSender. See Kelly explain many of its uses and features:
+1. I can see COM 5, then COM 3, then COM 4, then Ethernet. Where are my COM 1 and 2? How do I know which one to choose?
 
-https://www.youtube.com/watch?v=3XbJ0g7jp0I
+2. Why is workspace labelled G54 - G59 (g-code I assume) plus (P1) through (P6). Should we not reference Workspace 1 through 6?
+
+3. Where are jogging presets available for changing? Setting -> General in old version, where are they now?
+
+4. Scrolling through Config - No sidebar to see where I'm at. Left side icons don't highlight when you move to a new section. I can be in Automations, but Basics is still highlighted on the left
+
+5. Do we have a .jpg or image of the target icon for Zero All? Or I can screen shot and inline text
+
+6. Do we have the Go To airplane .jpg? Or I can screen shot and inline text
+
+7. Is G90 absolute and G91 Relative movements?
+
+
+---
 
 ## Starting Up
 
 When you double click the gSender icon to open up the program, it can take several extra seconds to load if you have Microsoft real time virus protection on your computer. This scan delay should only happen the first time you turn on your computer.
 
-Connect to your CNC machine by hovering over ‘Connect to Machine’ at the top left corner. You'll need to select the right firmware for your board, but just the first time you connect. Most hobby boards use "grbl" including our original LongBoard, but if you have the SLB or LongMill MK2.5, then you'll want to select "grblHAL". You'll see these options in the dropdown where the selected one has white text.
+Connect to your CNC machine by hovering over ‘Connect to Machine’ at the top left corner of the screen. You will need to select one of the COM ports if this is the 1st time connecting. Once you've connected for the first time, you can connect via Ethernet moving forward. gSender will automatically detect if you are using "grbl" or "grblHAL" and connect you to the correct version. Most hobby boards use "grbl" including our original LongBoard, but if you have the SLB or LongMill MK2.5, then you'll use "grblHAL".
 
-Sometimes there’s more than one COM port available, so you may need to try both to see which one your machine is connected to. If you are seeing errors pop up or your machine isn’t acting correctly, ensure that you have selected the correct connection type.
+Sometimes there’s more than one COM port available, so you may need to try both to see which one your machine is connected to. Once connected, you will find your software version listed under the COM port selected.
 
 ![](/_images/_gsender/_using/gs_us_connect.jpg){.aligncenter .size-full}
 
-Once you have selected the COM port, your machine should be connected. This is confirmed when you see the plug icon turn green with a check mark. You should also see the status on the top right corner of the visualizer change to 'Idle', and the controls activate, allowing you to press them.
+Once you have selected the COM port, your machine should be connected. This is confirmed when you see the plug icon turn green. You should also see the status on the top center part of the visualizer change to 'Idle', and the controls activate, allowing you to press them. Controls are blue when active and grey when not active.
 
 ![](/_images/_gsender/_using/gs_us_connected-idle.jpg){.aligncenter .size-full}
 
@@ -41,11 +55,11 @@ If you are not seeing those changes when you connect, please check the following
 
 ## Jogging and Presets
 
-You can move the machine by using the Jog Control, through the arrow buttons. Change the 'XY move' and 'Z move' to adjust the distance you travel per click. You can also change 'Speed', which determines how fast the machine will move when jogging.
+You can move the machine by using the Jog Control, through the arrow buttons. Change the 'XY value' and 'Z value' to adjust the distance you travel per click. You can also change 'Speed', which determines how fast the machine will move when jogging. That value is reflected in the 'at box'.
 
 ![](/_images/_gsender/_using/gs_us_jogging.jpg){.aligncenter .size-full}
 
-The 'Rapid', 'Normal', and 'Precise' buttons will allow you to toggle to different distance and speed values quickly. You can change these values by going to the settings and editing the 'Jogging Presets' in the 'General' section.
+The 'Rapid', 'Normal', and 'Precise' buttons are preset values that will allow you to toggle to different distance and speed values quickly. You can change these values by going to WHERE AM I GOING?
 
 ![](/_images/_gsender/_using/gs_us_jog-presets.jpg){.aligncenter .size-full}
 
@@ -53,36 +67,41 @@ The 'Rapid', 'Normal', and 'Precise' buttons will allow you to toggle to differe
 
 Each g-code file or project will have a starting position that all other movements are referenced off of. This is the zero or origin. There are two ways to manually set your zero on gSender.
 
-1. Set the zero for each axis one at a time using 'Zero X', 'Zero Y', and 'Zero Z' buttons
+1. Set the zero for each axis one at a time using 'X0', 'Y0', and 'Z0' buttons
 ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-individual.jpg){.aligncenter .size-full}
-1. Set the zeros all at once using 'Zero All'
+1. Set the zeros all at once using 'Zero'
 ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-all.jpg){.aligncenter .size-full}
 
-The large blue numbers tell you the current position of your machine. If you want to return to your zero position, you can press the 'Go to' for each individual axis and the large blue numbers will read “0.00” once it's finished moving.
+The large blue numbers tell you the current position of your machine. If you want to return to your zero position, you can press the blue button under 'Go' for each individual axis and the large blue numbers for each corresponding axis, will read “0.00” once it's finished moving.
 
 ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos.jpg){.aligncenter .size-medium}
 
-You can also use the 'Go to XY0' to return to the starting position in X and Y in one movement. 'Go XY0' **will not** move the z-axis to its zero.
+You can also use the 'XY' to return to the starting position in X and Y in one movement. 'Go XY' **will not** move the z-axis to its zero.
 
 ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos_goxy0.jpg){.aligncenter .size-medium}
 
-*Note: if you’ve set up “Safe Height” in gSender, then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
+*Note: if you’ve set up “Safe Height” in gSender (Config -> Basics -> Safe Height), then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
 
 ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos_goto.jpg){.aligncenter .size-medium}
 
-If you want to go somewhere else quickly without manually jogging there, you can also use the 'Go To' button to bring you to a specific location. You'll see a popup asking you where you want to go and you either type a specific location (absolute) or move some amount from where you are now (relative).
+If you want to go somewhere else quickly without manually jogging there, you can also use the 'Paper Airplane' button to bring you to a specific location. You'll see a popup asking you where you want to go and you either type a specific location (absolute G90) or move some amount from where you are now (relative G91).
 
 ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_goto-location-gif.gif){.aligncenter .size-medium}
 
 You can reset your zeros anytime when the machine is not actively running a job. The machine will remember your zero in most cases. If you turn the lead screw with your fingers or push the gantry, the machine does not know you moved it, therefore it will lose the zero position. You can jog on the Jog Control without losing your zero position because gSender knows you are moving the machine.
 
-You can also enter coordinates directly by clicking the location value. It’ll turn into a white box where you can type any number, then hit the ‘enter’ key to confirm it. For instance you could set your Z-axis to 0.1mm instead of 0 if you’re using the paper method and you want to account for the paper thickness. Another example is instead of jogging 10mm to the right and clicking ‘zero’ to begin cutting a duplicate job that’s shifted over, you can just type “-10” and start the job right away (since if ‘zero’ is 10mm to the right, then your current location would be 0 - 10 = -10mm).
+You can also enter coordinates directly by clicking the blue text location value. It’ll turn into a white box where you can type any number, then hit the ‘enter’ key to confirm it. For instance you could set your Z-axis to 0.1mm instead of 0 if you’re using the paper method and you want to account for the paper thickness. 
+
+
+THIS DOESN'T MAKE SENSE TO ME -> Another example is instead of jogging 10mm to the right and clicking ‘zero’ to begin cutting a duplicate job that’s shifted over, you can just type “-10” and start the job right away (since if ‘zero’ is 10mm to the right, then your current location would be 0 - 10 = -10mm).
 
 ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_dro-typing.jpg){.aligncenter .size-full}
 
+WHAT ARE THE GREY NUMBERS AND WHY DO I CARE ABOUT THEM? HOMING ENABLED
+
 ## Endstop buttons
 
-gSender provides unique features if you have endstops on your machine for homing or limits. Once homing is enabled ($22) you’ll notice additional buttons appear in the ‘Location’ area of gSender:
+gSender provides unique features if you have endstops on your machine for homing or limits. Once homing is enabled (Config -> Limits and Homing -> Homing cycle enable toggle) you’ll notice additional buttons appear in the ‘Jogging’ area of gSender:
 
 - The ‘Home’ button is a convenient way to home or re-home your machine at any time (sends the typical $h command).
 - Four “quick-travel” buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed, you’ll also notice a house icon appear at the corner that your machine homes to.
