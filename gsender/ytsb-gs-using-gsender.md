@@ -28,8 +28,7 @@ Questions:
 
 6. Do we have the Go To airplane .jpg? Or I can screen shot and inline text
 
-7. Is G90 absolute and G91 Relative movements?
-
+7. Is G90 absolute and G91 Relative movements? Yes
 
 ---
 
@@ -92,24 +91,23 @@ You can reset your zeros anytime when the machine is not actively running a job.
 
 You can also enter coordinates directly by clicking the blue text location value. It’ll turn into a white box where you can type any number, then hit the ‘enter’ key to confirm it. For instance you could set your Z-axis to 0.1mm instead of 0 if you’re using the paper method and you want to account for the paper thickness. 
 
-
-THIS DOESN'T MAKE SENSE TO ME -> Another example is instead of jogging 10mm to the right and clicking ‘zero’ to begin cutting a duplicate job that’s shifted over, you can just type “-10” and start the job right away (since if ‘zero’ is 10mm to the right, then your current location would be 0 - 10 = -10mm).
+Another example is instead of jogging 10mm to the right and clicking ‘zero’ to begin cutting a duplicate job that’s shifted over, you can just type “-10” and start the job right away (since if ‘zero’ is 10mm to the right, then your current location would be 0 - 10 = -10mm).
 
 ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_dro-typing.jpg){.aligncenter .size-full}
 
 WHAT ARE THE GREY NUMBERS AND WHY DO I CARE ABOUT THEM? HOMING ENABLED
 
-## Endstop buttons
+## Limits and Homing
 
 gSender provides unique features if you have endstops on your machine for homing or limits. Once homing is enabled (Config -> Limits and Homing -> Homing cycle enable toggle) you’ll notice additional buttons appear in the ‘Jogging’ area of gSender:
 
 - The ‘Home’ button is a convenient way to home or re-home your machine at any time (sends the typical $h command).
-- Four “quick-travel” buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed, you’ll also notice a house icon appear at the corner that your machine homes to.
-- If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials (before it would move up by the safe height amount).
+- Four “quick-travel” buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed.
+- If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials (before it would move up by the safe height amount).DOUBLE CHECK THAT THIS IS NOW WORKING
 
 ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_quick-travel.jpg){.aligncenter .size-full}
 
-If you’re having issues with the “quick-travel” buttons, then check the “maximum travel” settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings in the Firmware tool as $130-133.
+If you’re having issues with the “quick-travel” buttons, then check the “maximum travel” settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings in the Config tab -> Limits and Homing -> X-axis maximum travel (Y, Z and A axes are here too), $130-133.
 
 If you'd like more information on how to set up and use limit switches, read here: <a href="https://resources.sienci.com/view/lm-adding-limit-switches/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-adding-limit-switches/</a>
 
