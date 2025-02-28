@@ -5,7 +5,7 @@ post_status: draft
 post_excerpt: See how to mount and wire custom limit switches or the inductive limit switch kit to the LongMill MK2. See how limit switches work and if they're for you.
 post_date: 2022-03-17 20:23:00
 taxonomy:
-    knowledgebase_cat: lmk2-add-on
+    knowledgebase_cat: lmk2-add-ons
     knowledgebase_tag:
         - mk2
 custom_fields:

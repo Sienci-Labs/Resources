@@ -5,7 +5,7 @@ post_status: draft
 post_excerpt: See how to set up and assemble the Sienci Labs T-Track set and clamping system for the LongMill MK2 which uses standard ¼-20 hex nuts and bolts.
 post_date: 2022-03-17 20:25:00
 taxonomy:
-    knowledgebase_cat: lmk2-add-on
+    knowledgebase_cat: lmk2-add-ons
     knowledgebase_tag:
         - mk2
 custom_fields:

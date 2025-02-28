@@ -5,7 +5,7 @@ post_status: draft
 post_excerpt: 
 post_date: 2022-03-17 20:26:00
 taxonomy:
-    knowledgebase_cat: lmk2-add-on
+    knowledgebase_cat: lmk2-add-ons
     knowledgebase_tag:
         - mk2
 custom_fields:
