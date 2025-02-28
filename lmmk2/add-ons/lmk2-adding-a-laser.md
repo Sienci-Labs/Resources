@@ -5,7 +5,7 @@ post_status: publish
 post_excerpt: How to set up a laser module for the LongMill CNC. Includes safety considerations, firmware changes, software recommendation, and wiring set-up guidelines.
 post_date: 2022-03-17 20:27:10
 taxonomy:
-    knowledgebase_cat: lmk2-add-on
+    knowledgebase_cat: lmk2-advanced
     knowledgebase_tag:
         - mk2
 custom_fields:
@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/_lmmk2/_add-ons/lmk2_LaserBeam-Logo.jpg
 ---
 
-Putting a laser on your LongMill or any CNC machine can be a fun and useful tool in expanding your creativity. The LongMill fully supports the addition of a laser module.
+Putting a laser on your LongMill or any CNC machine can be a fun and useful tool in expanding your creativity. The LongMill fully supports the use of either our own LaserBeam module or an aftermarket laser module.
 
 If you've purchased a laser module from us, all the information about assembling and using the <a href="https://sienci.com/product/laser/" target="_blank" rel="noopener">LaserBeam System</a> can be found in it's own resources section here: <a href="https://resources.sienci.com/view/lb-manual/">https://resources.sienci.com/view/lb-manual/</a>
 
