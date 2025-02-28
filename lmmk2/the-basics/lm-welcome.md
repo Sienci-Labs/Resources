@@ -17,7 +17,7 @@ featured_image: _images/_lmmk2/_the-basics/lmk2_welcome_navigation.jpg
 
 <p style="margin-bottom: -20px;">Hello and welcome to your ⤦</p>
 
-## LongMill MK2 Resources
+## LongMill MK2/2.5 Resources
 
 This is an area that we've spent years writing, photographing, and tweaking to make it the easiest and most all-encompassing area to learn about all things LongMill and hobby CNC.
 

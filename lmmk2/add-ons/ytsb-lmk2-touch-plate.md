@@ -5,7 +5,7 @@ post_status: draft
 post_excerpt: How to set up and use the touch plates for your LongMill CNC.
 post_date: 2022-03-17 20:19:00
 taxonomy:
-    knowledgebase_cat: lmk2-add-ons
+    knowledgebase_cat: lmk2-add-on
     knowledgebase_tag:
         - mk2
 custom_fields:

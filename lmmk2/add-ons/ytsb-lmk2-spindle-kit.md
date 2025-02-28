@@ -5,7 +5,7 @@ post_status: draft
 post_excerpt: How to set up your Sienci Labs 1.5KW air-cooled spindle for the LongMill MK2 CNC machine. Includes wiring instructions and firmware changes on gSender.
 post_date: 2022-03-17 20:28:00
 taxonomy:
-    knowledgebase_cat: lmk2-add-ons
+    knowledgebase_cat: lmk2-add-on
     knowledgebase_tag:
         - mk2
 custom_fields:
