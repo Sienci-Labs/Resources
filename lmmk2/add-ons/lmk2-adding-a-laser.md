@@ -1,8 +1,8 @@
 ---
 title: Laser 🔥
-menu_order: 6
+menu_order: 0
 post_status: publish
-post_excerpt: How to set up a laser module for the LongMill CNC. Includes safety considerations, firmware changes, software recommendation, and wiring set-up guidelines.
+post_excerpt: How to modify EEPROM setting for the LongMill CNC. These settings control the speed and direction of movement, machine limits, and activation of limit switches.
 post_date: 2022-03-17 20:27:10
 taxonomy:
     knowledgebase_cat: lmk2-advanced
@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_lmmk2/_add-ons/lmk2_LaserBeam-Logo.jpg
+featured_image: 
 ---
 
 Putting a laser on your LongMill or any CNC machine can be a fun and useful tool in expanding your creativity. The LongMill fully supports the use of either our own LaserBeam module or an aftermarket laser module.
