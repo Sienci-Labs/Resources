@@ -15,39 +15,70 @@ skip_file: no
 featured_image: 
 ---
 
+-In Keyboard shortcuts, no tab is shown. I'm expecting to still see the tools tab highlighted.
+
+- Keyboard shortcuts text seems very small, tons of white space.
+
+- Are we printing shortcuts? Remove or updates section [shortcutprinting](#shortcut-printing)
+
+- Jogging shortcuts have X and Y and A, but no Z
+- Resetting shortcut and setting it again shows the previous entry. Not sure if that's on purpose. Seen in gif. Happens on all shortcut fields, tried another and G appears again.
+
+- Are we adding a turn off all shortcuts/enable all shortcuts button?
+
+- Are we doing preloaded gamepad profiles?
+
+- Adding a gamepad - unable to recognize or proceed
+
+- Revisit Gamepad section once new push is complete
+
+- Lightweight mode revisit
+
+- Don't understand Spindle/Laser. Can we review this? I have neither, so is one a default off? I upgraded gSender and loaded a file and it was red. Clicked the Spindle/laser toggles, (but they ended up the same) and it fixed the file to blue. Are the Carve bottom right toggle and the Config toggle the same? 
+
+- Spindle/Laser can we label the forward and stop M3 and M5 buttons in config?
+
+- On the carve page, again we are very complex. CW (M3) could easily be replaced with 'forward'. If it's simply a button and experts 'know what they are doing', let the experts use the console and M3, but help the newbs out with better teaching. CCW = Counter Clock Wise, good lord...
+
+- Circle back to lightweight mode once new version is pushed
+
+
+
+---
+
 This page covers all the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, lasers, coolant, and more. Remember, you can always quickly navigate the page by clicking the headings in the 'Page Contents'.
 
 ## Shortcuts
 
 Starting off as a more advanced gSender user, the first feature you’ll want to leverage is shortcuts. These can allow you to assign gSender or CNC actions to keys and key combinations or even to gamepads and joystick movements. There are 3rd party apps like <a href="https://joytokey.net/en/">JoyToKey</a>, <a href="https://xpadder.com/?lang=english&amp;country=CA">Xpadder</a>, <a href="https://www.comfortsoftware.com/comfort-keys/">Comfort Keys Pro</a> and <a href="https://www.rewasd.com/">reWASD</a> that allow you to do this, but to eliminate needing to download and configure other programs we’ve rolled all the functionality into gSender itself.
 
-Going to the settings gear, then the 'Shortcuts' section, you'll see that shortcuts can come in the form of 'Keyboard Shortcuts' or 'Gamepad Shortcuts', all searchable by category. Both options enable you to set up, modify, and enable or disable shortcuts. These will be automatically saved when you close the dialog box and will remain on gSender as long as the program is installed on your computer.
+Going to the Tools tab, you'll see that shortcuts can come in the form of **Keyboard Shortcuts** or **Gamepad**. Both options enable you to set up, modify, and enable or disable shortcuts. These will be automatically saved when you close the dialog box and will remain on gSender as long as the program is installed on your computer.
+
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_shortcutstoolstab.jpg){.aligncenter .size-medium}
 
 ### Shortcut Printing
 
 Find yourself forgetting how you’ve configured your keyboard or gamepad profile shortcuts? Hit the ‘Print’ button to generate a simple PDF that you can store on a tablet or print on some paper to keep next to your CNC. This PDF will contain all the shortcuts you’ve created and what actions they’re assigned to.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_print.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_print.jpg){.aligncenter .size-medium}
 
 ### Keyboard Shortcuts
 
-Either for use on a keyboard, macro pad, or mini Bluetooth keyboard, these are split up into categories so they're easy to locate and modify. There are shortcuts for carving, overrides, jogging, zero setting, probing, macros, visualization, window navigation, and more!
+Either for use on a keyboard, macro pad, or mini Bluetooth keyboard, these are split up into categories you can see in the red box, so they're easy to locate and modify. There are **over 70+ shortcuts** presets already available for carving, overrides, jogging, zero setting, probing, macros, visualization, window navigation, and more!
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_keyboard.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_shortcutstab.jpg){.aligncenter .size-medium}
 
 ### Common Shortcuts
 
 A great place to start is the Jogging category. In the picture below, see that right now we can jog the **X-axis** by hitting the shift + right or shift + left keys. The **Y-axis** responds to shift + up and shift + down keys and the **Z-axis** uses the shift + pageup and shift + pagedown keys. Being able to look at your CNC, while your hand is on your keyboard is a great way to ensure you are moving in the right direction, without having to look back at your screen to click the mouse on the right button.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_keyboard-common.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_commonjog.jpg){.aligncenter .size-medium}
 
-You can use the preset shortcuts and/or add your own. Click the ‘+’ or the ‘edit’ to the right of each shortcut to bring up a popup window that allows you to add or edit your own key combination (shown in the example below). You can see it’s as easy as pressing the key or key combination once the popup is open. In addition, you’ll be informed if the combination you’ve entered is already used elsewhere and be given the option to overwrite the existing one if you want.
+You can use the preset shortcuts, edit them and/or add your own. Click the **edit** to the right of each shortcut text box to bring up a popup window that allows you to add or edit your own key combination (shown in the example below). You can see it’s as easy as pressing the key or key combination. In addition, you’ll be informed if the combination you’ve entered is already used elsewhere and be given the option to overwrite the existing one if you want.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_keyboard-add.gif){.aligncenter .size-full}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_editshort.gif){.aligncenter .size-full}
 
-You can turn on or off individual shortcuts in the **Active** column or enable/disable all shortcuts at the bottom of the window. Some people find this useful since it can turn off the shortcut temporarily without losing the key combination.
-
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_keyboard-enable.jpg){.aligncenter .size-full}
+You can turn on or off individual shortcuts in the **Status** column or enable/disable all shortcuts at the bottom of the window. Some people find this useful since it can turn off the shortcut temporarily without losing the key combination.
 
 ### Gamepad Shortcuts
 
@@ -55,7 +86,7 @@ Many users really love this feature since using a controller is convenient (espe
 
 We have some [pre-made profiles](#tested-gamepads) for gamepads we've already tested with gSender and you can still reference these if you have a different gamepad or want to make your own. To create your own, connect your gamepad to your computer and click the ‘Add New Gamepad Profile’ button, then make sure the gamepad is recognized before beginning to assign actions to each button. These profiles mean you can set up multiple gamepads if you'd like since they each have their own unique ID.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-add.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-add.jpg){.aligncenter .size-medium}
 
 If you run into difficulty with getting a particular gamepad set up in gSender, consider:
 
@@ -170,6 +201,8 @@ gSender has support for three types of touch plates:
 
 For a Z Probe, setting up is simple since you just need the thickness of the ‘puck’. Enter that value into gSender’s ‘Probe’ settings under ‘Z Thickness’ and you should be good to go!
 
+![](/_images/_gsender/_features/_probing/gs_fe_pr_probethick.jpg){.aligncenter .size-medium}
+
 If you’re trying to set up a custom ‘standard block’ plate, use some calipers to pick up on the measurements noted below. Once these are noted down, enter these into gSender’s ‘Probe’ settings in similarly named entries, and now you should find that gSender’s probing routine has been altered to fit the shape of your touch plate.
 
 ![](/_images/_gsender/_features/_probing/gs_fe_pr_dimensions.jpg){.aligncenter .size-medium}
@@ -180,23 +213,23 @@ If you have a coolant control pin on your CNC machine, gSender has a tab for man
 
 Many hobby CNCers don't have a need for coolant and so prefer to use these outputs for controlling other periphery. The most common is an IOT relay that can be used to automatically control a vacuum for dust collection, the CNC's router, LED lighting, and more. See an example of how to set that up here: <a href="https://resources.sienci.com/view/lm-iot-relay/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-iot-relay/</a>
 
-![](/_images/_gsender/_features/gs_fe_coolant-run.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_fe_coolantcontrol.gif){.aligncenter .size-full}
 
 ## Spindle & Laser Support
 
 Similar to the manual coolant control, this area is for manual control of a spindle or laser outside of g-code sending. If you have a spindle or laser, you can activate these controls by going to the settings gear at the far right. In the ‘Spindle/Laser’ section in the left toolbar, press the toggle for ‘Spindle/Laser’.
 
-![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_setting.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_laseron.jpg){.aligncenter .size-medium}
 
 Back at the main screen, you'll see the ‘Spindle/Laser’ tab at the bottom right. Here you can click to toggle between 'Spindle Mode' and 'Laser Mode', changing your grbl settings for you and displaying buttons specific to each device. For each mode there is also a red caution circle that indicates whether the spindle or laser is active. This works during manual control but also during job sending.
 
 In spindle mode you can set the spindle speed with a slider, spin it up in either direction, and stop it again with the 'Stop' button. These are all based on g-code commands that can also be entered into the console manually if desired. The speed slider is set from your grbl firmware settings, so max and min speed can be altered in the Firmware Tool.
 
-![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_spindle-on.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_turnonoff.gif){.aligncenter .size-full}
 
 'Laser Mode' is very similar, allowing for On/Off control, a slider for setting the laser power during manual control, and a ‘Laser Test’ button. The laser testing function is handy when troubleshooting your laser setup or for other sorts of locating and alignment because it only enables the laser for a short time before turning it back off again. Though this is much safer than regular on/off control, we still highly advise that you have you have a hand on a kill switch or E-stop during testing or control of either Laser or Spindle modes so that in case something goes wrong with your computer or the program they can still be safely deactivated.
 
-![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_laser-on.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_turnonlaser.gif){.aligncenter .size-full}
 
 ### Laser Diode Support
 
@@ -206,7 +239,7 @@ Since many CNCs are coming with diode accessories, gSender has some unique featu
 
 - Automatically apply an offset from the router/spindle to the laser so all your g-code files stay aligned (configured in the Spindle/Laser settings, or with Firmware settings $741 and 742 on the SLB)
 - Turn on the laser at low power when running a job outline (enabled in the Spindle/Laser settings). This will help you to better see where your project is going to be located on the material
-- Switch to a specialized visualization designed to show raster engraving images better than typical g-code visualizers. Seeing the laser intensity in the movements is very useful to get a better idea of what your projects are going to look like when they’re run. This will only apply to files loaded after ‘Laser mode’ is enabled and the colour can be customized in the settings
+- Switch to a specialized visualization designed to show raster engraving images better than typical g-code visualizers. Seeing the laser intensity in the movements is very useful to get a better idea of what your projects are going to look like when they’re run. This will only apply to files loaded after ‘Laser mode’ is enabled and the colour can be customized in the settings. By default you will see your loaded file turn from **blue** to **red**
 
 ![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_laser-vis.jpg){.aligncenter .size-medium}
 
