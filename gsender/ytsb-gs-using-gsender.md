@@ -16,40 +16,38 @@ featured_image:
 ---
 Questions:
 
+Note on homing going to a certain limit firmware stops, but may grind
+
 - Update https://resources.sienci.com/view/lmk2-limit-switches/#using-limit-switches section
 - Update https://resources.sienci.com/view/gs-additional-features/#touch-plate-setup section
 
 - Where are jogging presets available for changing? Setting -> General in old version, where are they now?
 
-- Now able to click into box, but unable to change values for preset movements
+C - Now able to click into box, but unable to change values for preset movements
 
-- Why has the visualizer flipped axis?
+C - SLB w Ethernet connection- Job crashing/stopping/Idle on Ethernet connection.
+C - Slow to connect on Ethernet
+C - Slow to load file, no loading icon shown on Ethernet
 
-- Job crashing/stopping/Idle on Ethernet connection.
-
-- Slow to connect on Ethernet
-
-- Slow to load file, no loading icon shown on Ethernet
-
-- 3D cube right shoulder button shows the design flat
+C - 3 spinning bits, unify colouring, how to handle loading screen now?
 
 - Ensure the Zero all button image is inline with the sentence
 
 - Zero All button should match Go To XY0 in size. Hurts my head to see the DRO offset like this
 
-- Airplane icon has text as Go To Location, but all docs reference Goto. Which way do we go? Giggle...
+C - Airplane icon has text as Go To Location, but all docs reference Goto. Which way do we go? Giggle...
 
-- Was able to run homing without limit switches, which I guess is ok. Hit the stop button 4 times before it stopped moving. Seemed to take longer than expected to stop.
-
-- Bit automation continues when the pause button is hit, as it's more visual than the bit, it feels like the machine isn't actually paused.
+C - Bit animation continues when the pause button is hit, as it's more visual than the bit, it feels like the machine isn't actually paused.
 
 - Hitting start job starts up the animated bar, but doesn't actually start the job, gotta hit start again.
 
-- Where do I enter tool size for probing? The text box is no longer editable, so we can't put in our own size?
+C - Where do I enter tool size for probing? The text box is no longer editable, so we can't put in our own size? Will all be bottom right tab widget area
 
-- Start from Line has when the job was stopped, but doesn't show the total lines of the job. For example: Your job was last stopped around line: 1985 on a g-code file with a total of lines. The words could be tweaked here too, but missing the total lines value.
+C - Start from Line has when the job was stopped, but doesn't show the total lines of the job. For example: Your job was last stopped around line: 1985 on a g-code file with a total of lines. The words could be tweaked here too, but missing the total lines value.
 
-- lacking consistency in Homing Limits as we flop them back and forth several times. Can we move the homing toggle to the homing section and keep this section all limits?
+C - Figure out consistency of units in config
+
+C - lacking consistency in Homing Limits as we flop them back and forth several times. Can we move the homing toggle to the homing section and keep this section all limits?
 
 ![](/_images/_gsender/_using/hominglimitsexample.jpg)
 

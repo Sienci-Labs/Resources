@@ -15,16 +15,16 @@ skip_file: no
 featured_image: 
 ---
 
--In Keyboard shortcuts, no tab is shown. I'm expecting to still see the tools tab highlighted.
-
-- Keyboard shortcuts text seems very small, tons of white space.
+C - Keyboard shortcut lots of white space on large screens
+C - Clicking into any tool on tools tab unhighlights tool tab which is confusing
 
 - Are we printing shortcuts? Remove or updates section [shortcutprinting](#shortcut-printing)
 
-- Jogging shortcuts have X and Y and A, but no Z
-- Resetting shortcut and setting it again shows the previous entry. Not sure if that's on purpose. Seen in gif. Happens on all shortcut fields, tried another and G appears again.
+C - Jogging shortcuts have X and Y and A, but no Z
+C - Don't understand the extra step of adding then recording the keyboard shortcut
+C- Using key entry for a shortcut, that key is remembered when doing it again for another shortcut
 
-- Are we adding a turn off all shortcuts/enable all shortcuts button?
+C - Are we adding a turn off all shortcuts/enable all shortcuts button?
 
 - Are we doing preloaded gamepad profiles?
 
@@ -32,17 +32,19 @@ featured_image:
 
 - Revisit Gamepad section once new push is complete
 
-- Lightweight mode revisit
+- Lightweight mode revisit. Visualizer lightweight mode 3 settings in config. Toggle on/off with feather. Dark/Light mode for visualizer only right now.
 
-- Don't understand Spindle/Laser. Can we review this? I have neither, so is one a default off? I upgraded gSender and loaded a file and it was red. Clicked the Spindle/laser toggles, (but they ended up the same) and it fixed the file to blue. Are the Carve bottom right toggle and the Config toggle the same? 
+C - When not in Carve tab, any click in top bar takes ET home.
 
-- Spindle/Laser can we label the forward and stop M3 and M5 buttons in config?
+C - no way to toggle on/off automations
 
-- On the carve page, again we are very complex. CW (M3) could easily be replaced with 'forward'. If it's simply a button and experts 'know what they are doing', let the experts use the console and M3, but help the newbs out with better teaching. CCW = Counter Clock Wise, good lord...
+C - make it so spindle/laser on popup in top bar doesn't appear if the spindle/laser tab isn't enabled to reduce confusion for users that don't have anything hooked up. Also check why tap doesn't say "Spindle/Laser" anymore
 
-- Circle back to lightweight mode once new version is pushed
+C - config Spindle/Laser M4 is missing
 
+C - Spindle control, maybe just change buttons to Forward/Stop/Reverse, also add back in icons previously used, decide if icons should be added back for laser buttons too, unify design to coolant controls and rotary too
 
+C - Rotary tab remote "tools" title to save space
 
 ---
 
