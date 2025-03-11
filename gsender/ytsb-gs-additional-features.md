@@ -48,6 +48,58 @@ C - Rotary tab remote "tools" title to save space
 
 ---
 
+- Reconnect automatically didn't work this morning. Had to connect manually. Double checked the config and toggle was on for reconnect.
+
+- No capital letters allowed in Macro Naming field
+
+- When I push the macro button, I see a popup that indicates the macro has started running. Should we make the button blue while the macro runs to indicate something has happened? Even a blue colour change on a short timer? Might be a bigger button convo, as none of our direction buttons react at all. That would be a nice upgrade.
+
+- Add a macro and hit the add a macro button and the screen closes. Edit a macro and hit update macro and you sit on the same screen, thinking nothing has happened. You have to manually close the box. Not the same as add.
+
+- Tried Go to previous work position G0X[Xo] Y[Y0] but got bad number format in the console and couldn't get the bit to move at all.
+
+- Macro icons no longer show description on hover.
+
+- XY Squaring, jog boxes are uneditable. This may be ok, just an observation.
+
+- Visualizer has gone blank now. (This may be computer related, see Loading files below)
+
+- I've recreated the Start bug. Gif is spinning, but time remaining isn't moving, bit isn't moving and start button is green. Jog is all blue. Hitting start again, begins the job. This is on a Grbl connection. Interestingly, hitting the start button in the surfacing wizard begins the carve right away.
+
+- Loading files seems to have a repeatable bug. Load a file. Load a new file. It seems to load the 1st file, not the 2nd selected. Double checked with gSender main build. Files loaded are different, not on Edge. Interestingly, I had a ton of stuff open on my computer. Closing it all and going with just gSender and VSCode open, I was unable to repeat the loading file bug.
+
+- Wasteboard surfacing repeats Cut Depth & Max text. 2nd one should be Spindle Speed
+
+- Wasteboard surfacing has 3 text boxes without labels. Spindle speed, RPM and bit diameter
+
+- While surfacing, I see the file name has changed from the file I loaded to a file named **cing**, but the path shows my previous 1_8 detail cut 2 .tap file. Hitting the refresh button on the file reloaded it and replaced the surfacing code, which was awesome! Should it say **surfacing**?
+
+- **G-code** spelling in Surfacing on the G-code Viewer
+
+- Stats page has Alarm **and** Errors. I've just come from surfacing where we use X **&** Y, Cut Depth **&** Max, instead of the word **and**. I like the ampersand, but we may want to be consistent.
+
+- Configuration in Stats page shows LongMill MK2 30x30, but when I hit the change button, it takes me to Config which shows I'm running the MK1 12x30. Are these fields not connected somehow?
+
+- Maintenance tab under Stats - Hours in the chart on the left don't match up with the list on the right. I have Cleaning Rails & Wheels at 10 hours in the chart, 19 hours in the list and on the overview screen. All of the chart numbers are miss-matched from the list on the right. Ah, Ok, they are ranges that trigger. Maybe we put the range on the left column? What is range and what is the actual number?
+
+- Maintenance tab under Stats - Search bar text **Search all columns** seems odd, maybe just Search? testing this it only searches task name, not description, so maybe Search Task Name could be the text?
+
+- Maintenance tab under Stats - I want to click the check mark to make the task disappear, and my mouse does change to a finger, so feels clickable, but nothing.
+
+- Alarms and Errors flips to Errors and Alarms when you go to the specific page. Clear alarm list button has Alarms and Errors, so probably just flip the title of this page & put some &'s in there. ;)
+
+- Errors and Alarms page is cutting off the icon/image on the left side of each alarm.
+
+- Tool Changing we have a note to add descriptions of currently selected strategy still
+
+- Tool Changing, fixed tool sensor, where do I put in the X, Y, Z positions now?
+
+- Remote mode coming back at some point?
+
+-
+
+---
+
 This page covers all the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, lasers, coolant, and more. Remember, you can always quickly navigate the page by clicking the headings in the 'Page Contents'.
 
 ## Shortcuts
@@ -319,7 +371,7 @@ When you first start up gSender, the console will display EEPROM settings that a
 
 To access EEPROM settings again, enter in “$$” into the console and hit the 'Enter' key or click the 'Run' button. These settings can be changed via the console as well as the Firmware Tool which we've designed as a much more visual way to alter machine settings.
 
-## Calibrate Tool
+## Tools
 
 The 'Calibration Tool' on gSender enables you to make finer adjustments to your machine for improved performance. There are three processes available on gSender:
 
@@ -390,6 +442,10 @@ You will need:
 ![](/_images/_gsender/_features/_calibrate/gs_fe_ca_tune-result.jpg){.aligncenter .size-medium}
 1. Repeat the procedure for each axis you wish to tune
 
+### Firmware Tool
+
+Any board you have will come pre-installed with CNC firmware, along with the custom EEPROM settings for that machine, so typically you won’t need to access the ‘Firmware’ tool. If you choose to use this tool, it can give you access to many of your machines "behind-the-scenes" settings for tweaking or modding your setup. Open it by clicking the ‘Firmware’ tool at the top of the screen.
+
 ### Surfacing
 
 https://youtu.be/jfInIEOB3kU
@@ -402,7 +458,7 @@ Surfacing the wasteboard of your machine can easily be done right inside gSender
    - **X & Y**: decides the cutting size (width and depth) you want to surface. If you’re surfacing your wasteboard, use the manufacturer’s spec on max machine travel or manually jog to the limits to cover the full cutting area, or if you’re surfacing a piece of material then you can use a measuring tape.<br>- **LongMill MK2**: 818mm (32.2”) or 1278 (50.3”) x 366mm (14.4”) or 866 (34.1”)<br>(if using limit switches, remove about 8mm/0.3” in X and 11mm/0.43” in Y)<br>- **LongMill MK1**: 320mm (12.6”) or 805 (31.7”) x 344mm (13.54”) or 844 (33.23”)<br>(if using limit switches, remove about 35mm/1.38” in X and 24mm/0.94” in Y)<br>(if using magnetic dust shoe, remove about 34mm/1.34” in X)<br>- **Mill One**: 235mm (9.25”) or 257 (10.1”) x 185mm (7.28”)
    - **Cut Depth & Max**: describes how deep you want to cut per pass and the total depth you want to cut down. For larger surfacing bits usually you should keep cut depth below 1mm, max depth should be increased to a couple millimeters if you think your material is very warped.
    - **Bit** (typically 6 - 25mm): make sure you have the right bit for the job like a surfacing tool or a large, flat end mill since this will give you a better surface finish.
-   - **Spindle RPM** (default 1700): only applies if you have an automatic speed control, otherwise set this manually on your router.
+   - **Spindle RPM** (default 17000): only applies if you have an automatic speed control, otherwise set this manually on your router.
    - **Feed rate** (default 2500mm/min): influenced by the RPM, step over, bit diameter, and cut depth. Luckily if you set it incorrectly you’ll be able to override it during the job since surfacing can cause burning when cutting too slow or can have worse surface finish when cutting too fast.
    - **Step over** (default 40%): sticking around 40% tends to be a good balance between speed (using a higher %) and better surface finish (using a lower %).
 ![](/_images/_gsender/_features/_surface/gs_fe_su_settings.jpg){.aligncenter .size-full}
@@ -417,27 +473,27 @@ Did you know that surfacing can be used for more than your wasteboard? It’s gr
 
 ## Job Stats and CNC Maintenance
 
-Curious to know how many jobs you’ve completed, how many hours you’ve put on your machine or what maintenance you should be focusing on? Find this information in the 'Job History & Stats' section of Settings. Here you will find 3 tabs; Statistics, Job Table, and Maintenance.
+Curious to know how many jobs you’ve completed, how many hours you’ve put on your machine, what maintenance you should be focusing on or what recent errors/alarms you've had? Find this information in the **Stats tab**. Here you will find 5 sub-tabs; Overview, Jobs, Maintenance, Alarms and About.
 
 ![](/_images/_gsender/_features/gs_fe_stats-gif.gif){.aligncenter .size-full}
 
-### Statistics
+### Overview
 
-The statistics tab has a dropdown menu that allows you to select between Overall Stats, Jobs Per Com Port (each com port is a different machine), and Run Time Per Com Port. These selections will show your statistics for total, average and longest runtime along with total, completed and cancelled jobs.
+The Overview tab has a dashboard, that provides some *high level *info on each sub-section  These selections will show your statistics for total, average and longest runtime along with total, completed and cancelled jobs.
 
-### Job Table
+### Recent Jobs
 
 The Job Table tab provides a simplified breakdown of each job, including the file name, duration of the job, number of lines in the job, the start date/time and completion status. This chart can be filtered by hitting the column header, or expanded to show more entries.
 
-### Maintenance
+### Upcoming Maintenance
 
 In the Maintenance tab, you will see preset tasks with an hourly countdown range, to remind you when a maintenance task is due to be performed. These times pull directly from the runtime of your jobs and allow you to mark them as complete to reset the timers. Once the task is in range, the maintenance is due, once past the range, the task becomes critical to address.
 
 You can also add your own reminders, time due range and description to this section, to really make it your own.
 
-## Firmware Tool
+### Alarms & Errors
 
-Any board you have will come pre-installed with CNC firmware, along with the custom EEPROM settings for that machine, so typically you won’t need to access the ‘Firmware’ tool. If you choose to use this tool, it can give you access to many of your machines "behind-the-scenes" settings for tweaking or modding your setup. Open it by clicking the ‘Firmware’ tool at the top of the screen.
+### Get Help
 
 ### Unsupported CNCs
 
@@ -471,7 +527,7 @@ If your CNC was listed above then it's "supported" by the Firmware tool. This me
 
 ![](/_images/_gsender/_features/gs_fe_firmware.jpg){.aligncenter .size-full}
 
-## Start/Stop G-code
+## Automations
 
 A powerful feature to control your accessories automatically (like turning on/off a spindle or vacuum) or to run movement macros that are custom to your machine. 'Program Events' (formerly "Start/Stop G-code")' in gSenders settings automatically apply g-code to your cutting job at the start, end, or if you stop, pause, or resume the job. The 'Stop' event is there to ensure that "ending g-code" is always run even if you have to stop a job prematurely. You can also toggle these on and off if you don't want them run for specific jobs.
 
