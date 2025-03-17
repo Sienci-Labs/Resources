@@ -94,11 +94,15 @@ C - Rotary tab remote "tools" title to save space
 
 - Tool Changing, fixed tool sensor, where do I put in the X, Y, Z positions now?
 
-- Remote mode coming back at some point?
+- Remote mode coming back at some point? Yes, top right corner.
 
--
+- Machine information can be pinned and testing with the pins can be done.
 
 ---
+
+- Flipping to SLB and connecting for the first time, it connected with grbl. Disconnecting and connecting again saw grblHAL
+
+- Estop button initial behaviour. Left - , Middle - Hold Job, Right - 
 
 This page covers all the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, lasers, coolant, and more. Remember, you can always quickly navigate the page by clicking the headings in the 'Page Contents'.
 
