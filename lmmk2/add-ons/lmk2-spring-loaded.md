@@ -1,7 +1,7 @@
 ---
 title: Spring Loaded Nuts
 menu_order: 7
-post_status: draft
+post_status: publish
 post_excerpt: How to replace your backlash nuts with the updated spring-loaded anti-backlash nuts.
 post_date: 2025-03-26 15:29:00
 taxonomy:
@@ -95,13 +95,13 @@ The Z-axis nut is easier to remove because we don’t have to remove the lead sc
 
 Congrats! All of your hard work is complete. You now have an upgraded machine where you won't have to manually adjust the nuts like with the old version. Still, keep an eye out, since any nuts that run on a lead screw will eventually wear out and need to be replaced.
 
-## Troubleshooting
+## Troubleshoot
 
 If you finish installing the spring loaded nuts and find that your machine is now getting stuck whenever you try to move fast, we recommend lubricating the lead screw with a light coating of WD-40 or a similar lubricant. Follow this up with a "break-in cycle" where you jog the stuck axis back and forth at a normal speed, increasing to rapid after a few passes. If the nut binds on rapid, reduce the speed to normal and re-run a few more passes.
 
 Once it seems sorted out, wipe the lubricant back off the lead screw to prevent increased buildup of dust. If you have any other issues with the spring loaded anti-backlash nuts, make sure to carefully re-read the assembly instructions or reach out to us for help.
 
-### Community posts
+## Community posts
 
 If you want to learn why this part has been upgraded, you can check out the video below where Andy chats about the evolution of the spring loaded nuts. You can also check out a couple of our community links for a couple solutions our users have found.
 
