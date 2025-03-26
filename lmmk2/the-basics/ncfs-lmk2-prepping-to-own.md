@@ -16,29 +16,40 @@ featured_image: _images/_lmmk2/_the-basics/lmk2_prep_shop_pic2.jpg
 
 ## Setting Expectations
 
-You’ve done the research, plotted your course, and now you’re ready to set sail on your CNC journey — oars steady, full speed ahead. You’re imagining the incredible creations you’ll craft, masterpieces that will catch the world’s eye, and maybe one day find their place in a museum!
+You’ve done the research, charted your course, and now you’re ready to set sail on your CNC journey—steady at the helm, creativity as your guiding star. You can already picture the incredible projects you’ll bring to life, each one a step toward mastering your craft.
 
-**But wait...**
+**Before you cast off** -> 💨 Take a deep breath and see which way the wind is blowing.
 
-Before you set sail on your CNC journey, let's make sure you're fully prepared for the waters ahead.
+Let’s take a moment to ensure smooth sailing ahead. With our guidance and the help of our community, your journey will be enjoyable, rewarding, and free of unnecessary detours.
 
-🚢 Need a bigger boat? Explore [space requirements](#space-requirements), [power requirements](#power-requirements) and [costs](#initial-costs) to get your shop setup and ready to roll<br>
+**Building the boathouse** -> 🚢 Need a bigger boat?
 
-🌊 Is that a storm on the horizon? Prepare for a flood of [resources & information](#learning-curve) on power needs, dust collection and shop efficiency<br>
+Explore [space requirements](#space-requirements), research the [power requirements](#power-requirements) and analyze the different [costs](#initial-costs) to get your shop setup and ready to roll<br>
 
-🧭 Why does it feel like your ship is veering off course? Get back on track with [machine maintenance](#machine-maintenance) tips to keep your CNC running smoothly<br>
+**Study your charts** -> 🌊 Is that a storm on the horizon?
 
-🪣 Did you pack a bucket to bail out the water? [the community](https://forum.sienci.com/) is your lifeboat, ready to help you troubleshoot, learn, and grow.<br>
+Prepare for your journey by checking out the [learning curve](#learning-curve) you are about to embark upon. Take a deep breath, learn from any mistakes and keep going!<br>
+
+**Maintain your equipment** -> 🧭 Why does it feel like your ship is veering off course?
+
+Get back on track with [machine maintenance](#machine-maintenance) tips to keep your CNC running smoothly<br>
+
+**Coast Guard to the rescue** -> 🪣 Did you pack a bucket to bail out the water?
+
+You can always rely on your fellow sailors to offer a helping hand in [the community](https://forum.sienci.com/). Think of the forum as your *Navy Boot Camp*, ready to help you troubleshoot, learn, and grow.<br>
 
 **It's time to get excited, because learning to CNC is a journey!** With our guidance and the help of the community, you'll be more than prepared to chart your course, hoist the sails, and be ready to explore the learning waters ahead while avoiding common icebergs along the way.
 
-Sit back and enjoy a couple of videos about starting your woodworking journey, the dark side of CNC, what you need to get started, and a beginner guide .
+Sit back and enjoy a video about woodworking pros vs the hobby woodworker.  
+
+https://youtu.be/YLs0_jACteA
+
+Enjoy a couple more videos about the dark side of CNC, introduction to CNC, and some CNC basics.
 
 [su_table responsive="yes"]
 
 | Title                                      | Description                                                | Length   | Watch Video                                             |
 |--------------------------------------------|------------------------------------------------------------|----------|---------------------------------------------------------|
-| Hobby Woodworkers need to hear this         | Hear from a couple of professional woodworkers about Hobby vs Pro woodworkers. | 20 min   | [Watch Video](https://youtu.be/YLs0_jACteA)              |
 | The Dark Side of learning to use a CNC for Woodworking | The hardest parts of beginning a cnc journey.                       | 16 min   | [Watch Video](https://youtu.be/dbxhhiA0i2E)              |
 | The CNC Process for the Absolute Beginner  | Introduction to CNC, components, software, and toolpaths.  | 22 min   | [Watch Video](https://youtu.be/fhFC1r_PtL0)              |
 | CNC Basics          |             What you need to get started                                      |    9 min     | [Watch Video](https://youtu.be/lQ-MYnyxh7M)     |
@@ -47,9 +58,9 @@ Sit back and enjoy a couple of videos about starting your woodworking journey, t
 
 ### **Space Requirements**
 
-Setting up your CNC woodworking area requires careful planning, as you'll quickly find you can use more space than just for the machine itself. Know that you can start off with a simple CNC machine on a table, some simple hand tools and still have success.
+Setting up your CNC woodworking machine doesn't take up much space at all. You can mount it to a workbench, a table, under the table, or even the wall. You can keep your bits in a drawer and begin carving right away! As you progress in skill and project complexity, you'll find you can use more space than just for the machine itself. Know that you can start off with a simple CNC machine on a table, some simple hand tools and still have great success.
 
-Let's check out a cramped single car garage shop and explore some things to consider:
+Let's check out a full single car garage shop and explore some things to consider:
 
 ![](/_images/_lmmk2/_the-basics/lmk2_prep_shop_pic2.jpg "Note the two blue arrows indicating this shop has installed a separate power line on the ceiling"){.aligncenter .size-medium}
 
@@ -107,9 +118,9 @@ Always double-check your circuit’s breaker ratings to avoid overloading your w
 - **Additional Costs**<br> You’ll also need software for designing your projects, which could involve one-time purchases or subscription fees. Accessories like end mills, clamps, dust collection systems, and materials (wood, MDF, etc.) will add to your initial investment.
 - **Upgrades**<br> Over time, you may want to upgrade parts, like getting better tooling, a quieter dust collection system or adding additional features (such as an upgraded spindle or a laser engraver).
 
-#### Those extra costs can add up
+#### Optional Add-Ons
 
-Every shop is a bit different, and customizing yours to fit your needs is always a fun challenge. It's not uncommon to reshuffle/reorganize your shop after you've had your CNC for a bit and understand where you want things.
+Every shop is a bit different, and customizing yours to fit your needs is always a fun challenge. It's not uncommon to reshuffle/reorganize your shop after you've had your CNC for a bit and understand where you want things. Many users will already have a computer, mouse, keyboard, saw, workbench, etc. before you begin with your new CNC, which can really save you money starting up.
 
 In the chart below we explore many of the things you may want to consider adding to your shop, before your end mill starts spinning. Don't fret too much about 'keeping up with the Joneses', you can start slow and build up your extras when you are ready.
 
@@ -130,13 +141,16 @@ In the chart below we explore many of the things you may want to consider adding
 
 [/su_table]
 
-Here are some videos to help you save some money when setting up your shop, buying wood, bits or extras.
+Check out a video about the Hidden costs of using a CNC!!
+
+https://youtu.be/GB3zaGtKMO4
+
+Here are some extra videos to help you save some money when setting up your shop, buying wood, bits or extras.
 
 [su_table responsive="yes"]
 
 | Title                                      | Description                                                | Length   | Watch Video                                             |
 |--------------------------------------------|------------------------------------------------------------|----------|---------------------------------------------------------|
-| The Hidden costs of CNC's!                 | Exploring the hidden costs of power, software, tooling, workholding, and more! | 12 min   | [Watch Video](https://youtu.be/GB3zaGtKMO4)   |
 | A thousand dollars worth of wood - Buying Wood Online | Testing online wood ordering.                                        | 34 min   | [Watch Video](https://youtu.be/zCXgP0Hu1Nk)              |
 | DON'T LET THIS $40 MISTAKE HAPPEN TO YOU!  | Great tips to help you protect your investments in bits.   | 4 min    | [Watch Video](https://youtu.be/X7tR45tX4rs)              |
 | Getting Started with CNC Machines - Choosing Bits | Explore different types of bits and cutting tools. | 6 min    | [Watch Video](https://youtu.be/hccjn5_Wnwc)              |
@@ -155,13 +169,16 @@ There are many moving parts when it comes to producing something from your new C
 - **Patience Required**<br> Expect to spend a good amount of time experimenting and learning through trial and error. Your first few projects may not be perfect, and that’s completely normal.
 - **Learn about Wood**<br> There are a couple things to focus on learning including how to measure wood, where to buy it, and how to store it.
 
-Here are a couple videos that may prove to be interesting at this point. The first is a good overview of the entire CNC process, followed by some simple projects you can begin with. Begin your journey learning about wood, then explore how AI can assist you on the design side of things.
+This video is a good overview of the entire CNC process, followed by some simple projects you can begin with.
+
+https://youtu.be/gQ5sFgMiNJg
+
+Here are a couple more videos that may prove to be interesting at this point. Five easy beginner projects to get the creative juices flowing, begin your journey learning about wood, and then explore how AI can assist you on the design side of things.
 
 [su_table responsive="yes"]
 
 | Title                                      | Description                                                | Length   | Watch Video                                             |
 |--------------------------------------------|------------------------------------------------------------|----------|---------------------------------------------------------|
-| Anyone can learn CNC quickly - Let's make a drink coaster | Easily make your 1st drink coaster using VCarve Pro. | 20 min   | [Watch Video](https://youtu.be/gQ5sFgMiNJg)              |
 | 5 Easy CNC Projects You Can Start Right Now | Easy to make and program items to help start your journey. | 17 min   | [Watch Video](https://youtu.be/gJkwYUuBgqk)              |
 | Unlocking the Secrets of the Lumber Yards  | Calculate board footage, wood species, and different grades and sizes | 11 min   | [Watch Video](https://youtu.be/2ZwgkGHdhiA)                         |
 | Top 5 Free AI Tools for Elevating CNC Design | Use these AI tools if you don't want to design your own.   | 7 min    | [Watch Video](https://youtu.be/3pGmLPGe17g)              |
@@ -174,13 +191,16 @@ Here are a couple videos that may prove to be interesting at this point. The fir
 - **Trial and Error**<br> Don’t be discouraged if your first attempts don’t go as planned. It’s common to break bits, misalign materials, or get unexpected results. Mistakes are part of the learning process.
 - **Material Wastage**<br> You will likely waste some material during the learning phase, whether from incorrect settings or accidents. Plan for some losses as you refine your skills.
 
-We all need to laugh at ourselves every now and again, so here is a video about beginner mistakes and some shorts to giggle with. These are those icebergs we are hoping to avoid ourselves. Isn't it nice when people share their mistakes so we can all learn from them?
+Mistakes happen, let's review some of the common ones!
+
+https://youtu.be/Vh6OzYyd840
+
+We all need to laugh at ourselves every now and again, so here are some shorts to giggle with. These are those icebergs we are hoping to avoid ourselves. Isn't it nice when people share their mistakes so we can all learn from them?
 
 [su_table responsive="yes"]
 
 | Title                                      | Description                                                | Length   | Watch Video                                             |
 |--------------------------------------------|------------------------------------------------------------|----------|---------------------------------------------------------|
-| 7 Mistakes CNC Beginners Make              | Stop breaking bits for good!                                | 13 min   | [Watch Video](https://youtu.be/Vh6OzYyd840)              |
 | Hitting workholding  | —                                                          | Short | [Watch Video](https://youtube.com/shorts/1lbizGG0dco)    |
 | Walnut is expensive  | —                                                          | Short       | [Watch Video](https://youtube.com/shorts/uu2aUNBWfcI)    |
 | Hit Pause or Hit X?   | —                                                          | Short       | [Watch Video](https://youtube.com/shorts/MnAMTn4U_qg)    |
