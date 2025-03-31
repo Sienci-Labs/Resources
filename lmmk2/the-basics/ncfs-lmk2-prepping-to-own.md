@@ -5,12 +5,13 @@ post_status: draft
 post_excerpt: 
 post_date: 2024-09-10 3:55
 taxonomy:
-    knowledgebase_cat: 
-    knowledgebase_tag:        
+    knowledgebase_cat: lmk2-the-basics
+    knowledgebase_tag:  
+    - mk2      
 custom_fields:
-    KBName: 
+    KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/_lmmk2/_the-basics/lmk2_prep_shop_pic2.jpg
 ---
 
