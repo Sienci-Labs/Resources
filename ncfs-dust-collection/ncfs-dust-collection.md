@@ -14,6 +14,28 @@ custom_fields:
 skip_file: no
 featured_image: _images/_lmk2/_the-basics/lmk2_dust_boot_adjustable.jpg
 ---
+
+Improve flow
+
+- Add picture of dust shoe, hose & vac system at the beginning before safety number each item in the pic to match the list
+
+- Move last two safety pics to an actual section and pair down section a bit more
+
+- Play with #1 dust shoe #2 hose #3 dust collector a bit in the intro to pair it down a bit
+
+- Move hanging your hose and dust extractors to user setups section
+
+- Combine shop vac, cyclone and dust collector into one larger comparison chart and remove some of the text. Reorder things and put the tldr at the beginning
+
+- Add combined links to purchase all of the things after the large chart
+
+- CNC spelling check
+
+- try audio listening to review flow
+
+- remove sawdust and user setups from intro list?
+
+---
 CNCs can create a lot of mess just like many other cutting tools. Think about the chips and fine dust you get drilling a single hole or cutting a piece of wood in half and then stretch that out over hours of constant cutting on a cnc machine. Not only does this make a mess, but it's not good for your health to breath in.
 
 This is where dust collection helps out. Most woodworkers will setup a dust collection system that can quickly connect to whatever tool or machine they are using at the time. Most cnc dust collection systems consist of a **dust shoe** where the cutting is happening, a **hose** to cary the dust and a **dust collector**.
@@ -25,7 +47,7 @@ Let's explore options you have to:
 - Explore how to select and hang your [Hose](#hose-size)
 - Compare [Dust Collection](#2-dust-collector) options available
 - Check out some [User Setups](#user-setups)
-- Learn about what to do with all of the [Sawdust](#sawdust-recycling) you are making
+
 
 ### Safety
 
@@ -214,7 +236,7 @@ A **dust collector** is designed to capture large volumes of dust and wood chips
 |----------------------|-----------------------------|---------------------------------|
 | **Suction Power**    | High suction, lower airflow | Moderate suction and airflow    |
 | **Filtration**       | Basic or HEPA; limited fine dust capture | HEPA filtration for very fine dust |
-| **Airflow (CFM)**    | 100-200 CFM                 | 100-200 CFM                    |
+| **Airflow (CFM)**    | 100-200 CFM                 | 400-1000 CFM                    |
 | **Portability**      | Portable                    | Portable and tool-compatible    |
 | **Best For**         | Spot cleaning, larger debris | Fine, hazardous dust from sanding and concrete |
 
