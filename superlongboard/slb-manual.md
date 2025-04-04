@@ -153,7 +153,7 @@ Here’s a general wiring ‘map’ you can use as a reference to start hooking 
 
 Each SLB comes with an E-stop and pre-made wiring to keep you safe out-of-the-box when cutting. When pressed, the E-stop is designed to cut all power to your CNCs stepper motors and also send a signal back to the MCU to disable all other accessories that your SLB controls. This includes turning off the spindle, IOT Relay, and anything else that’s triggered by M3/4 and M7/8 commands. Use the E-stop when there's a hazard during carving and you need to immediately stop the machine.
 
-Otherwise, the SLB needs a 24V 10A power supply to run all stepper motors at rated current alongside the other onboard accessories. Higher current such as 24V 12.5A is even better so the power supply isn't strained even during peak draw. You can either provide this yourself, <a href="https://sienci.com/product/24v-12-5a-power-adapter-for-110vac/" target="_blank" rel="noopener">purchase one from us</a>, or use your existing one if you’re switching over to the SLB from our original LongBoard.
+Otherwise, the SLB needs a **24V 10A power supply** to run all stepper motors at rated current alongside the other onboard accessories. Higher current such as 24V 12.5A is even better so the power supply isn't strained even during peak draw. You can either provide this yourself, <a href="https://sienci.com/product/24v-12-5a-power-adapter-for-110vac/" target="_blank" rel="noopener">purchase one from us</a>, or use your existing one if you’re switching over to the SLB from our original LongBoard.
 
 1. The larger 2-pin plug on the left side is the power connection
 1. There’s a main power switch above it to switch main power to the whole board
@@ -195,7 +195,7 @@ To connect over Ethernet, you'll need:
 
 ![](/_images/_superlongboard/_manual/slb_ma_p12_USB.jpg){.aligncenter .size-full}
 
-Keep in mind that setting up Ethernet is a bit more involved, and at the time of SLB launch we’ll be primarily aiming to support direct Ethernet communication from a computer to the SLB; not sending over a network. Also the SLBs STM32 chip isn't capable of supporting firmware flashing over Ethernet so keep the USB-C cable handy if you need to do any future updates or recover from a board reset.
+Keep in mind that setting up Ethernet is a bit more involved, and at the time of SLB launch we’ll be primarily aiming to support direct Ethernet communication from a computer to the SLB; not sending over a network. Also **the SLBs STM32 chip isn't capable of supporting firmware flashing over Ethernet so keep the USB-C cable handy if you need to do any future updates or recover from a board reset**.
 
 #### Ethernet on Windows
 

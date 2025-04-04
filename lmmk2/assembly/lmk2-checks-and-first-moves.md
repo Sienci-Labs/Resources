@@ -84,7 +84,7 @@ Once you have gSender installed, go ahead and run it on your computer. One way i
 
 <p style="text-align: center;"><em>You should be greeted with a screen that looks like this.</em></p>
 
-At this stage it’s time to connect your computer to the LongMill control box via the provided USB cable and flip the power switch to turn on power to the machine. The USB port on the control box is on the right side.
+At this stage it’s time to connect your computer to the LongMill control box via the provided USB cable and **flip the power switch to turn on power to the machine**. The USB port on the control box is on the right side.
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_USB-board-computer.png){.aligncenter .size-medium}
 

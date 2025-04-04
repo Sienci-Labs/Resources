@@ -44,7 +44,17 @@ The SLB is set up to be automatically compatible with most LongMills by default.
 
 ### Bad E-stop
 
-The E-stop behaviour should be such that all 3 Action buttons light up the Action button lights on the SLB, and the main E-stop button should be illuminated. Once the E-stop button is pressed it should unlight and stay latched closed - this will cause the motors controlled by the SLB to lose power and an Alarm 10 to appear in your g-code sender and halt all motions. Once you untwist the E-stop button it should pop back up and become lit again, then you should be able to clear the Alarm and resume operation. If you experience anything else:
+If you have a working E-stop, it should:
+
+[su_table responsive="yes"]
+
+| **At any Time** | **When Pressed** | **When Released** |
+|-|-|-|
+| 1. Have illuminated red lights in the stop button or the body <br> 2. Pressing any of the 3 Action buttons causes the associated light on the SLB to light up | 1. Click in <br> 2. Red light on E-stop turns off <br> 3. Show Alarm 10 in gSender <br> 4. Disable all CNC motor movements | 1. Pop back up <br> 2. Red lights illuminate again <br> 3. Alarm 10 can be closed <br> 4. CNC can move again |
+
+[/su_table]
+
+If this doesn't happen for you, see if any of the situations below match what you're seeing:
 
 - **E-stop light stays on even after the button is pressed, or SLB doesn't seem to respond to E-stop being pressed:** there's a backup option on the board which is able to act as the E-stop and it looks like two metal pins sticking out near the back of the board where you plug the power in. Once you find these two pins, grab anything conductive like a flat head screwdriver and insert it between the two pins that are sticking up to 'connect' them together electrically. This should activate the E-stop if you weren't able to activate it before, or if your problem was that it was never deactivating then keep conducting the pins while turning the toggle switch on the board off then back on again and you should see the red lights for the E-stop turn off. If this is successful then you've either got a loose E-stop wire (check your connections) or your E-stop button is broken. If neither of these work then your board is likely defective and you can contact us to replace it.
 - **E-stop doesn't latch closed or doesn't untwist or move:** your E-stop button is likely broken and we can replace it if it's under warranty
