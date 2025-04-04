@@ -594,20 +594,19 @@ These outputs are offer built-in options for more unique control than just a sim
 ![](/_images/_superlongboard/_manual/slb_ma_p36_AO12.jpg){.aligncenter .size-full}
 **Note:** Be mindful that these 'turn on' by enabling current flow to the 'ground'. This means you can’t typically use them to drive logic, only to drive current components, and also that the 24V is always 'live'.
 
-You can also customize what M commands will turn each of these outputs on and off in the SLBs firmware. If you go to the ‘Firmware’ tool, you’ll see that $456-459 give you 4 options to choose from (these correspond to SWT1/2 then PWR1/2 respectively):
+You can also customize what M commands will turn each of these outputs on and off in the SLBs firmware. The $456-459 settings give you 4 options to choose from (SWT1=$456, SWT2=$457, PWR1=$458, PWR2=$459):
 
-- **Spindle/Laser Enable (M3/M4):** turns the output on with M3 or M4, and off with M5
-- **Mist Enable (M7):** turns on/off with M7/M9
-- **Flood Enable (M8):** turns on/off with M8/M9
-- **M62-M65 Only:** always available as a backup to control each port with a unique M command:
-  - Turn on/off with M62/63 (but wait in line before running)
-  - Turn on/off immediately with M64/65
-  - Use a 'P' command to choose the port to control (pictured below). For example "**M64 P1**" would turn on the SWT2 port immediately.
-  ![](/_images/_superlongboard/_manual/slb_ma_p37_P0P3.jpg){.aligncenter .size-full}
-  - Read more here: <a href="https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65" target="_blank" rel="noopener">https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65</a>
+1. **Spindle/Laser Enable (M3/M4):** turns the output on with M3 or M4, and off with M5
+1. **Mist Enable (M7):** turns on/off with M7/M9
+1. **Flood Enable (M8):** turns on/off with M8/M9
+1. **M62-M65 Only:** always available as a backup to control each port with a unique M command:
+   - Turn on/off with M62/63 (but wait in line before running)
+   - Turn on/off immediately with M64/65
+   - Use a 'P' command to choose the port to control (pictured below). For example "**M64 P1**" would turn on the SWT2 port immediately.
+   ![](/_images/_superlongboard/_manual/slb_ma_p37_P0P3.jpg){.aligncenter .size-full}
+   - Read more here: <a href="https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65" target="_blank" rel="noopener">https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65</a>
 
 Similar to the ‘Flood’ output, you’ll now also be able to control ‘Switch’ and ‘AuxPwr’ outputs either manually, in g-code using your post processor, or using your g-code sender’s start/end g-code code blocks.
-
 
 ### Spindle/RS485
 
