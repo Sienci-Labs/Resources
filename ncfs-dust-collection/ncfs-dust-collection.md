@@ -35,6 +35,8 @@ Improve flow
 
 - remove sawdust and user setups from intro list?
 
+- Check OG page and grab the line about dust enclosures and put the link back in.
+
 ---
 CNCs can create a lot of mess just like many other cutting tools. Think about the chips and fine dust you get drilling a single hole or cutting a piece of wood in half and then stretch that out over hours of constant cutting on a cnc machine. Not only does this make a mess, but it's not good for your health to breath in.
 
@@ -221,7 +223,7 @@ A **dust collector** is designed to capture large volumes of dust and wood chips
 - **Power and Filtration**: Dust collectors focus on high airflow (CFM), typically ranging from 400-1,000 CFM or higher. They use large collection bags or drums and are often equipped with filters that capture dust down to 1-5 microns, though some higher-end units have finer filtration or HEPA options.
 - **Airflow (CFM)**: With significantly higher CFM, dust collectors are capable of handling the dust output from larger machines, like table saws, planers, and jointers, where a high volume of air is needed to capture dust at the source.
 - **Stationary Setup**: Dust collectors are usually larger and stationary or semi-stationary units. They often involve ductwork to connect multiple tools, providing centralized dust management in the shop.
-- **Best Use**: Ideal for large CNC machines like the 30X48 or AltMill, woodworking shops with larger power tools, capturing high volumes of sawdust and debris from continuous operation.
+- **Best Use**: Ideal for large CNC machines like the 48X30 LongMill or AltMill, woodworking shops with larger power tools, capturing high volumes of sawdust and debris from continuous operation.
 
 | **Model**              | **Description**                                              | **Link**                                                                                               |
 |-------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
