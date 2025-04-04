@@ -37,6 +37,11 @@ Improve flow
 
 - Check OG page and grab the line about dust enclosures and put the link back in.
 
+Move this section to the beginning - That said, dust management can still come in other forms like building an [enclosure for your CNC](https://resources.sienci.com/view/lmk2-table-enclosure/#machine-enclosure) or cutting outside. You might choose to do these if you:
+
+- are worried about the noise from running a vacuum or dust collector (though the noise of cutting can get similarly loud)
+- don't want to deal with the dust shoe colliding with clamps, material, or getting in the way during tool changes
+
 ---
 CNCs can create a lot of mess just like many other cutting tools. Think about the chips and fine dust you get drilling a single hole or cutting a piece of wood in half and then stretch that out over hours of constant cutting on a cnc machine. Not only does this make a mess, but it's not good for your health to breath in.
 
@@ -99,11 +104,6 @@ A **dust shoe** is basically a fancy vacuum attachment for your CNC machine, it 
 - keeps your shop air cleaner which is safer for your lungs
 
 https://www.youtube.com/watch?v=94r4hgr2SgA
-
-That said, dust management can still come in other forms like building an [enclosure for your CNC](https://resources.sienci.com/view/lmk2-table-enclosure/#machine-enclosure) or cutting outside. You might choose to do these if you:
-
-- are worried about the noise from running a vacuum or dust collector (though the noise of cutting can get similarly loud)
-- don't want to deal with the dust shoe colliding with clamps, material, or getting in the way during tool changes
 
 ### Fixed vs. Adjustable Dust Shoes
 
