@@ -21,15 +21,11 @@ You’ve done the research, charted your course, and now you’re ready to set s
 
 **Before you cast off** -> 💨 Take a deep breath and see which way the wind is blowing.
 
-Let’s take a moment to ensure smooth sailing ahead. With our guidance and the help of our community, your journey will be enjoyable, rewarding, and free of unnecessary detours.
+Prepare for your journey by checking out the [learning curve](#learning-curve) you are about to embark upon. Take a deep breath, learn from any mistakes and keep going!<br>
 
 **Building the boathouse** -> 🚢 Need a bigger boat?
 
 Explore [space requirements](#space-requirements), research the [power requirements](#power-requirements) and analyze the different [costs](#initial-costs) to get your shop setup and ready to roll<br>
-
-**Study your charts** -> 🌊 Is that a storm on the horizon?
-
-Prepare for your journey by checking out the [learning curve](#learning-curve) you are about to embark upon. Take a deep breath, learn from any mistakes and keep going!<br>
 
 **Maintain your equipment** -> 🧭 Why does it feel like your ship is veering off course?
 
@@ -57,6 +53,65 @@ Enjoy a couple more videos about the dark side of CNC, introduction to CNC, and 
 
 [/su_table]
 
+## Learning Curve
+
+There are many moving parts when it comes to producing something from your new CNC machine. An interesting intersection of technology and woodworking. You can produce something on your first try, but it may take several months to become comfortable with all of the steps available to you. Know that you will make some mistakes along the way, but embrace them if you can as learning moments. Store that memory away, and prevent it from happening again. Let's explore some of the new skills you will be learning about, acquiring, and eventually mastering. **You got this!**
+
+- **Commonly used Terms**<br> It will sometimes feel like you are learning an entirely new language. Terms like *controller, toolpath, endmill and workholding* are all important to know. Check out this article on [Common CNC Terms](https://resources.sienci.com/view/lmk2-common-cnc-terms/)
+- **Software Skills**<br> A significant part of CNC woodworking involves learning CAD (Computer-Aided Design) and CAM (Computer-Aided Manufacturing) software. Programs like Fusion 360, Easel, or VCarve have varying degrees of complexity, and mastering them takes time.
+- **Toolpaths and Settings**<br> Beyond software, understanding toolpaths (how the machine moves), feed rates, spindle speeds, and materials will come into play. These settings directly affect the success of your projects.
+- **Patience Required**<br> Expect to spend a good amount of time experimenting and learning through trial and error. Your first few projects may not be perfect, and that’s completely normal.
+- **Learn about Wood**<br> There are a couple things to focus on learning including how to measure wood, where to buy it, and how to store it.
+
+This video is a good overview of the entire CNC process, followed by some simple projects you can begin with.
+
+https://youtu.be/gQ5sFgMiNJg
+
+Here are a couple more videos that may prove to be interesting at this point. Five easy beginner projects to get the creative juices flowing, begin your journey learning about wood, and then explore how AI can assist you on the design side of things.
+
+[su_table responsive="yes"]
+
+| Title                                      | Description                                                | Length   | Watch Video                                             |
+|--------------------------------------------|------------------------------------------------------------|----------|---------------------------------------------------------|
+| 5 Easy CNC Projects You Can Start Right Now | Easy to make and program items to help start your journey. | 17 min   | [Watch Video](https://youtu.be/gJkwYUuBgqk)              |
+| Unlocking the Secrets of the Lumber Yards  | Calculate board footage, wood species, and different grades and sizes | 11 min   | [Watch Video](https://youtu.be/2ZwgkGHdhiA)                         |
+| Top 5 Free AI Tools for Elevating CNC Design | Use these AI tools if you don't want to design your own.   | 7 min    | [Watch Video](https://youtu.be/3pGmLPGe17g)              |
+| AI CNC ZoeDepth, shallow relief from AI images. | A deep cleaning and walkthrough of machine maintenance.   | 25 min   | [Watch Video](https://youtu.be/H6GvUdONkFI)              |
+
+[/su_table]
+
+### Failure is Part of the Process
+
+- **Trial and Error**<br> Don’t be discouraged if your first attempts don’t go as planned. It’s common to break bits, misalign materials, or get unexpected results. Mistakes are part of the learning process.
+- **Material Wastage**<br> You will likely waste some material during the learning phase, whether from incorrect settings or accidents. Plan for some losses as you refine your skills.
+
+Mistakes happen, let's review some of the common ones!
+
+https://youtu.be/Vh6OzYyd840
+
+We all need to laugh at ourselves every now and again, so here are some shorts to giggle with. These are those icebergs we are hoping to avoid ourselves. Isn't it nice when people share their mistakes so we can all learn from them?
+
+[su_table responsive="yes"]
+
+| Title                                      | Description                                                | Length   | Watch Video                                             |
+|--------------------------------------------|------------------------------------------------------------|----------|---------------------------------------------------------|
+| Hitting workholding  | —                                                          | Short | [Watch Video](https://youtube.com/shorts/1lbizGG0dco)    |
+| Walnut is expensive  | —                                                          | Short       | [Watch Video](https://youtube.com/shorts/uu2aUNBWfcI)    |
+| Hit Pause or Hit X?   | —                                                          | Short       | [Watch Video](https://youtube.com/shorts/MnAMTn4U_qg)    |
+| Collet burn   | —                                                          | Short       | [Watch Video](https://youtube.com/shorts/01bqc3Gw3eQ)    |
+
+[/su_table]
+
+### Time Commitment
+
+- **Setup and Testing**<br> Expect a significant amount of time to be spent on project setup—finalizing the design, securing the workpiece, setting up toolpaths, and making sure everything is aligned. Testing new designs or tool setups on scrap materials is often necessary.
+- **Project Completion**<br> Projects can take longer than expected, especially if you are refining a design, troubleshooting issues, or making multiple passes on a complicated cut. Patience is key. Often a roughing pass is used first to remove the bulk of material, then a finishing pass comes along and really smooths thing up.
+
+### Community Support
+
+- **Learning from Others**<br> The CNC woodworking community is large and active. Online forums, YouTube tutorials, and CNC groups are invaluable resources for troubleshooting, tips, and inspiration. You’re not alone in the learning process.
+- **Asking for Help**<br> Don’t hesitate to ask questions when you get stuck. Most CNC enthusiasts are willing to share their knowledge and help you through challenges.
+
 ### **Space Requirements**
 
 Setting up your CNC woodworking machine doesn't take up much space at all. You can mount it to a workbench, a table, under the table, or even the wall. You can keep your bits in a drawer and begin carving right away! As you progress in skill and project complexity, you'll find you can use more space than just for the machine itself. Know that you can start off with a simple CNC machine on a table, some simple hand tools and still have great success.
@@ -75,7 +130,7 @@ Let's check out a full single car garage shop and explore some things to conside
   Having the original containers for bit or a small shelf or storage bin will help avoid misplacing or damaging small, delicate items like your cutting tools. The shop pictured above has carpet down to prevent any dropped bits from breaking too.
 
 4. **Table**<br>
-  Your CNC machine will need a sturdy, flat table or workbench to rest on. You may want to plan for extra space on the left side of your table to allow you to mount the controller or E-stop button.
+  Your CNC machine will need a sturdy, flat table or workbench to rest on. You may want to plan for extra space on the left side of your table to allow you to mount the controller or E-stop button. Note that the new AltMill includes a table!
   
 5. **Dust Collection**<br>
   CNC projects generate a lot of dust, so a proper dust collection system is essential. This could be a small vacuum setup like pictured above, or a dedicated wall mounted dust collector to keep your workspace clean and prevent damage to your machine and electronics, like pictured below.
@@ -160,64 +215,6 @@ Here are some extra videos to help you save some money when setting up your shop
 | Introducing the New AutoZero Touch Plate!  | One of the many accessories you may want to add to your shop. | 7 min    | [Watch Video](https://youtu.be/H_fYFjtFc3Q)              |
 
 [/su_table]
-
-## Learning Curve
-
-There are many moving parts when it comes to producing something from your new CNC machine. An interesting intersection of technology and woodworking. You can produce something on your first try, but it may take several months to become comfortable with all of the steps available to you. Know that you will make some mistakes along the way, but embrace them if you can as learning moments. Store that memory away, and prevent it from happening again. Let's explore some of the new skills you will be learning about, acquiring, and eventually mastering. **You got this!**
-
-- **Software Skills**<br> A significant part of CNC woodworking involves learning CAD (Computer-Aided Design) and CAM (Computer-Aided Manufacturing) software. Programs like Fusion 360, Easel, or VCarve have varying degrees of complexity, and mastering them takes time.
-- **Toolpaths and Settings**<br> Beyond software, understanding toolpaths (how the machine moves), feed rates, spindle speeds, and materials will come into play. These settings directly affect the success of your projects.
-- **Patience Required**<br> Expect to spend a good amount of time experimenting and learning through trial and error. Your first few projects may not be perfect, and that’s completely normal.
-- **Learn about Wood**<br> There are a couple things to focus on learning including how to measure wood, where to buy it, and how to store it.
-
-This video is a good overview of the entire CNC process, followed by some simple projects you can begin with.
-
-https://youtu.be/gQ5sFgMiNJg
-
-Here are a couple more videos that may prove to be interesting at this point. Five easy beginner projects to get the creative juices flowing, begin your journey learning about wood, and then explore how AI can assist you on the design side of things.
-
-[su_table responsive="yes"]
-
-| Title                                      | Description                                                | Length   | Watch Video                                             |
-|--------------------------------------------|------------------------------------------------------------|----------|---------------------------------------------------------|
-| 5 Easy CNC Projects You Can Start Right Now | Easy to make and program items to help start your journey. | 17 min   | [Watch Video](https://youtu.be/gJkwYUuBgqk)              |
-| Unlocking the Secrets of the Lumber Yards  | Calculate board footage, wood species, and different grades and sizes | 11 min   | [Watch Video](https://youtu.be/2ZwgkGHdhiA)                         |
-| Top 5 Free AI Tools for Elevating CNC Design | Use these AI tools if you don't want to design your own.   | 7 min    | [Watch Video](https://youtu.be/3pGmLPGe17g)              |
-| AI CNC ZoeDepth, shallow relief from AI images. | A deep cleaning and walkthrough of machine maintenance.   | 25 min   | [Watch Video](https://youtu.be/H6GvUdONkFI)              |
-
-[/su_table]
-
-### Failure is Part of the Process
-
-- **Trial and Error**<br> Don’t be discouraged if your first attempts don’t go as planned. It’s common to break bits, misalign materials, or get unexpected results. Mistakes are part of the learning process.
-- **Material Wastage**<br> You will likely waste some material during the learning phase, whether from incorrect settings or accidents. Plan for some losses as you refine your skills.
-
-Mistakes happen, let's review some of the common ones!
-
-https://youtu.be/Vh6OzYyd840
-
-We all need to laugh at ourselves every now and again, so here are some shorts to giggle with. These are those icebergs we are hoping to avoid ourselves. Isn't it nice when people share their mistakes so we can all learn from them?
-
-[su_table responsive="yes"]
-
-| Title                                      | Description                                                | Length   | Watch Video                                             |
-|--------------------------------------------|------------------------------------------------------------|----------|---------------------------------------------------------|
-| Hitting workholding  | —                                                          | Short | [Watch Video](https://youtube.com/shorts/1lbizGG0dco)    |
-| Walnut is expensive  | —                                                          | Short       | [Watch Video](https://youtube.com/shorts/uu2aUNBWfcI)    |
-| Hit Pause or Hit X?   | —                                                          | Short       | [Watch Video](https://youtube.com/shorts/MnAMTn4U_qg)    |
-| Collet burn   | —                                                          | Short       | [Watch Video](https://youtube.com/shorts/01bqc3Gw3eQ)    |
-
-[/su_table]
-
-### Time Commitment
-
-- **Setup and Testing**<br> Expect a significant amount of time to be spent on project setup—finalizing the design, securing the workpiece, setting up toolpaths, and making sure everything is aligned. Testing new designs or tool setups on scrap materials is often necessary.
-- **Project Completion**<br> Projects can take longer than expected, especially if you are refining a design, troubleshooting issues, or making multiple passes on a complicated cut. Patience is key. Often a roughing pass is used first to remove the bulk of material, then a finishing pass comes along and really smooths thing up.
-
-### Community Support
-
-- **Learning from Others**<br> The CNC woodworking community is large and active. Online forums, YouTube tutorials, and CNC groups are invaluable resources for troubleshooting, tips, and inspiration. You’re not alone in the learning process.
-- **Asking for Help**<br> Don’t hesitate to ask questions when you get stuck. Most CNC enthusiasts are willing to share their knowledge and help you through challenges.
 
 ## Machine Maintenance
 
