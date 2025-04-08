@@ -14,31 +14,20 @@ custom_fields:
 skip_file: no
 featured_image: _images/_lmk2/_the-basics/lmk2_dust_boot_adjustable.jpg
 ---
-
-Improve flow
-
-- Add picture of dust shoe, hose & vac system at the beginning before safety number each item in the pic to match the list
-
-- Combine shop vac, cyclone and dust collector into one larger comparison chart and remove some of the text. Reorder things and put the tldr at the beginning
-
-- Add combined links to purchase all of the things after the large chart
-
-- try audio listening to review flow
----
 CNCs can create a lot of mess just like many other cutting tools. Think about the chips and fine dust you get drilling a single hole or cutting a piece of wood in half and then stretch that out over hours of constant cutting on a CNC machine. Not only does this make a mess, but it's not good for your health to breath in.
 
 This is where dust collection helps out. Most woodworkers will setup a dust collection system that can quickly connect to whatever tool or machine they are using at the time. Most CNC dust collection systems consist of a **dust shoe** where the cutting is happening, a **hose** to cary the dust and a **shop vac**.
 
-That said, dust management can still come in other forms like building an [enclosure for your CNC](https://resources.sienci.com/view/lmk2-table-enclosure/#machine-enclosure) or cutting outside. You might choose to do these if you:
-
-- are worried about the noise from running a vacuum or dust collector (though the noise of cutting can get similarly loud)
-- don't want to deal with the dust shoe colliding with clamps, material, or getting in the way during tool changes
-
-Insert Pic here of 1.2.3. labelled system
+![](/_images/_lmmk2/_the-basics/lmk2_dust_123.jpg)
 
 1. See which [Dust Shoes](#dust-shoes) will fit your system best
 1. Explore how to select and hang your [Hose](#hose-size)
 1. Compare [Shop vac vs Dust Collection](#choosing-a-vacuum-or-dust-collector) systems available
+
+With all that being said, dust management can still come in other forms like building an [enclosure for your CNC](https://resources.sienci.com/view/lmk2-table-enclosure/#machine-enclosure) or cutting outside. You might choose to do these if you:
+
+- are worried about the noise from running a vacuum or dust collector (though the noise of cutting can get similarly loud)
+- don't want to deal with the dust shoe colliding with clamps, material, or getting in the way during tool changes
 
 ### Safety
 
@@ -63,11 +52,11 @@ Being in an environment where you are exposed to high amounts of aerosolized saw
 
  You can protect yourself on 3 basic levels.
 
- 1. Your nose and mouth should be covered with a **high quality dust mask** or respirator with a minimum rating of N95. This prevents dust from entering your body at all.
+ **Level One - Prevent dust from entering your body.** Your nose and mouth should be covered with a *high quality dust mask* or respirator with a minimum rating of N95.
 
- 1. Your project should have a **good dust collection system**, to remove as much dust at the source as possible, before the particles have the chance to become airborne. This type of protection 'collects' the dust at the source.
+ **Level Two - Grab the dust at it's source.** Your project should have a *good dust collection system*, to remove as much dust at the source as possible, before the particles have the chance to become airborne. This type of protection 'collects' the dust at the source.
 
- 1. Your workshop can add more protection against those fine particles by using a **dust extraction system** to catch any particles your dust collector misses. This type of protection 'extracts' fine dust particles from the air in your shop.
+ **Level Three - Clean the air** Your workshop can add more protection against those fine particles by using a *dust extraction system* to catch any particles your dust collector misses. This type of protection 'extracts' fine dust particles from the air in your shop.
 
  Regularly cleaning work surfaces, machines, and the floor will help minimize any dust that could be kicked up by new projects.
   Working with a door open or an exhaust fan in a well ventilated area is also a great way to reduce your exposure to hazardous fine sawdust materials.
@@ -75,6 +64,8 @@ Being in an environment where you are exposed to high amounts of aerosolized saw
   ***Note: Don't mix metal shavings with wood dust as it can cause a fire hazard and ruin your hose***
 
 ## Dust Shoes
+
+We've covered safety, so let's dive into the 3 main parts that make up your dust collection system, starting at the CNC with your dust shoe!
 
 A **dust shoe** is basically a fancy vacuum attachment for your CNC machine, it stays near the cutter to stop chips and fine dust from flying away while the **vacuum system** pulls it all away. This is good for you because it:
 
@@ -185,11 +176,6 @@ Your dust shoe and hose will need a source of suction. Most times an existing du
 
 A **shop vac** is a versatile, high-suction device primarily designed to pick up larger particles, such as wood chips, sawdust, and even liquid spills. It is the most common type of dust collection used in the hobby CNC space. With many affordable options available at many large box stores, you can get setup and running right away with a shop vac. You can move it around the CNC or build a dedicated space for it.
 
-- **Power and Filtration**: Shop vacs provide high suction power but often lack fine filtration. Many have basic or HEPA filters, which helps capture some finer dust, but they are generally more effective at picking up heavier, larger debris. Great for a small to medium CNC.
-- **Airflow (CFM)**: Shop vacs typically operate at lower cubic feet per minute (CFM) airflow, often ranging between 100-200 CFM. This is sufficient for spot-cleaning work areas and individual tools.
-- **Portability**: Shop vacs are small, lightweight, and portable, making them easy to move around for cleaning various areas of the workshop. Some users keep it in the same spot to reach both their tools and their CNC. Some even make a 'sound reducing' box around the entire vacuum.
-- **Best Use**: Ideal for smaller to mid size CNC machines, especially when wanting higher suction to remove chips from deep cuts or heavier materials like metal.
-
 | **Model**              | **Description**                                    | **Link**                                  |
 |-------------------------|----------------------------------------------------|-------------------------------------------|
 | WEN VC9209             | 10-Amp 9.25-Gallon 6.5 Peak HP Wet/Dry Shop Vacuum | [Link](https://wenproducts.com/collections/dust-management/products/wen-vc9209-10-amp-9-25-gallon-6-5-peak-hp-wet-dry-shop-vacuum-and-blower-with-0-3-micron-hepa-filter-hose-and-accessories) |
@@ -201,11 +187,6 @@ A **shop vac** is a versatile, high-suction device primarily designed to pick up
 ### 2. Dust Collector
 
 A **dust collector** is designed to capture large volumes of dust and wood chips from large CNCs & woodworking tools, particularly those that generate large amounts of debris. It is a more powerful and specialized system compared to a shop vac. It is often stationary and often runs to more than one tool.
-
-- **Power and Filtration**: Dust collectors focus on high airflow (CFM), typically ranging from 400-1,000 CFM or higher. They use large collection bags or drums and are often equipped with filters that capture dust down to 1-5 microns, though some higher-end units have finer filtration or HEPA options.
-- **Airflow (CFM)**: With significantly higher CFM, dust collectors are capable of handling the dust output from larger machines, like table saws, planers, and jointers, where a high volume of air is needed to capture dust at the source.
-- **Stationary Setup**: Dust collectors are usually larger and stationary or semi-stationary units. They often involve ductwork to connect multiple tools, providing centralized dust management in the shop.
-- **Best Use**: Ideal for large CNC machines like the 48X30 LongMill or AltMill, woodworking shops with larger power tools, capturing high volumes of sawdust and debris from continuous operation.
 
 | **Model**              | **Description**                                              | **Link**                                                                                               |
 |-------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
@@ -221,14 +202,13 @@ A **dust collector** is designed to capture large volumes of dust and wood chips
 
 ### Features Comparison
 
-| Feature              | Shop Vac                    | Vacuum w/ Cyclone Attachment           | Dust Extractor                  |
-|----------------------|-----------------------------|----------------------------------------|---------------------------------|
-| **Suction Power**    | High suction, lower airflow | Moderate to high suction, depending on base vacuum | Moderate suction and airflow    |
-| **Filtration**       | Basic or HEPA; limited fine dust capture | Improved dust separation; filters last longer | HEPA filtration for very fine dust |
-| **Airflow (CFM)**    | 100-200 CFM                 | 100-400 CFM (based on vacuum used)     | 400-1000 CFM                    |
-| **Portability**      | Portable                    | Portable; may require more space       | Portable and tool-compatible    |
-| **Best For**         | Spot cleaning, larger debris | Capturing large volumes of dust and debris before it reaches the filter | Fine, hazardous dust from sanding and concrete |
-
+| **Feature**           | **Shop Vac**                                              | **Vacuum w/ Cyclone Attachment**                             | **Dust Extractor**                                   |
+|-----------------------|-----------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------------------|
+| **Best For**          | Small to medium CNCs, shorter jobs, spot cleaning, larger debris                              | Capturing large volumes of dust and debris before it reaches the filter | Large CNCs, long/large jobs, fine hazardous dust from sanding        |
+| **Suction Power**     | High suction, lower airflow                               | Moderate to high suction, depending on base vacuum            | Moderate suction and airflow                          |
+| **Filtration**        | Basic or HEPA; limited fine dust capture                  | Improved dust separation; filters last longer                 | HEPA filtration for very fine dust                    |
+| **Airflow (CFM)**     | 100-200 CFM                                               | 100-400 CFM (based on vacuum used)                            | 400-1000 CFM                                          |
+| **Portability**       | Portable                                                  | Fixed or portable; may require more space                              | Often fixed, tool-compatible                          |
 
 Each of these tools has its strengths, costs, size and power requirements. Often woodworkers start with a simple shop vac and build up to a combination of shop vac & cyclone or a dust collector system. Add in a dust extractor to your shop, and you've created an optimal setup for a safer, cleaner workshop.
 
@@ -307,3 +287,5 @@ Collect different types of wood sawdust to match your projects, or make a new pr
 | **Compact Sawdust Bags**              | Compress sawdust bags to make them more compact, saving space and making them easier to store or dispose of. | Short      | [Watch Video](https://youtube.com/shorts/QOYwWEAp1P0) |
 
 [/su_table]
+
+Congrats! You are now all up to speed on types of dust collection systems available to the hobby CNC market, how to put them to use and even how to use all that sawdust you will be creating. Be safe, be healthy & have fun!!
