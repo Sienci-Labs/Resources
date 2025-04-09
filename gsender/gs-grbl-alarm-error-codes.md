@@ -100,25 +100,25 @@ You can close an alarm by clicking on the button that appears next to it in the 
 <tr>
 <td>10</td>
 <td>EStop asserted</td>
-<td>You've pressed your E-stop to stop your machine! Unclick the E-stop, then clear this alarm to continue.</td>
+<td>You've pressed your E-stop to stop your machine! Unclick the E-stop, then clear this alarm to continue. <b>grblHAL specific</b></td>
 <td></td>
 </tr>
 <tr>
 <td>14</td>
 <td>Spindle at speed timeout</td>
-<td>Either the spindle hasn't gotten up to speed in the timeframe set for 'spindle at speed' or spindle has been wired incorrectly to your controller. Clear this alarm, check your setup, and try again.</td>
+<td>Either the spindle hasn't gotten up to speed in the timeframe set for 'spindle at speed' or spindle has been wired incorrectly to your controller. Clear this alarm, check your setup, and try again. <b>grblHAL specific</b></td>
 <td></td>
 </tr>
 <tr>
 <td>15</td>
 <td>Homing fail</td>
-<td>Could not find second limit switch for auto squared axis within search distances. Try increasing max travel, decreasing pull-off distance, or check wiring.</td>
+<td>Could not find second limit switch for auto squared axis within search distances. Try increasing max travel, decreasing pull-off distance, or check wiring. <b>grblHAL specific</b></td>
 <td></td>
 </tr>
 <tr>
 <td>17</td>
 <td>Motor fault</td>
-<td>Issue encountered with closed loop motor tracking. Position likely lost.</td>
+<td>Issue encountered with closed loop motor tracking. Position likely lost. <b>grblHAL specific</b></td>
 <td></td>
 </tr>
 </tbody>
