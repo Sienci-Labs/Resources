@@ -109,7 +109,7 @@ We all need to laugh at ourselves every now and again, so here are some shorts t
 
 ### Community Support
 
-- **Learning from Others**<br> The CNC woodworking community is large and active. Online forums, YouTube tutorials, and CNC groups are invaluable resources for troubleshooting, tips, and inspiration. You’re not alone in the learning process.
+- **Learning from Others**<br> The CNC woodworking community is large and active. Online forums, YouTube tutorials, and CNC groups are invaluable resources for troubleshooting, tips, and inspiration. You’re not alone in the learning process. Join us on our [community forum!](https://forum.sienci.com/)
 - **Asking for Help**<br> Don’t hesitate to ask questions when you get stuck. Most CNC enthusiasts are willing to share their knowledge and help you through challenges.
 
 ### **Space Requirements**
