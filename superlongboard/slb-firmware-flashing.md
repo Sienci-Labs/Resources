@@ -675,7 +675,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$110</b></td>
      <td>X-axis maximum rate</td>
-     <td><b>5500</b></td>
+     <td><b>4000</b></td>
      <td>mm/min</td>
      <td style="text-align: left;" rowspan="4">Maximum rate. Used as G0 rapid rate.</td>
      <td rowspan="8"><a href="https://resources.sienci.com/view/slb-manual/#movement-amp-cutting-speeds">Docs</a></td>
@@ -683,13 +683,13 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$111</b></td>
      <td>Y-axis maximum rate</td>
-     <td><b>5500</b></td>
+     <td><b>4000</b></td>
      <td>mm/min</td>
    </tr>
    <tr>
      <td><b>$112</b></td>
      <td>Z-axis maximum rate</td>
-     <td><b>4500</b></td>
+     <td><b>3000</b></td>
      <td>mm/min</td>
    </tr>
    <tr>
@@ -701,19 +701,19 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$120</b></td>
      <td>X-axis acceleration</td>
-     <td><b>1000</b></td>
+     <td><b>750</b></td>
      <td>mm/sec^2</td>
      <td style="text-align: left;" rowspan="4">Acceleration. Used for motion planning to not exceed motor torque and lose steps.</td>
    </tr>
    <tr>
      <td><b>$121</b></td>
      <td>Y-axis acceleration</td>
-     <td><b>1000</b></td>
+     <td><b>750</b></td>
      <td>mm/sec^2</td>
    <tr>
      <td><b>$122</b></td>
      <td>Z-axis acceleration</td>
-     <td><b>750</b></td>
+     <td><b>500</b></td>
      <td>mm/sec^2</td>
    <tr>
      <td><b>$123</b></td>
