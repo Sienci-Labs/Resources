@@ -2,13 +2,14 @@
 title: Software Explained 🗣️
 menu_order: 0
 post_status: draft
-post_excerpt: 
-post_date: 2024-09-10 10:30
+post_excerpt: The CNC software process starts from creating a design (CAD), making toolpaths to produce g-code (CAM), sending the g-code to the LongMill (machine interface).
+post_date: 2022-03-17 19:50:00
 taxonomy:
-    knowledgebase_cat: 
-    knowledgebase_tag:        
+    knowledgebase_cat: lmk2-software
+    knowledgebase_tag:
+        - mk2
 custom_fields:
-    KBName: 
+    KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
 featured_image: 
@@ -27,6 +28,7 @@ Improves on https://resources.sienci.com/view/lmk2-software-explained/
   - https://www.core77.com/posts/67499/Understanding-the-Different-Types-of-3D-Files
   - https://www.adobe.com/creativecloud/file-types/image/vector/stl-file.html
   - https://www.jett3d.com/blog-jett-3d/the-ultimate-guide-to-the-most-popular-3d-printing-file-types
+- https://resources.sienci.com/view/am-software-explained/
 
 I've been developing software as an alternative to the pricey ones out there that are popular like V-Carve, ArtCAM/Carveco, and the like. It also does things a little differently for those who have more of a background in and familiarity with graphics design rather than CAD and manufacturing. Most programs operate on 2D vectors or 3D models as input where my strategy was to make it easier to use images for a project, but now it's able to handle loading and compositing images, vectors, and models together into a project's design and generating toolpaths for all kinds of projects - not just relief carvings like you have found here.
 
@@ -38,10 +40,9 @@ The software for designing a project and generating toolpaths is only a piece of
 
 The core concepts behind operating a CNC router are very basic. A close analogy would be as follows:
 
-<em>Imagine that you've got a friend with a very steady set of hands who's decided they want to help you on your next woodworking project. They're holding tightly onto a trim router and are able to move it very precisely to any location within a limited space; they just need you to say exactly where you need them to move. Clearly your friend is very generous and skilled but all you've got is a sketch on a piece of paper, so how are you going to be able to describe what you need them to cut out? </em>
+*Imagine that you've got a friend with a very steady set of hands who's decided they want to help you on your next woodworking project. They're holding tightly onto a trim router and are able to move it very precisely to any location within a limited space; they just need you to say exactly where you need them to move. Clearly your friend is very generous and skilled but all you've got is a sketch on a piece of paper, so how are you going to be able to describe what you need them to cut out?*
 
-<em>With the necessary planning, you figure out a way to convert your project idea on paper into a list of precise directions, similar to planning a road trip by combining the GPS coordinates of all the places you'd like to visit. You can now instruct your friend on how to re-create your project to your exact specifications by simply listing these directions to them.
-</em>
+*With the necessary planning, you figure out a way to convert your project idea on paper into a list of precise directions, similar to planning a road trip by combining the GPS coordinates of all the places you'd like to visit. You can now instruct your friend on how to re-create your project to your exact specifications by simply listing these directions to them.*
 
 In that analogy, your friend is effectively acting as a **CNC router**. Given all of the strengths that a CNC has, it can't do anything productive unless you provide it with a list of instructions so that it knows where to cut. So how do you go about making cutting instructions that a CNC would understand?
 
@@ -85,7 +86,7 @@ As previously mentioned, **CAM software** is the tool that you use to take the d
 - the cutting tool (or tools) you plan on cutting the material with
 - some more details about how you'd like to carve your project out
 
-The CAM step is quite straightforward, just ensure that you're not sloppy in providing the correct information to the software since it will always follow your inputs exactly and create the cutting instructions accordingly. The type of CAM program you use will vary based on
+The CAM step is quite straightforward, just ensure that you're not sloppy in providing the correct information to the software since it will always follow your inputs exactly and create the cutting instructions accordingly. The type of CAM program you use will vary based on:
 
 - whether you are using 2D or 3D models
 - your budget (either using free CAM or paid CAM programs)

@@ -2,13 +2,14 @@
 title: Dust Collection
 menu_order: 0
 post_status: draft
-post_excerpt: 
-post_date: 2024-09-10 10:12
+post_excerpt: Dust shoe, vacuum collection, and hose size considerations for the LongMill CNC. Pros and cons of Z-independent and dependent dust shoes discussed.
+post_date: 2022-03-17 19:47:00
 taxonomy:
-    knowledgebase_cat: 
-    knowledgebase_tag:        
+    knowledgebase_cat: lmk2-the-basics
+    knowledgebase_tag:
+        - mk2
 custom_fields:
-    KBName: 
+    KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
 featured_image: 
@@ -21,8 +22,10 @@ Improves on https://resources.sienci.com/view/lmk2-dust-collection/
 - Tends to be needed for lung protection and keep the workspace clean while cutting but it can be accomplished with smaller shop vacs, larger dust collectors, or sometimes even just an enclosure that you vacuum up later
 - How to use all the sawdust you collect?
 - Oneida has a new low-profile cyclone to fit to a bucket
-
-https://forum.sienci.com/t/dust-questions-for-newbie/14028/5
+- Dust collector options https://www.youtube.com/watch?v=glDtBMkiqTc
+- https://forum.sienci.com/t/dust-questions-for-newbie/14028/5
+- Dust Cyclone Separator Cart - 15 min video https://youtu.be/lGnGNYrxqjs
+- https://www.reddit.com/r/hobbycnc/s/DQCCUDQUND
 
 ---
 
@@ -94,7 +97,7 @@ Whether a dust shoe is fixed or adjustable depends on how it’s mounted:
 </table>
 [/su_table]
 
-For general purpose cutting, we'd recommend using an adjustable dust shoe as it is significantly better at collecting dust and debris, and relies less on how powerful your vacuum system is. It's also much better suited toward flat or sheet material which is the type of material that's most commonly used by hobby CNCers for sign-making and v-carving.
+For general purpose cutting, we recommend using an adjustable dust shoe as it is significantly better at collecting dust and debris, and relies less on how powerful your vacuum system is. It's also much better suited toward flat or sheet material which is the type of material that's most commonly used by hobby CNCers for sign-making and v-carving.
 
 ### Choosing Hose Size
 

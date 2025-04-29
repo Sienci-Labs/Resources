@@ -2,16 +2,17 @@
 title: Cutting Tools 🌀
 menu_order: 0
 post_status: draft
-post_excerpt: 
-post_date: 2024-09-10 10:31
+post_excerpt: CNC cutting tools guide for the LongMill. Bits can vary by features like tip shape, size, and flutes, making them suitable for many uses like aluminum milling.
+post_date: 2022-03-17 19:44:00
 taxonomy:
-    knowledgebase_cat: 
-    knowledgebase_tag:        
+    knowledgebase_cat: lmk2-the-basics
+    knowledgebase_tag:
+        - mk2
 custom_fields:
-    KBName: 
+    KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: 
+featured_image: _images/_longmill/_the-basics/lm_cuttingtools_p1_TipTypes.jpg
 ---
 
 Improves on https://resources.sienci.com/view/lmk2-cutting-tools/
@@ -25,6 +26,7 @@ Improves on https://resources.sienci.com/view/lmk2-cutting-tools/
 - When it makes sense to buy more expensive bits and when it doesn't
 - Maybe even have a test at the end of the page to validate their knowledge
 - Sample/reference projects showing what each bit can do
+  - Pictures of projects at the top of the page where the pictures are tabs that open up to explain how the shape of the tip is being used to cut that geometry with a red line to further clarify. Then get into the details of bit length and shape and flutes and stuff later on in the doc since its more dry material
 - Making a sign, 3D image, cutout shape, font depths (same depth doesn’t work for all)
 - When/Why use ¼ vs ⅛ bit
 - If you're a beginner, use larger bits while you learn because they're less likely to break and saves your mistakes
@@ -32,6 +34,7 @@ Improves on https://resources.sienci.com/view/lmk2-cutting-tools/
 - How do you store your bits & keep them organized
 - Types of materials you typically cut
 - Overlaps with "Tools & Router" page, so ensure this one covers more introductory/buying while the other covers mostly quick-reference material for handbook understanding
+- IDC, Amana, and others are 4-5 times more expensive than your bits: is there any measurable difference between them? Long story short, yes and no. The price of the bit doesn't always indicate its quality. There are three main things that determine the quality of a bit, the quality of the carbide itself, the precision and accuracy of the final shape, and the design of the tool. When it comes to the quality of the carbide, things like how well it was bound together and the grain structure determine it's impact resistance and hardness, and a better carbide typically costs more. Second is the actual grinding process, and better grinding of the shape brings the size of the tool closer to what the design was intended, and perhaps more important, the sharpness of the edge. The sharper the edge is, the less force is needed to cut the material and cleaner the cuts are. Lastly, in the design. The shape of the tool determines the behaviour of the chips it produces, which direction it goes, and other factors. Even between manufacturers, small differences in end mills can determine the performance of the end mill even if they are called the same thing. Buying a tool that is specifically designed for the machine and material you want to cut can yield the best results. It's probably not a secret to either the customer or us that we don't make our own end mills. But the tools that we do purchase come from the same facilities that make end mills that major automakers and electronics manufacturers use, which require extremely high standards. We also have worked with the manufacture to make end mill designs specifically for hobby CNCing. This is my personal opinion about IDC and Amana. IDC is also a reseller and almost certainly buying tools from the same supplier as us. This means that they sell the same tools for much more money. There likely is no difference in quality or design. For Amana, their customer base is with larger producers. They may use their end mills until they are dull and need to be replaced, and so the cost per use is minimized. However, we priced our tooling on the low end since we know that the chance for the end mill to be broken is much higher for a hobbyist, and they won't be used as frequently. That isn't to say, Amana is better that our bits, it just becomes less expensive if end mills becomes a more negligible cost to the production and they have a proven track record for quality and design.
 
 ---
 
@@ -49,23 +52,23 @@ Choosing bits is very much a learning process just as learning to use certain bl
 
 The biggest difference in cutting tools is their tip shape, this determines what application the bit can be used for. The three most common types are the **v-bit**, **flat end**, and **ball nose** (shown below respectively).
 
-<img class="aligncenter wp-image-858" src="https://resources.sienci.com/wp-content/uploads/2021/04/End-mill-tip-types_marked_trim-1-624x252.jpg" alt="" width="800" height="323" />
+![](/_images/_longmill/_the-basics/lm_cuttingtools_p1_TipTypes.jpg){.aligncenter .size-medium}
 
 **V-bit:**  v-bits have an angled tip that works great for engraving. They come in varying angles so that if you're cutting a line with a certain thickness then a 60° bit will cut that line deeper than a 90° bit will; this variation can be used to great effect.
 
-<img class="wp-image-694 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/04/V-bit-end-mills-624x350.jpg" alt="" width="800" height="449" />
+![](/_images/_longmill/_the-basics/lm_cuttingtools_p2_VBits.jpg){.aligncenter .size-medium}
 
 V-bits can be used for simple line-drawing engravings and are also commonly used for "v-carving" which varies the height of the bit as it cuts to change the width of the engraving. This can create detailed images and can also be used for stippling.
 
-<img class="aligncenter wp-image-835" src="https://resources.sienci.com/wp-content/uploads/2021/05/The-great-wave-1024x576-1-624x351.jpg" alt="" width="800" height="450" />
+![](/_images/_longmill/_the-basics/lm_cuttingtools_p3_Wave.jpg){.aligncenter .size-medium}
 
 **Flat end:**  this type of end mill simply has a flat or "square" tip profile and normally comes in the form of a spiral bit, but rabbit and dado bits also fall under this category. These cutting tools are the most common of any type due to their versatility for rapid material removal, pocketing, and generally being able to do most CNC projects you may have in mind. At the very least they come in handy if you're considering levelling a large cut of material or need to cut the outer profile of a sign to separate it from the stock material.
 
-<img class="aligncenter wp-image-856" src="https://resources.sienci.com/wp-content/uploads/2021/04/Cedar-Wood-Box-624x350.jpg" alt="" width="800" height="449" />
+![](/_images/_longmill/_the-basics/lm_cuttingtools_p4_WoodBox.jpg){.aligncenter .size-medium}
 
 **Ball nose:**  great for 3D / relief carving where your project contains contoured surfaces. By stitching many close passes of its rounded profile together the result can be a perfectly smooth, curved surface right off your machine. Smaller ball nose bits are commonly tapered so that the bit is less likely to snap but you're still able to cut out very fine details. All this being said, one aspect these bits can't handle is flat surfaces due to the "scalloping" they introduce. This type of carving is certainly more advanced than others but at the end of the day it certainly adds an extra dimension to your projects.
 
-<img class="wp-image-860 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/04/Smooth-Finish-3D-Foam-Milling-624x351.jpg" alt="" width="800" height="450" />
+![](/_images/_longmill/_the-basics/lm_cuttingtools_p5_3DFoam.jpg){.aligncenter .size-medium}
 
 [tabby title="Size"]
 
@@ -73,7 +76,7 @@ The size of a cutting tool is important because if it's too big then it might no
 
 Cutting tools can normally be described by a few key dimensions:
 
-<img class="aligncenter wp-image-699" src="https://resources.sienci.com/wp-content/uploads/2021/04/End-Mill-features_marked-624x177.png" alt="" width="800" height="227" />
+![](/_images/_longmill/_the-basics/lm_cuttingtools_p6_EndMillFeat.png){.aligncenter .size-medium}
 
 **Cutting diameter:**  the diameter of the cutting end of the tool. For ball nose bits it's the diameter before the rounded profile and for v-bits it's usually the largest diameter of the 'v' profile. The size of this determines your tools ability to remove material.
 
@@ -109,7 +112,7 @@ As a CNC operator, you will learn to choose the correct end mill for the job and
 
 Cutting tools can be manufactured out of a variety of material which are all engineered to be able to sustain high loads during the cutting process and remain sharp enough in order to shear the material away from the stock. Of these, the most commonly used materials are high speed steel (HSS) and solid carbide.
 
-[caption id="attachment_695" align="aligncenter" width="800"]<img class="wp-image-695" src="https://resources.sienci.com/wp-content/uploads/2021/04/HSS-vs-Solid-Carbide-624x304.jpg" alt="" width="800" height="390" /> Solid carbide vs. HSS cutting tool[/caption]
+![](/_images/_longmill/_the-basics/lm_cuttingtools_p7_HSSCarbide.jpg "Solid carbide vs. HSS cutting tool")
 
 HSS usually combines with a variety of other alloys to have a high wear resistance and durability for cutting both soft and hard materials. Since HSS is softer than solid carbide it’s less likely to crack and instead wears out over time, so it’s limited to slower cutting speeds. HSS tools are also usually much cheaper than solid carbide tools and can be additionally improved if they come with a coating.
 
@@ -126,7 +129,8 @@ For more non-abrasive materials, coatings will only have an affect on the lifeti
 ### More
 
 In case you're feeling curious, there's many more resources out there which provide plenty of information on the ins and outs of cutting tools. Here are a few that we've documented:
-<p class="headline headline--l">- <a href="https://m.all3dp.com/2/guide-to-cnc-router-bits-all-you-need-to-know/" target="_blank" rel="noopener noreferrer">2019 Guide to CNC Router Bits: All You Need to Know</a>
+
+- <a href="https://m.all3dp.com/2/guide-to-cnc-router-bits-all-you-need-to-know/" target="_blank" rel="noopener noreferrer">2019 Guide to CNC Router Bits: All You Need to Know</a>
 - <a href="http://makezine.com/2014/09/10/endmills/" target="_blank" rel="noopener noreferrer">Makezine- The Skinny on Endmills</a>
 - <a href="http://www.cnccookbook.com/CCCNCMillingCutters.html" target="_blank" rel="noopener noreferrer">CNC Cookbook- End Mill Guide</a>
 - <a href="http://lcamtuf.coredump.cx/gcnc/ch2/" target="_blank" rel="noopener noreferrer">Guerrilla guide to CNC machining- Stocking up on End Mills</a>
@@ -134,8 +138,10 @@ In case you're feeling curious, there's many more resources out there which prov
 - <a href="http://www.cnczone.com/forums/diy-cnc-router-table-machines/150821-router-bits-endmills-pictures-descriptions-uses.html" target="_blank" rel="noopener noreferrer">CNC Zone- Router Bits and End Mills</a>
 - <a href="https://en.wikipedia.org/wiki/Milling_cutter" target="_blank" rel="noopener noreferrer">Wikipedia- Milling Cutter</a>
 - <a href="https://www.shapeoko.com/wiki/index.php/Endmills" target="_blank" rel="noopener noreferrer">Shapeoko Wiki- End Mills</a>
-- <a href="http://www.hannibalcarbide.com/technical-support/titanium-coatings.php" target="_blank" rel="noopener noreferrer">Hannibal Carbide Tool- Titanium Coatings</a></p>
+- <a href="http://www.hannibalcarbide.com/technical-support/titanium-coatings.php" target="_blank" rel="noopener noreferrer">Hannibal Carbide Tool- Titanium Coatings</a>
+
 [tabbyending]
+&nbsp;
 
 ## Recommendations
 

@@ -2,16 +2,17 @@
 title: Touch Plates ⚡
 menu_order: 0
 post_status: draft
-post_excerpt: 
-post_date: 2024-09-10 10:31
+post_excerpt: LongMill touch plate documentation found here. A touch plate is an easy way to find the origin point on your material, for accurate positioning of the material.
+post_date: 2022-03-17 19:48:00
 taxonomy:
-    knowledgebase_cat: 
-    knowledgebase_tag:        
+    knowledgebase_cat: lmk2-the-basics
+    knowledgebase_tag:
+        - mk2
 custom_fields:
-    KBName: 
+    KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: 
+featured_image: /_images/_longmill/_assembly/_addons/lm_addons_p8_Corner.png
 ---
 
 Improves on https://resources.sienci.com/view/lmk2-touch-plates/
@@ -30,7 +31,3 @@ The <a href="https://sienci.com/product/touch-plate/" target="_blank" rel="noope
 https://www.youtube.com/watch?v=H_fYFjtFc3Q
 
 https://www.youtube.com/watch?v=Wad9O_TqJkI
-
-- How each is used could be explained better
-- Should ideally be rewritten to show wiring as its own section
-- Show setting up either touch plate in software

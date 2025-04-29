@@ -25,6 +25,12 @@ Page for help those running a business with CNC project pricing
 - https://carbide3d.com/learn/cnc-projects-that-sell/
 - https://discuss.inventables.com/t/pricing-for-products-made-with-x-carve/149670
 - 7 hard truths about cnc business - https://www.youtube.com/watch?v=5A9LlmvxVAo
+- Advice on pricing https://www.reddit.com/r/graphic_design/s/Q3OWrEta1c
+- Cheap customers https://www.facebook.com/share/p/vpxYWDH8vvMRHHS5/
+- Print cost calculator https://makerworld.com/en/models/724437#profileId-655571
+- If you're starting a business around it, notes for success
+  - Take lots of time on staging your picture with lighting, background, etc. also showing it in its use like put steak or cheeses on your charcuterie boards
+  - Look at Etsy to see which products that aren't ads that are making the top of the lists as a learning opportunity
 
 ---
 
@@ -43,9 +49,6 @@ https://forum.vectric.com/viewtopic.php?t=27160
 |--------------------------------------------------|----------------------------------------------------------------------|-----------------|-----------------------------------------------------------------------|
 | IDC Woodworking CNC Business from Home           | A guide to starting a CNC woodworking business from home, including tips on setup and marketing. | 15 minutes      | [Watch Video](https://www.youtube.com/watch?v=RlDV8TmQ0fM)             |
 | CNC Business Secrets                             | Insights and tips for running a successful CNC woodworking business.  | 12 minutes      | [Watch Video](https://www.youtube.com/watch?v=oWStIjcmMNs)             |
--
-
-
 
 ### Pricing Your Projects
 

@@ -2,13 +2,14 @@
 title: Materials
 menu_order: 0
 post_status: draft
-post_excerpt: 
-post_date: 2024-09-10 10:31
+post_excerpt: A list of materials that can be cut by the LongMill CNC, with considerations for cutting tools and best practices. Wood, plastic, foam and soft metal suggested.
+post_date: 2022-03-17 19:45:00
 taxonomy:
-    knowledgebase_cat: 
-    knowledgebase_tag:        
+    knowledgebase_cat: lmk2-the-basics
+    knowledgebase_tag:
+        - mk2
 custom_fields:
-    KBName: 
+    KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: yes
 featured_image: 
@@ -19,6 +20,8 @@ Improves on https://resources.sienci.com/view/lmk2-materials/
 - Types of materials you typically cut
 - Where you can normally source those materials
 - Great tips for finding places to buy wood, middle of video https://youtu.be/pktydCxlqz4?si=Iem1aD8KLB90I2eJ
+- Purchase Acrylic https://www.facebook.com/share/p/yF7S9VrvyEYurrgf/
+- Buying materials https://www.reddit.com/r/hobbycnc/s/Nvn5rgGjIf
 
 ---
 
@@ -26,9 +29,9 @@ Improves on https://resources.sienci.com/view/lmk2-materials/
 
 Wood is simply an amazing material. As it is a living, organic material, there are an infinite variety of woods and characteristics. We will talk a little about using wood with your CNC machine here.
 
-<img class="wp-image-833 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/Guitar-body-prototype-624x515.jpg" alt="" width="800" height="660" />
+![](/_images/_longmill/_the-basics/lm_materials_p1_Guitar.jpg){.aligncenter .size-medium}
 
-General recommended starting feeds and speeds for <a href="http://sienci.com/product/18-flat-end-mill/" target="_blank" rel="noopener">1/8" 2 flute flat end mills</a>. Please start with these settings and adjust, these are not hard and fast speeds.
+General recommended starting feeds and speeds for <a href="http://sienci.com/product/18-flat-end-mill/" target="_blank" rel="noopener">1/8" 2 flute flat end mills</a>. Please start with these settings and adjust, these are not hard and fast speeds:
 
 <table class="wp-table" width="70%">
 <tbody>
@@ -83,7 +86,7 @@ General recommended starting feeds and speeds for <a href="http://sienci.com/pro
 </tbody>
 </table>
 
-and for <a href="https://sienci.com/product/1-4-spiral-up-cut-end-mill/" target="_blank" rel="noopener">1/4" 2 flute flat end mills</a>.
+And for <a href="https://sienci.com/product/1-4-spiral-up-cut-end-mill/" target="_blank" rel="noopener">1/4" 2 flute flat end mills</a>:
 
 <table class="wp-table" width="70%">
 <tbody>
@@ -162,14 +165,14 @@ One thing to note about wood is that it can burn if:
 ### MDF
 
 - MDF is a cheap, easy to cut material that tends to cut quite cleanly and evenly on the CNC router.
-- MDF dust is incredibly fine and can be dangerous. Make sure to use appropriate dust collection and a mask. A using a <a href="https://sienci.com/product/longmill-magnetic-dust-shoe/" target="_blank" rel="noopener">dust shoe</a> is a good option.
+- MDF dust is incredibly fine and can be dangerous. Make sure to use appropriate dust collection and a mask. A using a <a href="https://sienci.com/product/LongMill-magnetic-dust-shoe/" target="_blank" rel="noopener">dust shoe</a> is a good option.
 - Like plywood, MDF also has chemicals and glues in the material. Make sure to check and ensure that they are clean between cuts
 
 ## Plastic
 
 Plastic is a material used everywhere in our modern world. Each type of plastic has unique properties that we must take into account when choosing our speeds and feeds.
 
-<img class="wp-image-834 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/Mulan-Comb_hair-624x350.jpg" alt="" width="800" height="449" />
+![](/_images/_longmill/_the-basics/lm_materials_p2_Plastic.jpg){.aligncenter .size-medium}
 
 ### Acrylic / Polycarbonate
 
@@ -196,9 +199,9 @@ Plastic is a material used everywhere in our modern world. Each type of plastic 
 
 Foam, being a super soft material, is an easy material to cut. We recommend foam as a starting material to practice CNC programming. Foam also has many useful applications, such as in packaging, RC planes, drones, and more.
 
-<img class="wp-image-831 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/foam-843x1024-1-624x482.jpg" alt="" width="800" height="618" />
+![](/_images/_longmill/_the-basics/lm_materials_p3_Foam.jpg){.aligncenter .size-medium}
 
-Rigid foam is a super easy, soft material to cut. Most of the time, you can cut at full speed and full engagement with no issues, making it a fast way to draft out cuts. Soft foams come in many different densities and softnesses, which can affect cutting. Read more below to learn more. These settings work with both 1/8" and 1/4" 2 flute flat end mills.
+Rigid foam is a super easy, soft material to cut. Most of the time, you can cut at full speed and full engagement with no issues, making it a fast way to draft out cuts. Soft foams come in many different densities and softness, which can affect cutting. Read more below to learn more. These settings work with both 1/8" and 1/4" 2 flute flat end mills.
 
 <table class="wp-table" width="70%">
 <tbody>
@@ -238,9 +241,9 @@ Rigid foam is a super easy, soft material to cut. Most of the time, you can cut 
 
 Aluminum is a strong and lightweight metal used in all sort of modern applications from our bikes to our laptops. CNCing aluminum is a great option to get useful parts, especially for mechanical systems and tools.
 
-<img class="wp-image-832 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/05/Aluminum-T-rex-624x433.jpg" alt="" width="800" height="555" />
+![](/_images/_longmill/_the-basics/lm_materials_p4_Aluminum.jpg){.aligncenter .size-medium}
 
-Aluminum comes in a variety of different alloys. We will primarily be talking about 6060 aluminum, which is the most commonly used alloy. General feeds and speeds using a <a href="https://sienci.com/product/18-flat-end-mill-for-aluminum/" target="_blank" rel="noopener">1/8" single flute flat aluminum cutting end mill</a>. Please note that these settings are for basic cutting such as with <a href="http://camlab.sienci.com" target="_blank" rel="noopener">CAMLab</a> or <a href="https://grid.space/kiri#cnc" target="_blank" rel="noopener">Kiri:Moto</a> and not for adaptive toolpath operations which have other settings.
+Aluminum comes in a variety of different alloys. We will primarily be talking about 6060 aluminum, which is the most commonly used alloy. General feeds and speeds using a <a href="https://sienci.com/product/18-flat-end-mill-for-aluminum/" target="_blank" rel="noopener">1/8" single flute flat aluminum cutting end mill</a>. Please note that these settings are for basic cutting such as with <a href="http://camlab.sienci.com" target="_blank" rel="noopener">CAMLab</a> or <a href="https://grid.space/kiri#cnc" target="_blank" rel="noopener">Kiri:Moto</a> and not for adaptive toolpathing operations which have other settings.
 
 <table class="wp-table" width="70%">
 <tbody>
@@ -267,4 +270,4 @@ Aluminum comes in a variety of different alloys. We will primarily be talking ab
 - The most common cause of end mill breakage is when chips build up and melt onto your bit. Ensuring that you have the proper chipload and chip ejection is important to draw heat out of the cut. Some users may choose to use coolant or compressed air to cool their cuts. Make sure to keep chips out of the cut at all times.
 - Most routers run at relatively high RPMs (10,000 to 30,000RPM) for cutting metals. Because of this, it is best to use single flute bits like our <a href="https://sienci.com/product/18-flat-end-mill-for-aluminum/" target="_blank" rel="noopener">1/8" flat end mill for aluminum</a> to ensure that you can get optimally sized chips. Also, reducing your RPM can help.
 - Some coatings, especially ones with coatings that contain aluminum (AlTiN, TiAlN), should be avoided as aluminum chips can have an affinity to the coating.
-- Using an advanced CNC CAM program such as <a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener">Fusion 360</a> that has adaptive toolpaths can speed up your cutting and give you better results, but if you're planning on cutting a lot of aluminum, it may be worth learning.
+- Using an advanced CNC CAM program such as <a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener">Fusion 360</a> that allows for adaptive toolpathing can speed up your cutting and give you better results, but if you're planning on cutting a lot of aluminum, it may be worth learning.

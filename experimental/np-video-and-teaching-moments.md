@@ -26,6 +26,7 @@ https://youtube.com/playlist?list=PLRDpJ3bWCwJEXh-snA7O5IP6XDKuInWZj
 
 Video list / ideas https://docs.google.com/spreadsheets/d/1E0OjxS94refzqD2dPYFVux_vyTAK2U0YEE0Yzp3Sc9U/edit?gid=0#gid=0
 
+- Recommended channels for CNC content
 - CNC Routers Can Do ALL That? - WOOD magazine https://www.youtube.com/watch?v=NWDrWbCbI3s
 - Things to teach through running a project
   - How to setup and start a job
@@ -37,7 +38,7 @@ Video list / ideas https://docs.google.com/spreadsheets/d/1E0OjxS94refzqD2dPYFVu
     - AutoZero doesn’t go to 0.0. https://forum.sienci.com/t/auto-zero-touch-plate-not-going-to-z-0-00/12762
     - Vortex (A in switch and 4th axis modes)
   - What is safe height?
-- How to Vcarve to get file to gSender
+- How to V-carve to get file to gSender
 - Macro to prevent workspace reset. Go to Settings Program Events:Prevents Workspace reset to G54
   - %global.state.workspace=modal.wcs ‘WS Start’
   - [global.state.workspace] ‘WS Stop’
