@@ -13,6 +13,9 @@ custom_fields:
 skip_file: yes
 featured_image: 
 ---
+Macros - Zero All, Move to Workspace XY zero, move to G28 or G30, Set G28, https://forum.sienci.com/t/how-to-create-a-new-home-macro-in-g-sender/16891/6
+
+---
 
 Can go in “Handbook” section
 Video navigation of curated YouTube content from our channel and others
