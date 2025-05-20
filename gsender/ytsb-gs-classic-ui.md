@@ -1,8 +1,8 @@
 ---
-title: ytsb Classic UI
+title: Classic UI
 menu_order: 7
 post_status: draft
-post_excerpt: Full instructions for use of the classic UI style for gSender. Includes layout, configuration, usage, features & bug reporting.
+post_excerpt: Full instructions for use of the classic UI style for gSender. Includes layout, configuration, usage, features, & bug reporting.
 post_date: 2022-05-01 17:28:30
 taxonomy:
     knowledgebase_cat: gdocs
@@ -15,7 +15,15 @@ skip_file: no
 featured_image: 
 ---
 
-## Layout & Configuration
+This page acts as an easy reference for all past documentation written before gSender version 1.5.0. Similar to the current docs, it'll go over [**Setup and Layout**](#anonymous-information) items first, then introduce [**Basics Features**](#starting-up) for day-to-day use before progressing to more [**Advanced Features**](#shortcuts) such as shortcuts, macros, calibration tools, spindles, lasers, and more. If your're having some issues with gSender, definitely visit the [**Troubleshooting**](#problems-or-bugs) section to see fixes to common issues or see how you can get in touch with us. Remember, you can always quickly navigate the page by clicking the headings in the 'Page Contents'.
+
+## Anonymous Information
+
+When you open up gSender, you’ll notice a prompt regarding ‘Anonymous usage information’. This is just to ask if you’d be fine with us knowing things like what CNC you use it for, what computer you run it on, and other information about how you use the app. You can imagine that if we know certain features are widely used or certain errors are constantly encountered, that can be very helpful to understand how we can improve the app or its documentation. This is completely optional and anonymous, we only do it with your permission and it can be turned off at any time in the settings menu.
+
+![](/_images/_gsender/_setup/gs_se_anonymous-info.jpg){.aligncenter .size-medium}
+
+## Layout
 
 Before starting to use gSender, let's briefly cover the way its functions are laid out so that you'll know where to find things moving forward. The program only has one main screen, it's into three major sections:
 
@@ -290,8 +298,6 @@ gSender is set up to do many things by default to help keep you aware about thin
 1. **History of Errors and Alarms**: great for tracking problems you might’ve recently run into to help troubleshooting or getting support. All entries are listed in-order and stamped with a date and time.
 
 ![](/_images/_gsender/_using/gs_us_safety.jpg){.aligncenter .size-full}
-
-This section covers all the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, lasers, coolant, and more. Remember, you can always quickly navigate the page by clicking the headings in the 'Page Contents'.
 
 ## Shortcuts
 
@@ -1048,6 +1054,8 @@ Paste your macro code here.
 ```
 
 [/su_spoiler]
+
+## Problems or Bugs?
 
 Having **troubles with gSender (classic)** or have **suggestions to improve it?** Here are the steps you can follow:
 

@@ -47,7 +47,7 @@ This is where you will spend the majority of your time actually carving. When th
 
 We’ve built gSender’s layout around these primary boxed sections so that you can have all of the CNC functionality most hobbyists need on one screen without getting confused about what each button does. If you’re doing anything **during** a job it’ll be in the middle, if you’re doing anything **outside** a job it’ll likely be on the right, and if you want greater customization or functionality it’ll be found in the toolbars.
 
-Another of gSender’s Design Principals is colouring. It can be scary to have an assortment of buttons in front of you and not know what they’re going to do. This is why we made every button on the right-side control that moves the CNC, **blue**. This means you shouldn’t ever find yourself startled when the machine moves unexpectedly since the colour will help to communicate whether it’s a ‘machine moving’ button or not.
+Another of gSender’s Design Principals is colouring. It can be scary to have an assortment of buttons in front of you and not know what they’re going to do. This is why we made every button in the app that moves the CNC, **blue**. This means you shouldn’t ever find yourself startled when the machine moves unexpectedly since the colour will help to communicate whether it’s a ‘machine moving’ button or not.
 
 ### Stats
 
@@ -57,19 +57,19 @@ The Stats tab provides an overview of your machine configuration, recent jobs (i
 
 ### Tools
 
-In the Tools tab provides wizards you can use to walk through XY squaring or movement tuning of your machine. Wasteboard surfacing, keyboard shortcuts, gamepad profiles and legacy firmware settings round out the offering.
+In the Tools tab provides wizards you can use to walk through XY squaring or movement tuning of your machine. Wasteboard surfacing, keyboard shortcuts, and gamepad profiles.
 
 ![](/_images/_gsender/_setup/gs_set_maintools.jpg)
 
 ### Config
 
-The final tab is the configuration tab. Here you will find an extensive list of settings, starting with the basics, motors, probe, status lights, homing/limits, spindle/laser, tool changing, rotary, and more.
+The final tab is the configuration tab. Here you will find an extensive list of settings, starting with the basics, motors, probe, homing/limits, spindle/laser, tool changing, rotary, and more.
 
 ![](/_images/_gsender/_setup/gs_set_configlist.gif){.aligncenter .size-full}
 
 Some things you'll likely want to check out in config are:
 
-**Preferred Units** where you can toggle between metric (mm) and imperial (in) units, **Baud Rate** needed for your CNC (default is 115200) and **Reconnect Automatically**, which allows you to reconnect the the last machine you used, automatically. 
+**Preferred Units** where you can toggle between metric (mm) and imperial (in) units, **Baud Rate** needed for your CNC (default is 115200) and **Reconnect Automatically**, which allows you to reconnect the the last machine you used, automatically.
 
 ![](/_images/_gsender/_setup/gs_set_configstart.jpg){.aligncenter .size-medium}
 

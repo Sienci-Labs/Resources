@@ -12,7 +12,7 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_gsender/_issues/gs_is_diagnostic-file.jpg
 ---
 
 Having **troubles with gSender** or have **suggestions to improve it?** Here are the steps you can follow:

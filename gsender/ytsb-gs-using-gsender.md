@@ -31,15 +31,15 @@ Sometimes there’s more than one COM port available, so you may need to try bot
 
 ![](/_images/_gsender/_using/gs_us_connectcnc.jpg){.aligncenter .size-full}
 
-Once you have clicked on the COM port, your machine will be connected. This is confirmed when you see the plug icon turn green. You will also find either *grbl* or *grblHAL* listed under the COM port selected. You can also see the status on the top center part of the visualizer change from **Disconnected** to **Idle**, and the controls activate, allowing you to press them. Controls are blue when active and grey when not active.
+Once you have clicked on the COM port, your machine will be connected. This is confirmed when you see the plug icon turn green. You will also find either *grbl* or *grblHAL* listed under the COM port selected. You can also see the status on the top center of the app change from **Disconnected** to **Idle**, and the controls activate, allowing you to press them. Most buttons stay gray if they're still inactive.
 
 ![](/_images/_gsender/_using/gs_us_idleconnected.jpg){.aligncenter .size-full}
 
 If you are not seeing those changes when you connect, please check the following:
 
-1. Arduino is securely attached to the LongBoard.
 1. Any other programs that can talk to the Arduino are closed (ex. Arduino IDE, Easel, UGS).
 1. See if you have other COM ports available, and try to connect to them.
+1. Arduino is securely attached to the LongBoard.
 
 ## Jogging and Presets
 
@@ -138,7 +138,7 @@ If you don't have sensors, skip ahead [HERE.](#probing)
 
 ### Going Homing
 
-When we turn on homing, we can use 3 sensors to find our machine coordinate  home on our machine. For now, we will home to the front left corner of the machine. To enable Homing, go to Config -> Limits and Homing -> Homing cycle enable -> toggle on. 
+When we turn on homing, we can use 3 sensors to find our machine coordinate  home on our machine. For now, we will home to the front left corner of the machine. To enable Homing, go to Config -> Limits and Homing -> Homing cycle enable -> toggle on.
 
 ![](/_images/_gsender/_using/gs_us_dro_homingon.jpg){.aligncenter .size-medium}
 
@@ -227,13 +227,13 @@ Loaded files are shown on the Visualizer. With your file loaded, feel free to al
 
 ![](/_images/_gsender/_using/gs_us_visualizer.gif){.aligncenter .size-full}
 
-Before running your job there are a few other handy features you can check. The **Outline** button will physically move your machine around the rough perimeter of your cutting job so you can get an idea of the cutting dimensions and if you’ve positioned the job correctly.
+Before running your job there's another handy feature you can check. The **Outline** button will physically move your machine around the rough perimeter of your cutting job so you can get an idea of the cutting dimensions and if you’ve positioned the job correctly.
 
 ![](/_images/_gsender/_using/gs_us_outline.jpg){.aligncenter .size-medium}
 
 ## Running Jobs
 
-Once your machine is ready with your ***router and vacuum on***, press **Start** to begin your cut. You can pause and stop your job at any time with the respective buttons. If you press **Pause Job**, you can resume the job from where you left off. Otherwise, **Stop Job** will cancel your job completely.
+Once your machine is ready with your ***router and vacuum on***, press **Start** to begin your cut. You can pause and stop your job at any time with the respective buttons. If you press **Pause**, you can resume the job from where you left off. Otherwise, **Stop** will cancel your job completely.
 
 ![](/_images/_gsender/_using/gs_us_start.jpg){.aligncenter .size-medium}
 
@@ -245,9 +245,9 @@ In the default visualizer you’ll see that cutting movements that plan to be ma
 
 At the bottom of the visualizer, an animated progress bar shows you several details about the job you are running, like completion %, estimated time remaining, g-code line counter and a running timer for how long you have been cutting.
 
-![](/_images/_gsender/_using/gs_us_runningfeedbar.gif){.aligncenter .size-full}
+Additionally, you can **override the feed rate** and spindle speed of the program while the job is running by moving then letting go of the slider, pressing the ‘+’ and ‘-’ buttons for smaller adjustment, or clicking the rotated arrow to reset back to the default value. This is handy for fine-tuning the program cutting speed in order to tune in your material removal rate and ensure you don't burn or melt material. You can also do this before starting the job if you already know you’ll need to tweak the feed rate or spindle speed for your file you're about to run.
 
-You can **override the feed rate** (and spindle speed) of the program while the job is running by moving then letting go of the slider, pressing the ‘+’ and ‘-’ buttons for smaller adjustment, or clicking the rotated arrow to reset back to the default value. This is handy for fine-tuning the program cutting speed in order to tune in your material removal rate and ensure you don't burn or melt material.
+![](/_images/_gsender/_using/gs_us_runningfeedbar.gif){.aligncenter .size-full}
 
 Now you're off and cutting, what a thrill! While your job is running keep an eye and ear out for anything you don't expect. You can always use the job control buttons during operation to change speeds, pause, resume, or stop cutting altogether.
 
@@ -271,16 +271,13 @@ It does this by looking through the whole g-code file up to where you want to re
 1. Once everything looks set up correctly, you should be able to 'goto' the original zero position and see that the bit is lined up correctly to the material. The location should read all zeros for each axis.
 1. Raise up the Z-axis a couple millimeters for safety.
 1. Click the small icon at the top right of the green ‘Start Job’ button to open the window.
-
   ![](/_images/_gsender/_using/gs_us_startfrombutton.jpg){.aligncenter .size-medium}
-
 1. Here you'll see:
-
   ![](/_images/_gsender/_using/gs_us_startfromline.jpg){.aligncenter .size-medium}
 
-- When you **Last stopped** your file, how many **Total lines** it has, and a **Recommended start line**.
-- **Resume job at line**: once you've decided where to resume from, you can type the line number in here.
-- **Safe height**: if your CNC has extra Z movement above the failed job, you can put a larger number here to make sure that it doesn't hit clamps while moving into position to resume cutting.
+   - When you **Last stopped** your file, how many **Total lines** it has, and a **Recommended start line**.
+   - **Resume job at line**: once you've decided where to resume from, you can type the line number in here.
+   - **Safe height**: if your CNC has extra Z movement above the failed job, you can put a larger number here to make sure that it doesn't hit clamps while moving into position to resume cutting.
 
 1. Once everything looks good, remember to turn on anything that isn't automated like a trim router or vacuum, then click 'Start from Line' to resume cutting.
 
@@ -291,9 +288,7 @@ It does this by looking through the whole g-code file up to where you want to re
 ### Pause Cutting Mid-Job
 
 1. If a carve is dragging on and you need to leave the machine for the night, first you'll want to note down the approximate g-code line number it's at. In the example below you'd note down "803 lines".
-
-![](/_images/_gsender/_using/gs_us_currentline.jpg){.aligncenter .size-medium}
-
+  ![](/_images/_gsender/_using/gs_us_currentline.jpg){.aligncenter .size-medium}
 1. Once noted down, 'Pause', then 'Stop' the job. This allows the machine to stop more slowly instead of emergency stop.
 1. Quickly turn off anything that isn't automated like a router or dust collector and jog the Z-axis up so you don't burn or mar the material. You can also try to pause strategically when the bit is moving and not cutting to avoid damaging your material.
 1. At this point it's best to return the cutting tool to the project zero point if possible using the blue 'XY' button then the blue 'Z' button for the Z-axis. This will **Goto** your original zero. This way if the zero point is lost when you resume cutting later, then you can just manually set your zero knowing you're still at the zero location.

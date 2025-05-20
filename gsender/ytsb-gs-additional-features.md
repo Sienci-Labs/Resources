@@ -58,7 +58,7 @@ A great place to start is the Jogging category. In the picture below, see that r
 
 ![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_commonjog.jpg){.aligncenter .size-medium}
 
-You can use the preset shortcuts, edit them and/or add your own. Click the **edit** to the right of each shortcut text box to bring up a popup window that allows you to add or edit your own key combination (shown in the example below). You can see it’s as easy as pressing the key or key combination. In addition, you’ll be informed if the combination you’ve entered is already used elsewhere and be given the option to overwrite the existing one if you want.
+You can use the preset shortcuts, edit them, and/or add your own. Click the **pencil** to the right of each shortcut text box to bring up a popup window that allows you to add or edit your own key combination (shown in the example below). You can see it’s as easy as pressing the key or key combination. In addition, you’ll be informed if the combination you’ve entered is already used elsewhere and be given the option to overwrite the existing one if you want.
 
 ![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_editshort.gif){.aligncenter .size-full}
 
@@ -301,7 +301,7 @@ To access EEPROM settings again, enter in “$$” into the console and hit the 
 
 ## Tools for Calibration
 
-The **Tool Tab** on gSender enables you to make finer adjustments to your machine for improved performance. There are four processes available on gSender:
+The **Tool Tab** in gSender enables you to make finer adjustments to your machine for improved performance. There are four processes available in gSender:
 
 - Surfacing Wasteboard
 - Movement Tuning
@@ -402,7 +402,7 @@ Did you know that surfacing can be used for more than your wasteboard? It’s gr
 
 ### Firmware Tool
 
-Any board you have will come pre-installed with CNC firmware, along with the custom EEPROM settings for that machine, so typically you won’t need to access the ‘Firmware’ tool. If you choose to use this tool, it can give you access to many of your machines "behind-the-scenes" settings for tweaking or modding your setup. 
+Any board you have will come pre-installed with CNC firmware, along with the custom EEPROM settings for that machine, so typically you won’t need to access the ‘Firmware’ tool. If you choose to use this tool, it can give you access to many of your machines "behind-the-scenes" settings for tweaking or modding your setup.
 
 ### Diagnostics
 
@@ -555,23 +555,15 @@ gSender’s settings are stored on a file on whatever computer is used to run it
 To transfer your settings over:
 
 1. Begin by opening gSender, going to the Config Tab, and clicking the **Export** button in the top right corner of the screen.
-
-![](/_images/_gsender/_features/gs_fe_preferences.jpg){.aligncenter .size-medium}
-
+  ![](/_images/_gsender/_features/gs_fe_preferences.jpg){.aligncenter .size-medium}
 1. Save the file somewhere onto your computer that you can find afterwards
-
-![](/_images/_gsender/_features/gs_fe_preferences1.jpg){.aligncenter .size-medium}
-
+  ![](/_images/_gsender/_features/gs_fe_preferences1.jpg){.aligncenter .size-medium}
 1. Outside of gSender, find the file and transfer it using a memory stick or sending it over the internet by emailing to yourself or using Google Drive or OneDrive.
 1. Once you’ve got the file onto the other computer it’s now easy enough to open gSender on that computer, or in the web browser if you’re doing remote control, and go to the config tab and click the **Import** button just to the right of the export button.
-
 1. Locate the file and click ‘Open’
-
-![](/_images/_gsender/_features/gs_fe_preferences2.jpg){.aligncenter .size-medium}
-
+  ![](/_images/_gsender/_features/gs_fe_preferences2.jpg){.aligncenter .size-medium}
 1. You’ll get a warning. Click ‘Import Settings’ if you want to continue. Once you do, gSender will disconnect and you’ll need to reconnect the machine to resume operation but the settings should now be brought over.
-
-![](/_images/_gsender/_features/gs_fe_preferences3.jpg){.aligncenter .size-medium}
+  ![](/_images/_gsender/_features/gs_fe_preferences3.jpg){.aligncenter .size-medium}
 
 ## Remote Mode
 
@@ -598,24 +590,15 @@ Before diving into the setup, here are some quirks and warnings that are importa
 All setup steps need to happen on the inline computer (the computer you’ll have connected via USB to your CNC) and have been simplified to mostly happen within gSender.
 
 1. To begin, click the satellite antenna icon on the top right of the screen. If the icon isn’t there, you’ll need to make sure you have a newer version of gSender that supports this feature.
-
-![](/_images/_gsender/_features/gs_fe_remotemode.jpg){.aligncenter .size-medium}
-
+  ![](/_images/_gsender/_features/gs_fe_remotemode.jpg){.aligncenter .size-medium}
 1. This is where remote mode is set up. First you’ll want to click the ‘Enable Remote Mode’ toggle. Second, click the box next to ‘IP’ and select one of the options that gSender tries to recommend for your particular computer network. For an average setup the ‘Port’ value can also be left alone. The third step is to click on OK once you have completed the configuration. **You can also use your camera to scan the QR code, and be taken directly to your remote interface!**
-
-![](/_images/_gsender/_features/gs_fe_remotemode1.jpg){.aligncenter .size-full}<br>
-
+  ![](/_images/_gsender/_features/gs_fe_remotemode1.jpg){.aligncenter .size-full}<br>
 If you’re an **advanced user** or have tried the default values without success, you can type in any other IP address or Port that you’d like since the defaults aren’t guaranteed to work. Common port values are 3000, 8000, and 8080 and generally don’t go below 1024 since those are considered privileged. Changing IP addresses can also help if you’re running a VPN or need a different internal IP to external IP mapping.
-
 1. gSender needs to restart in order for the remaining changes to take place.
-
 1. If there was a problem using the specified IP address or Port, you’ll get an error window to let you know. In this case you should be able to reopen gSender, go back to the Remote Mode settings, and try another IP or Port until the setup is successful.
-
-![](/_images/_gsender/_features/_remote/gs_fe_re_setup-ip-error.jpg){.aligncenter .size-medium}
-
+  ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-ip-error.jpg){.aligncenter .size-medium}
 1. You’ll know the setup was successful if gSender restarts, the antenna icon is green, and numbers show next to it. As a quick test, click on the numbers to copy them then open a web browser like Chrome or Edge and paste them into the address bar and press enter (you can also type the number manually). After the page loads, you should see a copy of gSender running in the web browser! **If something’s not working**, check you followed the setup steps correctly or reference the firewall or troubleshooting sections below.
-
-{.aligncenter .size-full}
+  {.aligncenter .size-full}
 
 ### Firewall Setup
 
@@ -670,7 +653,7 @@ If you ran into issues during remote control setup, here are some other checks y
 
 ## Rotary
 
-gSender has a unique ability to control a rotary axis on normal, 3-axis grbl machines. We call this “rotary mode”; which isn't to be confused with grblHAL machines where gSender by default supports full, 4-axis motion. 
+gSender has a unique ability to control a rotary axis on normal, 3-axis grbl machines. We call this “rotary mode”; which isn't to be confused with grblHAL machines where gSender by default supports full, 4-axis motion.
 
 The idea is that once you're in this "rotary mode", gSender does the legwork to swap firmware settings over to your rotary setup, translate A-axis movements to your machine as if they were Y-axis movements, and as long as you've done the legwork to align and swap over your wires then your rotary A-axis should now be good to go!
 
@@ -682,7 +665,7 @@ Navigate to the Config tab where you will find the Rotary settings. Here you can
 
 Once the toggle has been turned to enable, you will see an additional tab at the bottom right of the Carve tab, called Rotary. With this feature you can:
 
--  **Jog Control** - Rotate the A-axis, go to Zero, set Zero, and adjust speeds
+- **Jog Control** - Rotate the A-axis, go to Zero, set Zero, and adjust speeds
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_movement.jpg){.aligncenter .size-medium}
 
