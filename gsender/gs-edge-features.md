@@ -66,7 +66,7 @@ As of version **1.50-Edge-1** the current notable features / improvements to Edg
   - **Tool is ON** - indicators will appear on the top bar if you have the laser or rotary tools enabled for better clarity and safety
 - **Stat/Info Tab** - Review your usage and statistics on this tab
 - **Tool/CAM Tab** - Surface a project, prepare a flat wasteboard, and hoping to expand to support much more
-- **Dark Mode** - Run gSender at night while in dark mode. Oooh, spooky.
+- **Dark Mode** - Run gSender at night while in dark mode. Ooo, spooky.
 
 Much of our effort early on has been dedicated to backend changes, tooling and technology changes, and the “main” control UI of the software. As such, some longstanding features such as surfacing, calibration, etc. are not included in this first release - rest assured that these will be coming shortly as we iterate through the remaining features to bring them in line with the UI refresh. There was an enormous effort on the “plumbing” side of things to future proof gSender and now that that’s out of the way, feature development should be quick.
 
