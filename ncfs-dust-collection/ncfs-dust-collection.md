@@ -14,20 +14,18 @@ custom_fields:
 skip_file: no
 featured_image: _images/_lmk2/_the-basics/lmk2_dust_boot_adjustable.jpg
 ---
-CNCs can create a lot of mess just like many other cutting tools. Think about the chips and fine dust you get drilling a single hole or cutting a piece of wood in half and then stretch that out over hours of constant cutting on a CNC machine. Not only does this make a mess, but it's not good for your health to breath in.
 
-This is where dust collection helps out. Most woodworkers will setup a dust collection system that can quickly connect to whatever tool or machine they are using at the time. Most CNC dust collection systems consist of a **dust shoe** where the cutting is happening, a **hose** to cary the dust and a **shop vac**.
+CNCs can create a lot of mess just like many other shop tools. Think about the chips and dust you can create drilling a single hole or cutting a piece of wood in half and then stretch that out over hours of constant cutting on a CNC machine. Not only can this add up to a very large mess, but it's also [not good for your health](#safety) to breathe it in long-term, or the health of the CNC since important parts can get gummed up with dust over time.
+
+This is where a 'dust collection' system can help you out. Most CNC dust collection systems mirror what you'd normally see connected to other common tools in a woodworkers shop. Starting at the cutting head you have a:
+
+1. **[Dust Shoe](#dust-shoes)** which tries to contain the dust where the cutting is happening
+1. **[Hose](#hose-size)** that the dust can flow along
+1. Some type of **[Vacuum System](#choosing-a-vacuum-or-dust-collector)** that creates the suction to carry the dust away from the dust shoe
 
 ![](/_images/_lmmk2/_the-basics/lmk2_dust_123.jpg)
 
-1. See which [Dust Shoes](#dust-shoes) will fit your system best
-1. Explore how to select and hang your [Hose](#hose-size)
-1. Compare [Shop vac vs Dust Collection](#choosing-a-vacuum-or-dust-collector) systems available
-
-With all that being said, dust management can still come in other forms like building an [enclosure for your CNC](https://resources.sienci.com/view/lmk2-table-enclosure/#machine-enclosure) or cutting outside. You might choose to do these if you:
-
-- are worried about the noise from running a vacuum or dust collector (though the noise of cutting can get similarly loud)
-- don't want to deal with the dust shoe colliding with clamps, material, or getting in the way during tool changes
+There are also some other solutions that won't be covered on this page that can help with dust management like building an [enclosure for your CNC](https://resources.sienci.com/view/lmk2-table-enclosure/#machine-enclosure) or running it in an open-air environment. Ideally these should still be used alongside a dust collection setup, but cutting in open-air can be fine short-term to reduce setup complexity and learning curve, and using an enclosure can sometimes help keep cutting noise down.
 
 ### Safety
 
