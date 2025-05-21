@@ -45,7 +45,7 @@ As of version **1.50-Edge-1** the current notable features / improvements to Edg
 
 - **New UI Control Screen**
   - **Jog Control** - Received a makeover including button shape, size, spacing, and adding in A-axis jogging
-  - **New DRO** - More clear separation between Gotos and Zero setting to prevent accidental clicks and create more visual cohesion, updated corner buttons
+  - **New DRO** - More clear separation between Go tos and Zero setting to prevent accidental clicks and create more visual cohesion, updated corner buttons
   - **Running Jobs** - Feed & Laser Speed Bar really got a punch of colour! Use the slider or the + and - buttons to change speed
   - **Outline & Start From** - Start from now has it's own button! Many people never knew it existed since it was hard to notice
   - **Alarms** - Now focused in the top, center of the screen for easier reading

@@ -39,7 +39,7 @@ This is where you will spend the majority of your time actually carving. When th
 
 1. The large middle visualizer (boxed in green), is where you can watch the magic happen after you hit the start button. Rotate your view, monitor the job progress, turn on lightweight mode, change workspaces, and more.
 
-1. The DRO and Jog Controls on the right (boxed in blue), have all the functions you need to manually control your CNC when jobs aren't running. This includes jogging, zero setting, homing, Goto movements, and more.
+1. The DRO and Jog Controls on the right (boxed in blue), have all the functions you need to manually control your CNC when jobs aren't running. This includes jogging, zero setting, homing, Go to movements, and more.
 
 1. The 3 panels along the bottom (boxed in purple), loading, monitoring and controlling g-code files and cutting jobs, probing, running macros, manual laser / spindle control, and more.
 

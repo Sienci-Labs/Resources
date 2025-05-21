@@ -708,9 +708,9 @@ When you enable Rotary Mode, several changes will happen to your tool options:
 
 Several changes will also happen to your controls:
 
-- The **GoTo** button for Y-axis and Z-axis is hidden
+- The **Go to** button for Y-axis and Z-axis is hidden
 - The **Zero Y-axis** button is hidden
-- It changes the ‘**Goto XYO**’ button to be a ‘**Goto XAO**’ button
+- It changes the ‘**Go to XYO**’ button to be a ‘**Go to XAO**’ button
 - The **Y-axis jogging** buttons are hidden
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_jog-changes.jpg){.aligncenter .size-full}

@@ -2,7 +2,7 @@
 title: ytsb Using gSender
 menu_order: 3
 post_status: draft
-post_excerpt: Understand the basics of how to use gSender, including connecting, jogging, zeroing and gotos, probing, and running jobs.
+post_excerpt: Understand the basics of how to use gSender, including connecting, jogging, zeroing and Go tos, probing, and running jobs.
 post_date: 2021-07-01 14:56:00
 taxonomy:
     knowledgebase_cat: gdocs
@@ -43,7 +43,7 @@ If you are not seeing those changes when you connect, please check the following
 
 ## Jogging and Presets
 
-You can move the machine manually by using the **Jog Control**, through the arrow buttons. We cover moving the machine automatically in the [Gotos](#set-zero-and-gotos) section. To move the machine, use the large +-X and +-Y movements on the control dial, or use the smaller diagonal buttons. To move the Z axis up and down, use the Z+ or Z- buttons to the right of the control dial.
+You can move the machine manually by using the **Jog Control**, through the arrow buttons. We cover moving the machine automatically in the [Go tos](#set-zero-and-Go tos) section. To move the machine, use the large +-X and +-Y movements on the control dial, or use the smaller diagonal buttons. To move the Z axis up and down, use the Z+ or Z- buttons to the right of the control dial.
 
 Below the control dial, you can change the **XY value** and **Z value** to adjust the distance you travel per click. You can also change **Speed**, which determines how fast the machine will move when jogging. That value is reflected in the 'at box'.
 
@@ -86,7 +86,7 @@ The workpiece offset is a user-defined coordinate system that aligns the machine
 
 In gSender, you can set workpiece offsets using standard G-code commands like G54 to G59. These commands allow you to define multiple work coordinate systems, which is especially useful when working on different parts or setups without re-homing the machine each time.​ These are called your workspaces.
 
-## Set Zero and Gotos
+## Set Zero and Go tos
 
 Each g-code file or project will have a starting position that all other movements are referenced off of. This is called the **Workpiece zero** or **Workpiece Home**. There are two ways to manually set your zero on gSender, and a couple automatic options that we cover in [Probing](#probing).
 
@@ -104,25 +104,25 @@ The large blue numbers tell you the current position of your machine. Once you s
 
 ![](/_images/_gsender/_using/gs_us_dro_allzeroes.jpg){.aligncenter .size-full}
 
-Now that we've covered how to manually move, here are two ways to automatically move, or as we call it, **Goto**:
+Now that we've covered how to manually move, here are two ways to automatically move, or as we call it, **Go to**:
 
 - Return to each axis Zero, one at a time using the blue 'X', 'Y', and 'Z' buttons
 
 - Return to X and Y Zero at the same time with the blue 'XY' button
 
-*Note - 'Goto XY' **will not** move the z-axis to its zero.*
+*Note - 'Go to XY' **will not** move the z-axis to its zero.*
 
-![](/_images/_gsender/_using/gs_us_goto.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_us_Go to.jpg){.aligncenter .size-medium}
 
 *Note: if you’ve set up “Safe Height” in gSender (Config -> Basics -> Safe Height), then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
 
-There is one more way to move automatically, but it isn't used to bring you back to 0.00. It's called **Goto Location**.
+There is one more way to move automatically, but it isn't used to bring you back to 0.00. It's called **Go to Location**.
 
-![](/_images/_gsender/_using/gs_us_dro_goto_airplane.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_us_dro_Go to_airplane.jpg){.aligncenter .size-medium}
 
 If you want to go somewhere else quickly without manually jogging there, click the 'Paper Airplane' button to bring you to a specific location. You'll see a popup asking you where you want to go and you either type a specific location (absolute G90) or move some amount from where you are now (relative G91).
 
-![](/_images/_gsender/_using/gs_us_dro_gotolocation.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_us_dro_Go tolocation.jpg){.aligncenter .size-medium}
 
 You can reset your zeros anytime when the machine is not actively running a job. The machine will remember your zero in most cases. If you turn the lead screw with your fingers or push the gantry, the machine does not know you moved it, therefore it will lose the zero position. You can jog on the Jog Control without losing your zero position because gSender knows you are moving the machine.
 
@@ -268,7 +268,7 @@ It does this by looking through the whole g-code file up to where you want to re
 1. If you think your machine lost its location:
    - Re-home the machine (it should remember the zero location of the project if nothing else moved).
    - If you don't have limit switches, the project moved, or your original cutting bit broke, try to re-use whatever setup method you used to set your zero location originally. This could be with a touch plate, 3D probe, paper method - whatever possible to set the project back up the way it was before it failed.
-1. Once everything looks set up correctly, you should be able to 'goto' the original zero position and see that the bit is lined up correctly to the material. The location should read all zeros for each axis.
+1. Once everything looks set up correctly, you should be able to 'Go to' the original zero position and see that the bit is lined up correctly to the material. The location should read all zeros for each axis.
 1. Raise up the Z-axis a couple millimeters for safety.
 1. Click the small icon at the top right of the green ‘Start Job’ button to open the window.
   ![](/_images/_gsender/_using/gs_us_startfrombutton.jpg){.aligncenter .size-medium}
@@ -291,8 +291,8 @@ It does this by looking through the whole g-code file up to where you want to re
   ![](/_images/_gsender/_using/gs_us_currentline.jpg){.aligncenter .size-medium}
 1. Once noted down, 'Pause', then 'Stop' the job. This allows the machine to stop more slowly instead of emergency stop.
 1. Quickly turn off anything that isn't automated like a router or dust collector and jog the Z-axis up so you don't burn or mar the material. You can also try to pause strategically when the bit is moving and not cutting to avoid damaging your material.
-1. At this point it's best to return the cutting tool to the project zero point if possible using the blue 'XY' button then the blue 'Z' button for the Z-axis. This will **Goto** your original zero. This way if the zero point is lost when you resume cutting later, then you can just manually set your zero knowing you're still at the zero location.
-1. If you're concerned your machine might drift over time for example if you're using a heavy spindle, then another option is to place a block of wood under your cutting tool and jog down to it using the paper method. Once the bit is touching, you can note down the location where you left the machine, then when you resume you can type that location back in (see the end of [Set Zero and Gotos](#set-zero-and-gotos)).
+1. At this point it's best to return the cutting tool to the project zero point if possible using the blue 'XY' button then the blue 'Z' button for the Z-axis. This will **Go to** your original zero. This way if the zero point is lost when you resume cutting later, then you can just manually set your zero knowing you're still at the zero location.
+1. If you're concerned your machine might drift over time for example if you're using a heavy spindle, then another option is to place a block of wood under your cutting tool and jog down to it using the paper method. Once the bit is touching, you can note down the location where you left the machine, then when you resume you can type that location back in (see the end of [Set Zero and Go tos](#set-zero-and-Go tos)).
 
 ## Safety
 
@@ -301,4 +301,4 @@ gSender is set up to do many things by default to help keep you aware about thin
 ![](/_images/_gsender/_using/gs_us_safetybasics.jpg){.aligncenter .size-medium}
 
 1. **G-code warnings**: reports back when it sees g-code lines that don’t look correct when the file is loaded or once it’s being sent to the machine. G-code has to follow specific ‘grammatical rules’ similar to other languages for the ‘sentences’ to be correct, so if the lines don’t look correct then your machine might run into problems understanding what it’s supposed to do.1. **Prompt when setting zero**: enable an optional popup that appears when you click to 'zero' just in case you mis-clicked it.
-1. **Safe height movement**: this number is used when using the ‘goto’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the goto movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the goto movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
+1. **Safe height movement**: this number is used when using the ‘Go to’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the Go to movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the Go to movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.

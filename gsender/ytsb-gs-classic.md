@@ -133,36 +133,36 @@ The 'Rapid', 'Normal', and 'Precise' buttons will allow you to toggle to differe
 
 ![](/_images/_gsender/_using/gs_us_jog-presets.jpg){.aligncenter .size-full}
 
-## Set Zero and Gotos
+## Set Zero and Go tos
 
 Each g-code file or project will have a starting position that all other movements are referenced off of. This is the zero or origin. There are two ways to manually set your zero on gSender.
 
 1. Set the zero for each axis one at a time using 'Zero X', 'Zero Y', and 'Zero Z' buttons
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-individual.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_zero-individual.jpg){.aligncenter .size-full}
 1. Set the zeros all at once using 'Zero All'
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-all.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_zero-all.jpg){.aligncenter .size-full}
 
 The large blue numbers tell you the current position of your machine. If you want to return to your zero position, you can press the 'Go to' for each individual axis and the large blue numbers will read “0.00” once it's finished moving.
 
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_Go tos.jpg){.aligncenter .size-medium}
 
 You can also use the 'Go to XY0' to return to the starting position in X and Y in one movement. 'Go XY0' **will not** move the z-axis to its zero.
 
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos_goxy0.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_Go tos_goxy0.jpg){.aligncenter .size-medium}
 
 *Note: if you’ve set up “Safe Height” in gSender, then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
 
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos_goto.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_Go tos_Go to.jpg){.aligncenter .size-medium}
 
 If you want to go somewhere else quickly without manually jogging there, you can also use the 'Go To' button to bring you to a specific location. You'll see a popup asking you where you want to go and you either type a specific location (absolute) or move some amount from where you are now (relative).
 
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_goto-location-gif.gif){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_Go to-location-gif.gif){.aligncenter .size-medium}
 
 You can reset your zeros anytime when the machine is not actively running a job. The machine will remember your zero in most cases. If you turn the lead screw with your fingers or push the gantry, the machine does not know you moved it, therefore it will lose the zero position. You can jog on the Jog Control without losing your zero position because gSender knows you are moving the machine.
 
 You can also enter coordinates directly by clicking the location value. It’ll turn into a white box where you can type any number, then hit the ‘enter’ key to confirm it. For instance you could set your Z-axis to 0.1mm instead of 0 if you’re using the paper method and you want to account for the paper thickness. Another example is instead of jogging 10mm to the right and clicking ‘zero’ to begin cutting a duplicate job that’s shifted over, you can just type “-10” and start the job right away (since if ‘zero’ is 10mm to the right, then your current location would be 0 - 10 = -10mm).
 
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_dro-typing.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_dro-typing.jpg){.aligncenter .size-full}
 
 ## Endstop buttons
 
@@ -172,7 +172,7 @@ gSender provides unique features if you have endstops on your machine for homing
 - Four “quick-travel” buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed, you’ll also notice a house icon appear at the corner that your machine homes to.
 - If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials (before it would move up by the safe height amount).
 
-![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_quick-travel.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_quick-travel.jpg){.aligncenter .size-full}
 
 If you’re having issues with the “quick-travel” buttons, then check the “maximum travel” settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings in the Firmware tool as $130-133.
 
@@ -260,7 +260,7 @@ It does this by looking through the whole g-code file up to where you want to re
 1. If you think your machine lost its location:
    - Re-home the machine (it should remember the zero location of the project if nothing else moved).
    - If you don't have limit switches, the project moved, or your original cutting bit broke, try to re-use whatever setup method you used to set your zero location originally. This could be with a touch plate, 3D probe, paper method - whatever possible to set the project back up the way it was before it failed.
-1. Once everything looks set up correctly, you should be able to 'goto' the original zero position and see that the bit is lined up correctly to the material. The location should read all zeros for each axis.
+1. Once everything looks set up correctly, you should be able to 'Go to' the original zero position and see that the bit is lined up correctly to the material. The location should read all zeros for each axis.
 1. Raise up the Z-axis a couple millimeters for safety.
 1. Click the small icon at the top right of the green ‘Start Job’ button to open the window.
   ![](/_images/_gsender/_using/gs_us_job-loss3.jpg){.aligncenter .size-medium}
@@ -283,16 +283,16 @@ It does this by looking through the whole g-code file up to where you want to re
 1. Once noted down, 'Pause', then 'Stop' the job. This allows the machine to stop more slowly instead of emergency stop.
 1. Quickly turn off anything that isn't automated like a router or dust collector and jog the Z-axis up so you don't burn or mar the material. You can also try to pause strategically when the bit is moving and not cutting to avoid damaging your material.
 1. At this point it's best to return the cutting tool to the project zero point if possible using 'Go XY0' then 'Go to' for the Z-axis. This way if the zero point is lost when you resume cutting later, then you can just manually set your zero knowing you're still at the zero location.
-1. If you're concerned your machine might drift over time for example if you're using a heavy spindle, then another option is to place a block of wood under your cutting tool and jog down to it using the paper method. Once the bit is touching, you can note down the location where you left the machine, then when you resume you can type that location back in (see the end of [Set Zero and Gotos](#set-zero-and-gotos)).
+1. If you're concerned your machine might drift over time for example if you're using a heavy spindle, then another option is to place a block of wood under your cutting tool and jog down to it using the paper method. Once the bit is touching, you can note down the location where you left the machine, then when you resume you can type that location back in (see the end of [Set Zero and Go tos](#set-zero-and-Go tos)).
 
 ## Safety
 
 gSender is set up to do many things by default to help keep you aware about things going on with your machine. Though we can’t guarantee it can handle everything, we’ve recently introduced a new Settings menu for Safety where you can access many safety items in one place. This includes:
 
 1. **Warn on Zero**: an optional popup that appears when you click to 'zero' just in case you mis-clicked it.
-  ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn.jpg){.aligncenter .size-full}
-  ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn-gif.gif){.aligncenter .size-full}
-1. **Safe height movement**: this number is used when using the ‘goto’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the goto movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the goto movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
+  ![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_zero-warn.jpg){.aligncenter .size-full}
+  ![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_zero-warn-gif.gif){.aligncenter .size-full}
+1. **Safe height movement**: this number is used when using the ‘Go to’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the Go to movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the Go to movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
 1. **G-code warnings**: reports back when it sees g-code lines that don’t look correct when the file is loaded or once it’s being sent to the machine. G-code has to follow specific ‘grammatical rules’ similar to other languages for the ‘sentences’ to be correct, so if the lines don’t look correct then your machine might run into problems understanding what it’s supposed to do.
 1. **Soft limits warning**: enables gSender to tell you when a loaded file might exceed the cutting area of your machine. This requires that your machine has limit switches and soft limits enabled.
 1. **History of Errors and Alarms**: great for tracking problems you might’ve recently run into to help troubleshooting or getting support. All entries are listed in-order and stamped with a date and time.
@@ -933,9 +933,9 @@ When you enable Rotary Mode, several changes will happen to your tool options:
 
 Several changes will also happen to your controls:
 
-- The **GoTo** button for Y-axis and Z-axis is hidden
+- The **Go to** button for Y-axis and Z-axis is hidden
 - The **Zero Y-axis** button is hidden
-- It changes the ‘**Goto XYO**’ button to be a ‘**Goto XAO**’ button
+- It changes the ‘**Go to XYO**’ button to be a ‘**Go to XAO**’ button
 - The **Y-axis jogging** buttons are hidden
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_jog-changes.jpg){.aligncenter .size-full}
