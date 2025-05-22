@@ -31,7 +31,7 @@ Before starting to use gSender, let's briefly cover the way its functions are la
 - The left-side control (boxed in green) has all the functions you need for loading, monitoring, and controlling g-code files and cutting jobs
 - The right-side control (boxed in purple) has all the functions you need to manually control your CNC when jobs aren't running. This includes jogging, zero setting, homing, probing, running macros, manual laser / spindle control, and more.
 
-![](/_images/_gsender/_setup/gs_se_main-layout.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_main-layout.jpg){.aligncenter .size-medium}
 
 We’ve built gSender’s layout around these primary boxed sections so that you can have all of the CNC functionality most hobbyists need on one screen without getting confused about what each button does. If you’re doing anything **during** a job it’ll be on the left side, if you’re doing anything **outside** a job it’ll likely be on the right, and if you want greater customization or functionality it’ll be found in the tools or settings.
 
@@ -47,11 +47,12 @@ Let's do some configuration before connecting up to your CNC. Click the 'gear' a
   - Preferred Units
   - Reverse workspace (flips the left and right-side controls if you prefer)
 
-  ![](/_images/_gsender/_setup/gs_se_config-general.jpg){.aligncenter .size-full}
+  ![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_config-general.jpg){.aligncenter .size-full}
+
 - **Visualizer Settings**
   - Set to light theme if you prefer
 
-  ![](/_images/_gsender/_setup/gs_se_config-vis.jpg){.aligncenter .size-full}
+  ![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_config-vis.jpg){.aligncenter .size-full}
 
 ### Machine Profiles
 
@@ -61,11 +62,11 @@ For instance most LongMills ship with **LongMill MK2 30x30** firmware pre-instal
 
 Please Note: If your Z-axis is working in the opposite direction than expected, confirm you have the correct profile. MK2 users must choose either LongMill MK2 12x30, LongMill MK2 30x30, or LongMill MK2 48x30. You can find instructions on how to flash firmware here: <a href="https://resources.sienci.com/view/lmk2-grbl-firmware/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-grbl-firmware/</a>
 
-![](/_images/_gsender/_setup/gs_se_config-profile.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_config-profile.jpg){.aligncenter .size-full}
 
 If you're running into an issue where the size isn't correct when using Soft Limits for example, get the size from your manufacturer or their resources and you should find that the changes will be straightforward to make through the 'Firmware tool' within gSender. Simply apply your new measurements to the X-axis, Y-axis and Z-axis maximum travel fields. Then hit the apply changes button.
 
-![](/_images/_gsender/_setup/gs_se_config-travel.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_config-travel.jpg){.aligncenter .size-full}
 
 ## Running Longer Jobs (optional)
 
@@ -111,11 +112,11 @@ Connect to your CNC machine by hovering over ‘Connect to Machine’ at the top
 
 Sometimes there’s more than one COM port available, so you may need to try both to see which one your machine is connected to. If you are seeing errors pop up or your machine isn’t acting correctly, ensure that you have selected the correct connection type.
 
-![](/_images/_gsender/_using/gs_us_connect.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_connect.jpg){.aligncenter .size-full}
 
 Once you have selected the COM port, your machine should be connected. This is confirmed when you see the plug icon turn green with a check mark. You should also see the status on the top right corner of the visualizer change to 'Idle', and the controls activate, allowing you to press them.
 
-![](/_images/_gsender/_using/gs_us_connected-idle.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_connected-idle.jpg){.aligncenter .size-full}
 
 If you are not seeing those changes when you connect, please check the following:
 
@@ -127,42 +128,45 @@ If you are not seeing those changes when you connect, please check the following
 
 You can move the machine by using the Jog Control, through the arrow buttons. Change the 'XY move' and 'Z move' to adjust the distance you travel per click. You can also change 'Speed', which determines how fast the machine will move when jogging.
 
-![](/_images/_gsender/_using/gs_us_jogging.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_jogging.jpg){.aligncenter .size-full}
 
 The 'Rapid', 'Normal', and 'Precise' buttons will allow you to toggle to different distance and speed values quickly. You can change these values by going to the settings and editing the 'Jogging Presets' in the 'General' section.
 
-![](/_images/_gsender/_using/gs_us_jog-presets.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_jog-presets.jpg){.aligncenter .size-full}
 
 ## Set Zero and Go tos
 
 Each g-code file or project will have a starting position that all other movements are referenced off of. This is the zero or origin. There are two ways to manually set your zero on gSender.
 
 1. Set the zero for each axis one at a time using 'Zero X', 'Zero Y', and 'Zero Z' buttons
-![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_zero-individual.jpg){.aligncenter .size-full}
+
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-individual.jpg){.aligncenter .size-full}
+
 1. Set the zeros all at once using 'Zero All'
-![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_zero-all.jpg){.aligncenter .size-full}
+
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-all.jpg){.aligncenter .size-full}
 
 The large blue numbers tell you the current position of your machine. If you want to return to your zero position, you can press the 'Go to' for each individual axis and the large blue numbers will read “0.00” once it's finished moving.
 
-![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_Go tos.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos.jpg){.aligncenter .size-medium}
 
 You can also use the 'Go to XY0' to return to the starting position in X and Y in one movement. 'Go XY0' **will not** move the z-axis to its zero.
 
-![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_Go tos_goxy0.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos_goxy0.jpg){.aligncenter .size-medium}
 
 *Note: if you’ve set up “Safe Height” in gSender, then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
 
-![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_Go tos_Go to.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_gotos_goto.jpg){.aligncenter .size-medium}
 
 If you want to go somewhere else quickly without manually jogging there, you can also use the 'Go To' button to bring you to a specific location. You'll see a popup asking you where you want to go and you either type a specific location (absolute) or move some amount from where you are now (relative).
 
-![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_Go to-location-gif.gif){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_goto-location-gif.gif){.aligncenter .size-full}
 
 You can reset your zeros anytime when the machine is not actively running a job. The machine will remember your zero in most cases. If you turn the lead screw with your fingers or push the gantry, the machine does not know you moved it, therefore it will lose the zero position. You can jog on the Jog Control without losing your zero position because gSender knows you are moving the machine.
 
 You can also enter coordinates directly by clicking the location value. It’ll turn into a white box where you can type any number, then hit the ‘enter’ key to confirm it. For instance you could set your Z-axis to 0.1mm instead of 0 if you’re using the paper method and you want to account for the paper thickness. Another example is instead of jogging 10mm to the right and clicking ‘zero’ to begin cutting a duplicate job that’s shifted over, you can just type “-10” and start the job right away (since if ‘zero’ is 10mm to the right, then your current location would be 0 - 10 = -10mm).
 
-![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_dro-typing.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_dro-typing.jpg){.aligncenter .size-medium}
 
 ## Endstop buttons
 
@@ -172,7 +176,7 @@ gSender provides unique features if you have endstops on your machine for homing
 - Four “quick-travel” buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed, you’ll also notice a house icon appear at the corner that your machine homes to.
 - If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials (before it would move up by the safe height amount).
 
-![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_quick-travel.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_quick-travel.jpg){.aligncenter .size-full}
 
 If you’re having issues with the “quick-travel” buttons, then check the “maximum travel” settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings in the Firmware tool as $130-133.
 
@@ -211,19 +215,19 @@ If you have already prepared a project file, ensure the following:
 
 To run your project on gSender, press the 'Load File' button. A dialog box should pop up, where you can navigate to where your file is. If you want to reload a previous file you can also click the ‘&gt;’ button which will allow you to select from recently opened files.
 
-![](/_images/_gsender/_using/gs_us_load-g-code.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_load-g-code.jpg){.aligncenter .size-full}
 
 Double click on the file, and the project should load in and be shown on the Visualizer. Once loaded, you’ll be able to see information about your project such as: its estimated cut time and cutting dimensions, and if the file is too big and slowing down your computer you can always click the ‘X’ on the ‘Load File’ button to unload it.
 
-![](/_images/_gsender/_using/gs_us_file-stats.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_file-stats.jpg){.aligncenter .size-full}
 
 With your file loaded, feel free to also check how it looks. In the bottom right corner of the visualizer use the ‘view cube’ to quickly switch between top, right, left, front, and 3D views by clicking on its different faces. You can also use your mouse scroll wheel to zoom in and out and left-click and drag or right-click and drag on the visualizer to rotate or slide around the work area.
 
-![](/_images/_gsender/_using/gs_us_visualize.gif){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_visualize.gif){.aligncenter .size-full}
 
 Before running your job there are a few other handy features you can check. The ‘**Outline**’ button will physically move your machine around the rough perimeter of your cutting job so you can get an idea of the cutting dimensions and if you’ve positioned the job correctly. As well, the '**Verify Job**' (previously 'Test Run') button will go through your file and let you know of any obvious errors it noticed before you run the job for real. **This button won't move your CNC at all** but if you're looking to actually "dry run" your file, you can always set your Z-zero high above your material and run the job without cutting anything to see how it looks.
 
-![](/_images/_gsender/_using/gs_us_outline-test-run.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_outline-test-run.jpg){.aligncenter .size-full}
 
 ## Running Jobs
 
@@ -233,13 +237,13 @@ Hitting the pause button will pause the movement immediately, even if gSender ha
 
 In the default visualizer you’ll see that cutting movements that plan to be made are coloured blue, then when the job is running the current movements show as yellow and past movements are grey.
 
-![](/_images/_gsender/_using/gs_us_running.gif){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_running.gif){.aligncenter .size-full}
 
 At the bottom of the screen, a progress bar shows how many lines of g-code have been processed and how many are left. Additionally, you can override the feed rate and spindle speed of the program while the job is running by moving then letting go of the slider, pressing the ‘+’ and ‘-’ buttons for smaller adjustment, or clicking the rotated arrow to reset back to the default value. This is handy for fine-tuning the program cutting speed in order to tune in your material removal rate and ensure you don't burn or melt material.
 
 If you already know you’ll need to tweak the feed rate or spindle speed for your file before you run it, you can now click the ‘Overrides’ toggle to access overrides before you start the job. This allows the overrides to apply before starting cutting or if the job is already running toggle it back to double-check the job attributes.
 
-![](/_images/_gsender/_using/gs_us_override.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_override.jpg){.aligncenter .size-full}
 
 Now you're off and cutting, what a thrill! While your job is running keep an eye and ear out for anything you don't expect. You can always use the job control buttons during operation to change speeds, pause, resume, or stop cutting altogether.
 
@@ -263,23 +267,23 @@ It does this by looking through the whole g-code file up to where you want to re
 1. Once everything looks set up correctly, you should be able to 'Go to' the original zero position and see that the bit is lined up correctly to the material. The location should read all zeros for each axis.
 1. Raise up the Z-axis a couple millimeters for safety.
 1. Click the small icon at the top right of the green ‘Start Job’ button to open the window.
-  ![](/_images/_gsender/_using/gs_us_job-loss3.jpg){.aligncenter .size-medium}
+  ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_job-loss3.jpg){.aligncenter .size-medium}
 1. Here you'll see:
-  ![](/_images/_gsender/_using/gs_us_job-loss4.jpg){.aligncenter .size-medium}
+  ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_job-loss4.jpg){.aligncenter .size-medium}
    - When you **Last stopped** your file, how many **Total lines** it has, and a **Recommended start line**: this number is generally reliable to use, but in some situations the 'last stopped' number can't be recovered. In these cases you'll want to have noted down the approximate line number that the job failed at then work from there.
-   ![](/_images/_gsender/_using/gs_us_job-loss1.jpg){.aligncenter .size-medium}
+   ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_job-loss1.jpg){.aligncenter .size-medium}
    - **Resume job at line**: once you've decided where to resume from, you can type the line number in here.
    - **Safe height**: if your CNC has extra Z movement above the failed job, you can put a larger number here to make sure that it doesn't hit clamps while moving into position to resume cutting.
 1. Once everything looks good, remember to turn on anything that isn't automated like a trim router or vacuum, then click 'Start from Line' to resume cutting.
 
 **Example**: you were present when the job failed and hit 'Stop' immediately. Nothing moved but the bit broke so you swapped it out and used a touch plate to probe Z. It says the last recorded line was 731 but to be safe you'll subtract 20 and start at 711. The job starts back up a little before the failure and you're able to resume as expected. If instead you hadn't been paying attention for several minutes then you might subtract 50-100 lines instead just to be safe.
 
-![](/_images/_gsender/_using/gs_us_job-loss-notice.jpg "Example of USB port disconnect while running a job where you'll want to check your USB cable, write down the suggested line, then use the ‘Start from Line’ feature as normal."){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_job-loss-notice.jpg "Example of USB port disconnect while running a job where you'll want to check your USB cable, write down the suggested line, then use the ‘Start from Line’ feature as normal."){.aligncenter .size-full}
 
 ### Pause Cutting Mid-Job
 
 1. If a carve is dragging on and you need to leave the machine for the night, first you'll want to note down the approximate g-code line number it's at. In the example below you'd note down "731 lines".
-![](/_images/_gsender/_using/gs_us_job-loss1.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_job-loss1.jpg){.aligncenter .size-medium}
 1. Once noted down, 'Pause', then 'Stop' the job. This allows the machine to stop more slowly instead of emergency stop.
 1. Quickly turn off anything that isn't automated like a router or dust collector and jog the Z-axis up so you don't burn or mar the material. You can also try to pause strategically when the bit is moving and not cutting to avoid damaging your material.
 1. At this point it's best to return the cutting tool to the project zero point if possible using 'Go XY0' then 'Go to' for the Z-axis. This way if the zero point is lost when you resume cutting later, then you can just manually set your zero knowing you're still at the zero location.
@@ -290,14 +294,14 @@ It does this by looking through the whole g-code file up to where you want to re
 gSender is set up to do many things by default to help keep you aware about things going on with your machine. Though we can’t guarantee it can handle everything, we’ve recently introduced a new Settings menu for Safety where you can access many safety items in one place. This includes:
 
 1. **Warn on Zero**: an optional popup that appears when you click to 'zero' just in case you mis-clicked it.
-  ![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_zero-warn.jpg){.aligncenter .size-full}
-  ![](/_images/_gsender/_features/_zeroGo to/gs_fe_ze_zero-warn-gif.gif){.aligncenter .size-full}
+  ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn.jpg){.aligncenter .size-full}
+  ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn.gif){.aligncenter .size-full}
 1. **Safe height movement**: this number is used when using the ‘Go to’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the Go to movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the Go to movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
 1. **G-code warnings**: reports back when it sees g-code lines that don’t look correct when the file is loaded or once it’s being sent to the machine. G-code has to follow specific ‘grammatical rules’ similar to other languages for the ‘sentences’ to be correct, so if the lines don’t look correct then your machine might run into problems understanding what it’s supposed to do.
 1. **Soft limits warning**: enables gSender to tell you when a loaded file might exceed the cutting area of your machine. This requires that your machine has limit switches and soft limits enabled.
 1. **History of Errors and Alarms**: great for tracking problems you might’ve recently run into to help troubleshooting or getting support. All entries are listed in-order and stamped with a date and time.
 
-![](/_images/_gsender/_using/gs_us_safety.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_safety.jpg){.aligncenter .size-full}
 
 ## Shortcuts
 
@@ -309,27 +313,27 @@ Going to the settings gear, then the 'Shortcuts' section, you'll see that shortc
 
 Find yourself forgetting how you’ve configured your keyboard or gamepad profile shortcuts? Hit the ‘Print’ button to generate a simple PDF that you can store on a tablet or print on some paper to keep next to your CNC. This PDF will contain all the shortcuts you’ve created and what actions they’re assigned to.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_print.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_features-cl/_shortcuts-cl/gs_cl_fe_sh_print.jpg){.aligncenter .size-full}
 
 ### Keyboard Shortcuts
 
 Either for use on a keyboard, macro pad, or mini Bluetooth keyboard, these are split up into categories so they're easy to locate and modify. There are shortcuts for carving, overrides, jogging, zero setting, probing, macros, visualization, window navigation, and more!
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_keyboard.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_features-cl/_shortcuts-cl/gs_cl_fe_sh_keyboard.jpg){.aligncenter .size-full}
 
 ### Common Shortcuts
 
 A great place to start is the Jogging category. In the picture below, see that right now we can jog the **X-axis** by hitting the shift + right or shift + left keys. The **Y-axis** responds to shift + up and shift + down keys and the **Z-axis** uses the shift + pageup and shift + pagedown keys. Being able to look at your CNC, while your hand is on your keyboard is a great way to ensure you are moving in the right direction, without having to look back at your screen to click the mouse on the right button.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_keyboard-common.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_features-cl/_shortcuts-cl/gs_cl_fe_sh_keyboard-common.jpg){.aligncenter .size-full}
 
 You can use the preset shortcuts and/or add your own. Click the ‘+’ or the ‘edit’ to the right of each shortcut to bring up a popup window that allows you to add or edit your own key combination (shown in the example below). You can see it’s as easy as pressing the key or key combination once the popup is open. In addition, you’ll be informed if the combination you’ve entered is already used elsewhere and be given the option to overwrite the existing one if you want.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_keyboard-add.gif){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_features-cl/_shortcuts-cl/gs_cl_fe_sh_keyboard-add.gif){.aligncenter .size-full}
 
 You can turn on or off individual shortcuts in the **Active** column or enable/disable all shortcuts at the bottom of the window. Some people find this useful since it can turn off the shortcut temporarily without losing the key combination.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_keyboard-enable.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_features-cl/_shortcuts-cl/gs_cl_fe_sh_keyboard-enable.jpg){.aligncenter .size-full}
 
 ### Gamepad Shortcuts
 
@@ -337,7 +341,7 @@ Many users really love this feature since using a controller is convenient (espe
 
 We have some [pre-made profiles](#tested-gamepads) for gamepads we've already tested with gSender and you can still reference these if you have a different gamepad or want to make your own. To create your own, connect your gamepad to your computer and click the ‘Add New Gamepad Profile’ button, then make sure the gamepad is recognized before beginning to assign actions to each button. These profiles mean you can set up multiple gamepads if you'd like since they each have their own unique ID.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-add.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_features-cl/_shortcuts-cl/gs_cl_fe_sh_gamepad-add.jpg){.aligncenter .size-full}
 
 If you run into difficulty with getting a particular gamepad set up in gSender, consider:
 
@@ -378,13 +382,13 @@ Having a listed gamepad means you can both be more confident that your hardware 
 
 Connect your controller to your PC and press any button on it. gSender will identify and provide a profile if one is available. You can see in the screenshot below, it correctly identifies the DualSense Wireless Controller I’m adding. Enter your profile name and hit **Add New Profile**.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-new.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_features-cl/_shortcuts-cl/gs_cl_fe_sh_gamepad-new.jpg){.aligncenter .size-full}
 
 #### Gamepad Setup
 
 Once you have a profile for your connected gamepad, click on that profile to edit it.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-added.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_features-cl/_shortcuts-cl/gs_cl_fe_sh_gamepad-added.jpg){.aligncenter .size-full}
 
 Inside a profile, you'll be able to see if that specific gamepad is currently connected and be able to assign shortcuts to the two major groups: **buttons**, and **thumbsticks**.
 
@@ -396,7 +400,7 @@ Buttons are the most versatile in how they can be set up. Any button on your gam
 
 To add an action to a button, start by pressing the button on your gamepad to see which one on the list lights up green. In this case, the X button lit up button 0. After pressing the `+` symbol in the Action column, you will see a list of actions you can map to that button. In this case an action was added for **Homing - Go to back left corner**, so now when the X button is hit on the gamepad, gSender will move the CNC to the back left corner!
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-assign.gif){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_features-cl/_shortcuts-cl/gs_cl_fe_sh_gamepad-assign.gif){.aligncenter .size-full}
 
 You can repeat these steps to keep adding more shortcuts to your gamepad, this also includes:
 
@@ -410,7 +414,7 @@ Thumbsticks are set up to be used for jogging because of the ability to move the
 
 On the right side of the gamepad profile window, you can see the options for what axis you'd like to move with your gamepad thumbsticks. Similar to setting up buttons, you can move the thumbstick to see which one lights up, and you can also assign a '2nd action' if you'd like. In this example, Stick 1 controls the X-axis left and right, and the Y-axis forward and back while Stick 2 controls the A-axis with left/right and the Z-axis with up/down.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-joystick.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_classic/_features-cl/_shortcuts-cl/gs_cl_fe_sh_gamepad-joystick.jpg){.aligncenter .size-full .nar}
 
 Once you've set up your thumbsticks, you'll find you can push them any amount and the distance you push them will decide the speed that axis moves at. If you've set up both the left/right and up/down, you can also mix these to make continuous diagonal movements to get to your final location easier. You can also flick the thumbstick once and the CNC will move one increment, according to the rapid/normal/precise movements you have set up for Jog Controls.
 
@@ -418,7 +422,7 @@ Once you've set up your thumbsticks, you'll find you can push them any amount an
 - If you let go of the thumbstick and the axis keeps moving, increase the '**Zero Threshold**' amount since your gamepad might be older and more worn out
 - If you get jittering while moving with the thumbsticks, or you let go of the sticks and it takes a while to stop moving, you might want to adjust the '**Movement Distance Override**' value until you get smooth movement on your setup
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-joystick-thresh.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_classic/_features-cl/_shortcuts-cl/gs_cl_fe_sh_gamepad-joystick-thresh.jpg){.aligncenter .size-full .nar}
 
 Another cool feature is the **Use MPG** selection. If you map one of your thumbsticks to an axis with MPG selected, it will automatically grey out the other stick selections. Now you can rotate your stick in any direction and for each quarter rotation, your axis will move once, according to your preselected Jog Controls.
 
@@ -428,11 +432,11 @@ Another cool feature is the **Use MPG** selection. If you map one of your thumbs
 
 This mode enables gSender to run faster on computers that are less powerful and prone to lagging. ‘Lightweight Mode’ reduces the memory gSender uses by turning off processor-heavy aspects of the visualizer, from reducing detail to disabling it altogether. You can toggle it on or off using the slider positioned at the top right of the visualizer.
 
-![](/_images/_gsender/_features/gs_fe_lightweight-1.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_lightweight-1.jpg){.aligncenter .size-medium}
 
 If you go to the visualizer settings, you can also customize what features are active in both ‘Regular’ and ‘Lightweight’ modes.
 
-![](/_images/_gsender/_features/gs_fe_lightweight-2.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_lightweight-2.jpg){.aligncenter .size-medium}
 
 If gSender's visualizer is impacting the performance of your machine but Lightweight mode only helps once the whole visualizer is turned off, this hybrid option could help. Found in the Visualizer settings, the ‘SVG Visualizer’ substitutes the default 3D viewer with a pre-rendered, top-down image of your project, drastically reducing computer strain but still allowing the project to be displayed.
 
@@ -502,19 +506,19 @@ Macros are standalone buttons within the gSender interface that allow you to exe
 
 You can create macros using the ‘+’ button under the ‘Macros’ tab. Here you'll see a space for inputting your custom g-code and adding a name and description for the macro. Advanced users may also want to leverage ‘Macro Variables’ which allow for greater g-code manipulation and pseudo-programming. Press ‘Add New Macro’ when completed.
 
-![](/_images/_gsender/_features/gs_fe_macro-variable.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_macro-variable.jpg){.aligncenter .size-full}
 
 New macros will appear as buttons in the ‘Macro’ tab that can be rearranged by dragging them around. These buttons will display the macro name, show the description if you hover your mouse over them, and can always be later altered or deleted by clicking on their '...' button.
 
 Any macro can be executed by pressing it. Before pressing it, a play icon will appear to show that you can select it. Once running, you should see the macro start to pulse green while a toast notification on the bottom left hand side of gSender also notifies you that it's running.
 
-![](/_images/_gsender/_features/gs_fe_macro-run.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_macro-run.jpg){.aligncenter .size-medium}
 
 Macros can also be executed using shortcuts. Every time you create a new macro it'll become available at the bottom of the shortcuts list for you to assign a key or gamepad button to. Add your keybindings and enable them by pressing the slider beside the label.
 
 You can share macros with other users or transfer them between computers by using the import and export features. To import one or multiple macros, just press the button with the downward arrow and a browsing window will appear so that you can select the macros you wish to import. Similarly, to export all your current macros, press the button with the upward arrow and it'll generate a save file for you.
 
-![](/_images/_gsender/_features/gs_fe_macro-share.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_macro-share.jpg){.aligncenter .size-full}
 
 ### Advanced Macros
 
@@ -772,7 +776,7 @@ If you are using one of the wizard options, know that you can access all other g
 
 Usually you would only have one origin or zero position for your project, therefore gSender will only save one zero. However, if you plan to do a series of projects that require different zero positions, or are lining up to do some more complex jigging or part batches, you may want to set up multiple workspaces all at once. This can save you time by not having to set a zero position for repetitive tasks or specific jig setups. You can do this by creating up to six different zero positions with the six workspaces in gSender. Access each 'Workspace' at the top right of the program by pressing the drop down to select which workspace to use. gSender will act completely in-line with whatever workspace you've selected, whether you want to set zero, probe, surface, or anything else.
 
-![](/_images/_gsender/_features/gs_fe_workspace.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_workspace.jpg){.aligncenter .size-medium}
 
 The video below explains the process in greater detail. If you're coming from a more technical background, you'd usually call these 'workspaces' G54, G55, G56, ... G59.
 
@@ -893,7 +897,7 @@ gSender has a unique ability to control a rotary axis on normal, 3-axis grbl mac
 
 Navigate to the Settings where you will find the Rotary settings. Here you can **toggle** the Rotary controls to make them visible on the main page.
 
-![](/_images/_gsender/_features/_rotary/gs_fe_ro_enable.gif){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_ro_enable.gif){.aligncenter .size-full}
 
 Once the toggle has been turned to display, you will see an additional tab at the bottom right of the window, called Rotary. With this tab you can:
 
