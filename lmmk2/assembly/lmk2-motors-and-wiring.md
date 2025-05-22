@@ -111,7 +111,7 @@ This will make it so the chains are the correct length to travel the whole range
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_Allen-key-router.jpg){.aligncenter .size-medium}
 
-At this stage, it’s a good idea to grab the router you’ll be using with your machine. We’ll show these steps using the Makita RT0700 / RT0701 trim router that we recommend (pictured). Also, grab the motor wires from the motor box while you’re at it.
+At this stage, it’s a good idea to grab the router you’ll be using with your machine. We’ll show these steps using the Makita RT0700 / RT0701 trim router, however this works for the AutoSpin as well. Also, grab the motor wires from the motor box while you’re at it.
 
 **Note: when using the Makita RT0700 / RT0701 it’ll come with a base attached. Remove this as you’ll just need the main router body for the CNC.**
 
@@ -119,7 +119,7 @@ To mount your router, loosen off the mount's front bolts until it slides in. Pla
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_55_2.jpg){.aligncenter .size-medium}
 
-Confirm the angle by turning the Z-axis lead screw by hand until its upper limit - the blue part of the router body shouldn’t collide with the Z-axis motor mount at any point. You can adjust the router height later depending on your setup: lower if you use tiny tools on thin material or higher if you use longer tools on 3-4” thick material.
+Confirm the angle by turning the Z-axis lead screw by hand until its upper limit - the top part of the router body shouldn’t collide with the Z-axis motor mount at any point. You can adjust the router height later depending on your setup: lower if you use tiny tools on thin material or higher if you use longer tools on 3-4” thick material.
 
 This maximum position is also where you can access the 4 bolts holding in the router mount from behind for future swapping or tramming. You'll simply lift up the drag chain and go through the hole in the X-gantry, being mindful not to damage the aluminum rail edge with the Allen key.
 
@@ -129,11 +129,11 @@ Optionally use the top left hole on the X-gantry as a zip tie point to keep your
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_56_2.jpg){.aligncenter .size-medium}
 
-Now onto the remaining wiring. Grab (the longer one) a motor cable and connect it to the Z-axis NEMA 23 motor. The connector can only go in one way so keep trying until it easily clicks in.
+Now onto the remaining wiring. Grab the longer motor cable and connect it to the Z-axis NEMA 23 motor. The connector can only go in one way so keep trying until it easily clicks in.
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_57_1.jpg){.aligncenter .size-medium}
 
-Grab the drag chain for the X-axis (the longer one) and seat in the Z-axis motor cable and router wire. Ensure you have the correct end of the drag chain so it’ll attach onto the end link and bend in the right direction. Reattach it onto the end link and start to re-clip the clips into place.
+Grab the drag chain for the X-axis (the longer one) and seat in the Z-axis motor cable, as well as the router power cable and signal cable. Ensure you have the correct end of the drag chain so it’ll attach onto the Z motor mount end link and bend in the right direction. Reattach it onto the end link, then start to resecure the clips. 
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_57_2.jpg){.aligncenter .size-medium}
 
@@ -165,4 +165,6 @@ Lastly plug in the cables for the motors on the two Y-axis NEMA 23 stepper motor
 
 Bring the cables around to the left of the machine so they’re now all bundled together (pictured). You’ll be plugging the motors cables into the control box shortly but otherwise the machine wiring is now complete!
 
+Remember to finish setting up the AutoSpin after going through the remaining Assembly steps, refer to the AutoSpin setup instructions [here. 
+](https://resources.sienci.com/view/lm-with-slb/)
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_61_2.jpg){.aligncenter .size-medium}
