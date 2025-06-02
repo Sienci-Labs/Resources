@@ -33,13 +33,13 @@ You will notice right away that as you click through the new UI, there are two s
 
 #### Top Bar
 
-The top bar will show you several cool things, and will always be available to see. You will see your connection status, notification bell, machine information, machine status, and shortcuts for remote control, keyboard shortcuts & gamepad profiles.
+The top bar will show you several cool things, and will always be available to see. Moving from left to right, you will see your connection status, notification bell, machine information, machine status, and shortcuts for remote control, keyboard shortcuts & gamepad profiles.
 
 ![](/_images/_gsender/_transition/gs_tr_top-bar.jpg){.align-center .size-medium}
 
 #### Left Bar
 
-On the left side of the screen, you will see 5 tabs. A helper that will aid you in understanding and correcting any errors that pop up, your main carve screen, a tab for examining your machine stats, a tab for all of your tools, and an expanded configuration tab. This left bar will always remain visible to you.
+On the left side of the screen, you will see 5 tabs. Starting at the top, a **Helper Tab** will aid you in understanding and correcting any errors that pop up. It also includes a tool changing wizard. Your main screen is the cool **Carve Tab**, where you handle files, watch the visualizer, setup jobs, move the machine, probe for zero, manage macros, check out the console and more. Our 3rd **Stats Tab** can be used for examining your machine stats, upcoming maintenance, your recent alarms & errors and your machine configuration. A diagnostic file download is available if you run into trouble, and links to our community, resources and Git Hub repository are also found on this tab. Moving down to the 4th **Tools Tab**, you will see aids to help you surface a project, square or tune your machine and setup your keyboard and gamepad shortcuts. Our final **Config Tab** has combined both your machine settings with the firmware settings. You can search these settings or toggle the ones that have been modified. This left bar will always remain visible to you.
 
 ![](/_images/_gsender/_transition/gs_tr_left-bar.jpg){.align-center .size-medium}
 
@@ -51,7 +51,7 @@ gSender now automatically detects your firmware type upon connection, selecting 
 
 ### **Streamlined Configuration Menu**
 
-The Config menu has been refined to display only relevant sections based on your machine's connection status and selected profile. It's a combination of your old preferences section mixed with the old firmware section, so all your settings are in one place. Modified settings are highlighted, and a 'Show Modified' toggle allows users to filter and manage non-default configurations efficiently. You can reset to default settings at any time.
+The Config menu has been refined to display only relevant sections based on your machine's connection status and selected profile. It's a combination of your old preferences section mixed with the old firmware section, so all your settings are in one place. Modified settings are highlighted, and a 'Show Modified' toggle allows users to filter and manage settings that have been changed from the machine default. You can reset to default settings at any time.
 
 ![](/_images/_gsender/_transition/gs_tr_modified.gif){.align-center .size-large}
 
@@ -59,7 +59,7 @@ The Config menu has been refined to display only relevant sections based on your
 
 The jog controls have been redesigned for better ergonomics and touch-screen compatibility. Notably, if your firmware supports a rotary axis, the A-axis jog control is now prominently featured. The Digital Read Out (DRO) section has been refined, separating 'Go To' and 'Zero' functions and integrating single-axis homing toggles for streamlined operations.
 
-![](/_images/_gsender/_transition/gs_tr_dro.jpg){.align-center .size-medium}
+![](/_images/_gsender/_transition/gs_tr_dro.gif){.align-center .size-full}
 
 ### **Tools Management**
 
@@ -87,6 +87,8 @@ Toggle Lightweight Mode using the feather icon located on the Visualizer.
 ### **Portrait Mode and Touch Support**
 
 For users operating on tablets or vertical monitors, gSender now supports Portrait Mode. Simply rotate your device or adjust your display orientation in the operating system to switch layouts. Additionally, pinch gestures now zoom the visualizer, enhancing touch-screen navigation.
+
+![](/_images/_gsender/_transition/gs_tr_portrait.jpg){.align-center size-medium}
 
 ### **Dark Mode**
 
