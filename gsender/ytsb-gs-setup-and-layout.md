@@ -15,10 +15,6 @@ skip_file: no
 featured_image: 
 ---
 
-- Update Anonymous Usage banner once implemented
-
----
-
 ## Anonymous Information
 
 When you open up gSender, you’ll notice a prompt regarding ‘Anonymous usage information’. This is just to ask if you’d be fine with us knowing things like what CNC you use it for, what computer you run it on, and other information about how you use the app. You can imagine that if we know certain features are widely used or certain errors are constantly encountered, that can be very helpful to understand how we can improve the app or its documentation. This is completely optional and anonymous, we only do it with your permission and it can be turned off at any time in the settings menu.
@@ -31,19 +27,15 @@ Before starting to use gSender, let's briefly cover the way its functions are la
 
 ### Carve
 
-This is where you will spend the majority of your time actually carving. When the program opens, this is where you will arrive! There are 5 main sections to the Carve tab. Beginning at the top bar:
+This is where you will spend the majority of your time actually carving. When the program opens, this is where you will arrive! There are 3 main sections to the Carve tab. Beginning at the top left corner:
 
-1. The top toolbar (boxed in yellow), has all the things you'll only use occasionally. This includes machine connection on the left side, notifications, system stats and current status in the middle, and shortcuts on the right.
+1. The top and left side toolbars (boxed in red), will stay visible, regardless of what you are doing. The top bar includes machine connection on the left side, notifications, system stats and current status in the middle, and shortcuts on the right. The left-side toolbar (boxed in red), holds 5 main tabs. The tabs include the Helper, the main Carve tab (which we have showing now), Stats, Tools, and Config tabs.
 
-1. The left-side toolbar (boxed in red), holds 4 main tabs, along with a helper tab. The tabs include Stats, Tools, Config, Helper and of course the main tab, Carve.
+1. The large middle visualizer (boxed in green), is where you manage your files and can watch the magic happen after you hit the start button. Rotate your view, monitor the job progress, turn on lightweight mode, change workspaces or feed speed, and more.
 
-1. The large middle visualizer (boxed in green), is where you can watch the magic happen after you hit the start button. Rotate your view, monitor the job progress, turn on lightweight mode, change workspaces, and more.
+1. The DRO and Jog Controls on the right (boxed in blue), have all the functions you need to manually control your CNC when jobs aren't running. This includes jogging, zero setting, homing, Go to movements, and more. The panel at the bottom features tabs that allow cutting jobs, probing, running macros, manual laser / spindle control, and more. 
 
-1. The DRO and Jog Controls on the right (boxed in blue), have all the functions you need to manually control your CNC when jobs aren't running. This includes jogging, zero setting, homing, Go to movements, and more.
-
-1. The 3 panels along the bottom (boxed in purple), loading, monitoring and controlling g-code files and cutting jobs, probing, running macros, manual laser / spindle control, and more.
-
-![](/_images/_gsender/_setup/gs_set_maincarve.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_se_carve-overview.jpg){.aligncenter .size-medium}
 
 We’ve built gSender’s layout around these primary boxed sections so that you can have all of the CNC functionality most hobbyists need on one screen without getting confused about what each button does. If you’re doing anything **during** a job it’ll be in the middle, if you’re doing anything **outside** a job it’ll likely be on the right, and if you want greater customization or functionality it’ll be found in the toolbars.
 
@@ -69,9 +61,13 @@ The final tab is the configuration tab. Here you will find an extensive list of 
 
 Some things you'll likely want to check out in config are:
 
-**Preferred Units** where you can toggle between metric (mm) and imperial (in) units, **Baud Rate** needed for your CNC (default is 115200) and **Reconnect Automatically**, which allows you to reconnect the the last machine you used, automatically.
+**Preferred Units** where you can toggle between metric (mm) and imperial (in) units, and **Reconnect Automatically**, which allows you to reconnect the the last machine you used, automatically.
 
 ![](/_images/_gsender/_setup/gs_set_configstart.jpg){.aligncenter .size-medium}
+
+You may also want to tweak how gSender is displayed by enabling **Dark Mode**. You can also change the visualizer to display in light or dark mode! This setting is found a little further down in the Config -> Customize UI tab.
+
+![](/_images/_gsender/_setup/gs_se_darkmode.gif){.aligncenter .size-large}
 
 #### Machine Profiles
 
