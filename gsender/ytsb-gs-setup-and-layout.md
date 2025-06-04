@@ -45,25 +45,25 @@ Another of gSender’s Design Principals is colouring. It can be scary to have a
 
 The Stats tab provides an overview of your machine configuration, recent jobs (including their run time and if they were successful or not), upcoming maintenance, alarms & errors, plus a comprehensive help section.
 
-![](/_images/_gsender/_setup/gs_set_mainstats.jpg)
+![](/_images/_gsender/_setup/gs_se_mainstats.jpg)
 
 ### Tools
 
 In the Tools tab provides wizards you can use to walk through XY squaring or movement tuning of your machine. Wasteboard surfacing, keyboard shortcuts, and gamepad profiles.
 
-![](/_images/_gsender/_setup/gs_set_maintools.jpg)
+![](/_images/_gsender/_setup/gs_se_maintools.jpg)
 
 ### Config
 
 The final tab is the configuration tab. Here you will find an extensive list of settings, starting with the basics, motors, probe, homing/limits, spindle/laser, tool changing, rotary, and more.
 
-![](/_images/_gsender/_setup/gs_set_configlist.gif){.aligncenter .size-full}
+![](/_images/_gsender/_setup/gs_se_configlist.gif){.aligncenter .size-full}
 
 Some things you'll likely want to check out in config are:
 
 **Preferred Units** where you can toggle between metric (mm) and imperial (in) units, and **Reconnect Automatically**, which allows you to reconnect the the last machine you used, automatically.
 
-![](/_images/_gsender/_setup/gs_set_configstart.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_se_configstart.jpg){.aligncenter .size-medium}
 
 You may also want to tweak how gSender is displayed by enabling **Dark Mode**. You can also change the visualizer to display in light or dark mode! This setting is found a little further down in the Config -> Customize UI tab.
 
@@ -73,7 +73,7 @@ You may also want to tweak how gSender is displayed by enabling **Dark Mode**. Y
 
 If you're planning to make any firmware modifications, gSenders Firmware tool at the bottom right of the config tab defaults to displaying the "LongMill MK2 30x30" profile. If that's not your machine, then select your machine from the dropdown menu (if it's not listed then select "Generic CNC").
 
-![](/_images/_gsender/_setup/gs_set_configprofile.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_se_configprofile.jpg){.aligncenter .size-medium}
 
 For instance most LongMills ship with **LongMill MK2 30x30** firmware pre-installed so it matches gSender, but if you have any other machines from Sienci Labs then you'll need to match it up (in this example we have the MK1 12x30 selected). For **supported machines**, once you've made this change you might want to 'Restore Defaults' to ensure your machine has all the most up-to-date settings.
 
@@ -81,7 +81,7 @@ Please Note: If your Z-axis is working in the opposite direction than expected, 
 
 If you're running into an issue where the size isn't correct when using Soft Limits for example, get the size from your manufacturer or their resources and you should find that the changes will be straightforward to make. Simply navigate from the Config tab -> Homing/Limits.
 
-![](/_images/_gsender/_setup/gs_set_configmaxtravel.jpg "In this example the Y-axis value has been adjusted."){.aligncenter .size-full}
+![](/_images/_gsender/_setup/gs_se_configmaxtravel.jpg "In this example the Y-axis value has been adjusted."){.aligncenter .size-full}
 
 Here you can see the maximum travel values. Simply adjust your new measurements to the X-axis, Y-axis and Z-axis maximum travel fields. Then hit the **Apply Settings** button.
 
