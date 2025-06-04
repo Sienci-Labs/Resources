@@ -153,7 +153,7 @@ Vectr is a simple web and desktop-based vector graphics editor that lets you dra
 
 [tabby title="Easel"]
 
-<b>Easel</b> (<a href="http://easel.inventables.com/" target="_blank" rel="noopener noreferrer">http://easel.inventables.com/</a>)
+<b>Easel</b> (<a href="https://www.easel.com/partners/sienci-labs?utm_source=Partner-Sienci-labs&utm_medium=website&utm_campaign=choosing-software" target="_blank" rel="noopener noreferrer">https://easel.com</a>)
 
 Easel is a free (with paid pro features) web application that makes it easy to design and cut objects online. With a handful of presets for common bits and materials, as well as a simple user interface, it's an awesome program for getting started with CNCing. There are tons of guides on <a href="https://www.YouTube.com/results?search_query=easel+cnc">YouTube</a> that cover lots of different things you can do with Easel. A very simple, intuitive design and CAM program for beginners.<br>
 <a href="https://www.YouTube.com/results?search_query=easel+cnc" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
