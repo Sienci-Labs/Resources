@@ -39,13 +39,15 @@ If you are not seeing those changes when you connect, please check the following
 
 1. Any other programs that can talk to the Arduino are closed (ex. Arduino IDE, Easel, UGS).
 1. See if you have other COM ports available, and try to connect to them.
+1. Baud
+1. Backup
 1. Arduino is securely attached to the LongBoard.
 
 ## Jogging and Presets
 
 You can move the machine manually by using the **Jog Control**, through the arrow buttons. To move the Z axis up and down, use the Z+ or Z- buttons to the right of the control dial.
 
-Below the control dial, you can change the **XY value** and **Z value** to adjust the distance you travel per click. You can also change **Speed**, which determines how fast the machine will move when jogging. That value is reflected in the 'at box'.
+Below the control dial, you can change the **XY value** and **Z value** to adjust the distance you travel per click. You can also change **Speed**, which determines how fast the machine will move when jogging. That value is reflected in the 'at' box.
 
 ![](/_images/_gsender/_using/gs_us_jog.jpg){.aligncenter .size-full}
 
@@ -53,12 +55,11 @@ The *Rapid*, *Normal*, and *Precise* buttons are preset values that will allow y
 
 ## Set Zero and Gotos
 
-Each g-code file or project will have a starting position that all other movements are referenced off of. This is called the **Workpiece zero** or **Workpiece Home**. There are two ways to manually set your zero on gSender, and a couple automatic options that we cover in [Probing](#probing).
+Each g-code file or project will have a starting position that all other movements are referenced off of. This is called the **Workpiece zero**. There are two ways to manually set your zero on gSender, and a couple automatic options that we cover in [Probing](#probing).
 
 The two ways to **set zero** manually are to either:
 
 - Zero each axis one at a time using 'X0', 'Y0', and 'Z0' buttons
-
 - Set them all at the same time with the Zero button
 
 ![](/_images/_gsender/_using/gs_us_dro_zeroall.jpg){.alignnone width="61" height="30"}
@@ -72,7 +73,6 @@ The large blue numbers tell you the current position of your machine. Once you s
 Now that we've covered how to manually move, here are two ways to automatically move, or as we call it, **Goto**:
 
 - Return to each axis Zero, one at a time using the blue 'X', 'Y', and 'Z' buttons
-
 - Return to X and Y Zero at the same time with the blue 'XY' button
 
 *Note - 'Goto XY' **will not** move the z-axis to its zero.*
@@ -99,15 +99,13 @@ You can also enter coordinates directly by clicking the blue text location value
 
 gSender provides unique features if you have endstops on your machine for homing or limits. Once homing is enabled in Config -> Homing cycle you’ll notice additional buttons appear in the ‘Location’ area of gSender:
 
-- The ‘Home’ button is a convenient way to home or re-home your machine at any time (sends the typical $h command).
+![](/_images/_gsender/_using/gs_us_endstop-btns.jpg){.aligncenter .size-medium}
+
+- The ‘Home’ button is a convenient way to home or re-home your machine at any time.
 - Four “quick-travel” buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed, you’ll also notice a house icon appear at the corner that your machine homes to.
 - If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials (before it would move up by the safe height amount).
 
-![](/_images/_gsender/_using/gs_us_endstop-btns.jpg){.aligncenter .size-medium}
-
-If you’re having issues with the “quick-travel” buttons, then check the “maximum travel” settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings in the Config tab, under Homing/Limits.
-
-If you'd like more information on how to set up and use limit switches, read here: <a href="https://resources.sienci.com/view/lm-adding-limit-switches/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-adding-limit-switches/</a>
+If you'd like more information on how to set up and use these features, read here: <a href="https://resources.sienci.com/view/lm-adding-limit-switches/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-adding-limit-switches/</a>
 
 ## Probing
 
@@ -201,11 +199,9 @@ It does this by looking through the whole g-code file up to where you want to re
   ![](/_images/_gsender/_using/gs_us_startfrombutton.jpg){.aligncenter .size-medium}
 1. Here you'll see:
   ![](/_images/_gsender/_using/gs_us_startfromline.jpg){.aligncenter .size-medium}
-
    - When you **Last stopped** your file, how many **Total lines** it has, and a **Recommended start line**.
    - **Resume job at line**: once you've decided where to resume from, you can type the line number in here.
    - **Safe height**: if your CNC has extra Z movement above the failed job, you can put a larger number here to make sure that it doesn't hit clamps while moving into position to resume cutting.
-
 1. Once everything looks good, remember to turn on anything that isn't automated like a trim router or vacuum, then click 'Start from Line' to resume cutting.
 
 **Example**: you were present when the job failed and hit 'Stop' immediately. Nothing moved but the bit broke so you swapped it out and used a touch plate to probe Z. It says the last recorded line was 731 but to be safe you'll subtract 20 and start at 711. The job starts back up a little before the failure and you're able to resume as expected. If instead you hadn't been paying attention for several minutes then you might subtract 50-100 lines instead just to be safe.
@@ -228,13 +224,9 @@ gSender is set up to do many things by default to help keep you aware about thin
 ![](/_images/_gsender/_using/gs_us_safetybasics.jpg){.aligncenter .size-medium}
 
 1. **G-code warnings**: reports back when it sees g-code lines that don’t look correct when the file is loaded or once it’s being sent to the machine. G-code has to follow specific ‘grammatical rules’ similar to other languages for the ‘sentences’ to be correct, so if the lines don’t look correct then your machine might run into problems understanding what it’s supposed to do.
-
-1. **Prompt when setting zero**: enable an optional popup that appears when you click to 'zero' just in case you mis-clicked it.
-
-1. **Safe height movement**: this number is used when using the ‘Go to’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the Goto movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the Goto movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
-
 1. **Soft limits warning**: enables gSender to tell you when a loaded file might exceed the cutting area of your machine. This requires that your machine has limit switches and soft limits enabled.
-
+1. **Prompt when setting zero**: enable an optional popup that appears when you click to 'zero' just in case you mis-clicked it.
+1. **Safe height movement**: this number is used when using the ‘Go to’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the Goto movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the Goto movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
 1. **History of Errors and Alarms**: great for tracking problems you might’ve recently run into to help troubleshooting or getting support. All entries are listed in-order and stamped with a date and time.
 
 ![](/_images/_gsender/_using/gs_us_alarms.jpg){.align-center size.medium}

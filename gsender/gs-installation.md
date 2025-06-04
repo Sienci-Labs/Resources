@@ -71,11 +71,13 @@ If you're having issues installing gSender on your Mac:
 
 ## gSender Updates
 
-gSender will notify you when new updates are available, allowing you to download them quickly and get running with the latest version. If you don't see these notifications, your system might not support it or your computer Firewall may be blocking them but you should still be able to download the <a href="https://sienci.com/gSender/">newest version</a> manually and install it over-top of the old version.
+gSender will automatically notify you when new updates are available, allowing you to download them quickly and get running with the latest version. When you see the green download icon on the top left corner of your screen, over the gSender logo, you know you have an update available. You can also navigate to the **Stats Tab**, then click on About in the center/bottom of the screen, to see if any updates are available.
+
+![](/_images/_gsender/_install/gs_in_update.gif){.aligncenter .size-full}
+
+If you don't see these notifications, your system might not support it or your computer Firewall may be blocking them but you should still be able to download the <a href="https://sienci.com/gSender/">newest version</a> manually and install it over-top of the old version.
 
 gSender updates always have the chance of encountering quirks, so if you have an important carve coming up or are just satisfied with your current setup then we'd typically recommend holding off until updating will be less 'mission-critical'. If you update accidentally and want to go back, you can also always <a href="#older-versions">downgrade</a>.
-
-![](/_images/_gsender/_install/gs_in_updater.jpg){.aligncenter .size-full}
 
 **If you upgrade to a new version, or downgrade to an older version, and gSender won't open or run (blank screen):**  
 You’ll want to find a file called “**.sender_rc**” and rename it so gSender can generate a new version without errors. Sometimes you might also want to delete the “**.sienci-sessions**” folder too.
