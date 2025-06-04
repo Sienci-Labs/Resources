@@ -17,6 +17,17 @@ featured_image:
 
 This page acts as an easy reference for all past documentation written before gSender version 1.5.0. Similar to the current docs, it'll go over [**Setup and Layout**](#anonymous-information) items first, then introduce [**Basics Features**](#starting-up) for day-to-day use before progressing to more [**Advanced Features**](#shortcuts) such as shortcuts, macros, calibration tools, spindles, lasers, and more. If your're having some issues with gSender, definitely visit the [**Troubleshooting**](#problems-or-bugs) section to see fixes to common issues or see how you can get in touch with us. Remember, you can always quickly navigate the page by clicking the headings in the 'Page Contents'.
 
+## gSender Updates
+
+gSender will notify you when new updates are available, allowing you to download them quickly and get running with the latest version. If you don't see these notifications, your system might not support it or your computer Firewall may be blocking them but you should still be able to download the <a href="https://sienci.com/gSender/">newest version</a> manually and install it over-top of the old version.
+
+gSender updates always have the chance of encountering quirks, so if you have an important carve coming up or are just satisfied with your current setup then we'd typically recommend holding off until updating will be less 'mission-critical'. If you update accidentally and want to go back, you can also always <a href="#older-versions">downgrade</a>.
+
+![](/_images/_gsender/_classic/gs_in_updater.jpg){.aligncenter .size-full}
+
+**If you upgrade to a new version, or downgrade to an older version, and gSender won't open or run (blank screen):**  
+You’ll want to find a file called “**.sender_rc**” and rename it so gSender can generate a new version without errors. Sometimes you might also want to delete the “**.sienci-sessions**” folder too.
+
 ## Anonymous Information
 
 When you open up gSender, you’ll notice a prompt regarding ‘Anonymous usage information’. This is just to ask if you’d be fine with us knowing things like what CNC you use it for, what computer you run it on, and other information about how you use the app. You can imagine that if we know certain features are widely used or certain errors are constantly encountered, that can be very helpful to understand how we can improve the app or its documentation. This is completely optional and anonymous, we only do it with your permission and it can be turned off at any time in the settings menu.

@@ -19,7 +19,7 @@ The recent merge of gSender Edge 1.5.0 into our main gSender introduces a compre
 
 We've improved the main tab, now called the **Carve Tab**.  The core concept of **things that are blue, move the machine** remains is place. Generally you will use the middle/left side of the screen to load files, control running the job and observing your progress in the visualizer. The right side of the screen will move your machine and allow you to use more advanced machine functions.
 
-We've combined similar features, ard are excited to share things like our new **Stats Tab** which includes things like maintenance tasks, machine diagnostic files, configuration and more.
+We've combined similar features, and are excited to share things like our new **Stats Tab** which includes things like maintenance tasks, machine diagnostic files, configuration and more.
 
 The new **Config Tab** puts all of your settings into one place, so no more flipping between firmware and profile options.
 

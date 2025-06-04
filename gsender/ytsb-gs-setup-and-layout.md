@@ -33,7 +33,7 @@ This is where you will spend the majority of your time actually carving. When th
 
 1. The large middle visualizer (boxed in green), is where you manage your files and can watch the magic happen after you hit the start button. Rotate your view, monitor the job progress, turn on lightweight mode, change workspaces or feed speed, and more.
 
-1. The DRO and Jog Controls on the right (boxed in blue), have all the functions you need to manually control your CNC when jobs aren't running. This includes jogging, zero setting, homing, Go to movements, and more. The panel at the bottom features tabs that allow cutting jobs, probing, running macros, manual laser / spindle control, and more. 
+1. The DRO and Jog Controls on the right (boxed in blue), have all the functions you need to manually control your CNC when jobs aren't running. This includes jogging, zero setting, homing, Go to movements, and more. The panel at the bottom features tabs that allow cutting jobs, probing, running macros, manual laser / spindle control, and more.
 
 ![](/_images/_gsender/_setup/gs_se_carve-overview.jpg){.aligncenter .size-medium}
 
@@ -53,13 +53,21 @@ In the Tools tab provides wizards you can use to walk through XY squaring or mov
 
 ![](/_images/_gsender/_setup/gs_se_maintools.jpg)
 
-### Config
+## Config
 
 The final tab is the configuration tab. Here you will find an extensive list of settings, starting with the basics, motors, probe, homing/limits, spindle/laser, tool changing, rotary, and more.
 
 ![](/_images/_gsender/_setup/gs_se_configlist.gif){.aligncenter .size-full}
 
-Some things you'll likely want to check out in config are:
+## Set up to Use
+
+The last tab is called "Config" at the bottom left corner of the app. All the stuff you need to access to set up gSender for your own setup and also for your CNC can be found in the Config tab. This includes how things look in gSender like colours, units (mm/inch), etc. as well as machine settings. Some things you'll likely want to configure would be:
+
+- Preferred units
+- Tabs to enable functionality
+- Notifications
+- Visualizer theme
+- Dark mode
 
 **Preferred Units** where you can toggle between metric (mm) and imperial (in) units, and **Reconnect Automatically**, which allows you to reconnect the the last machine you used, automatically.
 
@@ -67,9 +75,7 @@ Some things you'll likely want to check out in config are:
 
 You may also want to tweak how gSender is displayed by enabling **Dark Mode**. You can also change the visualizer to display in light or dark mode! This setting is found a little further down in the Config -> Customize UI tab.
 
-![](/_images/_gsender/_setup/gs_se_darkmode.gif){.aligncenter .size-large}
-
-#### Machine Profiles
+### Machine Profiles
 
 If you're planning to make any firmware modifications, gSenders Firmware tool at the bottom right of the config tab defaults to displaying the "LongMill MK2 30x30" profile. If that's not your machine, then select your machine from the dropdown menu (if it's not listed then select "Generic CNC").
 
