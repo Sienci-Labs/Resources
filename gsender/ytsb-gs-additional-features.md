@@ -26,6 +26,101 @@ Rotary - When doing rotary surfacing, on the carve screen, file is still named c
 
 Rotary - Switch vs Open vs Closed Loop. Need to chat and take notes about the differences here re: gSender
 
+Doesn't mention alternate ways to get to shortcuts,
+Lightweight mode explanation confusing,
+Coolant tab disable,
+Missing macro text to explain the basics of setup,
+Tools for Calibration? Firmware Tool? Unsupported CNCs? Config section? Diagnosing in Config, Help, flyout in top toolbar,
+Problems in many places where the text hasn't been updated to match the new behaviour like once the Rotary tab is turned on
+
+## Machine Coordinates vs Workpiece Coordinates
+
+Above the Jog Controls is your DRO (Digital Read Out). This section allows you to do some automatic movement, set your zeros and see where you are in relation to the machine or the workpiece. Kinda like your car navigation system. You can also see if you are using mm or inches!
+
+![](/_images/_gsender/_using/gs_us_dro.jpg){.aligncenter .size-medium}
+
+Before we dive into the buttons in the DRO and what they do, let's review how coordinates are handled. In other words, before we drive the car, let's look at the map.
+
+In CNC machining, there are two primary coordinate systems that guide the machine's movements:
+
+- [**Machine Coordinate System**](#machine-coordinate-system-)
+- [**Workpiece Coordinate System**](#workpiece-coordinate-system-)
+
+The **machine coordinate system** is a fixed, default system established by the CNC machine’s manufacturer. It is defined by the machine’s physical size and is used during the homing cycle, when the machine references its internal limits using built-in sensors like limit switches. Users do not modify or choose this system—it simply tells the machine where it is in its own space. If you are not using homing switches, the machine home is determined by where the bit is when the controller is powered on.
+
+ In contrast, the **workpiece coordinate system** is fully controlled by the CNC user. This system defines the position of the part on the machine table and ensures the tool moves accurately in relation to the workpiece.
+
+![](/_images/_gsender/_using/gs_us_dro_offset.jpg){.aligncenter .size-medium}
+
+### Machine Coordinate System 🏭
+
+The machine coordinate system refers to the CNC machine's own coordinate system, established by the manufacturer. This system is based on the machine's physical structure and its home position (often referred to as the machine's home or (0,0,0) point indicated by the **grey numbers**).
+
+![](/_images/_gsender/_using/gs_us_dro_machinecordfull.jpg){.aligncenter .size-medium}
+
+When you power on the machine and perform a homing sequence, the machine references this built-in coordinate system to determine its position in space. This system ensures that the machine has a consistent reference point for all operations.​
+
+### Workpiece Coordinate System 🧱
+
+The workpiece offset is a user-defined coordinate system that aligns the machine's operations with the specific location of the workpiece on the machine bed. This system allows users to set a new origin point (0,0,0) based on the workpiece's position.​ This is indicated by the **blue numbers** in the DRO.
+
+![](/_images/_gsender/_using/gs_us_dro_workpiececordfull.jpg){.aligncenter .size-medium}
+
+In gSender, you can set workpiece offsets using standard G-code commands like G54 to G59. These commands allow you to define multiple work coordinate systems, which is especially useful when working on different parts or setups without re-homing the machine each time.​ These are called your workspaces.
+
+---
+## Homing & Limits
+
+Limit switches (also referred to as *inductive sensors*, *end stops* or *homing switches*) are sensors that sit at one or both ends of each movement axis of a CNC to provide a few different functions. gSender provides unique features if you have these switches installed on your machine. You can check out our sensors [HERE!](https://sienci.com/product/inductive-sensor-kit-for-the-longmill-mk2/)
+
+If you don't have sensors, skip ahead [HERE.](#probing)
+
+### Going Homing
+
+When we turn on homing, we can use 3 sensors to find our machine coordinate  home on our machine. For now, we will home to the front left corner of the machine. To enable Homing, Goto Config -> Limits and Homing -> Homing cycle enable -> toggle on.
+
+![](/_images/_gsender/_using/gs_us_dro_homingon.jpg){.aligncenter .size-medium}
+
+Using **grblHAL** enables several more detailed options for you to choose from, like homing single axes, requiring homing on startup, set machine origin to 0, and more. In this image, we have enabled homing, but **not** required it on startup. We have toggled to allow us to manually home the machine, and to **Set the machine origin to 0** once complete.
+
+![](/_images/_gsender/_using/gs_us_dro_hominghal.jpg){.aligncenter .size-medium}
+
+You’ll notice additional buttons appear in the DRO area of gSender:
+
+![](/_images/_gsender/_using/gs_us_dro_homingbtn.jpg){.aligncenter .size-medium}
+
+The **Home** button is a convenient way to home or re-home your machine at any time (sends the typical $h command). The machine will automatically move to your front left corner, using the sensors to position the router over machine home.
+
+![](/_images/_gsender/_using/gs_us_dro_rapidpositionbtn.jpg){.aligncenter .size-medium}
+
+Four **Rapid-Travel** buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed.
+
+![](/_images/_gsender/_using/gs_us_dro_parkbtn.jpg){.aligncenter .size-medium}
+
+You can configure a **Park Location** to move your router to a set spot consistently at the click of a button. To setup your parking spot, Goto Config -> Basics. Here you can enter the coordinates of your parking spot manually, or move your router/spindle to the spot and hit the **Grab** current position button. Test out your new spot by hitting the Goto button in settings or hitting the P button on the DRO.
+
+![](/_images/_gsender/_using/gs_us_dro_parksetting.jpg){.aligncenter .size-medium}
+
+### Set Those Limits
+
+If you’re having issues with the “quick-travel” buttons, then check the “maximum travel” settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings by going to Config tab -> Limits and Homing -> X-axis maximum travel (Y, Z axes are here too), 130-132. If you are using **grblHAL** you will also see A axis, 133.
+
+![](/_images/_gsender/_using/gs_us_limitssetl.jpg){.aligncenter .size-medium}
+
+If you'd like more information on how to set up and use limit switches, read here: <a href="https://resources.sienci.com/view/lm-adding-limit-switches/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-adding-limit-switches/</a>
+
+### Soft Limits
+
+With 3 sensors in place, and homing turned on, we can turn on soft limits. This feature will combine your 3 sensor homing cycle with your maximum travel lengths, so prevent you from going too far on each axis. To enable soft limits, Config -> Limits and Homing -> Soft limits enable -> toggle on. Don't forget to hit the Apply Settings button to save!
+
+![](/_images/_gsender/_using/gs_us_softlimit.jpg){.aligncenter .size-medium}
+
+### Hard Limits
+
+If you have a sensor on both sides of each axis, all 6 sensors can provide you a hardware backup solution, to the software solution provided above with the soft limits. With hard limits on, if your machine get's close to the edge of an axis, your sensor will trigger, stopping any further movement. To enable soft limits, Config -> Limits and Homing -> Hard limits enable -> toggle on. Don't forget to hit the Apply Settings button to save!
+
+![](/_images/_gsender/_using/gs_us_hardlimit.jpg){.aligncenter .size-medium}
+
 ---
 
 This page covers all the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, lasers, coolant, and more. Remember, you can always quickly navigate the page by clicking the headings in the 'Page Contents'.

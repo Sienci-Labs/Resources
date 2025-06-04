@@ -2,7 +2,7 @@
 title: ytsb Using gSender
 menu_order: 3
 post_status: draft
-post_excerpt: Understand the basics of how to use gSender, including connecting, jogging, zeroing and Go tos, probing, and running jobs.
+post_excerpt: Understand the basics of how to use gSender, including connecting, jogging, zeroing and Gotos, probing, and running jobs.
 post_date: 2021-07-01 14:56:00
 taxonomy:
     knowledgebase_cat: gdocs
@@ -43,7 +43,7 @@ If you are not seeing those changes when you connect, please check the following
 
 ## Jogging and Presets
 
-You can move the machine manually by using the **Jog Control**, through the arrow buttons. We cover moving the machine automatically in the [Go tos](#set-zero-and-Go tos) section. To move the machine, use the large +-X and +-Y movements on the control dial, or use the smaller diagonal buttons. To move the Z axis up and down, use the Z+ or Z- buttons to the right of the control dial.
+You can move the machine manually by using the **Jog Control**, through the arrow buttons. To move the Z axis up and down, use the Z+ or Z- buttons to the right of the control dial.
 
 Below the control dial, you can change the **XY value** and **Z value** to adjust the distance you travel per click. You can also change **Speed**, which determines how fast the machine will move when jogging. That value is reflected in the 'at box'.
 
@@ -51,42 +51,7 @@ Below the control dial, you can change the **XY value** and **Z value** to adjus
 
 The *Rapid*, *Normal*, and *Precise* buttons are preset values that will allow you to toggle to different distance and speed values quickly. We use rapid to get around quickly on large jobs, and precise if we are trying to set zero with the paper method for example.
 
-## Machine Coordinates vs Workpiece Coordinates
-
-Above the Jog Controls is your DRO (Digital Read Out). This section allows you to do some automatic movement, set your zeros and see where you are in relation to the machine or the workpiece. Kinda like your car navigation system. You can also see if you are using mm or inches!
-
-![](/_images/_gsender/_using/gs_us_dro.jpg){.aligncenter .size-medium}
-
-Before we dive into the buttons in the DRO and what they do, let's review how coordinates are handled. In other words, before we drive the car, let's look at the map.
-
-In CNC machining, there are two primary coordinate systems that guide the machine's movements:
-
-- [**Machine Coordinate System**](#machine-coordinate-system-)
-- [**Workpiece Coordinate System**](#workpiece-coordinate-system-)
-
-The **machine coordinate system** is a fixed, default system established by the CNC machine’s manufacturer. It is defined by the machine’s physical size and is used during the homing cycle, when the machine references its internal limits using built-in sensors like limit switches. Users do not modify or choose this system—it simply tells the machine where it is in its own space. If you are not using homing switches, the machine home is determined by where the bit is when the controller is powered on.
-
- In contrast, the **workpiece coordinate system** is fully controlled by the CNC user. This system defines the position of the part on the machine table and ensures the tool moves accurately in relation to the workpiece.
-
-![](/_images/_gsender/_using/gs_us_dro_offset.jpg){.aligncenter .size-medium}
-
-### Machine Coordinate System 🏭
-
-The machine coordinate system refers to the CNC machine's own coordinate system, established by the manufacturer. This system is based on the machine's physical structure and its home position (often referred to as the machine's home or (0,0,0) point indicated by the **grey numbers**).
-
-![](/_images/_gsender/_using/gs_us_dro_machinecordfull.jpg){.aligncenter .size-medium}
-
-When you power on the machine and perform a homing sequence, the machine references this built-in coordinate system to determine its position in space. This system ensures that the machine has a consistent reference point for all operations.​
-
-### Workpiece Coordinate System 🧱
-
-The workpiece offset is a user-defined coordinate system that aligns the machine's operations with the specific location of the workpiece on the machine bed. This system allows users to set a new origin point (0,0,0) based on the workpiece's position.​ This is indicated by the **blue numbers** in the DRO.
-
-![](/_images/_gsender/_using/gs_us_dro_workpiececordfull.jpg){.aligncenter .size-medium}
-
-In gSender, you can set workpiece offsets using standard G-code commands like G54 to G59. These commands allow you to define multiple work coordinate systems, which is especially useful when working on different parts or setups without re-homing the machine each time.​ These are called your workspaces.
-
-## Set Zero and Go tos
+## Set Zero and Gotos
 
 Each g-code file or project will have a starting position that all other movements are referenced off of. This is called the **Workpiece zero** or **Workpiece Home**. There are two ways to manually set your zero on gSender, and a couple automatic options that we cover in [Probing](#probing).
 
@@ -104,25 +69,25 @@ The large blue numbers tell you the current position of your machine. Once you s
 
 ![](/_images/_gsender/_using/gs_us_dro_allzeroes.jpg){.aligncenter .size-full}
 
-Now that we've covered how to manually move, here are two ways to automatically move, or as we call it, **Go to**:
+Now that we've covered how to manually move, here are two ways to automatically move, or as we call it, **Goto**:
 
 - Return to each axis Zero, one at a time using the blue 'X', 'Y', and 'Z' buttons
 
 - Return to X and Y Zero at the same time with the blue 'XY' button
 
-*Note - 'Go to XY' **will not** move the z-axis to its zero.*
+*Note - 'Goto XY' **will not** move the z-axis to its zero.*
 
-![](/_images/_gsender/_using/gs_us_Go to.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_us_Goto.jpg){.aligncenter .size-medium}
 
 *Note: if you’ve set up “Safe Height” in gSender (Config -> Basics -> Safe Height), then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
 
-There is one more way to move automatically, but it isn't used to bring you back to 0.00. It's called **Go to Location**.
+There is one more way to move automatically, but it isn't used to bring you back to 0.00. It's called **Goto Location**.
 
-![](/_images/_gsender/_using/gs_us_dro_Go to_airplane.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_us_dro_Goto_airplane.jpg){.aligncenter .size-medium}
 
 If you want to go somewhere else quickly without manually jogging there, click the 'Paper Airplane' button to bring you to a specific location. You'll see a popup asking you where you want to go and you either type a specific location (absolute G90) or move some amount from where you are now (relative G91).
 
-![](/_images/_gsender/_using/gs_us_dro_Go tolocation.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_us_dro_Gotolocation.jpg){.aligncenter .size-medium}
 
 You can reset your zeros anytime when the machine is not actively running a job. The machine will remember your zero in most cases. If you turn the lead screw with your fingers or push the gantry, the machine does not know you moved it, therefore it will lose the zero position. You can jog on the Jog Control without losing your zero position because gSender knows you are moving the machine.
 
@@ -130,57 +95,19 @@ You can also enter coordinates directly by clicking the blue text location value
 
 ![](/_images/_gsender/_using/gs_us_dro_zeroboxmanual.jpg){.aligncenter .size-medium}
 
-## Homing & Limits
+## Endstop buttons
 
-Limit switches (also referred to as *inductive sensors*, *end stops* or *homing switches*) are sensors that sit at one or both ends of each movement axis of a CNC to provide a few different functions. gSender provides unique features if you have these switches installed on your machine. You can check out our sensors [HERE!](https://sienci.com/product/inductive-sensor-kit-for-the-longmill-mk2/)
+gSender provides unique features if you have endstops on your machine for homing or limits. Once homing is enabled in Config -> Homing cycle you’ll notice additional buttons appear in the ‘Location’ area of gSender:
 
-If you don't have sensors, skip ahead [HERE.](#probing)
+- The ‘Home’ button is a convenient way to home or re-home your machine at any time (sends the typical $h command).
+- Four “quick-travel” buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed, you’ll also notice a house icon appear at the corner that your machine homes to.
+- If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials (before it would move up by the safe height amount).
 
-### Going Homing
+![](/_images/_gsender/_using/gs_us_endstop-btns.jpg){.aligncenter .size-medium}
 
-When we turn on homing, we can use 3 sensors to find our machine coordinate  home on our machine. For now, we will home to the front left corner of the machine. To enable Homing, go to Config -> Limits and Homing -> Homing cycle enable -> toggle on.
-
-![](/_images/_gsender/_using/gs_us_dro_homingon.jpg){.aligncenter .size-medium}
-
-Using **grblHAL** enables several more detailed options for you to choose from, like homing single axes, requiring homing on startup, set machine origin to 0, and more. In this image, we have enabled homing, but **not** required it on startup. We have toggled to allow us to manually home the machine, and to **Set the machine origin to 0** once complete.
-
-![](/_images/_gsender/_using/gs_us_dro_hominghal.jpg){.aligncenter .size-medium}
-
-You’ll notice additional buttons appear in the DRO area of gSender:
-
-![](/_images/_gsender/_using/gs_us_dro_homingbtn.jpg){.aligncenter .size-medium}
-
-The **Home** button is a convenient way to home or re-home your machine at any time (sends the typical $h command). The machine will automatically move to your front left corner, using the sensors to position the router over machine home.
-
-![](/_images/_gsender/_using/gs_us_dro_rapidpositionbtn.jpg){.aligncenter .size-medium}
-
-Four **Rapid-Travel** buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed.
-
-![](/_images/_gsender/_using/gs_us_dro_parkbtn.jpg){.aligncenter .size-medium}
-
-You can configure a **Park Location** to move your router to a set spot consistently at the click of a button. To setup your parking spot, go to Config -> Basics. Here you can enter the coordinates of your parking spot manually, or move your router/spindle to the spot and hit the **Grab** current position button. Test out your new spot by hitting the Go To button in settings or hitting the P button on the DRO.
-
-![](/_images/_gsender/_using/gs_us_dro_parksetting.jpg){.aligncenter .size-medium}
-
-### Set Those Limits
-
-If you’re having issues with the “quick-travel” buttons, then check the “maximum travel” settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings by going to Config tab -> Limits and Homing -> X-axis maximum travel (Y, Z axes are here too), 130-132. If you are using **grblHAL** you will also see A axis, 133.
-
-![](/_images/_gsender/_using/gs_us_limitssetl.jpg){.aligncenter .size-medium}
+If you’re having issues with the “quick-travel” buttons, then check the “maximum travel” settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings in the Config tab, under Homing/Limits.
 
 If you'd like more information on how to set up and use limit switches, read here: <a href="https://resources.sienci.com/view/lm-adding-limit-switches/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-adding-limit-switches/</a>
-
-### Soft Limits
-
-With 3 sensors in place, and homing turned on, we can turn on soft limits. This feature will combine your 3 sensor homing cycle with your maximum travel lengths, so prevent you from going too far on each axis. To enable soft limits, Config -> Limits and Homing -> Soft limits enable -> toggle on. Don't forget to hit the Apply Settings button to save!
-
-![](/_images/_gsender/_using/gs_us_softlimit.jpg){.aligncenter .size-medium}
-
-### Hard Limits
-
-If you have a sensor on both sides of each axis, all 6 sensors can provide you a hardware backup solution, to the software solution provided above with the soft limits. With hard limits on, if your machine get's close to the edge of an axis, your sensor will trigger, stopping any further movement. To enable soft limits, Config -> Limits and Homing -> Hard limits enable -> toggle on. Don't forget to hit the Apply Settings button to save!
-
-![](/_images/_gsender/_using/gs_us_hardlimit.jpg){.aligncenter .size-medium}
 
 ## Probing
 
@@ -190,15 +117,15 @@ You can select the type of touch plate you are using, if you want to verify the 
 
 ![](/_images/_gsender/_using/gs_us_probesettings.jpg){.aligncenter .size-medium}
 
-Once you have set up the touch plate, banana plug and magnet on the machine, you can choose which axis to probe for, and the diameter of the bit you are using if applicable. The bit size can be selected from the drop-down of saved bits, or can be typed in manually. Jog the machine so that the bit is hovering over the Sienci Labs logo on the touch plate. Then press 'Probe'.
+Once you have set up the touch plate, banana plug and magnet on the machine, you can choose which axis to probe for (default is bottom left corner), and the diameter of the bit you are using if applicable. The bit size can be selected from the drop-down of saved bits, or can be typed in manually. Custom diameters will be saved for future use if you hit the + symbol after entering your diameter. Jog the machine so that the bit is hovering over the Sienci Labs logo on the touch plate. Then press 'Probe'.
 
-![](/_images/_gsender/_using/gs_us_probexyz.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_us_probesize.gif){.align-center .size-full}
 
 Before the process begins, there is a conductivity test to ensure that the touch plate components can conduct electricity, which allows a signal to be sent to the LongBoard when there is contact. You can either bring the touch plate to the end mill or touch the banana plug and magnet together. Make contact a few times just to confirm there is conductivity, as the red circle should flicker to green.
 
 ![](/_images/_gsender/_using/gs_us_probenotouch.jpg){.aligncenter .size-medium}
 
-A blue button called 'Start Probe' will appear if you have successfully confirmed conductivity. Ensure that the touch plate components are set up for probing, then press 'Start Probe'. The machine will move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press 'Go to XY'. The bit should be overtop the bottom left corner of the stock material, and pressing 'Go to Z' should bring it to touch the surface. More information can be found on our touch-plate resource page. <a href="https://resources.sienci.com/view/lmk2-touch-plate/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-touch-plate/</a>
+A blue button called 'Start Probe' will appear if you have successfully confirmed conductivity. Ensure that the touch plate components are set up for probing, then press 'Start Probe'. The machine will move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press 'Goto XY'. The bit should be overtop the bottom left corner of the stock material, and pressing 'Goto Z' should bring it to touch the surface. More information can be found on our touch-plate resource page. <a href="https://resources.sienci.com/view/lmk2-touch-plate/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-touch-plate/</a>
 
 ![](/_images/_gsender/_features/_probing/gs_fe_pr_success.jpg){.aligncenter .size-full}
 
@@ -268,7 +195,7 @@ It does this by looking through the whole g-code file up to where you want to re
 1. If you think your machine lost its location:
    - Re-home the machine (it should remember the zero location of the project if nothing else moved).
    - If you don't have limit switches, the project moved, or your original cutting bit broke, try to re-use whatever setup method you used to set your zero location originally. This could be with a touch plate, 3D probe, paper method - whatever possible to set the project back up the way it was before it failed.
-1. Once everything looks set up correctly, you should be able to 'Go to' the original zero position and see that the bit is lined up correctly to the material. The location should read all zeros for each axis.
+1. Once everything looks set up correctly, you should be able to 'Goto' the original zero position and see that the bit is lined up correctly to the material. The location should read all zeros for each axis.
 1. Raise up the Z-axis a couple millimeters for safety.
 1. Click the small icon at the top right of the green ‘Start Job’ button to open the window.
   ![](/_images/_gsender/_using/gs_us_startfrombutton.jpg){.aligncenter .size-medium}
@@ -291,8 +218,8 @@ It does this by looking through the whole g-code file up to where you want to re
   ![](/_images/_gsender/_using/gs_us_currentline.jpg){.aligncenter .size-medium}
 1. Once noted down, 'Pause', then 'Stop' the job. This allows the machine to stop more slowly instead of emergency stop.
 1. Quickly turn off anything that isn't automated like a router or dust collector and jog the Z-axis up so you don't burn or mar the material. You can also try to pause strategically when the bit is moving and not cutting to avoid damaging your material.
-1. At this point it's best to return the cutting tool to the project zero point if possible using the blue 'XY' button then the blue 'Z' button for the Z-axis. This will **Go to** your original zero. This way if the zero point is lost when you resume cutting later, then you can just manually set your zero knowing you're still at the zero location.
-1. If you're concerned your machine might drift over time for example if you're using a heavy spindle, then another option is to place a block of wood under your cutting tool and jog down to it using the paper method. Once the bit is touching, you can note down the location where you left the machine, then when you resume you can type that location back in (see the end of [Set Zero and Go tos](#set-zero-and-Go tos)).
+1. At this point it's best to return the cutting tool to the project zero point if possible using the blue 'XY' button then the blue 'Z' button for the Z-axis. This will **Goto** your original zero. This way if the zero point is lost when you resume cutting later, then you can just manually set your zero knowing you're still at the zero location.
+1. If you're concerned your machine might drift over time for example if you're using a heavy spindle, then another option is to place a block of wood under your cutting tool and jog down to it using the paper method. Once the bit is touching, you can note down the location where you left the machine, then when you resume you can type that location back in (see the end of [Set Zero and Gotos](#set-zero-and-Gotos)).
 
 ## Safety
 
@@ -300,5 +227,14 @@ gSender is set up to do many things by default to help keep you aware about thin
 
 ![](/_images/_gsender/_using/gs_us_safetybasics.jpg){.aligncenter .size-medium}
 
-1. **G-code warnings**: reports back when it sees g-code lines that don’t look correct when the file is loaded or once it’s being sent to the machine. G-code has to follow specific ‘grammatical rules’ similar to other languages for the ‘sentences’ to be correct, so if the lines don’t look correct then your machine might run into problems understanding what it’s supposed to do.1. **Prompt when setting zero**: enable an optional popup that appears when you click to 'zero' just in case you mis-clicked it.
-1. **Safe height movement**: this number is used when using the ‘Go to’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the Go to movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the Go to movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
+1. **G-code warnings**: reports back when it sees g-code lines that don’t look correct when the file is loaded or once it’s being sent to the machine. G-code has to follow specific ‘grammatical rules’ similar to other languages for the ‘sentences’ to be correct, so if the lines don’t look correct then your machine might run into problems understanding what it’s supposed to do.
+
+1. **Prompt when setting zero**: enable an optional popup that appears when you click to 'zero' just in case you mis-clicked it.
+
+1. **Safe height movement**: this number is used when using the ‘Go to’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the Goto movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the Goto movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
+
+1. **Soft limits warning**: enables gSender to tell you when a loaded file might exceed the cutting area of your machine. This requires that your machine has limit switches and soft limits enabled.
+
+1. **History of Errors and Alarms**: great for tracking problems you might’ve recently run into to help troubleshooting or getting support. All entries are listed in-order and stamped with a date and time.
+
+![](/_images/_gsender/_using/gs_us_alarms.jpg){.align-center size.medium}
