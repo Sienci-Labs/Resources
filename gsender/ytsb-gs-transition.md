@@ -59,9 +59,13 @@ gSender now automatically detects your firmware type upon connection, selecting 
 
 ### **Streamlined Configuration Menu**
 
-The Config menu has been refined to display only relevant sections based on your machine's connection status and selected profile. It's a combination of your old preferences section mixed with the old firmware section, so all your settings are in one place. Modified settings are highlighted, and a 'Show Modified' toggle allows users to filter and manage settings that have been changed from the machine default. You can reset to default settings at any time.
+The Config menu has been refined to display only relevant sections based on your machine's connection status and selected profile. It's a combination of your old preferences section mixed with the old firmware section, so all your settings are in one place. In this short video, you can see these tools moved from the top right to the bottom left corner of the screen!
 
-![](/_images/_gsender/_transition/gs_tr_modified.gif){.align-center .size-large}
+![](../_images/_gsender/_transition/gs_tr_firmwarenew.gif){.align-center .size-full}
+
+Modified settings are highlighted, and a 'Show Modified' toggle allows users to filter and manage settings that have been changed from the machine default. You can reset to default settings at any time.
+
+![](/_images/_gsender/_transition/gs_tr_modified.gif){.align-center .size-full}
 
 ### **Updated Jog Controls and DRO**
 
@@ -75,7 +79,9 @@ The Digital Read Out (DRO) section has been refined, separating 'Go To' and 'Zer
 
 ### **Tools Management**
 
-The Tools tab now contains sections to help you surface your project, tune your machine, and create shortcuts or gamepad profiles. Keyboard shortcuts have been standardized across the main and Edge versions, ensuring consistent behavior. Here you can change your keyboard customization, and gamepad support has editable profiles for enhanced control.
+The Tools tab now contains sections to help you surface your project, tune your machine, and create shortcuts or gamepad profiles. Keyboard shortcuts have been standardized across the main and Edge versions, ensuring consistent behavior. Here you can change your keyboard customization, and gamepad support has editable profiles for enhanced control. In this short video, you can see the classic version referencing the surfacing and calibrate tools, then we flip to the new U and the tools tab.
+
+![](/_images/_gsender/_transition/gs_tr_surface.gif){.align-center .size-full}
 
 ![](/_images/_gsender/_transition/gs_tr_tools-main.jpg){.align-center .size-medium}
 
@@ -106,7 +112,7 @@ For users operating on tablets or vertical monitors, gSender now supports Portra
 
 Responding to user requests, gSender now offers a Dark Mode for reduced eye strain and improved visibility in low-light environments. Activate it via **Config > Customize UI > Enable Dark Mode**.
 
-![](/_images/_gsender/_transition/gs_tr_darkmode.gif){.align-center .size-large}
+![](/_images/_gsender/_transition/gs_tr_darkmode.gif){.align-center .size-full}
 
 ## 🛠️ Additional Noteworthy Features
 
