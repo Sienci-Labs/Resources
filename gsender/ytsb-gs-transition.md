@@ -69,7 +69,7 @@ Modified settings are highlighted, and a 'Show Modified' toggle allows users to 
 
 ### **Updated Jog Controls and DRO**
 
-The jog controls have been redesigned for better ergonomics and touch-screen compatibility. Notably, if your firmware supports a rotary axis, the A-axis jog control is now prominently featured. 
+The jog controls have been redesigned for better ergonomics and touch-screen compatibility. Notably, if your firmware supports a rotary axis, the A-axis jog control is now prominently featured.
 
 ![](/_images/_gsender/_transition/gs_tr_comp-jog.jpg){.align-center .size-medium}
 
