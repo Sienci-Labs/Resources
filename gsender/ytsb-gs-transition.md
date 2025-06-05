@@ -17,13 +17,21 @@ featured_image: _images/_gsender/_transition/gs_tr_top-bar.jpg
 
 The recent merge of gSender Edge 1.5.0 into our main gSender introduces a comprehensive overhaul of the user interface, enhancing usability, responsiveness, and functionality. This guide will help to familiarize current users with the UI changes, to ensure a smooth transition.
 
-We've improved the main tab, now called the **Carve Tab**.  The core concept of **things that are blue, move the machine** remains is place. Generally you will use the middle/left side of the screen to load files, control running the job and observing your progress in the visualizer. The right side of the screen will move your machine and allow you to use more advanced machine functions.
+Out with the old **Classic version**...
+
+![](/_images/_gsender/_transition/gs_tr_classic-main.jpg){.align-center .size-medium}
+
+And in with the **New U !!!**
+
+![](/_images/_gsender/_transition/gs_tr_newu-main.jpg){.align-center .size-medium}
+
+We've improved the main screen, now called the **Carve Tab**.  The core concept of **things that are blue, move the machine** remains is place. Generally you will use the middle/left side of the screen to load files, control running the job and observing your progress in the visualizer. The right side of the screen will move your machine and allow you to use more advanced machine functions.
 
 We've combined similar features, and are excited to share things like our new **Stats Tab** which includes things like maintenance tasks, machine diagnostic files, configuration and more.
 
 The new **Config Tab** puts all of your settings into one place, so no more flipping between firmware and profile options.
 
-Rest assured that all of the functionality you are used to is still here, it may simply have a new home. Hopefully this section helps guide you to the new sections, and that you don't skip a beat. Let's dive into some specifics!!
+*Rest assured that all of the functionality you are used to is still here, it may simply have a new home.* Hopefully this section helps guide you to the new sections, and that you don't skip a beat. Let's dive into some specifics!!
 
 ## 🌟 Key UI Enhancements
 
@@ -57,7 +65,11 @@ The Config menu has been refined to display only relevant sections based on your
 
 ### **Updated Jog Controls and DRO**
 
-The jog controls have been redesigned for better ergonomics and touch-screen compatibility. Notably, if your firmware supports a rotary axis, the A-axis jog control is now prominently featured. The Digital Read Out (DRO) section has been refined, separating 'Go To' and 'Zero' functions and integrating single-axis homing toggles for streamlined operations.
+The jog controls have been redesigned for better ergonomics and touch-screen compatibility. Notably, if your firmware supports a rotary axis, the A-axis jog control is now prominently featured. 
+
+![](/_images/_gsender/_transition/gs_tr_comp-jog.jpg){.align-center .size-medium}
+
+The Digital Read Out (DRO) section has been refined, separating 'Go To' and 'Zero' functions and integrating single-axis homing toggles for streamlined operations.
 
 ![](/_images/_gsender/_transition/gs_tr_dro.gif){.align-center .size-full}
 
