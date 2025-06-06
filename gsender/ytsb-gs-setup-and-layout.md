@@ -12,7 +12,7 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_gsender/_setup/gs_se_carve-overview.jpg
 ---
 
 ## Anonymous Information
@@ -23,19 +23,23 @@ When you open up gSender, you’ll notice a prompt regarding ‘Anonymous usage 
 
 ## Layout
 
-Before starting to use gSender, let's briefly cover the way its functions are laid out so that you'll know where to find things moving forward. Let's begin by exploring the main screen.
+Before starting to use gSender, let's briefly cover the way its functions are laid out so that you'll know where to find things moving forward. The program can be broken down into it's three major sections:
+
+- The top toolbar (boxed in red), will stay visible regardless of what you are doing. It includes machine connection on the left side, notifications, system stats and current status in the middle, and shortcuts on the right.
+- The left-sidebar (boxed in green) holds 5 main tabs; the Helper, the main Carve tab (which we have showing now), Stats, Tools, and Config.
+- The main screen (boxed in blue) will show the contents of the selected tab in the left sidebar, with the default being the Carve tab.
+
+![](/_images/_gsender/_setup/gs_se_carve-overview.jpg){.aligncenter .size-medium}
 
 ### Carve
 
-This is where you will spend the majority of your time actually carving. When the program opens, this is where you will arrive! There are 3 main sections to the Carve tab. Beginning at the top left corner:
-
-1. The top and left side toolbars (boxed in red), will stay visible, regardless of what you are doing. The top bar includes machine connection on the left side, notifications, system stats and current status in the middle, and shortcuts on the right. The left-side toolbar (boxed in red), holds 5 main tabs. The tabs include the Helper, the main Carve tab (which we have showing now), Stats, Tools, and Config tabs.
+This is where you will spend the majority of your time actually carving. When the program opens, this is where you will arrive! There are 2 main sections to the Carve tab.
 
 1. The large middle visualizer (boxed in green), is where you manage your files and can watch the magic happen after you hit the start button. Rotate your view, monitor the job progress, turn on lightweight mode, change workspaces or feed speed, and more.
 
 1. The DRO and Jog Controls on the right (boxed in blue), have all the functions you need to manually control your CNC when jobs aren't running. This includes jogging, zero setting, homing, Go to movements, and more. The panel at the bottom features tabs that allow cutting jobs, probing, running macros, manual laser / spindle control, and more.
 
-![](/_images/_gsender/_setup/gs_se_carve-overview.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_se_carve-tab.jpg){.aligncenter .size-medium}
 
 We’ve built gSender’s layout around these primary boxed sections so that you can have all of the CNC functionality most hobbyists need on one screen without getting confused about what each button does. If you’re doing anything **during** a job it’ll be in the middle, if you’re doing anything **outside** a job it’ll likely be on the right, and if you want greater customization or functionality it’ll be found in the toolbars.
 
@@ -43,15 +47,15 @@ Another of gSender’s Design Principals is colouring. It can be scary to have a
 
 ### Stats
 
-The Stats tab provides an overview of your machine configuration, recent jobs (including their run time and if they were successful or not), upcoming maintenance, alarms & errors, plus a comprehensive help section.
+The Stats tab provides an overview of your machine configuration, recent jobs (including their run time and if they were successful or not), upcoming maintenance, alarms & errors, plus a comprehensive help section. You can click on the bottom bar to enter each page for more details.
 
-![](/_images/_gsender/_setup/gs_se_mainstats.jpg)
+![](/_images/_gsender/_setup/gs_se_stats-tab.jpg){.aligncenter .size-medium}
 
 ### Tools
 
 In the Tools tab provides wizards you can use to walk through XY squaring or movement tuning of your machine. Wasteboard surfacing, keyboard shortcuts, and gamepad profiles.
 
-![](/_images/_gsender/_setup/gs_se_maintools.jpg)
+![](/_images/_gsender/_setup/gs_se_maintools.jpg){.aligncenter .size-medium}
 
 ## Config
 
@@ -61,7 +65,7 @@ The final tab is the configuration tab. Here you will find an extensive list of 
 
 ## Set up to Use
 
-The last tab is called "Config" at the bottom left corner of the app. All the stuff you need to access to set up gSender for your own setup and also for your CNC can be found in the Config tab. This includes how things look in gSender like colours, units (mm/inch), etc. as well as machine settings. Some things you'll likely want to configure would be:
+Let's explore some common gSender setting to get your own setup up and running as you prefer. We can change how gSender looks, which unit of measurement we want (mm/inch) and adjust machine settings, all in the same place. Some things you may want to configure would be:
 
 - Preferred units
 - Tabs to enable functionality
@@ -69,11 +73,23 @@ The last tab is called "Config" at the bottom left corner of the app. All the st
 - Visualizer theme
 - Dark mode
 
-**Preferred Units** where you can toggle between metric (mm) and imperial (in) units, and **Reconnect Automatically**, which allows you to reconnect the the last machine you used, automatically.
+**Preferred Units** is a setting where you can toggle between metric (mm) and imperial (in) units. It can be selected in the Basics section of the Config Tab. Don't forget to hit **Apply Settings** after making any changes.
 
 ![](/_images/_gsender/_setup/gs_se_configstart.jpg){.aligncenter .size-medium}
 
-You may also want to tweak how gSender is displayed by enabling **Dark Mode**. You can also change the visualizer to display in light or dark mode! This setting is found a little further down in the Config -> Customize UI tab.
+You will see your selection appear on the Carve Tab, on the top left corner of the DRO.
+
+![](/_images/_gsender/_setup/gs_se_units-mainscreen.jpg){.aligncenter .size-medium}
+
+If you are looking to add **Functionality** and use extra hardware like a rotary, spindle or laser, you will have to enable them in the Config tab, for their control to appear on the Carve tab.
+
+![](/_images/_gsender/_setup/gs_se_hardware-enable.gif){.aligncenter .size-full}
+
+If you want to turn off your Job End or Maintenance Task **Notifications**, you can find the toggle in the Basics section of Config.
+
+![](/_images/_gsender/_setup/gs_se_togglenotifs.jpg){.aligncenter .size-medium}
+
+You may also want to tweak how gSender is displayed by enabling **Dark Mode**. You can also change the **Visualizer Theme** to display in light or dark mode! These settings are found a little further down in the Config -> Customize UI tab.
 
 ### Machine Profiles
 
