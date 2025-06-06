@@ -2,7 +2,7 @@
 title: ytsb Using gSender
 menu_order: 3
 post_status: draft
-post_excerpt: Understand the basics of how to use gSender, including connecting, jogging, zeroing and Gotos, probing, and running jobs.
+post_excerpt: Understand the basics of how to use gSender, including connecting, jogging, zeroing and Go tos, probing, and running jobs.
 post_date: 2021-07-01 14:56:00
 taxonomy:
     knowledgebase_cat: gdocs
@@ -53,7 +53,7 @@ Below the control dial, you can change the **XY value** and **Z value** to adjus
 
 The *Rapid*, *Normal*, and *Precise* buttons are preset values that will allow you to toggle to different distance and speed values quickly. We use rapid to get around quickly on large jobs, and precise if we are trying to set zero with the paper method for example.
 
-## Set Zero and Gotos
+## Set Zero and Go tos
 
 Each g-code file or project will have a starting position that all other movements are referenced off of. This is called the **Workpiece zero**. There are two ways to manually set your zero on gSender, and a couple automatic options that we cover in [Probing](#probing).
 
@@ -70,18 +70,18 @@ The large blue numbers tell you the current position of your machine. Once you s
 
 ![](/_images/_gsender/_using/gs_us_dro_allzeroes.jpg){.aligncenter .size-full}
 
-Now that we've covered how to manually move, here are two ways to automatically move, or as we call it, **Goto**:
+Now that we've covered how to manually move, here are two ways to automatically move, or as we call it, **Go to**:
 
 - Return to each axis Zero, one at a time using the blue 'X', 'Y', and 'Z' buttons
 - Return to X and Y Zero at the same time with the blue 'XY' button
 
-*Note - 'Goto XY' **will not** move the z-axis to its zero.*
+*Note - 'Go to XY' **will not** move the z-axis to its zero.*
 
 ![](/_images/_gsender/_using/gs_us_Goto.jpg){.aligncenter .size-medium}
 
 *Note: if you’ve set up “Safe Height” in gSender (Config -> Basics -> Safe Height), then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
 
-There is one more way to move automatically, but it isn't used to bring you back to 0.00. It's called **Goto Location**.
+There is one more way to move automatically, but it isn't used to bring you back to 0.00. It's called **Go to Location**.
 
 ![](/_images/_gsender/_using/gs_us_dro_Goto_airplane.jpg){.aligncenter .size-medium}
 
@@ -123,7 +123,7 @@ Before the process begins, there is a conductivity test to ensure that the touch
 
 ![](/_images/_gsender/_using/gs_us_probenotouch.jpg){.aligncenter .size-medium}
 
-A blue button called 'Start Probe' will appear if you have successfully confirmed conductivity. Ensure that the touch plate components are set up for probing, then press 'Start Probe'. The machine will move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press 'Goto XY'. The bit should be overtop the bottom left corner of the stock material, and pressing 'Goto Z' should bring it to touch the surface. More information can be found on our touch-plate resource page. <a href="https://resources.sienci.com/view/lmk2-touch-plate/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-touch-plate/</a>
+A blue button called 'Start Probe' will appear if you have successfully confirmed conductivity. Ensure that the touch plate components are set up for probing, then press 'Start Probe'. The machine will move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press 'Go to XY'. The bit should be overtop the bottom left corner of the stock material, and pressing 'Go to Z' should bring it to touch the surface. More information can be found on our touch-plate resource page. <a href="https://resources.sienci.com/view/lmk2-touch-plate/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-touch-plate/</a>
 
 ![](/_images/_gsender/_using/gs_us_success.jpg){.aligncenter .size-medium}
 
@@ -193,7 +193,7 @@ It does this by looking through the whole g-code file up to where you want to re
 1. If you think your machine lost its location:
    - Re-home the machine (it should remember the zero location of the project if nothing else moved).
    - If you don't have limit switches, the project moved, or your original cutting bit broke, try to re-use whatever setup method you used to set your zero location originally. This could be with a touch plate, 3D probe, paper method - whatever possible to set the project back up the way it was before it failed.
-1. Once everything looks set up correctly, you should be able to 'Goto' the original zero position and see that the bit is lined up correctly to the material. The location should read all zeros for each axis.
+1. Once everything looks set up correctly, you should be able to 'Go to' the original zero position and see that the bit is lined up correctly to the material. The location should read all zeros for each axis.
 1. Raise up the Z-axis a couple millimeters for safety.
 1. Click the small icon at the top right of the green ‘Start Job’ button to open the window.
   ![](/_images/_gsender/_using/gs_us_startfrombutton.jpg){.aligncenter .size-medium}
@@ -214,8 +214,8 @@ It does this by looking through the whole g-code file up to where you want to re
   ![](/_images/_gsender/_using/gs_us_currentline.jpg){.aligncenter .size-medium}
 1. Once noted down, 'Pause', then 'Stop' the job. This allows the machine to stop more slowly instead of emergency stop.
 1. Quickly turn off anything that isn't automated like a router or dust collector and jog the Z-axis up so you don't burn or mar the material. You can also try to pause strategically when the bit is moving and not cutting to avoid damaging your material.
-1. At this point it's best to return the cutting tool to the project zero point if possible using the blue 'XY' button then the blue 'Z' button for the Z-axis. This will **Goto** your original zero. This way if the zero point is lost when you resume cutting later, then you can just manually set your zero knowing you're still at the zero location.
-1. If you're concerned your machine might drift over time for example if you're using a heavy spindle, then another option is to place a block of wood under your cutting tool and jog down to it using the paper method. Once the bit is touching, you can note down the location where you left the machine, then when you resume you can type that location back in (see the end of [Set Zero and Gotos](#set-zero-and-Gotos)).
+1. At this point it's best to return the cutting tool to the project zero point if possible using the blue 'XY' button then the blue 'Z' button for the Z-axis. This will **Go to** your original zero. This way if the zero point is lost when you resume cutting later, then you can just manually set your zero knowing you're still at the zero location.
+1. If you're concerned your machine might drift over time for example if you're using a heavy spindle, then another option is to place a block of wood under your cutting tool and jog down to it using the paper method. Once the bit is touching, you can note down the location where you left the machine, then when you resume you can type that location back in (see the end of [Set Zero and Go tos](#set-zero-and-go-tos)).
 
 ## Safety
 
@@ -226,7 +226,7 @@ gSender is set up to do many things by default to help keep you aware about thin
 1. **G-code warnings**: reports back when it sees g-code lines that don’t look correct when the file is loaded or once it’s being sent to the machine. G-code has to follow specific ‘grammatical rules’ similar to other languages for the ‘sentences’ to be correct, so if the lines don’t look correct then your machine might run into problems understanding what it’s supposed to do.
 1. **Soft limits warning**: enables gSender to tell you when a loaded file might exceed the cutting area of your machine. This requires that your machine has limit switches and soft limits enabled.
 1. **Prompt when setting zero**: enable an optional popup that appears when you click to 'zero' just in case you mis-clicked it.
-1. **Safe height movement**: this number is used when using the ‘Go to’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the Goto movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the Goto movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
+1. **Safe height movement**: this number is used when using the ‘Go to’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the Go to movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the Go to movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
 1. **History of Errors and Alarms**: great for tracking problems you might’ve recently run into to help troubleshooting or getting support. All entries are listed in-order and stamped with a date and time.
 
 ![](/_images/_gsender/_using/gs_us_alarms.jpg){.align-center size.medium}

@@ -77,7 +77,7 @@ If you don't have sensors, skip ahead [HERE.](#probing)
 
 ### Going Homing
 
-When we turn on homing, we can use 3 sensors to find our machine coordinate  home on our machine. For now, we will home to the front left corner of the machine. To enable Homing, Goto Config -> Limits and Homing -> Homing cycle enable -> toggle on.
+When we turn on homing, we can use 3 sensors to find our machine coordinate  home on our machine. For now, we will home to the front left corner of the machine. To enable Homing, Go to Config -> Limits and Homing -> Homing cycle enable -> toggle on.
 
 ![](/_images/_gsender/_using/gs_us_dro_homingon.jpg){.aligncenter .size-medium}
 
@@ -97,7 +97,7 @@ Four **Rapid-Travel** buttons to move your CNC at its maximum speed to any of yo
 
 ![](/_images/_gsender/_using/gs_us_dro_parkbtn.jpg){.aligncenter .size-medium}
 
-You can configure a **Park Location** to move your router to a set spot consistently at the click of a button. To setup your parking spot, Goto Config -> Basics. Here you can enter the coordinates of your parking spot manually, or move your router/spindle to the spot and hit the **Grab** current position button. Test out your new spot by hitting the Goto button in settings or hitting the P button on the DRO.
+You can configure a **Park Location** to move your router to a set spot consistently at the click of a button. To setup your parking spot, Go to Config -> Basics. Here you can enter the coordinates of your parking spot manually, or move your router/spindle to the spot and hit the **Grab** current position button. Test out your new spot by hitting the Go to button in settings or hitting the P button on the DRO.
 
 ![](/_images/_gsender/_using/gs_us_dro_parksetting.jpg){.aligncenter .size-medium}
 
