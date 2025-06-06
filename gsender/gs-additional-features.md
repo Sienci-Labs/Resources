@@ -301,7 +301,7 @@ If you’d like to see general information about your CNC or are experiencing is
 
 Here you'll see machine information, notable firmware settings, and at-a-glance status on whether your limit switches, touch probe, or other pins are activated. This can be handy if you’re encountering odd behaviour with certain machine accessories or to double-check your wiring.
 
-![](/_images/_gsender/_issues/gs_is_diagnostic-file.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_diagnostic-file.jpg){.aligncenter .size-full}
 
 Another valuable feature is the ability to download a Diagnostic PDF file of your CNC machine when you click ‘Download Now!’. This PDF file is meant to include information on your computer, your CNC, recent alarms / errors, any currently loaded g-code file, and more. It's basically a treasure trove of information that you can share on community forums, Facebook groups, or with your CNC customer support. This can go a long way towards getting help from others on diagnosing any problems your CNC might be experiencing.
 

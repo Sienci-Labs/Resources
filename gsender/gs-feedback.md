@@ -159,7 +159,7 @@ If your g-code includes any workspace commands from G54 to G59, G59.1 to G59.3, 
 
 Alternatively, gSender's 'Start/Stop G-code' can also be equipped to sidestep problems with changing workspaces by saving the active workspace at the start of the program and then re-loading it at the end. This can be done with the commands `%global.state.workspace=modal.wcs` and `[global.state.workspace]` as shown in the picture below. Remember to 'Update Event' on both entries:
 
-![](/_images/_gsender/_issues/gs_is_cm_workspace.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm-workspace.jpg){.aligncenter .size-full}
 
 ### Changed $1 and Motors still Hold
 

@@ -27,11 +27,11 @@ Connect to your CNC machine by hovering over ‘Connect to Machine’ at the top
 
 Sometimes there’s more than one COM port available, so you may need to try both to see which one your machine is connected to. If you are seeing errors pop up or your machine isn’t acting correctly, ensure that you have selected the correct connection type.
 
-![](/_images/_gsender/_using/gs_us_connect.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_connect.jpg){.aligncenter .size-full}
 
 Once you have selected the COM port, your machine should be connected. This is confirmed when you see the plug icon turn green with a check mark. You should also see the status on the top right corner of the visualizer change to 'Idle', and the controls activate, allowing you to press them.
 
-![](/_images/_gsender/_using/gs_us_connected-idle.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_connected-idle.jpg){.aligncenter .size-full}
 
 If you are not seeing those changes when you connect, please check the following:
 
@@ -43,11 +43,11 @@ If you are not seeing those changes when you connect, please check the following
 
 You can move the machine by using the Jog Control, through the arrow buttons. Change the 'XY move' and 'Z move' to adjust the distance you travel per click. You can also change 'Speed', which determines how fast the machine will move when jogging.
 
-![](/_images/_gsender/_using/gs_us_jogging.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_jogging.jpg){.aligncenter .size-full}
 
 The 'Rapid', 'Normal', and 'Precise' buttons will allow you to toggle to different distance and speed values quickly. You can change these values by going to the settings and editing the 'Jogging Presets' in the 'General' section.
 
-![](/_images/_gsender/_using/gs_us_jog-presets.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_jog-presets.jpg){.aligncenter .size-full}
 
 ## Set Zero and Gotos
 
@@ -127,19 +127,19 @@ If you have already prepared a project file, ensure the following:
 
 To run your project on gSender, press the 'Load File' button. A dialog box should pop up, where you can navigate to where your file is. If you want to reload a previous file you can also click the ‘&gt;’ button which will allow you to select from recently opened files.
 
-![](/_images/_gsender/_using/gs_us_load-g-code.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_load-g-code.jpg){.aligncenter .size-full}
 
 Double click on the file, and the project should load in and be shown on the Visualizer. Once loaded, you’ll be able to see information about your project such as: its estimated cut time and cutting dimensions, and if the file is too big and slowing down your computer you can always click the ‘X’ on the ‘Load File’ button to unload it.
 
-![](/_images/_gsender/_using/gs_us_file-stats.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_file-stats.jpg){.aligncenter .size-full}
 
 With your file loaded, feel free to also check how it looks. In the bottom right corner of the visualizer use the ‘view cube’ to quickly switch between top, right, left, front, and 3D views by clicking on its different faces. You can also use your mouse scroll wheel to zoom in and out and left-click and drag or right-click and drag on the visualizer to rotate or slide around the work area.
 
-![](/_images/_gsender/_using/gs_us_visualize.gif){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_visualize.gif){.aligncenter .size-full}
 
 Before running your job there are a few other handy features you can check. The ‘**Outline**’ button will physically move your machine around the rough perimeter of your cutting job so you can get an idea of the cutting dimensions and if you’ve positioned the job correctly. As well, the '**Verify Job**' (previously 'Test Run') button will go through your file and let you know of any obvious errors it noticed before you run the job for real. **This button won't move your CNC at all** but if you're looking to actually "dry run" your file, you can always set your Z-zero high above your material and run the job without cutting anything to see how it looks.
 
-![](/_images/_gsender/_using/gs_us_outline-test-run.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_outline-test-run.jpg){.aligncenter .size-full}
 
 ## Running Jobs
 
@@ -149,13 +149,13 @@ Hitting the pause button will pause the movement immediately, even if gSender ha
 
 In the default visualizer you’ll see that cutting movements that plan to be made are coloured blue, then when the job is running the current movements show as yellow and past movements are grey.
 
-![](/_images/_gsender/_using/gs_us_running.gif){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_running.gif){.aligncenter .size-full}
 
 At the bottom of the screen, a progress bar shows how many lines of g-code have been processed and how many are left. Additionally, you can override the feed rate and spindle speed of the program while the job is running by moving then letting go of the slider, pressing the ‘+’ and ‘-’ buttons for smaller adjustment, or clicking the rotated arrow to reset back to the default value. This is handy for fine-tuning the program cutting speed in order to tune in your material removal rate and ensure you don't burn or melt material.
 
 If you already know you’ll need to tweak the feed rate or spindle speed for your file before you run it, you can now click the ‘Overrides’ toggle to access overrides before you start the job. This allows the overrides to apply before starting cutting or if the job is already running toggle it back to double-check the job attributes.
 
-![](/_images/_gsender/_using/gs_us_override.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_override.jpg){.aligncenter .size-full}
 
 Now you're off and cutting, what a thrill! While your job is running keep an eye and ear out for anything you don't expect. You can always use the job control buttons during operation to change speeds, pause, resume, or stop cutting altogether.
 
@@ -179,23 +179,23 @@ It does this by looking through the whole g-code file up to where you want to re
 1. Once everything looks set up correctly, you should be able to 'goto' the original zero position and see that the bit is lined up correctly to the material. The location should read all zeros for each axis.
 1. Raise up the Z-axis a couple millimeters for safety.
 1. Click the small icon at the top right of the green ‘Start Job’ button to open the window.
-  ![](/_images/_gsender/_using/gs_us_job-loss3.jpg){.aligncenter .size-medium}
+  ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_job-loss3.jpg){.aligncenter .size-medium}
 1. Here you'll see:
-  ![](/_images/_gsender/_using/gs_us_job-loss4.jpg){.aligncenter .size-medium}
+  ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_job-loss4.jpg){.aligncenter .size-medium}
    - When you **Last stopped** your file, how many **Total lines** it has, and a **Recommended start line**: this number is generally reliable to use, but in some situations the 'last stopped' number can't be recovered. In these cases you'll want to have noted down the approximate line number that the job failed at then work from there.
-   ![](/_images/_gsender/_using/gs_us_job-loss1.jpg){.aligncenter .size-medium}
+   ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_job-loss1.jpg){.aligncenter .size-medium}
    - **Resume job at line**: once you've decided where to resume from, you can type the line number in here.
    - **Safe height**: if your CNC has extra Z movement above the failed job, you can put a larger number here to make sure that it doesn't hit clamps while moving into position to resume cutting.
 1. Once everything looks good, remember to turn on anything that isn't automated like a trim router or vacuum, then click 'Start from Line' to resume cutting.
 
 **Example**: you were present when the job failed and hit 'Stop' immediately. Nothing moved but the bit broke so you swapped it out and used a touch plate to probe Z. It says the last recorded line was 731 but to be safe you'll subtract 20 and start at 711. The job starts back up a little before the failure and you're able to resume as expected. If instead you hadn't been paying attention for several minutes then you might subtract 50-100 lines instead just to be safe.
 
-![](/_images/_gsender/_using/gs_us_job-loss-notice.jpg "Example of USB port disconnect while running a job where you'll want to check your USB cable, write down the suggested line, then use the ‘Start from Line’ feature as normal."){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_job-loss-notice.jpg "Example of USB port disconnect while running a job where you'll want to check your USB cable, write down the suggested line, then use the ‘Start from Line’ feature as normal."){.aligncenter .size-full}
 
 ### Pause Cutting Mid-Job
 
 1. If a carve is dragging on and you need to leave the machine for the night, first you'll want to note down the approximate g-code line number it's at. In the example below you'd note down "731 lines".
-![](/_images/_gsender/_using/gs_us_job-loss1.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_job-loss1.jpg){.aligncenter .size-medium}
 1. Once noted down, 'Pause', then 'Stop' the job. This allows the machine to stop more slowly instead of emergency stop.
 1. Quickly turn off anything that isn't automated like a router or dust collector and jog the Z-axis up so you don't burn or mar the material. You can also try to pause strategically when the bit is moving and not cutting to avoid damaging your material.
 1. At this point it's best to return the cutting tool to the project zero point if possible using 'Go XY0' then 'Go to' for the Z-axis. This way if the zero point is lost when you resume cutting later, then you can just manually set your zero knowing you're still at the zero location.
@@ -206,11 +206,11 @@ It does this by looking through the whole g-code file up to where you want to re
 gSender is set up to do many things by default to help keep you aware about things going on with your machine. Though we can’t guarantee it can handle everything, we’ve recently introduced a new Settings menu for Safety where you can access many safety items in one place. This includes:
 
 1. **Warn on Zero**: an optional popup that appears when you click to 'zero' just in case you mis-clicked it.
-  ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn.jpg){.aligncenter .size-full}
-  ![](/_images/_gsender/_features/_zerogoto/gs_fe_ze_zero-warn-gif.gif){.aligncenter .size-full}
+  ![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_zero-warn.jpg){.aligncenter .size-medium}
+  ![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_zero-warn.gif){.aligncenter .size-full}
 1. **Safe height movement**: this number is used when using the ‘goto’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the goto movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the goto movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
 1. **G-code warnings**: reports back when it sees g-code lines that don’t look correct when the file is loaded or once it’s being sent to the machine. G-code has to follow specific ‘grammatical rules’ similar to other languages for the ‘sentences’ to be correct, so if the lines don’t look correct then your machine might run into problems understanding what it’s supposed to do.
 1. **Soft limits warning**: enables gSender to tell you when a loaded file might exceed the cutting area of your machine. This requires that your machine has limit switches and soft limits enabled.
 1. **History of Errors and Alarms**: great for tracking problems you might’ve recently run into to help troubleshooting or getting support. All entries are listed in-order and stamped with a date and time.
 
-![](/_images/_gsender/_using/gs_us_safety.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_safety.jpg){.aligncenter .size-full}

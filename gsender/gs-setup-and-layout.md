@@ -29,7 +29,7 @@ Before starting to use gSender, let's briefly cover the way its functions are la
 - The left-side control (boxed in green) has all the functions you need for loading, monitoring, and controlling g-code files and cutting jobs
 - The right-side control (boxed in purple) has all the functions you need to manually control your CNC when jobs aren't running. This includes jogging, zero setting, homing, probing, running macros, manual laser / spindle control, and more.
 
-![](/_images/_gsender/_setup/gs_se_main-layout.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_main-layout.jpg){.aligncenter .size-medium}
 
 We’ve built gSender’s layout around these primary boxed sections so that you can have all of the CNC functionality most hobbyists need on one screen without getting confused about what each button does. If you’re doing anything **during** a job it’ll be on the left side, if you’re doing anything **outside** a job it’ll likely be on the right, and if you want greater customization or functionality it’ll be found in the tools or settings.
 
@@ -45,11 +45,11 @@ Let's do some configuration before connecting up to your CNC. Click the 'gear' a
   - Preferred Units
   - Reverse workspace (flips the left and right-side controls if you prefer)
 
-  ![](/_images/_gsender/_setup/gs_se_config-general.jpg){.aligncenter .size-full}
+  ![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_config-general.jpg){.aligncenter .size-full}
 - **Visualizer Settings**
   - Set to light theme if you prefer
 
-  ![](/_images/_gsender/_setup/gs_se_config-vis.jpg){.aligncenter .size-full}
+  ![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_config-vis.jpg){.aligncenter .size-full}
 
 ### Machine Profiles
 
@@ -59,11 +59,11 @@ For instance most LongMills ship with **LongMill MK2 30x30** firmware pre-instal
 
 Please Note: If your Z-axis is working in the opposite direction than expected, confirm you have the correct profile. MK2 users must choose either LongMill MK2 12x30, LongMill MK2 30x30, or LongMill MK2 48x30. You can find instructions on how to flash firmware here: <a href="https://resources.sienci.com/view/lmk2-grbl-firmware/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-grbl-firmware/</a>
 
-![](/_images/_gsender/_setup/gs_se_config-profile.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_config-profile.jpg){.aligncenter .size-full}
 
 If you're running into an issue where the size isn't correct when using Soft Limits for example, get the size from your manufacturer or their resources and you should find that the changes will be straightforward to make through the 'Firmware tool' within gSender. Simply apply your new measurements to the X-axis, Y-axis and Z-axis maximum travel fields. Then hit the apply changes button.
 
-![](/_images/_gsender/_setup/gs_se_config-travel.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_config-travel.jpg){.aligncenter .size-full}
 
 ## Running Longer Jobs (optional)
 

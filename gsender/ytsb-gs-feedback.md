@@ -34,7 +34,7 @@ In order of importance, please collect together information of:
 
 Please attach the files and information in your post / <a href="mailto:hi@sienci.com">email</a> to us.
 
-![](/_images/_gsender/_issues/gs_is_diagnostic-file.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_diagnostic-file.jpg){.aligncenter .size-full}
 
 ## Questions or Suggestions
 
