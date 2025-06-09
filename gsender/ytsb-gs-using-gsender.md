@@ -39,9 +39,9 @@ If you are not seeing those changes when you connect, please check the following
 
 1. Any other programs that can talk to the Arduino are closed (ex. Arduino IDE, Easel, UGS).
 1. See if you have other COM ports available, and try to connect to them.
-1. Baud
-1. Backup
-1. Arduino is securely attached to the LongBoard.
+1. Your **Baud Rate** is set to the default 115200. Your manufacturer may provide a different rate. This can be found under the Config tab -> Basics.
+1. Your **Default Firmware** also found in the Config tab -> Basics section at the very bottom. You can select either Grbl or grblHAL as your default firmware flavour, should the automatic connection fail.
+1. Arduino is securely attached to the LongBoard. (Not applicable for the SLB)
 
 ## Jogging and Presets
 
@@ -83,11 +83,9 @@ Now that we've covered how to manually move, here are two ways to automatically 
 
 There is one more way to move automatically, but it isn't used to bring you back to 0.00. It's called **Go to Location**.
 
-![](/_images/_gsender/_using/gs_us_dro_Goto_airplane.jpg){.aligncenter .size-medium}
+If you want to go somewhere else quickly without manually jogging there, click the 'Paper Airplane' button to bring you to a specific location. You'll see a popup asking you where you want to go and you either type a specific location with the toggle pointing to (ABS G90) or move some amount from where you are now and flip the toggle to (INC G91).
 
-If you want to go somewhere else quickly without manually jogging there, click the 'Paper Airplane' button to bring you to a specific location. You'll see a popup asking you where you want to go and you either type a specific location (absolute G90) or move some amount from where you are now (relative G91).
-
-![](/_images/_gsender/_using/gs_us_dro_Gotolocation.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_us_goto-location.jpg){.aligncenter .size-medium}
 
 You can reset your zeros anytime when the machine is not actively running a job. The machine will remember your zero in most cases. If you turn the lead screw with your fingers or push the gantry, the machine does not know you moved it, therefore it will lose the zero position. You can jog on the Jog Control without losing your zero position because gSender knows you are moving the machine.
 
@@ -99,21 +97,25 @@ You can also enter coordinates directly by clicking the blue text location value
 
 gSender provides unique features if you have endstops on your machine for homing or limits. Once homing is enabled in Config -> Homing cycle you’ll notice additional buttons appear in the ‘Location’ area of gSender:
 
-![](/_images/_gsender/_using/gs_us_endstop-btns.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_us_endstop-park-home.jpg){.aligncenter .size-medium}
 
-- The ‘Home’ button is a convenient way to home or re-home your machine at any time.
-- Four “quick-travel” buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed, you’ll also notice a house icon appear at the corner that your machine homes to.
-- If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials (before it would move up by the safe height amount).
+- The **Home** button is a convenient way to home or re-home your machine at any time.
+- Four **Quick-Travel** buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed.
+- The **Park** button will allow you to move your machine to preset coordinates. Navigate to the Config tab -> Basics section to either enter the park coordinates by hand, or grab them based on your current location. Use the Go To button to test your new parking spot out!
 
-If you'd like more information on how to set up and use these features, read here: <a href="https://resources.sienci.com/view/lm-adding-limit-switches/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-adding-limit-switches/</a>
+![](/_images/_gsender/_using/gs_us_park-config.jpg){.aligncenter .size-medium}
+
+*Note - If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials.*
+
+If you'd like more information on how to set up and use these features, read here: <a href="https://resources.sienci.com/view/lmk2-limit-switches/#using-limit-switches" target="_blank" rel="noopener">Installing & Using Limit Switches</a>
 
 ## Probing
 
-Probing automatically sets a zero position, usually at the bottom left corner of the stock material, using a touch plate. If you're not using a Sienci touch plate, <a href="https://resources.sienci.com/view/gs-additional-features/#touch-plate-setup">read here to make sure your settings are set up correctly</a>.
+Probing automatically sets a zero position, usually at the bottom left corner of the stock material, using a touch plate. If you're not using a Sienci touch plate, <a href="https://resources.sienci.com/view/lmk2-limit-switches/#mk2-limit-switch-kit">read here to make sure your settings are set up correctly</a>.
 
-You can select the type of touch plate you are using, if you want to verify the connection with a test at the start and more in the Config -> Probe section.
+You can select the type of touch plate you are using in the Config -> Probe section. This section also toggles the probe connction test on and off.
 
-![](/_images/_gsender/_using/gs_us_probesettings.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_us_probeblock.gif){.aligncenter .size-full}
 
 Once you have set up the touch plate, banana plug and magnet on the machine, you can choose which axis to probe for (default is bottom left corner), and the diameter of the bit you are using if applicable. The bit size can be selected from the drop-down of saved bits, or can be typed in manually. Custom diameters will be saved for future use if you hit the + symbol after entering your diameter. Jog the machine so that the bit is hovering over the Sienci Labs logo on the touch plate. Then press 'Probe'.
 
@@ -137,8 +139,6 @@ If you have already prepared a project file, ensure the following:
 
 1. The file is an \*.nc, \*.g-code, \*.tap, \*.gc, or \*.cnc file.
 1. The file is exported to the correct post processor for the LongMill. Please see this page for the correct post processor for your CAM software: <a href="https://resources.sienci.com/view/lm-post-processors/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-post-processors/</a>.
-
-![](/_images/_gsender/_using/gs_us_filetype.jpg){.aligncenter .size-medium}
 
 To run your project on gSender, press the 'Load File' button. A dialog box will pop up, where you can navigate to where your file is. Here you can also select from recently loaded files, reload a file or close a file.
 
