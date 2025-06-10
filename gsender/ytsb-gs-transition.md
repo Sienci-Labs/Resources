@@ -51,31 +51,31 @@ On the left side of the screen, you will see another bar that stays on the scree
 
 Let's briefly checkout each tab, to see what goodies are there.
 
-#### **Main Carve Tab**
+### Main Carve Tab
 
 We've improved the main screen, now called the **Carve Tab**. The right side (Blue) is very similar to Classic gSender -- all the blue buttons move the machine, whether it be jogging, homing or parking. Below, you can access many functions like Probe and Rotary. The middle/left side of the screen (Red) is like a dashboard,  you can load files, control the job and observe your progress in the visualizer.
 
 ![](/_images/_gsender/_transition/gs_tr_carvemain.jpg){.align-center .size-medium}
 
-##### **Updated Jog Controls and DRO**
+#### Updated Jog Controls and DRO
 
 The jog controls have been redesigned for better ergonomics and touch-screen compatibility.
 
 ![](/_images/_gsender/_transition/gs_tr_comp-jog.jpg){.align-center .size-medium}
 
-#### **Stats Tab**
+### Stats Tab
 
 The stats tab offers an overview of your Machine, including your recent jobs run, configuration, upcoming maintenance warnings and your recent alarms & errors. You can also download a diagnostic file for extra support, access our resources, community or github repository! Tap on one of the tabs at the bottom of this page, to see even more details!
 
 ![](/_images/_gsender/_transition/gs_tr_status.jpg){.align-center .size-medium}
 
-#### **Tools Management**
+### Tools Management
 
 The Tools tab now contains all the widgets for surfacing your project, tuning your machine, as well as creating keyboard shortcuts and gamepad profiles. In this short video, you can see where the Surfacing and Calibrate Tools are on Classic gSender, then we flip over to the Tools tab on the New U.
 
 ![](/_images/_gsender/_transition/gs_tr_surface.gif){.align-center .size-full}
 
-#### **Streamlined Configuration Menu**
+### Streamlined Configuration Menu
 
 The Config menu has been refined to display only relevant sections based on your machine's connection status and selected profile. It's a combination of the   preferences mixed with the  firmware settings, so now all  settings are in one place. In this short video, you can see these moved from the top right (Classic) to the bottom left corner of the screen (New U).
 
@@ -85,17 +85,17 @@ One cool thing is that modified settings are highlighted, and a 'Show Modified' 
 
 ![](/_images/_gsender/_transition/gs_tr_modified.gif){.align-center .size-full}
 
-## 🌟 **New Features**
+## 🌟 New Features
 
 Not only are there several new UI enhancements, there are also a couple of new features that we should mention. Connecting has been streamlined and you have more flexibility on how gSender displays on your screen.
 
-### **Automatic Firmware Detection on Connection**
+### Automatic Firmware Detection on Connection
 
 Connecting is now easier! gSender now automatically detects your firmware type (Grbl/grblHAL) upon connection, selecting the appropriate controller settings. This feature simplifies the process, as you can select your default firmware choice in Config, and connect with a simple button press.
 
 ![](/_images/_gsender/_transition/gs_tr_connect-auto.gif){.align-center .size-medium}
 
-### **Improved Visuals, Touch Support, and New Display Options**
+### Improved Visuals, Touch Support, and New Display Options
 
 We've made several visual and usability upgrades to gSender. The visualizer now supports pinch-to-zoom on touch screens, **Dark Mode** to reduce eye strain, and includes a redesigned **Lightweight Mode** with easy presets. Turn these on by going to Config -> Customize UI.
 
