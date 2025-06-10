@@ -113,11 +113,11 @@ If you'd like more information on how to set up and use these features, read her
 
 Probing automatically sets a zero position, usually at the bottom left corner of the stock material, using a touch plate. If you're not using a Sienci touch plate, <a href="https://resources.sienci.com/view/lmk2-limit-switches/#mk2-limit-switch-kit">read here to make sure your settings are set up correctly</a>.
 
-You can select the type of touch plate you are using in the Config -> Probe section. This section also toggles the probe connction test on and off.
+You can select the type of touch plate you are using in the Config -> Probe section. You can see the standard touch plate allows you to enter values (block thickness and probe speeds), while the AutoZero touch plate automatically fills these values in for you.This section also toggles the probe connection test on and off.
 
 ![](/_images/_gsender/_using/gs_us_probeblock.gif){.aligncenter .size-full}
 
-Once you have set up the touch plate, banana plug and magnet on the machine, you can choose which axis to probe for (default is bottom left corner), and the diameter of the bit you are using if applicable. The bit size can be selected from the drop-down of saved bits, or can be typed in manually. Custom diameters will be saved for future use if you hit the + symbol after entering your diameter. Jog the machine so that the bit is hovering over the Sienci Labs logo on the touch plate. Then press 'Probe'.
+Once you have set up the touch plate, banana plug and magnet on the machine, you can choose which axis to probe for (default is bottom left corner), and the diameter of the bit you are using if applicable. The bit size can be selected from the drop-down of saved bits, or can be typed in manually. Custom diameters will be saved for future use if you hit the + symbol after entering your diameter. You will see two extra options if using the AutoZero touch plate, Auto (automatically finds diameter) and Tip (used for V-bits). Jog the machine so that the bit is hovering over the Sienci Labs logo on the touch plate. Then press 'Probe'.
 
 ![](/_images/_gsender/_using/gs_us_probesize.gif){.align-center .size-full}
 

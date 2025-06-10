@@ -53,7 +53,7 @@ Let's briefly checkout each tab, to see what goodies are there.
 
 #### **Main Carve Tab**
 
-We've improved the main screen, now called the **Carve Tab**.  The core concept of **things that are blue, move the machine** remains is place. Generally you will use the middle/left side of the screen to load files, control running the job and observing your progress in the visualizer. The right side of the screen will move your machine and allow you to use more advanced machine functions.
+We've improved the main screen, now called the **Carve Tab**. The right side (Blue) is very similar to Classic gSender -- all the blue buttons move the machine, whether it be jogging, homing or parking. Below, you can access many functions like Probe and Rotary. The middle/left side of the screen (Red) is like a dashboard,  you can load files, control the job and observe your progress in the visualizer.
 
 ![](/_images/_gsender/_transition/gs_tr_carvemain.jpg){.align-center .size-medium}
 
@@ -71,13 +71,13 @@ The stats tab offers an overview of your Machine, including your recent jobs run
 
 #### **Tools Management**
 
-The Tools tab now contains sections to help you surface your project, tune your machine, and create shortcuts or gamepad profiles. Here you can change your keyboard customization, and gamepad support has editable profiles for enhanced control. In this short video, you can see the classic version referencing the surfacing and calibrate tools, then we flip to the new U and the tools tab.
+The Tools tab now contains all the widgets for surfacing your project, tuning your machine, as well as creating keyboard shortcuts and gamepad profiles. In this short video, you can see where the Surfacing and Calibrate Tools are on Classic gSender, then we flip over to the Tools tab on the New U.
 
 ![](/_images/_gsender/_transition/gs_tr_surface.gif){.align-center .size-full}
 
 #### **Streamlined Configuration Menu**
 
-The Config menu has been refined to display only relevant sections based on your machine's connection status and selected profile. It's a combination of your old preferences section mixed with the old firmware section, so all your settings are in one place. In this short video, you can see these tools moved from the top right to the bottom left corner of the screen.
+The Config menu has been refined to display only relevant sections based on your machine's connection status and selected profile. It's a combination of the   preferences mixed with the  firmware settings, so now all  settings are in one place. In this short video, you can see these moved from the top right (Classic) to the bottom left corner of the screen (New U).
 
 ![](../_images/_gsender/_transition/gs_tr_firmwarenew.gif){.align-center .size-full}
 
