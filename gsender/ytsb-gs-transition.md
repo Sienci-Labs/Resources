@@ -17,13 +17,9 @@ featured_image: _images/_gsender/_transition/gs_tr_top-bar.jpg
 
 The recent merge of gSender Edge 1.5.0 into our main gSender introduces a comprehensive overhaul of the user interface, enhancing usability, responsiveness, and functionality. This guide will help to familiarize current users with the UI changes, to ensure a smooth transition.
 
-Out with the old **Classic version**...
+Out with the old **Classic version**, and in with the **New U!!**
 
-![](/_images/_gsender/_transition/gs_tr_classic-main.jpg){.align-center .size-medium}
-
-And in with the **New U !!!**
-
-![](/_images/_gsender/_transition/gs_tr_newu-main.jpg){.align-center .size-medium}
+![](/_images/_gsender/_transition/gs_tr_newu-main2.jpg)
 
 We've improved the main screen, now called the **Carve Tab**.  The core concept of **things that are blue, move the machine** remains is place. Generally you will use the middle/left side of the screen to load files, control running the job and observing your progress in the visualizer. The right side of the screen will move your machine and allow you to use more advanced machine functions.
 
@@ -75,15 +71,11 @@ The jog controls have been redesigned for better ergonomics and touch-screen com
 
 The Digital Read Out (DRO) section has been refined, separating 'Go To' and 'Zero' functions and integrating single-axis homing toggles for streamlined operations.
 
-![](/_images/_gsender/_transition/gs_tr_dro.gif){.align-center .size-full}
-
 ### **Tools Management**
 
 The Tools tab now contains sections to help you surface your project, tune your machine, and create shortcuts or gamepad profiles. Keyboard shortcuts have been standardized across the main and Edge versions, ensuring consistent behavior. Here you can change your keyboard customization, and gamepad support has editable profiles for enhanced control. In this short video, you can see the classic version referencing the surfacing and calibrate tools, then we flip to the new U and the tools tab.
 
 ![](/_images/_gsender/_transition/gs_tr_surface.gif){.align-center .size-full}
-
-![](/_images/_gsender/_transition/gs_tr_tools-main.jpg){.align-center .size-medium}
 
 ### **Stats Tab**
 
@@ -102,22 +94,19 @@ The visualizer now includes touch zoom capabilities and a revamped Lightweight M
 
 Toggle Lightweight Mode using the feather icon located on the Visualizer.
 
+### **Dark Mode**
+
+Responding to user requests, gSender now offers a Dark Mode for reduced eye strain and improved visibility in low-light environments. Activate it via **Config > Customize UI > Enable Dark Mode**.
+
 ### **Portrait Mode and Touch Support**
 
 For users operating on tablets or vertical monitors, gSender now supports Portrait Mode. Simply rotate your device or adjust your display orientation in the operating system to switch layouts. Additionally, pinch gestures now zoom the visualizer, enhancing touch-screen navigation.
 
 ![](/_images/_gsender/_transition/gs_tr_portrait.jpg){.align-center size-medium}
 
-### **Dark Mode**
-
-Responding to user requests, gSender now offers a Dark Mode for reduced eye strain and improved visibility in low-light environments. Activate it via **Config > Customize UI > Enable Dark Mode**.
-
-![](/_images/_gsender/_transition/gs_tr_darkmode.gif){.align-center .size-full}
-
 ## 🛠️ Additional Noteworthy Features
 
 * **Console Enhancements**: Added console clearing functionality and arrow-scrollable input history for improved usability.
-* **Navigation Improvements**: Breadcrumb navigation is being introduced in certain sections for easier backtracking.
 * **Visual Tweaks**: Numerous UI adjustments, including updated icons, responsive sidebar sizing, and improved text legibility.
 
 ## 📘 Getting Started with the New UI
