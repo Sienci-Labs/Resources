@@ -12,95 +12,94 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_gsender/_transition/gs_tr_top-bar.jpg
+featured_image: _images/_gsender/_transition/gs_tr_newu-main2.jpg
 ---
 
-The recent merge of gSender Edge 1.5.0 into our main gSender introduces a comprehensive overhaul of the user interface, enhancing usability, responsiveness, and functionality. This guide will help to familiarize current users with the UI changes, to ensure a smooth transition.
+We've recently updated gSender by merging in gSender Edge 1.5.0, bringing you a fresh new look and improved features. This guide will help you get used to the new design and make the switch easier.
 
 Out with the old **Classic version**, and in with the **New U!!**
 
 ![](/_images/_gsender/_transition/gs_tr_newu-main2.jpg)
 
-We've improved the main screen, now called the **Carve Tab**.  The core concept of **things that are blue, move the machine** remains is place. Generally you will use the middle/left side of the screen to load files, control running the job and observing your progress in the visualizer. The right side of the screen will move your machine and allow you to use more advanced machine functions.
-
-We've combined similar features, and are excited to share things like our new **Stats Tab** which includes things like maintenance tasks, machine diagnostic files, configuration and more.
+We've combined similar features, and are excited to share things like our new **Stats Tab** which incorporates stats, maintenance and diagnostics and more, all in one dashboard.
 
 The new **Config Tab** puts all of your settings into one place, so no more flipping between firmware and profile options.
 
-*Rest assured that all of the functionality you are used to is still here, it may simply have a new home.* Hopefully this section helps guide you to the new sections, and that you don't skip a beat. Let's dive into some specifics!!
+*Rest assured that all of the functionality you are used to is still here, it may simply have a new home.* Hopefully this section helps guide you to the new sections, and that you don't skip a beat. Let's dive into some specifics!
 
 ## 🌟 Key UI Enhancements
 
-### **New Tabs**
-
 You will notice right away that as you click through the new UI, there are two section of your screen that are always available to you. The **Top bar** and the **Left bar**.
 
-#### Top Bar
+### Top Bar
 
-The top bar will show you several cool things, and will always be available to see. Moving from left to right, you will see your connection status, notification bell, machine information, machine status, and shortcuts for remote control, keyboard shortcuts & gamepad profiles.
+The top bar will show you several cool things, and will always be available to see. Feel free to click on some of these icons to see what they do! Moving from left to right, you will see your connection status, notification bell, machine information, machine status, and shortcuts for remote control, keyboard shortcuts & gamepad profiles.
 
 ![](/_images/_gsender/_transition/gs_tr_top-bar.jpg){.align-center .size-medium}
 
-#### Left Bar
+### Left Bar
 
-On the left side of the screen, you will see 5 tabs. Starting at the top, a **Helper Tab** will aid you in understanding and correcting any errors that pop up. It also includes a tool changing wizard. Your main screen is the cool **Carve Tab**, where you handle files, watch the visualizer, setup jobs, move the machine, probe for zero, manage macros, check out the console and more. Our 3rd **Stats Tab** can be used for examining your machine stats, upcoming maintenance, your recent alarms & errors and your machine configuration. A diagnostic file download is available if you run into trouble, and links to our community, resources and Git Hub repository are also found on this tab. Moving down to the 4th **Tools Tab**, you will see aids to help you surface a project, square or tune your machine and setup your keyboard and gamepad shortcuts. Our final **Config Tab** has combined both your machine settings with the firmware settings. You can search these settings or toggle the ones that have been modified. This left bar will always remain visible to you.
+On the left side of the screen, you will see another bar that stays on the screen at all time, with 5 tabs. From top to bottom, these tabs are:
+
+1. The **Helper Tab** will aid you in understanding and correcting any errors that pop up. It also includes a tool changing wizard.
+1. The **Carve Tab**, is where you handle files, watch the visualizer, setup jobs, move the machine, probe for zero, manage macros, check out the console and more.
+1. The **Stats Tab** can be used for examining your machine stats, upcoming maintenance, your recent alarms & errors and your machine configuration. A diagnostic file download is available if you run into trouble, and links to our community, resources and Git Hub repository are also found on this tab.
+1. On the **Tools Tab**, you will see aids to help you surface a project, square or tune your machine and setup your keyboard and gamepad shortcuts.
+1. The **Config Tab** has combined both your machine settings with the firmware settings. You can search these settings or toggle the ones that have been modified.
 
 ![](/_images/_gsender/_transition/gs_tr_left-bar.jpg){.align-center .size-medium}
 
-### **Automatic Firmware Detection on Connection**
+Let's briefly checkout each tab, to see what goodies are there.
 
-gSender now automatically detects your firmware type upon connection, selecting the appropriate controller settings. This feature simplifies the setup process, especially for users operating multiple machines or switching between different firmware types.
+#### **Main Carve Tab**
 
-![](/_images/_gsender/_transition/gs_tr_connect-auto.gif){.align-center .size-medium}
+We've improved the main screen, now called the **Carve Tab**.  The core concept of **things that are blue, move the machine** remains is place. Generally you will use the middle/left side of the screen to load files, control running the job and observing your progress in the visualizer. The right side of the screen will move your machine and allow you to use more advanced machine functions.
 
-### **Streamlined Configuration Menu**
+![](/_images/_gsender/_transition/gs_tr_carvemain.jpg){.align-center .size-medium}
 
-The Config menu has been refined to display only relevant sections based on your machine's connection status and selected profile. It's a combination of your old preferences section mixed with the old firmware section, so all your settings are in one place. In this short video, you can see these tools moved from the top right to the bottom left corner of the screen!
+##### **Updated Jog Controls and DRO**
 
-![](../_images/_gsender/_transition/gs_tr_firmwarenew.gif){.align-center .size-full}
-
-Modified settings are highlighted, and a 'Show Modified' toggle allows users to filter and manage settings that have been changed from the machine default. You can reset to default settings at any time.
-
-![](/_images/_gsender/_transition/gs_tr_modified.gif){.align-center .size-full}
-
-### **Updated Jog Controls and DRO**
-
-The jog controls have been redesigned for better ergonomics and touch-screen compatibility. Notably, if your firmware supports a rotary axis, the A-axis jog control is now prominently featured.
+The jog controls have been redesigned for better ergonomics and touch-screen compatibility.
 
 ![](/_images/_gsender/_transition/gs_tr_comp-jog.jpg){.align-center .size-medium}
 
-The Digital Read Out (DRO) section has been refined, separating 'Go To' and 'Zero' functions and integrating single-axis homing toggles for streamlined operations.
+#### **Stats Tab**
 
-### **Tools Management**
-
-The Tools tab now contains sections to help you surface your project, tune your machine, and create shortcuts or gamepad profiles. Keyboard shortcuts have been standardized across the main and Edge versions, ensuring consistent behavior. Here you can change your keyboard customization, and gamepad support has editable profiles for enhanced control. In this short video, you can see the classic version referencing the surfacing and calibrate tools, then we flip to the new U and the tools tab.
-
-![](/_images/_gsender/_transition/gs_tr_surface.gif){.align-center .size-full}
-
-### **Stats Tab**
-
-The stats tab offers an overview of your Machine, including your recent jobs run, configuration, upcoming maintenance warnings and your recent alarms & errors. You can also download a diagnostic file for extra support, access our resources, community or github repository!
+The stats tab offers an overview of your Machine, including your recent jobs run, configuration, upcoming maintenance warnings and your recent alarms & errors. You can also download a diagnostic file for extra support, access our resources, community or github repository! Tap on one of the tabs at the bottom of this page, to see even more details!
 
 ![](/_images/_gsender/_transition/gs_tr_status.jpg){.align-center .size-medium}
 
-### **Enhanced Visualizer and Lightweight Mode**
+#### **Tools Management**
 
-The visualizer now includes touch zoom capabilities and a revamped Lightweight Mode. Instead of individual toggles, presets control the behavior:
+The Tools tab now contains sections to help you surface your project, tune your machine, and create shortcuts or gamepad profiles. Here you can change your keyboard customization, and gamepad support has editable profiles for enhanced control. In this short video, you can see the classic version referencing the surfacing and calibrate tools, then we flip to the new U and the tools tab.
 
-* **Everything**: Disables the visualizer entirely.
-* **Lighter**: Uses the SVG visualizer for reduced resource consumption.
+![](/_images/_gsender/_transition/gs_tr_surface.gif){.align-center .size-full}
 
-![](/_images/_gsender/_transition/gs_tr_lightweight.jpg){.align-center .size-medium}
+#### **Streamlined Configuration Menu**
 
-Toggle Lightweight Mode using the feather icon located on the Visualizer.
+The Config menu has been refined to display only relevant sections based on your machine's connection status and selected profile. It's a combination of your old preferences section mixed with the old firmware section, so all your settings are in one place. In this short video, you can see these tools moved from the top right to the bottom left corner of the screen.
 
-### **Dark Mode**
+![](../_images/_gsender/_transition/gs_tr_firmwarenew.gif){.align-center .size-full}
 
-Responding to user requests, gSender now offers a Dark Mode for reduced eye strain and improved visibility in low-light environments. Activate it via **Config > Customize UI > Enable Dark Mode**.
+One cool thing is that modified settings are highlighted, and a 'Show Modified' toggle allows you to filter and manage settings that have been changed from the machine default. You can reset to default settings at any time if you find a change you have made isn't working.
 
-### **Portrait Mode and Touch Support**
+![](/_images/_gsender/_transition/gs_tr_modified.gif){.align-center .size-full}
 
-For users operating on tablets or vertical monitors, gSender now supports Portrait Mode. Simply rotate your device or adjust your display orientation in the operating system to switch layouts. Additionally, pinch gestures now zoom the visualizer, enhancing touch-screen navigation.
+## 🌟 **New Features**
+
+Not only are there several new UI enhancements, there are also a couple of new features that we should mention. Connecting has been streamlined and you have more flexibility on how gSender displays on your screen.
+
+### **Automatic Firmware Detection on Connection**
+
+Connecting is now easier! gSender now automatically detects your firmware type (Grbl/grblHAL) upon connection, selecting the appropriate controller settings. This feature simplifies the process, as you can select your default firmware choice in Config, and connect with a simple button press.
+
+![](/_images/_gsender/_transition/gs_tr_connect-auto.gif){.align-center .size-medium}
+
+### **Improved Visuals, Touch Support, and New Display Options**
+
+We've made several visual and usability upgrades to gSender. The visualizer now supports pinch-to-zoom on touch screens, **Dark Mode** to reduce eye strain, and includes a redesigned **Lightweight Mode** with easy presets. Turn these on by going to Config -> Customize UI.
+
+If you're using a tablet or vertical screen, **Portrait Mode** is now supported—just rotate your device or change your display orientation.
 
 ![](/_images/_gsender/_transition/gs_tr_portrait.jpg){.align-center size-medium}
 
