@@ -85,29 +85,29 @@ Windows computers can tend to have their screens and USB ports 'fall asleep' eve
 
 To keep the display on, you'll want to click the **Windows** icon at the bottom left corner of your screen and start to type “<em>control panel</em>” to bring it up.
 
-![](/_images/_gsender/_setup/gs_se_awake-control-panel.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_awake-control-panel.jpg){.aligncenter .size-medium}
 
 Once you’ve clicked to open it, go to **Hardware and Sound** then **Power Options**
 
-![](/_images/_gsender/_setup/gs_se_awake-hardware-sound.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_awake-hardware-sound.jpg){.aligncenter .size-medium}
 
-![](/_images/_gsender/_setup/gs_se_awake-power-options.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_awake-power-options.jpg){.aligncenter .size-medium}
 
 The plan that's currently selected (circled in the picture) will be the one that you want to change. In this example we will be editing the **Balanced** plan. Click on the "Change plan settings" text (highlighted with an arrow).
 
-![](/_images/_gsender/_setup/gs_se_awake-plan-settings.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_awake-plan-settings.jpg){.aligncenter .size-medium}
 
 Go to the second drop-down and set both 'battery' and 'plugged in' selection to **Never**, save the changes to ensure that your computer never dozes off on its own.
 
-![](/_images/_gsender/_setup/gs_se_awake-never-sleep.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_awake-never-sleep.jpg){.aligncenter .size-medium}
 
 To keep the USB ports on, click **Change advanced power settings**
 
-![](/_images/_gsender/_setup/gs_se_awake-advanced.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_awake-advanced.jpg){.aligncenter .size-medium}
 
 In the separate window that appears, you’ll want to Expand the **USB Settings**, then **USB selective suspend setting**, and finally change both the 'battery' and 'plugged in' settings for these drop-downs to ‘**Disabled**’. Click OK to **Apply** these new settings.
 
-![](/_images/_gsender/_setup/gs_se_awake-usb.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_awake-usb.jpg){.aligncenter .size-medium}
 
 After having done all of this, just be mindful now that sometimes a Windows update can remove these settings. If you have an update and want to be confident running your CNC, we'd recommend checking back on these settings to make sure they're still set properly.
 
@@ -211,7 +211,7 @@ Before the process begins, there is a conductivity test to ensure that the touch
 
 A blue button called 'Start Probe' will appear if you have successfully confirmed conductivity. Ensure that the touch plate components are set up for probing, then press 'Start Probe'. The machine will move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press 'Go to XY0'. The bit should be overtop the bottom left corner of the stock material, and pressing 'Go to' next to the 'Zero Z' should bring it to touch the surface. More information can be found on our touch-plate resource page. <a href="https://resources.sienci.com/view/lmk2-touch-plate/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-touch-plate/</a>
 
-![](/_images/_gsender/_using/gs_us_success.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_success.jpg){.aligncenter .size-medium}
 
 If you have a different setup where probing the front, left corner is less convenient for you, gSender can also probe other corners by clicking the corner button. You'll see the blue arrow point to the corner you want to probe from, then you can follow the rest of the probing process the same way.
 
@@ -419,7 +419,7 @@ You can repeat these steps to keep adding more shortcuts to your gamepad, this a
 - The '2nd Action' column will allow you to give each gamepad button a second shortcut action once you set up a 'Second Action Button'. Do this by clicking the `+` symbol in the Action column of the button you want to use, then clicking the 'Use as Second Action Button' toggle on the right side.
 - Assign a 'Lockout Button' in a similar way but by toggling the 'Use as Lockout Button' toggle on the right side.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_controller-xbox.jpg){.alignnone .size-medium}
+![](/_images/_gsender/_classic/_features-cl/_shortcuts-cl/gs_cl_fe_sh_controller-xbox.jpg){.alignnone .size-medium}
 
 Thumbsticks are set up to be used for jogging because of the ability to move them a little or a lot, which is different from buttons which can only be clicked on or off. This works well because most gamepads tend to have 2 thumbsticks (like the Xbox controller shown above), meaning you can use one to jog in the X and Y, and the other to jog in the Z and A (if your machine has a rotary axis). For gamepads that don't have thumbsticks this is still fine because buttons can also be set up to jog.
 
@@ -437,7 +437,7 @@ Once you've set up your thumbsticks, you'll find you can push them any amount an
 
 Another cool feature is the **Use MPG** selection. If you map one of your thumbsticks to an axis with MPG selected, it will automatically grey out the other stick selections. Now you can rotate your stick in any direction and for each quarter rotation, your axis will move once, according to your preselected Jog Controls.
 
-![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-joystick-mpg.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_classic/_features-cl/_shortcuts-cl/gs_cl_fe_sh_gamepad-joystick-mpg.jpg){.aligncenter .size-full .nar}
 
 ## Lightweight Mode
 
@@ -469,7 +469,7 @@ For a Z Probe, setting up is simple since you just need the thickness of the ‘
 
 If you’re trying to set up a custom ‘standard block’ plate, use some calipers to pick up on the measurements noted below. Once these are noted down, enter these into gSender’s ‘Probe’ settings in similarly named entries, and now you should find that gSender’s probing routine has been altered to fit the shape of your touch plate.
 
-![](/_images/_gsender/_features/_probing/gs_fe_pr_dimensions.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_pr_dimensions.jpg){.aligncenter .size-medium}
 
 ## Coolant Control / IOT Relay
 
@@ -505,7 +505,7 @@ Since many CNCs are coming with diode accessories, gSender has some unique featu
 - Turn on the laser at low power when running a job outline (enabled in the Spindle/Laser settings). This will help you to better see where your project is going to be located on the material
 - Switch to a specialized visualization designed to show raster engraving images better than typical g-code visualizers. Seeing the laser intensity in the movements is very useful to get a better idea of what your projects are going to look like when they’re run. This will only apply to files loaded after ‘Laser mode’ is enabled and the colour can be customized in the settings
 
-![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_laser-vis.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_sp_laser-vis.jpg){.aligncenter .size-medium}
 
 ## Macros
 
@@ -570,7 +570,7 @@ The console is a tab that you can access at the bottom right hand side of the gS
 - Copy text straight from the console to send in an email for help by clicking the icon beside the "Run" button
 - Even open the console in another window by pressing the top, right icon to help you see more console text at a time (if you press the button again once you reconnect to your CNC, it'll reconnect the console stream to the original window too)
 
-![](/_images/_gsender/_features/gs_fe_console.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_console.jpg){.aligncenter .size-full}
 
 When you first start up gSender, the console will display EEPROM settings that are sent from the Arduino in the control box. These EEPROM settings control parameters for your CNC such as:
 
@@ -1002,11 +1002,11 @@ Rotary surfacing is similar to the regular XYZ surfacing tool. Let’s explore t
 
 1. Your **start diameter** is the largest diameter on your stock. Usually this means the diagonal distance from opposite corners if you’re starting with square or rectangular stock.
 
-![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_diameter-start.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_classic/_features-cl/_rotary/gs_cl_fe_sr_diameter-start.jpg){.aligncenter .size-full .nar}
 
 1. Your final diameter is determined by the short side of your stock.
 
-![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_diameter-end.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_classic/_features-cl/_rotary/gs_cl_fe_sr_diameter-end.jpg){.aligncenter .size-full .nar}
 
 1. With a starting height of 90mm and a finished height of 63.5mm, we are removing 26.5mm of material. **However**, since we have the Z-axis set at the center of the material, we will need to divide that 26.5mm in half. We are basically taking 13.25mm off of the top and the bottom. If you want a single pass, your step down would be 13.25mm. Dividing that by two and setting the step down to 6.625mm, means that we will be doing two passes. This will produce a piece of round stock with the maximum diameter possible.
 
@@ -1125,7 +1125,7 @@ If you find that gSender goes blank after you open it or while using it, there a
 1. Check your antivirus software or Windows Defender and add gSender as an exception.
 1. Check to ensure you have read/write permissions for the preferences file
    1. Let’s locate the file! It’s called .sender_rc and can usually be found on your hard drive at: C:/users/{your username}/.sender_rc
-   ![](/_images/_gsender/_issues/gs_is_cm_blank-rc.jpg){.aligncenter .size-full}
+   ![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm_blank-rc.jpg){.aligncenter .size-full}
    1. Right-click on the file and choose properties. Under the security tab, check the name of your profile and confirm you have full control of the file.
    1. If not, select edit, choose your computer name, and grant permissions.
 1. If you’re still getting a blank screen, locate your log file and send it in to us. It's located at: C:/Users/{your user name}/AppData/Roaming/gSender/Logs/main.log
@@ -1146,7 +1146,7 @@ If your machine connects on a COM port successfully but the machine status says 
 1. Check that you have the right settings for your board, for instance click Settings ➜ Baud rate where most boards use 115200. Also your machine might not be supported yet by gSender if it isn't using grbl or grblHAL or your manufacturer edited the core firmware too much.
 1. Your board may have a faulty connection. Try unplugging it then plugging back in, use a different USB cable, a different USB port on your computer, or plug the cable directly in if you were using a USB hub.
 1. Your board might have other loose connections. Power off your machine, then use a non-conductive tool like a plastic utensil to push down on all 4 corners of your control board shield or Arduino. For the LongBoard you don’t need to open it, just flip it upside down and you’ll be able to access the Arduino through the slats on the bottom. Doing this will ensure that everything is fully plugged in since sometimes if the Arduino is slightly off the control board it can mess with its communication.
-![](/_images/_gsender/_issues/gs_is_cm_push-uno.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm_push-uno.jpg){.aligncenter .size-medium}
 1. Your board might have corrupted firmware. Re-flash your board if it's a [LongBoard](https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Connected-but-No-Controls.pdf), [SLB](https://resources.sienci.com/view/slb-firmware-flashing/), or by following your manufacturers instructions.
 1. At the least when you plug the board to your computer over USB you should hear a 'connection' sound from your computer. You should also see a new device appear under the Devices and Printers on your computer. If none of these are happening, then that means your computer isn't recognizing the board so you might want to look at drivers or getting further technical support.
 
@@ -1178,15 +1178,15 @@ One key bit of information that we need on our end is a picture or screenshot of
 
 1. Make sure your CNC is plugged into your current computer via USB
 1. Open "Device Manager" in your Windows start menu
-![](/_images/_gsender/_issues/gs_is_cm_device-manager.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm_device-manager.jpg){.aligncenter .size-medium}
 1. Expand the "Ports (COM & LPT)" heading
-![](/_images/_gsender/_issues/gs_is_cm_device-port.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm_device-port.jpg){.aligncenter .size-medium}
 1. Find the listing related to your CNC. This will be the one that disappears and reappears if you unplug your CNC and plug it back in. It'll also be the port you normally connect to on other g-code senders.
 1. Right click that device and open "Properties"
 1. Open the "Details" tab at the top
 1. In the "Property" dropdown, select the "Hardware Ids" option
 1. Send us a picture of the final view. An example of what that might look like would be:
-![](/_images/_gsender/_issues/gs_is_cm_device-id.jpg){.aligncenter .size-medium .nar}
+![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm_device-id.jpg){.aligncenter .size-medium .nar}
 
 We appreciate your feedback, and with your help we'll make sure the next version of gSender recognizes your machine.
 

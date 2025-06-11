@@ -79,12 +79,14 @@ If you don't see these notifications, your system might not support it or your c
 
 gSender updates always have the chance of encountering quirks, so if you have an important carve coming up or are just satisfied with your current setup then we'd typically recommend holding off until updating will be less 'mission-critical'. If you update accidentally and want to go back, you can also always <a href="#older-versions">downgrade</a>.
 
-We recommend backing up your gSender preferences before updating, to ensure your shortcuts and gamepad profiles transfer correctly durring the upgrade. You can export them in the Config tab, top right corner. Once the update is complete, you can Import them into your new version.
+If you've spent time setting up shortcuts, gamepad profiles, special start/stop code blocks or you have specific probe settings, we recommend you **Export** your gSender preferences before updating. This way you will have all of your customizations in a single file. You can then import them into the new version or revert to an older version and still be able to import them to use.
+
+One example we often see is users will think they are using the default gSender settings, but forget that they upgraded to the AutoZero probe block. When upgrading and then attempting to probe, errors will happen unless you remember to go into the Config tab -> Probe and change your setting to AutoZero instead of Standard probe block. Exporting and then Importing your gSender preferences will solve this potential problem.
 
 ![](/_images/_gsender/_install/gs_in_export-pref.jpg){.aligncenter .size-medium}
 
 **If you upgrade to a new version, or downgrade to an older version, and gSender won't open or run (blank screen):**  
-You’ll want to find a file called “**.sender_rc**” and rename it so gSender can generate a new version without errors. Sometim es you might also want to delete the “**.sienci-sessions**” folder too.
+You’ll want to find a file called “**.sender_rc**” and rename it so gSender can generate a new version without errors. Sometimes you might also want to delete the “**.sienci-sessions**” folder too.
 
 - For Windows: the file can usually be found on your hard drive, at: **C:/users/{your username}/.sender_rc**. Rename it to whatever you like, like “**.sender_rc_old**”, then try to reinstall gSender again.
 ![](/_images/_gsender/_install/gs_in_update-senderrc.jpg){.aligncenter .size-medium}

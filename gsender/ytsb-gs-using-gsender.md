@@ -83,7 +83,7 @@ Now that we've covered how to manually move, here are two ways to automatically 
 
 There is one more way to move automatically, but it isn't used to bring you back to 0.00. It's called **Go to Location**.
 
-If you want to go somewhere else quickly without manually jogging there, click the 'Paper Airplane' button to bring you to a specific location. You'll see a popup asking you where you want to go and you either type a specific location with the toggle pointing to (ABS G90) or move some amount from where you are now and flip the toggle to (INC G91).
+If you want to go somewhere else quickly without manually jogging there, click the 'Paper Airplane' button to bring you to a specific location. You'll see a popup asking you where you want to go and you either type a specific location with the toggle pointing to ABS (Absolute movement - From your Zero point) or move some amount from where you are now and flip the toggle to INC (Incremental movement - From where your router is).
 
 ![](/_images/_gsender/_using/gs_us_goto-location.jpg){.aligncenter .size-medium}
 
@@ -103,17 +103,15 @@ gSender provides unique features if you have endstops on your machine for homing
 - Four **Quick-Travel** buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed.
 - The **Park** button will allow you to move your machine to preset coordinates. Navigate to the Config tab -> Basics section to either enter the park coordinates by hand, or grab them based on your current location. Use the Go To button to test your new parking spot out!
 
-![](/_images/_gsender/_using/gs_us_park-config.jpg){.aligncenter .size-medium}
+If you'd like more information on how to set up and use these features, read here: <a href="https://resources.sienci.com/view/lmk2-limit-switches/#using-limit-switches" target="_blank" rel="noopener">Installing & Using Limit Switches</a>
 
 *Note - If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials.*
-
-If you'd like more information on how to set up and use these features, read here: <a href="https://resources.sienci.com/view/lmk2-limit-switches/#using-limit-switches" target="_blank" rel="noopener">Installing & Using Limit Switches</a>
 
 ## Probing
 
 Probing automatically sets a zero position, usually at the bottom left corner of the stock material, using a touch plate. If you're not using a Sienci touch plate, <a href="https://resources.sienci.com/view/lmk2-limit-switches/#mk2-limit-switch-kit">read here to make sure your settings are set up correctly</a>.
 
-You can select the type of touch plate you are using in the Config -> Probe section. You can see the standard touch plate allows you to enter values (block thickness and probe speeds), while the AutoZero touch plate automatically fills these values in for you.This section also toggles the probe connection test on and off.
+You can select the type of touch plate you are using in the Config -> Probe section. You can see the standard touch plate allows you to enter values (block thickness and probe speeds), while the AutoZero touch plate automatically fills these values in for you. This section also toggles the probe connection test on and off.
 
 ![](/_images/_gsender/_using/gs_us_probeblock.gif){.aligncenter .size-full}
 
