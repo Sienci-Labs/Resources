@@ -1,7 +1,7 @@
 ---
 title: gSender Classic
 menu_order: 8
-post_status: draft
+post_status: publish
 post_excerpt: Full instructions for use of the classic UI style for gSender. Includes layout, configuration, usage, features, & bug reporting.
 post_date: 2022-05-01 17:28:30
 taxonomy:
@@ -12,7 +12,7 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_gsender/_classic/_setup-cl/gs_cl_se_updater.jpg
 ---
 
 This page acts as an easy reference for all past documentation written before gSender version 1.5.0. Similar to the current docs, it'll go over [**Setup and Layout**](#anonymous-information) items first, then introduce [**Basics Features**](#starting-up) for day-to-day use before progressing to more [**Advanced Features**](#shortcuts) such as shortcuts, macros, calibration tools, spindles, lasers, and more. If your're having some issues with gSender, definitely visit the [**Troubleshooting**](#problems-or-bugs) section to see fixes to common issues or see how you can get in touch with us. Remember, you can always quickly navigate the page by clicking the headings in the 'Page Contents'.

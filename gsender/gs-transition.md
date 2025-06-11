@@ -1,7 +1,7 @@
 ---
-title: ytsb Transition
+title: Transition
 menu_order: 2
-post_status: draft
+post_status: publish
 post_excerpt: An overview of the changes from the classic UI to the new and improved UI.
 post_date: 2021-07-01 14:21:00
 taxonomy:

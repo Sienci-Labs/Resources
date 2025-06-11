@@ -12,7 +12,7 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_gsender/_setup/gs_se_main-layout.jpg
+featured_image: _images/_gsender/_setup/gs_se_carve-overview.jpg
 ---
 
 ## Anonymous Information
@@ -23,47 +23,87 @@ When you open up gSender, you’ll notice a prompt regarding ‘Anonymous usage 
 
 ## Layout
 
-Before starting to use gSender, let's briefly cover the way its functions are laid out so that you'll know where to find things moving forward. The program only has one main screen, it's into three major sections:
+Before starting to use gSender, let's briefly cover the way its functions are laid out so that you'll know where to find things moving forward. The program can be broken down into it's three major sections:
 
-- The top toolbar has all the things you'll only use occasionally. This includes machine connection on the left side (boxed in red) and gSender's Settings, Help, and other additional 'Tools' on the right (boxed in blue).
-- The left-side control (boxed in green) has all the functions you need for loading, monitoring, and controlling g-code files and cutting jobs
-- The right-side control (boxed in purple) has all the functions you need to manually control your CNC when jobs aren't running. This includes jogging, zero setting, homing, probing, running macros, manual laser / spindle control, and more.
+1. The top toolbar (boxed in red), will stay visible regardless of what you are doing. It includes machine connection on the left side, notifications, system stats and current status in the middle, and shortcuts on the right.
+1. The left-sidebar (boxed in green) holds 5 main tabs; the Helper, the main Carve tab (which we have showing now), Stats, Tools, and Config.
+1. The main screen (boxed in blue) will show the contents of the selected tab in the left sidebar, with the default being the Carve tab.
 
-![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_main-layout.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_se_carve-overview.jpg){.aligncenter .size-medium}
 
-We’ve built gSender’s layout around these primary boxed sections so that you can have all of the CNC functionality most hobbyists need on one screen without getting confused about what each button does. If you’re doing anything **during** a job it’ll be on the left side, if you’re doing anything **outside** a job it’ll likely be on the right, and if you want greater customization or functionality it’ll be found in the tools or settings.
+Another of gSender’s Design Principals is colouring. It can be scary to have an assortment of buttons in front of you and not know what they’re going to do. This is why we made every button in the app that moves the CNC **dark blue**. This means you shouldn’t ever find yourself startled when the machine moves unexpectedly since the colour will help to communicate whether it’s a ‘machine moving’ button or not.
 
-Another of gSender’s Design Principals is colouring. It can be scary to have an assortment of buttons in front of you and not know what they’re going to do. This is why we made every button on the right-side control that moves the CNC, blue. This means you shouldn’t ever find yourself startled when the machine moves unexpectedly since the colour will help to communicate whether it’s a ‘machine moving’ button or not.
+### Carve
 
-## Configuration
+This is where you will spend the majority of your time actually carving. When the program opens, this is where you will arrive! There are 2 main sections to the Carve tab.
 
-Let's do some configuration before connecting up to your CNC. Click the 'gear' at the far right of the toolbar to bring up the program settings. Some things you'll likely want to configure would be:
+1. The large middle visualizer (boxed in red), is where you manage your files and can watch the magic happen after you hit the Start button. Rotate your view, monitor the job progress, turn on lightweight mode, change workspaces, adjust feed rate, and more.
+1. The DRO and Jog Controls on the right (boxed in blue), have all the functions you need to manually control your CNC when jobs aren't running. This includes jogging, zero setting, homing, Go to movements, and more. The section at the bottom includes extra features like probing, macros, manual spindle/laser control, and more.
 
-- **General Settings**
-  - Baud rate needed for your particular CNC. Baud rate is setup for the LongMill by default.
-  - Machine Profile
-  - Preferred Units
-  - Reverse workspace (flips the left and right-side controls if you prefer)
+![](/_images/_gsender/_setup/gs_se_carve-tab.jpg){.aligncenter .size-medium}
 
-  ![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_config-general.jpg){.aligncenter .size-full}
-- **Visualizer Settings**
-  - Set to light theme if you prefer
+We’ve built gSender’s main screen around these primary boxed sections so that you can have all of the CNC functionality most hobbyists need on one screen without getting confused about what each button does. If you’re doing anything **during** a job it’ll be in the middle, if you’re doing anything **outside** a job it’ll likely be on the right, and if you want greater customization or functionality it’ll be found in the toolbars.
 
-  ![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_config-vis.jpg){.aligncenter .size-full}
+### Stats
+
+The Stats tab is a great place to check in on how your machines doing. This includes:
+
+- Summary of stats
+- Recent jobs (including their run time and if they were successful or not)
+- Upcoming maintenance
+- Guidance on help and troubleshooting
+- And some more technical information like an overview of your machine configuration and a list of recent alarms & errors
+
+You can click on the bottom bar to see more details on each of these summaries.
+
+![](/_images/_gsender/_setup/gs_se_stats-tab.jpg){.aligncenter .size-medium}
+
+### Tools
+
+The Tools tab has what we like to call "Wizards" you can use to walk through lots of common CNCing tasks like XY squaring, movement tuning, wasteboard surfacing, as well as you can access keyboard and gamepad shortcuts.
+
+![](/_images/_gsender/_setup/gs_se_maintools.jpg){.aligncenter .size-medium}
+
+## Config
+
+The final tab is the configuration tab. Here you will find an extensive list of settings, starting with the basics, motors, probe, homing/limits, spindle/laser, tool changing, rotary, and more.
+
+![](/_images/_gsender/_setup/gs_se_configlist.gif){.aligncenter .size-full}
+
+## Set up to Use
+
+Let's explore some common gSender settings to get your own setup up and running as you prefer. We can change how gSender looks, which display units you prefer, or adjust machine setup all in the same place. Some things you may want to configure would be:
+
+1. Preferred units
+   - In the Basics section, change which units (mm or inches) you want to see on the main Carve screen (Config units will always display as mm)
+   ![](/_images/_gsender/_setup/gs_se_configstart.jpg){.aligncenter .size-medium}
+   The Carve tab will always show the units you set at the top left corner of the DRO.
+   ![](/_images/_gsender/_setup/gs_se_units-mainscreen.jpg){.aligncenter .size-medium}
+1. Enable other CNC functions
+   - If your CNC supports them, this can include a Spindle, Laser, Rotary axis, and more. Just go to the appropriate section in Config and the first option you should see should mention "enabling" it. After Applying the changes you'll see a new tab appear in the bottom-right of the main Carve screen.
+   ![](/_images/_gsender/_setup/gs_se_hardware-enable.gif){.aligncenter .size-full}
+1. Notifications
+   - In Basics ➜ Notifications, these can be customized to give you warnings when you load bad files, provide information at the end of a job, and more.
+1. Visualizer theme and Dark mode
+   - In the Basics section, both these settings help change the colours in gSender based on what will be easier on your eyes. Check them out if that sounds interesting!
+
+After these changes, don't forget to hit **Apply Settings** so everything gets saved!
 
 ### Machine Profiles
 
-If you're planning to make any firmware modifications, gSenders Firmware tool at the top right of the screen defaults to displaying the "LongMill MK2 30x30" profile. If that's not your machine, then beside the word "Profile", select your machine from the dropdown menu (if it's not listed then select "Generic CNC").
+If you're planning to make any firmware modifications, first check the current machine profile selected at the bottom of the Config tab. The default in gSender is the "**LongMill MK2 30x30**" so select a different option in the dropdown if that's not your machine (if yours is not listed then select "Generic CNC").
 
-For instance most LongMills ship with **LongMill MK2 30x30** firmware pre-installed so it matches gSender, but if you have any other machines from Sienci Labs then you'll need to match it up (for example: 12x30 or 48x30 MK2, any sized MK1, AltMill, etc.). For **supported machines**, once you've made this change you might want to 'Restore Defaults' to ensure your machine has all the most up-to-date settings.
+For **supported machines**, once you've made this change you might want to 'Restore Defaults' to ensure your machine has all the most up-to-date settings.
+
+![](/_images/_gsender/_setup/gs_se_configprofile.jpg){.aligncenter .size-medium}
 
 Please Note: If your Z-axis is working in the opposite direction than expected, confirm you have the correct profile. MK2 users must choose either LongMill MK2 12x30, LongMill MK2 30x30, or LongMill MK2 48x30. You can find instructions on how to flash firmware here: <a href="https://resources.sienci.com/view/lmk2-grbl-firmware/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-grbl-firmware/</a>
 
-![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_config-profile.jpg){.aligncenter .size-full}
+If you're running into an issue where the size isn't correct when using Soft Limits for example, get the size from your manufacturer or their resources and you should find that the changes will be straightforward to make. Simply navigate from the Config tab -> Homing/Limits.
 
-If you're running into an issue where the size isn't correct when using Soft Limits for example, get the size from your manufacturer or their resources and you should find that the changes will be straightforward to make through the 'Firmware tool' within gSender. Simply apply your new measurements to the X-axis, Y-axis and Z-axis maximum travel fields. Then hit the apply changes button.
+![](/_images/_gsender/_setup/gs_se_configmaxtravel.jpg "In this example the Y-axis value has been adjusted."){.aligncenter .size-full}
 
-![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_config-travel.jpg){.aligncenter .size-full}
+Here you can see the maximum travel values. Simply adjust your new measurements to the X-axis, Y-axis and Z-axis maximum travel fields. Then hit the **Apply Settings** button.
 
 ## Running Longer Jobs (optional)
 
