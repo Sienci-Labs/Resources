@@ -12,7 +12,7 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_gsender/_classic/_setup-cl/gs_cl_se_updater.jpg
+featured_image: _images/_gsender/_classic/_using-cl/gs_cl_us_connected-idle.jpg
 ---
 
 This page acts as an easy reference for all past documentation written before gSender version 1.5.0. Similar to the current docs, it'll go over [**Setup and Layout**](#anonymous-information) items first, then introduce [**Basics Features**](#starting-up) for day-to-day use before progressing to more [**Advanced Features**](#shortcuts) such as shortcuts, macros, calibration tools, spindles, lasers, and more. If your're having some issues with gSender, definitely visit the [**Troubleshooting**](#problems-or-bugs) section to see fixes to common issues or see how you can get in touch with us. Remember, you can always quickly navigate the page by clicking the headings in the 'Page Contents'.
@@ -23,10 +23,27 @@ gSender will notify you when new updates are available, allowing you to download
 
 gSender updates always have the chance of encountering quirks, so if you have an important carve coming up or are just satisfied with your current setup then we'd typically recommend holding off until updating will be less 'mission-critical'. If you update accidentally and want to go back, you can also always <a href="#older-versions">downgrade</a>.
 
-![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_updater.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_classic/gs_cl_in_updater.jpg){.aligncenter .size-full}
 
 **If you upgrade to a new version, or downgrade to an older version, and gSender won't open or run (blank screen):**  
 You’ll want to find a file called “**.sender_rc**” and rename it so gSender can generate a new version without errors. Sometimes you might also want to delete the “**.sienci-sessions**” folder too.
+
+- For Windows: the file can usually be found on your hard drive, at: **C:/users/{your username}/.sender_rc**. Rename it to whatever you like, like “**.sender_rc_old**”, then try to reinstall gSender again.
+![](/_images/_gsender/_classic/gs_cl_in_update-senderrc.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/gs_cl_in_update-rcold.jpg){.aligncenter .size-medium}
+- For Mac/Linux: the file is in the home directory as a **hidden file**. You can either:
+  - In Finder go to **Go ➜ Computer ➜ Drive ➜ Users ➜ {your username}** then un-hide the ".sender_rc" file by pressing `CMD + Shift + .` keys. Rename it to whatever you like, like “**.sender_rc_old**”, then try to reinstall gSender again.
+  - Go into the Mac/Linux console and enter the command `mv ~/.sender_rc ~/.sender_rc_old`. You’ll be able to double check the renaming was successful by sending `ls -al | grep sender` in the console, where if you only see `.sender_rc_old`, you have successfully remanded and are ready to try to reinstall gSender.
+- If this solves your problem, you'll still be able to recover your old Start/Stop events and macros from the renamed file; just open it in a text editor and copy the macros you want to save so you can paste them back into gSender.
+
+## Older Versions
+
+If you just updated gSender and are finding that it's not working for you, downgrading again is always available:
+
+1. If you go here: <a href="https://github.com/Sienci-Labs/gSender/releases" target="_blank" rel="noopener">https://github.com/Sienci-Labs/gsender/releases</a>, the newest version will always be at the top and shown in bold text like "**v1.4.3**" for example
+1. Scroll down to find older versions and choose the next version down or whatever version number you remember using
+1. Once you're at the version you want, scroll down to find "**Assets**" and click the text to open the list of downloads
+1. Find the right one for you, Windows is ".exe", Mac is ".dmg", etc. and click the file name to start downloading it. Once it's downloaded, you can install it over your current gSender version and continue from there
 
 ## Anonymous Information
 
@@ -57,12 +74,9 @@ Let's do some configuration before connecting up to your CNC. Click the 'gear' a
   - Machine Profile
   - Preferred Units
   - Reverse workspace (flips the left and right-side controls if you prefer)
-
   ![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_config-general.jpg){.aligncenter .size-full}
-
 - **Visualizer Settings**
   - Set to light theme if you prefer
-
   ![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_config-vis.jpg){.aligncenter .size-full}
 
 ### Machine Profiles
@@ -111,11 +125,11 @@ In the separate window that appears, you’ll want to Expand the **USB Settings*
 
 After having done all of this, just be mindful now that sometimes a Windows update can remove these settings. If you have an update and want to be confident running your CNC, we'd recommend checking back on these settings to make sure they're still set properly.
 
+## Starting Up
+
 Here's a great video that goes over much of how a g-code sender works in the context of gSender. See Kelly explain many of its uses and features:
 
 https://www.youtube.com/watch?v=3XbJ0g7jp0I
-
-## Starting Up
 
 When you double click the gSender icon to open up the program, it can take several extra seconds to load if you have Microsoft real time virus protection on your computer. This scan delay should only happen the first time you turn on your computer.
 
@@ -150,11 +164,9 @@ The 'Rapid', 'Normal', and 'Precise' buttons will allow you to toggle to differe
 Each g-code file or project will have a starting position that all other movements are referenced off of. This is the zero or origin. There are two ways to manually set your zero on gSender.
 
 1. Set the zero for each axis one at a time using 'Zero X', 'Zero Y', and 'Zero Z' buttons
-
 ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_zero-individual.jpg){.aligncenter .size-medium}
 
 1. Set the zeros all at once using 'Zero All'
-
 ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_zero-all.jpg){.aligncenter .size-medium}
 
 The large blue numbers tell you the current position of your machine. If you want to return to your zero position, you can press the 'Go to' for each individual axis and the large blue numbers will read “0.00” once it's finished moving.
@@ -199,15 +211,15 @@ Probing automatically sets a zero position, usually at the bottom left corner of
 
 Usually you'd have to enter a tool diameter each time you probe, but gSender also gives the option to save tool sizes for re-use. You can see this in the 'Tools' section of the ‘Probe’ settings. Add different tools by entering the diameter in millimeters or inches, and then pressing 'Add Tool', and if you tend to use a specific-sized tool the most then make sure to have it at the top of the list to make it your Default.
 
-![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_add-tool.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_add-tool.jpg){.aligncenter .size-medium}
 
 Once you have set up the touch plate, banana plug and magnet on the machine, you can choose which axis to probe for, and the diameter of the bit you are using if applicable. The bit size can be selected from the drop-down of saved bits, or can be typed in manually. Jog the machine so that the bit is hovering over the Sienci Labs logo on the touch plate. Then press 'Probe'.
 
-![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_begin.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_begin.jpg){.aligncenter .size-medium}
 
 Before the process begins, there is a conductivity test to ensure that the touch plate components can conduct electricity, which allows a signal to be sent to the LongBoard when there is contact. You can either bring the touch plate to the end mill or touch the banana plug and magnet together. Make contact a few times just to confirm there is conductivity, as the red circle should flicker to green.
 
-![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_confirm.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_confirm.jpg){.aligncenter .size-medium}
 
 A blue button called 'Start Probe' will appear if you have successfully confirmed conductivity. Ensure that the touch plate components are set up for probing, then press 'Start Probe'. The machine will move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press 'Go to XY0'. The bit should be overtop the bottom left corner of the stock material, and pressing 'Go to' next to the 'Zero Z' should bring it to touch the surface. More information can be found on our touch-plate resource page. <a href="https://resources.sienci.com/view/lmk2-touch-plate/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-touch-plate/</a>
 
@@ -215,7 +227,7 @@ A blue button called 'Start Probe' will appear if you have successfully confirme
 
 If you have a different setup where probing the front, left corner is less convenient for you, gSender can also probe other corners by clicking the corner button. You'll see the blue arrow point to the corner you want to probe from, then you can follow the rest of the probing process the same way.
 
-![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_change-corner.gif){.aligncenter .size-full}
+![](/_images/_gsender/_classic/_using-cl/gs_cl_us_change-corner.gif){.aligncenter .size-full}
 
 ## Loading Job Files
 
@@ -305,8 +317,8 @@ It does this by looking through the whole g-code file up to where you want to re
 gSender is set up to do many things by default to help keep you aware about things going on with your machine. Though we can’t guarantee it can handle everything, we’ve recently introduced a new Settings menu for Safety where you can access many safety items in one place. This includes:
 
 1. **Warn on Zero**: an optional popup that appears when you click to 'zero' just in case you mis-clicked it.
-  ![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_zero-warn.jpg){.aligncenter .size-medium}
-  ![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_zero-warn.gif){.aligncenter .size-full}
+  ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_zero-warn.jpg){.aligncenter .size-medium}
+  ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_zero-warn.gif){.aligncenter .size-full}
 1. **Safe height movement**: this number is used when using the ‘Go to’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the Go to movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the Go to movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
 1. **G-code warnings**: reports back when it sees g-code lines that don’t look correct when the file is loaded or once it’s being sent to the machine. G-code has to follow specific ‘grammatical rules’ similar to other languages for the ‘sentences’ to be correct, so if the lines don’t look correct then your machine might run into problems understanding what it’s supposed to do.
 1. **Soft limits warning**: enables gSender to tell you when a loaded file might exceed the cutting area of your machine. This requires that your machine has limit switches and soft limits enabled.
