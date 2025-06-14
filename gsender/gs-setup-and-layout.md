@@ -148,15 +148,13 @@ Out with the old **Classic version**, and in with the **New U!!** Let's dive int
 
 We've combined similar features, and are excited to share things like our new **Stats Tab** which incorporates stats, maintenance, diagnostics, and more into a simple dashboard, as well as the new **Config Tab** which puts all of your settings into one place, so no more flipping between the Firmware and gSender settings.
 
-You will notice right away that as you click through the new UI, there are two section of your screen that are always available to you. The **Top bar** and the **Left bar**.
+You will notice right away that as you click through the new UI, there are two sections of your screen that are always available to access: the **Top bar** and the **Left bar**.
 
-#### Top Bar
+#### Top and Left Bars
 
-The top bar will show you several cool things, and will always be available to see. Feel free to click on some of these icons to see what they do! Moving from left to right, you will see your connection status, notification bell, machine information, machine status, and shortcuts for remote control, keyboard shortcuts & gamepad profiles.
+The top bar holds several cool things, moving from left to right you will see: your connection status, notification bell, machine information, machine status, and shortcuts for remote mode, keyboard shortcuts, and gamepad profiles. Feel free to click on some of these icons to see what they do!
 
 ![](/_images/_gsender/_setup/gs_se_trans-top-bar.jpg){.align-center .size-medium}
-
-#### Left Bar
 
 On the left side of the screen, you will see another bar that stays on the screen at all time, with 5 tabs. From top to bottom, these tabs are:
 
@@ -168,7 +166,7 @@ On the left side of the screen, you will see another bar that stays on the scree
 
 ![](/_images/_gsender/_setup/gs_se_trans-left-bar.jpg){.align-center .size-medium}
 
-Let's briefly checkout each tab, to see what goodies are there.
+Let's briefly check out each tab, to see what goodies are there.
 
 #### Main Carve Tab
 
@@ -202,19 +200,13 @@ One cool thing is that modified settings are highlighted, and a 'Show Modified' 
 
 ![](/_images/_gsender/_setup/gs_se_trans-modified.gif){.align-center .size-full}
 
-### 🌟 New Features
+### New Features
 
-Not only are there several new UI enhancements, there are also a couple of new features that we should mention. Connecting has been streamlined and you have more flexibility on how gSender displays on your screen.
-
-#### Automatic Firmware Detection
-
-Connecting is now easier! gSender now automatically detects your firmware type (Grbl/grblHAL) upon connection, selecting the appropriate controller settings. This feature simplifies the process, as you can select your default firmware choice in Config, and connect with a simple button press.
+There are also a couple of new features that we should mention. Connecting is now easier! gSender now automatically detects your firmware type (Grbl/grblHAL) upon connection, selecting the appropriate controller settings. This feature simplifies the process, as you can select your default firmware choice in Config, and connect with a simple button press.
 
 ![](/_images/_gsender/_setup/gs_se_trans-connect-auto.gif){.align-center .size-medium}
 
-#### Improved Visuals and Touch Support
-
-We've made several visual and usability upgrades to gSender. The visualizer now supports pinch-to-zoom on touch screens, **Dark Mode** to reduce eye strain, and includes a redesigned **Lightweight Mode** with easy presets. Turn these on by going to Config ➜ Customize UI.
+We've also made several visual and usability upgrades to gSender. The visualizer now supports pinch-to-zoom on touch screens, **Dark Mode** to reduce eye strain, and includes a redesigned **Lightweight Mode** with easy presets. Turn these on by going to Config ➜ Customize UI.
 
 If you're using a tablet or vertical screen, **Portrait Mode** is now supported—just rotate your device or change your display orientation.
 
@@ -225,7 +217,7 @@ Some other noteworthy features include:
 - **Console Enhancements**: Added console clearing functionality and arrow-scrollable input history for improved usability.
 - **Visual Tweaks**: Numerous UI adjustments, including updated icons, responsive sidebar sizing, and improved text legibility.
 
-### 📘 Getting Started with the New UI
+### Get Started
 
 To explore these new features:
 

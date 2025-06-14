@@ -12,7 +12,7 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_gsender/_using/gs_us_p2_IdleConnect.jpg
+featured_image: _images/_gsender/_using/gs_us_idleconnected.jpg
 ---
 
 ## Starting Up
@@ -70,7 +70,7 @@ Now that we've covered how to manually move, here are two ways to automatically 
 
 *Note - 'Go to XY' **will not** move the z-axis to its zero.*
 
-![](/_images/_gsender/_using/gs_us_Goto.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_us_goto.jpg){.aligncenter .size-medium}
 
 *Note: if you’ve set up “Safe Height” in gSender (Config ➜ Basics ➜ Safe Height), then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
 
