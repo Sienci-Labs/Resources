@@ -83,7 +83,7 @@ If you don't see these notifications, your system might not support it or your c
 
 gSender updates always have the chance of encountering quirks, so if you have an important carve coming up or are just satisfied with your current setup then we'd typically recommend holding off until updating will be less 'mission-critical'. Also, if you've spent time setting up shortcuts, gamepad profiles, start/stop code or you have specific probe settings, we recommend you **Export** your gSender preferences before updating. This way you will have all of your customizations saved so you can import them into the new version or use as a backup in case the you need to revert back to an older version.
 
-One example we often see is users will think they are using default gSender settings, but forget that they changed to the AutoZero touch plate. When upgrading and then attempting to probe, errors will happen unless you remember to go into the Config tab -> Probe and check it's still set to AutoZero instead of the Standard probe block.
+One example we often see is users will think they are using default gSender settings, but forget that they changed to the AutoZero touch plate. When upgrading and then attempting to probe, errors will happen unless you remember to go into the Config tab ➜ Probe and check it's still set to AutoZero instead of the Standard probe block.
 
 ![](/_images/_gsender/_install/gs_in_export-pref.jpg){.aligncenter .size-medium}
 

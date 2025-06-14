@@ -21,27 +21,22 @@ When you double click the gSender icon to open up the program, it can take sever
 
 ![](/_images/_gsender/_using/gs_us_notconnected.jpg){.aligncenter .size-medium}
 
-Connect to your CNC machine by hovering over the **Connect to CNC** button at the top left corner of the screen.
-
-***Note: You will need to select one of the COM ports if this is the 1st time connecting. Once you've connected for the first time, you can connect via Ethernet moving forward.***
-
-gSender will automatically detect if you are using "grbl" or "grblHAL" and connect you to the correct version. Most hobby boards use "grbl" including our original LongBoard, but if you have the SLB or LongMill MK2.5, then you'll use "grblHAL".
-
-Sometimes there’s more than one COM port available, so you may need to try both to see which one your machine is connected to. You will find them by clicking **Unrecognized Ports**.
+Connect to your CNC machine by hovering over the **Connect to CNC** button at the top left corner of the screen and clicking the first option (*note that it's recommended to connect this way on your first setup even if you're planning to use Ethernet in the long-run*).
 
 ![](/_images/_gsender/_using/gs_us_connectcnc.jpg){.aligncenter .size-full}
 
-Once you have clicked on the COM port, your machine will be connected. This is confirmed when you see the plug icon turn green. You will also find either *grbl* or *grblHAL* listed under the COM port selected. You can also see the status on the top center of the app change from **Disconnected** to **Idle**, and the controls activate, allowing you to press them. Most buttons stay gray if they're still inactive.
+After a moment you should see the plug icon turn green with a checkmark, the status bar at the top, middle change from **Disconnected** to **Idle**, and all the controls in the app become coloured indicating that they're ready to be used.
 
 ![](/_images/_gsender/_using/gs_us_idleconnected.jpg){.aligncenter .size-full}
 
-If you are not seeing those changes when you connect, please check the following:
+If you don't see all these changes happen, we'd recommend you check a couple things then retry:
 
-1. Any other programs that can talk to the Arduino are closed (ex. Arduino IDE, Easel, UGS).
-1. See if you have other COM ports available, and try to connect to them.
-1. Your **Baud Rate** is set to the default 115200. Your manufacturer may provide a different rate. This can be found under the Config tab -> Basics.
-1. Your **Default Firmware** also found in the Config tab -> Basics section at the very bottom. You can select either Grbl or grblHAL as your default firmware flavour, should the automatic connection fail.
+1. You have a secure connection between your machine's control board and computer.
+1. Click the 'Connect' button again to Disconnect, then hover over it to check if there are any other options listed that you can try. For some CNCs you might have to check the 'Unrecognized Ports' dropdown then <a href="https://resources.sienci.com/view/gs-feedback/#port-not-found" target="_blank" rel="noopener">help us update our list of recognized CNCs</a>.
+1. Ensure that any other programs that could be talking to your CNC are closed (ex. Easel, UGS, Arduino IDE).
+1. Update gSender's **Baud Rate** in Config ➜ Basics since your board might not use the typical 115200. Check the specs with your manufacturer.
 1. Arduino is securely attached to the LongBoard. (Not applicable for the SLB)
+1. If it's connecting but behaving oddly, gSender's automatic firmware detection might've failed. In this case ensure you set your board's correct firmware as *grbl* or *grblHAL* under Config ➜ Basics ➜ Firmware fallback.
 
 ## Jogging and Presets
 
@@ -55,18 +50,16 @@ The *Rapid*, *Normal*, and *Precise* buttons are preset values that will allow y
 
 ## Set Zero and Go tos
 
-Each g-code file or project will have a starting position that all other movements are referenced off of. This is called the **Workpiece zero**. There are two ways to manually set your zero on gSender, and a couple automatic options that we cover in [Probing](#probing).
+Each g-code file or project will have a starting position that all other movements are referenced off of. This is called the **Workpiece zero**. There are two ways to manually set your zero on gSender, and a couple automatic options that we cover in [Probing](#probing):
 
-The two ways to **set zero** manually are to either:
-
-- Zero each axis one at a time using 'X0', 'Y0', and 'Z0' buttons
-- Set them all at the same time with the Zero button
-
-![](/_images/_gsender/_using/gs_us_dro_zeroall.jpg){.alignnone width="61" height="30"}
+1. Zero each axis one at a time using 'X0', 'Y0', and 'Z0' buttons
+1. Set them all at the same time with the larger Zero button
 
 ![](/_images/_gsender/_using/gs_us_setzero.jpg){.aligncenter .size-full}
 
 The large blue numbers tell you the current position of your machine. Once you set the zero of each axis, they will all read 0.00.
+
+You can reset your zeros anytime when the machine is not actively running a job. The machine will remember your zero in most cases unless you forcibly move it by hand, but even then CNCs with homing can re-home and still return to the zero point.
 
 ![](/_images/_gsender/_using/gs_us_dro_allzeroes.jpg){.aligncenter .size-full}
 
@@ -79,29 +72,30 @@ Now that we've covered how to manually move, here are two ways to automatically 
 
 ![](/_images/_gsender/_using/gs_us_Goto.jpg){.aligncenter .size-medium}
 
-*Note: if you’ve set up “Safe Height” in gSender (Config -> Basics -> Safe Height), then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
+*Note: if you’ve set up “Safe Height” in gSender (Config ➜ Basics ➜ Safe Height), then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
 
 There is one more way to move automatically, but it isn't used to bring you back to 0.00. It's called **Go to Location**.
 
-If you want to go somewhere else quickly without manually jogging there, click the 'Paper Airplane' button to bring you to a specific location. You'll see a popup asking you where you want to go and you either type a specific location with the toggle pointing to ABS (Absolute movement - From your Zero point) or move some amount from where you are now and flip the toggle to INC (Incremental movement - From where your router is).
+If you want to go somewhere quickly without manually jogging there, click the 'Paper Airplane' button and you'll see a popup asking you where you want to go. Before you click "Go!" you can either:
+
+- Set the toggle to "ABS" then type a specific location you  want to go, for example X100 Y150 (an absolute/fixed location)
+- Set the toggle to "INC" then type the amount you want to move from where your CNC currently is, for example 5 in X and 10 in Y (an incremental/relative movement)
 
 ![](/_images/_gsender/_using/gs_us_goto-location.jpg){.aligncenter .size-medium}
 
-You can reset your zeros anytime when the machine is not actively running a job. The machine will remember your zero in most cases. If you turn the lead screw with your fingers or push the gantry, the machine does not know you moved it, therefore it will lose the zero position. You can jog on the Jog Control without losing your zero position because gSender knows you are moving the machine.
-
-You can also enter coordinates directly by clicking the blue text location value. It’ll turn into a white box where you can type any number, then hit the ‘enter’ key to confirm it. For instance you could set your Z-axis to 0.1mm instead of 0 if you’re using the paper method and you want to account for the paper thickness.
+You can also enter coordinates directly by clicking the blue text. It’ll turn into a white box where you can type any number, then hit the ‘enter’ key to confirm it. For instance you could set your Z-axis to 0.1mm instead of 0 if you’re using the paper method and you want to account for the paper thickness. You could also type “-10” for X if you want to set your zero 10mm to the right without having to jog there and click ‘X0’ (since if ‘zero’ is 10mm to the right, then your current location would be 0 - 10 = -10mm).
 
 ![](/_images/_gsender/_using/gs_us_dro_zeroboxmanual.jpg){.aligncenter .size-medium}
 
-## Endstop buttons
+## Homing buttons
 
-gSender provides unique features if you have endstops on your machine for homing or limits. Once homing is enabled in Config -> Homing cycle you’ll notice additional buttons appear in the ‘Location’ area of gSender:
+gSender provides unique features if your machine is capable of homing using limit switches. Once homing is enabled in Config ➜ Homing cycle you’ll notice additional buttons appear in the ‘Location’ area of gSender:
 
 ![](/_images/_gsender/_using/gs_us_endstop-park-home.jpg){.aligncenter .size-medium}
 
 - The **Home** button is a convenient way to home or re-home your machine at any time.
-- Four **Quick-Travel** buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed.
-- The **Park** button will allow you to move your machine to preset coordinates. Navigate to the Config tab -> Basics section to either enter the park coordinates by hand, or grab them based on your current location. Use the Go To button to test your new parking spot out!
+- Four **Quick-Travel** buttons help move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed.
+- The **Park** button will allow you to move your machine to a custom location set in Config ➜ Homing/Limits.
 
 If you'd like more information on how to set up and use these features, read here: <a href="https://resources.sienci.com/view/lmk2-limit-switches/#using-limit-switches" target="_blank" rel="noopener">Installing & Using Limit Switches</a>
 
@@ -111,7 +105,7 @@ If you'd like more information on how to set up and use these features, read her
 
 Probing automatically sets a zero position, usually at the bottom left corner of the stock material, using a touch plate. If you're not using a Sienci touch plate, <a href="https://resources.sienci.com/view/lmk2-limit-switches/#mk2-limit-switch-kit">read here to make sure your settings are set up correctly</a>.
 
-You can select the type of touch plate you are using in the Config -> Probe section. You can see the standard touch plate allows you to enter values (block thickness and probe speeds), while the AutoZero touch plate automatically fills these values in for you. This section also toggles the probe connection test on and off.
+You can select the type of touch plate you are using in the Config ➜ Probe section. You can see the standard touch plate allows you to enter values (block thickness and probe speeds), while the AutoZero touch plate automatically fills these values in for you. This section also toggles the probe connection test on and off.
 
 ![](/_images/_gsender/_using/gs_us_probeblock.gif){.aligncenter .size-full}
 
@@ -138,7 +132,7 @@ If you have already prepared a project file, ensure the following:
 1. The file is an \*.nc, \*.g-code, \*.tap, \*.gc, or \*.cnc file.
 1. The file is exported to the correct post processor for the LongMill. Please see this page for the correct post processor for your CAM software: <a href="https://resources.sienci.com/view/lm-post-processors/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-post-processors/</a>.
 
-To run your project on gSender, press the 'Load File' button. A dialog box will pop up, where you can navigate to where your file is. Here you can also select from recently loaded files, reload a file or close a file.
+To run your project on gSender, press the 'Load File' button. A dialog box will pop up, where you can navigate to where your file is. Here you can also select from recently loaded files, reload a file, or close a file.
 
 ![](/_images/_gsender/_using/gs_us_loadbar.jpg){.aligncenter .size-medium}
 
@@ -146,7 +140,7 @@ Once loaded, you’ll be able to toggle between **Info and Size** to reveal stat
 
 ![](/_images/_gsender/_using/gs_us_loadsizeinfo.jpg){.aligncenter .size-medium}
 
-Loaded files are shown on the Visualizer. With your file loaded, feel free to also check how it looks. In the bottom left corner of the visualizer use the ‘view cube’ to quickly switch between top, right, left, front, and 3D views by clicking on its different faces. You can also use your mouse scroll wheel to zoom in and out and left-click and drag or right-click and drag on the visualizer to rotate or slide around the work area.
+Loaded files are shown on the Visualizer so you can check out how it looks. Click the different sides of the ‘view cube’ in the bottom left corner to quickly switch between different views like: top, front, left, right, and 3D. You can also left-click and drag or right-click and drag to rotate or slide around the work area, or use your mouse scroll wheel to zoom in and out.
 
 ![](/_images/_gsender/_using/gs_us_visualizer.gif){.aligncenter .size-full}
 
@@ -166,9 +160,9 @@ In the default visualizer you’ll see that cutting movements that plan to be ma
 
 ![](/_images/_gsender/_using/gs_us_runningjob.gif){.aligncenter .size-full}
 
-At the bottom of the visualizer, an animated progress bar shows you several details about the job you are running, like completion %, estimated time remaining, g-code line counter and a running timer for how long you have been cutting.
+At the bottom of the visualizer, an animated progress bar shows you several details about the job you are running, like completion %, estimated time remaining, g-code line counter, and a running timer for how long you have been cutting.
 
-Additionally, you can **override the feed rate** and spindle speed of the program while the job is running by moving then letting go of the slider, pressing the ‘+’ and ‘-’ buttons for smaller adjustment, or clicking the rotated arrow to reset back to the default value. This is handy for fine-tuning the program cutting speed in order to tune in your material removal rate and ensure you don't burn or melt material. You can also do this before starting the job if you already know you’ll need to tweak the feed rate or spindle speed for your file you're about to run.
+Additionally, you can **override the feed rate** and spindle speed of the program while the job is running if you're finding the speeds you set in your file were too slow/fast. Do this by moving then letting go of the slider, pressing the ‘+’ and ‘-’ buttons for smaller adjustment, or clicking the rotated arrow to reset back to the default value. You can also do this before starting the job if you already know you’ll need to make tweaks.
 
 ![](/_images/_gsender/_using/gs_us_runningfeedbar.gif){.aligncenter .size-full}
 

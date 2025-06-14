@@ -26,8 +26,8 @@ When you open up gSender, you’ll notice a prompt regarding ‘Anonymous usage 
 Before starting to use gSender, let's briefly cover the way its functions are laid out so that you'll know where to find things moving forward. The program can be broken down into it's three major sections:
 
 1. The top toolbar (boxed in red), will stay visible regardless of what you are doing. It includes machine connection on the left side, notifications, system stats and current status in the middle, and shortcuts on the right.
-1. The left-sidebar (boxed in green) holds 5 main tabs; the Helper, the main Carve tab (which we have showing now), Stats, Tools, and Config.
-1. The main screen (boxed in blue) will show the contents of the selected tab in the left sidebar, with the default being the Carve tab.
+1. The left sidebar (boxed in green) is also always visible and holds 5 main tabs; the Helper, the main Carve tab (which we have showing now), Stats, Tools, and Config.
+1. The main screen (boxed in blue) will show the contents of the tab you select on the left sidebar, with the default being the Carve tab.
 
 ![](/_images/_gsender/_setup/gs_se_carve-overview.jpg){.aligncenter .size-medium}
 
@@ -72,20 +72,21 @@ The final tab is the configuration tab. Here you will find an extensive list of 
 
 ## Set up to Use
 
-Let's explore some common gSender settings to get your own setup up and running as you prefer. We can change how gSender looks, which display units you prefer, or adjust machine setup all in the same place. Some things you may want to configure would be:
+Let's explore some common gSender settings to help get your setup running the way you prefer. This will all happen in the Config tab, which if you remember can both adjust your machine setup, gSender preferences, and how gSender looks all in a single place. Some things you may want to configure would be:
 
-1. Preferred units
+1. **Preferred units**
    - In the Basics section, change which units (mm or inches) you want to see on the main Carve screen (Config units will always display as mm)
    ![](/_images/_gsender/_setup/gs_se_configstart.jpg){.aligncenter .size-medium}
    The Carve tab will always show the units you set at the top left corner of the DRO.
    ![](/_images/_gsender/_setup/gs_se_units-mainscreen.jpg){.aligncenter .size-medium}
-1. Enable other CNC functions
+1. **Enable other CNC functions**
    - If your CNC supports them, this can include a Spindle, Laser, Rotary axis, and more. Just go to the appropriate section in Config and the first option you should see should mention "enabling" it. After Applying the changes you'll see a new tab appear in the bottom-right of the main Carve screen.
    ![](/_images/_gsender/_setup/gs_se_hardware-enable.gif){.aligncenter .size-full}
-1. Notifications
+1. **Notifications**
    - In Basics ➜ Notifications, these can be customized to give you warnings when you load bad files, provide information at the end of a job, and more.
-1. Visualizer theme and Dark mode
+1. **Visualizer theme and Dark mode**
    - In the Basics section, both these settings help change the colours in gSender based on what will be easier on your eyes. Check them out if that sounds interesting!
+1. And lastly your **Machine Profile** which is explained more in the next section
 
 After these changes, don't forget to hit **Apply Settings** so everything gets saved!
 
@@ -97,13 +98,9 @@ For **supported machines**, once you've made this change you might want to 'Rest
 
 ![](/_images/_gsender/_setup/gs_se_configprofile.jpg){.aligncenter .size-medium}
 
-Please Note: If your Z-axis is working in the opposite direction than expected, confirm you have the correct profile. MK2 users must choose either LongMill MK2 12x30, LongMill MK2 30x30, or LongMill MK2 48x30. You can find instructions on how to flash firmware here: <a href="https://resources.sienci.com/view/lmk2-grbl-firmware/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-grbl-firmware/</a>
-
-If you're running into an issue where the size isn't correct when using Soft Limits for example, get the size from your manufacturer or their resources and you should find that the changes will be straightforward to make. Simply navigate from the Config tab -> Homing/Limits.
+If you're running into an issue where the size isn't correct when using Soft Limits for example, get the size from your manufacturer or their resources and update it in Config ➜ Homing/Limits ➜ X/Y/Z axis travel. Remember to hit the **Apply Settings** button afterwards.
 
 ![](/_images/_gsender/_setup/gs_se_configmaxtravel.jpg "In this example the Y-axis value has been adjusted."){.aligncenter .size-full}
-
-Here you can see the maximum travel values. Simply adjust your new measurements to the X-axis, Y-axis and Z-axis maximum travel fields. Then hit the **Apply Settings** button.
 
 ## Running Longer Jobs (optional)
 
@@ -217,7 +214,7 @@ Connecting is now easier! gSender now automatically detects your firmware type (
 
 #### Improved Visuals and Touch Support
 
-We've made several visual and usability upgrades to gSender. The visualizer now supports pinch-to-zoom on touch screens, **Dark Mode** to reduce eye strain, and includes a redesigned **Lightweight Mode** with easy presets. Turn these on by going to Config -> Customize UI.
+We've made several visual and usability upgrades to gSender. The visualizer now supports pinch-to-zoom on touch screens, **Dark Mode** to reduce eye strain, and includes a redesigned **Lightweight Mode** with easy presets. Turn these on by going to Config ➜ Customize UI.
 
 If you're using a tablet or vertical screen, **Portrait Mode** is now supported—just rotate your device or change your display orientation.
 
