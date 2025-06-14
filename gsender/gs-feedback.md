@@ -34,14 +34,14 @@ In order of importance, please collect together information of:
 
 Please attach the files and information in your post / <a href="mailto:hi@sienci.com">email</a> to us.
 
-![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_diagnostic-file.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_issues/gs_is_diagnostic-file.jpg){.aligncenter .size-full}
 
 ## Questions or Suggestions
 
 Send us the information, questions, or suggestions either on:
 
 - The <a href="https://forum.sienci.com/c/gSender/" target="_blank" rel="noopener"><b>gSender Forum</b></a>
-![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_gs-forum.jpg){.aligncenter .size-medium .flie}](https://forum.sienci.com/c/gSender/)
+[![](/_images/_gsender/_issues/gs_is_gs-forum.jpg){.aligncenter .size-medium .flie}](https://forum.sienci.com/c/gSender/)
 - <b><a href="https://github.com/Sienci-Labs/gSender" target="_blank" rel="noopener">Github page</a></b> (feel free to also submit PRs)
 - You can join the discussion on secondary communities like our <a href="https://www.facebook.com/groups/gSender" target="_blank" rel="noopener">Facebook gSender Group</a>, and <a href="https://www.facebook.com/groups/mill.one" target="_blank" rel="noopener">Facebook CNC Group</a>, but we can't provide as much support or hear feedback in these groups.
 
@@ -56,7 +56,7 @@ We'll continue keeping our ears out for common stumbling points while using gSen
    - For Windows-based computers you can read more on it here: <a href="https://support.microsoft.com/en-us/topic/-windows-cannot-access-the-specified-device-path-or-file-error-when-you-try-to-install-update-or-start-a-program-or-file-46361133-47ed-6967-c13e-e75d3cc29657" target="_blank" rel="noopener">https://support.microsoft.com/en-us/topic/-windows-cannot-access-the-specified-device-path-or-file-error-when-you-try-to-install-update-or-start-a-program-or-file-46361133-47ed-6967-c13e-e75d3cc29657</a>
 1. If gSender used to open fine but after an update it suddenly doesn't, check here since the update might've gotten corrupted: <a href="https://resources.sienci.com/view/gs-installation/#gSender-updates" target="_blank" rel="noopener">https://resources.sienci.com/view/gs-installation/#gsender-updates</a> (scroll past the first picture)
 1. If when you open gSender it gives you an error along the lines of "**Entry Point Not Found**", this means that you're trying to use a version of gSender past 1.2.2 with a 32-bit system. If you want to resolve this you'll either need to continue using a version of gSender 1.2.2 or earlier, or change to using a 64-bit system.
-![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm-32bit-error.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_issues/gs_is_cm_32bit-error.jpg){.aligncenter .size-medium}
 
 ### Screen goes Blank
 
@@ -84,7 +84,7 @@ It's not easy for us to simulate how a real CNC will behave if you're not connec
 
 If your machine connects on a COM port successfully but the machine status says "Disconnected" then this is not an issue with gSender. A 'Disconnected' status means that gSender isn't able to recognize your CNC even though it can see it.
 
-![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm-connect-disconnect.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_issues/gs_is_cm_connect-disconnect.jpg){.aligncenter .size-medium}
 
 1. Check that you have the right settings for your board, for instance click Settings ➜ Baud rate where most boards use 115200. Also your machine might not be supported yet by gSender if it isn't using grbl or grblHAL or your manufacturer edited the core firmware too much.
 1. Your board may have a faulty connection. Try unplugging it then plugging back in, use a different USB cable, a different USB port on your computer, or plug the cable directly in if you were using a USB hub.
@@ -159,7 +159,7 @@ If your g-code includes any workspace commands from G54 to G59, G59.1 to G59.3, 
 
 Alternatively, gSender's 'Start/Stop G-code' can also be equipped to sidestep problems with changing workspaces by saving the active workspace at the start of the program and then re-loading it at the end. This can be done with the commands `%global.state.workspace=modal.wcs` and `[global.state.workspace]` as shown in the picture below. Remember to 'Update Event' on both entries:
 
-![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm-workspace.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_issues/gs_is_cm_workspace.jpg){.aligncenter .size-full}
 
 ### Changed $1 and Motors still Hold
 
