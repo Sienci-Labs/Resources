@@ -52,50 +52,74 @@ You can close an alarm by clicking on the button that appears next to it in the 
 <tr>
 <td>2</td>
 <td>Soft limit</td>
-<td>Soft limit alarm. G-code motion target exceeds machine travel. Machine position retained. Alarm may be safely unlocked.</td>
+<td>G-code motion target exceeds machine travel. Machine position retained. Alarm may be safely unlocked.</td>
 <td><a href="https://youtu.be/I1EhAPNXdzQ?t=226" target="_blank" rel="noopener">Example</a></td>
 </tr>
 <tr>
 <td>3</td>
 <td>Abort during cycle</td>
-<td>Reset while in motion. Machine position is likely lost due to sudden halt. Re-homing is highly recommended. May be due to issuing g-code commands that exceed the limit of the machine.</td>
+<td>Machine position is likely lost due to sudden halt. Re-homing is highly recommended. May be due to issuing g-code commands that exceed the limit of the machine.</td>
 <td></td>
 </tr>
 <tr>
 <td>4</td>
 <td>Probe fail</td>
-<td>Probe fail. Probe is not in the expected initial state before starting probe cycle when G38.2 and G38.3 is not triggered and G38.4 and G38.5 is triggered. Your bit is likely making contact with the touch plate or the circuit is completed before the bit is moving. Move the bit away from the touch plate.</td>
+<td>Probe is not in the expected initial state before starting probe cycle when G38.2 and G38.3 is not triggered and G38.4 and G38.5 is triggered. Your bit is likely making contact with the touch plate or the circuit is completed before the bit is moving. Move the bit away from the touch plate.</td>
 <td><a href="https://youtu.be/I1EhAPNXdzQ?t=267" target="_blank" rel="noopener">Example</a></td>
 </tr>
 <tr>
 <td>5</td>
 <td>Probe fail</td>
-<td>Probe fail. Probe did not contact the workpiece within the programmed travel for G38.2 and G38.4. Your bit is too far away from the touch plate. Move the bit closer, it should be within 6-12mm (1/4 -1/2in) away.</td>
+<td>Probe did not contact the workpiece within the programmed travel for G38.2 and G38.4. Your bit is too far away from the touch plate. Move the bit closer, it should be within 6-12mm (1/4 -1/2in) away.</td>
 <td><a href="https://youtu.be/I1EhAPNXdzQ?t=306" target="_blank" rel="noopener">Example</a></td>
 </tr>
 <tr>
 <td>6</td>
 <td>Homing fail</td>
-<td>Homing fail. The active homing cycle was reset.</td>
+<td>The active homing cycle was reset.</td>
 <td></td>
 </tr>
 <tr>
 <td>7</td>
 <td>Homing fail</td>
-<td>Homing fail. Safety door was opened during homing cycle.</td>
+<td>Safety door was opened during homing cycle.</td>
 <td></td>
 </tr>
 <tr>
 <td>8</td>
 <td>Homing fail</td>
-<td>Homing fail. Pull off travel failed to clear limit switch. The machine is within the limit switches range when it tries to move away. Try increasing pull-off setting or check wiring.</td>
+<td>Pull off travel failed to clear limit switch. The machine is within the limit switches range when it tries to move away. Try increasing pull-off setting or check wiring.</td>
 <td><a href="https://youtu.be/jmiaWA5tiVw?t=563" target="_blank" rel="noopener">Example</a></td>
 </tr>
 <tr>
 <td>9</td>
 <td>Homing fail</td>
-<td>Homing fail. Could not find limit switch within search distances. Try increasing max travel, decreasing pull-off distance, or check wiring. The limit switch wasn't triggered in the distances expected. If your z-axis is moving away from the switch when homing, check your firmware and confirm you have the correct profile for your machine.</td>
+<td>Could not find limit switch within search distances. Try increasing max travel, decreasing pull-off distance, or check wiring. The limit switch wasn't triggered in the distances expected. If your z-axis is moving away from the switch when homing, check your firmware and confirm you have the correct profile for your machine.</td>
 <td><a href="https://youtu.be/jmiaWA5tiVw?t=531" target="_blank" rel="noopener">Example</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>EStop asserted</td>
+<td>You've pressed your E-stop to stop your machine! Unclick the E-stop, then clear this alarm to continue. <b>grblHAL specific</b></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Spindle at speed timeout</td>
+<td>Either the spindle hasn't gotten up to speed in the timeframe set for 'spindle at speed' or spindle has been wired incorrectly to your controller. Clear this alarm, check your setup, and try again. <b>grblHAL specific</b></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Homing fail</td>
+<td>Could not find second limit switch for auto squared axis within search distances. Try increasing max travel, decreasing pull-off distance, or check wiring. <b>grblHAL specific</b></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Motor fault</td>
+<td>Issue encountered with closed loop motor tracking. Position likely lost. <b>grblHAL specific</b></td>
+<td></td>
 </tr>
 </tbody>
 </table>

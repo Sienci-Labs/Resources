@@ -11,8 +11,8 @@ taxonomy:
 custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
-skip_file: yes
-featured_image: 
+skip_file: no
+featured_image: _images/_longmill/_advanced/_4_Inductive/lm_inductive_p1_DSC00411-scaled.jpg
 ---
 
 The Inductive Sensor Kit is a plug-and-play add-on kit for your LongMill, which adds three inductive sensors to your machine to act as limit and homing switches. **The kit can be ordered on our <a href="https://sienci.com/product/inductive-sensor-kit/">store</a>.**

@@ -1,5 +1,5 @@
 ---
-title: Sanding & Finishing
+title: ytsb Sanding & Finishing
 menu_order: 6
 post_status: draft
 post_excerpt: Everything you need to know about finishing your average CNC'd wood project. Become familiar with sanding, stains, painting, clear-coats, and common tools used.
@@ -11,8 +11,8 @@ taxonomy:
 custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
-skip_file: yes
-featured_image: /_images/_longmill/_assembly/_sandfinish/lm_sf_sand-title.jpg
+skip_file: no
+featured_image: _images/_longmill/_assembly/_sandfinish/lm_sf_sand-title.jpg
 ---
 
 If you're successfully making projects on your CNC, congrats! 🎉

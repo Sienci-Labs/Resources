@@ -11,8 +11,8 @@ taxonomy:
 custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
-skip_file: yes
-featured_image: 
+skip_file: no
+featured_image: _images/_longmill/_assembly/_commonissues/lm_commonissues_p4_ControlBoard.jpg
 ---
 
 This part of the resources covers common issues and fixes for the LongMill. If you run into an issue with your machine, we hope that this can help you diagnose and fix problems to get you milling as quickly as possible. If you can't find the answers here, please feel free to get in <a href="https://sienci.com/contact-us/technical-help/" target="_blank" rel="noopener">touch with us</a>.
@@ -75,7 +75,7 @@ When jogging or running the LongMill, one of the motors does not move correctly 
 - Check that all of the <a href="https://resources.sienci.com/view/lm-electronics/" target="_blank" rel="noopener">DIP switches</a> are properly seated in the correct orientation. If the switch is only part of the way on or off, the driver may not operate.
 - If one y-axis motor moves but the other doesn't. Switch the y connectors. If the issue moves to the other side, it might be the driver is supplying the wrong amount of current. Follow these <a href="https://resources.sienci.com/wp-content/uploads/2022/06/Stepper-Driver-Current-Adjustment.pdf" target="_blank" rel="noopener">instructions</a> to make adjustments.
 - Make sure your Arduino is fully seated in your control board. You can typically use a non-conductive tool to push it into the socket if it is starting to come loose.
-![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p4_ControlBoard.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p4_ControlBoard.jpg){.aligncenter .size-full}
 
 ### Machine is moving the wrong direction
 

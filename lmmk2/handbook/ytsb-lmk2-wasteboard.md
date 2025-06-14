@@ -11,8 +11,8 @@ taxonomy:
 custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
-skip_file: yes
-featured_image: 
+skip_file: no
+featured_image: _images/_lmmk2/_handbook/lmk2_wasteboard_gSsender-1-0-5-surfacing-utility-ann.png
 ---
 
 The wasteboard for your LongMill MK2 can come in all sorts of shapes and sizes and can allow you to do a variety of things such as:
@@ -21,7 +21,7 @@ The wasteboard for your LongMill MK2 can come in all sorts of shapes and sizes a
 - Spots to screw, tape, or glue material down
 - Low-profile side holding or camp clamps using t-track or threaded inserts
 - Elevated surface to allow sheet material to pass through for tiling
-- Spaced off with Y-axis risers to cut really thick materials or premade furniture
+- Spaced off with Y-axis risers to cut really thick materials or pre-made furniture
 - Mounted vise for metal fixturing or multi-axis machining
 - Vertical or pivoting surface for end grain CNCing
 
@@ -38,7 +38,7 @@ Surfacing is simply the process of 'flattening' your LongMill wasteboard setup. 
 
 When surfacing, you'll generally want to buy a purpose-made surfacing bit. These are made for light passes but are usually larger in diameter so they can cover a large area quickly and leave a good surface finish. Larger bits can also reach further outside the cutting area of the machine.
 
-We tend to use the <a href="https://sienci.com/product/22mm-surfacing-bit/">22mm surfacing bit</a> we sell on our store. If you don't have one of these available it's still possible to flatten your wasteboard with something as small as a 1/4" but it's going to take much longer to process your whole cutting area.
+We tend to use the <a href="https://sienci.com/product/22mm-surfacing-bit/" target="_blank" rel="noopener">22mm surfacing bit</a> we sell on our store. If you don't have one of these available it's still possible to flatten your wasteboard with something as small as a 1/4" but it's going to take much longer to process your whole cutting area.
 
 ### Making the G-code
 
@@ -54,8 +54,8 @@ With all these values in mind, you should be able to plug them into whatever pro
 
 We also have a 'Surfacing' utility built into gSender that you can use for g-code generation with much less fuss. Once you decide on your settings you can 'Generate G-code' to view the path and then 'Run on Main Visualizer' to import the g-code to run it just like a regular g-code file.
 
-<img class="size-medium wp-image-3408 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/gSsender-1-0-5-surfacing-utility-ann-850x442.png" alt="" width="850" height="442" />
+![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gSsender-1-0-5-surfacing-utility-ann.png){.aligncenter .size-medium}
 
-And there are still more options like INTUWiz, an online g-code generation program that is able to generate "facing" g-code (<a href="http://www.intuwiz.com/plane.html#.Xidt8sjYouV">http://www.intuwiz.com/plane.html#.Xidt8sjYouV</a>).
+And there are still more options like INTUWiz, an online g-code generation program that is able to generate "facing" g-code (<a href="http://www.intuwiz.com/plane.html#.Xidt8sjYouV" target="_blank" rel="noopener">http://www.intuwiz.com/plane.html#.Xidt8sjYouV</a>).
 
-<img class="wp-image-3409 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/INTUWiz-generation-850x542.png" alt="" width="850" height="542" />
+![](/_images/_lmmk2/_handbook/lmk2_wasteboard_INTUWiz-generation.png){.aligncenter .size-medium}

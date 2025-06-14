@@ -129,6 +129,7 @@ To fix the Windows driver:
 1. Right-click ➜ Uninstall device, then power cycle the board
 1. Once powered back up and reconnected, the SLB should reappear looking more normal. With this done, you can try flashing again - or if Windows still didn't install the correct driver then go through the [Windows Driver Update](#windows-driver-update) again.
 ![](/_images/_superlongboard/_firmware/slb_fi_p10_stm32-reset.png){.aligncenter .size-full .nar}
+1. If this still doesn't seem to work, you might've deleted the standard STM driver while using Zadig since the SLB wasn't in DFU mode. In this case go to <a href="https://www.st.com/en/development-tools/stsw-stm32102.html" target="_blank" rel="noopener">STMs website to re-download the drivers</a> (they should work even though they say they're for Windows 7) then try flashing again.
 
 [su_spoiler title="<h3>Ubuntu Driver Update</h3>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 
@@ -435,7 +436,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$31</b></td>
      <td>Minimum spindle speed</td>
-     <td><b>7200</b></td>
+     <td><b>7500</b></td>
      <td>RPM</td>
      <td style="text-align: left;">Minimum spindle speed, can be overridden by spindle plugins.</td>
    </tr>
@@ -674,7 +675,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$110</b></td>
      <td>X-axis maximum rate</td>
-     <td><b>5500</b></td>
+     <td><b>4000</b></td>
      <td>mm/min</td>
      <td style="text-align: left;" rowspan="4">Maximum rate. Used as G0 rapid rate.</td>
      <td rowspan="8"><a href="https://resources.sienci.com/view/slb-manual/#movement-amp-cutting-speeds">Docs</a></td>
@@ -682,13 +683,13 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$111</b></td>
      <td>Y-axis maximum rate</td>
-     <td><b>5500</b></td>
+     <td><b>4000</b></td>
      <td>mm/min</td>
    </tr>
    <tr>
      <td><b>$112</b></td>
      <td>Z-axis maximum rate</td>
-     <td><b>4500</b></td>
+     <td><b>4000</b></td>
      <td>mm/min</td>
    </tr>
    <tr>
@@ -700,14 +701,14 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$120</b></td>
      <td>X-axis acceleration</td>
-     <td><b>1000</b></td>
+     <td><b>750</b></td>
      <td>mm/sec^2</td>
      <td style="text-align: left;" rowspan="4">Acceleration. Used for motion planning to not exceed motor torque and lose steps.</td>
    </tr>
    <tr>
      <td><b>$121</b></td>
      <td>Y-axis acceleration</td>
-     <td><b>1000</b></td>
+     <td><b>750</b></td>
      <td>mm/sec^2</td>
    <tr>
      <td><b>$122</b></td>

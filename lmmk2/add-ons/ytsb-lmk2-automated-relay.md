@@ -1,6 +1,6 @@
 ---
 title: ytsb Automated / IOT Relay
-menu_order: 8
+menu_order: 9
 post_status: draft
 post_excerpt: Use an IOT relay on your LongMill CNC to automatically control power to your router, vacuum, lighting, or other AC power systems.
 post_date: 2022-03-17 20:29:00
@@ -11,8 +11,8 @@ taxonomy:
 custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
-skip_file: yes
-featured_image: 
+skip_file: no
+featured_image: _images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p5_FullDiagram.jpg
 ---
 
 You can use an IOT relay to automatically control power to your router, vacuum, lighting, or other AC power systems when you have a job running. The setup process consists of:
@@ -59,11 +59,11 @@ Now's a good time to quickly verify that everything has been hooked up correctly
 
 ![](/_images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p3_Testing.png){.aligncenter .size-medium}
 
-![](/_images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p4_Switch.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p4_Switch.jpg){.aligncenter .size-full}
 
 If you're not seeing the results you expect, double-check you've got your wires running correctly and the connectors are plugged in all the way to the relay and the LongBoard.
 
-If everything is behaving as expected, you'll now be able to test with the relay controlling whatever peripheral you're planning on hooking up (vacuum, router, etc.). Note that the IOT relay is built to handle <span dir="ltr">0-8A with 18AWG power cords and 0-12A with </span><span dir="ltr">16AWG cord.</span>
+If everything is behaving as expected, you'll now be able to test with the relay controlling whatever peripheral you're planning on hooking up (vacuum, router, etc.). Note that the IOT relay is built to handle 0-8A with 18AWG power cords and 0-12A with 16AWG cord.
 
 1. Be sure you've sent **M9** to your g-code sender and the relay power light is off.
 1. With the IOT relay toggle switch set to "OFF", plug in your external AC device. You'll normally want to use the "Normally Off" outlets since these turn ON with **M8** and OFF with **M9**, meanwhile the "Always On" outlet always provides continuous power and the "Normally On" outlet turns OFF with **M8** and turns ON with **M9**.

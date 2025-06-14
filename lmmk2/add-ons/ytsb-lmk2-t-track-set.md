@@ -11,8 +11,8 @@ taxonomy:
 custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
-skip_file: yes
-featured_image: 
+skip_file: no
+featured_image: _images/_longmill/_assembly/_addons/lm_addons_p18.png
 ---
 
 A T-Track system can be very useful and functional for your CNC bed if you find that it suits your needs. This workholding option comes alongside a wide variety of other options that exist when it comes to mounting materials and setting up jigs for your LongMill which you can read more about here: <a href="https://resources.sienci.com/view/lmk2-workholding/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-workholding/</a>
@@ -26,7 +26,7 @@ The reason we decided to make this t-track system available is because we design
 
 The t-track system is very flexible and can be used however you wish. If you'd like to see a generic approach to installation, you can follow either the write-up or video below. Scott begins the t-track installation starting at about 4 minutes into the video.
 
-https://www.youtube.com/watch?v=T4QVgtnZMDw?t=242
+https://youtu.be/T4QVgtnZMDw
 
 This layout minimizes reductions in cutting area and depth, and can be prepared in advance before your machine arrives. It uses a 48”x48”x ¾” MDF sheet, which can be purchased and cut to size at home or at your local hardware store.
 
@@ -77,4 +77,4 @@ The great thing about having a CNC machine is that you can make your own clamps 
 
 https://www.youtube.com/watch?v=cwDvnuouFlw
 
-For full details and file downloads, please see the <a href="https://sienci.com/2022/07/20/make-your-own-cnc-workholding-with-your-LongMill/">full article</a>.
+For full details and file downloads, please see the <a href="https://sienci.com/2022/07/20/make-your-own-cnc-workholding-with-your-LongMill/" target="_blank" rel="noopener noreferrer">full article</a>.

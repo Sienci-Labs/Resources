@@ -81,7 +81,7 @@ Let’s start moving plugs over to the SLB!
 1. On the **Back Side** of the **SLB**, plug in the power plug that we unplugged from the **LongMill** earlier.
 
    ![](/_images/_superlongboard/_upgrade/slb_up_p11_Power.jpg){.aligncenter .size-medium}
-1. Lastly, when looking at the **Back Side** of the **SLB**, you will see a power switch. Slide it to the ‘ON’ position to power on the **SLB**. It’s Alive!!
+1. Lastly, when looking at the **Back Side** of the **SLB**, you will see a power switch. **Slide it to the ‘ON’ position to power on the SLB**. It’s Alive!!
 
    ![](/_images/_superlongboard/_upgrade/slb_up_p12_OnOff.jpg){.aligncenter .size-medium}
 

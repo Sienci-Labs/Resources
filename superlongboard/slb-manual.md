@@ -153,7 +153,7 @@ Here’s a general wiring ‘map’ you can use as a reference to start hooking 
 
 Each SLB comes with an E-stop and pre-made wiring to keep you safe out-of-the-box when cutting. When pressed, the E-stop is designed to cut all power to your CNCs stepper motors and also send a signal back to the MCU to disable all other accessories that your SLB controls. This includes turning off the spindle, IOT Relay, and anything else that’s triggered by M3/4 and M7/8 commands. Use the E-stop when there's a hazard during carving and you need to immediately stop the machine.
 
-Otherwise, the SLB needs a 24V 10A power supply to run all stepper motors at rated current alongside the other onboard accessories. Higher current such as 24V 12.5A is even better so the power supply isn't strained even during peak draw. You can either provide this yourself, <a href="https://sienci.com/product/24v-12-5a-power-adapter-for-110vac/" target="_blank" rel="noopener">purchase one from us</a>, or use your existing one if you’re switching over to the SLB from our original LongBoard.
+Otherwise, the SLB needs a **24V 10A power supply** to run all stepper motors at rated current alongside the other onboard accessories. Higher current such as 24V 12.5A is even better so the power supply isn't strained even during peak draw. You can either provide this yourself, <a href="https://sienci.com/product/24v-12-5a-power-adapter-for-110vac/" target="_blank" rel="noopener">purchase one from us</a>, or use your existing one if you’re switching over to the SLB from our original LongBoard.
 
 1. The larger 2-pin plug on the left side is the power connection
 1. There’s a main power switch above it to switch main power to the whole board
@@ -195,7 +195,7 @@ To connect over Ethernet, you'll need:
 
 ![](/_images/_superlongboard/_manual/slb_ma_p12_USB.jpg){.aligncenter .size-full}
 
-Keep in mind that setting up Ethernet is a bit more involved, and at the time of SLB launch we’ll be primarily aiming to support direct Ethernet communication from a computer to the SLB; not sending over a network. Also the SLBs STM32 chip isn't capable of supporting firmware flashing over Ethernet so keep the USB-C cable handy if you need to do any future updates or recover from a board reset.
+Keep in mind that setting up Ethernet is a bit more involved, and at the time of SLB launch we’ll be primarily aiming to support direct Ethernet communication from a computer to the SLB; not sending over a network. Also **the SLBs STM32 chip isn't capable of supporting firmware flashing over Ethernet so keep the USB-C cable handy if you need to do any future updates or recover from a board reset**.
 
 #### Ethernet on Windows
 
@@ -270,6 +270,8 @@ Useful in cases of:
 We’ve found that a minimum of 15% works for lead screw-driven CNCs. These hold current settings will also apply even if $37 is off when the machine is cutting but that axis isn’t moving. Note that these settings won’t work for an A-axis since that would typically be done using the DIP switches on the external motor driver.
 
 ![](/_images/_superlongboard/_manual/slb_ma_p19_Steppers.jpg){.aligncenter .size-full}
+
+Note that since the Y1 and Y2 outputs share the same enable pin, they cannot be held independently even if they're assigned to different axes.
 
 ### Touch Plate/Probe
 
@@ -584,29 +586,27 @@ Read more about setting up an IOT Relay here: <a href="https://resources.sienci.
 
 #### Switch & Aux Power
 
-These outputs are far more powerful and customizable than Flood:
+These outputs are offer built-in options for more unique control than just a simple digital signal:
 
 - **Switch 1 and Switch 2 outputs** are like electrical switches that you can use to ‘switch on’ any external **1-24V circuits up to 1A**. This means you’ll need to provide an additional power supply separately to the circuit. Think of these like a mini version of a relay, known as a MOSFET.
 ![](/_images/_superlongboard/_manual/slb_ma_p35_S1S2.jpg){.aligncenter .size-full}
-- **Auxiliary Power outputs 1 and 2** can be used to provide **24V** to any powered accessory like a relay, SSR, solenoid for a mister or ATC, or LED strip; up to **250mA** per plug. This can be more convenient for powering less power-hungry components since the power comes straight from the SLB. It also makes more sense if you plan to then use an SSR to switch an air pump, dust collector motor, or spindle water cooling pump on and off.
+- **Auxiliary Power outputs 1 and 2** can be used to provide **24V** to any powered accessory like a relay, SSR, solenoid for a mister or ATC, or LED strip; up to **250mA** per plug. This can be more convenient for powering less power-hungry components since the power comes straight from the SLB. It also makes more sense if you plan to use an SSR to switch an air pump, dust collector motor, or spindle water cooling pump on and off.
 ![](/_images/_superlongboard/_manual/slb_ma_p36_AO12.jpg){.aligncenter .size-full}
+**Note:** Be mindful that these 'turn on' by enabling current flow to the 'ground'. This means you can’t typically use them to drive logic, only to drive current components, and also that the 24V is always 'live'.
 
-As opposed to the ‘Flood’ output which is controlled with M8 and M9, you can also customize what M commands will turn each of these outputs on and off in EEPROM. If you go to the ‘Firmware’ tool, you’ll see that $456-459 give you 4 options to choose from:
+You can also customize what M commands will turn each of these outputs on and off in the SLBs firmware. The $456-459 settings give you 4 options to choose from (SWT1=$456, SWT2=$457, PWR1=$458, PWR2=$459):
 
-- **Spindle/Laser Enable (M3/M4):** turns the output on with M3 or M4, and off with M5
-- **Mist Enable (M7):** turns on/off with M7/M9
-- **Flood Enable (M8):** turns on/off with M8/M9
-- **M62-M65 Only:** use this if you **don’t want** the output to be controlled by the common commands used by the other options. Instead, the output can only be controlled by its specialized M command which is always available to use. This also gives greater customization:
-  - Turns on/off with M62/63, but waits in line before running
-  - Turns on/off immediately with M64/65
-  - To select which output to control, refer to the picture below:
-  ![](/_images/_superlongboard/_manual/slb_ma_p37_P0P3.jpg){.aligncenter .size-full}
-  - For example, to turn on ‘Switch 1’ immediately, we’d send the command “**M64 P0**”
-  - Read more here: <a href="https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65" target="_blank" rel="noopener">https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65</a>
+1. **Spindle/Laser Enable (M3/M4):** turns the output on with M3 or M4, and off with M5
+1. **Mist Enable (M7):** turns on/off with M7/M9
+1. **Flood Enable (M8):** turns on/off with M8/M9
+1. **M62-M65 Only:** always available as a backup to control each port with a unique M command:
+   - Turn on/off with M62/63 (but wait in line before running)
+   - Turn on/off immediately with M64/65
+   - Use a 'P' command to choose the port to control (pictured below). For example "**M64 P1**" would turn on the SWT2 port immediately.
+   ![](/_images/_superlongboard/_manual/slb_ma_p37_P0P3.jpg){.aligncenter .size-full}
+   - Read more here: <a href="https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65" target="_blank" rel="noopener">https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65</a>
 
-Similar to the ‘Flood’ output, you’ll now be able to control ‘Switch’ and ‘AuxPwr’ outputs either manually, in g-code using your post processor, or using your g-code sender’s start/end g-code code blocks.
-
-**Note:** The ‘Auxiliary Power’ outputs are always providing power by default, so when it's 'turning on' it's actually enabling the 'ground' to allow current to flow. This means you can’t typically use it to drive logic, only to drive current components.
+Similar to the ‘Flood’ output, you’ll now also be able to control ‘Switch’ and ‘AuxPwr’ outputs either manually, in g-code using your post processor, or using your g-code sender’s start/end g-code code blocks.
 
 ### Spindle/RS485
 
@@ -697,17 +697,17 @@ Some VFDs don’t accept 5V PWM, in which case you can either try setting up RS4
 
 The typical settings if you want the simple signals as default will include:
 
-- $9 PWM Signal: Enable=on, RPM controls spindle enable signal=off
-- $16 Invert spindle signals: Spindle enable=on, Spindle direction=on, PWM=on
-- $30 Maximum spindle speed=30000 RPM
-- $31 Minimum spindle speed=10000 RPM
-- $32 Mode of operation=Normal
-- $33 Spindle PWM frequency=1000 Hz
-- $34 Spindle PWM off value=0%
-- $35 Spindle PWM min value=0%
-- $36 Spindle PWM max value=100%
+- $9 PWM Signal: Enable = on, RPM controls spindle enable signal = off
+- $16 Invert spindle signals: Spindle enable=on, Spindle direction = on, PWM = on
+- $30 Maximum spindle speed = 24000 RPM
+- $31 Minimum spindle speed = 7500 RPM
+- $32 Mode of operation = Normal
+- $33 Spindle PWM frequency = 1000 Hz
+- $34 Spindle PWM off value = 0%
+- $35 Spindle PWM min value = 0%
+- $36 Spindle PWM max value = 100%
 - $395 Default spindle: SLB_SPINDLE
-- $520 Spindle 0 tool number start=0
+- $520 Spindle 0 tool number start = 0
 - $666 Using Add-ons not used yet
 
 Verify these, then power-cycle your board to make sure the changes take effect. If you’re rather wanting to set up RS485 as default, then you’ll want to change $395 to one of the other options.
@@ -902,3 +902,21 @@ If you don’t happen to have these specific connectors on hand there are also c
 Right now there are a handful of plugs and pins on the SLB that technically don’t do anything useful yet which is why there's nothing in the manual on it. The idea was that by adding in the hardware at the start, we could keep working on testing and implementing firmware to make more features available to all SLB owners without having to buy a new board. We’re very excited about it but ultimately can't make any guarantees on what will and won't ultimately work, so that's why no features have been promised yet outside of what's already been tested and delivered. These ports include the: **Y2 Limit Switch**, **SaS Spindle pin**, **Pendant**, **SD card**, **Door**, **ADC**, **40-pin AUX COMM Header**, and **AUX IO Header**.
 
 If you’re still interested in trying these out without our support or documentation, <a href="https://resources.sienci.com/view/slb-welcome/#open-source" target="_blank" rel="noopener">we have all our board designs and firmware code available online for reference and modification</a> so you can feel free to try your own stuff and even contribute back to the project! For instance, you can see the <a href="https://github.com/Sienci-Labs/SuperLongBoard/blob/master/Project%20Outputs%20for%20Longboard_32bit/Schematic%20and%203D%20Prints/Longboard_32bit_Schematic_B6.1_FULL_PLACE.PDF" target="_blank" rel="noopener">40-pin inputs and outputs in the full schematic PDF</a> on page 19.
+
+#### Y-axis auto squaring
+
+Though this isn't yet supported in an official firmware build, you do have an option to try it out experimentally. Find the link here: https://forum.sienci.com/t/auto-squaring-on-the-slb/13753/18
+
+This feature is useful on less rigid machines, since systems with more flex are more likely to have the two Y-axes to get out of sync with each other. For strong-built CNCs it's better to fix the squareness of the hardware itself than to ask the motors to do it. You can imagine that asking your motors to constantly fight to bring the machine back into square puts much more strain on the system, and in some cases compensation might not even be possible.
+
+#### SD Card Macros
+
+Though this isn't yet supported in an official firmware build, you do have an option to try it out experimentally. Find the link here: https://forum.sienci.com/t/auto-squaring-on-the-slb/13753/20
+
+This feature allows you to run complex macros with variables and math from an SD Card inserted into the SLBs SD card slot. Once you flash the firmware, the remaining steps are to:
+
+1. Make a plain text file with standard g-code and/or variables and controls supported by grblHAL
+1. End the file with `M99`
+1. Name the file with a letter and three numbers, and ".macro" as the file extension, e.g. `P101.macro`
+1. Save it on the SD card then put it into the SLB and power cycle the board
+1. In this example, the g-code command `G65 P101` will now run the macro on the SD card

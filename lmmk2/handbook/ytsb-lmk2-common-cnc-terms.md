@@ -11,8 +11,8 @@ taxonomy:
 custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
-skip_file: yes
-featured_image: 
+skip_file: no
+featured_image: _images/_longmill/_the-basics/lm_cncterms_p1_Backlash.jpg
 ---
 
 ## Basics of a CNC Router
@@ -218,14 +218,14 @@ These are the settings you’d change to improve the performance of your cutting
 
 ## Sources & Other Info
 
-<a href="https://www.cnccookbook.com/cnc-dictionary/">https://www.cnccookbook.com/cnc-dictionary/</a><br>
-<a href="https://wiki.shapeoko.com/index.php/glossary">https://wiki.shapeoko.com/index.php/glossary</a><br>
-<a href="https://cimquest-inc.com/what-is-chip-load/">https://cimquest-inc.com/what-is-chip-load/</a><br>
-<a href="https://www.cnccookbook.com/climb-milling-versus-conventional-milling/">https://www.cnccookbook.com/climb-milling-versus-conventional-milling/</a><br>
-<a href="https://engmachineshop.wustl.edu/items/climb-milling-vs-conventional-milling/">https://engmachineshop.wustl.edu/items/climb-milling-vs-conventional-milling/</a><br>
-<a href="https://www.harveyperformance.com/in-the-loupe/ramping-success/">https://www.harveyperformance.com/in-the-loupe/ramping-success/</a><br>
-<a href="https://www.axyz.com/us/2018/11/16/technical-tip-of-the-week-when-to-use-lead-ins-and-ramps/">https://www.axyz.com/us/2018/11/16/technical-tip-of-the-week-when-to-use-lead-ins-and-ramps/</a><br>
-<a href="http://www.helmancnc.com/g-code-g95-feed-per-revolution/">http://www.helmancnc.com/g-code-g95-feed-per-revolution/</a><br>
-<a href="https://circlemwoodworking.com/cnc-router-motor-vs-spindle-which-is-better/">https://circlemwoodworking.com/cnc-router-motor-vs-spindle-which-is-better/</a><br>
-<a href="https://www.axyz.com/us/2018/02/22/using-a-compression-bit/">https://www.axyz.com/us/2018/02/22/using-a-compression-bit/</a><br>
-<a href="https://www.endmill.com.au/pcb-corn-cutter-carbide-router-bit/">https://www.endmill.com.au/pcb-corn-cutter-carbide-router-bit/</a>
+<a href="https://www.cnccookbook.com/cnc-dictionary/" target="_blank" rel="noopener noreferrer">https://www.cnccookbook.com/cnc-dictionary/</a><br>
+<a href="https://wiki.shapeoko.com/index.php/glossary" target="_blank" rel="noopener noreferrer">https://wiki.shapeoko.com/index.php/glossary</a><br>
+<a href="https://cimquest-inc.com/what-is-chip-load/" target="_blank" rel="noopener noreferrer">https://cimquest-inc.com/what-is-chip-load/</a><br>
+<a href="https://www.cnccookbook.com/climb-milling-versus-conventional-milling/" target="_blank" rel="noopener noreferrer">https://www.cnccookbook.com/climb-milling-versus-conventional-milling/</a><br>
+<a href="https://engmachineshop.wustl.edu/items/climb-milling-vs-conventional-milling/" target="_blank" rel="noopener noreferrer">https://engmachineshop.wustl.edu/items/climb-milling-vs-conventional-milling/</a><br>
+<a href="https://www.harveyperformance.com/in-the-loupe/ramping-success/" target="_blank" rel="noopener noreferrer">https://www.harveyperformance.com/in-the-loupe/ramping-success/</a><br>
+<a href="https://www.axyz.com/us/2018/11/16/technical-tip-of-the-week-when-to-use-lead-ins-and-ramps/" target="_blank" rel="noopener noreferrer">https://www.axyz.com/us/2018/11/16/technical-tip-of-the-week-when-to-use-lead-ins-and-ramps/</a><br>
+<a href="http://www.helmancnc.com/g-code-g95-feed-per-revolution/" target="_blank" rel="noopener noreferrer">http://www.helmancnc.com/g-code-g95-feed-per-revolution/</a><br>
+<a href="https://circlemwoodworking.com/cnc-router-motor-vs-spindle-which-is-better/" target="_blank" rel="noopener noreferrer">https://circlemwoodworking.com/cnc-router-motor-vs-spindle-which-is-better/</a><br>
+<a href="https://www.axyz.com/us/2018/02/22/using-a-compression-bit/" target="_blank" rel="noopener noreferrer">https://www.axyz.com/us/2018/02/22/using-a-compression-bit/</a><br>
+<a href="https://www.endmill.com.au/pcb-corn-cutter-carbide-router-bit/" target="_blank" rel="noopener noreferrer">https://www.endmill.com.au/pcb-corn-cutter-carbide-router-bit/</a>

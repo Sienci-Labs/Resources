@@ -42,13 +42,11 @@ Cons:
 
 Please note that lasers are **very dangerous**. Sienci Labs is not responsible for injury or damage caused by the use of aftermarket lasers on your machine.
 
-<ul>
-  <li>Always wear eye protection, specifically laser safety glasses with the correct Optical density (OD) to match your laser's wavelength range (nm)</li>
-  <li>Never point the laser at other people or yourself</li>
-  <li>Cut in a well-ventilated area or have a way to remove smoke</li>
-  <li><span class="redText"><b>DO NOT CUT/ENGRAVE:</b> PVC, ABS, Fibreglass, and any other materials that emit toxic fumes when cut</span></li>
-  <li>Never leave the machine and laser unattended, and make sure that you always have the equipment on hand to deal with fires</li>
-</ul>
+- Always wear eye protection, specifically laser safety glasses with the correct Optical density (OD) to match your laser's wavelength range (nm)
+- Never point the laser at other people or yourself
+- Cut in a well-ventilated area or have a way to remove smoke
+- <span class="redText"><b>DO NOT CUT/ENGRAVE:</b> PVC, ABS, Fibreglass, and any other materials that emit toxic fumes when cut</span>
+- Never leave the machine and laser unattended, and make sure that you always have the equipment on hand to deal with fires
 
 ## Installing a 3rd Party Laser
 
@@ -116,11 +114,9 @@ There are a couple test commands you can use to verify that all your wiring and 
 
 Test-firing a laser using grbl requires three things:
 
-<ol>
-  <li>An 'ON' signal (M3)</li>
-  <li>A power amount (S10). This is at 10% for safety and testing purposes</li>
-  <li>A movement command. This is a grbl safety feature that disables laser operation unless the CNC is moving</li>
-</ol>
+1. An 'ON' signal (M3)
+1. A power amount (S10). This is at 10% for safety and testing purposes
+1. A movement command. This is a grbl safety feature that disables laser operation unless the CNC is moving
 
 If you're using gSender the Laser On, Laser Test, and Laser Off buttons will take care of these commands for you, just be sure to set the power to 10% and the Test Duration to around 1-2 seconds. For other g-code senders, you'll test the laser using the Console input to your LongMill.
 

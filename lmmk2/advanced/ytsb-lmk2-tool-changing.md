@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: 
 ---
 
@@ -21,14 +21,12 @@ As you begin tackling more complex CNC projects, you'll start to notice that run
 
 This is the easiest and most straight forward approach to tool changing. Many CAM programs allow for each toolpath to be exported as separate files. By creating separate g-code files for each cutting tool you'll be using, you can just:
 
-<ol>
-  <li>Start with your first tool and first file</li>
-  <li>Wait for the file to complete then jog your router off to the side</li>
-  <li>Change the cutting tool out for the second one</li>
-  <li>Use a touch plate or tool length sensor to measure the new zero point (off your wasteboard or material, depending on how you set up the job)</li>
-  <li>Reposition and run the second file</li>
-  <li>Repeat this process until completion</li>
-</ol>
+1. Start with your first tool and first file
+1. Wait for the file to complete then jog your router off to the side
+1. Change the cutting tool out for the second one
+1. Use a touch plate or tool length sensor to measure the new zero point (off your wasteboard or material, depending on how you set up the job)
+1. Reposition and run the second file
+1. Repeat this process until completion
 
 Just be sure to give each file a clear naming scheme so you execute them in the right order and with the right tool. For example, your first file could be called "cat_1_v-bit", then your second "cat_2_endmill", and your third "cat_3_tapered". You can also specify the tool size or angle, any other prompts that ensure you run the order of files successfully with their corresponding bits.
 
