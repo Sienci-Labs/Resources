@@ -194,7 +194,7 @@ The Tools tab now contains all the widgets for surfacing your project, tuning yo
 
 The Config menu has been refined to display only relevant sections based on your machine's connection status and selected profile. It's a combination of the   preferences mixed with the  firmware settings, so now all  settings are in one place. In this short video, you can see these moved from the top right (Classic) to the bottom left corner of the screen (New U).
 
-![](../_images/_gsender/_setup/gs_se_trans-firmware-new.gif){.align-center .size-full}
+![](/_images/_gsender/_setup/gs_se_trans-firmware-new.gif){.align-center .size-full}
 
 One cool thing is that modified settings are highlighted, and a 'Show Modified' toggle allows you to filter and manage settings that have been changed from the machine default. You can reset to default settings at any time if you find a change you have made isn't working.
 
