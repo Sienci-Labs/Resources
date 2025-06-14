@@ -170,7 +170,7 @@ Let's briefly check out each tab, to see what goodies are there.
 
 #### Main Carve Tab
 
-We've improved the main screen, now called the **Carve Tab**. The right side (Blue) is very similar to Classic gSender -- all the blue buttons move the machine, whether it be jogging, homing or parking. Below, you can access many functions like Probe and Rotary. The middle/left side of the screen (Red) is like a dashboard,  you can load files, control the job and observe your progress in the visualizer.
+We've improved the main screen, now called the **Carve Tab**. The right side (Blue) is very similar to Classic gSender -- all the blue buttons move the machine, whether it be jogging, homing or parking. Below, you can access many functions like Probe and Rotary. The middle/left side of the screen (Red) is like a dashboard, you can load files, control the job and observe your progress in the visualizer.
 
 ![](/_images/_gsender/_setup/gs_se_trans-carvemain.jpg){.align-center .size-medium}
 
@@ -192,7 +192,7 @@ The Tools tab now contains all the widgets for surfacing your project, tuning yo
 
 ### Streamlined CNC Setup
 
-The Config menu has been refined to display only relevant sections based on your machine's connection status and selected profile. It's a combination of the   preferences mixed with the  firmware settings, so now all  settings are in one place. In this short video, you can see these moved from the top right (Classic) to the bottom left corner of the screen (New U).
+The Config menu has been refined to display only relevant sections based on your machine's connection status and selected profile. It's a combination of the preferences mixed with the firmware settings, so now all settings are in one place. In this short video, you can see these moved from the top right (Classic) to the bottom left corner of the screen (New U).
 
 ![](/_images/_gsender/_setup/gs_se_trans-firmware-new.gif){.align-center .size-full}
 
