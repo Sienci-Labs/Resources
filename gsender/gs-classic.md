@@ -318,7 +318,7 @@ gSender is set up to do many things by default to help keep you aware about thin
 
 1. **Warn on Zero**: an optional popup that appears when you click to 'zero' just in case you mis-clicked it.
   ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_zero-warn.jpg){.aligncenter .size-medium}
-  ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_zero-warn.gif){.aligncenter .size-full}
+  ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_zero-warn-gif.gif){.aligncenter .size-full}
 1. **Safe height movement**: this number is used when using the ‘Go to’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the Go to movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the Go to movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
 1. **G-code warnings**: reports back when it sees g-code lines that don’t look correct when the file is loaded or once it’s being sent to the machine. G-code has to follow specific ‘grammatical rules’ similar to other languages for the ‘sentences’ to be correct, so if the lines don’t look correct then your machine might run into problems understanding what it’s supposed to do.
 1. **Soft limits warning**: enables gSender to tell you when a loaded file might exceed the cutting area of your machine. This requires that your machine has limit switches and soft limits enabled.
