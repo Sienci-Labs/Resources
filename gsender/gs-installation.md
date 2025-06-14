@@ -75,11 +75,17 @@ If you're having issues installing gSender on your Mac:
 
 ## gSender Updates
 
-gSender will notify you when new updates are available, allowing you to download them quickly and get running with the latest version. If you don't see these notifications, your system might not support it or your computer Firewall may be blocking them but you should still be able to download the <a href="https://sienci.com/gSender/">newest version</a> manually and install it over-top the old version.
+gSender will automatically notify you when new updates are available, allowing you to download them quickly and get running with the latest version. When you see the green download icon on the top left corner of your screen, over the gSender logo, you know you have an update available. You can also navigate to the **Stats Tab**, then click on About in the center/bottom of the screen, to see if any updates are available. If you update accidentally and want to go back, you can also always <a href="#older-versions">downgrade</a>.
 
-gSender updates always have the chance of encountering quirks, so if you have an important carve coming up or are just satisfied with your current setup then we'd typically recommend holding off until updating will be less 'mission-critical'. If you update accidentally and want to go back, you can also always <a href="#older-versions">downgrade</a>.
+If you don't see these notifications, your system might not support it or your computer Firewall may be blocking them but you should still be able to download the <a href="https://sienci.com/gSender/">newest version</a> manually and install it over-top of the old version.
 
-![](/_images/_gsender/_install/gs_in_updater.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_install/gs_in_update.gif){.aligncenter .size-full}
+
+gSender updates always have the chance of encountering quirks, so if you have an important carve coming up or are just satisfied with your current setup then we'd typically recommend holding off until updating will be less 'mission-critical'. Also, if you've spent time setting up shortcuts, gamepad profiles, start/stop code or you have specific probe settings, we recommend you **Export** your gSender preferences before updating. This way you will have all of your customizations saved so you can import them into the new version or use as a backup in case the you need to revert back to an older version.
+
+One example we often see is users will think they are using default gSender settings, but forget that they changed to the AutoZero touch plate. When upgrading and then attempting to probe, errors will happen unless you remember to go into the Config tab ➜ Probe and check it's still set to AutoZero instead of the Standard probe block.
+
+![](/_images/_gsender/_install/gs_in_export-pref.jpg){.aligncenter .size-medium}
 
 **If you upgrade to a new version, or downgrade to an older version, and gSender won't open or run (blank screen):**  
 You’ll want to find a file called “**.sender_rc**” and rename it so gSender can generate a new version without errors. Sometimes you might also want to delete the “**.sienci-sessions**” folder too.
@@ -88,7 +94,7 @@ You’ll want to find a file called “**.sender_rc**” and rename it so gSende
 ![](/_images/_gsender/_install/gs_in_update-senderrc.jpg){.aligncenter .size-medium}
 ![](/_images/_gsender/_install/gs_in_update-rcold.jpg){.aligncenter .size-medium}
 - For Mac/Linux: the file is in the home directory as a **hidden file**. You can either:
-  - In Finder go to **Go ➜ Computer ➜ Drive ➜ Users ➜ {your username}** then unhide the ".sender_rc" file by pressing `CMD + Shift + .` keys. Rename it to whatever you like, like “**.sender_rc_old**”, then try to reinstall gSender again.
+  - In Finder go to **Go ➜ Computer ➜ Drive ➜ Users ➜ {your username}** then un-hide the ".sender_rc" file by pressing `CMD + Shift + .` keys. Rename it to whatever you like, like “**.sender_rc_old**”, then try to reinstall gSender again.
   - Go into the Mac/Linux console and enter the command `mv ~/.sender_rc ~/.sender_rc_old`. You’ll be able to double check the renaming was successful by sending `ls -al | grep sender` in the console, where if you only see `.sender_rc_old`, you have successfully remanded and are ready to try to reinstall gSender.
 - If this solves your problem, you'll still be able to recover your old Start/Stop events and macros from the renamed file; just open it in a text editor and copy the macros you want to save so you can paste them back into gSender.
 
