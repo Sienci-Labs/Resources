@@ -857,7 +857,7 @@ If you’re an **advanced user** or have tried the default values without succes
 1. gSender needs to restart in order for the remaining changes to take place. You can choose to restart immediately or wait until later.
 ![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_remote-setup-restart.jpg){.aligncenter .size-medium}
 1. If there was a problem using the specified IP address or Port, you’ll get an error window to let you know. In this case you should be able to reopen gSender, go back to the Remote Mode settings, and try another IP or Port until the setup is successful.
-![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_remote_setup-ip-error.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_remote-setup-ip-error.jpg){.aligncenter .size-medium}
 1. You’ll know the setup was successful if gSender restarts, the antenna icon is green, and numbers show next to it. As a quick test, click on the numbers to copy them then open a web browser like Chrome or Edge and paste them into the address bar and press enter (you can also type the number manually). After the page loads, you should see a copy of gSender running in the web browser! **If something’s not working**, check you followed the setup steps correctly or reference the firewall or troubleshooting sections below.
 ![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_remote-setup-done.jpg){.aligncenter .size-full}
 
@@ -1137,7 +1137,7 @@ If you find that gSender goes blank after you open it or while using it, there a
 1. Check your antivirus software or Windows Defender and add gSender as an exception.
 1. Check to ensure you have read/write permissions for the preferences file
    1. Let’s locate the file! It’s called .sender_rc and can usually be found on your hard drive at: C:/users/{your username}/.sender_rc
-   ![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm_blank-rc.jpg){.aligncenter .size-full}
+   ![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm-blank-rc.jpg){.aligncenter .size-full}
    1. Right-click on the file and choose properties. Under the security tab, check the name of your profile and confirm you have full control of the file.
    1. If not, select edit, choose your computer name, and grant permissions.
 1. If you’re still getting a blank screen, locate your log file and send it in to us. It's located at: C:/Users/{your user name}/AppData/Roaming/gSender/Logs/main.log
@@ -1158,7 +1158,7 @@ If your machine connects on a COM port successfully but the machine status says 
 1. Check that you have the right settings for your board, for instance click Settings ➜ Baud rate where most boards use 115200. Also your machine might not be supported yet by gSender if it isn't using grbl or grblHAL or your manufacturer edited the core firmware too much.
 1. Your board may have a faulty connection. Try unplugging it then plugging back in, use a different USB cable, a different USB port on your computer, or plug the cable directly in if you were using a USB hub.
 1. Your board might have other loose connections. Power off your machine, then use a non-conductive tool like a plastic utensil to push down on all 4 corners of your control board shield or Arduino. For the LongBoard you don’t need to open it, just flip it upside down and you’ll be able to access the Arduino through the slats on the bottom. Doing this will ensure that everything is fully plugged in since sometimes if the Arduino is slightly off the control board it can mess with its communication.
-![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm_push-uno.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm-push-uno.jpg){.aligncenter .size-medium}
 1. Your board might have corrupted firmware. Re-flash your board if it's a [LongBoard](https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Connected-but-No-Controls.pdf), [SLB](https://resources.sienci.com/view/slb-firmware-flashing/), or by following your manufacturers instructions.
 1. At the least when you plug the board to your computer over USB you should hear a 'connection' sound from your computer. You should also see a new device appear under the Devices and Printers on your computer. If none of these are happening, then that means your computer isn't recognizing the board so you might want to look at drivers or getting further technical support.
 
@@ -1190,15 +1190,15 @@ One key bit of information that we need on our end is a picture or screenshot of
 
 1. Make sure your CNC is plugged into your current computer via USB
 1. Open "Device Manager" in your Windows start menu
-![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm_device-manager.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm-device-manager.jpg){.aligncenter .size-medium}
 1. Expand the "Ports (COM & LPT)" heading
-![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm_device-port.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm-device-port.jpg){.aligncenter .size-medium}
 1. Find the listing related to your CNC. This will be the one that disappears and reappears if you unplug your CNC and plug it back in. It'll also be the port you normally connect to on other g-code senders.
 1. Right click that device and open "Properties"
 1. Open the "Details" tab at the top
 1. In the "Property" dropdown, select the "Hardware Ids" option
 1. Send us a picture of the final view. An example of what that might look like would be:
-![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm_device-id.jpg){.aligncenter .size-medium .nar}
+![](/_images/_gsender/_classic/_issues-cl/gs_cl_is_cm-device-id.jpg){.aligncenter .size-medium .nar}
 
 We appreciate your feedback, and with your help we'll make sure the next version of gSender recognizes your machine.
 

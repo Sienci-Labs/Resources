@@ -12,7 +12,7 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_gsender/_using/gs_us_clear-alarm.jpg
+featured_image: _images/_gsender/_issues/gs_is_alarm.jpg)
 ---
 
 The grbl firmware has a whole list of Alarms and Error codes that you can encounter when running your CNC. gSender will always display a question mark when there’s an alarm which you can hover over for more information about why it happened and errors will appear as a hovering box in the bottom corner of the visualizer.
