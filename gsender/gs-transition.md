@@ -55,6 +55,8 @@ Let's briefly checkout each tab, to see what goodies are there.
 
 We've improved the main screen, now called the **Carve Tab**. The right side (Blue) is very similar to Classic gSender -- all the blue buttons move the machine, whether it be jogging, homing or parking. Below, you can access many functions like Probe and Rotary. The middle/left side of the screen (Red) is like a dashboard,  you can load files, control the job and observe your progress in the visualizer.
 
+**Note - The view angle has been updated to reflect a left side setup. You have your control board and computer screen on the left side of your CNC, so now you are looking at your job from the correct angle.**
+
 ![](/_images/_gsender/_transition/gs_tr_carvemain.jpg){.align-center .size-medium}
 
 #### Updated Jog Controls and DRO
