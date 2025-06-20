@@ -156,7 +156,7 @@ If you are running gSender on an older or less powerful computer, you may want t
 
 ![](/_images/_gsender/_features/gs_fe_lightweight-1.jpg){.aligncenter .size-medium}
 
-What the feather icon does, depends on how you have your settings configured. If you go to Config -> Customize UI, you can change your visualizer theme to **Dark** or **Light** and also customize what lightweight mode you want the feather icon to employ, either **Light** (reduce strain on computer) or **Everything** (turn the visualizer off) modes.
+What the feather icon does, depends on how you have your settings configured. If you go to Config ➜ Customize UI, you can change your visualizer theme to **Dark** or **Light** and also customize what lightweight mode you want the feather icon to employ, either **Light** (reduce strain on computer) or **Everything** (turn the visualizer off) modes.
 
 ![](/_images/_gsender/_features/gs_fe_lightweight-2.gif){.aligncenter .size-full}
 
@@ -190,17 +190,17 @@ Many hobby CNCers don't have a need for coolant and so prefer to use these outpu
 
 ## Spindle & Laser Support
 
-Similar to the manual coolant control, this area is for manual control of a spindle or laser outside of g-code sending. If you have a spindle or laser, you can activate these controls by going to the Config tab -> Spindle/Laser section. Here you can enable these functions by flipping the enable Spindle/Laser toggle. Don't forget to apply your new settings!
+Similar to the manual coolant control, this area is for manual control of a spindle or laser outside of g-code sending. If you have a spindle or laser, you can activate these controls by going to the Config tab ➜ Spindle/Laser section. Here you can enable these functions by flipping the enable Spindle/Laser toggle. Don't forget to apply your new settings!
 
 ![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_laseron.gif){.aligncenter .size-full}
 
 Back at the main Carve screen, you'll see the ‘Spindle/Laser’ tab at the bottom right. Here you can click to toggle between 'Spindle Mode' and 'Laser Mode', changing your grbl settings for you and displaying buttons specific to each device. For each mode there is also a red caution circle that indicates whether the spindle or laser is active and a Spindle ON warning will appear in the Top bar.
 
-In **Spindle Mode** you can select your spindle setup, adjust the spindle speed with a slider, spin it up in either direction, and stop it again with the 'Stop' button. These are all based on g-code commands that can also be entered into the console manually if desired. The speed slider is set from your grbl firmware settings, so max and min speed can be altered in the Config tab -> Spindle/Laser tab.
+In **Spindle Mode** you can select your spindle setup, adjust the spindle speed with a slider, spin it up in either direction, and stop it again with the 'Stop' button. These are all based on g-code commands that can also be entered into the console manually if desired. The speed slider is set from your grbl firmware settings, so max and min speed can be altered in the Config tab ➜ Spindle/Laser tab.
 
 ![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_turnonoff.gif){.aligncenter .size-full}
 
-You can also use the buttons in the Config -> Spindle/Laser tab to a more limited degree, to spin forward, backwards and stop all movement. You can see the top bar SpindleON warning here too.
+You can also use the buttons in the Config ➜ Spindle/Laser tab to a more limited degree, to spin forward, backwards and stop all movement. You can see the top bar SpindleON warning here too.
 
 ![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_onoff-config.gif){.aligncenter .size-full}
 
@@ -316,7 +316,7 @@ Surfacing the wasteboard of your machine or any project, can easily be done righ
 
 ![](/_images/_gsender/_features/gs_fe_surfacing.jpg){.aligncenter .size-full}
 
-1. Start by entering the settings you’d like to use to generate your surfacing job:
+1. Start by entering the settings you’d like to use to generate your surfacing job on the left side:
    - **X & Y**: decides the cutting size (width and depth) you want to surface. If you’re surfacing your wasteboard, use the manufacturer’s spec on max machine travel or manually jog to the limits to cover the full cutting area, or if you’re surfacing a piece of material then you can use a measuring tape.<br>- **AltMill**: 1265mm (49") x 635mm (25") or 1251mm (49") x 174mm (6.8")<br>- **LongMill MK2**: 818mm (32.2”) or 1278mm (50.3”) x 366mm (14.4”) or 866mm (34.1”)<br>(if using limit switches, remove about 8mm/0.3” in X and 11mm/0.43” in Y)<br>- **LongMill MK1**: 320mm (12.6”) or 805mm (31.7”) x 344mm (13.54”) or 844mm (33.23”)<br>(if using limit switches, remove about 35mm/1.38” in X and 24mm/0.94” in Y)<br>(if using magnetic dust shoe, remove about 34mm/1.34” in X)<br>- **Mill One**: 235mm (9.25”) or 257mm (10.1”) x 185mm (7.28”)
    - **Cut Depth & Max**: describes how deep you want to cut per pass and the total depth you want to cut down. For larger surfacing bits usually you should keep cut depth below 1mm, max depth should be increased to a couple millimeters if you think your material is very warped.
    - **Bit Diameter** (typically 6 - 25mm): make sure you have the right bit for the job like a surfacing tool or a large, flat end mill since this will give you a better surface finish.
@@ -334,15 +334,15 @@ Surfacing the wasteboard of your machine or any project, can easily be done righ
 
 ![](/_images/_gsender/_features/gs_fe_surfacing4.jpg){.aligncenter .size-full}
 
-1. Press ‘Run on Main Visualizer’ to bring the g-code into gSender’s main screen. Make sure that you jog to the starting point and set your zero in the right place before starting the job. You can also press the ‘Outline’ button as an easy way to check that you’ll be surfacing where you expect and if you find the dimensions aren’t correct you can always re-open the surfacing tool, tweak the size, and try again. Feel free to start the job whenever you’re ready!
+1. Press **Load to Main Visualizer** to bring the g-code into gSender’s main screen. Make sure that you jog to the starting point and set your zero in the right place before starting the job. You can also press the **Outline** button as an easy way to check that you’ll be surfacing where you expect and if you find the dimensions aren’t correct you can always re-open the surfacing tool, tweak the size, and try again. Feel free to start the job whenever you’re ready!
 
 ![](/_images/_gsender/_features/gs_fe_surfacing5.jpg){.aligncenter .size-medium}
 
-Did you know that surfacing can be used for more than your wasteboard? It’s great for creating a perfectly flat surface of your starting materials, just like a jointer or surface planer would. You can also use the <a href="https://docs.google.com/document/d/1yUO8bMAw5XoRO8AWGc3ZB5_WVj12ARP-kvf5pciUNL0/edit#heading=h.r1c788pgn92b">Rotary Surfacing</a> tool if you are wanting round stock.
+Did you know that surfacing can be used for more than your wasteboard? It’s great for creating a perfectly flat surface of your starting materials, just like a jointer or surface planer would. You can also use the [Rotary Surfacing Tool](#rotary-surfacing-tool) if you are wanting round stock.
 
 ### Movement Tuning
 
-You are able to change how much your motors turn to improve the accuracy of your machine movement. This is done through modifying the EEPROM settings that are stored on your LongMill, which this process will guide you through. You can tune the X, Y and Z axes individually. All instructions are illustrated in the 'Calibration Tool', however a brief overview will be provided.
+You are able to fine tune how much your motors turn to improve the accuracy of your machine movement. This is done through modifying the EEPROM settings that are stored on your LongMill, which this *Software Wizard* (step by step guide) will help you complete. You can tune the X, Y and Z axes individually. All instructions are illustrated in the Tool tab ➜ **Movement Tuning** section, however a brief overview will be provided.
 
 You will need:
 
@@ -354,13 +354,14 @@ You will need:
 
 ![](/_images/_gsender/_features/gs_fe_movementtuning.jpg){.aligncenter .size-medium}
 
-1. Mark down the location of your reference on the machine. For example the X-axis tuning references the edge of the XZ gantry on the X rail
-1. Move the axis a chosen distance
-1. Measure the travel distance between the marked location and the reference edge
+1. **Mark down the starting location** of your reference point on the machine. For example the X-axis tuning references the edge of the XZ gantry on the X rail
+1. **Move** the axis a chosen distance (Default 100mm)
+1. **Measure** the travel distance between the starting location and the finishing location
+1. Enter the measured value into the **Set Distance Travelled** box
 
-![](/_images/_gsender/_features/gs_fe_movementtuning4.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/gs_fe_movementtuning2.jpg){.aligncenter .size-medium}
 
-1. Change the EEPROM setting as recommended by the procedure by pressing **Update Steps-per-MM**
+1. You can now change the EEPROM setting if recommended by the procedure by pressing **Update Steps-per-MM**. This will bring up a popup that explains the change about to be made, and allows you one last chance to cancel the update.
 
 ![](/_images/_gsender/_features/gs_fe_movementtuningfin.jpg){.aligncenter .size-medium}
 
@@ -368,9 +369,11 @@ You will need:
 
 ### XY Squaring
 
-When mounting your LongMill on the table, there is a basic squaring process illustrated in our instructions (<a href="https://resources.sienci.com/view/lm-table-mounting/">https://resources.sienci.com/view/lm-table-mounting/</a>). If you do find that the machine is not perfectly square, you can follow the steps in this process to fine tune the position of your rails.
+When mounting your LongMill on the table, there is a basic squaring process illustrated in our (<a href="https://resources.sienci.com/view/lm-table-mounting/#mounting-your-LongMill">Table Mounting Instructions</a>). If you do find that the machine is not perfectly square, you can follow the steps in this *Software Wizard* (step by step guide) to fine tune the position of your rails. All instructions are illustrated in the window, however a brief overview will be provided.
 
-When you access the ‘Calibration Tool’ window, the ‘XY Squaring’ procedure is shown on the first tab. All instructions are illustrated in the window, however a brief overview will be provided.
+1. Mark 3 points on your machine in a triangle
+1. Measure & enter the distance between the triangle points
+1. Review results and get adjustment recommendations
 
 ![](/_images/_gsender/_features/gs_fe_xysquaring.jpg){.aligncenter .size-medium}
 
@@ -378,56 +381,36 @@ You will need the following:
 
 - Ruler or measuring tape
 - Tapered bit or V-bit
-- Tape
+- Tape marked with an X
 
 1. Jog the machine to the front left corner, with the bit raised slightly over the surface of your wasteboard
-1. Mark the point with tape and move the machine as directed
+1. **Mark** the point with tape marked with an X, and move the machine as directed (Default 300mm)
 
-![](/_images/_gsender/_features/gs_fe_xysquaring1.jpg){.aligncenter .size-medium}
+   ![](/_images/_gsender/_features/gs_fe_xysquaring1.jpg){.aligncenter .size-medium}
 
-1. Continue to mark points and move the machine until all boxes are complete
+1. Continue to mark points and move the machine until all boxes are complete and your triangle is marked
 
-![](/_images/_gsender/_features/gs_fe_xysquaring5.jpg){.aligncenter .size-medium}
+   ![](/_images/_gsender/_features/gs_fe_xysquaring2.jpg){.aligncenter .size-medium}
 
-1. Measure the distance between each dot and enter accordingly into the 3 boxes
+1. Measure the distance between each dot and enter accordingly into the 3 boxes. In the next image you can see we entered 306 mm, not the expected/default 300mm. Hit the Confirm button to move to the next step
 
-![](/_images/_gsender/_features/gs_fe_xysquaring6.jpg){.aligncenter .size-medium}
+   ![](/_images/_gsender/_features/gs_fe_xysquaring3.jpg){.aligncenter .size-medium}
 
-1. Adjust your rail positions with the values determined by the XY Squaring procedure. If you are really out of square, you may see instructions to adjust your steps per mm, found in the Config -> Motors tab.
+1. Adjust your rail positions with the values determined by the XY Squaring procedure. If you are really out of square, you may see instructions to adjust your steps per mm, found in the Config ➜ Motors tab.
 
-![](/_images/_gsender/_features/gs_fe_xysquaring7.jpg){.aligncenter .size-medium}
+   ![](/_images/_gsender/_features/gs_fe_xysquaring4.jpg){.aligncenter .size-medium}
 
 The great advantage to this tool is it saves you having to do the trigonometry yourself and will also let you know if your machine is aligned closely enough that it’s not worth worrying about.
 
-### Firmware Tool
-
-Any board you have will come pre-installed with CNC firmware, along with the custom EEPROM settings for that machine, so typically you won’t need to access the ‘Firmware’ tool. If you choose to use this tool, it can give you access to many of your machines "behind-the-scenes" settings for tweaking or modding your setup.
-
-### Diagnostics
-
-If you’d like to see general information about your CNC or are experiencing issues that you’d like to troubleshoot, gSender has a Diagnostics tool for that. Access it by clicking the ‘Calibrate’ tool on the top-right and opening the ‘Diagnostics’ tab.
-
-Here you'll see machine information, notable firmware settings, and at-a-glance status on whether your limit switches, touch probe, or other pins are activated. This can be handy if you’re encountering odd behaviour with certain machine accessories or to double-check your wiring.
-
-![](/_images/_gsender/_features/gs_fe_tools_diagnostics.jpg){.aligncenter .size-full}
-
-Another valuable feature is the ability to download a Diagnostic PDF file of your CNC machine when you click ‘Download Now!’. This PDF file is meant to include information on your computer, your CNC, recent alarms / errors, any currently loaded g-code file, and more. It's basically a treasure trove of information that you can share on community forums, Facebook groups, or with your CNC customer support. This can go a long way towards getting help from others on diagnosing any problems your CNC might be experiencing.
-
-To download the PDF, click the “**Download Now!**” button. This will open a save dialog box. Save the file to a location that you can easily access to send along to others in an email, support ticket or post online.
-
-Lastly, you can copy the last 40 lines of code in the gSender console (1), by hitting the double page icon to the left of the Run button (2). This will copy the code to your clipboard, so you can paste it to forums or share it with support teams.
-
-![](/_images/_gsender/_features/gs_fe_copyconsole.jpg){.aligncenter .size-full}
-
 ## Stats Tab
 
-Curious to know how many jobs you’ve completed, how many hours you’ve put on your machine, what alarms you've encountered or what maintenance you should be focusing on? Click on the **Stats Tab** to see an Overview of all your stats. Here you can see information about your machine including job statistics, machine maintenance, alarms & errors, configuration settings, diagnostic files and resources to help along your CNC journey. You can check out the main overview page or click into each section to see further details. Click a tab at the bottom of the screen, or click on the button in each section.
+Curious to know how many jobs you’ve completed, how many hours you’ve put on your machine, what alarms you've encountered or what maintenance you should be focusing on? Click on the **Stats Tab** to see an Overview of all your stats. Here you can see information about your machine including job statistics, machine maintenance, alarms & errors, configuration settings, diagnostic files and resources to help along your CNC journey. You can check out the main dashboard tab, or click into each section to see further details with the tab at the bottom of the screen, or click on the button in the top right corner of each section.
 
 ![](/_images/_gsender/_features/gs_fe_statsconfig.jpg){.aligncenter .size-medium}
 
-### Job Stats
+### Your Machine Job Stats
 
-The Job Table tab provides a simplified breakdown of each job, including the file name, duration of the job, # of lines in the job, start time/date and if the job completed successfully or not. This section also displays jobs per port and run time per port.
+The Job Table tab provides a simplified breakdown of each job, including the file name, duration of the job, # of lines in the job, start time/date and if the job completed successfully or not. This section also displays jobs per port and run time per port. You can use the search bar at the top, to search each column for a specific job by date, file name, completion status, etc.
 
 ![](/_images/_gsender/_features/gs_fe_statsjobs.jpg){.aligncenter .size-medium}
 
@@ -447,13 +430,21 @@ In the Alarms & Errors tab, you will see a list or errors and alarms. Details in
 
 ![](/_images/_gsender/_features/gs_fe_statsalarmserrors.jpg){.aligncenter .size-medium}
 
-To read more about Alarms & Errors, visit [HERE!](https://resources.sienci.com/view/gs-grbl-alarm-error-codes/#alarms)
+To read more about Alarms & Errors, visit our [grbl Alarms & Errors](https://resources.sienci.com/view/gs-grbl-alarm-error-codes/#alarms) resource.
 
 ### Get Help
 
-If you have questions, need support, want to read up on specific features, or investigate cool community activities, you can check out the **Help section**. Here you can download a diagnostic file to share with support, read more of our [Resources](https://resources.sienci.com/), join our [Community](https://forum.sienci.com/) or dig into our [Github](https://github.com/Sienci-Labs/gsender/releases/) repository.
+Another valuable feature is the ability to download a **Diagnostic PDF** file of your CNC machine. This PDF file is meant to include information on your computer, your CNC, recent alarms / errors, any currently loaded g-code file, and more. It's basically a treasure trove of information that you can share on community forums, Facebook groups, or with your CNC customer support. This can go a long way towards getting help from others on diagnosing any problems your CNC might be experiencing.
 
 ![](/_images/_gsender/_features/gs_fe_statsgethelp.jpg){.aligncenter .size-medium}
+
+To download the PDF, click the **Download Now!**  button. This will open a save dialog box. Save the file to a location that you can easily access to send along to others in an email, support ticket or post online.
+
+Lastly, you can copy the last 40 lines of code in the gSender console, by hitting the double page icon to the left of the Run button. This will copy the code to your clipboard, so you can paste it to forums or share it with support teams.
+
+![](/_images/_gsender/_features/gs_fe_copyconsole.jpg){.aligncenter .size-full}
+
+If you have questions, need support, want to read up on specific features, or investigate cool community activities, you can read more of our [Resources](https://resources.sienci.com/), join our [Community](https://forum.sienci.com/) or dig into our [Github](https://github.com/Sienci-Labs/gsender/releases/) repository.
 
 ### Unsupported CNCs
 
@@ -462,15 +453,15 @@ If your CNC isn't listed below, then it's considered "unsupported":
 - Sienci Labs **LongMill** (MK1, MK2, and MK2.5), **AltMill**, and **Mill One** (V1, V2, and V3)
 - Don't see your machine on this list and want it fully supported? Let your manufacturer know to get in contact with us so that we can add their machine profiles to gSender :)
 
-If your machine is unsupported, it means that the Firmware Tool won't be able to perform the same features as for supported machines. In this case, **if your machine isn't working, contact your manufacturer to get their advice on how to fix it**. Using this tool makes it possible to ruin your machine further and we won't be able to help you with your specific hardware. For unsupported machines:
+If your machine is unsupported, it means that the Config tab may not be able to perform the same features as for supported machines. In this case, **if your machine isn't working, contact your manufacturer to get their advice on how to fix it**. Using this tab makes it possible to ruin your machine further and we won't be able to help you with your specific hardware. For unsupported machines:
 
-1. Choosing your machine **name** from the drop down menu is primarily cosmetic
+1. Choosing your machine **name** from the drop down menu is primarily cosmetic, unless you are restoring defaults
 1. **Flash** either vanilla grbl, or for grblHAL boards upload a hex file to flash a new firmware
 1. **Import** EEPROM settings from a file if you had settings that were working and something changed
 1. **Export** current EEPROM settings if you'd like to save your current setup in case something goes wrong
-1. **Defaults** restore all your machine settings back to typical vanilla grbl values
+1. **Defaults** restore all your machine settings back to typical vanilla grbl/grblHAL values
 
-![](/_images/_gsender/_features/gs_fe_firmwaretool.gif){.aligncenter .size-full}
+![](/_images/_gsender/_features/gs_fe_firmwaretool.jpg){.aligncenter .size-medium}
 
 ### Supported CNCs
 
@@ -505,33 +496,33 @@ For the text-box of the situation you want the action to happen, type in the g-c
 
 For CNC machines, tool changes are pauses that are programmed in the g-code for a user to switch out the cutting tool for a different one, or the machine to do that automatically. The workflow can also sometimes involve pausing until the user tells it to continue, usually through a 'Resume' and/or 'Confirm Tool Change' button on the machine interface. This allows you to run multiple toolpaths (cutting operations) within one g-code file.
 
-The g-code for tool changing is an M6 command. gSender is quite capable when it comes to customizing CNCs for tool changing, even having full Wizards built-in. The tool change options are in the Config ➜ Tool Change tab. You can select from one of 6 different options, and even choose to 'passthrough' the M6 and T commands to the CNC controller for CNCs that are capable of handling tool changes on their own.
+The g-code for tool changing is an M6 command. gSender is quite capable when it comes to customizing CNCs for tool changing, even having full Wizards built-in. The tool change options are in Config ➜ Tool Change tab. You can select from one of 6 different options, and even choose to 'passthrough' the M6 and T commands to the CNC controller for CNCs that are capable of handling tool changes on their own.
 
-![](/_images/_gsender/_features/gs_fe_toolchange.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_toolchange/gs_fe_toolchange.jpg){.aligncenter .size-full}
 
-You can **Ignore** any M6 tool change commands, **Pause** the job when a tool change is recognized, or select one of the last three **Wizards** that will guide you through pre-set tool changing methods. In the image below, you can see an example of the helper tab opening up the **Wizard** to guide you through the Standard Re-zero tool change.
+You can **Ignore** any M6 tool change commands, **Pause** the job when a tool change is recognized, or select one of the **Wizards** that will guide you through pre-set tool changing methods. In the image below, you can see an example of the helper tab opening up the **Standard Re-zero Wizard** to guide you through the tool change.
 
-![](/_images/_gsender/_features/gs_fe_toolchangewiz.gif){.aligncenter .size-full}
+![](/_images/_gsender/_features/_toolchange/gs_fe_toolchangewiz.jpg){.aligncenter .size-medium}
 
 If you are using one of the wizard options, know that you can access all other gSender controls while the wizard is open like jogging and zeroing. It also has flexibility to go back a step if you missed something or had a mistake, or to be minimized temporarily if you want to check the visualizer.
 
 1. **Ignore**<br>This simply ignores any M6 commands in the g-code file. This is the default option since it’s perfect for beginners that only make projects with one tool or those that create separate files for each tool and prefer to manually perform tool changes between files.
 1. **Pause**<br>Pauses gSender at the tool change point, as if you had hit the pause button manually. This gives you freedom to jog, zero, or anything else you’d like, and is great for those that are running multi-tool files but want to use a different process than the Wizards provide. This could be a manual probing process, a different tool changing approach, or running custom macros to support your machines specific hardware. gSender is compatible with tool length sensors like the Carbide 3D bitsetter, and our community has compiled a <a href="https://forum.sienci.com/t/bitsetter-and-other-tool-length-sensors-supported-in-gSender/3877/4">list of macros</a> for tool changing that you can use when you are paused. Just note that pausing can’t always guarantee keeping track of your movements and actions when it comes time to resume the job so try to ensure you get back to the starting point and set zeros correctly.
-1. **Standard Re-zero** (Wizard)<br>Titled ‘standard’ because it’s exactly the same as the standard process you might normally follow for running a file, changing the tool, re-zeroing Z, then running the next file except it’s applied to a single file with multiple toolpaths. Since the process is so familiar, this is a great way to dip your toes into tool changing within one file. Compatible with using a touch plate or the paper method, zero out at a predetermined spot (usually at the front left corner), and use jogging to move around. The advantage of introducing this extra automation and guidance during tool changes is that you don’t have to worry about custom macros and it reminds you of simple steps like turning the router back on or zeroing Z.
-1. **Flexible Re-zero** (Wizard)<br>Similar to the ‘standard’ wizard with similar steps and manual movements but provides the ability to zero Z off a point that wasn’t your starting Z when it comes time to change the tool. This is useful if you tend to carve away your material and lose the starting Z or you don’t have limit switches but would like a process similar to a tool length sensor.
-1. **Fixed Tool Sensor** (Wizard)<br>This is the most automated setting where all probes and movements are done for you, you only need to intervene by changing the tools. Set up the job and zero normally then expect the machine to move to the sensor location when it reaches a tool change, verify tool length, prompt for a change, probe new tool, then resume cutting. Your machine will need to be homed, have limit switches, and have a tool length sensor (compatible with Carbide 3D bitsetter for example) in order for this option to work. To set up the sensor mount the router/spindle as far down as you might typically put it, with the longest bit mounted in it, then jog it to hover over the tool length sensor with some room to spare and open the tool changing tab to grab that location. This will be the spot your machine moves to every tool change so if it’s too low or your sensor doesn’t work it’ll run into the sensor. You can also enter these coordinates manually, and test them with the Go To button.
+1. **Standard Re-zero** (Wizard)<br>Titled *standard* because it’s exactly the same as the standard process you might normally follow for running a file, changing the tool, re-zeroing Z, then running the next file except it’s applied to a single file with multiple toolpaths. Since the process is so familiar, this is a great way to dip your toes into tool changing within one file. Compatible with using a touch plate or the paper method, zero out at a predetermined spot (usually at the front left corner), and use jogging to move around. The advantage of introducing this extra automation and guidance during tool changes is that you don’t have to worry about custom macros and it reminds you of simple steps like turning the router back on or zeroing Z.
+1. **Flexible Re-zero** (Wizard)<br>Similar to the *standard* wizard with similar steps and manual movements but provides the ability to zero Z off a point that wasn’t your starting Z when it comes time to change the tool. This is useful if you tend to carve away your material and lose the starting Z or you don’t have limit switches but would like a process similar to a tool length sensor.
+1. **Fixed Tool Sensor** (Wizard)<br>This is the most automated setting where all probes and movements are done for you, you only need to intervene by changing the tools. Set up the job and zero normally then expect the machine to move to the sensor location when it reaches a tool change, verify tool length, prompt for a change, probe new tool, then resume cutting. Your machine will need to be homed, have limit switches, and have a tool length sensor (compatible with Carbide 3D bitsetter for example) in order for this option to work. To set up the sensor mount the router/spindle as far down as you might typically put it, with the longest bit mounted in it, then jog it to hover over the tool length sensor with some room to spare and open the tool changing tab to **Grab** that location. This will be the spot your machine moves to every tool change so if it’s too low or your sensor doesn’t work it’ll run into the sensor. You can also enter these coordinates manually, and test them with the **Go To** button. Don't forget to hit the **Apply Settings** button once you have your location set! 
 
-   ![](/_images/_gsender/_features/gs_fe_toolchangefixed.jpg){.aligncenter .size-full}
+   ![](/_images/_gsender/_features/_toolchange/gs_fe_toolchangefixed.jpg){.aligncenter .size-full}
 
 1. **Code**<br>You can enter your own macros before and after the tool change with this strategy selected which is fairly powerful for making tool changing processes that are more automated than just pausing.
 
-   ![](/_images/_gsender/_features/gs_fe_toolchangecode.jpg){.aligncenter .size-medium}
+   ![](/_images/_gsender/_features/_toolchange/gs_fe_toolchangecode.jpg){.aligncenter .size-medium}
 
 ## Machine Coordinates vs Workpiece Coordinates
 
 Above the Jog Controls is your DRO (Digital Read Out). This section allows you to do some automatic movement, set your zeros and see where you are in relation to the machine or the workpiece. Kinda like your car navigation system. You can also see if you are using mm or inches!
 
-![](/_images/_gsender/_using/gs_us_dro.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_dro/gs_fe_dro.jpg){.aligncenter .size-medium}
 
 Before we dive into the buttons in the DRO and what they do, let's review how coordinates are handled. In other words, before we drive the car, let's look at the map.
 
@@ -544,13 +535,13 @@ The **machine coordinate system** is a fixed, default system established by the 
 
  In contrast, the **workpiece coordinate system** is fully controlled by the CNC user. This system defines the position of the part on the machine table and ensures the tool moves accurately in relation to the workpiece.
 
-![](/_images/_gsender/_using/gs_us_dro_offset.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_dro/gs_fe_dro_offset.jpg){.aligncenter .size-medium}
 
 ### Machine Coordinate System 🏭
 
 The machine coordinate system refers to the CNC machine's own coordinate system, established by the manufacturer. This system is based on the machine's physical structure and its home position (often referred to as the machine's home or (0,0,0) point indicated by the **grey numbers**).
 
-![](/_images/_gsender/_using/gs_us_dro_machinecordfull.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_dro/gs_fe_dro_machinecordfull.jpg){.aligncenter .size-medium}
 
 When you power on the machine and perform a homing sequence, the machine references this built-in coordinate system to determine its position in space. This system ensures that the machine has a consistent reference point for all operations.​
 
@@ -558,76 +549,21 @@ When you power on the machine and perform a homing sequence, the machine referen
 
 The workpiece offset is a user-defined coordinate system that aligns the machine's operations with the specific location of the workpiece on the machine bed. This system allows users to set a new origin point (0,0,0) based on the workpiece's position.​ This is indicated by the **blue numbers** in the DRO.
 
-![](/_images/_gsender/_using/gs_us_dro_workpiececordfull.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_dro/gs_fe_dro_workpiececordfull.jpg){.aligncenter .size-medium}
 
 In gSender, you can set workpiece offsets using standard G-code commands like G54 to G59. These commands allow you to define multiple work coordinate systems, which is especially useful when working on different parts or setups without re-homing the machine each time.​ These are called your workspaces.
 
----
-## Homing & Limits
-
-Limit switches (also referred to as *inductive sensors*, *end stops* or *homing switches*) are sensors that sit at one or both ends of each movement axis of a CNC to provide a few different functions. gSender provides unique features if you have these switches installed on your machine. You can check out our sensors [HERE!](https://sienci.com/product/inductive-sensor-kit-for-the-longmill-mk2/)
-
-If you don't have sensors, skip ahead [HERE.](#probing)
-
-### Going Homing
-
-When we turn on homing, we can use 3 sensors to find our machine coordinate  home on our machine. For now, we will home to the front left corner of the machine. To enable Homing, Go to Config -> Limits and Homing -> Homing cycle enable -> toggle on.
-
-![](/_images/_gsender/_using/gs_us_dro_homingon.jpg){.aligncenter .size-medium}
-
-Using **grblHAL** enables several more detailed options for you to choose from, like homing single axes, requiring homing on startup, set machine origin to 0, and more. In this image, we have enabled homing, but **not** required it on startup. We have toggled to allow us to manually home the machine, and to **Set the machine origin to 0** once complete.
-
-![](/_images/_gsender/_using/gs_us_dro_hominghal.jpg){.aligncenter .size-medium}
-
-You’ll notice additional buttons appear in the DRO area of gSender:
-
-![](/_images/_gsender/_using/gs_us_dro_homingbtn.jpg){.aligncenter .size-medium}
-
-The **Home** button is a convenient way to home or re-home your machine at any time (sends the typical $h command). The machine will automatically move to your front left corner, using the sensors to position the router over machine home.
-
-![](/_images/_gsender/_using/gs_us_dro_rapidpositionbtn.jpg){.aligncenter .size-medium}
-
-Four **Rapid-Travel** buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed.
-
-![](/_images/_gsender/_using/gs_us_dro_parkbtn.jpg){.aligncenter .size-medium}
-
-You can configure a **Park Location** to move your router to a set spot consistently at the click of a button. To setup your parking spot, Go to Config -> Basics. Here you can enter the coordinates of your parking spot manually, or move your router/spindle to the spot and hit the **Grab** current position button. Test out your new spot by hitting the Go to button in settings or hitting the P button on the DRO.
-
-![](/_images/_gsender/_using/gs_us_dro_parksetting.jpg){.aligncenter .size-medium}
-
-### Set Those Limits
-
-If you’re having issues with the “quick-travel” buttons, then check the “maximum travel” settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings by going to Config tab -> Limits and Homing -> X-axis maximum travel (Y, Z axes are here too), 130-132. If you are using **grblHAL** you will also see A axis, 133.
-
-![](/_images/_gsender/_using/gs_us_limitssetl.jpg){.aligncenter .size-medium}
-
-If you'd like more information on how to set up and use limit switches, read here: <a href="https://resources.sienci.com/view/lm-adding-limit-switches/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-adding-limit-switches/</a>
-
-### Soft Limits
-
-With 3 sensors in place, and homing turned on, we can turn on soft limits. This feature will combine your 3 sensor homing cycle with your maximum travel lengths, so prevent you from going too far on each axis. To enable soft limits, Config -> Limits and Homing -> Soft limits enable -> toggle on. Don't forget to hit the Apply Settings button to save!
-
-![](/_images/_gsender/_using/gs_us_softlimit.jpg){.aligncenter .size-medium}
-
-### Hard Limits
-
-If you have a sensor on both sides of each axis, all 6 sensors can provide you a hardware backup solution, to the software solution provided above with the soft limits. With hard limits on, if your machine get's close to the edge of an axis, your sensor will trigger, stopping any further movement. To enable soft limits, Config -> Limits and Homing -> Hard limits enable -> toggle on. Don't forget to hit the Apply Settings button to save!
-
-![](/_images/_gsender/_using/gs_us_hardlimit.jpg){.aligncenter .size-medium}
-
----
-
-This page covers all the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, lasers, coolant, and more. Remember, you can always quickly navigate the page by clicking the headings in the 'Page Contents'.## Workspaces
+## Workspaces
 
 Usually you would only have one origin or zero position for your project. However, if you plan to do a series of projects that require different zero positions, or are lining up to do some more complex jigging or part batches, you may want to set up multiple workspaces all at once. This can save you time by not having to set a zero position for repetitive tasks or specific jig setups. You can do this by creating up to six different zero positions with the six workspaces in gSender. Access each 'Workspace' at the top right of the program by pressing the drop down to select which workspace to use. gSender will act completely in-line with whatever workspace you've selected, whether you want to set zero, probe, surface, or anything else.
 
-![](/_images/_gsender/_features/gs_fe_dro_workspacesdrop.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_dro/gs_fe_dro_workspacesdrop.jpg){.aligncenter .size-medium}
 
 The use of different **Workspaces** is most helpful when the machine is able to home the machine coordinate system. Once homed you can select a workspace and setup your project, and gSender will remember where you set the zero for the new workspace. The challenge then becomes placing the project in the correct spot for each workspace. Often a jig is created, to ensure perfect placement for your workpiece each time. You can use a workspace without homing/sensors, but it's not very repeatable, and you would be resetting them often with each power cycle.
 
 In the image below you can see 4 different workspaces setup, with the zero in the bottom left corner, and the circle in the middle.
 
-![](/_images/_gsender/_features/gs_fe_workspaces.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_dro/gs_fe_dro_workspaces.jpg){.aligncenter .size-medium}
 
 **Note:** *Some files may use a toolpath post processor that changes your workspace!*
 
@@ -635,15 +571,65 @@ The video below explains the process in greater detail. If you're coming from a 
 
 https://youtu.be/jmiaWA5tiVw?t=336
 
+## Homing & Limits
+
+Limit switches (also referred to as *inductive sensors*, *end stops* or *homing switches*) are sensors that sit at one or both ends of each movement axis of a CNC to provide a few different functions. gSender provides unique features if you have these switches installed on your machine. You can check out our sensors [Sensor Kit](https://sienci.com/product/inductive-sensor-kit-for-the-longmill-mk2/)
+
+### Homing
+
+When we turn on homing, we can use 3 sensors to find our machine coordinate  home on our machine. For now, we will home to the front left corner of the machine. To enable Homing, Go to Config ➜ Homing/Limits ➜ Homing cycle enable ➜ toggle on.
+
+![](/_images/_gsender/_features/_dro/gs_us_dro_homingon.jpg){.aligncenter .size-medium}
+
+Using **grblHAL** enables several more detailed options for you to choose from, like homing single axes, requiring homing on startup, set machine origin to 0, and more. In this image, we have enabled homing, but **not** required it on startup. We have toggled to allow us to manually home the machine, and to **Set the machine origin to 0** once complete.
+
+![](/_images/_gsender/_features/_dro/gs_fe_dro_hominghal.jpg){.aligncenter .size-medium}
+
+You’ll notice additional buttons appear in the DRO area of gSender:
+
+![](/_images/_gsender/_features/_dro/gs_fe_dro_homingbtn.jpg){.aligncenter .size-medium}
+
+The **Home** button is a convenient way to home or re-home your machine at any time (sends the typical $h command). The machine will automatically move to your front left corner, using the sensors to position the router over machine home.
+
+![](/_images/_gsender/_features/_dro/gs_fe_dro_rapidpositionbtn.jpg){.aligncenter .size-medium}
+
+Four **Rapid-Travel** buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). **These should only be used once your machine is homed.**
+
+![](/_images/_gsender/_features/_dro/gs_fe_dro_parkbtn.jpg){.aligncenter .size-medium}
+
+You can configure a **Park Location** to move your router to a set spot consistently at the click of a button. To setup your parking spot, Go to Config ➜ Homing/Limits and scroll down to the bottom of the section. Here you can enter the coordinates of your parking spot manually, or move your router/spindle to the spot you wish to park and hit the **Grab** current position button. Test out your new spot by hitting the Go to button in settings or hitting the P button on the DRO. Don't forget to hit the Apply Settings button to save your new spot!
+
+![](/_images/_gsender/_features/_dro/gs_fe_dro_parksetting.jpg){.aligncenter .size-medium}
+
+### Setting Limits
+
+If you’re having issues with the “quick-travel” buttons, then check the **maximum travel** settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings by going to Config tab ➜ Homing/Limits ➜ X-axis maximum travel (Y, Z axes are here too), 130-132. If you are using **grblHAL** you will also see A axis, 133.
+
+![](/_images/_gsender/_features/_dro/gs_us_limitssetl.jpg){.aligncenter .size-medium}
+
+If you'd like more information on how to set up and use limit switches, read here: <a href="https://resources.sienci.com/view/lm-adding-limit-switches/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-adding-limit-switches/</a>
+
+### Soft Limits
+
+With 3 sensors in place, and homing turned on, we can turn on soft limits. This feature will combine your 3 sensor homing cycle with your maximum travel lengths, to prevent you from going too far on each axis. Think of this as a software limit, we use 3 limit switches + your max travel to calculate your soft limits. To enable soft limits, Config ➜ Homing/Limits ➜ Soft limits enable ➜ toggle on. Don't forget to hit the Apply Settings button to save!
+
+![](/_images/_gsender/_features/_dro/gs_fe_dro_softlimit.jpg){.aligncenter .size-medium}
+
+### Hard Limits
+
+If you have a sensor on both sides of each axis, all 6 sensors can provide you a hardware backup solution, to the software solution provided above with the soft limits. With hard limits on, if your machine get's close to the edge of an axis, your sensor will trigger, stopping any further movement. To enable hard limits, Config ➜ Homing/Limits ➜ Hard limits enable ➜ toggle on. Don't forget to hit the Apply Settings button to save!
+
+![](/_images/_gsender/_features/_dro/gs_fe_hardlimit.jpg){.aligncenter .size-medium}
+
 ## Settings
+
+gSender’s settings are stored on a file on whatever computer is used to run it. Settings include such items as preferred units, machine preset, probe, tools, jogging presets, keymapping, tool change g-code, start/stop g-code, and more. If you plan on using a different computer to run your CNC using gSender or want to run gSender remotely, some of these settings might be very important to carry over to the alternate computer to make sure things keep running as expected.
 
 ### Transferring Settings
 
-gSender’s settings are stored on a file on whatever computer is used to run it. This mostly includes everything that you’ll find in the settings menu such as units, machine preset, probe, tools, jogging presets, keymapping, tool change g-code, start/stop g-code, and more. If you plan on using a different computer to run your CNC using gSender or want to run gSender remotely, some of these settings might be very important to carry over to the alternate computer to make sure things keep running as expected.
+To transfer your settings over, let's begin by exporting a save file:
 
-To transfer your settings over:
-
-1. Begin by opening gSender, going to the Config Tab, and clicking the **Export** button in the top right corner of the screen.
+1. Go to the Config Tab, and click the **Export** button in the top right corner of the screen.
   ![](/_images/_gsender/_features/gs_fe_preferences.jpg){.aligncenter .size-medium}
 1. Save the file somewhere onto your computer that you can find afterwards
   ![](/_images/_gsender/_features/gs_fe_preferences1.jpg){.aligncenter .size-medium}
@@ -674,20 +660,34 @@ Before diving into the setup, here are some quirks and warnings that are importa
 - This feature is NOT intended to enable use of your CNC while AWAY FROM YOUR WORKSHOP. A CNC should always be run while you or another knowledgeable operator is in the vicinity to ensure safe machine operation and be able to react if intervention is required. CNCs can cause fires from electronics, material friction, and can have other safety hazards if not properly monitored
 - In other contexts this feature could be thought of as running ‘headless’ but it doesn’t fully meet the requirements of that term. Though remote controlling the CNC from another computer should reduce the requirements of the inline computer, at minimum it still needs to boot the idle version of gSender with a window manager. This is in contrast to a fully ‘headless’ setup where a skinned-down program exists only to pass along information from other devices with no UI to send along information itself
 
-### Enabling Remote Mode
+### Enabling & Connecting
 
-All setup steps need to happen on the inline computer (the computer you’ll have connected via USB to your CNC) and have been simplified to mostly happen within gSender.
+All setup steps need to happen on the inline computer (the computer you’ll have connected via USB to your CNC) and have been simplified to all happen within gSender.
 
-1. To begin, click the satellite antenna icon on the top right of the screen. If the icon isn’t there, you’ll need to make sure you have a newer version of gSender that supports this feature.
+1. To begin, click the cell phone icon on the top right of the screen.
   ![](/_images/_gsender/_features/gs_fe_remotemode.jpg){.aligncenter .size-medium}
-1. This is where remote mode is set up. First you’ll want to click the ‘Enable Remote Mode’ toggle. Second, click the box next to ‘IP’ and select one of the options that gSender tries to recommend for your particular computer network. For an average setup the ‘Port’ value can also be left alone. The third step is to click on OK once you have completed the configuration. **You can also use your camera to scan the QR code, and be taken directly to your remote interface!**
-  ![](/_images/_gsender/_features/gs_fe_remotemode1.jpg){.aligncenter .size-full}<br>
+1. This is where remote mode is enabled. Click the **Enable Remote Mode** toggle. Then click on the Save button.
+  ![](/_images/_gsender/_features/gs_fe_remotemode1.jpg){.aligncenter .size-medium}<br>
+1. gSender will automatically restart in order for the changes to take place.
+  ![](/_images/_gsender/_features/gs_fe_remotemode2.jpg){.aligncenter .size-medium}
+1. You’ll know the setup was successful if gSender restarts & the remote connect icon is green.  
+  ![](/_images/_gsender/_features/gs_fe_remotemode3.jpg){.aligncenter .size-medium}
+1. To connect, you can use your phone camera to scan the QR code and be taken directly to your remote interface, or you can copy the http link and enter it into your browser on any device.
+![](/_images/_gsender/_features/gs_fe_remotemode4.jpg){.aligncenter .size-medium}
+
+- You’ll be able to use both the remote and inline devices simultaneously to control your CNC like jogging, opening and closing files, probing, macros, and more
+- You’ll also see that both their screens look exactly the same so you can watch the visualizer move around or check on the machine state
+- On phones the screen will look different since we’ve optimized it for jogging, setting zeros, and probing
+- When you click to ‘load a file’ you’ll see that you’ll only be able to load files from the device you’re currently on, don’t expect to gain access to the files stored on the opposite device. However once the file is loaded into gSender, you’ll be able to run it from any device
+- There can be multiple remote devices all connected to the same inline computer at the same time to control your CNC from multiple devices. There can also be multiple inline computers controlled from the same remote computer, giving you multi-CNC control from the same device
+- gSender settings like ‘safe height’, ‘start/stop g-code’, ‘tool changing’, and any other gSender specific settings won’t carry over to the remote computer. If you want to make sure files are run the same way every time you’ll need to transfer your gSender settings over by following the ‘Transfer Settings’ instructions below
+- If you’re using your phone, save the unique URL to a bookmark on your home-screen so you can open Remote gSender easily every time! Check out <a href="https://www.YouTube.com/watch?v=UrlDJOY3i-8">this video</a> for details
+
+If there was a problem using the specified IP address or Port, you’ll get an error window to let you know. In this case you should be able to reopen gSender, go back to the Remote Mode settings, and try another IP or Port until the setup is successful.
+
 If you’re an **advanced user** or have tried the default values without success, you can type in any other IP address or Port that you’d like since the defaults aren’t guaranteed to work. Common port values are 3000, 8000, and 8080 and generally don’t go below 1024 since those are considered privileged. Changing IP addresses can also help if you’re running a VPN or need a different internal IP to external IP mapping.
-1. gSender needs to restart in order for the remaining changes to take place.
-1. If there was a problem using the specified IP address or Port, you’ll get an error window to let you know. In this case you should be able to reopen gSender, go back to the Remote Mode settings, and try another IP or Port until the setup is successful.
-  ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-ip-error.jpg){.aligncenter .size-medium}
-1. You’ll know the setup was successful if gSender restarts, the antenna icon is green, and numbers show next to it. As a quick test, click on the numbers to copy them then open a web browser like Chrome or Edge and paste them into the address bar and press enter (you can also type the number manually). After the page loads, you should see a copy of gSender running in the web browser! **If something’s not working**, check you followed the setup steps correctly or reference the firewall or troubleshooting sections below.
-  {.aligncenter .size-full}
+
+**If something’s not working**, check you followed the setup steps correctly or reference the firewall or troubleshooting sections below.
 
 ### Firewall Setup
 
@@ -697,26 +697,15 @@ During initial setup, you might see a Security Alert window pop up or run into a
 
 ![](/_images/_gsender/_features/_remote/gs_fe_re_firewall-windows.jpg){.aligncenter .size-medium}
 
+If you don't see this popup, you can go into your Windows security tab, and click the Allow an app through firewall text.
+
+![](/_images/_gsender/_features/gs_fe_re_firewall-windows1.jpg){.aligncenter .size-medium}
+
+Scroll down until you see gSender, click on Change Settings, then enable gSender to communicate through the firewall by clicking the checkbox.
+
+![](/_images/_gsender/_features/gs_fe_re_firewall-windows2.jpg){.aligncenter .size-medium}
+
 **For Mac / Linux / Pi:** If you find that you can’t connect with outside devices or just want some extra safety you might want to try opening the Universal FireWall (UFW) on a given port to allow external access. This can be started with `sudo ufw enable` (if UFW is not found then install it using `sudo apt-get install ufw` and your root password) then opening the desired port, for example `sudo ufw allow 8080` opens port 8080 for external access. If you want to see what ports are already open, you can use `ufw status verbose`.
-
-### Using gSender Remotely
-
-With setup complete, regular use is pretty straightforward:
-
-1. Connect the inline computer to your CNC as you would normally using the USB cable. Turn on power to your CNC and connect to it in gSender as usual.
-1. Look for the numbers next to the antenna and write them down including all the symbols and punctuation; these will be used to connect to your CNC on the remote computer / device.
-![](/_images/_gsender/_features/_remote/gs_fe_re_setup-done.jpg){.aligncenter .size-full}
-1. On any remote device that can run a web browser like Chrome or Edge (computer, phone, tablet) open the browser and type those same numbers you wrote down into the top address bar. In this example the numbers are **192.168.2.203:8000** but yours may be different. Press enter, and hopefully the familiar gSender interface will appear in your browser window. If not, ensure that your remote device is on the same network as your inline computer.
-![](/_images/_gsender/_features/_remote/gs_fe_re_use-url.jpg){.aligncenter .size-full}
-1. Once connected, you should now be able to control your CNC remotely with most of the same features and functions you’d normally expect:
-![](/_images/_gsender/_features/_remote/gs_fe_re_use-connected.jpg){.aligncenter .size-medium}
-   - You’ll be able to use both the remote and inline devices simultaneously to control your CNC like jogging, opening and closing files, probing, macros, and more
-   - You’ll also see that both their screens look exactly the same so you can watch the visualizer move around or check on the machine state
-   - On phones the screen will look different since we’ve optimized it for jogging, setting zeros, and probing
-   - When you click to ‘load a file’ you’ll see that you’ll only be able to load files from the device you’re currently on, don’t expect to gain access to the files stored on the opposite device. However once the file is loaded into gSender, you’ll be able to run it from any device
-   - There can be multiple remote devices all connected to the same inline computer at the same time to control your CNC from multiple devices. There can also be multiple inline computers controlled from the same remote computer, giving you multi-CNC control from the same device
-   - gSender settings like ‘safe height’, ‘start/stop g-code’, ‘tool changing’, and any other gSender specific settings won’t carry over to the remote computer. If you want to make sure files are run the same way every time you’ll need to transfer your gSender settings over by following the ‘Transfer Settings’ instructions below
-1. If you’re using your phone, save the unique URL to a bookmark on your home-screen so you can open Remote gSender easily every time! Check out <a href="https://www.YouTube.com/watch?v=UrlDJOY3i-8">this video</a> for details
 
 ### Troubleshooting
 
@@ -752,19 +741,21 @@ Navigate to the Config tab where you will find the Rotary settings. Here you can
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_enable.jpg){.aligncenter .size-medium}
 
-Once the toggle has been turned to enable, you will see an additional tab at the bottom right of the Carve tab, called Rotary. With this feature you can:
+Once the toggle has been enabled, you will see an additional tab at the bottom right of the Carve tab, called Rotary.
+
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_enabled.jpg){.aligncenter .size-medium}
+
+With this feature you can:
 
 - **Jog Control** - Rotate the A-axis, go to Zero, set Zero, and adjust speeds
 
-![](/_images/_gsender/_features/_rotary/gs_fe_ro_movement.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_dro-a.jpg){.aligncenter .size-medium}
 
-- **Rotary Mode** - Toggle into Rotary Mode
+- **Rotary Mode** - Toggle between [Rotary Mode](https://resources.sienci.com/view/vx-electronics/) or [4-Axis mode](https://resources.sienci.com/view/vx-closed-loop-motor/)
 - **Rotary Surfacing** - Wizard to turn square stock round
 - **Probe Rotary Z-axis** - Automatically probe to find the Z-axis
 - **Y-axis Alignment** - Automatically probe to align the Y-axis along the A-axis (Turn rotary mode off to access this feature)
 - **Mounting Setup** - Drill holes in your wasteboard to mount our own <a href="https://sienci.com/product/vortex-rotary-axis/">Vortex Rotary</a> track (Turn rotary mode off to access this feature)
-
-![](/_images/_gsender/_features/_rotary/gs_fe_ro_tab.jpg){.aligncenter .size-medium}
 
 <em><b>Note:</b> Before switching to rotary mode, using the jog controls, rotary surfacing, or any other rotary actions, you’ll need to check that you’ve got your rotary set up and positioned correctly. This includes table mounting and Y-axis alignment, outlined below.</em>
 
@@ -772,23 +763,25 @@ Once the toggle has been turned to enable, you will see an additional tab at the
 
 When mounting a rotary axis, it’s important to be parallel to the X-axis, and helpful to have a repeatable position so you can reliably mount and unmount the rotary, depending on when you want to use it. If you have your own rotary axis, this is a step that you'll have to do yourself.
 
-For those who might have our Vortex rotary axis, the '**Rotary Mounting Setup**' button is a specific macro that cuts into the machine wasteboard to help you fasten the rotary with perfect parallel alignment. Check out our <a href="https://resources.sienci.com/view/vx-mounting-your-vortex/#creating-the-mounting-holes">Vortex Resources</a> for more details on how to use this wizard.
-
-While the Y-axis Alignment button helps in the setup of your Vortex Rotary, so does the Rotary Mounting Setup button. This feature has been designed to provide a center line for your rotary track installation. Check out our <a href="https://resources.sienci.com/view/vx-mounting-your-vortex/#creating-the-mounting-holes">Vortex Resources</a> for more details on how this wizard helps you mount your Vortex to your wasteboard.
+For those who might have our Vortex rotary axis, the **Rotary Mounting Setup** button is a specific macro that cuts into the machine wasteboard to help you fasten the rotary with perfect parallel alignment. Check out our <a href="https://resources.sienci.com/view/vx-mounting-your-vortex/#creating-the-mounting-holes">Vortex Resources</a> for more details on how to use this wizard.
 
 ### Y-axis Alignment
 
-When switching from regular CNC use to Rotary Mode, you will probe to align the Y-axis along the A-axis. You can do this in the Rotary Tab by hitting the Y-axis Alignment button. Check out our <a href="https://resources.sienci.com/view/vx-first-project/#y-axis-alignment">Vortex Resources</a> for more information on aligning your Y-axis when setting up your Vortex.
+When switching from regular CNC use to Rotary Mode, you will probe to align the Y-axis along the A-axis. You can do this in the Rotary Tab by hitting the **Y-axis Alignment button**. Check out our <a href="https://resources.sienci.com/view/vx-first-project/#y-axis-alignment">Vortex Resources</a> for more information on aligning your Y-axis when setting up your Vortex.
 
 ### Rotary Mode Toggle
 
-This toggle can only happen once you’ve got your rotary axis set up properly, because after switching it’ll assume you’ve changed your motor wiring to be connected to your A-axis instead of your Y-axis. You will see a pop up warning you of the changes that are made, going into rotary mode.
+This toggle can only happen once you’ve got your rotary axis set up properly, because after switching it’ll assume you’ve changed your motor wiring to be connected to your A-axis instead of your Y-axis. 
 
-![](/_images/_gsender/_features/_rotary/gs_fe_rotary_enable1.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_rotary-toggle.jpg){.aligncenter .size-medium}
+
+You will see a pop up warning you of the changes that are made, going into rotary mode.
+
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_rotary-popup.jpg){.aligncenter .size-medium}
 
 Once enabled, you will see a confirmation appear in the bottom right corner.
 
-![](/_images/_gsender/_features/_rotary/gs_fe_rotary_enable2.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_rotary-enabled.jpg){.aligncenter .size-medium}
 
 When you enable Rotary Mode, several changes will happen to your tool options:
 
@@ -797,17 +790,16 @@ When you enable Rotary Mode, several changes will happen to your tool options:
 
 Several changes will also happen to your controls:
 
-- The **Go to** button for Y-axis and Z-axis is hidden
+- The **Go to** button for Y-axis is hidden
 - The **Zero Y-axis** button is hidden
-- It changes the ‘**Go to XYO**’ button to be a ‘**Go to XAO**’ button
+- It changes the ‘**Go to XY**’ button to be a ‘**Go to XA**’ button
 - The **Y-axis jogging** buttons are hidden
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_jog-changes.jpg){.aligncenter .size-full}
 
 You will also see a reminder that:
 
-- Your Y-axis will be set to Zero
-- Your hard limits have automatically been turned off
+- Your Y-axis will be set to Zero in it's current position
 - Your firmware EEPROM values have been set to new values, better suited to the rotary.
 
 ### Rotary Probing
@@ -822,7 +814,7 @@ To do this, jog the cutting bit to be hovering approximately ~15mm just above th
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_z-position.jpg){.aligncenter .size-medium}
 
-In gSender, select the rotary axis tab, then Click ‘Probe Rotary Z-axis’ and the Z-axis will begin probing automatically, setting the Z-zero point for you. This will need to be done for each tool change in addition to the beginning of each job.
+In gSender, select the rotary axis tab, then Click **Probe Rotary Z-axis** and the Z-axis will begin probing automatically, setting the Z-zero point for you. This will need to be done for each tool change in addition to the beginning of each job.
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_probez.jpg){.aligncenter .size-full .nar}
 
@@ -830,8 +822,8 @@ In gSender, select the rotary axis tab, then Click ‘Probe Rotary Z-axis’ and
 
 Setting both the X-axis and the A-axis are done manually.
 
-- To set your **X-axis**, jog to wherever you’d like the job to start then click ‘Zero X’ to set your X-zero point. Make sure this is far enough from the chuck to ensure there won’t be any collisions with your cutting bit, workholding or screws.
-- To set your **A-axis**, simply click ‘Zero A’ at the beginning of each job, under the Rotary Jog Controls. Note that if this isn’t done, the rotary will spin back to zero before the job starts.
+- To set your **X-axis**, jog to wherever you’d like the job to start then click **X0** to set your X-zero point. Make sure this is far enough from the chuck to ensure there won’t be any collisions with your cutting bit, workholding or screws.
+- To set your **A-axis**, simply click **A0** at the beginning of each job, under the Rotary Jog Controls. Note that if this isn’t done, the rotary will spin back to zero before the job starts.
 
 ### Rotary Surfacing tool
 
@@ -873,9 +865,9 @@ You can find the release notes for the latest version of gSender in the “About
 
 ## More
 
-Check out this livestream if you'd like to see a super deep dive on gSender and all of its features as of 0.6.9. Chris spends a lot of time answering questions live about gSender and how to set up for a project:
+Check out this video of Chris showing off the **New U**, reviewing some of the new features, and pushing some gSender merch!
 
-https://www.youtube.com/watch?v=454pWYtZgBU
+https://youtu.be/ZJB4KALmEGI
 
 ## Community Macros
 
