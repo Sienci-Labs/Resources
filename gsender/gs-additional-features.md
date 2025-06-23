@@ -152,15 +152,13 @@ Another cool feature is the **Use MPG** selection. If you map one of your thumbs
 
 ## Lightweight Mode
 
-If you are running gSender on an older or less powerful computer, you may want to use Lightweight Mode. This mode enables gSender to run faster on computers that are less powerful and prone to lagging. You can toggle it on or off using the **Feather Icon** positioned on the left side of the visualizer.
+If you are running gSender on an older or less powerful computer, you may want to use Lightweight Mode. This mode enables gSender to run faster on computers that are less powerful and prone to lagging. You can toggle it on or off using the **Feather** positioned on the left side of the visualizer.
 
 ![](/_images/_gsender/_features/gs_fe_lightweight-1.jpg){.aligncenter .size-medium}
 
-What the feather icon does, depends on how you have your settings configured. If you go to Config ➜ Customize UI, you can change your visualizer theme to **Dark** or **Light** and also customize what lightweight mode you want the feather icon to employ, either **Light** (reduce strain on computer) or **Everything** (turn the visualizer off) modes.
+What the feather does, depends on how you have your settings configured. If you go to Config ➜ Basics ➜ UI Options, you can customize what lightweight mode you want the feather icon to employ, either **Light** (reduce strain on computer) or **Everything** (turn the visualizer off entirely) modes.
 
-![](/_images/_gsender/_features/gs_fe_lightweight-2.gif){.aligncenter .size-full}
-
-If gSender's visualizer is impacting the performance of your machine but Lightweight mode only helps once **Everything** is turned off, the **Light** option could help. This mode substitutes the default 3D viewer with a pre-rendered, top-down image of your project, drastically reducing computer strain but still allowing the project to be displayed.
+![](/_images/_gsender/_features/gs_fe_lightweight-2.jpg){.aligncenter .size-medium}
 
 ## Touch Plate Setup
 
@@ -200,7 +198,7 @@ In **Spindle Mode** you can select your spindle setup, adjust the spindle speed 
 
 ![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_turnonoff.gif){.aligncenter .size-full}
 
-You can also use the buttons in the Config ➜ Spindle/Laser tab to a more limited degree, to spin forward, backwards and stop all movement. You can see the top bar SpindleON warning here too.
+You can also use the buttons in this tab to a more limited degree, to spin forward, backwards and stop all movement. You can see the top bar SpindleON warning here too.
 
 ![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_onoff-config.gif){.aligncenter .size-full}
 
@@ -306,7 +304,7 @@ The **Tool Tab** in gSender enables you to make finer adjustments to your machin
 - Movement Tuning
 - XY Squaring
 
-![](/_images/_gsender/_features/gs_fe_tools_main.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_tools/gs_fe_to_main.jpg){.aligncenter .size-medium}
 
 ### Surfacing
 
@@ -314,7 +312,7 @@ https://youtu.be/jfInIEOB3kU
 
 Surfacing the wasteboard of your machine or any project, can easily be done right inside gSender! The first thing you’ll want to do is decide which corner you want to start surfacing from. In most cases the front, left of the machine is the most convenient, and is the default setting. You might also want to remove any accessories that might get in the way of your machine travelling around during surfacing as well as have a good vacuum on hand because surfacing can get really messy.
 
-![](/_images/_gsender/_features/gs_fe_surfacing.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_tools/gs_fe_to_surfacing.jpg){.aligncenter .size-medium}
 
 1. Start by entering the settings you’d like to use to generate your surfacing job on the left side:
    - **X & Y**: decides the cutting size (width and depth) you want to surface. If you’re surfacing your wasteboard, use the manufacturer’s spec on max machine travel or manually jog to the limits to cover the full cutting area, or if you’re surfacing a piece of material then you can use a measuring tape.<br>- **AltMill**: 1265mm (49") x 635mm (25") or 1251mm (49") x 174mm (6.8")<br>- **LongMill MK2**: 818mm (32.2”) or 1278mm (50.3”) x 366mm (14.4”) or 866mm (34.1”)<br>(if using limit switches, remove about 8mm/0.3” in X and 11mm/0.43” in Y)<br>- **LongMill MK1**: 320mm (12.6”) or 805mm (31.7”) x 344mm (13.54”) or 844mm (33.23”)<br>(if using limit switches, remove about 35mm/1.38” in X and 24mm/0.94” in Y)<br>(if using magnetic dust shoe, remove about 34mm/1.34” in X)<br>- **Mill One**: 235mm (9.25”) or 257mm (10.1”) x 185mm (7.28”)
@@ -324,19 +322,19 @@ Surfacing the wasteboard of your machine or any project, can easily be done righ
    - **Feed rate** (default 2500mm/min): influenced by the RPM, step over, bit diameter, and cut depth. Luckily if you set it incorrectly you’ll be able to override it during the job since surfacing can cause burning when cutting too slow or can have worse surface finish when cutting too fast.
    - **Stepover** (default 40%): sticking around 40% tends to be a good balance between speed (using a higher %) and better surface finish (using a lower %).
 
-![](/_images/_gsender/_features/gs_fe_surfacing2.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_tools/gs_fe_to_surfacing2.jpg){.aligncenter .size-medium}
 
 1. Select a Start Position of any four corners or the center by clicking the dot; this is where the surfacing will begin. You can also select a surfacing pattern of spiral or zig-zag. The spiral will only cut from the inside-out if the start position is the centre. If you toggle the flip cut direction, the spiral will cut conventional instead of climb, and the zig-zag pattern will cut vertically instead of horizontally.
 
-![](/_images/_gsender/_features/gs_fe_surfacing3.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_tools/gs_fe_to_surfacing3.jpg){.aligncenter .size-medium}
 
 1. Press ‘Generate G-code’ and check your surfacing tool path using the ‘Visualizer Preview’ tab. You can also see the raw g-code using the ‘G-code Viewer’ tab and can copy and save it to a g-code file if you’d like to use it again later.
 
-![](/_images/_gsender/_features/gs_fe_surfacing4.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_tools/gs_fe_to_surfacing4.jpg){.aligncenter .size-medium}
 
 1. Press **Load to Main Visualizer** to bring the g-code into gSender’s main screen. Make sure that you jog to the starting point and set your zero in the right place before starting the job. You can also press the **Outline** button as an easy way to check that you’ll be surfacing where you expect and if you find the dimensions aren’t correct you can always re-open the surfacing tool, tweak the size, and try again. Feel free to start the job whenever you’re ready!
 
-![](/_images/_gsender/_features/gs_fe_surfacing5.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_tools/gs_fe_to_surfacing5.jpg){.aligncenter .size-medium}
 
 Did you know that surfacing can be used for more than your wasteboard? It’s great for creating a perfectly flat surface of your starting materials, just like a jointer or surface planer would. You can also use the [Rotary Surfacing Tool](#rotary-surfacing-tool) if you are wanting round stock.
 
@@ -352,18 +350,18 @@ You will need:
 1. Jog your machine to the middle of whichever axes you choose to tune, so that there is enough room to complete this procedure. For example, on the X-axis you would jog halfway on the X-axis rail
 1. Select what axis to tune on the drop down menu
 
-![](/_images/_gsender/_features/gs_fe_movementtuning.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_tools/gs_fe_to_movementtuning.jpg){.aligncenter .size-medium}
 
 1. **Mark down the starting location** of your reference point on the machine. For example the X-axis tuning references the edge of the XZ gantry on the X rail
 1. **Move** the axis a chosen distance (Default 100mm)
 1. **Measure** the travel distance between the starting location and the finishing location
 1. Enter the measured value into the **Set Distance Travelled** box
 
-![](/_images/_gsender/_features/gs_fe_movementtuning2.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_tools/gs_fe_to_movementtuning2.jpg){.aligncenter .size-medium}
 
 1. You can now change the EEPROM setting if recommended by the procedure by pressing **Update Steps-per-MM**. This will bring up a popup that explains the change about to be made, and allows you one last chance to cancel the update.
 
-![](/_images/_gsender/_features/gs_fe_movementtuningfin.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_tools/gs_fe_to_movementtuningfin.jpg){.aligncenter .size-medium}
 
 1. Repeat the procedure for each axis you wish to tune
 
@@ -375,7 +373,7 @@ When mounting your LongMill on the table, there is a basic squaring process illu
 1. Measure & enter the distance between the triangle points
 1. Review results and get adjustment recommendations
 
-![](/_images/_gsender/_features/gs_fe_xysquaring.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_tools/gs_fe_to_xysquaring.jpg){.aligncenter .size-medium}
 
 You will need the following:
 
@@ -386,19 +384,19 @@ You will need the following:
 1. Jog the machine to the front left corner, with the bit raised slightly over the surface of your wasteboard
 1. **Mark** the point with tape marked with an X, and move the machine as directed (Default 300mm)
 
-   ![](/_images/_gsender/_features/gs_fe_xysquaring1.jpg){.aligncenter .size-medium}
+   ![](/_images/_gsender/_features/_tools/gs_fe_to_xysquaring1.jpg){.aligncenter .size-medium}
 
 1. Continue to mark points and move the machine until all boxes are complete and your triangle is marked
 
-   ![](/_images/_gsender/_features/gs_fe_xysquaring2.jpg){.aligncenter .size-medium}
+   ![](/_images/_gsender/_features/_tools/gs_fe_to_xysquaring2.jpg){.aligncenter .size-medium}
 
 1. Measure the distance between each dot and enter accordingly into the 3 boxes. In the next image you can see we entered 306 mm, not the expected/default 300mm. Hit the Confirm button to move to the next step
 
-   ![](/_images/_gsender/_features/gs_fe_xysquaring3.jpg){.aligncenter .size-medium}
+   ![](/_images/_gsender/_features/_tools/gs_fe_to_xysquaring3.jpg){.aligncenter .size-medium}
 
-1. Adjust your rail positions with the values determined by the XY Squaring procedure. If you are really out of square, you may see instructions to adjust your steps per mm, found in the Config ➜ Motors tab.
+1. Adjust your rail positions with the values determined by the XY Squaring procedure. If you are really out of square, you may see instructions to adjust your steps per mm (axis travel resolution), found in the Config ➜ Motors tab.
 
-   ![](/_images/_gsender/_features/gs_fe_xysquaring4.jpg){.aligncenter .size-medium}
+   ![](/_images/_gsender/_features/_tools/gs_fe_to_xysquaring4.jpg){.aligncenter .size-medium}
 
 The great advantage to this tool is it saves you having to do the trigonometry yourself and will also let you know if your machine is aligned closely enough that it’s not worth worrying about.
 
@@ -496,7 +494,7 @@ For the text-box of the situation you want the action to happen, type in the g-c
 
 For CNC machines, tool changes are pauses that are programmed in the g-code for a user to switch out the cutting tool for a different one, or the machine to do that automatically. The workflow can also sometimes involve pausing until the user tells it to continue, usually through a 'Resume' and/or 'Confirm Tool Change' button on the machine interface. This allows you to run multiple toolpaths (cutting operations) within one g-code file.
 
-The g-code for tool changing is an M6 command. gSender is quite capable when it comes to customizing CNCs for tool changing, even having full Wizards built-in. The tool change options are in Config ➜ Tool Change tab. You can select from one of 6 different options, and even choose to 'passthrough' the M6 and T commands to the CNC controller for CNCs that are capable of handling tool changes on their own.
+The g-code for tool changing is an M6 command. gSender is quite capable when it comes to customizing CNCs for tool changing, even having full Wizards built-in. The tool change options are in Config ➜ **Tool Changing** tab. You can select from one of 6 different options, and even choose to 'passthrough' the M6 and T commands to the CNC controller for CNCs that are capable of handling tool changes on their own.
 
 ![](/_images/_gsender/_features/_toolchange/gs_fe_toolchange.jpg){.aligncenter .size-full}
 
@@ -603,7 +601,7 @@ You can configure a **Park Location** to move your router to a set spot consiste
 
 ### Setting Limits
 
-If you’re having issues with the “quick-travel” buttons, then check the **maximum travel** settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings by going to Config tab ➜ Homing/Limits ➜ X-axis maximum travel (Y, Z axes are here too), 130-132. If you are using **grblHAL** you will also see A axis, 133.
+If you’re having issues with the “quick-travel” buttons, then check the **maximum travel** settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings by going to Config tab ➜ Homing/Limits ➜ X-axis maximum travel (Y, Z axes are here too), $130-$132. If you are using **grblHAL** you will also see A axis, $133.
 
 ![](/_images/_gsender/_features/_dro/gs_us_limitssetl.jpg){.aligncenter .size-medium}
 
