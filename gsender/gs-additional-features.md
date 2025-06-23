@@ -228,23 +228,27 @@ Macros are standalone buttons within the gSender interface that allow you to exe
 
 You can create macros using the ‘+’ button under the ‘Macros’ tab.
 
-![](/_images/_gsender/_features/gs_fe_macros1.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_macros/gs_fe_ma_macros1.jpg){.aligncenter .size-medium}
+
+Here you’ll see a space for inputting your custom g-code and adding a name and description for the macro. Advanced users may also want to leverage ‘Macro Variables’ which allow for greater g-code manipulation and pseudo-programming. Press ‘Add New Macro’ when completed.
+
+![](/_images/_gsender/_features/_macros/gs_fe_ma_macros2.jpg){.aligncenter .size-medium}
 
 New macros will appear as buttons in the ‘Macro’ tab that can be rearranged by dragging them around. These buttons will display the macro name, and can always be later altered or deleted by clicking on their '...' button.
 
-![](/_images/_gsender/_features/gs_fe_macros5.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_macros/gs_fe_ma_macros5.jpg){.aligncenter .size-medium}
 
 Any macro can be executed by pressing it. Once running, you should see the macro start to pulse green while a toast notification on the bottom right hand side of gSender also notifies you that it's running.
 
-![](/_images/_gsender/_features/gs_fe_macros3.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_macros/gs_fe_ma_macros3.jpg){.aligncenter .size-medium}
 
 Macros can also be executed using shortcuts. Every time you create a new macro it'll become available at the bottom of the shortcuts list for you to assign a key or gamepad button to. Add your keybindings and press the Active toggle to enable the shortcut.
 
-![](/_images/_gsender/_features/gs_fe_macros31.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_macros/gs_fe_ma_macros31.jpg){.aligncenter .size-medium}
 
 You can share macros with other users or transfer them between computers by using the import and export features. **To import one or multiple macros, just press the button on the left** and a browsing window will appear so that you can select the macros you wish to import. Similarly, **to export all your current macros, press the button on the right** and it'll open a save window, to generate a save file for you.
 
-![](/_images/_gsender/_features/gs_fe_macros4.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_macros/gs_fe_ma_macros4.jpg){.aligncenter .size-medium}
 
 ### Advanced Macros
 
@@ -448,22 +452,23 @@ If you have questions, need support, want to read up on specific features, or in
 
 If your CNC isn't listed below, then it's considered "unsupported":
 
-- Sienci Labs **LongMill** (MK1, MK2, and MK2.5), **AltMill**, and **Mill One** (V1, V2, and V3)
-- Don't see your machine on this list and want it fully supported? Let your manufacturer know to get in contact with us so that we can add their machine profiles to gSender :)
+- Sienci Labs **LongMill** (MK1, MK2, and MK2.5)
+- Sienci Labs **AltMill** (MK1 and MK2)
+- Sienci Labs **Mill One** (V1, V2, and V3)
 
 If your machine is unsupported, it means that the Config tab may not be able to perform the same features as for supported machines. In this case, **if your machine isn't working, contact your manufacturer to get their advice on how to fix it**. Using this tab makes it possible to ruin your machine further and we won't be able to help you with your specific hardware. For unsupported machines:
 
 1. Choosing your machine **name** from the drop down menu is primarily cosmetic, unless you are restoring defaults
-1. **Flash** either vanilla grbl, or for grblHAL boards upload a hex file to flash a new firmware
-1. **Import** EEPROM settings from a file if you had settings that were working and something changed
 1. **Export** current EEPROM settings if you'd like to save your current setup in case something goes wrong
+1. **Import** EEPROM settings from a file if you had settings that were working and something changed
 1. **Defaults** restore all your machine settings back to typical vanilla grbl/grblHAL values
+1. **Flash** either vanilla grbl, or for grblHAL boards upload a hex file to flash a new firmware
 
 ![](/_images/_gsender/_features/gs_fe_firmwaretool.jpg){.aligncenter .size-medium}
 
 ### Supported CNCs
 
-If your CNC was listed above then it's "supported" by the Firmware tool. This means that the manufacturer is working with us to keep their machine profiles up-to-date, which in-turn gives you access to more features.
+If your CNC was listed above then it's "supported" by the Firmware tool, and resetting your **Defaults** will restore your settings based on the profile you have selected in the drop down menu. This also means that machine profiles are kept up-to-date, which in-turn gives you access to more features.
 
 ## Automations
 
@@ -773,7 +778,10 @@ This toggle can only happen once you’ve got your rotary axis set up properly, 
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_rotary-toggle.jpg){.aligncenter .size-medium}
 
-You will see a pop up warning you of the changes that are made, going into rotary mode.
+You will see a pop up warning you of the changes that are made, going into rotary mode:
+
+- Your Y-axis will be set to Zero in it's current position
+- Your firmware EEPROM values have been set to new values, better suited to the rotary.
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_rotary-popup.jpg){.aligncenter .size-medium}
 
@@ -783,7 +791,7 @@ Once enabled, you will see a confirmation appear in the bottom right corner.
 
 When you enable Rotary Mode, several changes will happen to your tool options:
 
-- The **Y-axis Alignment** and **Rotary Mounting Setup** buttons become grey and hidden. This is because your Y-axis will be locked in its current position at this time, so there is no need to align it, and your rotary should already be set up.
+- The **Y-axis Alignment** and **Rotary Mounting Setup** buttons become grey and hidden. This is because your Y-axis will be locked in its current position at this time, so there is no need to align it, and your rotary should already be set up
 - The **Stock Turning** and **Probe Rotary Z-axis** buttons become available
 
 Several changes will also happen to your controls:
@@ -794,11 +802,6 @@ Several changes will also happen to your controls:
 - The **Y-axis jogging** buttons are hidden
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_jog-changes.jpg){.aligncenter .size-full}
-
-You will also see a reminder that:
-
-- Your Y-axis will be set to Zero in it's current position
-- Your firmware EEPROM values have been set to new values, better suited to the rotary.
 
 ### Rotary Probing
 
