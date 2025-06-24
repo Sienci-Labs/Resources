@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/_gsender/_features/gs_fe_p1_KeyShort.jpg
 ---
 
-This page covers all the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, rotary, lasers, coolant, maintenance and more. Remember, you can always quickly navigate the page by clicking the headings in the ‘Page Contents’.
+This page covers all the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, rotary, lasers, coolant, maintenance and more. Remember, you can always quickly navigate the page by clicking the headings in the ‘Page Contents’ on the right.
 
 ## Shortcuts
 
@@ -150,15 +150,27 @@ Another cool feature is the **Use MPG** selection. If you map one of your thumbs
 
 ![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-joystick-mpg.jpg){.aligncenter .size-full .nar}
 
-## Lightweight Mode
+## UI Options
 
-If you are running gSender on an older or less powerful computer, you may want to use Lightweight Mode. This mode enables gSender to run faster on computers that are less powerful and prone to lagging. You can toggle it on or off using the **Feather** positioned on the left side of the visualizer.
+There are a couple built in options like **Pinch-to-Zoom** on touch screens and **Portrait Mode** for your monitor. You don't have to enable these in gSender, they will work right away.
+
+![](/_images/_gsender/_features/gs_fe_pinchzoom.gif){.aligncenter .size-full}
+
+*Note - You may have to change your display orientation for portrait mode to work, if your monitor doesn't have a gimble*
+
+![](/_images/_gsender/_features/gs_fe_portraitmode.jpg){.aligncenter .size-medium}
+
+There are also a couple UI Options that you can access through the Carve tab ➜ Basics ➜ UI Options. Here you can toggle Dark Mode on/off, use a dark mode for the visualizer and choose how lightweight mode behaves.
+
+![](/_images/_gsender/_features/gs_fe_ui-options.jpg){.aligncenter .size-medium}
+
+### Lightweight Mode
+
+Let's explore how lightweight mode behaves. If you are running gSender on an older or less powerful computer, you may want to use Lightweight Mode. This mode enables gSender to run faster on computers that are less powerful and prone to lagging. You can toggle it on or off using the **Feather** positioned on the left side of the visualizer.
 
 ![](/_images/_gsender/_features/gs_fe_lightweight-1.jpg){.aligncenter .size-medium}
 
 What the feather does, depends on how you have your settings configured. If you go to Config ➜ Basics ➜ UI Options, you can customize what lightweight mode you want the feather icon to employ, either **Light** (reduce strain on computer) or **Everything** (turn the visualizer off entirely) modes.
-
-![](/_images/_gsender/_features/gs_fe_lightweight-2.jpg){.aligncenter .size-medium}
 
 ## Touch Plate Setup
 
@@ -866,7 +878,7 @@ You can find the release notes for the latest version of gSender in the “About
 
 ## More
 
-Check out this video of Chris showing off the **New U**, reviewing some of the new features, and pushing some gSender merch!
+Check out this video of Chris showing off the **New U**, reviewing some of the new features, and pushing some gSender merchandise!
 
 https://youtu.be/ZJB4KALmEGI
 
