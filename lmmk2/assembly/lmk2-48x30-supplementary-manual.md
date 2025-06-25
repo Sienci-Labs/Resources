@@ -97,21 +97,21 @@ Mount this assembly onto the left Y-gantry plate, keeping the flange bearing in 
 
 ### X-axis lead screw installation
 
-<img class="wid aligncenter wp-image-7180 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_extra48_48Xtension-pics-6-1.png" alt="" width="850" height="400" />
+![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48Xtension-pics-6-1.jpg){.aligncenter .wid .size-medium}
 
-From the EX hardware box, grab the longer EX lead screw, as well as the second EX flange bearing, T8 Clamping nut with M5-16mm bolt, and Allen key + standoff assembly.
+From the EX hardware box, grab the longer EX lead screw, as well as the second EX flange bearing, T12 Clamping nut with M5-16mm bolt, and Allen key + standoff assembly.
 
 Pass the EX lead screw through the right Y-gantry plate towards the XZ-gantry assembly. Be careful not to bend the lead screw while doing this or handling it otherwise.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4445.jpg){.aligncenter .size-medium}
 
-Begin threading the lead screw into the X-axis T12 nut.
+Begin threading the lead screw into the X-axis T12 anti-backlash nut.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48Xtension-pics-7.png){.aligncenter .size-medium}
 
 Continue threading the lead screw until it sticks out from the left side of the X-axis gantry. Slide the lead screw and X-axis gantry towards the left and pass the end of the lead screw into the flange bearing and into the motor coupler.
 
-Push the coupler towards the right, and the X-gantry towards the left to ensure the lead screw is seated properly inside the coupler.
+Push the clamping nut towards the right, and the X-gantry towards the left to ensure the lead screw is seated properly inside the coupler.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48Xtension-pics-8.png){.aligncenter .size-medium}
 
@@ -123,7 +123,7 @@ Remove the bolt from the other end of the coupler completely.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4487.jpg){.aligncenter .size-medium}
 
-Pass an Allen key through this hole of the removed bolt to lock the coupler against the motor standoffs from rotating. Alternatively, a small screwdriver, bolt, or rod can be passed through instead. Locking the lead screw from rotating will allow for easier installation of the T8 locking hex nut at the opposite side.
+Pass an Allen key through this hole of the removed bolt to lock the coupler against the motor standoffs from rotating. Alternatively, a small screwdriver, bolt, or rod can be passed through instead. Locking the lead screw from rotating will allow for easier installation of the T12 clamping nut at the opposite side.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4492.jpg){.aligncenter .size-medium}
 
@@ -131,13 +131,13 @@ At the opposite side of the lead screw on the right Y-gantry plate, slide a flan
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4471.jpg){.aligncenter .size-medium}
 
-Grab the T8 Clamping nut and begin threading this onto the lead screw.
+Grab the T12 Clamping nut and begin threading this onto the lead screw.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48Xtension-pics-9.png){.aligncenter .size-medium}
 
-Using a 19mm, 3/4” , or adjustable wrench, tighten this T8 Clamping nut only until the lead screw no longer has any side-to-side play. Then tighten the M5 locking bolt into the T8 locking nut to secure this.
+Using a 19mm, 3/4” , or adjustable wrench, tighten this T12 Clamping nut only until the lead screw no longer has any side-to-side play. Then tighten the M5 locking bolt into the T12 locking nut to secure this.
 
-Turn the lead screw by hand afterwards to make sure it spins freely. If you feel any significant resistance, undo the M5 locking bolt and loosen the T8 Clamping nut a small amount.
+Turn the lead screw by hand afterwards to make sure it spins freely. If you feel any significant resistance, undo the M5 locking bolt and loosen the T12 Clamping nut a small amount.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48Xtension-pics-10.png){.aligncenter .size-medium}
 
