@@ -106,9 +106,19 @@ Because the spindle is most likely heavier than the Makita RT0701, the machine w
 
 <a href="https://sienci.com/2022/07/21/adding-a-spindle-to-your-LongMill/" target="_blank" rel="noopener">For a longer form, general article on adding a spindle, check out our full blog post</a>.
 
+[tabby title="Current gSender" open="yes"]
+
+Some settings you might need to change are shown below. If you're moving a specific axis of the machine and it's 'stalling out'/ not moving then you definitely need to update these values. You'd want to focus first on the 'maximum rates' (110 to 112), reducing the value for the stalling axis by increments of 100 until the problem goes away. If  this doesn't work you can also try lowering the 'acceleration' values (120 to 122). Don't forget to hit the Apply Settings button once any changes are made to these values.
+
+![](/_images/_longmill/_the-basics/lm_routersspindle_current-firmware.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 Some settings you might need to change are shown below. If you're moving a specific axis of the machine and it's 'stalling out'/ not moving then you definitely need to update these values. You'd want to focus first on the 'maximum rates' (110 to 112), reducing the value for the stalling axis by increments of 100 until the problem goes away. If  this doesn't work you can also try lowering the 'acceleration' values (120 to 122)
 
-![](/_images/_longmill/_the-basics/lm_routersspindle_p6_Firmware.png){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_routersspindle_p6_Firmware.png)c
+
+[tabbyending]
 
 ## Not Recommended
 
