@@ -111,7 +111,7 @@ Begin threading the lead screw into the X-axis T12 anti-backlash nut.
 
 Continue threading the lead screw until it sticks out from the left side of the X-axis gantry. Slide the lead screw and X-axis gantry towards the left and pass the end of the lead screw into the flange bearing and into the motor coupler.
 
-Push the clamping nut towards the right, and the X-gantry towards the left to ensure the lead screw is seated properly inside the coupler.
+Push the coupler towards the right, and the X-gantry towards the left to ensure the lead screw is seated properly inside the coupler.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48Xtension-pics-8.png){.aligncenter .size-medium}
 
