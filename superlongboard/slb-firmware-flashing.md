@@ -668,7 +668,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$103</b></td>
      <td>A-axis travel resolution</td>
-     <td><b>79.01234568</b></td>
+     <td><b>79.012345679</b></td>
      <td>step/deg</td>
      <td></td>
    </tr>
