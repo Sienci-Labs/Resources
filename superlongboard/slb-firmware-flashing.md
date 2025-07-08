@@ -79,7 +79,7 @@ Congrats are in order, well done! If you go back to the ‘Console’ you should
 
 ### STM Cube Flashing
 
-Download the software from here (we recommend version 2.15.0): <a href="https://www.st.com/en/development-tools/stm32cubeprog.html#st-get-software" target="_blank" rel="noopener">https://www.st.com/en/development-tools/stm32cubeprog.html#st-get-software</a>
+<a href="https://drive.google.com/file/d/162tiL96mNW-Xstx8SoSzwZACxxNnmBSN/view" target="_blank" rel="noopener">Download the software from here</a> (this is version 2.15.0) or for another OS <a href="https://www.st.com/en/development-tools/stm32cubeprog.html#st-get-software" target="_blank" rel="noopener">go to STM's website</a>.
 
 1. On the SLB, switch off the power toggle switch at the black of the board or unplug it from power
 1. Use a jumper or metal tipped tool like a screwdriver or Allen key to short the **BOOT pin** (shown) and hold it in place
@@ -1072,7 +1072,7 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr style="color: var(--sl-orange);">
      <td><b>$392</b></td>
      <td>Spindle on delay</td>
-     <td><b>4</b></td>
+     <td><b>11</b></td>
      <td>s</td>
      <td style="text-align: left;">Delay to allow spindle to spin up after safety door is opened.</td>
      <td></td>
@@ -1293,14 +1293,14 @@ For added clarity, settings that are currently unused on the SLB have been highl
    <tr>
      <td><b>$512</b></td>
      <td>Spindle 2</td>
-     <td><b>Disabled</b><br>(8)</td>
+     <td><b>MODVFD</b><br>(5)</td>
      <td></td>
      <td style="text-align: left;">Spindle to use as spindle 2.<br>~Controller reset required for setting change to take effect~</td>
    </tr>
    <tr>
      <td><b>$513</b></td>
      <td>Spindle 3</td>
-     <td><b>MODVFD</b><br>(5)</td>
+     <td><b>Disabled</b><br>(8)</td>
      <td></td>
      <td style="text-align: left;">Spindle to use as spindle 3.<br>~Controller reset required for setting change to take effect~</td>
    </tr>

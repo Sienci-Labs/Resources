@@ -398,7 +398,7 @@ If you’d like to use the white JST connectors instead, the wiring pinouts are 
 
 ![](/_images/_superlongboard/_manual/slb_ma_p29_WCPins.jpg){.aligncenter .size-full}
 
-### Limits Settings
+#### Limits Settings
 
 If you’ve set up your own **NC sensors**, the first thing you’ll want to do is invert all the limit pins for $5 like shown below. **Don't do this if you have the inductive sensors from Sienci!**
 
@@ -811,7 +811,7 @@ Below we’ve illustrated two examples that you can use to better understand how
 
 Once the wiring is complete, in your g-code sender check that the rotary is moving at the speed, distance, and direction you’d expect and that the limit switch is working if you have one. If there’s anything wrong you’ll want to check your typical A-axis settings for **movement** ($2, 3, 4, 37, 103, 113, 123, 133, and 376) and for **homing/limits** ($5, 18, 23, 44, 45, and 46). Note that some settings like $143, 153, 183, 193, 203, 213, 223, 338, 339 won’t have any effect on your setup since the 4th axis is an external stepper motor driver.
 
-If you're experiencing movement precision problems, check the 2nd point in the <a href="#troubleshoot-rotary">Troubleshoot Rotary section</a>.
+If you're experiencing movement precision problems, check the 2nd point in the <a href="#troubleshoot-rotary">Troubleshoot Rotary section</a>. Also check that you turn on "**Steppers deenergize**" for the A-axis, since most closed-loop motors need constant power to them to make sure that they make accurate movements.
 
 #### Cut & Experiment
 

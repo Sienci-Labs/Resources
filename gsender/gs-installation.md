@@ -49,7 +49,7 @@ Once you see the 'Completion' screen you should be good to go! Click 'Finish' th
 
 Some security software can **significantly slow down** the time it takes for gSender to open. We're still looking into how we can fix this, but for the time being we've found that making an exception will make gSender open much much faster. Please be careful doing this, we won't take responsibility if you run into other issues editing your computers security settings.
 
-For most Windows computers go to **Settings ➜ Update & Security ➜ Windows Security ➜ Virus & threat protection ➜ Manage Settings ➜ Add or remove exclusions ➜ Add an exclusion ➜** then add the folder **C:\Program Files\gSender**. This has been reported to speed up open time by up to 30-40 seconds.
+For most Windows computers go to **Settings ➜ Update & Security ➜ Windows Security ➜ Virus & threat protection ➜ Manage Settings ➜ Add or remove exclusions ➜ Add an exclusion ➜** then add the folder **C:\\Program Files\\gSender**. This has been reported to speed up open time by up to 30-40 seconds.
 
 ## Mac Install
 

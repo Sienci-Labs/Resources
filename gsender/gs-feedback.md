@@ -137,7 +137,7 @@ We appreciate your feedback, and with your help we'll make sure the next version
 
 You're probably using the wrong post processor, go back and check what your CNC manufacturer recommends. By default it's best to use "grbl_mm" even if you like to use inches since most CNCs work in mm.
 
-### Jogging not working, I get an Error
+### Jogging not working or Errors
 
 If you're seeing a message in the 'Console' tab saying "error: Bad number format", this is because you're running an older grbl machine (pre Grbl 1.1f). Contact your CNC manufacturer or look through their resources to see how you can upgrade your grbl firmware so that your machine can be fully supported by gSender. If you have a Sienci Labs machine, this is as easy as using the 'Flash grbl' option in the 'Firmware' tool in gSender.
 
@@ -164,3 +164,11 @@ Alternatively, gSender's 'Start/Stop G-code' can also be equipped to sidestep pr
 ### Changed $1 and Motors still Hold
 
 This is a quirk of grbl boards where after changing this value you need to make a motor movement (a jog movement for example) before the new value will take effect.
+
+### Many Little Lines on my Screen
+
+This is something that can happen if you have certain graphics GPUs. To fix it you should be able to go to your GPU Control Panel, Manage the 3D Settings, and either turn off Image Sharpening or Hardware Acceleration.
+
+### Weird colours/invisible buttons
+
+If you've set up a Windows Accessibility theme on your computer it can negatively impact how gSender looks. We'd recommend you either turn the theme off, turn the slider down, or disable it just for gSender. We have your own high contrast 'Dark mode' that should work just as well for you if you go to Config ➜ Dark mode and turn it on.
