@@ -43,8 +43,12 @@ Try to make as neutral a writeup as possible on how to choose what CNC is best f
 - Mention 3-in-1 machines and why they just don't make sense nowadays with cheap 3D printers and cheap laser cutters
   - Link some forum posts and whatnot, like: https://reddit.com/r/hobbycnc/s/g3yojwhAXE
   - Why 3-in-1s not good https://www.reddit.com/r/hobbycnc/s/w0Nueub7Nc
+  - Where multi-use platforms make sense https://youtu.be/XkfZUQ7TjNc
 - Typical types of maintenance needed
 - Buying options
+  - https://millrightcnc.com/cnc-buyers-guide/
+  - Why you'd save yourself a big headache for an all-in-one board design like the SLB over a hand-built control cabinet https://youtu.be/odr1cvi-9To
+- https://youtu.be/rGwhePDBeHc
 - Reference materials:
   - [IDC Woodcraft Buyers Guide](https://drive.google.com/file/d/1Uz80Web_QEQcUe7cYJh8K9gEsScAPhIR/)
   - https://www.click.idcwoodcraft.com/buyers-guide

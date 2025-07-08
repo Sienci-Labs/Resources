@@ -39,7 +39,7 @@ TODO
 - **Claimed by Stephen** Tramming
 - **Claimed by Stephen** Preparing to be a CNC Owner
 - CNC Buyers Guide
-- How to Price CNC Projects
+- How to start a business/price CNC Projects  
 - Video Compilation Page
 - How to handle an End-of-Life machine
 
@@ -62,6 +62,7 @@ TODO
     - Talk with users or try to imagine yourself what sort of content you tend to need to reference while cutting, things like job setup, maintenance, common fixes
     - Shouldn't include any basic concepts (though pages on basic concepts can be linked to) since 'The Basics' and 'Software' make up their own sections
     - Cross-reference how troubleshooting is handled with the whole section allocated in AltMill https://resources.sienci.com/view/am-common-key-solutions/
+    - Great video for maintenance https://youtube.com/shorts/pKBQFLKl1hY
   - Actionable items:
     - Your MK2, write a section on how to identify your LongMill model https://www.facebook.com/share/p/PC7vMCizMHi94jfb/
     - Restructure maintenance page to go over updating parts but also the steps to replace parts once fully worn out
@@ -79,6 +80,9 @@ TODO
   - The bits required to make different projects and where to source them
   - Ensure this is positive and doesn't scare people off
   - Costs of getting CNCing https://youtu.be/Bh9xpCMKlFY
+  - https://youtu.be/BHNu66fCex8
+  - https://youtu.be/V8P1Y3n0O7Q
+  - Kieswetter demolition for cheap materials
 - Good initial explanation of open source https://youtu.be/F7iLfuci75Y?si=CLqkkr1pYQIpH6BC
 - CNC resources being made by others
   - https://www.reddit.com/r/hobbycnc/s/NH3Z6P0XQ2

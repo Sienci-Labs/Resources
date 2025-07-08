@@ -31,6 +31,10 @@ Page for help those running a business with CNC project pricing
 - If you're starting a business around it, notes for success
   - Take lots of time on staging your picture with lighting, background, etc. also showing it in its use like put steak or cheeses on your charcuterie boards
   - Look at Etsy to see which products that aren't ads that are making the top of the lists as a learning opportunity
+- Reading NDAs https://www.facebook.com/share/p/1BAUdW8Cr2/
+- Quick quotes x2 material cost
+- https://www.reddit.com/r/hobbycnc/s/DNy5NR2AKO
+- A pack of chips can cost $1.00 at the grocery store, $3.00 at a restaurant, $4.00 at the movies, $6.00 at the airport, or even $8.00 in a hotel room basket. It's the same pack of chips. Nothing changed but its location. So if you feel like you or your products does not have any value, maybe you are not in the right place.
 
 ---
 

@@ -18,7 +18,9 @@ Can go in “Advanced” section
 Cover all aspects of tramming but try to keep it general to apply to any CNC
 
 - Nod and Tilt
+- When it comes to tramming: surface first to see if you don't need to even do anything, worst case scenario you get a surface parallel to you machine, now use equipment to tram and a go off the tops of the ridges, then surface again
 - https://www.servomagazine.com/magazine/article/how-to-tram-your-cnc-router
+- https://youtu.be/miz9yI2RgJ4
 - Order of steps to get everything nice with minimal effort
 - Find if any other community videos have been made for our machines in particular
 - My spoil board has slight stripes as opposed to being perfectly flat… is this normal or do I have a tilt on my router that needs to be fixed? If so, how’s that done?
@@ -28,7 +30,6 @@ Cover all aspects of tramming but try to keep it general to apply to any CNC
 - Either here or in surfacing, mention how budget machines don't need levelling as opposed to industrial machines, the only case where levelling makes sense is if you want to use it as a method for seeing how square your machine is
   - https://youtu.be/DdyMjsz4BVs
   - https://youtu.be/3uiacvLCIHk
-
 - https://forum.sienci.com/t/how-to-ensure-spindle-is-perpendicular-to-table/14118/4
 
 Tramming tool - https://www.amazon.ca/SST-Mill-Lathe-Adjustable-Tramming/dp/B07D84Y1ZD/ref=sr_1_1
