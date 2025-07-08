@@ -46,11 +46,23 @@ Unscrew the top-right thumbscrew a couple turns (pictured) then slide the cover 
 
 ## Preparation
 
+[tabby title="Current gSender" open="yes"]
+
+Before diving into rewiring, we’d first suggest you note down any firmware changes that are unique about your setup. You can do this by connecting to your CNC in gSender and using the **Config tab** to find sections that are **highlighted in yellow**. In the example below, you can see that the X and Y maximum travel is different from the standard MK2 12x30.
+
+![](/_images/_superlongboard/_upgrade/slb_up_p3_FirmMaxTravel-newu.jpg){.aligncenter .size-medium}
+
+Yellow sections show when a change has been made from the default settings. Any of these should be written down and will be re-entered when the new board is set up.
+
+[tabby title="Classic gSender"]
+
 Before diving into rewiring, we’d first suggest you note down any firmware changes that are unique about your setup. You can do this by connecting to your CNC in gSender and using the Firmware Tool to find sections that are **highlighted in yellow**. In the example below, you can see that the maximum travel is different from the standard MK2 12x30.
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p3_FirmMaxTravel.jpg){.aligncenter .size-medium}
 
 Yellow sections show when a change has been made from the default settings. Any of these should be written down and will be re-entered when the new board is set up.
+
+[Tabbyending]
 
 ## Wiring
 
@@ -142,6 +154,28 @@ The SLB requires use of version 1.4.0 or later, only these versions can talk to 
 
 You will be connecting to the SLB differently than you are used to.
 
+[tabby title="Current gSender" open="yes"]
+
+Connect to your CNC machine by hovering over the **Connect to CNC** button at the top left corner of the screen and clicking the first option (*note that it's recommended to connect this way on your first setup even if you're planning to use Ethernet in the long-run*).
+
+![](/_images/_superlongboard/_upgrade/slb_up_connectcnc.jpg){.aligncenter .size-full}
+
+After a moment you should see the plug icon turn green with a checkmark, the status bar at the top, middle change from **Disconnected** to **Idle**, and all the controls in the app become coloured indicating that they're ready to be used.
+
+![](/_images/_superlongboard/_upgrade/slb_up_idleconnected.jpg){.aligncenter .size-full}
+
+If you don't see all these changes happen, we'd recommend you check a couple things then retry:
+
+1. You have a secure connection between your machine's control board and computer.
+1. Click the 'Connect' button again to Disconnect, then hover over it to check if there are any other options listed that you can try. For some CNCs you might have to check the 'Unrecognized Ports' dropdown then <a href="https://resources.sienci.com/view/gs-feedback/#port-not-found" target="_blank" rel="noopener">help us update our list of recognized CNCs</a>.
+1. Ensure that any other programs that could be talking to your CNC are closed (ex. Easel, UGS, Arduino IDE).
+1. Update gSender's **Baud Rate** in Config ➜ Basics since your board might not use the typical 115200. Check the specs with your manufacturer.
+1. Arduino is securely attached to the LongBoard. (Not applicable for the SLB)
+1. If it's connecting but behaving oddly, gSender's automatic firmware detection might've failed. In this case ensure you set your board's correct firmware as *grbl* or *grblHAL* under Config ➜ Basics ➜ Firmware fallback.
+
+
+[tabby title="Classic gSender"]
+
 1. Go to **Connect to Machine** in the top left corner (with the board powered on).
 ![](/_images/_superlongboard/_upgrade/slb_up_p18_Connect1.jpg){.aligncenter .size-full .nar}
 1. Connecting to the SLB, requires you to select a new button. Click the gray bar at the bottom labelled Firmware.
@@ -154,6 +188,8 @@ You will be connecting to the SLB differently than you are used to.
 **Congrats!** You have connected to your new SuperLongBoard!! Since USB is plug and play, we’ve selected it now and can connect via Ethernet at a later time.
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p22_Connected.jpg){.aligncenter .size-full .nar}
+
+[tabbyending]
 
 Let’s move on to some quick tests.
 
@@ -177,7 +213,15 @@ The SLB will respond by turning several lights RED. Most notably your **CNC Stat
 
 Now we can deactivate the E-stop button by turning it clockwise until it’s raised again. You will see the E-stop button light come back on when raised correctly. We will need to unlock the SLB in gSender by pressing the Click to Unlock Machine button.
 
+[tabby title="Current gSender" open="yes"]
+
+![](/_images/_superlongboard/_upgrade/slb_up_p26_Unlock-newu.jpg){.aligncenter .size-full}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_upgrade/slb_up_p26_Unlock.jpg){.aligncenter .size-full}
+
+[tabbyending]
 
 **Congrats!** You’ve completed the Power On Quick Test.
 
@@ -194,13 +238,25 @@ Now we can deactivate the E-stop button by turning it clockwise until it’s rai
 It’s time to take the SLB out for a spin! Using the jog controls on the main page of gSender, try moving your machine around in the X, Y and Z-axes. Make sure they’re going in the correct directions; also try increasing the jogging ‘Speed’ value to 5500mm/min (220ipm) to test the faster default capabilities of the SLB.
 <p style="text-align: center;"><em><b>Note</b>: If you have a LongMill MK1, you’ll need to invert your Z-axis movement (see next step).</em></p>
 
+[tabby title="Current gSender" open="yes"]
+
+![](/_images/_superlongboard/_upgrade/slb_up_p27_JogControl-newu.jpg){.aligncenter .size-full}
+
+If you find that your axes are not moving in the correct direction, you can go into the Config tab and change the axis that’s wrong. Also, if you notice that your CNC reacts intermittently at higher speeds then you might have to either spend some more time tuning your machine's mechanics, or consider lowering the SLBs maximum speed with settings 110, 111, and 112.
+
+![](/_images/_superlongboard/_upgrade/slb_up_p28_Off-newu.jpg){.aligncenter .size-full}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_upgrade/slb_up_p27_JogControl.jpg){.aligncenter .size-full}
 
-If you find that your axes are not moving in the correct direction, you can go into your firmware settings and change the axis that’s wrong. Also, if you notice that your CNC reacts intermittently at higher speeds then you might have to either spend some more time tuning your machine's mechanics, or consider lowering the SLBs maximum speed with settings 110, 110, and 112.
+If you find that your axes are not moving in the correct direction, you can go into your firmware settings and change the axis that’s wrong. Also, if you notice that your CNC reacts intermittently at higher speeds then you might have to either spend some more time tuning your machine's mechanics, or consider lowering the SLBs maximum speed with settings 110, 111, and 112.
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p28_Off.jpg){.aligncenter .size-medium}
 
 <p style="text-align: center;"><em>Above, the Z-axis was flipped since the SLB was being set up on an MK1 LongMill</em></p>
+
+[tabbyending]
 
 If you've done 'movement tuning' of your CNCs steps/mm ($100-102), you can transfer these over to the SLB. When you do this remember that:
 
