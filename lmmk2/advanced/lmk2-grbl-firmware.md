@@ -91,7 +91,7 @@ Clicking this will open up a new window where you'll see the window is titled "*
 
 ### Upload the grbl firmware
 
-Now that we've erased all previous memory from the control board, we can move forward by giving it new instructions to remember: this will be a brand new firmware installation. We keep all major LongMill firmware instances available for download, you'll likely want to click to download the most recent one: <a href="https://drive.google.com/file/d/11IMPXuzWLO3tz05rsM77BA5zNT5qmzj5/view">LongMill MK2 Firmware (Feb 11, 2022)</a>
+Now that we've erased all previous memory from the control board, we can move forward by giving it new instructions to remember: this will be a brand new firmware installation. We keep all major LongMill firmware instances available for download, you'll likely want to click to download the most recent one: <a href="https://drive.google.com/file/d/1fd8PHAo6UrbHzCg_LZwJcpI8t3haAMmP/view" target="_blank" rel="noopener">LongMill MK2 Firmware (Feb 11, 2022)</a>
 
 Once downloaded, this will appear onto your computer as a compressed or 'zipped' file. Locate the downloaded file in your computer folders, ‘un-zip’ or ‘extract’ it (usually found when you right-click the file), and then you'll notice a firmware folder with a name that matches the downloaded file and contains all the necessary files. If you open this folder up you should see a folder called "**grbl**", and from there if you open up the "**examples**" folder followed by the "**grblUpload**" folder. If you notice a file called "**grblUpload.ino**" this is what you'll want to open with the Arduino IDE program (this should be as simple as double-clicking the file which will open up a new window where you'll see the window is titled "**grblUpload**").
 
