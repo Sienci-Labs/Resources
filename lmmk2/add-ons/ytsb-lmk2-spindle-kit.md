@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/_lmmk2/_add-ons/_all/lmk2_spindle_vfd_components.jpg
 ---
 
-This is a setup guide for the LongMill Spindle Kit, installed on the LongMill MK2 and using the SLB controller. 1
+This is a setup guide for the LongMill Spindle Kit, installed on the LongMill MK2 and using the SLB controller.
 
 If you prefer to watch a video of this process, check out Jason's video below:
 
