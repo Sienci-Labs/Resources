@@ -271,7 +271,15 @@ While you’re here, if you used to use $1=255 to hold your motors (typically us
 
 One last test is to check that your touch plate works. Navigate to the Probe tab and hit the ‘Probe’ button.
 
+[tabby title="Current gSender" open="yes"]
+
+![](/_images/_superlongboard/_upgrade/slb_up_p29_Probe-newu.jpg){.aligncenter .size-full}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_upgrade/slb_up_p29_Probe.jpg){.aligncenter .size-full}
+
+[tabbyending]
 
 Then, tap the magnet to the touch plate. You will see the yellow PRB light on the SLB.
 
@@ -279,13 +287,29 @@ Then, tap the magnet to the touch plate. You will see the yellow PRB light on th
 
 You’ll know you are successful if the popup button turns blue, and says “Start Probe”.
 
+[tabby title="Current gSender" open="yes"]
+
+![](/_images/_superlongboard/_upgrade/slb_up_p31_Continuity-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_upgrade/slb_up_p31_Continuity.png){.aligncenter .size-medium}
+
+[tabbyending]
 
 If the light is coming on but the popup button isn’t turning blue, this can sometimes be fixed by resetting your board settings. Do this by typing “$RST=$” into the console tab and hitting Enter, then use the power switch on the back of the board to “power-cycle” it off and back on again. Once you reconnect in gSender you can try probing again.
 
 <p style="text-align: center;"><em><b>Note:</b> If you reset your board settings, you’ll need to go back and change any other settings you changed up until this point,, like inverting the Z-axis for MK1 owners.</em></p>
 
+[tabby title="Current gSender" open="yes"]
+
+![](/_images/_superlongboard/_upgrade/slb_up_p32_RSTConsole-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_upgrade/slb_up_p32_RSTConsole.jpg){.aligncenter .size-medium}
+
+[tabbyending]
 
 **Congrats!** Your Quick tests are now complete. This means that all our basic accessories should now be set up and ready to use on your new SLB! If you wired up other accessories then keep reading the next section to ensure you test them too, otherwise you can move on to the <a href="#routing">Routing section</a>.
 
@@ -298,25 +322,46 @@ Your limit switches are installed and plugged into your SLB, so let’s check th
 1. **Powered sensors** - Place a metal object in front of each of the limit switches and look for the red light. This indicates that each sensor is plugged in correctly.
 ![](/_images/_superlongboard/_upgrade/slb_up_p33.jpg){.aligncenter .size-medium}
 
-1. **Signal to the board** - Navigate to your Calibration Tool and check the Diagnostics tab to see if your board is receiving the signal from the limit switch, when the pins change from OFF to ON. Also double check that the correct axis is turning on.
+[tabby title="Current gSender" Open="Yes"]
+
+1. **Signal to the board** - Navigate to your Machine Information icon on the main Carve tab to see if your board is receiving the signal from the limit switch, when the pins change from OFF to ON. Also double check that the correct axis is turning on.
+![](/_images/_superlongboard/_upgrade/slb_up_p34_PinGIF-newu.gif){.aligncenter .size-full}
 
    <p style="text-align: center;"><em><b>Note:</b> If you don’t see an axis turning ON/OFF, double check the connections on the board. We don’t use Y2 for example.</em></p>
 
-   ![](/_images/_superlongboard/_upgrade/slb_up_p34_PinGIF.gif){.aligncenter .size-medium}
+1. **Turn Homing on** - Navigate to the Config tab ➜ Homing/Limits section. Here you will see 8 toggles under the heading “Homing cycle”. There are many options for homing on the SLB, but just start by matching the toggles in the picture below (on, off - on, on - off, off - on, off). This will make the SLB home the same way that you’re already used to. Make sure to click “Apply New Settings”.
+
+   If you even find you can’t unlock homing, homing isn’t setting the machine coordinates to zero, or other unusual behaviours, come back here to double-check this list since you might not have all the right settings turned on. If you’re still curious about the other options, check out the <a href="https://resources.sienci.com/view/slb-manual/#homing-amp-limit-switches">Homing &amp; Limits Setup</a> section.
+   ![](/_images/_superlongboard/_upgrade/slb_up_p35_HomingCycle-newu.jpg){.aligncenter .size-medium}
+
+1. **Homing test** - With things looking good on the firmware side, let’s run a homing cycle with gSender by pressing the ‘Home’ button on the main screen.
+![](/_images/_superlongboard/_upgrade/slb_up_p35a_Home-newu.jpg){.aligncenter .size-medium}
+
+1. **Invert if needed** - If you find any axes are reversed, return to 23 in the firmware tool and flip any of the directions that are wrong. If you find that homing is behaving weirdly still, go back and check that you turned on the right toggles for 22.
+   ![](/_images/_superlongboard/_upgrade/slb_up_p36_HomingDirection-newu.jpg){.aligncenter .size-medium}
+
+1. **Reduce homing speed if needed** - If you’re finding your CNC gets stuck completing a homing cycle or is disconnecting, try reducing the homing “search seek rate” ($25) or increasing the “debounce delay” ($26) settings. Depending on your setup or sensors, the default values might be a bit too aggressive.
+
+[tabby title="Classic gSender"]
+
+   1. **Signal to the board** - Navigate to your Calibration Tool and check the Diagnostics tab to see if your board is receiving the signal from the limit switch, when the pins change from OFF to ON. Also double check that the correct axis is turning on.
+   ![](/_images/_superlongboard/_upgrade/slb_up_p34_PinGIF.gif){.aligncenter .size-full}
+
+   <p style="text-align: center;"><em><b>Note:</b> If you don’t see an axis turning ON/OFF, double check the connections on the board. We don’t use Y2 for example.</em></p>
 
 1. **Turn Homing on** - Scroll down in gSender’s Firmware Tool to 22, also called “Homing cycle”. There are more options for homing on the SLB, but just start by matching the toggles in the picture below (on, off - on, on - off, off - on, off). This will make the SLB home the same way that you’re already used to. Make sure to click “Apply New Settings”.
 
    If you even find you can’t unlock homing, homing isn’t setting the machine coordinates to zero, or other unusual behaviours, come back here to double-check this list since you might not have all the right settings turned on. If you’re still curious about the other options, check out the <a href="https://resources.sienci.com/view/slb-manual/#homing-amp-limit-switches">Homing &amp; Limits Setup</a> section.
-
    ![](/_images/_superlongboard/_upgrade/slb_up_p35_HomingCycle.jpg){.aligncenter .size-medium}
 
 1. **Homing test** - With things looking good on the firmware side, let’s run a homing cycle with gSender by pressing the ‘Home’ button on the main screen.
 
 1. **Invert if needed** - If you find any axes are reversed, return to 23 in the firmware tool and flip any of the directions that are wrong. If you find that homing is behaving weirdly still, go back and check that you turned on the right toggles for 22.
-
    ![](/_images/_superlongboard/_upgrade/slb_up_p36_HomingDirection.jpg){.aligncenter .size-medium}
 
 1. **Reduce homing speed if needed** - If you’re finding your CNC gets stuck completing a homing cycle or is disconnecting, try reducing the homing “seek rate” (25) or increasing the “debounce delay” (26) settings. Depending on your setup or sensors, the default values might be a bit too aggressive.
+
+[tabbyending]
 
 ### LaserBeam Test
 
