@@ -376,7 +376,7 @@ With your LaserBeam plugged into the SLB, let’s perform a quick test to make s
 
 Back on the main screen in the bottom right corner, navigate to the Spindle/Laser tab and select “SLB_LASER” in the dropdown list. After this, flip the toggle at the top to ‘Laser Mode’.
 
-![](/_images/_superlongboard/_upgrade/slb_up_p38_SLBSpindle.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_upgrade/slb_up_p38_SLBSpindle-newu.jpg){.aligncenter .size-full}
 
 <p style="text-align: center;"><em><b>Note: Ensure that you are wearing your safety glasses!</b></em></p>
 

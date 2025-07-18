@@ -531,7 +531,15 @@ The laser isn’t set as the default for safety reasons, but further down is inf
 
 You can only control one at a time, so to select which one you’d like to control you can use the dropdown selector in gSender or use the selection commands. This selection will also apply when you send manual spindle commands in other ways like the console.
 
+[tabby title="Current gSender" Open="Yes"]
+
+![](/_images/_superlongboard/_manual/slb_ma_p33_gSenderLaser-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_manual/slb_ma_p33_gSenderLaser.png){.aligncenter .size-medium}
+
+[tabbyending]
 
 For other g-code senders, you’ll need to use the selection commands:
 
