@@ -33,7 +33,17 @@ The SLB is set up to be automatically compatible with most LongMills by default.
 
 - **Firmware settings look funny, don't have descriptions, changing settings causes unexpected changes to happen:** if you're using gSender, check that you've selected 'grblHAL' as the firmware when you connect to your machine, not 'grbl'.
 - **Pressing to ‘Zero’ axes isn’t working**: ensure "work coordinate offset" is enabled for $10, or that $10 = 511
-![](/_images/_superlongboard/slb_tb_10-setting.jpg){.aligncenter .size-full}
+
+[tabby title="Current gSender" Open="Yes"]
+
+![](/_images/_superlongboard/slb_tb_10-setting-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
+![](/_images/_superlongboard/slb_tb_10-setting.jpg){.aligncenter .size-medium}
+
+[tabbyending]
+
 - **Probing isn’t passing continuity check**: ensure the yellow ‘PRB’ light is coming on, if isn't then check your touch plate wiring, and if it is then ensure “pin state” is enabled for $10 or that $10 = 511
 - **Dual Y-axes drifting out of sync**: for grblHAL there is a new solution to this which is $37. This is better than the old $1=255 solution because $37 can hold individual motors rather than holding all of them. If you’d like to turn it on to keep your dual Y-axes in sync then turn it on for ‘Y’ or set $37=2.
 - **CNC losing location during goto, outlining, probing, or running a job**: all of these situations use high-speed ‘G0’ movements where the motors might not be able to keep up if your machine is not mechanically sound. First, confirm this is the problem by manually jogging your machine using the jog arrows and slowly increasing the jogging ‘Speed’ value until you notice any of the axes moving intermittently. Since your machine should be able to handle these speeds, it’s likely there’s some components that you’ve assembled too loose or too tight or misaligned. Check if you can turn your lead screws by hand, if your belts or v-wheels are too tight, if you have a coupler that’s too loose. These will all be the same components you should be looking at during regular machine maintenance. If you still can’t manage to get your machine to run at full speed the other option is to consider lowering the SLBs maximum speed with settings 110, 111, and 112 and maximum accelerations with settings 120, 121, and 122 until the problem goes away.

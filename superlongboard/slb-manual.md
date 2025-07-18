@@ -200,6 +200,31 @@ Keep in mind that setting up Ethernet is a bit more involved, and at the time of
 #### Ethernet on Windows
 
 1. To start, connect to your CNC over USB to note down the EEPROM values set for the IP address and Netmask (302 and 304). The defaults should be IP: `192.168.5.1` and Netmask: `255.255.255.0` with the IP mode set to `static`.
+
+[tabby title="Current gSender" Open="Yes"]
+
+![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode-newu.jpg){.aligncenter .size-medium}
+
+1. Once confirmed, you can unplug your USB and connect the Ethernet cable directly from your PC to your board. If you look where you plugged the Ethernet cable into the SLBs port from the outside, you should see a green light on and a flickering yellow light.
+
+1. You’ll need to configure the PC’s Ethernet interface. Open network connections to get a list of Ethernet ports.
+![](/_images/_superlongboard/_manual/slb_ma_p14_TCP.jpg){.aligncenter .size-full}
+
+1. Right click your Ethernet port and go to Properties and then find the “Internet Protocol Version 4 (TCP/IPv4)” entry and open its properties.
+![](/_images/_superlongboard/_manual/slb_ma_p15_IP.jpg){.aligncenter .size-full .nar}
+
+1. Select the “Use the following IP address:” option and configure it as above. You want the subnet mask to be the same value from the EEPROM 'Netmask'. The IP address should have a different last digit on the same mask - so if the board is device 1 (192.168.5.1), you could call your PC device 5 (192.168.5.5). Click “OK” to save and close the options.
+
+1. Back in gSenders Config tab ➜ Ethernet section, make sure the IP Range matches the IP from the EEPROM.
+![](/_images/_superlongboard/_manual/slb_ma_p16_EEPROM-newu.jpg){.aligncenter .size-medium}
+
+1. Now click on Connect to CNC, choose the Ethernet Port option and you should see it connect successfully :)
+![](/_images/_superlongboard/_manual/slb_ma_p17_Connected-newu.jpg){.aligncenter .size-medium}
+
+1. If you have a problem connecting with Ethernet, go back over the setup steps. You can also reconnect over USB to double-check your SLB Ethernet settings.
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode.jpg){.aligncenter .size-full .nar}
 
 1. Once confirmed, you can unplug your USB and connect the Ethernet cable directly from your PC to your board. If you look where you plugged the Ethernet cable into the SLBs port from the outside, you should see a green light on and a flickering yellow light.
@@ -219,6 +244,8 @@ Keep in mind that setting up Ethernet is a bit more involved, and at the time of
 ![](/_images/_superlongboard/_manual/slb_ma_p17_Connected.jpg){.aligncenter .size-full}
 
 1. If you have a problem connecting with Ethernet, go back over the setup steps. You can also reconnect over USB to double-check your SLB Ethernet settings.
+
+[tabbyending]
 
 #### Ethernet on Mac
 
@@ -269,7 +296,15 @@ Useful in cases of:
 
 We’ve found that a minimum of 15% works for lead screw-driven CNCs. These hold current settings will also apply even if $37 is off when the machine is cutting but that axis isn’t moving. Note that these settings won’t work for an A-axis since that would typically be done using the DIP switches on the external motor driver.
 
+[tabby title="Current gSender" Open="Yes"]
+
+![](/_images/_superlongboard/_manual/slb_ma_p19_Steppers-newu.jpg){.aligncenter .size-medium }
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_manual/slb_ma_p19_Steppers.jpg){.aligncenter .size-full}
+
+[tabbyending]
 
 Note that since the Y1 and Y2 outputs share the same enable pin, they cannot be held independently even if they're assigned to different axes.
 
@@ -402,11 +437,23 @@ If you’d like to use the white JST connectors instead, the wiring pinouts are 
 
 If you’ve set up your own **NC sensors**, the first thing you’ll want to do is invert all the limit pins for $5 like shown below. **Don't do this if you have the inductive sensors from Sienci!**
 
+[tabby title="Current gSender" Open="Yes"]
+
+![](/_images/_superlongboard/_manual/slb_ma_p30_InvertLP-newu.jpg){.aligncenter .size-medium}
+
+On top of the typical settings that the original LongBoard has when it comes to homing like homing speed and direction, the SLB brings along some new options that you can configure. If you'd like to match the SLB behaviour to the typical LongMill/grbl setup, then we'd recommend you enable all the settings shown in the picture (homing on startup, set machine origin to 0, and override locks), otherwise learn about all the settings in the table below.
+
+![](/_images/_superlongboard/_manual/slb_ma_p31_HomingFirm-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_manual/slb_ma_p30_InvertLP.jpg){.aligncenter .size-full}
 
 On top of the typical settings that the original LongBoard has when it comes to homing like homing speed and direction, the SLB brings along some new options that you can configure. If you'd like to match the SLB behaviour to the typical LongMill/grbl setup, then we'd recommend you enable all the settings shown in the picture (homing on startup, set machine origin to 0, and override locks), otherwise learn about all the settings in the table below.
 
 ![](/_images/_superlongboard/_manual/slb_ma_p31_HomingFirm.jpg){.aligncenter .size-full}
+
+[tabbyending]
 
 [su_table responsive="yes" fixed="yes"]
 <table>
@@ -743,7 +790,15 @@ If your TLS is wired correctly, you should be able to press it and see the “PR
 
 With wiring done, check in your g-code sender if the TLS signal is set up correctly. This signal is shared with the touch plate, so activating either of them should be recognized. gSender has a status light to help see this in the 'Calibrate' tab and in other senders it should appear as 'P' for probe. If the light in the sender turns on when the TLS is pushed, and also turns on when the probe circuit is connected, then the hardware (SLB and wiring) is working and that means the $ values have been set up correctly. If the signal is on and only turns off when the TLS is pressed, then go to the $668 firmware setting and toggle it to the opposite of what it was set to.
 
+[Tabby title="Current gSender" Open="Yes"]
+
+![](/_images/_superlongboard/_manual/slb_ma_p44_tls-input-newu.jpg){.aligncenter .size-medium}
+
+[Tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_manual/slb_ma_p44_tls-input.png){.aligncenter .size-full}
+
+[tabbyending]
 
 This flip is usually needed since the SLB defaults to expect NO inputs. Once this all seems to be working, see more documentation here on how to set up tool changing for your SLB (<a href="https://resources.sienci.com/view/gs-additional-features/#tool-changing" target="_blank" rel="noopener">gSender tool changing feature</a>) and make sure you select the 'Fixed tool sensor' option.
 

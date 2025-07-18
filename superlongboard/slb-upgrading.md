@@ -367,6 +367,27 @@ Your limit switches are installed and plugged into your SLB, so let’s check th
 
 With your LaserBeam plugged into the SLB, let’s perform a quick test to make sure it fires up.
 
+[tabby title="Current gSender" Open="Yes"]
+
+1. Turn on your LaserBeam driver. <a href="https://resources.sienci.com/view/lb-turning-driver-on/">Go here</a> if you want to refresh your memory on how to do this. If your driver doesn’t turn on, don’t necessarily attribute this to an issue with the board right away. First double check all these conditions are met since they are sometimes easy to forget.
+1. In gSender, navigate to the Config tab ➜ Spindle/Laser tab in the Settings and toggle the spindle/laser controls on.
+
+   ![](/_images/_superlongboard/_upgrade/slb_up_p37_SpindleLaser-newu.jpg){.aligncenter .size-full}
+
+Back on the main screen in the bottom right corner, navigate to the Spindle/Laser tab and select “SLB_LASER” in the dropdown list. After this, flip the toggle at the top to ‘Laser Mode’.
+
+![](/_images/_superlongboard/_upgrade/slb_up_p38_SLBSpindle.jpg){.aligncenter .size-full}
+
+<p style="text-align: center;"><em><b>Note: Ensure that you are wearing your safety glasses!</b></em></p>
+
+Ensure your power is set to 1% and your ‘Test Duration’ to one second. Now when you hit the ‘Laser Test’ button your diode should momentarily emit a faint beam. This means that the SLB is controlling your laser successfully!
+
+![](/_images/_superlongboard/_upgrade/slb_up_p39_LaserTest-newu.jpg){.aligncenter .size-full}
+
+If the laser testing didn’t go as planned, check your wiring and that you’ve turned on your driver correctly. If you go back through the steps still with no success, you can always read more about laser setup on our more advanced <a href="https://resources.sienci.com/view/slb-manual/#laser">SLB Manual page</a>.
+
+[tabby title="Classic gSender"]
+
 1. Turn on your LaserBeam driver. <a href="https://resources.sienci.com/view/lb-turning-driver-on/">Go here</a> if you want to refresh your memory on how to do this. If your driver doesn’t turn on, don’t necessarily attribute this to an issue with the board right away. First double check all these conditions are met since they are sometimes easy to forget.
 1. In gSender, navigate to the Spindle/Laser tab in the Settings and toggle it on.
 
@@ -383,6 +404,8 @@ Ensure your power is set to 1% and your ‘Test Duration’ to one second. Now w
 ![](/_images/_superlongboard/_upgrade/slb_up_p39_LaserTest.jpg){.aligncenter .size-full}
 
 If the laser testing didn’t go as planned, check your wiring and that you’ve turned on your driver correctly. If you go back through the steps still with no success, you can always read more about laser setup on our more advanced <a href="https://resources.sienci.com/view/slb-manual/#laser">SLB Manual page</a>.
+
+[tabbyending]
 
 ### Rotary Test
 
@@ -479,11 +502,20 @@ There will be some new behaviours to expect from your SLB compared to the way yo
 - For now, the SLB will continue working the best with any typical ‘grbl’ post processor setup. If you already had a working grbl setup then you won't need to change anything.
 - Whenever you press the **E-stop, expect an ‘Alarm 10’** to appear. This shows that the board saw your E-stop press and will shut down the motors and all other accessories. Once you untwist the E-stop (the light will come back on), you’ll be able to unlock the machine and continue what you were doing. The E-stop will cancel any currently active job, so if you want to resume you’ll want to re-probe or re-home and then use ‘Start from Line’ to resume the job back where you left off.
 
+[tabby title="Current gSender" Open="Yes"]
+
+![](/_images/_superlongboard/_upgrade/slb_up_p48_Unlock-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
   ![](/_images/_superlongboard/_upgrade/slb_up_p48_Unlock.jpg){.aligncenter .size-medium}
+
+[tabbyending]
+
 - The yellow ‘processing’ lines in the gSender visualizer might extend out further when you’re running a job, this is just because the SLB can store more future movements in its memory than other boards
-- **Swapping between the Spindle/Laser is a bit more involved**, the SLB Manual page goes into it a bit more on it. Because of this, we’d recommend that you set up your SLB for whatever Spindle/Laser output you’d tend to use as your default, so that you can just power on your machine and not have to worry about many other steps after that.
-- There will always show the ‘Unlock’ button in gSender. This is because there might be some times where if your SLB gets stuck, you can use the ‘Unlock’ button to help recover it.
-- This should never change after your first setup, but you’ll need to make sure that from now on you always connect to gSender or other g-code senders with ‘grblHAL’ being the selected firmware
+- **Swapping between the Spindle/Laser is a bit more involved**, the SLB Manual page goes into it a bit more on it. Because of this, we’d recommend that you set up your SLB for whatever Spindle/Laser output you’d tend to use as your default, so that you can just power on your machine and not have to worry about many other steps after that
+- There will always show the ‘Unlock’ button in gSender. This is because there might be some times where if your SLB gets stuck, you can use the ‘Unlock’ button to help recover it
+- This should never change after your first setup, but you’ll need to make sure that from now on you always connect to gSender or other g-code senders with ‘grblHAL’ being the selected firmware. The most current version of gSender detects your firmware and connects automatically, so no need for an extra step.
 
   ![](/_images/_superlongboard/_upgrade/slb_up_p49_grblHAL.png){.aligncenter .size-medium}
 - Some settings in gSender aren’t used anymore since the SLB stores them itself. This includes the Spindle/Laser settings for spindle min/max speed, laser min/max power, and laser axes offset, as well as all the Rotary settings except for the Rotary toggle.
