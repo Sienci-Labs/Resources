@@ -17,13 +17,15 @@ featured_image: _images/_lmmk2/_the-basics/lmk2_prep_shop_pic2.jpg
 
 ## Setting Expectations
 
-You’ve done the research, charted your course, and now you’re ready to set sail on your CNC journey—steady at the helm, creativity as your guiding star. You can already picture the incredible projects you’ll bring to life, each one a step toward mastering your craft.
+You’ve done the research, charted your course, purchased your CNC, and now you’re ready to set sail on your CNC journey — steady at the helm, creativity as your guiding star. You can already picture the incredible projects you’ll bring to life, each one a step forward, heading toward mastering your craft. Just like Christopher Columbus in 1492, let's explore the unknown waters of preparing to be a CNC owner. (Can you imagine the boats they would build it they had CNC's back then?)
+
+These four points of interest have been marked on your treasure map to begin...
 
 **Before you cast off** -> 💨 Take a deep breath and see which way the wind is blowing.
 
 Prepare for your journey by checking out the [learning curve](#learning-curve) you are about to embark upon. Take a deep breath, learn from any mistakes and keep going!<br>
 
-**Building the boathouse** -> 🚢 Need a bigger boat?
+**Building the boathouse** -> 🚢  We're gonna need a bigger boat - house. Or do we?
 
 Explore [space requirements](#space-requirements), research the [power requirements](#power-requirements) and analyze the different [costs](#initial-costs) to get your shop setup and ready to roll<br>
 
@@ -55,13 +57,13 @@ Enjoy a couple more videos about the dark side of CNC, introduction to CNC, and 
 
 ## Learning Curve
 
-There are many moving parts when it comes to producing something from your new CNC machine. An interesting intersection of technology and woodworking. You can produce something on your first try, but it may take several months to become comfortable with all of the steps available to you. Know that you will make some mistakes along the way, but embrace them if you can as learning moments. Store that memory away, and prevent it from happening again. Let's explore some of the new skills you will be learning about, acquiring, and eventually mastering. **You got this!**
+There are many moving parts when it comes to producing something from your new CNC machine. An interesting intersection of technology and woodworking. There are several steps to each stage that you can work your way through, to come out with something great on your first try. Make a couple tweaks to your design, and run the job again, and all of the sudden you have something to really be proud of! Know that you will make some mistakes along the way, but embrace them if you can as learning moments. Store that memory away, and prevent it from happening again. Let's explore some of the new skills you will be learning about, acquiring, and eventually mastering. **You got this!**
 
 - **Commonly used Terms**<br> It will sometimes feel like you are learning an entirely new language. Terms like *controller, toolpath, endmill and workholding* are all important to know. Check out this article on [Common CNC Terms](https://resources.sienci.com/view/lmk2-common-cnc-terms/)
-- **Software Skills**<br> A significant part of CNC woodworking involves learning CAD (Computer-Aided Design) and CAM (Computer-Aided Manufacturing) software. Programs like Fusion 360, Easel, or VCarve have varying degrees of complexity, and mastering them takes time.
+- **Software Skills**<br> A significant part of CNC woodworking involves learning CAD (Computer-Aided Design) and CAM (Computer-Aided Manufacturing) software. Programs like Fusion 360, Easel, or VCarve have varying degrees of complexity, and mastering them takes time. The good news is, you don't need to be a master to make cool stuff, right out of the gates.
 - **Toolpaths and Settings**<br> Beyond software, understanding toolpaths (how the machine moves), feed rates, spindle speeds, and materials will come into play. These settings directly affect the success of your projects.
 - **Patience Required**<br> Expect to spend a good amount of time experimenting and learning through trial and error. Your first few projects may not be perfect, and that’s completely normal.
-- **Learn about Wood**<br> There are a couple things to focus on learning including how to measure wood, where to buy it, and how to store it.
+- **Learn about Wood**<br> There are a couple things to focus on learning, including how to measure wood, where to buy it, and how to store it.
 
 This video is a good overview of the entire CNC process, followed by some simple projects you can begin with.
 
@@ -89,7 +91,7 @@ Mistakes happen, let's review some of the common ones!
 
 https://youtu.be/Vh6OzYyd840
 
-We all need to laugh at ourselves every now and again, so here are some shorts to giggle with. These are those icebergs we are hoping to avoid ourselves. Isn't it nice when people share their mistakes so we can all learn from them?
+We all need to laugh at ourselves every now and again, so here are some shorts to giggle with. These are those icebergs we are hoping to avoid ourselves. Many people in this hobby have a bin for mistakes labeled **Firewood!!** Not only do you get to make really cool things, you also get to make a bunch of dust, and some really cool looking firewood. Isn't it nice when people share their mistakes so we can all learn from them?
 
 [su_table responsive="yes"]
 
@@ -99,13 +101,14 @@ We all need to laugh at ourselves every now and again, so here are some shorts t
 | Walnut is expensive  | —                                                          | Short       | [Watch Video](https://youtube.com/shorts/uu2aUNBWfcI)    |
 | Hit Pause or Hit X?   | —                                                          | Short       | [Watch Video](https://youtube.com/shorts/MnAMTn4U_qg)    |
 | Collet burn   | —                                                          | Short       | [Watch Video](https://youtube.com/shorts/01bqc3Gw3eQ)    |
+| Dagger Break  | —                                                            |Video  |  [Watch Video](https://youtu.be/TUYnw6ZoKNY?si=ykXQ_CUw10XQoukC&t=202)  |
 
 [/su_table]
 
 ### Time Commitment
 
-- **Setup and Testing**<br> Expect a significant amount of time to be spent on project setup—finalizing the design, securing the workpiece, setting up toolpaths, and making sure everything is aligned. Testing new designs or tool setups on scrap materials is often necessary.
-- **Project Completion**<br> Projects can take longer than expected, especially if you are refining a design, troubleshooting issues, or making multiple passes on a complicated cut. Patience is key. Often a roughing pass is used first to remove the bulk of material, then a finishing pass comes along and really smooths thing up.
+- **Setup and Testing**<br> Expect a significant amount of time to be spent on project setup - finalizing the design, securing the workpiece, setting up toolpaths, and making sure everything is aligned. The amount of time spent before you start carving, can often be more than the time it takes to carve!! Testing new designs or tool setups on scrap materials is often necessary too.
+- **Project Completion**<br> Projects can take longer than expected, especially if you are refining a design, troubleshooting issues, or making multiple passes on a complicated cut. Patience is key. Often a *roughing pass* is used first to remove the bulk of material, then a *finishing pass* comes along and really smooths thing up.
 
 ### Community Support
 
@@ -170,13 +173,14 @@ Always double-check your circuit’s breaker ratings to avoid overloading your w
 
 ### **Initial Costs**
 
+There are a couple main costs to consider when entering the CNC hobby. You can start with as little as a CNC, table and laptop! Some companies will offer beginner bundles like the [Starter End Mill Set](https://sienci.com/product/sems/) for example. These can be a great way to save some money and get a variety of bits to start with.
+
 - **Machine Cost**<br> CNC machines come in a range of prices depending on size, precision, and brand. Hobby-level machines can start around $500–$2,000, while more advanced or larger machines can go well beyond $5,000.
 - **Additional Costs**<br> You’ll also need software for designing your projects, which could involve one-time purchases or subscription fees. Accessories like end mills, clamps, dust collection systems, and materials (wood, MDF, etc.) will add to your initial investment.
-- **Upgrades**<br> Over time, you may want to upgrade parts, like getting better tooling, a quieter dust collection system or adding additional features (such as an upgraded spindle or a laser engraver).
 
 #### Optional Add-Ons
 
-Every shop is a bit different, and customizing yours to fit your needs is always a fun challenge. It's not uncommon to reshuffle/reorganize your shop after you've had your CNC for a bit and understand where you want things. Many users will already have a computer, mouse, keyboard, saw, workbench, etc. before you begin with your new CNC, which can really save you money starting up.
+Over time, you may want to upgrade parts, like getting better tooling, a quieter dust collection system or adding additional features (such as an upgraded spindle, automatic tool changer or a laser engraver). Every shop is a bit different, and customizing yours to fit your needs is always a fun challenge. It's not uncommon to reshuffle/reorganize your shop after you've had your CNC for a bit and understand where you want things. Many users will already have a computer, mouse, keyboard, saw, workbench, etc. before you begin with your new CNC, which can really save you money starting up.
 
 In the chart below we explore many of the things you may want to consider adding to your shop, before your end mill starts spinning. Don't fret too much about 'keeping up with the Joneses', you can start slow and build up your extras when you are ready.
 
@@ -218,7 +222,7 @@ Here are some extra videos to help you save some money when setting up your shop
 
 ## Machine Maintenance
 
-- **[Regular Upkeep](https://resources.sienci.com/view/lmk2-maintenance/)**<br> CNC machines require regular maintenance to perform optimally. This includes cleaning your rails & wheels, lubricating parts, checking for loose bolts, and inspecting wiring and belts. Some software like gSender will help you track the number of hours you have been running your machine, and recommend specific maintenance be performed.
+- **[Regular Upkeep](https://resources.sienci.com/view/lmk2-maintenance/)**<br> CNC machines require regular maintenance to perform optimally. This includes cleaning your rails & wheels, lubricating parts, checking for loose bolts, and inspecting wiring and belts. Some software like [gSender](https://resources.sienci.com/view/gs-installation/) will help you track the number of hours you have been running your machine, and recommend specific maintenance be performed.
 - **[Replacing Parts](https://sienci.com/product-category/parts/)**<br> Over time, you’ll need to replace things like the cutting tools, which dull with use, or v-wheels, linear bearings, and delrin nuts that wear out. Knowing how to maintain your machine will help avoid costly breakdowns. Just like replacing tires or windshield wipers on your car.
 - **[Calibration](https://resources.sienci.com/view/lmk2-checks-and-first-moves/#tuning-movement)**<br> Keeping your machine properly calibrated is key for accuracy. Routine checks on squareness, zeroing, and other factors will save you time and material in the long run.
 
