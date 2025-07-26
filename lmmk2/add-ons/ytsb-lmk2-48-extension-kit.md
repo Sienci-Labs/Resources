@@ -365,21 +365,23 @@ Mount this assembly onto the left Y-gantry plate, keeping the flange bearing in 
 
 ### X-axis lead screw installation
 
-![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_4830_PN_3_REVISEDFORV2NUT.png){.aligncenter .size-medium .wid}
+![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48Xtension-pics-6-1.jpg){.aligncenter .wid .size-medium}
+
+From the EX hardware box, grab the longer EX lead screw, as well as the second EX flange bearing, T12 Clamping nut with M5-16mm bolt, and Allen key + standoff assembly.
 
 Pass the EX lead screw through the right Y-gantry plate towards the XZ-gantry assembly. Be careful not to bend the lead screw while doing this or handling it otherwise.
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__4445.jpg){.aligncenter .size-medium}
 
-Begin threading the lead screw into the X-axis delrin nut.
+Begin threading the lead screw into the X-axis T12 anti-backlash nut.
 
-![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__5657.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48Xtension-pics-7.png){.aligncenter .size-medium}
 
 Continue threading the lead screw until it sticks out from the left side of the X-axis gantry. Slide the lead screw and X-axis gantry towards the left and pass the end of the lead screw into the flange bearing and into the motor coupler.
 
 Push the coupler towards the right, and the X-gantry towards the left to ensure the lead screw is seated properly inside the coupler.
 
-![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__5664.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48Xtension-pics-8.png){.aligncenter .size-medium}
 
 Tighten the motor coupler onto the lead screw. Use the Allen key + handle to do this as this bolt must be very tight.
 
@@ -389,7 +391,7 @@ Remove the bolt from the other end of the coupler completely.
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__4487.jpg){.aligncenter .size-medium}
 
-Pass the included smaller Allen key through this hole of the removed bolt to lock the coupler against the motor standoffs from rotating. Alternatively, a small screwdriver, bolt, or rod can be passed through instead. Locking the lead screw from rotating will allow for easier installation of the ACME locking hex nut at the opposite side.
+Pass an Allen key through this hole of the removed bolt to lock the coupler against the motor standoffs from rotating. Alternatively, a small screwdriver, bolt, or rod can be passed through instead. Locking the lead screw from rotating will allow for easier installation of the T12 clamping nut at the opposite side.
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__4492.jpg){.aligncenter .size-medium}
 
@@ -397,13 +399,13 @@ At the opposite side of the lead screw on the right Y-gantry plate, slide a flan
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__4471.jpg){.aligncenter .size-medium}
 
-Grab the EX ACME locking hex nut and begin threading this onto the lead screw.
+Grab the T12 Clamping nut and begin threading this onto the lead screw.
 
-![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__4481.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48Xtension-pics-9.png){.aligncenter .size-medium}
 
-Using a 19mm, ¾” , or adjustable wrench, tighten this ACME nut only until the lead screw no longer has any side-to-side play. Then install the M5 locking bolt into the brass ACME locking nut to secure this. Do not over-tighten this bolt, this only needs to secure the nut from loosening.
+Using a 19mm, 3/4” , or adjustable wrench, tighten this T12 Clamping nut only until the lead screw no longer has any side-to-side play. Then tighten the M5 locking bolt into the T12 locking nut to secure this.
 
-Turn the lead screw by hand afterwards to make sure it spins freely. If you feel any significant resistance, undo the M5 locking bolt and loosen the brass ACME locking hex nut a small amount.
+Turn the lead screw by hand afterwards to make sure it spins freely. If you feel any significant resistance, undo the M5 locking bolt and loosen the T12 Clamping nut a small amount.
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__4484.jpg){.aligncenter .size-medium}
 
