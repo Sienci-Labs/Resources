@@ -36,7 +36,7 @@ The assembly instructions are available both online and as a PDF that you can do
 
 We have updated several of the parts you will use in upgrading to the 48”. They will all easily and seamlessly replace the previous ones. To see the most updated version of our 48” assembly PDF or online manual, you can visit our <a href="https://resources.sienci.com/view/lm-unboxing/#starting-up">MK2.5 assembly section</a>.
 
-![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_EX-48-Add-On-WP-pic.png){.aligncenter .size-medium .wid}
+![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_EX-48-Add-On-WP-pic.jpg){.aligncenter .size-medium .wid}
 
 ## 48” X-axis rail box unpacking
 
