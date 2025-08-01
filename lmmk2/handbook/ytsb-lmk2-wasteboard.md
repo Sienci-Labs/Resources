@@ -54,7 +54,7 @@ With all these values in mind, you should be able to plug them into whatever pro
 
 We also have a 'Surfacing' utility built into gSender that you can use for g-code generation with much less fuss. Once you decide on your settings you can 'Generate G-code' to view the path and then 'Load to Main Visualizer' to import the g-code to run it just like a regular g-code file.
 
-[tabby title="Current gSender" Open="Yes"]
+[tabby title="Current" open="yes"]
 
 ![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gSsender-1-0-5-surfacing-utility-newu.jpg){.aligncenter .size-medium}
 

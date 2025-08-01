@@ -63,7 +63,7 @@ Now, connect the emergency stop button to the control box via the connector on t
 
 ![](/_images/_longmill/_assembly/_electronics/lm_electronics_p10.jpg){.aligncenter .size-medium}
 
-Once you’ve checked that the lights are turning on, press the E-stop button to turn it back off.
+Once you've checked that the lights are turning on, press the E-stop button to turn it back off.
 
 A note on the control box is that it will be limited in it's placement due to the length of the Z-axis motor cable. If you don't think you'll be using the on-board control buttons feel free to mount the box out of the way - the basic operations can be controlled via a USB cable and the E-stop. If you wish to place it further from the machine, extending the wires for that cable is quite straightforward either through the use of a soldering iron or through crimp-able wire extenders.
 
@@ -97,7 +97,7 @@ Once that is done, hover over the **Connect to CNC** button at the top left corn
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_connect.jpg){.aligncenter .size-medium}
 
-Once you’ve selected the port, your machine should be connected. If your machine is powered on, you will usually hear a gentle hiss and a thump noise when the machine connects which is a nice audible confirmation. If you don’t hear that sound, make sure you have released the E-stop so power is going to your machine – indicated by and orange power light on your control box.
+Once you've selected the port, your machine should be connected. If your machine is powered on, you will usually hear a gentle hiss and a thump noise when the machine connects which is a nice audible confirmation. If you don’t hear that sound, make sure you have released the E-stop so power is going to your machine - indicated by and orange power light on your control box.
 
 After a moment you should see the plug icon turn green with a checkmark, the status bar at the top, middle change from **Disconnected** to **Idle**, and all the controls in the app become coloured indicating that they're ready to be used.
 
