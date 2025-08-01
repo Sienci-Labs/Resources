@@ -46,11 +46,23 @@ Unscrew the top-right thumbscrew a couple turns (pictured) then slide the cover 
 
 ## Preparation
 
+[tabby title="Current" open="yes"]
+
+Before diving into rewiring, we’d first suggest you note down any firmware changes that are unique about your setup. You can do this by connecting to your CNC in gSender and using the **Config tab** to find sections that are **highlighted in yellow**. In the example below, you can see that the X and Y maximum travel is different from the standard MK2 12x30.
+
+![](/_images/_superlongboard/_upgrade/slb_up_p3_FirmMaxTravel-newu.jpg){.aligncenter .size-medium}
+
+Yellow sections show when a change has been made from the default settings. Any of these should be written down and will be re-entered when the new board is set up.
+
+[tabby title="Classic gSender"]
+
 Before diving into rewiring, we’d first suggest you note down any firmware changes that are unique about your setup. You can do this by connecting to your CNC in gSender and using the Firmware Tool to find sections that are **highlighted in yellow**. In the example below, you can see that the maximum travel is different from the standard MK2 12x30.
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p3_FirmMaxTravel.jpg){.aligncenter .size-medium}
 
 Yellow sections show when a change has been made from the default settings. Any of these should be written down and will be re-entered when the new board is set up.
+
+[Tabbyending]
 
 ## Wiring
 
@@ -142,6 +154,28 @@ The SLB requires use of version 1.4.0 or later, only these versions can talk to 
 
 You will be connecting to the SLB differently than you are used to.
 
+[tabby title="Current" open="yes"]
+
+Connect to your CNC machine by hovering over the **Connect to CNC** button at the top left corner of the screen and clicking the first option (*note that it's recommended to connect this way on your first setup even if you're planning to use Ethernet in the long-run*).
+
+![](/_images/_superlongboard/_upgrade/slb_up_connectcnc.jpg){.aligncenter .size-full}
+
+After a moment you should see the plug icon turn green with a checkmark, the status bar at the top, middle change from **Disconnected** to **Idle**, and all the controls in the app become coloured indicating that they're ready to be used.
+
+![](/_images/_superlongboard/_upgrade/slb_up_idleconnected.jpg){.aligncenter .size-full}
+
+If you don't see all these changes happen, we'd recommend you check a couple things then retry:
+
+1. You have a secure connection between your machine's control board and computer.
+1. Click the 'Connect' button again to Disconnect, then hover over it to check if there are any other options listed that you can try. For some CNCs you might have to check the 'Unrecognized Ports' dropdown then <a href="https://resources.sienci.com/view/gs-feedback/#port-not-found" target="_blank" rel="noopener">help us update our list of recognized CNCs</a>.
+1. Ensure that any other programs that could be talking to your CNC are closed (ex. Easel, UGS, Arduino IDE).
+1. Update gSender's **Baud Rate** in Config ➜ Basics since your board might not use the typical 115200. Check the specs with your manufacturer.
+1. Arduino is securely attached to the LongBoard. (Not applicable for the SLB)
+1. If it's connecting but behaving oddly, gSender's automatic firmware detection might've failed. In this case ensure you set your board's correct firmware as *grbl* or *grblHAL* under Config ➜ Basics ➜ Firmware fallback.
+
+
+[tabby title="Classic gSender"]
+
 1. Go to **Connect to Machine** in the top left corner (with the board powered on).
 ![](/_images/_superlongboard/_upgrade/slb_up_p18_Connect1.jpg){.aligncenter .size-full .nar}
 1. Connecting to the SLB, requires you to select a new button. Click the gray bar at the bottom labelled Firmware.
@@ -154,6 +188,8 @@ You will be connecting to the SLB differently than you are used to.
 **Congrats!** You have connected to your new SuperLongBoard!! Since USB is plug and play, we’ve selected it now and can connect via Ethernet at a later time.
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p22_Connected.jpg){.aligncenter .size-full .nar}
+
+[tabbyending]
 
 Let’s move on to some quick tests.
 
@@ -177,7 +213,15 @@ The SLB will respond by turning several lights RED. Most notably your **CNC Stat
 
 Now we can deactivate the E-stop button by turning it clockwise until it’s raised again. You will see the E-stop button light come back on when raised correctly. We will need to unlock the SLB in gSender by pressing the Click to Unlock Machine button.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_superlongboard/_upgrade/slb_up_p26_Unlock-newu.jpg){.aligncenter .size-full}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_upgrade/slb_up_p26_Unlock.jpg){.aligncenter .size-full}
+
+[tabbyending]
 
 **Congrats!** You’ve completed the Power On Quick Test.
 
@@ -194,13 +238,25 @@ Now we can deactivate the E-stop button by turning it clockwise until it’s rai
 It’s time to take the SLB out for a spin! Using the jog controls on the main page of gSender, try moving your machine around in the X, Y and Z-axes. Make sure they’re going in the correct directions; also try increasing the jogging ‘Speed’ value to 5500mm/min (220ipm) to test the faster default capabilities of the SLB.
 <p style="text-align: center;"><em><b>Note</b>: If you have a LongMill MK1, you’ll need to invert your Z-axis movement (see next step).</em></p>
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_superlongboard/_upgrade/slb_up_p27_JogControl-newu.jpg){.aligncenter .size-full}
+
+If you find that your axes are not moving in the correct direction, you can go into the Config tab and change the axis that’s wrong. Also, if you notice that your CNC reacts intermittently at higher speeds then you might have to either spend some more time tuning your machine's mechanics, or consider lowering the SLBs maximum speed with settings 110, 111, and 112.
+
+![](/_images/_superlongboard/_upgrade/slb_up_p28_Off-newu.jpg){.aligncenter .size-full}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_upgrade/slb_up_p27_JogControl.jpg){.aligncenter .size-full}
 
-If you find that your axes are not moving in the correct direction, you can go into your firmware settings and change the axis that’s wrong. Also, if you notice that your CNC reacts intermittently at higher speeds then you might have to either spend some more time tuning your machine's mechanics, or consider lowering the SLBs maximum speed with settings 110, 110, and 112.
+If you find that your axes are not moving in the correct direction, you can go into your firmware settings and change the axis that’s wrong. Also, if you notice that your CNC reacts intermittently at higher speeds then you might have to either spend some more time tuning your machine's mechanics, or consider lowering the SLBs maximum speed with settings 110, 111, and 112.
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p28_Off.jpg){.aligncenter .size-medium}
 
 <p style="text-align: center;"><em>Above, the Z-axis was flipped since the SLB was being set up on an MK1 LongMill</em></p>
+
+[tabbyending]
 
 If you've done 'movement tuning' of your CNCs steps/mm ($100-102), you can transfer these over to the SLB. When you do this remember that:
 
@@ -215,7 +271,15 @@ While you’re here, if you used to use $1=255 to hold your motors (typically us
 
 One last test is to check that your touch plate works. Navigate to the Probe tab and hit the ‘Probe’ button.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_superlongboard/_upgrade/slb_up_p29_Probe-newu.jpg){.aligncenter .size-full}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_upgrade/slb_up_p29_Probe.jpg){.aligncenter .size-full}
+
+[tabbyending]
 
 Then, tap the magnet to the touch plate. You will see the yellow PRB light on the SLB.
 
@@ -223,13 +287,29 @@ Then, tap the magnet to the touch plate. You will see the yellow PRB light on th
 
 You’ll know you are successful if the popup button turns blue, and says “Start Probe”.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_superlongboard/_upgrade/slb_up_p31_Continuity-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_upgrade/slb_up_p31_Continuity.png){.aligncenter .size-medium}
+
+[tabbyending]
 
 If the light is coming on but the popup button isn’t turning blue, this can sometimes be fixed by resetting your board settings. Do this by typing “$RST=$” into the console tab and hitting Enter, then use the power switch on the back of the board to “power-cycle” it off and back on again. Once you reconnect in gSender you can try probing again.
 
 <p style="text-align: center;"><em><b>Note:</b> If you reset your board settings, you’ll need to go back and change any other settings you changed up until this point,, like inverting the Z-axis for MK1 owners.</em></p>
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_superlongboard/_upgrade/slb_up_p32_RSTConsole-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_upgrade/slb_up_p32_RSTConsole.jpg){.aligncenter .size-medium}
+
+[tabbyending]
 
 **Congrats!** Your Quick tests are now complete. This means that all our basic accessories should now be set up and ready to use on your new SLB! If you wired up other accessories then keep reading the next section to ensure you test them too, otherwise you can move on to the <a href="#routing">Routing section</a>.
 
@@ -242,29 +322,71 @@ Your limit switches are installed and plugged into your SLB, so let’s check th
 1. **Powered sensors** - Place a metal object in front of each of the limit switches and look for the red light. This indicates that each sensor is plugged in correctly.
 ![](/_images/_superlongboard/_upgrade/slb_up_p33.jpg){.aligncenter .size-medium}
 
-1. **Signal to the board** - Navigate to your Calibration Tool and check the Diagnostics tab to see if your board is receiving the signal from the limit switch, when the pins change from OFF to ON. Also double check that the correct axis is turning on.
+[tabby title="Current" open="yes"]
+
+1. **Signal to the board** - Navigate to your Machine Information icon on the main Carve tab to see if your board is receiving the signal from the limit switch, when the pins change from OFF to ON. Also double check that the correct axis is turning on.
+![](/_images/_superlongboard/_upgrade/slb_up_p34_PinGIF-newu.gif){.aligncenter .size-full}
 
    <p style="text-align: center;"><em><b>Note:</b> If you don’t see an axis turning ON/OFF, double check the connections on the board. We don’t use Y2 for example.</em></p>
 
-   ![](/_images/_superlongboard/_upgrade/slb_up_p34_PinGIF.gif){.aligncenter .size-medium}
+1. **Turn Homing on** - Navigate to the Config tab ➜ Homing/Limits section. Here you will see 8 toggles under the heading “Homing cycle”. There are many options for homing on the SLB, but just start by matching the toggles in the picture below (on, off - on, on - off, off - on, off). This will make the SLB home the same way that you’re already used to. Make sure to click “Apply New Settings”.
+
+   If you even find you can’t unlock homing, homing isn’t setting the machine coordinates to zero, or other unusual behaviours, come back here to double-check this list since you might not have all the right settings turned on. If you’re still curious about the other options, check out the <a href="https://resources.sienci.com/view/slb-manual/#homing-amp-limit-switches">Homing &amp; Limits Setup</a> section.
+   ![](/_images/_superlongboard/_upgrade/slb_up_p35_HomingCycle-newu.jpg){.aligncenter .size-medium}
+
+1. **Homing test** - With things looking good on the firmware side, let’s run a homing cycle with gSender by pressing the ‘Home’ button on the main screen.
+![](/_images/_superlongboard/_upgrade/slb_up_p35a_Home-newu.jpg){.aligncenter .size-medium}
+
+1. **Invert if needed** - If you find any axes are reversed, return to 23 in the firmware tool and flip any of the directions that are wrong. If you find that homing is behaving weirdly still, go back and check that you turned on the right toggles for 22.
+   ![](/_images/_superlongboard/_upgrade/slb_up_p36_HomingDirection-newu.jpg){.aligncenter .size-medium}
+
+1. **Reduce homing speed if needed** - If you’re finding your CNC gets stuck completing a homing cycle or is disconnecting, try reducing the homing “search seek rate” ($25) or increasing the “debounce delay” ($26) settings. Depending on your setup or sensors, the default values might be a bit too aggressive.
+
+[tabby title="Classic gSender"]
+
+   1. **Signal to the board** - Navigate to your Calibration Tool and check the Diagnostics tab to see if your board is receiving the signal from the limit switch, when the pins change from OFF to ON. Also double check that the correct axis is turning on.
+   ![](/_images/_superlongboard/_upgrade/slb_up_p34_PinGIF.gif){.aligncenter .size-full}
+
+   <p style="text-align: center;"><em><b>Note:</b> If you don’t see an axis turning ON/OFF, double check the connections on the board. We don’t use Y2 for example.</em></p>
 
 1. **Turn Homing on** - Scroll down in gSender’s Firmware Tool to 22, also called “Homing cycle”. There are more options for homing on the SLB, but just start by matching the toggles in the picture below (on, off - on, on - off, off - on, off). This will make the SLB home the same way that you’re already used to. Make sure to click “Apply New Settings”.
 
    If you even find you can’t unlock homing, homing isn’t setting the machine coordinates to zero, or other unusual behaviours, come back here to double-check this list since you might not have all the right settings turned on. If you’re still curious about the other options, check out the <a href="https://resources.sienci.com/view/slb-manual/#homing-amp-limit-switches">Homing &amp; Limits Setup</a> section.
-
    ![](/_images/_superlongboard/_upgrade/slb_up_p35_HomingCycle.jpg){.aligncenter .size-medium}
 
 1. **Homing test** - With things looking good on the firmware side, let’s run a homing cycle with gSender by pressing the ‘Home’ button on the main screen.
 
 1. **Invert if needed** - If you find any axes are reversed, return to 23 in the firmware tool and flip any of the directions that are wrong. If you find that homing is behaving weirdly still, go back and check that you turned on the right toggles for 22.
-
    ![](/_images/_superlongboard/_upgrade/slb_up_p36_HomingDirection.jpg){.aligncenter .size-medium}
 
 1. **Reduce homing speed if needed** - If you’re finding your CNC gets stuck completing a homing cycle or is disconnecting, try reducing the homing “seek rate” (25) or increasing the “debounce delay” (26) settings. Depending on your setup or sensors, the default values might be a bit too aggressive.
 
+[tabbyending]
+
 ### LaserBeam Test
 
 With your LaserBeam plugged into the SLB, let’s perform a quick test to make sure it fires up.
+
+[tabby title="Current" open="yes"]
+
+1. Turn on your LaserBeam driver. <a href="https://resources.sienci.com/view/lb-turning-driver-on/">Go here</a> if you want to refresh your memory on how to do this. If your driver doesn’t turn on, don’t necessarily attribute this to an issue with the board right away. First double check all these conditions are met since they are sometimes easy to forget.
+1. In gSender, navigate to the Config tab ➜ Spindle/Laser tab in the Settings and toggle the spindle/laser controls on.
+
+   ![](/_images/_superlongboard/_upgrade/slb_up_p37_SpindleLaser-newu.jpg){.aligncenter .size-full}
+
+Back on the main screen in the bottom right corner, navigate to the Spindle/Laser tab and select “SLB_LASER” in the dropdown list. After this, flip the toggle at the top to ‘Laser Mode’.
+
+![](/_images/_superlongboard/_upgrade/slb_up_p38_SLBSpindle-newu.jpg){.aligncenter .size-full}
+
+<p style="text-align: center;"><em><b>Note: Ensure that you are wearing your safety glasses!</b></em></p>
+
+Ensure your power is set to 1% and your ‘Test Duration’ to one second. Now when you hit the ‘Laser Test’ button your diode should momentarily emit a faint beam. This means that the SLB is controlling your laser successfully!
+
+![](/_images/_superlongboard/_upgrade/slb_up_p39_LaserTest-newu.jpg){.aligncenter .size-full}
+
+If the laser testing didn’t go as planned, check your wiring and that you’ve turned on your driver correctly. If you go back through the steps still with no success, you can always read more about laser setup on our more advanced <a href="https://resources.sienci.com/view/slb-manual/#laser">SLB Manual page</a>.
+
+[tabby title="Classic gSender"]
 
 1. Turn on your LaserBeam driver. <a href="https://resources.sienci.com/view/lb-turning-driver-on/">Go here</a> if you want to refresh your memory on how to do this. If your driver doesn’t turn on, don’t necessarily attribute this to an issue with the board right away. First double check all these conditions are met since they are sometimes easy to forget.
 1. In gSender, navigate to the Spindle/Laser tab in the Settings and toggle it on.
@@ -282,6 +404,8 @@ Ensure your power is set to 1% and your ‘Test Duration’ to one second. Now w
 ![](/_images/_superlongboard/_upgrade/slb_up_p39_LaserTest.jpg){.aligncenter .size-full}
 
 If the laser testing didn’t go as planned, check your wiring and that you’ve turned on your driver correctly. If you go back through the steps still with no success, you can always read more about laser setup on our more advanced <a href="https://resources.sienci.com/view/slb-manual/#laser">SLB Manual page</a>.
+
+[tabbyending]
 
 ### Rotary Test
 
@@ -378,11 +502,20 @@ There will be some new behaviours to expect from your SLB compared to the way yo
 - For now, the SLB will continue working the best with any typical ‘grbl’ post processor setup. If you already had a working grbl setup then you won't need to change anything.
 - Whenever you press the **E-stop, expect an ‘Alarm 10’** to appear. This shows that the board saw your E-stop press and will shut down the motors and all other accessories. Once you untwist the E-stop (the light will come back on), you’ll be able to unlock the machine and continue what you were doing. The E-stop will cancel any currently active job, so if you want to resume you’ll want to re-probe or re-home and then use ‘Start from Line’ to resume the job back where you left off.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_superlongboard/_upgrade/slb_up_p48_Unlock-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
   ![](/_images/_superlongboard/_upgrade/slb_up_p48_Unlock.jpg){.aligncenter .size-medium}
+
+[tabbyending]
+
 - The yellow ‘processing’ lines in the gSender visualizer might extend out further when you’re running a job, this is just because the SLB can store more future movements in its memory than other boards
-- **Swapping between the Spindle/Laser is a bit more involved**, the SLB Manual page goes into it a bit more on it. Because of this, we’d recommend that you set up your SLB for whatever Spindle/Laser output you’d tend to use as your default, so that you can just power on your machine and not have to worry about many other steps after that.
-- There will always show the ‘Unlock’ button in gSender. This is because there might be some times where if your SLB gets stuck, you can use the ‘Unlock’ button to help recover it.
-- This should never change after your first setup, but you’ll need to make sure that from now on you always connect to gSender or other g-code senders with ‘grblHAL’ being the selected firmware
+- **Swapping between the Spindle/Laser is a bit more involved**, the SLB Manual page goes into it a bit more on it. Because of this, we’d recommend that you set up your SLB for whatever Spindle/Laser output you’d tend to use as your default, so that you can just power on your machine and not have to worry about many other steps after that
+- There will always show the ‘Unlock’ button in gSender. This is because there might be some times where if your SLB gets stuck, you can use the ‘Unlock’ button to help recover it
+- This should never change after your first setup, but you’ll need to make sure that from now on you always connect to gSender or other g-code senders with ‘grblHAL’ being the selected firmware. The most current version of gSender detects your firmware and connects automatically, so no need for an extra step.
 
   ![](/_images/_superlongboard/_upgrade/slb_up_p49_grblHAL.png){.aligncenter .size-medium}
 - Some settings in gSender aren’t used anymore since the SLB stores them itself. This includes the Spindle/Laser settings for spindle min/max speed, laser min/max power, and laser axes offset, as well as all the Rotary settings except for the Rotary toggle.
