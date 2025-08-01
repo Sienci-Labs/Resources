@@ -358,19 +358,23 @@ You can close an alarm by clicking on the button that appears next to it in the 
 
 ### Error 1, 2, 20, 24, 26, 28
 
-When any of these errors appear in gSender, it can typically be traced back to 3 sources:
+When any of these errors appear in gSender, it can typically be traced back to these sources:
 
-1. **The g-code file has errors in it**: if this is true, then
-   - Keep the file loaded
-   - Go to gSenders Settings ➜ Safety ➜ to make sure ‘Warn if invalid line detected’ is turned on
-   - Next to the ‘Load File’ button on the main screen, you’ll see another button that says ‘Verify Job’ (previously ‘Test Run’)
-   - Click this button and it will go through your g-code file, and if the same errors pop up then it’s likely that the file is bad. Go back and check your design software or post processor to make sure it’s all been set up correctly and then try re-generating the file.
-1. **You have an unstable connection to your CNC**: if the file didn’t have errors, then this is the next most likely issue. You’ll want to
+1. **You are connected with the wrong firmware**
+   - Check this in the top, left corner of the app when you're connected, is should say:
+      - "grbl" for the majority of CNCs including older LongMills, Shapeoko, Genmitsu, Mill One, X-Carve, etc.
+      - "grblHAL" for AltMill (SLB Ext), LongMill (SLB), or any other grblHAL board
+   - If the firmware is incorrect go to Config ➜ Firmware Fallback ➜ select the correct firmware ➜ Apply Settings.
+1. **The g-code file itself has errors in it**
+   - Check that you are using the right <a href="https://resources.sienci.com/view/am-post-processors/>">post processor in your CAM software</a> then try re-generating the file (see more with [Error 33](#error-33) below).
+   - Go to Config ➜ Basics ➜ Notifications and turn on 'Warn if bad file' to see if you get notified that the file is still bad when you reload it.
+1. **You have an unstable connection to your CNC**
    - Check if your USB cable is loose or if other ports or connectors on your CNC board are loose.
-   - Try another USB port on your computer, and if you’re using a USB hub try skipping it to connect directly to your CNC.
-   - Don’t use a USB Stick, make sure the files on are the hard-drive of your computer.
-   - Try running the same job in the air with your router/spindle and dust collector turned off to see if the same errors appear as when you run the job. If they go away then try running the job with full cutting again in some scrap material just to confirm the errors come back. Once confirmed, you’ll want to look to see if your equipment isn’t properly grounded, could have improved electrical shielding, or try using another computer. An example of this is to put your controller and computer on a separate power circuit than the router/spindle and dust collector.
-1. **Some gSender versions can have bugs**: this is the least likely cause, but a couple gSender versions have been known to make errors appear that aren’t actually happening. If you’ve already tried everything else, you should first double-check that you’re connected to the “grbl” firmware if you’re using a grbl board like the LongBoard, or to “grblHAL” for boards like the SLB. After checking that, try installing and <a href="https://resources.sienci.com/view/gs-installation/#older-versions">using a different gSender version</a>.
+   - Try another USB port on your computer, another computer all together, and if you're using a USB hub try connecting directly to your CNC instead.
+   - Don't use a USB Stick, make sure the files are on the hard-drive of your computer.
+   - Determine if it's from electromagnetic interference/static. Run the job in the air with your router/spindle and dust collector turned off to see if the same errors appear. If they go away then try running the job normally again using scrap material, just to confirm the errors reappear. If this happens, you'll want to look into putting your computer and controller on a separate circuit from the router/spindle and dust collector, or <a href="https://resources.sienci.com/view/lmk2-issues-and-fixes/#using-a-dust-collector-system-causes-the-machine-to-disconnect">grounding your equipment</a>.
+1. **Some gSender versions can have bugs**
+   - This is the least likely cause, but a couple gSender versions have been known to make errors appear that don't affect operation. Try <a href="https://resources.sienci.com/view/gs-installation/#older-versions">using a different gSender version</a>. 
 
 ### Error 33
 
