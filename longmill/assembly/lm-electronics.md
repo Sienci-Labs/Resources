@@ -77,33 +77,27 @@ You can download gSender here: <a href="https://sienci.com/gSender/" target="_bl
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_Header-computer-connect-1.jpg){.aligncenter .size-medium}
 
-Once you have gSender installed, go ahead and run it on your computer. One was is to double click the shortcut on your desktop.
+Once you have gSender installed, go ahead and run it on your computer. One way is to double click the shortcut on your desktop.
 
 ![](/_images/_longmill/_assembly/_electronics/lm_electronics_p12.png){.aligncenter .size-medium}
 
-You should be greeted with a screen that looks like this.
+You should be greeted with a screen that looks like this. It can take several extra seconds to load if you have Microsoft real time virus protection on your computer. This scan delay should only happen the first time you turn on your computer.
 
-[tabby title="Current gSender" open="yes"]
+![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_67_2-1.jpg){.aligncenter .size-medium}
 
-![](../../_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_67_2.jpg){.aligncenter .size-medium}
+Now connect your computer to the LongMill control box via USB.
 
-[tabby title="Classic gSender"]
+<b>Note: Your computer will automatically install drivers for the Arduino at this point if they are not already on your computer (can take a minute or two). If you try to connect your machine but you cannot, you may need to manually install the drivers. You can do this by installing the <a href="https://www.arduino.cc/en/main/software">Arduino IDE</a> which will install the drivers during the installation, or you can follow the instructions on doing them <a href="https://www.arduino.cc/en/Guide/DriverInstallation">manually for Windows</a>.</b>
 
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p13.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_electronics/lm_electronics_p13_v2.jpg "Plug in the USB cable onto the LongBoard.")"{.aligncenter .size-medium}
 
-[tabbyending]
+![](/_images/_longmill/_assembly/_electronics/lm_electronics_p14.JPG "Connect your USB cable to your computer.")"{.aligncenter .size-medium}
 
-Connect your computer to the LongMill control box via USB.
-
-[tabby title="Current gSender" open="yes"]
-
-When you double click the gSender icon to open up the program, it can take several extra seconds to load if you have Microsoft real time virus protection on your computer. This scan delay should only happen the first time you turn on your computer.
-
-![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_notconnected.jpg){.aligncenter .size-medium}
-
-Connect to your CNC machine by hovering over the **Connect to CNC** button at the top left corner of the screen and clicking the first option (*note that it's recommended to connect this way on your first setup even if you're planning to use Ethernet in the long-run*).
+Once that is done, hover over the **Connect to CNC** button at the top left corner of the screen and click the first option. Sometimes there’s more than one port available, so you can either unplug the other items you have plugged in, or you can try connecting to each one to see which one is your LongMill (*note that it's recommended to connect this way on your first setup even if you're planning to use Ethernet in the long-run*).
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_connect.jpg){.aligncenter .size-medium}
+
+Once you’ve selected the port, your machine should be connected. If your machine is powered on, you will usually hear a gentle hiss and a thump noise when the machine connects which is a nice audible confirmation. If you don’t hear that sound, make sure you have released the E-stop so power is going to your machine – indicated by and orange power light on your control box.
 
 After a moment you should see the plug icon turn green with a checkmark, the status bar at the top, middle change from **Disconnected** to **Idle**, and all the controls in the app become coloured indicating that they're ready to be used.
 
@@ -112,30 +106,6 @@ After a moment you should see the plug icon turn green with a checkmark, the sta
 You can now try playing around with moving the machine. You can jog the machine in the direction you want within the "Jog Control" section on the right side. It’s alive!
 
 ![](/_images/_longmill/_assembly/_electronics/lm_electronics_p17-newu.jpg){.aligncenter .size-medium}
-
-[tabby title="Classic gSender"]
-
-<b>Note: Your computer will automatically install drivers for the Arduino at this point if they are not already on your computer (can take a minute or two). If you try to connect your machine but you cannot, you may need to manually install the drivers. You can do this by installing the <a href="https://www.arduino.cc/en/main/software">Arduino IDE</a> which will install the drivers during the installation, or you can follow the instructions on doing them <a href="https://www.arduino.cc/en/Guide/DriverInstallation">manually for Windows</a>.</b>
-
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p13_v2.jpg "Plug in the USB cable onto the LongBoard.")"{.aligncenter .size-medium}
-
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p14.JPG "Connect your USB cable to your computer.")"{.aligncenter .size-medium}
-
-Once that is done, hover to the top left corner of the program at “Connect to Machine”. You should see an available device to connect to. Sometimes there’s more than one port available, so you can either unplug the other items you have plugged in, or you can try connecting to each one to see which one is your LongMill.
-
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p15.png){.aligncenter .size-medium}
-
-Once you've selected the port, your machine should be connected. If your machine is powered on, you will usually hear a gentle hiss and a thump noise when the machine connects which is a nice audible confirmation. If you don’t hear that sound, make sure you have released the E-stop so power is going to your machine - indicated by and orange power light on your control box.
-
-You should also see "Connect to Machine" change to "Connected", the plug icon turn green with a check mark, the status on the top right corner of the visualizer change from "Disconnected" to "Idle", and the other controls that were greyed out will now be activated, allowing you to press them.
-
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p16.png){.aligncenter .size-medium}
-
-You can now try playing around with moving the machine. You can jog the machine in the direction you want within the "Jog Control" section on the right side. It’s alive!
-
-![](/_images/_longmill/_assembly/_electronics/lm_electronics_p17.png){.aligncenter .size-medium}
-
-[tabbyending]
 
 You can choose the amount that the machine will move in the XY directions by changing the “XY move”, the amount in the Z direction with “Z move”, and the feed rate / speed of movement with “Speed.” gSender has defaults for large, medium, and small movements that you can switch between by pressing the "Rapid", "Normal", and "Precise" buttons.
 
