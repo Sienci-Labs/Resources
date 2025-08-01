@@ -34,7 +34,7 @@ The SLB is set up to be automatically compatible with most LongMills by default.
 - **Firmware settings look funny, don't have descriptions, changing settings causes unexpected changes to happen:** if you're using gSender, check that you've selected 'grblHAL' as the firmware when you connect to your machine, not 'grbl'.
 - **Pressing to ‘Zero’ axes isn’t working**: ensure "work coordinate offset" is enabled for $10, or that $10 = 511
 
-[tabby title="Current gSender" Open="Yes"]
+[tabby title="Current" open="yes"]
 
 ![](/_images/_superlongboard/slb_tb_10-setting-newu.jpg){.aligncenter .size-medium}
 

@@ -46,7 +46,7 @@ Unscrew the top-right thumbscrew a couple turns (pictured) then slide the cover 
 
 ## Preparation
 
-[tabby title="Current gSender" open="yes"]
+[tabby title="Current" open="yes"]
 
 Before diving into rewiring, we’d first suggest you note down any firmware changes that are unique about your setup. You can do this by connecting to your CNC in gSender and using the **Config tab** to find sections that are **highlighted in yellow**. In the example below, you can see that the X and Y maximum travel is different from the standard MK2 12x30.
 
@@ -154,7 +154,7 @@ The SLB requires use of version 1.4.0 or later, only these versions can talk to 
 
 You will be connecting to the SLB differently than you are used to.
 
-[tabby title="Current gSender" open="yes"]
+[tabby title="Current" open="yes"]
 
 Connect to your CNC machine by hovering over the **Connect to CNC** button at the top left corner of the screen and clicking the first option (*note that it's recommended to connect this way on your first setup even if you're planning to use Ethernet in the long-run*).
 
@@ -213,7 +213,7 @@ The SLB will respond by turning several lights RED. Most notably your **CNC Stat
 
 Now we can deactivate the E-stop button by turning it clockwise until it’s raised again. You will see the E-stop button light come back on when raised correctly. We will need to unlock the SLB in gSender by pressing the Click to Unlock Machine button.
 
-[tabby title="Current gSender" open="yes"]
+[tabby title="Current" open="yes"]
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p26_Unlock-newu.jpg){.aligncenter .size-full}
 
@@ -238,7 +238,7 @@ Now we can deactivate the E-stop button by turning it clockwise until it’s rai
 It’s time to take the SLB out for a spin! Using the jog controls on the main page of gSender, try moving your machine around in the X, Y and Z-axes. Make sure they’re going in the correct directions; also try increasing the jogging ‘Speed’ value to 5500mm/min (220ipm) to test the faster default capabilities of the SLB.
 <p style="text-align: center;"><em><b>Note</b>: If you have a LongMill MK1, you’ll need to invert your Z-axis movement (see next step).</em></p>
 
-[tabby title="Current gSender" open="yes"]
+[tabby title="Current" open="yes"]
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p27_JogControl-newu.jpg){.aligncenter .size-full}
 
@@ -271,7 +271,7 @@ While you’re here, if you used to use $1=255 to hold your motors (typically us
 
 One last test is to check that your touch plate works. Navigate to the Probe tab and hit the ‘Probe’ button.
 
-[tabby title="Current gSender" open="yes"]
+[tabby title="Current" open="yes"]
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p29_Probe-newu.jpg){.aligncenter .size-full}
 
@@ -287,7 +287,7 @@ Then, tap the magnet to the touch plate. You will see the yellow PRB light on th
 
 You’ll know you are successful if the popup button turns blue, and says “Start Probe”.
 
-[tabby title="Current gSender" open="yes"]
+[tabby title="Current" open="yes"]
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p31_Continuity-newu.jpg){.aligncenter .size-medium}
 
@@ -301,7 +301,7 @@ If the light is coming on but the popup button isn’t turning blue, this can so
 
 <p style="text-align: center;"><em><b>Note:</b> If you reset your board settings, you’ll need to go back and change any other settings you changed up until this point,, like inverting the Z-axis for MK1 owners.</em></p>
 
-[tabby title="Current gSender" open="yes"]
+[tabby title="Current" open="yes"]
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p32_RSTConsole-newu.jpg){.aligncenter .size-medium}
 
@@ -322,7 +322,7 @@ Your limit switches are installed and plugged into your SLB, so let’s check th
 1. **Powered sensors** - Place a metal object in front of each of the limit switches and look for the red light. This indicates that each sensor is plugged in correctly.
 ![](/_images/_superlongboard/_upgrade/slb_up_p33.jpg){.aligncenter .size-medium}
 
-[tabby title="Current gSender" Open="Yes"]
+[tabby title="Current" open="yes"]
 
 1. **Signal to the board** - Navigate to your Machine Information icon on the main Carve tab to see if your board is receiving the signal from the limit switch, when the pins change from OFF to ON. Also double check that the correct axis is turning on.
 ![](/_images/_superlongboard/_upgrade/slb_up_p34_PinGIF-newu.gif){.aligncenter .size-full}
@@ -367,7 +367,7 @@ Your limit switches are installed and plugged into your SLB, so let’s check th
 
 With your LaserBeam plugged into the SLB, let’s perform a quick test to make sure it fires up.
 
-[tabby title="Current gSender" Open="Yes"]
+[tabby title="Current" open="yes"]
 
 1. Turn on your LaserBeam driver. <a href="https://resources.sienci.com/view/lb-turning-driver-on/">Go here</a> if you want to refresh your memory on how to do this. If your driver doesn’t turn on, don’t necessarily attribute this to an issue with the board right away. First double check all these conditions are met since they are sometimes easy to forget.
 1. In gSender, navigate to the Config tab ➜ Spindle/Laser tab in the Settings and toggle the spindle/laser controls on.
@@ -502,7 +502,7 @@ There will be some new behaviours to expect from your SLB compared to the way yo
 - For now, the SLB will continue working the best with any typical ‘grbl’ post processor setup. If you already had a working grbl setup then you won't need to change anything.
 - Whenever you press the **E-stop, expect an ‘Alarm 10’** to appear. This shows that the board saw your E-stop press and will shut down the motors and all other accessories. Once you untwist the E-stop (the light will come back on), you’ll be able to unlock the machine and continue what you were doing. The E-stop will cancel any currently active job, so if you want to resume you’ll want to re-probe or re-home and then use ‘Start from Line’ to resume the job back where you left off.
 
-[tabby title="Current gSender" Open="Yes"]
+[tabby title="Current" open="yes"]
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p48_Unlock-newu.jpg){.aligncenter .size-medium}
 

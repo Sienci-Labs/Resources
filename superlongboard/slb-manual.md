@@ -201,7 +201,7 @@ Keep in mind that setting up Ethernet is a bit more involved, and at the time of
 
 1. To start, connect to your CNC over USB to note down the EEPROM values set for the IP address and Netmask (302 and 304). The defaults should be IP: `192.168.5.1` and Netmask: `255.255.255.0` with the IP mode set to `static`.
 
-[tabby title="Current gSender" Open="Yes"]
+[tabby title="Current" open="yes"]
 
 ![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode-newu.jpg){.aligncenter .size-medium}
 
@@ -296,7 +296,7 @@ Useful in cases of:
 
 We’ve found that a minimum of 15% works for lead screw-driven CNCs. These hold current settings will also apply even if $37 is off when the machine is cutting but that axis isn’t moving. Note that these settings won’t work for an A-axis since that would typically be done using the DIP switches on the external motor driver.
 
-[tabby title="Current gSender" Open="Yes"]
+[tabby title="Current" open="yes"]
 
 ![](/_images/_superlongboard/_manual/slb_ma_p19_Steppers-newu.jpg){.aligncenter .size-medium }
 
@@ -437,7 +437,7 @@ If you’d like to use the white JST connectors instead, the wiring pinouts are 
 
 If you’ve set up your own **NC sensors**, the first thing you’ll want to do is invert all the limit pins for $5 like shown below. **Don't do this if you have the inductive sensors from Sienci!**
 
-[tabby title="Current gSender" Open="Yes"]
+[tabby title="Current" open="yes"]
 
 ![](/_images/_superlongboard/_manual/slb_ma_p30_InvertLP-newu.jpg){.aligncenter .size-medium}
 
@@ -531,7 +531,7 @@ The laser isn’t set as the default for safety reasons, but further down is inf
 
 You can only control one at a time, so to select which one you’d like to control you can use the dropdown selector in gSender or use the selection commands. This selection will also apply when you send manual spindle commands in other ways like the console.
 
-[tabby title="Current gSender" Open="Yes"]
+[tabby title="Current" open="yes"]
 
 ![](/_images/_superlongboard/_manual/slb_ma_p33_gSenderLaser-newu.jpg){.aligncenter .size-medium}
 
@@ -798,7 +798,7 @@ If your TLS is wired correctly, you should be able to press it and see the “PR
 
 With wiring done, check in your g-code sender if the TLS signal is set up correctly. This signal is shared with the touch plate, so activating either of them should be recognized. gSender has a status light to help see this in the 'Calibrate' tab and in other senders it should appear as 'P' for probe. If the light in the sender turns on when the TLS is pushed, and also turns on when the probe circuit is connected, then the hardware (SLB and wiring) is working and that means the $ values have been set up correctly. If the signal is on and only turns off when the TLS is pressed, then go to the $668 firmware setting and toggle it to the opposite of what it was set to.
 
-[Tabby title="Current gSender" Open="Yes"]
+[Tabby title="Current" open="yes"]
 
 ![](/_images/_superlongboard/_manual/slb_ma_p44_tls-input-newu.jpg){.aligncenter .size-medium}
 

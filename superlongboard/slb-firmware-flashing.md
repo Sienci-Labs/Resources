@@ -53,16 +53,16 @@ You can choose to either use gSender or the STM Cube Programmer software to upda
 
 ### gSender Flashing
 
-[tabby title="Current gSender" Open"Yes"]
+[tabby title="Current" open="yes"]
 
-1. Be connected to your SLB over USB with the power on, ensure the firmware selected is **grblHAL** not **grbl**
+1. Be connected to your SLB over USB with the power on, ensure the firmware selected is '**grblHAL**' not '**grbl**'
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p1_Connected-newu.jpg){.aligncenter .size-medium}
 1. Go to the **Config tab** and click the **Flash** button
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p2_FlashgrblHAL-newu.jpg){.aligncenter .size-medium}
 1. Ensure the COM port is correct (matches the board you’re connected to), and that you have selected grblHAL as your controller type
-1. Click ‘Choose File’ to select the “.hex” firmware file you plan to update to, in the picture below it’s the firmware for the AltMill, version SLB_EXT_B5.0.11
+1. Click ‘Choose File’ to select the “.hex” firmware file you plan to update to, in the picture below it’s the 5.0.11 firmware for the AltMill
 1. Click ‘Yes’ to begin the flashing process. If it stops before 100% and you see an error for:
    - "LIBUSB_ERROR_NOT_SUPPORTED", you'll need to [update your Windows driver](#windows-driver-update)
    - "Unable to find valid device", you might have [installed your Windows drivers incorrectly](#bad-driver-install)
@@ -106,6 +106,8 @@ Congrats are in order, well done! If you go back to the ‘Console’ you should
 1. Power the board off and then back on one more time after sending the command. Finally, if you had any specific settings from your previous setup that you want to check or reload, connect back to gSender and change those firmware values back. Remember to hit “Apply New Settings” when you’re doing this and ensure that the settings are being re-added correctly, if they don’t seem to be sticking then make sure that your SLB is in an ‘Idle’ state, cleared of all Alarms, and try turning the SLB off and back on again.
 
 Congrats are in order, well done! If you go back to the ‘Console’ you should now see that sending the `$i` command will give you new text that matches up with the update you’ve made.
+
+[tabbyending]
 
 ### STM Cube Flashing
 
