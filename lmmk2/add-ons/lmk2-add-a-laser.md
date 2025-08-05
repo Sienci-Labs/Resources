@@ -119,7 +119,17 @@ Test-firing a laser using grbl requires three things:
 
 If you're using gSender the Laser On, Laser Test, and Laser Off buttons will take care of these commands for you, just be sure to set the power to 10% and the Test Duration to around 1-2 seconds. For other g-code senders, you'll test the laser using the Console input to your LongMill.
 
+[tabby title="gSender" open="yes"]
+
+![](/_images/_longmill/_advanced/_7_Laser/lm_laser_p1_spinlaser-newu.jpg){.aligncenter .size-medium}
+
+![](/_images/_longmill/_advanced/_7_Laser/lm_laser_p2_spinlaser-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_longmill/_advanced/_7_Laser/lm_laser_p2_SpinLaser.png){.aligncenter .size-medium}
+
+[tabbyending]
 
 Bringing all these commands together you get the full command "G1 F1 M3 S10" which you can enter into the Console to initiate the test and "M5" which you need to enter into the console to turn the laser back off. If this testing is successful for you, then try sending another test at a different power (for example "G1 F1 M3 S5" for 5%) to make sure the laser beam has visibly changed intensity which confirms it's receiving a good signal.
 
