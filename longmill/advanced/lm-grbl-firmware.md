@@ -45,7 +45,7 @@ Once you've completed the installation, open gSender and connect to your machine
 
 **NOTE:** If you've made custom changes to your machines firmware that you don't want to lose, use the 'Export Settings' button to save your settings to a file that you can then reload when flashing is complete.
 
-<img class="aligncenter size-medium wp-image-4212" src="https://resources.sienci.com/wp-content/uploads/2022/03/gSender-export-prompt-850x402.jpg" alt="" width="850" height="402" />
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gsender-export-prompt.jpg){.aligncenter .size-medium}
 
 You will see a warning about the risk of flashing the firmware. If you own a LongMill and have not made any modifications to your control board, there is almost no risk in completing this process. Press "OK" to continue.
 
