@@ -18,7 +18,7 @@ One important thing to learn is how to properly secure material down to the bed 
 
 Some clamping methods are strong but get in the way, while others keep a low profile but aren't quite as strong. Play around with these methods to see which ones you can use individually or in combination for your ideal setup.
 
-The ultimate goals are to safely hold your piece in place, and help you make more stuff, in less time.
+The ultimate goals are to safely hold your piece in place, and help you make more stuff, in less time. Click one of these shortcut buttons if you want to examine what options are available for your table, see workholding options by project or simply see a list of workholding options.
 
 <div style="display: flex; justify-content: center; gap: 20px;">
     <a href="#table-setup"
@@ -57,7 +57,7 @@ If you’re just starting out with building your machine and are unsure of the t
 
 If you don’t mind a few extra holes in your wasteboard, screws can be a simple, no-fuss way to secure your material. Often first time users will stick to this method to learn, and then replace their wasteboard once they get the hang of this new hobby. Just grab some screws and fix your clamps or material directly onto the wasteboard.
 
-![](lmk2_work_making-dust-shoes-1024x768-1.jpg "Here we have secured the material and the individual parts being cut out. No tabs being used here."){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_making-dust-shoes-1024x768-1.jpg "Here we have secured the material and the individual parts being cut out. No tabs being used here."){.aligncenter .size-medium}
 
 #### Things to Watch Out For
 
@@ -73,7 +73,7 @@ While this method is quick and easy, it does mean your wasteboard will get a bit
 
 Threaded inserts are a good budget alternative to t-tracks. These little gems let you secure clamps anywhere on your wasteboard, giving you plenty of flexibility in positioning. You can space them out further apart for general use or pack them closer together for fine-tuned adjustments.
 
-![](lmk2_work_threaded.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_threaded.jpg){.aligncenter .size-medium}
 
 Threaded inserts work well with both top clamps and side clamps. Just be careful when tightening your clamps—overdoing it can pull the inserts out.
 
@@ -93,7 +93,7 @@ Include a small ½” diameter, ¼” deep counterbore so that these inserts sit
 
 Threaded inserts can also be used to secure other add-ons like the Vortex shown in the picture below.
 
-![](ncft_mk2_work_threadedvortex.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_threadedvortex.jpg){.aligncenter .size-medium}
 
 Though not as quick to adjust as T-Tracks, threaded inserts are reliable, durable, and won’t break the bank. A solid choice for any CNC setup!
 
@@ -103,7 +103,7 @@ Threaded inserts are available for purchase in packs of 25 or 100 pcs on our sto
 
 T-Tracks are a tried-and-true favorite among hobbyists and pros alike. These handy tracks let you position clamps anywhere along the wasteboard, making it easy to secure odd-shaped materials and quickly rearrange clamps for different-sized projects.
 
-![](lmk2_work_Keiths-ttrack.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_Keiths-ttrack.jpg){.aligncenter .size-medium}
 
 T-Tracks work best with top clamps, though some side clamps can also be used. Keep in mind that certain side clamps may have a limited range or might slip when aligned with the track direction.
 
@@ -123,7 +123,7 @@ T-tracks are available for purchase on our store page here, or can be found in o
 
 A vacuum (vac) table is an advanced workholding solution that provides excellent material support while eliminating the need for mechanical clamps. This method is especially useful for securing thin or delicate materials that could be damaged by traditional clamping methods.
 
-![](lmk2_work_SEAL_Series.webp){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_seal-series.jpg){.aligncenter .size-medium}
 
 Vac tables work by creating suction that holds the material securely in place. This makes them ideal for projects requiring a completely unobstructed top surface, such as engraving or through-cutting applications.
 
@@ -145,7 +145,7 @@ Make your own vac table following [THESE](https://www.instructables.com/Vacuum-T
 
 Vertical clamping is essential when working on taller or stacked materials. These clamps secure your workpiece from the sides, allowing for full access to the top and bottom. Great for precision machining and milling, vertical clamps ensure stability without interfering with toolpaths.
 
-![](lmk2_work_vertical3.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_vertical3.jpg){.aligncenter .size-medium}
 
 **Best for**: Engraving, side machining, and creating joinery like dovetails on projects.
 
@@ -161,56 +161,56 @@ Let's explore some specific CNC projects and how you can use workholding to keep
 
 ### **Engraving a Custom Wooden Sign**  
 
-![](ncft_mk2_work_IMG_7676.JPG "Don't be afraid to use a combination of t-tracks and threaded inserts, or mix and match your workholding")
+![](/_images/_lmmk2/_the-basics/lmk2_work_IMG_7676.JPG "Don't be afraid to use a combination of t-tracks and threaded inserts, or mix and match your workholding"){.aligncenter .size-medium}
 
 - **Material:** Plywood or hardwood  
 - **Workholding:** Use clamps or a T-track system to secure the edges. If the material is thin, use tape-and-CA glue to prevent shifting.  
 
 ### **Cutting Acrylic or Thin Wood Sheets**  
 
-![](ncft_mk2_work_IMG_8633.JPG){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_IMG_8633.JPG){.aligncenter .size-medium}
 
 - **Material:** Acrylic sheet  
 - **Workholding:** Double-sided tape or tape-and-CA glue work well to hold the sheet flat. A vacuum table is ideal if available.  
 
 ### **Carving 3D Reliefs in Wood**  
 
-![](lmk2_work_sideclampmed.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_sideclampmed.jpg){.aligncenter .size-medium}
 
 - **Material:** Hardwood block  
 - **Workholding:** Use **clamps** on the sides or **screws** if the stock is large enough. If you need to machine all sides, **use dowel pins and a fixture board** for precise two-sided milling.  
 
 ### **Cutting Small Parts (Like Keychains or Ornaments)**  
 
-![](ncft_mk2_work_IMG_7563.JPG){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_IMG_7563.JPG){.aligncenter .size-medium}
 
 - **Material:** Thin plywood or acrylic  
 - **Workholding:** Tape-and-CA glue is best to keep the small pieces in place while cutting. Alternatively, use tabs in your design to prevent parts from shifting before the final pass.  
 
 ### **Pocketing or Surfacing a Workpiece**  
 
-![](lmk2_work_sideclampsmall.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_sideclampsmall.jpg){.aligncenter .size-medium}
 
 - **Material:** Any wood or MDF  
 - **Workholding:** Tape-and-CA glue, side clamps, or countersunk screws in safe areas outside the milling zone.  
 
 ### **Milling Aluminum Plates for Custom Parts**  
 
-![](lmk2_work_metal.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_metal.jpg){.aligncenter .size-medium}
 
 - **Material:** Aluminum sheet or plate  
 - **Workholding:** Use MDF wasteboard with superglue and tape, or if the plate is thick, secure it with clamps, step clamps or a vise.  
 
 ### **Profile toolpath on a Round Object (Like a Wooden Coaster or Sign)**  
 
-![](ncft_mk2_work_IMG_9044.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_IMG_9044.jpg){.aligncenter .size-medium}
 
 - **Material:** Round wood blank  
 - **Workholding:** Create a custom fixture with a pocket that matches the shape of the blank. Use tape-and-CA glue to hold it down, or use a low-profile clamp system.  
 
 ### **Cutting Out a Guitar Body**  
 
-![](lmk2_work_guitar2.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_guitar2.jpg){.aligncenter .size-medium}
 
 - **Material:** Solid wood  
 - **Workholding:** Screws into non-critical areas, clamps on the edges, or tape-and-CA glue for smooth cuts without damaging the surface.  
@@ -243,7 +243,7 @@ Top hold-down clamps secure your material by applying pressure from above. Ideal
 
 Toe clamps apply pressure from the side, pulling the material down and towards a fixed surface. This makes them perfect for securing materials without obstructing the top surface—ideal for machining tasks requiring full access to the top of the workpiece, like surfacing.
 
-![](lmk2_work_clamptoe.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_clamptoe.jpg){.aligncenter .size-medium}
 
 Want to make your own clamps? Click [HERE](https://sienci.com/2020/07/10/kelly-designed-some-hold-down-clamps/)
 
@@ -251,25 +251,25 @@ Want to make your own clamps? Click [HERE](https://sienci.com/2020/07/10/kelly-d
 
 CAM clamps use a rotating CAM mechanism to apply quick, strong pressure. They’re great for projects where you need to clamp and release material frequently. Just a small twist, and you're locked in.
 
-![](ncft_mk2_work_camclamp2.jpg "Source - https://global.toolstoday.com/learn/best-cnc-workholding-methods-for-woodworking"){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_camclamp2.jpg "Source - https://global.toolstoday.com/learn/best-cnc-workholding-methods-for-woodworking"){.aligncenter .size-medium}
 
 #### Low Profile Clamps
 
 Low profile clamps keep a low clearance, making them perfect for setups where vertical space is limited. They help avoid interference with cutting tools while still keeping material firmly in place. A great option for precision work.
 
-![](lmk2_work_lowprofile.jpg "Source - https://www.reddit.com/r/hobbycnc/comments/18s7acz/low_profile_work_holding/"){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_lowprofile.jpg "Source - https://www.reddit.com/r/hobbycnc/comments/18s7acz/low_profile_work_holding/"){.aligncenter .size-medium}
 
 #### Step Clamps
 
 Step clamps have adjustable steps that allow for height variations, making them great for uneven or varying thickness materials. They offer flexibility for holding down irregularly shaped workpieces without excessive force.
 
-![](lmk2_work_stepclamp2.jpg "Source - https://www.cnccookbook.com/easy-guide-to-cnc-clamps/"){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_stepclamp2.jpg "Source - https://www.cnccookbook.com/easy-guide-to-cnc-clamps/"){.aligncenter .size-medium}
 
 #### Fence
 
 If you want an easy and reliable way to keep your material in place, a fence is a great option. A fence is simply a straight edge attached to the wasteboard, giving you a solid reference point for aligning your workpieces. It's often added on the bottom left side of your workspace, but can be placed anywhere. It’s especially handy if you're doing repeat jobs—no more constant measuring and repositioning. 🎯
 
-![](lmk2_work_fencenclamps.jpg "Here the fences (left & bottom) are used along with a toe clamp (top) and eccentric clamp (right)"){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_fencenclamps.jpg) "Here the fences (left & bottom) are used along with a toe clamp (top) and eccentric clamp (right)"){.aligncenter .size-medium}
 
 There are different ways to add a fence to your setup:
 
@@ -297,7 +297,7 @@ For extra repeatability, add alignment pins or dowel holes. 🎯
 
 A fence works great alongside other hold-down methods like clamps or tape. Just remember, for heavier cuts, you might need some extra securing power!  Keep your projects locked in and running smooth!
 
-![](lmk2_work_fencewcutout.jpeg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_fencewcutout.jpeg){.aligncenter .size-medium}
 
 ---
 
@@ -309,9 +309,7 @@ Check out this great video on building a bench and installing T-tracks [HERE](ht
 
 Join Scott as he makes some of his own workholding clamps [HERE](https://www.youtube.com/watch?v=cwDvnuouFlw)
 
-![](lmk2_work_Keiths-ttrack.jpg){.aligncenter .size-medium}
-
-![](/_images/_experimental-writing/lm_workholding_p1_TTracks.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_Keiths-ttrack.jpg){.aligncenter .size-medium}
 
 **Tips:**
 
@@ -353,7 +351,7 @@ Tabs and bridges are software-based solutions that work in tandem with physical 
 
 This method is highly reliable for projects with intricate designs but requires additional post-processing to remove and sand the tabs.
 
-![](lmk2_work_tabs.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_the-basics/lmk2_work_tabs.jpg){.aligncenter .size-medium}
 
 **Software Tools for Tabs:**  
 
