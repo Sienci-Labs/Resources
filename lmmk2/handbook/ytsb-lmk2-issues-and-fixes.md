@@ -48,7 +48,7 @@ Below are some common issues you could run into. Luckily, these can usually be s
 * Make sure your power supply brick is plugged into a 100V–130V AC outlet. If you do not have this AC voltage available in your area, you'll need to use a transformer to step down to 110/120V.
 * Check that the E-stop is plugged into the **top** of the LongBoard, and the power supply is plugged into the **side** of the LongBoard.
 
-![E-stop correctly installed in the image on the right](https://resources.sienci.com/wp-content/uploads/2022/03/estop-correctly-installed-850x420.png)
+![](/_images/_lmmk2/_handbook/lmk2_ha_issue-estop.jpg "E-stop correctly installed in the image on the right"){.aligncenter .size-medium}
 
 ### Machine randomly stops but is still connected
 
@@ -77,16 +77,24 @@ When jogging or running the LongMill, one of the motors does not move correctly 
 * Make sure the screws on the coupler are tight. Make sure that your motor or lead screw isn't slipping by jogging the machine and making sure that the lead screw and motor is turning at the same rate.
 * Make sure your Arduino is fully seated in your control board. You can typically use a non-conductive tool to push it into the socket if it is starting to come loose. A video on replacing the Arduino can be found [here](https://youtu.be/go5yO4jCl5I), but if your board has simply become loose, you can just push it back in place.
 
-![Control board Arduino location](https://resources.sienci.com/wp-content/uploads/2021/05/control-board-arduino-location-1.jpg)
+![](/_images/_lmmk2/_handbook/lmk2_ha_issue-arduino.jpg "Control board Arduino location"){.aligncenter .size-medium}
 
 ### Machine is moving the wrong direction
 
 * Ensure that all plugs and cables are fully seated and connected properly. Check the other plugs for reference.
 * Check the colour pattern of each wire coming from the motor and connected to the LongBoard. Is the pattern the same with each motor? If not, change the order of the wires to match.
 * If your Z-axis motor is moving the wrong direction, ensure that you've selected the LongMill MK2 machine profile in gSender. The LongMill MK1 machine profile will cause the Z-axis direction to be flipped.
-* Reload the EEPROM settings on your Arduino, as these settings may have changed when using various g-code senders. These settings control aspects such as the jogging direction and the machine’s workspace boundaries. To access them, go to the Firmware tool in gSender, or the Firmware Settings in UGS. gSender will have the ability to "Restore Defaults" and revert to the LongMill's factory settings. For UGS, make sure you have the default settings (found [here](https://resources.sienci.com/view/lmk2-eeprom-settings/)) by going through each line and manually changing the values, or download the configuration zip file, unzip it, and load it into UGS.
+* Reload the EEPROM settings on your Arduino, as these settings may have changed when using various g-code senders. These settings control aspects such as the jogging direction and the machine’s workspace boundaries. To access them, go to the Config tab in the current version of gSender, the Firmware tool in classic gSender, or the Firmware Settings in UGS. gSender will have the ability to "Restore Defaults" and revert to the LongMill's factory settings. For UGS, make sure you have the default settings (found [here](https://resources.sienci.com/view/lmk2-eeprom-settings/)) by going through each line and manually changing the values, or download the configuration zip file, unzip it, and load it into UGS.
 
-![Restoring default EEPROM settings within gSender](https://resources.sienci.com/wp-content/uploads/2022/03/gSenderRestoreDefaults-850x641.png)
+[tabby title="Current" open="yes"]
+
+![](/_images/_lmmk2/_handbook/lmk2_ha_issue-restoredefault-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
+![](/_images/_lmmk2/_handbook/lmk2_ha_issue-restoredefault.jpg "Restoring default EEPROM settings within gSender"){.aligncenter .size-medium}
+
+[tabbyending]
 
 ### Machine is not moving the correct distance
 
@@ -116,14 +124,20 @@ When jogging or running the LongMill, one of the motors does not move correctly 
 [Watch Video](https://youtu.be/p5SpgoUza7o)
 
 * The EX coupler for the extension kit is quite a bit thicker and it needs a lot more force to apply the right tension to the motor. Try to tighten the set screw as hard as you can, you might need a longer Allen key to help with this.
-  ![EX motor coupler](https://resources.sienci.com/wp-content/uploads/2022/03/ex-motorcoupler-nut.png)
+  
+  ![](/_images/_lmmk2/_handbook/lmk2_ha_issue-motorcoupler.jpg "EX motor coupler"){.aligncenter .size-medium}
+  
 * Loosen the ACME nut so it's resting against the washer but not putting any lateral pressure of the inner race against toward the gantry.
-![ACME nut](https://resources.sienci.com/wp-content/uploads/2022/03/acme-nut.jpg)
+
+  ![](/_images/_lmmk2/_handbook/lmk2_ha_issue-acmenut.jpg "ACME nut"){.aligncenter .size-medium}
 
 * Make sure the two mounting nuts that hold the blocks to the gantry are only tightened till snug. **Do Not** over-tighten them. It will put unwanted pressure on the lead screw.
-  ![Anti-backlash mount screws](https://resources.sienci.com/wp-content/uploads/2022/03/anti-backlash-mountscrews.png)
+
+  ![](/_images/_lmmk2/_handbook/lmk2_ha_issue-antibacklash.jpg "Anti-backlash mount screws"){.aligncenter .size-medium}
+
 * Loosen the set screw on the anti-backlash blocks using the set screw shown below. The lead screw should rotate by hand easily at this stage. If not, make sure the mounting bolts and ACME nut are adjusted as noted above. Tighten the set screw a 1/4 turn at a time till the lead screw rotates by hand with some difficulty. Any tension on the lead screw will be adjusted by the set screw.
-  ![Set screw adjustment](https://resources.sienci.com/wp-content/uploads/2022/03/MK2-74_2-1-850x404.jpg)
+
+  ![](/_images/_lmmk2/_handbook/lmk2_ha_issue-antitight.jpg "Set screw adjustment"){.aligncenter .size-medium}
 
 ### Z-axis with a Spindle or Vertical LongMill are slowly dropping
 
@@ -155,7 +169,10 @@ Excessive wobble is when the lead screw is deviating from center by more than ab
 ### Machine is cutting lines into my project
 
 * If you have the 'homing cycle' enabled in your firmware settings, any 'G28' command used for a safe retract height will cause the machine to move to it's Z-axis home position. If you have not homed the machine before this command is called, the Z-axis may not lift high enough, or plunge into the work material. With the 'homing cycle' disabled, gSender will automatically ignore these 'G28' commands and will lift the Z-axis to a clearance height instead.
-* If you are using Fusion 360, ensure that ‘Safe Retracts’ is set to ‘Clearance Height.’ ![](https://resources.sienci.com/wp-content/uploads/2021/04/f360-safe-retract.png)
+* If you are using Fusion 360, ensure that ‘Safe Retracts’ is set to ‘Clearance Height.’
+
+  ![](/_images/_lmmk2/_handbook/lmk2_ha_issue-f360.jpg){.aligncenter .size-medium}
+
 * Ensure that you are not hitting the Z-axis movement limits when running the job.
 * Review the g-code with a visualizer ([https://ncviewer.com/](https://ncviewer.com/)) to ensure there are no unexpected toolpaths or incorrect g-code commands.
 * Check all the transmission components (V-wheels, couplers, ACME nuts, anti-backlash nuts, pulleys)
@@ -171,8 +188,18 @@ Excessive wobble is when the lead screw is deviating from center by more than ab
 * You've enabled the 'homing cycle' firmware setting. This will cause the controller to start in an alarm state upon connecting to prompt you to run the homing cycle.
 * In some cases, your EEPROM settings (the machine settings have changed). Make sure they are correct by referring to the [default EEPROM settings](https://resources.sienci.com/view/lmk2-eeprom-settings/).
 * To bring it out of the alarm state, click on the button below the alarm in gSender
-* In gSender, you can hover over the question mark symbol to bring up a pop-up box with an explanation of the alarm.
-* If it continues to go into an ALARM state under similar conditions in the future, check that no wires or hardware have come loose and that there's nothing externally affecting the movement of your machine. \[caption id="attachment\_3400" align="aligncenter" width="850"\]![](https://resources.sienci.com/wp-content/uploads/2022/03/gSenderAlarm-850x480.png) Alarm 4 triggered, indicating an issue with the probing cycle\[/caption\]
+* In gSender, you can click or hover over the question mark symbol to bring up a pop-up box with an explanation of the alarm.
+* If it continues to go into an ALARM state under similar conditions in the future, check that no wires or hardware have come loose and that there's nothing externally affecting the movement of your machine.
+
+[tabby title="Current" open="yes"]
+
+  ![](/_images/_lmmk2/_handbook/lmk2_ha_issue-gs-alarm-newu.jpg "Alarm 9 triggered, indicating an issue with the homing cycle"){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
+![](/_images/_lmmk2/_handbook/lmk2_ha_issue-gs-alarm.jpg "Alarm 4 triggered, indicating an issue with the probing cycle"){.aligncenter .size-medium}
+
+[tabbyending]
 
 ### UGS sometimes stops/pauses/or reports an unknown command
 
@@ -194,15 +221,32 @@ Carbide Create uses M6/M06 codes that are used for tool changes. Since the LongM
 * Try a different USB port and USB cable.
 * If you are using UGS Platform, make sure the 'Baud' setting is set to a baud rate of 115200.
 * If you are using UGS Platform, make sure to refresh and check the dropdown box for all of the ports that have devices connected to them. Try each one until you can connect.
-* If you are using gSender and the controller appears to connect, but shows 'Disconnected' in the top right corner of the visualizer this means that your computer was able to successfully connect to the controller, but the controller's firmware is not functioning correctly. To fix this, click on 'Firmware' to open the firmware window, then click 'Flash GRBL' as shown in the photo below. Re-connect to your controller once finished.
+* If you are using gSender and the controller appears to connect, but shows 'Disconnected' in the top right corner of the visualizer this means that your computer was able to successfully connect to the controller, but the controller's firmware is not functioning correctly. To fix this:
 
-![](https://resources.sienci.com/wp-content/uploads/2022/03/flashgrblgsender-850x358.png)
+[tabby title="Current" open="yes"]
+
+Click the Config tab and then the Flash button.
+
+![](/_images/_lmmk2/_handbook/lmk2_ha_issue-flashgrblgsender-newu.jpg){.aligncenter size-medium}
+
+[tabby title="Classic gSender"]
+
+Click on 'Firmware' in the top right corner to open the firmware window, then click 'Flash grbl' as shown in the photo below.
+
+![](/_images/_lmmk2/_handbook/lmk2_ha_issue-flashgrblgsender.jpg){.aligncenter size-medium}
+
+[tabbyending]
+
+Re-connect to your controller once finished.
 
 ### Machine disconnects randomly
 
 One of the most common issues and symptoms for a random disconnect is due to the connection of the Arduino inside the control board coming loose. A symptom that this may be happening is when the USB port feels loose, or jostling it causes a disconnect. Current iterations of the controller have the Arduino glued in to prevent this, but it is worth double checking if your board is coming loose. The guide below covers the assembly and disassembly process of the controller box and Arduino. However using a non-conductive tool to push the Arduino from the bottom of the controller may be sufficient to check for looseness. https://www.youtube.com/watch?v=go5yO4jCl5I When your machine disconnects during use, it is easiest to troubleshoot why this happens by looking for any common patterns/situations where this happens:
 
-* If you experience disconnects while using a dust collector or vacuum, try running the machine without any dust collection to see if these disconnections continue occurring. If the machine no longer disconnects, you can likely conclude that static build up or interference from your dust collector is the cause. Another easy way to check for a properly set up dust collector and hose is to wear insulating shoes and suck up a sample of material before then walking over to touch a large metal surface to see if you experience a shock through your fingertips. If so, you can then confirm your dust collector is causing large static buildup that is likely affecting your machine. See the section below which address solutions for this scenario.![](https://resources.sienci.com/wp-content/uploads/2022/03/dust-shoe-static-min.gif)
+* If you experience disconnects while using a dust collector or vacuum, try running the machine without any dust collection to see if these disconnections continue occurring. If the machine no longer disconnects, you can likely conclude that static build up or interference from your dust collector is the cause. Another easy way to check for a properly set up dust collector and hose is to wear insulating shoes and suck up a sample of material before then walking over to touch a large metal surface to see if you experience a shock through your fingertips. If so, you can then confirm your dust collector is causing large static buildup that is likely affecting your machine. See the section below which address solutions for this scenario.
+
+![](/_images/_lmmk2/_handbook/lmk2_ha_issue-dust-shoe-static-min.gif){.aligncenter .size-full}
+
 * If you notice that the machine only disconnects during longer jobs, it is possible that your computer is causing the USB to 'sleep' and disconnect from your machine. See the section below for instructions on preventing this.
 * If you have other appliances, tools, or electrical strains on the same circuit as your machine, or your home/shop does not have reliable power, it is possible that imperceptible power fluctuations are causing your machine to skip, disconnect, stutter. See the section below for steps to prevent this.
 
@@ -220,22 +264,44 @@ In the event of EMI, it is advised to try going through the steps of each of the
 
 Loss of connection on a long job can happen if your computer or USB port 'fall asleep' on you. If you plan on running long, intricate cuts on your CNC you'll have to change your computer power settings so that it 'stays awake' while cutting. If you're using a Mac computer, you can find dedicated instructions for sleep management here: [https://support.apple.com/en-ca/guide/mac-help/mchle41a6ccd/mac](https://support.apple.com/en-ca/guide/mac-help/mchle41a6ccd/mac). **Some laptops may have embedded power savings that may turn off your USB port randomly on battery power. If you are running into disconnection issues, it may be worth testing while on wall power.**
 
-* Click the **Windows** icon at the bottom left corner of your screen and start to type "_control panel_" to bring it up ![](https://resources.sienci.com/wp-content/uploads/2021/05/1.-Open-Control-Panel-1-850x433.png)
-* Once you've clicked to open it, go to **Hardware and Sound**  then **Power Options** **![](https://resources.sienci.com/wp-content/uploads/2021/05/2.-Go-to-Hardware-and-Sound-1-850x178.png)** **![](https://resources.sienci.com/wp-content/uploads/2021/05/3.-Go-to-Power-Options-850x160.png)**
-* Now, whichever plan you have currently selected (circled in the picture) will be the one that you want to click **Change plan settings ![](https://resources.sienci.com/wp-content/uploads/2021/05/4.-Click-on-Change-plan-settings-beside-your-current-plan-850x301.png)** 
-* Go to the second drop-down and set it to **Never**, save the changes to ensure that your computer never dozes off on its own. An additional step can be to stop your USB ports from 'sleeping' by clicking **Change advanced power settings![](https://resources.sienci.com/wp-content/uploads/2021/05/5.-Click-n-Change-advanced-power-settings-near-the-bottom-of-the-screen-850x286.png)**
-* In the separate window that appears, you'll want to Expand the **USB Settings**, then **USB selective suspend setting**, and finally change this drop-down to "**Disabled**". Click to **Apply** these new settings.  **\*\***Sometimes on a Windows update these settings will be reset, if you want to make sure you've got all your bases covered, be sure to check back on these settings on occasion if you want to feel confident while running long jobs.\*\*![](https://resources.sienci.com/wp-content/uploads/2021/05/8.-Change-dropdown-menu-from-Enabled-to-Disabled-850x428.png)
+* Click the **Windows** icon at the bottom left corner of your screen and start to type *'control panel'* to bring it up
+
+  ![](/_images/_lmmk2/_handbook/lmk2_ha_issue-controlpanel.jpg){.aligncenter .size-medium}
+
+* Once you've clicked to open it, go to **Hardware and Sound**  then **Power Options**
+
+![](/_images/_lmmk2/_handbook/lmk2_ha_issue-hardsound.jpg){.aligncenter .size-medium}
+
+ ![](/_images/_lmmk2/_handbook/lmk2_ha_issue-power.jpg){.aligncenter .size-medium}
+
+* Now, whichever plan you have currently selected (circled in the picture) will be the one that you want to click **Change plan settings**
+
+![](/_images/_lmmk2/_handbook/lmk2_ha_issue-changeplan.jpg){.aligncenter .size-medium}
+
+* Go to the second drop-down and set it to **Never**, save the changes to ensure that your computer never dozes off on its own. An additional step can be to stop your USB ports from 'sleeping' by clicking **Change advanced power settings**
+
+![](/_images/_lmmk2/_handbook/lmk2_ha_issue-advancedpower.jpg){.aligncenter .size-medium}
+
+* In the separate window that appears, you'll want to Expand the **USB Settings**, then **USB selective suspend setting**, and finally change this drop-down to "**Disabled**". Click to **Apply** these new settings.  
+
+**Note** - *Sometimes on a Windows update these settings will be reset, if you want to make sure you've got all your bases covered, be sure to check back on these settings on occasion if you want to feel confident while running long jobs.*
+
+![](/_images/_lmmk2/_handbook/lmk2_ha_issue-disabled.jpg){.aligncenter .size-medium}
 
 Additional causes for disconnects can be caused by a loose connection between the Arduino and LongBoard controller. Make sure your Arduino is fully seated in your control board. You can typically use a non-conductive tool to push it into the socket if it is starting to come loose. A video on replacing the Arduino can be found [here](https://youtu.be/go5yO4jCl5I), but if your board has simply become loose, you can just push it back in place.
 
 ### Using a dust collector system causes the machine to disconnect
 
-The most common solution for preventing static buildup is by having an escape path for built-up charges. Using a 'ground point' works because it'll be a path of least resistance which stray charges will prefer to take instead of sticking around. ![](https://resources.sienci.com/wp-content/uploads/2022/03/dust-shoe-static-min.gif) If you plan to try this, ensure that you only use **one ground point** for your entire machine setup (including dust collection). For example, if your home has just one electrical panel, you can ground it on that or the attached ground stake outside. This avoids possible ground loops which can create additional interference. It is highly recommended that you have your dust collection and your machine on a separate circuit.
+The most common solution for preventing static buildup is by having an escape path for built-up charges. Using a 'ground point' works because it'll be a path of least resistance which stray charges will prefer to take instead of sticking around. 
+
+![](/_images/_lmmk2/_handbook/lmk2_ha_issue-dust-shoe-static-min.gif){.aligncenter .size-medium}
+
+ If you plan to try this, ensure that you only use **one ground point** for your entire machine setup (including dust collection). For example, if your home has just one electrical panel, you can ground it on that or the attached ground stake outside. This avoids possible ground loops which can create additional interference. It is highly recommended that you have your dust collection and your machine on a separate circuit.
 
 * Using bare solid copper wire between 10 to 18 AWG, wrap the wire around the body of the dust shoe and hose securely. Make sure the wire will not get caught in any moving parts during use. Fasten one end of the wire at the dust shoe end, and the other fixed directly to the ground stake or other grounded item such as an outlet box, electrical box, or grounded 3-prong power bar.
 * You can also pick up something like the Grounding Kit that's offered by Lee Valley. This is a collection of essentially speaker wire, twist-on wire connectors, and some screws: [https://www.leevalley.com/en-ca/shop/tools/workshop/dust-collection/parts-and-accessories/62616-grounding-kit-for-dust-collection-systems?item=03J6201](https://www.leevalley.com/en-ca/shop/tools/workshop/dust-collection/parts-and-accessories/62616-grounding-kit-for-dust-collection-systems?item=03J6201)
 
-![](https://resources.sienci.com/wp-content/uploads/2021/06/grounding-diagram-850x559.png)
+![](/_images/_lmmk2/_handbook/lmk2_ha_issue-grounding-diagram.jpg){.aligncenter .size-medium}
 
 ### Power surges and interference are causing disconnections
 
