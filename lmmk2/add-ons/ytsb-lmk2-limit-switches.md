@@ -101,9 +101,19 @@ Now that your LongMill has switches physically equipped it’ll need to be told 
 
 These can be used separately but are often used together since hard limits’ flaw is requiring sensors on both ends of travel where most machines only sense on one side, while soft limits’ flaw is requiring homing to be effective where sometimes the user can forget to run a homing cycle.
 
-In some g-code senders you’ll need to send these changes manually using their console, for instance typing “$22 = 1” to enable homing, while gSender has a ‘Firmware’ tool available at the top-right. Here you can scroll around to browse limit switch settings and enable any you feel will be useful to you.
+In some g-code senders you’ll need to send these changes manually using their console, for instance typing “$22 = 1” to enable homing. However, the Current version of gSender has a Homing/Limits tab in the Config screen, and Classic gSender has a ‘Firmware’ tool available at the top-right. Here you can scroll around to browse limit switch settings and enable any you feel will be useful to you.
+
+[tabby title="Current" open="yes"]
+
+![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-hardlimits-newu.jpg){.aligncenter .size-medium}
+
+Don't forget to hit the **Apply Settings** button once any changes are made. 
+
+[tabby title="Classic gSender"]
 
 ![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-hardlimits.jpg){.aligncenter .size-medium}
+
+[tabbyending]
 
 If you’re interested in making more advanced firmware changes to how your limit switches operate, you can read more in the [Firmware section](#all-firmware-settings) later on this page. For instance, if you placed the sensors in a non-standard location you’ll need to change the $23 homing direction so your machine moves in the correct direction to home.
 
@@ -115,7 +125,15 @@ Now that you have your limit switches set up, you’ll need to get used to using
 
 If you’ve enabled homing and lost a connection to your machine it will enter an alarm state upon re-connecting. To get out of this alarm state, the machine must be homed so it can rediscover its location. When homing your machine for the first time, be ready to press the E-stop in case any sensor fails to trigger. Once homing is complete, you can check that the machine coordinate values (gray numbers below the blue ones in gSender) are all set to zero or thereabouts.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-alarm-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-alarm.jpg){.aligncenter .size-medium}
+
+[tabbyending]
 
 There will also be circumstances where you may lose your position and the machine won’t know it so you’ll need to recognize the need for homing and re-home manually. As mentioned earlier, features like soft limits rely on a homed machine to work properly so always check the machine coordinates of the machine and see if their location makes sense. If you’re unsure, we’d recommend re-homing just to be safe.
 
@@ -127,7 +145,15 @@ With limits enabled, you’ll see errors or alarms appear which warn you when yo
 
 With CNC, work offsets can be thought of as bookmarks. They are saved locations for your machine that allow it to run jobs in different ‘zero’ locations without overwriting the previous zero location. Having one or more known locations you can repeatedly return to is extremely useful for restarting a failed job, recovering from a power outage, repeating the same job in different locations, and running multi-fixture jobs. To change work offsets or workspaces, simply select one of the 6 workspaces from the drop down list in the top right corner of gSender as shown in the photo below. Alternatively, entering the commands G54, G55, G56.. etc. into the console of gSender or UGS will tell the machine to switch into that workspace. You will notice the work coordinates (blue numbers) will change upon switching workspaces to whatever the coordinates are within the new workspace. The machine coordinates (grey numbers) will always remain the same regardless, as these are relative to your machine's home position.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-workspaces-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-workspaces.jpg){.aligncenter .size-medium}
+
+[tabbyending]
 
 All 6 of these workspaces are saved by the controller even after powering off the machine. For this reason, using work offsets with the ability to home the machine will give you the confidence to know your job’s relative position no matter what. https://www.youtube.com/watch?v=jmiaWA5tiVw&t=336s
 
@@ -222,9 +248,17 @@ To attach your switches you’ll need to find an appropriate place to mount them
 
 ## All Firmware Settings
 
-You can use the basic settings outlined for our kit or make more advanced changes to suit your own setup. Settings can be changed by sending the command to update the EEPROM settings manually through the console or using the ‘Firmware’ tool in gSender. Below are all the limit switch related settings you may look to edit as well as their respective commands.
+You can use the basic settings outlined for our kit or make more advanced changes to suit your own setup. Settings can be changed by sending the command to update the EEPROM settings manually through the console or using the **Firmware** tool in gSender. Below are several of the limit switch related settings you may look to edit as well as their respective commands.
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-Firmware_Switches_homing.jpg){.aligncenter .size-medium}
+[tabby title="Current" open="yes"]
+
+![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-firmware-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
+![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-firmware.jpg){.aligncenter .size-medium}
+
+[tabbyending]
 
 \[su\_table responsive="yes"\]
 
