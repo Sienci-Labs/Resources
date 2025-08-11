@@ -39,9 +39,29 @@ If you need instructions on how to install it, this documentation goes through t
 
 ### Use the Firmware Tool
 
+[tabby title="Current" open="yes"]
+
+Once you've completed the installation, open gSender and connect to your machine. Open the **Config Tab** and check that you've selected your specific CNC in the profiles drop down so that the correct firmware is flashed. Click the **Flash** button to bring up the confirmation prompt.
+
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gsender-profiles-newu.jpg "gSender machine profile selection"){.aligncenter .size-medium}
+
+Select your Port and keep the controller type as grbl. When ready, click the Yes button to flash the latest firmware.
+
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gsender-confirm-newu.jpg){.aligncenter .size-medium}
+
+You will need to reconnect once you see the process is complete.
+
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gSender-flashing-success-newu.jpg){.aligncenter .size-medium}
+
+**NOTE:** If you've made custom changes to your machines firmware that you don't want to lose, use the 'Export Settings' button to save your settings to a file that you can then reload when flashing is complete.
+
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gsender-export-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 Once you've completed the installation, open gSender and connect to your machine. Open the 'Firmware' tool and check that you've selected your specific CNC in the profiles drop down so that the correct firmware is flashed. Click the "Flash grbl" button to bring up the confirmation prompt.
 
-<img class="aligncenter size-large wp-image-4209" src="https://resources.sienci.com/wp-content/uploads/2022/03/gSender-Machine-profiles-1024x529.jpg" alt="gSender machine profile selection " width="1024" height="529" />
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gsender-profiles.jpg "gSender machine profile selection"){.aligncenter .size-medium}
 
 **NOTE:** If you've made custom changes to your machines firmware that you don't want to lose, use the 'Export Settings' button to save your settings to a file that you can then reload when flashing is complete.
 
@@ -49,7 +69,9 @@ Once you've completed the installation, open gSender and connect to your machine
 
 You will see a warning about the risk of flashing the firmware. If you own a LongMill and have not made any modifications to your control board, there is almost no risk in completing this process. Press "OK" to continue.
 
-<img class="aligncenter wp-image-4210 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/gSender-flashing-prompt-850x533.jpg" alt="" width="850" height="533" />
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gsender-warning.jpg){.aligncenter .size-medium}
+
+[tabbyending]
 
 ### Restore Settings
 
