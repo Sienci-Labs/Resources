@@ -318,7 +318,7 @@ On the SLB, the plug for the shorter strip is called "**Ring**" since you'd typi
 - It have 3 or 5 wires (not 4) and be marked as "5V" (not 12 or 24 volts)
 - If they're 5V, the LEDs will likely be called "NeoPixels" or "WS2812" in the name or description, check this is true
 - Some we've tested:
-  - <a href="https://www.amazon.ca/gp/product/B088FK4SMQ/" target="_blank" rel="noopener">BTF-LIGHTING</a> (1m/3.3' strip, 60 LEDs), <a href="https://www.amazon.ca/gp/product/B01CDTED80/" target="_blank" rel="noopener">another style</a>
+  - BTF-LIGHTING (1m/3.3' strip, 60 LEDs)
   - <a href="https://www.amazon.ca/gp/product/B08DKPYZ7L/" target="_blank" rel="noopener">airgoo NEON</a> (two 16" strips, 42 LEDs)
   - <a href="https://www.amazon.ca/gp/product/B0BYD9ZDRM/" target="_blank" rel="noopener">Geekstory ring light</a> (78mm ID, 35 LEDs)
 - If you don't want different colours and **just want your LEDs to turn on and off**, consider using the SLBs <a href="https://resources.sienci.com/view/slb-manual/#switch-amp-aux-power">AUX Power outputs</a>
