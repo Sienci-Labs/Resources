@@ -46,23 +46,23 @@ Unscrew the top-right thumbscrew a couple turns (pictured) then slide the cover 
 
 ## Preparation
 
+Before diving into rewiring, we’d first suggest you note down any firmware changes that are unique about your setup.
+
 [tabby title="Current" open="yes"]
 
-Before diving into rewiring, we’d first suggest you note down any firmware changes that are unique about your setup. You can do this by connecting to your CNC in gSender and using the **Config tab** to find sections that are **highlighted in yellow**. In the example below, you can see that the X and Y maximum travel is different from the standard MK2 12x30.
+You can do this by connecting to your CNC in gSender and using the **Config tab** to find sections that are **highlighted in yellow**. In the example below, you can see that the X and Y maximum travel is different from the standard MK2 30x30.
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p3_FirmMaxTravel-newu.jpg){.aligncenter .size-medium}
 
-Yellow sections show when a change has been made from the default settings. Any of these should be written down and will be re-entered when the new board is set up.
-
 [tabby title="Classic gSender"]
 
-Before diving into rewiring, we’d first suggest you note down any firmware changes that are unique about your setup. You can do this by connecting to your CNC in gSender and using the Firmware Tool to find sections that are **highlighted in yellow**. In the example below, you can see that the maximum travel is different from the standard MK2 12x30.
+You can do this by connecting to your CNC in gSender and using the Firmware Tool to find sections that are **highlighted in yellow**. In the example below, you can see that the maximum travel is different from the standard MK2 12x30.
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p3_FirmMaxTravel.jpg){.aligncenter .size-medium}
 
-Yellow sections show when a change has been made from the default settings. Any of these should be written down and will be re-entered when the new board is set up.
+[tabbyending]
 
-[Tabbyending]
+Yellow sections show when a change has been made from the default settings. Any of these should be written down and will be re-entered when the new board is set up.
 
 ## Wiring
 
