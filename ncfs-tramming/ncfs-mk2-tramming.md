@@ -13,6 +13,8 @@ custom_fields:
 skip_file: yes
 featured_image: 
 ---
+
+---
 Tramming is the process of adjusting the position of the router or spindle, typically by tiling it forwards and backwards, and/or left to right. This ensures that the cutting tool stays aligned with the Z-axis. Having a machine out-of-tram can result in things such as ridges or artifacts, especially on surfacing operations with wider bits. It's caused by the flat bottom of bits not being parallel to the rails. The router is slightly angled causing one side of the bit to be higher than the other.
 
 ![](ncfs_mk2_tram_tramlines.jpg){.aligncenter .size-medium}
