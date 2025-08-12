@@ -1,7 +1,7 @@
 ---
-title: Workholding 🕳️
+title: YTSB Workholding 🕳️
 menu_order: 0
-post_status: draft
+post_status: publish
 post_excerpt: Workholding is the method you use to keep material secured while cutting on a CNC machine. Methods include T-tracks, threaded inserts, clamps and hot glue.
 post_date: 2022-03-17 19:45:00
 taxonomy:
@@ -11,9 +11,178 @@ taxonomy:
 custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/_longmill/_the-basics/lm_workholding_p1_t-track.jpg
 ---
+
+
+## Quick-Reference Workholding Table
+
+| Method | Best For | Avoid When | Setup Needed |
+|--------|----------|------------|--------------|
+| [Top Clamps](#top-hold-down-clamps) | General cutting, engraving, surfacing | Clamps block toolpath | T-tracks, threaded inserts, or screws |
+| [Side Clamps / Toe Clamps](#toe-clamps) | Surfacing slabs, odd shapes | Thin sheets needing even pressure | Threaded inserts or T-tracks |
+| [Screws](#screwing-directly-into-the-wasteboard) | Strong hold for large/thick stock | Brittle materials or cosmetic surfaces | Any wasteboard |
+| [Tape + CA Glue](#tape-and-ca-glue-method) | Small/thin parts, no tabs needed | Heavy cuts, uneven surfaces | Painter’s tape + CA glue |
+| [Double-Sided Tape](#double-sided-tape-carpet-tape-or-adhesive-strips) | Light materials, smooth surfaces | Heavy or aggressive cuts | None |
+| [Vacuum Table](#vacuum-tables) | Thin sheet goods needing flatness | Porous materials | Vac pump + table |
+| [Vise](#vice) | Small or hard materials, repeat jobs | Thin sheets, delicate shapes | Mounted vise |
+| [Dog Holes](#dog-holes) | Repeat woodworking setups | Non-wood, heavy downforce cuts | Dog hole grid |
+| [Fence](#fence) | Straight/repeat cuts | Projects needing flexible placement | Fixed or adjustable fence |
+| [Tabs](#tabs-and-bridges) | Holding cutouts in place until job ends | Jobs where tab cleanup is hard | CAM software setting |
+| [Wedges](#wedges) | Irregular shapes, uneven stock | High precision needs | Stops + wedge blocks |
+
+---
+
+## Why Workholding Matters
+
+Securing your material properly to the bed of your CNC machine is one of the most important skills you’ll learn. Rigid workholding keeps your stock from moving, sliding, or crashing during a cut — protecting your project, your tools, and your machine.  
+
+Some methods are strong but bulky. Others are low profile but less powerful. The best setups often combine multiple methods to balance strength, clearance, and speed. The ultimate goals:  
+
+- Hold your workpiece safely and securely  
+- Make more projects in less time  
+- Avoid damage to your material or machine  
+
+---
+
+## Building Your Wasteboard/Table Setup
+
+### Screwing Directly into the Wasteboard
+
+- **How it works:** Drive screws through clamps or directly into your stock and wasteboard.  
+- **Pros:** Cheap, quick, and beginner-friendly.  
+- **Cons:** Leaves holes in your wasteboard, risks splitting material if not pre-drilled.  
+- **Tips:**  
+  - Pre-drill holes near edges to prevent splitting.  
+  - Use screws short enough to avoid hitting the table below.  
+  - Scrape raised bumps left by screw tear-out.  
+
+---
+
+### Threaded Inserts
+
+- **How it works:** Install metal inserts in a grid pattern across your wasteboard to create strong, reusable anchor points for clamps.  
+- **Pros:** Affordable, flexible positioning, works with both top and side clamps.  
+- **Cons:** Slower to reposition compared to T-tracks.  
+- **Tips:**  
+  - Pre-drill holes and counterbores so inserts sit below the surface.  
+  - Avoid overtightening to prevent pulling inserts out.  
+
+---
+
+### T-Tracks
+
+- **How it works:** Aluminum tracks embedded in the table let you slide clamps to any position.  
+- **Pros:** Very versatile, quick adjustments, great for odd shapes.  
+- **Cons:** Upfront cost and installation time.  
+- **Tips:**  
+  - Fill gaps between tracks with MDF slats you can surface flat.  
+  - Cut grooves with your CNC for a perfect fit.  
+
+---
+
+### Vacuum Tables
+
+- **How it works:** Uses suction to hold materials flat without mechanical clamps.  
+- **Best for:** Thin or delicate sheet goods like acrylic, MDF, or plywood.  
+- **Cons:** Requires a vacuum pump, may struggle with porous materials, can be noisy.  
+- **Pros:** Fast material changes, completely unobstructed cutting surface.  
+
+---
+
+### Vertical Clamping
+
+- **How it works:** Side-mounted clamps hold tall or stacked material upright.  
+- **Best for:** Side machining, joinery, and engraving edges.  
+- **Tip:** Use multiple clamps for even pressure and stability.
+
+---
+
+## Common Workholding Methods
+
+### Top Hold-Down Clamps
+Apply pressure from above — ideal for flat workpieces, engraving, and general cutting. Easy to adjust but can interfere with toolpaths if not placed carefully.
+
+---
+
+### Toe Clamps
+Pull the material down and inward from the side, keeping the top surface clear. Perfect for surfacing or when cutting across the entire top face.
+
+---
+
+### Screws
+Simple and secure for large or heavy stock. Plan placement to avoid tool collisions.
+
+---
+
+### Tape-and-CA Glue Method
+Painter’s tape on both surfaces with CA glue in between. Strong, temporary hold that leaves no residue on your material.
+
+---
+
+### Double-Sided Tape, Carpet Tape, or Adhesive Strips
+Good for light materials and smooth surfaces. Avoid with aggressive cuts; may leave adhesive residue.
+
+---
+
+### Vacuum Tables
+High-tech option for holding sheet goods perfectly flat. Ideal for delicate materials, though less effective with porous surfaces.
+
+---
+
+### Vise
+Holds small or irregular parts securely between jaws. Great for metals and repeat jobs; add soft jaws to protect delicate materials.
+
+---
+
+### Dog Holes
+Pre-drilled grid of holes used with bench dogs or stops for repeat positioning. Best in woodworking.
+
+---
+
+### Fence
+Fixed or adjustable straight edge for aligning material and repeating setups. Saves time and improves accuracy.
+
+---
+
+### Tabs and Bridges
+Leave small uncut sections in your design to hold parts in place until the job finishes. Remove and sand afterwards.
+
+---
+
+### Wedges
+Press irregular shapes or uneven stock into place against stops. Cheap and simple, but less precise.
+
+---
+
+## Matching Workholding to the Project
+
+| Project | Material | Suggested Method(s) |
+|---------|----------|----------------------|
+| Engraving a Wooden Sign | Plywood/Hardwood | T-tracks or clamps; tape-and-glue for thin stock |
+| Cutting Acrylic Sheets | Acrylic | Double-sided tape or vacuum table |
+| 3D Relief Carving | Hardwood Block | Side clamps, screws, or dowel pins for two-sided milling |
+| Small Parts (Keychains) | Thin Plywood/Acrylic | Tape-and-glue or tabs |
+| Surfacing Workpiece | Any Wood/MDF | Side clamps or screws |
+| Milling Aluminum Plates | Aluminum | Tape-and-glue for thin; clamps or vise for thick |
+| Round Object (Coaster) | Round Wood Blank | Custom fixture pocket + tape-and-glue or low-profile clamps |
+| Guitar Body | Solid Wood | Screws in non-visible areas, clamps, or tape-and-glue |
+
+---
+
+**Final Tip:**  
+No single method covers every project. The most efficient CNC setups use **a combination of techniques** — picking the right method for the material, cut type, and clearance needed. Experiment, adjust, and keep your wasteboard maintained for the best results.
+
+
+
+
+
+---
+
+
+
+
 One important thing to learn is how to properly secure material down to the bed of the machine. Rigidly securing material to the machine bed is crucial when setting up to cut, as you don't want anything moving, sliding or crashing during your cut.
 
 Some clamping methods are strong but get in the way, while others keep a low profile but aren't quite as strong. Play around with these methods to see which ones you can use individually or in combination for your ideal setup.
