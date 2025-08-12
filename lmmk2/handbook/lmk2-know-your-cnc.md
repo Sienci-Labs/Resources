@@ -1,7 +1,7 @@
 ---
-title: ytsb Your MK2
+title: Your MK2
 menu_order: 1
-post_status: draft
+post_status: publish
 post_excerpt: A quick start and resource guide for your LongMill CNC machine.
 post_date: 2022-03-17 20:31:00
 taxonomy:
@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: 
 ---
 
@@ -145,14 +145,30 @@ Here are some other <b>Quick tips:</b>
 
 As is also covered in our <a href="https://sienci.com/terms-and-conditions/" target="_blank" rel="noopener">safety warnings and guidelines</a> for the MK2, always operate your machine in a safe manner:
 
-<ul>
-  <li>Never wear loose clothing while operating the machine. Keep long hair and clothes away from all moving parts so nothing gets caught and wear appropriate footwear. Remember that though we try to prevent incidental harm while using the MK2 it’s still up to you to be safe and aware while using it</li>
-  <li>Wear a good set of over-the-ear hearing protection or ear plugs to prevent hearing damage since the LongMill on its own or combined with a dust collection system can be quite loud</li>
-  <li>Especially in cases of poor dust collection or ventilation a good dust mask or respiratory protection is needed to protect from inhaling particulates in the air. Some materials can even be toxic or generate long-term health problems if inhaled so look up the MSDS (material safety data sheet) of your material before you start cutting it</li>
-  <li>Cutting can kick-up a lot of dust and wood chips so reasonable eye protection should be worn while the machine is running</li>
-  <li>Be aware around your machine and don’t leave it unattended. Anything can happen while you’re not paying attention and could result in harm if you reach in or turn your back during operation</li>
-  <li>Careful with tool and materials handling. Cutting tools can shatter or cause damage if they’re not in good condition or can cut you during handling and this is similar with materials. Material can also ignite during cutting, within your dust collection system, or even spontaneously especially if mixed in with other chemicals or oils when disposed. Be aware of safe disposal measures for your cutters and materials for your particular area</li>
-</ul>
+### Safety Guidelines
+
+- **Fire Hazards:**  
+  - Do not leave your machine unattended during operation.  
+  - Never mix metal shavings with wood dust, as this can create a fire hazard and damage your dust collection hose.  
+  - Be aware that sparks from metal-on-metal contact can cause fires.
+- **Noise Protection:**  
+  - Noise from CNC machines and power tools can cause permanent hearing damage, often faster than you think. **Sound levels above 75 dB are a concern**, with damage starting after 1–2 hours at 90–95 dB, and only 20 minutes at 100 dB.
+  - Always wear some form of hearing protection—preferably double protection (earplugs + earmuffs) for maximum safety. The NRR (Noise Reduction Rating) on gear isn’t always accurate in real-world use, so use a combination for best results.  
+  - Effective NRR calculation: (NRR – 7) ÷ 2   For example, an earmuff rated NRR 31 may only reduce sound by ~12 dB in actual use.  
+  - Choose equipment with high NRR and good comfort—comfortable devices are more likely to be worn consistently.  
+  - Don’t skip hearing protection—it’s as important as dust control for long-term health.
+
+![Hearing Protection](/_images/_lmmk2/_the-basics/lmk2_dust_safety-ears.jpg)
+
+- **Dust Protection**:
+  - Especially in cases of poor dust collection or ventilation, use a dust mask or respiratory protection to avoid inhaling particulates. Some materials can be toxic or cause long-term health problems if inhaled—always check the MSDS (Material Safety Data Sheet) for your material before cutting.
+  - Cutting can kick up a lot of dust and wood chips, so wear proper eye protection while the machine is running.
+  - For more details on how to protect yourself from dust, check out our section on [Dust Collection](https://resources.sienci.com/view/lmk2-dust-collection/)
+
+- **Other Safety**:
+  - Stay aware around your machine and never leave it unattended. Anything can happen when you’re not paying attention and could result in harm if you reach in or turn your back during operation.
+  - Handle tools and materials with care. Cutting tools can shatter or cause injury if damaged, and some materials can ignite during cutting, within your dust collection system, or even spontaneously—especially if mixed with chemicals or oils when disposed of. Follow safe disposal measures for your area.
+  - Never wear loose clothing while operating the machine. Keep long hair and clothes away from all moving parts so nothing gets caught, and wear appropriate footwear. While the MK2 is designed to prevent incidental harm, it’s still up to you to be safe and aware during use.
 
 <h2>Resource Pages</h2>
 
