@@ -13,7 +13,17 @@ custom_fields:
 skip_file: yes
 featured_image: 
 ---
+https://forum.onefinitycnc.com/t/tramming-the-router/1132/10
 
+https://www.servomagazine.com/magazine/article/how-to-tram-your-cnc-router
+
+https://www.youtube.com/watch?v=Afw1VdArLuo
+
+https://www.youtube.com/watch?v=8T_ZasfpDsM
+
+https://www.youtube.com/watch?v=1PMy90aPyhk
+
+https://www.corbinstreehouse.com/blog/2023/04/how-to-tram-a-cnc-spindle-router/
 ---
 Tramming is the process of adjusting the position of the router or spindle, typically by tiling it forwards and backwards, and/or left to right. This ensures that the cutting tool stays aligned with the Z-axis. Having a machine out-of-tram can result in things such as ridges or artifacts, especially on surfacing operations with wider bits. It's caused by the flat bottom of bits not being parallel to the rails. The router is slightly angled causing one side of the bit to be higher than the other.
 
