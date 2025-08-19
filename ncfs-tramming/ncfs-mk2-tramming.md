@@ -13,9 +13,6 @@ custom_fields:
 skip_file: yes
 featured_image: 
 ---
-https://forum.onefinitycnc.com/t/tramming-the-router/1132/10
-
-https://www.servomagazine.com/magazine/article/how-to-tram-your-cnc-router
 
 https://www.youtube.com/watch?v=Afw1VdArLuo
 
@@ -24,6 +21,101 @@ https://www.youtube.com/watch?v=8T_ZasfpDsM
 https://www.youtube.com/watch?v=1PMy90aPyhk
 
 https://www.corbinstreehouse.com/blog/2023/04/how-to-tram-a-cnc-spindle-router/
+---
+
+1. Don't do it
+    - Designed to not need any tramming
+    - Accuracy of 0.5 mm is good
+    - Wood type/days humidity/bit used can all effect tramming
+2. Loosen screws and tighten again
+    - Use a level or carpenter square to check if you are level
+    - Loosen screws on the router mount, adjust and tighten screws again
+    - Double check with your level or carpenters square that improvements have been made
+3. Shim your router mount or adjust your eccentric nuts on Y axis
+    - Use mini tram tool with a piece of glass
+
+Tramming keeps your router perpendicular to the spoilboard so surfacing passes stay clean. Here’s a simplified process any hobby CNC user can follow.  
+
+---
+
+## Step 1: Don’t Do It (Yet)  
+
+**Check your results first.**  
+- Most machines are square enough out of the box.  
+- Expect around **0.1 mm tolerance** (about the thickness of paper).  
+- You’ll always see faint lines after surfacing, even if you’re “perfect.”  
+
+![Spoilboard ridges acceptable vs severe](image_placeholder)  
+
+---
+
+## Step 2: Loosen Screws & Re-Tighten  
+
+If ridges are visible:  
+1. Loosen the **four router mount screws.**  
+2. Reseat the router.  
+3. Tighten screws evenly while keeping the router square.  
+
+Tools: carpenter’s square or small precision level.  
+
+![Router mount screws reseat diagram](image_placeholder)  
+
+---
+
+## Step 3: Check Tilt (Side-to-Side)  
+
+If ridges run **front to back**, your router is tilted left/right.  
+- Loosen the router mount slightly.  
+- Shim between the mount and router (thin paper, tape, or shim stock).  
+- Retighten until even.  
+
+![Router tilt shim diagram](image_placeholder)  
+
+---
+
+## Step 4: Check Nod (Front-to-Back)  
+
+If ridges run **left to right**, your router is tilted forward/backward.  
+- Adjust **eccentric nuts** on Y-axis bearings.  
+- Or, slightly loosen the X-rail and rotate it forward/back.  
+- Very small adjustments are needed.  
+
+![Router nod adjustment diagram](image_placeholder)  
+
+---
+
+## Step 5: Verify with a Mini Tram Tool  
+
+DIY method:  
+- Insert a bolt in the collet, with another bolt sticking out opposite.  
+- Rotate over a flat reference (piece of glass works well).  
+- Compare front vs. back, left vs. right.  
+
+![Mini tram tool on glass diagram](image_placeholder)  
+
+---
+
+## Step 6: Resurface Spoilboard  
+
+Once you’re close:  
+- Run a surfacing pass.  
+- Inspect the cut lines.  
+- Repeat adjustments only if ridges are obvious.  
+
+![Spoilboard surfacing smooth vs ridged](image_placeholder)  
+
+---
+
+## Summary  
+
+1. **Don’t stress** small ridges — they’re normal.  
+2. **Reseat and tighten** screws first.  
+3. **Shim or adjust** only if needed.  
+4. **Verify with a simple tram tool** on glass.  
+5. **Resurface spoilboard** regularly for best results.  
+
+👉 Keep it simple: hobby CNCs don’t need machinist-level tramming.  
+
 ---
 Tramming is the process of adjusting the position of the router or spindle, typically by tiling it forwards and backwards, and/or left to right. This ensures that the cutting tool stays aligned with the Z-axis. Having a machine out-of-tram can result in things such as ridges or artifacts, especially on surfacing operations with wider bits. It's caused by the flat bottom of bits not being parallel to the rails. The router is slightly angled causing one side of the bit to be higher than the other.
 
