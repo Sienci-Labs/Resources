@@ -1,5 +1,5 @@
 ---
-title: YTSB Workholding 🕳️
+title: Workholding 🕳️
 menu_order: 0
 post_status: publish
 post_excerpt: Workholding is the method you use to keep material secured while cutting on a CNC machine. Methods include T-tracks, threaded inserts, clamps and hot glue.
