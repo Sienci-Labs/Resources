@@ -40,7 +40,7 @@ Comparing the SLB to our Original LongBoard and to other controllers on the mark
 - Control Spindles/VFDs and other accessories with Modbus over RS485
 - Independant 4th/rotary axis output to an external driver for simultaneous 4-axis cutting
 - More customizable IO to fine-tune your at-home or shop CNC setup
-- Powered by HAL, leaving bandwidth for even more features to be added with future Firmware updates
+- Powered by HAL, leaving bandwidth for even more features to be added with future firmware updates
 - Don’t have to pay extra for a built-in computer, instead choose to run something lightweight you already have on hand or a more powerful setup to combine both design and CNC control from one computer in your shop
 
 ### Dimensions
@@ -76,7 +76,7 @@ The SLB runs grblHAL, which may look similar in name to grbl but for all intents
 
 ### Open Source
 
-This project has no patents, we make everything available to the public just like much of the rest of Sienci Labs’ projects. As we start to roll out the SLB into production, we’ll post our source files for Firmware tweaks from Core grblHAL, our custom grblHAL plugins, the SuperLongBoard PCB design, enclosure design, and any other relevant manufacturing and sourcing info we can think of. We’ll also make sure we’re clear on the licenses for use.
+This project has no patents, we make everything available to the public just like much of the rest of Sienci Labs’ projects. As we start to roll out the SLB into production, we’ll <a href="https://resources.sienci.com/view/slb-welcome/#open-source">post our source files</a> for firmware tweaks from Core grblHAL, our custom grblHAL plugins, the SuperLongBoard PCB design, enclosure design, and any other relevant manufacturing and sourcing info we can think of. We’ll also make sure we’re clear on the licenses for use.
 
 ## Wiring
 
@@ -199,50 +199,36 @@ Keep in mind that setting up Ethernet is a bit more involved, and at the time of
 
 #### Ethernet on Windows
 
-1. To start, connect to your CNC over USB to note down the EEPROM values set for the IP address and Netmask (302 and 304). The defaults should be IP: `192.168.5.1` and Netmask: `255.255.255.0` with the IP mode set to `static`.
-
 [tabby title="Current" open="yes"]
 
-![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode-newu.jpg){.aligncenter .size-medium}
-
+1. To start, connect to your CNC over USB to note down the EEPROM values set for the IP address and Netmask (302 and 304). The defaults should be IP: `192.168.5.1` and Netmask: `255.255.255.0` with the IP mode set to `static`.
+  ![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode-newu.jpg){.aligncenter .size-full}
 1. Once confirmed, you can unplug your USB and connect the Ethernet cable directly from your PC to your board. If you look where you plugged the Ethernet cable into the SLBs port from the outside, you should see a green light on and a flickering yellow light.
-
 1. You’ll need to configure the PC’s Ethernet interface. Open network connections to get a list of Ethernet ports.
-![](/_images/_superlongboard/_manual/slb_ma_p14_TCP.jpg){.aligncenter .size-full}
-
+  ![](/_images/_superlongboard/_manual/slb_ma_p14_TCP.jpg){.aligncenter .size-full}
 1. Right click your Ethernet port and go to Properties and then find the “Internet Protocol Version 4 (TCP/IPv4)” entry and open its properties.
-![](/_images/_superlongboard/_manual/slb_ma_p15_IP.jpg){.aligncenter .size-full .nar}
-
+  ![](/_images/_superlongboard/_manual/slb_ma_p15_IP.jpg){.aligncenter .size-full .nar}
 1. Select the “Use the following IP address:” option and configure it as above. You want the subnet mask to be the same value from the EEPROM 'Netmask'. The IP address should have a different last digit on the same mask - so if the board is device 1 (192.168.5.1), you could call your PC device 5 (192.168.5.5). Click “OK” to save and close the options.
-
-1. Back in gSenders Config tab ➜ Ethernet section, make sure the IP Range matches the IP from the EEPROM.
-![](/_images/_superlongboard/_manual/slb_ma_p16_EEPROM-newu.jpg){.aligncenter .size-medium}
-
+1. Back in gSenders Config tab ➜ Ethernet section, make sure the IP address for gSender matches the IP address from the firmware.
+  ![](/_images/_superlongboard/_manual/slb_ma_p16_EEPROM-newu.jpg){.aligncenter .size-medium}
 1. Now click on Connect to CNC, choose the Ethernet Port option and you should see it connect successfully :)
-![](/_images/_superlongboard/_manual/slb_ma_p17_Connected-newu.jpg){.aligncenter .size-medium}
-
+  ![](/_images/_superlongboard/_manual/slb_ma_p17_Connected-newu.jpg){.aligncenter .size-medium}
 1. If you have a problem connecting with Ethernet, go back over the setup steps. You can also reconnect over USB to double-check your SLB Ethernet settings.
 
 [tabby title="Classic gSender"]
 
-![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode.jpg){.aligncenter .size-full .nar}
-
+1. To start, connect to your CNC over USB to note down the EEPROM values set for the IP address and Netmask (302 and 304). The defaults should be IP: `192.168.5.1` and Netmask: `255.255.255.0` with the IP mode set to `static`.
+  ![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode.jpg){.aligncenter .size-full .nar}
 1. Once confirmed, you can unplug your USB and connect the Ethernet cable directly from your PC to your board. If you look where you plugged the Ethernet cable into the SLBs port from the outside, you should see a green light on and a flickering yellow light.
-
 1. You’ll need to configure the PC’s Ethernet interface. Open network connections to get a list of Ethernet ports.
-![](/_images/_superlongboard/_manual/slb_ma_p14_TCP.jpg){.aligncenter .size-full}
-
+  ![](/_images/_superlongboard/_manual/slb_ma_p14_TCP.jpg){.aligncenter .size-full}
 1. Right click your Ethernet port and go to Properties and then find the “Internet Protocol Version 4 (TCP/IPv4)” entry and open its properties.
-![](/_images/_superlongboard/_manual/slb_ma_p15_IP.jpg){.aligncenter .size-full .nar}
-
+  ![](/_images/_superlongboard/_manual/slb_ma_p15_IP.jpg){.aligncenter .size-full .nar}
 1. Select the “Use the following IP address:” option and configure it as above. You want the subnet mask to be the same value from the EEPROM 'Netmask'. The IP address should have a different last digit on the same mask - so if the board is device 1 (192.168.5.1), you could call your PC device 5 (192.168.5.5). Click “OK” to save and close the options.
-
 1. Back in gSenders general Settings, make sure the IP Range matches the IP from the EEPROM.
-![](/_images/_superlongboard/_manual/slb_ma_p16_EEPROM.jpg){.aligncenter .size-full .nar}
-
+  ![](/_images/_superlongboard/_manual/slb_ma_p16_EEPROM.jpg){.aligncenter .size-full .nar}
 1. With the grblHAL firmware selected, choose the ‘Network Devices’ option and you should see it connect successfully :)
-![](/_images/_superlongboard/_manual/slb_ma_p17_Connected.jpg){.aligncenter .size-full}
-
+  ![](/_images/_superlongboard/_manual/slb_ma_p17_Connected.jpg){.aligncenter .size-full}
 1. If you have a problem connecting with Ethernet, go back over the setup steps. You can also reconnect over USB to double-check your SLB Ethernet settings.
 
 [tabbyending]
@@ -286,7 +272,7 @@ Once you've got your steppers plugged in and decided on your microstepping, you 
 
 #### Independent Motor Holding
 
-Instead of the old solution of setting $1=255 which forces all motors to hold at full current, two new settings allow you to select individual motors that you want to hold, and what holding strength you want to use. With $37, simply toggle the axis you want to hold while using $210-212 to decide what the holding strength will be (as a % of the motor’s full current).
+Instead of the old solution of setting $1=255 which forces all motors to hold at full current, two new settings allow you to select individual motors that you want to hold, and what holding strength you want to use. With 'Steppers deenergize' ($37), simply toggle the axis you want to hold while using 'Hold current' ($210-212) to decide what the holding strength will be (as a % of the motor’s full current).
 
 Useful in cases of:
 
@@ -298,7 +284,7 @@ We’ve found that a minimum of 15% works for lead screw-driven CNCs. These hold
 
 [tabby title="Current" open="yes"]
 
-![](/_images/_superlongboard/_manual/slb_ma_p19_Steppers-newu.jpg){.aligncenter .size-medium }
+![](/_images/_superlongboard/_manual/slb_ma_p19_Steppers-newu.jpg){.aligncenter .size-full}
 
 [tabby title="Classic gSender"]
 
@@ -439,11 +425,11 @@ If you’ve set up your own **NC sensors**, the first thing you’ll want to do 
 
 [tabby title="Current" open="yes"]
 
-![](/_images/_superlongboard/_manual/slb_ma_p30_InvertLP-newu.jpg){.aligncenter .size-medium}
+![](/_images/_superlongboard/_manual/slb_ma_p30_InvertLP-newu.jpg){.aligncenter .size-full}
 
 On top of the typical settings that the original LongBoard has when it comes to homing like homing speed and direction, the SLB brings along some new options that you can configure. If you'd like to match the SLB behaviour to the typical LongMill/grbl setup, then we'd recommend you enable all the settings shown in the picture (homing on startup, set machine origin to 0, and override locks), otherwise learn about all the settings in the table below.
 
-![](/_images/_superlongboard/_manual/slb_ma_p31_HomingFirm-newu.jpg){.aligncenter .size-medium}
+![](/_images/_superlongboard/_manual/slb_ma_p31_HomingFirm-newu.jpg){.aligncenter .size-full}
 
 [tabby title="Classic gSender"]
 
@@ -600,7 +586,7 @@ or you can run your own custom ‘macro’ g-code. Here are some examples of mac
 - Park the CNC away from the job: **G91 G21 G0 X400 Y400**
 - Return to the cutting area (XY0 point): **G90 G21 G0 X0 Y0**
 
-The buttons are customized in the SLBs EEPROM settings, using the Firmware section of either gSender or ioSender. Look for settings $450-452 to select one of the actions from the pre-made list, or select the first “Macro” option and type in your own g-code string to execute in settings $450-452.
+The buttons are customized using the Config tab or Firmware section of either gSender or ioSender. Look for settings $450-452 to select one of the actions from the pre-made list, or select the first “Macro” option and type in your own g-code string to execute in settings $450-452.
 
 #### Example Setup
 
@@ -778,7 +764,7 @@ Remember that your VFD will also require some setup through its own button inter
   - **S**: Spindle at speed feedback supported
   - **L**: Spindle can control a laser (requires laser mode to be enabled in firmware)
   - **I**: Spindle PWM output can be inverted
-  - **R**: Range Locked (min/max not inherited from firmware settings)
+  - **R**: Range Locked (min/max not inherited from Config/firmware settings)
   - So for example, “DIV” means you can swap spindle direction, invert output, and have variable speed on that specific spindle.
   - Also, the list of spindles has a fixed order just for easy reference, otherwise the order they appear in has no other meaning
 
@@ -798,11 +784,11 @@ If your TLS is wired correctly, you should be able to press it and see the “PR
 
 With wiring done, check in your g-code sender if the TLS signal is set up correctly. This signal is shared with the touch plate, so activating either of them should be recognized. gSender has a status light to help see this in the 'Calibrate' tab and in other senders it should appear as 'P' for probe. If the light in the sender turns on when the TLS is pushed, and also turns on when the probe circuit is connected, then the hardware (SLB and wiring) is working and that means the $ values have been set up correctly. If the signal is on and only turns off when the TLS is pressed, then go to the $668 firmware setting and toggle it to the opposite of what it was set to.
 
-[Tabby title="Current" open="yes"]
+[tabby title="Current" open="yes"]
 
-![](/_images/_superlongboard/_manual/slb_ma_p44_tls-input-newu.jpg){.aligncenter .size-medium}
+![](/_images/_superlongboard/_manual/slb_ma_p44_tls-input-newu.jpg){.aligncenter .size-full}
 
-[Tabby title="Classic gSender"]
+[tabby title="Classic gSender"]
 
 ![](/_images/_superlongboard/_manual/slb_ma_p44_tls-input.png){.aligncenter .size-full}
 

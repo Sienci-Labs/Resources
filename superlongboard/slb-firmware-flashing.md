@@ -201,7 +201,7 @@ To set up **udev** rules to give your user account access to the SLB on Linux, f
    sudo udevadm trigger
    ```
 
-1. Finally, unplug and replug your SLB then check the device permissions have been set correctly (the exact path may vary according to your system):
+1. Finally, unplug and re-plug your SLB then check the device permissions have been set correctly (the exact path may vary according to your system):
 
    ```bash
    ls -l /dev/bus/usb/001/002

@@ -138,7 +138,7 @@ If instead you had a Spindle connected to your LongBoard and would like to swap 
 
 ### Rotary Axis
 
-As [stated above](#wiring), if you have the original Vortex setup with a rotary switch and open-loop motor then there's no additional wiring that's needed outside of just tranferring over your motor wires. If you're trying to set up your own custom rotary axis that doesn't have a switch to share motor signals with the Y-axis, then you might want to [read typical wiring setups here](https://resources.sienci.com/view/slb-manual/#4tha-axis).
+As [stated above](#wiring), if you have the original Vortex setup with a rotary switch and open-loop motor then there's no additional wiring that's needed outside of just transferring over your motor wires. If you're trying to set up your own custom rotary axis that doesn't have a switch to share motor signals with the Y-axis, then you might want to [read typical wiring setups here](https://resources.sienci.com/view/slb-manual/#4tha-axis).
 
 ### IOT Relay
 
