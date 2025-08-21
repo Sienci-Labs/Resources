@@ -39,25 +39,59 @@ If you need instructions on how to install it, this documentation goes through t
 
 ### Use the Firmware Tool
 
+[tabby title="Current" open="yes"]
+
+Once you've completed the installation, open gSender and connect to your machine. Open the **Config Tab** and check that you've selected your specific CNC in the profiles drop down so that the correct firmware is flashed. Click the **Flash** button to bring up the confirmation prompt.
+
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gsender-profiles-newu.jpg "gSender machine profile selection"){.aligncenter .size-medium}
+
+Select your Port and keep the controller type as grbl. When ready, click the Yes button to flash the latest firmware.
+
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gsender-confirm-newu.jpg){.aligncenter .size-medium}
+
+You will need to reconnect once you see the process is complete.
+
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gSender-flashing-success-newu.jpg){.aligncenter .size-medium}
+
+**NOTE:** If you've made custom changes to your machines firmware that you don't want to lose, use the 'Export Settings' button to save your settings to a file that you can then reload when flashing is complete.
+
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gsender-export-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 Once you've completed the installation, open gSender and connect to your machine. Open the 'Firmware' tool and check that you've selected your specific CNC in the profiles drop down so that the correct firmware is flashed. Click the "Flash grbl" button to bring up the confirmation prompt.
 
-![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gSender-Machine-profiles.jpg){.aligncenter .size-large}
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gsender-profiles.jpg "gSender machine profile selection"){.aligncenter .size-medium}
 
 **NOTE:** If you've made custom changes to your machines firmware that you don't want to lose, use the 'Export Settings' button to save your settings to a file that you can then reload when flashing is complete.
 
 ![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gsender-export-prompt.jpg){.aligncenter .size-medium}
 
-You will see a warning about the risk of flashing the firmware. If you own a LongMill MK2 and have not made any modifications to your control board, there is almost no risk in completing this process. Press "OK" to continue.
+You will see a warning about the risk of flashing the firmware. If you own a LongMill and have not made any modifications to your control board, there is almost no risk in completing this process. Press "OK" to continue.
 
-![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gSender-flashing-prompt.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gsender-warning.jpg){.aligncenter .size-medium}
+
+[tabbyending]
 
 ### Restore Settings
+
+[tabby title="Current" open="yes"]
+
+To make sure your machine is properly set up with all the default settings, go back to the Config Tab and press **Defaults** and then click **Restore Defaults**.
+
+If you previously exported your own custom settings, you can instead click the **Import** button to load your original settings back onto your machine. Navigate to the Carve Tab, and try jogging to ensure the machine is working properly.
+
+![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gsender_restorenewu.jpg)
+
+[tabby title="Classic gSender"]
 
 Once the flashing process is completed, you'll have to reconnect to your machine using the connection drop-down at the top-left corner. To make sure your machine is properly set up with all the default settings, go back to the Firmware Tool and press "Restore Defaults" and then click "Yes".
 
 If you previously exported your own custom settings, you can instead click the 'Import Settings' button to load your original settings back onto your machine. Close the Firmware Tool window, and try jogging to ensure the machine is working properly.
 
 ![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gsender_restore.jpg){.aligncenter .size-medium}
+
+[tabbyending]
 
 ## Flashing grbl using Arduino IDE
 
