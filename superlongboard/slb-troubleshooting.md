@@ -40,7 +40,7 @@ The SLB is set up to be automatically compatible with most LongMills by default.
 
 [tabby title="Classic gSender"]
 
-![](/_images/_superlongboard/slb_tb_10-setting.jpg){.aligncenter .size-medium}
+![](/_images/_superlongboard/slb_tb_10-setting.jpg){.aligncenter .size-full}
 
 [tabbyending]
 
