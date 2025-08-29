@@ -12,7 +12,7 @@ taxonomy:
 custom_fields:
     KBName: General CNC
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
@@ -92,7 +92,7 @@ Mistakes happen, let's review some of the common ones!
 
 https://youtu.be/Vh6OzYyd840
 
-We all need to laugh at ourselves every now and again, so here are some shorts to giggle with. These are those icebergs we are hoping to avoid ourselves. Many people in this hobby have a bin for mistakes labeled **Firewood!!** Not only do you get to make really cool things, you also get to make a bunch of dust, and some really cool looking firewood. Isn't it nice when people share their mistakes so we can all learn from them?
+We all need to laugh at ourselves every now and again, so here are some shorts to giggle with. These are those icebergs we are hoping to avoid ourselves. Many people in this hobby have a bin for mistakes labelled **Firewood!!** Not only do you get to make really cool things, you also get to make a bunch of dust, and some really cool looking firewood. Isn't it nice when people share their mistakes so we can all learn from them?
 
 [su_table responsive="yes"]
 
@@ -122,7 +122,7 @@ Setting up your CNC woodworking machine doesn't take up much space at all. You c
 
 Let's check out a full single car garage shop and explore some things to consider:
 
-![](/_images/_lmmk2/_the-basics/lmk2_prep_shop_pic2.jpg "Note the two blue arrows indicating this shop has installed a separate power line on the ceiling"){.aligncenter .size-medium}
+![](/_images/_general/_the-basics/gen_th_prepping-shop1.jpg "Note the two blue arrows indicating this shop has installed a separate power line on the ceiling"){.aligncenter .size-medium}
 
 1. **Wood Storage**<br>
   You’ll need a space to store wood materials, whether it’s sheets of plywood, hardwoods, or other materials. It’s a good idea to designate a dry, organized area to prevent wood warping or damage and to ensure easy access during projects. *Keep out spiders!*
@@ -139,7 +139,7 @@ Let's check out a full single car garage shop and explore some things to conside
 5. **Dust Collection**<br>
   CNC projects generate a lot of dust, so a proper dust collection system is essential. This could be a small vacuum setup like pictured above, or a dedicated wall mounted dust collector to keep your workspace clean and prevent damage to your machine and electronics, like pictured below.
 
-![](/_images/_lmmk2/_the-basics/lmk2_prep_shop_pic3.jpg){.aligncenter .size-medium}
+![](/_images/_general/_the-basics/gen_th_prepping-shop2.jpg){.aligncenter .size-medium}
 
 These videos explore setting up a garage shop, using the ceiling, installing classic workholding and handy tools to add to your shop.
 
