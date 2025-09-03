@@ -154,13 +154,29 @@ Plug in the X, Y, and Z-axis limit switch connectors into each of the three whit
 
 If you received your machine before September 2021, you may need to update your LongMill's firmware to the latest version to have access to all of the updates for your limit switches to work. At the time of writing, the latest version of the LongMill firmware is **Sept 8, 2021**.
 
-To update your firmware, connect your machine to gSender, click on "Firmware", and click on the "Flash grbl" button. Follow the prompts to install the latest version of the firmware onto your LongBoard.
+To update your firmware, connect your machine to gSender and:
+
+[tabby title="Current" open="yes"]
+
+Click on the **Config tab**, and click on the **Flash** button. Follow the prompts to install the latest version of the firmware onto your LongBoard.
+
+![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p8_gsenderfirmware-newu.jpg){.aligncenter .size-medium}
+
+Next, import our default EEPROM settings for your machine. Press **Defaults** at the Config tab and update your EEPROM settings to the new defaults. If you wish to make changes or adjustments, additional info about changing your EEPROM settings can be found further down on this page.
+
+![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p9_gsender-restore-eeprom-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
+Click on "Firmware", and click on the "Flash grbl" button. Follow the prompts to install the latest version of the firmware onto your LongBoard.
 
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p8_gSenderfirmware.png){.aligncenter .size-medium}
 
 Next, import our default EEPROM settings for your machine. Press “Restore Defaults” at the “Firmware” window.  with limit switches. Use the "Import Settings" tool and update your EEPROM settings to the new defaults (link to download file coming soon). If you wish to make changes or adjustments, additional info about changing your EEPROM settings can be found further down on this page.
 
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p9_gSender-restore-eeporm.png){.aligncenter .size-medium}
+
+[tabbyending]
 
 #### Recommended settings for sensors
 
@@ -171,7 +187,15 @@ Now that we’re working with the default settings, we will modify a few to make
 - **Check** Homing direction invert ($23)
 - **Check** X and Y-axis travel limits ($130 and $131)
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p10_gSender-lim-switch-firmware-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p10_gSender-lim-switch-firmware.png "$20, $21 and $22 settings must be enabled"){.aligncenter .size-medium}
+
+[tabbyending]
 
 **Soft limits and Hard limits**<br>
 Both soft limits and hard limits will stop the machine if it is moving to the boundaries of the machine. Soft limits determines when to stop using calculations in the software program, NOT by triggers at the sensor. Hard limits determines when to stop from the trigger of the sensors.
@@ -181,19 +205,43 @@ We recommend using both, so that one end of the machine is constrained by hard l
 **Homing cycle**<br>
 By enabling the homing cycle, you are able to home your machine with the sensors. So each time you connect to gSender, it will prompt you to home your machine (showing a red alarm). This is a safety feature, to check that the sensors are working and to ensure your machine will move within bounds. You can click on the lock icon in the top left corner to unlock your machine and skip this step if you wish.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p11_Mk1homing-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p11_Mk1homing.jpg){.aligncenter .size-medium}
+
+[tabbyending]
 
 **Homing direction**<br>
 If you want to set your home at the front left corner and have installed your inductive sensors to match, you will need to invert your X and Y-axis. By default all axes will home in the "positive" direction which is typically **Right** (X), **Away** (Y), and **Up** (Z) so toggle these as needed for your setup.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p12_HomingFrontLeft-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p12_HomingFrontLeft.jpg){.aligncenter .size-medium}
+
+[tabbyending]
 
 **X and Y travel limits**<br>
 We recommend that `$130=750` and `$131=810` on your firmware settings for a LongMill 30x30. These numbers are used by the soft limits to stop your CNC from crashing into itself so they'll be different based on your CNC setup and if you use accessories that get in the way.
 
 If you need to find the maximum travel for your unique setup do the following (optional); home your machine, zero all axes, then jog each axis to where you feel comfortable limiting it. Use the coordinates to set your maximum travel for each axis.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p13_gSenderlimswitch-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p13_gSenderlimswitch.png "$130 and $131 must be changed"){.aligncenter .size-medium}
+
+[tabbyending]
 
 ### Step 6: Using your sensors
 
@@ -203,7 +251,15 @@ At this stage, you're ready to start using your sensors.
 
 Once the firmware changes have been made, test the sensors. Disconnect, then reconnect to your machine. You should see the red alarm at the top right, press “Click to Run Homing.”
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p14_gsenderalarmstate-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p14_gsenderalarmstate.png){.aligncenter .size-medium}
+
+[tabbyending]
 
 On gSender, the process for limit switch homing is very similar to touch plate probing. This is what happens on the LongMill when you run the homing cycle:
 
@@ -220,11 +276,23 @@ If this process completes without any errors, you have successfully homed your m
 
 Once you have connected to your machine, at any point when you aren’t running a cutting job, you can run the homing cycle by pressing “Home” with the house icon.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p15_limitswitchhoming-newu.jpg){.aligncenter .size-medium}
+
+Additionally, if you first connect and need to bypass the alarm without homing, you can by pressing the “Unlock” yellow padlock button on the top right of the visualizer screen. We do not recommend this usually, because it is safer to home first before running a cutting job.
+
+![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p16_gsendeunlock-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p15_limitswitchhoming.png){.aligncenter .size-medium}
 
 Additionally, if you first connect and need to bypass the alarm without homing, you can by pressing the “Unlock” yellow padlock button on the top left of the visualizer screen. We do not recommend this usually, because it is safer to home first before running a cutting job.
 
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p16_gsendeunlock.png){.aligncenter .size-medium}
+
+[tabbyending]
 
 #### Work offsets
 
@@ -241,7 +309,15 @@ The repeatability of the inductive limit switches has been tested to be less tha
 
 To change work offsets or workspaces, simply select one of the 6 workspaces from the drop-down list in the top right corner of gSender as shown in the photo below.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p17-gsenderworkspace-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_longmill/_advanced/_4_Inductive/lm_inductive_p17_gsenderworkspaces.png "Workspaces to choose from"){.aligncenter .size-medium}
+
+[tabbyending]
 
 Alternatively, entering the command G54, G55, G56.. etc. into the console of gSender or UGS will tell the machine to switch into that workspace. You will notice the work coordinates (blue numbers) will change upon switching workspaces to whatever the coordinates are within the new workspace. The machine coordinates (grey numbers) will always remain the same regardless, as these are of course relative to your machine's home position.
 
