@@ -12,7 +12,7 @@ taxonomy:
 custom_fields:
     KBName: General CNC
     basepress_post_icon: bp-caret-right
-skip_file: no
+skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 

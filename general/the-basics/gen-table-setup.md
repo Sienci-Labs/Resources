@@ -12,7 +12,7 @@ taxonomy:
 custom_fields:
     KBName: General CNC
     basepress_post_icon: bp-caret-right
-skip_file: no
+skip_file: yes
 featured_image: 
 ---
 There has been a variety of table designs to pop up within our community as each LongMill owner works to set up their machine to suit their cutting needs. Your table design will largely depend on how you plan on using your machine and your space constraints A big space can mean a big table, meanwhile, a small space might require a folding or retractable table. Knowing where you want your wires to run as well as drawers or shelves for storage, accessories, and your computer can all help make your final layout that much better.

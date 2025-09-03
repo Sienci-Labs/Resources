@@ -18,15 +18,15 @@ featured_image: _images/post-image.jpg
 
 https://youtu.be/pqVG3SMj99g
 
-The LongMill is a 3-axis CNC router which falls under the category of 'CNC machine'. This is a category of machines that receive and execute incoming commands from a computer.  What makes a CNC 3-axis is the ability to move in three independent directions. For the LongMill, these directions are all straight-line motions. If you remember back to high-school geometry or math, these would be called X, Y, and Z directions, enabling it to cut 3D objects in 3D space.
+CNC routers are machines that receive and execute commands from a computer to cut and shape material. A 3-axis CNC router can move in three independent directions—X, Y, and Z—allowing it to carve 3D shapes in space. This makes them versatile tools for hobbyists who want to turn digital designs into real projects with precision.
 
-The movement system on the LongMill uses wheels and screws for simple and affordable motion. The v-shaped wheels riding on the edge of the extruded aluminum profiles brings affordability yet remain accurate, and the screws bring the power. Industrial CNC milling machines take all these concepts a step further. This can mean introducing more directions of movement, more powerful and repeatable drive systems, and sometimes much larger build volumes as well.
+Most hobby CNC routers use motion systems like wheels, rails, and lead screws to provide smooth, accurate movement while keeping the machines affordable and accessible. These designs balance precision and cost, making them a practical choice for small workshops. At the industrial level, CNC milling machines expand on these same principles with additional axes of motion, more powerful drive systems, greater repeatability, and often much larger cutting areas.
 
 ![](/_images/_general/_the-basics/gen_th_cncmachines_profile.jpg){.aligncenter .size-medium}
 
-CNC routers are quite capable when it comes to manufacturing a variety of objects. Most can handle cutting into materials like: wood, plastic, foam, machining wax, and similar soft material variants. A handful can also handle cutting soft metals like aluminum, brass, and copper and even harder materials like stone, tiling, and high-carbon steels. These CNC routers start to overlap with the more industrial CNC Milling Machines.
+CNC routers are capable of working with a wide range of materials. Most can handle wood, plastics, foams, machining wax, and other soft materials. Some are also capable of cutting soft metals such as aluminum, brass, and copper, and higher-end machines can even take on stone, tile, or hardened steels. At this point, hobby CNC routers start to overlap with industrial CNC milling machines in terms of capability.
 
-Jobs can vary from simple surface engravings or v-carving to cutting line profiles, pocketing, carving reliefs, or even making multi-orientated jigs for cutting from many sides. Most of the time, regular projects can be made with simple 2D cuts (shown with the first examples) and can be designed with simple drawings or pictures.
+Projects can range from simple surface engravings and v-carving to cutting line profiles, pocketing, carving reliefs, or even creating multi-sided jigs for more complex parts. Many common projects can be made with straightforward 2D cuts designed from simple drawings or images, while more advanced users can experiment with 3D carving and multi-axis workflows.
 
 ![](/_images/_general/_the-basics/gen_th_cncmachines_cuttype.jpg "Surface cut, v-carve, profile cut, pocket cut, inner contour, outer contour, 2-sided cut (sphere)"){.aligncenter .size-medium}
 
@@ -46,4 +46,4 @@ https://www.youtube.com/watch?v=yOywuK02vVY
 
 ![](/_images/_general/_the-basics/gen_th_cncmachines_RamRelief.jpg "Another detailed relief of a ram by the lake, carved out of cedar"){.aligncenter .size-medium}
 
-Now that you know what a CNC router is and what it's capable of, you should be able to get an idea of how you might use your own LongMill to make parts or projects in your home or for your business. The next pages should act to further deepen your knowledge on the primary concepts of CNC routing. We hope you also come to understand the process of how a project can be made on a machine like the LongMill.
+Now that you know what a CNC router is and what it's capable of, you should be able to get an idea of how you might use your own to make parts or projects in your home or for your business. The next pages should act to further deepen your knowledge on the primary concepts of CNC routing.

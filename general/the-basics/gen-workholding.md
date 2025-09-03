@@ -12,7 +12,7 @@ taxonomy:
 custom_fields:
     KBName: General CNC
     basepress_post_icon: bp-caret-right
-skip_file: no
+skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 
@@ -470,4 +470,4 @@ No single method covers every project. The most efficient CNC setups use **a com
 | **Dog Holes** 🐶       | - Woodworking projects  <br> - Repeat setups  <br> - Positioning stops | - Jobs needing heavy downward pressure  <br> - Non-wood materials incompatible with dog holes | - Pre-drilled grid of dog holes in wasteboard |
 | **Fence** 🚧           | - Holding long materials  <br> - Straight cuts  <br> - Repeatable setups | - Jobs needing flexible positioning  <br> - Projects with high lateral cutting forces | - Fixed or adjustable fence secured to wasteboard |
 | **Tabs & Bridges** 🪚   | - Holding small parts during profiling  <br> - Cutting parts from sheet stock without clamps in the way | - Thick/hard materials needing heavy retention  <br> - Projects where tab cleanup is unacceptable | - CAM software setup for tabs  <br> - Flush trim tools/chisels for cleanup |
-| **Vacuum Table** 🌬️   | - Cutting sheet goods (MDF, plywood, plastics)  <br> - High-speed machining with full surface hold-down  <br> - Jobs needing a clear surface with no clamps | - Very small parts with limited surface area  <br> - Porous, warped, or leaky materials without sealing | - Vacuum pump or shop vac with plenum  <br> - Gasket tape or dedicated wasteboard
+| **Vacuum Table** 🌬️   | - Cutting sheet goods (MDF, plywood, plastics)  <br> - High-speed machining with full surface hold-down  <br> - Jobs needing a clear surface with no clamps | - Very small parts with limited surface area  <br> - Porous, warped, or leaky materials without sealing | - Vacuum pump or shop vac with plenum  <br> - Gasket tape or dedicated wasteboard |
