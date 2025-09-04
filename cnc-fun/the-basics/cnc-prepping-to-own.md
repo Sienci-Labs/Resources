@@ -2,7 +2,7 @@
 title: Prepping to Own
 menu_order: 0
 post_status: draft
-post_excerpt: Resources and documentation for general CNC work. You will find info about routers, software, end mills, add ons, and more  - everything you need to get started.
+post_excerpt: Preparing for your CNC machine to arrive by examining your workspace, power requirements, things to expect along the way and the support available to you.
 post_date: 2024-07-18 18:14:53
 taxonomy:
     knowledgebase_cat: the-basics
@@ -12,7 +12,7 @@ custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: _images/_cnc-fun/_the-basics/cnc_ba_prepping-shop1.jpg
 ---
 
 ## Setting Expectations
