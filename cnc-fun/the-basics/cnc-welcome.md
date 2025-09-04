@@ -40,14 +40,15 @@ https://www.youtube.com/watch?v=xhuofvUA7vA
 
 You may want to jump straight into areas like:
 
-| [💻 Software](https://resources.sienci.com/view/gen-software-explained/) | [🔧 Add-ons](https://resources.sienci.com/view/gen-touchplate/) | [📔 Handbook](https://resources.sienci.com/view/gen-running-jobs/) |
-| :----------------------------------------------------------------------: | :-----------------------------------------------------------: | :-----------------------------------------------------------------: |
-
-\[su\_button url="https://resources.sienci.com/view/gen-software-explained/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"\]💻 Software\[/su\_button\]
-
-\[su\_button url="https://resources.sienci.com/view/gen-touchplate/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"\]🔧 Add-ons\[/su\_button\]
-
-\[su\_button url="https://resources.sienci.com/view/gen-running-jobs/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"\]📔 Handbook\[/su\_button\]
+<table class="community-table" style="height: 50px; width: 95%; margin-left: auto; margin-right: auto; text-align: center; border-collapse: collapse; table-layout: fixed; padding: 5px !important; border: none !important;">
+<tbody>
+<tr>
+<td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/gen-software-explained/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]💻 Software[/su_button]</td>
+<td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/gen-touchplate/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]🔧 Assembly[/su_button]</td>
+<td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/gen-running-jobs/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]📔 Handbook[/su_button]</td>
+</tr>
+</tbody>
+</table>
 
 If you’re just getting started, you might first explore software options, follow assembly instructions, or dive into a condensed handbook of best practices.
 
@@ -78,4 +79,4 @@ Check out online forums or social media groups dedicated to hobby CNC. They’re
 
 We hope these resources help you start or continue your CNC journey with confidence. Happy cutting!
 
-![](/_images/_lmmk2/_the-basics/lmk2_welcome_team.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/cnc_ba_welcome-team.JPG){.aligncenter .size-medium}
