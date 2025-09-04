@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
-skip_file: no
+skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 
