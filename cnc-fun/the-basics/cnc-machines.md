@@ -12,7 +12,7 @@ custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: _images/_cnc-fun/_the-basics/cnc_ba_cncmachines_profile.jpg
 ---
 
 https://youtu.be/pqVG3SMj99g
