@@ -125,15 +125,35 @@ The image below shows how you’d position for the ‘LongMill Lettering’ proj
 
 With the bit in position, click the ‘Zero All’ button and you’ll see to the left all the blue X, Y, and Z locations reset to zero.
 
+[tabby title="gSender" open="yes"]
+
+![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_longmill-lettering-zero-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_LongMill-Lettering-Zero.png){.aligncenter .size-medium}
 
+[tabbyending]
+
 ### Start cutting!
+
+[tabby title="gSender" open="yes"]
+
+If you haven't already, download your project's g-code file by clicking on the project name in the project table above. We'll be opening this file up to run it so click the 'Load File' button in the bottom left of gSender (pictured) and then select your downloaded project file to open it up. The common places to check on your computer will be the 'documents' or 'downloads' folders.
+
+Once selected, you should see your project appear in the visualizer and the location of the virtual bit should match to what you have set up on on your CNC. If everything looks good, double-check that you've set your Makita router speed dial to match what's needed for your project, turn the router on, then click 'Start Job'! Remember you can reach for the E-stop if you think something's going wrong.
+
+![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_longmill-lettering-start-job-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender]
 
 If you haven't already, download your project's g-code file by clicking on the project name in the project table above. We'll be opening this file up to run it so click the 'Load File' button in the bottom left of gSender (pictured) and then select your downloaded project file to open it up. The common places to check on your computer will be the 'documents' or 'downloads' folders.
 
 Once selected, you should see your project appear in the visualizer and the location of the virtual bit should match to what you have set up on on your CNC. If everything looks good, double-check that you've set your Makita router speed dial to match what's needed for your project, turn the router on, then click 'Start Job'! Remember you can reach for the E-stop if you think something's going wrong.
 
 ![](/_images/_lmmk2/_assembly/_firstproject/lmk2_firstproject_LongMill-Lettering-Start-job.png){.aligncenter .size-medium}
+
+[tabbyending]
 
 ## Job Well Done
 
