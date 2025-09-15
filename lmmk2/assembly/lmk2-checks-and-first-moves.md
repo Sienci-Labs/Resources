@@ -65,48 +65,36 @@ Next we will be connecting to your computer, booting up gSender and then running
 
 <img class="wid wp-image-7128 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_checksmoves_Header-computer-connect.jpg" alt="" width="850" height="251" />
 
-![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_Header-computer-connect-1.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_Header-computer-connect-1.jpg){.aligncenter .size-medium}
 
 To manipulate your LongMill and send it files, you’ll need a g-code sender which acts as the ‘control software’ or ‘machine interface’ to your CNC:
 
 <ol>
-  <li><b>We recommend using gSender</b> for this since it’s our own software and easy to use</li>
+  <li><b>We recommend using gSender</b> for this since it’s our own software and it's easy to use</li>
   <li>We’ll use gSender for the remaining assembly steps, download it here: <a href="https://sienci.com/gSender/"><b>https://sienci.com/gSender/</b></a> and choose for Windows / PC , Mac, Linux, or others.</li>
   <li>If you get stuck at any point or want to learn more about gSender you can always <a href="https://resources.sienci.com/view/gs-installation/" target="_blank" rel="noopener">find more help here</a></li>
   <li>There are still other options you can see in our ‘Software’ resources if you prefer them, but make sure they are able to communicate with "<b>grblHAL</b>" machines, if they only support "grbl" then they won't work for your LongMill</li>
 </ol>
 
-![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_67_1.jpg){.aligncenter .size-medium}
-
 Once you have gSender installed, go ahead and run it on your computer. One way is to double-click the shortcut on your desktop.
 
-![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_67_2.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_67_1.jpg){.aligncenter .size-medium}
 
-<p style="text-align: center;"><em>You should be greeted with a screen that looks like this.</em></p>
+You should be greeted with a screen that looks like this. It can take several extra seconds to load if you have Microsoft real time virus protection on your computer. This scan delay should only happen the first time you turn on your computer.
+
+![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_67_2-1.jpg){.aligncenter .size-medium}
 
 At this stage it’s time to connect your computer to the LongMill control box via the provided USB cable and **flip the power switch to turn on power to the machine**. The USB port on the control box is on the right side.
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_USB-board-computer.png){.aligncenter .size-medium}
 
-Once that is done, hover over the top left corner of the program at “Connect to Machine” (with the board powered on).
+Once that is done, hover over the **Connect to CNC** button at the top left corner of the screen and click the first option. Sometimes there’s more than one port available, so you can either unplug the other items you have plugged in, or you can try connecting to each one to see which one is your LongMill (*note that it's recommended to connect this way on your first setup even if you're planning to use Ethernet in the long-run*).
 
-![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_-Connect-1.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_connect.jpg){.aligncenter .size-medium}
 
-Connecting to the SLB, requires you to click the gray bar at the bottom labelled Firmware.
+After a moment you should see the plug icon turn green with a checkmark, the status bar at the top, middle change from **Disconnected** to **Idle**, and all the controls in the app become coloured indicating that they're ready to be used.
 
-![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_-Connect-2.png){.aligncenter .size-medium}
-
-The grey area will open up, revealing two choices. We want to click on **grblHAL**.
-
-![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_-Connect-3.png){.aligncenter .size-medium}
-
-With the SLB, we have the option to connect via USB or Ethernet. Under Recognized Devices there should be one option, let’s select that.
-
-![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_-Connect-4.png){.aligncenter .size-medium}
-
-Congrats! You have connected to your new LongMill! Since USB is plug and play, we’ve selected it now and can connect via Ethernet at a later time.
-
-![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_-Connect-5.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_connect2.jpg){.aligncenter .size-medium}
 
 With “Connect to Machine” changed to “Connected”, the plug icon turned green with a check mark, the status on the top right corner of the visualizer changed from “Disconnected” to “Idle”, and the other controls that were greyed now being activated, it’s time to take your CNC for a drive!
 

@@ -51,7 +51,6 @@ When in doubt, the online manual will always be the most up-to-date. If you’re
 <th>Read
 Online</th>
 <th>Download</th>
-<th>Video Playlist</th>
 </tr>
 </thead>
 <tbody style="background-color: #f7f7f7 !important; border: 1px solid #ccc !important;">
@@ -61,14 +60,12 @@ Online</th>
 <td><a href="#welcome-to-cnc">KEEP
 READING</a></td>
 <td><a href="https://resources.sienci.com/mk2.5-12x30-30x30-assembly-manual/" target="_blank" rel="noopener"><img class="flie aligncenter wp-image-4612" src="https://resources.sienci.com/wp-content/uploads/2022/11/pdf-crop-e1668147989417-250x250.png" alt="" width="60" height="63" /></a></td>
-<td style="padding: 1.3em 0 1.3em; width: 60%;">Coming Soon</td>
 </tr>
 <tr>
 <td>48x30</td>
 <td><a href="#welcome-to-cnc">KEEP
 READING</a></td>
 <td><a href="https://resources.sienci.com/mk2.5-48x30-assembly-manual/" target="_blank" rel="noopener noreferrer"><img class="flie aligncenter wp-image-4612" src="https://resources.sienci.com/wp-content/uploads/2022/11/pdf-crop-e1668147989417.png" alt="" width="60" height="63" /></a></td>
-<td style="padding: 1.3em 0 1.3em; width: 60%;">Coming Soon</td>
 </tr>
 </tbody>
 </table>
