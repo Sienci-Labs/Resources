@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/_gsender/_issues/gs_is_diagnostic-file.jpg
 ---
 
-Having **troubles with gSender** or have **suggestions to improve it?** Here are the steps you can follow:
+Having **troubles with gSender** or have **suggestions to improve it?** Follow these steps:
 
 1. <a href="#questions-or-suggestions"><b>Questions</b> or <b>suggestions</b></a> are always welcome!
 1. If you're **having a problem**, first help us out by ensuring that it's not an issue on your end with your computer or CNC. If you can try with another computer or g-code sender and still see the same problem then certainly let us know.
