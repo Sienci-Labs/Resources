@@ -25,12 +25,11 @@ Having **troubles with gSender** or have **suggestions to improve it?** Here are
 
 In order of importance, please collect together information of:
 
-1. Your computer **Operating system** and **gSender version**
+1. The **name and model of your CNC**, your computer **Operating system** (Windows, Mac, etc.) and **gSender version**
 1. Please connect to your controller, try to recreate the issue, and as soon as it happens again create a '**Diagnostic PDF**' to send to us. If you can generate this shortly after the issue that's ok too, but it won't allow us to help you if you're not connected to your machine or you generate it too long after you had the issue happen. Find this by clicking on the **Stats tab** in gSender, then clicking the **Download Diagnostic File** button and saving it on your computer.
-![](/_images/_gsender/_issues/gs_is_diagnostic-file.jpg){.aligncenter .size-medium}
-1. **gSender Preferences**, get this by going to the Config tab and locating the **Export** button on the top right corner of the screen, then saving the file on your computer.
-1. **Machine Firmware**, get this by going to the Config tab and looking at the bottom of the page, here you will find another **Export** button. Click and save the file on your computer.
-![](/_images/_gsender/_issues/gs_is_diagnostic-export.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_issues/gs_is_diagnostic-file.jpg){.aligncenter .size-full}
+1. **Machine Firmware**, get this by going to the Config tab and looking to the bottom of the page. Here you will find another **Export** button to save the file to your computer.
+![](/_images/_gsender/_issues/gs_is_diagnostic-export.jpg){.aligncenter .size-full}
 1. Your **g-code file** if you're seeing the problem only with a specific file
 1. Any other **pictures** or **videos** of the problem can also help us to help you faster
 
@@ -84,7 +83,7 @@ It's not easy for us to simulate how a real CNC will behave if you're not connec
 
 If your machine connects on a COM port successfully but the machine status says "Disconnected" then this is not an issue with gSender. A 'Disconnected' status means that gSender isn't able to recognize your CNC even though it can see it.
 
-![](/_images/_gsender/_issues/gs_is_cm_connect-disconnect.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_issues/gs_is_cm_connect-disconnect.jpg){.aligncenter .size-full}
 
 1. Check that you have the right settings for your board, for instance click the Config tab ➜ Basics ➜ Baud rate dropdown, where most boards use 115200. Also your machine might not be supported yet by gSender if it isn't using grbl or grblHAL or your manufacturer edited the core firmware too much.
 1. Your board may have a faulty connection. Try unplugging it then plugging back in, use a different USB cable, a different USB port on your computer, or plug the cable directly in if you were using a USB hub.
@@ -139,7 +138,7 @@ You're probably using the wrong post processor, go back and check what your CNC 
 
 ### Jogging not working, I get an Error
 
-If you're seeing a message in the 'Console' tab saying "error: Bad number format", this is because you're running an older grbl machine (pre Grbl 1.1f). Contact your CNC manufacturer or look through their resources to see how you can upgrade your grbl firmware so that your machine can be fully supported by gSender. If you have a Sienci Labs machine, this is as easy as using the 'Flash grbl' option in the 'Firmware' tool in gSender.
+If you're seeing a message in the 'Console' tab saying "error: Bad number format", this is because you're running an older grbl machine (pre Grbl 1.1f). Contact your CNC manufacturer or look through their resources to see how you can upgrade your grbl firmware so that your machine can be fully supported by gSender. If you have a Sienci Labs machine, this is as easy as using the 'Flash' option in the **Config tab** in gSender.
 
 Alternatively, you could be getting an error for 'soft limits'. If this is the case then either your machine limits have been set incorrectly or you didn't home your CNC when you first connected to it. Try homing your machine and trying again, and keep an eye out for if you're only having this issue in certain parts of your cutting area.
 
