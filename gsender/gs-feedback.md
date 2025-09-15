@@ -25,16 +25,15 @@ Having **troubles with gSender** or have **suggestions to improve it?** Here are
 
 In order of importance, please collect together information of:
 
-1. Your computer **Operating system** and **gSender version**
-1. Please connect to your controller, try to recreate the issue, and as soon as it happens again create a '**Diagnostic PDF**' to send to us. If you can generate this shortly after the issue that's ok too, but it won't allow us to help you if you're not connected to your machine or you generate it too long after you had the issue happen. Find this by clicking on the 'Calibrate' tool in gSender, then clicking the 'Download Now!' button in the bottom, right corner and saving it on your computer.
-1. **gSender Settings**, get these by going to Settings and locating the "Export Settings" button, then saving the file on your computer.
-1. **Machine Firmware**, get these by going to the 'Firmware' tool and clicking the button for "Export Settings", then saving the file on your computer.
+1. The **name and model of your CNC**, your computer **Operating system** (Windows, Mac, etc.) and **gSender version**
+1. Please connect to your controller, try to recreate the issue, and as soon as it happens again create a '**Diagnostic PDF**' to send to us. If you can generate this shortly after the issue that's ok too, but it won't allow us to help you if you're not connected to your machine or you generate it too long after you had the issue happen. Find this by clicking on the **Stats tab** in gSender, then clicking the **Download Diagnostic File** button and saving it on your computer.
+![](/_images/_gsender/_issues/gs_is_diagnostic-file.jpg){.aligncenter .size-full}
+1. **Machine Firmware**, get this by going to the Config tab and looking to the bottom of the page. Here you will find another **Export** button to save the file to your computer.
+![](/_images/_gsender/_issues/gs_is_diagnostic-export.jpg){.aligncenter .size-full}
 1. Your **g-code file** if you're seeing the problem only with a specific file
 1. Any other **pictures** or **videos** of the problem can also help us to help you faster
 
 Please attach the files and information in your post / <a href="mailto:hi@sienci.com">email</a> to us.
-
-![](/_images/_gsender/_issues/gs_is_diagnostic-file.jpg){.aligncenter .size-full}
 
 ## Questions or Suggestions
 
@@ -62,7 +61,7 @@ We'll continue keeping our ears out for common stumbling points while using gSen
 
 If you find that gSender goes blank after you open it or while using it, there are a couple things you can try.
 
-1. Try to close and reopen gSender. If it makes a black screen again, then close and open gSender again ➜ Go to the settings ➜ Export your current settings if you care about them and want to later reload them ➜ then "Restore Default settings". After doing this it's more likely you won't have an issue again.
+1. Try to close and reopen gSender. If it makes a black screen again, then close and open gSender again ➜ Go to the Config tab ➜ Export your **gSender Preferences** if you care about them and want to later reload them ➜ then "Restore Default settings". After doing this it's more likely you won't have an issue again.
 1. If you’re using gSender Edge, you’ll see a toolbar at the top of the app where you can click: View ➜ Toggle Developer Tools ➜ then look at the ‘Console’ where if you find any errors you can share these with us. Also if you click: View ➜ Reload, you’ll be able to refresh gSender to not show the blank screen anymore.
 1. Otherwise if you’re using the main version of gSender, you can try updating to the <a href="https://sienci.com/gSender/">latest version</a>.
 1. Check your antivirus software or Windows Defender and add gSender as an exception.
@@ -84,9 +83,9 @@ It's not easy for us to simulate how a real CNC will behave if you're not connec
 
 If your machine connects on a COM port successfully but the machine status says "Disconnected" then this is not an issue with gSender. A 'Disconnected' status means that gSender isn't able to recognize your CNC even though it can see it.
 
-![](/_images/_gsender/_issues/gs_is_cm_connect-disconnect.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_issues/gs_is_cm_connect-disconnect.jpg){.aligncenter .size-full}
 
-1. Check that you have the right settings for your board, for instance click Settings ➜ Baud rate where most boards use 115200. Also your machine might not be supported yet by gSender if it isn't using grbl or grblHAL or your manufacturer edited the core firmware too much.
+1. Check that you have the right settings for your board, for instance click the Config tab ➜ Basics ➜ Baud rate dropdown, where most boards use 115200. Also your machine might not be supported yet by gSender if it isn't using grbl or grblHAL or your manufacturer edited the core firmware too much.
 1. Your board may have a faulty connection. Try unplugging it then plugging back in, use a different USB cable, a different USB port on your computer, or plug the cable directly in if you were using a USB hub.
 1. Your board might have other loose connections. Power off your machine, then use a non-conductive tool like a plastic utensil to push down on all 4 corners of your control board shield or Arduino. For the LongBoard you don’t need to open it, just flip it upside down and you’ll be able to access the Arduino through the slats on the bottom. Doing this will ensure that everything is fully plugged in since sometimes if the Arduino is slightly off the control board it can mess with its communication.
 ![](/_images/_gsender/_issues/gs_is_cm_push-uno.jpg){.aligncenter .size-medium}
@@ -137,9 +136,9 @@ We appreciate your feedback, and with your help we'll make sure the next version
 
 You're probably using the wrong post processor, go back and check what your CNC manufacturer recommends. By default it's best to use "grbl_mm" even if you like to use inches since most CNCs work in mm.
 
-### Jogging Errors or Not Working
+### Jogging not working or Errors
 
-If you're seeing a message in the 'Console' tab saying "error: Bad number format", this is because you're running an older grbl machine (pre Grbl 1.1f). Contact your CNC manufacturer or look through their resources to see how you can upgrade your grbl firmware so that your machine can be fully supported by gSender. If you have a Sienci Labs machine, this is as easy as using the 'Flash grbl' option in the 'Firmware' tool in gSender.
+If you're seeing a message in the 'Console' tab saying "error: Bad number format", this is because you're running an older grbl machine (pre Grbl 1.1f). Contact your CNC manufacturer or look through their resources to see how you can upgrade your grbl firmware so that your machine can be fully supported by gSender. If you have a Sienci Labs machine, this is as easy as using the 'Flash' option in the **Config tab** in gSender.
 
 Alternatively, you could be getting an error for 'soft limits'. If this is the case then either your machine limits have been set incorrectly or you didn't home your CNC when you first connected to it. Try homing your machine and trying again, and keep an eye out for if you're only having this issue in certain parts of your cutting area.
 
@@ -147,7 +146,7 @@ Alternatively, you could be getting an error for 'soft limits'. If this is the c
 
 If you can't access your gamepad shortcuts or there's a problem with the profile, the easiest way to fix it is to delete the profile and remake it. This can suck depending on how much you customized it, and we'll keep working to make this process work better into the future.
 
-If you can connect and jog with your gamepad but the jogging is sometimes unpredictable, then the problem might actually be the gamepad itself. Go to Settings ➜ Shortcuts ➜ Gamepad ➜ Gamepad Profile ➜ and click the 'Help' button at the top of the window. This will take you to a 3rd party Gamepad Tester website (that you can also visit at <a href="https://hardwaretester.com/gamepad" target="_blank" rel="noopener">https://hardwaretester.com/gamepad</a>) where you can try pressing buttons and moving joysticks to see if they're all behaving properly. If anything seems out of place then you might want to try using a different gamepad to control your CNC.
+If you can connect and jog with your gamepad but the jogging is sometimes unpredictable, then the problem might actually be the gamepad itself. Go to the Tools tab ➜ Gamepad ➜ Gamepad Profile ➜ and click the 'Help' button at the top right corner of the window. This will take you to a 3rd party Gamepad Tester website (that you can also visit at <a href="https://hardwaretester.com/gamepad" target="_blank" rel="noopener">https://hardwaretester.com/gamepad</a>) where you can try pressing buttons and moving joysticks to see if they're all behaving properly. If anything seems out of place then you might want to try using a different gamepad to control your CNC.
 
 ### Changes between "Running" and "Idle" during a Job
 
