@@ -44,7 +44,7 @@ You may want to jump straight into areas like:
 <tbody>
 <tr>
 <td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/gen-software-explained/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]💻 Software[/su_button]</td>
-<td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/gen-touchplate/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]🔧 Assembly[/su_button]</td>
+<td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/gen-touchplate/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]🔧 Add-Ons[/su_button]</td>
 <td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/gen-running-jobs/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]📔 Handbook[/su_button]</td>
 </tr>
 </tbody>
