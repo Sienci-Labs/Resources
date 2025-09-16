@@ -53,7 +53,7 @@ One of the fastest ways to hold down your material is to screw it directly into 
 
 Screw-in threaded inserts especially ones that are designed for wood is a quick and easy way to add mounting points on your waste board for clamping. Common size inserts like for 1/4"-20 bolts are a good option if you want to make your own table with inserts and clamps.
 
-![](/_images/_longmill/_the-basics/lm_workholding_p3_ThreadedIn.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_threadedIn.jpg){.aligncenter .size-medium}
 
 <b>Tips:</b>
 
@@ -68,7 +68,7 @@ One of the fastest and easiest options for securing your material and can be fou
 
 An alternate to carpet tape can be painters tape which is attached to both the bed and the workpiece, then super glue with some activator placed in-between. This can sometimes provide an even stronger holding force than carpet tape can.
 
-![](/_images/_longmill/_the-basics/lm_workholding_p4_Tape.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_tape.jpg){.aligncenter .size-medium}
 
 <b>Tips:</b>
 
@@ -82,7 +82,7 @@ An alternate to carpet tape can be painters tape which is attached to both the b
 
 Hot glue is a great workholding option for both flat and irregularly shaped materials. When used properly, it offers a higher degree of strength than carpet tape while eliminating the need for workholding tabs. Parts can be removed from the bed with a paint scraper or peeled off by hand. Using hot glue can sometimes be tricky since an even layer needs to be applied to keep the workpiece level. With some practice however, hot glue offers a quick, cheap, and effective workholding option.
 
-![](/_images/_longmill/_the-basics/lm_workholding_p5_HotGlue.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_hotglue.jpg){.aligncenter .size-medium}
 
 <b>Tips:</b>
 
