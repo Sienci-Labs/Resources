@@ -2,7 +2,7 @@
 title: Workholding 🕳️
 menu_order: 5
 post_status: publish
-post_excerpt: Workholding is the method you use to keep material secured while cutting on a CNC machine. Methods include T-tracks, threaded inserts, clamps and hot glue.
+post_excerpt: Workholding is the method you use to keep material secured while cutting on a CNC machine. Methods include T-tracks, threaded inserts, clamps, hot glue and more.
 post_date: 2022-03-17 19:45:00
 taxonomy:
     knowledgebase_cat: lmk2-the-basics
@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_longmill/_the-basics/lm_workholding_p1_t-track.jpg
+featured_image: 
 ---
 
 Another aspect of learning how to use your CNC router involves knowing how to properly secure material down to the bed of the machine. Rigidly securing material to the machine bed is crucial when setting up to cut. Some clamping methods are rigid but are more intrusive, while others keep a low profile but aren't quite as strong. Play around with these methods to see which ones you can use individually or in combination for your ideal setup.
@@ -21,7 +21,7 @@ Another aspect of learning how to use your CNC router involves knowing how to pr
 
 T-tracks allow you to insert a variety of clamps along their length, such as toe clamps, making it a very quick and versatile way to secure items to your bed. You can find aluminum t-track and compatible clamps online, <a href="https://sienci.com/product/t-track/">on our store</a>, and at your local woodworking store.
 
-![](/_images/_longmill/_the-basics/lm_workholding_p1_t-track.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_t-track.jpg){.aligncenter .size-medium}
 
 <b>Tips:</b>
 
@@ -39,7 +39,7 @@ https://www.youtube.com/watch?v=cwDvnuouFlw
 
 One of the fastest ways to hold down your material is to screw it directly into your wasteboard. All you need is an electric drill, the right bits, and screws to mount your workpiece. Just make sure that your machine isn't going to run into the screws!
 
-![](/_images/_longmill/_the-basics/lm_workholding_p2_Screws.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_screws.jpg){.aligncenter .size-medium}
 
 <b>Tips:</b>
 
