@@ -11,8 +11,8 @@ taxonomy:
 custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
-skip_file: yes
-featured_image: _images/post-image.jpg
+skip_file: no
+featured_image: 
 ---
 
 The core concepts behind operating a CNC router are very basic. A close analogy would be as follows:
