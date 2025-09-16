@@ -295,7 +295,7 @@ Vectric VCarve Desktop is one of Vectrics mid-level products, with products like
 Onshape is a powerful, cloud-based 3D modelling software suitable for both beginners and experienced modellers. Since it runs completely in your internet browser, you can run it on almost any modern computing device without having to download anything. Some perks are that it has a large library of user-created models and standard hardware that you can directly import, use, or edit. It also has data management features such as file versioning, and a bill of materials. Ultimately quite advanced however its CAM plugins can vary in quality.<br>
 <a href="https://www.YouTube.com/watch?v=E5NKgFbP2Ig&amp;list=PL4FdDkwWXT9oY5tm3Ql5pMe8bitozQcub" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
-![](/_images/_longmill/_software/lm_choosingsoft_p11_Onshape.JPG){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_p11_Onshape.JPG){.aligncenter .size-medium}
 
 [tabby title="Fusion"]
 
@@ -304,7 +304,7 @@ Onshape is a powerful, cloud-based 3D modelling software suitable for both begin
 Fusion 360 is one of the most popular 3D modelling and CAM combination programs used by hobbyists. It has powerful, industry-level features with the most complete CAM package for 2D and 3D cutting operations. It's free for makers and hobbyists (with some restrictions) and they offer great <a href="http://au.autodesk.com/au-online/classes-on-demand/search?full-text=&amp;productName=Fusion+360&amp;language=&amp;year=2015" target="_blank" rel="noreferrer noopener">training resources</a> as well as a <a href="https://www.YouTube.com/watch?v=Qmx5DUvvmxI&amp;list=PLmA_xUT-8UlK9rndthGGHsjjnZtPO8XRV" target="_blank" rel="noreferrer noopener">full playlist</a> which teaches every step in learning how to use the CAM part of Fusion. Fusion 360 is a great option if you're wanting to take the deep dive on CNC programming.<br>
 <a href="https://www.YouTube.com/watch?v=q9qWRAAU3cs" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
-![](/_images/_longmill/_software/lm_choosingsoft_p12_Fusion360.JPG){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_p12_Fusion360.JPG){.aligncenter .size-medium}
 
 [tabbyending]
 </div>
@@ -408,7 +408,7 @@ The full list of grbl-compatible senders is generally maintained here: <a href="
 
 This software is designed to be clean and easy to use no matter your previous CNC experience. It has a variety of features such as macros, CNC calibration, surfacing, tool changing, and firmware control. gSender supports many grbl-based machines and works out-of-the-box on the LongMill CNC.
 
-![](/_images/_longmill/_software/lm_choosingsoft_p13_gSender.png){.aligncenter .size-full}
+![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_p13_gSender.png){.aligncenter .size-full}
 
 [tabby title="UGS"]
 
@@ -416,7 +416,7 @@ This software is designed to be clean and easy to use no matter your previous CN
 
 This Java-based program comes in two forms: classic and platform. Classic is easier to use and pick up, Platform has many more features and is more configurable. The software is lightweight and reliable with a pendant available, and Platform additionally has customizable windows, a good spread of plugins, and easy macros.
 
-![](/_images/_longmill/_software/lm_choosingsoft_p14_UGS.JPG){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_p14_UGS.JPG){.aligncenter .size-medium}
 
 [tabby title="CNCjs"]
 
@@ -424,7 +424,7 @@ This Java-based program comes in two forms: classic and platform. Classic is eas
 
 CNCjs can be built to run as a local web-app using Node.js or can be installed as a normal program onto your computer. It's got lots of great features and functionality including surface probing and easy-to-make user macros. It's got a pendant available and can be run on a raspberry pi.
 
-![](/_images/_longmill/_software/lm_choosingsoft_p15_CNCjs.JPG){.aligncenter .size-medium}{.aligncenter .size-medium}
+![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_p15_CNCjs.JPG){.aligncenter .size-medium}{.aligncenter .size-medium}
 
 [tabby title="OB Control"]
 
@@ -432,7 +432,7 @@ CNCjs can be built to run as a local web-app using Node.js or can be installed a
 
 Designed to work with Openbuilds CAM, it can still be used independently. Although it's not as established as the other software on this list, it's packed with some good features and is simple and colour-coordinated for improved ease of use. Pendant available.
 
-![](/_images/_longmill/_software/lm_choosingsoft_p15a_OpenB.JPG){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_p15a_OpenB.JPG){.aligncenter .size-medium}
 
 [tabby title="Easel"]
 
@@ -440,7 +440,7 @@ Designed to work with Openbuilds CAM, it can still be used independently. Althou
 
 Extends through the Easel online software, allowing you to connect to your machine directly through your browser. It doesn't have a lot going for it as it's purposely limited to cater towards new users, but it's usable and convenient if you're already using Easel for design and CAM. The interface aspect has no difference between the Free and Pro versions of Easel.
 
-![](/_images/_longmill/_software/lm_choosingsoft_p2_Easel.JPG){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_p2_Easel.JPG){.aligncenter .size-medium}
 
 [tabby title="VTransfer"]
 
@@ -448,7 +448,7 @@ Extends through the Easel online software, allowing you to connect to your machi
 
 VTransfers <span class="sc-jrAGrp dXWCyY">barebones layout means that it's dead easy to use and understand.</span> The downsides to this is that it offers no g-code visualization, keyboard jogging, or other common interface features.
 
-![](/_images/_longmill/_software/lm_choosingsoft_p16_VTransfer.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_p16_VTransfer.jpg){.aligncenter .size-medium}
 
 [tabby title="bCNC"]
 
@@ -456,7 +456,7 @@ VTransfers <span class="sc-jrAGrp dXWCyY">barebones layout means that it's dead 
 
 A python-based interface software and CAM utility. The main downside is that the software interface is very un-intuitive and the getting the software installed isn't beginner-friendly.
 
-![](/_images/_longmill/_software/lm_choosingsoft_p17_bCNC.png){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_p17_bCNC.png){.aligncenter .size-medium}
 
 [tabby title="Source Rabbit"]
 
@@ -464,7 +464,7 @@ A python-based interface software and CAM utility. The main downside is that the
 
 This program is a modified version of UGS Classic with similar functionality and a modified layout, but with some of the added features that UGS Platform has. In some areas it's been too far simplified that it reduces functionality, for instance the visualizer will only show g-code in the positive axes instead of showing the entire file.
 
-![](/_images/_longmill/_software/lm_choosingsoft_p18_SourceRabbit.JPG){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_p18_SourceRabbit.JPG){.aligncenter .size-medium}
 
 [tabbyending]
 </div>
