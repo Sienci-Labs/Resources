@@ -15,11 +15,9 @@ skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 
-One important thing to learn is how to properly secure material down to the bed of the machine. Rigidly securing material to the machine bed is crucial when setting up to cut, as you don't want anything moving, sliding or crashing during your cut.
+One important thing to learn is how to properly secure material down to the bed of the machine.
 
 Some clamping methods are strong but get in the way, while others keep a low profile but aren't quite as strong. Play around with these methods to see which ones you can use individually or in combination for your ideal setup.
-
-The ultimate goals are to safely hold your piece in place, and help you make more stuff, in less time. Click one of these shortcut buttons if you want to examine what options are available for your table, see workholding options by project or simply see a list of workholding options.
 
 If you’re just starting out with building your machine and are unsure of the types of workholding/clamping setups you might need, it can be daunting making the first decision for how you’d like to set up your table/wasteboard. The good news is that it doesn't have to be complicated at all! We’ll go through each of the common types of table/wasteboard setups below.
 
@@ -80,7 +78,7 @@ Checkout this large thread of our community chatting about different table setup
 
 ![](/_images/_lmmk2/_the-basics/lmk2_work_making-dust-shoes-1024x768-1.jpg "Here we have secured the material and the individual parts being cut out. No tabs being used here."){.aligncenter .size-medium}
 
-If you don’t mind a few extra holes in your wasteboard, screws can be a simple, no-fuss way to secure your material. Often first time users will stick to this method to learn, and then replace their wasteboard once they get the hang of this new hobby. Just grab some screws and fix your material directly onto the wasteboard. Simple and secure for large or heavy stock. Plan placement to avoid tool collisions, and add extra screws if you are cutting out pieces. Check out [Tabs](#tabs--bridges) if you don't want to have a screw go through your cutout piece.
+If you don’t mind a few extra holes in your wasteboard, screws can be a simple, no-fuss way to secure your material. Often first time users will stick to this method to learn, and then replace their wasteboard once they get the hang of this new hobby. Just grab some screws and fix your material directly onto the wasteboard.  Avoid tool collisions by planning out your screw placement, and add extra screws where there will be loose cutouts in your project. To minimize screw holes in your projects, consider using [Tabs](#tabs--bridges).
 
 #### Screw Gotchas
 
@@ -105,7 +103,9 @@ While this method is quick and easy, it does mean your wasteboard will get a bit
 
 ![](/_images/_lmmk2/_the-basics/lmk2_work_IMG_8633.JPG){.aligncenter .size-medium}
 
-Painter’s tape on both surfaces with CA glue in between. Strong, temporary hold that leaves no residue on your material.
+Painter’s tape on both surfaces (wasteboard and stock material) with CA glue in between. Strong, temporary hold that leaves no residue on your material.
+
+Apply minimal glue, keep glue centered to avoid spill-out , and clean tools with acetone if needed.
 
 #### Tape Gotchas
 
@@ -139,15 +139,15 @@ Check out this great video on building a bench and installing T-tracks [Watch Vi
 | **Loose Hardware** 🔩 | Bolts or T-nuts can loosen over time with vibration, reducing clamping strength. | Use lock washers, thread locker, or periodically check tightness. |
 | **Compatibility Issues** 🔧 | Some clamps may not fit your track profile or may slide unexpectedly. | Confirm clamp size/type matches your T-track before buying. |
 | **Track Obstructions** 🛑 | Debris or dust in the T-slot can prevent smooth movement of clamps. | Keep T-slots clean and vacuum regularly. |
-| **Upfront Cost & Setup** 💲 | T-tracks require purchasing and mounting, unlike screws or tape. | Invest in proper installation; it’s a long-term solution. |
+| **Upfront Cost & Setup** 💲 | T-tracks are more expensive and require mounting, unlike screws or tape. | Invest in proper installation; it’s a long-term solution. |
 | **Cutting Near Tracks** ✂️ | Cutting too close can damage the track or clamps. | Plan toolpaths to avoid the area directly above the track. |
 | **Warped or Uneven Wasteboard** 📐 | Clamps may not sit flush if the table surface isn’t flat. | Surface the wasteboard or use shims under clamps as needed. |
 
 **Tips:**
 
-- Putting t-track in then putting thicker MDF slats in between like in the photo allows you to mill off the surface of the MDF to get a perfectly flat surface relative to your machine. It also enables you to make smaller wasteboard replacements, instead of needing to replace the whole board.
-- If you have a thick enough waste bed, you can use your machine to cut the grooves for your t-track. Just cut grooves to fit the width of your t-track.
-- We designed a custom t-track system that works with hex-headed 1/4"-20 hardware that you can see in our store here: <a href="https://sienci.com/product/t-track/" target="_blank" rel="noopener">https://sienci.com/product/t-track/</a> and has a setup guide here: <a href="https://resources.sienci.com/view/assembling-add-ons/" target="_blank" rel="noopener">Installing the LongMill T-Track set</a>
+- Putting t-tracks in between thicker MDF slats, like in the photo, will allow you to mill off the surface of the MDF to get a perfectly flat surface relative to your machine. Furthermore, instead of replacing the whole wasteboard, you could replace smaller sections of it at a time
+- If you have a thick enough waste bed, you can use your machine to cut the grooves for your t-track, just size the grooves to be the width of your t-track
+-We designed a custom t-track system that works with hex-headed 1/4"-20 hardware that you can see  <a href="https://sienci.com/product/t-track/" target="_blank" rel="noopener">in our store here</a> , with the  setup guide here: <a href="https://resources.sienci.com/view/assembling-add-ons/" target="_blank" rel="noopener">Installing the LongMill T-Track set</a>
 
 T-Tracks work best with top clamps, though some side clamps can also be used. Keep in mind that certain side clamps may have a limited range or might slip when aligned with the track direction.
 
