@@ -124,7 +124,7 @@ Apply minimal glue, keep glue centered to avoid spill-out , and clean tools with
 
 ### Hot Glue Workholding
 
-![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_hotglue-scaled.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_hotglue.jpg){.aligncenter .size-medium}
 
 A quick and versatile option, hot glue can be applied directly between the stock and the wasteboard, or used as “glue tabs” at the edges of your material. It sets fast, is easy to remove, and works best for flat-bottomed parts with light to medium cutting forces.
 
@@ -150,7 +150,7 @@ T-Tracks are a tried-and-true favorite among hobbyists and pros alike. These han
 
 Check out this great video on building a bench and installing T-tracks [Watch Video](https://www.youtube.com/watch?v=T4QVgtnZMDw)
 
-![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_keiths-ttrack.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_keiths-track.jpg){.aligncenter .size-medium}
 
 #### T-Tracks Gotchas
 
@@ -293,7 +293,7 @@ Pull the material down and inward from the side, keeping the top surface clear. 
 
 ### Vise
 
-![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_vise-scaled.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_vise-clamp.jpg){.aligncenter .size-medium}
 
 Vises come in all shapes and sizes for hundreds of applications. Because of it's parallel facing jaws, a vice is perfect for holding square or rectangular items, but can be used to hold just about anything. Vises offer extremely high clamping forces, which are needed when milling tough materials. A low profile, 4-inch, cast iron drill press vise like the one shown below works well for firmly holding materials.
 
@@ -337,7 +337,7 @@ Dog holes are a simple and versatile way to hold material on a CNC bed. By drill
 
 ### Fence
 
-![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_fencenclamps.jpg "Here the fences (left & bottom) are used along with a toe clamp (top) and eccentric clamp (right)"){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_fencewcutout.jpeg "Here the fences (left & bottom) are used along with a toe clamp (top) and eccentric clamp (right)"){.aligncenter .size-medium}
 
 If you want an easy and reliable way to keep your material in place, a fence is a great option. A fence is simply a straight edge attached to the wasteboard, giving you a solid reference point for aligning your workpieces. It's often added on the bottom left side of your workspace, but can be placed anywhere. It’s especially handy if you're doing repeat jobs—no more constant measuring and repositioning. 🎯
 
