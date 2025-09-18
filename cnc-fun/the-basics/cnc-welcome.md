@@ -12,7 +12,7 @@ custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_cnc-fun/_the-basics/cnc_ba_welcome-navigation.jpg
+featured_image: _images/_cnc-fun/_the-basics/cnc_ba_welcome_navigation.jpg
 ---
 
 Hello and welcome to your ⤦
@@ -59,11 +59,11 @@ For smoother navigation:
 3. The **Page Contents** feature helps jump to sections within a page. (On mobile, this often appears at the top.)  
 4. Save or print pages for offline reference.  
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_welcome-navigation.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/cnc_ba_welcome_navigation.jpg){.aligncenter .size-medium}
 
 At the bottom of each page, navigation buttons let you move step by step—like flipping through a manual—to follow a logical learning path.
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_welcome-navigation2.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/cnc_ba_welcome_navigation2.jpg){.aligncenter .size-medium}
 
 ---
 
@@ -79,4 +79,4 @@ Check out online forums or social media groups dedicated to hobby CNC. They’re
 
 We hope these resources help you start or continue your CNC journey with confidence. Happy cutting!
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_welcome-team.JPG){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/cnc_ba_welcome_team.JPG){.aligncenter .size-medium}
