@@ -53,7 +53,7 @@ The size of a cutting tool is important because if it's too big then it might no
 
 Cutting tools can normally be described by a few key dimensions:
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_cuttingtools_p6-end-mill-feat.png){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/cnc_ba_cuttingtools_p6-end-mill-feat.jpg){.aligncenter .size-medium}
 
 **Cutting diameter:**  the diameter of the cutting end of the tool. For ball nose bits it's the diameter before the rounded profile and for v-bits it's usually the largest diameter of the 'v' profile. The size of this determines your tools ability to remove material.
 

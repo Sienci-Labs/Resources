@@ -101,7 +101,7 @@ While this method is quick and easy, it does mean your wasteboard will get a bit
 
 ### Tape & CA Glue or Double Sided Tape
 
-![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_tape-down.JPG){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_tapedown.jpg){.aligncenter .size-medium}
 
 Painter’s tape on both surfaces (wasteboard and stock material) with CA glue in between. Strong, temporary hold that leaves no residue on your material.
 

@@ -79,4 +79,4 @@ Check out online forums or social media groups dedicated to hobby CNC. They’re
 
 We hope these resources help you start or continue your CNC journey with confidence. Happy cutting!
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_welcome_team.JPG){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/cnc_ba_welcome_teamshot.jpg){.aligncenter .size-medium}
