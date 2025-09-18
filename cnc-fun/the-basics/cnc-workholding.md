@@ -101,7 +101,7 @@ While this method is quick and easy, it does mean your wasteboard will get a bit
 
 ### Tape & CA Glue or Double Sided Tape
 
-![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_tape-glue.JPG){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_tape-down.JPG){.aligncenter .size-medium}
 
 Painter’s tape on both surfaces (wasteboard and stock material) with CA glue in between. Strong, temporary hold that leaves no residue on your material.
 
@@ -337,7 +337,7 @@ Dog holes are a simple and versatile way to hold material on a CNC bed. By drill
 
 ### Fence
 
-![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_fencewcutout.jpeg "Here the fences (left & bottom) are used along with a toe clamp (top) and eccentric clamp (right)"){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_fencetoeclamp.jpg "Here the fences (left & bottom) are used along with a toe clamp (top) and eccentric clamp (right)"){.aligncenter .size-medium}
 
 If you want an easy and reliable way to keep your material in place, a fence is a great option. A fence is simply a straight edge attached to the wasteboard, giving you a solid reference point for aligning your workpieces. It's often added on the bottom left side of your workspace, but can be placed anywhere. It’s especially handy if you're doing repeat jobs—no more constant measuring and repositioning. 🎯
 
