@@ -240,7 +240,7 @@ However, clamps may interfere with cutter paths if not positioned correctly and 
 
 #### Top Hold-Down Clamps
 
-![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_hold-down-clamps.JPG "Don't be afraid to use a combination of t-tracks and threaded inserts, or mix and match your workholding"){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_hold-down-clamp.jpg "Don't be afraid to use a combination of t-tracks and threaded inserts, or mix and match your workholding"){.aligncenter .size-medium}
 
 Apply pressure from above — ideal for flat workpieces, engraving, and general cutting. Easy to adjust but can interfere with toolpaths if not placed carefully.
 
