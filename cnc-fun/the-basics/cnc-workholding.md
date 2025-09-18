@@ -2,7 +2,7 @@
 title: Workholding
 menu_order: 0
 post_status: draft
-post_excerpt: Resources and documentation for general CNC work. You will find info about routers, software, end mills, add ons, and more  - everything you need to get started.
+post_excerpt: Workholding is the method you use to keep material secured while cutting on a CNC machine. Methods include T-tracks, threaded inserts, clamps and hot glue.
 post_date: 2024-07-18 18:14:53
 taxonomy:
     knowledgebase_cat: the-basics
@@ -11,8 +11,8 @@ taxonomy:
 custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
-skip_file: yes
-featured_image: _images/post-image.jpg
+skip_file: no
+featured_image: _images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_keiths-ttrack.jpg
 ---
 
 One important thing to learn is how to properly secure material down to the bed of the machine.
@@ -51,7 +51,7 @@ Some methods are strong but bulky. Others are low profile but less powerful. The
 | [Top Clamps](#clamps) | General cutting, engraving, surfacing | Clamps block toolpath | T-tracks, threaded inserts, or screws |
 | [Side Clamps / Toe Clamps](#clamps) | Surfacing slabs, odd shapes | Thin sheets needing even pressure | Threaded inserts or T-tracks |
 | [Fence](#fence) | Straight/repeat cuts | Projects needing flexible placement | Fixed or adjustable fence |
-| [Dog Holes](#dog-holes) | Repeat woodworking setups | Non-wood, heavy downforce cuts | Dog hole grid |
+| [Dog Holes](#dog-holes) | Repeat woodworking setups | Non-wood, heavy down-force cuts | Dog hole grid |
 
 ---
 
@@ -76,7 +76,7 @@ Checkout this large thread of our community chatting about different table setup
 
 ### Screws
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_making-dust-shoes-1024x768-1.jpg "Here we have secured the material and the individual parts being cut out. No tabs being used here."){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_making-dust-shoes.jpg "Here we have secured the material and the individual parts being cut out. No tabs being used here."){.aligncenter .size-medium}
 
 If you don’t mind a few extra holes in your wasteboard, screws can be a simple, no-fuss way to secure your material. Often first time users will stick to this method to learn, and then replace their wasteboard once they get the hang of this new hobby. Just grab some screws and fix your material directly onto the wasteboard.  Avoid tool collisions by planning out your screw placement, and add extra screws where there will be loose cutouts in your project. To minimize screw holes in your projects, consider using [Tabs](#tabs--bridges).
 
@@ -101,7 +101,7 @@ While this method is quick and easy, it does mean your wasteboard will get a bit
 
 ### Tape & CA Glue or Double Sided Tape
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_IMG_8633.JPG){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_tape-glue.JPG){.aligncenter .size-medium}
 
 Painter’s tape on both surfaces (wasteboard and stock material) with CA glue in between. Strong, temporary hold that leaves no residue on your material.
 
@@ -120,6 +120,28 @@ Apply minimal glue, keep glue centered to avoid spill-out , and clean tools with
 | **Wasteboard Damage** 🪵 | Over-aggressive removal can lift fibers from the wasteboard. | Use painter’s tape under the CA glue method so only tape peels away. |
 | **Alignment Issues** 🎯 | Once taped down, parts can be hard to reposition without re-taping. | Dry-fit and mark positions before committing with adhesive. |
 
+[tabby title="Hot Glue"]
+
+### Hot Glue Workholding
+
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_hotglue-scaled.jpg){.aligncenter .size-medium}
+
+A quick and versatile option, hot glue can be applied directly between the stock and the wasteboard, or used as “glue tabs” at the edges of your material. It sets fast, is easy to remove, and works best for flat-bottomed parts with light to medium cutting forces.
+
+Apply glue in small beads or spots, press firmly until it sets, and avoid excess glue that may lift your material.
+
+#### Hot Glue Gotchas
+
+| Issue | Description | Fix |
+|-------|-------------|-----|
+| **Bond Strength Limits** 🧩 | Hot glue works best for small or medium pieces. Larger/heavier stock may break free under cutting loads. | Use multiple glue points or combine with clamps for added security. |
+| **Heat Sensitivity** 🔥 | Glue joints can soften under heat from aggressive cuts or warm shop environments. | Take lighter passes and avoid overheating the material. |
+| **Uneven Surfaces** 🪚 | Gaps or warped stock reduce contact, weakening the bond. | Flatten surfaces beforehand or use more glue to fill gaps. |
+| **Residue on Wasteboard** 🧴 | Glue can stick stubbornly and pull up wasteboard fibers. | Use a thin barrier (painter’s tape) between the glue and wasteboard. |
+| **Quick Setting Time** ⏱️ | Glue hardens in seconds, leaving little time for repositioning. | Dry-fit your material and mark placement before applying glue. |
+| **Removal Difficulty** 🪛 | Thick glue spots can be hard to pry off without damaging thin parts. | Apply thinner beads and use isopropyl alcohol or gentle heat for easier release. |
+| **Limited Reusability** ♻️ | Once removed, glue cannot be reused like clamps or fixtures. | Keep a hot glue gun nearby for quick reapplication when needed. |
+
 [tabby title="T-Tracks"]
 
 ### T-tracks/T-slot mounted to the table
@@ -128,7 +150,7 @@ T-Tracks are a tried-and-true favorite among hobbyists and pros alike. These han
 
 Check out this great video on building a bench and installing T-tracks [Watch Video](https://www.youtube.com/watch?v=T4QVgtnZMDw)
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_Keiths-ttrack.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_keiths-ttrack.jpg){.aligncenter .size-medium}
 
 #### T-Tracks Gotchas
 
@@ -167,7 +189,7 @@ T-tracks are available for purchase on our store page here, or can be found in o
 
 ### Threaded Inserts
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_threaded.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_threaded.jpg){.aligncenter .size-medium}
 
 Threaded inserts are a good budget alternative to t-tracks. These little gems let you secure clamps anywhere on your wasteboard, giving you plenty of flexibility in positioning. You can space them out further apart for general use or pack them closer together for fine-tuned adjustments.
 
@@ -202,7 +224,7 @@ Include a small ½” diameter, ¼” deep counterbore so that these inserts sit
 
 Threaded inserts can also be used to secure other add-ons like the Vortex shown in the picture below.
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_threadedvortex.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_threadedvortex.jpg){.aligncenter .size-medium}
 
 Though not as quick to adjust as T-Tracks, threaded inserts are reliable, durable, and won’t break the bank. A solid choice for any CNC setup!
 
@@ -218,13 +240,13 @@ However, clamps may interfere with cutter paths if not positioned correctly and 
 
 #### Top Hold-Down Clamps
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_IMG_7676.JPG "Don't be afraid to use a combination of t-tracks and threaded inserts, or mix and match your workholding"){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_hold-down-clamps.JPG "Don't be afraid to use a combination of t-tracks and threaded inserts, or mix and match your workholding"){.aligncenter .size-medium}
 
 Apply pressure from above — ideal for flat workpieces, engraving, and general cutting. Easy to adjust but can interfere with toolpaths if not placed carefully.
 
 #### Toe Clamps
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_clamptoe.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_clamptoe.jpg){.aligncenter .size-medium}
 
 Toe clamps apply pressure from the side, pulling the material down and towards a fixed surface. This makes them perfect for securing materials without obstructing the top surface—ideal for machining tasks requiring full access to the top of the workpiece, like surfacing.
 
@@ -232,27 +254,27 @@ Want to make your own clamps? Click [Make My Own!](https://sienci.com/2020/07/10
 
 #### CAM Clamps
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_camclamp2.jpg "Source - https://global.toolstoday.com/learn/best-cnc-workholding-methods-for-woodworking"){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_camclamp2.jpg "Source - https://global.toolstoday.com/learn/best-cnc-workholding-methods-for-woodworking"){.aligncenter .size-medium}
 
 CAM clamps use a rotating CAM mechanism to apply quick, strong pressure. They’re great for projects where you need to clamp and release material frequently. Just a small twist, and you're locked in.
 
 #### Low Profile Clamps
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_lowprofile.jpg "Source - https://www.reddit.com/r/hobbycnc/comments/18s7acz/low_profile_work_holding/"){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_lowprofile.jpg "Source - https://www.reddit.com/r/hobbycnc/comments/18s7acz/low_profile_work_holding/"){.aligncenter .size-medium}
 
 Low profile clamps keep a low clearance, making them perfect for setups where vertical space is limited. They help avoid interference with cutting tools while still keeping material firmly in place. A great option for precision work.
 
 #### Step Clamps
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_stepclamp2.jpg "Source - https://www.cnccookbook.com/easy-guide-to-cnc-clamps/"){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_stepclamp2.jpg "Source - https://www.cnccookbook.com/easy-guide-to-cnc-clamps/"){.aligncenter .size-medium}
 
 Step clamps have adjustable steps that allow for height variations, making them great for uneven or varying thickness materials. They offer flexibility for holding down irregularly shaped workpieces without excessive force.
 
 #### Side Clamps
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_sideclampmed.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_sideclampmed.jpg){.aligncenter .size-medium}
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_sideclampsmall.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_sideclampsmall.jpg){.aligncenter .size-medium}
 
 Pull the material down and inward from the side, keeping the top surface clear. Perfect for surfacing or when cutting across the entire top face.
 
@@ -271,7 +293,7 @@ Pull the material down and inward from the side, keeping the top surface clear. 
 
 ### Vise
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_Vise-scaled.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_vise-scaled.jpg){.aligncenter .size-medium}
 
 Vises come in all shapes and sizes for hundreds of applications. Because of it's parallel facing jaws, a vice is perfect for holding square or rectangular items, but can be used to hold just about anything. Vises offer extremely high clamping forces, which are needed when milling tough materials. A low profile, 4-inch, cast iron drill press vise like the one shown below works well for firmly holding materials.
 
@@ -286,24 +308,24 @@ Vises come in all shapes and sizes for hundreds of applications. Because of it's
 | **Limited Tool Access** 🚫 | Jaws may block cutting paths, especially for contouring or chamfering near edges. | Use soft jaws cut to shape or plan toolpaths to avoid the vise body. |
 | **Small Part Issues** 🔎 | Tiny parts may not hold securely or may collide with jaws during cutting. | Use soft jaws, sacrificial stock, or a fixture plate. |
 | **Surface Damage** 🪵 | Hard jaws can mar softer materials like wood, plastic, or aluminum. | Use soft jaws, padding, or inserts. |
-| **Cutter Clearance** ✂️ | Endmills, drills, or surfacing bits can accidentally hit the jaws. | Simulate toolpaths, verify clearance, and plan safe Z heights. |
+| **Cutter Clearance** ✂️ | End-mills, drills, or surfacing bits can accidentally hit the jaws. | Simulate toolpaths, verify clearance, and plan safe Z heights. |
 | **Workpiece Pull-Out** ⚠️ | Aggressive climb milling can lift or pull the part upward. | Ensure enough jaw engagement and plan machining order to reduce stress. |
 
 [tabby title="Dog Holes"]
 
 ### Dog Holes
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_dogholes.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_dogholes.jpg){.aligncenter .size-medium}
 
 Dog holes are a simple and versatile way to hold material on a CNC bed. By drilling a grid of holes (often 3/4" or 20 mm) directly into your wasteboard, you can use bench dogs, CAM clamps, and hold-downs to secure workpieces. This system is especially popular in woodworking and hobby CNC setups because it provides quick clamping without bulky hardware getting in the way. Dog holes allow clamping from multiple directions, making them ideal for sheet goods and irregular shapes while keeping the surface clear for cutting.
 
-![](../../_images/_lmmk2/_the-basics/lmk2_work_doghole-table.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_doghole-table.jpg){.aligncenter .size-medium}
 
 #### Dog Hole Gotchas  
 
 | Issue | Description | Fix |
 |-------|-------------|-----|
-| **Wasteboard Wear** 🪚 | Over time, repeated use can enlarge or damage holes, reducing accuracy and clamping strength. | Resurface or replace the spoilboard as needed; use inserts or sleeves to prolong hole life. |
+| **Wasteboard Wear** 🪚 | Over time, repeated use can enlarge or damage holes, reducing accuracy and clamping strength. | Resurface or replace the wasteboard as needed; use inserts or sleeves to prolong hole life. |
 | **Clamping Pressure Limits** ⚖️ | Dog hole systems generally provide less clamping force than a vise. | Use multiple dogs/clamps for even pressure, and avoid heavy milling forces. |
 | **Workpiece Lift** 📐 | Thin or flexible material may bow upward between clamps. | Add more hold-down points or use a caul to keep the workpiece flat. |
 | **Interference With Toolpaths** ✂️ | Dogs or clamps can stick up above the surface and collide with the spindle or bit. | Plan toolpaths carefully and place dogs/clamps outside the cut area. |
@@ -315,7 +337,7 @@ Dog holes are a simple and versatile way to hold material on a CNC bed. By drill
 
 ### Fence
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_fencenclamps.jpg "Here the fences (left & bottom) are used along with a toe clamp (top) and eccentric clamp (right)"){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_fencenclamps.jpg "Here the fences (left & bottom) are used along with a toe clamp (top) and eccentric clamp (right)"){.aligncenter .size-medium}
 
 If you want an easy and reliable way to keep your material in place, a fence is a great option. A fence is simply a straight edge attached to the wasteboard, giving you a solid reference point for aligning your workpieces. It's often added on the bottom left side of your workspace, but can be placed anywhere. It’s especially handy if you're doing repeat jobs—no more constant measuring and repositioning. 🎯
 
@@ -357,7 +379,7 @@ For extra repeatability, add alignment pins or dowel holes. 🎯
 
 A fence works great alongside other hold-down methods like clamps or tape. Just remember, for heavier cuts, you might need some extra securing power!  Keep your projects locked in and running smooth!
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_fencewcutout.jpeg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_fencewcutout.jpeg){.aligncenter .size-medium}
 
 Fixed or adjustable straight edge for aligning material and repeating setups. Saves time and improves accuracy.
 
@@ -365,7 +387,7 @@ Fixed or adjustable straight edge for aligning material and repeating setups. Sa
 
 ### Tabs & Bridges
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_tabs.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_tabs.jpg){.aligncenter .size-medium}
 
 Tabs and bridges are software-based solutions that work in tandem with physical workholding methods. During toolpath design, small tabs of uncut material are left in place to prevent pieces from shifting once they’re cut free from the main stock. These tabs are easily removed after machining and require minimal cleanup.
 
@@ -392,7 +414,7 @@ This method is highly reliable for projects with intricate designs but requires 
 
 ### Vertical Clamping
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_vertical3.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_vertical3.jpg){.aligncenter .size-medium}
 
 Most hobby CNC setups focus on flat work, but adding vertical clamping opens a whole new world of possibilities. By cutting a slot in your CNC router bed and mounting a vise underneath  —perpendicular to the table— you can secure boards on edge for precision machining. This setup doesn’t just let you work the edge of a board; it enables advanced joinery like dovetails, box joints, and even angled variations. It’s a simple modification that transforms your machine from a flat-surface cutter into a versatile joinery powerhouse.
 
@@ -432,7 +454,7 @@ Checkout these threads below to see our community members chatting about the ben
 
 ### Vacuum Tables
 
-![](/_images/_lmmk2/_the-basics/lmk2_work_seal-series.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_seal-series.jpg){.aligncenter .size-medium}
 
 A vacuum table is an advanced workholding solution that provides excellent material support while eliminating the need for mechanical clamps. This method is especially useful for securing thin or delicate materials that could be damaged by traditional clamping methods. Vac tables work by creating suction that holds the material securely in place. This makes them ideal for projects requiring a completely unobstructed top surface, such as engraving or through-cutting applications. One of the biggest advantages of a vac table is its speed and ease of use. Since there are no physical clamps to adjust, material changes can be done in seconds. Additionally, vac tables provide even pressure across the entire workpiece, reducing the risk of warping or lifting during cutting.
 
@@ -440,7 +462,7 @@ A vacuum table is an advanced workholding solution that provides excellent mater
 
 | Issue | Description | Fix |
 |-------|-------------|-----|
-| **Air Leaks** 🌬️ | Gaps around the workpiece or through-wood grain reduce holding force. | Use gasketing tape, spoilboard surfacing, or seal porous materials with tape or finish. |
+| **Air Leaks** 🌬️ | Gaps around the workpiece or through-wood grain reduce holding force. | Use gasketing tape, wasteboard surfacing, or seal porous materials with tape or finish. |
 | **Insufficient Holding Power** ⚖️ | Small parts or narrow stock may not have enough surface area for suction. | Combine vacuum with tabs, tape, or clamps for extra security. |
 | **Pump Noise & Heat** 🔊🔥 | Vacuum pumps can be loud and generate heat during long jobs. | Place pumps in a separate enclosure or add cooling/ventilation. |
 | **Chip/Dust Contamination** 🧹 | Dust and chips can clog the vacuum system and reduce suction. | Use filters, a cyclone separator, and regular cleaning. |
