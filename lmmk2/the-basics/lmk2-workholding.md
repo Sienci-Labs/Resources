@@ -2,7 +2,7 @@
 title: Workholding 🕳️
 menu_order: 5
 post_status: publish
-post_excerpt: Workholding is the method you use to keep material secured while cutting on a CNC machine. Methods include T-tracks, threaded inserts, clamps, hot glue and more.
+post_excerpt: Workholding is the method you use to keep material secured while cutting on a CNC machine. Methods include T-tracks, threaded inserts, clamps and hot glue.
 post_date: 2022-03-17 19:45:00
 taxonomy:
     knowledgebase_cat: lmk2-the-basics
@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_longmill/_the-basics/lm_workholding_p1_t-track.jpg
 ---
 
 Another aspect of learning how to use your CNC router involves knowing how to properly secure material down to the bed of the machine. Rigidly securing material to the machine bed is crucial when setting up to cut. Some clamping methods are rigid but are more intrusive, while others keep a low profile but aren't quite as strong. Play around with these methods to see which ones you can use individually or in combination for your ideal setup.
@@ -21,7 +21,7 @@ Another aspect of learning how to use your CNC router involves knowing how to pr
 
 T-tracks allow you to insert a variety of clamps along their length, such as toe clamps, making it a very quick and versatile way to secure items to your bed. You can find aluminum t-track and compatible clamps online, <a href="https://sienci.com/product/t-track/">on our store</a>, and at your local woodworking store.
 
-![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_t-track.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_workholding_p1_t-track.jpg){.aligncenter .size-medium}
 
 <b>Tips:</b>
 
@@ -39,7 +39,7 @@ https://www.youtube.com/watch?v=cwDvnuouFlw
 
 One of the fastest ways to hold down your material is to screw it directly into your wasteboard. All you need is an electric drill, the right bits, and screws to mount your workpiece. Just make sure that your machine isn't going to run into the screws!
 
-![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_screws.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_workholding_p2_Screws.jpg){.aligncenter .size-medium}
 
 <b>Tips:</b>
 
@@ -53,7 +53,7 @@ One of the fastest ways to hold down your material is to screw it directly into 
 
 Screw-in threaded inserts especially ones that are designed for wood is a quick and easy way to add mounting points on your waste board for clamping. Common size inserts like for 1/4"-20 bolts are a good option if you want to make your own table with inserts and clamps.
 
-![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_threadedIn.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_workholding_p3_ThreadedIn.jpg){.aligncenter .size-medium}
 
 <b>Tips:</b>
 
@@ -68,7 +68,7 @@ One of the fastest and easiest options for securing your material and can be fou
 
 An alternate to carpet tape can be painters tape which is attached to both the bed and the workpiece, then super glue with some activator placed in-between. This can sometimes provide an even stronger holding force than carpet tape can.
 
-![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_tape.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_workholding_p4_Tape.jpg){.aligncenter .size-medium}
 
 <b>Tips:</b>
 
@@ -82,7 +82,7 @@ An alternate to carpet tape can be painters tape which is attached to both the b
 
 Hot glue is a great workholding option for both flat and irregularly shaped materials. When used properly, it offers a higher degree of strength than carpet tape while eliminating the need for workholding tabs. Parts can be removed from the bed with a paint scraper or peeled off by hand. Using hot glue can sometimes be tricky since an even layer needs to be applied to keep the workpiece level. With some practice however, hot glue offers a quick, cheap, and effective workholding option.
 
-![](/_images/_cnc-fun/_the-basics/_workholding/cnc_ba_wo_hotglue.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_workholding_p5_HotGlue.jpg){.aligncenter .size-medium}
 
 <b>Tips:</b>
 
@@ -102,4 +102,3 @@ Vises come in all shapes and sizes for hundreds of applications. Because of it's
 <ul>
 <li>Tall vises will decrease the height that the Z-axis can travel. Make sure to pick a suitable vise which allows for enough clearance.</li>
 <li> Ensure the jaws of the vise are not in the way during the milling operation.</li>
-</ul>
