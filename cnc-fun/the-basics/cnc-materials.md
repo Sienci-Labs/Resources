@@ -12,14 +12,14 @@ custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_cnc-fun/_the-basics/cnc_ba_materials-p1-guitar.jpg
+featured_image: _images/_cnc-fun/_the-basics/cnc_ba_materials_p1-guitar.jpg
 ---
 
 ## Wood
 
 Wood is simply an amazing material. As it is a living, organic material, there are an infinite variety of woods and characteristics. We will talk a little about using wood with your CNC machine here.
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_materials-p1-guitar.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/cnc_ba_materials_p1-guitar.jpg){.aligncenter .size-medium}
 
 General recommended starting feeds and speeds for <a href="http://sienci.com/product/18-flat-end-mill/" target="_blank" rel="noopener">1/8" 2 flute flat end mills</a>. Please start with these settings and adjust, these are not hard and fast speeds:
 
@@ -162,7 +162,7 @@ One thing to note about wood is that it can burn if:
 
 Plastic is a material used everywhere in our modern world. Each type of plastic has unique properties that we must take into account when choosing our speeds and feeds.
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_materials-p2-plastic.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/cnc_ba_materials_p2-plastic.jpg){.aligncenter .size-medium}
 
 ### Acrylic / Polycarbonate
 
@@ -189,7 +189,7 @@ Plastic is a material used everywhere in our modern world. Each type of plastic 
 
 Foam, being a super soft material, is an easy material to cut. We recommend foam as a starting material to practice CNC programming. Foam also has many useful applications, such as in packaging, RC planes, drones, and more.
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_materials-p3-foam.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/cnc_ba_materials_p3-foam.jpg){.aligncenter .size-medium}
 
 Rigid foam is a super easy, soft material to cut. Most of the time, you can cut at full speed and full engagement with no issues, making it a fast way to draft out cuts. Soft foams come in many different densities and softness, which can affect cutting. Read more below to learn more. These settings work with both 1/8" and 1/4" 2 flute flat end mills.
 
@@ -231,7 +231,7 @@ Rigid foam is a super easy, soft material to cut. Most of the time, you can cut 
 
 Aluminum is a strong and lightweight metal used in all sort of modern applications from our bikes to our laptops. CNCing aluminum is a great option to get useful parts, especially for mechanical systems and tools.
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_materials-p4-aluminum.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/cnc_ba_materials_p4-aluminum.jpg){.aligncenter .size-medium}
 
 Aluminum comes in a variety of different alloys. We will primarily be talking about 6060 aluminum, which is the most commonly used alloy. General feeds and speeds using a <a href="https://sienci.com/product/18-flat-end-mill-for-aluminum/" target="_blank" rel="noopener">1/8" single flute flat aluminum cutting end mill</a>. Please note that these settings are for basic cutting such as with <a href="http://camlab.sienci.com" target="_blank" rel="noopener">CAMLab</a> or <a href="https://grid.space/kiri#cnc" target="_blank" rel="noopener">Kiri:Moto</a> and not for adaptive toolpathing operations which have other settings.
 

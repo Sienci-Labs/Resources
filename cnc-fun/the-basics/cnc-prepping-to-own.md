@@ -12,7 +12,7 @@ custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_cnc-fun/_the-basics/cnc_ba_prepping-shop1.jpg
+featured_image: _images/_cnc-fun/_the-basics/cnc_ba_prepping_shop1.jpg
 ---
 
 ## Setting Expectations
@@ -121,7 +121,7 @@ Setting up your CNC woodworking machine doesn't take up much space at all. You c
 
 Let's check out a full single car garage shop and explore some things to consider:
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_prepping-shop1.jpg "Note the two blue arrows indicating this shop has installed a separate power line on the ceiling"){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/cnc_ba_prepping_shop1.jpg "Note the two blue arrows indicating this shop has installed a separate power line on the ceiling"){.aligncenter .size-medium}
 
 1. **Wood Storage**<br>
   You’ll need a space to store wood materials, whether it’s sheets of plywood, hardwoods, or other materials. It’s a good idea to designate a dry, organized area to prevent wood warping or damage and to ensure easy access during projects. *Keep out spiders!*
@@ -138,7 +138,7 @@ Let's check out a full single car garage shop and explore some things to conside
 5. **Dust Collection**<br>
   CNC projects generate a lot of dust, so a proper dust collection system is essential. This could be a small vacuum setup like pictured above, or a dedicated wall mounted dust collector to keep your workspace clean and prevent damage to your machine and electronics, like pictured below.
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_prepping-shop2.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/cnc_ba_prepping_shop2.jpg){.aligncenter .size-medium}
 
 These videos explore setting up a garage shop, using the ceiling, installing classic workholding and handy tools to add to your shop.
 

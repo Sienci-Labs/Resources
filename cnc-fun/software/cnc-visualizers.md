@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
@@ -77,32 +77,32 @@ This page exists in the case that your current software isn't offering you good 
 <a href="https://nraynaud.github.io/webgcode/" target="_blank" rel="noopener noreferrer">https://nraynaud.github.io/webgcode/</a><br>
 Allows for files to be drag-and-dropped right into the window or you can copy/paste the g-code in. Highlights tool movement based on the selected line, and provides cutting bounds and estimated cutting time for your file.
 
-![](/_images/_longmill/_software/lm_visualizers_p1_g-code.JPG){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_software/cnc_so_visualizers_p1_g-code.jpg){.aligncenter .size-medium}
 
 ### NC Viewer
 
 <a href="https://ncviewer.com/" target="_blank" rel="noopener noreferrer">https://ncviewer.com/</a><br>
 Fast and easy to open and view files. Allows you to play the cutting path of the tool through 3D space.
 
-![](/_images/_longmill/_software/lm_visualizers_p2_NCViewer.JPG){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_software/cnc_so_visualizers_p2_ncviewer.jpg){.aligncenter .size-medium}
 
 ### CAMotics
 
 <a href="https://camotics.org/download.html" target="_blank" rel="noopener noreferrer">https://camotics.org/download.html</a><br>
 Previously known as OpenSCAM, CAMotics simulates 3-axis g-code paths, shows 3D cutouts, simulates machine geometry, and is capable of connecting directly to the buildbotics controller. It's also able to export the simulated cut work piece as an STL and can add height probing to 2D g-code files.
 
-![](/_images/_longmill/_software/lm_visualizers_p3_CAMotics.JPG){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_software/cnc_so_visualizers_p3_camotics.jpg){.aligncenter .size-medium}
 
 ### Discriminator
 
 <a href="https://cncedit.com/" target="_blank" rel="noopener noreferrer">https://cncedit.com/</a><br>
 Discriminator has more advanced tools for code editing, colouring, and code comparing. The visualization window is reasonable but a little tricky to use just like the rest of the software, and the software as a whole runs a little slowly, but otherwise it's a reasonable visualizer to use.
 
-![](/_images/_longmill/_software/lm_visualizers_p4_Discrim.JPG){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_software/cnc_so_visualizers_p4_discrim.jpg){.aligncenter .size-medium}
 
 ### NC Corrector
 
 <a href="http://nc-corrector.inf.ua/index_EN.htm" target="_blank" rel="noopener noreferrer">http://nc-corrector.inf.ua/index_EN.htm</a><br>
 Allows for easy line-by-line visualization, provides g-code statistics, g-code colouring, path selection, and measurement between tool paths. The primary downside is that the software runs quite slowly which makes it less user friendly.
 
-![](/_images/_longmill/_software/lm_visualizers_p5_NCCorrector.JPG){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_software/cnc_so_visualizers_p5_nccorrector.jpg){.aligncenter .size-medium}
