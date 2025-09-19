@@ -100,5 +100,5 @@ Vises come in all shapes and sizes for hundreds of applications. Because of it's
 
 <ul>
 <li>Tall vises will decrease the height that the Z-axis can travel. Make sure to pick a suitable vise which allows for enough clearance.</li>
-<li> Ensure the jaws of the vise are not in the way during the milling operation.</li>
+<li>Ensure the jaws of the vise are not in the way during the milling operation.</li>
 </ul>
