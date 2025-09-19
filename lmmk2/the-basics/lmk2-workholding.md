@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/_longmill/_the-basics/lm_workholding_p1_t-track.jpg
 ---
 
@@ -88,8 +88,7 @@ Hot glue is a great workholding option for both flat and irregularly shaped mate
 
 <ul>
 <li>Hot glue will sometimes take chunks out of your material, especially with foam and soft wood. You can prevent damaging your work by applying glue strategically in areas that are not cosmetically important or apply it in thin layers which are easy to peel off.</li>
-<li>Hot glue hardens faster on metals (due to their high thermal conductivity) compared to other materials like plastic and wood. When using metals, apply glue to a non metallic wasteboard secured on the bed and place the material on top to secure it so that the glue has a chance to stick to both surfaces.</li>
-</ul>
+<li>Hot glue hardens faster on metals (due to their high thermal conductivity) compared to other materials like plastic and wood. When using metals, apply glue to a non metallic wasteboard secured on the bed and place the material on top to secure it so that the glue has a chance to stick to both surfaces.</li>
 
 ### Vises
 
