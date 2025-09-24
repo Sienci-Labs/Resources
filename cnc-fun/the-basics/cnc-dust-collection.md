@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
@@ -23,7 +23,7 @@ This is where a 'dust collection' system can help you out. Most CNC dust collect
 1. **[Hose](#hose-size)** that the dust can flow along
 1. Some type of **[Vacuum System](#choosing-a-vacuum-or-dust-collector)** that creates the suction to carry the dust away from the dust shoe
 
-![](/_images/_lmmk2/_the-basics/lmk2_dust_123.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_dust/cnc_ba_dust_123.jpg){.aligncenter .size-medium}
 
 There are also some other solutions that won't be covered on this page that can help with dust management like building an [enclosure for your CNC](https://resources.sienci.com/view/lmk2-table-enclosure/#machine-enclosure) or running it in an open-air environment. Ideally these should still be used alongside a dust collection setup, but cutting in open-air can be fine short-term to reduce setup complexity and learning curve, and using an enclosure can sometimes help keep cutting noise down.
 
@@ -35,7 +35,7 @@ When you're working with your CNC machine, it’s easy to forget that the noise 
 
 Being in an environment where you are exposed to high amounts of aerosolized sawdust isn't good for you, and can cause a chronic cough, chest pain, runny nose, headaches, bronchitis and more. The worst for your health is the fine particle that can't be seen by the naked eye. In the woodworking hobby, dust is classified into categories—L (low-risk), M (medium-risk), and H (high-risk)—based on the type of material and associated health risks.
 
-![](/_images/_lmmk2/_the-basics/lmk2_dust_safety_face.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_dust/cnc_ba_dust_safety_face.jpg){.aligncenter .size-medium}
 
 - L-Class (Low Risk) – Minimal health risk but requires basic dust control.
 
@@ -85,11 +85,11 @@ Whether a dust shoe is fixed or adjustable depends on how it’s mounted:
 
 - A **fixed-style** dust shoe is mounted to the Z-axis or the router body on the CNC. This means that when the Z-axis moves up or down during cutting the dust shoe moves up and down with it.
 
-![](/_images/_lmmk2/_the-basics/lmk2_dust_boot_fixed.jpg "Source - https://community.carbide3d.com/t/hall-of-dust-shoes/7717/20?page=2, https://maniacallabs.com/2019/02/25/CNC-dust-boot-for-dewalt-router/"){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_dust/cnc_ba_dust_boot_fixed.jpg "Source - https://community.carbide3d.com/t/hall-of-dust-shoes/7717/20?page=2, https://maniacallabs.com/2019/02/25/CNC-dust-boot-for-dewalt-router/"){.aligncenter .size-medium}
 
 - An **adjustable-style** dust shoe is typically mounted to the X-axis of the CNC. This means that it never moves unless you manually change it's position, allowing the Z-axis to raise and plunge during cutting while the dust shoe stays in the spot you set it. It can be held in place with strong magnets for quick and easy adjustments as in the left image, or secured with a couple bolts as shown in the right image below.
 
-![](/_images/_lmmk2/_the-basics/lmk2_dust_boot_adjustable.jpg "Source - https://www.nymolabs.com/products/CNC-dust-shoe-only-for-nbs-6040-nbx-5040"){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_dust/cnc_ba_dust_boot_adjustable.jpg "Source - https://www.nymolabs.com/products/CNC-dust-shoe-only-for-nbs-6040-nbx-5040"){.aligncenter .size-medium}
 
 For general purpose cutting, we recommend using an adjustable dust shoe as it is significantly better at collecting dust and debris, and relies less on how powerful your vacuum system is. It's also much better suited toward flat or sheet material which is the type of material that's most commonly used by hobby CNC users for sign-making and v-carving.
 
@@ -160,7 +160,7 @@ Depending on the design of your dust shoe, you may need an adapter that joins du
 
 It's important to have the dust collection hose hang above the dust shoe, so that it doesn't put any pressure on the router, or get caught up in your work. You can simply hang it from the ceiling or use a more advanced solution like an articulating arm. Make your own, or [grab one from Etsy!](https://www.etsy.com/ca/listing/736098852/vacuum-hose-boom-for-small-medium-and)
 
-![](/_images/_lmmk2/_the-basics/lmk2_dust_arms.jpg "Source - https://forum.avidCNC.com/t/one-dust-collection-solution/1400"){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_dust/cnc_ba_dust_arms.jpg "Source - https://forum.avidCNC.com/t/one-dust-collection-solution/1400"){.aligncenter .size-medium}
 
 | **Title**                        | **Duration** | **Link**                          |
 |----------------------------------|--------------|------------------------------------|
@@ -171,7 +171,7 @@ It's important to have the dust collection hose hang above the dust shoe, so tha
 
 Your dust shoe and hose will need a source of suction. Most times an existing dust collector or Shop-Vac with a [cyclone separator](#adding-a-cyclone-to-your-shop-vac) will be able to fit the bill since these systems are set up to run for many hours and provide reasonable suction. You may want to check your system’s CFM and suction lift specifications to see if they would work well with your dust shoe and hosing.
 
-![](/_images/_lmmk2/_the-basics/lmk2_dust_safety_collect.jpg "A dust separator with cyclone vs dual bag dust collector"){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_dust/cnc_ba_dust_safety_collect.jpg "A dust separator with cyclone vs dual bag dust collector"){.aligncenter .size-medium}
 
 ### 1. Shop Vac
 
@@ -191,7 +191,7 @@ Adding a second stage to your dust collection strategy can drastically reduce th
 
 Many user will make their own, or you can purchase a pre-made one. [Buy Here](https://www.leevalley.com/en-ca/shop/tools/workshop/dust-collection/dust-extractors/116856-dust-deputy-low-pro-deluxe) is a neat low profile cyclone!
 
-![](/_images/_lmmk2/_the-basics/lmk2_dust_cyclones.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_dust/cnc_ba_dust_cyclones.jpg){.aligncenter .size-medium}
 
 | Video Title                               | Duration | Link                                           |
 |-------------------------------------------|----------|------------------------------------------------|
@@ -250,7 +250,7 @@ A **dust extractor** is a specialized type of vacuum designed to capture fine, h
 
 **Notes:** *A dust extraction system is used in your shop, not on your CNC and must be used alongside a dust collection system*
 
-![](/_images/_lmmk2/_the-basics/lmk2_dust_safety_extract.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_dust/cnc_ba_dust_safety_extract.jpg){.aligncenter .size-medium}
 
 - **Power and Filtration**: Dust extractors typically come with HEPA filtration or very fine filters capable of capturing particles as small as 0.3 microns, which is essential for protecting respiratory health.
 - **Airflow (CFM)**: Dust extractors usually have moderate CFM, around 100-200, similar to shop vacs, but the focus is on high-quality filtration rather than raw suction power. Many models also have automatic filter-cleaning features.
