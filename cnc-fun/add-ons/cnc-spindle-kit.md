@@ -15,141 +15,104 @@ skip_file: yes
 featured_image: 
 ---
 
-This is a setup guide for the LongMill Spindle Kit, installed on the LongMill MK2 and using the SLB controller.
 
-If you prefer to watch a video of this process, check out Jason's video below:
+## Terminology
 
-https://www.youtube.com/watch?v=5mEJLWWHE-Y
+**Feed rate:** how quickly the tool moves in the X and Y directions, usually defined in millimeters (or inches) per minute.<br>
+**Plunge rate:** how quickly the tool moves in the Z direction, usually defined in millimeters (or inches) per minute.<br>
+**Spindle speed:** the speed that the tool spins in the rotary tool, defined in RPM (rotations per minute). Most compact routers operate at speeds between 10,000 and 30,000 RPM.<br>
+**Depth of cut/Step down:** the amount of depth that the CNC machine removes with every cutting pass, defined in millimeters or inches.<br>
+**Step over:** the offset that is applied between the old cutting pass and the new one, usually defined as a percentage of the tool's cutting diameter.
 
-## Machine Setup
+## Cutting Basics
 
-You will need:
+Before comparing routers and spindles, it’s important to understand how cutting works. When cutting material with a rotating bit, you can imagine that going too slow will dull or break the bit very quickly. For example, imagine trying to cut through a plank of wood with a saw except instead of moving the saw back and forth you're just trying to push it directly through. Similarly, a bit that's moving too fast can burn or melt the material that you're cutting. Finding a happy medium between these two extremes is a balancing act and depends on balancing three main factors:
 
-<ol>
-  <li>LongMill Spindle and Dust Shoe Kit
-<ul>
-  <li>80mm Diameter LongMill Router/Spindle Mount</li>
-  <li>110V, 1.5KW, 3-Phase VFD</li>
-  <li>1.5KW 110V Air-Cooled Spindle</li>
-</ul>
-</li>
-  <li>Flathead screwdriver</li>
-  <li>Allen keys</li>
-</ol>
+1. **Feed rate / plunge rate** – how fast the tool moves through the material  
+2. **Spindle speed** – how fast the bit spins (RPM)  
+3. **Depth of cut & step over** – how much material is removed per pass  
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_vfd_components.jpg "VFD components, labelled"){.aligncenter .size-medium}
+Each of these factors must be suited to the properties of the material that you're cutting; cutting through foam can happen much faster than cutting aluminum. We generalize these variables under the term 'feeds and speeds', and each cutting tool has a different set of ideal feeds and speeds. Learning how to tie a tool's size and shape to its movement, rotation speed, material type, and material removal rate is nearly an art form. There are engineers whose job is knowing how to properly balance all these numbers and apply them based on part geometry, desired finish, and the total job cutting time. Without the proper planning, you can expect many headaches along the way including broken tools, broken material, and an uneven or rough surface finish on your project. Feed and speed choice depends on the material you are cutting, the type of tool you use, the speed of the router, the rigidity of the machine, and even the geometry of the model. In order to balance speed, finish quality, and precision you must account for bit deflection and material hardness. When cutting, the tool can be pushed away from where it should be since it's not able to cut the material fast enough. Harder materials require a more rigid machine and longer milling times to steadily cut the material away. Sometimes it will take some trial and error to dial-in the right settings for your desired setup and materials.
 
-<strong>***Throughout this assembly, do not disconnect any of the VFD wiring! Miswiring can cause operation errors and damage to the device.</strong>
+**Higher tool RPM produces smaller chips, while higher feed rates produce larger chips. Overall, if the chips are too large, your bit will be likely to break, but if your chips are too small (like fine powder), you will be dulling your bit. It’s all about getting the right balance.**
 
-<ol>
-  <li>Our first goal is to route the spindle cable through the drag chain, by undoing clips and detaching the drag chain when needed
-<ol>
-  <li>You can use a sturdy flathead screwdriver to pry the clips open at the side
+This balance called *Feeds and Speeds* varies by material, bit size, and machine rigidity.  
 
-[caption id="attachment_9057" align="aligncenter" width="802"]<img class="wp-image-9057 " src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_spindle_short-1.gif" alt="" width="802" height="451" /> Opening drag chain clips with flathead screwdriver[/caption]</li>
+- Too slow = dull or broken bits  
+- Too fast = burning or melting  
+- Chips too large = broken bits  
+- Chips too fine = dull bits  
 
-</li>
-  <li>You can pop off the drag chain from the ends by wedging the screwdriver between the connecting tabs.
+Finding the sweet spot takes some trial and error, but it’s critical for both performance and tool life. Read more about the LongMill [Feeds & Speeds Here.](https://resources.sienci.com/view/lmk2-feeds-and-speeds/)
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_remove_chain-1.jpg "Using screwdriver to undo drag chain links"){.aligncenter .size-medium}
+> **Tip:** Install your bit as deeply as possible in the collet, with at least 3/8" inserted for light cuts.  
 
-</li>
-</ol>
-</li>
-  <li>Remove the Makita power cable from the drag chain, and the power extension cable if you have one. Route the spindle cable through the following path.
+## Spindles vs Routers
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_cableroute-1.jpg "Spindle cable path from VFD to Z-axis"){.aligncenter .size-medium}
+For most hobby CNC users, a trim router strikes the best balance of cost, simplicity, and performance. A spindle is an upgrade worth considering once you’ve outgrown the router, especially if you value quieter operation, precision, and automation.
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_routingcable.jpg "Routing cable through open drag chain"){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/cnc_ba_router-vsspindle.jpg){.aligncenter .size-medium}
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_connector-1.jpg "Spindle connector should dangle over the Z-axis, to plug into spindle later"){.aligncenter .size-medium}
+### Routers
 
-</li>
-  <li>Re-attach the drag chain clips and any drag chain segments, securing the spindle cable and the other existing cables in place.</li>
-  <li>We will move on to installing the spindle itself. Using an Allen key, loosen the front two clamping screws at the mount. Remove the Makita router.
+Most hobby CNCs use compact trim routers like the **Makita RT0700/RT0701**, which offer:  
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_mount.jpg "Front clamping screws loosened using Allen key"){.aligncenter .size-medium}
+- **Affordable price** – widely available, under $150 USD  
+- **Plenty of power** – 1-1/4 HP is enough for most woods and plastics  
+- **Wide RPM range** – 10,000–30,000 RPM, adjustable by dial  
+- **Durability** – metal body, long runtime capability  
 
-</li>
-  <li>Jog the Z-axis all the way up to gain access to the four (4) M5x25mm screws at the back of the XZ gantry.</li>
-  <li>Using an Allen key, unfasten the back screws to remove the mount.
+![](/_images/_cnc-fun/_the-basics/cnc_ba_router-makita.jpg){.alignleft .size-medium}
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_fastening.jpg "Back screws of XZ gantry being removed"){.aligncenter .size-medium}
+Routers are simple to set up—just plug into the wall and go. The trade-off is that speed control is manual, they’re noisier than spindles, and motor brushes eventually wear out.
 
-</li>
-  <li>Take the new 80mm mount and loosely secure it using all four screws at the back of the XZ gantry.
+A router offers a more *analog* experience, where users must manually set the router speed using a physical dial, and turn on/off the router at the start and end of a cutting program.
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_loosely-securing-mount.jpg "Loosely threading screws into the 80mm mount"){.aligncenter .size-medium}
+Most hobby CNC routers, (including the Sienci Labs LongMill CNC), will utilize an off-the-shelf trim router. Although these are suitable for hobby use, they have some limitations both in regards to reliability over long periods of time, and a lack of ability to automate their control. Despite this, a trim router such as the popular Makita RT0701C router has a proven track record of being a very capable, easy to install option for relatively little cost.</span>
 
-</li>
-  <li>Then, completely fasten the four screws.</li>
-  <li>Loosen the front two clamping screws on the 80mm mount.</li>
-  <li>Place the spindle through the mount, and fasten the clamping screws to secure the spindle in place (you can adjust the height later).
+### Spindles
 
-[caption id="attachment_9055" align="aligncenter" width="806"]<img class="wp-image-9055 size-full" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_spindle_placingspindle_short.gif" alt="" width="806" height="453" /> Sliding spindle into new 80mm mount[/caption]</li>
+Spindles are the next step up in CNC cutting. A key difference between routers and spindles is that a router houses all of its electronics inside of itself and plugs into a wall outlet directly, but a high speed spindle contains only the motor and rotating elements, while an intermediate **VFD (Variable Frequency Drive)** unit is used to direct power from the wall outlet to the spindle motor.
 
-</li>
-  <li>Plug in the spindle cable connector into the top of the spindle.
+![](/_images/_cnc-fun/_the-basics/cnc_ba_router-pkg.jpg){.aligncenter .size-medium}
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_spindleconnector.jpg "Spindle cable connected"){.aligncenter .size-medium}
+**Advantages:**  
 
-</li>
-  <li>Plug in the RS485 wire into the SLB controller.
+- Quieter operation  
+- More power and torque  
+- Lower runout (greater precision)  
+- Brushless = longer life  
+- Can be software-controlled (on/off, speed, direction)  
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_RS485-longmill-.jpg "RS485 wire connected to controller"){.aligncenter .size-medium}
+**Disadvantages:**
 
-</li>
-  <li>Plug the VFD into power, the VFD screen should blink on with red text.
+- More expensive  
+- Heavier (may need sturdier mounts)  
+- Setup is more complex  
 
-[caption id="attachment_9056" align="aligncenter" width="850"]<img class="size-medium wp-image-9056" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_spindle_VFD-powered-on_short-1.gif" alt="" width="850" height="478" /> VFD powered on[/caption]</li>
+### Comparison
 
-</li>
-  <li>Turn ON the controller using the power switch and make sure the E-stop is released. We will now move to setting things up on gSender.
+| Feature     | Router (e.g. Makita RT0701) | Spindle (with VFD) |
+|-------------|------------------------------|--------------------|
+| Price       | Low ($100–$150)             | Higher ($300–$1000+) |
+| Noise       | Loud                        | Quiet |
+| Control     | Manual dial                 | Software controlled |
+| Longevity   | Brushes wear out            | Long life |
+| Setup       | Plug-and-play               | Requires wiring/VFD |
+| Power       | 1–1.25 HP                   | 1.5+ HP common |
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_controllerOn.jpg){.aligncenter .size-medium}
+### Why Not Dremels or Handheld Rotary Tools?
 
-</li>
-</ol>
+Handheld tools like Dremels are **not recommended**. They are highly underpowered for use on most CNC machines, since they do not have internal hardware that allows them to support the high lateral and axial forces. In addition, these tools are fabricated for hand use, and as such aren't designed for the minimal runout required to cut precisely.
 
-## gSender Settings
+## Recommendations
 
-<ol>
-  <li>Connect to the machine on gSender.</li>
-  <li>We will now enable the setting that allows for communication between your controller and the spindle. Click on ‘Firmware’ in the top right corner of gSender to open the firmware window. Search or scroll down to find the setting called ‘<strong>$395 Default Spindle</strong>’, and select the ‘<strong>H-100</strong>’ option then click ‘Apply New Settings’. Close the window.
+- **Beginners:** Start with a router like the Makita RT0701. Affordable, easy, and reliable.  
+- **Advanced users / heavy use:** Consider upgrading to a spindle for quieter, more precise, and longer-lasting performance.  
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_defaultspindle-1.jpg "Selecting H-100 for $395 and applying settings"){.aligncenter .size-medium}
+If you are a beginner user, we highly recommend sticking with a Makita RT0701. The Makita RT0701 offers plenty of power and speed control for this application. Installing a spindle can be very technically challenging and may cost significantly more. If you plan on adding a spindle we recommend checking our <a href="https://forum.sienci.com/" target="_blank" rel="noopener">Forum</a> and <a href="https://www.facebook.com/groups/mill.one" target="_blank" rel="noopener">Facebook Group</a> for more info.
 
-</li>
-  <li>Power cycle by turning the controller power switch OFF, waiting 5 seconds, then turning it back ON.</li>
-  <li>Reconnect to the machine again.</li>
-  <li>Now we will configure a new setting that should appear after you power cycled the controller. This setting is like the telephone number you dial to talk to the VFD. Click on ‘Firmware’ in the top right corner of gSender to open the firmware window. Search or scroll down to find the setting ‘<strong>$476 Spindle 0 ModBus address</strong>’ and set it to ‘<strong>2</strong>’.
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_firmwaremodbus-1.jpg "Specifying ModBus address"){.aligncenter .size-medium}
+To explore adding a spindle to a LongMill
 
-</li>
-  <li>Find ‘<strong>$37</strong>’ and toggle the <strong>Z</strong> to be <strong>ON</strong>, so that the Z motor stays energized. Now, we can press ‘Apply New Settings’ and exit the window.
-
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_steppersdeenergize-1.jpg "Toggle the Z to be ON for steppers de-energize setting"){.aligncenter .size-medium}
-
-</li>
-  <li>Press the ‘gear’ on the top right corner, then press ‘Spindle/Laser’ on the left column, and toggle the ‘<strong>Spindle/Laser</strong>’ to be <strong>ON</strong>. Then close the window.
-
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_spinlasertoggle-1.jpg "Toggling Spindle/Laser"){.aligncenter .size-medium}
-
-</li>
-  <li>We will now reset everything so our changes can successfully take effect. Turn OFF the controller at the power switch.</li>
-  <li>Unplug the spindle from power.</li>
-  <li>Close gSender.</li>
-  <li>Then, turn ON the controller, plug the spindle back into power, and open gSender and reconnect.</li>
-  <li>At the ‘Spindle/Laser’ tab, check that ‘H-100’ is selected. Then use the slider to the lowest speed, and press the ‘CW’ button to test out the spindle. Check that it is spinning in the correct direction. Press the ‘Stop’ button to stop the spindle. You are almost ready to start CNCing with the spindle!
-
-![](/_images/_lmmk2/_add-ons/_all/lmk2_spindle_testingspindle.jpg "Spindle activated using CW button at lowest speed setting"){.aligncenter .size-medium}
-
-</li>
-</ol>
-
-## Spindle Break-in
-
-The grease inside the bearings may have shifted during transportation, it is recommended that you run a “break-in” cycle to redistribute the grease before using your spindle. To do this, you can download and run the g-code file below on gSender, which should take 1 hour 40 minutes to run.
-
-<a href="https://drive.google.com/file/d/1JdrqfgkZxhhXIAjUMOi-5UXIDjNveZe3/view?usp=sharing">Sienci 1.5kW Spindle Break-in.gcode</a>
+To explore adding a spingle to an AltMill
