@@ -43,7 +43,7 @@ When getting ready to mount your LongMill the mounting surface will need to be a
 
 ![](/_images/_lmmk2/_assembly/_tablemount/lmk2_tablemount_48-12x30Tablesizing.jpg){.aligncenter .size-large}
 
-Each MK2.5 model (12×30, 30×30 and 48x30) is designed to generally fit on a 2’×4’, 4’×4’ and 4’x6’ surface respectively. The diagrams below show a more detailed view for each model where the <span style="color: #ff0000;">red</span> represents the travel / cutting area and the <span style="color: #33cccc;">blue</span> shows the hanging features outside the foot base.
+Each MK2.5 model (12×30, 30×30 and 48x30) is designed to generally fit on a 2’×4’, 4’×4’ and 4’x6’ surface respectively. The diagrams above show a more detailed view for each model where the <span style="color: #ff0000;">red</span> represents the travel / cutting area and the <span style="color: #33cccc;">blue</span> shows the hanging features outside the foot base.
 
 ![](/_images/_lmmk2/_assembly/_tablemount/lmk2_tablemount_Mounting-2.png){.aligncenter .size-medium}
 
