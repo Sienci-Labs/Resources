@@ -15,7 +15,6 @@ skip_file: no
 featured_image: _images/_gsender/_classic/_using-cl/gs_cl_us_connected-idle.jpg
 ---
 
-
 # Building gSender
 
 This guide provides comprehensive instructions on how to compile the gSender application from its source code for various operating systems, including Windows, macOS (Intel & Apple Silicon), and Linux (including Raspberry Pi). Building from source allows you to contribute to development, test experimental features, or customize the application for specific needs.
@@ -30,32 +29,105 @@ Before you begin, ensure you have the following software installed on your syste
 
 Git is essential for cloning the gSender repository.
 
-*   **Download Git:** [https://git-scm.com/downloads](https://git-scm.com/downloads)
+*   **Windows:** [https://git-scm.com/downloads](https://git-scm.com/downloads)
+*   **macOS:**  
+    Install via Homebrew:  
+    ```bash
+    brew install git
+    ```
+    Or download directly from [https://git-scm.com/downloads](https://git-scm.com/downloads)
+*   **Linux:**  
+    ```bash
+    sudo apt-get install git
+    ```
 
-### 2. Node.js & npm (Node Package Manager)
+### 2. Node.js, npm (Node Package Manager) and Yarn
 
 gSender is a JavaScript/TypeScript application. Node.js and its package manager (npm) are crucial.
 
-*   **Recommended Version:** The gSender is built using **Node.js version 20.x**.
-*   **Installation:**
-    *   [Download Node.js (includes npm)](https://nodejs.org/en/download/)
-    *   **Using `nvm` (Node Version Manager) is highly recommended** for managing multiple Node.js versions, especially if you work on other projects with different Node requirements.
-        *   Install `nvm`: Follow instructions on the `nvm` [GitHub page](https://github.com/nvm-sh/nvm).
-        *   Install Node.js 20: `nvm install 20`
-        *   Use Node.js 20: `nvm use 20`
-        *   Set default (optional): `nvm alias default 20`
-    *   **For macOS Apple Silicon (M1/M2/M3) and Raspberry Pi (ARM64):** Ensure you install an ARM64 native version of Node.js. If you're using `nvm`, `nvm install 20` should automatically fetch the correct architecture. Verify with `node -p "process.arch"` which should output `arm64`.
+* **Recommended Version:** gSender is built using **Node.js version 20.x**.
 
-### 3. Yarn
+* **Windows Installation:**
 
-gSender uses Yarn for dependency management.
-
-*   **Installation:** After installing Node.js and npm, install Yarn globally:
-    ```bash
-    npm install --global yarn@1.22.22
+  * Download and install Chocolatey:  
+    ```powershell
+    powershell -c "irm https://community.chocolatey.org/install.ps1|iex"
+    ```
+  * Download and install Node.js:  
+    ```powershell
+    choco install nodejs --version="20.19.5"
+    ```
+  * Verify the Node.js version:  
+    ```powershell
+    node -v
+    ```  
+    Should print "v20.19.5".
+  * Download and install Yarn:  
+    ```powershell
+    corepack enable yarn
+    ```
+  * Verify Yarn version:  
+    ```powershell
+    yarn -v
     ```
 
-### 4. Python
+* **macOS Installation:**
+
+  * Download and install nvm:  
+    ```bash
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+    ```
+  * Source the shell (in lieu of restarting):  
+    ```bash
+    \. "$HOME/.nvm/nvm.sh"
+    ```
+  * Download and install Node.js:  
+    ```bash
+    nvm install 20
+    ```
+  * Verify the Node.js version:  
+    ```bash
+    node -v
+    ```  
+    Should print "v20.19.5".
+  * Download and install Yarn:  
+    ```bash
+    corepack enable yarn
+    ```
+  * Verify Yarn version:  
+    ```bash
+    yarn -v
+    ```
+
+* **Linux Installation:**
+
+  * Download and install nvm:  
+    ```bash
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+    ```
+  * Source the shell:  
+    ```bash
+    \. "$HOME/.nvm/nvm.sh"
+    ```
+  * Download and install Node.js:  
+    ```bash
+    nvm install 20
+    ```
+  * Verify the Node.js version:  
+    ```bash
+    node -v
+    ```  
+    Should print "v20.x.x".
+  * Download and install Yarn:  
+    ```bash
+    corepack enable yarn
+    ```
+  * Verify Yarn version:  
+    ```bash
+    yarn -v
+    ```
+
+### 3. Python
 
 Python is often required for Electron's native module compilation (via `node-gyp`).
 
@@ -65,7 +137,7 @@ Python is often required for Electron's native module compilation (via `node-gyp
     *   **Windows:** Ensure Python is added to your system's PATH during installation.
     *   **macOS:** Python 3 is typically pre-installed or easily installed via Homebrew. Also install `setuptools` using `sudo -H pip install setuptools`
 
-### 5. C++ Compiler & Build Tools
+### 4. C++ Compiler & Build Tools
 
 These tools are necessary for compiling native Node.js modules that gSender and its dependencies rely on. The CI workflow explicitly adds `node-gyp` globally.
 
@@ -248,6 +320,10 @@ The gSender' CI has a dedicated job for building Raspberry Pi packages, which us
     If you choose to compile directly on a Raspberry Pi running a 64-bit OS (e.g., Raspberry Pi OS (64-bit)), follow the general Linux instructions, ensuring all prerequisites (especially Node.js 20.x `arm64` and the `apt install` dependencies) are met. Some users have successfully compiled on Pi 5 by following these steps.
     *   Verify your Node.js architecture: `node -p "process.arch"` should output `arm64`.
     *   Ensure all necessary dev libraries are installed: `sudo apt update && sudo apt install build-essential git libusb-1.0-0-dev pkg-config libudev-dev libgtk-3-dev libappindicator3-1 libgconf-2-4 libnss3 libasound2 libsecret-1-0 libgtk-3-0`
+
+## Common Troubleshooting
+
+(unchanged)
 
 ## Common Troubleshooting
 
