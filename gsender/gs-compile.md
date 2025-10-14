@@ -291,6 +291,8 @@ Here are some common issues you might encounter when compiling gSender locally, 
         6.  **Crucially, close and reopen your PowerShell (or Command Prompt) window** for the changes to take effect. After restarting the terminal, `bash` should be recognized.
     *   **Use Windows Subsystem for Linux (WSL):** For a more complete Linux development environment, install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) and a Linux distribution like Ubuntu. Then, perform all gSender cloning, dependency installation, and build steps from within your WSL terminal.
 
+![](/_images/_gsender/_compile/gs_compile_path_bash.png){.aligncenter .size-medium}
+
 ### 2. Node.js / Yarn Version Mismatches or Corrupted Installs
 
 *   **Problem:** Errors during `yarn install` related to package resolution, `node-gyp`, or general build failures.
@@ -369,6 +371,8 @@ This is a very common source of issues, often manifesting as errors during `yarn
 
 *   **Problem:** `yarn install` fails to download packages.
 *   **Solution:** Check your firewall or proxy settings. Ensure `npm` and `yarn` are configured to use your proxy if applicable. `npm` and `yarn` needs access to the internet to download and install dependencies.
+
+![](/_images/_gsender/_compile/gs_yarn_network_error.png){.aligncenter .size-medium}
 
 ### 10. General Debugging Steps
 
