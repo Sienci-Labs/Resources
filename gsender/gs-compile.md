@@ -1,6 +1,6 @@
 ---
 title: gSender Compilation
-menu_order: 8
+menu_order: 9
 post_status: publish
 post_excerpt: Full instructions building gSender from source.
 post_date: 2025-10-14 14:48:30
@@ -12,7 +12,6 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_gsender/_classic/_using-cl/gs_cl_us_connected-idle.jpg
 ---
 
 # Building gSender
@@ -30,13 +29,13 @@ Before you begin, ensure you have the following software installed on your syste
 Git is essential for cloning the gSender repository.
 
 *   **Windows:** [https://git-scm.com/downloads](https://git-scm.com/downloads)
-*   **macOS:**  
-    Install via Homebrew:  
-    ```bash
-    brew install git
-    ```
-    Or download directly from [https://git-scm.com/downloads](https://git-scm.com/downloads)
-*   **Linux:**  
+*   **macOS:**
+    *   Install via Homebrew:
+        ```bash
+        brew install git
+        ```
+    *   Or download directly from [https://git-scm.com/downloads](https://git-scm.com/downloads)
+*   **Linux:**
     ```bash
     sudo apt-get install git
     ```
@@ -45,110 +44,117 @@ Git is essential for cloning the gSender repository.
 
 gSender is a JavaScript/TypeScript application. Node.js and its package manager (npm) are crucial.
 
-* **Recommended Version:** gSender is built using **Node.js version 20.x**.
+*   **Recommended Version:** gSender is built using **Node.js version 20.x**.
 
-* **Windows Installation:**
+*   **Windows Installation:**
+    *   Download and install Chocolatey:
+        ```powershell
+        powershell -c "irm https://community.chocolatey.org/install.ps1|iex"
+        ```
+    *   Download and install Node.js:
+        ```powershell
+        choco install nodejs --version="20.19.5"
+        ```
+    *   Verify the Node.js version:
+        ```powershell
+        node -v
+        ```
+        Should print "v20.19.5".
+    *   Download and install Yarn:
+        ```powershell
+        corepack enable yarn
+        ```
+    *   Verify Yarn version:
+        ```powershell
+        yarn -v
+        ```
 
-  * Download and install Chocolatey:  
-    ```powershell
-    powershell -c "irm https://community.chocolatey.org/install.ps1|iex"
-    ```
-  * Download and install Node.js:  
-    ```powershell
-    choco install nodejs --version="20.19.5"
-    ```
-  * Verify the Node.js version:  
-    ```powershell
-    node -v
-    ```  
-    Should print "v20.19.5".
-  * Download and install Yarn:  
-    ```powershell
-    corepack enable yarn
-    ```
-  * Verify Yarn version:  
-    ```powershell
-    yarn -v
-    ```
+*   **macOS Installation:**
+    *   Download and install nvm:
+        ```bash
+        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+        ```
+    *   Source the shell (in lieu of restarting):
+        ```bash
+        \. "$HOME/.nvm/nvm.sh"
+        ```
+    *   Download and install Node.js:
+        ```bash
+        nvm install 20
+        ```
+    *   Verify the Node.js version:
+        ```bash
+        node -v
+        ```
+        Should print "v20.19.5".
+    *   Download and install Yarn:
+        ```bash
+        corepack enable yarn
+        ```
+    *   Verify Yarn version:
+        ```bash
+        yarn -v
+        ```
 
-* **macOS Installation:**
-
-  * Download and install nvm:  
-    ```bash
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
-    ```
-  * Source the shell (in lieu of restarting):  
-    ```bash
-    \. "$HOME/.nvm/nvm.sh"
-    ```
-  * Download and install Node.js:  
-    ```bash
-    nvm install 20
-    ```
-  * Verify the Node.js version:  
-    ```bash
-    node -v
-    ```  
-    Should print "v20.19.5".
-  * Download and install Yarn:  
-    ```bash
-    corepack enable yarn
-    ```
-  * Verify Yarn version:  
-    ```bash
-    yarn -v
-    ```
-
-* **Linux Installation:**
-
-  * Download and install nvm:  
-    ```bash
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
-    ```
-  * Source the shell:  
-    ```bash
-    \. "$HOME/.nvm/nvm.sh"
-    ```
-  * Download and install Node.js:  
-    ```bash
-    nvm install 20
-    ```
-  * Verify the Node.js version:  
-    ```bash
-    node -v
-    ```  
-    Should print "v20.x.x".
-  * Download and install Yarn:  
-    ```bash
-    corepack enable yarn
-    ```
-  * Verify Yarn version:  
-    ```bash
-    yarn -v
-    ```
+*   **Linux Installation:**
+    *   Download and install nvm:
+        ```bash
+        curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+        ```
+    *   Source the shell:
+        ```bash
+        \. "$HOME/.nvm/nvm.sh"
+        ```
+    *   Download and install Node.js:
+        ```bash
+        nvm install 20
+        ```
+    *   Verify the Node.js version:
+        ```bash
+        node -v
+        ```
+        Should print "v20.x.x".
+    *   Download and install Yarn:
+        ```bash
+        corepack enable yarn
+        ```
+    *   Verify Yarn version:
+        ```bash
+        yarn -v
+        ```
 
 ### 3. Python
 
 Python is often required for Electron's native module compilation (via `node-gyp`).
 
 *   **Recommended Version:** Python 3.x is generally expected.
-*   **Installation:**
+
+*   **Windows Installation:**
     *   [Download Python](https://www.python.org/downloads/)
-    *   **Windows:** Ensure Python is added to your system's PATH during installation.
-    *   **macOS:** Python 3 is typically pre-installed or easily installed via Homebrew. Also install `setuptools` using `sudo -H pip install setuptools`
+    *   Ensure Python is added to your system's PATH during installation.
+
+*   **macOS Installation:**
+    *   Python 3 is typically pre-installed or easily installed via Homebrew.
+    *   Install `setuptools`:
+        ```bash
+        sudo -H pip install setuptools
+        ```
+
+*   **Linux Installation:**
+    *   [Download Python](https://www.python.org/downloads/) (or use your system's package manager like `sudo apt-get install python3`)
 
 ### 4. C++ Compiler & Build Tools
 
 These tools are necessary for compiling native Node.js modules that gSender and its dependencies rely on. The CI workflow explicitly adds `node-gyp` globally.
 
 *   **Windows:**
-    *   Run `npm install --global --production windows-build-tools` to set up necessary tools
+    *   Run `npm install --global --production windows-build-tools` to set up necessary tools.
 *   **macOS:**
     *   Install **Xcode Command Line Tools**:
         ```bash
         xcode-select --install
         ```
-    *   As mentioned, ensure `setuptools` for Python is installed:
+    *   Ensure `setuptools` for Python is installed:
         ```bash
         sudo -H pip install setuptools
         ```
@@ -163,7 +169,7 @@ These tools are necessary for compiling native Node.js modules that gSender and 
         ```
         *   `libudev-dev` and `libgtk-3-dev` are crucial for compiling certain native modules on Linux.
     *   **Raspberry Pi / Debian-based systems:** You will likely need additional runtime libraries for Electron to run correctly, especially on headless or minimal installations.
-        *   `libappindicator3-1`: This is a common missing dependency used by gSender
+        *   `libappindicator3-1`: This is a common missing dependency used by gSender.
         ```bash
         sudo apt install libappindicator3-1
         ```
@@ -172,6 +178,8 @@ These tools are necessary for compiling native Node.js modules that gSender and 
         sudo apt install libgconf-2-4 libnss3 libasound2 libsecret-1-0 libgtk-3-0
         ```
     *   **Architecture considerations (Raspberry Pi):** gSender is typically built for `arm64` (AArch64). If you are on an older Raspberry Pi OS (like `armhf` on 32-bit systems) or a different ARM architecture, you might encounter issues. Modern Raspberry Pi OS (64-bit) is strongly recommended for native compilation. Cross-compilation is generally not well-supported and can be problematic as reported in community forums.
+
+---
 
 ## Cloning the Repository
 
@@ -184,6 +192,7 @@ First, you need to get the gSender source code.
     git clone https://github.com/Sienci-Labs/gsender.git
     cd gsender
     ```
+---
 
 ## Installing Dependencies
 
@@ -195,118 +204,59 @@ Once the repository is cloned, install the project's dependencies using Yarn.
     yarn prepare
     ```
     This command typically cleans out old build artifacts (`./dist` and `./output` directories) and prepares the environment.
-
 2.  **Install main dependencies:**
     ```bash
     yarn install
     ```
     This command downloads and installs all required Node.js packages as defined in `package.json` and `yarn.lock`. This step can take some time and may compile native modules.
 
+---
+
 ### Development Workflow
 
 These commands are ideal for active development, offering features like hot-reloading for faster iteration.
 
-1.  **Run in Development Mode with Hot Reloading:**
+1.  **Run in Development Mode (Hot Reloading):**
     ```bash
-    yarn run dev
+    yarn dev
     ```
-    This is the primary command for active development. It orchestrates building the development server and client components (`build-dev`) and then launches the application (`start-dev`) along with a Tailwind CSS watcher (`tailwind-dev`). Changes to your code will automatically trigger a rebuild and refresh of the application, providing instant feedback.
-
-2.  **Build Server-Side Components (Development):**
+    This launches the local development server. Please open gSender in your browser at [http://localhost:8000](http://localhost:8000).
+    Any changes you make to the source code will automatically reload.
+2.  **Clean previous builds (optional but recommended):**
     ```bash
-    yarn build-dev-server
+    yarn clean
     ```
-    This command focuses on compiling the backend/server-side (Electron main process) components of gSender in development mode using `webpack`. It's useful if you only need to rebuild the main process without touching the UI.
+    Removes old build artifacts and prepares a clean environment for a fresh build.
 
-3.  **Build UI (Development):**
+---
+
+### Production / Release Build Workflow
+
+These commands are used to create optimized, distributable versions of gSender for your operating system.
+
+1.  **Build the Production Application:**
     ```bash
-    yarn build-dev-app
+    yarn build
     ```
-    This command handles preparing the user interface (React front-end) for development, including copying static assets like `favicon.ico`, `images`, and `assets`.
-
-4.  **Launch the Development Application:**
+    This compiles the app for production into the `dist` directory.
+    It includes minification and optimization suitable for release.
+2.  **Build OS-specific Packages:**
+    *   `yarn build:windows`
+    *   `yarn build:macos`
+    *   `yarn build:linux`
+    Each command produces a platform-specific package (e.g., `.exe`, `.dmg`, `.AppImage`, or `.deb`).
+3.  **Build Electron Package (Cross-platform builder):**
     ```bash
-    yarn start-dev
+    yarn electron-builder
     ```
-    This command directly launches the gSender application in development mode after the `build-dev` process has completed, enabling verbose logging and setting a default port. It uses the executable `./bin/gsender`.
+    Uses [Electron Builder](https://www.electron.build/) to create a standalone installer.
+    The output (e.g., `.exe`, `.dmg`, `.AppImage`, `.zip`) will appear in the `output/` folder.
 
-### Production/Release Build Workflow
-
-These commands are used to create the final, optimized build of the application, often destined for distribution.
-
-1.  **Run Linting (Optional but Recommended):**
-    ```bash
-    yarn lint
-    ```
-    This command runs `eslint` and `stylint` to check the codebase for style and quality issues. It might report warnings but doesn't necessarily prevent compilation. The CI workflow runs `yarn lint` before building.
-
-2.  **Perform Pre-Build Steps for Release:**
-    ```bash
-    yarn prebuild-prod
-    ```
-    This command synchronizes packages and runs `scripts/prebuild-prod.sh`, which is essential for setting up the production build environment.
-
-3.  **Build the Application (Production/Release Version):**
-    ```bash
-    yarn run build
-    ```
-    This command is an alias for `yarn build-prod`. It compiles the React web application (`vite:build`) and the Electron main process (`build-prod-server`) for production, creating an optimized, production-ready bundle. It corresponds to a tagged version in Git. The output will typically be found in a `dist` directory.
-
-4.  **Build the Application (Latest/Nightly Version):**
-    ```bash
-    yarn run build-latest
-    ```
-    This command is similar to `yarn build-prod` but is specifically used by the CI when building from a branch (e.g., `master` or `dev`). It includes similar parallel tasks for the server, UI, and CSS compilation, providing the most up-to-date version for continuous integration.
-
-5.  **Run the Packaged Application (Production Mode):**
-    ```bash
-    yarn prod
-    ```
-    This command first runs `yarn build-prod` to compile the application for production and then launches it using the `./bin/gsender` executable with `NODE_ENV=production`. This simulates how a user would launch an installed gSender application.
-
-6.  **Run the Built Electron Application Directly:**
-    ```bash
-    yarn start-electron
-    ```
-    This command directly launches the Electron application by pointing to the main entry file within the `dist/gsender` directory (`electron ./dist/gsender/main`). This is useful for testing the final packaged Electron application without going through the full `yarn prod` script.
-
-### Creating Distributable Packages (AppImage, .deb, .exe, .dmg)
-
-After performing a `yarn build` or `yarn build-latest`, you can create platform-specific installers or runnable binaries using the `electron-builder` scripts. These scripts use `scripts/electron-builder.sh` internally.
-
-*   **For all platforms (based on your OS):**
-    ```bash
-    yarn make
-    ```
-    This will attempt to build a distributable package (e.g., `.exe` on Windows, `.dmg` on macOS, `.AppImage` or `.deb` on Linux) for your current operating system.
-*   **For specific platforms:**
-    *   **Linux Binaries (x64 and ARM64):**
-        ```bash
-        yarn run build:linux
-        # For specific architectures:
-        yarn run build:linux-x64
-        yarn run build:linux-arm64
-        ```
-        These commands are used to create AppImage and `.deb` packages for Linux.
-    *   **macOS Binaries (x64 and ARM64):**
-        ```bash
-        yarn run build:macos
-        # For specific architectures:
-        yarn run build:macos-x64
-        yarn run build:macos-arm64
-        ```
-        These commands are used to build `.dmg` installers for macOS.
-    *   **Windows Binaries (x64):**
-        ```bash
-        yarn run build:windows
-        # For specific architectures:
-        yarn run build:windows-x64
-        ```
-        These commands generate `.exe` installers for Windows.
+---
 
 ### Raspberry Pi (ARM) Specific Build
 
-The gSender' CI has a dedicated job for building Raspberry Pi packages, which uses a Docker-based approach for consistency and environment control. **For Pi 5 and other 64-bit Raspberry Pi models, native ARM64 compilation is the recommended approach over cross-compilation.**
+The gSender's CI has a dedicated job for building Raspberry Pi packages, which uses a Docker-based approach for consistency and environment control. **For Pi 5 and other 64-bit Raspberry Pi models, native ARM64 compilation is the recommended approach over cross-compilation.**
 
 1.  **Inspect the Pi Build Script:** The CI executes `scripts/build-pi.sh`. It's recommended to examine this script and the associated `DockerfilePi` in the project root for the most accurate and up-to-date instructions for building on a Raspberry Pi.
 2.  **Using Docker (Recommended for Pi):**
@@ -321,9 +271,7 @@ The gSender' CI has a dedicated job for building Raspberry Pi packages, which us
     *   Verify your Node.js architecture: `node -p "process.arch"` should output `arm64`.
     *   Ensure all necessary dev libraries are installed: `sudo apt update && sudo apt install build-essential git libusb-1.0-0-dev pkg-config libudev-dev libgtk-3-dev libappindicator3-1 libgconf-2-4 libnss3 libasound2 libsecret-1-0 libgtk-3-0`
 
-## Common Troubleshooting
-
-(unchanged)
+---
 
 ## Common Troubleshooting
 
@@ -415,7 +363,7 @@ This is a very common source of issues, often manifesting as errors during `yarn
 ### 8. Disk Space or Long Path Issues (Windows)
 
 *   **Problem:** On Windows, deep directory structures can exceed the maximum path length, causing issues during dependency installation.
-*   **Solution:** Enable long path support in Windows ([requires registry modification or Group Policy](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation) ). Also, ensure you have sufficient disk space.
+*   **Solution:** Enable long path support in Windows ([requires registry modification or Group Policy](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation)). Also, ensure you have sufficient disk space.
 
 ### 9. Network Issues (Firewall/Proxy)
 
@@ -429,6 +377,8 @@ This is a very common source of issues, often manifesting as errors during `yarn
 *   **Check GitHub Issues:** Review the gSender GitHub repository's issues page for similar problems, especially those tagged "build issue."
 *   **Start Fresh:** If you're stuck, delete the entire `gsender` directory, re-clone, and follow the steps from the beginning.
 *   **Docker:** If you continue to have environment issues, consider using Docker for a consistent build environment, similar to how Sienci Labs builds their releases, especially for Linux/ARM targets.
+
+---
 
 ## Contributing
 
