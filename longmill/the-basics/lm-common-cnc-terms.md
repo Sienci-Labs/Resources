@@ -57,7 +57,15 @@ These operations are all normally controlled using a machine interface program. 
 
 **Job / Cutting job** - The process of cutting out a design by running a g-code file on the CNC. This file can sometimes be composed of multiple toolpaths.
 
+[tabby title-"Current" open="yes"]
+
+![](/_images/_longmill/_the-basics/lm_cncterms_p3_job-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_longmill/_the-basics/lm_cncterms_p3_Job.png){.aligncenter .size-full}
+
+[tabbyending]
 
 **Jog** - The act of moving the machine using manual buttons and controls (not g-code file).
 

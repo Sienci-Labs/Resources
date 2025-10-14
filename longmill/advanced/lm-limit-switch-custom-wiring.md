@@ -124,7 +124,17 @@ Before you solder anything, make a plan and dry fit all these components into th
 
 Once you’ve assembled all the electrical connections to the LongBoard, you can enable limit switches, in which you will need to change a couple of settings on your LongMill’s firmware. Settings can be changed by sending the command to update the EEPROM settings manually through the console, or using the “Firmware Tool” on gSender. Below, we have listed the settings that you may want to enable.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p8_neweeprom-newu.jpg){.aligncenter .size-medium}
+
+Don't forget to hit the **Apply Settings** button once your changes have been made.
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p8_NewEEPROM.png){.aligncenter .size-medium}
+
+[tabbyending]
 
 <b>$5 - Limit pins invert, boolean</b>
 
@@ -218,7 +228,15 @@ When looking at the table on inverting each axis, setting value 3 inverts the di
 
 On gSender, you can use the toggles instead to change the direction of each axis.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p9_homingdirection-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p9_EEPROMHomingDirection.png){.aligncenter .size-medium}
+
+[tabbyending]
 
 <b>$24 - Homing locate feed rate, mm/min</b>
 
