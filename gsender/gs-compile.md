@@ -279,17 +279,26 @@ Here are some common issues you might encounter when compiling gSender locally, 
 
 ### 1. `bash` Command Not Found on Windows
 
-*   **Problem:** When running `yarn` commands (e.g., `yarn run dev`, `yarn clean`, `yarn prepare`), you encounter an error like `'bash' is not recognized as an internal or external command, operable program or batch file.` This happens because several `package.json` scripts directly invoke `bash -c "..."` to execute shell commands, which is not natively supported by Windows Command Prompt or PowerShell.
+*   **Problem:** When running `yarn` commands (e.g., `yarn run dev`, `yarn clean`, `yarn prepare`), you may see an error like `'bash' is not recognized as an internal or external command, operable program or batch file.`  
+    This occurs because several `package.json` scripts invoke `bash -c "..."`, which isn’t supported natively in Windows Command Prompt or PowerShell.
+
 *   **Solution:**
-    *   **Run from Git Bash:** The most straightforward solution is to use the **Git Bash** terminal that comes with Git for Windows. Open "Git Bash" (search for it in your Start Menu) and execute all gSender commands from within that terminal.
-    *   **Add Git to System PATH (Advanced):** If you prefer to use PowerShell or Command Prompt, you need to add the directory containing `bash.exe` to your Windows system's PATH environment variable.
-        1.  Search for "Environment Variables" in the Windows Start Menu and select "Edit the system environment variables."
-        2.  Click the "Environment Variables..." button.
-        3.  Under "System variables," find the `Path` variable and click "Edit...".
-        4.  Click "New" and add the path to your Git `bin` directory, typically `C:\Program Files\Git\bin` (or wherever you installed Git).
-        5.  Click "OK" on all open windows to save the changes.
-        6.  **Crucially, close and reopen your PowerShell (or Command Prompt) window** for the changes to take effect. After restarting the terminal, `bash` should be recognized.
-    *   **Use Windows Subsystem for Linux (WSL):** For a more complete Linux development environment, install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) and a Linux distribution like Ubuntu. Then, perform all gSender cloning, dependency installation, and build steps from within your WSL terminal.
+    *   **Run from Git Bash (Recommended):**  
+        The easiest and most reliable solution is to use the **Git Bash** terminal that comes with [Git for Windows](https://git-scm.com/download/win).  
+        Open **Git Bash** (search for it in your Start Menu) and execute all `yarn` and other `gSender` commands referenced in this documentation, from within that terminal. This ensures full compatibility with commands used in the build scripts
+
+    *   **Add Git to System PATH (Advanced):**  
+        If you prefer using PowerShell or Command Prompt, you can make `bash` available system-wide:
+        1.  Search for “Environment Variables” in the Start Menu and select **Edit the system environment variables**.  
+        2.  Click **Environment Variables...** → under **System variables**, find and edit `Path`.  
+        3.  Add a new entry:  
+            `C:\Program Files\Git\bin`  
+            (or your actual Git install path).  
+        4.  Save your changes and **restart your terminal**.  
+        After this, `bash` should work in PowerShell or CMD.
+
+    *   **Use Windows Subsystem for Linux (WSL):**  
+        For a full Linux-like environment, you can install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) and a distribution such as Ubuntu, then clone and build gSender entirely from there.
 
 ![](/_images/_gsender/_compile/gs_compile_path_bash.png){.aligncenter .size-medium}
 
