@@ -11,8 +11,8 @@ taxonomy:
 custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
-skip_file: yes
-featured_image: 
+skip_file: no
+featured_image: _images/_cnc-fun/_the-basics/_cncterms/cnc_ba_cncterms_p1_backlash.jpg
 ---
 
 ## Basics of a CNC Router
@@ -23,7 +23,7 @@ Know the names for the fundamental parts that make up an average hobby CNC.
 
 **Backlash** - When there’s looseness in the drive system of the CNC. This means that it won’t be able to make motions as rigidly as expected, it also has an effect on the accuracy of its movements. On the LongMill, if the anti-backlash nut threads wear out, it needs to be ‘re-tensioned’ by pushing the two thread profiles back away from each other using the M5 bolts. Tensioning too much can cause excess friction and wear, but done correctly it can keep your machine running reliably.
 
-![](/_images/_longmill/_the-basics/lm_cncterms_p1_Backlash.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_cncterms/cnc_ba_cncterms_p1_backlash.jpg){.aligncenter .size-medium}
 
 **CNC** - Put simply, a machine that is designed to be precisely controlled by a computer.
 
@@ -39,7 +39,7 @@ Know the names for the fundamental parts that make up an average hobby CNC.
 
 **Limit switch / Endstop / Homing switch** - Switches or sensors that are usually paired to each movement axis of the CNC. This is used to tell the machine how far it can move in either direction.  Limit switches can be used for homing, as soft limits, or as hard limits.
 
-![](/_images/_longmill/_the-basics/lm_cncterms_p2_LimitS.jpg){.aligncenter .size-full}
+![](/_images/_cnc-fun/_the-basics/_cncterms/cnc_ba_cncterms_p2_limit.jpg){.aligncenter .size-full}
 
 **Router** - A consumer-level power tool used for woodworking. Routers can be controlled by hand, or placed into a CNC router. Due to its application, routers are usually less powerful than spindles and produce a bit more noise, but are more cost effective for many hobby-level CNC routers.
 
@@ -57,19 +57,19 @@ These operations are all normally controlled using a machine interface program. 
 
 **Job / Cutting job** - The process of cutting out a design by running a g-code file on the CNC. This file can sometimes be composed of multiple toolpaths.
 
-![](/_images/_longmill/_the-basics/lm_cncterms_p3_Job.png){.aligncenter .size-full}
+![](/_images/_cnc-fun/_the-basics/_cncterms/cnc_ba_cncterms_p3_jobs.png){.aligncenter .size-full}
 
 **Jog** - The act of moving the machine using manual buttons and controls (not g-code file).
 
 **Origin / Zero** - The starting point if you decide to run a cutting job. You set your origin by assigning each axis location (X, Y, and Z) equal to zero. This doesn’t mean it’s going to start cutting exactly there, it just helps the machine understand where your stock material is located on the wasteboard. This origin should correspond to the origin of your g-code file, which is defined on the CAM program. It anchors your digital design to the actual cutting job on your machine.
 
-**Probe** - Usually using a touch plate to set the zero or origin on your material so you can run the job at the correct location. This can also become more complex by setting certain axes individually, using other conductive materials for location, or using a special sensor to compile heightmaps, angles, and more.
+**Probe** - Usually using a touch plate to set the zero or origin on your material so you can run the job at the correct location. This can also become more complex by setting certain axes individually, using other conductive materials for location, or using a special sensor to compile height-maps, angles, and more.
 
-![](/_images/_longmill/_the-basics/lm_cncterms_p4_TouchPlate.png){.aligncenter .size-full}
+![](/_images/_cnc-fun/_the-basics/_cncterms/cnc_ba_cncterms_p4_touchplate.png){.aligncenter .size-full}
 
 **Surfacing** - A job specifically used to flatten a piece of material. This can be a wood slab or the wasteboard itself, done during machine setup or maintenance to keep it level to the CNC’s mechanics. Typically you use a surfacing bit which has a larger cutting diameter.
 
-![](/_images/_longmill/_the-basics/lm_cncterms_p5_Surfacing.png){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_cncterms/cnc_ba_cncterms_p5_surface.png){.aligncenter .size-medium}
 
 **Tool change** - A process used to switch between cutting bits either during a job or between jobs. This allows for much more elaborate projects to be made.
 
@@ -96,7 +96,7 @@ Cutting away material on a CNC is affected by two major factors:
 
 **Tip / Flute shape (upcut, downcut, compression, straight, corncob)** - The shape of the end mill you are using, which determines its application.
 
-![](/_images/_longmill/_the-basics/lm_cncterms_p6_Tips.jpg "Ballnose mill vs. End mill vs. V-bit"){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_cncterms/cnc_ba_cncterms_p6_tip.jpg "Ball-nose mill vs. End mill vs. V-bit"){.aligncenter .size-medium}
 
 <p style="padding-left: 40px;"><b>Flat end</b> mills have a square tip. They can also have spirals (upcut or downcut), or be completely straight. These are good for general purpose milling, such as cutting out borders or straight profiles.</p>
 
@@ -120,7 +120,7 @@ Cutting away material on a CNC is affected by two major factors:
 
 **Conventional milling** - A milling technique in which the CNC machine is moving with the router / spindle rotation. This method eliminates backlash but can reduce tool life and surface finish due to chips and material rubbing onto the tool.
 
-![](/_images/_longmill/_the-basics/lm_cncterms_p7_ClimbConv.png){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_cncterms/cnc_ba_cncterms_p7_climbconven.png){.aligncenter .size-medium}
 
 **Finishing pass** - A cutting job used to cut out the exact geometry of the design, to remove small amounts of material after a roughing pass had been done.
 
@@ -134,7 +134,7 @@ Cutting away material on a CNC is affected by two major factors:
 
 **Relief cut** - A type of toolpath where the machine cuts raised geometries from one side of the stock material. For example, mountain terrains are considered relief cuts, because of the slopes and valleys.
 
-![](/_images/_longmill/_the-basics/lm_cncterms_p8_Ram.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_cncterms/cnc_ba_cncterms_p8_rams.jpg){.aligncenter .size-medium}
 
 **Roughing pass** - A cutting job used to cut out the approximate geometry of the design, to remove larger amounts of material at once. This is usually followed by a finishing pass to clean it up.
 
@@ -152,7 +152,7 @@ Cutting away material on a CNC is affected by two major factors:
 
 **Post Processor** - A “translator” which ensures your g-code is set to the correct language such as grbl. This is found in the CAM software and can be changed for each g-code file.
 
-![](/_images/_longmill/_the-basics/lm_cncterms_p9_PostPro.png){.aligncenter .size-full}
+![](/_images/_cnc-fun/_the-basics/_cncterms/cnc_ba_cncterms_p9_post-pro.png){.aligncenter .size-full}
 
 **Tiling** - A technique for cutting projects that are larger than the cutting area of the CNC. This requires the use of a locating system so that after cutting a portion of the stock, you can slide it into a new position and continue cutting the next portions of the project while keeping them aligned to each other.
 
@@ -198,7 +198,7 @@ These are the settings you’d change to improve the performance of your cutting
 
 **Arduino** - A circuit board used for controlling electronics. It is an open source board, meaning people can freely modify and replicate its code and design. In the LongMill the Arduino is loaded with custom LongMill firmware.
 
-![](/_images/_longmill/_the-basics/lm_cncterms_p10_Arduino.jpg){.aligncenter .size-full}
+![](/_images/_cnc-fun/_the-basics/_cncterms/cnc_ba_cncterms_p10_arduino-.jpg){.aligncenter .size-full}
 
 **DIP switch** - A component on CNC control boards which sets the microstepping of the motor.
 

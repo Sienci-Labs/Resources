@@ -11,11 +11,11 @@ taxonomy:
 custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: 
 ---
 
-There's plenty more that CNC routers like the LongMill are capable of doing once you're comfortable with the process of going from an idea on a piece of paper to a final product.
+There's plenty more that CNC routers are capable of doing once you're comfortable with the process of going from an idea on a piece of paper to a final product.
 
 ## Project Ideas
 
@@ -119,13 +119,13 @@ If you'd like some inspiration, we spent some time putting together a categorize
 
 ## CNC Creator Guides
 
-If you are looking for cool projects to create, then you are at the right place. We are creating individual e-books for awesome projects that we make YouTube video tutorials on called CNC Creator Guides. These guides are perfect for beginners interested in learning how to create projects on their CNC. They consist of downloadable project files and contain detailed step-by-step instructions with images, making it easier for the maker to understand and follow along. By following these guides, you can successfully build these projects and show off all your hard work.
-
-![](/_images/_lmmk2/_handbook/lmk2_projects_mockup_ebook_stepstool.jpg){.aligncenter .size-full}
-
-Creator Guide List (to be continued)
+If you’re looking for a fun project to start with, we’ve got you covered. We’ve created a CNC Creator Guide! An e-book that pairs with our YouTube video tutorial to walk you through making a project step by step. This guide is designed with beginners in mind, including clear instructions with images to make the process easy to follow. By using the guide, you can complete the project confidently and show off your finished work.
 
 - <a href="https://resources.sienci.com/wp-content/uploads/2022/03/Creator-Guide-Step-Stool-Project.pdf" target="_blank" rel="noopener">Creator Guide - Step Stool Project</a>
+
+![](/_images/_cnc-fun/_handbook/cnc_ha_projects_ebook-stepstool.jpg){.aligncenter .size-full}
+
+https://youtu.be/T3CF0i_SUlo
 
 ## Online CNC File Sites
 
@@ -227,7 +227,7 @@ The following box was designed by Andy. It’s beautiful in its simplicity and f
 **End Mill:** 2-flute, 1/4″ end mill
 **Cutting Time:** 25 minutes
 
-![](/_images/_longmill/_assembly/_moreprojects/lm_mprojects_p1.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_handbook/cnc_ha_projects_p1.jpg){.aligncenter .size-medium}
 
 [su_button url="https://resources.sienci.com/wp-content/uploads/2021/05/Wooden-Box.zip" style="flat" background="var(--sl-blue)" radius="3" center="yes" target="blank" size="5" icon="icon: arrow-down"]Download[/su_button]
 
@@ -241,13 +241,13 @@ This gear train was designed from scratch by Chris. If cut properly, minimal dri
 **End Mill:** 2-flute, 1/8″ end mill
 **Cutting Time:** 14 minutes
 
-![](/_images/_longmill/_assembly/_moreprojects/lm_mprojects_p2.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_handbook/cnc_ha_projects_p2.jpg){.aligncenter .size-medium}
 
 [su_button url="https://resources.sienci.com/wp-content/uploads/2021/05/Gear-Train.zip" style="flat" background="var(--sl-blue)" radius="3" center="yes" target="blank" size="6" icon="icon: arrow-down"]Download[/su_button]
 
 ### Aluminum Bottle Opener
 
-A start at using the hardest material in the Mill One's capability range. Aluminum comes in a variety of alloys, but the most common is 6061 Aluminum. It’s a fairly hard and strong material and can be found in aerospace components and bikes. The trickiest part of milling aluminum is preventing the aluminum chips from melting and binding to the end mill, which will stop the end mill from cutting. In order to carry the right amount of heat away via the chips, we recommend an 800mm/min feed rate at a 0.4mm depth of cut and 0.2 step over. The depth of cut is also slower, about 100mm/min.
+Aluminum comes in a variety of alloys, but the most common is 6061 Aluminum. It’s a fairly hard and strong material and can be found in aerospace components and bikes. The trickiest part of milling aluminum is preventing the aluminum chips from melting and binding to the end mill, which will stop the end mill from cutting. In order to carry the right amount of heat away via the chips, we recommend an 800mm/min feed rate at a 0.4mm depth of cut and 0.2 step over. The depth of cut is also slower, about 100mm/min.
 
 Choosing the right spindle speed for milling aluminum is a highly debated topic for hobby CNCers. Traditional machines set their spindle speeds at around a few thousand RPM, however routers like the ones used on the Mill One run between 10,000RPM to 30,000RPM. To get around this, less flutes are used (one or two) with shallower cuts and faster feed rates.
 
@@ -257,6 +257,6 @@ Both of these fully functional bottle openers were designed by Chris. They have 
 **End Mill:** 1-flute, 1/8″ or 3mm end mill
 **Cutting Time:** 12 minutes and 2 minutes
 
-![](/_images/_longmill/_assembly/_moreprojects/lm_mprojects_p3.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_handbook/cnc_ha_projects_p3.jpg){.aligncenter .size-medium}
 
 [su_button url="https://resources.sienci.com/wp-content/uploads/2021/05/Bottle-Openers.zip" style="flat" background="var(--sl-blue)" radius="3" center="yes" target="blank" size="6" icon="icon: arrow-down"]Download[/su_button]
