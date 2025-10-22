@@ -1,8 +1,8 @@
 ---
-title: gSender Compilation
+title: Compile gSender
 menu_order: 9
-post_status: publish
-post_excerpt: Full instructions building gSender from source.
+post_status: draft
+post_excerpt: Full instructions and troubleshooting for building gSender from its open-source code.
 post_date: 2025-10-14 14:48:30
 taxonomy:
     knowledgebase_cat: gdocs
