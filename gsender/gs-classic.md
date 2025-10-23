@@ -1,11 +1,11 @@
 ---
 title: gSender Classic
-menu_order: 8
+menu_order: 2
 post_status: publish
 post_excerpt: Full instructions for use of the classic UI style for gSender. Includes layout, configuration, usage, features, & bug reporting.
 post_date: 2022-05-01 17:28:30
 taxonomy:
-    knowledgebase_cat: gdocs
+    knowledgebase_cat: gs-ex
     knowledgebase_tag:
         - gsender
 custom_fields:

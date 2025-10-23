@@ -1,11 +1,11 @@
 ---
 title: Compile gSender
-menu_order: 9
+menu_order: 3
 post_status: publish
 post_excerpt: Full instructions and troubleshooting for building gSender from its open-source code.
 post_date: 2025-10-14 14:48:30
 taxonomy:
-    knowledgebase_cat: gdocs
+    knowledgebase_cat: gs-ex
     knowledgebase_tag:
         - gsender
 custom_fields:

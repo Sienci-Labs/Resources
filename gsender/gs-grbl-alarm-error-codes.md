@@ -1,6 +1,6 @@
 ---
 title: grbl Alarms & Errors
-menu_order: 7
+menu_order: 5
 post_status: publish
 post_excerpt: Use this reference table to see the common Error codes and Alarm codes that you might see from your grbl-based CNC machine.
 post_date: 2022-05-01 17:28:00
