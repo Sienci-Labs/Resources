@@ -389,4 +389,4 @@ This is a very common source of issues, often manifesting as errors during `yarn
 
 ## Contributing
 
-If you've successfully built gSender and found a solution to an unlisted problem, consider contributing to the project or creating a Pull Request to improve this documentation. Your contributions help the entire community!
+If you've successfully built gSender and found a solution to an unlisted problem, consider contributing to the project or creating a <a href="https://github.com/Sienci-Labs/gsender/pulls" target="_blank" rel="noopener">Pull Request</a> to improve this documentation. Your contributions help the entire community!
