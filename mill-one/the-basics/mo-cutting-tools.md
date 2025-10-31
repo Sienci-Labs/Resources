@@ -40,7 +40,7 @@ With one of these tools in hand, you can start making cool and good-looking thin
 ### Cutting Tool Essentials
 
 <ul>
-  <li><a href="https://sienci.com/product/18-flat-end-mill/" target="_blank" rel="noopener">1/8”, 2-flute end mill</a> (for woods, plastics, and foams)</li>
+  <li><a href="https://sienci.com/product/1-8-flat-upcut-end-mill_3pcs_or10pcs/" target="_blank" rel="noopener">1/8”, 2-flute end mill</a> (for woods, plastics, and foams)</li>
   <li><a href="https://sienci.com/product/18-ball-end-mill/" target="_blank" rel="noopener">1/8”, 2-flute ballnose mill</a> (for contours and detailing)</li>
   <li><a href="https://sienci.com/product/%e2%85%9b-v-engraving-carbide-30-degree-bit/" target="_blank" rel="noopener">Small-degree v-bit</a> (for fine engraving, detailing, and PCBs)</li>
 </ul>

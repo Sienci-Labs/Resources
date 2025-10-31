@@ -29,7 +29,7 @@ Contact us or consult the <a href="https://www.facebook.com/groups/mill.one/" ta
 
 If you need a more visual guide on how to assemble the Mill One, we created <a href="https://www.YouTube.com/watch?v=t5qDvDFpf3w&amp;list=PLE43LQy2a1irDdNc4_Fz251hJ3srmfyB8" target="_blank" rel="noopener">assembly videos</a> for version 1 of the machine. Some steps in the assembly will differ due changes in design between versions 3 and older versions of the Mill One. The assembly manual for older versions are <a href="https://resources.sienci.com/wp-content/uploads/2021/05/Sienci-Mill-One-Assembly-Manual.pdf" target="_blank" rel="noopener">here (Version 1)</a>, and <a href="https://resources.sienci.com/wp-content/uploads/2021/05/Sienci-Mill-One-V2-Assembly-Manual.pdf" target="_blank" rel="noopener">here (Version 2)</a>.
 
-If you ordered an <a href="https://sienci.com/product/anti-backlash-nut-kit/">Anti Backlash Nut Kit</a> with your Mill One, instructions on assembling them can be found on the sticker on the package, and substitute them for the stock nuts found on Steps 1-3 in the assembly manual.
+If you ordered an **Anti Backlash Nut Kit** with your Mill One, instructions on assembling them can be found on the sticker on the package, and substitute them for the stock nuts found on Steps 1-3 in the assembly manual.
 
 ![](/_images/_mill-one/_assembly/mo_assemble_p1_BacklashKit.png){.aligncenter .size-medium}
 
