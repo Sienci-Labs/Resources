@@ -460,14 +460,6 @@ A python-based interface software and CAM utility. The main downside is that the
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p17_bCNC.png){.aligncenter .size-medium}
 
-[tabby title="Source Rabbit"]
-
-<b>Source Rabbit</b> (<a href="https://www.sourcerabbit.com/GCode-Sender/" target="_blank" rel="noopener noreferrer">link to site</a>)
-
-This program is a modified version of UGS Classic with similar functionality and a modified layout, but with some of the added features that UGS Platform has. In some areas it's been too far simplified that it reduces functionality, for instance the visualizer will only show g-code in the positive axes instead of showing the entire file.
-
-![](/_images/_longmill/_software/lm_choosingsoft_p18_SourceRabbit.JPG){.aligncenter .size-medium}
-
 [tabbyending]
 </div>
 

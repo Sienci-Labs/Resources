@@ -21,7 +21,7 @@ Wood is simply an amazing material. As it is a living, organic material, there a
 
 ![](/_images/_cnc-fun/_the-basics/cnc_ba_materials_p1-guitar.jpg){.aligncenter .size-medium}
 
-General recommended starting feeds and speeds for <a href="http://sienci.com/product/18-flat-end-mill/" target="_blank" rel="noopener">1/8" 2 flute flat end mills</a>. Please start with these settings and adjust, these are not hard and fast speeds:
+General recommended starting feeds and speeds for <a href="https://sienci.com/product/1-8-flat-upcut-end-mill_3pcs_or10pcs/" target="_blank" rel="noopener">1/8" 2 flute flat end mills</a>. Please start with these settings and adjust, these are not hard and fast speeds:
 
 <table class="wp-table" width="70%">
 <tbody>

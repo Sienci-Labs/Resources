@@ -142,7 +142,6 @@ If you're looking for some more inspiration, or would like to start by making so
 - <a href="https://freedxf.com/product-category/free/" target="_blank" rel="noopener noreferrer">FreeDXF</a> (sign-up rqd, free &amp; paid content)
 - <a href="http://3axis.co/" target="_blank" rel="noopener noreferrer">3axis.co</a> (need to wait 5 seconds for download)
 - <a href="https://www.cnccookbook.com/free-dxf-files/" target="_blank" rel="noopener noreferrer">CNC Cookbook (free dxf files)</a>
-- <a href="https://cncfilesharing.com/" target="_blank" rel="noopener noreferrer">CNC File Sharing</a> (sign-up rqd)
 - <a href="https://www.toolstoday.com/t-cnc-pattern-directories" target="_blank" rel="noopener noreferrer">ToolsToday Pattern Directory</a> (links to free and paid content)
 - <a href="https://www.scan2cad.com/free-downloads/dxf/" target="_blank" rel="noopener noreferrer">Scan2CAD</a> (free collection every month, sign-up rqd)
 - <a href="https://www.zenziwerken.de/" target="_blank" rel="noopener noreferrer">ZenziWerken</a> (2D and 3D files, all free, made by one guy: Daniel)
@@ -159,7 +158,7 @@ If you're looking for some more inspiration, or would like to start by making so
 - <a href="https://cncrouterdesign.com/" target="_blank" rel="noopener noreferrer">CNC Router Design</a> (sign-up rqd, all paid content)
 - <a href="https://projects.buildbotics.com/explore/creations" target="_blank" rel="noopener noreferrer">Buildbotics Projects</a> (old, almost empty, broken images)
 - <a href="http://www.cnc4free.org/" target="_blank" rel="noopener noreferrer">cnc4free.org</a> (non-commercial use)
-- <a href="http://atfab.co/cnc-furniture/" target="_blank" rel="noopener noreferrer">AtFAB</a> (furniture, sign-up rqd)
+- <a href="https://filson-rohrbacher.com/work/atfab" target="_blank" rel="noopener noreferrer">AtFAB</a> (furniture, sign-up rqd)
 - <a href="https://www.opendesk.cc/designs" target="_blank" rel="noopener noreferrer">https://www.opendesk.cc/designs</a> (furniture)
 
 General sources:

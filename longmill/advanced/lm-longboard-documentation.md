@@ -207,7 +207,7 @@ The other common inputs (the limit switches and probe), are also easy to bring o
 
 With the wiring complete, the last step is to configure the EEPROM of the LongBoard. The LongBoard should already come pre-flashed to accommodate most machines, but it won't know if the motor is turning the wrong way, what the size of the machine is, or if you have a spindle or limit switches. This step is to give the controller an understand of what your CNC looks like so the controller can know how to move it around correctly. Many CNC manufacturers will provide these settings to their customers for proper configuration. Some examples are (though understand that machine settings can change all the time so these values might be out of date):
 
-- Shapeoko: <a href="https://wiki.shapeoko.com/index.php/Grbl_Configuration" target="_blank" rel="noopener">https://wiki.shapeoko.com/index.php/Grbl_Configuration</a>
+- Shapeoko: <a href="https://www.reddit.com/r/shapeoko/wiki/grbl/" target="_blank" rel="noopener">https://www.reddit.com/r/shapeoko/wiki/grbl/</a>
 - X-Carve: <a href="https://discuss.inventables.com/t/x-carve-grbl-default-settings-500mm/13824" target="_blank" rel="noopener">https://discuss.inventables.com/t/x-carve-grbl-default-settings-500mm/13824</a>
 
 The values that you'll be most interested in for initial setup will be:

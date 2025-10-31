@@ -212,7 +212,7 @@ If you want to see the types of features and options the SuperLongBoard presentl
 
 ![](/_images/_superlongboard/_manual/slb_ma_p2_DrawBoard.jpg){.aligncenter .size-full}
 
-All of the SuperLongBoard project is licensed as "CERN-OHL-S v2". This means stuff like licensing your code and hardware changes under the same license, giving attribution to us, and if you use our firmware on other hardware then that hardware should have the same license too. You can [read more about the license here](https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2), in the LICENSE file contained in most repos, or in the License headers of the affected files.
+All of the SuperLongBoard project is licensed as "CERN-OHL-S v2". This means stuff like licensing your code and hardware changes under the same license, giving attribution to us, and if you use our firmware on other hardware then that hardware should have the same license too. You can [read more about the license here](https://gitlab.com/ohwr/project/cernohl/-/wikis/Documents/CERN-OHL-version-2), in the LICENSE file contained in most repos, or in the License headers of the affected files.
 
 The SLB Firmware is made up of 11 repos plus there's the repo containing the design of the board:
 

@@ -45,14 +45,6 @@ Access Kiri:Moto here: <a href="https://grid.space/kiri/?sm:CAM" target="_blank"
 
 ![](/_images/_mill-one/_software/mo_cam_p2_BrowserSlicer.png){.aligncenter .size-medium}
 
-### <a href="http://www.makercam.com/about.html" target="_blank" rel="noopener">MakerCAM</a> (2D Drawings) **no longer functional
-
-This program is designed for 2D cutting and etching. It's very simple and also browser-based. The makers of MakerCAM put together their own <a href="http://www.makercam.com/tutorial.html" target="_blank" rel="noopener">instruction set </a>that you can follow if you'd like to become more familiar with the program, as well as a <a href="http://www.makercam.com/help.html" target="_blank" rel="noopener">help page</a> if you require any further assistance.
-
-Access it here: <a href="http://www.makercam.com/" target="_blank" rel="noopener">http://www.makercam.com/</a>
-
-Check out the Caleb Peters' <a href="https://www.YouTube.com/watch?v=-CHJJRMeAGU&amp;list=PLxm-7P1GnMICaQdDBz4kpNNXRcxo-IcqQ" target="_blank" rel="noopener">three part tutorial</a> outlining a gear coaster he designed and built. In the second video, he shows how to import the gear drawing into MakerCAM and generate the g-code for it:
-
 ### Conclusion
 
 With your ability to generate toolpaths, the Mill One is awaiting your command. The last step is the g-code sending software that will livestream the g-code to your machine.

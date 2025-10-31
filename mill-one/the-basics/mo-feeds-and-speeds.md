@@ -35,7 +35,7 @@ When cutting, the tool can be pushed away from where it should be since it's not
 
 ## Recommendations
 
-These feeds and speeds are meant to be a starting point in finding the right parameters that work best for your setup. Feeds and speeds listed on this page have been tested to work with <b>2-flute, 1/8" carbide end mills</b>, the type of cutting tool that is most readily available <a href="https://sienci.com/product-category/cutting-tools/" target="_blank" rel="noopener">in our store</a>.
+These feeds and speeds are meant to be a starting point in finding the right parameters that work best for your setup. Feeds and speeds listed on this page have been tested to work with <b>2-flute, 1/8" carbide end mills</b>, the type of cutting tool that is most readily available <a href="https://sienci.com/product-category/end-mills-bits/" target="_blank" rel="noopener">in our store</a>.
 
 Unless you're doing 3D contour cutting where the z-axis moves up and down a lot, we usually recommended lower plunge rates (100mm/min to 300mm/min) for most materials.
 

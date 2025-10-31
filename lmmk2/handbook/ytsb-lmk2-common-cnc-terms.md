@@ -219,13 +219,9 @@ These are the settings you’d change to improve the performance of your cutting
 ## Sources & Other Info
 
 <a href="https://www.cnccookbook.com/cnc-dictionary/" target="_blank" rel="noopener noreferrer">https://www.cnccookbook.com/cnc-dictionary/</a><br>
-<a href="https://wiki.shapeoko.com/index.php/glossary" target="_blank" rel="noopener noreferrer">https://wiki.shapeoko.com/index.php/glossary</a><br>
+<a href="https://shapeokoenthusiasts.gitbook.io/shapeoko-cnc-a-to-z/glossary" target="_blank" rel="noopener noreferrer">https://shapeokoenthusiasts.gitbook.io/shapeoko-cnc-a-to-z/glossary</a><br>
 <a href="https://cimquest-inc.com/what-is-chip-load/" target="_blank" rel="noopener noreferrer">https://cimquest-inc.com/what-is-chip-load/</a><br>
 <a href="https://www.cnccookbook.com/climb-milling-versus-conventional-milling/" target="_blank" rel="noopener noreferrer">https://www.cnccookbook.com/climb-milling-versus-conventional-milling/</a><br>
-<a href="https://engmachineshop.wustl.edu/items/climb-milling-vs-conventional-milling/" target="_blank" rel="noopener noreferrer">https://engmachineshop.wustl.edu/items/climb-milling-vs-conventional-milling/</a><br>
 <a href="https://www.harveyperformance.com/in-the-loupe/ramping-success/" target="_blank" rel="noopener noreferrer">https://www.harveyperformance.com/in-the-loupe/ramping-success/</a><br>
-<a href="https://www.axyz.com/us/2018/11/16/technical-tip-of-the-week-when-to-use-lead-ins-and-ramps/" target="_blank" rel="noopener noreferrer">https://www.axyz.com/us/2018/11/16/technical-tip-of-the-week-when-to-use-lead-ins-and-ramps/</a><br>
 <a href="http://www.helmancnc.com/g-code-g95-feed-per-revolution/" target="_blank" rel="noopener noreferrer">http://www.helmancnc.com/g-code-g95-feed-per-revolution/</a><br>
-<a href="https://circlemwoodworking.com/cnc-router-motor-vs-spindle-which-is-better/" target="_blank" rel="noopener noreferrer">https://circlemwoodworking.com/cnc-router-motor-vs-spindle-which-is-better/</a><br>
-<a href="https://www.axyz.com/us/2018/02/22/using-a-compression-bit/" target="_blank" rel="noopener noreferrer">https://www.axyz.com/us/2018/02/22/using-a-compression-bit/</a><br>
 <a href="https://www.endmill.com.au/pcb-corn-cutter-carbide-router-bit/" target="_blank" rel="noopener noreferrer">https://www.endmill.com.au/pcb-corn-cutter-carbide-router-bit/</a>

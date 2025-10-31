@@ -655,7 +655,7 @@ As mentioned in the <a href="#laser">Laser section</a> above, we designed the SL
 
 The Laser wiring is covered above. Both flavours of Spindle signals are there to give you the 2 most popular options for talking to VFDs. The simple signals tend to have easier setup with less fuss, meanwhile RS485 requires more work but provides better, two-way communication during cutting. Whichever option you choose, you’ll want to check that you're wired up correctly and have the right settings for both your SLB and VFD so they match up to each other.
 
-If you opted for an out-of-the box experience by picking up a <a href="https://sienci.com/product/LongMill-spindle-and-dust-shoe-kit/" target="_blank" rel="noopener">Sienci Spindle which will soon be compatible for a wide range of CNC machines</a>, then you won’t need to reference any of the following docs since all the work is done for you.
+If you opted for an out-of-the box experience by picking up a <a href="https://sienci.com/product/longmill-1-5kw-er20-spindle-clear-cut-dust-shoe-kit/" target="_blank" rel="noopener">Sienci Spindle which will soon be compatible for a wide range of CNC machines</a>, then you won’t need to reference any of the following docs since all the work is done for you.
 
 **Note**: currently the SLB doesn’t support SaS (‘Spindle-at-Speed’, a signal that some VFDs can send back to the board so that the board can wait for the spindle to speed up before starting the cutting process).
 
