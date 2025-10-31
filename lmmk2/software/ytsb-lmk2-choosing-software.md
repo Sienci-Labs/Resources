@@ -391,14 +391,6 @@ The full list of grbl-compatible senders is generally maintained here: <a href="
 <td>All desktops</td>
 <td>Free</td>
 </tr>
-<tr>
-<td>Source Rabbit</td>
-<td><span class="orgText">Interface</span></td>
-<td>1</td>
-<td>Based off UGS Classic, it has some additional features while remaining lightweight</td>
-<td>All desktops</td>
-<td>Free</td>
-</tr>
 </tbody>
 </table>
 
