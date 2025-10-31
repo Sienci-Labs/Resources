@@ -19,7 +19,7 @@ Another aspect of learning how to use your CNC router involves knowing how to pr
 
 ### T-Tracks
 
-T-tracks allow you to insert a variety of clamps along their length, such as toe clamps, making it a very quick and versatile way to secure items to your bed. You can find aluminum t-track and compatible clamps online, <a href="https://sienci.com/product/t-track/">on our store</a>, and at your local woodworking store.
+T-tracks allow you to insert a variety of clamps along their length, such as toe clamps, making it a very quick and versatile way to secure items to your bed. You can find aluminum t-track and compatible clamps online, <a href="https://sienci.com/product/t-tracks-and-clamps-set-48-34/">on our store</a>, and at your local woodworking store.
 
 ![](/_images/_longmill/_the-basics/lm_workholding_p1_t-track.jpg){.aligncenter .size-medium}
 
@@ -28,7 +28,7 @@ T-tracks allow you to insert a variety of clamps along their length, such as toe
 <ul>
 <li>Putting t-track in then putting thicker MDF slats in between like in the photo allows you to mill off the surface of the MDF to get a perfectly flat surface relative to your machine. It also enables you to make smaller wasteboard replacements, instead of needing to replace the whole board.</li>
 <li>If you have a thick enough waste bed, you can use your machine to cut the grooves for your t-track. Just cut grooves to fit the width of your t-track.</li>
-<li>We designed a custom t-track system that works with <a href="https://sienci.com/product/t-track/" target="_blank" rel="noopener">hex-headed 1/4"-20 hardware that you can see in our store</a> and has a setup guide here: <a href="https://resources.sienci.com/view/lmk2-t-track-set/" target="_blank" rel="noopener">Installing the LongMill T-Track set</a></li>
+<li>We designed a custom t-track system that works with <a href="https://sienci.com/product/t-tracks-and-clamps-set-48-34/" target="_blank" rel="noopener">hex-headed 1/4"-20 hardware that you can see in our store</a> and has a setup guide here: <a href="https://resources.sienci.com/view/lmk2-t-track-set/" target="_blank" rel="noopener">Installing the LongMill T-Track set</a></li>
 </ul>
 
 https://www.youtube.com/watch?v=T4QVgtnZMDw

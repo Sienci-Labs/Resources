@@ -195,7 +195,7 @@ In the chart below we explore many of the things you may want to consider adding
 | **Safety Equipment** ([glasses](https://sienci.com/product/laser-safety-glasses/), [mask](https://www.amazon.ca/Rugged-Comfort-Facepiece-Reusable-Respirator/dp/B00IF7RBS4/ref=sr_1_16), [etc.](https://www.amazon.ca/3M-Peltor-Optime-Earmuffs-H10A/dp/B00009LI4K/ref=sr_1_4))  | *$50 - $150*                                              |
 | **Computer, Monitor, Mouse** ([gControl Panel Computer](https://sienci.com/product/gcontrol/))               | *$250 - $800*                                             |
 | **Software** ([VCarve Pro](https://sienci.com/product/vectric-vcarve-pro/), [Carveco](https://sienci.com/product/carveco-maker-subscription/), [LightBurn](https://sienci.com/product/lightburn/), [CAMLab](http://camlab.sienci.com/welcome/))           | *$0 - $699*                                               |
-| **Supplies** ([workholding](https://sienci.com/product/t-track/), sandpaper, oils, etc.) | *$100 - $500*                                             |
+| **Supplies** ([workholding](https://sienci.com/product/t-tracks-and-clamps-set-48-34/), sandpaper, oils, etc.) | *$100 - $500*                                             |
 | **Table/Enclosure** ([community builds](https://resources.sienci.com/view/lmk2-table-enclosure/), [wasteboard](https://resources.sienci.com/view/lmk2-table-mounting/#suitable-wasteboard-amp-table) ) | *$200 - $600*                                             |
 | **Total Estimated Cost:**                     | **$1,150 - $4,550** |
 

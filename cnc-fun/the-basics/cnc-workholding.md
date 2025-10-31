@@ -146,7 +146,7 @@ Apply glue in small beads or spots, press firmly until it sets, and avoid excess
 
 ### T-tracks/T-slot mounted to the table
 
-T-Tracks are a tried-and-true favorite among hobbyists and pros alike. These handy tracks let you position clamps anywhere along the wasteboard, making it easy to secure odd-shaped materials and quickly rearrange clamps for different-sized projects. You can find aluminum t-track and compatible clamps online, <a href="https://sienci.com/product/t-track/">on our store</a>, and at your local woodworking store.
+T-Tracks are a tried-and-true favorite among hobbyists and pros alike. These handy tracks let you position clamps anywhere along the wasteboard, making it easy to secure odd-shaped materials and quickly rearrange clamps for different-sized projects. You can find aluminum t-track and compatible clamps online, <a href="https://sienci.com/product/t-tracks-and-clamps-set-48-34/">on our store</a>, and at your local woodworking store.
 
 Check out this great video on building a bench and installing T-tracks [Watch Video](https://www.youtube.com/watch?v=T4QVgtnZMDw)
 
@@ -169,7 +169,7 @@ Check out this great video on building a bench and installing T-tracks [Watch Vi
 
 - Putting t-tracks in between thicker MDF slats, like in the photo, will allow you to mill off the surface of the MDF to get a perfectly flat surface relative to your machine. Furthermore, instead of replacing the whole wasteboard, you could replace smaller sections of it at a time
 - If you have a thick enough waste bed, you can use your machine to cut the grooves for your t-track, just size the grooves to be the width of your t-track
--We designed a custom t-track system that works with hex-headed 1/4"-20 hardware that you can see  <a href="https://sienci.com/product/t-track/" target="_blank" rel="noopener">in our store here</a> , with the  setup guide here: <a href="https://resources.sienci.com/view/assembling-add-ons/" target="_blank" rel="noopener">Installing the LongMill T-Track set</a>
+-We designed a custom t-track system that works with hex-headed 1/4"-20 hardware that you can see  <a href="https://sienci.com/product/t-tracks-and-clamps-set-48-34/" target="_blank" rel="noopener">in our store here</a> , with the  setup guide here: <a href="https://resources.sienci.com/view/assembling-add-ons/" target="_blank" rel="noopener">Installing the LongMill T-Track set</a>
 
 T-Tracks work best with top clamps, though some side clamps can also be used. Keep in mind that certain side clamps may have a limited range or might slip when aligned with the track direction.
 
@@ -183,7 +183,7 @@ T-Tracks work best with top clamps, though some side clamps can also be used. Ke
 
 While T-Tracks require an upfront investment and a bit of setup time, they’re a reusable, long-term solution that’ll save you time and money compared to one-time-use options like double-sided tape.  If you find yourself working on a variety of projects, this system may be right for you. Check out our community chatting about building a t-track table [Community Link](https://forum.sienci.com/t/t-track-install/2120).
 
-T-tracks are available for purchase on our store page here, or can be found in other sizes/variations from other sources depending on your needs. Full instructions for installing T-tracks can be found [Instructions](https://sienci.com/product/t-track/).
+T-tracks are available for purchase on our store page here, or can be found in other sizes/variations from other sources depending on your needs. Full instructions for installing T-tracks can be found [Instructions](https://sienci.com/product/t-tracks-and-clamps-set-48-34/).
 
 [tabby title="Threaded Inserts"]
 
