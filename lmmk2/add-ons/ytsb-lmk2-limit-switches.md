@@ -44,36 +44,36 @@ Each kit comes with:
 * M5 T-nut for mounting the Y-axis sensor bracket
 * M5-10mm socket head cap screws for mounting the Y-axis sensor bracket
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-switches.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_switches.jpg){.aligncenter .size-medium}
 
  Before you begin, you will have to decide where you want your machine to home to since this will decide where you place your sensors. The Z-axis will always home to the top, but X and Y can home to any of the 4 corners of the machine's travel. We recommend homing to the front left or back left corners because:
 
 * **Front left corner (recommended)**: most projects have a zero point on their front left corner so setting up a stop block can allow you to use your home point as the starting point for your cutting job. This also brings everything to the front to be easily accessible for setup, troubleshooting, or tool changes.
 * **Back left corner**: another common homing point. Homes out of the way to give you space for setting up your material for a project.
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-homing-positions.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_homing-positions.jpg){.aligncenter .size-medium}
 
 ### Attaching the Sensors
 
 For the Z-axis, remove the nut and washer on the end of one of the inductive sensors. Pass this sensor through either of the two holes on the X-axis gantry plate (pictured), whichever you prefer. Re-install the washer and nut onto the end of the sensor. Leave it loose and use the nuts on either end to adjust where the sensor sits so that the blue tip doesn’t hit the Z-axis gantry at its upper position, then tighten the nuts. The steel wrench included with your LongMill MK2 serves to tighten the 17mm nuts on each sensor as shown.
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-zaxis.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_zaxis.jpg){.aligncenter .size-medium}
 
 Mounting the X-axis sensor will also start by removing the nut and washer off the end. Pass this sensor through the large hole at the top of the left Y-gantry plate, then re-install the washer and nut onto the end of the sensor. Adjust the nuts on the sensor so that the inside nut is threaded just barely onto the end of the sensor, then tighten the nuts. If you’ve chosen to home your machine to the right side instead, mount this sensor on the right Y-gantry plate mirrored to what is shown.
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-xaxis.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_xaxis.jpg){.aligncenter .size-medium}
 
 The Y-axis sensor uses a bracket to mount onto the underside of the Y-axis rail. Install the inductive sensor into the bracket by unscrewing the nut and washer from the sensor. Pass the sensor through the large hole on the mount, then reinstall the washer and nut. You’ll want to adjust where the sensor sits on the bracket so that the face of the blue tip is flush with the edge of the bracket as shown below.
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-bracket.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_bracket.jpg){.aligncenter .size-medium}
 
 To mount this bracket and sensor to the rail, first slide the t-nut into the bottom t-slot of the rail (pictured) until the t-nut is about 1” from the front foot. Start threading the M5-10mm screw into the t-nut but leave a gap so the bracket can be slid between the head of the screw and the bottom of the rail.
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-yaxis-slot.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_yaxis-slot.jpg){.aligncenter .size-medium}
 
 Where the bracket has a slot, slide it onto the screw with the sensor facing inwards until it bottoms out, then finish tightening the screw while holding the sensor.
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-yaxis.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_yaxis.jpg){.aligncenter .size-medium}
 
 **Note:** the Y-axis sensor mount is designed so it can be used on any of the four corners of the machine. If you chose to home to a different corner than the front left corner, your Y-axis mounting will be mirrored from the images shown above or you’ll have to flip the sensor inside the mount.
 
@@ -81,15 +81,15 @@ Where the bracket has a slot, slide it onto the screw with the sensor facing inw
 
 Routing the cables from the inductive sensors happens similarly to the original machine assembly. Un-clipping both drag chains the X and Z-axis sensor wires will follow the stepper motor wire near them and be closed in again once you're confident the sensors are working and correctly placed. The Y-axis sensor cable will run straight to the control box. You can label these as you route them if it helps keep track of each but their length is also an easy way to check where they come from.
 
-![](../../_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-wire1.jpg){.aligncenter .size-medium}
+![](../../_images/_lmmk2/_add-ons/_all/lmk2_add_li_wire1.jpg){.aligncenter .size-medium}
 
 Make sure there aren't any sharp bends or tears in the cables as a failed limit sensor could cause a false alarm and halt the machine during use.
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-wiredrag.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_wiredrag.jpg){.aligncenter .size-medium}
 
 Once routed to the control box, each cable will have a spot to plug in. Look for the three white JST connectors labelled as **XLim**, **YLim**, and **ZLim** on the side of the box and connect each sensor accordingly.
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-longboard-plugs.jpg "X, Y and Z sensors plugged into LongBoard"){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_longboard-plugs.jpg "X, Y and Z sensors plugged into LongBoard"){.aligncenter .size-medium}
 
 ### Firmware Changes
 
@@ -105,13 +105,13 @@ In some g-code senders you’ll need to send these changes manually using their 
 
 [tabby title="Current" open="yes"]
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-hardlimits-newu.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_hard-limits-newu.jpg){.aligncenter .size-medium}
 
 Don't forget to hit the **Apply Settings** button once any changes are made. 
 
 [tabby title="Classic gSender"]
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-hardlimits.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_hard-limits.jpg){.aligncenter .size-medium}
 
 [tabbyending]
 
@@ -127,11 +127,11 @@ If you’ve enabled homing and lost a connection to your machine it will enter a
 
 [tabby title="Current" open="yes"]
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-alarm-newu.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_alarm-newu.jpg){.aligncenter .size-medium}
 
 [tabby title="Classic gSender"]
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-alarm.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_alarm.jpg){.aligncenter .size-medium}
 
 [tabbyending]
 
@@ -147,11 +147,11 @@ With CNC, work offsets can be thought of as bookmarks. They are saved locations 
 
 [tabby title="Current" open="yes"]
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-workspaces-newu.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_workspaces-newu.jpg){.aligncenter .size-medium}
 
 [tabby title="Classic gSender"]
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-workspaces.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_workspaces.jpg){.aligncenter .size-medium}
 
 [tabbyending]
 
@@ -161,7 +161,7 @@ All 6 of these workspaces are saved by the controller even after powering off th
 
 **Homing didn’t complete / ‘Alarm 9’** Homing can fail by either immediately detecting a limit switch when there’s none nearby, moving in the wrong direction, or a limit switch not triggering when reached. For homing direction you can use the ‘Firmware’ tool to flip any axis with the ‘$23’ value. For all other cases, it’s best to first re-check your wiring and that each sensor is connected to the correct port. More detailed troubleshooting is available if you type “$10=19” into the console and when you place a piece of metal in front of any sensor type “?” into the console and look at the response text to confirm that the correct sensor is registering as being triggered.
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-sensor-position.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_sensor-position.jpg){.aligncenter .size-medium}
 
 If all sensors are reporting correctly, another check to make is that there’s nothing preventing the machine from reaching the sensor. It shouldn’t be colliding or be too far away that the machine isn’t activating the red light on the sensor. Once troubleshooting is complete be sure to send “$10=3” in the console to exit from the special reporting state. **Limit Switches Not Responding** If you aren't seeing a sensor triggered in the gSender console the issue may be with the connector on the controller or with the sensor itself. While rare, the sensor can fail but most likely the issue will be on the board. Let's test and see if the limit switch is responding correctly. When a piece of metal is placed in front of the limit switch, the red LED on the back of the sensor should light up. You may have to cover the back of the sensor with your hand to see the LED. During this test, make sure your controller is on.
 
@@ -172,7 +172,7 @@ If all sensors are reporting correctly, another check to make is that there’s 
 
 To further test the controller please take a small length of wire and install it as the image below. One end will be in either the XLim, YLim, or ZLim pin (depending on the limit switch with the issue) and the other in the GND pin.
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-jumper.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_jumper.jpg){.aligncenter .size-medium}
 
 Open gSender and in the bottom-right corner click Console. In the space that says "Enter G-Code Here..." Type the following text in bold
 
@@ -181,11 +181,11 @@ Open gSender and in the bottom-right corner click Console. In the space that say
 
 You should one of the following lines depending on which sensor was jumped
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-sensor-position.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_sensor-position.jpg){.aligncenter .size-medium}
 
 If you see the following, the issue is on the board and a replacement will be required to use the homing switches. Once troubleshooting is complete be sure to send “$10=3” in the console to exit from the special reporting state.
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-board-replace.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_board-replace.png){.aligncenter .size-medium}
 
 **Jogging or jobs suddenly stop - ‘Alarm 2’ or ‘Error 15’** This is coming from your soft limits:
 
@@ -218,17 +218,17 @@ In order to attach and wire your own custom set of limit switches to your setup,
 
 The first step is to figure out how to wire your switches. If you have NPN or PNP type switches (common with inductive sensors), you’ll have 3 wires; GND, signal, and 5V. If you have NO or NC type switches (common with mechanical/button switches), you’ll only need to use two wires; COM, and NC or NO. For switches that come with 4-pin JST connectors, you can simply plug the switches into the white connectors on the side of your control board, making sure the wiring is correct based on the type of switch you have (NO, NC, NPN, PNP). If the wiring order is wrong it’s also possible to use a small flathead screwdriver to press into the pin slots on the underside of the connector to remove the crimped pins and reorder them.
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-NCJST.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_nc-jst.png){.aligncenter .size-medium}
 
 If you have just the switch and wires, use the green screw terminal connector to securely connect each wire. For mechanical switches (NO, NC type), each switch must be wired to a different signal line, then to GND, as indicated in the "x3" label on the diagram. For inductive sensors (NPN, PNP type), each switch must be wired to a different signal line, then to GND and 5V, as indicated in the "x3" label on the diagram.
 
 [tabby title="Mechanical" open=”yes”]
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-NC.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_nc-wiring.png){.aligncenter .size-medium}
 
 [tabby title="Inductive"]
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-NCNPN.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_nc-npn.png){.aligncenter .size-medium}
 
 [tabbyending]
 
@@ -236,11 +236,11 @@ If you’re using two switches per axis to act as hard limits on each end, wirin
 
 [tabby title="NO" open=”yes”]
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-NOSwitches.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_no-wiring.png){.aligncenter .size-medium}
 
 [tabby title="NC"]
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-TwoSwitches.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_nc-wiring-2.png){.aligncenter .size-medium}
 
 [tabbyending]
 
@@ -252,11 +252,11 @@ You can use the basic settings outlined for our kit or make more advanced change
 
 [tabby title="Current" open="yes"]
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-firmware-newu.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_firmware-newu.jpg){.aligncenter .size-medium}
 
 [tabby title="Classic gSender"]
 
-![](/_images/_lmmk2/_add-ons/_all/lmk2_ad_al_limit-firmware.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_all/lmk2_add_li_firmware.jpg){.aligncenter .size-medium}
 
 [tabbyending]
 
