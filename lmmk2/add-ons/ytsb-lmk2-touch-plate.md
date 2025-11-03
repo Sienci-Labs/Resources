@@ -46,27 +46,7 @@ To help you visualize the final setup in action: when you go to probe you'll att
 
 With wiring complete, let’s move on to setting up your g-code sender to work with the touch plate. gSender and UGS (UGSPlatform) are easiest to configure for this style probe so we’ll show setup for both below.
 
-[tabby title="Current" open="yes"]
-
-gSender comes pre-loaded with all the settings needed for our touch plate and is able probe easily in the X, Y, and Z-axis and some other combinations.
-
-All probing happens in the Probe tab in the main Carve screen. Here you can select what type of probing you'd like to perform as well as select the tool you'll be using or you can type in the tool size manually.
-
-- **Z**: Finds the Z height only.
-- **XYZ**: Finds the zero point on the front, left corner of your material in all axes.
-- **XY, X, Y**: Finds the zero point in the X and/or Y directions only.
-
-![](/_images/_longmill/_assembly/_addons/lm_addons_p2real-newu.jpg){.aligncenter .size-medium}
-
-You can also add tools here if you want the probe widget to remember your most commonly used tools.
-
-![](/_images/_longmill/_assembly/_addons/lm_addons_p3-addnewu.jpg){.aligncenter .size-medium}
-
-If you have a third-party touch plate, you can click on the Config tab and then select or scroll to the Probe section. Here you'll be able to customize your plate dimensions, the probing speed, or switch over to a Z-only probe.
-
-![](/_images/_longmill/_assembly/_addons/lm_addons_p3-config.jpg){.aligncenter .size-medium}
-
-[tabby title="Classic gSender"]
+[tabby title="gSender" open="yes"]
 
 gSender comes pre-loaded with all the settings needed for our touch plate and is able probe easily in the X, Y, and Z-axis and some other combinations.
 
@@ -133,21 +113,7 @@ If you want to run a probing operation, first we need to place the touch plate a
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p5.png "1/4″ end mill positioned for an XYZ probe"){.aligncenter .size-medium}
 
-[tabby title="Current" open="yes"]
-
-Back in the 'Probe' tab, you can choose which axis to probe for and the diameter of the bit you're using - in this case select 'XYZ'. The bit size can be selected from the drop-down of saved bits, or can be typed in manually. Press the **Probe** button and you'll get a pop-up window to confirm you've positioned your bit correctly and you'll be prompted to check for a good connection.
-
-![](/_images/_longmill/_assembly/_addons/lm_addons_p5-probe.jpg){.aligncenter .size-medium}
-
-You can either bring the touch plate to the end mill or touch the banana plug and magnet together. Make contact a few times just to confirm there is conductivity, as the red circle should flicker to green and a blue 'Start Probe' button appears.
-
-![](/_images/_longmill/_assembly/_addons/lm_addons_p6-probeconfirm.jpg){.aligncenter .size-medium}
-
-Pressing 'Start Probe' will now make the machine move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press **XY** in the Go column. The bit should be over-top of the bottom left corner of the stock material, and pressing the blue **Z Button** in the Go column, should bring it to touch the materials surface.
-
-If the probing was **unsuccessful**, then it'll be indicated by the cutting bit not returning to where you started the probe cycle or the machine will be put into an 'ALARM' state. To bring it out of the alarm state, press the pulsing 'Unlock' button in the middle of the visualizer and that will put the machine back into its 'IDLE' state. An unsuccessful probing cycle can result from an incorrectly positioned probe or starting too far outside the circular logo. Be sure to verify your setup before attempting another probing cycle.
-
-[tabby title="Classic gSender"]
+[tabby title="gSender" open="yes"]
 
 Back in the 'Probe' tab, you can choose which axis to probe for and the diameter of the bit you're using - in this case select 'XYZ'. The bit size can be selected from the drop-down of saved bits, or can be typed in manually. Press the 'Probe' button and you'll get a pop-up window to confirm you've positioned your bit correctly and you'll be prompted to check for a good connection.
 
@@ -224,20 +190,6 @@ If your cable didn't come with a green connector, you should find a spare one ca
 
 All probing macros for the AutoZero are built into gSender making it easy to set up.
 
-[tabby title="Current" open="yes"]
-
-The key step is to make sure to go to gSenders settings (Config tab in the bottom left) ➜ go to the 'Probe' settings ➜ and change the touch plate type to **AutoZero Touch plate** in the dropdown menu. If you don't do this, or at a later time you find the probing macros are moving strangely, then you should come back to check that this setting is still correct. Remember to hit the Apply Settings button once you've changed your touch plate type.
-
-We recommend leaving the “Connection Test” option activated as well. If you're not using gSender and have the AutoZero, we also <a href="#using-other-senders">provide macros for other common senders</a>.
-
-![](/_images/_longmill/_assembly/_addons/lm_addons_p12-newu.jpg){.aligncenter .size-medium}
-
-Your **Probe** tab at the bottom right side of the Carve screen should now update to show images of the AutoZero. These tell you how you should position your bit if you'd like to perform probing for that axis.
-
-![](/_images/_longmill/_assembly/_addons/lm_addons_p13-newu.jpg){.aligncenter .size-medium}
-
-[tabby title="Classic gSender"]
-
 The key step is to make sure to go to gSenders settings (gear icon at the top, right of the window) ➜ go to the 'Probe' settings ➜ and change the touch plate type to “**AutoZero Touch plate**" in the dropdown menu. If you don't do this, or at a later time you find the probing macros are moving strangely, then you should come back to check that this setting is still correct.
 
 We recommend leaving the “Probe Connectivity Test” option activated as well. If you're not using gSender and have the AutoZero, we also <a href="#using-other-senders">provide macros for other common senders</a>.
@@ -247,8 +199,6 @@ We recommend leaving the “Probe Connectivity Test” option activated as well.
 Your **Probe** tab at the bottom right side of the screen should now update to show images of the AutoZero. These tell you how you should position your bit if you'd like to perform probing for that axis.
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p13.png){.aligncenter .size-medium}
-
-[tabbyending]
 
 ### Step 3: Setting up the touch plate on your workpiece
 
@@ -265,11 +215,11 @@ https://youtu.be/I1EhAPNXdzQ
 
 The AutoZero can probe in all three axes. The type of probing can be selected with one of the five options on the interface. The selection determines which axis the machine will be probing for and which coordinates it will reset once the probing cycle is complete.
 
-![](/_images/_longmill/_assembly/_addons/lm_addons_p14-newu.jpg){.aligncenter .size-medium .nar}
+![](/_images/_longmill/_assembly/_addons/lm_addons_p14.png){.aligncenter .size-medium .nar}
 
 Before you begin, make sure that both the touch plate is connected and the magnet is connected to the end mill or a nearby conductive surface such as the shank of the router or the router nut. gSender will ask to check for the continuity of the plate before starting the process to ensure your probe has the proper connection by asking you to touch the plate to your bit.
 
-![](/_images/_longmill/_assembly/_addons/lm_addons_p6-probeconfirm.jpg){.aligncenter .size-medium .nar}
+![](/_images/_longmill/_assembly/_addons/lm_addons_p15.png){.aligncenter .size-medium .nar}
 
 **For the "Z" Axis probe,** the machine will move down and touch off the block to find the offset distance based on the touch plate's thickness. Set the end mill above the back lip of the touch plate which is designed for doing Z probes.
 
