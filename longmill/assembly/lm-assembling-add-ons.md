@@ -322,7 +322,7 @@ This dust shoe is a Z-axis independent style dust shoe designed to collect dust 
 
 The assembly is shown after the initial reveal in the following video:
 
-https://www.YouTube.com/watch?v=r_QqMye3dLo
+https://www.youtube.com/watch?v=r_QqMye3dLo
 
 ## Installing the T-Track
 
