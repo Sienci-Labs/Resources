@@ -322,7 +322,7 @@ This dust shoe is a Z-axis independent style dust shoe designed to collect dust 
 
 The assembly is shown after the initial reveal in the following video:
 
-[su_youtube url="https://www.YouTube.com/watch?v=r_QqMye3dLo"]
+https://www.YouTube.com/watch?v=r_QqMye3dLo
 
 ## Installing the T-Track
 
@@ -483,8 +483,8 @@ If you want to learn why this part has been upgraded, you can check out the vide
 | Topic                                         | Type            | Link  |
 |-----------------------------------------------|----------------|-------|
 | Spring Loaded Anti-Backlash Nut Update Video | 17 min Video   | [Watch](https://youtu.be/HWAKAkOYG9U) |
-| Coupler Found to be Slipping After Upgrade   | Community Post | [Here](https://forum.sienci.com/t/x-axis-stuttering-and-stalling-found-the-problem/14964) |
-| Replacement Parts Sent Out                    | Community Post | [Here](https://forum.sienci.com/t/experiencing-backlash-with-new-spring-loaded-anti-backlash-nuts/12572) |
+| Coupler Found to be Slipping After Upgrade   | Community Post | [Read](https://forum.sienci.com/t/x-axis-stuttering-and-stalling-found-the-problem/14964) |
+| Replacement Parts Sent Out                    | Community Post | [Read](https://forum.sienci.com/t/experiencing-backlash-with-new-spring-loaded-anti-backlash-nuts/12572) |
 
 ## Regular Dust Shoe
 
