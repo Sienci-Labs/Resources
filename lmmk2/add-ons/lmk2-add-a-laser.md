@@ -11,7 +11,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: /_images/_longmill/_advanced/_laser/lm_ad_las_resistor.jpg
 ---
 
 Putting a laser on your LongMill or any CNC machine can be a fun and useful tool in expanding your creativity. The LongMill fully supports the use of either our own LaserBeam module or an aftermarket laser module.
@@ -81,12 +81,12 @@ The laser driver will have a + and - input for PWM (sometimes it's marked as TTL
 <b>3) Connect the driver to its power supply</b><br>
 Use the power supply that came with the laser driver, plugging the power connector into the indicated socket on the driver.
 
-![](/_images/_longmill/_advanced/_7_Laser/lm_laser_p0_wiring.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_laser/lm_ad_las_wiring.jpg){.aligncenter .size-medium}
 
 <b>Additional step</b><br>
 As reported by members of our community, some laser drivers (like the common Banggood SW-LD75 V1.1, bought as a package #: LA03-5000) require an extra step since their internal circuitry is a bit wonky. This involves picking up a **1kΩ resistor** and wiring it up from the **PWM** pin on the driver board to **any GND** connection on the LongBoard. In the case of the picture below, you can see that the free pin on the 3-pin power connector (circled in yellow) is being used rather than splitting off the PWM+ wire on the 2-pin signal connector (circled in green). That wire then has the resistor soldered on and follows to the GND connection for Coolant in this case.
 
-![](/_images/_longmill/_advanced/_7_Laser/lm_laser_p1_PSupply.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_laser/lm_ad_las_resistor.jpg){.aligncenter .size-medium}
 
 ### Setting up the Firmware
 
@@ -121,13 +121,13 @@ If you're using gSender the Laser On, Laser Test, and Laser Off buttons will tak
 
 [tabby title="Current" open="yes"]
 
-![](/_images/_longmill/_advanced/_7_Laser/lm_laser_p1_spinlaser-newu.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_laser/lm_ad_las_spinlas-en-newu.jpg){.aligncenter .size-medium}
 
-![](/_images/_longmill/_advanced/_7_Laser/lm_laser_p2_spinlaser-newu.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_laser/lm_ad_las_spinlas-ctrl-newu.jpg){.aligncenter .size-medium}
 
 [tabby title="Classic gSender"]
 
-![](/_images/_longmill/_advanced/_7_Laser/lm_laser_p2_SpinLaser.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_laser/lm_ad_las_spinlas.png){.aligncenter .size-medium}
 
 [tabbyending]
 
