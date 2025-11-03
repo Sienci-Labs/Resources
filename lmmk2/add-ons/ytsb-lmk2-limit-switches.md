@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_longmill/_advanced/_4_Inductive/lm_inductive_p1_DSC00411-scaled.jpg
+featured_image: _images/_longmill/_advanced/_ind-sensors/lm_ad_in_1_DSC00411-scaled.jpg
 ---
 
 Limit switches (also referred to as end stops or homing switches) are switches that sit at one or both ends of each axis of a CNC to provide a few different functions. There are many different limit switch designs which broadly fall under being either mechanical or non-mechanical.
