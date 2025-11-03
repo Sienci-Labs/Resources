@@ -12,14 +12,14 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: /_images/_longmill/_advanced/_7_Laser/lm_laser_p1_PSupply.jpg
+featured_image: /_images/_longmill/_advanced/_laser/lm_ad_las_resistor.jpg
 ---
 
 Putting a laser on your LongMill or any CNC machine can be a fun and useful tool in expanding your creativity. The LongMill fully supports the use of either our own LaserBeam module or an aftermarket laser module.
 
 If you've purchased a laser module from us, all the information about assembling and using the <a href="https://sienci.com/product/laser/" target="_blank" rel="noopener">LaserBeam System</a> can be found in it's own resources section here: <a href="https://resources.sienci.com/view/lb-manual/">https://resources.sienci.com/view/lb-manual/</a>
 
-<a href="https://resources.sienci.com/view/lb-manual/"><img class="flie aligncenter wp-image-3382" src="https://resources.sienci.com/wp-content/uploads/2022/03/LaserBeam-Logo-850x297.jpg" alt="" width="600" height="209" /></a>
+<a href="https://resources.sienci.com/view/lb-manual/"><img class="flie aligncenter wp-image-3382" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_laserbeam_logo.jpg" alt="" width="600" height="209" /></a>
 
 Users installing an aftermarket laser can follow the instructions below.
 
@@ -82,12 +82,12 @@ The laser driver will have a + and - input for PWM (sometimes it's marked as TTL
 <b>3) Connect the driver to its power supply</b><br>
 Use the power supply that came with the laser driver, plugging the power connector into the indicated socket on the driver.
 
-![](/_images/_longmill/_advanced/_7_Laser/lm_laser_p0_wiring.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_laser/lm_ad_las_wiring.jpg){.aligncenter .size-medium}
 
 <b>Additional step</b><br>
 As reported by members of our community, some laser drivers (like the common Banggood SW-LD75 V1.1, bought as a package #: LA03-5000) require an extra step since their internal circuitry is a bit wonky. This involves picking up a **1kΩ resistor** and wiring it up from the **PWM** pin on the driver board to **any GND** connection on the LongBoard. In the case of the picture below, you can see that the free pin on the 3-pin power connector (circled in yellow) is being used rather than splitting off the PWM+ wire on the 2-pin signal connector (circled in green). That wire then has the resistor soldered on and follows to the GND connection for Coolant in this case.
 
-![](/_images/_longmill/_advanced/_7_Laser/lm_laser_p1_PSupply.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_laser/lm_ad_las_resistor.jpg){.aligncenter .size-medium}
 
 ### Setting up the Firmware
 
@@ -120,7 +120,17 @@ Test-firing a laser using grbl requires three things:
 
 If you're using gSender the Laser On, Laser Test, and Laser Off buttons will take care of these commands for you, just be sure to set the power to 10% and the Test Duration to around 1-2 seconds. For other g-code senders, you'll test the laser using the Console input to your LongMill.
 
-![](/_images/_longmill/_advanced/_7_Laser/lm_laser_p2_SpinLaser.png){.aligncenter .size-medium}
+[tabby title="Current" open="yes"]
+
+![](/_images/_longmill/_advanced/_laser/lm_ad_las_spinlas-en-newu.jpg){.aligncenter .size-medium}
+
+![](/_images/_longmill/_advanced/_laser/lm_ad_las_spinlas-ctrl-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
+![](/_images/_longmill/_advanced/_laser/lm_ad_las_spinlas.png){.aligncenter .size-medium}
+
+[tabbyending]
 
 Bringing all these commands together you get the full command "G1 F1 M3 S10" which you can enter into the Console to initiate the test and "M5" which you need to enter into the console to turn the laser back off. If this testing is successful for you, then try sending another test at a different power (for example "G1 F1 M3 S5" for 5%) to make sure the laser beam has visibly changed intensity which confirms it's receiving a good signal.
 

@@ -154,7 +154,7 @@ When you only want to do a z-height probe, useful for multi-bit tool changes, fl
 
 If you have limit switches installed, you might encounter an Alarm 2 message. Your material is too close to the sensors for the machine to travel safely. Move your material away from the sensors and begin your probe operation.
 
-![](/_images/_lmmk2/_handbook/lmk2_runjobs_alarm2.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_alarm2-newu.jpg){.aligncenter .size-medium}
 
 ## Pre-Flight Check-List
 
