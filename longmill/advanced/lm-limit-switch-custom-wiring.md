@@ -76,23 +76,23 @@ In order to attach and wire your own custom set of limit switches to your setup,
 
 You can check the version of your LongBoard on top of your control box.
 
-![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p1_LongBoard.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_longboard.jpg){.aligncenter .size-medium}
 
 The first step is to figure out where to wire your limit switches. Each limit switch will come with 3 wires, signal, GND and 5V. They will either be bare wires or come with connectors. For switches that come with 4-pin JST connectors, you can simply plug the switches into the white connectors on the side of your control board, making sure the wiring is correct based on the type of switch you have (NO, NC, NPN, PNP). If you have just the switch and wires, use the green connectors because you can fasten down wires with these connectors.
 
 For mechanical switches, each switch must be wired to a different signal line, then to GND, as indicated in the "x3" label on the diagram.  For inductive switches, each switch must be wired to a different signal line, then to GND and 5V, as indicated in the "x3" label on the diagram.
 
-[tabby title="Mechanical"]
+[tabby title="Mechanical" open="yes"]
 
-![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p2_Rev_1.4_NC.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_nc-wiring.png){.aligncenter .size-medium}
 
 [tabby title="Mechanical w/ JST"]
 
-![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p3_Rev_1.4_NCJST.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_nc-jst.png){.aligncenter .size-medium}
 
 [tabby title="Non-mechanical"]
 
-![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p4_Rev_1.4_NCNPN.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_nc-npn.png){.aligncenter .size-medium}
 
 [tabbyending]
 
@@ -100,21 +100,21 @@ Next, you will need to extend or attach the wiring for your limit switches, and 
 
 The type of switch used must be considered for proper wiring. For NO and NC mechanical switches, refer to the diagrams below for proper wiring. The blue lines indicate the signal line (XLim, YLim and ZLim) and the green lines indicate the ground line (GND). If you are using two switches per axis, the wiring between the them is indicated below as well.
 
-![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p5_TwoSwitches.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_nc-wiring-2.png){.aligncenter .size-medium}
 
-![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p6_NOSwitches.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_no-wiring.png){.aligncenter .size-medium}
 
 If you have a Rev 1.2 or 1.3 LongBoard, it is necessary to attach the resistors and/or capacitors as specified. Refer to the diagrams below for the additional wiring. The red 5V line is used to produce the noise filtering effects via capacitor and to establish the correct voltage via resistor.
 
 The limit switches must also be included as described in the previous diagrams, making connections between their respective signal line and ground. In Rev 1.2, you wire the limit switch between the resistor and the capacitor. In Rev 1.3, you wire the limit switch between the resistor and the signal pin.
 
+[tabby title="Rev 1.3" open="yes"]
+
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_resistor.png){.aligncenter .size-medium}
+
 [tabby title="Rev 1.2"]
 
-![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p7_1_AddWire.png){.aligncenter .size-medium}
-
-[tabby title="Rev 1.3"]
-
-![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p7_AddWire.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_resistor-cap.png){.aligncenter .size-medium}
 
 [tabbyending]
 
@@ -126,13 +126,13 @@ Once you’ve assembled all the electrical connections to the LongBoard, you can
 
 [tabby title="Current" open="yes"]
 
-![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p8_neweeprom-newu.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_lim-switches-newu.jpg){.aligncenter .size-medium}
 
 Don't forget to hit the **Apply Settings** button once your changes have been made.
 
 [tabby title="Classic gSender"]
 
-![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p8_NewEEPROM.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_lim-switches.png){.aligncenter .size-medium}
 
 [tabbyending]
 
@@ -226,15 +226,15 @@ In some cases you may want to change the direction that you want to home, either
 
 When looking at the table on inverting each axis, setting value 3 inverts the direction of the X and Y homing directions. So by sending command **$23=3**, the X-axis and Y-axis homing directions will be reversed and the machine will home in the bottom left corner.
 
-On gSender, you can use the toggles instead to change the direction of each axis.
+In gSender, you can use the toggles instead to change the direction of each axis.
 
 [tabby title="Current" open="yes"]
 
-![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p9_homingdirection-newu.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_home-front-left-newu.jpg){.aligncenter .size-medium}
 
 [tabby title="Classic gSender"]
 
-![](/_images/_longmill/_advanced/_5_LimitS/lm_limits_p9_EEPROMHomingDirection.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_home-front-left.jpg){.aligncenter .size-medium}
 
 [tabbyending]
 

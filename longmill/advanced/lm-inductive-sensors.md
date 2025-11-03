@@ -189,11 +189,11 @@ Now that we’re working with the default settings, we will modify a few to make
 
 [tabby title="Current" open="yes"]
 
-![](/_images/_longmill/_advanced/_ind-sensors/lm_ad_in_lim-switches-newu.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_lim-switches-newu.jpg){.aligncenter .size-medium}
 
 [tabby title="Classic gSender"]
 
-![](/_images/_longmill/_advanced/_ind-sensors/lm_ad_in_lim-switches.png "$20, $21 and $22 settings must be enabled"){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_lim-switches.png "$20, $21 and $22 settings must be enabled"){.aligncenter .size-medium}
 
 [tabbyending]
 
@@ -220,11 +220,11 @@ If you want to set your home at the front left corner and have installed your in
 
 [tabby title="Current" open="yes"]
 
-![](/_images/_longmill/_advanced/_ind-sensors/lm_ad_in_home-front-left-newu.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_home-front-left-newu.jpg){.aligncenter .size-medium}
 
 [tabby title="Classic gSender"]
 
-![](/_images/_longmill/_advanced/_ind-sensors/lm_ad_in_home-front-left.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_home-front-left.jpg){.aligncenter .size-medium}
 
 [tabbyending]
 

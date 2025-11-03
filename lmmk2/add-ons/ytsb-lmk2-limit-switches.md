@@ -246,17 +246,17 @@ The first step is to figure out how to wire your switches. If you have NPN or PN
 
 For switches that come with 4-pin JST connectors, you can simply plug the switches into the white connectors on the side of your control board, making sure the wiring is correct based on the type of switch you have (NO, NC, NPN, PNP). If the wiring order is wrong it’s also possible to use a small flathead screwdriver to press into the pin slots on the underside of the connector to remove the crimped pins and reorder them.
 
-![](/_images/_lmmk2/_add-ons/_limits/lmk2_add_li_nc-jst.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_nc-jst.png){.aligncenter .size-medium}
 
 If you have just the switch and wires, use the green screw terminal connector to securely connect each wire. For mechanical switches (NO, NC type), each switch must be wired to a different signal line, then to GND, as indicated in the "x3" label on the diagram. For inductive sensors (NPN, PNP type), each switch must be wired to a different signal line, then to GND and 5V, as indicated in the "x3" label on the diagram.
 
 [tabby title="Mechanical" open=”yes”]
 
-![](/_images/_lmmk2/_add-ons/_limits/lmk2_add_li_nc-wiring.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_nc-wiring.png){.aligncenter .size-medium}
 
 [tabby title="Inductive"]
 
-![](/_images/_lmmk2/_add-ons/_limits/lmk2_add_li_nc-npn.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_nc-npn.png){.aligncenter .size-medium}
 
 [tabbyending]
 
@@ -264,11 +264,11 @@ If you’re using two switches per axis to act as hard limits on each end, wirin
 
 [tabby title="NO" open=”yes”]
 
-![](/_images/_lmmk2/_add-ons/_limits/lmk2_add_li_no-wiring.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_no-wiring.png){.aligncenter .size-medium}
 
 [tabby title="NC"]
 
-![](/_images/_lmmk2/_add-ons/_limits/lmk2_add_li_nc-wiring-2.png){.aligncenter .size-medium}
+![](/_images/_longmill/_advanced/_limits/lm_ad_li_nc-wiring-2.png){.aligncenter .size-medium}
 
 [tabbyending]
 
