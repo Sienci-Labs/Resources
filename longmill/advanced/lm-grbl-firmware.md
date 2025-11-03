@@ -53,8 +53,6 @@ Select your current Port and keep the controller type as "grbl". When ready, cli
 
 You will need to reconnect once you see the process is complete.
 
-![](/_images/_lmmk2/_advanced/lmk2_grblfirmware_gSender-flashing-success-newu.jpg){.aligncenter .size-full}
-
 [tabby title="Classic gSender"]
 
 Once you've completed the installation, open gSender and connect to your machine. Open the 'Firmware' tool and check that you've selected your specific CNC in the profiles drop down so that the correct firmware is flashed. Click the "Flash grbl" button to bring up the confirmation prompt.
