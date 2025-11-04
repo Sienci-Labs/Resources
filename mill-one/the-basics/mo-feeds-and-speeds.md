@@ -2,7 +2,7 @@
 title: Feeds & Speeds
 menu_order: 5
 post_status: publish
-post_excerpt: 
+post_excerpt: Learn some of the common speeds and feeds terms and get our recommendations for you to refer back to when you to start cutting different types of materials.
 post_date: 2021-04-30 18:45:00
 taxonomy:
     knowledgebase_cat: mo-basics
