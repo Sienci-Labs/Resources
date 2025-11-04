@@ -7,6 +7,7 @@ post_date: 2021-04-19 16:45:00
 taxonomy:
     knowledgebase_cat: lm-the-basics
     knowledgebase_tag:
+        - mk1
 custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
