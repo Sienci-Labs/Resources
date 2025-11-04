@@ -1,7 +1,7 @@
 ---
-title: ytsb CNC Issues & Fixes 🩹
+title: CNC Issues & Fixes 🩹
 menu_order: 9
-post_status: draft
+post_status: publish
 post_excerpt: LongMill troubleshooting guide, to address stalling motors, skewed movement, faulty power switch, connectivity, touch probing, missing parts and much more.
 post_date: 2022-03-17 20:47:00
 taxonomy:

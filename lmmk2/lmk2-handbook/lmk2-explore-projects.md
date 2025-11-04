@@ -1,7 +1,7 @@
 ---
-title: ytsb Explore Projects 🪑
+title: Explore Projects 🪑
 menu_order: 7
-post_status: draft
+post_status: publish
 post_excerpt: What can you make with the LongMill? We provide ideas on projects, additional sample projects, and websites for 2D and 3D files you can download.
 post_date: 2022-03-17 20:41:00
 taxonomy:
