@@ -17,7 +17,7 @@ featured_image: _images/post-image.jpg
 
 The Vortex is our push to lead the charge of bringing rotary axis cutting to the hobby CNC market.
 
-<img class="size-full wp-image-5145 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2023/05/Vortex-Sienci-Labs.gif" alt="" width="480" height="270" />
+![](/_images/_vortex/_the-basics/vx_welcome_rotating-vortex.gif){.aligncenter .size-full}
 
 ## Rotary Axes
 
