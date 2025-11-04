@@ -1,7 +1,7 @@
 ---
-title: ytsb Find 3D Models
+title: Find 3D Models
 menu_order: 3
-post_status: draft
+post_status: publish
 post_excerpt: This handbook contains advanced techniques and concepts to help you carve more intricate things. Also includes troubleshooting and maintenance section.
 post_date: 2023-08-30 10:29:18
 taxonomy:

@@ -1,7 +1,7 @@
 ---
-title: ytsb Using other CNC routers
+title: Using other CNC routers
 menu_order: 8
-post_status: draft
+post_status: publish
 post_excerpt: 
 post_date: 2023-10-11 10:41:18
 taxonomy:
@@ -12,7 +12,7 @@ custom_fields:
     KBName: Vortex Rotary Axis
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: _images/_vortex/_handbook/vx_other_custom-wiring.png
 ---
 
 ## Using the Vortex with other CNC machines

@@ -1,9 +1,9 @@
 ---
-title: ytsb Maintenance
+title: Maintenance
 menu_order: 7
-post_status: draft
+post_status: publish
 post_excerpt: This handbook contains advanced techniques and concepts to help you carve more intricate things. Also includes troubleshooting and maintenance section.
-post_date: 2023-08-30 14:49:18
+post_date: 2023-08-30 11:49:18
 taxonomy:
     knowledgebase_cat: vx-handbook
     knowledgebase_tag:
@@ -12,7 +12,7 @@ custom_fields:
     KBName: Vortex Rotary Axis
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: 
 ---
 
 The Vortex rotary axis was designed to be a reliable, fully enclosed unit which does not require significant cleaning or maintenance. All bearings are fully sealed, and any moving components are concealed from incoming dust during cutting.

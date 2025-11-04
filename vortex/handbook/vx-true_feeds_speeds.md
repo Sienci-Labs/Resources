@@ -1,7 +1,7 @@
 ---
-title: ytsb Rotary Feeds & Speeds
+title: Rotary Feeds & Speeds
 menu_order: 5
-post_status: draft
+post_status: publish
 post_excerpt: This handbook contains advanced techniques and concepts to help you carve more intricate things. Also includes troubleshooting and maintenance section.
 post_date: 2023-08-30 11:46:18
 taxonomy:
