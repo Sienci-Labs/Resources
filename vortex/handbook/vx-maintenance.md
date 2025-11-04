@@ -1,11 +1,11 @@
 ---
 title: Maintenance
-menu_order: 3
+menu_order: 7
 post_status: publish
 post_excerpt: This handbook contains advanced techniques and concepts to help you carve more intricate things. Also includes troubleshooting and maintenance section.
 post_date: 2023-08-30 11:49:18
 taxonomy:
-    knowledgebase_cat: vx-basics
+    knowledgebase_cat: vx-handbook
     knowledgebase_tag:
         - vortex
 custom_fields:
