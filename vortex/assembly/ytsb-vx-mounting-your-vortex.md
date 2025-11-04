@@ -1,21 +1,23 @@
 ---
 title: ytsb Table Setup
-menu_order: 0
+menu_order: 7
 post_status: draft
-post_excerpt: 
-post_date: 2024-07-18 18:14:53
+post_excerpt: Mount your Vortex by using the LongMill to drill out perfect holes for your threaded inserts, using the default or alternative mounting selections.
+post_date: 2023-08-04 14:25:18
 taxonomy:
-    knowledgebase_cat: vx-basics vx-assembly vx-projects vx-handbook
+    knowledgebase_cat: vx-assembly
     knowledgebase_tag:
         - vortex
 custom_fields:
-    KBName: Vortex
+    KBName: Vortex Rotary Axis
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
 Check out our video on how to mount your Vortex!
+
+<span style="color: #ff0000;">The video below shows the Open Loop Vortex. For <strong>Closed Loop Vortex, at timestamp 17:18, use 4th Axis Mode</strong> instead of Rotary Mode on gSender. <strong>Closed Loop Vortex must use 4th Axis Mode at all times!</strong></span>
 
 https://www.youtube.com/watch?v=TUwrwqpvdsI
 
@@ -27,13 +29,13 @@ We’ll use the LongMill to make its own holes for threaded inserts that will al
 
 ### Preparing Your Machine
 
-The Vortex rotary axis requires a minimal amount of space <b>on</b> and <b>above</b> your wasteboard to function properly. So before you start putting holes into your wasteboard, let’s double check your setup and make some adjustments to maximize compatibility.
+The Vortex rotary axis requires a minimal amount of space **on** and **above** your wasteboard to function properly. So before you start putting holes into your wasteboard, let’s double check your setup and make some adjustments to maximize compatibility.
 
 <img class="aligncenter size-medium wp-image-5706" src="https://resources.sienci.com/wp-content/uploads/2023/08/Table-Steup-Step-0-1-850x532.jpg" alt="" width="850" height="532" />
 
 #### Flat Area on Your Wasteboard
 
-The minimal flat area needed on your wasteboard is <b>810mm x 95mm (31.9" x 3.8”)</b> in size for the base configuration, and <b>1270mm x 95mm (50.0" x 3.8”)</b> with the extension.
+The minimal flat area needed on your wasteboard is **810mm x 95mm (31.9" x 3.8”)** in size for the base configuration, and **1270mm x 95mm (50.0" x 3.8”)** with the extension.
 
 You can easily check if the surfaced area on your machine is at least this size by placing the Vortex track on top of your wasteboard and seeing if the track ends hang outside of this area. If this is the case, you will have to resurface your wasteboard to a larger size. If you remove the end caps of the track, you will reduce the space needed by 10mm.
 
@@ -47,11 +49,12 @@ The Vortex requires 150mm (5.9”) of height clearance from wasteboard to tool i
 
 If you have an additional piece of material atop the base of your machine, this will reduce your cutting envelope to below 4” diameter and create difficulty using the Y and Z axis probing features in gSender.
 
-If you have such a setup, we recommend that you <b>raise the feet</b> of your machine, or <b>remove your wasteboard</b>.
+If you have such a setup, we recommend that you **raise the feet** of your machine, or **remove your wasteboard**.
 
 [gallery columns="2" ids="5591,5593"]
 
 [su_spoiler title="<h4>Specific Instructions For the LongMill MK1</h4>" open="no" style="fancy" icon="chevron" anchor="" anchor_in_url="no" class=""]
+
 <table>
 <tbody>
 <tr>
@@ -79,6 +82,7 @@ Remove the bracket before re-surfacing the wasteboard and installing the threade
 </tr>
 </tbody>
 </table>
+
 [/su_spoiler]
 
 ### gSender
@@ -95,19 +99,19 @@ Once downloaded and installed, navigate to Settings where you will find the Rota
 
 <img class="aligncenter wp-image-5685 size-full" src="https://resources.sienci.com/wp-content/uploads/2023/08/gSender-gif.gif" alt="" width="1280" height="720" />
 
-Here you can <b>hide</b> or <b>display</b> the Rotary tab on the main page.
+Here you can **hide** or **display** the Rotary tab on the main page.
 
-<img class="nar aligncenter wp-image-5717 size-full" src="https://resources.sienci.com/wp-content/uploads/2023/08/Rotary-tab-master.jpg" alt="" width="588" height="364" />
+For Open-Loop Motor Kit, toggle to **Rotary Mode**. For Closed-Loop Motor Kit, toggle to **4th Axis**. **Do Not Use Rotary Mode**.
+
+<img class="nar aligncenter wp-image-11208 size-full" src="https://resources.sienci.com/wp-content/uploads/2023/08/vortexrotary4thaxis.jpg" alt="" width="512" height="309" />
 
 With this tab you can:
 
-<ul>
-  <li><b>Jog Control</b> - to rotate the A-axis, go to Zero, set Zero, and adjust speeds</li>
-  <li><b>Stock Turning</b> - Wizard to turn square stock round</li>
-  <li><b>Probe Z axis</b> - Automatically probe to find the Z axis</li>
-  <li><b>Probe Y axis</b> - Automatically probe to align the Y axis along the A axis</li>
-  <li><b>Track Mounting</b> - Drill holes in your wasteboard to mount the track</li>
-</ul>
+1. **Jog Control** - Rotate the A-axis, go to Zero, set Zero, and adjust speeds
+1. **Rotary Surfacing** - Wizard to turn square stock round
+1. **Probe Rotary Z axis** - Automatically probe to find the Z axis
+1. **Y axis Alignment** - Automatically probe to align the Y axis along the A axis (Turn rotary mode off to access this feature)
+1. **Rotary Mounting Setup** - Drill holes in your wasteboard to mount the track (Turn rotary mode off to access this feature)
 
 As gSender Edge is our test arena for working on new and exciting gSender updates, there are a couple current limitations.
 
@@ -129,29 +133,33 @@ With this in position, check to see if there are any interferences between any T
 
 <img class="aligncenter wp-image-5596 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/6.p9_DefaultHoles-850x290.jpg" alt="" width="850" height="290" />
 
-If there’s no interference on your table with the default mounting hole positions, <b>mark the center of the far bottom left hole</b> with a pen/pencil.
+If there’s no interference on your table with the default mounting hole positions, **mark the center of the far bottom left hole** with a pen/pencil.
 
 <img class="aligncenter size-medium wp-image-5597" src="https://resources.sienci.com/wp-content/uploads/2023/08/6.p10_Markbottomleft-850x455.jpg" alt="" width="850" height="455" />
 
-If you’re unable to use all the default mounting holes, <b>mark the bottom hole for each pair of holes which do not interfere</b> with anything on your wasteboard.
+If you’re unable to use all the default mounting holes, **mark the bottom hole for each pair of holes which do not interfere** with anything on your wasteboard.
 
 <img class="aligncenter size-medium wp-image-5598" src="https://resources.sienci.com/wp-content/uploads/2023/08/6.p11_DoesntMatch-850x489.jpg" alt="" width="850" height="489" />
 
+Note that the Vortex extension mounting track was revised near the end of 2024 to allow for compatibility with closed loop motors. If you received your kit near or after this time, you will likely have the updated track that is 400mm in length.
+
+At this time, using the updated ‘400mm extension track’ requires that you mark the individual bottom holes of each pair, and follow the ‘<a href="https://resources.sienci.com/view/vx-mounting-your-vortex/#custom-mounting">Custom Mounting</a>’ instructions below.
+
+<img class="aligncenter size-medium wp-image-12760" src="https://resources.sienci.com/wp-content/uploads/2023/08/ExtensionTrackRevisionIllustration-850x550.png" alt="" width="850" height="550" />
+
 With all this planning out of the way, it’s time to make some holes!
 
-First things first, open up gSender and connect to your LongMill. A best practice when mounting the Vortex is to ensure your X-axis is square. <b>Running your Y-axis all the way to the front or back of the machine</b> until you hear each rail hit the end, will ensure you are square and ready to proceed.
+First things first, open up gSender and connect to your LongMill. A best practice when mounting the Vortex is to ensure your X-axis is square. **Running your Y-axis all the way to the front or back of the machine** until you hear each rail hit the end, will ensure you are square and ready to proceed.
 
-Select the rotary axis tab on the bottom right corner of gSender, then click ‘<b>Rotary Mounting Setup</b>’ to open the selection window displaying each of the different track setup options.
+Select the rotary axis tab on the bottom right corner of gSender, then click ‘**Rotary Mounting Setup**’ to open the selection window displaying each of the different track setup options.
 
 <img class="nar aligncenter wp-image-5619" src="https://resources.sienci.com/wp-content/uploads/2023/08/Rotary-Mounting-Setup.jpg" alt="" width="450" height="263" />
 
 Which setup you’ll choose will depend on three selections:
 
-<ul>
-  <li>Does the mounting track lineup?</li>
-  <li>Are you using a ¼” or ⅛” diameter end mill ? (<em>Make sure the router is mounted as far down as possible with the bit inserted not too far into the collet <b>if using a ⅛ bit</b>, to prevent your Z gantry from bottoming out.</em>)</li>
-  <li>Do you have the extension?</li>
-</ul>
+- Does the mounting track lineup?
+- Are you using a ¼” or ⅛” diameter end mill ? (*Make sure the router is mounted as far down as possible with the bit inserted not too far into the collet **if using a ⅛ bit**, to prevent your Z gantry from bottoming out.*)
+- Do you have the extension?
 
 <img class="aligncenter wp-image-5600 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/6.p13_DefaultDrill-850x537.jpg" alt="" width="850" height="537" />
 
@@ -173,11 +181,11 @@ Turn on your router and run the g-code program you’ve loaded. Either 6 or 10 h
 
 #### Custom Mounting
 
-If you find a t-track, dog hole, threaded insert or even the screws holding down your wasteboard will interfere with the default mounting holes, you can use the custom ones. Selecting <b>Does not lineup</b> will generate g-code code that drills out <b>one pair of holes at a time</b>.
+If you find a t-track, dog hole, threaded insert or even the screws holding down your wasteboard will interfere with the default mounting holes, you can use the custom ones. Selecting **Does not lineup** will generate g-code code that drills out **one pair of holes at a time**.
 
 <img class="aligncenter wp-image-5605 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/6.p18_doesnotlineup-850x530.jpg" alt="" width="850" height="530" />
 
-By marking each set of holes that are clear of interference with a pen, you will have a great reference point to <b>set a new X-axis point for each set of holes you are going to drill</b>.
+By marking each set of holes that are clear of interference with a pen, you will have a great reference point to **set a new X-axis point for each set of holes you are going to drill**.
 
 For this approach, we’ll first jog our cutting bit just above the first marked hole on the bottom left most corner, then set our X, Y position to zero here. Use any method such as touch plate, paper method, etc. to set your Z-zero position to the top of your wasteboard at this marked spot.
 
@@ -187,11 +195,11 @@ Turn on your router and run the program. You will drill out the first, then seco
 
 <img class="aligncenter size-full wp-image-5585" src="https://resources.sienci.com/wp-content/uploads/2023/08/6.p20_Twoholedrillout.gif" alt="" width="356" height="200" />
 
-Once done, turn off the router and jog your machine’s X-axis so it's centered just above the next marked hole position. <b>Set your X position to zero</b>, leaving your Y and Z zero position unchanged. Turn on your router then <b>run this same g-code file again</b>.
+Once done, turn off the router and jog your machine’s X-axis so it's centered just above the next marked hole position. **Set your X position to zero**, leaving your Y and Z zero position unchanged. Turn on your router then **run this same g-code file again**.
 
 For every remaining set of holes to the right, continue jogging rightwards, resetting the X-zero position, and running this g-code until all sets of holes are done.
 
-With all these holes made, we can now proceed with installing the included <b>steel threaded inserts</b> using either a 6mm or 7/32” allen key.
+With all these holes made, we can now proceed with installing the included **steel threaded inserts** using either a 6mm or 7/32” allen key.
 
 <img class="aligncenter size-medium wp-image-5607" src="https://resources.sienci.com/wp-content/uploads/2023/08/6.p21_threadedInserts-850x475.jpg" alt="" width="850" height="475" />
 
@@ -201,12 +209,12 @@ To mount the vortex to your table, simply lay the Vortex mounting track across y
 
 Install 6 of the included 1/4-20 - ¾” flat head mounting screws into the appropriate holes of the regular mounting track, tightening these to be snug.
 
-<em>An additional 4 screws will be used for the mounting track extension.</em>
+*An additional 4 screws will be used for the mounting track extension.*
 
-As a last step, you’ll most likely want to loosen the screws on your router mount and <b>slide your router upwards</b> so it sits higher. Since most of the work we’ll be doing with the Vortex will demand that your cutting bits sit about twice as high as normal, it’s convenient and sometimes necessary to raise where your router sits inside the router mount.
+As a last step, you’ll most likely want to loosen the screws on your router mount and **slide your router upwards** so it sits higher. Since most of the work we’ll be doing with the Vortex will demand that your cutting bits sit about twice as high as normal, it’s convenient and sometimes necessary to raise where your router sits inside the router mount.
 
 <img class="aligncenter wp-image-5609 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/6.p23_RaiseMount-850x451.jpg" alt="" width="850" height="451" />
 
-<b>Well done!</b> Now that we’re finished with assembly, you’ll find a few parts remaining unassembled. They are for you to use with your Vortex.
+**Well done!** Now that we’re finished with assembly, you’ll find a few parts remaining unassembled. They are for you to use with your Vortex.
 
 <img class="aligncenter size-medium wp-image-5735" src="https://resources.sienci.com/wp-content/uploads/2023/08/Operational-Tools-850x850.jpg" alt="" width="850" height="850" />

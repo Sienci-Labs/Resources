@@ -1,17 +1,17 @@
 ---
 title: ytsb Electronics - Open Loop Motor
-menu_order: 0
+menu_order: 5
 post_status: draft
-post_excerpt: 
-post_date: 2024-07-18 18:14:53
+post_excerpt: Start building your Vortex. Detailed instructions on electronics assembly steps.
+post_date: 2023-08-03 12:57:18
 taxonomy:
-    knowledgebase_cat: vx-basics vx-assembly vx-projects vx-handbook
+    knowledgebase_cat: vx-assembly
     knowledgebase_tag:
         - vortex
 custom_fields:
-    KBName: Vortex
+    KBName: Vortex Rotary Axis
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
@@ -31,7 +31,7 @@ This procedure will take about 15 minutes.
 
 Begin by removing the **cover** and the **PCB** from the switch enclosure.
 
-<em>Please note that your switch may come with a different shipping configuration than what is illustrated above. Your toggle switch may also come with a small black protective plastic cap which can be unscrewed to remove for usage.</em>
+*Please note that your switch may come with a different shipping configuration than what is illustrated above. Your toggle switch may also come with a small black protective plastic cap which can be unscrewed to remove for usage.*
 
 **The key to this step is to separate the cover and PCB from the enclosure**. You will also want to remove and discard the small plastic cap protecting the toggle switch if one is present.
 
@@ -41,25 +41,25 @@ Begin by removing the **cover** and the **PCB** from the switch enclosure.
 
 Now plug the 2 included rotary switch motor cables Y1 and Y2 into the connectors on the **right** side of the PCB.
 
-*<em>Insert the rotary switch sensor cable into the smaller white connector closer to the middle of the PCB if you have limit switches installed.</em>
+\**Insert the rotary switch sensor cable into the smaller white connector closer to the middle of the PCB if you have limit switches installed.*
 
 <img class="aligncenter size-medium wp-image-5487" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p56_2.0_Remove-Y-Axis-Cables-850x532.jpg" alt="" width="850" height="532" />
 
 On your LongBoard, locate and unplug both **Y1 motor** and **Y2 motor** cables, and the **Y axis limit switch (Ylim)** cable.
 
-*<em>If you don't have limit switches installed on your machine, there's no limit switch cable for you to relocate.</em>
+\**If you don't have limit switches installed on your machine, there's no limit switch cable for you to relocate.*
 
 <img class="aligncenter size-medium wp-image-5488" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p57_Reconnect-Y-Axis-Cables-850x532.jpg" alt="" width="850" height="532" />
 
 Plug both Y1 and Y2 rotary switch motor cables into the LongBoard.
 
-<em>*Plug the rotary switch sensor cable back into the connection labelled Ylim if you have limit switches installed.</em>
+\**Plug the rotary switch sensor cable back into the connection labelled Ylim if you have limit switches installed.*
 
 <img class="aligncenter size-medium wp-image-5489" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p58_Install-Y-Axis-Cables-850x533.jpg" alt="" width="850" height="533" />
 
 Plug both Y1 motor and Y2 motor cables into the **left** side of the PCB.
 
-<em>*Plug the Y axis limit switch cable into the smaller white connector closest to the edge of the PCB if you have limit switches installed.</em>
+\**Plug the Y axis limit switch cable into the smaller white connector closest to the edge of the PCB if you have limit switches installed.*
 
 <img class="wid aligncenter wp-image-5490 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p59_Header-17-850x201.jpg" alt="" width="850" height="201" />
 
@@ -91,7 +91,7 @@ Grab the single remaining cable and connect the side with the white square conne
 
 On the top of the switching module, you’ll find a single green plug where your Vortex motor cable will plug into. Run the cable(s) **around your feet**, not under the rails.
 
-<em>The inductive sensor cable coming from the Vortex can then be plugged into the single white connector on the top of the switching module if you are using the sensors.</em>
+*The inductive sensor cable coming from the Vortex can then be plugged into the single white connector on the top of the switching module if you are using the sensors.*
 
 <img class="aligncenter wp-image-5626 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/Wiring-Vortex-850x587.jpg" alt="" width="850" height="587" />
 

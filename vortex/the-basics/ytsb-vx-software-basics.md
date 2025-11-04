@@ -1,17 +1,17 @@
 ---
 title: ytsb Software
-menu_order: 0
+menu_order: 2
 post_status: draft
-post_excerpt: 
-post_date: 2024-07-18 18:14:53
+post_excerpt: Software basics introduces a new software workflow including design, Rotary CAM software, sending with gSender and finally milling on your LongMill.
+post_date: 2023-06-16 12:28:18
 taxonomy:
-    knowledgebase_cat: vx-basics vx-assembly vx-projects vx-handbook
+    knowledgebase_cat: vx-basics
     knowledgebase_tag:
         - vortex
 custom_fields:
-    KBName: Vortex
+    KBName: Vortex Rotary Axis
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
@@ -83,7 +83,7 @@ Lastly, a note on feed rate since it is interpreted differently on the rotary ax
 
 <img class="aligncenter wp-image-5304 " src="https://resources.sienci.com/wp-content/uploads/2023/06/4.p10_Toolpaths-850x524.jpg" alt="" width="670" height="413" />
 
-To export your toolpaths into a g-code file, you will need to import and use a new post processor that we created for the Vortex. The new processor allows you to use A-axis commands and even allows for tool changes using the M6 command. You can download it with the link below.
+To export your toolpaths into a g-code file, you will need to import and use a new post processor that we created for the Vortex. The new processor allows you to use A-axis commands and even allows for tool changes using the M6 command. You can download it with the link below. **Note: This post-processor is for Vectric Software only.**
 
 <p style="text-align: center;"><a href="https://resources.sienci.com/wp-content/uploads/2023/06/Vortex-A_axis-Grbl.pp" target="_blank" rel="noopener" download="">Vortex A-axis Post Processor</a></p>
 

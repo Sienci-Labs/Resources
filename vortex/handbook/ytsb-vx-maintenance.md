@@ -1,17 +1,17 @@
 ---
 title: ytsb Maintenance
-menu_order: 0
+menu_order: 7
 post_status: draft
-post_excerpt: 
-post_date: 2024-07-18 18:14:53
+post_excerpt: This handbook contains advanced techniques and concepts to help you carve more intricate things. Also includes troubleshooting and maintenance section.
+post_date: 2023-08-30 14:49:18
 taxonomy:
-    knowledgebase_cat: vx-basics vx-assembly vx-projects vx-handbook
+    knowledgebase_cat: vx-handbook
     knowledgebase_tag:
         - vortex
 custom_fields:
-    KBName: Vortex
+    KBName: Vortex Rotary Axis
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---
 

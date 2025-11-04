@@ -1,17 +1,17 @@
 ---
 title: ytsb Headstock
-menu_order: 0
+menu_order: 2
 post_status: draft
-post_excerpt: 
-post_date: 2024-07-18 18:14:53
+post_excerpt: Start building your Vortex. Detailed instructions on assembly for the headstock.
+post_date: 2023-08-03 12:26:18
 taxonomy:
-    knowledgebase_cat: vx-basics vx-assembly vx-projects vx-handbook
+    knowledgebase_cat: vx-assembly
     knowledgebase_tag:
         - vortex
 custom_fields:
-    KBName: Vortex
+    KBName: Vortex Rotary Axis
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
@@ -65,7 +65,7 @@ Test the belt to make sure it is tensioned properly.
 
 [gallery size="full" columns="2" ids="5530,5531"]
 
-<p style="text-align: left;">NOTE: To make this belt tensioning step easier, you can also try clamping the headstock body to your table or asking a friend to help hold it down, while you tighten the bolts.</p>
+NOTE: To make this belt tensioning step easier, you can also try clamping the headstock body to your table or asking a friend to help hold it down, while you tighten the bolts.
 
 <img class="wid aligncenter wp-image-5406 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.P18_Header-4-850x201.jpg" alt="" width="850" height="201" />
 

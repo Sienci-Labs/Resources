@@ -1,17 +1,17 @@
 ---
 title: ytsb Using other CNC routers
-menu_order: 0
+menu_order: 8
 post_status: draft
 post_excerpt: 
-post_date: 2024-07-18 18:14:53
+post_date: 2023-10-11 10:41:18
 taxonomy:
-    knowledgebase_cat: vx-basics vx-assembly vx-projects vx-handbook
+    knowledgebase_cat: vx-handbook
     knowledgebase_tag:
         - vortex
 custom_fields:
-    KBName: Vortex
+    KBName: Vortex Rotary Axis
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
@@ -19,7 +19,7 @@ featured_image: _images/post-image.jpg
 
 We’d love to see rotary axis projects with the Vortex on machines of all shapes and sizes, so we’ll briefly walk through some of the considerations and steps needed to use the Vortex Rotary Axis with machines and controllers other than our own.
 
-<b>It should be noted that at this time we cannot offer full support for the Vortex used in combination with machines other than the LongMill due to the lack of tested compatibility with other machines. This guide merely serves as a reference for anyone curious of or in the process of adapting the Vortex Rotary Axis to their machine.</b>
+**It should be noted that at this time we cannot offer full support for the Vortex used in combination with machines other than the LongMill due to the lack of tested compatibility with other machines. This guide merely serves as a reference for anyone curious of or in the process of adapting the Vortex Rotary Axis to their machine.**
 
 ### Firmware
 

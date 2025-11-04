@@ -1,17 +1,17 @@
 ---
 title: ytsb Track
-menu_order: 0
+menu_order: 4
 post_status: draft
-post_excerpt: 
-post_date: 2024-07-18 18:14:53
+post_excerpt: Start building your Vortex. You can find the online assembly manual, step by step YouTube videos and PDF instructions here.
+post_date: 2023-08-03 12:55:18
 taxonomy:
-    knowledgebase_cat: vx-basics vx-assembly vx-projects vx-handbook
+    knowledgebase_cat: vx-assembly
     knowledgebase_tag:
         - vortex
 custom_fields:
-    KBName: Vortex
+    KBName: Vortex Rotary Axis
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
@@ -55,7 +55,7 @@ Alternatively, if the lever doesn't go all the way down, loosen it.
 
 Secure the track cover onto the tailstock side of the track using two track end screws
 
-<em>If you have the extension track, secure the track cover onto one side of the extension track</em>.
+*If you have the extension track, secure the track cover onto one side of the extension track.*
 
 <img class="aligncenter size-medium wp-image-5477" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p50_Track-Cover-HS-850x531.jpg" alt="" width="850" height="531" />
 

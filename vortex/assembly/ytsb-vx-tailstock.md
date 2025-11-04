@@ -1,17 +1,17 @@
 ---
 title: ytsb Tailstock
-menu_order: 0
+menu_order: 3
 post_status: draft
-post_excerpt: 
-post_date: 2024-07-18 18:14:53
+post_excerpt: Start building your Vortex. Detailed instructions on how to assembly the tailstock.
+post_date: 2023-08-03 12:54:18
 taxonomy:
-    knowledgebase_cat: vx-basics vx-assembly vx-projects vx-handbook
+    knowledgebase_cat: vx-assembly
     knowledgebase_tag:
         - vortex
 custom_fields:
-    KBName: Vortex
+    KBName: Vortex Rotary Axis
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---
 

@@ -1,17 +1,17 @@
 ---
 title: ytsb Troubleshooting
-menu_order: 0
+menu_order: 6
 post_status: draft
-post_excerpt: 
-post_date: 2024-07-18 18:14:53
+post_excerpt: This handbook contains advanced techniques and concepts to help you carve more intricate things. Also includes troubleshooting and maintenance section.
+post_date: 2023-08-30 11:48:18
 taxonomy:
-    knowledgebase_cat: vx-basics vx-assembly vx-projects vx-handbook
+    knowledgebase_cat: vx-handbook
     knowledgebase_tag:
         - vortex
 custom_fields:
-    KBName: Vortex
+    KBName: Vortex Rotary Axis
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
@@ -49,28 +49,61 @@ If you notice when cutting with the Vortex that certain sections of your carved 
 
 This can happen for one of two reasons and can be resolved as follows:
 
-<ul>
-  <li>The Vortex’s mounting track holes in the wasteboard have threaded inserts that are not fully seated, therefore the mounting track is not perfectly square with the machine.
-<ul>
-  <li>Run the hole mounting program again, making sure to run both the Y-axis gantries all the way to the front or back of the machine in order to align the X-axis before running this program and ensure your threaded inserts are fully seated and level.</li>
-</ul>
-</li>
-  <li>The X-axis rail is not squared, due to one of the left or right Y-gantries becoming out of sync with the other.
-<ul>
-  <li>Running the machine all the way to the rear of the machine (or front) until both Y-axis motors skip will cause the align the X-axis rail to realign itself.</li>
-</ul>
-</li>
-</ul>
+- The Vortex’s mounting track holes in the wasteboard have threaded inserts that are not fully seated, therefore the mounting track is not perfectly square with the machine.
+  - Run the hole mounting program again, making sure to run both the Y-axis gantries all the way to the front or back of the machine in order to align the X-axis before running this program and ensure your threaded inserts are fully seated and level.
+- The X-axis rail is not squared, due to one of the left or right Y-gantries becoming out of sync with the other.
+  - Running the machine all the way to the rear of the machine (or front) until both Y-axis motors skip will cause the align the X-axis rail to realign itself.
+
+## Jogging the A-axis Causes Jogging the Y-axis
+
+If you are using the Closed Loop Vortex, please restore defaults in your firmware then make sure to stay in 4th axis mode. **Do not switch between Rotary and 4th axis.**
 
 ## Rotation is Incorrect
 
-If your vortex is rotating an unexpected distance when using the SuperLongBoard and gSender 1.4.7, there is a bug that isn't changing the values correctly. Please do the following to have the correct values that will allow you to swap between rotary and normal operation. The software team is working on fixing this bug for future versions of gSender.
-
-1. Make sure you are not in rotary mode.
+1. If you have the Closed Loop Vortex, make sure you are in 4th Axis mode. If you have the Open Loop Vortex, make sure you are in Rotary mode.
   <img id="image_01af82da-116f-4438-8ff5-d5fe9979d1c9" class="image_resized" src="https://sienci.zendesk.com/attachments/token/nu0AZSh4kfFB0l6VBSqXec4bY/?name=inline-408367304.png" />
-2. Click console and input or copy/paste the following exactly, **​$103=79.012345679**, ​then click RUN. Write this number down in case the settings have been changed back to default.
+1. Click console and input or copy/paste the following exactly, **​$103=79.012345679**, ​then click RUN. Write this number down in case the settings have been changed back to default.
   <img id="image_3a95637d-5a71-4747-a8a9-1647c7285833" class="image_resized" src="https://sienci.zendesk.com/attachments/token/KkZFLN2Wd2IdK1CoQ9pblBODG/?name=inline1850320849.png" />​
-3. Disconnect from, then reconnect to the controller.
-4. Open the firmware tool and confirm the setting has been updated. It should appear as below.
+1. Disconnect from, then reconnect to the controller.
+1. Open the firmware tool and confirm the setting has been updated. It should appear as below.
   <img id="image_d2ff80ec-4cb2-45ad-b71e-92ad01c4a32f" class="image_resized" src="https://sienci.zendesk.com/attachments/token/d2oFrkn44gvf7wHNUfatgIz91/?name=inline860731854.png" />​
-5. You will now be able to change between the normal and rotary mode with the Vortex rotating the correct distance.
+1. If that does not work, please ensure that the DIP switch on your Closed Loop Vortex motor is set as shown below: ON-ON-ON-OFF-ON
+  <img class="alignnone size-full wp-image-13755" src="https://resources.sienci.com/wp-content/uploads/2024/09/Vortex-CLS-settings.png" alt="closed-loop stepper motor dip switch position for sienci labs Vortex" width="833" height="624" />
+
+## Surfacing is Cutting Notches in Stock Material
+
+There is a known gSender bug (as of version 1.4.11) that involves the closed loop stepper and Vortex surfacing in inches. For now we recommend reducing stepover to 25x less than usual, as the workaround. Our software team is planning to address the bug with the upcoming gSender releases.
+
+## Y-axis Alignment Probe is not Completing
+
+Make sure $101=320 by going to the Firmware Tool on gSender. If not, go to the Console on the bottom of the screen, then type in $101=320 and press enter.
+
+## Motor Pulley is not Installed
+
+If you received the Closed Loop Upgrade Kit without the motor pulley pre-assembled, please follow the installation instructions below.
+
+<img class="alignnone size-full wp-image-11249" src="https://resources.sienci.com/wp-content/uploads/2023/08/m2-allen-and-pulley.png" alt="" width="960" height="540" />
+
+<p style="text-align: center;"><em>Use the 2mm allen key and a pulley with two (2) set screws for installation</em></p>
+
+Take out and put the pulley on the motor. Then align the pulley so that the set screws face the flat side of the motor shaft.
+
+<img class="alignnone size-full wp-image-11250" src="https://resources.sienci.com/wp-content/uploads/2023/08/motor-with-flat-indicated.png" alt="" width="960" height="540" />
+
+<p style="text-align: center;"><em>Rotary motor with flat side indicated</em></p>
+
+Use a 3mm or M4 allen key to space the pulley off the motor face, keeping alignment with the flat.
+
+If you have Loctite Blue, apply it on the threads of the set screws.
+
+Use the provided 2mm allen key to tighten the set screws.
+
+<img class="alignnone size-full wp-image-11248" src="https://resources.sienci.com/wp-content/uploads/2023/08/allen-key-motor-rotary-fit.png" alt="" width="960" height="540" />
+
+<p style="text-align: center;"><em>Spacing and fastening the pulley onto the motor</em></p>
+
+## A-axis is slow to respond when jogging
+
+Typically this happens on the closed loop Vortexes. To fix this, go to the Firmware Tool on gSender, scroll down to $37 and toggle the A-axis ON. Power cycle your board by turning it OFF then ON, then reconnect to gSender. You should be able to jog without a large delay.
+
+<img class="alignnone size-full wp-image-13006" src="https://resources.sienci.com/wp-content/uploads/2023/08/Screen-Shot-2025-02-19-at-8.56.10-AM.png" alt="" width="1396" height="347" />

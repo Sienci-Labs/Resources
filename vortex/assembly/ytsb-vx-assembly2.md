@@ -1,17 +1,17 @@
 ---
 title: ytsb Unboxing
-menu_order: 0
+menu_order: 1
 post_status: draft
-post_excerpt: 
-post_date: 2024-07-18 18:14:53
+post_excerpt: Start building your Vortex. You can find the online assembly manual, step by step YouTube videos and PDF instructions here.
+post_date: 2023-08-02 11:23:18
 taxonomy:
-    knowledgebase_cat: vx-basics vx-assembly vx-projects vx-handbook
+    knowledgebase_cat: vx-assembly
     knowledgebase_tag:
         - vortex
 custom_fields:
-    KBName: Vortex
+    KBName: Vortex Rotary Axis
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
@@ -21,16 +21,11 @@ https://www.youtube.com/watch?v=AEDRXNzc2PE
 
 When you open up the box:
 
-<ul>
-  <li>You will find 2 hardware boxes
-<ul>
-  <li>The <b>first box</b> contains most of the parts that are made out of metal, including the headstock and tailstock bodies and the stepper motor that powers the rotary axis</li>
-  <li>The <b>second box</b> contains a lot of the plastic components of the Vortex together with a hardware bag that contains fasteners among other smaller parts</li>
-</ul>
-</li>
-  <li>In between the 2 boxes are 2 Styrofoam pieces that fill the void and also houses the chuck</li>
-  <li>At the very bottom you will find 1 or 2 track pieces depending on the configuration ordered, wrapped in cardboard</li>
-</ul>
+- You will find 2 hardware boxes
+  - The **first box** contains most of the parts that are made out of metal, including the headstock and tailstock bodies and the stepper motor that powers the rotary axis
+  - The **second box** contains a lot of the plastic components of the Vortex together with a hardware bag that contains fasteners among other smaller parts
+- In between the 2 boxes are 2 Styrofoam pieces that fill the void and also houses the chuck
+- At the very bottom you will find 1 or 2 track pieces depending on the configuration ordered, wrapped in cardboard
 
 <img class="aligncenter size-medium wp-image-5389" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p1_Unboxing-850x422.jpg" alt="" width="850" height="422" />
 
@@ -40,12 +35,10 @@ Before you start assembly, you will want to take the 2 boxes and the Styrofoam p
 
 You’ll need these tools on hand for assembly. Most people will have these in their shop and there is a size 4 Allen key that comes with your Vortex kit:
 
-<ul>
-  <li>Metric Allen key size 4</li>
-  <li>Phillips screwdriver #2</li>
-  <li>Metric Allen key size 6 or Imperial Size 7/32”</li>
-  <li>#8 wood screws</li>
-</ul>
+- Metric Allen key size 4
+- Phillips screwdriver #2
+- Metric Allen key size 6 or Imperial Size 7/32”
+- #8 wood screws
 
 <img class="aligncenter size-medium wp-image-5666" src="https://resources.sienci.com/wp-content/uploads/2023/08/Tools-850x345.jpg" alt="" width="850" height="345" />
 
@@ -55,11 +48,9 @@ We got you – your kit has spares and redundancy included. If a part is lost or
 
 We supply extra parts so that:
 
-<ul>
-  <li>If a part doesn’t work properly the extra one can be used instead</li>
-  <li>If you lose something (especially small things) you don’t have to search the floor</li>
-  <li>We reduce the chance of packing too few on our end</li>
-</ul>
+- If a part doesn’t work properly the extra one can be used instead
+- If you lose something (especially small things) you don’t have to search the floor
+- We reduce the chance of packing too few on our end
 
 If a part is missing completely, check that you’re looking for the right thing and ensure you look through all the packaging you received with your Vortex.
 
@@ -101,7 +92,7 @@ This manual contains some technical language as well as a distinct visual langua
 
 ## Connect With the Community
 
-If you are looking to get quick advice or to share your excitement about the Vortex, post in our <a href="https://forum.sienci.com/">forum</a> or <a href="https://www.facebook.com/siencilabs">Facebook group</a>! We have a large and friendly group of CNC enthusiasts who enjoy engaging in conversations and sharing their CNC experiences.
+If you are looking to get quick advice or to share your excitement about the Vortex, post in our <a href="https://forum.sienci.com/">Forum</a> or <a href="https://www.facebook.com/siencilabs">Facebook group</a>! We have a large and friendly group of CNC enthusiasts who enjoy engaging in conversations and sharing their CNC experiences.
 
 ## Final Words
 

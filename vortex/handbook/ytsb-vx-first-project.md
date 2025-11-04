@@ -1,17 +1,17 @@
 ---
 title: ytsb Your First Project
-menu_order: 0
+menu_order: 1
 post_status: draft
-post_excerpt: 
-post_date: 2024-07-18 18:14:53
+post_excerpt: Your first project will include selecting your stock, starting off with a 3D model, designing and creating toolpaths and running your project on the Vortex.
+post_date: 2023-07-18 10:59:18
 taxonomy:
-    knowledgebase_cat: vx-basics vx-assembly vx-projects vx-handbook
+    knowledgebase_cat: vx-handbook
     knowledgebase_tag:
         - vortex
 custom_fields:
-    KBName: Vortex
+    KBName: Vortex Rotary Axis
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
@@ -71,12 +71,10 @@ You’ll usually want to leave a bit of extra length of unused stock material wh
 
 Generating the g-code for carving your chess piece project is quite simple and can be broken down into five steps:
 
-<ol>
-  <li>Configuring your rotary project-specific settings in the ‘<b>Job Setup</b>’ window.</li>
-  <li><b>Importing</b> and <b>configuring</b> a component/3D model.</li>
-  <li><b>Generating toolpath</b>(s)</li>
-  <li>Post processing/<b>exporting</b> your project to g-code</li>
-</ol>
+1. Configuring your rotary project-specific settings in the ‘**Job Setup**’ window.
+1. **Importing** and **configuring** a component/3D model.
+1. **Generating toolpath**(s)
+1. Post processing/**exporting** your project to g-code
 
 As an example project, we’ll be carving out the queen. This is a simple model that can be made fairly quickly from small stock, or in an exaggerated scale with a large piece of stock. Don’t be afraid to get creative with whatever material you have on hand!
 
@@ -209,15 +207,23 @@ Once you click on the ‘Y-axis Alignment’ button, the machine will **immediat
 
 <img class="aligncenter size-full wp-image-5912" src="https://resources.sienci.com/wp-content/uploads/2023/07/7.p22_gSender-1.3.3-EDGE-2023-08-24_15-49-09.png" alt="" width="474" height="330" />
 
-### Rotary Mode
+### Rotary Mode - Open Loop Vortex only
+
+[su_spoiler title="<b>Rotary Mode - Open Loop Vortex only</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 
 With this finished, we’re now ready to switch the Y-axis motor output over to the Vortex, finalizing the Y-axis to A-axis conversion.
 
-If your Y-axis motors **don’t** have power running through them using either $1=255 or $37 settings, go ahead and flip the switch on your Vortex switch box. If you **are** using those settings, there’s an extra step that we recommend taking to preserve the life of your components:
+If your Y-axis motors **don’t** have power running through (in Firmware settings, either $1=254 or $37 Y-axis disabled) go ahead and flip the switch on your Vortex switchbox.
+
+If your Y-axis motors **are energized** ($1=255 or $37 Y-axis enabled), there’s an extra step that we recommend taking to preserve the life of your components.
 
 <img class="aligncenter wp-image-9268 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/07/1DeSteppers-850x488.png" alt="" width="850" height="488" />
 
-<img class="aligncenter wp-image-9269 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/07/Dollar37DeSteppers-850x472.png" alt="" width="850" height="472" />
+<p style="text-align: center;"><em>$1=255, energized</em></p>
+
+Extra Step:
+
+**LongBoard** - Hit E-stop, flip Vortex switch, un press E-stop
 
 <p style="text-align: center;"><b>LongBoard</b> - Hit E-stop, flip Vortex switch, un press E-stop<br><b>SuperLongBoard</b> - Hit E-stop, flip Vortex switch, un press E-stop, unlock gSender<br>This process will cause your motors to move slightly, but it will be negligible to the accuracy of your carving.</p>
 
@@ -232,6 +238,26 @@ You’ll be prompted to ensure your output switchover has been completed before 
 <img class="nar aligncenter wp-image-5618 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/Rotary-Mode-Warning-850x509.jpg" alt="" width="850" height="509" />
 
 Load the g-code file you’ve just generated into gSender and **install the appropriate cutting bit** into your router for your project, in our case we’ll be using a <a href="https://sienci.com/product/1-32-radius-tapered-ball-end-mill/">¼” tapered ball end mill</a> like we setup earlier while generating our toolpaths.
+
+[/su_spoiler]
+
+### 4th Axis Mode
+
+[su_spoiler title="<b>4th Axis Mode - CLOSED LOOP VORTEX ONLY</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+
+Make sure you have energized the A-axis. If you have a LongMill with a spindle, energize the Z-axis as well. To check, go to your Firmware settings and search for $37. If the axes are not yet enabled, toggle them and then press Apply Settings. Turn OFF then ON your controller to have the settings take effect.
+
+<img class="alignnone size-full wp-image-13978 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2024/09/steppers-deenergize-spindle-vortex.png" alt="" width="795" height="194" />
+
+<p style="text-align: center;"><em>$37, Z and A-axis enabled </em></p>
+
+Reconnect to gSender and toggle into 4th Axis Mode. Stay in 4th Axis Mode at all times, do NOT switch to Rotary Mode.
+
+<img class="size-medium wp-image-15070 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2023/07/vortex-4th-axis-mode-850x478.png" alt="" width="850" height="478" />
+
+Load the g-code file you’ve just generated into gSender and **install the appropriate cutting bit** into your router for your project, in our case we’ll be using a<a href="https://sienci.com/product/1-32-radius-tapered-ball-end-mill/"> ¼” tapered ball end mill</a> like we setup earlier while generating our toolpaths.
+
+[/su_spoiler]
 
 ### Setting X & Z axis
 
@@ -257,9 +283,7 @@ With all three axes’ zero points set, we’re ready to **turn on our router** 
 
 Once the project has completed, you have a couple choices.
 
-<ol>
-  <li>Remove your piece from the chuck, cut/saw off the bottom and admire your latest creation.</li>
-  <li>If you have enough space, you can jog your X axis to the spot you want to cut, turn on your router, lower your Z axis into the wood, and spin the A axis to cut out your final piece.</li>
-</ol>
+1. Remove your piece from the chuck, cut/saw off the bottom and admire your latest creation.
+1. If you have enough space, you can jog your X axis to the spot you want to cut, turn on your router, lower your Z axis into the wood, and spin the A axis to cut out your final piece.
 
 Checkmate indeed!

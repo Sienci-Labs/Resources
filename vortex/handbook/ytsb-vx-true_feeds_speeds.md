@@ -1,17 +1,17 @@
 ---
 title: ytsb Rotary Feeds & Speeds
-menu_order: 0
+menu_order: 5
 post_status: draft
-post_excerpt: 
-post_date: 2024-07-18 18:14:53
+post_excerpt: This handbook contains advanced techniques and concepts to help you carve more intricate things. Also includes troubleshooting and maintenance section.
+post_date: 2023-08-30 11:46:18
 taxonomy:
-    knowledgebase_cat: vx-basics vx-assembly vx-projects vx-handbook
+    knowledgebase_cat: vx-handbook
     knowledgebase_tag:
         - vortex
 custom_fields:
-    KBName: Vortex
+    KBName: Vortex Rotary Axis
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
@@ -23,7 +23,7 @@ Essentially, since our ‘feed rate’ is given by how fast the cutting bit trav
 
 This relationship means that if your stock diameter is **halved**, then your feed rate for the A-axis/rotary axis should be **doubled**.
 
-One issue that arises in doing this is that VCarve/Aspire (and many other CAM software programs) do not allow you to adjust feed rate in only one cutting direction. This means that if you’ve sped up your feed rate to be 4000 mm/min to compensate for very small diameter stock, then cutting in the X-axis will also happen at this speed, however it will likely be much too fast. The good news is that if your cutting passes are in the A-axis direction then you’ll only have small stepovers in the X-axis direction for each next pass. These stepovers may be slightly aggressive, but are generally small enough that they won’t matter.
+One issue that arises in doing this is that VCarve/Aspire (and many other CAM software programs) do not allow you to adjust feed rate in only one cutting direction. This means that if you’ve sped up your feed rate to be 4000 mm/min to compensate for very small diameter stock, then cutting in the X-axis will also happen at this speed, however it will likely be much too fast. The good news is that if your cutting passes are in the A-axis direction then you’ll only have small step overs in the X-axis direction for each next pass. These step overs may be slightly aggressive, but are generally small enough that they won’t matter.
 
 If you’ve opted to set your cutting passes to cut sideways (in the X-direction), then you’ll likely want to leave your cutting feeds and speeds the same as usual (since the X-axis is of course unaffected by this diameter-feed rate relationship). The stepover distance in the A-axis for each pass will, however, be affected since the actual A-axis stepover distance will depend on the diameter of your stock.
 
