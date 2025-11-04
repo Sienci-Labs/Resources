@@ -1,7 +1,7 @@
 ---
-title: ytsb Software
+title: Software
 menu_order: 2
-post_status: draft
+post_status: publish
 post_excerpt: Software basics introduces a new software workflow including design, Rotary CAM software, sending with gSender and finally milling on your LongMill.
 post_date: 2023-06-16 12:28:18
 taxonomy:

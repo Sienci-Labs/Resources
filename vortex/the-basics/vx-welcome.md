@@ -1,7 +1,7 @@
 ---
-title: ytsb Welcome!
+title: Welcome!
 menu_order: 1
-post_status: draft
+post_status: publish
 post_excerpt: Resources for the Vortex Rotary Axis by Sienci Labs. Still in progress, but soon find all information on assembly, technology introduction, toolpaths, and more.
 post_date: 2023-05-31 15:25:18
 taxonomy:
