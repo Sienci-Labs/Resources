@@ -2,7 +2,7 @@
 title: Workholding Methods
 menu_order: 3
 post_status: publish
-post_excerpt: 
+post_excerpt: Common workholding methods recommended for small CNCs like the Mill One, including tape, glue, clamps, and a low-profile drill vise.
 post_date: 2021-04-30 18:10:02
 taxonomy:
     knowledgebase_cat: mo-basics

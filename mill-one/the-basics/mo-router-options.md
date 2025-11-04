@@ -2,7 +2,7 @@
 title: Router Options
 menu_order: 2
 post_status: publish
-post_excerpt: 
+post_excerpt: Typical router options we recommend using when it comes to setting up your Mill One CNC, along with considerations for how to mount them.
 post_date: 2021-04-30 17:45:00
 taxonomy:
     knowledgebase_cat: mo-basics
