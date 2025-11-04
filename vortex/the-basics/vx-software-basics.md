@@ -12,7 +12,7 @@ custom_fields:
     KBName: Vortex Rotary Axis
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: _images/_vortex/_the-basics/vx_software_post-process.jpg
 ---
 
 The process of creating toolpaths for the Vortex rotary axis is largely similar to that for any benchtop CNC, so if you’ve made a toolpath before, you should feel right at home with this new workflow.

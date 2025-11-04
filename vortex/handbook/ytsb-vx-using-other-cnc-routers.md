@@ -45,7 +45,7 @@ Follow the diagram shown below to reconfigure your controller’s Y-axis wiring 
 
 An alternative way to do this non-destructively, is to purchase or create new wires with your Y-axis motor’s appropriate connectors, then purchase the appropriate connectors to interface with the controller-side of the Vortex’s wiring harness.
 
-<img class="aligncenter size-medium wp-image-5980" src="https://resources.sienci.com/wp-content/uploads/2023/10/Custom-Wiring-Illustration-850x657.png" alt="" width="850" height="657" />
+![](/_images/_vortex/_handbook/vx_other_custom-wiring.png){.aligncenter .size-medium}
 
 The Vortex features an integrated limit switch. This switch operates using a 5V, 3 pin connection, which may or may not be compatible with your controller. To wire this connector, you may choose to simply plug this into your controller while in use, or wire this in parallel somehow with an existing Y-axis limit switch on your machine.
 
@@ -67,4 +67,4 @@ The Vortex was largely designed to be very universal, mounting on any machine su
 
 For reference on making some of these checks, you can refer to the illustration below, as well as check out the open-source CAD model available <a href="https://resources.sienci.com/view/lmk2-open-source/#other-add-ons">here</a>
 
-<img class="aligncenter size-medium wp-image-5706" src="https://resources.sienci.com/wp-content/uploads/2023/08/Table-Steup-Step-0-1-850x532.jpg" alt="" width="850" height="532" />
+![](/_images/_vortex/_handbook/vx_other_table-setup.jpg){.aligncenter .size-medium}

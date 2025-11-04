@@ -35,7 +35,7 @@ gSender has a unique ability to control a rotary axis on standard, 3-axis grbl m
 
 Navigate to the gear at the top right of gSender, where you will find the rotary settings. Here you can toggle the rotary controls to make them visible on the main page.
 
-<img class="alignnone size-full wp-image-5685" src="https://resources.sienci.com/wp-content/uploads/2023/08/gSender-gif.gif" alt="" width="1280" height="720" />
+![](/_images/_vortex/_assembly/vx_quick_gs-rotary-enable.gif){.aligncenter .size-full}
 
 Once the toggle has been turned to display, you will see an additional tab at the bottom right of the window, called Rotary. With this tab you can:
 
@@ -52,7 +52,7 @@ Once the toggle has been turned to display, you will see an additional tab at th
    - Do this before switching to Rotary Mode
    - Not accessible when Rotary Mode is enabled,  should disable rotary controls
 
-<img class="alignnone size-full wp-image-14129" src="https://resources.sienci.com/wp-content/uploads/2023/08/4th-axis-mode-annotated.png" alt="" width="960" height="540" />
+![](/_images/_vortex/_assembly/vx_quick_gs-rotary-controls.png){.aligncenter .size-full}
 
 ### Workflow Overview
 
@@ -113,4 +113,4 @@ For detailed information about what each functionality in the rotary controls do
 
 Good luck & have fun!
 
-<img class="alignnone wp-image-5663" src="https://resources.sienci.com/wp-content/uploads/2023/07/A7S3_VORTEX_CHESTPIECE_TIMELAPSE-2.gif" alt="" width="479" height="359" />
+![](/_images/_vortex/_assembly/vx_quick_carving-queen.gif){.aligncenter .size-full}
