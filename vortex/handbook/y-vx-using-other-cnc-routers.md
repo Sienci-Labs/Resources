@@ -1,7 +1,7 @@
 ---
 title: y-Using other CNC routers
-menu_order: 8
-post_status: publish
+menu_order: 12
+post_status: draft
 post_excerpt: 
 post_date: 2023-10-11 10:41:18
 taxonomy:
