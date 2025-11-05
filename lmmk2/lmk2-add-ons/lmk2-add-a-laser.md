@@ -133,7 +133,7 @@ If you're using gSender the Laser On, Laser Test, and Laser Off buttons will tak
 
 Bringing all these commands together you get the full command "G1 F1 M3 S10" which you can enter into the Console to initiate the test and "M5" which you need to enter into the console to turn the laser back off. If this testing is successful for you, then try sending another test at a different power (for example "G1 F1 M3 S5" for 5%) to make sure the laser beam has visibly changed intensity which confirms it's receiving a good signal.
 
-*Keep in mind that these commands are for a Maximum Spindle Speed of 100, if it's 255 for example then you'll want to use "G1 F1 M3 S25" for 10% laser power.
+*Keep in mind that these commands are for a Maximum Spindle Speed of 100, if it's 255 for example then you'll want to use `G1 F1 M3 S25` for 10% laser power.
 
 If none of this testing is going as expected, go back and check your wiring first in case you missed anything or if you have a multi-meter on hand try using it in resistance or continuity mode to confirm that all your connections are secure. Be mindful when poking around with a multi-meter, testing output current or voltage while the laser diode is connected can sometimes damage the diode depending on your laser driver design.
 
