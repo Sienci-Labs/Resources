@@ -25,7 +25,7 @@ It’s likely that the belt joining the Vortex motor and chuck pulleys was sligh
 
 Remove the headstock from the mounting track by unscrewing the four screws at the bottom. Next, remove the 3D printed front lower headstock cover from the headstock to expose the four mounting screws at the front. Slightly loosen each of these screws, then apply a reasonable amount of pressure downwards onto the motor. While holding this pressure on the motor, re-tighten these four screws at the front of the headstock. Like shown in the photo below.
 
-<img class="nar aligncenter wp-image-5861 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/9.p16_Belt-Tensioning-850x531.jpg" alt="" width="850" height="531" />
+![](/_images/_vortex/_handbook/_troubleshooting/vx_trouble-tension-belt.jpg){.aligncenter .size-medium}
 
 Re-assemble the rest of the components in reverse order. Ensure that the pulley can still rotate freely without any binding or resistance.
 
@@ -61,14 +61,14 @@ If you are using the Closed Loop Vortex, please restore defaults in your firmwar
 ## Rotation is Incorrect
 
 1. If you have the Closed Loop Vortex, make sure you are in 4th Axis mode. If you have the Open Loop Vortex, make sure you are in Rotary mode.
-  <img id="image_01af82da-116f-4438-8ff5-d5fe9979d1c9" class="image_resized" src="https://sienci.zendesk.com/attachments/token/nu0AZSh4kfFB0l6VBSqXec4bY/?name=inline-408367304.png" />
+  ![](/_images/_vortex/_handbook/_troubleshooting/vx_trouble-rotary-mode.png){.aligncenter .size-medium}
 1. Click console and input or copy/paste the following exactly, **​$103=79.012345679**, ​then click RUN. Write this number down in case the settings have been changed back to default.
-  <img id="image_3a95637d-5a71-4747-a8a9-1647c7285833" class="image_resized" src="https://sienci.zendesk.com/attachments/token/KkZFLN2Wd2IdK1CoQ9pblBODG/?name=inline1850320849.png" />​
+  ![](/_images/_vortex/_handbook/_troubleshooting/vx_trouble-rotary-step-mm.png){.aligncenter .size-medium}
 1. Disconnect from, then reconnect to the controller.
 1. Open the firmware tool and confirm the setting has been updated. It should appear as below.
-  <img id="image_d2ff80ec-4cb2-45ad-b71e-92ad01c4a32f" class="image_resized" src="https://sienci.zendesk.com/attachments/token/d2oFrkn44gvf7wHNUfatgIz91/?name=inline860731854.png" />​
+  ![](/_images/_vortex/_handbook/_troubleshooting/vx_trouble-rotary-check-steps.png){.aligncenter .size-medium}
 1. If that does not work, please ensure that the DIP switch on your Closed Loop Vortex motor is set as shown below: ON-ON-ON-OFF-ON
-  <img class="alignnone size-full wp-image-13755" src="https://resources.sienci.com/wp-content/uploads/2024/09/Vortex-CLS-settings.png" alt="closed-loop stepper motor dip switch position for sienci labs Vortex" width="833" height="624" />
+  ![](/_images/_vortex/_handbook/_troubleshooting/vx_trouble-cls-dip-switches.png){.aligncenter .size-medium}
 
 ## Surfacing is Cutting Notches in Stock Material
 
@@ -82,15 +82,11 @@ Make sure $101=320 by going to the Firmware Tool on gSender. If not, go to the C
 
 If you received the Closed Loop Upgrade Kit without the motor pulley pre-assembled, please follow the installation instructions below.
 
-<img class="alignnone size-full wp-image-11249" src="https://resources.sienci.com/wp-content/uploads/2023/08/m2-allen-and-pulley.png" alt="" width="960" height="540" />
-
-<p style="text-align: center;"><em>Use the 2mm allen key and a pulley with two (2) set screws for installation</em></p>
+![](/_images/_vortex/_handbook/_troubleshooting/vx_trouble-motor-pulley-asm.png "Use the 2mm allen key and a pulley with two (2) set screws for installation"){.aligncenter .size-medium}
 
 Take out and put the pulley on the motor. Then align the pulley so that the set screws face the flat side of the motor shaft.
 
-<img class="alignnone size-full wp-image-11250" src="https://resources.sienci.com/wp-content/uploads/2023/08/motor-with-flat-indicated.png" alt="" width="960" height="540" />
-
-<p style="text-align: center;"><em>Rotary motor with flat side indicated</em></p>
+![](/_images/_vortex/_handbook/_troubleshooting/vx_trouble-motor-flat-indicate.png "Rotary motor with flat side indicated"){.aligncenter .size-medium}
 
 Use a 3mm or M4 allen key to space the pulley off the motor face, keeping alignment with the flat.
 
@@ -98,12 +94,10 @@ If you have Loctite Blue, apply it on the threads of the set screws.
 
 Use the provided 2mm allen key to tighten the set screws.
 
-<img class="alignnone size-full wp-image-11248" src="https://resources.sienci.com/wp-content/uploads/2023/08/allen-key-motor-rotary-fit.png" alt="" width="960" height="540" />
-
-<p style="text-align: center;"><em>Spacing and fastening the pulley onto the motor</em></p>
+![](/_images/_vortex/_handbook/_troubleshooting/vx_trouble-motor-pulley-install.png "Spacing and fastening the pulley onto the motor"){.aligncenter .size-medium}
 
 ## A-axis is slow to respond when jogging
 
 Typically this happens on the closed loop Vortexes. To fix this, go to the Firmware Tool on gSender, scroll down to $37 and toggle the A-axis ON. Power cycle your board by turning it OFF then ON, then reconnect to gSender. You should be able to jog without a large delay.
 
-<img class="alignnone size-full wp-image-13006" src="https://resources.sienci.com/wp-content/uploads/2023/08/Screen-Shot-2025-02-19-at-8.56.10-AM.png" alt="" width="1396" height="347" />
+![](/_images/_vortex/_handbook/_troubleshooting/vx_trouble-rotary-check-deenergize.png){.aligncenter .size-medium}
