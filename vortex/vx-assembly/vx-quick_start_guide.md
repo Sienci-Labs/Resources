@@ -1,7 +1,7 @@
 ---
-title: ytsb Quick Start Guide
+title: Quick Start Guide
 menu_order: 8
-post_status: draft
+post_status: publish
 post_excerpt: Use the quick start guide as a checklist when running a project.
 post_date: 2023-08-30 11:56:18
 taxonomy:
