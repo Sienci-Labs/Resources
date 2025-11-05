@@ -1,6 +1,6 @@
 ---
 title: Laser 🔥
-menu_order: 1
+menu_order: 8
 post_status: publish
 post_excerpt: How to modify EEPROM setting for the LongMill CNC. These settings control the speed and direction of movement, machine limits, and activation of limit switches.
 post_date: 2022-03-17 20:27:10

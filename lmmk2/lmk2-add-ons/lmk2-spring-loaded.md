@@ -1,6 +1,6 @@
 ---
 title: Spring Loaded Nuts
-menu_order: 7
+menu_order: 5
 post_status: publish
 post_excerpt: How to replace your backlash nuts with the updated spring-loaded anti-backlash nuts.
 post_date: 2025-03-26 15:29:00
