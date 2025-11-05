@@ -39,7 +39,7 @@ You will need:
 
 ![](/_images/_lmmk2/_add-ons/lmk2_spindle_vfd_components.jpg "VFD components, labelled"){.aligncenter .size-medium}
 
-<strong>***Throughout this assembly, do not disconnect any of the VFD wiring! Miswiring can cause operation errors and damage to the device.</strong>
+*****Throughout this assembly, do not disconnect any of the VFD wiring! Miswiring can cause operation errors and damage to the device.**
 
 <ol>
   <li>Our first goal is to route the spindle cable through the drag chain, by undoing clips and detaching the drag chain when needed
