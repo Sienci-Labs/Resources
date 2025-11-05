@@ -249,9 +249,7 @@ If you find that your axes are not moving in the correct direction, you can go i
 
 If you find that your axes are not moving in the correct direction, you can go into your firmware settings and change the axis that’s wrong. Also, if you notice that your CNC reacts intermittently at higher speeds then you might have to either spend some more time tuning your machine's mechanics, or consider lowering the SLBs maximum speed with settings 110, 111, and 112.
 
-![](/_images/_superlongboard/_upgrade/slb_up_p28_Off.jpg){.aligncenter .size-medium}
-
-<p style="text-align: center;"><em>Above, the Z-axis was flipped since the SLB was being set up on an MK1 LongMill</em></p>
+![](/_images/_superlongboard/_upgrade/slb_up_p28_Off.jpg "Above, the Z-axis was flipped since the SLB was being set up on an MK1 LongMill"){.aligncenter .size-medium}
 
 [tabbyending]
 
@@ -321,9 +319,7 @@ Your limit switches are installed and plugged into your SLB, so let’s check th
 1. **Powered sensors** - Place a metal object in front of each of the limit switches and look for the red light. This indicates that each sensor is plugged in correctly.
 ![](/_images/_superlongboard/_upgrade/slb_up_p33.jpg){.aligncenter .size-medium}
 1. **Signal to the board** - Navigate to your Machine Information icon on the main Carve tab to see if your board is receiving the signal from the limit switch, when the pins change from OFF to ON. Also double check that the correct axis is turning on.
-   ![](/_images/_superlongboard/_upgrade/slb_up_p34_PinGIF-newu.gif){.aligncenter .size-full}
-
-   <p style="text-align: center;"><em><b>Note:</b> If you don’t see an axis turning ON/OFF, double check the connections on the board. We don’t use Y2 for example.</em></p>
+   ![](/_images/_superlongboard/_upgrade/slb_up_p34_PinGIF-newu.gif "Note: If you don’t see an axis turning ON/OFF, double check the connections on the board. We don’t use Y2 for example."){.aligncenter .size-full}
 1. **Turn Homing on** - Navigate to the Config tab ➜ Homing/Limits section. Here you will see 8 toggles under the heading “Homing cycle”. There are many options for homing on the SLB, but just start by matching the toggles in the picture below (on, off - on, on - off, off - on, off). This will make the SLB home the same way that you’re already used to. Make sure to click “Apply New Settings”.
 
    If you ever find you can’t unlock homing, homing isn’t setting the machine coordinates to zero, or other unusual behaviours, come back here to double-check this list since you might not have all the right settings turned on. If you’re still curious about the other options, check out the <a href="https://resources.sienci.com/view/slb-manual/#homing-amp-limit-switches">Homing &amp; Limits Setup</a> section.
@@ -339,9 +335,7 @@ Your limit switches are installed and plugged into your SLB, so let’s check th
 1. **Powered sensors** - Place a metal object in front of each of the limit switches and look for the red light. This indicates that each sensor is plugged in correctly.
 ![](/_images/_superlongboard/_upgrade/slb_up_p33.jpg){.aligncenter .size-medium}
 1. **Signal to the board** - Navigate to your Calibration Tool and check the Diagnostics tab to see if your board is receiving the signal from the limit switch, when the pins change from OFF to ON. Also double check that the correct axis is turning on.
-   ![](/_images/_superlongboard/_upgrade/slb_up_p34_PinGIF.gif){.aligncenter .size-full}
-
-   <p style="text-align: center;"><em><b>Note:</b> If you don’t see an axis turning ON/OFF, double check the connections on the board. We don’t use Y2 for example.</em></p>
+   ![](/_images/_superlongboard/_upgrade/slb_up_p34_PinGIF.gif "Note: If you don’t see an axis turning ON/OFF, double check the connections on the board. We don’t use Y2 for example."){.aligncenter .size-full}
 1. **Turn Homing on** - Scroll down in gSender’s Firmware Tool to 22, also called “Homing cycle”. There are more options for homing on the SLB, but just start by matching the toggles in the picture below (on, off - on, on - off, off - on, off). This will make the SLB home the same way that you’re already used to. Make sure to click “Apply New Settings”.
 
    If you ever find you can’t unlock homing, homing isn’t setting the machine coordinates to zero, or other unusual behaviours, come back here to double-check this list since you might not have all the right settings turned on. If you’re still curious about the other options, check out the <a href="https://resources.sienci.com/view/slb-manual/#homing-amp-limit-switches">Homing &amp; Limits Setup</a> section.
@@ -363,9 +357,7 @@ With your LaserBeam plugged into the SLB, let’s perform a quick test to make s
 1. In gSender, navigate to the Config tab ➜ Spindle/Laser tab in the Settings and toggle the spindle/laser controls on.
    ![](/_images/_superlongboard/_upgrade/slb_up_p37_SpindleLaser-newu.jpg){.aligncenter .size-full}
 1. Back on the main screen in the bottom right corner, navigate to the Spindle/Laser tab and select “SLB_LASER” in the dropdown list. After this, flip the toggle at the top to ‘Laser’.
-   ![](/_images/_superlongboard/_upgrade/slb_up_p38_SLBSpindle-newu.jpg){.aligncenter .size-full}
-
-   <p style="text-align: center;"><em><b>Note: Ensure that you are wearing your safety glasses!</b></em></p>
+   ![](/_images/_superlongboard/_upgrade/slb_up_p38_SLBSpindle-newu.jpg "Note: Ensure that you are wearing your safety glasses!"){.aligncenter .size-full}
 1. Ensure your power is set to 1% and your ‘Test Duration’ to one second. Now when you hit the ‘Laser Test’ button your diode should momentarily emit a faint beam. This means that the SLB is controlling your laser successfully!
    ![](/_images/_superlongboard/_upgrade/slb_up_p39_LaserTest-newu.jpg){.aligncenter .size-full}
 
@@ -375,9 +367,7 @@ With your LaserBeam plugged into the SLB, let’s perform a quick test to make s
 1. In gSender, navigate to the Spindle/Laser tab in the Settings and toggle it on.
    ![](/_images/_superlongboard/_upgrade/slb_up_p37_SpindleLaser.jpg){.aligncenter .size-full}
 1. Back on the main screen in the bottom right corner, navigate to the Spindle/Laser tab and select “SLB_LASER” in the dropdown list. After this, flip the toggle at the top to ‘Laser Mode’.
-   ![](/_images/_superlongboard/_upgrade/slb_up_p38_SLBSpindle.jpg){.aligncenter .size-full}
-
-   <p style="text-align: center;"><em><b>Note: Ensure that you are wearing your safety glasses!</b></em></p>
+   ![](/_images/_superlongboard/_upgrade/slb_up_p38_SLBSpindle.jpg "Note: Ensure that you are wearing your safety glasses!"){.aligncenter .size-full}
 1. Ensure your power is set to 1% and your ‘Test Duration’ to one second. Now when you hit the ‘Laser Test’ button your diode should momentarily emit a faint beam. This means that the SLB is controlling your laser successfully!
    ![](/_images/_superlongboard/_upgrade/slb_up_p39_LaserTest.jpg){.aligncenter .size-full}
 
