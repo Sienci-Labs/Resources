@@ -1,7 +1,7 @@
 ---
-title: ytsb Limit Switches ⛔
+title: Limit Switches ⛔
 menu_order: 3
-post_status: draft
+post_status: publish
 post_excerpt: See how to mount and wire custom limit switches or the inductive limit switch kit to the LongMill MK2. See how limit switches work and if they're for you.
 post_date: 2022-03-17 20:23:00
 taxonomy:

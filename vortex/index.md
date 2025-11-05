@@ -15,7 +15,7 @@ skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 
-Vortex page order should be as follows: (last updated as of Oct 4, 2024)
+Vortex page order should be as follows: (last updated as of Nov 5, 2025)
 
 👍 The Basics
 

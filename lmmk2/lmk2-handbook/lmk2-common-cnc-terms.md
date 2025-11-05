@@ -96,7 +96,7 @@ Cutting away material on a CNC is affected by two major factors:
 
 **Tip / Flute shape (upcut, downcut, compression, straight, corncob)** - The shape of the end mill you are using, which determines its application.
 
-![](/_images/_longmill/_the-basics/lm_cncterms_p6_Tips.jpg "Ballnose mill vs. End mill vs. V-bit"){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_cncterms_p6_Tips.jpg "Ball nose mill vs. End mill vs. V-bit"){.aligncenter .size-medium}
 
 <p style="padding-left: 40px;"><b>Flat end</b> mills have a square tip. They can also have spirals (upcut or downcut), or be completely straight. These are good for general purpose milling, such as cutting out borders or straight profiles.</p>
 

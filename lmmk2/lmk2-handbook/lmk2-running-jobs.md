@@ -332,6 +332,7 @@ M05
 M02
 
 _____________________________________
+
 ##### EXAMPLE 2: CAMLab
 
 G21  
@@ -371,7 +372,7 @@ Depending on your project, getting into the crevices of your design can be diffi
 
 ### Painting/Staining
 
-There are a few ways to add colour to your work piece. Wood stains help enhance the grain of the wood and should be finished with a good sealer Multi-Colour painting can really make a sign pop. Use a masking film
+There are a few ways to add colour to your work piece. Wood stains help enhance the grain of the wood and should be finished with a good sealer, Multi-Colour painting can also really make a sign pop in which case it's recommended to use a masking film.
 
 ### Sealing/Finishing
 

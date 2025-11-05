@@ -54,8 +54,8 @@ Parts needed:
 
 Now's a good time to quickly verify that everything has been hooked up correctly. To test the relay, we'll be connecting to our LongMill via a g-code sender such as gSender, UGS, or CNCjs like we normally would and keep an eye on the red "power" light on the relay. Whichever sender you use you'll want to find the "Console" input area (shown by a red box), and type the following text:
 
-- **M8**, then press the 'Enter' key to send - this should activate an audible *click* from the IOT relay and you should notice the 'switch active' light illuminate.
-- **M9**, then press the 'Enter' key to send - this should also produce a *click* noise, this time turning the 'switch active' light off.
+- **M8**, then press the 'Enter' key to send - this should activate an audible \*click\* from the IOT relay and you should notice the 'switch active' light illuminate.
+- **M9**, then press the 'Enter' key to send - this should also produce a \*click\* noise, this time turning the 'switch active' light off.
 
 ![](/_images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p3_Testing.png){.aligncenter .size-medium}
 
