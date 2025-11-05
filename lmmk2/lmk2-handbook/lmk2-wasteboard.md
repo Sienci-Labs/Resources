@@ -1,7 +1,7 @@
 ---
-title: ytsb Wasteboard & Fixtures
+title: Wasteboard & Fixtures
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: Learn how to enhance your LongMill's capabilities with matching a wasteboard and fixtures to your cutting needs. Also covers wasteboard surfacing.
 post_date: 2022-03-17 20:37:00
 taxonomy:
