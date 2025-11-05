@@ -1,11 +1,11 @@
 ---
 title: Edge Features
-menu_order: 5
+menu_order: 1
 post_status: publish
 post_excerpt: 
 post_date: 2021-07-01 15:55:00
 taxonomy:
-    knowledgebase_cat: gdocs
+    knowledgebase_cat: gs-ex
     knowledgebase_tag:
         - gsender
 custom_fields:

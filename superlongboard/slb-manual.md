@@ -40,7 +40,7 @@ Comparing the SLB to our Original LongBoard and to other controllers on the mark
 - Control Spindles/VFDs and other accessories with Modbus over RS485
 - Independant 4th/rotary axis output to an external driver for simultaneous 4-axis cutting
 - More customizable IO to fine-tune your at-home or shop CNC setup
-- Powered by HAL, leaving bandwidth for even more features to be added with future Firmware updates
+- Powered by HAL, leaving bandwidth for even more features to be added with future firmware updates
 - Don’t have to pay extra for a built-in computer, instead choose to run something lightweight you already have on hand or a more powerful setup to combine both design and CNC control from one computer in your shop
 
 ### Dimensions
@@ -76,7 +76,7 @@ The SLB runs grblHAL, which may look similar in name to grbl but for all intents
 
 ### Open Source
 
-This project has no patents, we make everything available to the public just like much of the rest of Sienci Labs’ projects. As we start to roll out the SLB into production, we’ll post our source files for Firmware tweaks from Core grblHAL, our custom grblHAL plugins, the SuperLongBoard PCB design, enclosure design, and any other relevant manufacturing and sourcing info we can think of. We’ll also make sure we’re clear on the licenses for use.
+This project has no patents, we make everything available to the public just like much of the rest of Sienci Labs’ projects. As we start to roll out the SLB into production, we’ll <a href="https://resources.sienci.com/view/slb-welcome/#open-source">post our source files</a> for firmware tweaks from Core grblHAL, our custom grblHAL plugins, the SuperLongBoard PCB design, enclosure design, and any other relevant manufacturing and sourcing info we can think of. We’ll also make sure we’re clear on the licenses for use.
 
 ## Wiring
 
@@ -199,26 +199,39 @@ Keep in mind that setting up Ethernet is a bit more involved, and at the time of
 
 #### Ethernet on Windows
 
+[tabby title="Current" open="yes"]
+
 1. To start, connect to your CNC over USB to note down the EEPROM values set for the IP address and Netmask (302 and 304). The defaults should be IP: `192.168.5.1` and Netmask: `255.255.255.0` with the IP mode set to `static`.
-![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode.jpg){.aligncenter .size-full .nar}
-
+  ![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode-newu.jpg){.aligncenter .size-full}
 1. Once confirmed, you can unplug your USB and connect the Ethernet cable directly from your PC to your board. If you look where you plugged the Ethernet cable into the SLBs port from the outside, you should see a green light on and a flickering yellow light.
-
 1. You’ll need to configure the PC’s Ethernet interface. Open network connections to get a list of Ethernet ports.
-![](/_images/_superlongboard/_manual/slb_ma_p14_TCP.jpg){.aligncenter .size-full}
-
+  ![](/_images/_superlongboard/_manual/slb_ma_p14_TCP.jpg){.aligncenter .size-full}
 1. Right click your Ethernet port and go to Properties and then find the “Internet Protocol Version 4 (TCP/IPv4)” entry and open its properties.
-![](/_images/_superlongboard/_manual/slb_ma_p15_IP.jpg){.aligncenter .size-full .nar}
-
+  ![](/_images/_superlongboard/_manual/slb_ma_p15_IP.jpg){.aligncenter .size-full .nar}
 1. Select the “Use the following IP address:” option and configure it as above. You want the subnet mask to be the same value from the EEPROM 'Netmask'. The IP address should have a different last digit on the same mask - so if the board is device 1 (192.168.5.1), you could call your PC device 5 (192.168.5.5). Click “OK” to save and close the options.
-
-1. Back in gSenders general Settings, make sure the IP Range matches the IP from the EEPROM.
-![](/_images/_superlongboard/_manual/slb_ma_p16_EEPROM.jpg){.aligncenter .size-full .nar}
-
-1. With the grblHAL firmware selected, choose the ‘Network Devices’ option and you should see it connect successfully :)
-![](/_images/_superlongboard/_manual/slb_ma_p17_Connected.jpg){.aligncenter .size-full}
-
+1. Back in gSenders Config tab ➜ Ethernet section, make sure the IP address for gSender matches the IP address from the firmware.
+  ![](/_images/_superlongboard/_manual/slb_ma_p16_EEPROM-newu.jpg){.aligncenter .size-medium}
+1. Now click on Connect to CNC, choose the Ethernet Port option and you should see it connect successfully :)
+  ![](/_images/_superlongboard/_manual/slb_ma_p17_Connected-newu.jpg){.aligncenter .size-medium}
 1. If you have a problem connecting with Ethernet, go back over the setup steps. You can also reconnect over USB to double-check your SLB Ethernet settings.
+
+[tabby title="Classic gSender"]
+
+1. To start, connect to your CNC over USB to note down the EEPROM values set for the IP address and Netmask (302 and 304). The defaults should be IP: `192.168.5.1` and Netmask: `255.255.255.0` with the IP mode set to `static`.
+  ![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode.jpg){.aligncenter .size-full .nar}
+1. Once confirmed, you can unplug your USB and connect the Ethernet cable directly from your PC to your board. If you look where you plugged the Ethernet cable into the SLBs port from the outside, you should see a green light on and a flickering yellow light.
+1. You’ll need to configure the PC’s Ethernet interface. Open network connections to get a list of Ethernet ports.
+  ![](/_images/_superlongboard/_manual/slb_ma_p14_TCP.jpg){.aligncenter .size-full}
+1. Right click your Ethernet port and go to Properties and then find the “Internet Protocol Version 4 (TCP/IPv4)” entry and open its properties.
+  ![](/_images/_superlongboard/_manual/slb_ma_p15_IP.jpg){.aligncenter .size-full .nar}
+1. Select the “Use the following IP address:” option and configure it as above. You want the subnet mask to be the same value from the EEPROM 'Netmask'. The IP address should have a different last digit on the same mask - so if the board is device 1 (192.168.5.1), you could call your PC device 5 (192.168.5.5). Click “OK” to save and close the options.
+1. Back in gSenders general Settings, make sure the IP Range matches the IP from the EEPROM.
+  ![](/_images/_superlongboard/_manual/slb_ma_p16_EEPROM.jpg){.aligncenter .size-full .nar}
+1. With the grblHAL firmware selected, choose the ‘Network Devices’ option and you should see it connect successfully :)
+  ![](/_images/_superlongboard/_manual/slb_ma_p17_Connected.jpg){.aligncenter .size-full}
+1. If you have a problem connecting with Ethernet, go back over the setup steps. You can also reconnect over USB to double-check your SLB Ethernet settings.
+
+[tabbyending]
 
 #### Ethernet on Mac
 
@@ -259,7 +272,7 @@ Once you've got your steppers plugged in and decided on your microstepping, you 
 
 #### Independent Motor Holding
 
-Instead of the old solution of setting $1=255 which forces all motors to hold at full current, two new settings allow you to select individual motors that you want to hold, and what holding strength you want to use. With $37, simply toggle the axis you want to hold while using $210-212 to decide what the holding strength will be (as a % of the motor’s full current).
+Instead of the old solution of setting $1=255 which forces all motors to hold at full current, two new settings allow you to select individual motors that you want to hold, and what holding strength you want to use. With 'Steppers deenergize' ($37), simply toggle the axis you want to hold while using 'Hold current' ($210-212) to decide what the holding strength will be (as a % of the motor’s full current).
 
 Useful in cases of:
 
@@ -269,7 +282,15 @@ Useful in cases of:
 
 We’ve found that a minimum of 15% works for lead screw-driven CNCs. These hold current settings will also apply even if $37 is off when the machine is cutting but that axis isn’t moving. Note that these settings won’t work for an A-axis since that would typically be done using the DIP switches on the external motor driver.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_superlongboard/_manual/slb_ma_p19_Steppers-newu.jpg){.aligncenter .size-full}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_manual/slb_ma_p19_Steppers.jpg){.aligncenter .size-full}
+
+[tabbyending]
 
 Note that since the Y1 and Y2 outputs share the same enable pin, they cannot be held independently even if they're assigned to different axes.
 
@@ -318,7 +339,7 @@ On the SLB, the plug for the shorter strip is called "**Ring**" since you'd typi
 - It have 3 or 5 wires (not 4) and be marked as "5V" (not 12 or 24 volts)
 - If they're 5V, the LEDs will likely be called "NeoPixels" or "WS2812" in the name or description, check this is true
 - Some we've tested:
-  - <a href="https://www.amazon.ca/gp/product/B088FK4SMQ/" target="_blank" rel="noopener">BTF-LIGHTING</a> (1m/3.3' strip, 60 LEDs), <a href="https://www.amazon.ca/gp/product/B01CDTED80/" target="_blank" rel="noopener">another style</a>
+  - BTF-LIGHTING (1m/3.3' strip, 60 LEDs)
   - <a href="https://www.amazon.ca/gp/product/B08DKPYZ7L/" target="_blank" rel="noopener">airgoo NEON</a> (two 16" strips, 42 LEDs)
   - <a href="https://www.amazon.ca/gp/product/B0BYD9ZDRM/" target="_blank" rel="noopener">Geekstory ring light</a> (78mm ID, 35 LEDs)
 - If you don't want different colours and **just want your LEDs to turn on and off**, consider using the SLBs <a href="https://resources.sienci.com/view/slb-manual/#switch-amp-aux-power">AUX Power outputs</a>
@@ -398,15 +419,27 @@ If you’d like to use the white JST connectors instead, the wiring pinouts are 
 
 ![](/_images/_superlongboard/_manual/slb_ma_p29_WCPins.jpg){.aligncenter .size-full}
 
-### Limits Settings
+#### Limits Settings
 
 If you’ve set up your own **NC sensors**, the first thing you’ll want to do is invert all the limit pins for $5 like shown below. **Don't do this if you have the inductive sensors from Sienci!**
+
+[tabby title="Current" open="yes"]
+
+![](/_images/_superlongboard/_manual/slb_ma_p30_InvertLP-newu.jpg){.aligncenter .size-full}
+
+On top of the typical settings that the original LongBoard has when it comes to homing like homing speed and direction, the SLB brings along some new options that you can configure. If you'd like to match the SLB behaviour to the typical LongMill/grbl setup, then we'd recommend you enable all the settings shown in the picture (homing on startup, set machine origin to 0, and override locks), otherwise learn about all the settings in the table below.
+
+![](/_images/_superlongboard/_manual/slb_ma_p31_HomingFirm-newu.jpg){.aligncenter .size-full}
+
+[tabby title="Classic gSender"]
 
 ![](/_images/_superlongboard/_manual/slb_ma_p30_InvertLP.jpg){.aligncenter .size-full}
 
 On top of the typical settings that the original LongBoard has when it comes to homing like homing speed and direction, the SLB brings along some new options that you can configure. If you'd like to match the SLB behaviour to the typical LongMill/grbl setup, then we'd recommend you enable all the settings shown in the picture (homing on startup, set machine origin to 0, and override locks), otherwise learn about all the settings in the table below.
 
 ![](/_images/_superlongboard/_manual/slb_ma_p31_HomingFirm.jpg){.aligncenter .size-full}
+
+[tabbyending]
 
 [su_table responsive="yes" fixed="yes"]
 <table>
@@ -484,7 +517,15 @@ The laser isn’t set as the default for safety reasons, but further down is inf
 
 You can only control one at a time, so to select which one you’d like to control you can use the dropdown selector in gSender or use the selection commands. This selection will also apply when you send manual spindle commands in other ways like the console.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_superlongboard/_manual/slb_ma_p33_gSenderLaser-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_manual/slb_ma_p33_gSenderLaser.png){.aligncenter .size-medium}
+
+[tabbyending]
 
 For other g-code senders, you’ll need to use the selection commands:
 
@@ -545,7 +586,7 @@ or you can run your own custom ‘macro’ g-code. Here are some examples of mac
 - Park the CNC away from the job: **G91 G21 G0 X400 Y400**
 - Return to the cutting area (XY0 point): **G90 G21 G0 X0 Y0**
 
-The buttons are customized in the SLBs EEPROM settings, using the Firmware section of either gSender or ioSender. Look for settings $450-452 to select one of the actions from the pre-made list, or select the first “Macro” option and type in your own g-code string to execute in settings $450-452.
+The buttons are customized using the Config tab or Firmware section of either gSender or ioSender. Look for settings $450-452 to select one of the actions from the pre-made list, or select the first “Macro” option and type in your own g-code string to execute in settings $450-452.
 
 #### Example Setup
 
@@ -614,7 +655,7 @@ As mentioned in the <a href="#laser">Laser section</a> above, we designed the SL
 
 The Laser wiring is covered above. Both flavours of Spindle signals are there to give you the 2 most popular options for talking to VFDs. The simple signals tend to have easier setup with less fuss, meanwhile RS485 requires more work but provides better, two-way communication during cutting. Whichever option you choose, you’ll want to check that you're wired up correctly and have the right settings for both your SLB and VFD so they match up to each other.
 
-If you opted for an out-of-the box experience by picking up a <a href="https://sienci.com/product/LongMill-spindle-and-dust-shoe-kit/" target="_blank" rel="noopener">Sienci Spindle which will soon be compatible for a wide range of CNC machines</a>, then you won’t need to reference any of the following docs since all the work is done for you.
+If you opted for an out-of-the box experience by picking up a <a href="https://sienci.com/product/longmill-1-5kw-er20-spindle-clear-cut-dust-shoe-kit/" target="_blank" rel="noopener">Sienci Spindle which will soon be compatible for a wide range of CNC machines</a>, then you won’t need to reference any of the following docs since all the work is done for you.
 
 **Note**: currently the SLB doesn’t support SaS (‘Spindle-at-Speed’, a signal that some VFDs can send back to the board so that the board can wait for the spindle to speed up before starting the cutting process).
 
@@ -723,7 +764,7 @@ Remember that your VFD will also require some setup through its own button inter
   - **S**: Spindle at speed feedback supported
   - **L**: Spindle can control a laser (requires laser mode to be enabled in firmware)
   - **I**: Spindle PWM output can be inverted
-  - **R**: Range Locked (min/max not inherited from firmware settings)
+  - **R**: Range Locked (min/max not inherited from Config/firmware settings)
   - So for example, “DIV” means you can swap spindle direction, invert output, and have variable speed on that specific spindle.
   - Also, the list of spindles has a fixed order just for easy reference, otherwise the order they appear in has no other meaning
 
@@ -743,7 +784,15 @@ If your TLS is wired correctly, you should be able to press it and see the “PR
 
 With wiring done, check in your g-code sender if the TLS signal is set up correctly. This signal is shared with the touch plate, so activating either of them should be recognized. gSender has a status light to help see this in the 'Calibrate' tab and in other senders it should appear as 'P' for probe. If the light in the sender turns on when the TLS is pushed, and also turns on when the probe circuit is connected, then the hardware (SLB and wiring) is working and that means the $ values have been set up correctly. If the signal is on and only turns off when the TLS is pressed, then go to the $668 firmware setting and toggle it to the opposite of what it was set to.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_superlongboard/_manual/slb_ma_p44_tls-input-newu.jpg){.aligncenter .size-full}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_manual/slb_ma_p44_tls-input.png){.aligncenter .size-full}
+
+[tabbyending]
 
 This flip is usually needed since the SLB defaults to expect NO inputs. Once this all seems to be working, see more documentation here on how to set up tool changing for your SLB (<a href="https://resources.sienci.com/view/gs-additional-features/#tool-changing" target="_blank" rel="noopener">gSender tool changing feature</a>) and make sure you select the 'Fixed tool sensor' option.
 
@@ -811,7 +860,7 @@ Below we’ve illustrated two examples that you can use to better understand how
 
 Once the wiring is complete, in your g-code sender check that the rotary is moving at the speed, distance, and direction you’d expect and that the limit switch is working if you have one. If there’s anything wrong you’ll want to check your typical A-axis settings for **movement** ($2, 3, 4, 37, 103, 113, 123, 133, and 376) and for **homing/limits** ($5, 18, 23, 44, 45, and 46). Note that some settings like $143, 153, 183, 193, 203, 213, 223, 338, 339 won’t have any effect on your setup since the 4th axis is an external stepper motor driver.
 
-If you're experiencing movement precision problems, check the 2nd point in the <a href="#troubleshoot-rotary">Troubleshoot Rotary section</a>.
+If you're experiencing movement precision problems, check the 2nd point in the <a href="#troubleshoot-rotary">Troubleshoot Rotary section</a>. Also check that you turn on "**Steppers deenergize**" for the A-axis, since most closed-loop motors need constant power to them to make sure that they make accurate movements.
 
 #### Cut & Experiment
 
