@@ -1,7 +1,7 @@
 ---
-title: ytsb Sanding & Finishing
+title: Sanding & Finishing
 menu_order: 6
-post_status: draft
+post_status: publish
 post_excerpt: Everything you need to know about finishing your average CNC'd wood project. Become familiar with sanding, stains, painting, clear-coats, and common tools used.
 post_date: 2024-09-10 15:45:00
 taxonomy:
