@@ -50,13 +50,13 @@ If you can't find something, please reach out to us and we'll make it right. How
 - Check inside hollow parts or in other bags, sometimes we get creative to keep packaging small.
 - Some parts and add-ons, such as the t-tracks, come in separate packages, so make sure you've received and opened all boxes.
 
-### I have leftover parts after assembly
+### I have leftover parts
 
 Don't worry, we supply extra additional parts in case you need spares from something going wrong during assembly.
 
 ## Initial Connection
 
-### Controller doesn't turn on
+### Controller does not turn on
 
 - First, ensure that your LongMill's power supply cable is connected to the wall and power brick correctly. If you have an E-stop, check that the button is released by twisting it counterclockwise and if you have a power switch, ensure it's toggled on.
 - Make sure your power supply brick is plugged into a 100V-130V AC outlet. If you do not have this AC voltage available in your area, you'll need to use a transformer to step down to 110/120V.
@@ -77,7 +77,7 @@ Don't worry, we supply extra additional parts in case you need spares from somet
 
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p4_ControlBoard.jpg){.aligncenter .size-full}
 
-### The software says 'ALARM'
+### The software says ALARM
 
 Something's happened during the operation of the machine which was unexpected so it's decided to lock itself just in case.
 
@@ -103,14 +103,14 @@ When jogging or running the LongMill, one of the motors does not move correctly 
 - Check that all of the <a href="https://resources.sienci.com/view/lm-electronics/" target="_blank" rel="noopener">DIP switches</a> are properly seated in the correct orientation. If the switch is only part of the way on or off, the driver may not operate.
 - Make sure your Arduino is fully seated in your control board. You can typically use a non-conductive tool to push it into the socket if it is starting to come loose.
 
-### Machine is moving the wrong direction
+### Moving the wrong direction
 
 - Ensure that all plugs and cables are fully seated and connected properly. Check the other plugs for reference.
 - Check the colour pattern of each wire coming from the motor and connected to the LongBoard. Is the pattern the same with each motor? If not, change the order of the wires to match.
 - If your Z-axis motor is moving the wrong direction, ensure that you've selected the LongMill MK2 machine profile in gSender. The LongMill MK1 machine profile will cause the Z-axis direction to be flipped.
 - Reload the EEPROM settings on your Arduino, as these settings may have changed when using various g-code senders. These settings control aspects such as the jogging direction and the machine’s work space boundaries. To access them, go to the Firmware tool in gSender, or the Firmware Settings in UGS. gSender will have the ability to "Restore Defaults" and revert to the LongMills factory settings. For UGS, make sure you have the default settings (found <a href="https://resources.sienci.com/view/lm-EEPROM-settings/" target="_blank" rel="noopener">here</a>) by going through each line and manually changing the values, or download the configuration zip file, unzip it, and load it into UGS.
 
-### Machine is not moving the correct distance
+### Not moving the correct distance
 
 - Your coupler may be slipping. Ensure that the screws on your coupler are fully tightened.
 - Your machine may be stalling. Instructions on checking for stalling motors can be found in the next section.
@@ -140,7 +140,7 @@ Excessive wobble is when the lead screw is deviating from center by more than ab
 - **Loose screw:** loosen the two M5-25mm screws that hold the Delrin anti-backlash nuts slightly for the axis which the lead screw is on and run the machine back and forth. This will align the lead screw and the nut. Re-tighten the screws once the wobbling as gone away. Also check the ACME locking nut and coupler on both ends of the screw are firmly tightened and sandwiching the lead screw properly.
 - **Bent screw:** a sure way to confirm is to completely remove the screw and roll it along a surface that is very flat to see if it rolls evenly.
 
-### 48x30 x-axis movement issues (stalling, slipping or miss-steps)
+### 48x30 X-axis not moving correctly
 
 https://youtu.be/p5SpgoUza7o
 
@@ -165,14 +165,14 @@ https://youtu.be/p5SpgoUza7o
 
 - Using the wrong post-processor in your CAM software may cause your machine to pause due to incompatible g-code. Make sure your settings are correct in your software before running your code. Check out our section about <a href="https://resources.sienci.com/view/lmk2-post-processors/">post processors</a> for more info.
 
-### Cuts are not coming out accurately
+### Cuts not coming out accurately
 
 - Try reducing your speeds and feeds, or use a different cutting tool.
 - Check that there is no dust in the collet of your router so that the bit does not slip in the collet during operation.
 - You may have a loose component. Make sure that all of your fasteners are tight and your eccentric nuts and Delrin anti-backlash nuts are tensioned correctly.
 - Your motor or lead screw may be slipping inside the coupler. Ensure that the coupler is fully tightened and pressed firmly against the flange bearing to eliminate movement axially.
 
-### Cuts on the z-axis are not the correct depth
+### Cuts on the z-axis not the correct depth
 
 - Ensure that the coupler screws on the Z-axis assembly are tightened properly and make sure the brass ACME nut is making contact with the lower bearing. The Z-axis lead screw should not be able to slide up and down.
 - Ensure that the LongMill has enough travel on the Z-axis for it to cut deep enough. It may be bottoming out.
@@ -200,8 +200,8 @@ When your machine disconnects during use, it's important to keep an eye out for 
 
 - Sometimes subtle things like a slightly loose USB cable connection, power connection, using other power tools at the same time as the machine, etc. can cause disconnects to happen. In these cases, consider checking your other **machine connections**, using **newer cables**, putting your machine on a **dedicated circuit**, or if you have a newer board with **Ethernet** then consider switching over to gain a more reliable communication connection.
 - If you notice that the machine only disconnects during longer jobs, it is possible that your [computer is causing the USB to 'sleep' and disconnect from your machine](#machine-disconnects-on-long-jobs).
-- If you were using a dust collector/vacuum, try running the machine with them off to see if disconnections keep happening. If the machine no longer disconnects, you can likely conclude that [static build up or interference from your dust collector is the cause](#using-a-dust-collector-causes-the-machine-to-disconnect). Another easy way to know if your dust collection might be causing issues is if you occasionally get static shocks when you touch the shoe or hose, which points to large static buildup likely affecting your machine.
-- If you have other appliances, tools, or electrical strains on the same circuit as your machine, or [your home/shop does not have reliable power in the form of blackouts or brownouts](#power-surges-are-causing-disconnections), it is possible that power fluctuations are causing your machine to skip, disconnect, or stutter.
+- If you were using a dust collector/vacuum, try running the machine with them off to see if disconnections keep happening. If the machine no longer disconnects, you can likely conclude that [static build up or interference from your dust collector is the cause](#machine-disconnects-when-using-a-dust-collector). Another easy way to know if your dust collection might be causing issues is if you occasionally get static shocks when you touch the shoe or hose, which points to large static buildup likely affecting your machine.
+- If you have other appliances, tools, or electrical strains on the same circuit as your machine, or [your home/shop does not have reliable power in the form of blackouts or brownouts](#machine-disconnects-from-power-surges), it is possible that power fluctuations are causing your machine to skip, disconnect, or stutter.
 
 If there don't seem to be any specific patterns in these disconnection occurrences, there is most likely some EMI (electromagnetic interference) to blame, a.k.a. electrical noise. These unexpected electrical signals can find their way back to your CNC controller and disrupt it's on-board electronics, affecting how reliably your CNC can cut projects for you.
 
@@ -234,7 +234,7 @@ Loss of connection on a long job can happen if your computer or USB port 'fall a
 
 Lastly, if you are using a laptop, try making sure it is plugged into an outlet. Some laptops may change power management while running programs that can cause the program to stall.
 
-### Using a dust collector causes the machine to disconnect
+### Machine disconnects when using a dust collector
 
 The most common solution for preventing static buildup is by having an escape path for built-up charges. Using a 'ground point' works because it'll be a path of least resistance which stray charges will prefer to take instead of sticking around.
 
@@ -249,7 +249,7 @@ It is highly recommended that you have your dust collection and your machine on 
 
 ![](/_images/_lmmk2/_handbook/lmk2_issues_grounding-diagram.png){.aligncenter .size-medium}
 
-### Power surges are causing disconnections
+### Machine disconnects from power surges
 
 Depending on where you live or how your shop is wired up, power flickers and brief outages can make their way through to your shop outlets. This might not be noticeable for regular power tools, but it can affect precision machines like a CNC or even for a desktop computer. You can identify this problem for yourself if, after grounding your machine, you still get unexpected behaviour from your machine such as:
 
