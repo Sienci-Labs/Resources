@@ -53,9 +53,17 @@ To help communicate where things are on the board, we use the terms shown below:
 
 Before diving into rewiring, we’d first suggest you note down any attributes that are unique about your setup. This is so that once you switch over to the SLB you'll be able to create the same setup with the same settings.
 
-If you use gSender, you can do this by connecting to your CNC and using the Firmware Tool to find sections that you recall setting up or changing; things like max travel, speed, etc. It won't be disastrous if you forget to record any of these settings, since your old controller should still work so you can always go back and double-check it's settings.
+If you use gSender, you can do this by connecting to your CNC and using the Config tab (Current gSender) or Firmware Tool (Classic gSender) to find sections that you recall setting up or changing; things like max travel, speed, etc. It won't be disastrous if you forget to record any of these settings, since your old controller should still work so you can always go back and double-check it's settings.
+
+[tabby title="Current" open="yes"]
+
+![](/_images/_superlongboard/_upgrade/slb_up_p3_FirmMaxTravel-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p3_FirmMaxTravel.jpg){.aligncenter .size-medium}
+
+[tabbyending]
 
 ## Wiring xPRO V5
 
