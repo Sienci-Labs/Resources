@@ -89,6 +89,7 @@ While writing, keep in mind:
     - `<section id="home"></section>`
     - `<button type="button" onclick="showMessage()">Show message</button>`
     - `<script> function showMessage() {alert('Thank you for contacting us!');}</script>`
+1. Refer to other great websites to understand the typical rules of writing in markdown, such as: <a href="https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet" target="_blank" rel="noopener">Adam's Markdown Cheatsheet</a> or <a href="https://docs.github.com/en/get-started/writing-on-github" target="_blank" rel="noopener">GitHub's Writing Guide</a>
 1. If you still need more help because something isn't listed or working, first check the **[caveats section](#caveats)** or otherwise visit <https://www.markdownguide.org/basic-syntax/> for more formatting tips
 1. It's also technically [compatible with WordPress' block editor](https://developer.wordpress.org/block-editor/getting-started/faq/#how-is-data-stored-ive-seen-html-comments-what-is-their-purpose ) which isn't used for our docs, but interesting nonetheless
 

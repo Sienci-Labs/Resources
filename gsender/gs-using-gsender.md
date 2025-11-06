@@ -213,7 +213,7 @@ It does this by looking through the whole g-code file up to where you want to re
 
 gSender is set up to do many things by default to help keep you aware about things going on with your machine. Though we can’t guarantee it can handle everything, you can access many safety items in one place. This includes:
 
-![](/_images/_gsender/_using/gs_us_safetybasics.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_using/gs_us_safetybasics1.jpg){.aligncenter .size-medium}
 
 1. **G-code warnings**: reports back when it sees g-code lines that don’t look correct when the file is loaded or once it’s being sent to the machine. G-code has to follow specific ‘grammatical rules’ similar to other languages for the ‘sentences’ to be correct, so if the lines don’t look correct then your machine might run into problems understanding what it’s supposed to do.
 1. **Soft limits warning**: enables gSender to tell you when a loaded file might exceed the cutting area of your machine. This requires that your machine has limit switches and soft limits enabled.

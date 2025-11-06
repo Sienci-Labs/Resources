@@ -19,7 +19,7 @@ featured_image: _images/_gsender/_setup/gs_se_carve-overview.jpg
 
 When you open up gSender, you’ll notice a prompt regarding ‘Anonymous usage information’. This is just to ask if you’d be fine with us knowing things like what CNC you use it for, what computer you run it on, and other information about how you use the app. You can imagine that if we know certain features are widely used or certain errors are constantly encountered, that can be very helpful to understand how we can improve the app or its documentation. This is completely optional and anonymous, we only do it with your permission and it can be turned off at any time in the settings menu.
 
-![](/_images/_gsender/_setup/gs_se_anonymous-info.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_se_anonymous-info1.jpg){.aligncenter .size-medium}
 
 ## Layout
 
@@ -76,7 +76,7 @@ Let's explore some common gSender settings to help get your setup running the wa
 
 1. **Preferred units**
    - In the Basics section, change which units (mm or inches) you want to see on the main Carve screen (Config units will always display as mm)
-   ![](/_images/_gsender/_setup/gs_se_configstart.jpg){.aligncenter .size-medium}
+   ![](/_images/_gsender/_setup/gs_se_configstart1.jpg){.aligncenter .size-medium}
    The Carve tab will always show the units you set at the top left corner of the DRO.
    ![](/_images/_gsender/_setup/gs_se_units-mainscreen.jpg){.aligncenter .size-medium}
 1. **Enable other CNC functions**
@@ -96,11 +96,11 @@ If you're planning to make any firmware modifications, first check the current m
 
 For **supported machines**, once you've made this change you might want to 'Restore Defaults' to ensure your machine has all the most up-to-date settings.
 
-![](/_images/_gsender/_setup/gs_se_configprofile.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_se_configprofile1.jpg){.aligncenter .size-medium}
 
 If you're running into an issue where the size isn't correct when using Soft Limits for example, get the size from your manufacturer or their resources and update it in Config ➜ Homing/Limits ➜ X/Y/Z axis travel. Remember to hit the **Apply Settings** button afterwards.
 
-![](/_images/_gsender/_setup/gs_se_configmaxtravel.jpg "In this example the Y-axis value has been adjusted."){.aligncenter .size-full}
+![](/_images/_gsender/_setup/gs_se_configmaxtravel1.jpg "In this example the Y-axis value has been adjusted."){.aligncenter .size-full}
 
 ## Running Longer Jobs (optional)
 
