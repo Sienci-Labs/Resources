@@ -17,6 +17,46 @@ featured_image: _images/_gsender/_features/gs_fe_p1_KeyShort.jpg
 
 This page covers all the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, rotary axes, lasers, coolant, and more. Remember, you can always quickly navigate the page by clicking the headings in the 'Page Contents'.
 
+## gSender Customizations
+
+Listing off a few more customizations before moving on to new features, some which were already mentioned on the [Setup & Layout page](https://resources.sienci.com/view/gs-setup-and-layout/), we'd encourage you to look into these options to personalize your gSender experience (you can find them all in the Config tab):
+
+1. **Reconnect automatically**
+   - Will connect to your last CNC anytime you boot up your computer or open gSender and the CNC is still plugged in.
+1. **Visualizer theme and Dark mode**
+   - In the Basics section, both these settings help change the colours in gSender based on what will be easier on your eyes. Check them out if that sounds interesting!
+1. **Lightweight mode**
+   - This mode enables gSender to run faster on computers that are older or less powerful by turning off processor-heavy aspects of the visualizer. It comes in two flavours, either it'll show your file as a picture with no 3D movement, or it'll turn visualization off completely. You can toggle it on/off using the **Feather** button on the left side of the visualizer on the Carve page.
+1. **Portrait layout**
+   - gSender takes on a whole new life if you prefer to use your monitor in portrait mode, and we actually prefer using it in portrait on touchscreens. If you're interested in trying this out it should just be a setting in your operating system, and gSender will adapt automatically.
+  ![](/_images/_gsender/_features/gs_fe_portraitmode.jpg){.aligncenter .size-medium}
+1. **Jogging presets**
+   - You can set these based on the size of your CNC or to match how you like to move your machine around to make jogging around feel more natural.
+1. **Notifications**
+   - In Basics ➜ Notifications, these can be customized to give you warnings when you load bad files, provide information at the end of a job, and more.
+1. **Enable other CNC functions**
+   - If your CNC supports them, this can include a Spindle, Laser, Rotary axis, and more. Just go to the appropriate section in Config and the first option you should see should mention “enabling” it. After Applying the changes you’ll see a new tab appear in the bottom-right of the main Carve screen.
+
+![](/_images/_gsender/_setup/gs_se_hardware-enable.gif){.aligncenter .size-full}
+
+## Touch Plate Setup
+
+gSender has support for three types of touch plates:
+
+1. The **Standard Block** design
+1. **Z Probe**, also sometimes referred to as a 'puck'
+1. And our specialized **AutoZero** touch plate
+
+If you're trying to set up a custom **Standard Block** plate, use some calipers to make the measurements shown below. Once these are noted down, enter these into gSender's 'Probe' settings in similarly named entries, apply the changes, and now you should find that gSender's probing routine has been altered to fit the shape of your touch plate.
+
+![](/_images/_gsender/_features/_probing/gs_fe_pr_dimensions.jpg){.aligncenter .size-medium}
+
+For a custom **Z Probe**, setting up is simple since you just need the thickness of the 'puck'. Enter that value into gSender's 'Probe' settings under 'Z Thickness', apply the changes, and you should be good to go!
+
+![](/_images/_gsender/_features/_probing/gs_fe_pr_probethick.jpg){.aligncenter .size-full}
+
+The AutoZero touch plate doesn't require any setup at all, other than selecting it, and applying the changes!
+
 ## Shortcuts
 
 Starting off as a more advanced gSender user, the first feature you'll want to leverage is **shortcuts**. These can allow you to assign gSender shortcuts or CNC actions to keyboard keys or even to gamepads and joystick movements - very useful for things like **jogging, setting zero, running macros, and menu navigation**.
@@ -148,54 +188,6 @@ Another cool feature is the **Use MPG** selection. If you map one of your thumbs
 
 ![](/_images/_gsender/_features/_shortcuts/gs_fe_sh_gamepad-joystick-mpg.jpg){.aligncenter .size-full .nar}
 
-## UI Options
-
-There are a couple built in options like **Pinch-to-Zoom** on touch screens and **Portrait Mode** for your monitor. You don't have to enable these in gSender, they will work right away.
-
-![](/_images/_gsender/_features/gs_fe_pinchzoom.gif){.aligncenter .size-full}
-
-*Note - You may have to change your display orientation for portrait mode to work, if your monitor doesn't have a gimble*
-
-![](/_images/_gsender/_features/gs_fe_portraitmode.jpg){.aligncenter .size-medium}
-
-There are also a couple UI Options that you can access through the Carve tab ➜ Basics ➜ UI Options. Here you can toggle Dark Mode on/off, use a dark mode for the visualizer and choose how lightweight mode behaves.
-
-![](/_images/_gsender/_features/gs_fe_ui-options.jpg){.aligncenter .size-medium}
-
-### Lightweight Mode
-
-Let's explore how lightweight mode behaves. If you are running gSender on an older or less powerful computer, you may want to use Lightweight Mode. This mode enables gSender to run faster on computers that are less powerful and prone to lagging. You can toggle it on or off using the **Feather** positioned on the left side of the visualizer.
-
-![](/_images/_gsender/_features/gs_fe_lightweight-1.jpg){.aligncenter .size-medium}
-
-What the feather does, depends on how you have your settings configured. If you go to Config ➜ Basics ➜ UI Options, you can customize what lightweight mode you want the feather icon to employ, either **Light** (reduce strain on computer) or **Everything** (turn the visualizer off entirely) modes.
-
-## Touch Plate Setup
-
-gSender has support for three types of touch plates:
-
-1. The **Standard Block** design
-1. **Z Probe**, also sometimes referred to as a 'puck'
-1. And our specialized **AutoZero** touch plate
-
-If you're trying to set up a custom **Standard Block** plate, use some calipers to make the measurements shown below. Once these are noted down, enter these into gSender's 'Probe' settings in similarly named entries, apply the changes, and now you should find that gSender's probing routine has been altered to fit the shape of your touch plate.
-
-![](/_images/_gsender/_features/_probing/gs_fe_pr_dimensions.jpg){.aligncenter .size-medium}
-
-For a custom **Z Probe**, setting up is simple since you just need the thickness of the 'puck'. Enter that value into gSender's 'Probe' settings under 'Z Thickness', apply the changes, and you should be good to go!
-
-![](/_images/_gsender/_features/_probing/gs_fe_pr_probethick.jpg){.aligncenter .size-full}
-
-The AutoZero touch plate doesn't require any setup at all, other than selecting it, and applying the changes!
-
-## Coolant Control / IOT Relay
-
-If you have a coolant control pin on your CNC machine, gSender has a tab for manually controlling it. Under the 'Coolant' tab on the main Carve screen, you can find the 'Mist' and 'Flood' buttons to activate the different modes of coolant use, as well as an indicator for whether the coolant function is active or inactive. This indicator also functions during job sending. You can turn off both coolant pins by pressing the 'Off' button.
-
-Many hobby CNCers don't have a need for coolant and so prefer to use these outputs for controlling other periphery. The most common is an IOT relay that can be used to automatically control a vacuum for dust collection, the CNC's router, LED lighting, and more. See an example of how to set that up here: <a href="https://resources.sienci.com/view/lm-iot-relay/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-iot-relay/</a>
-
-![](/_images/_gsender/_features/gs_fe_coolantcontrol.gif){.aligncenter .size-full}
-
 ## Spindle & Laser Support
 
 Similar to the manual coolant control, this area is for manual control of a spindle or laser outside of g-code sending. If you have a spindle or laser, you can activate these controls by going to the Config tab ➜ Spindle/Laser section. Here you can enable these functions by flipping the enable Spindle/Laser toggle. Don't forget to apply your new settings!
@@ -227,6 +219,14 @@ Since many CNCs are coming with diode accessories, gSender has some unique featu
 - Switch to a specialized visualization designed to show raster engraving images better than typical g-code visualizers. Seeing the laser intensity in the movements is very useful to get a better idea of what your projects are going to look like when they're run. This will only apply to files loaded after 'Laser mode' is enabled, where you'll see the colour change from the default **blue** to **red**.
 
 ![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_laser-vis.jpg){.aligncenter .size-medium}
+
+## Coolant Control / IOT Relay
+
+If you have a coolant control pin on your CNC machine, gSender has a tab for manually controlling it. Under the 'Coolant' tab on the main Carve screen, you can find the 'Mist' and 'Flood' buttons to activate the different modes of coolant use, as well as an indicator for whether the coolant function is active or inactive. This indicator also functions during job sending. You can turn off both coolant pins by pressing the 'Off' button.
+
+Many hobby CNCers don't have a need for coolant and so prefer to use these outputs for controlling other periphery. The most common is an IOT relay that can be used to automatically control a vacuum for dust collection, the CNC's router, LED lighting, and more. See an example of how to set that up here: <a href="https://resources.sienci.com/view/lm-iot-relay/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-iot-relay/</a>
+
+![](/_images/_gsender/_features/gs_fe_coolantcontrol.gif){.aligncenter .size-full}
 
 ## Macros
 
@@ -371,7 +371,7 @@ You will need:
 
 Surfacing the wasteboard of your machine or any project or blank material, can easily be done right inside gSender from the **Tools tab**! This saves the hassle of drawing rectangles in your CAD/CAM program and moving files around until you get the settings right. It's also great for creating a perfectly flat surface of your starting materials, just like a jointer or surface planer would. You can also use the [Rotary Surfacing Tool](#rotary-surfacing-tool) if you are wanting round stock off a rotary axis.
 
-https://youtu.be/jfInIEOB3kU
+https://youtu.be/hZ8ltb0w3Ao
 
 If you plan to use this tool to surface your wasteboard or larger pieces of material, some extra advice we'd give is to remove any accessories that might get in the way of your machine travelling to its limits as well as have a good vacuum on hand because surfacing can get really messy.
 
@@ -487,11 +487,11 @@ For the text-box of the situation you want the action to happen, type in the g-c
 
 For CNC machines, tool changes are pauses that are programmed in the g-code for a user to switch out the cutting tool for a different one, or the machine to do that automatically. The workflow can also sometimes involve pausing until the user tells it to continue, usually through a 'Resume' and/or 'Confirm Tool Change' button on the machine interface. This allows you to run multiple toolpaths (cutting operations) within one g-code file.
 
-The g-code for tool changing is an M6 command. gSender is quite capable when it comes to customizing CNCs for tool changing, even having full Wizards built-in. The tool change options are in Config ➜ **Tool Changing** tab. You can select from one of 6 different options, and even choose to 'passthrough' the M6 and T commands to the CNC controller for CNCs that are capable of handling tool changes on their own.
+The g-code for tool changing is an M6 command. gSender is quite capable when it comes to customizing CNCs for tool changing, even having full Wizards built-in. The tool change options are in Config ➜ **Tool Changing**. You can select from one of 6 different options, and even choose to 'passthrough' the M6 and T commands to the CNC controller for CNCs that are capable of handling tool changes on their own.
 
 ![](/_images/_gsender/_features/_toolchange/gs_fe_toolchange.jpg){.aligncenter .size-full}
 
-You can **Ignore** any M6 tool change commands, **Pause** the job when a tool change is recognized, or select one of the **Wizards** that will guide you through pre-set tool changing methods. In the image below, you can see an example of the helper tab opening up the **Standard Re-zero Wizard** to guide you through the tool change.
+You can **Ignore** any M6 tool change commands, **Pause** the job when a tool change is recognized, or select one of the **Wizards** that will guide you through pre-set tool changing methods. In the image below, you can see an example of the Helper window opening up to show the **Standard Re-zero Wizard** with all of its guided steps.
 
 ![](/_images/_gsender/_features/_toolchange/gs_fe_toolchangewiz.jpg){.aligncenter .size-medium}
 
@@ -501,13 +501,10 @@ If you are using one of the wizard options, know that you can access all other g
 1. **Pause**<br>Pauses gSender at the tool change point, as if you had hit the pause button manually. This gives you freedom to jog, zero, or anything else you'd like, and is great for those that are running multi-tool files but want to use a different process than the Wizards provide. This could be a manual probing process, a different tool changing approach, or running custom macros to support your machines specific hardware. gSender is compatible with tool length sensors like the Carbide 3D bitsetter, and our community has compiled a <a href="https://forum.sienci.com/t/bitsetter-and-other-tool-length-sensors-supported-in-gSender/3877/4">list of macros</a> for tool changing that you can use when you are paused. Just note that pausing can't always guarantee keeping track of your movements and actions when it comes time to resume the job so try to ensure you get back to the starting point and set zeros correctly.
 1. **Standard Re-zero** (Wizard)<br>Titled 'standard' because it's exactly the same as the standard process you might normally follow for running a file, changing the tool, re-zeroing Z, then running the next file except it's applied to a single file with multiple toolpaths. Since the process is so familiar, this is a great way to dip your toes into tool changing within one file. Compatible with using a touch plate or the paper method, zero out at a predetermined spot (usually at the front left corner), and use jogging to move around. The advantage of introducing this extra automation and guidance during tool changes is that you don't have to worry about custom macros and it reminds you of simple steps like turning the router back on or zeroing Z.
 1. **Flexible Re-zero** (Wizard)<br>Similar to the 'standard' wizard with similar steps and manual movements but provides the ability to zero Z off a point that wasn't your starting Z when it comes time to change the tool. This is useful if you tend to carve away your material and lose the starting Z or you don't have limit switches but would like a process similar to a tool length sensor.
-1. **Fixed Tool Sensor** (Wizard)<br>This is the most automated setting where all probes and movements are done for you, you only need to intervene by changing the tools. Set up the job and zero normally then expect the machine to move to the sensor location when it reaches a tool change, verify tool length, prompt for a change, probe new tool, then resume cutting. Your machine will need to be homed, have limit switches, and have a tool length sensor (compatible with Carbide 3D bitsetter for example) in order for this option to work. To set up the sensor mount the router/spindle as far down as you might typically put it, with the longest bit mounted in it, then jog it to hover over the tool length sensor with some room to spare and open the tool changing tab to **Grab** that location. This will be the spot your machine moves to every tool change so if it's too low or your sensor doesn't work it'll run into the sensor. You can also enter these coordinates manually, and test them with the **Go To** button. Don't forget to hit the **Apply Settings** button once you have your location set!
-
-   ![](/_images/_gsender/_features/_toolchange/gs_fe_toolchangefixed.jpg){.aligncenter .size-full}
-
+1. **Fixed Tool Sensor** (Wizard)<br>This is the most automated setting where all probes and movements are done for you, you only need to intervene by changing the tools. Set up the job and zero normally then expect the machine to move to the sensor location when it reaches a tool change, verify tool length, prompt for a change, probe new tool, then resume cutting. Your machine will need to be homed, have limit switches, and have a tool length sensor (compatible with Carbide 3D bitsetter for example) in order for this option to work. To set up the sensor mount the router/spindle as far down as you might typically put it, with the longest bit mounted in it, then jog it to hover over the tool length sensor with some room to spare and open Config ➜ **Tool Changing** to **Grab** that location, then apply the new settings. This will be the spot your machine moves to every tool change so if it's too low or your sensor doesn't work it'll run into the sensor. You can also enter these coordinates manually, and test them with the **Go To** button.
+  ![](/_images/_gsender/_features/_toolchange/gs_fe_toolchangefixed.jpg){.aligncenter .size-full}
 1. **Code**<br>You can enter your own macros before and after the tool change with this strategy selected which is fairly powerful for making tool changing processes that are more automated than just pausing.
-
-   ![](/_images/_gsender/_features/_toolchange/gs_fe_toolchangecode.jpg){.aligncenter .size-medium}
+  ![](/_images/_gsender/_features/_toolchange/gs_fe_toolchangecode.jpg){.aligncenter .size-medium}
 
 ## Machine Coordinates vs Workpiece Coordinates
 
