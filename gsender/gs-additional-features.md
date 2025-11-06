@@ -318,7 +318,7 @@ The **Tool Tab** is always available near the bottom left of the screen. Here yo
 - Movement Tuning
 - Surfacing
 
-![](/_images/_gsender/_features/_tools/gs_fe_to_main.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_tools/gs_fe_to_main.jpg){.aligncenter .size-full}
 
 ### XY Squaring
 
@@ -369,35 +369,28 @@ You will need:
 
 ### Surfacing
 
+Surfacing the wasteboard of your machine or any project or blank material, can easily be done right inside gSender from the **Tools tab**! This saves the hassle of drawing rectangles in your CAD/CAM program and moving files around until you get the settings right. It's also great for creating a perfectly flat surface of your starting materials, just like a jointer or surface planer would. You can also use the [Rotary Surfacing Tool](#rotary-surfacing-tool) if you are wanting round stock off a rotary axis.
+
 https://youtu.be/jfInIEOB3kU
 
-Surfacing the wasteboard of your machine or any project, can easily be done right inside gSender! The first thing you'll want to do is decide which corner you want to start surfacing from. In most cases the front, left of the machine is the most convenient, and is the default setting. You might also want to remove any accessories that might get in the way of your machine travelling around during surfacing as well as have a good vacuum on hand because surfacing can get really messy.
+If you plan to use this tool to surface your wasteboard or larger pieces of material, some extra advice we'd give is to remove any accessories that might get in the way of your machine travelling to its limits as well as have a good vacuum on hand because surfacing can get really messy.
 
-![](/_images/_gsender/_features/_tools/gs_fe_to_surfacing.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_tools/gs_fe_to_surfacing.jpg){.aligncenter .size-full}
 
 1. Start by entering the settings you'd like to use to generate your surfacing job on the left side:
-   - **X & Y**: decides the cutting size (width and depth) you want to surface. If you're surfacing your wasteboard, use the manufacturer's spec on max machine travel or manually jog to the limits to cover the full cutting area, or if you're surfacing a piece of material then you can use a measuring tape.<br>- **AltMill**: 1265mm (49") x 635mm (25") or 1251mm (49") x 174mm (6.8")<br>- **LongMill MK2**: 818mm (32.2”) or 1278mm (50.3”) x 366mm (14.4”) or 866mm (34.1”)<br>(if using limit switches, remove about 8mm/0.3” in X and 11mm/0.43” in Y)<br>- **LongMill MK1**: 320mm (12.6”) or 805mm (31.7”) x 344mm (13.54”) or 844mm (33.23”)<br>(if using limit switches, remove about 35mm/1.38” in X and 24mm/0.94” in Y)<br>(if using magnetic dust shoe, remove about 34mm/1.34” in X)<br>- **Mill One**: 235mm (9.25”) or 257mm (10.1”) x 185mm (7.28”)
+   - **X & Y**: decides the cutting size (width and depth) you want to surface. If you're surfacing your wasteboard, use the manufacturer's spec on max machine travel or manually jog to the limits to cover the full cutting area, or if you're surfacing a piece of material then you can use a measuring tape.<br>- **AltMill**: 1265mm (49") x 635mm (25") or 1251 (49")<br>- **LongMill MK2**: 818mm (32.2”) or 1278 (50.3”) x 366mm (14.4”) or 866 (34.1”)<br>(if using limit switches, remove about 8mm/0.3” in X and 11mm/0.43” in Y)<br>- **LongMill MK1**: 320mm (12.6”) or 805 (31.7”) x 344mm (13.54”) or 844 (33.23”)<br>(if using limit switches, remove about 35mm/1.38” in X and 24mm/0.94” in Y)<br>(if using magnetic dust shoe, remove about 34mm/1.34” in X)<br>- **Mill One**: 235mm (9.25”) or 257 (10.1”) x 185mm (7.28”)
    - **Cut Depth & Max**: describes how deep you want to cut per pass and the total depth you want to cut down. For larger surfacing bits usually you should keep cut depth below 1mm, max depth should be increased to a couple millimeters if you think your material is very warped.
    - **Bit Diameter** (typically 6 - 25mm): make sure you have the right bit for the job like a surfacing tool or a large, flat end mill since this will give you a better surface finish.
    - **Spindle RPM** (default 17000): only applies if you have an automatic speed control, otherwise set this manually on your router.
    - **Feed rate** (default 2500mm/min): influenced by the RPM, step over, bit diameter, and cut depth. Luckily if you set it incorrectly you'll be able to override it during the job since surfacing can cause burning when cutting too slow or can have worse surface finish when cutting too fast.
    - **Stepover** (default 40%): sticking around 40% tends to be a good balance between speed (using a higher %) and better surface finish (using a lower %).
-
-![](/_images/_gsender/_features/_tools/gs_fe_to_surfacing2.jpg){.aligncenter .size-medium}
-
-1. Select a Start Position of any four corners or the center by clicking the dot; this is where the surfacing will begin. You can also select a surfacing pattern of spiral or zig-zag. The spiral will only cut from the inside-out if the start position is the centre. If you toggle the flip cut direction, the spiral will cut conventional instead of climb, and the zig-zag pattern will cut vertically instead of horizontally.
-
-![](/_images/_gsender/_features/_tools/gs_fe_to_surfacing3.jpg){.aligncenter .size-medium}
-
-1. Press 'Generate G-code' and check your surfacing tool path using the 'Visualizer Preview' tab. You can also see the raw g-code using the 'G-code Viewer' tab and can copy and save it to a g-code file if you'd like to use it again later.
-
-![](/_images/_gsender/_features/_tools/gs_fe_to_surfacing4.jpg){.aligncenter .size-medium}
-
-1. Press **Load to Main Visualizer** to bring the g-code into gSender's main screen. Make sure that you jog to the starting point and set your zero in the right place before starting the job. You can also press the **Outline** button as an easy way to check that you'll be surfacing where you expect and if you find the dimensions aren't correct you can always re-open the surfacing tool, tweak the size, and try again. Feel free to start the job whenever you're ready!
-
-![](/_images/_gsender/_features/_tools/gs_fe_to_surfacing5.jpg){.aligncenter .size-medium}
-
-Did you know that surfacing can be used for more than your wasteboard? It's great for creating a perfectly flat surface of your starting materials, just like a jointer or surface planer would. You can also use the [Rotary Surfacing Tool](#rotary-surfacing-tool) if you are wanting round stock.
+  ![](/_images/_gsender/_features/_tools/gs_fe_to_surfacing2.jpg){.aligncenter .size-medium}
+1. Decide where you want to start surfacing from by clicking any of the corners or the center. In most cases the front, left of the machine is the most convenient, and is the default setting. You can also select a surfacing pattern of spiral or zig-zag. The spiral will only cut from the inside-out if the start position is the centre. If you toggle the flip cut direction, the spiral will cut conventional instead of climb, and the zig-zag pattern will cut vertically instead of horizontally.
+  ![](/_images/_gsender/_features/_tools/gs_fe_to_surfacing3.jpg){.aligncenter .size-medium}
+1. Press '**Generate G-code**' and check your surfacing tool path using the 'Visualizer Preview' tab. You can also see the raw g-code using the 'G-code Viewer' tab and can copy and save it to a g-code file if you'd like to use it again later.
+  ![](/_images/_gsender/_features/_tools/gs_fe_to_surfacing4.jpg){.aligncenter .size-medium}
+1. Press '**Load to Main Visualizer**' to bring the g-code into gSender's main screen. Make sure that you jog to the starting point and set your zero in the right place before starting the job. You can also press the '**Outline**' button as an easy way to check that you'll be surfacing where you expect and if you find the dimensions aren't correct you can always re-open the surfacing tool, tweak the size, and try again. Feel free to start the job whenever you're ready!
+  ![](/_images/_gsender/_features/_tools/gs_fe_to_surfacing5.jpg){.aligncenter .size-medium}
 
 ## Stats Tab
 
@@ -506,8 +499,8 @@ If you are using one of the wizard options, know that you can access all other g
 
 1. **Ignore**<br>This simply ignores any M6 commands in the g-code file. This is the default option since it's perfect for beginners that only make projects with one tool or those that create separate files for each tool and prefer to manually perform tool changes between files.
 1. **Pause**<br>Pauses gSender at the tool change point, as if you had hit the pause button manually. This gives you freedom to jog, zero, or anything else you'd like, and is great for those that are running multi-tool files but want to use a different process than the Wizards provide. This could be a manual probing process, a different tool changing approach, or running custom macros to support your machines specific hardware. gSender is compatible with tool length sensors like the Carbide 3D bitsetter, and our community has compiled a <a href="https://forum.sienci.com/t/bitsetter-and-other-tool-length-sensors-supported-in-gSender/3877/4">list of macros</a> for tool changing that you can use when you are paused. Just note that pausing can't always guarantee keeping track of your movements and actions when it comes time to resume the job so try to ensure you get back to the starting point and set zeros correctly.
-1. **Standard Re-zero** (Wizard)<br>Titled *standard* because it's exactly the same as the standard process you might normally follow for running a file, changing the tool, re-zeroing Z, then running the next file except it's applied to a single file with multiple toolpaths. Since the process is so familiar, this is a great way to dip your toes into tool changing within one file. Compatible with using a touch plate or the paper method, zero out at a predetermined spot (usually at the front left corner), and use jogging to move around. The advantage of introducing this extra automation and guidance during tool changes is that you don't have to worry about custom macros and it reminds you of simple steps like turning the router back on or zeroing Z.
-1. **Flexible Re-zero** (Wizard)<br>Similar to the *standard* wizard with similar steps and manual movements but provides the ability to zero Z off a point that wasn't your starting Z when it comes time to change the tool. This is useful if you tend to carve away your material and lose the starting Z or you don't have limit switches but would like a process similar to a tool length sensor.
+1. **Standard Re-zero** (Wizard)<br>Titled 'standard' because it's exactly the same as the standard process you might normally follow for running a file, changing the tool, re-zeroing Z, then running the next file except it's applied to a single file with multiple toolpaths. Since the process is so familiar, this is a great way to dip your toes into tool changing within one file. Compatible with using a touch plate or the paper method, zero out at a predetermined spot (usually at the front left corner), and use jogging to move around. The advantage of introducing this extra automation and guidance during tool changes is that you don't have to worry about custom macros and it reminds you of simple steps like turning the router back on or zeroing Z.
+1. **Flexible Re-zero** (Wizard)<br>Similar to the 'standard' wizard with similar steps and manual movements but provides the ability to zero Z off a point that wasn't your starting Z when it comes time to change the tool. This is useful if you tend to carve away your material and lose the starting Z or you don't have limit switches but would like a process similar to a tool length sensor.
 1. **Fixed Tool Sensor** (Wizard)<br>This is the most automated setting where all probes and movements are done for you, you only need to intervene by changing the tools. Set up the job and zero normally then expect the machine to move to the sensor location when it reaches a tool change, verify tool length, prompt for a change, probe new tool, then resume cutting. Your machine will need to be homed, have limit switches, and have a tool length sensor (compatible with Carbide 3D bitsetter for example) in order for this option to work. To set up the sensor mount the router/spindle as far down as you might typically put it, with the longest bit mounted in it, then jog it to hover over the tool length sensor with some room to spare and open the tool changing tab to **Grab** that location. This will be the spot your machine moves to every tool change so if it's too low or your sensor doesn't work it'll run into the sensor. You can also enter these coordinates manually, and test them with the **Go To** button. Don't forget to hit the **Apply Settings** button once you have your location set!
 
    ![](/_images/_gsender/_features/_toolchange/gs_fe_toolchangefixed.jpg){.aligncenter .size-full}
@@ -735,7 +728,7 @@ The idea is that once you're in this "rotary mode", gSender does the legwork to 
 
 ### Rotary Mode
 
-Navigate to the Config tab where you will find the Rotary settings. Here you can **toggle** the Rotary controls to enable them and make them visible on the Carve tab. Don't forget to hit the Apply Settings button!
+Navigate to the Config tab where you will find the Rotary settings. Here you can **toggle** the Rotary controls to make them visible on the Carve tab. Don't forget to hit the Apply Settings button!
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_enable.jpg){.aligncenter .size-medium}
 
@@ -761,7 +754,7 @@ With this feature you can:
 
 When mounting a rotary axis, it's important to be parallel to the X-axis, and helpful to have a repeatable position so you can reliably mount and unmount the rotary, depending on when you want to use it. If you have your own rotary axis, this is a step that you'll have to do yourself.
 
-For those who might have our Vortex rotary axis, the **Rotary Mounting Setup** button is a specific macro that cuts into the machine wasteboard to help you fasten the rotary with perfect parallel alignment. Check out our <a href="https://resources.sienci.com/view/vx-mounting-your-vortex/#creating-the-mounting-holes">Vortex Resources</a> for more details on how to use this wizard.
+For those who might have our Vortex rotary axis, the '**Rotary Mounting Setup**' button is a specific macro that cuts into the machine wasteboard to help you fasten the rotary with perfect parallel alignment. Check out our <a href="https://resources.sienci.com/view/vx-mounting-your-vortex/#creating-the-mounting-holes">Vortex Resources</a> for more details on how to use this wizard.
 
 ### Y-axis Alignment
 
@@ -786,7 +779,7 @@ Once enabled, you will see a confirmation appear in the bottom right corner.
 
 When you enable Rotary Mode, several changes will happen to your tool options:
 
-- The **Y-axis Alignment** and **Rotary Mounting Setup** buttons become grey and hidden. This is because your Y-axis will be locked in its current position at this time, so there is no need to align it, and your rotary should already be set up
+- The **Y-axis Alignment** and **Rotary Mounting Setup** buttons become grey and hidden. This is because your Y-axis will be locked in its current position at this time, so there is no need to align it, and your rotary should already be set up.
 - The **Stock Turning** and **Probe Rotary Z-axis** buttons become available
 
 Several changes will also happen to your controls:
@@ -810,7 +803,7 @@ To do this, jog the cutting bit to be hovering approximately ~15mm just above th
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_z-position.jpg){.aligncenter .size-medium}
 
-In gSender, select the rotary axis tab, then Click **Probe Rotary Z-axis** and the Z-axis will begin probing automatically, setting the Z-zero point for you. This will need to be done for each tool change in addition to the beginning of each job.
+In gSender, select the rotary axis tab, then click '**Probe Rotary Z-axis**' and the Z-axis will begin probing automatically, setting the Z-zero point for you. This will need to be done for each tool change in addition to the beginning of each job.
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_probez.jpg){.aligncenter .size-full .nar}
 
@@ -861,7 +854,7 @@ You can find the release notes for the latest version of gSender in the “About
 
 ## More
 
-Check out this video of Chris showing off the **New U**, reviewing some of the new features, and pushing some gSender merchandise!
+There's always more to learn about gSender including many videos of lesser-known tips, setups on different CNCs, and open source modifications people have made. Check out this video of Chris showing off the **New U** release, reviewing some of the new features and what there is to be excited about!
 
 https://youtu.be/ZJB4KALmEGI
 
