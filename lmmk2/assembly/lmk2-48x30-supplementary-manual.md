@@ -167,7 +167,7 @@ Grab the router power extension cable and motor cable from the drag chain & cabl
 
 If you purchased the inductive sensor add-on kit, you’ll want to install the Z-axis limit switch now. Grab the limit switch cable extension from the EX drag chain & cable box, as well as one of the three inductive sensors from within the kit.
 
-Route one inductive sensor cable through the X-axis drag chain, leaving some slack at the sensor end for mounting later on. Install the limit switch extension cable to extend this cable. The excess cable length will be bundled in the next section.
+Route one inductive sensor cable through the X-axis drag chain, leaving some slack at the sensor for mounting the sensor later. Install the included limit switch extension cable as shown below to extend this cable. The excess cable length will be bundled with the Z-axis motor cable and router power cable in the next section.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_5505.jpg){.aligncenter .size-medium}
 
