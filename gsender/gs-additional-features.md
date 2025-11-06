@@ -178,19 +178,19 @@ gSender has support for three types of touch plates:
 1. **Z Probe**, also sometimes referred to as a 'puck'
 1. And our specialized **AutoZero** touch plate
 
-If you're trying to set up a custom **Standard Block** plate, use some calipers to pick up on the measurements noted below. Once these are noted down, enter these into gSender's 'Probe' settings in similarly named entries, and now you should find that gSender's probing routine has been altered to fit the shape of your touch plate.
+If you're trying to set up a custom **Standard Block** plate, use some calipers to make the measurements shown below. Once these are noted down, enter these into gSender's 'Probe' settings in similarly named entries, apply the changes, and now you should find that gSender's probing routine has been altered to fit the shape of your touch plate.
 
 ![](/_images/_gsender/_features/_probing/gs_fe_pr_dimensions.jpg){.aligncenter .size-medium}
 
-For a **Z Probe**, setting up is simple since you just need the thickness of the 'puck'. Enter that value into gSender's 'Probe' settings under 'Z Thickness' and you should be good to go!
+For a custom **Z Probe**, setting up is simple since you just need the thickness of the 'puck'. Enter that value into gSender's 'Probe' settings under 'Z Thickness', apply the changes, and you should be good to go!
 
-![](/_images/_gsender/_features/_probing/gs_fe_pr_probethick.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_probing/gs_fe_pr_probethick.jpg){.aligncenter .size-full}
 
-Our AutoZero touch plate doesn't require any setup at all, other than selecting it, and hitting that Apply Changes button!
+The AutoZero touch plate doesn't require any setup at all, other than selecting it, and applying the changes!
 
 ## Coolant Control / IOT Relay
 
-If you have a coolant control pin on your CNC machine, gSender has a tab for manually controlling it. Under the 'Coolant' tab on the main Carve tab, you can find the 'Mist' and 'Flood' buttons to activate the different modes of coolant use, as well as an indicator for whether the coolant function is active or inactive. This indicator also functions during job sending. You can turn off both coolant pins by pressing the 'Off' button.
+If you have a coolant control pin on your CNC machine, gSender has a tab for manually controlling it. Under the 'Coolant' tab on the main Carve screen, you can find the 'Mist' and 'Flood' buttons to activate the different modes of coolant use, as well as an indicator for whether the coolant function is active or inactive. This indicator also functions during job sending. You can turn off both coolant pins by pressing the 'Off' button.
 
 Many hobby CNCers don't have a need for coolant and so prefer to use these outputs for controlling other periphery. The most common is an IOT relay that can be used to automatically control a vacuum for dust collection, the CNC's router, LED lighting, and more. See an example of how to set that up here: <a href="https://resources.sienci.com/view/lm-iot-relay/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-iot-relay/</a>
 
@@ -222,9 +222,9 @@ Some accessories can be really handy to add to a CNC router like a laser diode, 
 
 Since many CNCs are coming with diode accessories, gSender has some unique features to also support lasers. Once 'Laser Mode' is turned on, gSender will:
 
-- Automatically apply an offset from the router/spindle to the laser so all your g-code files stay aligned (configured in the Spindle/Laser settings, or with Firmware settings $741 and 742 on the SLB)
-- Turn on the laser at low power when running a job outline (enabled in the Spindle/Laser settings). This will help you to better see where your project is going to be located on the material
-- Switch to a specialized visualization designed to show raster engraving images better than typical g-code visualizers. Seeing the laser intensity in the movements is very useful to get a better idea of what your projects are going to look like when they're run. This will only apply to files loaded after 'Laser mode' is enabled and the colour can be customized in the settings. By default you will see your loaded file turn from **blue** to **red**
+- Automatically apply an offset from the router/spindle to the laser so all your g-code files stay aligned (configured in the Spindle/Laser settings, or with Firmware settings $741 and 742 on the SLB).
+- Turn on the laser at low power when running a job outline (enabled in the Spindle/Laser settings). This will help you to better see where your project is going to be located on the material.
+- Switch to a specialized visualization designed to show raster engraving images better than typical g-code visualizers. Seeing the laser intensity in the movements is very useful to get a better idea of what your projects are going to look like when they're run. This will only apply to files loaded after 'Laser mode' is enabled, where you'll see the colour change from the default **blue** to **red**.
 
 ![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_laser-vis.jpg){.aligncenter .size-medium}
 
@@ -244,15 +244,15 @@ Here you'll see a space for inputting your custom g-code and adding a name and d
 
 ![](/_images/_gsender/_features/_macros/gs_fe_ma_macros2.jpg){.aligncenter .size-medium}
 
-New macros will appear as buttons in the 'Macro' tab that can be rearranged by dragging them around. These buttons will display the macro name, and can always be later altered or deleted by clicking on their '...' button.
+New macros will appear as buttons in the 'Macro' tab that can be rearranged by dragging them around. These buttons will display the macro name, show the description if you hover your mouse over them, and can always be later altered or deleted by clicking on their '...' button.
 
 ![](/_images/_gsender/_features/_macros/gs_fe_ma_macros5.jpg){.aligncenter .size-medium}
 
-Any macro can be executed by pressing it. Once running, you should see the macro start to pulse green while a toast notification on the bottom right hand side of gSender also notifies you that it's running.
+Any macro can be run by pressing it. Once running, you should see the macro start to pulse green while a toast notification on the bottom right hand side of gSender also notifies you that it's running.
 
 ![](/_images/_gsender/_features/_macros/gs_fe_ma_macros3.jpg){.aligncenter .size-medium}
 
-Macros can also be executed using shortcuts. Every time you create a new macro it'll become available at the bottom of the shortcuts list for you to assign a key or gamepad button to. Add your keybindings and press the Active toggle to enable the shortcut.
+Macros can also be ran using shortcuts. Every time you create a new macro it'll become available on the shortcuts list for you to assign a key or gamepad button to. Add your keybindings and press the Active toggle to enable the shortcut.
 
 ![](/_images/_gsender/_features/_macros/gs_fe_ma_macros31.jpg){.aligncenter .size-medium}
 
@@ -428,7 +428,7 @@ Another valuable feature is the ability to download a **Diagnostic PDF** file of
 
 ![](/_images/_gsender/_features/gs_fe_statsgethelp.jpg){.aligncenter .size-medium}
 
-To download the PDF, click the **Download Now!**  button. This will open a save dialog box. Save the file to a location that you can easily access to send along to others in an email, support ticket or post online.
+To download the PDF, click the '**Download Diagnostic File**'  button. This will open a save dialog box. Save the file to a location that you can easily access to send along to others in an email, support ticket or post online.
 
 Lastly, you can copy the last 40 lines of code in the gSender console, by hitting the double page icon to the left of the Run button. This will copy the code to your clipboard, so you can paste it to forums or share it with support teams.
 
