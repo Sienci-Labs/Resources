@@ -196,7 +196,7 @@ Similar to the manual coolant control, this area is for manual control of a spin
 
 Back at the main Carve screen, you'll see the 'Spindle/Laser' tab at the bottom right. Here you can click to toggle between 'Spindle Mode' and 'Laser Mode', changing your grbl settings for you and displaying buttons specific to each device. For each mode there is also a red caution circle that indicates whether the spindle or laser is active and a Spindle ON warning will appear in the Top bar.
 
-In **Spindle Mode** you can select your spindle setup, adjust the spindle speed with a slider, spin it up in either direction, and stop it again with the 'Stop' button. These are all based on g-code commands that can also be entered into the console manually if desired. The speed slider is set from your grbl firmware settings, so max and min speed can be altered in the Config tab ➜ Spindle/Laser tab.
+In '**Spindle Mode**' you can select your current spindle, adjust the spindle speed with a slider, spin it up in either direction, and stop it again with the 'Stop' button. These are all based on g-code commands that can also be entered into the console manually if desired. The speed slider is set from your grbl firmware settings, so max and min speed can be altered in the Config ➜ Spindle/Laser.
 
 ![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_turnonoff.gif){.aligncenter .size-full}
 
@@ -204,7 +204,7 @@ You can also use the buttons in this tab to a more limited degree, to spin forwa
 
 ![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_onoff-config.gif){.aligncenter .size-full}
 
-**Laser Mode** is very similar, allowing for On/Off control, a slider for setting the laser power during manual control, and a 'Laser Test' button. The laser testing function is handy when troubleshooting your laser setup or for other sorts of locating and alignment because it only enables the laser for a short time before turning it back off again. Though this is much safer than regular on/off control, we still highly advise that you have you have a hand on a kill switch or E-stop during testing or control of either Laser or Spindle modes so that in case something goes wrong with your computer or the program they can still be safely deactivated.
+'**Laser Mode**' is very similar, allowing for On/Off control, a slider for setting the laser power during manual control, and a 'Laser Test' button. The laser testing function is handy when troubleshooting your laser setup or for other sorts of locating and alignment because it only enables the laser for a short time before turning it back off again. Though this is much safer than regular on/off control, we still highly advise that you have you have a hand on a kill switch or E-stop during testing or control of either Laser or Spindle modes so that in case something goes wrong with your computer or the program they can still be safely deactivated.
 
 ![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_turnonlaser.gif){.aligncenter .size-full}
 
@@ -839,7 +839,7 @@ Rotary surfacing is similar to the regular XYZ surfacing tool. Let's explore thi
 
 ### Rotary Settings
 
-When you click on the setting button and then select the Rotary tab, you will see the firmware configurations. Here you can enter your own settings, reset the default settings and turn Hard Limits on/off.
+When you go to Config ➜ Rotary, you'll be able to enter your own settings, reset the default settings and turn Hard Limits on/off.
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_settingslimits.jpg){.aligncenter .size-medium}
 
