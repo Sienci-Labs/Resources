@@ -277,7 +277,7 @@ If you want some initial inspiration, see other macros [**made by our community*
 1. Read up on all the other Math features available like <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math" target="_blank" rel="noopener">absolute value, rounding, and trigonometry</a> (become very useful for more advanced probing cycles for example)
 1. Start to add more logic to your code using ternary expressions to choose between two outcomes (e.g. `%variable = (30 > 20) ? 10 : 20` which is checking if 30 is bigger than 20, and if it is it'll make the variable = 10, otherwise it'll make the variable = 20).
 1. Here's an example of a more advanced macro, made by gSenders Lead Developer, which shows off much of the guidance given above. This macro was made for our new <a href="https://sienci.com/product/slb/" target="_blank" rel="noopener">SLB control board</a> in order to cycle between its 3 <a href="https://resources.sienci.com/view/slb-manual/#status-lights" target="_blank" rel="noopener">status light states</a>.
-   - The macro is only 3 lines.  First it checks what the current light state is and sets it to 0 if it doesn't have a state. Next, it sets the lights to the current state but applies a modulus of 3 since we can only have a state value of 0, 1, or 2 so we'll get an error if the value is 3 or above. Lastly, it adds +1 to the state so that if the macro is run again it'll put the lights into a new state.
+   - The macro is only 3 lines. First it checks what the current light state is and sets it to 0 if it doesn't have a state. Next, it sets the lights to the current state but applies a modulus of 3 since we can only have a state value of 0, 1, or 2 so we'll get an error if the value is 3 or above. Lastly, it adds +1 to the state so that if the macro is run again it'll put the lights into a new state.
    - `%nextLight = global.lightState || 0`
    - `M356 P0 Q[nextLight % 3]`
    - `%global.lightState = Number(nextLight) + 1`
@@ -296,7 +296,7 @@ The console is a tab that you can access at the bottom right hand side of the gS
 
 - Manually send g-code commands to your CNC
 - Check for errors or alarms and the g-code that caused them (normally the line that comes before)
-- Copy text straight from the console to send in an email for help by clicking the ... beside the "Run" button
+- Copy text straight from the console to send in an email for help by clicking the '...' button next to 'Run', then clicking 'Copy last 50 lines'.
 - Even open the console in another window by pressing the top, right icon to help you see more console text at a time (if you press the button again once you reconnect to your CNC, it'll reconnect the console stream to the original window too)
 
 ![](/_images/_gsender/_features/gs_fe_console.jpg){.aligncenter .size-full}
@@ -310,15 +310,62 @@ When you first start up gSender, the console will display EEPROM settings that a
 
 To access EEPROM settings again, enter in “$$” into the console and hit the 'Enter' key or click the 'Run' button. These settings can be changed via the console as well as the Firmware Tool which we've designed as a much more visual way to alter machine settings.
 
-## Tools for Calibration
+## Calibration Tools
 
-The **Tool Tab** in gSender enables you to make finer adjustments to your machine for improved performance. There are three processes available in gSender to assist you:
+The **Tool Tab** is always available near the bottom left of the screen. Here you'll find some tools that you can use to make finer adjustments to your machine for improved performance:
 
-- Surfacing Wasteboard
-- Movement Tuning
 - XY Squaring
+- Movement Tuning
+- Surfacing
 
 ![](/_images/_gsender/_features/_tools/gs_fe_to_main.jpg){.aligncenter .size-medium}
+
+### XY Squaring
+
+When setting up any CNC, like when mounting <a href="https://resources.sienci.com/view/lm-table-mounting/#mounting-your-LongMill">a LongMill to a table</a>, usually a squaring step is needed to ensure cuts don't come out skewed. This **Software Wizard** (step by step guide) is a great asset to help speed things up by turning a typically 'guess-and-check' process into some easy measurements and behind-the-curtain math in 3 main steps:
+
+1. Mark 3 points on your machine to make a triangle (the larger the triangle, the better)
+1. Measure & enter the distance between the triangle points
+1. See the results and adjust accordingly
+
+![](/_images/_gsender/_features/_tools/gs_fe_to_xysquaring.jpg){.aligncenter .size-medium}
+
+You will need the following:
+
+- Ruler or measuring tape
+- Tapered bit or V-bit
+- 3 tape pieces marked with an 'X'
+
+1. Jog the machine to the front left corner, with the bit raised slightly over the surface of your wasteboard
+1. **Mark** the point with tape marked with an X, and move the machine as directed (Default 300mm)
+  ![](/_images/_gsender/_features/_tools/gs_fe_to_xysquaring1.jpg){.aligncenter .size-medium}
+1. Continue to mark points and move the machine until all boxes are complete and your triangle is marked
+  ![](/_images/_gsender/_features/_tools/gs_fe_to_xysquaring2.jpg){.aligncenter .size-medium}
+1. Measure the distance between each X and enter the values into the 3 boxes. For instance you might measure 306mm, instead of the expected 300mm. Hit the Confirm button to move to the results page.
+  ![](/_images/_gsender/_features/_tools/gs_fe_to_xysquaring3.jpg){.aligncenter .size-medium}
+1. At the end you'll be told how square your machine is and whether you need to take action to adjust it further or if it's close enough that you can leave it. The squaring tool also keeps an eye out for if your steps/mm (axis travel resolution) are off and can adjust those too.
+  ![](/_images/_gsender/_features/_tools/gs_fe_to_xysquaring4.jpg){.aligncenter .size-medium}
+
+### Movement Tuning
+
+Another **Software Wizard** (step by step guide) found in the **Tool tab**. This one is designed to help fine tune how much your motors turn to improve the accuracy of your machine movements. This is done through modifying the EEPROM settings stored on your CNC. You can tune the X, Y and Z axes individually.
+
+You will need:
+
+- Marker or tape
+- Measuring tape
+
+1. Jog your machine to the middle of whichever axes you choose to tune, so that there is enough room to complete this procedure. For example, on the X-axis you would jog halfway on the X-axis rail
+1. Select what axis to tune on the drop down menu
+  ![](/_images/_gsender/_features/_tools/gs_fe_to_movementtuning.jpg){.aligncenter .size-medium}
+1. **Mark down the starting location** as a reference point on the machine. For example the X-axis tuning references the edge of the XZ gantry on the X rail.
+1. **Move** the axis a chosen distance (Default 100mm)
+1. **Measure** the distance between the starting location and the finishing location
+1. Enter the measured value into the **Set Distance Travelled** box
+  ![](/_images/_gsender/_features/_tools/gs_fe_to_movementtuning2.jpg){.aligncenter .size-medium}
+1. You can now change the EEPROM setting if recommended by the procedure by pressing **Update Steps-per-MM**. This will bring up a popup that explains the change about to be made, and allows you one last chance to cancel the update.
+  ![](/_images/_gsender/_features/_tools/gs_fe_to_movementtuningfin.jpg){.aligncenter .size-medium}
+1. Repeat the procedure for each axis you wish to tune
 
 ### Surfacing
 
@@ -351,68 +398,6 @@ Surfacing the wasteboard of your machine or any project, can easily be done righ
 ![](/_images/_gsender/_features/_tools/gs_fe_to_surfacing5.jpg){.aligncenter .size-medium}
 
 Did you know that surfacing can be used for more than your wasteboard? It's great for creating a perfectly flat surface of your starting materials, just like a jointer or surface planer would. You can also use the [Rotary Surfacing Tool](#rotary-surfacing-tool) if you are wanting round stock.
-
-### Movement Tuning
-
-You are able to fine tune how much your motors turn to improve the accuracy of your machine movement. This is done through modifying the EEPROM settings that are stored on your LongMill, which this *Software Wizard* (step by step guide) will help you complete. You can tune the X, Y and Z axes individually. All instructions are illustrated in the Tool tab ➜ **Movement Tuning** section, however a brief overview will be provided.
-
-You will need:
-
-- Marker or tape
-- Measuring tape
-
-1. Jog your machine to the middle of whichever axes you choose to tune, so that there is enough room to complete this procedure. For example, on the X-axis you would jog halfway on the X-axis rail
-1. Select what axis to tune on the drop down menu
-
-![](/_images/_gsender/_features/_tools/gs_fe_to_movementtuning.jpg){.aligncenter .size-medium}
-
-1. **Mark down the starting location** of your reference point on the machine. For example the X-axis tuning references the edge of the XZ gantry on the X rail
-1. **Move** the axis a chosen distance (Default 100mm)
-1. **Measure** the travel distance between the starting location and the finishing location
-1. Enter the measured value into the **Set Distance Travelled** box
-
-![](/_images/_gsender/_features/_tools/gs_fe_to_movementtuning2.jpg){.aligncenter .size-medium}
-
-1. You can now change the EEPROM setting if recommended by the procedure by pressing **Update Steps-per-MM**. This will bring up a popup that explains the change about to be made, and allows you one last chance to cancel the update.
-
-![](/_images/_gsender/_features/_tools/gs_fe_to_movementtuningfin.jpg){.aligncenter .size-medium}
-
-1. Repeat the procedure for each axis you wish to tune
-
-### XY Squaring
-
-When mounting your LongMill on the table, there is a basic squaring process illustrated in our (<a href="https://resources.sienci.com/view/lm-table-mounting/#mounting-your-LongMill">Table Mounting Instructions</a>). If you do find that the machine is not perfectly square, you can follow the steps in this *Software Wizard* (step by step guide) to fine tune the position of your rails. All instructions are illustrated in the window, however a brief overview will be provided.
-
-1. Mark 3 points on your machine in a triangle
-1. Measure & enter the distance between the triangle points
-1. Review results and get adjustment recommendations
-
-![](/_images/_gsender/_features/_tools/gs_fe_to_xysquaring.jpg){.aligncenter .size-medium}
-
-You will need the following:
-
-- Ruler or measuring tape
-- Tapered bit or V-bit
-- Tape marked with an X
-
-1. Jog the machine to the front left corner, with the bit raised slightly over the surface of your wasteboard
-1. **Mark** the point with tape marked with an X, and move the machine as directed (Default 300mm)
-
-   ![](/_images/_gsender/_features/_tools/gs_fe_to_xysquaring1.jpg){.aligncenter .size-medium}
-
-1. Continue to mark points and move the machine until all boxes are complete and your triangle is marked
-
-   ![](/_images/_gsender/_features/_tools/gs_fe_to_xysquaring2.jpg){.aligncenter .size-medium}
-
-1. Measure the distance between each dot and enter accordingly into the 3 boxes. In the next image you can see we entered 306 mm, not the expected/default 300mm. Hit the Confirm button to move to the next step
-
-   ![](/_images/_gsender/_features/_tools/gs_fe_to_xysquaring3.jpg){.aligncenter .size-medium}
-
-1. Adjust your rail positions with the values determined by the XY Squaring procedure. If you are really out of square, you may see instructions to adjust your steps per mm (axis travel resolution), found in the Config ➜ Motors tab.
-
-   ![](/_images/_gsender/_features/_tools/gs_fe_to_xysquaring4.jpg){.aligncenter .size-medium}
-
-The great advantage to this tool is it saves you having to do the trigonometry yourself and will also let you know if your machine is aligned closely enough that it's not worth worrying about.
 
 ## Stats Tab
 
