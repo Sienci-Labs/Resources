@@ -17,52 +17,56 @@ featured_image: _images/_gsender/_install/gs_in_windows-finish.jpg
 
 ## Download
 
-If you haven't yet, download the right gSender file for your operating system. Links to common computer downloads and all other types and versions of gSender can be found on the main page: <a href="https://sienci.com/gSender/" target="_blank" rel="noreferrer noopener">https://sienci.com/gsender/</a>.
+If you haven't yet, download gSender for your specific system like Windows, Mac, or Pi on the main page: **<a href="https://sienci.com/gSender/" target="_blank" rel="noreferrer noopener">https://sienci.com/gsender/</a>**.
 
-**Note that as of <a href="https://github.com/Sienci-Labs/gSender/releases/tag/v1.2.2" target="_blank" rel="noopener">version 1.2.2</a>, support for 32-bit systems and Windows 7/8 had to be dropped** since new software packages can no longer support systems 10+ years old.
+**Note: as of <a href="https://github.com/Sienci-Labs/gSender/releases/tag/v1.2.2" target="_blank" rel="noopener">gSender 1.2.2</a>, support for Windows 7/8 and 32-bit systems like Windows and Pi had to be dropped** since new software packages can no longer support 10+ year old systems.
 
 If you downloaded the more experimental ‘gSender Edge’, then remember to also read what features it uniquely offers and how to use them: <a href="https://resources.sienci.com/view/gs-edge-features/" target="_blank" rel="noopener">https://resources.sienci.com/view/gs-edge-features/</a>
 
 ## Windows Install
 
-You may run into a security warning from your computer when you download the .EXE file. This can be bypassed by selecting “See more.” You can choose to keep the download, so that it can continue to run.
-
-**Microsoft Edge Users:** If you are having difficulties downloading gSender when using Microsoft Edge, follow the <a href="https://resources.sienci.com/wp-content/uploads/2022/03/gSender-Microsoft-Edge-Browser-Install.pdf" target="_blank" rel="noopener">instructions here</a> or watch the video <a href="https://youtu.be/vvwtIjgMcAM" target="_blank" rel="noopener">here.</a>
+We make sure gSender is perfectly safe to use, so if you see a **security warning** when you download the file, bypass it by selecting “See more” then allow it to continue. If you're still having difficulty, follow the <a href="https://resources.sienci.com/wp-content/uploads/2022/03/gSender-Microsoft-Edge-Browser-Install.pdf" target="_blank" rel="noopener">instructions here</a> or watch the video <a href="https://youtu.be/vvwtIjgMcAM" target="_blank" rel="noopener">here</a> for Microsoft Edge.
 
 ![](/_images/_gsender/_install/gs_in_windows-download.jpg){.aligncenter .size-medium}
 
-Once you've downloaded the EXE file, double-click to run it. gSender isn't yet set up to pass security checks so you'll have to allow it to run manually by clicking 'More Info' and then clicking 'Run anyway'. If you don't feel that you can trust gSender, then no pressure to use it; we'll have this setup later on.
+Once the EXE file is downloaded, double-click to run it. If you see another security popup, click 'More Info' and then click 'Run anyway'. If you don't feel that you can trust gSender, then no pressure to use it.
 
 ![](/_images/_gsender/_install/gs_in_windows-defender.jpg){.aligncenter .size-medium}
 
-If the "More info" option isn't available, it could be that Windows is fully blocking installation. This can be fixed by going to "App &amp; browser control" and switching "Check app and files" to "Warn" or "Off" just for the installation of gSender. You can always turn it back on afterwards.
+If the "More info" option isn't available, go to "App & browser control" and switch "Check app and files" to either "Warn" or "Off" just for the installation of gSender. You can always turn it back on afterwards.
 
 ![](/_images/_gsender/_install/gs_in_windows-defender-override.jpg){.aligncenter .size-medium}
 
-With permission to run, you should be met with a license agreement. gSender is provided "as is" which means there's no expectation that it'll run your CNC perfectly - especially as it's still in very active development. We want you to understand this before moving forward. If you agree, you'll be able to choose your install options from there (who to install for and where) and then begin installing.
+gSender is provided "as is" which means that even though we try our best to make it amazing, there should be no expectation it'll run your CNC perfectly and it could even cause issues. If you understand this and agree, you'll be able to choose your install options from there (who to install for and where) and then begin installing.
 
 ![](/_images/_gsender/_install/gs_in_windows-setup.jpg){.aligncenter .size-full}
 
-Install completion will be indicated by a completion screen. If the 'Run gSender' box is checked off you should be able to click 'Finish' and be greeted with a splash screen followed by the full program. If not, you can always open the program manually after install.
+Once you see the 'Completion' screen you should be good to go! Click 'Finish' then open gSender and get ready to connect to your CNC.
 
 ![](/_images/_gsender/_install/gs_in_windows-finish.jpg){.aligncenter .size-full}
 
+### Open Faster
+
+Some security software can **significantly slow down** the time it takes for gSender to open. We're still looking into how we can fix this, but for the time being we've found that making an exception will make gSender open much much faster. Please be careful doing this, we won't take responsibility if you run into other issues editing your computers security settings.
+
+For most Windows computers go to **Settings ➜ Update & Security ➜ Windows Security ➜ Virus & threat protection ➜ Manage Settings ➜ Add or remove exclusions ➜ Add an exclusion ➜** then add the folder **C:&#92;Program Files&#92;gSender**. This has been reported to speed up open time by up to 30-40 seconds.
+
 ## Mac Install
 
-Once you've downloaded the DMG file, double-click to run it. A window will popup that will look like the one below. Click and drag the gSender app and let go the applications folder to save it to your Mac.
+**Note:** we've been having problems creating an Arm build for Mac, but for now you should still be able to install the Intel version and use Rosetta just fine.
+
+Once you've downloaded gSender, double-click to run it. A window will pop up that will look like the one below. Click and drag the gSender app to the applications folder to save it to your computer.
 
 ![](/_images/_gsender/_install/gs_in_mac-download.jpg){.aligncenter .size-medium}
 
-Navigate to your applications folder on your Mac and the gSender program should be there and ready for use.
+Go to your applications folder and you should find gSender ready to use once you follow the same install process as Windows.
 
 ![](/_images/_gsender/_install/gs_in_mac-finder.jpg){.aligncenter .size-medium}
-
-**Note:** we've been having problems creating an Arm build for Mac, but for now you should still be able to install the Intel version and use Rosetta just fine.
 
 If you're having issues installing gSender on your Mac:
 
 1. Open System Preferences.
-1. Go to the Security &amp; Privacy tab.
+1. Go to the Security & Privacy tab.
 1. Click on the lock and enter your password so you can make changes.
 1. Change the setting to 'App Store and identified developers'
 1. After, you’ll see the option to override app blocking by clicking the temporary button to 'Open Anyway'
@@ -71,20 +75,28 @@ If you're having issues installing gSender on your Mac:
 
 ## gSender Updates
 
-gSender will notify you when new updates are available, allowing you to download them quickly and get running with the latest version. If you don't see these notifications, your system might not support it or your computer Firewall may be blocking them but you should still be able to download the <a href="https://sienci.com/gSender/">newest version</a> manually and install it over-top of the old version.
+gSender will automatically notify you when new updates are available, allowing you to download them quickly and get running with the latest version. When you see the green download icon on the top left corner of your screen, over the gSender logo, you know you have an update available. You can also navigate to the **Stats Tab**, then click on About in the center/bottom of the screen, to see if any updates are available. If you update accidentally and want to go back, you can also always <a href="#older-versions">downgrade</a>.
 
-gSender updates always have the chance of encountering quirks, so if you have an important carve coming up or are just satisfied with your current setup then we'd typically recommend holding off until updating will be less 'mission-critical'. If you update accidentally and want to go back, you can also always <a href="#older-versions">downgrade</a>.
+If you don't see these notifications, your system might not support it or your computer Firewall may be blocking them but you should still be able to download the <a href="https://sienci.com/gSender/">newest version</a> manually and install it over-top of the old version.
 
-![](/_images/_gsender/_install/gs_in_updater.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_install/gs_in_update.gif){.aligncenter .size-full}
 
-**Note:** If you are upgrading to a new version or gSender, or downgrading to an older version, and you run into problems trying to get it to open or run, you’ll want to find a file called “**.sender_rc**” and rename it. This will allow gSender to generate a new version and clean up any errors you may be encountering. It also allows you to recover your old Start/Stop events and macros from the file in the future if needed.
+gSender updates always have the chance of encountering quirks, so if you have an important carve coming up or are just satisfied with your current setup then we'd typically recommend holding off until updating will be less 'mission-critical'. Also, if you've spent time setting up shortcuts, gamepad profiles, start/stop code or you have specific probe settings, we recommend you **Export** your gSender preferences before updating. This way you will have all of your customizations saved so you can import them into the new version or use as a backup in case the you need to revert back to an older version.
+
+One example we often see is users will think they are using default gSender settings, but forget that they changed to the AutoZero touch plate. When upgrading and then attempting to probe, errors will happen unless you remember to go into the Config tab ➜ Probe and check it's still set to AutoZero instead of the Standard probe block.
+
+![](/_images/_gsender/_install/gs_in_export-pref.jpg){.aligncenter .size-medium}
+
+**If you upgrade to a new version, or downgrade to an older version, and gSender won't open or run (blank screen):**  
+You’ll want to find a file called “**.sender_rc**” and rename it so gSender can generate a new version without errors. Sometimes you might also want to delete the “**.sienci-sessions**” folder too.
 
 - For Windows: the file can usually be found on your hard drive, at: **C:/users/{your username}/.sender_rc**. Rename it to whatever you like, like “**.sender_rc_old**”, then try to reinstall gSender again.
 ![](/_images/_gsender/_install/gs_in_update-senderrc.jpg){.aligncenter .size-medium}
 ![](/_images/_gsender/_install/gs_in_update-rcold.jpg){.aligncenter .size-medium}
-- For Mac/Linux: the file is in the home directory as a hidden file. You can either:
-  - Go to your **Home** directory in Finder and make sure you have ‘show hidden files’ enabled (**CMD + Shift + .** ). You’ll then be able to see the file and rename it.
-  - Go into the Mac/Linux console and enter the command “**mv ~/.sender_rc ~/.sender_rc_old**”. You’ll be able to double check the renaming was successful by sending “**ls -al | grep sender**” in the console, where if you only see “**.sender_rc_old**”, you have successfully remanded and are ready to try to reinstall gSender.
+- For Mac/Linux: the file is in the home directory as a **hidden file**. You can either:
+  - In Finder go to **Go ➜ Computer ➜ Drive ➜ Users ➜ {your username}** then un-hide the ".sender_rc" file by pressing `CMD + Shift + .` keys. Rename it to whatever you like, like “**.sender_rc_old**”, then try to reinstall gSender again.
+  - Go into the Mac/Linux console and enter the command `mv ~/.sender_rc ~/.sender_rc_old`. You’ll be able to double check the renaming was successful by sending `ls -al | grep sender` in the console, where if you only see `.sender_rc_old`, you have successfully remanded and are ready to try to reinstall gSender.
+- If this solves your problem, you'll still be able to recover your old Start/Stop events and macros from the renamed file; just open it in a text editor and copy the macros you want to save so you can paste them back into gSender.
 
 ## Older Versions
 
@@ -142,7 +154,7 @@ To change the default pi user password. It's just menu ➜ Preferences ➜ Raspb
 **Error log location:**
 All application logs can be found in “<em>~/.config/gSender/logs</em>” and can be shared for any app-specific problems.
 
-### Common Issues
+### Common Pi Issues
 
 **Sizing for Smaller Screens**
 gSender can size responsively but only to a minimum point. Because of this, some Pi users might find gSender isn't fitting their screen properly. This can be accommodated on most Pis by:
@@ -164,4 +176,4 @@ This is most likely related to webGL not being enabled. You can check inside Chr
 - Relaunch Chrome for the changes to take effect and now these updated settings should be used by gSender’s Electron builder
 
 **Can’t open the port to connect**
-Make sure your user is part of the dialout group. To add your account to this group, go to a terminal and type “<em>sudo usermod -a -G dialout &lt;user&gt;</em>” (replacing “&lt;user&gt;” with your username). Restart after this change and try again.
+Make sure your user is part of the dialout group. To add your account to this group, go to a terminal and type `sudo usermod -a -G dialout <user>` (replacing “&lt;user&gt;” with your username). Restart after this change and try again.

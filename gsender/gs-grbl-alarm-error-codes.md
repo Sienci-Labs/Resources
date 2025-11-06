@@ -1,6 +1,6 @@
 ---
 title: grbl Alarms & Errors
-menu_order: 7
+menu_order: 5
 post_status: publish
 post_excerpt: Use this reference table to see the common Error codes and Alarm codes that you might see from your grbl-based CNC machine.
 post_date: 2022-05-01 17:28:00
@@ -12,14 +12,14 @@ custom_fields:
     KBName: gSender
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_gsender/_using/gs_us_clear-alarm.jpg
+featured_image: _images/_gsender/_issues/gs_is_alarm.jpg)
 ---
 
 The grbl firmware has a whole list of Alarms and Error codes that you can encounter when running your CNC. gSender will always display a question mark when there’s an alarm which you can hover over for more information about why it happened and errors will appear as a hovering box in the bottom corner of the visualizer.
 
 You can close an alarm by clicking on the button that appears next to it in the visualizer. Most alarms can also be handled by typing “$x” into the ‘Console’ tab and hitting the ‘Run’ button.
 
-![](/_images/_gsender/_using/gs_us_clear-alarm.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_issues/gs_is_alarm.jpg){.aligncenter .size-medium}
 
 ## Useful Commands
 
@@ -52,50 +52,74 @@ You can close an alarm by clicking on the button that appears next to it in the 
 <tr>
 <td>2</td>
 <td>Soft limit</td>
-<td>Soft limit alarm. G-code motion target exceeds machine travel. Machine position retained. Alarm may be safely unlocked.</td>
+<td>G-code motion target exceeds machine travel. Machine position retained. Alarm may be safely unlocked.</td>
 <td><a href="https://youtu.be/I1EhAPNXdzQ?t=226" target="_blank" rel="noopener">Example</a></td>
 </tr>
 <tr>
 <td>3</td>
 <td>Abort during cycle</td>
-<td>Reset while in motion. Machine position is likely lost due to sudden halt. Re-homing is highly recommended. May be due to issuing g-code commands that exceed the limit of the machine.</td>
+<td>Machine position is likely lost due to sudden halt. Re-homing is highly recommended. May be due to issuing g-code commands that exceed the limit of the machine.</td>
 <td></td>
 </tr>
 <tr>
 <td>4</td>
 <td>Probe fail</td>
-<td>Probe fail. Probe is not in the expected initial state before starting probe cycle when G38.2 and G38.3 is not triggered and G38.4 and G38.5 is triggered. Your bit is likely making contact with the touch plate or the circuit is completed before the bit is moving. Move the bit away from the touch plate.</td>
+<td>Probe is not in the expected initial state before starting probe cycle when G38.2 and G38.3 is not triggered and G38.4 and G38.5 is triggered. Your bit is likely making contact with the touch plate or the circuit is completed before the bit is moving. Move the bit away from the touch plate.</td>
 <td><a href="https://youtu.be/I1EhAPNXdzQ?t=267" target="_blank" rel="noopener">Example</a></td>
 </tr>
 <tr>
 <td>5</td>
 <td>Probe fail</td>
-<td>Probe fail. Probe did not contact the workpiece within the programmed travel for G38.2 and G38.4. Your bit is too far away from the touch plate. Move the bit closer, it should be within 6-12mm (1/4 -1/2in) away.</td>
+<td>Probe did not contact the workpiece within the programmed travel for G38.2 and G38.4. Your bit is too far away from the touch plate. Move the bit closer, it should be within 6-12mm (1/4 -1/2in) away.</td>
 <td><a href="https://youtu.be/I1EhAPNXdzQ?t=306" target="_blank" rel="noopener">Example</a></td>
 </tr>
 <tr>
 <td>6</td>
 <td>Homing fail</td>
-<td>Homing fail. The active homing cycle was reset.</td>
+<td>The active homing cycle was reset.</td>
 <td></td>
 </tr>
 <tr>
 <td>7</td>
 <td>Homing fail</td>
-<td>Homing fail. Safety door was opened during homing cycle.</td>
+<td>Safety door was opened during homing cycle.</td>
 <td></td>
 </tr>
 <tr>
 <td>8</td>
 <td>Homing fail</td>
-<td>Homing fail. Pull off travel failed to clear limit switch. The machine is within the limit switches range when it tries to move away. Try increasing pull-off setting or check wiring.</td>
+<td>Pull off travel failed to clear limit switch. The machine is within the limit switches range when it tries to move away. Try increasing pull-off setting or check wiring.</td>
 <td><a href="https://youtu.be/jmiaWA5tiVw?t=563" target="_blank" rel="noopener">Example</a></td>
 </tr>
 <tr>
 <td>9</td>
 <td>Homing fail</td>
-<td>Homing fail. Could not find limit switch within search distances. Try increasing max travel, decreasing pull-off distance, or check wiring. The limit switch wasn't triggered in the distances expected. If your z-axis is moving away from the switch when homing, check your firmware and confirm you have the correct profile for your machine.</td>
+<td>Could not find limit switch within search distances. Try increasing max travel, decreasing pull-off distance, or check wiring. The limit switch wasn't triggered in the distances expected. If your z-axis is moving away from the switch when homing, check your firmware and confirm you have the correct profile for your machine.</td>
 <td><a href="https://youtu.be/jmiaWA5tiVw?t=531" target="_blank" rel="noopener">Example</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>EStop asserted</td>
+<td>You've pressed your E-stop to stop your machine! Unclick the E-stop, then clear this alarm to continue. <b>grblHAL specific</b></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Spindle at speed timeout</td>
+<td>Either the spindle hasn't gotten up to speed in the timeframe set for 'spindle at speed' or spindle has been wired incorrectly to your controller. Clear this alarm, check your setup, and try again. <b>grblHAL specific</b></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Homing fail</td>
+<td>Could not find second limit switch for auto squared axis within search distances. Try increasing max travel, decreasing pull-off distance, or check wiring. <b>grblHAL specific</b></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Motor fault</td>
+<td>Issue encountered with closed loop motor tracking. Position likely lost. <b>grblHAL specific</b></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -334,19 +358,23 @@ You can close an alarm by clicking on the button that appears next to it in the 
 
 ### Error 1, 2, 20, 24, 26, 28
 
-When any of these errors appear in gSender, it can typically be traced back to 3 sources:
+When any of these errors appear in gSender, it can typically be traced back to these sources:
 
-1. **The g-code file has errors in it**: if this is true, then
-   - Keep the file loaded
-   - Go to gSenders Settings ➜ Safety ➜ to make sure ‘Warn if invalid line detected’ is turned on
-   - Next to the ‘Load File’ button on the main screen, you’ll see another button that says ‘Verify Job’ (previously ‘Test Run’)
-   - Click this button and it will go through your g-code file, and if the same errors pop up then it’s likely that the file is bad. Go back and check your design software or post processor to make sure it’s all been set up correctly and then try re-generating the file.
-1. **You have an unstable connection to your CNC**: if the file didn’t have errors, then this is the next most likely issue. You’ll want to
+1. **You are connected with the wrong firmware**
+   - Check this in the top, left corner of the app when you're connected, is should say:
+      - "grbl" for the majority of CNCs including older LongMills, Shapeoko, Genmitsu, Mill One, X-Carve, etc.
+      - "grblHAL" for AltMill (SLB Ext), LongMill (SLB), or any other grblHAL board
+   - If the firmware is incorrect go to Config ➜ Firmware Fallback ➜ select the correct firmware ➜ Apply Settings.
+1. **The g-code file itself has errors in it**
+   - Check that you are using the right <a href="https://resources.sienci.com/view/am-post-processors/>">post processor in your CAM software</a> then try re-generating the file (see more with [Error 33](#error-33) below).
+   - Go to Config ➜ Basics ➜ Notifications and turn on 'Warn if bad file' to see if you get notified that the file is still bad when you reload it.
+1. **You have an unstable connection to your CNC**
    - Check if your USB cable is loose or if other ports or connectors on your CNC board are loose.
-   - Try another USB port on your computer, and if you’re using a USB hub try skipping it to connect directly to your CNC.
-   - Don’t use a USB Stick, make sure the files on are the hard-drive of your computer.
-   - Try running the same job in the air with your router/spindle and dust collector turned off to see if the same errors appear as when you run the job. If they go away then try running the job with full cutting again in some scrap material just to confirm the errors come back. Once confirmed, you’ll want to look to see if your equipment isn’t properly grounded, could have improved electrical shielding, or try using another computer. An example of this is to put your controller and computer on a separate power circuit than the router/spindle and dust collector.
-1. **Some gSender versions can have bugs**: this is the least likely cause, but a couple gSender versions have been known to make errors appear that aren’t actually happening. If you’ve already tried everything else, you should first double-check that you’re connected to the “grbl” firmware if you’re using a grbl board like the LongBoard, or to “grblHAL” for boards like the SLB. After checking that, try installing and <a href="https://resources.sienci.com/view/gs-installation/#older-versions">using a different gSender version</a>.
+   - Try another USB port on your computer, another computer all together, and if you're using a USB hub try connecting directly to your CNC instead.
+   - Don't use a USB Stick, make sure the files are on the hard-drive of your computer.
+   - Determine if it's from electromagnetic interference/static. Run the job in the air with your router/spindle and dust collector turned off to see if the same errors appear. If they go away then try running the job normally again using scrap material, just to confirm the errors reappear. If this happens, you'll want to look into putting your computer and controller on a separate circuit from the router/spindle and dust collector, or <a href="https://resources.sienci.com/view/lmk2-issues-and-fixes/#using-a-dust-collector-system-causes-the-machine-to-disconnect">grounding your equipment</a>.
+1. **Some gSender versions can have bugs**
+   - This is the least likely cause, but a couple gSender versions have been known to make errors appear that don't affect operation. Try <a href="https://resources.sienci.com/view/gs-installation/#older-versions">using a different gSender version</a>. 
 
 ### Error 33
 

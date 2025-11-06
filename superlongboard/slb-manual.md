@@ -1,6 +1,6 @@
 ---
 title: Technical Manual
-menu_order: 4
+menu_order: 5
 post_status: publish
 post_excerpt: Documentation for the SuperLongBoard, a next-generation, 32-bit control board for the LongMill and other CNC routers. Includes electrical and mechanical specs.
 post_date: 2024-04-03 16:50:00
@@ -33,14 +33,14 @@ Comparing the SLB to our Original LongBoard and to other controllers on the mark
 - Detachable E-stop gives you something to reach for if your CNC starts going where you didn't expect
 - RGB CNC Status lights visible from a distance to always know what your CNC is up to or if something’s gone wrong. Light onboard plus support for external RGB strips to set up as you wish: under your X-axis rail, a router/spindle ring light
 - 3 programmable buttons for you to customize your CNC to your workflow
-- Live overrides to fine-tune your feeds &amp; speeds on the fly when running a job
+- Live overrides to fine-tune your feeds & speeds on the fly when running a job
 - Supports inductive sensors for far more accurate and repeatable CNC positioning for job recovery or multi-day runs than using stall homing in a dirty CNC environment, also use mechanical switches
 - Individual axis holding current, allows you to hold just the Z-axis from falling with a heavy spindle without having to keep all other motors powered too
 - Added support for an independent Tool Length Sensor for tool changes
 - Control Spindles/VFDs and other accessories with Modbus over RS485
 - Independant 4th/rotary axis output to an external driver for simultaneous 4-axis cutting
 - More customizable IO to fine-tune your at-home or shop CNC setup
-- Powered by HAL, leaving bandwidth for even more features to be added with future Firmware updates
+- Powered by HAL, leaving bandwidth for even more features to be added with future firmware updates
 - Don’t have to pay extra for a built-in computer, instead choose to run something lightweight you already have on hand or a more powerful setup to combine both design and CNC control from one computer in your shop
 
 ### Dimensions
@@ -62,7 +62,7 @@ The enclosure has been designed with reasonable consideration for dust penetrati
 
 <div style="margin-bottom: 20px; padding-left: 22px; text-indent: -22px;"><b>Sender:</b> Any g-code senders able to run “<b>grblHAL</b>” should be able to support most of the SLBs features. We recommend using <a href="https://sienci.com/gSender/"><b>gSender</b></a> to get the most out of your SLB (you have to use at least version 1.4.0 or later). If you prefer other options, you could try <a href="https://github.com/terjeio/ioSender/releases">ioSender</a>, <a href="https://winder.github.io/ugs_website/download/">UGS</a>, or <a href="https://software.openbuilds.com/">OpenBuilds CONTROL</a>.</div>
 
-<div style="margin-bottom: 20px; padding-left: 22px;">Some other common options like <b>Easel</b>, VTransfer, CNCjs and Candle might not yet work with the newer and more advanced firmware of the SLB. <b>You can still use programs like Easel to design your projects</b>, you'll just need to Export the g-code and run them in a newer g-code sender instead of running them through the design program itself.</div>
+<div style="margin-bottom: 20px; padding-left: 22px;">Some other common options like <b>Easel</b>, VTransfer, CNCjs, and Candle might not yet work with the newer and more advanced firmware of the SLB. <b>You can still use programs like Easel to design your projects</b>, you just need to <a href="https://inventables.zendesk.com/hc/en-us/articles/4406926040979-Exporting-Gcode-From-Easel" target="_blank" rel="noopener">Export the g-code</a> and run the file in a newer g-code sender instead of running it using the design program itself.</div>
 
 <div style="margin-bottom: 20px; padding-left: 22px; text-indent: -22px;"><b>Post Processor:</b> For now, the SLB will continue working the best with any typical ‘grbl’ post processor setup. If you already had a working grbl setup then you won't need to change anything, but if the SLB is your first board then you can check out our <a href="https://resources.sienci.com/view/lmk2-post-processors/" target="_blank" rel="noopener">Post Processor suggestions</a> page.</div>
 
@@ -76,7 +76,7 @@ The SLB runs grblHAL, which may look similar in name to grbl but for all intents
 
 ### Open Source
 
-This project has no patents, we make everything available to the public just like much of the rest of Sienci Labs’ projects. As we start to roll out the SLB into production, we’ll post our source files for Firmware tweaks from Core grblHAL, our custom grblHAL plugins, the SuperLongBoard PCB design, enclosure design, and any other relevant manufacturing and sourcing info we can think of. We’ll also make sure we’re clear on the licenses for use.
+This project has no patents, we make everything available to the public just like much of the rest of Sienci Labs’ projects. As we start to roll out the SLB into production, we’ll <a href="https://resources.sienci.com/view/slb-welcome/#open-source">post our source files</a> for firmware tweaks from Core grblHAL, our custom grblHAL plugins, the SuperLongBoard PCB design, enclosure design, and any other relevant manufacturing and sourcing info we can think of. We’ll also make sure we’re clear on the licenses for use.
 
 ## Wiring
 
@@ -131,7 +131,7 @@ Here’s a general wiring ‘map’ you can use as a reference to start hooking 
 </tr>
 <tr>
 <td style="background: #ffee66 !important;"><a href="#accessory-outputs"><b>Accessory Outputs</b></a></td>
-<td>2 SWITCH outputs that turn on any external circuits up to 24V 1A, and 2 AUX POWER outputs which provide up to 24V 250mA to external accessories</td>
+<td>2 SWITCH outputs that turn on any external circuits 1-24V up to 1A, and 2 AUX POWER outputs which provide up to 24V 250mA to external accessories</td>
 </tr>
 <tr>
 <td style="background: #f6a66b !important;"><a href="#spindlers485"><b>Spindle/RS485</b></a></td>
@@ -149,11 +149,11 @@ Here’s a general wiring ‘map’ you can use as a reference to start hooking 
 </table>
 [/su_table]
 
-### Power &amp; E-stop
+### Power & E-stop
 
 Each SLB comes with an E-stop and pre-made wiring to keep you safe out-of-the-box when cutting. When pressed, the E-stop is designed to cut all power to your CNCs stepper motors and also send a signal back to the MCU to disable all other accessories that your SLB controls. This includes turning off the spindle, IOT Relay, and anything else that’s triggered by M3/4 and M7/8 commands. Use the E-stop when there's a hazard during carving and you need to immediately stop the machine.
 
-Otherwise, the SLB needs a 24V 10A power supply to run all stepper motors at rated current alongside the other onboard accessories. Higher current such as 24V 12.5A is even better so the power supply isn't strained even during peak draw. You can either provide this yourself, <a href="https://sienci.com/product/24v-12-5a-power-adapter-for-110vac/" target="_blank" rel="noopener">purchase one from us</a>, or use your existing one if you’re switching over to the SLB from our original LongBoard.
+Otherwise, the SLB needs a **24V 10A power supply** to run all stepper motors at rated current alongside the other onboard accessories. Higher current such as 24V 12.5A is even better so the power supply isn't strained even during peak draw. You can either provide this yourself, <a href="https://sienci.com/product/24v-12-5a-power-adapter-for-110vac/" target="_blank" rel="noopener">purchase one from us</a>, or use your existing one if you’re switching over to the SLB from our original LongBoard.
 
 1. The larger 2-pin plug on the left side is the power connection
 1. There’s a main power switch above it to switch main power to the whole board
@@ -174,7 +174,7 @@ Since each SLB comes with an E-stop and pre-made wiring, you’ll only need to r
 
 If you want to set up the custom action buttons for your E-stop now, jump forward to the <a href="#action-buttons">Action Buttons</a> section :)
 
-### USB &amp; Ethernet
+### USB & Ethernet
 
 The SLB offers USB-C as well as Ethernet as a way to connect your CNC to your computer. Both are isolated for noise, with larger data buffers, and should provide a reliable connection. Though Ethernet is generally considered to be more reliable, we worked hard on a robust USB interface with far more data checks and signal isolation to match a typical Ethernet setup. This means you can use either, but USB-C is more beginner friendly and at the minimum a USB-C connection is needed to perform the initial board setup. If you want to place your computer further away from your machine or feel that the USB is still occasionally causing you issues then we'd recommend switching over to Ethernet.
 
@@ -195,30 +195,53 @@ To connect over Ethernet, you'll need:
 
 ![](/_images/_superlongboard/_manual/slb_ma_p12_USB.jpg){.aligncenter .size-full}
 
-Keep in mind that setting up Ethernet is a bit more involved, and at the time of SLB launch we’ll be primarily aiming to support direct Ethernet communication from a computer to the SLB; not sending over a network. Also the SLBs STM32 chip isn't capable of supporting firmware flashing over Ethernet so keep the USB-C cable handy if you need to do any future updates or recover from a board reset.
+Keep in mind that setting up Ethernet is a bit more involved, and at the time of SLB launch we’ll be primarily aiming to support direct Ethernet communication from a computer to the SLB; not sending over a network. Also **the SLBs STM32 chip isn't capable of supporting firmware flashing over Ethernet so keep the USB-C cable handy if you need to do any future updates or recover from a board reset**.
 
 #### Ethernet on Windows
 
-1. To start, connect to your CNC over USB to note down the EEPROM values set for the IP address and Netmask (302 and 304). The defaults should be IP:192.168.5.1 and Netmask:255.255.255.0 with the IP mode set to 'static'.
-![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode.jpg){.aligncenter .size-full .nar}
+[tabby title="Current" open="yes"]
 
+1. To start, connect to your CNC over USB to note down the EEPROM values set for the IP address and Netmask (302 and 304). The defaults should be IP: `192.168.5.1` and Netmask: `255.255.255.0` with the IP mode set to `static`.
+  ![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode-newu.jpg){.aligncenter .size-full}
 1. Once confirmed, you can unplug your USB and connect the Ethernet cable directly from your PC to your board. If you look where you plugged the Ethernet cable into the SLBs port from the outside, you should see a green light on and a flickering yellow light.
-
 1. You’ll need to configure the PC’s Ethernet interface. Open network connections to get a list of Ethernet ports.
-![](/_images/_superlongboard/_manual/slb_ma_p14_TCP.jpg){.aligncenter .size-full}
-
+  ![](/_images/_superlongboard/_manual/slb_ma_p14_TCP.jpg){.aligncenter .size-full}
 1. Right click your Ethernet port and go to Properties and then find the “Internet Protocol Version 4 (TCP/IPv4)” entry and open its properties.
-![](/_images/_superlongboard/_manual/slb_ma_p15_IP.jpg){.aligncenter .size-full .nar}
-
+  ![](/_images/_superlongboard/_manual/slb_ma_p15_IP.jpg){.aligncenter .size-full .nar}
 1. Select the “Use the following IP address:” option and configure it as above. You want the subnet mask to be the same value from the EEPROM 'Netmask'. The IP address should have a different last digit on the same mask - so if the board is device 1 (192.168.5.1), you could call your PC device 5 (192.168.5.5). Click “OK” to save and close the options.
-
-1. Back in gSenders general Settings, make sure the IP Range matches the IP from the EEPROM.
-![](/_images/_superlongboard/_manual/slb_ma_p16_EEPROM.jpg){.aligncenter .size-full .nar}
-
-1. With the grblHAL firmware selected, choose the ‘Network Devices’ option and you should see it connect successfully :)
-![](/_images/_superlongboard/_manual/slb_ma_p17_Connected.jpg){.aligncenter .size-full}
-
+1. Back in gSenders Config tab ➜ Ethernet section, make sure the IP address for gSender matches the IP address from the firmware.
+  ![](/_images/_superlongboard/_manual/slb_ma_p16_EEPROM-newu.jpg){.aligncenter .size-medium}
+1. Now click on Connect to CNC, choose the Ethernet Port option and you should see it connect successfully :)
+  ![](/_images/_superlongboard/_manual/slb_ma_p17_Connected-newu.jpg){.aligncenter .size-medium}
 1. If you have a problem connecting with Ethernet, go back over the setup steps. You can also reconnect over USB to double-check your SLB Ethernet settings.
+
+[tabby title="Classic gSender"]
+
+1. To start, connect to your CNC over USB to note down the EEPROM values set for the IP address and Netmask (302 and 304). The defaults should be IP: `192.168.5.1` and Netmask: `255.255.255.0` with the IP mode set to `static`.
+  ![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode.jpg){.aligncenter .size-full .nar}
+1. Once confirmed, you can unplug your USB and connect the Ethernet cable directly from your PC to your board. If you look where you plugged the Ethernet cable into the SLBs port from the outside, you should see a green light on and a flickering yellow light.
+1. You’ll need to configure the PC’s Ethernet interface. Open network connections to get a list of Ethernet ports.
+  ![](/_images/_superlongboard/_manual/slb_ma_p14_TCP.jpg){.aligncenter .size-full}
+1. Right click your Ethernet port and go to Properties and then find the “Internet Protocol Version 4 (TCP/IPv4)” entry and open its properties.
+  ![](/_images/_superlongboard/_manual/slb_ma_p15_IP.jpg){.aligncenter .size-full .nar}
+1. Select the “Use the following IP address:” option and configure it as above. You want the subnet mask to be the same value from the EEPROM 'Netmask'. The IP address should have a different last digit on the same mask - so if the board is device 1 (192.168.5.1), you could call your PC device 5 (192.168.5.5). Click “OK” to save and close the options.
+1. Back in gSenders general Settings, make sure the IP Range matches the IP from the EEPROM.
+  ![](/_images/_superlongboard/_manual/slb_ma_p16_EEPROM.jpg){.aligncenter .size-full .nar}
+1. With the grblHAL firmware selected, choose the ‘Network Devices’ option and you should see it connect successfully :)
+  ![](/_images/_superlongboard/_manual/slb_ma_p17_Connected.jpg){.aligncenter .size-full}
+1. If you have a problem connecting with Ethernet, go back over the setup steps. You can also reconnect over USB to double-check your SLB Ethernet settings.
+
+[tabbyending]
+
+#### Ethernet on Mac
+
+To set up an Ethernet connection to the SLB from a Mac, you'll follow a lot of the same steps as for [Ethernet on Windows](#ethernet-on-windows) but after doing **Step 2**:
+
+1. On your Mac, click the Apple menu ➜ System Settings ➜ then click '🌐 Network' in the sidebar (you may need to scroll down).
+1. Click Ethernet service ➜ 'Details...'. Note: if your Mac doesn’t have a built-in Ethernet port and you’re using an adapter, look for a service that contains the name of the adapter manufacturer or the type of adapter. For example, the service might be named [manufacturer name] USB-C LAN, or just contain the model number of the adapter.
+1. Click TCP/IP in the sidebar ➜ then for 'Configure IPv4' choose 'Manually' so you can enter the specific IP address and subnet mask. You want the subnet mask to be the same value from the EEPROM 'Netmask'. The IP address should have a different last digit on the same mask - so if the board is device 1 (192.168.5.1), you could call your PC device 5 (192.168.5.5). Click “OK” to save and close the options.
+![](/_images/_superlongboard/_manual/slb_ma_p15-ip-2.jpg){.aligncenter .size-full}
+1. Resume following the Windows instructions at Step 6 to finish the process.
 
 ### Motors
 
@@ -228,7 +251,7 @@ The board comes with 4 onboard stepper motor drivers so you can plug a typical X
 
 The TMC2660C motor drivers are capable of 2800mA RMS and should allow for faster speeds than the previous LongBoard's TB6600 drivers due to their higher efficiency which also means the machine runs quieter. Though they can all run independently (allowing Y-axis auto-squaring in the future), the two Y-axes are currently running ‘mirrored’.
 
-#### Movement &amp; Cutting Speeds
+#### Movement & Cutting Speeds
 
 The default movement speed of the SLB has been set up to work out-of-the-box for a LongMill CNC with typical tuning on an average setup. Based on your setup you may be able to adjust your Maximum Speeds for X, Y, and Z ($110-112) to be higher than their defaults of 5500mm/min, or you might have to lower them if those speeds are losing steps for you. You can also do this to the Acceleration ($120-122) of each axis from its default of 1000mm/s2 for XY and 750mm/s2 for Z.
 
@@ -241,7 +264,7 @@ To check if your machine is able to handle the default speeds, manually set the 
 
 **Two notes:** Firstly you might be worried that the faster speeds and acceleration might cause faster wear of your CNCs motion system and although this is partially true, these higher speeds won’t typically be reached during cutting which is the majority of the time that your CNC moves so it shouldn't cause much added stress to machine life. Secondly, if your CNC was set up with homing and you’ve tuned its movement speeds after the fact, be sure to re-check your homing offsets if you’re using jigs since motor acceleration can change where your machine homes to.
 
-#### Microsteps &amp; Movement Tuning
+#### Microsteps & Movement Tuning
 
 The default configuration for the SLB is **32nd microstepping** ($150-153). This might seem to go against common internet wisdom and even past articles we've posted where CNCs don't tend to go past 8th microstepping in order to maintain more motor torque, but new drivers like the SLBs TMC2660Cs are able to account for this. The more precise microstepping signalling on these drivers means that they're able to maintain similar torque no matter the microstep settings, they're even set up so that coarser microsteps are still interpolated after-the-fact to make the steps less jarring and reduce resonance. In our testing we found that 32nd worked just as well as 8th, while providing more benefit of reduced motor noise and improved accuracy, but of course at the end of the day you should do what you think would be best for your CNC setup.
 
@@ -249,7 +272,7 @@ Once you've got your steppers plugged in and decided on your microstepping, you 
 
 #### Independent Motor Holding
 
-Instead of the old solution of setting $1=255 which forces all motors to hold at full current, two new settings allow you to select individual motors that you want to hold, and what holding strength you want to use. With $37, simply toggle the axis you want to hold while using $210-212 to decide what the holding strength will be (as a % of the motor’s full current).
+Instead of the old solution of setting $1=255 which forces all motors to hold at full current, two new settings allow you to select individual motors that you want to hold, and what holding strength you want to use. With 'Steppers deenergize' ($37), simply toggle the axis you want to hold while using 'Hold current' ($210-212) to decide what the holding strength will be (as a % of the motor’s full current).
 
 Useful in cases of:
 
@@ -259,7 +282,17 @@ Useful in cases of:
 
 We’ve found that a minimum of 15% works for lead screw-driven CNCs. These hold current settings will also apply even if $37 is off when the machine is cutting but that axis isn’t moving. Note that these settings won’t work for an A-axis since that would typically be done using the DIP switches on the external motor driver.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_superlongboard/_manual/slb_ma_p19_Steppers-newu.jpg){.aligncenter .size-full}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_manual/slb_ma_p19_Steppers.jpg){.aligncenter .size-full}
+
+[tabbyending]
+
+Note that since the Y1 and Y2 outputs share the same enable pin, they cannot be held independently even if they're assigned to different axes.
 
 ### Touch Plate/Probe
 
@@ -279,10 +312,10 @@ If you go to probe and find that there’s a touch being detected when there sho
 
 ### Status Lights
 
-A new and simple way to know your CNC status at a glance or from a distance. Hook up your own RGB LED strips to light up your machine, enclosure, or surrounding work area, or reference the on-board RGB LED which is visible from most angles and illuminates the SLBs enclosure cover.
+A new and simple way to know your CNC status at a glance or from a distance. The RGB light on the board is visible from most angles and shines through the clear cover but you can also hook up more if you want to light up your machine, enclosure, or surrounding work area.
 
 - ⬜ **White**: CNC is Idle, flashing white means a job has completed
-- 🟩 **Green**: Jogging or actively Running a Job
+- 🟩 **Green**: Jogging or Running a Job
 - 🟨 **Yellow**: Paused or the Door is open
 - 🟥 **Red**: E-stop is pressed or an Alarm occurred
 - 🟦 **Blue**: Homing or Verifying a job (check state)
@@ -291,22 +324,36 @@ A new and simple way to know your CNC status at a glance or from a distance. Hoo
 
 ![](/_images/_superlongboard/_manual/slb_ma_p22_Status.jpg){.aligncenter .size-full}
 
-There are also plenty of other status lights on the board for the purpose of troubleshooting, go <a href="https://resources.sienci.com/view/slb-troubleshooting/#troubleshooting-lights">HERE</a> to see what they all do.
+There are also plenty of other status lights on the board for the purpose of troubleshooting, <a href="https://resources.sienci.com/view/slb-troubleshooting/#troubleshooting-lights">GO HERE</a> to see what they all do.
 
 #### LED Strips
 
-See below for more options on LED accessories! If you're buying your own LEDs make sure the wires don't say "R, G, B" on them and also make sure you don't buy the 4-wire type or a strip that already has a colour controller built-in. Instead search for "neopixel" style RGB LEDs which always have 3 wires for power, signal, and ground. If you don't want different colours and **just want your LEDs to turn on and off**, instead consider using the SLBs <a href="https://resources.sienci.com/view/slb-manual/#switch-amp-aux-power">AUX Power outputs</a>.
+If you want to have **RGB LEDs** lighting up your CNC, you can connect up to 2 separate strips:
 
-- The top “**Ring**” plug is a second, unique RGB LED output that we recommend you only power up to 20 external LEDs. These could be mounted near the Router head to illuminate your cutting area or somewhere else that you don’t need a lot of light output.
+- A shorter strip of up to **40 LEDs**, powered by the SLB
+- A longer strip of up to **60 LEDs** that needs to be powered by a separate power supply (you'll need to provide one)
+
+On the SLB, the plug for the shorter strip is called "**Ring**" since you'd typically mount it near your router/spindle to light up the cutting area, while the longer one is called "**Rail**" since it's a good length to mount under an X or Y-axis rail for more ambient lighting; but realistically you can use both strips however you want. If you want to hook these up, make sure you **buy the right strips**:
+
+- Try to buy just the LED strip, no remote or other circuitry
+- It have 3 or 5 wires (not 4) and be marked as "5V" (not 12 or 24 volts)
+- If they're 5V, the LEDs will likely be called "NeoPixels" or "WS2812" in the name or description, check this is true
+- Some we've tested:
+  - BTF-LIGHTING (1m/3.3' strip, 60 LEDs)
+  - <a href="https://www.amazon.ca/gp/product/B08DKPYZ7L/" target="_blank" rel="noopener">airgoo NEON</a> (two 16" strips, 42 LEDs)
+  - <a href="https://www.amazon.ca/gp/product/B0BYD9ZDRM/" target="_blank" rel="noopener">Geekstory ring light</a> (78mm ID, 35 LEDs)
+- If you don't want different colours and **just want your LEDs to turn on and off**, consider using the SLBs <a href="https://resources.sienci.com/view/slb-manual/#switch-amp-aux-power">AUX Power outputs</a>
+- **Tip:** if you want your **Rail** LED strip to be longer, try to find one with the LEDs spaced further apart
+
+Typically, LED strips will be wired in the same pattern as the SLB: power, signal, ground (left-to-right) - but with the wrong connector. The plug is a standard ‘**JST XH 2.54 3-Pin Female Connector**’ which should be very common to find, where you can either <a href="https://www.amazon.ca/dp/product/B09JNZMBY4" target="_blank" rel="noopener">buy the pre-crimped connector</a> and solder it to the LED strip, or cut off the incorrect connector and <a href="https://www.amazon.ca/dp/product/B0BTGXNGNN" target="_blank" rel="noopener">crimp on a new one</a>.
+
 ![](/_images/_superlongboard/_manual/slb_ma_p23_RingStrip.jpg){.aligncenter .size-full}
-- The bottom “**Rail**” plug extends from the on-board light to run a much longer LED strip using an external 5-24V, max 3A power supply (denoted **LED PWR**). You could mount this strip under your CNCs X or Y-axis rails or use multiple strips to light up your whole enclosure.
-![](/_images/_superlongboard/_manual/slb_ma_p24_RGBLED.jpg){.aligncenter .size-full}
 
-The wiring for both of these is the same and is written on the board: power, signal, ground (left-to-right). The plug is a standard ‘JST XH 2.54 3-Pin Female Connector’ which should be very common to find. ‘Dupont 2.54 Wire Female’ connectors could also work as single or 3-pin form which are also very ubiquitous and tend to be included with many beginner electronic kits (shown respectively).
+The bottom “**Rail**” plug extends from the on-board light to run a much longer LED strip using an external 5V, max 3A power supply (denoted **LED PWR**). You could mount this strip under your CNCs X or Y-axis rails or use multiple strips to light up your whole enclosure.
 
-![](/_images/_superlongboard/_manual/slb_ma_p25_PlugEnds.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p24b-rail-led.jpg){.aligncenter .size-full}
 
-Once you're done wiring up, update the $664 (ring) or $665 (rail) firmware settings for the number of LEDs you've plugged in and power-cycle the board for the changes to take effect. Enjoy your new pizazz! A member of our community, Jim, also made his own LED write-up if you'd like to check that out too: <a href="https://resources.sienci.com/wp-content/uploads/2024/04/Jims-SLB-Rail-LED-Guide.pdf" target="_blank" rel="noopener">Jim's SLB Rail LED Guide (PDF)</a>
+Once you're done wiring up, update the $664 (ring) or $665 (rail) firmware settings for the number of LEDs you've plugged in and power-cycle the board for the changes to take effect. Look at the new pizazz! A member of our community, Jim, also made his own LED write-up if you'd like to check that out too: <a href="https://resources.sienci.com/wp-content/uploads/2024/04/Jims-SLB-Rail-LED-Guide.pdf" target="_blank" rel="noopener">Jim's SLB Rail LED Guide (PDF)</a>
 
 #### Manual Control
 
@@ -372,15 +419,27 @@ If you’d like to use the white JST connectors instead, the wiring pinouts are 
 
 ![](/_images/_superlongboard/_manual/slb_ma_p29_WCPins.jpg){.aligncenter .size-full}
 
-### Limits Settings
+#### Limits Settings
 
 If you’ve set up your own **NC sensors**, the first thing you’ll want to do is invert all the limit pins for $5 like shown below. **Don't do this if you have the inductive sensors from Sienci!**
+
+[tabby title="Current" open="yes"]
+
+![](/_images/_superlongboard/_manual/slb_ma_p30_InvertLP-newu.jpg){.aligncenter .size-full}
+
+On top of the typical settings that the original LongBoard has when it comes to homing like homing speed and direction, the SLB brings along some new options that you can configure. If you'd like to match the SLB behaviour to the typical LongMill/grbl setup, then we'd recommend you enable all the settings shown in the picture (homing on startup, set machine origin to 0, and override locks), otherwise learn about all the settings in the table below.
+
+![](/_images/_superlongboard/_manual/slb_ma_p31_HomingFirm-newu.jpg){.aligncenter .size-full}
+
+[tabby title="Classic gSender"]
 
 ![](/_images/_superlongboard/_manual/slb_ma_p30_InvertLP.jpg){.aligncenter .size-full}
 
 On top of the typical settings that the original LongBoard has when it comes to homing like homing speed and direction, the SLB brings along some new options that you can configure. If you'd like to match the SLB behaviour to the typical LongMill/grbl setup, then we'd recommend you enable all the settings shown in the picture (homing on startup, set machine origin to 0, and override locks), otherwise learn about all the settings in the table below.
 
 ![](/_images/_superlongboard/_manual/slb_ma_p31_HomingFirm.jpg){.aligncenter .size-full}
+
+[tabbyending]
 
 [su_table responsive="yes" fixed="yes"]
 <table>
@@ -458,7 +517,15 @@ The laser isn’t set as the default for safety reasons, but further down is inf
 
 You can only control one at a time, so to select which one you’d like to control you can use the dropdown selector in gSender or use the selection commands. This selection will also apply when you send manual spindle commands in other ways like the console.
 
+[tabby title="Current" open="yes"]
+
+![](/_images/_superlongboard/_manual/slb_ma_p33_gSenderLaser-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 ![](/_images/_superlongboard/_manual/slb_ma_p33_gSenderLaser.png){.aligncenter .size-medium}
+
+[tabbyending]
 
 For other g-code senders, you’ll need to use the selection commands:
 
@@ -470,6 +537,10 @@ For other g-code senders, you’ll need to use the selection commands:
 Knowing all this, you can go into the EEPROM to change your selections for the Default Spindle, Spindle 1, 2, etc. to match how you tend to use your CNC. Then, you can use the dropdown in gSender or the g-code commands to switch outputs when you need to. Ensure that you only turn on ‘Laser Mode’ AFTER you switch over to the laser output, as well as turn off ‘Laser Mode’ BEFORE you switch back to any other output, otherwise you’ll see an error.
 
 If you run into an issue where switching between outputs gets stuck, this can be fixed by power-cycling the board.
+
+Here's a video that explains more about the setup and configuration process:
+
+https://youtu.be/5r_P6eISrnc
 
 #### Laser Configuration
 
@@ -515,7 +586,7 @@ or you can run your own custom ‘macro’ g-code. Here are some examples of mac
 - Park the CNC away from the job: **G91 G21 G0 X400 Y400**
 - Return to the cutting area (XY0 point): **G90 G21 G0 X0 Y0**
 
-The buttons are customized in the SLBs EEPROM settings, using the Firmware section of either gSender or ioSender. Look for settings $450-452 to select one of the actions from the pre-made list, or select the first “Macro” option and type in your own g-code string to execute in settings $450-452.
+The buttons are customized using the Config tab or Firmware section of either gSender or ioSender. Look for settings $450-452 to select one of the actions from the pre-made list, or select the first “Macro” option and type in your own g-code string to execute in settings $450-452.
 
 #### Example Setup
 
@@ -554,31 +625,29 @@ This output is commonly used to automatically control a vacuum or router to turn
 
 Read more about setting up an IOT Relay here: <a href="https://resources.sienci.com/view/lmk2-automated-relay/">https://resources.sienci.com/view/lmk2-automated-relay/</a>
 
-#### Switch &amp; Aux Power
+#### Switch & Aux Power
 
-These outputs are far more powerful and customizable than Flood:
+These outputs are offer built-in options for more unique control than just a simple digital signal:
 
-- **Switch 1 and Switch 2 outputs** are like electrical switches that you can use to ‘switch on’ any external circuits up to **24V 1A**. This means you’ll need to provide an additional power supply separately to the circuit. Think of these like a mini version of a relay, known as a MOSFET.
+- **Switch 1 and Switch 2 outputs** are like electrical switches that you can use to ‘switch on’ any external **1-24V circuits up to 1A**. This means you’ll need to provide an additional power supply separately to the circuit. Think of these like a mini version of a relay, known as a MOSFET.
 ![](/_images/_superlongboard/_manual/slb_ma_p35_S1S2.jpg){.aligncenter .size-full}
-- **Auxiliary Power outputs 1 and 2** can be used to provide **24V** to any powered accessory like a relay, SSR, solenoid for a mister or ATC, or LED strip; up to **250mA** per plug. This can be more convenient for powering less power-hungry components since the power comes straight from the SLB. It also makes more sense if you plan to then use an SSR to switch an air pump, dust collector motor, or spindle water cooling pump on and off.
+- **Auxiliary Power outputs 1 and 2** can be used to provide **24V** to any powered accessory like a relay, SSR, solenoid for a mister or ATC, or LED strip; up to **250mA** per plug. This can be more convenient for powering less power-hungry components since the power comes straight from the SLB. It also makes more sense if you plan to use an SSR to switch an air pump, dust collector motor, or spindle water cooling pump on and off.
 ![](/_images/_superlongboard/_manual/slb_ma_p36_AO12.jpg){.aligncenter .size-full}
+**Note:** Be mindful that these 'turn on' by enabling current flow to the 'ground'. This means you can’t typically use them to drive logic, only to drive current components, and also that the 24V is always 'live'.
 
-As opposed to the ‘Flood’ output which is controlled with M8 and M9, you can also customize what M commands will turn each of these outputs on and off in EEPROM. If you go to the ‘Firmware’ tool, you’ll see that $456-459 give you 4 options to choose from:
+You can also customize what M commands will turn each of these outputs on and off in the SLBs firmware. The $456-459 settings give you 4 options to choose from (SWT1=$456, SWT2=$457, PWR1=$458, PWR2=$459):
 
-- **Spindle/Laser Enable (M3/M4):** turns the output on with M3 or M4, and off with M5
-- **Mist Enable (M7):** turns on/off with M7/M9
-- **Flood Enable (M8):** turns on/off with M8/M9
-- **M62-M65 Only:** use this if you **don’t want** the output to be controlled by the common commands used by the other options. Instead, the output can only be controlled by its specialized M command which is always available to use. This also gives greater customization:
-  - Turns on/off with M62/63, but waits in line before running
-  - Turns on/off immediately with M64/65
-  - To select which output to control, refer to the picture below:
-  ![](/_images/_superlongboard/_manual/slb_ma_p37_P0P3.jpg){.aligncenter .size-full}
-  - For example, to turn on ‘Switch 1’ immediately, we’d send the command “**M64 P0**”
-  - Read more here: <a href="https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65" target="_blank" rel="noopener">https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65</a>
+1. **Spindle/Laser Enable (M3/M4):** turns the output on with M3 or M4, and off with M5
+1. **Mist Enable (M7):** turns on/off with M7/M9
+1. **Flood Enable (M8):** turns on/off with M8/M9
+1. **M62-M65 Only:** always available as a backup to control each port with a unique M command:
+   - Turn on/off with M62/63 (but wait in line before running)
+   - Turn on/off immediately with M64/65
+   - Use a 'P' command to choose the port to control (pictured below). For example "**M64 P1**" would turn on the SWT2 port immediately.
+   ![](/_images/_superlongboard/_manual/slb_ma_p37_P0P3.jpg){.aligncenter .size-full}
+   - Read more here: <a href="https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65" target="_blank" rel="noopener">https://linuxcnc.org/docs/html/gcode/m-code.html#mcode:m62-m65</a>
 
-Similar to the ‘Flood’ output, you’ll now be able to control ‘Switch’ and ‘AuxPwr’ outputs either manually, in g-code using your post processor, or using your g-code sender’s start/end g-code code blocks.
-
-**Note:** The ‘Auxiliary Power’ outputs are always providing power by default, so when it's 'turning on' it's actually enabling the 'ground' to allow current to flow. This means you can’t typically use it to drive logic, only to drive current components.
+Similar to the ‘Flood’ output, you’ll now also be able to control ‘Switch’ and ‘AuxPwr’ outputs either manually, in g-code using your post processor, or using your g-code sender’s start/end g-code code blocks.
 
 ### Spindle/RS485
 
@@ -586,7 +655,7 @@ As mentioned in the <a href="#laser">Laser section</a> above, we designed the SL
 
 The Laser wiring is covered above. Both flavours of Spindle signals are there to give you the 2 most popular options for talking to VFDs. The simple signals tend to have easier setup with less fuss, meanwhile RS485 requires more work but provides better, two-way communication during cutting. Whichever option you choose, you’ll want to check that you're wired up correctly and have the right settings for both your SLB and VFD so they match up to each other.
 
-If you opted for an out-of-the box experience by picking up a <a href="https://sienci.com/product/LongMill-spindle-and-dust-shoe-kit/" target="_blank" rel="noopener">Sienci Spindle which will soon be compatible for a wide range of CNC machines</a>, then you won’t need to reference any of the following docs since all the work is done for you.
+If you opted for an out-of-the box experience by picking up a <a href="https://sienci.com/product/longmill-1-5kw-er20-spindle-clear-cut-dust-shoe-kit/" target="_blank" rel="noopener">Sienci Spindle which will soon be compatible for a wide range of CNC machines</a>, then you won’t need to reference any of the following docs since all the work is done for you.
 
 **Note**: currently the SLB doesn’t support SaS (‘Spindle-at-Speed’, a signal that some VFDs can send back to the board so that the board can wait for the spindle to speed up before starting the cutting process).
 
@@ -669,17 +738,17 @@ Some VFDs don’t accept 5V PWM, in which case you can either try setting up RS4
 
 The typical settings if you want the simple signals as default will include:
 
-- $9 PWM Signal: Enable=on, RPM controls spindle enable signal=off
-- $16 Invert spindle signals: Spindle enable=on, Spindle direction=on, PWM=on
-- $30 Maximum spindle speed=30000 RPM
-- $31 Minimum spindle speed=10000 RPM
-- $32 Mode of operation=Normal
-- $33 Spindle PWM frequency=1000 Hz
-- $34 Spindle PWM off value=0%
-- $35 Spindle PWM min value=0%
-- $36 Spindle PWM max value=100%
+- $9 PWM Signal: Enable = on, RPM controls spindle enable signal = off
+- $16 Invert spindle signals: Spindle enable=on, Spindle direction = on, PWM = on
+- $30 Maximum spindle speed = 24000 RPM
+- $31 Minimum spindle speed = 7500 RPM
+- $32 Mode of operation = Normal
+- $33 Spindle PWM frequency = 1000 Hz
+- $34 Spindle PWM off value = 0%
+- $35 Spindle PWM min value = 0%
+- $36 Spindle PWM max value = 100%
 - $395 Default spindle: SLB_SPINDLE
-- $520 Spindle 0 tool number start=0
+- $520 Spindle 0 tool number start = 0
 - $666 Using Add-ons not used yet
 
 Verify these, then power-cycle your board to make sure the changes take effect. If you’re rather wanting to set up RS485 as default, then you’ll want to change $395 to one of the other options.
@@ -695,7 +764,7 @@ Remember that your VFD will also require some setup through its own button inter
   - **S**: Spindle at speed feedback supported
   - **L**: Spindle can control a laser (requires laser mode to be enabled in firmware)
   - **I**: Spindle PWM output can be inverted
-  - **R**: Range Locked (min/max not inherited from firmware settings)
+  - **R**: Range Locked (min/max not inherited from Config/firmware settings)
   - So for example, “DIV” means you can swap spindle direction, invert output, and have variable speed on that specific spindle.
   - Also, the list of spindles has a fixed order just for easy reference, otherwise the order they appear in has no other meaning
 
@@ -711,11 +780,21 @@ Short for “Tool Length Sensor”, this is a very common accessory for slightly
 
 ![](/_images/_superlongboard/_manual/slb_ma_p43_TLSBoard.jpg){.aligncenter .size-full}
 
-If your TLS is wired correctly, you should be able to press it and see the “TLS” status light toggle on or off (either is fine, on is NO, off is NC). If you’re unsure with your wiring or your TLS has more than 3 wires, you can use a multimeter and check any two wires until you find a set that contact or open when pressed and those will be the ones you use for the signal and gnd; the third might be power. If you have 4 wires your TLS might have 2 switches, one that triggers when pressed down just a bit then the next one pressed in case of over travel. This would typically trigger an E-stop or Pause but you only really have to use the one that triggers first.
+If your TLS is wired correctly, you should be able to press it and see the “PRB” status light toggle on or off on the SLB (either is fine, on is NO, off is NC). If you’re unsure with your wiring or your TLS has more than 3 wires, you can use a multimeter and check any two wires until you find a set that contact/open when pressed and those will be the ones you use for the signal and gnd; the third might be power. If you have 4 wires your TLS might have 2 switches, one that triggers when pressed down just a bit then the next one pressed in case of over travel. This would typically trigger an E-stop or Pause but you only really have to use the one that triggers first.
 
-Lastly, check in your g-code sender if the TLS signal is set up correctly. This signal is shared with the touch plate, so activating either of them should be recognized. The SLBs defaults expect NO to not cause confusion for non-TLS owners. If the signal is on and only turns off when the TLS is pressed, then go to the $668 firmware setting and toggle it to the opposite of what it was set to:
+With wiring done, check in your g-code sender if the TLS signal is set up correctly. This signal is shared with the touch plate, so activating either of them should be recognized. gSender has a status light to help see this in the 'Calibrate' tab and in other senders it should appear as 'P' for probe. If the light in the sender turns on when the TLS is pushed, and also turns on when the probe circuit is connected, then the hardware (SLB and wiring) is working and that means the $ values have been set up correctly. If the signal is on and only turns off when the TLS is pressed, then go to the $668 firmware setting and toggle it to the opposite of what it was set to.
+
+[tabby title="Current" open="yes"]
+
+![](/_images/_superlongboard/_manual/slb_ma_p44_tls-input-newu.jpg){.aligncenter .size-full}
+
+[tabby title="Classic gSender"]
 
 ![](/_images/_superlongboard/_manual/slb_ma_p44_tls-input.png){.aligncenter .size-full}
+
+[tabbyending]
+
+This flip is usually needed since the SLB defaults to expect NO inputs. Once this all seems to be working, see more documentation here on how to set up tool changing for your SLB (<a href="https://resources.sienci.com/view/gs-additional-features/#tool-changing" target="_blank" rel="noopener">gSender tool changing feature</a>) and make sure you select the 'Fixed tool sensor' option.
 
 ### Rotary Axis
 
@@ -781,7 +860,7 @@ Below we’ve illustrated two examples that you can use to better understand how
 
 Once the wiring is complete, in your g-code sender check that the rotary is moving at the speed, distance, and direction you’d expect and that the limit switch is working if you have one. If there’s anything wrong you’ll want to check your typical A-axis settings for **movement** ($2, 3, 4, 37, 103, 113, 123, 133, and 376) and for **homing/limits** ($5, 18, 23, 44, 45, and 46). Note that some settings like $143, 153, 183, 193, 203, 213, 223, 338, 339 won’t have any effect on your setup since the 4th axis is an external stepper motor driver.
 
-If you're experiencing movement precision problems, check the 2nd point in the <a href="#troubleshoot-rotary">Troubleshoot Rotary section</a>.
+If you're experiencing movement precision problems, check the 2nd point in the <a href="#troubleshoot-rotary">Troubleshoot Rotary section</a>. Also check that you turn on "**Steppers deenergize**" for the A-axis, since most closed-loop motors need constant power to them to make sure that they make accurate movements.
 
 #### Cut & Experiment
 
@@ -869,6 +948,24 @@ If you don’t happen to have these specific connectors on hand there are also c
 
 ### Current Unused Ports
 
-Right now there are a handful of plugs and pins on the SLB that technically don’t do anything useful yet which is why there's nothing in the manual on it. The idea was that by adding in the hardware now, over the next year we could keep working on testing and implementing firmware that would continue making more features available to all SLB owners without having to buy a new board. We’re very excited about it but ultimately can't make any guarantees on what will and won't ultimately work, so that's why no features have been promised yet outside of what's already been tested and delivered. These ports include the: **Y2 Limit Switch**, **SaS Spindle pin**, **Pendant**, **SD card**, **Door**, **ADC**, **40-pin AUX COMM Header**, and **AUX IO Header**.
+Right now there are a handful of plugs and pins on the SLB that technically don’t do anything useful yet which is why there's nothing in the manual on it. The idea was that by adding in the hardware at the start, we could keep working on testing and implementing firmware to make more features available to all SLB owners without having to buy a new board. We’re very excited about it but ultimately can't make any guarantees on what will and won't ultimately work, so that's why no features have been promised yet outside of what's already been tested and delivered. These ports include the: **Y2 Limit Switch**, **SaS Spindle pin**, **Pendant**, **SD card**, **Door**, **ADC**, **40-pin AUX COMM Header**, and **AUX IO Header**.
 
-If you’re still interested in trying these out without current support or documentation, we’ll soon have all our board designs and firmware code available online for reference and modification so you can feel free to try your own stuff or contribute back if you’d like!
+If you’re still interested in trying these out without our support or documentation, <a href="https://resources.sienci.com/view/slb-welcome/#open-source" target="_blank" rel="noopener">we have all our board designs and firmware code available online for reference and modification</a> so you can feel free to try your own stuff and even contribute back to the project! For instance, you can see the <a href="https://github.com/Sienci-Labs/SuperLongBoard/blob/master/Project%20Outputs%20for%20Longboard_32bit/Schematic%20and%203D%20Prints/Longboard_32bit_Schematic_B6.1_FULL_PLACE.PDF" target="_blank" rel="noopener">40-pin inputs and outputs in the full schematic PDF</a> on page 19.
+
+#### Y-axis auto squaring
+
+Though this isn't yet supported in an official firmware build, you do have an option to try it out experimentally. Find the link here: https://forum.sienci.com/t/auto-squaring-on-the-slb/13753/18
+
+This feature is useful on less rigid machines, since systems with more flex are more likely to have the two Y-axes to get out of sync with each other. For strong-built CNCs it's better to fix the squareness of the hardware itself than to ask the motors to do it. You can imagine that asking your motors to constantly fight to bring the machine back into square puts much more strain on the system, and in some cases compensation might not even be possible.
+
+#### SD Card Macros
+
+Though this isn't yet supported in an official firmware build, you do have an option to try it out experimentally. Find the link here: https://forum.sienci.com/t/auto-squaring-on-the-slb/13753/20
+
+This feature allows you to run complex macros with variables and math from an SD Card inserted into the SLBs SD card slot. Once you flash the firmware, the remaining steps are to:
+
+1. Make a plain text file with standard g-code and/or variables and controls supported by grblHAL
+1. End the file with `M99`
+1. Name the file with a letter and three numbers, and ".macro" as the file extension, e.g. `P101.macro`
+1. Save it on the SD card then put it into the SLB and power cycle the board
+1. In this example, the g-code command `G65 P101` will now run the macro on the SD card

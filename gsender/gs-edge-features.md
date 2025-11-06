@@ -1,11 +1,11 @@
 ---
 title: Edge Features
-menu_order: 5
+menu_order: 1
 post_status: publish
 post_excerpt: 
 post_date: 2021-07-01 15:55:00
 taxonomy:
-    knowledgebase_cat: gdocs
+    knowledgebase_cat: gs-ex
     knowledgebase_tag:
         - gsender
 custom_fields:
@@ -19,7 +19,7 @@ gSender Edge is our test arena for working on new and exciting gSender updates t
 
 Edge isn’t a replacement for gSender in any way - it’s a way for us to test and get feedback on new, bigger features without exposing them to users who may not be interested or causing unexpected bugs. This follows a cycle that can be several months long where:
 
-![](/_images/_gsender/_edge/gs_edge-cycle.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_edge/gs_ed_cycle.jpg){.aligncenter .size-medium}
 
 1. A new Edge version is split off from Main in order to prototype some new functionality and features (you can tell when this happens because the numbering scheme will jump up from 1.1.6 to EDGE-1.2.0, for example)
 1. Edge eventually stops adding major features so it can become more refined from user feedback and squashing bugs
@@ -30,6 +30,6 @@ Downloading Edge is similar to the Main version of gSender and is available on t
 
 ## Unique Differences
 
-If you used to see a feature here but don’t see it any longer, it’s likely been added into the main version of gSender! Look for it on the other gSender documentation pages.
+If you used to see a feature here but don’t see it any longer, it’s likely been added into the main version of gSender! **Look for it on the other gSender documentation pages.**
 
-Look for the new UI version of Edge coming soon!
+As of version **1.5.0 New U** all Edge features are merged with the main version of gSender. Stay tuned for our next version of Edge!

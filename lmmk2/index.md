@@ -16,18 +16,18 @@ skip_file: yes
 featured_image: _images/post-image.jpg
 ---
 
-LongMill MK2 page order should be as follows: (last updated as of Oct 4, 2024)
+LongMill MK2 page order should be as follows: (last updated as of Feb 20, 2025)
 
 👍 The Basics
 
 1. Welcome!
 2. CNC Routers (MK1 & MK2 same)
-3. Materials (MK1 & MK2 same)
+3. Materials (MK1 & MK2 same except link to dust shoe)
 4. Cutting Tools 🌀 (MK1 & MK2 same)
 5. Workholding 🕳️ (MK1 & MK2 same)
 6. Routers / Spindles (MK1 & MK2 same)
 7. Dust Collection (MK1 & MK2 same except pic & link)
-8. Touch Plates ⚡ (MK1 & MK2 same)
+8. Touch Plates ⚡ (MK1 & MK2 same except link to touch plate)
 9. Table / Enclosure (MK1 & MK2 same except table size and OS)
 
 💻 Software
@@ -55,31 +55,31 @@ LongMill MK2 page order should be as follows: (last updated as of Oct 4, 2024)
 
 1. Touch Plate (MK1 & MK2 same)
 2. Dust Shoe & Shields
-3. Limit Switches ⛔       TODO
+3. Limit Switches ⛔   revisit)
 4. T-Track & Clamps (MK1 & MK2 same except title and link)
 5. 48" Extension Kit
 6. Laser 🔥 (MK1 & MK2 same)
-7. LongMill Spindle Kit
+7. LongMill Spindle Kit   *****
 8. Automated / IOT Relay (MK1 & MK2 same)
 
 📙 Handbook
 
 1. Your MK2
-2. Tools & Router
+2. Tools & Router (MK1 "Feeds & Speeds" & MK2 same)
 3. Feeds & Speeds ⏩
-4. Wasteboard & Fixtures
+4. Wasteboard & Fixtures   revisit)
 5. Running Jobs
-6. Sanding & Finishing
-7. Explore Projects 🪑
-8. Maintenance 🛠️
-9. CNC Issues & Fixes 🩹
+6. Sanding & Finishing (MK1 & MK2 same)
+7. Explore Projects 🪑 (MK1 & MK2 same)
+8. Maintenance 🛠️ (MK1 & MK2 close, diff pics, bottom text)
+9. CNC Issues & Fixes 🩹   revisit)
 10. Common CNC Terms (MK1 & MK2 same)
 
 🧩 Advanced
 
-1. Open Source 🥽
-2. LongBoard Details
-3. grbl Firmware 🤖
-4. EEPROM Settings
-5. Stepper Driver Current
-6. Changing Microstepping
+1. Open Source 🥽 (MK1 & MK2 half overlap)
+2. LongBoard Details (MK1 & MK2 close, MK2 in text and link)
+3. grbl Firmware 🤖 (MK1 & MK2 close, MK2 in text and link)
+4. EEPROM Settings (MK1 & MK2 different values)
+5. Stepper Driver Current (MK1 & MK2 same)
+6. Changing Microstepping (MK1 & MK2 same)

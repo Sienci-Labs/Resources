@@ -378,7 +378,7 @@ Surfacing the wasteboard of your machine can easily be done right inside gSender
 1. Press ‘Run on Main Visualizer’ to bring the g-code into gSender’s main screen. Make sure that you jog to the starting point and set your zero in the right place before starting the job. You can also press the ‘Outline’ button as an easy way to check that you’ll be surfacing where you expect and if you find the dimensions aren’t correct you can always re-open the surfacing tool, tweak the size, and try again. Feel free to start the job whenever you’re ready!
 ![](/_images/_gsender/_features/_surface/gs_fe_su_result.jpg){.aligncenter .size-medium}
 
-Did you know that surfacing can be used for more than your wasteboard? It’s great for creating a perfectly flat surface of your starting materials, just like a jointer or surface planer would. You can also use the <a href="https://docs.google.com/document/d/1yUO8bMAw5XoRO8AWGc3ZB5_WVj12ARP-kvf5pciUNL0/edit#heading=h.r1c788pgn92b">Rotary Surfacing</a> tool if you are wanting round stock.
+Did you know that surfacing can be used for more than your wasteboard? It’s great for creating a perfectly flat surface of your starting materials, just like a jointer or surface planer would. You can also use the [Rotary Surfacing tool](#rotary-surfacing-tool) if you are wanting round stock.
 
 ## Job Stats and CNC Maintenance
 
@@ -579,7 +579,7 @@ With setup complete, regular use is pretty straightforward:
    - When you click to ‘load a file’ you’ll see that you’ll only be able to load files from the device you’re currently on, don’t expect to gain access to the files stored on the opposite device. However once the file is loaded into gSender, you’ll be able to run it from any device
    - There can be multiple remote devices all connected to the same inline computer at the same time to control your CNC from multiple devices. There can also be multiple inline computers controlled from the same remote computer, giving you multi-CNC control from the same device
    - gSender settings like ‘safe height’, ‘start/stop g-code’, ‘tool changing’, and any other gSender specific settings won’t carry over to the remote computer. If you want to make sure files are run the same way every time you’ll need to transfer your gSender settings over by following the ‘Transfer Settings’ instructions below
-1. If you’re using your phone, save the unique URL to a bookmark on your home-screen so you can open Remote gSender easily every time! Check out <a href="https://www.youtube.com/watch?v=UrlDJOY3i-8">this video</a> for details
+1. If you’re using your phone, save the unique URL to a bookmark on your home-screen so you can open Remote gSender easily every time! Check out <a href="https://www.YouTube.com/watch?v=UrlDJOY3i-8">this video</a> for details
 
 ### Troubleshooting
 
@@ -711,9 +711,9 @@ Rotary surfacing is similar to the regular XYZ surfacing tool. Let’s explore t
 
 ![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_diameter-end.jpg){.aligncenter .size-full .nar}
 
-1. With a starting height of 90mm and a finished height of 63.5mm, we are removing 26.5mm of material. **However**, since we have the Z-axis set at the center of the material, we will need to divide that 26.5mm in half. We are basically taking 13.25mm off of the top and the bottom. If you want a single pass, your stepdown would be 13.25mm. Dividing that by two and setting the stepdown to 6.625mm, means that we will be doing two passes. This will produce a piece of round stock with the maximum diameter possible.
+1. With a starting height of 90mm and a finished height of 63.5mm, we are removing 26.5mm of material. **However**, since we have the Z-axis set at the center of the material, we will need to divide that 26.5mm in half. We are basically taking 13.25mm off of the top and the bottom. If you want a single pass, your step down would be 13.25mm. Dividing that by two and setting the step down to 6.625mm, means that we will be doing two passes. This will produce a piece of round stock with the maximum diameter possible.
 
-<p style="text-align: center;"><b>(Start Height - Finishing Height) / 2 = Total Stepdown for ONE pass</b></p>
+<p style="text-align: center;"><b>(Start Height - Finishing Height) / 2 = Total Step down for ONE pass</b></p>
 
 ![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_running.gif){.aligncenter .size-medium .nar}
 
