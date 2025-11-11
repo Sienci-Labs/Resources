@@ -23,18 +23,18 @@ Before getting started, **check what your current version is** by going to the �
 
 **Most Recent Firmware:**
 
-- SLB: <a href="https://drive.google.com/file/d/1LZ1YFt5J4Ws01XqielJuWaJpGJ2OgbCj/view?usp=drive_link" target="_blank" rel="noopener">5.0.5b</a>
+- SLB: <a href="https://drive.google.com/file/d/1YTGGgDs-a5Ajsb47IDdven7NOovp7flb/view?usp=drive_link" target="_blank" rel="noopener">5.0.5b</a>
   - Updated default A-axis step/mm to match typical Vortex setups using 32nd microstepping
   - Updated defaults to accommodate some machine setups that couldn't handle the max speeds and accelerations of the SLB
   - Changed min spindle speed, spindle on delay, and default enabled spindles to match typical spindle setups using the SLB
-- SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1M3tsSpptwMZusubu4m91cdJ5OqTFyJH8/view?usp=drive_link" target="_blank" rel="noopener">5.0.11</a>
+- SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1XUxe_cfl2GPJbHNwjnacO5G7k1CxHLfL/view?usp=drive_link" target="_blank" rel="noopener">5.0.11</a>
 
 [su_spoiler title="<b>Past Versions:</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 
-- <a href="https://drive.google.com/file/d/1-1W322z5idOQmhREUlAVHQBAa6PCsN63/view?usp=sharing" target="_blank" rel="noopener">5.0.5</a>: default for June ➜ Oct 2024
+- <a href="https://drive.google.com/file/d/1-1W322z5idOQmhREUlAVHQBAa6PCsN63/view?usp=drive_link" target="_blank" rel="noopener">5.0.5</a>: default for June ➜ Oct 2024
   - Updated default homing speed to stop occasional disconnection issues
   - Fixed E-stop hit requiring board power cycle to clear
-- <a href="https://drive.google.com/file/d/1OkQO__QnYzhPuF42d4AN5KY_MbVRJlqy/view?usp=drive_link" target="_blank" rel="noopener">5.0.3</a>: firmware on original batch of 500 SLBs (April 2024)
+- <a href="https://drive.google.com/file/d/1DHaKkDzn2ZB0fBEVrO26ULAGjjX7n3NU/view?usp=drive_link" target="_blank" rel="noopener">5.0.3</a>: firmware on original batch of 500 SLBs (April 2024)
 
 [/su_spoiler]
 
