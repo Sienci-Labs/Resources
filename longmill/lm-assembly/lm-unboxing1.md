@@ -83,7 +83,7 @@ Use the bottom buttons to navigate step-by-step or use the sidebar to quickly tr
 
 [tabby title="V1"]
 
-The LongMill comes with a lot of parts, but we’ve organized them to make it as easy as possible to find and put everything together; each kit comes with several cartons. For the complete BOM, visit: <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=0" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=0</a>
+The LongMill comes with a lot of parts, but we’ve organized them to make it as easy as possible to find and put everything together; each kit comes with several cartons. For the complete BOM, visit: <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit</a>
 
 <b>Top Carton #1</b>
 
@@ -176,7 +176,7 @@ If you ordered a Makita Router with your LongMill it can be found here, if not t
 
 [tabby title="V2"]
 
-The LongMill comes with a lot of parts, but we’ve organized them to make it as easy as possible to find and put everything together; each kit comes with several cartons. For the complete BOM, visit: <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1012984008">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1012984008</a>
+The LongMill comes with a lot of parts, but we’ve organized them to make it as easy as possible to find and put everything together; each kit comes with several cartons. For the complete BOM, visit: <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit</a>
 
 Please note that the carton layout may vary. Carton #2 is a bubble mailer.
 
@@ -240,7 +240,7 @@ In our final carton, you will find all of your 3D printed parts.
 
 [tabby title="V3"]
 
-The LongMill comes with a lot of parts, but we’ve organized them to make it as easy as possible to find and put everything together; each kit comes with several cartons. For the complete BOM, visit: <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1433071683" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1433071683</a>
+The LongMill comes with a lot of parts, but we’ve organized them to make it as easy as possible to find and put everything together; each kit comes with several cartons. For the complete BOM, visit: <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit</a>
 
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p27_V2Drawing.jpg){.aligncenter .size-medium}
 
@@ -302,7 +302,7 @@ In our final carton, you will find all of your 3D printed parts.
 
 [tabby title="V4"]
 
-The LongMill comes with a lot of parts, but we’ve organized them to make it as easy as possible to find and put everything together; each kit comes with several cartons. For the complete BOM, visit: <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1110761832" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1110761832</a>
+The LongMill comes with a lot of parts, but we’ve organized them to make it as easy as possible to find and put everything together; each kit comes with several cartons. For the complete BOM, visit: <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit</a>
 
 ![](/_images/_longmill/_assembly/_unboxing/lm_unboxing_p27_V2Drawing.jpg){.aligncenter .size-medium}
 
