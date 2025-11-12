@@ -23,7 +23,7 @@ This is a very simple file which follows a line writing to spell out "LongMill".
 
 ![](/_images/_longmill/_assembly/_starterprojects/lm_starterp_p1.png "Tool (yellow) in the bottom left-hand corner (visualized using CAMotics)"){.aligncenter .size-medium}
 
-<a href="https://resources.sienci.com/wp-content/uploads/2021/05/LongMill-line1.zip">LongMill-line.zip</a>
+<a href="https://resources.sienci.com/wp-content/uploads/2025/11/LongMill-line.zip">LongMill-line.zip</a>
 
 Download the file above, 'unzip' or 'extract' it, then load it into gSender by clicking the "Load File" button. Once loaded, you'll be able to see a visualization of the tools movements. If you're satisfied, turn on your router (note this file doesn't currently contain spindle control commands) then run the file!
 

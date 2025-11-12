@@ -335,7 +335,7 @@ The reason we decided to make this t-track system available is because we design
 
 The t-track system is very flexible and can be used however you wish. If you'd like to see a generic approach to installation, you can follow either the write-up or video below. Scott begins the t-track installation starting at about 4 minutes into the video.
 
-https://www.youtube.com/watch?v=T4QVgtnZMDw?t=242
+https://www.youtube.com/watch?v=T4QVgtnZMDw
 
 This layout minimizes reductions in cutting area and depth, and can be prepared in advance before your machine arrives. It uses a 48”x48”x ¾” MDF sheet, which can be purchased and cut to size at home or at your local hardware store.
 
