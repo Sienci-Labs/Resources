@@ -135,7 +135,7 @@ If you're looking for some more inspiration, or would like to start by making so
 
 - <a href="https://rebrand.ly/84aaf2s" target="_blank" rel="noopener">Sienci Labs Projects Repository</a> (our Google Drive storing projects we featured on <a href="https://www.YouTube.com/@SienciLabs/videos" target="_blank" rel="noopener">YouTube</a>)
 - <a href="https://obrary.com/collections/open-designs" target="_blank" rel="noopener noreferrer">Obrary</a>
-- <a href="http://maslowcommunitygarden.org/index.html" target="_blank" rel="noopener noreferrer">Maslow Community Garden </a>
+- <a href="http://maslowcommunitygarden.org/index.html" target="_blank" rel="noopener noreferrer">Maslow Community Garden</a>
 - <a href="https://www.freepatternsarea.com/free-patterns-templates/" target="_blank" rel="noopener noreferrer">FreePatternsArea (templates)</a>
 - <a href="https://www.freepatternsarea.com/free-projects/" target="_blank" rel="noopener noreferrer">FreePatternsArea (projects)</a>
 - <a href="https://www.ameede.com/" target="_blank" rel="noopener noreferrer">Ameede</a> (need to wait 45 seconds for download)

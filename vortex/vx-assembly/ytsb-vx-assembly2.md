@@ -80,7 +80,7 @@ This manual contains some technical language as well as a distinct visual langua
 <td style="text-align: center; padding: 5px; border: none;"><img class="alignright wp-image-5392 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p4_bluehighlight-850x372.jpg" alt="" width="850" height="372" /></td>
 </tr>
 <tr>
-<td style="text-align: left; padding: 5px 5px 5px 45px; border: none;">• Rotation arrows: come as either blue or red, <b><span style="color: #2896d2;">blue</span></b> indicating a loose placement of the part and <span style="color: #d2232a;"><b>red</b> </span>indicating a firm tightening required to fasten the part into place</td>
+<td style="text-align: left; padding: 5px 5px 5px 45px; border: none;">• Rotation arrows: come as either blue or red, <b><span style="color: #2896d2;">blue</span></b> indicating a loose placement of the part and <span style="color: #d2232a;"><b>red</b></span> indicating a firm tightening required to fasten the part into place</td>
 <td style="text-align: center; padding: 5px; border: none;"><img class="alignnone wp-image-3148 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/Unboxing-tips-3-850x372.png" alt="" width="850" height="372" /></td>
 </tr>
 <tr>

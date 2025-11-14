@@ -249,7 +249,7 @@ Make sure you have energized the A-axis. If you have a LongMill with a spindle, 
 
 <img class="alignnone size-full wp-image-13978 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2024/09/steppers-deenergize-spindle-vortex.png" alt="" width="795" height="194" />
 
-<p style="text-align: center;"><em>$37, Z and A-axis enabled </em></p>
+<p style="text-align: center;"><em>$37, Z and A-axis enabled</em></p>
 
 Reconnect to gSender and toggle into 4th Axis Mode. Stay in 4th Axis Mode at all times, do NOT switch to Rotary Mode.
 

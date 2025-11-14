@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/_longmill/_advanced/_8_GRBL/lm_grbl_p2_FirmTool.png
 ---
 
-<em>For in-depth documentation on all of the settings in grbl and what they mean, visit: </em><a href="https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration" target="_blank" rel="noopener"><em>https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration</em></a>.
+<em>For in-depth documentation on all of the settings in grbl and what they mean, visit:</em> <a href="https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration" target="_blank" rel="noopener"><em>https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration</em></a>.
 
 You can make changes to your machine's settings by changing the values in your EEPROM. These are settings that will persist even after you power off your machine and control things like the maximum speed, the acceleration, steps per mm, and more.
 

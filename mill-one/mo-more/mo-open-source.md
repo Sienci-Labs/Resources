@@ -48,9 +48,9 @@ Google Sheets file on Google Drive with the bill of materials.
 Here are some other contributions for modifying or upgrading your Mill One:
 
 <a href="https://www.instructables.com/id/Add-Homing-Switches-to-a-Sienci-Mill-One-CNC/" target="_blank" rel="noopener">➜ Add Homing Switches to a Sienci Mill One CNC</a> by Troy Barbour
-<a href="https://www.instructables.com/id/Add-Homing-Switches-to-a-Sienci-Mill-One-CNC/">➜ </a><a href="https://www.instructables.com/id/Sienci-Mill-One-AirOil-Mist-Coolant-System/" target="_blank" rel="noopener">Sienci Mill One Air/Oil Mist Coolant System</a> by Andrey Gubanov
-<a href="https://www.instructables.com/id/Add-Homing-Switches-to-a-Sienci-Mill-One-CNC/">➜ </a><a href="https://www.instructables.com/id/CNC-Hero-Guitar-ify-Your-CNC-Machine/" target="_blank" rel="noopener">CNC Hero! Guitar-ify Your CNC Machine</a> by Chris Thorogood
-<a href="https://www.instructables.com/id/Add-Homing-Switches-to-a-Sienci-Mill-One-CNC/">➜ </a><a href="https://www.facebook.com/groups/166433110494695/files/" target="_blank" rel="noopener">PDF Files for the Mill One Frame</a> by Chris Zindrik (Files can be found in the Facebook group files and also on our Thingiverse)
+<a href="https://www.instructables.com/id/Sienci-Mill-One-AirOil-Mist-Coolant-System/" target="_blank" rel="noopener">➜ Sienci Mill One Air/Oil Mist Coolant System</a> by Andrey Gubanov
+<a href="https://www.instructables.com/id/CNC-Hero-Guitar-ify-Your-CNC-Machine/" target="_blank" rel="noopener">➜ CNC Hero! Guitar-ify Your CNC Machine</a> by Chris Thorogood
+<a href="https://www.facebook.com/groups/166433110494695/files/" target="_blank" rel="noopener">➜ PDF Files for the Mill One Frame</a> by Chris Zindrik (Files can be found in the Facebook group files and also on our Thingiverse)
 <a href="https://CAD.onshape.com/documents/8f775034bda99ee4916e3af8/w/6fdbd544f27a0f3bc72a7bbb/e/26ed85d2d46c126c346306c9">➜ 3D Printable Mods</a> by Tom Sanladerer
 <a href="http://www.instructables.com/id/Add-an-Arduino-based-Optical-Tachometer-to-a-CNC-R/">➜ Add an Arduino-based Optical Tachometer to a CNC Router</a> by Troy Barbour
 <a href="http://www.instructables.com/id/Easy-Z-Probe-for-Your-CNC-Router/">➜ Easy Z Probe for you CNC Router</a> by Troy Barbour
