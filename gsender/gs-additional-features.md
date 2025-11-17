@@ -495,14 +495,14 @@ If your CNC was listed above then it's "supported" by the Firmware tool, and res
 
 ### Transferring Settings
 
-To transfer your settings over, let's begin by exporting a save file:
+To transfer your settings over, start by exporting a save file:
 
-1. Go to the Config Tab, and click the **Export** button in the top right corner of the screen.
-  ![](/_images/_gsender/_features/gs_fe_preferences.jpg){.aligncenter .size-medium}
+1. Go to the Config Tab, and click the '**Export**' button in the top right corner of the screen.
+  ![](/_images/_gsender/_features/gs_fe_preferences.jpg){.aligncenter .size-full}
 1. Save the file somewhere onto your computer that you can find afterwards
   ![](/_images/_gsender/_features/gs_fe_preferences1.jpg){.aligncenter .size-medium}
 1. Outside of gSender, find the file and transfer it using a memory stick or sending it over the internet by emailing to yourself or using Google Drive or OneDrive.
-1. Once you've got the file onto the other computer it's now easy enough to open gSender on that computer, or in the web browser if you're doing remote control, and go to the config tab and click the **Import** button just to the right of the export button.
+1. Once you've got the file onto the other computer it's now easy enough to open gSender on that computer, or in the web browser if you're doing remote control, and go to the Config tab and click the '**Import**' button just to the right of the export button.
 1. Locate the file and click 'Open'
   ![](/_images/_gsender/_features/gs_fe_preferences2.jpg){.aligncenter .size-medium}
 1. You'll get a warning. Click 'Import Settings' if you want to continue. Once you do, gSender will disconnect and you'll need to reconnect the machine to resume operation but the settings should now be brought over.
@@ -705,9 +705,9 @@ All setup steps need to happen on the inline computer (the computer you'll have 
 1. gSender will automatically restart in order for the changes to take place.
   ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-restart.jpg){.aligncenter .size-full}
 1. You'll know the setup was successful if gSender restarts & the remote connect icon is green.
-  ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-done.jpg){.aligncenter .size-medium}
+  ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-done.jpg){.aligncenter .size-full}
 1. To connect, you can use your phone camera to scan the QR code and be taken directly to your remote interface, or you can copy the http link and enter it into your browser on any device.
-![](/_images/_gsender/_features/_remote/gs_fe_re_connected.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_remote/gs_fe_re_connected.jpg){.aligncenter .size-full}
 
 - You'll be able to use both the remote and inline devices simultaneously to control your CNC like jogging, opening and closing files, probing, macros, and more
 - You'll also see that both their screens look exactly the same so you can watch the visualizer move around or check on the machine state
