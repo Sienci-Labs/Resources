@@ -77,7 +77,7 @@ Let's explore some common gSender settings to help get your setup running the wa
 1. **Preferred units**
    - In the Basics section, change which units (mm or inches) you want to see on the main Carve screen (Config units will always display as mm)
    ![](/_images/_gsender/_setup/gs_se_configstart1.jpg){.aligncenter .size-medium}
-   The Carve tab will always show the units you set at the top left corner of the DRO.
+   The Carve tab will always show the units you set at the top left corner of the DRO (Digital Read Out).
    ![](/_images/_gsender/_setup/gs_se_units-mainscreen.jpg){.aligncenter .size-medium}
 1. **Enable other CNC functions**
    - If your CNC supports them, this can include a Spindle, Laser, Rotary axis, and more. Just go to the appropriate section in Config and the first option you should see should mention "enabling" it. After Applying the changes you'll see a new tab appear in the bottom-right of the main Carve screen.
