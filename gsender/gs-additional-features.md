@@ -699,15 +699,15 @@ Before diving into the setup, here are some quirks and warnings that are importa
 All setup steps need to happen on the inline computer (the computer you'll have connected via USB to your CNC) and have been simplified to all happen within gSender.
 
 1. To begin, click the cell phone icon on the top right of the screen.
-  ![](/_images/_gsender/_features/gs_fe_remotemode.jpg){.aligncenter .size-medium}
+  ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-access.jpg){.aligncenter .size-full}
 1. This is where remote mode is set up. Click the **Enable Remote Mode** toggle. Then click on the Save button.
-  ![](/_images/_gsender/_features/gs_fe_remotemode1.jpg){.aligncenter .size-medium}<br>
+  ![](/_images/_gsender/_features/_remote/gs_fe_re_setup.jpg){.aligncenter .size-full}
 1. gSender will automatically restart in order for the changes to take place.
-  ![](/_images/_gsender/_features/gs_fe_remotemode2.jpg){.aligncenter .size-medium}
+  ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-restart.jpg){.aligncenter .size-full}
 1. You'll know the setup was successful if gSender restarts & the remote connect icon is green.
-  ![](/_images/_gsender/_features/gs_fe_remotemode3.jpg){.aligncenter .size-medium}
+  ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-done.jpg){.aligncenter .size-medium}
 1. To connect, you can use your phone camera to scan the QR code and be taken directly to your remote interface, or you can copy the http link and enter it into your browser on any device.
-![](/_images/_gsender/_features/gs_fe_remotemode4.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_remote/gs_fe_re_connected.jpg){.aligncenter .size-medium}
 
 - You'll be able to use both the remote and inline devices simultaneously to control your CNC like jogging, opening and closing files, probing, macros, and more
 - You'll also see that both their screens look exactly the same so you can watch the visualizer move around or check on the machine state
