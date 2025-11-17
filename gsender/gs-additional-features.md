@@ -313,56 +313,65 @@ Before getting into the weeds on how you can set up limit switches and homing on
 - On the main Carve page, above the jog controls, you should see a set of numbers and buttons that make up your machines 'DRO' (Digital Read Out). You can think of it as similar to a car navigation system.
   - The buttons around this area allow you to make quick movements (blue buttons) and set the <span style="color: #3e85c7;">blue numbers</span> back to a value of 0.
   - You'll see two sets of numbers, where the blue ones on the left are your **<span style="color: #3e85c7; text-decoration: underline;">Work Coordinates</span>** and the gray ones on the right are your **<span style="color: #777; text-decoration: underline;">Machine Coordinates</span>**; these are the two primary coordinate systems that guide a CNCs movements.
-  ![](/_images/_gsender/_features/_dro/gs_fe_dro.jpg){.aligncenter .size-medium}
-- A CNC's **<span style="color: #3e85c7; text-decoration: underline;">Work Coordinates</span>** are very often used/edited in day-to-day cutting.
+  ![](/_images/_gsender/_features/_dro/gs_fe_dro.jpg){.aligncenter .size-full}
+- A CNC's **<span style="color: #3e85c7; text-decoration: underline;">Work Coordinates</span>** are very often used/edited in day-to-day cutting since they describe the exact location of the project that you're planning to cut.
+  - This is effectively the 'working area' of your project.
+  - Once you've placed your material on the machine bed, you'll bring the cutting head to the starting point for the project (also known as the 'zero point' or 'origin') then let the machine know that it's now at the starting location.
+  - When you're at the starting location for your project, the <span style="color: #3e85c7;">work coordinates</span> should all read as '0', but if you manually move your CNC to the left, down, or towards you then the number will start to decrease, or they'll increase if you move right, up, or away from you.
+- The **<span style="color: #777; text-decoration: underline;">Machine Coordinates</span>** starts to become more important once you've set up **Homing** on your CNC
+  - These numbers are very similar to <span style="color: #3e85c7;">work coordinates</span>, except they describe the 'working area' of the CNC itself.
+  - This means that once you turn on your machine and home it, it'll now know exactly where it's located within its physical size constraints, it'll also know the exact offset between the homing location and the location of your <span style="color: #3e85c7;">work coordinates</span>.
+  - This starts to become powerful because you can then do things like resume cutting your job after a loss of connection or power-outage for example. Using homing and <span style="color: #777;">machine coordinates</span> gives your CNC the memory of its location no matter the circumstances.
+  - Using <span style="color: #777;">machine coordinates</span> without homing is also still possible, but you'd need to bring your machine to a reliable location using probing or some other method, then power-cycle the machine, since without homing the machine coordinates are set at the time the machine first powers on.
+  ![](/_images/_gsender/_features/_dro/gs_fe_dro_offset.jpg){.aligncenter .size-medium}
+
+### Workspaces
+
+Another concept worth mentioning is **workspaces**. Usually you would only have one 'zero position' per project, but what about cases where:
+
+- You need to reorient your material to cut at it from a different side
+- You plan to do a series of carves that require different zero positions
+- You want to align your projects to jigs you've fixed to the CNC bed
+
+In these cases, workspaces are basically the ability for you to set multiple **<span style="color: #3e85c7;">work coordinates</span>** that your machine will remember and can toggle between. All you have to do to use these is select a new workspace using the dropdown on the Carve page, after which everything else will continue to behave as normal including zeroing, probing, running files, and more.
+
+![](/_images/_gsender/_features/_dro/gs_fe_dro_workspacesdrop.jpg){.aligncenter .size-full}
+
+In the image below you can see a demonstration of setting up 4 different workspaces to align to jigs on the wasteboard of the CNC. Each of these has their zero set to the bottom left corner, except the circle jig which has the zero placed at the middle.
+
+![](/_images/_gsender/_features/_dro/gs_fe_dro_workspaces.jpg){.aligncenter .size-medium}
+
+This is also discussed at about 5:30 of the video below:
+
+https://youtu.be/jmiaWA5tiVw
+
+### Setting up Homing
+
+The summary of the benefits of homing is that it allows your CNC to reliably know its own location. This provides many benefits like job recovery and using workspaces for more complex jobs or batch cutting. To get homing working on your CNC, you'll need:
+
+1. **Limit switches** (also referred to as *end stops* or *homing switches*) which are installed at one or both ends of each movement axis of the CNC. You can see an example of these [on our store](https://sienci.com/product/inductive-sensor-kit-for-the-longmill-mk2/).
+1. **Homing enabled in firmware** which can be done through the Config tab
+1. **Machine limits set up** to match the physical travel distances of your CNC
+1. Any other customization you'd like to make for your particular setup
+
 
 
 
 The **machine coordinate system** is a fixed, default system established by the CNC machine's manufacturer. It is defined by the machine's physical size and is used during the homing cycle, when the machine references its internal limits using built-in sensors like limit switches. Users do not modify or choose this system—it simply tells the machine where it is in its own space. If you are not using homing switches, the machine home is determined by where the bit is when the controller is powered on.
 
-In contrast, the **workpiece coordinate system** is fully controlled by the CNC user. This system defines the position of the part on the machine table and ensures the tool moves accurately in relation to the workpiece.
-
-![](/_images/_gsender/_features/_dro/gs_fe_dro_offset.jpg){.aligncenter .size-medium}
-
-### Machine Coordinate System 🏭
 
 The machine coordinate system refers to the CNC machine's own coordinate system, established by the manufacturer. This system is based on the machine's physical structure and its home position (often referred to as the machine's home or (0,0,0) point).
 
 When you power on the machine and perform a homing sequence, the machine references this built-in coordinate system to determine its position in space. This system ensures that the machine has a consistent reference point for all operations.​
 
-### Workpiece Coordinate System 🧱
-
-The workpiece offset is a user-defined coordinate system that aligns the machine's operations with the specific location of the workpiece on the machine bed. This system allows users to set a new origin point (0,0,0) based on the workpiece's position.
 
 In gSender, you can set workpiece offsets using standard G-code commands like G54 to G59. These commands allow you to define multiple work coordinate systems, which is especially useful when working on different parts or setups without re-homing the machine each time.​ These are called your workspaces.
-
-## Workspaces
-
-Usually you would only have one origin or zero position for your project. However, if you plan to do a series of projects that require different zero positions, or are lining up to do some more complex jigging or part batches, you may want to set up multiple workspaces all at once. This can save you time by not having to set a zero position for repetitive tasks or specific jig setups. You can do this by creating up to six different zero positions with the six workspaces in gSender. Access each 'Workspace' at the top right of the program by pressing the drop down to select which workspace to use. gSender will act completely in-line with whatever workspace you've selected, whether you want to set zero, probe, surface, or anything else.
-
-![](/_images/_gsender/_features/_dro/gs_fe_dro_workspacesdrop.jpg){.aligncenter .size-medium}
-
-The use of different **Workspaces** is most helpful when the machine is able to home the machine coordinate system. Once homed you can select a workspace and setup your project, and gSender will remember where you set the zero for the new workspace. The challenge then becomes placing the project in the correct spot for each workspace. Often a jig is created, to ensure perfect placement for your workpiece each time. You can use a workspace without homing/sensors, but it's not very repeatable, and you would be resetting them often with each power cycle.
-
-In the image below you can see 4 different workspaces setup, with the zero in the bottom left corner, and the circle in the middle.
-
-![](/_images/_gsender/_features/_dro/gs_fe_dro_workspaces.jpg){.aligncenter .size-medium}
-
-**Note:** *Some files may use a toolpath post processor that changes your workspace!*
-
-The video below explains the process in greater detail. If you're coming from a more technical background, you'd usually call these 'workspaces' G54, G55, G56, ... G59.
-
-https://youtu.be/jmiaWA5tiVw?t=336
-
-## Homing & Limits
-
-Limit switches (also referred to as *inductive sensors*, *end stops* or *homing switches*) are sensors that sit at one or both ends of each movement axis of a CNC to provide a few different functions. gSender provides unique features if you have these switches installed on your machine. You can check out our sensors [Sensor Kit](https://sienci.com/product/inductive-sensor-kit-for-the-longmill-mk2/)
 
 ### Homing
 
 When we turn on homing, we can use 3 sensors to find our machine coordinate home on our machine. For now, we will home to the front left corner of the machine. To enable Homing, Go to Config ➜ Homing/Limits ➜ Homing cycle enable ➜ toggle on.
 
-![](/_images/_gsender/_features/_dro/gs_us_dro_homingon.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_dro/gs_fe_dro_homingon.jpg){.aligncenter .size-medium}
 
 Using **grblHAL** enables several more detailed options for you to choose from, like homing single axes, requiring homing on startup, set machine origin to 0, and more. In this image, we have enabled homing, but **not** required it on startup. We have toggled to allow us to manually home the machine, and to **Set the machine origin to 0** once complete.
 
