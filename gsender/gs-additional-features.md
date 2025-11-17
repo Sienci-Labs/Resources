@@ -35,7 +35,7 @@ Listing off a few more customizations before moving on to new features, some whi
 1. **Notifications**
    - In Basics ➜ Notifications, these can be customized to give you warnings when you load bad files, provide information at the end of a job, and more.
 1. **Enable other CNC functions**
-   - If your CNC supports them, this can include a Spindle, Laser, Rotary axis, and more. Just go to the appropriate section in Config and the first option you should see should mention “enabling” it. After Applying the changes you’ll see a new tab appear in the bottom-right of the main Carve screen.
+   - If your CNC supports them, this can include a Spindle, Laser, Rotary axis, and more. Just go to the appropriate section in Config and the first option you should see should mention “enabling” it. After Applying the changes you'll see a new tab appear in the bottom-right of the main Carve screen.
 
 ![](/_images/_gsender/_setup/gs_se_hardware-enable.gif){.aligncenter .size-full}
 
@@ -276,7 +276,7 @@ Similar to the manual coolant control, this area is for manual control of a spin
 
 ![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_laseron.gif){.aligncenter .size-full}
 
-Back at the main Carve screen, you'll see the ‘Spindle/Laser’ tab at the bottom right. Here you can click to toggle between 'Spindle Mode' and 'Laser Mode', changing your grbl settings for you and displaying buttons specific to each device. For each mode there is also a warning that will appear in the right, top bar of gSender to inform you if the spindle or laser are active. This will happen both during manual control but also during job sending.
+Back at the main Carve screen, you'll see the 'Spindle/Laser' tab at the bottom right. Here you can click to toggle between 'Spindle Mode' and 'Laser Mode', changing your grbl settings for you and displaying buttons specific to each device. For each mode there is also a warning that will appear in the right, top bar of gSender to inform you if the spindle or laser are active. This will happen both during manual control but also during job sending.
 
 In '**Spindle Mode**' you can select your current spindle, adjust the spindle speed with a slider, spin it up in either direction, and stop it again with the 'Stop' button. These are all based on g-code commands that can also be entered into the console manually if desired. The speed slider is set from your grbl firmware settings, so max and min speed can be altered in the Config ➜ Spindle/Laser.
 
@@ -413,6 +413,101 @@ If you have a sensor on both sides of each axis, all 6 sensors can provide you a
 
 ![](/_images/_gsender/_features/_dro/gs_fe_hardlimit.jpg){.aligncenter .size-medium}
 
+## Stats Tab
+
+Curious to know how many jobs you've completed, how many hours you've put on your machine, what alarms you've encountered or what maintenance you should be focusing on? Click on the **Stats Tab** to see an Overview of all your stats. Here you can see information about your machine including job statistics, machine maintenance, alarms & errors, configuration settings, diagnostic files and resources to help along your CNC journey. You can check out the main dashboard tab, or click into each section to see further details with the tab at the bottom of the screen, or click on the button in the top right corner of each section.
+
+![](/_images/_gsender/_features/gs_fe_statsconfig.jpg){.aligncenter .size-medium}
+
+### Your Machine Job Stats
+
+The Job Table tab provides a simplified breakdown of each job, including the file name, duration of the job, # of lines in the job, start time/date and if the job completed successfully or not. This section also displays jobs per port and run time per port. You can use the search bar at the top, to search each column for a specific job by date, file name, completion status, etc.
+
+![](/_images/_gsender/_features/gs_fe_statsjobs.jpg){.aligncenter .size-medium}
+
+### CNC Maintenance
+
+In the Maintenance tab, you will see preset tasks with an hourly countdown range, to remind you when a maintenance task is due to be performed. These times pull directly from the runtime of your jobs and allow you to mark them as complete to reset the timers. Once the task is in range, the maintenance is due, once past the range, the task becomes critical to address. Each task includes a timer showing how much time remains before the task needs attention, detailed descriptions and an edit button or complete task button. This section also displays all upcoming maintenance in a colour coded list to the right.
+
+![](/_images/_gsender/_features/gs_fe_statsmaintenance.jpg){.aligncenter .size-medium}
+
+You can also add your own reminders, time due range and description to this section, to really make it your own.
+
+![](/_images/_gsender/_features/gs_fe_statsmaintenanceadd.jpg){.aligncenter .size-medium}
+
+### Alarms & Errors
+
+In the Alarms & Errors tab, you will see a list or errors and alarms. Details include the error or alarm number, time and date and a brief explanation of the issue. Here you can also **Clear Alarms & Errors** or **Download a Diagnostic File** for further troubleshooting.
+
+![](/_images/_gsender/_features/gs_fe_statsalarmserrors.jpg){.aligncenter .size-medium}
+
+To read more about Alarms & Errors, visit our [grbl Alarms & Errors](https://resources.sienci.com/view/gs-grbl-alarm-error-codes/#alarms) resource.
+
+### Get Help
+
+Another valuable feature is the ability to download a **Diagnostic PDF** file of your CNC machine. This PDF file is meant to include information on your computer, your CNC, recent alarms / errors, any currently loaded g-code file, and more. It's basically a treasure trove of information that you can share on community forums, Facebook groups, or with your CNC customer support. This can go a long way towards getting help from others on diagnosing any problems your CNC might be experiencing.
+
+![](/_images/_gsender/_features/gs_fe_statsgethelp.jpg){.aligncenter .size-medium}
+
+To download the PDF, click the '**Download Diagnostic File**' button. This will open a save dialog box. Save the file to a location that you can easily access to send along to others in an email, support ticket or post online.
+
+Lastly, you can copy the last 40 lines of code in the gSender console, by hitting the double page icon to the left of the Run button. This will copy the code to your clipboard, so you can paste it to forums or share it with support teams.
+
+![](/_images/_gsender/_features/gs_fe_copyconsole.jpg){.aligncenter .size-full}
+
+If you have questions, need support, want to read up on specific features, or investigate cool community activities, you can read more of our [Resources](https://resources.sienci.com/), join our [Community](https://forum.sienci.com/) or dig into our [Github](https://github.com/Sienci-Labs/gsender/releases/) repository.
+
+## About Page
+
+You can find the release notes for the latest version of gSender in the “About” section of the settings.
+
+![](/_images/_gsender/_features/gs_fe_statsabout.jpg){.aligncenter .size-medium}
+
+## Settings
+
+gSender's settings are stored on a file on whatever computer is used to run it. Settings include such items as preferred units, machine preset, probe, tools, jogging presets, keymapping, tool change g-code, start/stop g-code, and more. If you plan on using a different computer to run your CNC using gSender or want to run gSender remotely, some of these settings might be very important to carry over to the alternate computer to make sure things keep running as expected.
+
+You can also use the buttons in this tab to a more limited degree, to spin forward, backwards and stop all movement. You can see the top bar SpindleON warning here too.
+
+![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_onoff-config.gif){.aligncenter .size-full}
+
+### Unsupported CNCs
+
+If your CNC isn't listed below, then it's considered "unsupported":
+
+- Sienci Labs **LongMill** (MK1, MK2, and MK2.5)
+- Sienci Labs **AltMill** (MK1 and MK2)
+- Sienci Labs **Mill One** (V1, V2, and V3)
+
+If your machine is unsupported, it means that the Config tab may not be able to perform the same features as for supported machines. In this case, **if your machine isn't working, contact your manufacturer to get their advice on how to fix it**. Using this tab makes it possible to ruin your machine further and we won't be able to help you with your specific hardware. For unsupported machines:
+
+1. Choosing your machine **name** from the drop down menu is primarily cosmetic, unless you are restoring defaults
+1. **Export** current EEPROM settings if you'd like to save your current setup in case something goes wrong
+1. **Import** EEPROM settings from a file if you had settings that were working and something changed
+1. **Defaults** restore all your machine settings back to typical vanilla grbl/grblHAL values
+1. **Flash** either vanilla grbl, or for grblHAL boards upload a hex file to flash a new firmware
+
+![](/_images/_gsender/_features/gs_fe_firmwaretool.jpg){.aligncenter .size-medium}
+
+### Supported CNCs
+
+If your CNC was listed above then it's "supported" by the Firmware tool, and resetting your **Defaults** will restore your settings based on the profile you have selected in the drop down menu. This also means that machine profiles are kept up-to-date, which in-turn gives you access to more features.
+
+### Transferring Settings
+
+To transfer your settings over, let's begin by exporting a save file:
+
+1. Go to the Config Tab, and click the **Export** button in the top right corner of the screen.
+  ![](/_images/_gsender/_features/gs_fe_preferences.jpg){.aligncenter .size-medium}
+1. Save the file somewhere onto your computer that you can find afterwards
+  ![](/_images/_gsender/_features/gs_fe_preferences1.jpg){.aligncenter .size-medium}
+1. Outside of gSender, find the file and transfer it using a memory stick or sending it over the internet by emailing to yourself or using Google Drive or OneDrive.
+1. Once you've got the file onto the other computer it's now easy enough to open gSender on that computer, or in the web browser if you're doing remote control, and go to the config tab and click the **Import** button just to the right of the export button.
+1. Locate the file and click 'Open'
+  ![](/_images/_gsender/_features/gs_fe_preferences2.jpg){.aligncenter .size-medium}
+1. You'll get a warning. Click 'Import Settings' if you want to continue. Once you do, gSender will disconnect and you'll need to reconnect the machine to resume operation but the settings should now be brought over.
+  ![](/_images/_gsender/_features/gs_fe_preferences3.jpg){.aligncenter .size-medium}
+
 ## Macros
 
 Macros are standalone buttons within the gSender interface that allow you to execute a series of g-code commands when they're run. Macros can come in handy for a variety of uses:
@@ -475,6 +570,42 @@ If you want some initial inspiration, see other macros [**made by our community*
 1. Create functions that you can then call later such as `%rapid = function (x, y) {return 'G53 G90 G0 X' + x + ' Y' + y + '\n'}` then later run it with `[rapid(x, y)]`
 1. Read more about the Esprima library here: <a href="https://docs.esprima.org/en/latest/syntactic-analysis.html" target="_blank" rel="noopener">https://docs.esprima.org/en/latest/syntactic-analysis.html</a>
 
+### Community Macros
+
+If you'd like to add your own macros to this page, [edit the page on GitHub](https://github.com/Sienci-Labs/Resources?tab=readme-ov-file#making-changes) and use the template below for each macro.
+
+[su_spoiler title="<b>Macro Title</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+**Author:** John D.<br>
+**Updated:** Aug 7, 2024
+
+**Description:** Describe the function of the macro, what hardware it's for, and any other details a user may need to configure or steps to run it.
+
+**Code:**
+
+```js
+Paste your macro code here.
+```
+
+[/su_spoiler]
+
+<b><span class="redText">Disclaimer!</span> These Macros are submitted by our community. They aren't vetted by us and might cause damage to your machine so use them at your own risk!</b> Please review the code and test it before assuming it will work with your machine setup.
+
+[su_spoiler title="<b>SLB Light-Cycling</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+**Author:** Kevin G.<br>
+**Updated:** Apr 15, 2024
+
+**Description:** Currently only supports the SLB. Allows you to cycle the status light between it's three states of 'Automatic', 'All white', and 'Off' so you can change the light output easily.
+
+**Code:**
+
+```js
+%nextLight = global.lightState || 0
+M356 P0 Q[nextLight % 3]
+%global.lightState = Number(nextLight) + 1
+```
+
+[/su_spoiler]
+
 ## Console
 
 The console is a tab that you can access at the bottom right hand side of the gSender window. The text here shows a truer representation of the communication that happens between your computer and your CNC. As you start to understand more about your machine, this is a great tab to reference so you can see if commands are being properly sent, received, and executed. It's also great for troubleshooting since you can:
@@ -494,72 +625,6 @@ When you first start up gSender, the console will display EEPROM settings that a
 - Limit switch settings
 
 To access EEPROM settings again, enter in “$$” into the console and hit the 'Enter' key or click the 'Run' button. These settings can be changed via the console as well as the Firmware Tool which we've designed as a much more visual way to alter machine settings.
-
-## Stats Tab
-
-Curious to know how many jobs you've completed, how many hours you've put on your machine, what alarms you've encountered or what maintenance you should be focusing on? Click on the **Stats Tab** to see an Overview of all your stats. Here you can see information about your machine including job statistics, machine maintenance, alarms & errors, configuration settings, diagnostic files and resources to help along your CNC journey. You can check out the main dashboard tab, or click into each section to see further details with the tab at the bottom of the screen, or click on the button in the top right corner of each section.
-
-![](/_images/_gsender/_features/gs_fe_statsconfig.jpg){.aligncenter .size-medium}
-
-### Your Machine Job Stats
-
-The Job Table tab provides a simplified breakdown of each job, including the file name, duration of the job, # of lines in the job, start time/date and if the job completed successfully or not. This section also displays jobs per port and run time per port. You can use the search bar at the top, to search each column for a specific job by date, file name, completion status, etc.
-
-![](/_images/_gsender/_features/gs_fe_statsjobs.jpg){.aligncenter .size-medium}
-
-### CNC Maintenance
-
-In the Maintenance tab, you will see preset tasks with an hourly countdown range, to remind you when a maintenance task is due to be performed. These times pull directly from the runtime of your jobs and allow you to mark them as complete to reset the timers. Once the task is in range, the maintenance is due, once past the range, the task becomes critical to address. Each task includes a timer showing how much time remains before the task needs attention, detailed descriptions and an edit button or complete task button. This section also displays all upcoming maintenance in a colour coded list to the right.
-
-![](/_images/_gsender/_features/gs_fe_statsmaintenance.jpg){.aligncenter .size-medium}
-
-You can also add your own reminders, time due range and description to this section, to really make it your own.
-
-![](/_images/_gsender/_features/gs_fe_statsmaintenanceadd.jpg){.aligncenter .size-medium}
-
-### Alarms & Errors
-
-In the Alarms & Errors tab, you will see a list or errors and alarms. Details include the error or alarm number, time and date and a brief explanation of the issue. Here you can also **Clear Alarms & Errors** or **Download a Diagnostic File** for further troubleshooting.
-
-![](/_images/_gsender/_features/gs_fe_statsalarmserrors.jpg){.aligncenter .size-medium}
-
-To read more about Alarms & Errors, visit our [grbl Alarms & Errors](https://resources.sienci.com/view/gs-grbl-alarm-error-codes/#alarms) resource.
-
-### Get Help
-
-Another valuable feature is the ability to download a **Diagnostic PDF** file of your CNC machine. This PDF file is meant to include information on your computer, your CNC, recent alarms / errors, any currently loaded g-code file, and more. It's basically a treasure trove of information that you can share on community forums, Facebook groups, or with your CNC customer support. This can go a long way towards getting help from others on diagnosing any problems your CNC might be experiencing.
-
-![](/_images/_gsender/_features/gs_fe_statsgethelp.jpg){.aligncenter .size-medium}
-
-To download the PDF, click the '**Download Diagnostic File**' button. This will open a save dialog box. Save the file to a location that you can easily access to send along to others in an email, support ticket or post online.
-
-Lastly, you can copy the last 40 lines of code in the gSender console, by hitting the double page icon to the left of the Run button. This will copy the code to your clipboard, so you can paste it to forums or share it with support teams.
-
-![](/_images/_gsender/_features/gs_fe_copyconsole.jpg){.aligncenter .size-full}
-
-If you have questions, need support, want to read up on specific features, or investigate cool community activities, you can read more of our [Resources](https://resources.sienci.com/), join our [Community](https://forum.sienci.com/) or dig into our [Github](https://github.com/Sienci-Labs/gsender/releases/) repository.
-
-### Unsupported CNCs
-
-If your CNC isn't listed below, then it's considered "unsupported":
-
-- Sienci Labs **LongMill** (MK1, MK2, and MK2.5)
-- Sienci Labs **AltMill** (MK1 and MK2)
-- Sienci Labs **Mill One** (V1, V2, and V3)
-
-If your machine is unsupported, it means that the Config tab may not be able to perform the same features as for supported machines. In this case, **if your machine isn't working, contact your manufacturer to get their advice on how to fix it**. Using this tab makes it possible to ruin your machine further and we won't be able to help you with your specific hardware. For unsupported machines:
-
-1. Choosing your machine **name** from the drop down menu is primarily cosmetic, unless you are restoring defaults
-1. **Export** current EEPROM settings if you'd like to save your current setup in case something goes wrong
-1. **Import** EEPROM settings from a file if you had settings that were working and something changed
-1. **Defaults** restore all your machine settings back to typical vanilla grbl/grblHAL values
-1. **Flash** either vanilla grbl, or for grblHAL boards upload a hex file to flash a new firmware
-
-![](/_images/_gsender/_features/gs_fe_firmwaretool.jpg){.aligncenter .size-medium}
-
-### Supported CNCs
-
-If your CNC was listed above then it's "supported" by the Firmware tool, and resetting your **Defaults** will restore your settings based on the profile you have selected in the drop down menu. This also means that machine profiles are kept up-to-date, which in-turn gives you access to more features.
 
 ## Automations
 
@@ -609,29 +674,6 @@ If you are using one of the wizard options, know that you can access all other g
 1. **Code**<br>You can enter your own macros before and after the tool change with this strategy selected which is fairly powerful for making tool changing processes that are more automated than just pausing.
   ![](/_images/_gsender/_features/_toolchange/gs_fe_toolchangecode.jpg){.aligncenter .size-medium}
 
-## Settings
-
-gSender's settings are stored on a file on whatever computer is used to run it. Settings include such items as preferred units, machine preset, probe, tools, jogging presets, keymapping, tool change g-code, start/stop g-code, and more. If you plan on using a different computer to run your CNC using gSender or want to run gSender remotely, some of these settings might be very important to carry over to the alternate computer to make sure things keep running as expected.
-
-You can also use the buttons in this tab to a more limited degree, to spin forward, backwards and stop all movement. You can see the top bar SpindleON warning here too.
-
-![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_onoff-config.gif){.aligncenter .size-full}
-
-### Transferring Settings
-
-To transfer your settings over, let's begin by exporting a save file:
-
-1. Go to the Config Tab, and click the **Export** button in the top right corner of the screen.
-  ![](/_images/_gsender/_features/gs_fe_preferences.jpg){.aligncenter .size-medium}
-1. Save the file somewhere onto your computer that you can find afterwards
-  ![](/_images/_gsender/_features/gs_fe_preferences1.jpg){.aligncenter .size-medium}
-1. Outside of gSender, find the file and transfer it using a memory stick or sending it over the internet by emailing to yourself or using Google Drive or OneDrive.
-1. Once you've got the file onto the other computer it's now easy enough to open gSender on that computer, or in the web browser if you're doing remote control, and go to the config tab and click the **Import** button just to the right of the export button.
-1. Locate the file and click 'Open'
-  ![](/_images/_gsender/_features/gs_fe_preferences2.jpg){.aligncenter .size-medium}
-1. You'll get a warning. Click 'Import Settings' if you want to continue. Once you do, gSender will disconnect and you'll need to reconnect the machine to resume operation but the settings should now be brought over.
-  ![](/_images/_gsender/_features/gs_fe_preferences3.jpg){.aligncenter .size-medium}
-
 ## Remote Mode
 
 If you've ever wanted to run your CNC without being stuck right next to it, this is the feature you're looking for. The remote mode is exactly how it sounds, it gives the ability for a remote computer to connect over a shared internet network to a permanently installed, normally lower-end computer, that runs the CNC. This '**remote computer**' can be any device that can connect to the internet and run a web browser, meanwhile the '**inline computer**' plugs into your CNC with a USB cable and will receive commands over the internet from the remote computer.
@@ -658,7 +700,7 @@ All setup steps need to happen on the inline computer (the computer you'll have 
 
 1. To begin, click the cell phone icon on the top right of the screen.
   ![](/_images/_gsender/_features/gs_fe_remotemode.jpg){.aligncenter .size-medium}
-1. This is where remote mode is enabled. Click the **Enable Remote Mode** toggle. Then click on the Save button.
+1. This is where remote mode is set up. Click the **Enable Remote Mode** toggle. Then click on the Save button.
   ![](/_images/_gsender/_features/gs_fe_remotemode1.jpg){.aligncenter .size-medium}<br>
 1. gSender will automatically restart in order for the changes to take place.
   ![](/_images/_gsender/_features/gs_fe_remotemode2.jpg){.aligncenter .size-medium}
@@ -687,15 +729,15 @@ During initial setup, you might see a Security Alert window pop up or run into a
 
 **For Windows:** You should simply see a popup from Windows Firewall or your antivirus software asking for approval to allow gSender to communicate on your home network. Please check the box beside “Private networks” and “Public networks”. This should be all that's needed.
 
-![](/_images/_gsender/_features/_remote/gs_fe_re_firewall-windows.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_remote/gs_fe_re_firewall-windows.jpg){.aligncenter .size-full}
 
 If you don't see this popup, you can go into your Windows security tab, and click the Allow an app through firewall text.
 
-![](/_images/_gsender/_features/gs_fe_re_firewall-windows1.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_remote/gs_fe_re_firewall-windows1.jpg){.aligncenter .size-medium}
 
 Scroll down until you see gSender, click on Change Settings, then enable gSender to communicate through the firewall by clicking the checkbox.
 
-![](/_images/_gsender/_features/gs_fe_re_firewall-windows2.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_remote/gs_fe_re_firewall-windows2.jpg){.aligncenter .size-medium}
 
 **For Mac / Linux / Pi:** If you find that you can't connect with outside devices or just want some extra safety you might want to try opening the Universal FireWall (UFW) on a given port to allow external access. This can be started with `sudo ufw enable` (if UFW is not found then install it using `sudo apt-get install ufw` and your root password) then opening the desired port, for example `sudo ufw allow 8080` opens port 8080 for external access. If you want to see what ports are already open, you can use `ufw status verbose`.
 
@@ -721,33 +763,34 @@ If you ran into issues during remote control setup, here are some other checks y
 1. If on the remote device you get a popup for “Server Connection Lost”, this indicates that either gSender on the inline computer was closed or the shared internet is disconnecting. You should be able to fix this by restarting gSender on the inline device, then clicking “Attempt Reconnect” on the remote device.
 ![](/_images/_gsender/_features/_remote/gs_fe_re_issues-conn-lost.jpg){.aligncenter .size-medium}
 
-## Rotary
+## Rotary / 4th-axis
 
-gSender has a unique ability to control a rotary axis on normal, 3-axis grbl machines. We call this “rotary mode”; which isn't to be confused with grblHAL machines where gSender by default supports full, 4-axis motion.
+gSender has a unique ability to control a rotary axis on normal, 3-axis grbl and grblHAL machines which we call "rotary mode", as well as typical 4-axis rotary setups on grblHAL machines. The difference between these two is just a matter of how you set it up and whether your machine has enough unique drivers to control either 3 or 4 unique axes.
 
-The idea is that once you're in this "rotary mode", gSender does the legwork to swap firmware settings over to your rotary setup, translate A-axis movements to your machine as if they were Y-axis movements, and as long as you've done the legwork to align and swap over your wires then your rotary A-axis should now be good to go!
+In either case, the setup starts by going to Config ➜ Rotary and enabling the rotary controls. Don't forget to hit the 'Apply Settings' button!
 
-### Rotary Mode
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_enable.jpg){.aligncenter .size-full}
 
-Navigate to the Config tab where you will find the Rotary settings. Here you can **toggle** the Rotary controls to make them visible on the Carve tab. Don't forget to hit the Apply Settings button!
+Once done, you will see an additional tab at the bottom right of the main Carve screen, called 'Rotary'. With these controls turned on, you'll now have access to:
 
-![](/_images/_gsender/_features/_rotary/gs_fe_ro_enable.jpg){.aligncenter .size-medium}
 
-Once the toggle has been enabled, you will see an additional tab at the bottom right of the Carve tab, called Rotary.
 
-![](/_images/_gsender/_features/_rotary/gs_fe_ro_enabled.jpg){.aligncenter .size-medium}
+- **Rotary Toggle** - for toggling between [Rotary Mode](https://resources.sienci.com/view/vx-electronics/) and [4-axis Mode](https://resources.sienci.com/view/vx-closed-loop-motor/)
+- **Rotary Surfacing** - a gSender tool for turning square stock into round stock
+- **Probe Rotary Z-axis** - Automatically probe to find the Z-axis
+- **Y-axis Alignment** - Automatically probe to align the Y-axis along the A-axis (Turn rotary mode off to access this feature)
+- **Mounting Setup** - Drill holes in your wasteboard to mount our own <a href="https://sienci.com/product/vortex-rotary-axis/">Vortex Rotary</a> track (Turn rotary mode off to access this feature)
 
-With this feature you can:
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_enabled.jpg){.aligncenter .size-full}
+
 
 - **Jog Control** - Rotate the A-axis, go to Zero, set Zero, and adjust speeds
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_dro-a.jpg){.aligncenter .size-medium}
 
-- **Rotary Mode** - Toggle between [Rotary Mode](https://resources.sienci.com/view/vx-electronics/) or [4-Axis mode](https://resources.sienci.com/view/vx-closed-loop-motor/)
-- **Rotary Surfacing** - Wizard to turn square stock round
-- **Probe Rotary Z-axis** - Automatically probe to find the Z-axis
-- **Y-axis Alignment** - Automatically probe to align the Y-axis along the A-axis (Turn rotary mode off to access this feature)
-- **Mounting Setup** - Drill holes in your wasteboard to mount our own <a href="https://sienci.com/product/vortex-rotary-axis/">Vortex Rotary</a> track (Turn rotary mode off to access this feature)
+
+These have unique behaviours though because Rotary surfacing and Probe Rotary Z-Axis can only be available once you're in rotary mode for a 3-axis machine
+
 
 <em><b>Note:</b> Before switching to rotary mode, using the jog controls, rotary surfacing, or any other rotary actions, you'll need to check that you've got your rotary set up and positioned correctly. This includes table mounting and Y-axis alignment, outlined below.</em>
 
@@ -762,6 +805,10 @@ For those who might have our Vortex rotary axis, the '**Rotary Mounting Setup**'
 When switching from regular CNC use to Rotary Mode, you will probe to align the Y-axis along the A-axis. You can do this in the Rotary Tab by hitting the **Y-axis Alignment button**. Check out our <a href="https://resources.sienci.com/view/vx-first-project/#y-axis-alignment">Vortex Resources</a> for more information on aligning your Y-axis when setting up your Vortex.
 
 ### Rotary Mode Toggle
+
+
+The idea is that once you're in this "rotary mode", gSender does the legwork to swap firmware settings over to your rotary setup, translate A-axis movements to your machine as if they were Y-axis movements, and as long as you've done the legwork to align and swap over your wires then your rotary A-axis should now be good to go!
+
 
 This toggle can only happen once you've got your rotary axis set up properly, because after switching it'll assume you've changed your motor wiring to be connected to your A-axis instead of your Y-axis.
 
@@ -812,8 +859,8 @@ In gSender, select the rotary axis tab, then click '**Probe Rotary Z-axis**' and
 
 Setting both the X-axis and the A-axis are done manually.
 
-- To set your **X-axis**, jog to wherever you'd like the job to start then click **X0** to set your X-zero point. Make sure this is far enough from the chuck to ensure there won't be any collisions with your cutting bit, workholding or screws.
-- To set your **A-axis**, simply click **A0** at the beginning of each job, under the Rotary Jog Controls. Note that if this isn't done, the rotary will spin back to zero before the job starts.
+- To set your **X-axis**, jog to wherever you'd like the job to start then click '**X0**' to set your X-zero point. Make sure this is far enough from the chuck to ensure there won't be any collisions with your cutting bit, workholding or screws.
+- To set your **A-axis**, simply click '**A0**' at the beginning of each job, under the Rotary Jog Controls. Note that if this isn't done, the rotary will spin back to zero before the job starts.
 
 ### Rotary Surfacing tool
 
@@ -847,52 +894,8 @@ When you go to Config ➜ Rotary, you'll be able to enter your own settings, res
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_settingslimits.jpg){.aligncenter .size-medium}
 
-## About Page
-
-You can find the release notes for the latest version of gSender in the “About” section of the settings.
-
-![](/_images/_gsender/_features/gs_fe_statsabout.jpg){.aligncenter .size-medium}
-
 ## More
 
 There's always more to learn about gSender including many videos of lesser-known tips, setups on different CNCs, and open source modifications people have made. Check out this video of Chris showing off the **New U** release, reviewing some of the new features and what there is to be excited about!
 
 https://youtu.be/ZJB4KALmEGI
-
-## Community Macros
-
-<b><span class="redText">Disclaimer!</span> These Macros are submitted by our community. They aren't vetted by us and might cause damage to your machine so use them at your own risk!</b> Please review the code and test it before assuming it will work with your machine setup.
-
-[su_spoiler title="<b>SLB Light-Cycling</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
-**Author:** Kevin G.<br>
-**Updated:** Apr 15, 2024
-
-**Description:** Currently only supports the SLB. Allows you to cycle the status light between it's three states of 'Automatic', 'All white', and 'Off' so you can change the light output easily.
-
-**Code:**
-
-```js
-%nextLight = global.lightState || 0
-M356 P0 Q[nextLight % 3]
-%global.lightState = Number(nextLight) + 1
-```
-
-[/su_spoiler]
-
-### Formatting
-
-If you'd like to add your own macros to this page, [edit the page on GitHub](https://github.com/Sienci-Labs/Resources?tab=readme-ov-file#making-changes) and use the template below for each macro.
-
-[su_spoiler title="<b>Macro Title</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
-**Author:** John D.<br>
-**Updated:** Aug 7, 2024
-
-**Description:** Describe the function of the macro, what hardware it's for, and any other details a user may need to configure or steps to run it.
-
-**Code:**
-
-```js
-Paste your macro code here.
-```
-
-[/su_spoiler]
