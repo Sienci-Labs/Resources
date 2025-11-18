@@ -463,9 +463,9 @@ You can find the release notes for the latest version of gSender in the “About
 
 ![](/_images/_gsender/_features/gs_fe_statsabout.jpg){.aligncenter .size-medium}
 
-## Settings
+## Config Tab
 
-gSender's settings are stored on a file on whatever computer is used to run it. Settings include such items as preferred units, machine preset, probe, tools, jogging presets, keymapping, tool change g-code, start/stop g-code, and more. If you plan on using a different computer to run your CNC using gSender or want to run gSender remotely, some of these settings might be very important to carry over to the alternate computer to make sure things keep running as expected.
+
 
 You can also use the buttons in this tab to a more limited degree, to spin forward, backwards and stop all movement. You can see the top bar SpindleON warning here too.
 
@@ -492,6 +492,12 @@ If your machine is unsupported, it means that the Config tab may not be able to 
 ### Supported CNCs
 
 If your CNC was listed above then it's "supported" by the Firmware tool, and resetting your **Defaults** will restore your settings based on the profile you have selected in the drop down menu. This also means that machine profiles are kept up-to-date, which in-turn gives you access to more features.
+
+## gSender Settings
+
+gSenders settings are separate from the CNCs firmware, even though they both appear on the same list in the Config tab. You can tell which settings are firmware-based by the microchip icon next to them, the ones without a microchip are gSenders local preferences. These preferences are stored on the specific computer being used to run gSender and include items like: preferred units, machine selected, probe, tools, jogging presets, keymapping, tool change g-code, automations, and more.
+
+If you plan on using a different computer to run your CNC using gSender or want to run gSender remotely, some of these settings might be very important to carry over to the alternate computer to make sure things keep running as expected.
 
 ### Transferring Settings
 
