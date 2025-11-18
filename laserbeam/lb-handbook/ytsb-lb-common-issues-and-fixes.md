@@ -28,12 +28,12 @@ Below are potential issues you may run into, which could be resolved through the
 <p style="padding-left: 80px;">i. Ensure the interlock connector is secured </p>
 <p style="padding-left: 80px;">ii. Insert the driver key into the key switch, then push and turn the key 90 degrees clockwise</p>
 <p style="padding-left: 80px;">iii. Press the power reset button </p>
-<p style="padding-left: 80px;">iv. Flip the power switch on (to “1” position) </p>
+<p style="padding-left: 80px;">iv. Flip the power switch on (to "1" position) </p>
 <p style="padding-left: 40px;">5. Using a voltmeter or a multimeter, measure the voltage from power supply to driver. <b>Warning: Set your device to DC voltage mode before measuring. If the multimeter is in current mode, the LaserBeam Driver will feed the current back into the driver and damage it.</b> On the power supply male connector, use the red probe for the red wire and the black probe for the black wire. The reading should be <b>positive</b>, and be approximately <b>12V</b>. </p>
   <img class="wp-image-10706 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2024/09/power-supply-to-driver-voltage-reading.png" alt="" width="747" height="420" />
 <h3><b>Laser driver is on, but unable to fire </b></h3>
-This should also mean that the driver power LED is ON but when you press “Laser On” on gSender, the emissions LED remains OFF.
-<p style="padding-left: 40px;">1. Make sure that only a singular DIP switch is down (any one of them) and that the <b>SLB_LASER</b> is selected on gSender and is in “<b>Laser Mode</b>.” </p>
+This should also mean that the driver power LED is ON but when you press "Laser On" on gSender, the emissions LED remains OFF.
+<p style="padding-left: 40px;">1. Make sure that only a singular DIP switch is down (any one of them) and that the <b>SLB_LASER</b> is selected on gSender and is in "<b>Laser Mode</b>." </p>
 <img class="wp-image-10707 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2024/09/DIP-switch-inserted.png" alt="" width="809" height="455" />
 
 <img class=" wp-image-10708 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2024/09/lasermode-laseron.png" alt="" width="862" height="485" />
@@ -45,14 +45,14 @@ This should also mean that the driver power LED is ON but when you press “Lase
 $111 = 4000
 $120 = 750
 $121 = 750</p>
-<p style="padding-left: 40px;">2. A weak laser could be due to the controller’s inability to provide 4-5V through its PWM signal output.</p>
+<p style="padding-left: 40px;">2. A weak laser could be due to the controller's inability to provide 4-5V through its PWM signal output.</p>
 <p style="padding-left: 40px;">For the <b>LongBoard</b> try plugging your controller into another USB port on your computer, or using a different computer altogether, since the LongBoard receives power through the USB connection. </p>
 <p style="padding-left: 40px;">For any controller, we can measure the PWM voltage to verify if sufficient voltage is being outputted. </p>
 <p style="padding-left: 40px;"><span style="color: #800000;"><b>Wear your safety glasses before proceeding! </b></span></p>
-<p style="padding-left: 40px;">Open gSender. Turn ON your driver and press “Laser On” to fire your laser. Make sure “Power” is set to <b>100%.</b> </p>
+<p style="padding-left: 40px;">Open gSender. Turn ON your driver and press "Laser On" to fire your laser. Make sure "Power" is set to <b>100%.</b> </p>
 <img class="wp-image-10709 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2024/09/laser-on-100.png" alt="" width="825" height="464" />
 <p style="padding-left: 40px;"><span style="color: #800000;"><b>Warning: Set your device to DC voltage mode before measuring. If the multimeter is in current mode, the LaserBeam Driver will feed the current back into the driver and damage it. </b></span></p>
-<p style="padding-left: 40px;">At the “LASER” connection, use the <b>red</b> probe on the “<b>PW</b>” side of the screw terminal, and the <b>black</b> probe on the “<b>GD</b>” side of the screw terminal. You should get a reading of about 4.5V.  </p>
+<p style="padding-left: 40px;">At the "LASER" connection, use the <b>red</b> probe on the "<b>PW</b>" side of the screw terminal, and the <b>black</b> probe on the "<b>GD</b>" side of the screw terminal. You should get a reading of about 4.5V.  </p>
 <img class="alignnone size-full wp-image-10710" src="https://resources.sienci.com/wp-content/uploads/2024/09/LB-probe.png" alt="" width="960" height="540" />
 
 <b><i>*Note:</i></b> <i>This photo shows the probing an SLB, if this was the LongBoard, the process is the exact same except the connector would be plugged into the SpinPWM and ground terminals</i>
@@ -61,7 +61,7 @@ Ensure you have the correct spring assembled for your specific lens. Additionall
 <h3><b>SLB_LASER option is missing on gSender</b></h3>
 This is due to improper firmware settings on the SLB. On the gSender Firmware tool, make sure <strong>$395</strong> is set to <strong>SLB_SPINDLE (or H-100 if you have the Sienci Labs Spindle)</strong> and <strong>$511</strong> is set to <strong>SLB_LASER. </strong><img class="wp-image-10700 aligncenter" style="font-size: 16px;" src="https://resources.sienci.com/wp-content/uploads/2024/09/default-spindle-e1726252649696.png" alt="" width="845" height="336" /><img class="wp-image-10699 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2024/09/511-spindle-1-e1726252631732.png" alt="" width="863" height="302" />
 
-Press <strong>“Apply New Settings”</strong> then turn the control board OFF then ON.
+Press <strong>"Apply New Settings"</strong> then turn the control board OFF then ON.
 
 <img class=" wp-image-10701 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2024/09/power-cycle-laser.png" alt="" width="834" height="469" />
 

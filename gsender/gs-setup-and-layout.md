@@ -106,7 +106,7 @@ If you're running into an issue where the size isn't correct when using Soft Lim
 
 Windows computers can tend to have their screens and USB ports 'fall asleep' even in the middle of running a long carving job. This can cause your intricate cuts to stop short and the job to fail. gSender tries to fight against this by keeping your computer awake (we use similar tactics to auto-clicker apps), but sometimes this still isn't enough so you have to change your computer settings manually.
 
-To keep the display on, you'll want to click the **Windows** icon at the bottom left corner of your screen and start to type “<em>control panel</em>” to bring it up.
+To keep the display on, you'll want to click the **Windows** icon at the bottom left corner of your screen and start to type "<em>control panel</em>" to bring it up.
 
 ![](/_images/_gsender/_setup/gs_se_awake-control-panel.jpg){.aligncenter .size-medium}
 

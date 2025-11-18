@@ -138,7 +138,7 @@ The console will now report back to you which limit sensor is triggered, indicat
 
 ![](/_images/_longmill/_advanced/_ind-sensors/lm_ad_in_limit-report.jpg){.aligncenter .size-medium}
 
-After you’ve finished checking that each sensor is reporting correctly, you can set disable sensor status reporting by setting the default value: `$10=3`
+After you've finished checking that each sensor is reporting correctly, you can set disable sensor status reporting by setting the default value: `$10=3`
 
 #### Adding capacitors for LongBoard revision 1.2
 
@@ -172,7 +172,7 @@ To update your firmware, connect your machine to gSender, click on "Firmware", a
 
 ![](/_images/_longmill/_advanced/_ind-sensors/lm_ad_in_firmware.png){.aligncenter .size-medium}
 
-Next, import our default settings for your machine by pressing the“Restore Defaults” button in the “Firmware” window. Use the "Import Settings" tool and update your EEPROM settings to the new defaults (link to download file coming soon). If you wish to make changes or adjustments, additional info about changing your EEPROM settings can be found further down on this page.
+Next, import our default settings for your machine by pressing the "Restore Defaults" button in the "Firmware" window. Use the "Import Settings" tool and update your EEPROM settings to the new defaults (link to download file coming soon). If you wish to make changes or adjustments, additional info about changing your EEPROM settings can be found further down on this page.
 
 ![](/_images/_longmill/_advanced/_ind-sensors/lm_ad_in_restore-eeprom.png){.aligncenter .size-medium}
 
@@ -180,7 +180,7 @@ Next, import our default settings for your machine by pressing the“Restore Def
 
 #### Recommended settings for sensors
 
-Now that we’re working with the default settings, we will modify a few to make them work with the sensors.
+Now that we're working with the default settings, we will modify a few to make them work with the sensors.
 
 - **Enable** Soft and Hard limits ($20 and $21)
 - **Enable** Homing cycle ($22)
@@ -249,7 +249,7 @@ At this stage, you're ready to start using your sensors.
 
 #### Testing limit switches
 
-Once the firmware changes have been made, test the sensors. Disconnect, then reconnect to your machine. You should see the red alarm at the top right, press “Click to Run Homing.”
+Once the firmware changes have been made, test the sensors. Disconnect, then reconnect to your machine. You should see the red alarm at the top right, press "Click to Run Homing."
 
 [tabby title="Current" open="yes"]
 
@@ -274,13 +274,13 @@ If this process completes without any errors, you have successfully homed your m
 
 #### Homing features
 
-Once you have connected to your machine, at any point when you aren’t running a cutting job, you can run the homing cycle by pressing “Home” with the house icon.
+Once you have connected to your machine, at any point when you aren't running a cutting job, you can run the homing cycle by pressing "Home" with the house icon.
 
 [tabby title="Current" open="yes"]
 
 ![](/_images/_longmill/_advanced/_ind-sensors/lm_ad_in_home-button-newu.jpg){.aligncenter .size-medium}
 
-Additionally, if you first connect and need to bypass the alarm without homing, you can by pressing the “Unlock” yellow padlock button on the top right of the visualizer screen. We do not recommend this usually, because it is safer to home first before running a cutting job.
+Additionally, if you first connect and need to bypass the alarm without homing, you can by pressing the "Unlock" yellow padlock button on the top right of the visualizer screen. We do not recommend this usually, because it is safer to home first before running a cutting job.
 
 ![](/_images/_longmill/_advanced/_ind-sensors/lm_ad_in_unlock-button-newu.jpg){.aligncenter .size-full}
 
@@ -288,7 +288,7 @@ Additionally, if you first connect and need to bypass the alarm without homing, 
 
 ![](/_images/_longmill/_advanced/_ind-sensors/lm_ad_in_home-button.png){.aligncenter .size-medium}
 
-Additionally, if you first connect and need to bypass the alarm without homing, you can by pressing the “Unlock” yellow padlock button on the top left of the visualizer screen. We do not recommend this usually, because it is safer to home first before running a cutting job.
+Additionally, if you first connect and need to bypass the alarm without homing, you can by pressing the "Unlock" yellow padlock button on the top left of the visualizer screen. We do not recommend this usually, because it is safer to home first before running a cutting job.
 
 ![](/_images/_longmill/_advanced/_ind-sensors/lm_ad_in_unlock-button.png){.aligncenter .size-medium}
 
@@ -305,7 +305,7 @@ With CNC, work offsets can be thought of as bookmarks. They are saved origin pos
   <li>Returning to an exact work XY origin after performing a tool change</li>
 </ul>
 
-The repeatability of the inductive limit switches has been tested to be less than 0.001”, meaning that you will always be able to return to your original work origin within 0.001” accuracy, and can confidently repeat jobs without worries of toolpath misalignment or crashes.
+The repeatability of the inductive limit switches has been tested to be less than 0.001", meaning that you will always be able to return to your original work origin within 0.001" accuracy, and can confidently repeat jobs without worries of toolpath misalignment or crashes.
 
 To change work offsets or workspaces, simply select one of the 6 workspaces from the drop-down list in the top right corner of gSender as shown in the photo below.
 

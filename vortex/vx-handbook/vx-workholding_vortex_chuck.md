@@ -23,9 +23,9 @@ The four-jaw chuck used on the Vortex includes two sets of jaws:
 
 ![](/_images/_vortex/_handbook/_chuck/vx_chuck_jaw-types.jpg){.aligncenter .size-medium}
 
-- A pre-installed, **Default** set of jaws for material that is 0-0.9” diameter. This ‘internal’ set of jaws has the ability to clamp the internal diameter of hollow objects such as pipes, cups, or any other internal geometry.
+- A pre-installed, **Default** set of jaws for material that is 0-0.9" diameter. This ‘internal’ set of jaws has the ability to clamp the internal diameter of hollow objects such as pipes, cups, or any other internal geometry.
   ![](/_images/_vortex/_handbook/_chuck/vx_chuck_jaw-small.png){.aligncenter .size-medium}
-- An **Alternative** set of jaws (for stock that is 1-2.5” diameter).
+- An **Alternative** set of jaws (for stock that is 1-2.5" diameter).
   ![](/_images/_vortex/_handbook/_chuck/vx_chuck_jaw-large.jpg){.aligncenter .size-medium}
 
 To swap out these two sets, simply insert the chuck key into the chuck, and turn this counterclockwise until each jaw falls out. Grab the set of chuck jaws you’ll be swapping in, and check the side of each jaw for a small number (1-4) etched into the side.
@@ -64,7 +64,7 @@ Not every piece of wood will be perfectly square or perfectly round, but that sh
 
 Just like screws going through your stock material with a regular XYZ carving, using the workholding faceplate option is slightly destructive. It involves leaving screws in the bottom of your material, but allows you much more flexibility.
 
-The second obvious benefit of using the workholding faceplate is that material up to the maximum recommended 4” diameter can be held.
+The second obvious benefit of using the workholding faceplate is that material up to the maximum recommended 4" diameter can be held.
 
 The face plate can use four #4 - #6 sized screws that are not included. The center hole is great for centering the faceplate on your stock, but not necessary for running your job.
 

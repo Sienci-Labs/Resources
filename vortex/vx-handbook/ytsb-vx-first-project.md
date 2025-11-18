@@ -26,9 +26,9 @@ We will cover several key concepts in this project, including:
 
 To complete this project, we will be using:
 
-- **A 3” section of round or square wood with a diameter of 1”**
+- **A 3" section of round or square wood with a diameter of 1"**
 - **VCarve Software**
-- **¼” tapered ball end mill**
+- **¼" tapered ball end mill**
 - **gSender**
 - **LongMill with Vortex attachment**
 - <a href="https://www.thingiverse.com/thing:585218/files">Chess Queen</a> <b>.STL file</b>
@@ -61,9 +61,9 @@ One of the trickier parts of a rotary axis project can be finding stock for your
 
 <img class="nar aligncenter wp-image-5347" src="https://resources.sienci.com/wp-content/uploads/2023/07/7.p2_StockExample-850x638.jpg" alt="" width="569" height="427" />
 
-Whichever method you go with, keep in mind that you’ll need to size your stock to be **4” or less in diameter**, and **21.5” or less in length**. If you have a 48x30 LongMill and you’re using the optional extension track, your stock can be up to 39.5” length.
+Whichever method you go with, keep in mind that you’ll need to size your stock to be **4" or less in diameter**, and **21.5" or less in length**. If you have a 48x30 LongMill and you’re using the optional extension track, your stock can be up to 39.5" length.
 
-You’ll usually want to leave a bit of extra length of unused stock material where the material will be held, so make sure to account for this before cutting your material. If you’re holding the material with the jaws of your chuck, you’ll need to leave ~¾” minimum of extra stock sticking out. If using the workholding faceplate option, which is screwed onto your stock, you can opt to leave no extra stock. **Be mindful to avoid machining into any screws sitting below the surface of your stock.**
+You’ll usually want to leave a bit of extra length of unused stock material where the material will be held, so make sure to account for this before cutting your material. If you’re holding the material with the jaws of your chuck, you’ll need to leave ~¾" minimum of extra stock sticking out. If using the workholding faceplate option, which is screwed onto your stock, you can opt to leave no extra stock. **Be mindful to avoid machining into any screws sitting below the surface of your stock.**
 
 <img class="nar aligncenter wp-image-5346 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/07/7.p3_minstock-850x404.jpg" alt="" width="850" height="404" /> <img class="nar aligncenter wp-image-5345 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/07/7.p4_AvoidThis-850x404.png" alt="" width="850" height="404" />
 
@@ -82,7 +82,7 @@ As an example project, we’ll be carving out the queen. This is a simple model 
 
 When you first create a new project in VCarve/Aspire, you’ll be greeted by a ‘Job Setup’ window prompting you to enter some details about your project type and size.
 
-Since we’ll be working with a rotary project, we’ll of course select the ‘Rotary’ job type. We can now enter the length and diameter of the stock we plan on using. For our project, we’ll be using a 1” diameter wooden dowel. Since we’re going to scale our model to fit inside the 1” diameter of our stock, the height we’ll need for our stock will change, so we’ll leave this as a value of 3” for now.
+Since we’ll be working with a rotary project, we’ll of course select the ‘Rotary’ job type. We can now enter the length and diameter of the stock we plan on using. For our project, we’ll be using a 1" diameter wooden dowel. Since we’re going to scale our model to fit inside the 1" diameter of our stock, the height we’ll need for our stock will change, so we’ll leave this as a value of 3" for now.
 
 <img class="nar aligncenter wp-image-5359 size-full" src="https://resources.sienci.com/wp-content/uploads/2023/07/7.p5_JobSetup-1.png" alt="" width="245" height="251" />
 
@@ -114,13 +114,13 @@ VCarve/Aspire is particularly good at handling imported 3D models for rotary axi
 
 The imported model will be previewed showing its current orientation with the rotary axis, with stock size/orientation designated by the red wireframe cylinder. When this model is first imported, its scale/dimensions will be unchanged. Since we aren’t too concerned with the dimensions of this piece, we’ll scale this to fit our stock later on.
 
-Since we know we’ll be using 1” diameter stock for this project, we’ll now scale our imported model so that its outside diameter is also 1” by typing this into the ‘Model diameter’ field in the ‘Model Scaling’ section. We’ll also select ‘Resize material block’ which will automatically resize the length of our stock to carve as the height of the imported model - in our case, 1.8651” long. This automatic material resizing is why we left our material length in the ‘job setup’ tab as 3” since we knew we’d resize this later on.
+Since we know we’ll be using 1" diameter stock for this project, we’ll now scale our imported model so that its outside diameter is also 1" by typing this into the ‘Model diameter’ field in the ‘Model Scaling’ section. We’ll also select ‘Resize material block’ which will automatically resize the length of our stock to carve as the height of the imported model - in our case, 1.8651" long. This automatic material resizing is why we left our material length in the ‘job setup’ tab as 3" since we knew we’d resize this later on.
 
 <img class="nar aligncenter wp-image-5339 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/07/7.p10_ScaleModel-850x451.png" alt="" width="850" height="451" />
 
-To fit this adjusted model height, we’ll cut our stock to be ~2.75” long which will leave us just over 3/4” of length to hold onto the bottom of our chess piece white we carve it. This extra stick out length also serves to ensure the cutting bit doesn’t end up crashing into the steel jaws of the chuck.
+To fit this adjusted model height, we’ll cut our stock to be ~2.75" long which will leave us just over 3/4" of length to hold onto the bottom of our chess piece white we carve it. This extra stick out length also serves to ensure the cutting bit doesn’t end up crashing into the steel jaws of the chuck.
 
-You’ll want to ensure that you’ve got at least 3/4” of extra material length held in the jaws. Leave a reasonable amount of clearance from your model’s starting point in the X-direction, to the chuck jaws.
+You’ll want to ensure that you’ve got at least 3/4" of extra material length held in the jaws. Leave a reasonable amount of clearance from your model’s starting point in the X-direction, to the chuck jaws.
 
 If you leave a bit of extra space, you can even use the Vortex to cut off the finished chess piece!
 
@@ -130,7 +130,7 @@ If you leave a bit of extra space, you can even use the Vortex to cut off the fi
 
 Now that all your project geometry is settled, we can focus on generating the toolpaths for getting this project cut. This is the easy part, since generating toolpaths for a rotary setup follows the exact same process as generating them for a regular XYZ carving setup which you’ll likely already be familiar with.
 
-For 3D models such as the chess piece model we’ve imported, you can simply select a 3D roughing or 3D finishing toolpath, and VCarve/Aspire will handle generating the toolpath to carve out the entire 3D geometry. In our case, we’ll choose only a **3D finishing toolpath** using a **¼” tapered ball end mill**. With this simple chess piece model we can get away with using only a single toolpath, avoiding the need for tool changes. To learn more about tool changes, check out the <a href="https://resources.sienci.com/view/vx-second-project/#tool-changing">Tool Changing</a> section of <a href="https://resources.sienci.com/view/vx-second-project/">Your Second Project</a>!
+For 3D models such as the chess piece model we’ve imported, you can simply select a 3D roughing or 3D finishing toolpath, and VCarve/Aspire will handle generating the toolpath to carve out the entire 3D geometry. In our case, we’ll choose only a **3D finishing toolpath** using a **¼" tapered ball end mill**. With this simple chess piece model we can get away with using only a single toolpath, avoiding the need for tool changes. To learn more about tool changes, check out the <a href="https://resources.sienci.com/view/vx-second-project/#tool-changing">Tool Changing</a> section of <a href="https://resources.sienci.com/view/vx-second-project/">Your Second Project</a>!
 
 <img class="nar aligncenter wp-image-5337 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/07/7.p12_Toolpath-1-850x478.jpg" alt="" width="850" height="478" />
 
@@ -183,11 +183,11 @@ Before we take off:
 
 Depending on the diameter of your stock, you’ll need to use either the **chuck’s jaws** or the **screw-on workholding face plate** included with your Vortex. You can reference the maximum diameter capacity for each of the three workholding configurations shown below.
 
-Because our stock diameter used for our chess piece project is 1”, we’ll swap in the **internal** clamping jaws shown in the first configuration below, and clamp the wood directly into the chuck.
+Because our stock diameter used for our chess piece project is 1", we’ll swap in the **internal** clamping jaws shown in the first configuration below, and clamp the wood directly into the chuck.
 
 <img class="aligncenter wp-image-5329 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/07/7.p19_ChuckSizesV2-850x450.png" alt="" width="850" height="450" />
 
-The tailstock used on your Vortex is generally only required when cutting out a model that has a **length 3 times its diameter**. Since our model is 1” at its largest diameter, and less than 2” in length, we won’t require using the tailstock.
+The tailstock used on your Vortex is generally only required when cutting out a model that has a **length 3 times its diameter**. Since our model is 1" at its largest diameter, and less than 2" in length, we won’t require using the tailstock.
 
 ### Y-axis Alignment
 
@@ -237,7 +237,7 @@ You’ll be prompted to ensure your output switchover has been completed before 
 
 <img class="nar aligncenter wp-image-5618 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/Rotary-Mode-Warning-850x509.jpg" alt="" width="850" height="509" />
 
-Load the g-code file you’ve just generated into gSender and **install the appropriate cutting bit** into your router for your project, in our case we’ll be using a <a href="https://sienci.com/product/1-32-radius-tapered-ball-end-mill/">¼” tapered ball end mill</a> like we setup earlier while generating our toolpaths.
+Load the g-code file you’ve just generated into gSender and **install the appropriate cutting bit** into your router for your project, in our case we’ll be using a <a href="https://sienci.com/product/1-32-radius-tapered-ball-end-mill/">¼" tapered ball end mill</a> like we setup earlier while generating our toolpaths.
 
 [/su_spoiler]
 
@@ -255,7 +255,7 @@ Reconnect to gSender and toggle into 4th Axis Mode. Stay in 4th Axis Mode at all
 
 <img class="size-medium wp-image-15070 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2023/07/vortex-4th-axis-mode-850x478.png" alt="" width="850" height="478" />
 
-Load the g-code file you’ve just generated into gSender and **install the appropriate cutting bit** into your router for your project, in our case we’ll be using a<a href="https://sienci.com/product/1-32-radius-tapered-ball-end-mill/"> ¼” tapered ball end mill</a> like we setup earlier while generating our toolpaths.
+Load the g-code file you’ve just generated into gSender and **install the appropriate cutting bit** into your router for your project, in our case we’ll be using a<a href="https://sienci.com/product/1-32-radius-tapered-ball-end-mill/"> ¼" tapered ball end mill</a> like we setup earlier while generating our toolpaths.
 
 [/su_spoiler]
 
@@ -271,7 +271,7 @@ In gSender, select the rotary axis tab, then Click ‘Probe Rotary Z-axis’ and
 
 Next, jog your X-axis to wherever you’d like the job to start then click ‘Zero X’ to set your X-zero point. Make sure this is far enough from the chuck to ensure there won’t be any collisions with your cutting bit.
 
-We’ll also want to make sure that this isn't set too far to the right, causing us to cut air once we reach the end of the stock. Since we know our model length is 1.86”, we’ll mark out a line on our stock ~1.9” from the end, then set our zero here.
+We’ll also want to make sure that this isn't set too far to the right, causing us to cut air once we reach the end of the stock. Since we know our model length is 1.86", we’ll mark out a line on our stock ~1.9" from the end, then set our zero here.
 
 <img class="nar aligncenter wp-image-5328 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/07/7.p20_endofstockWhite-1-850x483.jpg" alt="" width="850" height="483" />
 

@@ -21,7 +21,7 @@ featured_image: /_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p1_cover.j
 
 ![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p2_parts.jpg){.aligncenter .size-medium .wid}
 
-Grab the Y-axis gantries (wrapped in paper) and you’ll see four holes on each steel plate in a square formation. Add the wheel sub-assemblies to these holes just like how you did before, with the eccentric nuts placed as pictures and the nylock nuts on the two lower holes; make sure that one is assembled as the mirror of the other. Use a size 4 Allen key and the included 8mm wrench to tighten everything down, but leave the eccentric nuts slightly loose for now.
+Grab the Y-axis gantries (wrapped in paper) and you'll see four holes on each steel plate in a square formation. Add the wheel sub-assemblies to these holes just like how you did before, with the eccentric nuts placed as pictures and the nylock nuts on the two lower holes; make sure that one is assembled as the mirror of the other. Use a size 4 Allen key and the included 8mm wrench to tighten everything down, but leave the eccentric nuts slightly loose for now.
 
 If you have a hard time getting the eccentric nuts in, we recommend tapping the nuts in with the back of a screwdriver or other dull object. This will help clear the excess paint that might still remain in the hole.
 
@@ -71,7 +71,7 @@ Carefully line up the screws into the four holes in the Y-axis gantry. Drop the 
 
 ![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p17.JPG "Take note of the direction of the motor cable bundle."){.aligncenter .size-medium}
 
-Use the four M5-nylock nuts to secure the plate-side of the M5 bolts. This requires a size 4 Allen key and the 8mm wrench. If it’s easier, start by finger-tightening all four nuts to keep everything in place before using the pliers to finish tightening.
+Use the four M5-nylock nuts to secure the plate-side of the M5 bolts. This requires a size 4 Allen key and the 8mm wrench. If it's easier, start by finger-tightening all four nuts to keep everything in place before using the pliers to finish tightening.
 
 ![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p18.JPG){.aligncenter .size-medium}
 
@@ -87,7 +87,7 @@ Once everything is finished getting put together, it should look like this:
 
 <em><b>If you have a hardware bag marked "Batch 5" please substitute M8-16mm bolts instead of M8-25mm bolts for this step. Please follow the exact same assembly process in this step but use M8-16mm bolts for mounting the shoulder brackets and drag chain mounts.</b></em>
 
-Get the four steel L-shaped ‘shoulder’ parts from the green box of plastic parts next. These attach two to each gantry using the M8-25mm bolts from the orange bag. Line the tapered sides of the brackets up against the edge of the inside face of the gantries (pictured) and then mount them in place using two bolts each. The bolts are long so start by turning them by hand and then finish securing them with a size 6 Allen key.
+Get the four steel L-shaped 'shoulder' parts from the green box of plastic parts next. These attach two to each gantry using the M8-25mm bolts from the orange bag. Line the tapered sides of the brackets up against the edge of the inside face of the gantries (pictured) and then mount them in place using two bolts each. The bolts are long so start by turning them by hand and then finish securing them with a size 6 Allen key.
 
 ![](/_images/_longmill/_assembly/_yaxis_gantries/lm_yaxis_p20.JPG "Make sure to point the bracket in the right direction."){.aligncenter .size-medium}
 

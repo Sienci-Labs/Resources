@@ -35,13 +35,13 @@ Each of these factors must be suited to the properties of the material that you'
 
 Since there are so many different types and sizes of cutting tools, we've created a list below of just 3 different cutting tools that we strongly recommend to get started on your Mill One. We've created <a href="https://resources.sienci.com/view/mo-feeds-and-speeds/" target="_blank" rel="noopener">feed and speed tables</a> for these tools for cutting in various materials so that you can copy/paste the values you need for your first projects. If you're looking to get started with this recommended list, all of these tools can be found for purchase <a href="https://sienci.com/product-category/end-mills-bits/" target="_blank" rel="noopener">in our store!</a>
 
-With one of these tools in hand, you can start making cool and good-looking things on your Mill One without added complexity! Ensure that any cutting tool you end up using is installed as deeply as possible into the router, with a bare-minimum of 3/8” of the tool being inside the router for light cuts.
+With one of these tools in hand, you can start making cool and good-looking things on your Mill One without added complexity! Ensure that any cutting tool you end up using is installed as deeply as possible into the router, with a bare-minimum of 3/8" of the tool being inside the router for light cuts.
 
 ### Cutting Tool Essentials
 
 <ul>
-  <li><a href="https://sienci.com/product/1-8-flat-upcut-end-mill_3pcs_or10pcs/" target="_blank" rel="noopener">1/8”, 2-flute end mill</a> (for woods, plastics, and foams)</li>
-  <li><a href="https://sienci.com/product/18-ball-end-mill/" target="_blank" rel="noopener">1/8”, 2-flute ballnose mill</a> (for contours and detailing)</li>
+  <li><a href="https://sienci.com/product/1-8-flat-upcut-end-mill_3pcs_or10pcs/" target="_blank" rel="noopener">1/8", 2-flute end mill</a> (for woods, plastics, and foams)</li>
+  <li><a href="https://sienci.com/product/18-ball-end-mill/" target="_blank" rel="noopener">1/8", 2-flute ballnose mill</a> (for contours and detailing)</li>
   <li><a href="https://sienci.com/product/%e2%85%9b-v-engraving-carbide-30-degree-bit/" target="_blank" rel="noopener">Small-degree v-bit</a> (for fine engraving, detailing, and PCBs)</li>
 </ul>
 
@@ -55,7 +55,7 @@ Without the proper planning, you can expect many headaches along the way includi
 
 ### Cutting Tool Lingo
 
-There are cutting tools for every possible cutting application. Features such as tip shape, shank diameter, cutting diameter, tool length, flute count, helix direction and tool material can all vary from tool to tool. The material that you wish to cut, how fast you wish to cut it, and your desired surface finish will decide what features you want on the tool you end up using. Since there are a lot of variables, we’ll try to stick to the most commonly available cutting tools that you can use with your Mill One.
+There are cutting tools for every possible cutting application. Features such as tip shape, shank diameter, cutting diameter, tool length, flute count, helix direction and tool material can all vary from tool to tool. The material that you wish to cut, how fast you wish to cut it, and your desired surface finish will decide what features you want on the tool you end up using. Since there are a lot of variables, we'll try to stick to the most commonly available cutting tools that you can use with your Mill One.
 
 ![](/_images/_mill-one/_the-basics/mo_tools_p2_EMillMarked.png){.aligncenter .size-medium}
 
@@ -104,9 +104,9 @@ The flutes on the cutting tools are the cutting edges that remove material but a
 
  ![](/_images/_mill-one/_the-basics/mo_tools_p7_Flutes.jpg "2-flute vs. 4-flute end mills"){.aligncenter .size-medium}
 
-The ‘chipload’ on a cutting tool is important because as material is removed it takes a little bit of heat along with it, and if the tool or the material starts to heat up then you’ll get poor cuts and bad edge finish, you may even burn or melt your material and dull your cutting tool. This is why fewer flutes are generally used on materials which can easily melt or weld themselves to the tool, such as plastics or aluminum.
+The 'chipload' on a cutting tool is important because as material is removed it takes a little bit of heat along with it, and if the tool or the material starts to heat up then you'll get poor cuts and bad edge finish, you may even burn or melt your material and dull your cutting tool. This is why fewer flutes are generally used on materials which can easily melt or weld themselves to the tool, such as plastics or aluminum.
 
-The spiral direction of the flutes will also have an impact on the surface finish of the material. Since the shaft on CNC routers always spins clockwise, if the flutes wrap in a counter-clockwise direction then the downward spiral will eject the material downward, meanwhile the opposite will eject them upward. The downside to both downcut and upcut bits is that they can cause ‘tearout’ (material splintering or burring) on either the bottom or the top of the material respectively.
+The spiral direction of the flutes will also have an impact on the surface finish of the material. Since the shaft on CNC routers always spins clockwise, if the flutes wrap in a counter-clockwise direction then the downward spiral will eject the material downward, meanwhile the opposite will eject them upward. The downside to both downcut and upcut bits is that they can cause 'tearout' (material splintering or burring) on either the bottom or the top of the material respectively.
 
 The solution to this is compression mills which spiral in both directions to ensure a smooth finish on both sides; however these bits are much rarer and come with a few of their own problems. You can also clamp a scrap piece of material either above (for upcut bits) or below (for downcut bits) the part that you wish to cut in order to reduce the amount of burring.
 
@@ -116,9 +116,9 @@ Your tool must be harder than the material it is cutting. Thankfully, the materi
 
 ![](/_images/_mill-one/_the-basics/mo_tools_p8_SCarbidevsHSS.jpg "Solid carbide vs. HSS cutting tool"){.aligncenter .size-medium}
 
-HSS usually combines with a variety of other alloys to have a high wear resistance and durability for cutting both soft and hard materials. Since HSS is softer than solid carbide it’s less likely to crack and instead wear out over time, so it’s limited to slower cutting speeds. HSS tools are also usually much cheaper than solid carbide tools and can be additionally improved if they come with a coating.
+HSS usually combines with a variety of other alloys to have a high wear resistance and durability for cutting both soft and hard materials. Since HSS is softer than solid carbide it's less likely to crack and instead wear out over time, so it's limited to slower cutting speeds. HSS tools are also usually much cheaper than solid carbide tools and can be additionally improved if they come with a coating.
 
-On the other hand, solid carbide tools are very hard so they’ll stay sharp for longer and won’t wear as much at higher temperatures. Recently, carbide tools have become much cheaper and accessible for use in CNC routing, however it’s important to note that carbide cutting tools require much higher speeds in order to mill properly. This makes it a great candidate for cutting finishing passes, milling PCBs, and cutting materials that won’t easily burn or melt.
+On the other hand, solid carbide tools are very hard so they'll stay sharp for longer and won't wear as much at higher temperatures. Recently, carbide tools have become much cheaper and accessible for use in CNC routing, however it's important to note that carbide cutting tools require much higher speeds in order to mill properly. This makes it a great candidate for cutting finishing passes, milling PCBs, and cutting materials that won't easily burn or melt.
 
 ### Coatings
 
@@ -128,11 +128,11 @@ For more non-abrasive materials, coatings will only have an affect on the lifeti
 
 ### To conclude…
 
-Here’s what we can apply to the most general of cases:
+Here's what we can apply to the most general of cases:
 
 <b>Size</b>
 <ul>
-  <li>Use the largest diameter cutting tool you can bear if you don’t mind surface finish and want to remove material quickly</li>
+  <li>Use the largest diameter cutting tool you can bear if you don't mind surface finish and want to remove material quickly</li>
   <li>Long tools can make deeper cuts but usually deflect more and affect surface finish, try to use the shortest tool you can afford (or mount it deeper into the router)</li>
 </ul>
 
@@ -145,7 +145,7 @@ Here’s what we can apply to the most general of cases:
 
 <b>Material</b>
 <ul>
-  <li>You should expect more expensive tools to last longer; if it’s your first time using a CNC router or you tend to make more mistakes then you’d admit to, then stick with the cheaper ones</li>
+  <li>You should expect more expensive tools to last longer; if it's your first time using a CNC router or you tend to make more mistakes then you'd admit to, then stick with the cheaper ones</li>
 </ul>
 
 <b>Coatings</b>
@@ -155,12 +155,12 @@ Here’s what we can apply to the most general of cases:
 
 ### Cutting tool suggestions
 
-If you’ve come looking for some tool recommendations, this is a list that we've put together for the slightly more experienced CNCer, or a beginner that's ready to try something new (in your choice of either HSS or solid carbide):
+If you've come looking for some tool recommendations, this is a list that we've put together for the slightly more experienced CNCer, or a beginner that's ready to try something new (in your choice of either HSS or solid carbide):
 
 <b>Experimental bits</b>
 <ul>
-  <li>1/8”, 1-flute end mill (for foam, plastics, and aluminum)</li>
-  <li>1/8”, 4-flute end mill (for soft metals)</li>
+  <li>1/8", 1-flute end mill (for foam, plastics, and aluminum)</li>
+  <li>1/8", 4-flute end mill (for soft metals)</li>
   <li>Some smaller end mills around 2mm (for more detailed cutting)</li>
   <li>Smaller ballnose mills around 2mm (for more detailed contouring)</li>
   <li>1/4", 2-flute end mill (for bulk removing wood)</li>
@@ -172,7 +172,7 @@ If you’ve come looking for some tool recommendations, this is a list that we'v
   <li>Large planar bit for surfacing material blanks</li>
 </ul>
 
-<b>Note:</b> if you find any cutting tools being sold for dirt cheap, steer clear! When it comes to cheap bits you’ll find that the money you save ends up costing you in headaches from broken tools. If it’s your first time using a CNC router, expect to make mistakes while getting used to the Mill One. You'll probably break/damage bits during the learning process, so consider holding off on buying the expensive ones until you're more comfortable with your machine.
+<b>Note:</b> if you find any cutting tools being sold for dirt cheap, steer clear! When it comes to cheap bits you'll find that the money you save ends up costing you in headaches from broken tools. If it's your first time using a CNC router, expect to make mistakes while getting used to the Mill One. You'll probably break/damage bits during the learning process, so consider holding off on buying the expensive ones until you're more comfortable with your machine.
 
 This goes the other way too. If you find yourself looking at a price tag that's half the cost of your machine then maybe you should consider upgrading to a new machine. The Mill One was built to be a simple learning platform, not the be-all and end-all of CNC machines :)
 

@@ -17,7 +17,7 @@ featured_image: _images/_superlongboard/_manual/slb_ma_p1_Board.jpg
 
 [basepress-notice style="default"]If there's any extra information you'd like to see regarding the SLBs specs, just let us know and we'll work to add it 👍[/basepress-notice]
 
-This document is the “SLB bible” for any of the ‘raw’ answers you might be looking for when setting up your new board. This includes sections on all the features, their pinouts, associated settings, and other things you should know when installing the SLB onto your CNC.
+This document is the "SLB bible” for any of the ‘raw’ answers you might be looking for when setting up your new board. This includes sections on all the features, their pinouts, associated settings, and other things you should know when installing the SLB onto your CNC.
 
 You’ll find that the SLB builds a lot onto our original LongBoard while maintaining a lot of the familiar behaviour and features. If you find any holes in this documentation, brush up on the original LongBoard documentation here: <a href="https://resources.sienci.com/view/lmk2-LongBoard-details/">https://resources.sienci.com/view/lmk2-longboard-details/</a>. Learn more about the latest updates on Beta testing and board developments on our company Blog or SLB page: <a href="https://sienci.com/product/slb/">https://sienci.com/product/slb/</a>
 

@@ -72,7 +72,7 @@ Now that we've covered how to manually move, here are two ways to automatically 
 
 ![](/_images/_gsender/_using/gs_us_goto.jpg){.aligncenter .size-medium}
 
-*Note: if you’ve set up “Safe Height” in gSender (Config ➜ Basics ➜ Safe Height), then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
+*Note: if you’ve set up "Safe Height" in gSender (Config ➜ Basics ➜ Safe Height), then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
 
 There is one more way to move automatically, but it isn't used to bring you back to 0.00. It's called **Go to Location**.
 
@@ -83,7 +83,7 @@ If you want to go somewhere quickly without manually jogging there, click the 'P
 
 ![](/_images/_gsender/_using/gs_us_goto-location.jpg){.aligncenter .size-medium}
 
-You can also enter coordinates directly by clicking the blue text. It’ll turn into a white box where you can type any number, then hit the ‘enter’ key to confirm it. For instance you could set your Z-axis to 0.1mm instead of 0 if you’re using the paper method and you want to account for the paper thickness. You could also type “-10” for X if you want to set your zero 10mm to the right without having to jog there and click ‘X0’ (since if ‘zero’ is 10mm to the right, then your current location would be 0 - 10 = -10mm).
+You can also enter coordinates directly by clicking the blue text. It’ll turn into a white box where you can type any number, then hit the ‘enter’ key to confirm it. For instance you could set your Z-axis to 0.1mm instead of 0 if you’re using the paper method and you want to account for the paper thickness. You could also type "-10" for X if you want to set your zero 10mm to the right without having to jog there and click ‘X0’ (since if ‘zero’ is 10mm to the right, then your current location would be 0 - 10 = -10mm).
 
 ![](/_images/_gsender/_using/gs_us_dro_zeroboxmanual.jpg){.aligncenter .size-medium}
 
@@ -99,7 +99,7 @@ gSender provides unique features if your machine is capable of homing using limi
 
 If you'd like more information on how to set up and use these features, read here: <a href="https://resources.sienci.com/view/lmk2-limit-switches/#using-limit-switches" target="_blank" rel="noopener">Installing & Using Limit Switches</a>
 
-*Note - If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials.*
+*Note - If you’ve set up a "Safe Height" in your gSender settings, now any "go to" or "quick-travel" button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials.*
 
 ## Probing
 
@@ -170,7 +170,7 @@ Now you're off and cutting, what a thrill! While your job is running keep an eye
 
 ## **Job Loss Recovery**
 
-Also called “Start from Line”, this feature can recover a carve you were working on that:
+Also called "Start from Line", this feature can recover a carve you were working on that:
 
 1. You had to manually stop part-way through
 1. Was disrupted by a power loss, USB disconnect, mechanical malfunction, or other failure so you need to resume from where it failed

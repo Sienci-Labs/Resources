@@ -27,7 +27,7 @@ These steps must be followed in this order to successfully turn on the driver.
    <img src="https://resources.sienci.com/wp-content/uploads/2022/01/key-resized.gif" alt="" width="726" height="408" />
 3. Press the power reset button, you can use an Allen key if it is difficult to press
    <img src="https://resources.sienci.com/wp-content/uploads/2021/12/power-reset.png" alt="" width="960" height="540" />
-4. Flip the power switch ON (“1” position)
+4. Flip the power switch ON ("1" position)
    <img src="https://resources.sienci.com/wp-content/uploads/2021/12/power-switch-driver.png" alt="" width="960" height="540" />
 
 You should hear a fan sound, with 1 red LED lighting up in your driver. If none of this happens, there may be a wiring mistake.
@@ -66,4 +66,4 @@ The second LED indicator is for laser emission. It will turn on when your laser 
 
 <img src="https://resources.sienci.com/wp-content/uploads/2021/12/Laser-Emissions-LED-ON-e1726684293235.jpg" alt="" width="960" height="540" />
 <p style="text-align: center;"><em>Laser emissions and driver power LEDs on</em></p>
-Because the laser can be turned on at different intensities and off at different frequencies, this laser emissions LED will mimic the signal that your laser is receiving, relative to the LED’s max intensity.
+Because the laser can be turned on at different intensities and off at different frequencies, this laser emissions LED will mimic the signal that your laser is receiving, relative to the LED's max intensity.

@@ -67,7 +67,7 @@ Generally speaking, the motor torque is proportional to current, but due to loss
 
 Stepper motors hum and vibrate during operation. Due to the nature of stepper motors, when the rotation of the inner rotor overshoots or undershoots between each coil, more vibrations are produced. Much of this effect is typically created from having too much current.
 
-In some cases, the vibrations match the resonant frequency of the motor, which can cause “mid-frequency resonance”. We’ve found that some LongMills can have a mid-frequency resonance area of around 4000mm/min.
+In some cases, the vibrations match the resonant frequency of the motor, which can cause "mid-frequency resonance". We've found that some LongMills can have a mid-frequency resonance area of around 4000mm/min.
 
 With the dampening effect of the machine as a whole and the current settings of the drivers, this mid-frequency resonance can be largely eliminated.
 

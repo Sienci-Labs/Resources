@@ -35,7 +35,7 @@ The Vortex rotary axis requires a minimal amount of space **on** and **above** y
 
 #### Flat Area on Your Wasteboard
 
-The minimal flat area needed on your wasteboard is **810mm x 95mm (31.9" x 3.8”)** in size for the base configuration, and **1270mm x 95mm (50.0" x 3.8”)** with the extension.
+The minimal flat area needed on your wasteboard is **810mm x 95mm (31.9" x 3.8")** in size for the base configuration, and **1270mm x 95mm (50.0" x 3.8")** with the extension.
 
 You can easily check if the surfaced area on your machine is at least this size by placing the Vortex track on top of your wasteboard and seeing if the track ends hang outside of this area. If this is the case, you will have to resurface your wasteboard to a larger size. If you remove the end caps of the track, you will reduce the space needed by 10mm.
 
@@ -45,9 +45,9 @@ If you have a LongMill MK1 dust shoe, your surface area may be limited by the du
 
 #### Setups With Raised Wasteboards
 
-The Vortex requires 150mm (5.9”) of height clearance from wasteboard to tool in order to carve a 4” diameter piece of material.
+The Vortex requires 150mm (5.9") of height clearance from wasteboard to tool in order to carve a 4" diameter piece of material.
 
-If you have an additional piece of material atop the base of your machine, this will reduce your cutting envelope to below 4” diameter and create difficulty using the Y and Z axis probing features in gSender.
+If you have an additional piece of material atop the base of your machine, this will reduce your cutting envelope to below 4" diameter and create difficulty using the Y and Z axis probing features in gSender.
 
 If you have such a setup, we recommend that you **raise the feet** of your machine, or **remove your wasteboard**.
 
@@ -65,7 +65,7 @@ If you have such a setup, we recommend that you **raise the feet** of your machi
 </tr>
 <tr>
 <td>Lower router mounting</td>
-<td>⚠️Under 4” cutting volume
+<td>⚠️Under 4" cutting volume
 ⚠️Difficulty using the probing feature in gSender to zero the Y and Z-axis.</td>
 <td>Move to top router mounting
 <em>Illustration shows correct position</em></td>
@@ -73,7 +73,7 @@ If you have such a setup, we recommend that you **raise the feet** of your machi
 </tr>
 <tr>
 <td>Dust Shoe bracket </td>
-<td>⚠️Under 4” cutting volume
+<td>⚠️Under 4" cutting volume
 ⚠️Insufficient surfaced area on waste board to fit the track</td>
 <td>To cut the full 4" volume, the dust shoe bracket will need to be removed.
 Remove the bracket before re-surfacing the wasteboard and installing the threaded inserts.
@@ -158,7 +158,7 @@ Select the rotary axis tab on the bottom right corner of gSender, then click ‘
 Which setup you’ll choose will depend on three selections:
 
 - Does the mounting track lineup?
-- Are you using a ¼” or ⅛” diameter end mill ? (*Make sure the router is mounted as far down as possible with the bit inserted not too far into the collet **if using a ⅛ bit**, to prevent your Z gantry from bottoming out.*)
+- Are you using a ¼" or ⅛" diameter end mill ? (*Make sure the router is mounted as far down as possible with the bit inserted not too far into the collet **if using a ⅛ bit**, to prevent your Z gantry from bottoming out.*)
 - Do you have the extension?
 
 <img class="aligncenter wp-image-5600 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/6.p13_DefaultDrill-850x537.jpg" alt="" width="850" height="537" />
@@ -199,15 +199,15 @@ Once done, turn off the router and jog your machine’s X-axis so it's centered 
 
 For every remaining set of holes to the right, continue jogging rightwards, resetting the X-zero position, and running this g-code until all sets of holes are done.
 
-With all these holes made, we can now proceed with installing the included **steel threaded inserts** using either a 6mm or 7/32” allen key.
+With all these holes made, we can now proceed with installing the included **steel threaded inserts** using either a 6mm or 7/32" allen key.
 
 <img class="aligncenter size-medium wp-image-5607" src="https://resources.sienci.com/wp-content/uploads/2023/08/6.p21_threadedInserts-850x475.jpg" alt="" width="850" height="475" />
 
-To mount the vortex to your table, simply lay the Vortex mounting track across your wasteboard, lining up the mounting holes with their respective threaded inserts. If you have a 48” X-axis LongMill and will be using the Vortex extension track, align this track up against the end of the regular mounting track.
+To mount the vortex to your table, simply lay the Vortex mounting track across your wasteboard, lining up the mounting holes with their respective threaded inserts. If you have a 48" X-axis LongMill and will be using the Vortex extension track, align this track up against the end of the regular mounting track.
 
 <img class="aligncenter size-full wp-image-5608" src="https://resources.sienci.com/wp-content/uploads/2023/08/6.p22_Extension-track.jpg" alt="" width="640" height="231" />
 
-Install 6 of the included 1/4-20 - ¾” flat head mounting screws into the appropriate holes of the regular mounting track, tightening these to be snug.
+Install 6 of the included 1/4-20 - ¾" flat head mounting screws into the appropriate holes of the regular mounting track, tightening these to be snug.
 
 *An additional 4 screws will be used for the mounting track extension.*
 

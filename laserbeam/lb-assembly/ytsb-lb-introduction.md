@@ -35,7 +35,7 @@ In order to completely set up your laser, please have gSender and LightBurn inst
 
 <a href="https://lightburnsoftware.com/pages/download-trial">LightBurn</a> will allow you to design and generate g-code for your projects; in the later steps we will indicate which settings must be changed to ensure a successful laser job. There is a 30-day trial you can download, so you do not need to immediately purchase it.
 <h3>Load Up the Videos</h3>
-If you prefer videos over text instructions, go ahead and watch Scott’s video series on how to assemble and set up your LaserBeam, as well as run your first job!
+If you prefer videos over text instructions, go ahead and watch Scott's video series on how to assemble and set up your LaserBeam, as well as run your first job!
 
 https://www.youtube.com/watch?v=NT0T25j3XDQ
 

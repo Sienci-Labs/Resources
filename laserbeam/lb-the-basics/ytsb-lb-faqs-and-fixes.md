@@ -42,7 +42,7 @@ Yes. The LongBoard controller has a 5V PWM signal output for lasers, spindles an
 <h2>Operation and Safety</h2>
 <b>Is fume extraction or ventilation required when running the LaserBeam?</b>
 
-Yes, you’ll want to run your LaserBeam in a space with great ventilation and/or consider a fume extraction system. This can mean a well ventilated work area with open doors or windows, or an inline fan and ducting for extracting the smoke outside. Fumes and particulates from engraving or cutting can be harmful. You always want to make sure the material you are using is laser safe and that you know what type of coatings the material has to avoid hazardous fumes.
+Yes, you'll want to run your LaserBeam in a space with great ventilation and/or consider a fume extraction system. This can mean a well ventilated work area with open doors or windows, or an inline fan and ducting for extracting the smoke outside. Fumes and particulates from engraving or cutting can be harmful. You always want to make sure the material you are using is laser safe and that you know what type of coatings the material has to avoid hazardous fumes.
 
 <b>Should the LaserBeam be removed when running the router?</b>
 

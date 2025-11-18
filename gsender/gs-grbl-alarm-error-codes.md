@@ -17,7 +17,7 @@ featured_image: _images/_gsender/_issues/gs_is_alarm.jpg)
 
 The grbl firmware has a whole list of Alarms and Error codes that you can encounter when running your CNC. gSender will always display a question mark when there’s an alarm which you can hover over for more information about why it happened and errors will appear as a hovering box in the bottom corner of the visualizer.
 
-You can close an alarm by clicking on the button that appears next to it in the visualizer. Most alarms can also be handled by typing “$x” into the ‘Console’ tab and hitting the ‘Run’ button.
+You can close an alarm by clicking on the button that appears next to it in the visualizer. Most alarms can also be handled by typing `$x` into the 'Console' tab and hitting the 'Run' button.
 
 ![](/_images/_gsender/_issues/gs_is_alarm.jpg){.aligncenter .size-medium}
 

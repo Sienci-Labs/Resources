@@ -29,7 +29,7 @@ Remove the headstock from the mounting track by unscrewing the four screws at th
 
 Re-assemble the rest of the components in reverse order. Ensure that the pulley can still rotate freely without any binding or resistance.
 
-If you’ve checked that the belt on your headstock is fully tightened and not allowing for any slop in the chuck’s rotation, you may be cutting too aggressively and causing the motor to skip. This is especially more likely when cutting very large diameter stock (such as 2”+) since cutting forces from the bit will create much more torque applied to the router. You’ll likely want to reference our recommended feeds and speeds chart found <a href="https://resources.sienci.com/view/lmk2-feeds-and-speeds/">here</a>, as well as read about how feeds and speeds are affected by the rotary axis work <a href="https://resources.sienci.com/view/vx-true_feeds_speeds/">here</a>.
+If you’ve checked that the belt on your headstock is fully tightened and not allowing for any slop in the chuck’s rotation, you may be cutting too aggressively and causing the motor to skip. This is especially more likely when cutting very large diameter stock (such as 2"+) since cutting forces from the bit will create much more torque applied to the router. You’ll likely want to reference our recommended feeds and speeds chart found <a href="https://resources.sienci.com/view/lmk2-feeds-and-speeds/">here</a>, as well as read about how feeds and speeds are affected by the rotary axis work <a href="https://resources.sienci.com/view/vx-true_feeds_speeds/">here</a>.
 
 ## Backlash in the Headstock
 

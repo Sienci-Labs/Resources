@@ -25,7 +25,7 @@ If you downloaded the more experimental ‘gSender Edge’, then remember to als
 
 ## Windows Install
 
-We make sure gSender is perfectly safe to use, so if you see a **security warning** when you download the file, bypass it by selecting “See more” then allow it to continue. If you're still having difficulty, follow the <a href="https://resources.sienci.com/wp-content/uploads/2022/03/gSender-Microsoft-Edge-Browser-Install.pdf" target="_blank" rel="noopener">instructions here</a> or watch the video <a href="https://youtu.be/vvwtIjgMcAM" target="_blank" rel="noopener">here</a> for Microsoft Edge.
+We make sure gSender is perfectly safe to use, so if you see a **security warning** when you download the file, bypass it by selecting "See more" then allow it to continue. If you're still having difficulty, follow the <a href="https://resources.sienci.com/wp-content/uploads/2022/03/gSender-Microsoft-Edge-Browser-Install.pdf" target="_blank" rel="noopener">instructions here</a> or watch the video <a href="https://youtu.be/vvwtIjgMcAM" target="_blank" rel="noopener">here</a> for Microsoft Edge.
 
 ![](/_images/_gsender/_install/gs_in_windows-download.jpg){.aligncenter .size-medium}
 
@@ -88,13 +88,13 @@ One example we often see is users will think they are using default gSender sett
 ![](/_images/_gsender/_install/gs_in_export-pref.jpg){.aligncenter .size-medium}
 
 **If you upgrade to a new version, or downgrade to an older version, and gSender won't open or run (blank screen):**  
-You’ll want to find a file called “**.sender_rc**” and rename it so gSender can generate a new version without errors. Sometimes you might also want to delete the “**.sienci-sessions**” folder too.
+You’ll want to find a file called "**.sender_rc**" and rename it so gSender can generate a new version without errors. Sometimes you might also want to delete the "**.sienci-sessions**" folder too.
 
-- For Windows: the file can usually be found on your hard drive, at: **C:/users/{your username}/.sender_rc**. Rename it to whatever you like, like “**.sender_rc_old**”, then try to reinstall gSender again.
+- For Windows: the file can usually be found on your hard drive, at: **C:/users/{your username}/.sender_rc**. Rename it to whatever you like, like "**.sender_rc_old**", then try to reinstall gSender again.
 ![](/_images/_gsender/_install/gs_in_update-senderrc.jpg){.aligncenter .size-medium}
 ![](/_images/_gsender/_install/gs_in_update-rcold.jpg){.aligncenter .size-medium}
 - For Mac/Linux: the file is in the home directory as a **hidden file**. You can either:
-  - In Finder go to **Go ➜ Computer ➜ Drive ➜ Users ➜ {your username}** then un-hide the ".sender_rc" file by pressing `CMD + Shift + .` keys. Rename it to whatever you like, like “**.sender_rc_old**”, then try to reinstall gSender again.
+  - In Finder go to **Go ➜ Computer ➜ Drive ➜ Users ➜ {your username}** then un-hide the ".sender_rc" file by pressing `CMD + Shift + .` keys. Rename it to whatever you like, like "**.sender_rc_old**", then try to reinstall gSender again.
   - Go into the Mac/Linux console and enter the command `mv ~/.sender_rc ~/.sender_rc_old`. You’ll be able to double check the renaming was successful by sending `ls -al | grep sender` in the console, where if you only see `.sender_rc_old`, you have successfully remanded and are ready to try to reinstall gSender.
 - If this solves your problem, you'll still be able to recover your old Start/Stop events and macros from the renamed file; just open it in a text editor and copy the macros you want to save so you can paste them back into gSender.
 
@@ -130,16 +130,16 @@ We hope all of this explains why you’ll find the RasPi side of gSender support
 **Starting notes:**
 
 - We provide 2 different variations of Pi binary - .AppImage, .deb.
-- Pi versions are all indicated by the “Pi-64Bit” tag in the executable name.
+- Pi versions are all indicated by the "Pi-64Bit" tag in the executable name.
 - Supported PI OS (Raspbian/Pi OS):
-  - To determine which OS you’re running, enter a terminal and type “cat /etc/os-release”. The name and pretty name should verify your OS and version
+  - To determine which OS you’re running, enter a terminal and type `cat /etc/os-release`. The name and pretty name should verify your OS and version
 ![](/_images/_gsender/_install/gs_in_ras-pi-os.jpg){.aligncenter .size-medium}
 
 **For most simple Pi setups, you’ll want to:**
 
 1. Download the AppImage
 1. Right click and go to the permissions tab
-1. Make sure “executable” permission is set on the file
+1. Make sure "executable" permission is set on the file
 1. Run the program
 
 **Default Pi credentials:**
@@ -152,7 +152,7 @@ To change the default pi user password. It's just menu ➜ Preferences ➜ Raspb
 ![](/_images/_gsender/_install/gs_in_ras-pi-credentials.jpg){.aligncenter .size-medium}
 
 **Error log location:**
-All application logs can be found in “<em>~/.config/gSender/logs</em>” and can be shared for any app-specific problems.
+All application logs can be found in "<em>~/.config/gSender/logs</em>" and can be shared for any app-specific problems.
 
 ### Common Pi Issues
 
@@ -170,10 +170,10 @@ This should allow gSender to show on your screen fully without it being cut off.
 This is most likely related to webGL not being enabled. You can check inside Chromium/Chrome by visiting <a href="https://webglreport.com/" target="_blank" rel="noopener">https://webglreport.com/</a> and checking that both WebGL 1 and WebGL 2 have the green 'supported' banner. If these aren’t present, then to enable webGL:
 
 - Inside Chrome/Chromium, navigate to <a href="//settings" target="_blank" rel="noopener">chrome://settings</a>
-- In the ‘System’ section, ensure the “Use hardware acceleration when available” checkbox is checked
+- In the 'System' section, ensure the "Use hardware acceleration when available" checkbox is checked
 - Relaunch Chrome for the changes to take effect then go to <a href="//flags" target="_blank" rel="noopener">chrome://flags</a>
-- Ensure that “Disable WebGL” is not activated
+- Ensure that "Disable WebGL" is not activated
 - Relaunch Chrome for the changes to take effect and now these updated settings should be used by gSender’s Electron builder
 
 **Can’t open the port to connect**
-Make sure your user is part of the dialout group. To add your account to this group, go to a terminal and type `sudo usermod -a -G dialout <user>` (replacing “&lt;user&gt;” with your username). Restart after this change and try again.
+Make sure your user is part of the dialout group. To add your account to this group, go to a terminal and type `sudo usermod -a -G dialout <user>` (replacing "&lt;user&gt;" with your username). Restart after this change and try again.

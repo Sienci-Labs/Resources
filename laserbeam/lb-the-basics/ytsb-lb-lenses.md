@@ -15,7 +15,7 @@ skip_file: yes
 featured_image: 
 ---
 
-In order to have a useful laser system, the light from the laser diode needs “modification.” This is where laser lenses come in; we need lenses to direct and focus the light for the different applications we may have. You can get a wide variety of results using the same laser but different lenses, so that you can go from cutting ¼” softwoods or opaque acrylic to engraving a very detailed crest on genuine leather.
+In order to have a useful laser system, the light from the laser diode needs "modification." This is where laser lenses come in; we need lenses to direct and focus the light for the different applications we may have. You can get a wide variety of results using the same laser but different lenses, so that you can go from cutting ¼" softwoods or opaque acrylic to engraving a very detailed crest on genuine leather.
 
 <strong>Currently, there are 4 lens types that we offer:</strong>
 <h3>Lens Specification Chart</h3>

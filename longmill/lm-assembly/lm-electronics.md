@@ -25,7 +25,7 @@ The LongMill electronics come pre-assembled and are pretty much ready to go out 
 
 It's important that the connector coming from the DC power brick has a <b>white</b> or <b>red</b> wire on the left side and a <b>black</b> one on the right when the screw terminal is facing you (as pictured). Both this connector and the connector coming from the E-stop should have the wires attached very securely. The order of the wires going to the E-stop connector don't matter.
 
-Check that the wires are connected appropriately by tugging on them. Secure them using the screw terminals and a flat head screwdriver if they’re loose or disconnected.
+Check that the wires are connected appropriately by tugging on them. Secure them using the screw terminals and a flat head screwdriver if they're loose or disconnected.
 
 ![](/_images/_longmill/_assembly/_electronics/lm_electronics_p3.JPG){.aligncenter .size-medium}
 
@@ -93,21 +93,21 @@ Now connect your computer to the LongMill control box via USB.
 
 ![](/_images/_longmill/_assembly/_electronics/lm_electronics_p14.JPG "Connect your USB cable to your computer.")"{.aligncenter .size-medium}
 
-Once that is done, hover over the **Connect to CNC** button at the top left corner of the screen and click the first option. Sometimes there’s more than one port available, so you can either unplug the other items you have plugged in, or you can try connecting to each one to see which one is your LongMill (*note that it's recommended to connect this way on your first setup even if you're planning to use Ethernet in the long-run*).
+Once that is done, hover over the **Connect to CNC** button at the top left corner of the screen and click the first option. Sometimes there's more than one port available, so you can either unplug the other items you have plugged in, or you can try connecting to each one to see which one is your LongMill (*note that it's recommended to connect this way on your first setup even if you're planning to use Ethernet in the long-run*).
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_connect.jpg){.aligncenter .size-medium}
 
-Once you've selected the port, your machine should be connected. If your machine is powered on, you will usually hear a gentle hiss and a thump noise when the machine connects which is a nice audible confirmation. If you don’t hear that sound, make sure you have released the E-stop so power is going to your machine - indicated by and orange power light on your control box.
+Once you've selected the port, your machine should be connected. If your machine is powered on, you will usually hear a gentle hiss and a thump noise when the machine connects which is a nice audible confirmation. If you don't hear that sound, make sure you have released the E-stop so power is going to your machine - indicated by and orange power light on your control box.
 
 After a moment you should see the plug icon turn green with a checkmark, the status bar at the top, middle change from **Disconnected** to **Idle**, and all the controls in the app become coloured indicating that they're ready to be used.
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_connect2.jpg){.aligncenter .size-medium}
 
-You can now try playing around with moving the machine. You can jog the machine in the direction you want within the "Jog Control" section on the right side. It’s alive!
+You can now try playing around with moving the machine. You can jog the machine in the direction you want within the "Jog Control" section on the right side. It's alive!
 
 ![](/_images/_longmill/_assembly/_electronics/lm_electronics_p17-newu.jpg){.aligncenter .size-medium}
 
-You can choose the amount that the machine will move in the XY directions by changing the “XY move”, the amount in the Z direction with “Z move”, and the feed rate / speed of movement with “Speed.” gSender has defaults for large, medium, and small movements that you can switch between by pressing the "Rapid", "Normal", and "Precise" buttons.
+You can choose the amount that the machine will move in the XY directions by changing the "XY move", the amount in the Z direction with "Z move", and the feed rate / speed of movement with "Speed." gSender has defaults for large, medium, and small movements that you can switch between by pressing the "Rapid", "Normal", and "Precise" buttons.
 
 Also, if you prefer inches instead of millimeters you can also switch over using the gear icon on the top right of the gSender window.
 

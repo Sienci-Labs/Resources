@@ -23,9 +23,9 @@ featured_image: _images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_header.png
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p1.jpg){.aligncenter .size-medium}
 
-Now, find bags labelled for ‘M5-nylock nuts’, (there should only be 4 or 5 in the bag), and the final one which contains some large rectangular plastic blocks. These are called ‘T8 spring loaded anti-backlash nuts’, and you’ll see later how they work to give your CNC movement and keep it accurate.
+Now, find bags labelled for 'M5-nylock nuts', (there should only be 4 or 5 in the bag), and the final one which contains some large rectangular plastic blocks. These are called 'T8 spring loaded anti-backlash nuts', and you'll see later how they work to give your CNC movement and keep it accurate.
 
-Start by pressing the M5-nylock nuts into the hexagonal cutouts in the plastic blocks. It’ll be tempting to face the round part of the nut downwards for easier installation, but these have to actually face upward out of the plastic so that they can be properly bolted on later. It may require some force to push the nuts into the cutouts - feel free to use pliers, one of the steel plates, a vise, or anything else to get them in-place as long as you’re careful to take your time. You’ll need 4 blocks, set aside spares as extra.
+Start by pressing the M5-nylock nuts into the hexagonal cutouts in the plastic blocks. It'll be tempting to face the round part of the nut downwards for easier installation, but these have to actually face upward out of the plastic so that they can be properly bolted on later. It may require some force to push the nuts into the cutouts - feel free to use pliers, one of the steel plates, a vise, or anything else to get them in-place as long as you're careful to take your time. You'll need 4 blocks, set aside spares as extra.
 
 With four blocks ready, set them aside.
 
@@ -35,9 +35,9 @@ With four blocks ready, set them aside.
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p2.jpg){.aligncenter .size-medium}
 
-With the prep out of the way, let’s continue on to the overall XZ-axis assembly. First you’ll want to get your Z-axis motor mount from where it would’ve been kept with the rest of the cutting tools and add-ons, we call this box the ‘variable box’. It’ll be a wrapped aluminum part similar in size to the router mount.
+With the prep out of the way, let's continue on to the overall XZ-axis assembly. First you'll want to get your Z-axis motor mount from where it would've been kept with the rest of the cutting tools and add-ons, we call this box the 'variable box'. It'll be a wrapped aluminum part similar in size to the router mount.
 
-With this in hand you’ll also want to get the bag with bearings in it, of which you’ll just need two for now. Press these into both sides of the bore on the Z-axis motor mount. You should be able to assemble these easily with your thumbs.
+With this in hand you'll also want to get the bag with bearings in it, of which you'll just need two for now. Press these into both sides of the bore on the Z-axis motor mount. You should be able to assemble these easily with your thumbs.
 
 ## Z-axis Mount Sub-assembly
 
@@ -45,7 +45,7 @@ With this in hand you’ll also want to get the bag with bearings in it, of whic
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p3.png){.aligncenter .size-medium}
 
-Going back to the parts, you’ll want to look for the short lead screw which will be packaged alongside the other, longer lead screws. This step will also use a locking ACME nut and a coupler from the bag of couplers. Grab the ACME nut and thread a couple inches (as pictured) onto the lead screw. Make sure the ACME nut still has its set screw.
+Going back to the parts, you'll want to look for the short lead screw which will be packaged alongside the other, longer lead screws. This step will also use a locking ACME nut and a coupler from the bag of couplers. Grab the ACME nut and thread a couple inches (as pictured) onto the lead screw. Make sure the ACME nut still has its set screw.
 
 **Please Note:** There is a small bump coming out of one side of the clamping nut, that will need to face towards the short side of the lead screw.
 
@@ -55,11 +55,11 @@ Next, slide the short end of the lead screw through the bearings on the Z-axis m
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p5.png){.aligncenter .size-medium}
 
-On the coupler, identify the end with the larger hole - this will be the only side that fits onto the lead screw. Push the coupler on until it bottoms out, then tighten the ‘lead screw side’ set screw using an M5 Allen key. **BEWARE!** Only tighten ONE of the set screws - the one on the lead screw side (as pictured). You’ll tighten the other set screw near the end of machine assembly. If you overtighten the wrong set screw it can deform your coupler and cause assembly issues.
+On the coupler, identify the end with the larger hole - this will be the only side that fits onto the lead screw. Push the coupler on until it bottoms out, then tighten the 'lead screw side' set screw using an M5 Allen key. **BEWARE!** Only tighten ONE of the set screws - the one on the lead screw side (as pictured). You'll tighten the other set screw near the end of machine assembly. If you overtighten the wrong set screw it can deform your coupler and cause assembly issues.
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p6.png){.aligncenter .size-medium}
 
-Now rotate the coupler and ACME nut in opposite directions so that they come together to clamp onto the two bearings. Once they’re together, making a ‘bolted sandwich’, everything should be touching (as pictured).  Once in this position, tighten the set screw on the locking ACME nut. If assembled properly, this should now feel like a solid, single piece where the lead screw should only be allowed to rotate, and not move in-and-out. Set this assembly aside for now.
+Now rotate the coupler and ACME nut in opposite directions so that they come together to clamp onto the two bearings. Once they're together, making a 'bolted sandwich', everything should be touching (as pictured).  Once in this position, tighten the set screw on the locking ACME nut. If assembled properly, this should now feel like a solid, single piece where the lead screw should only be allowed to rotate, and not move in-and-out. Set this assembly aside for now.
 
 ## XZ-axis Gantry Sub-assembly
 
@@ -67,7 +67,7 @@ Now rotate the coupler and ACME nut in opposite directions so that they come tog
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p6a.jpg){.aligncenter .size-medium}
 
-From the green bag, grab the ‘M5 washers’, ‘M5-25mm bolts’ and the ‘Delrin V-wheels’. If the v-wheels have an off-centered ring in the middle (pictured), use the small Allen key to move the ring back to the center.
+From the green bag, grab the 'M5 washers', 'M5-25mm bolts' and the 'Delrin V-wheels'. If the v-wheels have an off-centered ring in the middle (pictured), use the small Allen key to move the ring back to the center.
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p6b.jpg){.aligncenter .size-medium}
 
@@ -115,7 +115,7 @@ Fasten two M5-25mm bolts on both sides of the Z-axis motor mount to secure the t
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p22.jpg){.aligncenter .size-medium}
 
-With everything secured together, you can finish tightening the two bolts holding the Z anti-backlash nut. Alternate making a couple turns onto one bolt and then the other until they’re both tightened down. If you twist hard onto just one bolt while the other one is loose it can twist the anti-backlash nut and misalign it to the lead screw.
+With everything secured together, you can finish tightening the two bolts holding the Z anti-backlash nut. Alternate making a couple turns onto one bolt and then the other until they're both tightened down. If you twist hard onto just one bolt while the other one is loose it can twist the anti-backlash nut and misalign it to the lead screw.
 
 ## Attaching the Router Mount
 
@@ -123,6 +123,6 @@ With everything secured together, you can finish tightening the two bolts holdin
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p23.png){.aligncenter .size-medium}
 
-Grabbing the router mount from the ‘variable box’, loosely attach the front using two M5-25mm bolts, then bolt the mount to the XZ-gantry assembly with another four M5-25mm bolts. Ensure the bottom of the router mount is flush with the bottom of the Z-gantry.
+Grabbing the router mount from the 'variable box', loosely attach the front using two M5-25mm bolts, then bolt the mount to the XZ-gantry assembly with another four M5-25mm bolts. Ensure the bottom of the router mount is flush with the bottom of the Z-gantry.
 
 ![](/_images/_lmmk2/_assembly/_xzaxes/lmk2_xzaxes_p24.png){.aligncenter .size-medium}

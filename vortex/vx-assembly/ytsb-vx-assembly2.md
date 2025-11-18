@@ -37,7 +37,7 @@ You’ll need these tools on hand for assembly. Most people will have these in t
 
 - Metric Allen key size 4
 - Phillips screwdriver #2
-- Metric Allen key size 6 or Imperial Size 7/32”
+- Metric Allen key size 6 or Imperial Size 7/32"
 - #8 wood screws
 
 <img class="aligncenter size-medium wp-image-5666" src="https://resources.sienci.com/wp-content/uploads/2023/08/Tools-850x345.jpg" alt="" width="850" height="345" />

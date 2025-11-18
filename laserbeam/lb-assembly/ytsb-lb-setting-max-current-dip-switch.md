@@ -60,7 +60,7 @@ There are 5 settings, each labelled with a number which corresponds to the maxim
 </tr>
 </tbody>
 </table>
-<b>After you have turned your laser driver on, you must set your maximum current before accessing laser driver function. We recommend setting the switch to “4.” <span style="color: #800000;"><i>Warning: Ensure that you only have one switch ON (down position) at a time, or else it could cause damage to the electronics.</i></span></b>
+<b>After you have turned your laser driver on, you must set your maximum current before accessing laser driver function. We recommend setting the switch to "4." <span style="color: #800000;"><i>Warning: Ensure that you only have one switch ON (down position) at a time, or else it could cause damage to the electronics.</i></span></b>
 
 <img class="alignnone size-full wp-image-10862" src="https://resources.sienci.com/wp-content/uploads/2022/01/4A-current.png" alt="" width="960" height="540" />
 

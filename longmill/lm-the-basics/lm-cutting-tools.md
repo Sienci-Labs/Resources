@@ -63,7 +63,7 @@ Cutting tools can normally be described by a few key dimensions:
 
 **General rules:**
 
-- Use the largest diameter cutting tool you can bear if you don’t mind the lack of detail and want to remove material quickly. For the LongMill this is going to be in the range of 1/4" to 1/2"
+- Use the largest diameter cutting tool you can bear if you don't mind the lack of detail and want to remove material quickly. For the LongMill this is going to be in the range of 1/4" to 1/2"
 - Long tools can make deeper cuts but usually deflect more and affect surface finish, try to use the shortest tool you can or mount it deeper into the router
 
 [tabby title="Flutes"]
@@ -91,9 +91,9 @@ Cutting tools can be manufactured out of a variety of material which are all eng
 
 ![](/_images/_longmill/_the-basics/lm_cuttingtools_p7_HSSCarbide.jpg "Solid carbide vs. HSS cutting tool"){.aligncenter .size-medium}
 
-HSS usually combines with a variety of other alloys to have a high wear resistance and durability for cutting both soft and hard materials. Since HSS is softer than solid carbide it’s less likely to crack and instead wears out over time, so it’s limited to slower cutting speeds. HSS tools are also usually much cheaper than solid carbide tools and can be additionally improved if they come with a coating.
+HSS usually combines with a variety of other alloys to have a high wear resistance and durability for cutting both soft and hard materials. Since HSS is softer than solid carbide it's less likely to crack and instead wears out over time, so it's limited to slower cutting speeds. HSS tools are also usually much cheaper than solid carbide tools and can be additionally improved if they come with a coating.
 
-Solid carbide tools are very hard so they’ll stay sharp for longer and won’t wear as much at higher temperatures. Recently, carbide tools have become much cheaper and accessible for use in CNC routing, however it’s important to note that carbide cutting tools typically require higher speeds in order to mill properly. This makes them a great candidate for cutting finishing passes, milling PCBs, and cutting materials that won’t easily burn or melt.
+Solid carbide tools are very hard so they'll stay sharp for longer and won't wear as much at higher temperatures. Recently, carbide tools have become much cheaper and accessible for use in CNC routing, however it's important to note that carbide cutting tools typically require higher speeds in order to mill properly. This makes them a great candidate for cutting finishing passes, milling PCBs, and cutting materials that won't easily burn or melt.
 
 ### Coatings
 

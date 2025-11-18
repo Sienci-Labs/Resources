@@ -29,7 +29,7 @@ Grab the M5-10mm bolts, t-nuts, and steel drag chain mount from the yellow hardw
 
 ![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_Y-Axis-Gantries_2-1.png){.aligncenter .size-medium}
 
-Attach the drag chain mount through the left side of the X-axis rail by sliding two t-nuts onto the top slot of the rail. Before fastening the drag chain mount, ensure that it is offset from the edge of the rail by about 6mm or ¼” (pictured).
+Attach the drag chain mount through the left side of the X-axis rail by sliding two t-nuts onto the top slot of the rail. Before fastening the drag chain mount, ensure that it is offset from the edge of the rail by about 6mm or ¼" (pictured).
 
 ![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_MK2-37-2.jpg){.aligncenter .size-medium}
 
@@ -71,4 +71,4 @@ At the left side of the X-axis rail, slide the coupler on until it bottoms out o
 
 ![](/_images/_lmmk2/_assembly/_axescomplete/lmk2_axescomplete_Y-Axis-Gantries_7-1.png){.aligncenter .size-medium}
 
-Just like for the Y-axis, use both hands on the right side to thread a locking ACME nut into the lead screw so that it pulls it flush to the flange bearing and brings the coupler flush against the other bearing. While holding this tension in place, firmly tighten the set screw on the ACME nut. This makes another ‘bolted sandwich’ where everything should be touching bearings (as pictured) and the lead screw should only be allowed to rotate, and not move side-to-side.
+Just like for the Y-axis, use both hands on the right side to thread a locking ACME nut into the lead screw so that it pulls it flush to the flange bearing and brings the coupler flush against the other bearing. While holding this tension in place, firmly tighten the set screw on the ACME nut. This makes another 'bolted sandwich' where everything should be touching bearings (as pictured) and the lead screw should only be allowed to rotate, and not move side-to-side.

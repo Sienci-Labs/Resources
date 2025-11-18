@@ -27,14 +27,14 @@ This IOT setup method is written for the LongBoard controller and was inspired b
 Parts needed:
 
 - **IOT relay**
-  - We’ve tested the IOT Relay from Digital Loggers, but it can be found on a few sites such as <a href="https://www.digikey.ca/en/products/detail/sparkfun-electronics/COM-14236/7652745" target="_blank" rel="noopener">DigiKey</a>, <a href="https://PwnCNC.com/products/iot-power-strip" target="_blank" rel="noopener">PwnCNC</a>, and Amazon. Find more info here: <a href="https://www.digital-loggers.com/iotfaqs.html" target="_blank" rel="noopener">https://www.digital-loggers.com/iotfaqs.html</a>.
+  - We've tested the IOT Relay from Digital Loggers, but it can be found on a few sites such as <a href="https://www.digikey.ca/en/products/detail/sparkfun-electronics/COM-14236/7652745" target="_blank" rel="noopener">DigiKey</a>, <a href="https://PwnCNC.com/products/iot-power-strip" target="_blank" rel="noopener">PwnCNC</a>, and Amazon. Find more info here: <a href="https://www.digital-loggers.com/iotfaqs.html" target="_blank" rel="noopener">https://www.digital-loggers.com/iotfaqs.html</a>.
   - Includes surge suppression, debounce, and a safety breaker
   - Consists of 4 outlets - x1 Always On, x1 Normally On (NO), x2 Normally Off (NC)
   - Can also be controlled by a standalone Arduino or Raspberry Pi
 - **2-position female terminal block connector (x2)**
   - One will come already plugged into the IOT relay, the other plugged into the LongBoard
   - Same as the green connector used for the touch plate
-  - 3.81mm (0.15”) pitch
+  - 3.81mm (0.15") pitch
 - Some spare **16 AWG wire** (see picture)
   - This is the same size as what's used for the LongMill E-stop
   - Ideally use wire with the red and black bound together, in whatever length is needed for your setup
@@ -80,8 +80,8 @@ With everything working correctly, we now need to make sure these M8 and M9 g-co
 
 The easiest way to do this is to manually insert this code yourself. To do this, open your g-code in a text editor such as Notepad and:
 
-- Start a new line at the top and type in “M8”
-- Scroll to the last line of the code, start a new line and type in “M9”
+- Start a new line at the top and type in "M8"
+- Scroll to the last line of the code, start a new line and type in "M9"
 - Save the g-code file with a new name in case you need to go back later to check the original
 
 Manual replacement can get old quick, so other methods exist to automate this process every time. Firstly, some CAM programs will allow you to 'inject' whatever g-code you'd like before and after (referred to as the "header" and "footer" of the g-code) the main code, for example Kiri:Moto or Fusion360. If you set up your CAM program to put M8 in the header and M9 in the footer then those commands will now always be there for any project you design and output into g-code.
@@ -97,7 +97,7 @@ You can read more about this feature here: <a href="https://resources.sienci.com
 [tabby title="CNCjs"]
 
 1. Go to Settings (gears on the left) ➜ Events, and add a new event for the both commands
-1. Use events “G-code: Start” for the M8 command and “G-code: Stop” for M9
+1. Use events "G-code: Start" for the M8 command and "G-code: Stop" for M9
 
 This will now 'inject' the M8 command at the start of any g-code file and an M9 at the end. It applies to every file you run unless you disable them.
 

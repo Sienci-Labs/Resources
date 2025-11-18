@@ -67,17 +67,17 @@ To simplify your building process, we will leave the air assist assembly off the
 <h3><b> Driver → Controller </b></h3>
 This connection allows you to control your laser through the CNC controller. The driver uses this PWM signal to turn on/off the laser, as well as adjust the intensity and frequency.
 
-On one end, plug in the male connector to the driver’s PWM signal input, at the location shown in the photo.
+On one end, plug in the male connector to the driver's PWM signal input, at the location shown in the photo.
 
 <img class="alignnone size-full wp-image-10833 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/12/pwm-wire.png" alt="" width="960" height="540" />
 <p style="text-align: center;"><i>Connecting PWM signal input to driver</i></p>
 <span style="color: #800000;"><b>The following steps will vary whether you have the LongBoard or the SLB. Please read carefully to ensure you complete the proper steps for your controller.</b></span>
 
-For the <b>LongBoard</b>, plug in one end of the purple cable to the controller, making sure the red wire is seated at the “SpinPWM” and the black wire is seated at “GND.”
+For the <b>LongBoard</b>, plug in one end of the purple cable to the controller, making sure the red wire is seated at the "SpinPWM" and the black wire is seated at "GND."
 
 <img class="alignnone size-full wp-image-2250" src="https://resources.sienci.com/wp-content/uploads/2021/12/PWM-Signal-Cable-LongMill-Benchtop-CNC-Controller-Connection.jpg" alt="" width="960" height="720" />
 <p style="text-align: center;"><i>Connecting PWM signal input to LongBoard </i></p>
-If your controller is an <b>SLB or SLB-EXT</b>, you will plug in the cable at the “LASER” port. Ensure that the red wire cable is seated at the “PW” port and the black wire is seated at the “GD<b>”</b> port.
+If your controller is an <b>SLB or SLB-EXT</b>, you will plug in the cable at the "LASER" port. Ensure that the red wire cable is seated at the "PW" port and the black wire is seated at the "GD<b>"</b> port.
 
 <img class="size-full wp-image-10839 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2021/12/slb-laser-wiring.jpg" alt="" width="2048" height="1272" />
 <p style="text-align: center;"><i>Side view of SLB with LASER port indicated</i></p>

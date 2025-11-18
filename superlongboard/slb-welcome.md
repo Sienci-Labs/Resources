@@ -90,7 +90,7 @@ We set out to create the SuperLongBoard in order to raise the bar for what hobby
 
 ### Past Work
 
-Our first custom CNC control board we called the “LongBoard”. It was simple but capable, acting like a fancy daughter board to an Arduino Uno. It went through 4 major iterations as we learned how to improve reliability against EMI (using solutions like RC components), manufacturability, and longevity (iterating DFMA and adding switch arc suppression).
+Our first custom CNC control board we called the "LongBoard". It was simple but capable, acting like a fancy daughter board to an Arduino Uno. It went through 4 major iterations as we learned how to improve reliability against EMI (using solutions like RC components), manufacturability, and longevity (iterating DFMA and adding switch arc suppression).
 
 ![](/_images/_superlongboard/slb_longboard-enclosed.jpg){.aligncenter .size-medium}
 

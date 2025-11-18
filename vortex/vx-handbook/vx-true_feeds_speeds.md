@@ -45,10 +45,10 @@ As a general rule, you can apply the following multiplier factors to your feed r
 
 | Stock Diameter | Suitable feed rate multiplier | Example of compensated feed rate |
 | --- | --- | --- |
-| 1” | 4.515 | 1500 mm/min ➜ 6770 mm/min |
-| 2” | 2.256 | 1500 mm/min ➜ 4000 mm/min |
-| 3” | 1.5   | 1500 mm/min ➜ 2250 mm/min |
-| 4” | 1.128 | 1500 mm/min ➜ 1690 mm/min |
+| 1" | 4.515 | 1500 mm/min ➜ 6770 mm/min |
+| 2" | 2.256 | 1500 mm/min ➜ 4000 mm/min |
+| 3" | 1.5   | 1500 mm/min ➜ 2250 mm/min |
+| 4" | 1.128 | 1500 mm/min ➜ 1690 mm/min |
 
 [/su_table]
 

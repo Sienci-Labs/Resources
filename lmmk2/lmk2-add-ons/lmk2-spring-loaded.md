@@ -70,7 +70,7 @@ Just like with the Y-axis, we want to be close to the motor to remove the lead s
 
 ## Z-Axis
 
-The Z-axis nut is easier to remove because we don’t have to remove the lead screw from the motor on the MK2 (you will have to do this with the MK1 however).
+The Z-axis nut is easier to remove because we don't have to remove the lead screw from the motor on the MK2 (you will have to do this with the MK1 however).
 
 1. Jog the Z-axis to be about halfway up the lead screw then remove the two bolts holding the anti-backlash nut.
 ![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_zaxis-1.jpg){.aligncenter .size-medium}

@@ -54,7 +54,7 @@ This wizard will provide you with general software suggestions based on your CNC
 
 Many of our go-to software picks tend to be available for free and can range from beginner-friendly to more advanced. We also tend to more highly recommend software that is both Design-and-CAM-in-one since that helps to streamline the process of making projects on your CNC.
 
-**Remember that the design step in CNCing can be completely optional.** If you'd like to browse a list of sites we put together where people share their CNC project designs either for free or for a price, click the button below. Half of the projects we’ve made ourselves have been off designs we’ve found online; feel free to leverage these resources in your own work with the right permissions.
+**Remember that the design step in CNCing can be completely optional.** If you'd like to browse a list of sites we put together where people share their CNC project designs either for free or for a price, click the button below. Half of the projects we've made ourselves have been off designs we've found online; feel free to leverage these resources in your own work with the right permissions.
 
 [su_button url="resources.sienci.com/view/lm-more-projects/" target="self" style="flat" background="var(--sl-blue)" color="#FFFFFF" size="8" wide="no" center="yes" radius="3" icon="" icon_color="#FFFFFF" text_shadow="none" desc="" download="" onclick="" rel="" title="" id="" class=""]Design sharing websites[/su_button]
 &nbsp;

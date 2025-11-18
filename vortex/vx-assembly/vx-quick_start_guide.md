@@ -23,7 +23,7 @@ https://www.youtube.com/watch?v=njbUQo0OzLY
 
 ## Rotary Mode vs. 4th Axis Mode
 
-gSender has a unique ability to control a rotary axis on standard, 3-axis grbl machines. We call this “Rotary Mode.” Rotary Mode works by leveraging the Y-axis to control the A-axis. By switching to Rotary Mode, gSender automatically changes the firmware settings in order to translate A-axis movements to your machine, as if they were Y-axis movements.
+gSender has a unique ability to control a rotary axis on standard, 3-axis grbl machines. We call this "Rotary Mode." Rotary Mode works by leveraging the Y-axis to control the A-axis. By switching to Rotary Mode, gSender automatically changes the firmware settings in order to translate A-axis movements to your machine, as if they were Y-axis movements.
 
 4th Axis Mode allows you to use the rotary axis without piggybacking on the Y-axis, therefore allowing for XYZ motion at the same time as A-axis motion.
 

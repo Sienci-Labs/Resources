@@ -20,7 +20,7 @@ Offsets are the adjustments of a CNC machine's coordinates to account for the di
 
 The most accurate method for finding your offset coordinates involves using our <a href="https://resources.sienci.com/view/lmk2-open-source/">open-source CAD models</a> to measure the distance between the LaserBeam and router/spindle center points, in both the x and y dimensions. The coordinates can also be found through a simple process of trial and error. Both methods for finding these values are outlined in detail below on this page.
 
-This resource page provides all the necessary offset coordinates one would need to utilize the gSender feature for their own projects. Below are tables containing all the <i>theoretical</i> coordinates that would work to realign the LaserBeam with the use of the offset feature. Notice, however, the use of the word <b><i>“theoretical"</i></b>. Unfortunately, due to manufacturing processes, there will be variations in the dimensions of different LongMill parts our users own. While these imperfections may be small, they can compound. Coordinates given in the provided table <b><i>may not work</i></b><b> for your specific setup</b>, <b><i>may work perfectly</i></b>, or <b><i>may have very minimal levels of error</i></b>.  Due to this, an additional guide containing the steps on how to manually determine your specific offset coordinates, without the use of CAD software, is available on this page.
+This resource page provides all the necessary offset coordinates one would need to utilize the gSender feature for their own projects. Below are tables containing all the <i>theoretical</i> coordinates that would work to realign the LaserBeam with the use of the offset feature. Notice, however, the use of the word <b><i>"theoretical"</i></b>. Unfortunately, due to manufacturing processes, there will be variations in the dimensions of different LongMill parts our users own. While these imperfections may be small, they can compound. Coordinates given in the provided table <b><i>may not work</i></b><b> for your specific setup</b>, <b><i>may work perfectly</i></b>, or <b><i>may have very minimal levels of error</i></b>.  Due to this, an additional guide containing the steps on how to manually determine your specific offset coordinates, without the use of CAD software, is available on this page.
 
 &nbsp;
 <h2><b>Different Mount Types for Offsetting 🔧</b></h2>
@@ -209,31 +209,31 @@ The following tables contain the offset values in correspondence to mount type, 
 &nbsp;
 <h2><b>Offset Process 📝</b></h2>
 <ul>
-  <li>Before even beginning your initial milling job, set the origin for your workpiece using your router/spindle. After doing this, on the gSender application, <b>hit the settings button</b> (is a gear) on the top far right. Click on the <b>Spindle/Laser section</b>, and on the right, you should be able to locate the <b><i>“Laser Axes Offset”</i></b> tabs. There will be two tabs, one for the x-coordinate and one for the y-coordinate of the given offset:</li>
+  <li>Before even beginning your initial milling job, set the origin for your workpiece using your router/spindle. After doing this, on the gSender application, <b>hit the settings button</b> (is a gear) on the top far right. Click on the <b>Spindle/Laser section</b>, and on the right, you should be able to locate the <b><i>"Laser Axes Offset"</i></b> tabs. There will be two tabs, one for the x-coordinate and one for the y-coordinate of the given offset:</li>
 </ul>
 <img class="aligncenter wp-image-6276 size-full" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture1-1.jpg" alt="" width="772" height="420" />
 
 &nbsp;
 <ul>
-  <li>Refer to the <a href="https://docs.google.com/document/d/1AK6WDXGKIaXLF9BnPrC9DGTp7ixYU0RZ8C9DoWu9Jnk/edit#heading=h.6fm31wtsking">offset tables</a>, taking note of your specific mount types, and if applicable, mounting orientation. From here, grab your needed x and y coordinates from the relevant table, and input them into the <b><i>“Laser Axes Offset”</i></b> tabs. <b><i>Note:</i></b><i> Remember, all table dimensions are in millimeters.</i></li>
+  <li>Refer to the <a href="https://docs.google.com/document/d/1AK6WDXGKIaXLF9BnPrC9DGTp7ixYU0RZ8C9DoWu9Jnk/edit#heading=h.6fm31wtsking">offset tables</a>, taking note of your specific mount types, and if applicable, mounting orientation. From here, grab your needed x and y coordinates from the relevant table, and input them into the <b><i>"Laser Axes Offset"</i></b> tabs. <b><i>Note:</i></b><i> Remember, all table dimensions are in millimeters.</i></li>
 </ul>
 <img class="wp-image-6289 size-full aligncenter" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture2.jpg" alt="" width="537" height="419" />
 <ul>
-  <li>Ensure to press enter on your keyboard after inputting the values so they save. If you do this correctly, a bar with the phrase <b><i>“ Settings Updated”</i></b> will appear at the bottom left of your screen to indicate this:</li>
+  <li>Ensure to press enter on your keyboard after inputting the values so they save. If you do this correctly, a bar with the phrase <b><i>" Settings Updated"</i></b> will appear at the bottom left of your screen to indicate this:</li>
 </ul>
 <img class="aligncenter wp-image-6290 size-medium" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture3-4-850x512.jpg" alt="" width="850" height="512" />
 
-<b><i>*Note:</i></b> Depending on your setup, specific coordinate values may be negative or positive. You’ll have to determine which directions would logically allow for proper alignment and input them accordingly. This can be a bit confusing at first, so if you are unsure about how to do this, refer to the section below, titled <i>“</i><a href="https://docs.google.com/document/d/1AK6WDXGKIaXLF9BnPrC9DGTp7ixYU0RZ8C9DoWu9Jnk/edit#heading=h.7o7ihqt8ktt2"><i>Understanding Directions</i></a><i>”</i> .This is very important to ensure you complete the process properly. 
+<b><i>*Note:</i></b> Depending on your setup, specific coordinate values may be negative or positive. You'll have to determine which directions would logically allow for proper alignment and input them accordingly. This can be a bit confusing at first, so if you are unsure about how to do this, refer to the section below, titled <i>"</i><a href="https://docs.google.com/document/d/1AK6WDXGKIaXLF9BnPrC9DGTp7ixYU0RZ8C9DoWu9Jnk/edit#heading=h.7o7ihqt8ktt2"><i>Understanding Directions</i></a><i>"</i> .This is very important to ensure you complete the process properly. 
 <ul>
   <li>Exit the settings and return to the gSender visualizer. Now, adjust the z-position of your router/spindle. This adjustment will depend on the orientation of your router/spindle to your laser, and may require you to move up or down in the z-direction. However, ensure that you raise the router/spindle high enough away from your workpiece to avoid unwanted scraping or cutting of the project when the offsets are applied, and the router/spindle begins to be moved. Also ensure it is high enough to avoid crashing your LaserBeam as well as mount. You may also want to adjust the height with your LaserBeam focus finder for optimal use:</li>
 </ul>
 <img class="aligncenter wp-image-6291 size-full" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture4-2.jpg" alt="" width="826" height="483" />
 <ul>
-  <li>After adjusting the spindle on the z-axis, you now want to hit the <i>“</i><b><i>Zero all button”</i></b>once more to set your origin:</li>
+  <li>After adjusting the spindle on the z-axis, you now want to hit the <i>"</i><b><i>Zero all button"</i></b>once more to set your origin:</li>
 </ul>
 <img class="aligncenter wp-image-6292 size-full" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture5-2.jpg" alt="" width="703" height="352" />
 <ul>
-  <li>Now you want to return to the settings tab. Click on the Spindle/Laser section, and under the <b><i>“Toggle”</i></b> tab, enable <b><i>“Spindle/Laser”</i></b>:</li>
+  <li>Now you want to return to the settings tab. Click on the Spindle/Laser section, and under the <b><i>"Toggle"</i></b> tab, enable <b><i>"Spindle/Laser"</i></b>:</li>
 </ul>
 <img class="aligncenter wp-image-6294" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture6-1.jpg" alt="" width="400" height="278" />
 
@@ -247,7 +247,7 @@ The following tables contain the offset values in correspondence to mount type, 
 </ul>
 <img class="aligncenter wp-image-6297" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture8.jpg" alt="" width="479" height="281" />
 <ul>
-  <li>At this point, we now want to hit the <b><i>“Go to zero”</i></b> button. This will move your LaserBeam and nearly perfectly align it with your workpiece’s set origin point, in turn completing the process. </li>
+  <li>At this point, we now want to hit the <b><i>"Go to zero"</i></b> button. This will move your LaserBeam and nearly perfectly align it with your workpiece's set origin point, in turn completing the process. </li>
 </ul>
 <img class="aligncenter wp-image-6299" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture9-1.jpg" alt="" width="385" height="247" />
 <ul>
@@ -263,7 +263,7 @@ The following tables contain the offset values in correspondence to mount type, 
 </ul>
 <img class="aligncenter wp-image-6302" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture12-1-850x503.jpg" alt="" width="519" height="307" />
 <ul>
-  <li>Once again, hit the <b><i>“Go to zero”</i></b> button. </li>
+  <li>Once again, hit the <b><i>"Go to zero"</i></b> button. </li>
 </ul>
 <img class="aligncenter wp-image-6303" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture13-1.jpg" alt="" width="581" height="261" />
 <ul>
@@ -271,7 +271,7 @@ The following tables contain the offset values in correspondence to mount type, 
 </ul>
 <img class="aligncenter wp-image-6305 size-medium" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture15-850x433.jpg" alt="" width="850" height="433" />
 <ul>
-  <li>At this point, you can continuously swap between laser and router/spindle use by switching between modes and hitting the <b><i>“Go to zero button”</i></b><b>.</b> As noted before, there is a chance that these specific coordinate values may not work for your given setup. If this turns out to be the case and your alignment is visibly off, refer to the section titled <i>“</i><a href="https://docs.google.com/document/d/1AK6WDXGKIaXLF9BnPrC9DGTp7ixYU0RZ8C9DoWu9Jnk/edit#heading=h.jieequclcx1p"><i>Trial and Error Offsetting</i></a><i>”</i>. </li>
+  <li>At this point, you can continuously swap between laser and router/spindle use by switching between modes and hitting the <b><i>"Go to zero button"</i></b><b>.</b> As noted before, there is a chance that these specific coordinate values may not work for your given setup. If this turns out to be the case and your alignment is visibly off, refer to the section titled <i>"</i><a href="https://docs.google.com/document/d/1AK6WDXGKIaXLF9BnPrC9DGTp7ixYU0RZ8C9DoWu9Jnk/edit#heading=h.jieequclcx1p"><i>Trial and Error Offsetting</i></a><i>"</i>. </li>
 </ul>
 <h2><b>Understanding Directions ➡️</b></h2>
 It is important to figure out the proper direction of your offset values before entering them into gSender. This can be a bit confusing at first. Take your time reading and examining the photos and this process will become easier.
@@ -280,7 +280,7 @@ It is important to figure out the proper direction of your offset values before 
 </ul>
 &nbsp;
 <ul>
-  <li>Take note of which way your LongMill would logically have to move for your laser beam to align with your set origin. Remember, the whole purpose of utilizing offsets is to move your <b><i>LaserBeam’s center</i> to the <i>set origin of your work piece</i>, which is the location of the <i>router/spindle’s centerpoint.</i></b>  Let’s look at an example with a router mount of <b>orientation <i>A</i></b> . We only need a y-offset for this orientation, but we must take note of what sign the coordinate should have:</li>
+  <li>Take note of which way your LongMill would logically have to move for your laser beam to align with your set origin. Remember, the whole purpose of utilizing offsets is to move your <b><i>LaserBeam's center</i> to the <i>set origin of your work piece</i>, which is the location of the <i>router/spindle's centerpoint.</i></b>  Let's look at an example with a router mount of <b>orientation <i>A</i></b> . We only need a y-offset for this orientation, but we must take note of what sign the coordinate should have:</li>
 </ul>
 <img class="aligncenter wp-image-6308 size-full" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture16.jpg" alt="" width="620" height="600" />
 <ul>
@@ -288,7 +288,7 @@ It is important to figure out the proper direction of your offset values before 
 </ul>
 &nbsp;
 <ul>
-  <li>Thus, you might think of entering your offset value as a positive number. <b><i>However, this isn’t correct</i></b><i>.</i> You would actually want your offset value to be <b><i>negative</i></b>. To illustrate this, let’s look at how the visualizer would display the router/spindle and laser during this process. Before you do anything, assuming you have already set your workpiece origin, your router/spindle will be displayed on the origin point of the visualizer as shown below: </li>
+  <li>Thus, you might think of entering your offset value as a positive number. <b><i>However, this isn't correct</i></b><i>.</i> You would actually want your offset value to be <b><i>negative</i></b>. To illustrate this, let's look at how the visualizer would display the router/spindle and laser during this process. Before you do anything, assuming you have already set your workpiece origin, your router/spindle will be displayed on the origin point of the visualizer as shown below: </li>
 </ul>
 &nbsp;
 
@@ -296,7 +296,7 @@ It is important to figure out the proper direction of your offset values before 
 
 &nbsp;
 <ul>
-  <li>Now, after we enter our offset values, if we switch over to laser mode, we can expect the visualizer to display the beam offset from the origin by the coordinate values inputted, again, as shown below. When we hit <b><i>“Go to Zero”</i>, <i>it will align with the origin by moving in the +y direction</i>, which is what we want:</b></li>
+  <li>Now, after we enter our offset values, if we switch over to laser mode, we can expect the visualizer to display the beam offset from the origin by the coordinate values inputted, again, as shown below. When we hit <b><i>"Go to Zero"</i>, <i>it will align with the origin by moving in the +y direction</i>, which is what we want:</b></li>
 </ul>
 <img class="aligncenter wp-image-6311 size-medium" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture19-850x495.jpg" alt="" width="850" height="495" />
 
@@ -314,7 +314,7 @@ It is important to figure out the proper direction of your offset values before 
 </ul>
 &nbsp;
 <ul>
-  <li>This time we are working with <b>orientation <i>B</i></b>. Once again, let’s start by mapping out how our physical setup corresponds to our jog controller. Set the origin point for your workpiece using your router/spindle. Based on your setup, see which direction in which the laser will have to be moved to reach the router/spindle’s current position. Match that to the jog control coordinate system.</li>
+  <li>This time we are working with <b>orientation <i>B</i></b>. Once again, let's start by mapping out how our physical setup corresponds to our jog controller. Set the origin point for your workpiece using your router/spindle. Based on your setup, see which direction in which the laser will have to be moved to reach the router/spindle's current position. Match that to the jog control coordinate system.</li>
 </ul>
 <img class="aligncenter wp-image-6313 size-full" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture23.jpg" alt="" width="616" height="605" />
 <ul>
@@ -347,7 +347,7 @@ In scenarios in which the offset table values are not compatible with your speci
 
 &nbsp;
 <ul>
-  <li>Begin by marking an indent into a scrap piece of material with your router/spindle. After making this indent, adjust your z-position and raise your spindle until it is a reasonable distance away from your scrap piece of material. <b><i>Do not tamper with the x and y coordinates while doing this.</i></b> After you have raised the spindle to a reasonable height, hit the <b><i>“Zero all”</i></b> button. You have now set this specific indent point as your origin. This is important for later on:</li>
+  <li>Begin by marking an indent into a scrap piece of material with your router/spindle. After making this indent, adjust your z-position and raise your spindle until it is a reasonable distance away from your scrap piece of material. <b><i>Do not tamper with the x and y coordinates while doing this.</i></b> After you have raised the spindle to a reasonable height, hit the <b><i>"Zero all"</i></b> button. You have now set this specific indent point as your origin. This is important for later on:</li>
 </ul>
 &nbsp;
 
@@ -355,7 +355,7 @@ In scenarios in which the offset table values are not compatible with your speci
 
 &nbsp;
 <ul>
-  <li>Proceed to move into laser mode. At this point, you want to manually move your LongMill with the jog control to align the LaserBeam’s centerpoint with that of the indent’s. As you move around, occasionally fire the laser at low power to see exactly where the centerpoint lies. You’ll want to focus the beam to a similar size as that of the indent. Continue firing and adjusting the LaserBeam’s position until it eventually aligns with the indent:</li>
+  <li>Proceed to move into laser mode. At this point, you want to manually move your LongMill with the jog control to align the LaserBeam's centerpoint with that of the indent's. As you move around, occasionally fire the laser at low power to see exactly where the centerpoint lies. You'll want to focus the beam to a similar size as that of the indent. Continue firing and adjusting the LaserBeam's position until it eventually aligns with the indent:</li>
 </ul>
 &nbsp;
 
@@ -367,11 +367,11 @@ In scenarios in which the offset table values are not compatible with your speci
 </ul>
 <img class="aligncenter wp-image-6321" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture30.jpg" alt="" width="498" height="304" />
 <ul>
-  <li>Now, with these values, you can follow the exact process outlined in the <a href="https://docs.google.com/document/d/1AK6WDXGKIaXLF9BnPrC9DGTp7ixYU0RZ8C9DoWu9Jnk/edit#heading=h.6fm31wtsking"><i>“Offset Tables”</i></a> section. Begin by returning to spindle mode. Then hit <b><i>“Go to zero”</i></b> to return to the origin point.</li>
+  <li>Now, with these values, you can follow the exact process outlined in the <a href="https://docs.google.com/document/d/1AK6WDXGKIaXLF9BnPrC9DGTp7ixYU0RZ8C9DoWu9Jnk/edit#heading=h.6fm31wtsking"><i>"Offset Tables"</i></a> section. Begin by returning to spindle mode. Then hit <b><i>"Go to zero"</i></b> to return to the origin point.</li>
 </ul>
 <img class="aligncenter wp-image-6353" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture31-1.jpg" alt="" width="546" height="364" />
 <ul>
-  <li>Open the settings and go to the Spindle/Laser section to enter the offset values you acquired through the trial and error firing process. Remember to ensure you apply the right directions to each coordinate. Save these values, and return to the visualizer. After this, enter into laser mode and hit the <b><i>“Go to zero”</i></b> button for proper alignment. </li>
+  <li>Open the settings and go to the Spindle/Laser section to enter the offset values you acquired through the trial and error firing process. Remember to ensure you apply the right directions to each coordinate. Save these values, and return to the visualizer. After this, enter into laser mode and hit the <b><i>"Go to zero"</i></b> button for proper alignment. </li>
 </ul>
 &nbsp;
 
@@ -382,7 +382,7 @@ In conclusion, all the information given above tells you all there is to know ab
 &nbsp;
 <h1><b>Bonus Section** 🌟</b></h1>
 <h2><b>Finding Offsets</b> <b>📏</b></h2>
-Utilized offset values are nothing more than the distance between your router/spindle’s centerpoint, and the centerpoint of your LaserBeam. For those interested in how the offset tables provided on this page were compiled, this section details the entire process.  To find these coordinates, CAD software was utilized. Open source CAD models of each of Sienci's products are available on  the company resource page:  
+Utilized offset values are nothing more than the distance between your router/spindle's centerpoint, and the centerpoint of your LaserBeam. For those interested in how the offset tables provided on this page were compiled, this section details the entire process.  To find these coordinates, CAD software was utilized. Open source CAD models of each of Sienci's products are available on  the company resource page:  
 
 &nbsp;
 
@@ -404,7 +404,7 @@ Utilized offset values are nothing more than the distance between your router/sp
 
 &nbsp;
 <ul>
-  <li>Next we want to draw a line the length of the standard mount’s thickness. The standard mount and Vortex Riser mount both have a thickness of 0.135 inches. Thus we add a line that is 0.135 inches / 3.429 mm long:</li>
+  <li>Next we want to draw a line the length of the standard mount's thickness. The standard mount and Vortex Riser mount both have a thickness of 0.135 inches. Thus we add a line that is 0.135 inches / 3.429 mm long:</li>
 </ul>
 &nbsp;
 
@@ -412,7 +412,7 @@ Utilized offset values are nothing more than the distance between your router/sp
 
 &nbsp;
 <ul>
-  <li>Lastly, we add half of the LaserBeam diode’s width. The diode’s width is 40mm, hence we add a 20 mm line to reach the laser beam’s center:</li>
+  <li>Lastly, we add half of the LaserBeam diode's width. The diode's width is 40mm, hence we add a 20 mm line to reach the laser beam's center:</li>
 </ul>
 &nbsp;
 
@@ -420,7 +420,7 @@ Utilized offset values are nothing more than the distance between your router/sp
 
 &nbsp;
 <ul>
-  <li>We now measure the combined distance of the lines using the CAD software’s measurement tool. We can also simply add up all the distance values. Either method works fine:</li>
+  <li>We now measure the combined distance of the lines using the CAD software's measurement tool. We can also simply add up all the distance values. Either method works fine:</li>
 </ul>
 &nbsp;
 
@@ -439,11 +439,11 @@ Utilized offset values are nothing more than the distance between your router/sp
 
 &nbsp;
 <ul>
-  <li>With this information, one simply has to add the standard mount’s thickness, and half the width of the LaserBeam diode to get their offset value. Hence we would have <b>42.99+3.4163+20 =66.419</b>. While not as accurate as the CAD model, due to the rounding of dimensions for the purpose of manufacturing, this method still works just as well. The difference in accuracy is negligible. </li>
+  <li>With this information, one simply has to add the standard mount's thickness, and half the width of the LaserBeam diode to get their offset value. Hence we would have <b>42.99+3.4163+20 =66.419</b>. While not as accurate as the CAD model, due to the rounding of dimensions for the purpose of manufacturing, this method still works just as well. The difference in accuracy is negligible. </li>
 </ul>
 &nbsp;
 
-To summarize, the required offset value for the standard mount when used in conjunction with the <b>MK1V4B-MKV2</b> is given by: <b><i>(The distance between the mount’s center and front edge)</i> + <i>(the thickness of the standard mount plate)</i> +  (1/2  width of the LaserBeam diode)</b>
+To summarize, the required offset value for the standard mount when used in conjunction with the <b>MK1V4B-MKV2</b> is given by: <b><i>(The distance between the mount's center and front edge)</i> + <i>(the thickness of the standard mount plate)</i> +  (1/2  width of the LaserBeam diode)</b>
 
 &nbsp;
 
@@ -463,7 +463,7 @@ For this example, the 65 mm mount was used
 
 &nbsp;
 <ul>
-  <li> Firstly, to determine the x-offset, we use the exact same method as we did for the y-offset in part a, but in the x-direction. This is due to the mounting holes being located on the router mount’s side face. We start by drawing line from the mount’s center to its side edge:</li>
+  <li> Firstly, to determine the x-offset, we use the exact same method as we did for the y-offset in part a, but in the x-direction. This is due to the mounting holes being located on the router mount's side face. We start by drawing line from the mount's center to its side edge:</li>
 </ul>
 &nbsp;
 
@@ -508,7 +508,7 @@ For this example, the 65 mm mount was used
 
 &nbsp;
 <ul>
-  <li>From here we mark the centerpoint of the line that represents the distance between the mounting holes. We do this because the LaserBeam’s centerpoint would be located here when mounted:</li>
+  <li>From here we mark the centerpoint of the line that represents the distance between the mounting holes. We do this because the LaserBeam's centerpoint would be located here when mounted:</li>
 </ul>
 &nbsp;
 
@@ -516,7 +516,7 @@ For this example, the 65 mm mount was used
 
 &nbsp;
 <ul>
-  <li> Now we measure the distance between the mounting hole line and the router/spindle’s centerpoint. This measurement comes out to 9.4mm, and thus 9.4 mm is our y-offset value:</li>
+  <li> Now we measure the distance between the mounting hole line and the router/spindle's centerpoint. This measurement comes out to 9.4mm, and thus 9.4 mm is our y-offset value:</li>
 </ul>
 &nbsp;
 
@@ -524,20 +524,20 @@ For this example, the 65 mm mount was used
 
 &nbsp;
 <ul>
-  <li>  We also could have simply just taken the x-measurement with our initial setup by drawing a line to the LaserBeam’s centerpoint. We see that we get the exact same result:</li>
+  <li>  We also could have simply just taken the x-measurement with our initial setup by drawing a line to the LaserBeam's centerpoint. We see that we get the exact same result:</li>
 </ul>
 &nbsp;
 
 <b><img class="aligncenter wp-image-6369" src="https://resources.sienci.com/wp-content/uploads/2024/02/Picture50.jpg" alt="" width="400" height="351" /></b>
 <b></b>
 <ul>
-  <li>To summarize, the x-offset is given by: <b><i>(The distance between the mount’s center and front edge)</i> + <i>(the thickness of the standard mount plate)</i> +  (1/2  width of the laser diode)</b>, while the y-offset is given by the distance from the router/spindle’s center, to the center of the distance between the two side mounting holes</li>
+  <li>To summarize, the x-offset is given by: <b><i>(The distance between the mount's center and front edge)</i> + <i>(the thickness of the standard mount plate)</i> +  (1/2  width of the laser diode)</b>, while the y-offset is given by the distance from the router/spindle's center, to the center of the distance between the two side mounting holes</li>
 </ul>
 &nbsp;
 <h2><b>LaserBeam Vortex Riser Mount</b></h2>
 &nbsp;
 <ul>
-  <li><strong>A)</strong> The offsets change depending on the orientation used, but the process is more or less the same. Let’s examine how the offsets were determined for orientation <i>A</i></li>
+  <li><strong>A)</strong> The offsets change depending on the orientation used, but the process is more or less the same. Let's examine how the offsets were determined for orientation <i>A</i></li>
 </ul>
 <b></b>
 <b></b>
@@ -602,7 +602,7 @@ Thus, to find our x-offset, which is our distance between the centerpoint of the
 
 &nbsp;
 <ol start="4">
-  <li>While the same exact method can be applied to all other mount sizes, there is no need as this offset will stay consistent between all of them due to the fact that the center point of the bracket stays consistently aligned to the router/ spindle center throughout all versions. Thus to simplify, for the y-offset: <b><i>(The distance between the mount’s center and front edge)</i> + <i>(the thickness of one of the Vortex mount plates)</i> + (1/2  width of the LaserBeam diode)</b></li>
+  <li>While the same exact method can be applied to all other mount sizes, there is no need as this offset will stay consistent between all of them due to the fact that the center point of the bracket stays consistently aligned to the router/ spindle center throughout all versions. Thus to simplify, for the y-offset: <b><i>(The distance between the mount's center and front edge)</i> + <i>(the thickness of one of the Vortex mount plates)</i> + (1/2  width of the LaserBeam diode)</b></li>
 </ol>
 &nbsp;
 

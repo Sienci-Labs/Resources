@@ -27,12 +27,12 @@ We'll cover several key concepts in this project, including:
 
 To complete this project, we will be using:
 
-- **A 4” long piece of stock with a diameter of 2.5” which we'll make ourselves**
+- **A 4" long piece of stock with a diameter of 2.5" which we'll make ourselves**
 - <a href="https://drive.google.com/file/d/1Wh3XfmEBAeNMbF6ZqhM3hvReI7nSWJ4E/view?usp=drive_link">3D skull file</a>
 - **VCarve Software**
-- **¼” upcut end mill for roughing**
+- **¼" upcut end mill for roughing**
 - <a href="https://resources.sienci.com/wp-content/uploads/2023/08/3D-Roughing-1.gcode" rel="noopener" download="">Roughing Pass</a> <b>g-code file</b>
-- **¼” tapered ball end mill for finishing**
+- **¼" tapered ball end mill for finishing**
 - <a href="https://resources.sienci.com/wp-content/uploads/2023/08/3D-Finish-1.gcode" rel="noopener" download="">Finishing Pass</a> <b>g-code file</b>
 - **gSender**
 - **LongMill with Vortex attachment**
@@ -204,7 +204,7 @@ Before we take off:
 
 ### Workholding
 
-In Your First Project, because our stock diameter was 1”we used the **chuck’s jaws** to clamp the wood directly into the chuck. For this project, we will be using the **screw-on workholding face plate**, because we are using tabs. We will also be using the tailstock to add some support to our job.
+In Your First Project, because our stock diameter was 1"we used the **chuck’s jaws** to clamp the wood directly into the chuck. For this project, we will be using the **screw-on workholding face plate**, because we are using tabs. We will also be using the tailstock to add some support to our job.
 
 #### Faceplate
 
@@ -258,7 +258,7 @@ Rotary surfacing is similar to the regular XYZ surfacing wizard. Let’s explore
 
 <img class="aligncenter size-full wp-image-5808" src="https://resources.sienci.com/wp-content/uploads/2023/08/IMG_6104.gif" alt="" width="424" height="238" />
 
-**Congrats!** You have prepped your stock for its roughing pass. Since we are using the same ¼” end mill, you can simply load up your roughing g-code and hit start.
+**Congrats!** You have prepped your stock for its roughing pass. Since we are using the same ¼" end mill, you can simply load up your roughing g-code and hit start.
 
 ### Tool Changing
 

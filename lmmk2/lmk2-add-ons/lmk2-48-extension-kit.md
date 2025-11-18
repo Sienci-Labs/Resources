@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_48-MK2-EXT-packing-layout.jpg
 ---
 
-Congratulations on getting your LongMill MK2 48” extension kit! In just a few steps, you’ll soon have a much larger CNC with 56% more cutting area than before, as well as the ability to pass full width 4’ sheets of material through.
+Congratulations on getting your LongMill MK2 48" extension kit! In just a few steps, you'll soon have a much larger CNC with 56% more cutting area than before, as well as the ability to pass full width 4' sheets of material through.
 
 The assembly instructions are available both online and as a PDF that you can download by clicking on the link below:
 
@@ -34,19 +34,19 @@ The assembly instructions are available both online and as a PDF that you can do
 
 ## Updated Parts
 
-We have updated several of the parts you will use in upgrading to the 48”. They will all easily and seamlessly replace the previous ones. To see the most updated version of our 48” assembly PDF or online manual, you can visit our <a href="https://resources.sienci.com/view/lm-unboxing/#starting-up">MK2.5 assembly section</a>.
+We have updated several of the parts you will use in upgrading to the 48". They will all easily and seamlessly replace the previous ones. To see the most updated version of our 48" assembly PDF or online manual, you can visit our <a href="https://resources.sienci.com/view/lm-unboxing/#starting-up">MK2.5 assembly section</a>.
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_EX-48-Add-On-WP-pic.jpg){.aligncenter .size-medium .wid}
 
-## 48” X-axis rail box unpacking
+## 48" X-axis rail box unpacking
 
 https://www.youtube.com/watch?v=KjirFKNT3pM
 
-Inside the 48” X-axis rail box, you’ll find the X-axis rail packaged with 5 boxes.
+Inside the 48" X-axis rail box, you'll find the X-axis rail packaged with 5 boxes.
 
-The ‘EX hardware box’ contains various hardware that is used when assembling the extension kit, the EX drag chain & cable box contains a longer 1400mm drag chain and various cables, the Y-axis gantry plates box contains the two EX Y-gantry plates, and the MK2 EX hardware box contains some small parts specific to this extension kit.
+The 'EX hardware box' contains various hardware that is used when assembling the extension kit, the EX drag chain & cable box contains a longer 1400mm drag chain and various cables, the Y-axis gantry plates box contains the two EX Y-gantry plates, and the MK2 EX hardware box contains some small parts specific to this extension kit.
 
-The last box serves to fill empty space inside the rail box and better protect the X-axis rail during shipping. You’ll want to unpack all hardware from these boxes and set this aside for whenever it is called during assembly.
+The last box serves to fill empty space inside the rail box and better protect the X-axis rail during shipping. You'll want to unpack all hardware from these boxes and set this aside for whenever it is called during assembly.
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_48-MK2-EXT-packing-layout.jpg "EX Hardware box"){.aligncenter .size-medium}
 
@@ -58,29 +58,29 @@ The last box serves to fill empty space inside the rail box and better protect t
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__4588.jpg){.aligncenter .size-medium}
 
-### Tools you’ll need
+### Tools you'll need
 
-You’ll need these tools on hand for assembly. Most people will have these in their shop:
+You'll need these tools on hand for assembly. Most people will have these in their shop:
 
 - Metric Allen keys (we provide)
 - Metric wrenches, metric socket set, or adjustable wrenches.
 - A small flat head screwdriver
 
-We don’t recommend you use an impact driver for assembly except when mounting the machine because you won’t save much time and some assemblies are prone to damage if they’re overtightened
+We don't recommend you use an impact driver for assembly except when mounting the machine because you won't save much time and some assemblies are prone to damage if they're overtightened
 
 ### Missing/broken parts?
 
-Don’t sweat it - your kit has spares and redundancy included. If a part is lost or isn’t going together how you expect, no worries; just check through the bags and you’ll likely find what you need to continue assembly. Expect some bolts left over at the end and feel free to set these aside for future machine maintenance.
+Don't sweat it - your kit has spares and redundancy included. If a part is lost or isn't going together how you expect, no worries; just check through the bags and you'll likely find what you need to continue assembly. Expect some bolts left over at the end and feel free to set these aside for future machine maintenance.
 
 We supply extra parts so that:
 
-- If a part doesn’t work properly the extra one can be used instead
-- If you lose something (especially small things) you don’t have to search the floor
+- If a part doesn't work properly the extra one can be used instead
+- If you lose something (especially small things) you don't have to search the floor
 - We reduce the chance of packing too few on our end
 
-If a part is missing completely, check that you’re looking for the right thing and ensure you look through all the packaging you received with your extension kit. Some parts and add-ons such as the t-tracks ship in a separate package if they can’t fit into the same box.
+If a part is missing completely, check that you're looking for the right thing and ensure you look through all the packaging you received with your extension kit. Some parts and add-ons such as the t-tracks ship in a separate package if they can't fit into the same box.
 
-If a part arrives broken and doesn’t have a spare, the LongMill extension kit’s warranty covers replacement parts and we’ll even be happy to help you out if you break it yourself. Just shoot us a message here (<a href="https://sienci.com/contact-us/" target="_blank" rel="noopener noreferrer">https://sienci.com/contact-us/</a>) and see if there are any other areas of assembly you can continue with in the meantime. We’ll get back to you as soon as we can.
+If a part arrives broken and doesn't have a spare, the LongMill extension kit's warranty covers replacement parts and we'll even be happy to help you out if you break it yourself. Just shoot us a message here (<a href="https://sienci.com/contact-us/" target="_blank" rel="noopener noreferrer">https://sienci.com/contact-us/</a>) and see if there are any other areas of assembly you can continue with in the meantime. We'll get back to you as soon as we can.
 
 ### Assembly tips
 
@@ -88,7 +88,7 @@ If a part arrives broken and doesn’t have a spare, the LongMill extension kit�
   <li><b>Take breaks when needed</b>
 The assembly process can take a few to several hours. Pace yourself and enjoy the process.</li>
   <li><b>Read the instructions</b>
-Many issues during assembly can be solved by re-examining the instructions. Check that you didn’t skip a page and that you completed the previous step correctly. Some steps are hard to explain and some parts have names that are hard to remember so looking at the pictures more closely can also help you to better understand what needs to be done. Reading is encouraged if you’d like more detail on where to locate the part, what function it serves on the machine, and other elaborative information. Our assembly videos can’t be updated as often as the online or PDF instructions so if packaging or parts change the written manual will always be able to clarify these changes.</li>
+Many issues during assembly can be solved by re-examining the instructions. Check that you didn't skip a page and that you completed the previous step correctly. Some steps are hard to explain and some parts have names that are hard to remember so looking at the pictures more closely can also help you to better understand what needs to be done. Reading is encouraged if you'd like more detail on where to locate the part, what function it serves on the machine, and other elaborative information. Our assembly videos can't be updated as often as the online or PDF instructions so if packaging or parts change the written manual will always be able to clarify these changes.</li>
   <li><b>Remember the language</b>
 This manual contains some technical language as well as a distinct visual language. Keeping these in mind will make the assembly easier for you to understand and ensure that less mistakes happen.
 <br>
@@ -102,7 +102,7 @@ This manual contains some technical language as well as a distinct visual langua
     </thead>
     <tbody>
         <tr>
-            <td style="text-align: left; padding: 5px; border: none;">• Section title pages: show the part of the machine you’ll be working on next</td>
+            <td style="text-align: left; padding: 5px; border: none;">• Section title pages: show the part of the machine you'll be working on next</td>
             <td style="text-align: left; padding: 5px; border: none;"><img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_unboxing_machinepart.png" class="alignnone size-full"></td>
         </tr>
         <tr>
@@ -122,7 +122,7 @@ This manual contains some technical language as well as a distinct visual langua
             <td style="text-align: left; padding: 5px; border: none;"><img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_unboxing_clarity.png" class="alignnone size-medium"></td>
         </tr>
         <tr>
-            <td style="text-align: left; padding: 5px; border: none;">• X, Y, and Z: during assembly if you see these capitalized letters used it’s because we refer to some parts by the axis they belong to. For reference, if you’re looking at the LongMill from the front, the X-axis is when the machine moves left/right (red), the Y-axis is towards/away from you (green), and the Z-axis is moving up/down from the tabletop (blue).</td>
+            <td style="text-align: left; padding: 5px; border: none;">• X, Y, and Z: during assembly if you see these capitalized letters used it's because we refer to some parts by the axis they belong to. For reference, if you're looking at the LongMill from the front, the X-axis is when the machine moves left/right (red), the Y-axis is towards/away from you (green), and the Z-axis is moving up/down from the tabletop (blue).</td>
             <td style="text-align: left; padding: 5px; border: none;"><img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_unboxing_xyzangles.jpg" class="alignnone size-medium"></td>
         </tr>
         <tr>
@@ -134,7 +134,7 @@ This manual contains some technical language as well as a distinct visual langua
 
 </li>
   <li><b>Set aside a clean space for disassembled parts</b>
-Since installing this extension kit will require the removal of some parts, as well as the reusing of some, make sure you can set these parts aside without losing any or mixing anything up.This manual will specify which parts will and will not be reused for final assembly of the 48×30” machine.</li>
+Since installing this extension kit will require the removal of some parts, as well as the reusing of some, make sure you can set these parts aside without losing any or mixing anything up.This manual will specify which parts will and will not be reused for final assembly of the 48×30" machine.</li>
 </ol>
 
 ## Drag chain and wiring disassembly
@@ -191,7 +191,7 @@ Before beginning the disassembly and replacement of components which make up the
 
 ### X-axis motor and lead screw removal
 
-Working backwards from how your LongMill was assembled, we’ll first start by removing the X-axis motor, then X-axis lead screw. First, loosen the coupler clamping screw at the lead screw side as shown.
+Working backwards from how your LongMill was assembled, we'll first start by removing the X-axis motor, then X-axis lead screw. First, loosen the coupler clamping screw at the lead screw side as shown.
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__4622.jpg){.aligncenter .size-medium}
 
@@ -243,7 +243,7 @@ Remove the drag chain mount and drag chain end link from the left side of the X-
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__4664.jpg){.aligncenter .size-medium}
 
-At this point, you’ll want to transfer the two Y-axis rail assemblies and XZ-gantry assembly onto your larger MDF waste board since the soon-to-be 48x30” machine likely will not fit on your existing wasteboard anymore.
+At this point, you'll want to transfer the two Y-axis rail assemblies and XZ-gantry assembly onto your larger MDF waste board since the soon-to-be 48x30" machine likely will not fit on your existing wasteboard anymore.
 
 ### Y-axis gantry disassembly
 
@@ -261,11 +261,11 @@ Once both Y-gantry plates are detached from the rails, remove the lower set of V
 
 ### Parts to reuse
 
-At the end of the disassembly of the X-axis, stop to make sure you haven’t lost any parts which will be reused later. These are all shown below, any other parts not shown can be discarded.
+At the end of the disassembly of the X-axis, stop to make sure you haven't lost any parts which will be reused later. These are all shown below, any other parts not shown can be discarded.
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__5524-2.jpg){.aligncenter .size-medium}
 
-## 48” Extension X-axis assembly
+## 48" Extension X-axis assembly
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_3.-X-axis-Assembly.png){.aligncenter .size-medium}
 
@@ -273,7 +273,7 @@ At the end of the disassembly of the X-axis, stop to make sure you haven’t los
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__PN_4.png){.aligncenter .size-medium .wid}
 
-On the new Y-gantry plates included in the extension kit marked ‘EX’, begin installing the V-wheels into the upper holes of the Y-gantry plates. Make sure the eccentric nuts are rotated so that the V-wheels are in their highest ‘open’ position to make assembly easier.
+On the new Y-gantry plates included in the extension kit marked 'EX', begin installing the V-wheels into the upper holes of the Y-gantry plates. Make sure the eccentric nuts are rotated so that the V-wheels are in their highest 'open' position to make assembly easier.
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__4419detailview.jpg){.aligncenter .size-medium}
 
@@ -285,7 +285,7 @@ Rest the Y-gantry plates onto the Y-axis rails and install the lower V-wheels in
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__5558.jpg){.aligncenter .size-medium}
 
-If the two M5-nylock nuts have fallen out of the Y-axis anti-backlash delrin nuts, you’ll want to re-install these. If you find that they fit loose and are continuously falling out, you can apply a small piece of tape to the back of the delrin nut to hold these in place as shown below.
+If the two M5-nylock nuts have fallen out of the Y-axis anti-backlash delrin nuts, you'll want to re-install these. If you find that they fit loose and are continuously falling out, you can apply a small piece of tape to the back of the delrin nut to hold these in place as shown below.
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__5569.jpg){.aligncenter .size-medium}
 
@@ -301,13 +301,13 @@ Fasten the Y-gantry to the delrin nut by using the two M5-25mm screws removed du
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__PN_1.png){.aligncenter .size-medium .wid}
 
-On the new 48” X-axis rail extrusion, slide the reused drag chain end link assembly into the T-slot using the T-nut.
+On the new 48" X-axis rail extrusion, slide the reused drag chain end link assembly into the T-slot using the T-nut.
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__5593.jpg){.aligncenter .size-medium}
 
-Slide this end link ~10” away from the end of the X-axis rail, then tighten the screw.
+Slide this end link ~10" away from the end of the X-axis rail, then tighten the screw.
 
-Slide in the drag chain mount by sliding in the two T-nuts into the T-slot of the rail. Fasten the mount by tightening the two screws. Ensure that it is offset from the edge of the rail by about 6mm or ¼” (pictured)
+Slide in the drag chain mount by sliding in the two T-nuts into the T-slot of the rail. Fasten the mount by tightening the two screws. Ensure that it is offset from the edge of the rail by about 6mm or ¼" (pictured)
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__5597.jpg){.aligncenter .size-medium}
 
@@ -403,7 +403,7 @@ Grab the T12 Clamping nut and begin threading this onto the lead screw.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48Xtension-pics-9.png){.aligncenter .size-medium}
 
-Using a 19mm, 3/4” , or adjustable wrench, tighten this T12 Clamping nut only until the lead screw no longer has any side-to-side play. Then tighten the M5 locking bolt into the T12 locking nut to secure this.
+Using a 19mm, 3/4" , or adjustable wrench, tighten this T12 Clamping nut only until the lead screw no longer has any side-to-side play. Then tighten the M5 locking bolt into the T12 locking nut to secure this.
 
 Turn the lead screw by hand afterwards to make sure it spins freely. If you feel any significant resistance, undo the M5 locking bolt and loosen the T12 Clamping nut a small amount.
 
@@ -435,7 +435,7 @@ Connect the remaining motor cable to the plug on the X-axis NEMA 23 motor.
 
 Grab the EX drag chain and position this running along the X-axis with the correct end of the drag chain oriented to clip on to the start and end links along the X-axis. Seat the Z-axis motor cable and router power cord into this drag chain.
 
-Note: if you purchased the limit switch add-on kit, you’ll want to install the Z-axis limit switch and route this through the X-axis drag chain as well.
+Note: if you purchased the limit switch add-on kit, you'll want to install the Z-axis limit switch and route this through the X-axis drag chain as well.
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__5633.jpg){.aligncenter .size-medium}
 
@@ -465,7 +465,7 @@ Secure the cables inside the drag chain by re-clipping each clip, then Attach th
 
 ### Organizing excess cable lengths
 
-Grab the two ‘cable hangers’ from the EX hardware box. Align the clip portion of these into the T-slot on the X-rail and press directly downwards firmly to clip these in place. These are installed between the X-axis drag chain end link and the steel drag chain mount as shown.
+Grab the two 'cable hangers' from the EX hardware box. Align the clip portion of these into the T-slot on the X-rail and press directly downwards firmly to clip these in place. These are installed between the X-axis drag chain end link and the steel drag chain mount as shown.
 
 Should you need to unclip these hangers for any minor adjustments, pull the bottom edge of the hanger upwards to rotate and unclip from the T-slot.
 
@@ -485,15 +485,15 @@ The folded bunch of excess cables can then be secured into both cable hangers. T
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__4572.jpg){.aligncenter .size-medium}
 
-Adjust any of the cabling so it fits well within these two hangers and nothing hangs below the X-axis rail, then tighten the zip ties fully. You can adjust the position of the two cable hangers before tightening these zip ties for good. In any case, extra zip ties are provided just in case you’d like to come back and make any adjustments.
+Adjust any of the cabling so it fits well within these two hangers and nothing hangs below the X-axis rail, then tighten the zip ties fully. You can adjust the position of the two cable hangers before tightening these zip ties for good. In any case, extra zip ties are provided just in case you'd like to come back and make any adjustments.
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__4580.jpg){.aligncenter .size-medium}
 
-If you’ve unplugged the two cables for the Y-axis stepper motors, plug these back in now.
+If you've unplugged the two cables for the Y-axis stepper motors, plug these back in now.
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__4583.jpg){.aligncenter .size-medium}
 
-Bring the cables around to the left of the machine so they’re now all bundled together (pictured). You’ll be plugging the motors cables into the control box shortly but otherwise the machine wiring is now complete!
+Bring the cables around to the left of the machine so they're now all bundled together (pictured). You'll be plugging the motors cables into the control box shortly but otherwise the machine wiring is now complete!
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit__4585.jpg){.aligncenter .size-medium}
 
@@ -501,24 +501,24 @@ Bring the cables around to the left of the machine so they’re now all bundled 
 
 Plug the X-axis motor cable, Z-axis motor cable extension, and the two Y-axis motor cables into the control box as shown. Re-connect any other cables which may have been disconnected during earlier disassembly.
 
-Note: if you’ve installed a Z-axis limit switch and its respective extension cable, plug this into the Z-axis limit port.
+Note: if you've installed a Z-axis limit switch and its respective extension cable, plug this into the Z-axis limit port.
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_MK2-64_3.jpg){.aligncenter .size-medium}
 
 ## Tuning Movement
 
-Before the LongMill can be mounted onto the larger wasteboard, the V-wheels and Delrin nuts on the X and Y axes will need to be tuned to ensure the machine’s axes will all self-align when moved.
+Before the LongMill can be mounted onto the larger wasteboard, the V-wheels and Delrin nuts on the X and Y axes will need to be tuned to ensure the machine's axes will all self-align when moved.
 
 The steps outlined for the original LongMill MK2 tuning can be referenced for this <a href="https://resources.sienci.com/view/lmk2-checks-and-first-moves/#tuning-movement" target="_blank" rel="noopener noreferrer">here</a>.
 
 ## Table Mounting
 
-With the X-axis now being extended to 48” working capacity, your LongMill will of course need a much larger work surface now. The 48x30 LongMill MK2 will require a wasteboard that is 48”x70”. The outer dimensions of the 48x30 LongMill MK2 are shown in the diagram below.
+With the X-axis now being extended to 48" working capacity, your LongMill will of course need a much larger work surface now. The 48x30 LongMill MK2 will require a wasteboard that is 48"x70". The outer dimensions of the 48x30 LongMill MK2 are shown in the diagram below.
 
 ![](/_images/_lmmk2/_add-ons/_48-ext-kit/lmk2_48extkit_MK2-Base-Layout1.png){.aligncenter .size-medium}
 
 Despite the larger size, the table mounting process remains the same as the original 30x30 LongMill MK2. Follow the table mounting instructions for this found <a href="https://resources.sienci.com/view/lmk2-table-mounting/#mounting-your-LongMill" target="_blank" rel="noopener noreferrer">here</a>.
 
-Congratulations on finishing the installation of your LongMill MK2 48” extension kit! While the operation of your LongMill will stay largely the same, we hope you can take advantage of the extra cutting real estate and benefits that come with the larger X-axis material capacity. Good luck and happy making!
+Congratulations on finishing the installation of your LongMill MK2 48" extension kit! While the operation of your LongMill will stay largely the same, we hope you can take advantage of the extra cutting real estate and benefits that come with the larger X-axis material capacity. Good luck and happy making!
 
 -The Sienci Labs team

@@ -49,11 +49,11 @@ Our 5A constant current LaserBeam driver was designed to provide a maximum of 5A
 <td>Current Limit</td>
 </tr>
 <tr>
-<td>Minimum “on” Control Signal Voltage</td>
+<td>Minimum "on" Control Signal Voltage</td>
 <td>3V</td>
 </tr>
 <tr>
-<td>Maximum “on” Control Signal Voltage</td>
+<td>Maximum "on" Control Signal Voltage</td>
 <td>12V</td>
 </tr>
 <tr>

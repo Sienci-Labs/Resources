@@ -26,13 +26,13 @@ gSender updates always have the chance of encountering quirks, so if you have an
 ![](/_images/_gsender/_classic/gs_cl_in_updater.jpg){.aligncenter .size-full}
 
 **If you upgrade to a new version, or downgrade to an older version, and gSender won't open or run (blank screen):**  
-You’ll want to find a file called “**.sender_rc**” and rename it so gSender can generate a new version without errors. Sometimes you might also want to delete the “**.sienci-sessions**” folder too.
+You’ll want to find a file called "**.sender_rc**" and rename it so gSender can generate a new version without errors. Sometimes you might also want to delete the "**.sienci-sessions**" folder too.
 
-- For Windows: the file can usually be found on your hard drive, at: **C:/users/{your username}/.sender_rc**. Rename it to whatever you like, like “**.sender_rc_old**”, then try to reinstall gSender again.
+- For Windows: the file can usually be found on your hard drive, at: **C:/users/{your username}/.sender_rc**. Rename it to whatever you like, like "**.sender_rc_old**", then try to reinstall gSender again.
 ![](/_images/_gsender/_classic/gs_cl_in_update-senderrc.jpg){.aligncenter .size-medium}
 ![](/_images/_gsender/_classic/gs_cl_in_update-rcold.jpg){.aligncenter .size-medium}
 - For Mac/Linux: the file is in the home directory as a **hidden file**. You can either:
-  - In Finder go to **Go ➜ Computer ➜ Drive ➜ Users ➜ {your username}** then un-hide the ".sender_rc" file by pressing `CMD + Shift + .` keys. Rename it to whatever you like, like “**.sender_rc_old**”, then try to reinstall gSender again.
+  - In Finder go to **Go ➜ Computer ➜ Drive ➜ Users ➜ {your username}** then un-hide the ".sender_rc" file by pressing `CMD + Shift + .` keys. Rename it to whatever you like, like "**.sender_rc_old**", then try to reinstall gSender again.
   - Go into the Mac/Linux console and enter the command `mv ~/.sender_rc ~/.sender_rc_old`. You’ll be able to double check the renaming was successful by sending `ls -al | grep sender` in the console, where if you only see `.sender_rc_old`, you have successfully remanded and are ready to try to reinstall gSender.
 - If this solves your problem, you'll still be able to recover your old Start/Stop events and macros from the renamed file; just open it in a text editor and copy the macros you want to save so you can paste them back into gSender.
 
@@ -97,7 +97,7 @@ If you're running into an issue where the size isn't correct when using Soft Lim
 
 Windows computers can tend to have their screens and USB ports 'fall asleep' even in the middle of running a long carving job. This can cause your intricate cuts to stop short and the job to fail. gSender tries to fight against this by keeping your computer awake (we use similar tactics to auto-clicker apps), but sometimes this still isn't enough so you have to change your computer settings manually.
 
-To keep the display on, you'll want to click the **Windows** icon at the bottom left corner of your screen and start to type “<em>control panel</em>” to bring it up.
+To keep the display on, you'll want to click the **Windows** icon at the bottom left corner of your screen and start to type "<em>control panel</em>" to bring it up.
 
 ![](/_images/_gsender/_classic/_setup-cl/gs_cl_se_awake-control-panel.jpg){.aligncenter .size-medium}
 
@@ -169,7 +169,7 @@ Each g-code file or project will have a starting position that all other movemen
 1. Set the zeros all at once using 'Zero All'
 ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_zero-all.jpg){.aligncenter .size-medium}
 
-The large blue numbers tell you the current position of your machine. If you want to return to your zero position, you can press the 'Go to' for each individual axis and the large blue numbers will read “0.00” once it's finished moving.
+The large blue numbers tell you the current position of your machine. If you want to return to your zero position, you can press the 'Go to' for each individual axis and the large blue numbers will read "0.00" once it's finished moving.
 
 ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_gotos.jpg){.aligncenter .size-medium}
 
@@ -177,7 +177,7 @@ You can also use the 'Go to XY0' to return to the starting position in X and Y i
 
 ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_gotos_goxy0.jpg){.aligncenter .size-medium}
 
-*Note: if you’ve set up “Safe Height” in gSender, then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
+*Note: if you’ve set up "Safe Height" in gSender, then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
 
 ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_gotos_goto.jpg){.aligncenter .size-medium}
 
@@ -187,7 +187,7 @@ If you want to go somewhere else quickly without manually jogging there, you can
 
 You can reset your zeros anytime when the machine is not actively running a job. The machine will remember your zero in most cases. If you turn the lead screw with your fingers or push the gantry, the machine does not know you moved it, therefore it will lose the zero position. You can jog on the Jog Control without losing your zero position because gSender knows you are moving the machine.
 
-You can also enter coordinates directly by clicking the location value. It’ll turn into a white box where you can type any number, then hit the ‘enter’ key to confirm it. For instance you could set your Z-axis to 0.1mm instead of 0 if you’re using the paper method and you want to account for the paper thickness. Another example is instead of jogging 10mm to the right and clicking ‘zero’ to begin cutting a duplicate job that’s shifted over, you can just type “-10” and start the job right away (since if ‘zero’ is 10mm to the right, then your current location would be 0 - 10 = -10mm).
+You can also enter coordinates directly by clicking the location value. It’ll turn into a white box where you can type any number, then hit the ‘enter’ key to confirm it. For instance you could set your Z-axis to 0.1mm instead of 0 if you’re using the paper method and you want to account for the paper thickness. Another example is instead of jogging 10mm to the right and clicking ‘zero’ to begin cutting a duplicate job that’s shifted over, you can just type "-10" and start the job right away (since if ‘zero’ is 10mm to the right, then your current location would be 0 - 10 = -10mm).
 
 ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_dro-typing.jpg){.aligncenter .size-medium}
 
@@ -196,12 +196,12 @@ You can also enter coordinates directly by clicking the location value. It’ll 
 gSender provides unique features if you have endstops on your machine for homing or limits. Once homing is enabled ($22) you’ll notice additional buttons appear in the ‘Location’ area of gSender:
 
 - The ‘Home’ button is a convenient way to home or re-home your machine at any time (sends the typical $h command).
-- Four “quick-travel” buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed, you’ll also notice a house icon appear at the corner that your machine homes to.
-- If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials (before it would move up by the safe height amount).
+- Four "quick-travel" buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). These can only be used once your machine is homed, you’ll also notice a house icon appear at the corner that your machine homes to.
+- If you’ve set up a "Safe Height" in your gSender settings, now any "go to" or "quick-travel" button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials (before it would move up by the safe height amount).
 
 ![](/_images/_gsender/_classic/_using-cl/gs_cl_us_quick-travel.jpg){.aligncenter .size-medium}
 
-If you’re having issues with the “quick-travel” buttons, then check the “maximum travel” settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings in the Firmware tool as $130-133.
+If you’re having issues with the "quick-travel" buttons, then check the "maximum travel" settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings in the Firmware tool as $130-133.
 
 If you'd like more information on how to set up and use limit switches, read here: <a href="https://resources.sienci.com/view/lm-adding-limit-switches/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-adding-limit-switches/</a>
 
@@ -272,7 +272,7 @@ Now you're off and cutting, what a thrill! While your job is running keep an eye
 
 ## **Job Loss Recovery**
 
-Also called “Start from Line”, this feature can recover a carve you were working on that:
+Also called "Start from Line", this feature can recover a carve you were working on that:
 
 1. You had to manually stop part-way through
 1. Was disrupted by a power loss, USB disconnect, mechanical malfunction, or other failure so you need to resume from where it failed
@@ -591,7 +591,7 @@ When you first start up gSender, the console will display EEPROM settings that a
 - Direction of each axis movement
 - Limit switch settings
 
-To access EEPROM settings again, enter in “$$” into the console and hit the 'Enter' key or click the 'Run' button. These settings can be changed via the console as well as the Firmware Tool which we've designed as a much more visual way to alter machine settings.
+To access EEPROM settings again, enter in `$$` into the console and hit the 'Enter' key or click the 'Run' button. These settings can be changed via the console as well as the Firmware Tool which we've designed as a much more visual way to alter machine settings.
 
 ## Calibrate Tool
 
@@ -614,7 +614,7 @@ Here you'll see machine information, notable firmware settings, and at-a-glance 
 
 Another valuable feature is the ability to download a Diagnostic PDF file of your CNC machine when you click ‘Download Now!’. This PDF file is meant to include information on your computer, your CNC, recent alarms / errors, any currently loaded g-code file, and more. It's basically a treasure trove of information that you can share on community forums, Facebook groups, or with your CNC customer support. This can go a long way towards getting help from others on diagnosing any problems your CNC might be experiencing.
 
-To download the PDF, click the “**Download Now!**” button. This will open a save dialog box. Save the file to a location that you can easily access to send along to others in an email, support ticket or post online.
+To download the PDF, click the "**Download Now!**" button. This will open a save dialog box. Save the file to a location that you can easily access to send along to others in an email, support ticket or post online.
 
 Lastly, you can copy the last 40 lines of code in the gSender console (1), by hitting the double page icon to the left of the Run button (2). This will copy the code to your clipboard, so you can paste it to forums or share it with support teams.
 
@@ -673,7 +673,7 @@ Surfacing the wasteboard of your machine can easily be done right inside gSender
 ![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_surf-open.jpg){.aligncenter .size-full}
 
 1. Start by entering the settings you’d like to use to generate your surfacing job:
-   - **X & Y**: decides the cutting size (width and depth) you want to surface. If you’re surfacing your wasteboard, use the manufacturer’s spec on max machine travel or manually jog to the limits to cover the full cutting area, or if you’re surfacing a piece of material then you can use a measuring tape.<br>- **LongMill MK2**: 818mm (32.2”) or 1278 (50.3”) x 366mm (14.4”) or 866 (34.1”)<br>(if using limit switches, remove about 8mm/0.3” in X and 11mm/0.43” in Y)<br>- **LongMill MK1**: 320mm (12.6”) or 805 (31.7”) x 344mm (13.54”) or 844 (33.23”)<br>(if using limit switches, remove about 35mm/1.38” in X and 24mm/0.94” in Y)<br>(if using magnetic dust shoe, remove about 34mm/1.34” in X)<br>- **Mill One**: 235mm (9.25”) or 257 (10.1”) x 185mm (7.28”)
+   - **X & Y**: decides the cutting size (width and depth) you want to surface. If you’re surfacing your wasteboard, use the manufacturer’s spec on max machine travel or manually jog to the limits to cover the full cutting area, or if you’re surfacing a piece of material then you can use a measuring tape.<br>- **LongMill MK2**: 818mm (32.2") or 1278 (50.3") x 366mm (14.4") or 866 (34.1")<br>(if using limit switches, remove about 8mm/0.3" in X and 11mm/0.43" in Y)<br>- **LongMill MK1**: 320mm (12.6") or 805 (31.7") x 344mm (13.54") or 844 (33.23")<br>(if using limit switches, remove about 35mm/1.38" in X and 24mm/0.94" in Y)<br>(if using magnetic dust shoe, remove about 34mm/1.34" in X)<br>- **Mill One**: 235mm (9.25") or 257 (10.1") x 185mm (7.28")
    - **Cut Depth & Max**: describes how deep you want to cut per pass and the total depth you want to cut down. For larger surfacing bits usually you should keep cut depth below 1mm, max depth should be increased to a couple millimeters if you think your material is very warped.
    - **Bit** (typically 6 - 25mm): make sure you have the right bit for the job like a surfacing tool or a large, flat end mill since this will give you a better surface finish.
    - **Spindle RPM** (default 1700): only applies if you have an automatic speed control, otherwise set this manually on your router.
@@ -865,7 +865,7 @@ If you’re an **advanced user** or have tried the default values without succes
 
 During initial setup, you might see a Security Alert window pop up or run into an issue where the browser address isn’t working. The most likely issue here is that your inline computer firewall isn’t allowing gSender to communicate to other devices on your network.
 
-**For Windows:** You should simply see a popup from Windows Firewall or your antivirus software asking for approval to allow gSender to communicate on your home network. Please check the box beside “Private networks” and “Public networks”. This should be all that’s needed.
+**For Windows:** You should simply see a popup from Windows Firewall or your antivirus software asking for approval to allow gSender to communicate on your home network. Please check the box beside "Private networks" and "Public networks". This should be all that’s needed.
 
 ![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_remote-firewall-windows.jpg){.aligncenter .size-medium}
 
@@ -904,17 +904,17 @@ If you ran into issues during remote control setup, here are some other checks y
    ![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_remote-issues-security.jpg){.aligncenter .size-medium}
    - Open the ‘Windows Defender Firewall’ and go to its ‘Advanced settings’
    ![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_remote-issues-firewall.jpg){.aligncenter .size-medium}
-   - In the column on the left, click on ‘Inbound Rules’ and then find and double-click on ‘gSender’. There might be three options of gSender to click on, you’ll want to click on the version that has the word “All” under the ‘Profile’ column
+   - In the column on the left, click on ‘Inbound Rules’ and then find and double-click on ‘gSender’. There might be three options of gSender to click on, you’ll want to click on the version that has the word "All" under the ‘Profile’ column
    ![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_remote-issues-inbound-rules.jpg){.aligncenter .size-medium}
-   - In the pop-up box, click on the tab labelled ‘Protocols and Ports’. Next to ‘Local port:’ you’ll want to use the drop-down menu to select “Specific Ports” and then type in the default port of “8000”. If you have added a custom port to gSender’s Shortcut properties, you’ll need to type in that number instead. Once you hit ‘Apply’, you can check to see if this resolved your problem.
+   - In the pop-up box, click on the tab labelled ‘Protocols and Ports’. Next to ‘Local port:’ you’ll want to use the drop-down menu to select "Specific Ports" and then type in the default port of "8000". If you have added a custom port to gSender’s Shortcut properties, you’ll need to type in that number instead. Once you hit ‘Apply’, you can check to see if this resolved your problem.
    ![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_remote-issues-port.jpg){.aligncenter .size-medium}
 1. If when gSender reopens you’re met with a white screen, this means an error has occurred that we weren’t able to detect. This is rare, but unless we can find some other way to manage this the only fix is to uninstall gSender and reinstall it again.
-1. If on the remote device you get a popup for “Server Connection Lost”, this indicates that either gSender on the inline computer was closed or the shared internet is disconnecting. You should be able to fix this by restarting gSender on the inline device, then clicking “Attempt Reconnect” on the remote device.
+1. If on the remote device you get a popup for "Server Connection Lost", this indicates that either gSender on the inline computer was closed or the shared internet is disconnecting. You should be able to fix this by restarting gSender on the inline device, then clicking "Attempt Reconnect" on the remote device.
 ![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_remote-issues-conn-lost.jpg){.aligncenter .size-medium}
 
 ## Rotary
 
-gSender has a unique ability to control a rotary axis on normal, 3-axis grbl machines. We call this “rotary mode”; which isn't to be confused with grblHAL machines where gSender by default supports full, 4-axis motion. The idea is that once you're in this "rotary mode", gSender does the legwork to swap firmware settings over to your rotary setup, translate A-axis movements to your machine as if they were Y-axis movements, and as long as you've done the legwork to align and swap over your wires then your rotary A-axis should now be good to go!
+gSender has a unique ability to control a rotary axis on normal, 3-axis grbl machines. We call this "rotary mode"; which isn't to be confused with grblHAL machines where gSender by default supports full, 4-axis motion. The idea is that once you're in this "rotary mode", gSender does the legwork to swap firmware settings over to your rotary setup, translate A-axis movements to your machine as if they were Y-axis movements, and as long as you've done the legwork to align and swap over your wires then your rotary A-axis should now be good to go!
 
 ### Rotary Mode
 
@@ -1034,7 +1034,7 @@ When you click on the setting button and then select the Rotary tab, you will se
 
 ## About Page
 
-You can find the release notes for the latest version of gSender in the “About” section of the settings.
+You can find the release notes for the latest version of gSender in the "About" section of the settings.
 
 ![](/_images/_gsender/_classic/_features-cl/gs_cl_fe_about.jpg){.aligncenter .size-medium}
 

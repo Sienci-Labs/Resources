@@ -260,7 +260,7 @@ If you've done 'movement tuning' of your CNCs steps/mm ($100-102), you can trans
 - This means you'll want to take your old values and multiply them by 4 when you add them to the SLB. For example the old value might be 201.5, so the new one should be 806 steps/mm
 - Once added, you can double-check that the movement distances look correct
 
-While you’re here, if you used to use $1=255 to hold your motors (typically used for heavier spindles or CNCs mounted vertically), you can now instead scroll down to setting 37 “Steppers de-energize” where you can now choose to hold individual motors.
+While you’re here, if you used to use $1=255 to hold your motors (typically used for heavier spindles or CNCs mounted vertically), you can now instead scroll down to setting 37 "Steppers de-energize" where you can now choose to hold individual motors.
 
 ### Touch Plate Test
 
@@ -280,7 +280,7 @@ Then, tap the magnet to the touch plate. You will see the yellow PRB light on th
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p30_GIF.gif){.aligncenter .size-medium}
 
-You’ll know you are successful if the popup button turns blue, and says “Start Probe”.
+You’ll know you are successful if the popup button turns blue, and says "Start Probe".
 
 [tabby title="Current" open="yes"]
 
@@ -292,7 +292,7 @@ You’ll know you are successful if the popup button turns blue, and says “Sta
 
 [tabbyending]
 
-If the light is coming on but the popup button isn’t turning blue, this can sometimes be fixed by resetting your board settings. Do this by typing “$RST=$” into the console tab and hitting Enter, then use the power switch on the back of the board to “power-cycle” it off and back on again. Once you reconnect in gSender you can try probing again.
+If the light is coming on but the popup button isn’t turning blue, this can sometimes be fixed by resetting your board settings. Do this by typing "$RST=$" into the console tab and hitting Enter, then use the power switch on the back of the board to "power-cycle" it off and back on again. Once you reconnect in gSender you can try probing again.
 
 <p style="text-align: center;"><em><b>Note:</b> If you reset your board settings, you’ll need to go back and change any other settings you changed up until this point,, like inverting the Z-axis for MK1 owners.</em></p>
 
@@ -320,7 +320,7 @@ Your limit switches are installed and plugged into your SLB, so let’s check th
 ![](/_images/_superlongboard/_upgrade/slb_up_p33.jpg){.aligncenter .size-medium}
 1. **Signal to the board** - Navigate to your Machine Information icon on the main Carve tab to see if your board is receiving the signal from the limit switch, when the pins change from OFF to ON. Also double check that the correct axis is turning on.
    ![](/_images/_superlongboard/_upgrade/slb_up_p34_PinGIF-newu.gif "Note: If you don’t see an axis turning ON/OFF, double check the connections on the board. We don’t use Y2 for example."){.aligncenter .size-full}
-1. **Turn Homing on** - Navigate to the Config tab ➜ Homing/Limits section. Here you will see 8 toggles under the heading “Homing cycle”. There are many options for homing on the SLB, but just start by matching the toggles in the picture below (on, off - on, on - off, off - on, off). This will make the SLB home the same way that you’re already used to. Make sure to click “Apply New Settings”.
+1. **Turn Homing on** - Navigate to the Config tab ➜ Homing/Limits section. Here you will see 8 toggles under the heading "Homing cycle". There are many options for homing on the SLB, but just start by matching the toggles in the picture below (on, off - on, on - off, off - on, off). This will make the SLB home the same way that you’re already used to. Make sure to click "Apply New Settings".
 
    If you ever find you can’t unlock homing, homing isn’t setting the machine coordinates to zero, or other unusual behaviours, come back here to double-check this list since you might not have all the right settings turned on. If you’re still curious about the other options, check out the <a href="https://resources.sienci.com/view/slb-manual/#homing-amp-limit-switches">Homing &amp; Limits Setup</a> section.
    ![](/_images/_superlongboard/_upgrade/slb_up_p35_HomingCycle-newu.jpg){.aligncenter .size-medium}
@@ -328,7 +328,7 @@ Your limit switches are installed and plugged into your SLB, so let’s check th
 ![](/_images/_superlongboard/_upgrade/slb_up_p35a_Home-newu.jpg){.aligncenter .size-medium}
 1. **Invert if needed** - If you find any axes are reversed, return to the Homing/Limits section in the Config tab and flip any of the directions that are wrong. If you find that homing is behaving weirdly still, go back and check that you turned on the right toggles.
    ![](/_images/_superlongboard/_upgrade/slb_up_p36_HomingDirection-newu.jpg){.aligncenter .size-medium}
-1. **Reduce homing speed if needed** - If you’re finding your CNC gets stuck completing a homing cycle or is disconnecting, try reducing the homing “search seek rate” ($25) or increasing the “debounce delay” ($26) settings. Depending on your setup or sensors, the default values might be a bit too aggressive.
+1. **Reduce homing speed if needed** - If you’re finding your CNC gets stuck completing a homing cycle or is disconnecting, try reducing the homing "search seek rate" ($25) or increasing the "debounce delay" ($26) settings. Depending on your setup or sensors, the default values might be a bit too aggressive.
 
 [tabby title="Classic gSender"]
 
@@ -336,14 +336,14 @@ Your limit switches are installed and plugged into your SLB, so let’s check th
 ![](/_images/_superlongboard/_upgrade/slb_up_p33.jpg){.aligncenter .size-medium}
 1. **Signal to the board** - Navigate to your Calibration Tool and check the Diagnostics tab to see if your board is receiving the signal from the limit switch, when the pins change from OFF to ON. Also double check that the correct axis is turning on.
    ![](/_images/_superlongboard/_upgrade/slb_up_p34_PinGIF.gif "Note: If you don’t see an axis turning ON/OFF, double check the connections on the board. We don’t use Y2 for example."){.aligncenter .size-full}
-1. **Turn Homing on** - Scroll down in gSender’s Firmware Tool to 22, also called “Homing cycle”. There are more options for homing on the SLB, but just start by matching the toggles in the picture below (on, off - on, on - off, off - on, off). This will make the SLB home the same way that you’re already used to. Make sure to click “Apply New Settings”.
+1. **Turn Homing on** - Scroll down in gSender’s Firmware Tool to 22, also called "Homing cycle". There are more options for homing on the SLB, but just start by matching the toggles in the picture below (on, off - on, on - off, off - on, off). This will make the SLB home the same way that you’re already used to. Make sure to click "Apply New Settings".
 
    If you ever find you can’t unlock homing, homing isn’t setting the machine coordinates to zero, or other unusual behaviours, come back here to double-check this list since you might not have all the right settings turned on. If you’re still curious about the other options, check out the <a href="https://resources.sienci.com/view/slb-manual/#homing-amp-limit-switches">Homing &amp; Limits Setup</a> section.
    ![](/_images/_superlongboard/_upgrade/slb_up_p35_HomingCycle.jpg){.aligncenter .size-medium}
 1. **Homing test** - With things looking good on the firmware side, let’s run a homing cycle with gSender by pressing the ‘Home’ button on the main screen.
 1. **Invert if needed** - If you find any axes are reversed, return to 23 in the firmware tool and flip any of the directions that are wrong. If you find that homing is behaving weirdly still, go back and check that you turned on the right toggles for 22.
    ![](/_images/_superlongboard/_upgrade/slb_up_p36_HomingDirection.jpg){.aligncenter .size-medium}
-1. **Reduce homing speed if needed** - If you’re finding your CNC gets stuck completing a homing cycle or is disconnecting, try reducing the homing “seek rate” (25) or increasing the “debounce delay” (26) settings. Depending on your setup or sensors, the default values might be a bit too aggressive.
+1. **Reduce homing speed if needed** - If you’re finding your CNC gets stuck completing a homing cycle or is disconnecting, try reducing the homing "seek rate" (25) or increasing the "debounce delay" (26) settings. Depending on your setup or sensors, the default values might be a bit too aggressive.
 
 [tabbyending]
 
@@ -356,7 +356,7 @@ With your LaserBeam plugged into the SLB, let’s perform a quick test to make s
 1. Turn on your LaserBeam driver. <a href="https://resources.sienci.com/view/lb-turning-driver-on/">Go here</a> if you want to refresh your memory on how to do this. If your driver doesn’t turn on, don’t necessarily attribute this to an issue with the board right away. First double check all these conditions are met since they are sometimes easy to forget.
 1. In gSender, navigate to the Config tab ➜ Spindle/Laser tab in the Settings and toggle the spindle/laser controls on.
    ![](/_images/_superlongboard/_upgrade/slb_up_p37_SpindleLaser-newu.jpg){.aligncenter .size-full}
-1. Back on the main screen in the bottom right corner, navigate to the Spindle/Laser tab and select “SLB_LASER” in the dropdown list. After this, flip the toggle at the top to ‘Laser’.
+1. Back on the main screen in the bottom right corner, navigate to the Spindle/Laser tab and select "SLB_LASER" in the dropdown list. After this, flip the toggle at the top to ‘Laser’.
    ![](/_images/_superlongboard/_upgrade/slb_up_p38_SLBSpindle-newu.jpg "Note: Ensure that you are wearing your safety glasses!"){.aligncenter .size-full}
 1. Ensure your power is set to 1% and your ‘Test Duration’ to one second. Now when you hit the ‘Laser Test’ button your diode should momentarily emit a faint beam. This means that the SLB is controlling your laser successfully!
    ![](/_images/_superlongboard/_upgrade/slb_up_p39_LaserTest-newu.jpg){.aligncenter .size-full}
@@ -366,7 +366,7 @@ With your LaserBeam plugged into the SLB, let’s perform a quick test to make s
 1. Turn on your LaserBeam driver. <a href="https://resources.sienci.com/view/lb-turning-driver-on/">Go here</a> if you want to refresh your memory on how to do this. If your driver doesn’t turn on, don’t necessarily attribute this to an issue with the board right away. First double check all these conditions are met since they are sometimes easy to forget.
 1. In gSender, navigate to the Spindle/Laser tab in the Settings and toggle it on.
    ![](/_images/_superlongboard/_upgrade/slb_up_p37_SpindleLaser.jpg){.aligncenter .size-full}
-1. Back on the main screen in the bottom right corner, navigate to the Spindle/Laser tab and select “SLB_LASER” in the dropdown list. After this, flip the toggle at the top to ‘Laser Mode’.
+1. Back on the main screen in the bottom right corner, navigate to the Spindle/Laser tab and select "SLB_LASER" in the dropdown list. After this, flip the toggle at the top to ‘Laser Mode’.
    ![](/_images/_superlongboard/_upgrade/slb_up_p38_SLBSpindle.jpg "Note: Ensure that you are wearing your safety glasses!"){.aligncenter .size-full}
 1. Ensure your power is set to 1% and your ‘Test Duration’ to one second. Now when you hit the ‘Laser Test’ button your diode should momentarily emit a faint beam. This means that the SLB is controlling your laser successfully!
    ![](/_images/_superlongboard/_upgrade/slb_up_p39_LaserTest.jpg){.aligncenter .size-full}
@@ -409,7 +409,7 @@ You can mount your SLB however you like. Some factors to consider might be your 
 Some of the extra tools you may need for this step:
 
 - **Bolting to MK2 Rail** - M5 Allen wrench, plus grab the hardware and bracket provided with the SLB
-- **Screw Down / Flat Mounting** - 2 to 4 wood screws (minimum size #4 or ¾” and min length of ½”) plus the necessary screwdriver or bit driver
+- **Screw Down / Flat Mounting** - 2 to 4 wood screws (minimum size #4 or ¾" and min length of ½") plus the necessary screwdriver or bit driver
 
 ### Bolt to Rail
 
@@ -435,7 +435,7 @@ When placing your SLB on its own or among other CNC control electronics, conside
 
 It’s easy to use the enclosure as a template to mark and drill the holes. The holes are 4.5mm large, spaced 45mm from each other and 230mm from the opposite pair. They’re not perfectly centered on the box but close to it.
 
-You can use whatever bolt or screw type you like but the easiest approach is to use a minimum of 2 countersunk wood screws on diagonal holes from size #4-#8 and a minimum length of ½”. You might have to remove some of the plugs on the ends to access the holes when you screw down the enclosure.
+You can use whatever bolt or screw type you like but the easiest approach is to use a minimum of 2 countersunk wood screws on diagonal holes from size #4-#8 and a minimum length of ½". You might have to remove some of the plugs on the ends to access the holes when you screw down the enclosure.
 
 Congrats!!! You have successfully completed all the general assembly and setup to get your SuperLongBoard up and running.
 

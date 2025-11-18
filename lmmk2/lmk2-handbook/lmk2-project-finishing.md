@@ -42,7 +42,7 @@ You can also [Read More](#learn-sanding), [Learn the Steps](#sanding-steps), or 
 
 ### Sealing
 
-Protect your project from wear, moisture, and environmental damage, while also adding a subtle sheen to highlight the wood’s natural beauty. You worked hard to get this far, so why not finish it right?
+Protect your project from wear, moisture, and environmental damage, while also adding a subtle sheen to highlight the wood's natural beauty. You worked hard to get this far, so why not finish it right?
 
 [su_table responsive="yes"]
 
@@ -210,17 +210,17 @@ When you apply water-based finishes or stains to wood, the wood fibers absorb mo
 1. **Sand the Wood**  
 Sand your wood project to a smooth finish using progressively finer grits of sandpaper (start with 120 grit and work up to 220 grit or finer). Make sure the surface is free of any visible scratches or rough spots.
 1. **Moisten the Surface**  
-Lightly moisten the surface of the wood with a clean, damp cloth. You don’t want to soak the wood, just enough moisture to slightly wet the surface. Make sure the water is spread evenly across the entire surface to raise the grain equally.
+Lightly moisten the surface of the wood with a clean, damp cloth. You don't want to soak the wood, just enough moisture to slightly wet the surface. Make sure the water is spread evenly across the entire surface to raise the grain equally.
 1. **Allow the Wood to Dry**  
 Let the surface to air-dry completely. This usually takes 1-2 hours, depending on the humidity. As the wood dries, the fibers will rise, creating a rough texture on the surface.
 1. **Sand the Raised Grain (220-320 Grit)**  
-Once the wood is completely dry, lightly sand the surface with fine-grit sandpaper (320 or higher). The goal is to knock down the raised fibers without removing too much material or damaging the wood. Use light pressure and sand with the grain to avoid scratches. Feel the wood to ensure it’s smooth again.
+Once the wood is completely dry, lightly sand the surface with fine-grit sandpaper (320 or higher). The goal is to knock down the raised fibers without removing too much material or damaging the wood. Use light pressure and sand with the grain to avoid scratches. Feel the wood to ensure it's smooth again.
 1. **Continue with the Next Finishing Steps**  
-After raising the grain and sanding it smooth, you can proceed to apply your stain or finish. Since you’ve pre-raised the grain, the finish or stain will go on smoother and result in a more even texture. Keep in mind:
-   - Water-Based finishes tend to raise the grain more than oil-based finishes, so it’s especially important to raise the grain beforehand if you’re using water-based products.
-   - Oil-based stains and finishes don't raise the grain as much, but it’s still a good practice to prepare the wood properly.
+After raising the grain and sanding it smooth, you can proceed to apply your stain or finish. Since you've pre-raised the grain, the finish or stain will go on smoother and result in a more even texture. Keep in mind:
+   - Water-Based finishes tend to raise the grain more than oil-based finishes, so it's especially important to raise the grain beforehand if you're using water-based products.
+   - Oil-based stains and finishes don't raise the grain as much, but it's still a good practice to prepare the wood properly.
 
-By raising the grain and sanding it smooth before finishing, you’ll end up with a much smoother and more professional finish, especially when using water-based products.
+By raising the grain and sanding it smooth before finishing, you'll end up with a much smoother and more professional finish, especially when using water-based products.
 
 [su_table responsive="yes"]
 
@@ -235,7 +235,7 @@ By raising the grain and sanding it smooth before finishing, you’ll end up wit
 
 Finishing generally involves evenly applying a sealant, allowing it to dry, and lightly sanding between coats until it's smoothed to your preference. Proper finishing not only improves aesthetics but also helps protect your project from cracks and splits, or fading with time. Once the sealant seeps into the exposed wood grains it becomes a barrier against dirt and moisture getting in and stops the inside of the wood from getting too moist or cracking from drying out.
 
-The easiest way to seal wood is to simply coat it with an oil, even something simple like a food safe mineral oil or tung oil, but there are also many purpose-made sealants to choose from in the form of waxes, urethanes, and laquers. [Paint](#learn-painting) and [Stain](#learn-staining) can also protect wood, but these usually require that you colour the wood in some way whereas sealers are clear or semi-transparent, preserving the wood’s original color and grain. Read the [table comparing different finishes](#finish-comparison) to help you decide what approach you want for your project, since you might decide you prefer paints or stains over sealants.
+The easiest way to seal wood is to simply coat it with an oil, even something simple like a food safe mineral oil or tung oil, but there are also many purpose-made sealants to choose from in the form of waxes, urethanes, and laquers. [Paint](#learn-painting) and [Stain](#learn-staining) can also protect wood, but these usually require that you colour the wood in some way whereas sealers are clear or semi-transparent, preserving the wood's original color and grain. Read the [table comparing different finishes](#finish-comparison) to help you decide what approach you want for your project, since you might decide you prefer paints or stains over sealants.
 
 ![](/_images/_longmill/_assembly/_sandfinish/lm_sf_poly-finish.jpg "Source - https://www.woodmagazine.com/woodworking-tips/techniques/finishing/polyurethane"){.aligncenter .size-medium}
 
@@ -297,7 +297,7 @@ More coats provide better durability and water resistance, especially for surfac
 - Always work in a well-ventilated area to ensure proper drying and avoid inhaling harmful fumes.
 - [Care for your brushes](#brush-care) if you want them to last a long time.
 - Test finishes on scrap wood before applying them to your main project.
-- Follow the manufacturer’s instructions for all products to ensure the best results.
+- Follow the manufacturer's instructions for all products to ensure the best results.
 
 [su_table responsive="yes"]
 
@@ -386,7 +386,7 @@ Remove dust left after sanding by vacuuming or wiping it down with a tack cloth.
 1. **Prime the Surface** (optional but recommended):
    - Choose the Right Primer: use a stain-blocking primer if the wood is knotty or has discolorations
    - Apply an Even Coat: use a brush, following the wood grain
-   - Allow it to dry according to the manufacturer’s instructions
+   - Allow it to dry according to the manufacturer's instructions
    - Light Sanding: once dry, sand lightly with 220-grit paper and wipe away dust
 1. **Apply Paint in Thin Layers**:
    - Mix the Paint: stir the paint thoroughly with a stir stick or shake the can
@@ -399,7 +399,7 @@ Remove dust left after sanding by vacuuming or wiping it down with a tack cloth.
 1. **Apply Final Coat**:
    - After applying the desired number of layers (typically 2-3), let the project dry completely before moving on to sealing
 1. **Finishing Touches**:
-   - Remove Painter’s Tape: carefully peel off the tape to reveal clean edges
+   - Remove Painter's Tape: carefully peel off the tape to reveal clean edges
    - Cure the Paint: allow the final coat to cure fully (up to 24 hours) before using or moving the piece
 
 ### Painting Tips & Videos
@@ -541,7 +541,7 @@ Using shellac, alcohol, and a rubbing pad to build up multiple thin layers, the 
 1. **Prepare the Wood**  
 Sand the wood to a very smooth surface, progressing through grits from 120 up to 320 or even finer. Ensure the wood is free of any dust, scratches, or imperfections, as French finishing will highlight these.
 1. **Create the Padding**  
-Make a French polishing pad, or “rubber,” by wrapping a small ball of cotton in a soft, lint-free cloth. The pad should be shaped so that it has a smooth, even surface to glide over the wood without leaving marks.
+Make a French polishing pad, or "rubber," by wrapping a small ball of cotton in a soft, lint-free cloth. The pad should be shaped so that it has a smooth, even surface to glide over the wood without leaving marks.
 1. **Apply the Shellac**  
 Start by saturating the pad with a mixture of shellac and alcohol (typically a 1:1 ratio). Apply the shellac in long, sweeping motions, working in small circular or figure-eight movements to evenly coat the wood. Be careful not to press too hard, as this can damage the finish. Work in thin layers, allowing each layer to dry before applying the next.
 1. **Build Up Layers**  
