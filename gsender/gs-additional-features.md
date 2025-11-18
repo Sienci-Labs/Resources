@@ -674,40 +674,48 @@ If you are using one of the wizard options, know that you can access all other g
 1. **Code**<br>You can enter your own macros before and after the tool change with this strategy selected which is fairly powerful for making tool changing processes that are more automated than just pausing.
   ![](/_images/_gsender/_features/_toolchange/gs_fe_toolchangecode.jpg){.aligncenter .size-medium}
 
-## Remote Mode
+## Wireless Control
 
-If you've ever wanted to run your CNC without being stuck right next to it, this is the feature you're looking for. The remote mode is exactly how it sounds, it gives the ability for a remote computer to connect over a shared internet network to a permanently installed, normally lower-end computer, that runs the CNC. This '**remote computer**' can be any device that can connect to the internet and run a web browser, meanwhile the '**inline computer**' plugs into your CNC with a USB cable and will receive commands over the internet from the remote computer.
+If you've ever wanted to run your CNC without being stuck right next to it, this is the feature you're looking for. Once enabled, it will allow other devices on the same internet network to connect to the main computer that's running your CNC. These '**remote devices**' can be anything that can connect to the internet and run a web browser, meanwhile the '**inline computer**' plugs into your CNC with a USB or Ethernet cable and will receive commands over the internet from the remote device.
 
 This feature is handy if you'd like to:
 
 - Load in a file from your design computer outside your shop then run it on your computer inside the shop
 - Use a tablet as the primary means of controlling your CNC rather than a mouse and keyboard
 - Use a phone for occasional use when jogging or running functions
-- Leverage a mini PC or Raspberry Pi as the inline (tethered) computer for cheap, fanless, and reliable operation without taxing them with a display, keyboard, and mouse
+- Leverage a mini PC or Raspberry Pi as the inline (tethered) computer for cheap, fanless, and reliable operation without taxing them with a display, keyboard, and mouse (though this still doesn't create a fully 'headless' setup)
 
 Before diving into the setup, here are some quirks and warnings that are important to keep in mind:
 
-- Both systems need to be on the same internet network to work, where the device used to run remote operations needs to be able to run a web browser
-- You may need to be an Administrator of the inline computer to make the changes needed so ensure you have that power
-- This feature will always be inherently less reliable than a hard-wired connection because of its reliance on your shop's internet connection for communication. Keep this in mind if you intend on using remote control for more important projects or with expensive tools or materials
-- Remote control is still in development so expect to experience some bugs if you'd like to set this up for yourself. The setup process is a little bit more involved on your computer so we don't advise using this feature if you're not confident with troubleshooting your own setup
-- This feature is NOT intended to enable use of your CNC while AWAY FROM YOUR WORKSHOP. A CNC should always be run while you or another knowledgeable operator is in the vicinity to ensure safe machine operation and be able to react if intervention is required. CNCs can cause fires from electronics, material friction, and can have other safety hazards if not properly monitored
-- In other contexts this feature could be thought of as running 'headless' but it doesn't fully meet the requirements of that term. Though remote controlling the CNC from another computer should reduce the requirements of the inline computer, at minimum it still needs to boot the idle version of gSender with a window manager. This is in contrast to a fully 'headless' setup where a skinned-down program exists only to pass along information from other devices with no UI to send along information itself
+- Both systems need to be on the same internet network to work
+- The '**remote device**' needs to be able to run a web browser
+- The setup process can be a little more involved, so we don't advise using this feature if you're not confident with troubleshooting your own setup
+- You may need to be an Administrator of the inline computer to make the changes needed
+- If you intend to use this feature for more important projects or with expensive tools or materials, keep in mind that it will always be inherently less reliable than a hard-wired connection
+- This feature is **NOT** intended to enable use of your CNC while **AWAY FROM YOUR WORKSHOP**. A CNC should always be run while you or another knowledgeable operator is in the vicinity to ensure safe machine operation and be able to react if intervention is required. CNCs can cause fires from electronics, material friction, and can have other safety hazards if not properly monitored.
 
-### Enabling & Connecting
+### Wireless Setup
 
-All setup steps need to happen on the inline computer (the computer you'll have connected via USB to your CNC) and have been simplified to all happen within gSender.
+All setup steps need to happen on the inline computer (the computer you'll have connected via USB or Ethernet to your CNC) and have been simplified to mostly happen within gSender:
 
 1. To begin, click the cell phone icon on the top right of the screen.
   ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-access.jpg){.aligncenter .size-full}
-1. This is where remote mode is set up. Click the **Enable Remote Mode** toggle. Then click on the Save button.
+1. This is where remote mode is set up. First, click the '**Enable Wireless Control**' toggle. Second, you'll see the boxes for 'Addr' (address) and 'Port' become available. The default values for these should work but if you have a particular setup or require troubleshooting then consider changing these.
   ![](/_images/_gsender/_features/_remote/gs_fe_re_setup.jpg){.aligncenter .size-full}
-1. gSender will automatically restart in order for the changes to take place.
+1. Once you click the 'Save' button, gSender will automatically restart in order for the changes to take place.
   ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-restart.jpg){.aligncenter .size-full}
-1. You'll know the setup was successful if gSender restarts & the remote connect icon is green.
+1. You'll know the setup was successful if gSender restarts and the remote connect icon is green.
   ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-done.jpg){.aligncenter .size-full}
 1. To connect, you can use your phone camera to scan the QR code and be taken directly to your remote interface, or you can copy the http link and enter it into your browser on any device.
 ![](/_images/_gsender/_features/_remote/gs_fe_re_connected.jpg){.aligncenter .size-full}
+
+
+1. If there was a problem during setup, then you might've encountered a firewall or unavailable port
+
+### Using gSender Remotely
+
+With setup complete, regular use is pretty straightforward:
+
 
 - You'll be able to use both the remote and inline devices simultaneously to control your CNC like jogging, opening and closing files, probing, macros, and more
 - You'll also see that both their screens look exactly the same so you can watch the visualizer move around or check on the machine state
