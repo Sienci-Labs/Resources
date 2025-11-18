@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
-<span style="color: #d22329;">Follow these instructions if you’re assembling a Vortex rotary axis kit which utilizes a closed loop motor with two motor cable connections.</span>
+<span style="color: #d22329;">Follow these instructions if you're assembling a Vortex rotary axis kit which utilizes a closed loop motor with two motor cable connections.</span>
 
 You can refer to the video below for a general overview of the setup process. Scroll down for detailed, step by step directions with images.
 
@@ -165,4 +165,4 @@ Check the dip switches on the back of the closed-loop stepper motor to ensure th
 
 <p style="text-align: center;"><em>Vortex Closed-Loop Dip Switch Position</em></p>
 
-**Congratulations!** A job well done, you’ve completed the assembly and firmware steps. Take a deep breath, we are almost ready for a test drive.
+**Congratulations!** A job well done, you've completed the assembly and firmware steps. Take a deep breath, we are almost ready for a test drive.

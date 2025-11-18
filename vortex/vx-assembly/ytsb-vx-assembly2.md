@@ -31,9 +31,9 @@ When you open up the box:
 
 Before you start assembly, you will want to take the 2 boxes and the Styrofoam piece that contains the chuck out of the packaging and place them in your assembly area. You can set the track(s) aside for now.
 
-## Tools You’ll Need
+## Tools You'll Need
 
-You’ll need these tools on hand for assembly. Most people will have these in their shop and there is a size 4 Allen key that comes with your Vortex kit:
+You'll need these tools on hand for assembly. Most people will have these in their shop and there is a size 4 Allen key that comes with your Vortex kit:
 
 - Metric Allen key size 4
 - Phillips screwdriver #2
@@ -44,17 +44,17 @@ You’ll need these tools on hand for assembly. Most people will have these in t
 
 ## Missing/Broken Parts?
 
-We got you – your kit has spares and redundancy included. If a part is lost or isn’t going together how you expect, no worries; just check through the bags and you’ll likely find what you need to continue assembly. Expect a couple of bolts left over at the end and feel free to set these aside for future machine maintenance.
+We got you – your kit has spares and redundancy included. If a part is lost or isn't going together how you expect, no worries; just check through the bags and you'll likely find what you need to continue assembly. Expect a couple of bolts left over at the end and feel free to set these aside for future machine maintenance.
 
 We supply extra parts so that:
 
-- If a part doesn’t work properly the extra one can be used instead
-- If you lose something (especially small things) you don’t have to search the floor
+- If a part doesn't work properly the extra one can be used instead
+- If you lose something (especially small things) you don't have to search the floor
 - We reduce the chance of packing too few on our end
 
-If a part is missing completely, check that you’re looking for the right thing and ensure you look through all the packaging you received with your Vortex.
+If a part is missing completely, check that you're looking for the right thing and ensure you look through all the packaging you received with your Vortex.
 
-If a part arrives broken and doesn’t have a spare, the Vortex’s warranty covers replacement parts and we’ll even be happy to help you out if you break it yourself. Just shoot us a message here (https://sienci.com/contact-us/) and we’ll get back to you as soon as we can.
+If a part arrives broken and doesn't have a spare, the Vortex's warranty covers replacement parts and we'll even be happy to help you out if you break it yourself. Just shoot us a message here (https://sienci.com/contact-us/) and we'll get back to you as soon as we can.
 
 ## Assembly Tips
 
@@ -62,7 +62,7 @@ If a part arrives broken and doesn’t have a spare, the Vortex’s warranty cov
   <li style="list-style-type: none;">
 <ol>
   <li><b>Read the instructions</b>
-Many issues during assembly can be solved by re-examining the instructions. Check that you didn’t skip a page and that you completed the previous step correctly. Some steps are hard to explain and some parts have names that are hard to remember so looking at the pictures more closely can also help you to better understand what needs to be done. Reading is encouraged if you’d like more detail on where to locate the part, what function it serves on the machine, and other elaborative information.</li>
+Many issues during assembly can be solved by re-examining the instructions. Check that you didn't skip a page and that you completed the previous step correctly. Some steps are hard to explain and some parts have names that are hard to remember so looking at the pictures more closely can also help you to better understand what needs to be done. Reading is encouraged if you'd like more detail on where to locate the part, what function it serves on the machine, and other elaborative information.</li>
   <li><b>Remember the language</b>
 This manual contains some technical language as well as a distinct visual language. Keeping these in mind will make the assembly easier for you to understand and ensure that less mistakes happen.</li>
 </ol>
@@ -72,7 +72,7 @@ This manual contains some technical language as well as a distinct visual langua
 <table class="unboxing-table2" style="height: 1122px; width: 871px; margin-left: auto; margin-right: auto; text-align: center; border-collapse: collapse; table-layout: fixed; padding: 5px !important; border: none !important;">
 <tbody>
 <tr>
-<td style="text-align: left; padding: 5px 5px 5px 45px; border: none;">• <em>Section title pages</em>: show the part of the machine you’ll be working on next</td>
+<td style="text-align: left; padding: 5px 5px 5px 45px; border: none;">• <em>Section title pages</em>: show the part of the machine you'll be working on next</td>
 <td style="text-align: center; padding: 5px; border: none;"><img class="alignright wp-image-5395 size-full" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p7_Headstock_Header.png" alt="" width="839" height="419" /></td>
 </tr>
 <tr>
@@ -96,8 +96,8 @@ If you are looking to get quick advice or to share your excitement about the Vor
 
 ## Final Words
 
-You’ve got this! We want you to succeed and have designed this Vortex to give you a great rotary axis experience while not requiring much experience or assembly accuracy from you.
+You've got this! We want you to succeed and have designed this Vortex to give you a great rotary axis experience while not requiring much experience or assembly accuracy from you.
 
-We’ve got many resources at your disposal on our site and amongst our community. Ask questions, take breaks when needed, and soon you will be helping others by answering those questions you once had. 🙂
+We've got many resources at your disposal on our site and amongst our community. Ask questions, take breaks when needed, and soon you will be helping others by answering those questions you once had. 🙂
 
 Assembly will take just over an hour, and includes: assembling the <a href="https://resources.sienci.com/view/vx-headstock/">Headstock</a>, <a href="https://resources.sienci.com/view/vx-tailstock/">Tailstock</a>, <a href="https://resources.sienci.com/view/vx-track/">Track</a>, and finally <a href="https://resources.sienci.com/view/vx-electronics/">Electronics</a>.

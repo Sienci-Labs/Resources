@@ -117,7 +117,7 @@ Diving into your LongMill box you'll be met with a whole lot of boxes within. Th
 
 Check out the 'welcome items' where you'll find our letter alongside some tools provided for assembly and some fun stickers. Also check out the 'variable box' and 'rail box' for extra goodies, some are hidden within the rails themselves. Set aside items like the Makita and NEMA23 motor box as well any add-ons from the variable box like bits, dust shoe, touch plate, since you won't need these until much later on in the assembly.
 
-<a href="https://resources.sienci.com/view/48x30-longmill-mk2-accompanying-manual/#48-x-axis-rail-box-unpacking"><img class="fortye aligncenter wp-image-3936 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX1-1-850x156.png" width="850" height="156" /></a>
+<a href="https://resources.sienci.com/view/48x30-LongMill-mk2-accompanying-manual/#48-x-axis-rail-box-unpacking"><img class="fortye aligncenter wp-image-3936 size-medium" src="https://resources.sienci.com/wp-content/uploads/2022/03/EX1-1-850x156.png" width="850" height="156" /></a>
 
 ### Tools you'll need
 

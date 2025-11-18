@@ -38,7 +38,7 @@ This is where we want to be able to step in and provide a new option that is:
 
 ## Learn More
 
-It’s been a long journey for developing the Vortex Rotary Axis, but we’re excited to be now sharing all this work with you!
+It's been a long journey for developing the Vortex Rotary Axis, but we're excited to be now sharing all this work with you!
 
 If you want to learn more about the Vortex's pricing, capabilities, and more check out <a href="https://sienci.com/product/vortex-rotary-axis/" target="_blank" rel="noopener">our product listing</a> or <a href="https://sienci.com/2023/05/08/vortex-rotary-axis-launch-date-june-1-2023/" target="_blank" rel="noopener">our blog post</a>.
 

@@ -39,7 +39,7 @@ Pass the M6 bolt through the hole in the bottom of the tailstock body and thread
 
 Drop the hex nut into the large hole at the top of the tailstock body. The nut should snuggle into the slot inside the hole.
 
-Thread the 2" bolt into the nut. Make sure that the nut hasn’t fallen out of the hole cutout.
+Thread the 2" bolt into the nut. Make sure that the nut hasn't fallen out of the hole cutout.
 
 To tighten the nut, you can pull the bolt down and use the tailstock body as a wrench. You should just use your hands to tighten it, no tools.
 

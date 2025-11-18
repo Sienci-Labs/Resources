@@ -17,7 +17,7 @@ featured_image: _images/_superlongboard/slb_slb-top.jpg
 
 Hello and welcome!
 
-If you’ve come here you’re either interested in or have already purchased our brand new endeavour into upgrading the Hobby CNC landscape, the <a href="https://sienci.com/product/slb/"><b>SuperLongBoard</b></a>!!
+If you've come here you're either interested in or have already purchased our brand new endeavour into upgrading the Hobby CNC landscape, the <a href="https://sienci.com/product/slb/"><b>SuperLongBoard</b></a>!!
 
 <img class="non aligncenter size-medium" style="width: 80%; margin-left: 10%;" src="https://resources.sienci.com/wp-content/uploads/2024/07/SLB-VB6-scaled.jpg"/>
 
@@ -71,9 +71,9 @@ If you're still needing some extra support with your new SLB, you can always con
 ## FAQ
 
 [su_spoiler title="<b>Q: Will the SLB work with my CNC?</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
-A: If it's a LongMill or AltMill then definitely it will. Otherwise, your CNC should be supported so long as it’s a <b>typical hobby CNC setup with open-loop Nema 23s</b>. As we roll out the SLB we'll begin hearing back on other successful configurations and update this 'Answer' appropriately, since otherwise we can't provide a definitive guarantee other than to say that it's very likely to work for most hobby CNCs. Other machines that have been proven to work so far: <b>Onefinity</b>.
+A: If it's a LongMill or AltMill then definitely it will. Otherwise, your CNC should be supported so long as it's a <b>typical hobby CNC setup with open-loop Nema 23s</b>. As we roll out the SLB we'll begin hearing back on other successful configurations and update this 'Answer' appropriately, since otherwise we can't provide a definitive guarantee other than to say that it's very likely to work for most hobby CNCs. Other machines that have been proven to work so far: <b>Onefinity</b>.
 
-We’ve earnestly done our best to ensure the SLB would be ideal for any typical setup since the inspiration for the SLB came from trying to take things that are normally only available on more expensive and ‘closed’ boards and bring them into the open source domain and at a more affordable price for the benefit of as many hobbyists as we could. This means that although you will need to change certain settings to match your specific setup,the SLB will support a range of machines and accessories including 5/24V limit switches, touch plates, tool length sensors, laser diodes, external 4th axis, and more.
+We've earnestly done our best to ensure the SLB would be ideal for any typical setup since the inspiration for the SLB came from trying to take things that are normally only available on more expensive and 'closed' boards and bring them into the open source domain and at a more affordable price for the benefit of as many hobbyists as we could. This means that although you will need to change certain settings to match your specific setup,the SLB will support a range of machines and accessories including 5/24V limit switches, touch plates, tool length sensors, laser diodes, external 4th axis, and more.
 [/su_spoiler]
 
 [su_spoiler title="<b>Q: What about if I want to use higher voltage or external motor drivers?</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
@@ -96,7 +96,7 @@ Our first custom CNC control board we called the "LongBoard". It was simple but 
 
 Some of its **<u>notable attributes</u>** included:
 
-- Standard Arduino Uno as the ‘brains’ of the board
+- Standard Arduino Uno as the 'brains' of the board
   - Powers all board IO via 5V 0.5A supplied over USB from the tethered computer
   - [Grbl](https://github.com/gnea/grbl/wiki)-based: a well performing and efficient CNC firmware built by Simen, Sonny and many other open source community contributors, setting the stage for the existence of nearly all hobby CNCs to-date
 - Accepts 12-48V for all non-IO but shipped to use a 24V 10A power brick

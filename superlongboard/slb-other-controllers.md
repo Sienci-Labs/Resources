@@ -23,15 +23,15 @@ Our main goal in this section is to have you go in with a working CNC, then leav
 
 ## Unpacking
 
-In the box you’ll find:
+In the box you'll find:
 
-- Your new **SuperLongBoard** inside it’s aluminum enclosure
-- **E-stop** with 3 additional ‘Action Buttons’ that are customizable
+- Your new **SuperLongBoard** inside it's aluminum enclosure
+- **E-stop** with 3 additional 'Action Buttons' that are customizable
 - **E-stop cable**, plenty long to increase mounting options
 - And a **USB-C cable**, MK2 **mounting hardware**, and some **spare connectors**
 - A spare baggy of **5.08mm plugs** to connect power and stepper motors to your SLB. If you didn't **email us before purchasing your SLB**, you might be missing these so you'll need to <a href="https://resources.sienci.com/view/slb-manual/#connectors-list" target="_blank" rel="noopener">source them yourself</a> (first two plugs on the list).
 
-The only other parts that you’ll need to supply yourself are:
+The only other parts that you'll need to supply yourself are:
 
 - The minimum **24V 10A power supply** needed to run the SLB (you can use the one for your old control board if the specs match, otherwise <a href="https://sienci.com/product/24v-12-5a-power-adapter-for-110vac/" target="_blank" rel="noopener">we also sell them</a>)
 - Your **CNC machine**, already tested to be working using its existing control board
@@ -39,9 +39,9 @@ The only other parts that you’ll need to supply yourself are:
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p2_Box.jpg){.aligncenter .size-medium}
 
-We hope everything arrived well and in one piece! Let’s take the cover off the SuperLongBoard and see what’s under the hood.
+We hope everything arrived well and in one piece! Let's take the cover off the SuperLongBoard and see what's under the hood.
 
-Unscrew the top-right thumbscrew a couple turns (pictured) then slide the cover to the right. Once the hole in the cover lines up, you’ll be able to pull the top of the cover towards you and it will come free.
+Unscrew the top-right thumbscrew a couple turns (pictured) then slide the cover to the right. Once the hole in the cover lines up, you'll be able to pull the top of the cover towards you and it will come free.
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p2_open.png){.aligncenter .size-medium}
 
@@ -51,7 +51,7 @@ To help communicate where things are on the board, we use the terms shown below:
 
 ## Preparation
 
-Before diving into rewiring, we’d first suggest you note down any attributes that are unique about your setup. This is so that once you switch over to the SLB you'll be able to create the same setup with the same settings.
+Before diving into rewiring, we'd first suggest you note down any attributes that are unique about your setup. This is so that once you switch over to the SLB you'll be able to create the same setup with the same settings.
 
 If you use gSender, you can do this by connecting to your CNC and using the Config tab (Current gSender) or Firmware Tool (Classic gSender) to find sections that you recall setting up or changing; things like max travel, speed, etc. It won't be disastrous if you forget to record any of these settings, since your old controller should still work so you can always go back and double-check it's settings.
 
@@ -67,7 +67,7 @@ If you use gSender, you can do this by connecting to your CNC and using the Conf
 
 ## Wiring xPRO V5
 
-Let’s start moving plugs over to the SLB!
+Let's start moving plugs over to the SLB!
 
 This is a community-contributed document so information might not be the most up-to-date so please submit feedback at the bottom of the page if you find anything missing. Another great resource to reference is the one made by SparksTech below:
 
@@ -89,17 +89,17 @@ https://youtu.be/-kVbz-u0nL0
 1. You'll need to reverse the polarity of the xPRO power connector so that red is on the left side and black is on the right. Once it's rewired, you'll be able to plug the power connector into the **Back Side** of the **SLB**.
 
    ![](/_images/_superlongboard/_upgrade/slb_up_p11_Power.jpg){.aligncenter .size-medium}
-1. Lastly, when looking at the **Back Side** of the **SLB**, you will see a power switch. Slide it to the ‘ON’ position to power on the **SLB**. It’s Alive!!
+1. Lastly, when looking at the **Back Side** of the **SLB**, you will see a power switch. Slide it to the 'ON' position to power on the **SLB**. It's Alive!!
 
    ![](/_images/_superlongboard/_upgrade/slb_up_p12_OnOff.jpg){.aligncenter .size-medium}
 
-**Congratulations!** You’ve wired up your new SLB with all its typical accessories! If you still have other, slightly less common accessories to wire in, then keep reading the next section; otherwise you can move over to <a href="https://resources.sienci.com/view/slb-upgrading/#gSender" target="_blank" rel="noopener">gSender</a> to connect and do some quick tests.
+**Congratulations!** You've wired up your new SLB with all its typical accessories! If you still have other, slightly less common accessories to wire in, then keep reading the next section; otherwise you can move over to <a href="https://resources.sienci.com/view/slb-upgrading/#gSender" target="_blank" rel="noopener">gSender</a> to connect and do some quick tests.
 
 ### Optional Wiring
 
 If you have Limit Switches, you'll need to wire them in using the Auxiliary terminal connector input (shown below). One trick about this is that the connector has a shared ground, so you'll want to either joint-crimp all your wires together, use a WAGO connector, or use a ground bus.
 
-<p style="text-align: center;"><b><em>Note:</b> The Y2 connection isn’t used at this time</em></p>
+<p style="text-align: center;"><b><em>Note:</b> The Y2 connection isn't used at this time</em></p>
 
 ![](/_images/_superlongboard/_upgrade/slb_up_p14_LimitSLB.jpg){.aligncenter .size-medium}
 

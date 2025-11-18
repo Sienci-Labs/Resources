@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/_vortex/_the-basics/vx_software_post-process.jpg
 ---
 
-The process of creating toolpaths for the Vortex rotary axis is largely similar to that for any benchtop CNC, so if you’ve made a toolpath before, you should feel right at home with this new workflow.
+The process of creating toolpaths for the Vortex rotary axis is largely similar to that for any benchtop CNC, so if you've made a toolpath before, you should feel right at home with this new workflow.
 
 We highly recommend that you use software by Vectric (<a href="https://sienci.com/product/vectric-vcarve-desktop-v11/">VCarve Desktop</a> / <a href="https://sienci.com/product/vectric-vcarve-pro-v11/">VCarve Pro</a> / Aspire) since it offers best-in-class support for rotary and is relatively inexpensive. For the purposes of this article we will focus on how to create rotary toolpaths in VCarve.
 
@@ -25,11 +25,11 @@ We also recommend that you use <a href="https://sienci.com/gSender/">gSender</a>
 
 ## Create Toolpaths with VCarve
 
-The basics of using VCarve is extensively covered by <a href="https://www.vectric.com/support/tutorials/vcarve-pro?playlist=the-basics">Vectric’s official training videos</a> alongside other online resources. We especially recommend that you gain some experience importing 3D models and creating 3D toolpaths in VCarve before moving onto rotary carvings as the skills gained there are highly transferable. Having said that, we are going to assume that you know the basics of using VCarve and we are only going to highlight what makes rotary toolpathing tick in this section.
+The basics of using VCarve is extensively covered by <a href="https://www.vectric.com/support/tutorials/vcarve-pro?playlist=the-basics">Vectric's official training videos</a> alongside other online resources. We especially recommend that you gain some experience importing 3D models and creating 3D toolpaths in VCarve before moving onto rotary carvings as the skills gained there are highly transferable. Having said that, we are going to assume that you know the basics of using VCarve and we are only going to highlight what makes rotary toolpathing tick in this section.
 
 ### The Concept of Wrapping
 
-To begin with, it is important for you to understand rotary carvings as **single-sided carvings that are wrapped around a cylinder**. You still lay out your designs in 2D, but those designs are then wrapped around a cylinder when it is being previewed or carved. If you have ever carved letters or reliefs into a piece of flat material, you can imagine rolling the end results up into a cylinder and you’ve essentially got the gist of rotary carving in VCarve.
+To begin with, it is important for you to understand rotary carvings as **single-sided carvings that are wrapped around a cylinder**. You still lay out your designs in 2D, but those designs are then wrapped around a cylinder when it is being previewed or carved. If you have ever carved letters or reliefs into a piece of flat material, you can imagine rolling the end results up into a cylinder and you've essentially got the gist of rotary carving in VCarve.
 
 ![](/_images/_vortex/_the-basics/vx_software_wrapping.jpg){.aligncenter .size-full}
 
@@ -49,7 +49,7 @@ Your 2D view will now represent the outer surface of your material, where the he
 
 ### Designs in 2D
 
-We will go over how 3D models work in VCarve in the next subsection, but we’d like to note here that you can still create some amazingly intricate designs (Such as embossing details onto a rolling pin) without using a 3D model. This is possible as you retain access to all conventional drawing tools, including the options to bring in vector files and images in rotary mode, with which you can create V-carvings, pockets and more like you would on a piece of flat material. Just remember that your designs are ultimately going to be wrapped around your stock cylinder.
+We will go over how 3D models work in VCarve in the next subsection, but we'd like to note here that you can still create some amazingly intricate designs (Such as embossing details onto a rolling pin) without using a 3D model. This is possible as you retain access to all conventional drawing tools, including the options to bring in vector files and images in rotary mode, with which you can create V-carvings, pockets and more like you would on a piece of flat material. Just remember that your designs are ultimately going to be wrapped around your stock cylinder.
 
 ![](/_images/_vortex/_the-basics/vx_software_wrapped-pattern.jpg "VCarving using a 2D pattern"){.aligncenter .size-full}
 
@@ -61,7 +61,7 @@ As mentioned in the "<a href="https://resources.sienci.com/view/vx-software-basi
 
 ![](/_images/_vortex/_the-basics/vx_software_wrapped-model.jpg){.aligncenter .size-full}
 
-The exact procedures to import a 3D model should feel largely familiar if you have imported any models to VCarve in the past, and you can brush up on those procedures with <a href="https://docs.vectric.com/docs/V9.0/VCarvePro/ENU/Help/Modeling/Import.html">Vectric’s own training materials</a> including orientation, rotation and scaling. The main difference lies with the new positioning and scaling controls which may take some getting used to.
+The exact procedures to import a 3D model should feel largely familiar if you have imported any models to VCarve in the past, and you can brush up on those procedures with <a href="https://docs.vectric.com/docs/V9.0/VCarvePro/ENU/Help/Modeling/Import.html">Vectric's own training materials</a> including orientation, rotation and scaling. The main difference lies with the new positioning and scaling controls which may take some getting used to.
 
 Once your 3D model is imported, it is also a good idea to add some supporting geometry to the two ends of your model so it stays connected for the duration of the carve.
 

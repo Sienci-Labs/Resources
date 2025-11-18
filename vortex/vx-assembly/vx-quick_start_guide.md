@@ -64,7 +64,7 @@ You can use the list below as a quick reminder on how to start each project you 
 1. Raise your router
 1. Jog all the way back to align X-axis
 1. Plug in touch probe & magnet
-1. Use gSender’s Y-Axis alignment wizard
+1. Use gSender's Y-Axis alignment wizard
 1. For open loop, plug in A-axis into the Y-axis outputs on your controller
 1. For open loop, flip the toggle switch towards yourself
 1. Ensure 4th Axis (closed loop) or Rotary Mode (open loop) is enabled on gSender

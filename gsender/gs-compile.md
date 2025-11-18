@@ -284,7 +284,7 @@ Here are some common issues you might encounter when compiling gSender locally, 
 ### `bash` Command Not Found on Windows
 
 * **Problem:** When running `yarn` commands (e.g., `yarn run dev`, `yarn clean`, `yarn prepare`), you may see an error like `'bash' is not recognized as an internal or external command, operable program or batch file.`  
-    This occurs because several `package.json` scripts invoke `bash -c "..."`, which isn’t supported natively in Windows Command Prompt or PowerShell.
+    This occurs because several `package.json` scripts invoke `bash -c "..."`, which isn't supported natively in Windows Command Prompt or PowerShell.
 
 * **Solution:**
   * **Run from Git Bash (Recommended):**  

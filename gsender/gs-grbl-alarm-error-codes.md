@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/_gsender/_issues/gs_is_alarm.jpg)
 ---
 
-The grbl firmware has a whole list of Alarms and Error codes that you can encounter when running your CNC. gSender will always display a question mark when there’s an alarm which you can hover over for more information about why it happened and errors will appear as a hovering box in the bottom corner of the visualizer.
+The grbl firmware has a whole list of Alarms and Error codes that you can encounter when running your CNC. gSender will always display a question mark when there's an alarm which you can hover over for more information about why it happened and errors will appear as a hovering box in the bottom corner of the visualizer.
 
 You can close an alarm by clicking on the button that appears next to it in the visualizer. Most alarms can also be handled by typing `$x` into the 'Console' tab and hitting the 'Run' button.
 
@@ -151,7 +151,7 @@ You can close an alarm by clicking on the button that appears next to it in the 
 <tr>
 <td>3</td>
 <td>Invalid statement</td>
-<td>Grbl ‘$’ system command was not recognized or supported.</td>
+<td>Grbl '$' system command was not recognized or supported.</td>
 <td></td>
 </tr>
 <tr>
@@ -181,7 +181,7 @@ You can close an alarm by clicking on the button that appears next to it in the 
 <tr>
 <td>8</td>
 <td>Not idle</td>
-<td>Grbl ‘$’ command cannot be used unless Grbl is IDLE. Ensures smooth operation during a job.</td>
+<td>Grbl '$' command cannot be used unless Grbl is IDLE. Ensures smooth operation during a job.</td>
 <td></td>
 </tr>
 <tr>
@@ -205,7 +205,7 @@ You can close an alarm by clicking on the button that appears next to it in the 
 <tr>
 <td>12</td>
 <td>Step rate &gt; 30kHz</td>
-<td>Grbl ‘$’ setting value cause the step rate to exceed the maximum supported.</td>
+<td>Grbl '$' setting value cause the step rate to exceed the maximum supported.</td>
 <td></td>
 </tr>
 <tr>
@@ -229,7 +229,7 @@ You can close an alarm by clicking on the button that appears next to it in the 
 <tr>
 <td>16</td>
 <td>Invalid jog command</td>
-<td>Jog command has no ‘=’ or contains prohibited g-code.</td>
+<td>Jog command has no '=' or contains prohibited g-code.</td>
 <td></td>
 </tr>
 <tr>
@@ -374,7 +374,7 @@ When any of these errors appear in gSender, it can typically be traced back to t
    - Don't use a USB Stick, make sure the files are on the hard-drive of your computer.
    - Determine if it's from electromagnetic interference/static. Run the job in the air with your router/spindle and dust collector turned off to see if the same errors appear. If they go away then try running the job normally again using scrap material, just to confirm the errors reappear. If this happens, you'll want to look into putting your computer and controller on a separate circuit from the router/spindle and dust collector, or <a href="https://resources.sienci.com/view/lmk2-issues-and-fixes/#using-a-dust-collector-system-causes-the-machine-to-disconnect">grounding your equipment</a>.
 1. **Some gSender versions can have bugs**
-   - This is the least likely cause, but a couple gSender versions have been known to make errors appear that don't affect operation. Try <a href="https://resources.sienci.com/view/gs-installation/#older-versions">using a different gSender version</a>. 
+   - This is the least likely cause, but a couple gSender versions have been known to make errors appear that don't affect operation. Try <a href="https://resources.sienci.com/view/gs-installation/#older-versions">using a different gSender version</a>.
 
 ### Error 33
 
