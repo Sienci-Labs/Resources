@@ -534,64 +534,44 @@ All setup steps need to happen on the inline computer (the computer you'll have 
 
 1. To begin, click the cell phone icon on the top right of the screen.
   ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-access.jpg){.aligncenter .size-full}
-1. This is where remote mode is set up. First, click the '**Enable Wireless Control**' toggle. Second, you'll see the boxes for 'Addr' (address) and 'Port' become available. The default values for these should work but if you have a particular setup or require troubleshooting then consider changing these.
+1. This is where wireless control is set up. First, click the '**Enable Wireless Control**' toggle. Second, you'll see the boxes for 'Addr' (address) and 'Port' become available. The default values for these should work but if you have a particular setup or require troubleshooting then consider changing these.
   ![](/_images/_gsender/_features/_remote/gs_fe_re_setup.jpg){.aligncenter .size-full}
 1. Once you click the 'Save' button, gSender will automatically restart in order for the changes to take place.
   ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-restart.jpg){.aligncenter .size-full}
 1. You'll know the setup was successful if gSender restarts and the remote connect icon is green.
   ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-done.jpg){.aligncenter .size-full}
-1. To connect, you can use your phone camera to scan the QR code and be taken directly to your remote interface, or you can copy the http link and enter it into your browser on any device.
-![](/_images/_gsender/_features/_remote/gs_fe_re_connected.jpg){.aligncenter .size-full}
-
-
-1. If there was a problem during setup, then you might've encountered a firewall or unavailable port
+1. To connect with your '**remote device**', click the cell phone icon again to open the wireless control settings. If you plan to use a phone, use the camera to scan the QR code, and for any other device 'copy' the text at the bottom right  into the address bar of a web browser like Chrome or Edge. After the page loads, you should see a copy of gSender running in the web browser!
+  ![](/_images/_gsender/_features/_remote/gs_fe_re_connected.jpg){.aligncenter .size-full}
+1. If there was a problem during setup, then you might've encountered a firewall or unavailable port. Solutions to these are covered in the **[troubleshooting](#troubleshooting)** section.
 
 ### Using gSender Remotely
 
-With setup complete, regular use is pretty straightforward:
+With setup complete, regular use is very straightforward:
 
-
-- You'll be able to use both the remote and inline devices simultaneously to control your CNC like jogging, opening and closing files, probing, macros, and more
-- You'll also see that both their screens look exactly the same so you can watch the visualizer move around or check on the machine state
-- On phones the screen will look different since we've optimized it for jogging, setting zeros, and probing
-- When you click to 'load a file' you'll see that you'll only be able to load files from the device you're currently on, don't expect to gain access to the files stored on the opposite device. However once the file is loaded into gSender, you'll be able to run it from any device
-- There can be multiple remote devices all connected to the same inline computer at the same time to control your CNC from multiple devices. There can also be multiple inline computers controlled from the same remote computer, giving you multi-CNC control from the same device
-- gSender settings like 'safe height', 'start/stop g-code', 'tool changing', and any other gSender specific settings won't carry over to the remote computer. If you want to make sure files are run the same way every time you'll need to transfer your gSender settings over by following the 'Transfer Settings' instructions below
-- If you're using your phone, save the unique URL to a bookmark on your home-screen so you can open Remote gSender easily every time! Check out <a href="https://www.YouTube.com/watch?v=UrlDJOY3i-8">this video</a> for details
-
-If there was a problem using the specified IP address or Port, you'll get an error window to let you know. In this case you should be able to reopen gSender, go back to the Remote Mode settings, and try another IP or Port until the setup is successful.
-
-If you're an **advanced user** or have tried the default values without success, you can type in any other IP address or Port that you'd like since the defaults aren't guaranteed to work. Common port values are 3000, 8000, and 8080 and generally don't go below 1024 since those are considered privileged. Changing IP addresses can also help if you're running a VPN or need a different internal IP to external IP mapping.
-
-**If something's not working**, check you followed the setup steps correctly or reference the firewall or troubleshooting sections below.
-
-### Firewall Setup
-
-During initial setup, you might see a Security Alert window pop up or run into an issue where the browser address isn't working. The most likely issue here is that your inline computer firewall isn't allowing gSender to communicate to other devices on your network.
-
-**For Windows:** You should simply see a popup from Windows Firewall or your antivirus software asking for approval to allow gSender to communicate on your home network. Please check the box beside “Private networks” and “Public networks”. This should be all that's needed.
-
-![](/_images/_gsender/_features/_remote/gs_fe_re_firewall-windows.jpg){.aligncenter .size-full}
-
-If you don't see this popup, you can go into your Windows security tab, and click the Allow an app through firewall text.
-
-![](/_images/_gsender/_features/_remote/gs_fe_re_firewall-windows1.jpg){.aligncenter .size-medium}
-
-Scroll down until you see gSender, click on Change Settings, then enable gSender to communicate through the firewall by clicking the checkbox.
-
-![](/_images/_gsender/_features/_remote/gs_fe_re_firewall-windows2.jpg){.aligncenter .size-medium}
-
-**For Mac / Linux / Pi:** If you find that you can't connect with outside devices or just want some extra safety you might want to try opening the Universal FireWall (UFW) on a given port to allow external access. This can be started with `sudo ufw enable` (if UFW is not found then install it using `sudo apt-get install ufw` and your root password) then opening the desired port, for example `sudo ufw allow 8080` opens port 8080 for external access. If you want to see what ports are already open, you can use `ufw status verbose`.
+1. As long as your 'inline computer' is on and connected to your CNC, and your CNC is powered on, then re-using the same text on the web browser of any device will give you access to a copy of gSender running fully remotely. Example text could look like this "192.168.68.155:8000" where for the phone interface it would have "/#/remote" added onto the end.
+1. For phones and tablets, it can also be easy to re-use this webpage by saving it to a bookmark on your home-screen so you can open Remote gSender easily anytime you want! <a href="https://www.YouTube.com/watch?v=UrlDJOY3i-8">Check out this video</a> for details.
+1. Once connected, you'll be able to control your CNC remotely with most of the same features and functions you’d normally expect:
+   - Use both the remote and inline devices simultaneously to control your CNC like jogging, opening and closing files, probing, macros, and more
+   - Notice that both their screens look exactly the same so you can watch the visualizer move around or check on the machine state
+   - On phones the screen will look different since we've optimized it for jogging, setting zeros, and probing
+   - When you click to 'load a file' you'll only be able to load files from the device you're currently on, don't expect to gain access to the files stored on the opposite device. However once the file is loaded into gSender, you'll be able to run it from any device.
+   - There can be multiple remote devices all connected to the same inline computer at the same time to control your CNC from multiple devices. There can also be multiple inline computers controlled from the same remote computer, giving you multi-CNC control from the same device.
+1. Some gSender-specific 'local' settings like won't carry over to the remote device so if you want to make sure files are run the same way every time you'll need to transfer your gSender settings over by following the ['Transfer Settings' instructions](#transferring-settings)
 
 ### Troubleshooting
 
-If you ran into issues during remote control setup, here are some other checks you can make:
+If you ran into issues during remote control setup, here are some checks you can make:
 
-1. The easiest checks to make sure remote mode works for you is to make sure you have gSender open, you have gSender connected to your CNC, and you've turned remote mode on
-1. Double-check your remote mode configuration menu, antenna icon, and IP address are showing on the inline computer
+1. Make sure you have gSender open, have gSender connected to your CNC, and you've turned wireless control on
 1. Ensure both your computers / devices are on the same internet network and the IP numbers match on both devices
-1. Double check you took the right steps in the Firewall Setup section. Your inline computer might be blocking gSender's ability to send information to the internet because of the firewall. On Windows, follow these steps to modify the firewall:
-   - Click Start and open your computer's Control Panel
+1. If on the remote device you get a popup for "Server Connection Lost", this just means that either gSender on the inline computer was closed or the shared internet is disconnecting. You should be able to fix this by restarting gSender on the inline device, then clicking "Attempt Reconnect" on the remote device.
+![](/_images/_gsender/_features/_remote/gs_fe_re_issues-conn-lost.jpg){.aligncenter .size-medium}
+1. If there was a problem using the specified IP address or Port, you'll get an error window to let you know. In this case you should be able to reopen gSender, go back to the Wireless Control settings, and try another IP or Port until the setup is successful. Common port values are 3000, 8000, and 8080 and generally don't go below 1024 since those are considered privileged. Changing IP addresses can also help if you're running a VPN or need a different internal IP to external IP mapping.
+  ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-ip-error.jpg){.aligncenter .size-medium}
+1. If you have a Windows Security Alert window pop up during setup, it means your inline computers firewall isn't allowing gSender to communicate to other devices on your network.
+   - Check the boxes beside "Private networks" and "Public networks" and click the 'Allow access' button
+   ![](/_images/_gsender/_features/_remote/gs_fe_re_firewall-windows.jpg){.aligncenter .size-full}
+   - If you don't see this popup, click Start and open your computer's Control Panel
    ![](/_images/_gsender/_features/_remote/gs_fe_re_issues-control-panel.jpg){.aligncenter .size-medium}
    - Open the 'System and Security' settings
    ![](/_images/_gsender/_features/_remote/gs_fe_re_issues-security.jpg){.aligncenter .size-medium}
@@ -599,11 +579,14 @@ If you ran into issues during remote control setup, here are some other checks y
    ![](/_images/_gsender/_features/_remote/gs_fe_re_issues-firewall.jpg){.aligncenter .size-medium}
    - In the column on the left, click on 'Inbound Rules' and then find and double-click on 'gSender'. There might be three options of gSender to click on, you'll want to click on the version that has the word “All” under the 'Profile' column
    ![](/_images/_gsender/_features/_remote/gs_fe_re_issues-inbound-rules.jpg){.aligncenter .size-medium}
-   - In the pop-up box, click on the tab labelled 'Protocols and Ports'. Next to 'Local port:' you'll want to use the drop-down menu to select “Specific Ports” and then type in the default port of “8000”. If you have added a custom port to gSender's Shortcut properties, you'll need to type in that number instead. Once you hit 'Apply', you can check to see if this resolved your problem.
+   - In the pop-up box, click on the tab labelled 'Protocols and Ports'. By 'Local port:' you'll want to use the drop-down menu to select "Specific Ports" and then type in the default port of "8000". If you have added a custom port to gSender's Shortcut properties, you'll need to type in that number instead. Once you hit 'Apply', you can check to see if this resolved your problem.
    ![](/_images/_gsender/_features/_remote/gs_fe_re_issues-port.jpg){.aligncenter .size-medium}
+   - On newer devices you might alternatively need to go to your Windows security tab, and click the Allow an app through firewall text.
+   ![](/_images/_gsender/_features/_remote/gs_fe_re_firewall-windows1.jpg){.aligncenter .size-medium}
+   - Scroll down until you see gSender, click on Change Settings, then enable gSender to communicate through the firewall by clicking the checkbox.
+   ![](/_images/_gsender/_features/_remote/gs_fe_re_firewall-windows2.jpg){.aligncenter .size-medium}
+1. If on Mac, Linux, or Pi you find that you can't connect with outside devices or just want some extra safety you might want to try opening the Universal FireWall (UFW) on a given port to allow external access. This can be started with `sudo ufw enable` (if UFW is not found then install it using `sudo apt-get install ufw` and your root password) then opening the desired port, for example `sudo ufw allow 8080` opens port 8080 for external access. If you want to see what ports are already open, you can use `ufw status verbose`.
 1. If when gSender reopens you're met with a white screen, this means an error has occurred that we weren't able to detect. This is rare, but unless we can find some other way to manage this the only fix is to uninstall gSender and reinstall it again.
-1. If on the remote device you get a popup for “Server Connection Lost”, this indicates that either gSender on the inline computer was closed or the shared internet is disconnecting. You should be able to fix this by restarting gSender on the inline device, then clicking “Attempt Reconnect” on the remote device.
-![](/_images/_gsender/_features/_remote/gs_fe_re_issues-conn-lost.jpg){.aligncenter .size-medium}
 
 ## Macros
 
