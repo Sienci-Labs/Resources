@@ -421,19 +421,33 @@ If you have a sensor on both sides of each axis, all 6 sensors can provide you a
 
 ## Stats Tab
 
-Curious to know how many jobs you've completed, how many hours you've put on your machine, what alarms you've encountered or what maintenance you should be focusing on? Click on the **Stats Tab** to see an Overview of all your stats. Here you can see information about your machine including job statistics, machine maintenance, alarms & errors, configuration settings, diagnostic files and resources to help along your CNC journey. You can check out the main dashboard tab, or click into each section to see further details with the tab at the bottom of the screen, or click on the button in the top right corner of each section.
+Curious to know how many jobs you've completed, how many hours you've put on your machine, what alarms you've encountered or what maintenance you should be focusing on? Think of the Stats tab as your dashboard for understanding how your machine is running, what things you might need to check up on, or to collect information that would be useful for troubleshooting.
+
+Here you can see information about your machine including [job statistics](#job-stats), [machine maintenance](#cnc-maintenance), [alarms & errors](#alarms--errors), configuration settings, diagnostic files, resources to help along your CNC journey, or [learn more about gSender](#about-page). You can check out the main dashboard, click into each section to see further details using the tabs at the bottom of the screen, or click on the button in the top right corner of each section.
 
 ![](/_images/_gsender/_features/gs_fe_statsconfig.jpg){.aligncenter .size-medium}
 
-### Your Machine Job Stats
+### Get Help
 
-The Job Table tab provides a simplified breakdown of each job, including the file name, duration of the job, # of lines in the job, start time/date and if the job completed successfully or not. This section also displays jobs per port and run time per port. You can use the search bar at the top, to search each column for a specific job by date, file name, completion status, etc.
+Before moving on to the other sections in Stats, the main page can be really useful if you've got an issue with your machine and feel stuck. Most importantly, you can follow links to our community pages including our [Resources](https://resources.sienci.com/view/gs-installation/), [Community Forum](https://forum.sienci.com/c/gsender/), and [GitHub](https://github.com/Sienci-Labs/gsender).
+
+Another valuable feature is the ability to download a **Diagnostic File** of your CNC machine. This file contains many things like your current machine settings, gSender preferences, and a PDF file that includes about your computer, your CNC, recent alarms / errors, any currently loaded g-code file, and more. It's basically a treasure trove of information that you can share on Community Forums, Facebook groups, or with your CNC customer support. This can go a long way towards getting help from others on diagnosing any problems your CNC might be experiencing.
+
+![](/_images/_gsender/_features/gs_fe_statsgethelp.jpg){.aligncenter .size-medium}
+
+Click the '**Download Diagnostic File**' button to download this. This will open a save dialog box for you to save the file to a location that you can easily access to send along to others in an email, support ticket or post online.
+
+### Job Stats
+
+The Job Table provides a simplified breakdown of each job, including the file name, duration of the job, # of lines in the job, start time/date and if the job completed successfully or not. This section also displays jobs per port and run time per port. You can use the search bar at the top to search each column for a specific job by date, file name, completion status, etc.
 
 ![](/_images/_gsender/_features/gs_fe_statsjobs.jpg){.aligncenter .size-medium}
 
 ### CNC Maintenance
 
-In the Maintenance tab, you will see preset tasks with an hourly countdown range, to remind you when a maintenance task is due to be performed. These times pull directly from the runtime of your jobs and allow you to mark them as complete to reset the timers. Once the task is in range, the maintenance is due, once past the range, the task becomes critical to address. Each task includes a timer showing how much time remains before the task needs attention, detailed descriptions and an edit button or complete task button. This section also displays all upcoming maintenance in a colour coded list to the right.
+In the Maintenance tab, you will see preset tasks with an hourly countdown range, to remind you when a maintenance task is due to be performed. These times pull directly from the runtime of your jobs and allow you to mark them as complete to reset the timers. Once the task is in range, the maintenance is due, once past the range, the task becomes critical to address.
+
+Each task includes a timer showing how much time remains before the task needs attention, detailed descriptions and an edit button or complete task button. This section also displays all upcoming maintenance in a colour coded list to the right.
 
 ![](/_images/_gsender/_features/gs_fe_statsmaintenance.jpg){.aligncenter .size-medium}
 
@@ -449,23 +463,9 @@ In the Alarms & Errors tab, you will see a list or errors and alarms. Details in
 
 To read more about Alarms & Errors, visit our [grbl Alarms & Errors](https://resources.sienci.com/view/gs-grbl-alarm-error-codes/#alarms) resource.
 
-### Get Help
-
-Another valuable feature is the ability to download a **Diagnostic PDF** file of your CNC machine. This PDF file is meant to include information on your computer, your CNC, recent alarms / errors, any currently loaded g-code file, and more. It's basically a treasure trove of information that you can share on community forums, Facebook groups, or with your CNC customer support. This can go a long way towards getting help from others on diagnosing any problems your CNC might be experiencing.
-
-![](/_images/_gsender/_features/gs_fe_statsgethelp.jpg){.aligncenter .size-medium}
-
-To download the PDF, click the '**Download Diagnostic File**' button. This will open a save dialog box. Save the file to a location that you can easily access to send along to others in an email, support ticket or post online.
-
-Lastly, you can copy the last 40 lines of code in the gSender console, by hitting the double page icon to the left of the Run button. This will copy the code to your clipboard, so you can paste it to forums or share it with support teams.
-
-![](/_images/_gsender/_features/gs_fe_copyconsole.jpg){.aligncenter .size-full}
-
-If you have questions, need support, want to read up on specific features, or investigate cool community activities, you can read more of our [Resources](https://resources.sienci.com/), join our [Community](https://forum.sienci.com/) or dig into our [Github](https://github.com/Sienci-Labs/gsender/releases/) repository.
-
 ### About Page
 
-You can find the release notes for the latest version of gSender in the “About” section of the settings.
+You can find the release notes for the latest version of gSender in the “About” section of Stats, as well as get to know more about the team behind gSender!
 
 ![](/_images/_gsender/_features/gs_fe_statsabout.jpg){.aligncenter .size-medium}
 
