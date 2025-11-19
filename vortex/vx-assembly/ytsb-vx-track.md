@@ -17,13 +17,13 @@ featured_image: _images/post-image.jpg
 
 <img class="aligncenter size-medium wp-image-5469" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p41_Section-Header_All-850x531.jpg" alt="" width="850" height="531" />
 
-Now it’s time to mount both the **headstock** and the **tailstock** onto your **track**(s). This will take about 10 minutes.
+Now it's time to mount both the **headstock** and the **tailstock** onto your **track**(s). This will take about 10 minutes.
 
 <img class="wid aligncenter wp-image-5470 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p42_Header-14-V2-850x201.jpg" alt="" width="850" height="201" />
 
 <img class="aligncenter size-medium wp-image-5471" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p43_Headstock-placement-850x531.jpg" alt="" width="850" height="531" />
 
-Find the side of the main track with the four machined holes (not slots) on top. Ensure that you seat the wire in the track groove before mounting the headstock. The headstock is simply **pressed onto** the track to be seated, you don’t need to slide it on.
+Find the side of the main track with the four machined holes (not slots) on top. Ensure that you seat the wire in the track groove before mounting the headstock. The headstock is simply **pressed onto** the track to be seated, you don't need to slide it on.
 
 <img class="aligncenter size-medium wp-image-5472" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p44_Headstock-screws-v2-850x531.jpg" alt="" width="850" height="531" />
 
@@ -35,9 +35,9 @@ Use the four M6 bolts to secure the headstock onto the track.
 
 <img class="aligncenter size-medium wp-image-5474" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p46_Tailstock-v2-850x531.jpg" alt="" width="850" height="531" />
 
-Hold the cam handle up and adjust the M6 square head bolt so that it’s sticking out slightly past the bottom of the tailstock and square to the track. Try sliding the tailstock onto the track **with the lever up**. This will be a bit tight when first installed, but will slide smoothly over time.
+Hold the cam handle up and adjust the M6 square head bolt so that it's sticking out slightly past the bottom of the tailstock and square to the track. Try sliding the tailstock onto the track **with the lever up**. This will be a bit tight when first installed, but will slide smoothly over time.
 
-Ensure that the head of the bolt **properly aligns with the slot in the track**. If it doesn't slide on make sure it’s square to the track and has enough space to fit under the rail.
+Ensure that the head of the bolt **properly aligns with the slot in the track**. If it doesn't slide on make sure it's square to the track and has enough space to fit under the rail.
 
 This can be a tricky step, so hang in there!
 

@@ -23,12 +23,12 @@ The four-jaw chuck used on the Vortex includes two sets of jaws:
 
 ![](/_images/_vortex/_handbook/_chuck/vx_chuck_jaw-types.jpg){.aligncenter .size-medium}
 
-- A pre-installed, **Default** set of jaws for material that is 0-0.9” diameter. This ‘internal’ set of jaws has the ability to clamp the internal diameter of hollow objects such as pipes, cups, or any other internal geometry.
+- A pre-installed, **Default** set of jaws for material that is 0-0.9" diameter. This 'internal' set of jaws has the ability to clamp the internal diameter of hollow objects such as pipes, cups, or any other internal geometry.
   ![](/_images/_vortex/_handbook/_chuck/vx_chuck_jaw-small.png){.aligncenter .size-medium}
-- An **Alternative** set of jaws (for stock that is 1-2.5” diameter).
+- An **Alternative** set of jaws (for stock that is 1-2.5" diameter).
   ![](/_images/_vortex/_handbook/_chuck/vx_chuck_jaw-large.jpg){.aligncenter .size-medium}
 
-To swap out these two sets, simply insert the chuck key into the chuck, and turn this counterclockwise until each jaw falls out. Grab the set of chuck jaws you’ll be swapping in, and check the side of each jaw for a small number (1-4) etched into the side.
+To swap out these two sets, simply insert the chuck key into the chuck, and turn this counterclockwise until each jaw falls out. Grab the set of chuck jaws you'll be swapping in, and check the side of each jaw for a small number (1-4) etched into the side.
 
 ![](/_images/_vortex/_handbook/_chuck/vx_chuck_jaw-numbers.jpg){.aligncenter .size-medium}
 
@@ -36,7 +36,7 @@ Peer into the front of the chuck and look through the slots of the chuck and fin
 
 ![](/_images/_vortex/_handbook/_chuck/vx_chuck_chuck-numbers.jpg){.aligncenter .size-medium}
 
-Insert the key into the chuck, turning this either clockwise or counterclockwise. Peering inside the chuck, you’ll see the starting point of the steel spiral rotating inside the chuck. Turn the chuck key such that the start of this steel spiral is aligned with the slot labelled 1.
+Insert the key into the chuck, turning this either clockwise or counterclockwise. Peering inside the chuck, you'll see the starting point of the steel spiral rotating inside the chuck. Turn the chuck key such that the start of this steel spiral is aligned with the slot labelled 1.
 
 ![](/_images/_vortex/_handbook/_chuck/vx_chuck_chuck-install-angle.jpg){.aligncenter .size-medium}
 
@@ -60,11 +60,11 @@ Once all jaws have been inserted, you can tighten them all the way down to meet 
 
 ## Faceplate
 
-Not every piece of wood will be perfectly square or perfectly round, but that shouldn't stop us from using these pieces in a potential rotary project. With the included workholding faceplate, you’ll be able to screw on a mounting point to the end of your stock material, allowing you to mount almost any type of geometry for carving.
+Not every piece of wood will be perfectly square or perfectly round, but that shouldn't stop us from using these pieces in a potential rotary project. With the included workholding faceplate, you'll be able to screw on a mounting point to the end of your stock material, allowing you to mount almost any type of geometry for carving.
 
 Just like screws going through your stock material with a regular XYZ carving, using the workholding faceplate option is slightly destructive. It involves leaving screws in the bottom of your material, but allows you much more flexibility.
 
-The second obvious benefit of using the workholding faceplate is that material up to the maximum recommended 4” diameter can be held.
+The second obvious benefit of using the workholding faceplate is that material up to the maximum recommended 4" diameter can be held.
 
 The face plate can use four #4 - #6 sized screws that are not included. The center hole is great for centering the faceplate on your stock, but not necessary for running your job.
 

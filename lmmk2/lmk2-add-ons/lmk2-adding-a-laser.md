@@ -76,7 +76,7 @@ Installing a laser onto your LongMill is fairly easy. There are just three conne
 Typically there will be two pairs of wires, one to power the laser diode and another to power the cooling fan. You can extend these wires to route them through your CNCs drag chains.
 
 <b>2) Connect the driver to the controller</b><br>
-The laser driver will have a + and - input for PWM (sometimes it's marked as TTL) that can be wired into the LongBoard controller on the Spindle PWM port (marked as SpinPWM). Use a flat head screwdriver to attach the wires to the terminal connector on the LongBoard and ensure you get the polarity correct otherwise the laser won’t work.
+The laser driver will have a + and - input for PWM (sometimes it's marked as TTL) that can be wired into the LongBoard controller on the Spindle PWM port (marked as SpinPWM). Use a flat head screwdriver to attach the wires to the terminal connector on the LongBoard and ensure you get the polarity correct otherwise the laser won't work.
 
 <b>3) Connect the driver to its power supply</b><br>
 Use the power supply that came with the laser driver, plugging the power connector into the indicated socket on the driver.
@@ -92,7 +92,7 @@ As reported by members of our community, some laser drivers (like the common Ban
 
 All g-code senders will have a way to access your LongMill's settings - whether via a **Firmware** settings window or a **Console**. If you run your LongMill with a spindle, want to note down the current spindle settings because you'll either need to use them when making your laser g-code, or if you change the values as outlined below then you'll need to change them back later. You can do this in the Console by typing "$$" and hitting the *Enter* or *Send* key. Write down the values for $31 and $32 from the list that appears.
 
-You can find all the info about grbl and how “laser mode” works on this page: <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.YouTube.com/redirect?v=fvlab9rpTRQ&amp;redir_token=4aMeWUw7bkU75KvVkDDk4ScJqXp8MTU3NzU2ODU1NEAxNTc3NDgyMTU0&amp;event=video_description&amp;q=https%3A%2F%2Fgithub.com%2Fgnea%2Fgrbl%2Fwiki%2FGrbl-v1.1-Laser-Mode" target="_blank" rel="nofollow noopener noreferrer">https://github.com/gnea/grbl/wiki/Grb...</a>. The key takeaways are that you'll need to alter three machine settings to prepare your CNC for using a laser:
+You can find all the info about grbl and how "laser mode" works on this page: <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="https://www.YouTube.com/redirect?v=fvlab9rpTRQ&amp;redir_token=4aMeWUw7bkU75KvVkDDk4ScJqXp8MTU3NzU2ODU1NEAxNTc3NDgyMTU0&amp;event=video_description&amp;q=https%3A%2F%2Fgithub.com%2Fgnea%2Fgrbl%2Fwiki%2FGrbl-v1.1-Laser-Mode" target="_blank" rel="nofollow noopener noreferrer">https://github.com/gnea/grbl/wiki/Grb...</a>. The key takeaways are that you'll need to alter three machine settings to prepare your CNC for using a laser:
 
 1. Set the maximum spindle speed ($30) to a value of 255, or send the command `$30=255`. Lightburn documentation recommends using 255 or 1000
 1. Set the minimum spindle speed ($31) to a value of 0, or send the command `$31=0`

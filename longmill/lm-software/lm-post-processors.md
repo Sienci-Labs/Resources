@@ -76,7 +76,7 @@ To help out, we've put together a simple table which shows popular CAM programs 
 
 **To avoid potential issues with Fusion 360, we also recommend you make the following checks to your post processor:
 
-- Change the '**Safe Retracts**' to “Clearance Height” and NOT “G28”. It will be obvious that you have this on if you don't have limit switches or forget to home your machine and at the start of the job your bit plunges suddenly really deep into your material.
+- Change the '**Safe Retracts**' to "Clearance Height" and NOT "G28". It will be obvious that you have this on if you don't have limit switches or forget to home your machine and at the start of the job your bit plunges suddenly really deep into your material.
 - **Output M6** set as "No" (unless you plan to set up tool changing)
 - **Output Tool Number** set as "No" (unless you plan to set up tool changing)
 

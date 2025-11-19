@@ -155,7 +155,7 @@ The stop button will stop a running job. Once you press the stop button, you wil
 
 ### Limit switches
 
-For info about adding limit switches please visit:<a href="https://resources.sienci.com/view/lm-adding-limit-switches/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-adding-limit-switches/</a>
+For info about adding limit switches please visit: <a href="https://resources.sienci.com/view/lm-adding-limit-switches/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-adding-limit-switches/</a>
 
 ### Spindle/Laser control
 

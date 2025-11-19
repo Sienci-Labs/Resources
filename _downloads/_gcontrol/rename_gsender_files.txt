@@ -1,0 +1,35 @@
+@echo off
+setlocal
+
+set "userProfile=%USERPROFILE%"
+set "appData=%APPDATA%"
+
+REM Handle .sender_rc
+echo Processing .sender_rc...
+if exist "%userProfile%\.sender_rc_old" (
+    del /f /q "%userProfile%\.sender_rc_old"
+    echo Deleted existing .sender_rc_old
+)
+if exist "%userProfile%\.sender_rc" (
+    ren "%userProfile%\.sender_rc" ".sender_rc_old"
+    echo Renamed .sender_rc to .sender_rc_old
+) else (
+    echo .sender_rc not found
+)
+
+REM Handle gsender-0.5.6.json
+echo Processing gsender-0.5.6.json...
+set "targetFile=%appData%\gSender\gsender-0.5.6.json"
+set "backupFile=%appData%\gSender\gsender-0.5.6_old.json"
+if exist "%backupFile%" (
+    del /f /q "%backupFile%"
+    echo Deleted existing gsender-0.5.6_old.json
+)
+if exist "%targetFile%" (
+    ren "%targetFile%" "gsender-0.5.6_old.json"
+    echo Renamed gsender-0.5.6.json to gsender-0.5.6_old.json
+) else (
+    echo gsender-0.5.6.json not found
+)
+
+pause

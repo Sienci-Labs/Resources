@@ -85,7 +85,7 @@ Something's happened during the operation of the machine which was unexpected so
 - To bring it out of the alarm state, click on the button below the alarm in gSender to put the machine back into its 'IDLE' state.
 - If your machine had 'homing' enabled, this will cause the controller to start in an alarm state upon connecting to prompt you to run the homing cycle.
 - In some cases, your EEPROM settings (the machine settings) have changed. Make sure they are correct by referring to the <a href="https://resources.sienci.com/view/lmk2-EEPROM-settings/" target="_blank" rel="noopener">default EEPROM settings</a>.
-- If it continues to go into an ALARM state under similar conditions in the future, check that no wires or hardware have come loose and that there’s nothing externally affecting the movement of your machine.
+- If it continues to go into an ALARM state under similar conditions in the future, check that no wires or hardware have come loose and that there's nothing externally affecting the movement of your machine.
 
 ![](/_images/_lmmk2/_handbook/lmk2_issues_gsender-alarm.png "Alarm 4 triggered, indicating an issue with the probing cycle"){.aligncenter .size-medium}
 
@@ -108,7 +108,7 @@ When jogging or running the LongMill, one of the motors does not move correctly 
 - Ensure that all plugs and cables are fully seated and connected properly. Check the other plugs for reference.
 - Check the colour pattern of each wire coming from the motor and connected to the LongBoard. Is the pattern the same with each motor? If not, change the order of the wires to match.
 - If your Z-axis motor is moving the wrong direction, ensure that you've selected the LongMill MK2 machine profile in gSender. The LongMill MK1 machine profile will cause the Z-axis direction to be flipped.
-- Reload the EEPROM settings on your Arduino, as these settings may have changed when using various g-code senders. These settings control aspects such as the jogging direction and the machine’s work space boundaries. To access them, go to the Firmware tool in gSender, or the Firmware Settings in UGS. gSender will have the ability to "Restore Defaults" and revert to the LongMills factory settings. For UGS, make sure you have the default settings (found <a href="https://resources.sienci.com/view/lm-EEPROM-settings/" target="_blank" rel="noopener">here</a>) by going through each line and manually changing the values, or download the configuration zip file, unzip it, and load it into UGS.
+- Reload the EEPROM settings on your Arduino, as these settings may have changed when using various g-code senders. These settings control aspects such as the jogging direction and the machine's work space boundaries. To access them, go to the Firmware tool in gSender, or the Firmware Settings in UGS. gSender will have the ability to "Restore Defaults" and revert to the LongMills factory settings. For UGS, make sure you have the default settings (found <a href="https://resources.sienci.com/view/lm-EEPROM-settings/" target="_blank" rel="noopener">here</a>) by going through each line and manually changing the values, or download the configuration zip file, unzip it, and load it into UGS.
 
 ### Not moving the correct distance
 
@@ -135,7 +135,7 @@ When jogging or running the LongMill, one of the motors does not move correctly 
 
 ### Lead screws wobble excessively
 
-Excessive wobble is when the lead screw is deviating from center by more than about 3mm or 1/8″. This means that butting a measuring tape or ruler against the LongMill wasteboard and recording down the height of the lead screw at its lowest point, and then again at its highest point, should result in a difference in the two measurements of no more than 6mm or 1/4″. Wobble can happen due to a loose lead screw or due to the screw being physically bent: if it’s bent then the wobble will happen at any movement speed, whereas if it’s loose then it will wobble mostly at higher movement speeds (above 2000mm/min).
+Excessive wobble is when the lead screw is deviating from center by more than about 3mm or 1/8″. This means that butting a measuring tape or ruler against the LongMill wasteboard and recording down the height of the lead screw at its lowest point, and then again at its highest point, should result in a difference in the two measurements of no more than 6mm or 1/4″. Wobble can happen due to a loose lead screw or due to the screw being physically bent: if it's bent then the wobble will happen at any movement speed, whereas if it's loose then it will wobble mostly at higher movement speeds (above 2000mm/min).
 
 - **Loose screw:** loosen the two M5-25mm screws that hold the Delrin anti-backlash nuts slightly for the axis which the lead screw is on and run the machine back and forth. This will align the lead screw and the nut. Re-tighten the screws once the wobbling as gone away. Also check the ACME locking nut and coupler on both ends of the screw are firmly tightened and sandwiching the lead screw properly.
 - **Bent screw:** a sure way to confirm is to completely remove the screw and roll it along a surface that is very flat to see if it rolls evenly.

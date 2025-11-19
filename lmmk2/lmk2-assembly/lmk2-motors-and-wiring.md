@@ -23,7 +23,7 @@ featured_image: _images/_lmmk2/_assembly/_motorswires/lmk2_motors_Title-Motors-W
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_45_2r2-1536x864-1.jpg){.aligncenter .size-full}
 
-You’re really making your way along, celebrate with a friend and a cold drink!! Look back to the yellow bag and grab the 35mm spacers, M5-50mm bolts and also grab the NEMA 23 stepper motors out of the motor box. You’ll be inserting four M5-50mm bolts into the four holes on each motor along side the aluminum spacer. These assemblies will attach to each axis of the machine. **Note:** Earlier versions of the LongMill shipped with Nylon washers. If your machine has these washers, install the washers between the 35mm spacer and the metal gantry plates and feet.
+You're really making your way along, celebrate with a friend and a cold drink!! Look back to the yellow bag and grab the 35mm spacers, M5-50mm bolts and also grab the NEMA 23 stepper motors out of the motor box. You'll be inserting four M5-50mm bolts into the four holes on each motor along side the aluminum spacer. These assemblies will attach to each axis of the machine. **Note:** Earlier versions of the LongMill shipped with Nylon washers. If your machine has these washers, install the washers between the 35mm spacer and the metal gantry plates and feet.
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_Motors-Wiring_2.png){.aligncenter .size-medium}
 
@@ -31,7 +31,7 @@ For both Y-axes, position a motor assembly at the back foot making sure the moto
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_Motors-Wiring_3.png){.aligncenter .size-medium}
 
-If everything has come together well so far, you should be able to now check that the lead screw can spin relatively easily. If you find that the motor **shaft doesn’t fit into the coupler** it’s likely that you tightened the motor-side set screw earlier on and have now deformed it. There is a chance for fixing this: take the motor-side set screw out of the coupler and insert anything thin like a box knife, putty knife, or paint scraper into the vertical slot of the coupler. Then screw in the set screw from the opposite side until it hits the inserted object. Rotate it against the object a couple turns to open up the slot again, then back the screw out again, remove the object, and reinsert the screw back to where it should be.
+If everything has come together well so far, you should be able to now check that the lead screw can spin relatively easily. If you find that the motor **shaft doesn't fit into the coupler** it's likely that you tightened the motor-side set screw earlier on and have now deformed it. There is a chance for fixing this: take the motor-side set screw out of the coupler and insert anything thin like a box knife, putty knife, or paint scraper into the vertical slot of the coupler. Then screw in the set screw from the opposite side until it hits the inserted object. Rotate it against the object a couple turns to open up the slot again, then back the screw out again, remove the object, and reinsert the screw back to where it should be.
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_double-pic-green-circle.png){.aligncenter .size-medium}
 
@@ -47,11 +47,11 @@ Bring the last motor assembly to the Z-axis motor mount making sure the motor wi
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_49_1.jpg){.aligncenter .size-medium .wid}
 
-We will now be installing the drag chains which can be found in the long rail box inside the Y-axis rails. These contain and guide the wires on the LongMill so they aren’t in the way during cutting. They also keep wires from wearing out from bending or being cinched around corners.
+We will now be installing the drag chains which can be found in the long rail box inside the Y-axis rails. These contain and guide the wires on the LongMill so they aren't in the way during cutting. They also keep wires from wearing out from bending or being cinched around corners.
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_49_2-1.jpg){.aligncenter .size-medium}
 
-Start by un-clipping all the drag chain clips using a flat head screwdriver or anything else sharp like a wood screw underneath the clip tabs. These hold the wires into the chain but can open or be completely removed, giving flexibility to add or remove wires on your machine when needed. If you’re struggling with this the LongMill wrench also has a taper that can help you open them.
+Start by un-clipping all the drag chain clips using a flat head screwdriver or anything else sharp like a wood screw underneath the clip tabs. These hold the wires into the chain but can open or be completely removed, giving flexibility to add or remove wires on your machine when needed. If you're struggling with this the LongMill wrench also has a taper that can help you open them.
 
 We recommend permanently removing every other clip if you plan on adding more wiring in the future since accessing the wire will take half the time and the chains will still work fine. Stick the extras into a baggy to save for later if you wish.
 
@@ -69,7 +69,7 @@ Grabbing the bag of t-nuts and M5-10mm bolts, we will attach these end links to 
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_51_2.jpg){.aligncenter .size-medium}
 
-You’ll want to position it a little further back than halfway on the rail for both machine models (30x30 pictured).
+You'll want to position it a little further back than halfway on the rail for both machine models (30x30 pictured).
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_51_3.jpg){.aligncenter .size-medium}
 
@@ -85,7 +85,7 @@ These will attach to the drag chain mount from the underside with another bolt.
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_53_1-1.jpg){.aligncenter .size-medium}
 
-On the X-axis the process will be repeated. Slide in a t-nut through the hole in the right Y-gantry and bring it all the way to the left side next to the drag chain mount where you’ll bolt in a **pin-type** end link. Ensure the end link is snug up against the drag chain mount (pictured).
+On the X-axis the process will be repeated. Slide in a t-nut through the hole in the right Y-gantry and bring it all the way to the left side next to the drag chain mount where you'll bolt in a **pin-type** end link. Ensure the end link is snug up against the drag chain mount (pictured).
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_53_2.jpg){.aligncenter .size-medium}
 
@@ -95,11 +95,11 @@ Lastly, attach the final end link onto the Z-axis motor mount using one last bol
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_routeheader.jpg){.aligncenter .size-medium .wid}
 
-For the remaining assembly you won’t need any more of the loose hardware except for the provided wood screws and the 3D printed ACME nut covers. If you want, take a second to clean off your space and feel free to stick all the extra remains into a box for later use or maintenance on your machine.
+For the remaining assembly you won't need any more of the loose hardware except for the provided wood screws and the 3D printed ACME nut covers. If you want, take a second to clean off your space and feel free to stick all the extra remains into a box for later use or maintenance on your machine.
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_54_2.jpg){.aligncenter .size-medium}
 
-Before we attach the drag chains back onto the end links we’ll be moving around a couple links to get the right fit. To do this, put your hands on either side of the link you want to break, then twist and pull them apart to disconnect. Set aside the remaining, unused links - they can come in use if you’re planning on upgrading to a larger sized LongMill later.
+Before we attach the drag chains back onto the end links we'll be moving around a couple links to get the right fit. To do this, put your hands on either side of the link you want to break, then twist and pull them apart to disconnect. Set aside the remaining, unused links - they can come in use if you're planning on upgrading to a larger sized LongMill later.
 
 Depending on the size of LongMill you have, remove and add links to each drag chain as follows:
 
@@ -111,15 +111,15 @@ This will make it so the chains are the correct length to travel the whole range
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_Allen-key-router.jpg){.aligncenter .size-medium}
 
-At this stage, it’s a good idea to grab the router you’ll be using with your machine. We’ll show these steps using the Makita RT0700 / RT0701 trim router, however this works for the AutoSpin as well. Also, grab the motor wires from the motor box while you’re at it.
+At this stage, it's a good idea to grab the router you'll be using with your machine. We'll show these steps using the Makita RT0700 / RT0701 trim router, however this works for the AutoSpin as well. Also, grab the motor wires from the motor box while you're at it.
 
-**Note: when using the Makita RT0700 / RT0701 it’ll come with a base attached. Remove this as you’ll just need the main router body for the CNC.**
+**Note: when using the Makita RT0700 / RT0701 it'll come with a base attached. Remove this as you'll just need the main router body for the CNC.**
 
 To mount your router, loosen off the mount's front bolts until it slides in. Place it nearly all the way down with the power cable facing left and rotated slightly backward (pictured) then tighten back up to secure it. Go back and forth between the two bolts to keep equal clamping force and make sure not to over-tighten them.
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_55_2.jpg){.aligncenter .size-medium}
 
-Confirm the angle by turning the Z-axis lead screw by hand until its upper limit - the top part of the router body shouldn’t collide with the Z-axis motor mount at any point. You can adjust the router height later depending on your setup: lower if you use tiny tools on thin material or higher if you use longer tools on 3-4” thick material.
+Confirm the angle by turning the Z-axis lead screw by hand until its upper limit - the top part of the router body shouldn't collide with the Z-axis motor mount at any point. You can adjust the router height later depending on your setup: lower if you use tiny tools on thin material or higher if you use longer tools on 3-4" thick material.
 
 This maximum position is also where you can access the 4 bolts holding in the router mount from behind for future swapping or tramming. You'll simply lift up the drag chain and go through the hole in the X-gantry, being mindful not to damage the aluminum rail edge with the Allen key.
 
@@ -133,11 +133,11 @@ Now onto the remaining wiring. Grab the longer motor cable and connect it to the
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_57_1.jpg){.aligncenter .size-medium}
 
-Grab the drag chain for the X-axis (the longer one) and seat in the Z-axis motor cable, as well as the router power cable and signal cable (for the AutoSpin). Ensure you have the correct end of the drag chain so it’ll attach onto the Z motor mount end link and bend in the right direction. Reattach it onto the end link, then start to re-clip the clips.
+Grab the drag chain for the X-axis (the longer one) and seat in the Z-axis motor cable, as well as the router power cable and signal cable (for the AutoSpin). Ensure you have the correct end of the drag chain so it'll attach onto the Z motor mount end link and bend in the right direction. Reattach it onto the end link, then start to re-clip the clips.
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_57_2.jpg){.aligncenter .size-medium}
 
-**Note:** if you purchased the limit switch add-on kit you’ll want to leave enough clips open that running the wires for the switches later on will be easier to do.
+**Note:** if you purchased the limit switch add-on kit you'll want to leave enough clips open that running the wires for the switches later on will be easier to do.
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_58_1.jpg){.aligncenter .size-medium}
 
@@ -163,7 +163,7 @@ Lastly plug in the cables for the motors on the two Y-axis NEMA 23 stepper motor
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_61_1.jpg){.aligncenter .size-medium}
 
-Bring the cables around to the left of the machine so they’re now all bundled together (pictured). You’ll be plugging the motors cables into the control box shortly but otherwise the machine wiring is now complete!
+Bring the cables around to the left of the machine so they're now all bundled together (pictured). You'll be plugging the motors cables into the control box shortly but otherwise the machine wiring is now complete!
 
 Remember to finish setting up the AutoSpin after going through the remaining Assembly steps, refer to the  [AutoSpin setup instructions](https://resources.sienci.com/view/lm-with-slb/).
 

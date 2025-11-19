@@ -25,9 +25,9 @@ Happy making!
 
 ## Wooden Box
 
-A great starting project for the woodworker at heart. The hardness of wood varies by species and other factors, however most commonly available woods such as pine, oak, cedar, maple, or cherry are quite easy to work with. A depth of cut of about 2mm at around 700mm/min works well with soft to medium hardness woods, but you should reduce the depth of cut to around 1mm if you’re working with a very hard wood. Medium speed on the router at around 20,000RPM works well.
+A great starting project for the woodworker at heart. The hardness of wood varies by species and other factors, however most commonly available woods such as pine, oak, cedar, maple, or cherry are quite easy to work with. A depth of cut of about 2mm at around 700mm/min works well with soft to medium hardness woods, but you should reduce the depth of cut to around 1mm if you're working with a very hard wood. Medium speed on the router at around 20,000RPM works well.
 
-The following box was designed by Andy. It’s beautiful in its simplicity and fits together nicely. Refer to our Feeds and Speeds table to set up your machine based on your choice of wood.
+The following box was designed by Andy. It's beautiful in its simplicity and fits together nicely. Refer to our Feeds and Speeds table to set up your machine based on your choice of wood.
 
 <b>Material:</b> Any species of wood you wish, at least 22mm tall for the base and 13mm tall for the lid
 <b>End Mill:</b> 2-flute, 1/4″ end mill
@@ -39,7 +39,7 @@ The following box was designed by Andy. It’s beautiful in its simplicity and f
 
 ## Acrylic Gear Train
 
-Acrylic is a sturdy and useful plastic, commonly used in robotics applications due to its functionality, availability, and looks. At the right speed, acrylic and other soft plastics can be smoothly milled to yield very beautiful results. Generally, you’ll want to aim for an 800mm/min feed rate at a 1.8mm depth of cut. You’ll notice that there are burrs and debris left behind on the cut surfaces if the right speeds and feeds are not selected. Choose spindle speed around 24,000 RPM and adjust these settings as you need to get the best results.
+Acrylic is a sturdy and useful plastic, commonly used in robotics applications due to its functionality, availability, and looks. At the right speed, acrylic and other soft plastics can be smoothly milled to yield very beautiful results. Generally, you'll want to aim for an 800mm/min feed rate at a 1.8mm depth of cut. You'll notice that there are burrs and debris left behind on the cut surfaces if the right speeds and feeds are not selected. Choose spindle speed around 24,000 RPM and adjust these settings as you need to get the best results.
 
 This gear train was designed from scratch by Chris. If cut properly, minimal drilling should be required to use two M4 bolts and washers (or 8-32) and thread them into the gear train base.
 
@@ -53,7 +53,7 @@ This gear train was designed from scratch by Chris. If cut properly, minimal dri
 
 ## Aluminum Bottle Opener
 
-A start at using the hardest material in the Mill One's capability range. Aluminum comes in a variety of alloys, but the most common is 6061 Aluminum. It’s a fairly hard and strong material and can be found in aerospace components and bikes. The trickiest part of milling aluminum is preventing the aluminum chips from melting and binding to the end mill, which will stop the end mill from cutting. In order to carry the right amount of heat away via the chips, we recommend an 800mm/min feed rate at a 0.4mm depth of cut and 0.2 step over. The depth of cut is also slower, about 100mm/min.
+A start at using the hardest material in the Mill One's capability range. Aluminum comes in a variety of alloys, but the most common is 6061 Aluminum. It's a fairly hard and strong material and can be found in aerospace components and bikes. The trickiest part of milling aluminum is preventing the aluminum chips from melting and binding to the end mill, which will stop the end mill from cutting. In order to carry the right amount of heat away via the chips, we recommend an 800mm/min feed rate at a 0.4mm depth of cut and 0.2 step over. The depth of cut is also slower, about 100mm/min.
 
 Choosing the right spindle speed for milling aluminum is a highly debated topic for hobby CNCers. Traditional machines set their spindle speeds at around a few thousand RPM, however routers like the ones used on the Mill One run between 10,000RPM to 30,000RPM. To get around this, less flutes are used (one or two) with shallower cuts and faster feed rates.
 

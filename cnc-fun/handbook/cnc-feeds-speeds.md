@@ -318,7 +318,7 @@ To calculate chip load there’s a simple formula shown below. Since we usually 
 
 <p style="text-align: center;"><em><code>Chip Load  = ( Feed Rate ) / ( Router Speed x # Flutes )</code></em></p>
 
-<p style="text-align: center;"><em>For example, if we’d like a chip load of </em><b><em>0.0031”</em></b><em>, we can run a </em><b><em>2 flute</em></b><em> end mill at a speed of </em><b><em>17000 rpm</em></b><em> and feed rate of </em><b><em>105.4 inches/min</em></b><em> (2677.16 mm/min) to achieve this.</em></p>
+<p style="text-align: center;"><em>For example, if we’d like a chip load of <b>0.0031”</b>, we can run a <b>2 flute</b> end mill at a speed of <b>17000 rpm</b> and feed rate of <b>105.4 inches/min</b> (2677.16 mm/min) to achieve this.</em></p>
 
 <p style="text-align: center;"><em><code>Chip Load  = 0.0031" = ( 105.4 ipm ) / ( 17,000 RPM x 2 Flutes)</code></em></p>
 

@@ -15,7 +15,7 @@ skip_file: no
 featured_image: /_images/_longmill/_assembly/_xaxisrail/lm_xaxisrail_p01 (cover).jpg
 ---
 
-Congratulations on getting your LongMill MK1 48” extension kit! In just a few steps, you’ll soon have a much larger CNC with 56% more cutting area than before, as well as the ability to pass full width 4’ sheets of material through.
+Congratulations on getting your LongMill MK1 48" extension kit! In just a few steps, you'll soon have a much larger CNC with 56% more cutting area than before, as well as the ability to pass full width 4' sheets of material through.
 
 The assembly instructions are available as a PDF that you can download by clicking on the link below:
 

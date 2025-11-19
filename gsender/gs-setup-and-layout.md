@@ -17,7 +17,7 @@ featured_image: _images/_gsender/_setup/gs_se_carve-overview.jpg
 
 ## Anonymous Information
 
-When you open up gSender, you’ll notice a prompt regarding ‘Anonymous usage information’. This is just to ask if you’d be fine with us knowing things like what CNC you use it for, what computer you run it on, and other information about how you use the app. You can imagine that if we know certain features are widely used or certain errors are constantly encountered, that can be very helpful to understand how we can improve the app or its documentation. This is completely optional and anonymous, we only do it with your permission and it can be turned off at any time in the settings menu.
+When you open up gSender, you'll notice a prompt regarding 'Anonymous usage information'. This is just to ask if you'd be fine with us knowing things like what CNC you use it for, what computer you run it on, and other information about how you use the app. You can imagine that if we know certain features are widely used or certain errors are constantly encountered, that can be very helpful to understand how we can improve the app or its documentation. This is completely optional and anonymous, we only do it with your permission and it can be turned off at any time in the settings menu.
 
 ![](/_images/_gsender/_setup/gs_se_anonymous-info1.jpg){.aligncenter .size-medium}
 
@@ -31,7 +31,7 @@ Before starting to use gSender, let's briefly cover the way its functions are la
 
 ![](/_images/_gsender/_setup/gs_se_carve-overview.jpg){.aligncenter .size-medium}
 
-Another of gSender’s Design Principals is colouring. It can be scary to have an assortment of buttons in front of you and not know what they’re going to do. This is why we made every button in the app that moves the CNC **dark blue**. This means you shouldn’t ever find yourself startled when the machine moves unexpectedly since the colour will help to communicate whether it’s a ‘machine moving’ button or not.
+Another of gSender's Design Principals is colouring. It can be scary to have an assortment of buttons in front of you and not know what they're going to do. This is why we made every button in the app that moves the CNC **dark blue**. This means you shouldn't ever find yourself startled when the machine moves unexpectedly since the colour will help to communicate whether it's a 'machine moving' button or not.
 
 ### Carve
 
@@ -42,7 +42,7 @@ This is where you will spend the majority of your time actually carving. When th
 
 ![](/_images/_gsender/_setup/gs_se_carve-tab.jpg){.aligncenter .size-medium}
 
-We’ve built gSender’s main screen around these primary boxed sections so that you can have all of the CNC functionality most hobbyists need on one screen without getting confused about what each button does. If you’re doing anything **during** a job it’ll be in the middle, if you’re doing anything **outside** a job it’ll likely be on the right, and if you want greater customization or functionality it’ll be found in the toolbars.
+We've built gSender's main screen around these primary boxed sections so that you can have all of the CNC functionality most hobbyists need on one screen without getting confused about what each button does. If you're doing anything **during** a job it'll be in the middle, if you're doing anything **outside** a job it'll likely be on the right, and if you want greater customization or functionality it'll be found in the toolbars.
 
 ### Stats
 
@@ -106,11 +106,11 @@ If you're running into an issue where the size isn't correct when using Soft Lim
 
 Windows computers can tend to have their screens and USB ports 'fall asleep' even in the middle of running a long carving job. This can cause your intricate cuts to stop short and the job to fail. gSender tries to fight against this by keeping your computer awake (we use similar tactics to auto-clicker apps), but sometimes this still isn't enough so you have to change your computer settings manually.
 
-To keep the display on, you'll want to click the **Windows** icon at the bottom left corner of your screen and start to type “<em>control panel</em>” to bring it up.
+To keep the display on, you'll want to click the **Windows** icon at the bottom left corner of your screen and start to type "<em>control panel</em>" to bring it up.
 
 ![](/_images/_gsender/_setup/gs_se_awake-control-panel.jpg){.aligncenter .size-medium}
 
-Once you’ve clicked to open it, go to **Hardware and Sound** then **Power Options**
+Once you've clicked to open it, go to **Hardware and Sound** then **Power Options**
 
 ![](/_images/_gsender/_setup/gs_se_awake-hardware-sound.jpg){.aligncenter .size-medium}
 
@@ -128,7 +128,7 @@ To keep the USB ports on, click **Change advanced power settings**
 
 ![](/_images/_gsender/_setup/gs_se_awake-advanced.jpg){.aligncenter .size-medium}
 
-In the separate window that appears, you’ll want to Expand the **USB Settings**, then **USB selective suspend setting**, and finally change both the 'battery' and 'plugged in' settings for these drop-downs to ‘**Disabled**’. Click OK to **Apply** these new settings.
+In the separate window that appears, you'll want to Expand the **USB Settings**, then **USB selective suspend setting**, and finally change both the 'battery' and 'plugged in' settings for these drop-downs to '**Disabled**'. Click OK to **Apply** these new settings.
 
 ![](/_images/_gsender/_setup/gs_se_awake-usb.jpg){.aligncenter .size-medium}
 

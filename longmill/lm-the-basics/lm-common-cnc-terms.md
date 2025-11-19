@@ -21,7 +21,7 @@ Know the names for the fundamental parts that make up an average hobby CNC.
 
 **Axis** - The number of unique directions of movement that the CNC is capable of moving in. Most traditional CNC routers are 3-axis, where those three axes are in the left-right (x-axis), forward-back (y-axis), and up-down (z-axis) directions.
 
-**Backlash** - When there’s looseness in the drive system of the CNC. This means that it won’t be able to make motions as rigidly as expected, it also has an effect on the accuracy of its movements. On the LongMill, if the anti-backlash nut threads wear out, it needs to be ‘re-tensioned’ by pushing the two thread profiles back away from each other using the M5 bolts. Tensioning too much can cause excess friction and wear, but done correctly it can keep your machine running reliably.
+**Backlash** - When there's looseness in the drive system of the CNC. This means that it won't be able to make motions as rigidly as expected, it also has an effect on the accuracy of its movements. On the LongMill, if the anti-backlash nut threads wear out, it needs to be 're-tensioned' by pushing the two thread profiles back away from each other using the M5 bolts. Tensioning too much can cause excess friction and wear, but done correctly it can keep your machine running reliably.
 
 ![](/_images/_longmill/_the-basics/lm_cncterms_p1_Backlash.jpg){.aligncenter .size-medium}
 
@@ -29,9 +29,9 @@ Know the names for the fundamental parts that make up an average hobby CNC.
 
 **CNC router** - A CNC cutting machine, typically used for woods and plastics. Uses a drive system to move around a cutting tool held within a router or spindle.
 
-**Collet** - A flexible steel sleeve that fits within routers and spindles. These grab onto whatever cutting tool you’re using in your CNC so that you can change between tools easily. They normally come in ¼” and ⅛” sizes to fit the most common sized cutting tools.
+**Collet** - A flexible steel sleeve that fits within routers and spindles. These grab onto whatever cutting tool you're using in your CNC so that you can change between tools easily. They normally come in ¼" and ⅛" sizes to fit the most common sized cutting tools.
 
-**Cutting tool / End mill / Bit** - This is what causes the cutting on a CNC router. There are many types that you’ll find, each suitable for a different application (see: The Cutting Process).
+**Cutting tool / End mill / Bit** - This is what causes the cutting on a CNC router. There are many types that you'll find, each suitable for a different application (see: The Cutting Process).
 
 **Drive system** - The components of a machine that provide motion and power, enabling the router to cut through material. Some components of a typical CNC include motors, bearings, couplers, belts, pulleys, lead screws, and ball screws.
 
@@ -43,15 +43,15 @@ Know the names for the fundamental parts that make up an average hobby CNC.
 
 **Router** - A consumer-level power tool used for woodworking. Routers can be controlled by hand, or placed into a CNC router. Due to its application, routers are usually less powerful than spindles and produce a bit more noise, but are more cost effective for many hobby-level CNC routers.
 
-**Stock / Stock material** - The material you’re going to be making your project out of. This is a cookie, slab, or sheet, that has enough material produce the finished product.
+**Stock / Stock material** - The material you're going to be making your project out of. This is a cookie, slab, or sheet, that has enough material produce the finished product.
 
 **Spindle** - An industrial level power tool, typically used in high volume and precision CNC machining. Spindles are designed to run constantly. They can be controlled with a VFD (variable frequency drive), so its speed can be changed through the machine interface program.
 
-**Wasteboard** - Its job is to get cut up. This is normally a flat sheet of MDF the same size or slightly bigger than the cutting area of your CNC. It can have built-in mounting systems to hold down your stock material, or you can just screw right into it. It’s always there as your flat ‘table’ that holds the stock material and gives you second chances if your CNC does something unpredictable.
+**Wasteboard** - Its job is to get cut up. This is normally a flat sheet of MDF the same size or slightly bigger than the cutting area of your CNC. It can have built-in mounting systems to hold down your stock material, or you can just screw right into it. It's always there as your flat 'table' that holds the stock material and gives you second chances if your CNC does something unpredictable.
 
 ## CNC Operation
 
-These operations are all normally controlled using a machine interface program. You can think of the machine interface as a car dashboard, containing all the buttons and actions you’d need to run your machine.
+These operations are all normally controlled using a machine interface program. You can think of the machine interface as a car dashboard, containing all the buttons and actions you'd need to run your machine.
 
 **Homing** - If you have limit switches, this is normally run when you first connect to your machine, so it knows where its limits are. This can be handy during a power outage or for advanced jigging since your machine is able to remember where it ran a job.
 
@@ -63,13 +63,13 @@ These operations are all normally controlled using a machine interface program. 
 
 **Jog** - The act of moving the machine using manual buttons and controls (not g-code file).
 
-**Origin / Zero** - The starting point if you decide to run a cutting job. You set your origin by assigning each axis location (X, Y, and Z) equal to zero. This doesn’t mean it’s going to start cutting exactly there, it just helps the machine understand where your stock material is located on the wasteboard. This origin should correspond to the origin of your g-code file, which is defined on the CAM program. It anchors your digital design to the actual cutting job on your machine.
+**Origin / Zero** - The starting point if you decide to run a cutting job. You set your origin by assigning each axis location (X, Y, and Z) equal to zero. This doesn't mean it's going to start cutting exactly there, it just helps the machine understand where your stock material is located on the wasteboard. This origin should correspond to the origin of your g-code file, which is defined on the CAM program. It anchors your digital design to the actual cutting job on your machine.
 
 **Probe** - Usually using a touch plate to set the zero or origin on your material so you can run the job at the correct location. This can also become more complex by setting certain axes individually, using other conductive materials for location, or using a special sensor to compile heightmaps, angles, and more.
 
 ![](/_images/_longmill/_the-basics/lm_cncterms_p4_TouchPlate.png){.aligncenter .size-full}
 
-**Surfacing** - A job specifically used to flatten a piece of material. This can be a wood slab or the wasteboard itself, done during machine setup or maintenance to keep it level to the CNC’s mechanics. Typically you use a surfacing bit which has a larger cutting diameter.
+**Surfacing** - A job specifically used to flatten a piece of material. This can be a wood slab or the wasteboard itself, done during machine setup or maintenance to keep it level to the CNC's mechanics. Typically you use a surfacing bit which has a larger cutting diameter.
 
 ![](/_images/_longmill/_the-basics/lm_cncterms_p5_Surfacing.png){.aligncenter .size-medium}
 
@@ -83,7 +83,7 @@ These operations are all normally controlled using a machine interface program. 
 
 Cutting away material on a CNC is affected by two major factors:
 
-1. The type of cutting tool / bit that’s being used and its shape and size; you can think about this like using different cutting blades in a band saw.
+1. The type of cutting tool / bit that's being used and its shape and size; you can think about this like using different cutting blades in a band saw.
 1. What cutting approach is being used when moving through the material; an analogy would be cutting across the wood grain versus along it.
 
 ### Tools and Features
@@ -114,7 +114,7 @@ Cutting away material on a CNC is affected by two major factors:
 
 <p style="padding-left: 40px;"><b>Corncob</b> bits have a unique diamond pattern which allows for abrasive materials to be cut, suitable for composite materials such as PCBs and carbon fiber.</p>
 
-<p style="padding-left: 40px;"><b>V-bit</b> -  Has a pointed tip in the shape of a ‘V’ and works great for cutting away as an engraving, making lots of different details especially for signs. They can also be used for inlays and chamfering and come in many angles such as 30°, 60°, 90°, and 120°.</p>
+<p style="padding-left: 40px;"><b>V-bit</b> -  Has a pointed tip in the shape of a 'V' and works great for cutting away as an engraving, making lots of different details especially for signs. They can also be used for inlays and chamfering and come in many angles such as 30°, 60°, 90°, and 120°.</p>
 
 ### Cutting Styles
 
@@ -148,17 +148,17 @@ Cutting away material on a CNC is affected by two major factors:
 
 **g-code** - The text used by CNC machines to interpret and communicate commands. Many machines use g-code, not just CNC machines but laser cutters and 3D printers. There are many different languages within g-code, for various applications made by different manufacturers and researchers.
 
-**grbl** - A CNC g-code language used by many hobby level CNC machines, such as Shapeoko, X-Carve, Onefinity and the LongMill. grbl is compatible with Arduino,  therefore many CNC machines use the Arduino as the “brains.”
+**grbl** - A CNC g-code language used by many hobby level CNC machines, such as Shapeoko, X-Carve, Onefinity and the LongMill. grbl is compatible with Arduino,  therefore many CNC machines use the Arduino as the "brains."
 
 **Machine Interface** - a software program that controls the CNC machine by sending g-code to the machine. Features such as running and visualizing g-code files, jogging and zeroing are commonly found in machine interface programs.
 
-**Post Processor** - A “translator” which ensures your g-code is set to the correct language such as grbl. This is found in the CAM software and can be changed for each g-code file.
+**Post Processor** - A "translator" which ensures your g-code is set to the correct language such as grbl. This is found in the CAM software and can be changed for each g-code file.
 
 ![](/_images/_longmill/_the-basics/lm_cncterms_p9_PostPro.png){.aligncenter .size-full}
 
 **Tiling** - A technique for cutting projects that are larger than the cutting area of the CNC. This requires the use of a locating system so that after cutting a portion of the stock, you can slide it into a new position and continue cutting the next portions of the project while keeping them aligned to each other.
 
-**Vector** - used in 2D design. A vector is a line or shape that doesn’t lose its resolution, therefore you can scale it larger or smaller without affecting the quality.  Compared to images made with pixels, where if you scale a pixelated image up or down it will look grainy.
+**Vector** - used in 2D design. A vector is a line or shape that doesn't lose its resolution, therefore you can scale it larger or smaller without affecting the quality.  Compared to images made with pixels, where if you scale a pixelated image up or down it will look grainy.
 
 <p style="padding-left: 40px;"><b>Closed</b> vector - A vector that connects to itself, such as a circle or rectangle shape.</p>
 
@@ -168,7 +168,7 @@ Cutting away material on a CNC is affected by two major factors:
 
 ## Basic CAM Parameters
 
-These are the settings you’d change to improve the performance of your cutting job, found in most CAM programs.
+These are the settings you'd change to improve the performance of your cutting job, found in most CAM programs.
 
 **Cutting feed rate [mm/min, in/min]** - The speed of the machine in the XY directions, not the router or spindle rotation, also called feed rate.
 
@@ -212,7 +212,7 @@ These are the settings you’d change to improve the performance of your cutting
 
 **IOT relay** - A device used to automatically control power to AC powered electronics through g-code commands. Useful for controlling a router, vacuum, and lighting.
 
-**Microstepping** - A way to control the accuracy of motor rotations, through breaking up motor motion into ‘steps,’ then adjusting how many steps complete a full revolution.
+**Microstepping** - A way to control the accuracy of motor rotations, through breaking up motor motion into 'steps,' then adjusting how many steps complete a full revolution.
 
 **Potentiometer** - A component on CNC control boards which sets the current going into the motor.
 

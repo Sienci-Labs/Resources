@@ -15,39 +15,39 @@ skip_file: no
 featured_image: _images/_superlongboard/_firmware/slb_fi_p1_Connected.jpg
 ---
 
-Your board will likely ship with the latest firmware already installed, but we occasionally make updates to add new features or address any discovered issues. You may also choose to re-flash the firmware onto your board if you’ve attempted to customize it or for troubleshooting purposes.
+Your board will likely ship with the latest firmware already installed, but we occasionally make updates to add new features or address any discovered issues. You may also choose to re-flash the firmware onto your board if you've attempted to customize it or for troubleshooting purposes.
 
 <b><span class="redText">Do not flash your SLB unless you've done it before and are absolutely sure you know what you're doing or are being guided by our team.</span> The flashing process can be touchy the first time, so if you're having problems then please contact our team first otherwise be prepared to accept a regretful outcome.</b>
 
-Before getting started, **check what your current version is** by going to the ‘Console’ of your g-code sender and send the command `$i`. The result will be a long list of text in square brackets. If you scroll down to about the 9th line you’ll see something like “[BOARD:” where you’ll also see the version number at the end. Compare this to the version list below to see which one you’d like to flash:
+Before getting started, **check what your current version is** by going to the 'Console' of your g-code sender and send the command `$i`. The result will be a long list of text in square brackets. If you scroll down to about the 9th line you'll see something like "[BOARD:" where you'll also see the version number at the end. Compare this to the version list below to see which one you'd like to flash:
 
 **Most Recent Firmware:**
 
-- SLB: <a href="https://drive.google.com/file/d/1LZ1YFt5J4Ws01XqielJuWaJpGJ2OgbCj/view?usp=drive_link" target="_blank" rel="noopener">5.0.5b</a>
+- SLB: <a href="https://drive.google.com/file/d/1YTGGgDs-a5Ajsb47IDdven7NOovp7flb/view?usp=drive_link" target="_blank" rel="noopener">5.0.5b</a>
   - Updated default A-axis step/mm to match typical Vortex setups using 32nd microstepping
   - Updated defaults to accommodate some machine setups that couldn't handle the max speeds and accelerations of the SLB
   - Changed min spindle speed, spindle on delay, and default enabled spindles to match typical spindle setups using the SLB
-- SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1M3tsSpptwMZusubu4m91cdJ5OqTFyJH8/view?usp=drive_link" target="_blank" rel="noopener">5.0.11</a>
+- SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1XUxe_cfl2GPJbHNwjnacO5G7k1CxHLfL/view?usp=drive_link" target="_blank" rel="noopener">5.0.11</a>
 
 [su_spoiler title="<b>Past Versions:</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 
-- <a href="https://drive.google.com/file/d/1-1W322z5idOQmhREUlAVHQBAa6PCsN63/view?usp=sharing" target="_blank" rel="noopener">5.0.5</a>: default for June ➜ Oct 2024
+- <a href="https://drive.google.com/file/d/1-1W322z5idOQmhREUlAVHQBAa6PCsN63/view?usp=drive_link" target="_blank" rel="noopener">5.0.5</a>: default for June ➜ Oct 2024
   - Updated default homing speed to stop occasional disconnection issues
   - Fixed E-stop hit requiring board power cycle to clear
-- <a href="https://drive.google.com/file/d/1OkQO__QnYzhPuF42d4AN5KY_MbVRJlqy/view?usp=drive_link" target="_blank" rel="noopener">5.0.3</a>: firmware on original batch of 500 SLBs (April 2024)
+- <a href="https://drive.google.com/file/d/1DHaKkDzn2ZB0fBEVrO26ULAGjjX7n3NU/view?usp=drive_link" target="_blank" rel="noopener">5.0.3</a>: firmware on original batch of 500 SLBs (April 2024)
 
 [/su_spoiler]
 
 ## Flashing Summary
 
-To successfully flash new firmware onto your SLB, you’ll need:
+To successfully flash new firmware onto your SLB, you'll need:
 
-1. The **firmware file**; all versions are listed above as “.hex” files to download
+1. The **firmware file**; all versions are listed above as ".hex" files to download
 1. A computer that can run either **gSender** or the **STM Cube Programmer** software to perform the flashing
-1. The SLB connected to that **computer over USB** (you can’t flash over Ethernet because the MCU on the SLB can’t support it, but you can return to using your Ethernet connection once flashing is complete)
+1. The SLB connected to that **computer over USB** (you can't flash over Ethernet because the MCU on the SLB can't support it, but you can return to using your Ethernet connection once flashing is complete)
 1. A 12-24V power supply to **power the SLB** during flashing
 1. Have separately noted down any **firmware settings** that are particular to your machine setup like for limit switches, macros, etc. New firmware can sometimes override existing settings so having a list can help you double check if you need to make any manual tweaks afterwards.
-1. For your safety, if there are any accessories that receive a control signal from the SLB, **turn their power off** just in case the flashing process inadvertently sends control signals to those accessories. This would be unsafe to have a spindle or laser power on when you don’t expect it to. You can turn these back on after flashing is complete.
+1. For your safety, if there are any accessories that receive a control signal from the SLB, **turn their power off** just in case the flashing process inadvertently sends control signals to those accessories. This would be unsafe to have a spindle or laser power on when you don't expect it to. You can turn these back on after flashing is complete.
 
 You can choose to either use gSender or the STM Cube Programmer software to update your SLB, the steps for either option are below:
 
@@ -61,9 +61,9 @@ You can choose to either use gSender or the STM Cube Programmer software to upda
 1. Go to the **Config tab** and click the **Flash** button
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p2_FlashgrblHAL-newu.jpg){.aligncenter .size-medium}
-1. Ensure the COM port is correct (matches the board you’re connected to), and that you have selected grblHAL as your controller type
-1. Click ‘Choose File’ to select the “.hex” firmware file you plan to update to, in the picture below it’s the 5.0.11 firmware for the AltMill
-1. Click ‘Yes’ to begin the flashing process. If it stops before 100% and you see an error for:
+1. Ensure the COM port is correct (matches the board you're connected to), and that you have selected grblHAL as your controller type
+1. Click 'Choose File' to select the ".hex" firmware file you plan to update to, in the picture below it's the 5.0.11 firmware for the AltMill
+1. Click 'Yes' to begin the flashing process. If it stops before 100% and you see an error for:
    - "LIBUSB_ERROR_NOT_SUPPORTED", you'll need to [update your Windows driver](#windows-driver-update)
    - "Unable to find valid device", you might have [installed your Windows drivers incorrectly](#bad-driver-install)
    - "LIBUSB_ERROR_ACCESS", your Ubuntu device might be having a [USB rights issue](#ubuntu-driver-update)
@@ -72,12 +72,12 @@ You can choose to either use gSender or the STM Cube Programmer software to upda
 1. Once you see the loading bar at 100%, flashing is complete. Exit out of the firmware window and switch off the board with the power switch at the back then turn it back on again.
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p4_Flashing-newu.jpg){.aligncenter .size-medium}
-1. Once it’s back on, you should be able to re-connect to it in gSender. Go to the **Console tab** and send the command `$rst=$` to revert your machine back to the default firmware settings (you shouldn't get any errors when you send this command).
+1. Once it's back on, you should be able to re-connect to it in gSender. Go to the **Console tab** and send the command `$rst=$` to revert your machine back to the default firmware settings (you shouldn't get any errors when you send this command).
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p5_ConsoleRST-newu.jpg){.aligncenter .size-medium}
-1. Power the board off and then back on one more time after sending the command. Finally, if you had any specific settings from your previous setup that you want to check or reload, connect back to gSender and change those firmware values back. Remember to hit “Apply New Settings” when you’re doing this and ensure that the settings are being re-added correctly, if they don’t seem to be sticking then make sure that your SLB is in an ‘Idle’ state, cleared of all Alarms, and try turning the SLB off and back on again.
+1. Power the board off and then back on one more time after sending the command. Finally, if you had any specific settings from your previous setup that you want to check or reload, connect back to gSender and change those firmware values back. Remember to hit "Apply New Settings" when you're doing this and ensure that the settings are being re-added correctly, if they don't seem to be sticking then make sure that your SLB is in an 'Idle' state, cleared of all Alarms, and try turning the SLB off and back on again.
 
-Congrats are in order, well done! If you go back to the ‘Console’ you should now see that sending the `$i` command will give you new text that matches up with the update you’ve made.
+Congrats are in order, well done! If you go back to the 'Console' you should now see that sending the `$i` command will give you new text that matches up with the update you've made.
 
 ![](/_images/_superlongboard/_firmware/slb_fi_p5a_Consolei-newu.gif){.aligncenter .size-full}
 
@@ -86,12 +86,12 @@ Congrats are in order, well done! If you go back to the ‘Console’ you should
 1. Be connected to your SLB over USB with the power on, ensure the firmware selected is 'grblHAL' not 'grbl'
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p1_Connected.png){.aligncenter .size-medium}
-1. Go to the ‘Firmware’ tool and click the 'Flash grblHAL' button
+1. Go to the 'Firmware' tool and click the 'Flash grblHAL' button
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p2_FlashgrblHAL.jpg){.aligncenter .size-medium}
-1. Ensure the COM port is correct (matches the board you’re connected to)
-1. Click ‘Choose File’ to select the “.hex” firmware file you plan to update to, in the picture below it’s the 5.0.7 firmware
-1. Click ‘Yes’ to begin the flashing process. If it stops before 100% and you see an error for:
+1. Ensure the COM port is correct (matches the board you're connected to)
+1. Click 'Choose File' to select the ".hex" firmware file you plan to update to, in the picture below it's the 5.0.7 firmware
+1. Click 'Yes' to begin the flashing process. If it stops before 100% and you see an error for:
    - "LIBUSB_ERROR_NOT_SUPPORTED", you'll need to [update your Windows driver](#windows-driver-update)
    - "Unable to find valid device", you might have [installed your Windows drivers incorrectly](#bad-driver-install)
    - "LIBUSB_ERROR_ACCESS", your Ubuntu device might be having a [USB rights issue](#ubuntu-driver-update)
@@ -100,12 +100,12 @@ Congrats are in order, well done! If you go back to the ‘Console’ you should
 1. Once you see the loading bar at 100%, flashing is complete. Exit out of the firmware window and switch off the board with the power switch at the back then turn it back on again.
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p4_Flashing.jpg){.aligncenter .size-medium}
-1. Once it’s back on, you should be able to re-connect to it in gSender. Go to the ‘Console’ tab and send the command `$rst=$` to revert your machine back to the default firmware settings (you shouldn't get any errors when you send this command).
+1. Once it's back on, you should be able to re-connect to it in gSender. Go to the 'Console' tab and send the command `$rst=$` to revert your machine back to the default firmware settings (you shouldn't get any errors when you send this command).
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p5_ConsoleRST.jpg){.aligncenter .size-medium}
-1. Power the board off and then back on one more time after sending the command. Finally, if you had any specific settings from your previous setup that you want to check or reload, connect back to gSender and change those firmware values back. Remember to hit “Apply New Settings” when you’re doing this and ensure that the settings are being re-added correctly, if they don’t seem to be sticking then make sure that your SLB is in an ‘Idle’ state, cleared of all Alarms, and try turning the SLB off and back on again.
+1. Power the board off and then back on one more time after sending the command. Finally, if you had any specific settings from your previous setup that you want to check or reload, connect back to gSender and change those firmware values back. Remember to hit "Apply New Settings" when you're doing this and ensure that the settings are being re-added correctly, if they don't seem to be sticking then make sure that your SLB is in an 'Idle' state, cleared of all Alarms, and try turning the SLB off and back on again.
 
-Congrats are in order, well done! If you go back to the ‘Console’ you should now see that sending the `$i` command will give you new text that matches up with the update you’ve made.
+Congrats are in order, well done! If you go back to the 'Console' you should now see that sending the `$i` command will give you new text that matches up with the update you've made.
 
 [tabbyending]
 
@@ -120,32 +120,32 @@ Congrats are in order, well done! If you go back to the ‘Console’ you should
 1. You can remove or let go of the BOOT jumper now.
 1. With the STM32 Cube Programmer opened on your computer:
    1. Select 'USB' in the blue drop down box at the top of the right of the window
-   1. Click the refresh button next to 'Port', the board will typically show up as “USB1”
-   1. If the board shows up, press the green 'Connect' button. If you still see “No DFU”, check your setup then click the refresh button again
+   1. Click the refresh button next to 'Port', the board will typically show up as "USB1"
+   1. If the board shows up, press the green 'Connect' button. If you still see "No DFU", check your setup then click the refresh button again
    1. Go to the 'Erasing & Programming' tab on the left side of the screen
    1. Select the blue 'Browse' button to select the latest hex file (firmware file) on your computer
    1. Press the blue 'Start Programming' button
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p7_STI.jpg){.aligncenter .size-medium}
-1. Once complete, you’ll have to exit out of a bunch of small windows
+1. Once complete, you'll have to exit out of a bunch of small windows
 1. Switch off the board power switch then turn back on again, then reconnect to the board in gSender, ioSender, or any other g-code sender.
 1. Follow the same last 2 steps (7 and 8) of the gSender Flashing process and you should be done!
 
 ### Windows Driver Update
 
-If you’re failing to update your SLBs firmware and see the message “**Error: LIBUSB_ERROR_NOT_SUPPORTED**”, this stems from the sometimes problematic way that Windows handles USB devices. This isn’t a problem for Linux or Mac systems, but if your Windows computer is having this issue it can still be fixed by overriding the wrong driver it’s using with the correct one.
+If you're failing to update your SLBs firmware and see the message "**Error: LIBUSB_ERROR_NOT_SUPPORTED**", this stems from the sometimes problematic way that Windows handles USB devices. This isn't a problem for Linux or Mac systems, but if your Windows computer is having this issue it can still be fixed by overriding the wrong driver it's using with the correct one.
 
-To do this we’ll use a program called Zadig. The program is only needed to make the fix, which should permanently fix SLB flashing issues:
+To do this we'll use a program called Zadig. The program is only needed to make the fix, which should permanently fix SLB flashing issues:
 
 1. Download Zadig at <a href="https://zadig.akeo.ie/#" target="_blank" rel="noopener">https://zadig.akeo.ie/#</a> (there's an <a href="https://github.com/pbatard/libwdi/releases/download/v1.5.0/zadig-2.8.exe" target="_blank" rel="noopener">alternate download here</a>).
 1. Put the SLB into DFU mode. There is two methods for this:
    - Connect to the SLB in gSender and type `$dfu` in the Console tab. This will disconnect it from gSender and it will no longer appear in the dropdown connection area. **This step needs to happen successfully, if you get an error, assess your setup and do not move on to the next step.**
-   - Or use a jumper, flathead screwdriver, or other small piece of metal to short between two pins on the SLB near the USB port. The two pins will have “SPIN” written near them, and you'll need to be shorting them while you use the power toggle switch to turn the SLB on.
-1. Open Zadig and in the toolbar click ‘Options’ ➜ 'List all Devices'
-1. In the main dropdown, find and select the “STM32 Bootloader” device. This name might change depending on your current operating system.
+   - Or use a jumper, flathead screwdriver, or other small piece of metal to short between two pins on the SLB near the USB port. The two pins will have "SPIN" written near them, and you'll need to be shorting them while you use the power toggle switch to turn the SLB on.
+1. Open Zadig and in the toolbar click 'Options' ➜ 'List all Devices'
+1. In the main dropdown, find and select the "STM32 Bootloader" device. This name might change depending on your current operating system.
 ![](/_images/_superlongboard/_firmware/slb_fi_p8_SMT32.png){.aligncenter .size-medium}
-1. Make sure that “WinUSB” is the selected driver type.
-1. Click the “Replace Driver” button and wait for the operation to complete (if you happen to accidentally delete other drivers in the process, restarting your computer should bring them back).
+1. Make sure that "WinUSB" is the selected driver type.
+1. Click the "Replace Driver" button and wait for the operation to complete (if you happen to accidentally delete other drivers in the process, restarting your computer should bring them back).
 1. Power cycle the board to exit DFU mode, then give flashing another shot. If you followed all the steps you should now be able to change and update your SLBs firmware!
 
 #### Bad Driver Install

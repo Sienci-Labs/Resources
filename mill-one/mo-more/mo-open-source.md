@@ -48,9 +48,9 @@ Google Sheets file on Google Drive with the bill of materials.
 Here are some other contributions for modifying or upgrading your Mill One:
 
 <a href="https://www.instructables.com/id/Add-Homing-Switches-to-a-Sienci-Mill-One-CNC/" target="_blank" rel="noopener">➜ Add Homing Switches to a Sienci Mill One CNC</a> by Troy Barbour
-<a href="https://www.instructables.com/id/Add-Homing-Switches-to-a-Sienci-Mill-One-CNC/">➜ </a><a href="https://www.instructables.com/id/Sienci-Mill-One-AirOil-Mist-Coolant-System/" target="_blank" rel="noopener">Sienci Mill One Air/Oil Mist Coolant System</a> by Andrey Gubanov
-<a href="https://www.instructables.com/id/Add-Homing-Switches-to-a-Sienci-Mill-One-CNC/">➜ </a><a href="https://www.instructables.com/id/CNC-Hero-Guitar-ify-Your-CNC-Machine/" target="_blank" rel="noopener">CNC Hero! Guitar-ify Your CNC Machine</a> by Chris Thorogood
-<a href="https://www.instructables.com/id/Add-Homing-Switches-to-a-Sienci-Mill-One-CNC/">➜ </a><a href="https://www.facebook.com/groups/166433110494695/files/" target="_blank" rel="noopener">PDF Files for the Mill One Frame</a> by Chris Zindrik (Files can be found in the Facebook group files and also on our Thingiverse)
+<a href="https://www.instructables.com/id/Sienci-Mill-One-AirOil-Mist-Coolant-System/" target="_blank" rel="noopener">➜ Sienci Mill One Air/Oil Mist Coolant System</a> by Andrey Gubanov
+<a href="https://www.instructables.com/id/CNC-Hero-Guitar-ify-Your-CNC-Machine/" target="_blank" rel="noopener">➜ CNC Hero! Guitar-ify Your CNC Machine</a> by Chris Thorogood
+<a href="https://www.facebook.com/groups/166433110494695/files/" target="_blank" rel="noopener">➜ PDF Files for the Mill One Frame</a> by Chris Zindrik (Files can be found in the Facebook group files and also on our Thingiverse)
 <a href="https://CAD.onshape.com/documents/8f775034bda99ee4916e3af8/w/6fdbd544f27a0f3bc72a7bbb/e/26ed85d2d46c126c346306c9">➜ 3D Printable Mods</a> by Tom Sanladerer
 <a href="http://www.instructables.com/id/Add-an-Arduino-based-Optical-Tachometer-to-a-CNC-R/">➜ Add an Arduino-based Optical Tachometer to a CNC Router</a> by Troy Barbour
 <a href="http://www.instructables.com/id/Easy-Z-Probe-for-Your-CNC-Router/">➜ Easy Z Probe for you CNC Router</a> by Troy Barbour
@@ -89,7 +89,7 @@ With this in mind, if you were thinking about upgrading your older version Mill 
 
 <ul>
   <li>Replace the HDPE Y-axis with the steel + MDF wasteboard combo of V3 which will make cutting to the left and right side of the cutting area much more rigid</li>
-  <li>Add top brackets to the MDF frame or if you have other materials on hand consider changing out the frame for steel sheet - a modification I’ve seen done before with the Mill One - or some other form of rigid material or bracing</li>
-  <li>Definitely 3D print the new router mount to better secure the router - there’s another community designed version here that might be even better still: <a href="https://CAD.onshape.com/documents/8f775034bda99ee4916e3af8/w/6fdbd544f27a0f3bc72a7bbb/e/26ed85d2d46c126c346306c9" target="_blank" rel="noopener">Onshape</a></li>
+  <li>Add top brackets to the MDF frame or if you have other materials on hand consider changing out the frame for steel sheet - a modification I've seen done before with the Mill One - or some other form of rigid material or bracing</li>
+  <li>Definitely 3D print the new router mount to better secure the router - there's another community designed version here that might be even better still: <a href="https://CAD.onshape.com/documents/8f775034bda99ee4916e3af8/w/6fdbd544f27a0f3bc72a7bbb/e/26ed85d2d46c126c346306c9" target="_blank" rel="noopener">Onshape</a></li>
   <li>Consider reprinting the angle brackets that hold the rails to the MDF since the V1 brackets were a bit on the skinny side. The V3 design is much better suited as well as a community design that added two more bolt mounting positions: <a href="https://CAD.onshape.com/documents/8f775034bda99ee4916e3af8/w/6fdbd544f27a0f3bc72a7bbb/e/6b862f53aed07b11d627cf00" target="_blank" rel="noopener">Onshape</a></li>
 </ul>

@@ -21,17 +21,17 @@ This page accompanies the main LongMill MK2.5 manual, showing any assembly steps
 
 There will also be a link to bring you to the alternate steps and another link at the end of those steps to bring you back to the main manual.
 
-If you’d like a printed copy of the entire assembly manual for the 48x30 LongMill, print the <a href="/mk2.5-48x30-assembly-manual/" target="_blank" rel="noopener">48x30 MK2.5 assembly manual</a> PDF which includes this document at the end of the main manual. If using a printed assembly manual, follow the name of the assembly step called in the main assembly manual and find that step in this accompanying manual.
+If you'd like a printed copy of the entire assembly manual for the 48x30 LongMill, print the <a href="/mk2.5-48x30-assembly-manual/" target="_blank" rel="noopener">48x30 MK2.5 assembly manual</a> PDF which includes this document at the end of the main manual. If using a printed assembly manual, follow the name of the assembly step called in the main assembly manual and find that step in this accompanying manual.
 
-## 48” X-axis rail box unpacking
+## 48" X-axis rail box unpacking
 
-Inside the 48” X-axis rail box, you’ll find the X-axis rail packaged with 5 boxes - three of which contain various hardware used throughout assembly, and two empty void boxes which serve to fill empty space inside the rail box and better protect the X-axis rail during shipping. These can be discarded.
+Inside the 48" X-axis rail box, you'll find the X-axis rail packaged with 5 boxes - three of which contain various hardware used throughout assembly, and two empty void boxes which serve to fill empty space inside the rail box and better protect the X-axis rail during shipping. These can be discarded.
 
-You’ll find the EX lead screw securely wrapped onto the X-axis rail. Unwrap this and set these both aside for the assembly of the X-axis.
+You'll find the EX lead screw securely wrapped onto the X-axis rail. Unwrap this and set these both aside for the assembly of the X-axis.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48x30_MK2.5_packing_layout.png){.aligncenter .size-full}
 
-The ‘EX hardware box’ contains various hardware that is used when assembling the X-axis of your 48x30 machine, and the ‘MK2.5 EX hardware box’ contains other small parts specific to 48x30 MK2.5 LongMill. The ‘EX Drag chain box & cable box’ contains the longer 1400mm drag chain used on the X-axis, as well as some cable extensions. During sections of the assembly to follow, parts will be called from each of the boxes relevant to that section.
+The 'EX hardware box' contains various hardware that is used when assembling the X-axis of your 48x30 machine, and the 'MK2.5 EX hardware box' contains other small parts specific to 48x30 MK2.5 LongMill. The 'EX Drag chain box & cable box' contains the longer 1400mm drag chain used on the X-axis, as well as some cable extensions. During sections of the assembly to follow, parts will be called from each of the boxes relevant to that section.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4375.jpg){.aligncenter .size-medium}
 
@@ -47,7 +47,7 @@ The ‘EX hardware box’ contains various hardware that is used when assembling
 
 <img class="wid aligncenter wp-image-7177 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_extra48_Header-T12-antibacklashspringers.png" alt="" width="850" height="200" />
 
-From within the EX hardware box, grab the much larger ‘EX Delrin anti-backlash nut’, as well as two ‘M5-nylock nuts’ from the green hardware bag. Just as the smaller spring-loaded anti-backlash nuts were assembled, this larger T12 nut will have two M5-nylock nuts fitted inside the two hexagonal pockets.
+From within the EX hardware box, grab the much larger 'EX Delrin anti-backlash nut', as well as two 'M5-nylock nuts' from the green hardware bag. Just as the smaller spring-loaded anti-backlash nuts were assembled, this larger T12 nut will have two M5-nylock nuts fitted inside the two hexagonal pockets.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48Xtension-pics-1.png){.aligncenter .size-medium}
 
@@ -135,7 +135,7 @@ Grab the T12 Clamping nut and begin threading this onto the lead screw.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_48Xtension-pics-9.png){.aligncenter .size-medium}
 
-Using a 19mm, 3/4” , or adjustable wrench, tighten this T12 Clamping nut only until the lead screw no longer has any side-to-side play. Then tighten the M5 locking bolt into the T12 locking nut to secure this.
+Using a 19mm, 3/4" , or adjustable wrench, tighten this T12 Clamping nut only until the lead screw no longer has any side-to-side play. Then tighten the M5 locking bolt into the T12 locking nut to secure this.
 
 Turn the lead screw by hand afterwards to make sure it spins freely. If you feel any significant resistance, undo the M5 locking bolt and loosen the T12 Clamping nut a small amount.
 
@@ -193,7 +193,7 @@ Secure the cables inside the drag chain by re-clipping each clip, then attach th
 
 <img class="wid aligncenter wp-image-3800 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_extra48_4830_PN_6.png" alt="" width="850" height="200" />
 
-Grab the two ‘cable hangers’ from the EX hardware box. Align the clip portion of these into the T-slot on the X-rail and press directly downwards firmly to clip these in place. These are installed between the X-axis drag chain end link and the steel drag chain mount as shown.
+Grab the two 'cable hangers' from the EX hardware box. Align the clip portion of these into the T-slot on the X-rail and press directly downwards firmly to clip these in place. These are installed between the X-axis drag chain end link and the steel drag chain mount as shown.
 
 Should you need to unclip these hangers for any minor adjustments, pull the bottom edge of the hanger upwards to rotate and unclip from the T-slot.
 
@@ -213,7 +213,7 @@ The folded bunch of excess cables can then be secured into both cable hangers. T
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4572.jpg){.aligncenter .size-medium}
 
-Adjust any of the cabling so it fits well within these two hangers and nothing hangs below the X-axis rail, then tighten the zip ties fully. You can adjust the position of the two cable hangers before tightening these zip ties for good. In any case, extra zip ties are provided just in case you’d like to come back and make any adjustments.
+Adjust any of the cabling so it fits well within these two hangers and nothing hangs below the X-axis rail, then tighten the zip ties fully. You can adjust the position of the two cable hangers before tightening these zip ties for good. In any case, extra zip ties are provided just in case you'd like to come back and make any adjustments.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4580.jpg){.aligncenter .size-medium}
 
@@ -221,7 +221,7 @@ Lastly, plug in the cables for the motors on the two Y-axis NEMA 23 stepper moto
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4583.jpg){.aligncenter .size-medium}
 
-Bring the cables around to the left of the machine so they’re now all bundled together (pictured). This is the last step specific to the 48x30 size LongMill MK2.5, you’ll be plugging the motors cables into the control box shortly but otherwise the machine wiring is now complete!
+Bring the cables around to the left of the machine so they're now all bundled together (pictured). This is the last step specific to the 48x30 size LongMill MK2.5, you'll be plugging the motors cables into the control box shortly but otherwise the machine wiring is now complete!
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4585.jpg){.aligncenter .size-medium}
 
