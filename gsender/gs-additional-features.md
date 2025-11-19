@@ -325,6 +325,12 @@ Before getting into the weeds on how you can set up limit switches and homing on
   - Using <span style="color: #777;">machine coordinates</span> without homing is also still possible, but you'd need to bring your machine to a reliable location using probing or some other method, then power-cycle the machine, since without homing the machine coordinates are set at the time the machine first powers on.
   ![](/_images/_gsender/_features/_dro/gs_fe_dro_offset.jpg){.aligncenter .size-medium}
 
+If you're running into an issue where the size isn't correct when using Soft Limits for example, get the size from your manufacturer or their resources and update it in Config ➜ Homing/Limits ➜ X/Y/Z axis travel. Remember to hit the **Apply Settings** button afterwards.
+
+![](/_images/_gsender/_setup/gs_se_configmaxtravel1.jpg "In this example the Y-axis value has been adjusted."){.aligncenter .size-full}
+
+
+
 ### Workspaces
 
 Another concept worth mentioning is **workspaces**. Usually you would only have one 'zero position' per project, but what about cases where:
@@ -465,49 +471,77 @@ You can find the release notes for the latest version of gSender in the “About
 
 ## Config Tab
 
+As introduced in [Setup and Layout](https://resources.sienci.com/view/gs-setup-and-layout/) the Config tab is meant to act as your one-stop-shop for any customization to how gSender looks or acts, or how your CNC is configured. This starts with some basics, then moves on to motors, probing, homing/limits, spindle/laser, rotary, tool changing, and more.
 
+The settings are grouped to make the whole setup process easier, and you can quickly navigate them by either:
 
-You can also use the buttons in this tab to a more limited degree, to spin forward, backwards and stop all movement. You can see the top bar SpindleON warning here too.
+- Scrolling along the page
+- Clicking the table of contents links on the left side
+- Type the setting you're looking for in the search bar (for example "acceleration" or "$110")
+- Clicking the 'View Modified' toggle to filter by only settings that have been changed from their default
+
+As you look through this area to get a lay of the land, you might also notice some other useful aspects:
+
+- You'll be able to tell which settings are firmware-based by the **microchip icon** next to them, the ones without a microchip are gSenders local preferences.
+- There are **buttons and indicators** put into place so that you can change and test settings on the fly without having to leave the Config tab. This makes machine setup much faster (for example, if your CNC jogs the wrong way you can invert it, save the settings, and test that it's working all in the same place).
+- There are also some buttons that that will take you to automated setup wizards
+- Any setting will highlight in yellow once it's been changed from default and give you the option to revert it if needed
 
 ![](/_images/_gsender/_features/_spinlaser/gs_fe_sp_onoff-config.gif){.aligncenter .size-full}
 
-### Unsupported CNCs
+**Some of the common settings to change are:** preferred units (mm/inch), visualizer theme and Dark mode, enabling controls for add-ons that your machine has (spindle/laser controls, rotary controls, etc.), customizing notifications, and of course selecting a **Machine Profile**.
 
-If your CNC isn't listed below, then it's considered "unsupported":
+Remember to hit **Apply Settings** after any changes you make!
+
+### Machine Profiles
+
+When it comes to selecting a machine profile at the bottom of the Config tab, your machine will either be '**supported**' or '**unsupported**'. The only difference between these two types is that for unsupported machines:
+
+1. Firmware-based settings won't turn yellow when they're changed from their default (this is because gSender isn't aware of what the default for that machine is)
+1. There won't be an option to reset a firmware-based setting back to its default
+1. Clicking the bottom 'Defaults' button will revert your machine settings to standard grbl defaults
+1. Attempting to 'Flash' your machine will flash it with default grbl firmware
+1. You should be more cautious when using the Config tab since it could enable you to alter your machine in unpredictable ways and we won't be able to help you with your specific hardware. In this case, **if your machine isn't working, contact your manufacturer to get their advice on how to fix it**.
+
+All other aspects of using and operating gSender will work as expected no matter what machine profile you select; but because these extra features for setting, resetting, and flashing can be useful for many CNCers we encourage manufacturers to contact us so we can add more supported machine profiles. The current list of supported machines is:
 
 - Sienci Labs **LongMill** (MK1, MK2, and MK2.5)
 - Sienci Labs **AltMill** (MK1 and MK2)
 - Sienci Labs **Mill One** (V1, V2, and V3)
 
-If your machine is unsupported, it means that the Config tab may not be able to perform the same features as for supported machines. In this case, **if your machine isn't working, contact your manufacturer to get their advice on how to fix it**. Using this tab makes it possible to ruin your machine further and we won't be able to help you with your specific hardware. For unsupported machines:
+### Machine settings
 
-1. Choosing your machine **name** from the drop down menu is primarily cosmetic, unless you are restoring defaults
-1. **Export** current EEPROM settings if you'd like to save your current setup in case something goes wrong
-1. **Import** EEPROM settings from a file if you had settings that were working and something changed
-1. **Defaults** restore all your machine settings back to typical vanilla grbl/grblHAL values
-1. **Flash** either vanilla grbl, or for grblHAL boards upload a hex file to flash a new firmware
+With your Machine Profile selected (if yours is not listed then select "Generic CNC"), the rest of the buttons at the bottom can be used as follows:
 
-![](/_images/_gsender/_features/gs_fe_firmwaretool.jpg){.aligncenter .size-medium}
+1. All the bottom buttons only apply to firmware-based settings specific to your machine (the settings with the microchip next to them), not gSenders local settings
+1. **Defaults**
+   - Should only really be used if you've selected a '[supported machine profile](#machine-profiles)'
+   - Acts like a "factory reset"
+   - Use it when you're first setting up your CNC to ensure your settings are broadly correct, or if you want to bulk reset all settings back to their default
+1. **Flash**
+   - Should only really be used if you've selected a '[supported machine profile](#machine-profiles)'
+   - Will either flash your specific machines grbl firmware, or for grblHAL boards will give you the option to upload a hex file to flash a new firmware
+1. **Import**
+   - If you had previously exported machine settings that worked for your CNC, you can import them to get things working again
+1. **Export**
+   - If you've configured your CNC and everything seems to be working well, save your firmware settings to a file so you have it on hand in case something goes wrong
+   - The process of importing/exporting is basically the same as for [importing/exporting gSender preferences](#gsender-preferences)
 
-### Supported CNCs
+![](/_images/_gsender/_setup/gs_se_configprofile1.jpg){.aligncenter .size-medium}
 
-If your CNC was listed above then it's "supported" by the Firmware tool, and resetting your **Defaults** will restore your settings based on the profile you have selected in the drop down menu. This also means that machine profiles are kept up-to-date, which in-turn gives you access to more features.
+### gSender Preferences
 
-## gSender Settings
+These preferences are stored on the specific computer being used to run gSender and includes items like: preferred units, machine selected, probe, tools, jogging presets, keymapping, tool change g-code, automations, and more. These don't have any impact on your [machines firmware settings](#machine-settings) (settings with the microchip symbol next to them), rather they impact how you use gSender day-to-day.
 
-gSenders settings are separate from the CNCs firmware, even though they both appear on the same list in the Config tab. You can tell which settings are firmware-based by the microchip icon next to them, the ones without a microchip are gSenders local preferences. These preferences are stored on the specific computer being used to run gSender and include items like: preferred units, machine selected, probe, tools, jogging presets, keymapping, tool change g-code, automations, and more.
-
-If you plan on using a different computer to run your CNC using gSender or want to run gSender remotely, some of these settings might be very important to carry over to the alternate computer to make sure things keep running as expected.
-
-### Transferring Settings
+The buttons for gSender Preferences are all in the top right corner of the Config tab and be used at any time to reset all settings to default (remember you can reset individual settings if you'd like), or import or export your current gSender setup. Importing/Exporting can be useful if you're updating to a new major version of gSender or you plan on using a different computer to run your CNC and want to carry over all your familiarities to make sure things keep running as expected.
 
 To transfer your settings over, start by exporting a save file:
 
-1. Go to the Config Tab, and click the '**Export**' button in the top right corner of the screen.
+1. Go to the Config Tab, and click the '**Export**' button.
   ![](/_images/_gsender/_features/gs_fe_preferences.jpg){.aligncenter .size-full}
 1. Save the file somewhere onto your computer that you can find afterwards
   ![](/_images/_gsender/_features/gs_fe_preferences1.jpg){.aligncenter .size-medium}
-1. Outside of gSender, find the file and transfer it using a memory stick or sending it over the internet by emailing to yourself or using Google Drive or OneDrive.
+1. Outside of gSender, if you plan to move the file to another computer, find the file and transfer it using a memory stick or sending it over the internet by emailing to yourself or using Google Drive or OneDrive.
 1. Once you've got the file onto the other computer it's now easy enough to open gSender on that computer, or in the web browser if you're doing remote control, and go to the Config tab and click the '**Import**' button just to the right of the export button.
 1. Locate the file and click 'Open'
   ![](/_images/_gsender/_features/gs_fe_preferences2.jpg){.aligncenter .size-medium}
