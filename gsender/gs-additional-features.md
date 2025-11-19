@@ -553,9 +553,9 @@ All setup steps need to happen on the inline computer (the computer you'll have 
 1. This is where wireless control is set up. First, click the '**Enable Wireless Control**' toggle. Second, you'll see the boxes for 'Addr' (address) and 'Port' become available. The default values for these should work but if you have a particular setup or require troubleshooting then consider changing these.
   ![](/_images/_gsender/_features/_remote/gs_fe_re_setup.jpg){.aligncenter .size-full}
 1. Once you click the 'Save' button, gSender will automatically restart in order for the changes to take place.
-  ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-restart.jpg){.aligncenter .size-full}
+  ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-restarts.jpg){.aligncenter .size-full}
 1. You'll know the setup was successful if gSender restarts and the remote connect icon is green.
-  ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-done.jpg){.aligncenter .size-full}
+  ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-dun.jpg){.aligncenter .size-full}
 1. To connect with your '**remote device**', click the cell phone icon again to open the wireless control settings. If you plan to use a phone, use the camera to scan the QR code, and for any other device 'copy' the text at the bottom right  into the address bar of a web browser like Chrome or Edge. After the page loads, you should see a copy of gSender running in the web browser!
   ![](/_images/_gsender/_features/_remote/gs_fe_re_connected.jpg){.aligncenter .size-full}
 1. If there was a problem during setup, then you might've encountered a firewall or unavailable port. Solutions to these are covered in the **[troubleshooting](#troubleshooting)** section.
@@ -586,7 +586,7 @@ If you ran into issues during remote control setup, here are some checks you can
   ![](/_images/_gsender/_features/_remote/gs_fe_re_setup-ip-error.jpg){.aligncenter .size-medium}
 1. If you have a Windows Security Alert window pop up during setup, it means your inline computers firewall isn't allowing gSender to communicate to other devices on your network.
    - Check the boxes beside "Private networks" and "Public networks" and click the 'Allow access' button
-   ![](/_images/_gsender/_features/_remote/gs_fe_re_firewall-windows.jpg){.aligncenter .size-full}
+   ![](/_images/_gsender/_features/_remote/gs_fe_re_firewall-windows0.jpg){.aligncenter .size-full}
    - If you don't see this popup, click Start and open your computer's Control Panel
    ![](/_images/_gsender/_features/_remote/gs_fe_re_issues-control-panel.jpg){.aligncenter .size-medium}
    - Open the 'System and Security' settings
@@ -711,7 +711,7 @@ The console is a tab that you can access at the bottom right hand side of the gS
 - Copy text straight from the console to send in an email for help by clicking the '...' button next to 'Run', then clicking 'Copy last 50 lines'.
 - Even open the console in another window by pressing the top, right icon to help you see more console text at a time (if you press the button again once you reconnect to your CNC, it'll reconnect the console stream to the original window too)
 
-![](/_images/_gsender/_features/gs_fe_console.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/gs_fe_console-tab.jpg){.aligncenter .size-full}
 
 When you first start up gSender, the console will display EEPROM settings that are sent from the Arduino in the control box. These EEPROM settings control parameters for your CNC such as:
 
@@ -829,7 +829,7 @@ Once enabled, you will see a confirmation appear in the bottom right corner and 
 - The '**XY**' Go button will be changed to '**XA**'
 - The **Y-axis jogging** buttons will become grayed out
 
-![](/_images/_gsender/_features/_rotary/gs_fe_ro_jog-changes.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_jog-change.jpg){.aligncenter .size-full}
 
 ### Rotary Probing
 
