@@ -325,12 +325,6 @@ Before getting into the weeds on how you can set up limit switches and homing on
   - Using <span style="color: #777;">machine coordinates</span> without homing is also still possible, but you'd need to bring your machine to a reliable location using probing or some other method, then power-cycle the machine, since without homing the machine coordinates are set at the time the machine first powers on.
   ![](/_images/_gsender/_features/_dro/gs_fe_dro_offset.jpg){.aligncenter .size-medium}
 
-If you're running into an issue where the size isn't correct when using Soft Limits for example, get the size from your manufacturer or their resources and update it in Config ➜ Homing/Limits ➜ X/Y/Z axis travel. Remember to hit the **Apply Settings** button afterwards.
-
-![](/_images/_gsender/_setup/gs_se_configmaxtravel1.jpg "In this example the Y-axis value has been adjusted."){.aligncenter .size-full}
-
-
-
 ### Workspaces
 
 Another concept worth mentioning is **workspaces**. Usually you would only have one 'zero position' per project, but what about cases where:
@@ -360,62 +354,44 @@ The summary of the benefits of homing is that it allows your CNC to reliably kno
 1. **Machine limits set up** to match the physical travel distances of your CNC
 1. Any other customization you'd like to make for your particular setup
 
-
-
-
-The **machine coordinate system** is a fixed, default system established by the CNC machine's manufacturer. It is defined by the machine's physical size and is used during the homing cycle, when the machine references its internal limits using built-in sensors like limit switches. Users do not modify or choose this system—it simply tells the machine where it is in its own space. If you are not using homing switches, the machine home is determined by where the bit is when the controller is powered on.
-
-
-The machine coordinate system refers to the CNC machine's own coordinate system, established by the manufacturer. This system is based on the machine's physical structure and its home position (often referred to as the machine's home or (0,0,0) point).
-
-When you power on the machine and perform a homing sequence, the machine references this built-in coordinate system to determine its position in space. This system ensures that the machine has a consistent reference point for all operations.​
-
-
-In gSender, you can set workpiece offsets using standard G-code commands like G54 to G59. These commands allow you to define multiple work coordinate systems, which is especially useful when working on different parts or setups without re-homing the machine each time.​ These are called your workspaces.
-
-### Homing
-
-When we turn on homing, we can use 3 sensors to find our machine coordinate home on our machine. For now, we will home to the front left corner of the machine. To enable Homing, Go to Config ➜ Homing/Limits ➜ Homing cycle enable ➜ toggle on.
+Going to the Config Tab and scrolling to the Homing/Limits section you'll see an option to turn Homing on:
 
 ![](/_images/_gsender/_features/_dro/gs_fe_dro_homingon.jpg){.aligncenter .size-medium}
 
-Using **grblHAL** enables several more detailed options for you to choose from, like homing single axes, requiring homing on startup, set machine origin to 0, and more. In this image, we have enabled homing, but **not** required it on startup. We have toggled to allow us to manually home the machine, and to **Set the machine origin to 0** once complete.
+**grblHAL** machines will also have additional options to choose from, like homing single axes, requiring homing on startup, set machine origin to 0, and more. Typically you'll at least want to turn on 'Set machine origin to 0'.
 
-![](/_images/_gsender/_features/_dro/gs_fe_dro_hominghal.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_dro/gs_fe_dro_hominghal.jpg){.aligncenter .size-full}
 
-You'll notice additional buttons appear in the DRO area of gSender:
+While you're here, we'd also recommend that you use the lights at the top of the Homing/Limits section to check that all your limit switches are plugged in and working correctly. They should be red by default and light up green when they're triggered, and if that's not the case then you might want to change your settings or check your wiring.
 
-![](/_images/_gsender/_features/_dro/gs_fe_dro_homingbtn.jpg){.aligncenter .size-medium}
+Once you apply settings, you'll find back on the main Carve screen that there are some new buttons available:
 
-The **Home** button is a convenient way to home or re-home your machine at any time (sends the typical $h command). The machine will automatically move to your front left corner, using the sensors to position the router over machine home.
+![](/_images/_gsender/_features/_dro/gs_fe_dro_homingbtn.jpg){.aligncenter .size-full}
 
-![](/_images/_gsender/_features/_dro/gs_fe_dro_rapidpositionbtn.jpg){.aligncenter .size-medium}
-
-Four **Rapid-Travel** buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). **These should only be used once your machine is homed.**
-
-![](/_images/_gsender/_features/_dro/gs_fe_dro_parkbtn.jpg){.aligncenter .size-medium}
-
-You can configure a **Park Location** to move your router to a set spot consistently at the click of a button. To setup your parking spot, Go to Config ➜ Homing/Limits and scroll down to the bottom of the section. Here you can enter the coordinates of your parking spot manually, or move your router/spindle to the spot you wish to park and hit the **Grab** current position button. Test out your new spot by hitting the Go to button in settings or hitting the P button on the DRO. Don't forget to hit the Apply Settings button to save your new spot!
-
-![](/_images/_gsender/_features/_dro/gs_fe_dro_parksetting.jpg){.aligncenter .size-medium}
+1. The **Home** button will help you to manually home your machine any time you need (sends the typical $h command). For your first time homing, have your hand on the machines E-stop in case the homing goes the wrong direction. Many machines home to the front left corner or the back right, so if your machine is behaving incorrectly then go back to Config to adjust your homing directions.
+1. Four **Rapid-Travel** buttons to move your CNC at its maximum speed to any of your machine's 4 corners (offset by 5mm). **These should only be used once your machine is homed and you've correctly set up [your machines maximum travel](#setting-limits).**
+1. A configurable **Park Location** that acts similarly to the Rapid travel buttons but instead moves to a custom location you set yourself. To set up your parking spot, go to Config ➜ Homing/Limits and scroll down to the bottom of the section. Here you can enter the coordinates of your parking spot manually, or move your router/spindle to the spot you wish to park and hit the **Grab** current position button. Test out your new spot by hitting the 'Go to' button in settings or hitting the 'P' button on the DRO. Don't forget to hit the Apply Settings button to save your new spot!
+  ![](/_images/_gsender/_features/_dro/gs_fe_dro_parksetting.jpg){.aligncenter .size-full}
 
 ### Setting Limits
 
-If you're having issues with the “quick-travel” buttons, then check the **maximum travel** settings for your machine to see if they are the same as what your machine is physically capable of moving. You can find these settings by going to Config tab ➜ Homing/Limits ➜ X-axis maximum travel (Y, Z axes are here too), $130-$132. If you are using **grblHAL** you will also see A axis, $133.
+Things like machine limits for the **<span style="color: #777; text-decoration: underline;">Machine Coordinate</span>** system are usually set up by the manufacturer and so might never need changing. There are cases though where depending on your model or if you've assembled a kit and installed add-on your maximum travel area might need to be adjusted to properly reflect your machines travel limits.
 
-![](/_images/_gsender/_features/_dro/gs_us_limitssetl.jpg){.aligncenter .size-medium}
+We recommend you do this especially if you're planning to use the 'quick-travel' buttons. You can find these settings by going to Config ➜ Homing/Limits ➜ X-axis maximum travel (Y, Z-axes are here too). Remember to hit the **Apply Settings** button afterwards.
+
+![](/_images/_gsender/_setup/gs_se_configmaxtravel1.jpg "In this example the Y-axis value has been adjusted."){.aligncenter .size-full}
 
 If you'd like more information on how to set up and use limit switches, read here: <a href="https://resources.sienci.com/view/lm-adding-limit-switches/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-adding-limit-switches/</a>
 
 ### Soft Limits
 
-With 3 sensors in place, and homing turned on, we can turn on soft limits. This feature will combine your 3 sensor homing cycle with your maximum travel lengths, to prevent you from going too far on each axis. Think of this as a software limit, we use 3 limit switches + your max travel to calculate your soft limits. To enable soft limits, Config ➜ Homing/Limits ➜ Soft limits enable ➜ toggle on. Don't forget to hit the Apply Settings button to save!
+With homing working, you can optionally choose to turn on soft limits. This feature will keep an eye out after you home your machine to see if any movements are trying to go past your [machine limits](#setting-limits), and stop those movements from happening to protect your machine. Enable these in Config ➜ Homing/Limits ➜ Soft limits enable. Don't forget to hit the Apply Settings button to save!
 
 ![](/_images/_gsender/_features/_dro/gs_fe_dro_softlimit.jpg){.aligncenter .size-medium}
 
 ### Hard Limits
 
-If you have a sensor on both sides of each axis, all 6 sensors can provide you a hardware backup solution, to the software solution provided above with the soft limits. With hard limits on, if your machine get's close to the edge of an axis, your sensor will trigger, stopping any further movement. To enable hard limits, Config ➜ Homing/Limits ➜ Hard limits enable ➜ toggle on. Don't forget to hit the Apply Settings button to save!
+If you have a sensor on both sides of each axis, all 6 sensors can provide you a hardware backup solution, to the software solution provided above with the soft limits. With hard limits on, if your machine get's close to the edge of an axis, your sensor will trigger, stopping any further movement. Enable this in Config ➜ Homing/Limits ➜ Hard limits enable.
 
 ![](/_images/_gsender/_features/_dro/gs_fe_hardlimit.jpg){.aligncenter .size-medium}
 
