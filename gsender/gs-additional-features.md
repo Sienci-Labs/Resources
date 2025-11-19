@@ -596,7 +596,7 @@ With setup complete, regular use is very straightforward:
    - On phones the screen will look different since we've optimized it for jogging, setting zeros, and probing
    - When you click to 'load a file' you'll only be able to load files from the device you're currently on, don't expect to gain access to the files stored on the opposite device. However once the file is loaded into gSender, you'll be able to run it from any device.
    - There can be multiple remote devices all connected to the same inline computer at the same time to control your CNC from multiple devices. There can also be multiple inline computers controlled from the same remote computer, giving you multi-CNC control from the same device.
-1. Some gSender-specific 'local' settings like won't carry over to the remote device so if you want to make sure files are run the same way every time you'll need to transfer your gSender settings over by following the ['Transfer Settings' instructions](#transferring-settings)
+1. Some gSender-specific 'local' settings like won't carry over to the remote device so if you want to make sure files are run the same way every time you'll need to transfer your gSender settings over by following the ['Transfer Settings' instructions](#gsender-preferences)
 
 ### Troubleshooting
 
@@ -802,30 +802,23 @@ In either case, the setup starts by going to Config ➜ Rotary and enabling the 
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_enable.jpg){.aligncenter .size-full}
 
-Once done, you will see an additional tab at the bottom right of the main Carve screen, called 'Rotary'. With these controls turned on, you'll now have access to:
-
-
-
-- **Rotary Toggle** - for toggling between [Rotary Mode](https://resources.sienci.com/view/vx-electronics/) and [4-axis Mode](https://resources.sienci.com/view/vx-closed-loop-motor/)
-- **Rotary Surfacing** - a gSender tool for turning square stock into round stock
-- **Probe Rotary Z-axis** - Automatically probe to find the Z-axis
-- **Y-axis Alignment** - Automatically probe to align the Y-axis along the A-axis (Turn rotary mode off to access this feature)
-- **Mounting Setup** - Drill holes in your wasteboard to mount our own <a href="https://sienci.com/product/vortex-rotary-axis/">Vortex Rotary</a> track (Turn rotary mode off to access this feature)
+Once done, you will see an additional tab at the bottom right of the main Carve screen, called 'Rotary'. For 4-axis setups, you'll immediately have access to all buttons and it's unlikely that you'd want to switch over to 'rotary mode', meanwhile for 3-axis setups you'll notice that some buttons will be grayed out before you've switched to rotary mode, or once you're in rotary mode. This is because some actions require movement in the Y-axis and others require movement in the A-axis, and since you have a 3-axis machine you can only do one or the other at a time:
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_enabled.jpg){.aligncenter .size-full}
 
+- **Rotary Toggle** - for toggling between [Rotary Mode](https://resources.sienci.com/view/vx-electronics/) and [4-axis Mode](https://resources.sienci.com/view/vx-closed-loop-motor/), or if you're using a 3-axis machine the only option will be rotary mode
+- **Rotary Surfacing** - an easy tool for turning square stock into round stock
+- **Mounting Setup** (<a href="https://sienci.com/product/vortex-rotary-axis/">Vortex-specific</a>) - helps to drill holes into your wasteboard to mount the Vortex track to your CNC
+- **Probe Rotary Z-axis** - automatically probe to find the Z-axis zero
+- **Y-axis Alignment** - automatically probe to align the Y-axis to the center of the A-axis
 
-- **Jog Control** - Rotate the A-axis, go to Zero, set Zero, and adjust speeds
+<em><b>Note:</b> you'll always want to first mount ([Mounting Setup](#mounting-setup)) and align ([Y-Axis Alignment](#y-axis-alignment)) your rotary axis before moving forward with any of the other features like: switching to rotary mode, using the jog controls, rotary surfacing, or any other rotary actions.</em>
 
-![](/_images/_gsender/_features/_rotary/gs_fe_ro_dro-a.jpg){.aligncenter .size-medium}
+- **Jog Control** - You'll also see new options to rotate the A-axis, go to Zero, set Zero, and adjust speeds
 
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_dro-a.jpg){.aligncenter .size-full}
 
-These have unique behaviours though because Rotary surfacing and Probe Rotary Z-Axis can only be available once you're in rotary mode for a 3-axis machine
-
-
-<em><b>Note:</b> Before switching to rotary mode, using the jog controls, rotary surfacing, or any other rotary actions, you'll need to check that you've got your rotary set up and positioned correctly. This includes table mounting and Y-axis alignment, outlined below.</em>
-
-### Rotary Mounting Setup
+### Mounting Setup
 
 When mounting a rotary axis, it's important to be parallel to the X-axis, and helpful to have a repeatable position so you can reliably mount and unmount the rotary, depending on when you want to use it. If you have your own rotary axis, this is a step that you'll have to do yourself.
 
@@ -837,36 +830,28 @@ When switching from regular CNC use to Rotary Mode, you will probe to align the 
 
 ### Rotary Mode Toggle
 
+Moreso meant for 3-axis machines, this toggle can only happen once you've got your rotary axis set up properly, because after switching it'll assume you've changed your motor wiring to be connected to your A-axis instead of your Y-axis.
 
-The idea is that once you're in this "rotary mode", gSender does the legwork to swap firmware settings over to your rotary setup, translate A-axis movements to your machine as if they were Y-axis movements, and as long as you've done the legwork to align and swap over your wires then your rotary A-axis should now be good to go!
+The idea is that once you're in this "rotary mode", gSender does the legwork to swap firmware settings over to your rotary setup, translate A-axis movements to your machine as if they were Y-axis movements, and as long as you've done the alignment and swapped over your wires then your rotary A-axis should now be good to go!
 
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_rotary-toggle.jpg){.aligncenter .size-full}
 
-This toggle can only happen once you've got your rotary axis set up properly, because after switching it'll assume you've changed your motor wiring to be connected to your A-axis instead of your Y-axis.
+When you enable Rotary Mode, you will see a popup warning you of the changes that will be made by continuing:
 
-![](/_images/_gsender/_features/_rotary/gs_fe_ro_rotary-toggle.jpg){.aligncenter .size-medium}
+- The current position of your Y-axis will be set to Zero
+- Your hard limits may be turned off
+- Other firmware values might get updated to suit your rotary
 
-You will see a pop up warning you of the changes that are made, going into rotary mode:
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_rotary-popup.jpg){.aligncenter .size-full}
 
-- Your Y-axis will be set to Zero in it's current position
-- Your firmware EEPROM values have been set to new values, better suited to the rotary.
+Once enabled, you will see a confirmation appear in the bottom right corner and several changes will happen in gSender:
 
-![](/_images/_gsender/_features/_rotary/gs_fe_ro_rotary-popup.jpg){.aligncenter .size-medium}
-
-Once enabled, you will see a confirmation appear in the bottom right corner.
-
-![](/_images/_gsender/_features/_rotary/gs_fe_ro_rotary-enabled.jpg){.aligncenter .size-medium}
-
-When you enable Rotary Mode, several changes will happen to your tool options:
-
-- The **Y-axis Alignment** and **Rotary Mounting Setup** buttons become grey and hidden. This is because your Y-axis will be locked in its current position at this time, so there is no need to align it, and your rotary should already be set up.
-- The **Stock Turning** and **Probe Rotary Z-axis** buttons become available
-
-Several changes will also happen to your controls:
-
-- The **Go to** button for Y-axis is hidden
-- The **Zero Y-axis** button is hidden
-- It changes the '**Go to XY**' button to be a '**Go to XA**' button
-- The **Y-axis jogging** buttons are hidden
+- The **Mounting Setup** and **Y-axis Alignment** buttons will become grayed out
+- The **Rotary Surfacing** and **Probe Rotary Z-axis** buttons will become available
+- The **Go** buttons for the Y and Z-axes will become grayed out
+- The **Y0** button will become grayed out
+- The '**XY**' Go button will be changed to '**XA**'
+- The **Y-axis jogging** buttons will become grayed out
 
 ![](/_images/_gsender/_features/_rotary/gs_fe_ro_jog-changes.jpg){.aligncenter .size-full}
 
@@ -901,29 +886,29 @@ he Rotary Surfacing button will allow you to turn square stock down to a cylinde
 
 Now you will see the Rotary Surfacing Tool. Here you will enter details about your stock length, start and final dimensions. You will also see spots for Bit Diameter, Step over, Spindle RPM, and Feed rate.
 
-![](/_images/_gsender/_features/_rotary/gs_fe_rotary_surface.jpg){.aligncenter .size-full}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_rotary_surface.jpg){.aligncenter .size-full}
 
 Rotary surfacing is similar to the regular XYZ surfacing tool. Let's explore this a bit further.
 
 1. Your **start diameter** is the largest diameter on your stock. Usually this means the diagonal distance from opposite corners if you're starting with square or rectangular stock.
 
-![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_diameter-start.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_diameter-start.jpg){.aligncenter .size-full .nar}
 
 1. Your final diameter is determined by the short side of your stock.
 
-![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_diameter-end.jpg){.aligncenter .size-full .nar}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_diameter-end.jpg){.aligncenter .size-full .nar}
 
 1. With a starting height of 90mm and a finished height of 63.5mm, we are removing 26.5mm of material. **However**, since we have the Z-axis set at the center of the material, we will need to divide that 26.5mm in half. We are basically taking 13.25mm off of the top and the bottom. If you want a single pass, your step down would be 13.25mm. Dividing that by two and setting the step down to 6.625mm, means that we will be doing two passes. This will produce a piece of round stock with the maximum diameter possible.
 
 <p style="text-align: center;"><b>(Start Height - Finishing Height) / 2 = Total Step down for ONE pass</b></p>
 
-![](/_images/_gsender/_features/_surfacerot/gs_fe_sr_running.gif){.aligncenter .size-medium .nar}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_running.gif){.aligncenter .size-medium .nar}
 
 ### Rotary Settings
 
 When you go to Config ➜ Rotary, you'll be able to enter your own settings, reset the default settings and turn Hard Limits on/off.
 
-![](/_images/_gsender/_features/_rotary/gs_fe_ro_settingslimits.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_features/_rotary/gs_fe_ro_settingslimits.jpg){.aligncenter .size-full}
 
 ## More
 
