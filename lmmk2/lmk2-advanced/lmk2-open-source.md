@@ -48,7 +48,9 @@ The LongMill MK2 has gone through two major iterations of its design:
 
 You can find the BOM and designs of every part and assembly of the LongMill MK2 Benchtop CNC in the linked Onshape and spreadsheet documents below:
 
-**MK2:** <a href="https://CAD.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/99a028de0f32d790196bbe8a" target="_blank" rel="noopener">https://CAD.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/99a028de0f32d790196bbe8a</a>
+**MK2.5:** <a href="https://CAD.onshape.com/documents/1ec06c152c12241e5b436609/w/26f29fe8f3ef251660b89157/e/e662bfca86c49932231fa293" target="_blank" rel="noopener">https://cad.onshape.com/documents/1ec06c152c12241e5b436609/w/26f29fe8f3ef251660b89157/e/e662bfca86c49932231fa293</a>
+
+**MK2:** <a href="https://CAD.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/99a028de0f32d790196bbe8a" target="_blank" rel="noopener">https://cad.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/99a028de0f32d790196bbe8a</a>
 
 **BOM:** <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1540965623" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1540965623</a>
 
