@@ -135,12 +135,25 @@ Here are some other **Quick tips:**
 
 As is also covered in our <a href="https://sienci.com/terms-and-conditions/" target="_blank" rel="noopener">safety warnings and guidelines</a> for the MK2, always operate your machine in a safe manner:
 
-- Never wear loose clothing while operating the machine. Keep long hair and clothes away from all moving parts so nothing gets caught and wear appropriate footwear. Remember that though we try to prevent incidental harm while using the MK2 it's still up to you to be safe and aware while using it
-- Wear a good set of over-the-ear hearing protection or ear plugs to prevent hearing damage since the LongMill on its own or combined with a dust collection system can be quite loud
-- Especially in cases of poor dust collection or ventilation a good dust mask or respiratory protection is needed to protect from inhaling particulates in the air. Some materials can even be toxic or generate long-term health problems if inhaled so look up the MSDS (material safety data sheet) of your material before you start cutting it
-- Cutting can kick-up a lot of dust and wood chips so reasonable eye protection should be worn while the machine is running
-- Be aware around your machine and don't leave it unattended. Anything can happen while you're not paying attention and could result in harm if you reach in or turn your back during operation
-- Careful with tool and materials handling. Cutting tools can shatter or cause damage if they're not in good condition or can cut you during handling and this is similar with materials. Material can also ignite during cutting, within your dust collection system, or even spontaneously especially if mixed in with other chemicals or oils when disposed. Be aware of safe disposal measures for your cutters and materials for your particular area
+- **Generally**:
+  - Never wear loose clothing while operating the machine. Keep long hair and clothes away from all moving parts so nothing gets caught, and wear appropriate footwear. Remember that while the MK2 is designed to prevent incidental harm, it’s still up to you to be safe and aware during use.
+  - Stay aware around your machine and never leave it unattended. Anything can happen when you’re not paying attention and could result in harm if you reach in or turn your back during operation.
+  - Handle tools and materials with care. Sharp edges and burrs can cut through skin, and cutting tools can shatter if defective or damaged. Some materials can ignite during cutting, within your dust collection system, or even spontaneously - especially if mixed with chemicals or oils when disposed of. Follow safe disposal measures for tools and materials in your area.
+- **Fire Hazards:**  
+  - Do not leave your machine unattended during operation.  
+  - Never mix metal shavings with wood dust, as this can create a fire hazard and damage your dust collection hose.  
+  - Be aware that sparks from metal-on-metal contact can cause fires.
+- **Eye Protection**:
+  - Cutting can kick up a lot of dust and wood chips, sometimes larger material pieces as well, so always wear proper eye protection while the machine is running.
+- **Dust Protection**:
+  - Especially in cases of poor dust collection or ventilation, use a good dust mask or respiratory protection to protect from inhaling particulates.
+  - Some materials can be toxic or cause long-term health problems if inhaled - always check the MSDS (Material Safety Data Sheet) for your material before cutting.
+  - For more details on how to protect yourself from dust, check out our section on [Dust Collection](https://resources.sienci.com/view/lmk2-dust-collection/)
+- **Ear Protection:**  
+  - Noise from CNCs and other power tools can cause permanent hearing damage faster than you think. Damage can occur if above **75 dB** consistently, at 90–95 dB for over 1–2 hours, or at 100dB for only 20 minutes.
+  - Always wear hearing protection - preferably double protection (earplugs + earmuffs) for maximum safety. Choose equipment with a high NRR (Noise Reduction Rating) and good comfort - comfortable devices are more likely to be worn consistently.
+  - The NRR on gear isn’t always accurate in real-world use, so use use a conservative estimate of: (NRR – 7) ÷ 2. For example, an earmuff rated NRR 31 may only reduce sound by ~12 dB in actual use.
+  ![Hearing Protection](/_images/_lmmk2/_the-basics/lmk2_dust_safety-ears.jpg)
 
 ## Resource Pages
 
