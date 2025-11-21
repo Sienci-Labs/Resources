@@ -106,7 +106,7 @@ Uses 2020 extrusion and knobs to be able to set the height of your shoe based on
 [/su_row]
 
 [su_row]
-[su_column size="1/2" center="no" class="viewer-desc"]**Touch Plate (3-axis / block-style)**
+[su_column size="1/2" center="no" class="viewer-desc"]
 <strong>Touch Plate (block-style and AutoZero)</strong>
 A typical block-style, 3-axis touch plate we designed for finding X, Y, and Z-zero on 3-axis CNCs, and our novel AutoZero touch plate designed to work with far more bit types and more accuracy than typical block-style plates.
 
