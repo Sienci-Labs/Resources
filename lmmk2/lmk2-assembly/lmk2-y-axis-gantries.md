@@ -21,11 +21,11 @@ featured_image: _images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_title
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_header-Y-Axis-Gantries_1.png){.aligncenter .size-medium .wid}
 
-![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Y-Axis-Gantries_2.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Y-Axis-Gantries_1.png){.aligncenter .size-medium}
 
 Install two v-wheel assemblies to each Y-axis gantry using nylock nuts. Similar to previous steps, use the M5 Allen key and included wrench to firmly secure the nylock nuts.
 
-![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Y-Axis-Gantries_1.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Y-Axis-Gantries_2.png){.aligncenter .size-medium}
 
 Now, loosely install two v-wheel assemblies in the upper set of holes on each Y-axis gantry, using eccentric nuts. Orient the inner holes of the eccentric nuts away from the bottom edge of the gantry (pictured below). <img class="non alignnone wp-image-4869" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_xzaxes_48EX-symbol.png" alt="" width="61" height="30" />
 
