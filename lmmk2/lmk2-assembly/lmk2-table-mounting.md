@@ -105,7 +105,7 @@ Followed by the second screw for each foot. Once complete, **Congrats!** Your ma
 
 You can mount your SLB however you like. Some factors to consider might be your machine setup, computer location, if you have an enclosure, or if you want to access other things or see the pretty lights on the board. The most versatile way is the 4 holes in the SLBs enclosure which will allow you to mount it to any flat surface, but we recommend that you mount it directly to your Y-axis rail. You will find your bracket and hardware in the SLB box. Some of the extra tools you may need for this step:
 
-- **Bolting to MK2.5 Rail** - M5 Allen wrench, bracket, 2 T-nuts and 2 M5 25mm bolts
+- **Bolting to MK2.5 Rail** - M5 Allen wrench, bracket, 2 T-nuts and 2 M5 10mm bolts
 - **Screw Down / Flat Mounting** - 2 to 4 wood screws (minimum size #4 or ¾" and min length of ½") plus the necessary screwdriver or bit driver
 
 For rail mounting, slide the two T-nuts onto the track above the left Y-rail and loosely thread on the two M5 bolts.
