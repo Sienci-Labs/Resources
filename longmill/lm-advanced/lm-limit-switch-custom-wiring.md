@@ -122,7 +122,7 @@ Before you solder anything, make a plan and dry fit all these components into th
 
 ### Firmware Settings
 
-Once you’ve assembled all the electrical connections to the LongBoard, you can enable limit switches, in which you will need to change a couple of settings on your LongMill’s firmware. Settings can be changed by sending the command to update the EEPROM settings manually through the console, or using the “Firmware Tool” on gSender. Below, we have listed the settings that you may want to enable.
+Once you've assembled all the electrical connections to the LongBoard, you can enable limit switches, in which you will need to change a couple of settings on your LongMill's firmware. Settings can be changed by sending the command to update the EEPROM settings manually through the console, or using the "Firmware Tool" on gSender. Below, we have listed the settings that you may want to enable.
 
 [tabby title="Current" open="yes"]
 

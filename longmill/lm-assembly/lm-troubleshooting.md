@@ -81,7 +81,7 @@ When jogging or running the LongMill, one of the motors does not move correctly 
 
 - Ensure that all plugs and cables are fully seated and connected properly. Check the other plugs for reference.
 - Check the colour pattern of each wire coming from the motor and connected to the LongBoard. Is the pattern the same with each motor? If not, change the order of the wires to match.
-- Reload the EEPROM settings on your Arduino, as these settings may have changed when using various g-code senders. These settings control aspects such as the jogging direction and the machine’s work space boundaries. To access them, go to the Firmware tool in gSender, or the Firmware Settings in UGS. gSender will have the ability to "Restore Defaults" and revert to the LongMills factory settings. For UGS, make sure you have the default settings (found <a href="https://resources.sienci.com/view/lm-EEPROM-settings/" target="_blank" rel="noopener">here</a>) by going through each line and manually changing the values, or download the configuration zip file, unzip it, and load it into UGS.
+- Reload the EEPROM settings on your Arduino, as these settings may have changed when using various g-code senders. These settings control aspects such as the jogging direction and the machine's work space boundaries. To access them, go to the Firmware tool in gSender, or the Firmware Settings in UGS. gSender will have the ability to "Restore Defaults" and revert to the LongMills factory settings. For UGS, make sure you have the default settings (found <a href="https://resources.sienci.com/view/lm-EEPROM-settings/" target="_blank" rel="noopener">here</a>) by going through each line and manually changing the values, or download the configuration zip file, unzip it, and load it into UGS.
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p5_Wiring.jpg "The wiring colour pattern should be blue, yellow, green, red."){.aligncenter .size-medium}
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p6_USGEEPROM.png "Where to find the EEPROM settings on UGS Platform."){.aligncenter .size-medium}
 
@@ -134,7 +134,7 @@ Excessive wobble is when the lead screw is deviating from center by more than ab
 ### Machine is cutting lines into my project
 
 - If you have the 'homing cycle' enabled in your firmware settings, any 'G28' command used for a safe retract height will cause the machine to move to it's Z-axis home position. If you have not homed the machine before this command is called, the Z-axis may not lift high enough, or plunge into the work material. With the 'homing cycle' disabled, gSender will automatically ignore these 'G28' commands and will lift the Z-axis to a clearance height instead.
-- If you are using Fusion 360, ensure that ‘Safe Retracts’ is set to ‘Clearance Height.’
+- If you are using Fusion 360, ensure that 'Safe Retracts' is set to 'Clearance Height.'
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p7_f360.png){.aligncenter .size-medium}
 - Ensure that you are not hitting the Z-axis movement limits when running the job.
 - Review the g-code with a visualizer (<a href="https://ncviewer.com/">https://ncviewer.com/</a>) to ensure there are no unexpected toolpaths or incorrect g-code commands.
@@ -170,7 +170,7 @@ Loss of connection on a long job can happen if your computer or USB port 'fall a
 
 ### My bit is crashing into the touch plate
 
-If you’re using UGS:
+If you're using UGS:
 
 - There is a bug that can cause the touch plate to move farther than the expected origin and plunge the bit into the work surface if you use INCHES units when jogging around. If so, before beginning the probe process ensure that you have set the jog control to MM instead of INCHES. Once probing is completed, you may switch back to INCHES and resume regular machine operation
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p14_UGSbug.png "Jog control unit setting on UGS"){.aligncenter .size-medium}
@@ -180,7 +180,7 @@ If this was not the problem:
 - Check that the bit you are using is not tapered and is conductive at the both its sides and end so that it can make electrical contact with the touch plate.
 - Ensure the settings you use are from the touch plate page on our website (not the settings in the video): <a href="https://resources.sienci.com/view/lm-touch-plates/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-touch-plates/</a>
 - Make sure your work coordinates match your touch plate settings (usually G54)
-- Check that there's proper electrical contact from your control box through to your magnet and touch plate. An easy way to check this is to run a Z probe with the router high up in the air and manually tap the magnet to the plate while they're held in each of your hands. If the bit stops and raises slightly up then lowers down again, this should indicate some form of connectivity from the magnet and touch plate to the control box. If you tap them together again, this should conclude the probing process and no errors should appear. If you don't observe this behaviour, then you should try this test again and if it again shows an error then check the electrical connections. See if the magnet is making contact with the metal leads of the wire by unscrewing the fastener in the centre and do the same for the banana plug as well. You may need to strip more insulation off the ends of the wire to get more contact with the metal surfaces. There’s a great video showing how to deal with banana connectors assembly/disassembly here: <a href="https://www.YouTube.com/watch?v=cH0C_g_lfXo" target="_blank" rel="noopener">https://www.youtube.com/watch?v=cH0C_g_lfXo</a>
+- Check that there's proper electrical contact from your control box through to your magnet and touch plate. An easy way to check this is to run a Z probe with the router high up in the air and manually tap the magnet to the plate while they're held in each of your hands. If the bit stops and raises slightly up then lowers down again, this should indicate some form of connectivity from the magnet and touch plate to the control box. If you tap them together again, this should conclude the probing process and no errors should appear. If you don't observe this behaviour, then you should try this test again and if it again shows an error then check the electrical connections. See if the magnet is making contact with the metal leads of the wire by unscrewing the fastener in the centre and do the same for the banana plug as well. You may need to strip more insulation off the ends of the wire to get more contact with the metal surfaces. There's a great video showing how to deal with banana connectors assembly/disassembly here: <a href="https://www.YouTube.com/watch?v=cH0C_g_lfXo" target="_blank" rel="noopener">https://www.youtube.com/watch?v=cH0C_g_lfXo</a>
 
 ## Software
 

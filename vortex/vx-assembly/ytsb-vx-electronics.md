@@ -15,13 +15,13 @@ skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
-<span style="color: #d22329;">Follow these instructions if you’re assembling a Vortex rotary axis kit which utilizes an open loop motor with the included rotary switching module.</span>
+<span style="color: #d22329;">Follow these instructions if you're assembling a Vortex rotary axis kit which utilizes an open loop motor with the included rotary switching module.</span>
 
 <img class="aligncenter wp-image-5482 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p51_FinalSwitch-850x529.jpg" alt="" width="850" height="529" />
 
-Now it’s time to wire up the Vortex and install the rotary axis switch.
+Now it's time to wire up the Vortex and install the rotary axis switch.
 
-The switching module used to control your Vortex can be thought of as ‘intercepting’ the connection from your **controller** to your **two Y-axis motors**.
+The switching module used to control your Vortex can be thought of as 'intercepting' the connection from your **controller** to your **two Y-axis motors**.
 
 This procedure will take about 15 minutes.
 
@@ -89,7 +89,7 @@ Grab the single remaining cable and connect the side with the white square conne
 
 ### Connecting Your Vortex
 
-On the top of the switching module, you’ll find a single green plug where your Vortex motor cable will plug into. Run the cable(s) **around your feet**, not under the rails.
+On the top of the switching module, you'll find a single green plug where your Vortex motor cable will plug into. Run the cable(s) **around your feet**, not under the rails.
 
 *The inductive sensor cable coming from the Vortex can then be plugged into the single white connector on the top of the switching module if you are using the sensors.*
 
@@ -101,4 +101,4 @@ The Vortex rotary axis switch was designed to be left plugged in at all times, a
 
 <img class="nar aligncenter wp-image-5711 size-full" src="https://resources.sienci.com/wp-content/uploads/2023/08/Switch.jpg" alt="" width="466" height="405" />
 
-**Congratulations!** A job well done, you’ve completed the assembly steps. Take a deep breath, we are almost ready for a test drive.
+**Congratulations!** A job well done, you've completed the assembly steps. Take a deep breath, we are almost ready for a test drive.

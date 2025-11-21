@@ -30,7 +30,7 @@ Microstepping is a technique that allows for steps to be broken down into 'sub-s
 
 ## Current Values
 
-The steps/mm EEPROM settings in the LongMill (<em>$100, </em><em>$101, </em>and <em>$102</em>) are set to 200. This value helps the controller turn g-code into linear movements, then into rotational step signals for the motors. This number comes from taking the values below and running them through the formula:
+The steps/mm EEPROM settings in the LongMill (<em>$100, $101,</em> and <em>$102</em>) are set to 200. This value helps the controller turn g-code into linear movements, then into rotational step signals for the motors. This number comes from taking the values below and running them through the formula:
 
 - LongMill stepper motors are **200** steps/rotation
 - Drivers set to **1/8** microstepping by default
@@ -38,7 +38,7 @@ The steps/mm EEPROM settings in the LongMill (<em>$100, </em><em>$101, </em>and 
 - MK2 LongMills: all axes are direct drive
 - Our lead screws have a **2mm** pitch and are **4-start**, 2mm x 4 = 8mm **lead**
 
-<em>Steps/mm  =   Steps/revolution</em><em>  </em><b>/</b><em>  (microstepping value  </em>x<em>  gearing ratio from motor to lead screw  </em>x<em>  lead screw pitch  </em>x<em>  # of starts)</em>
+<em>Steps/mm  =   Steps/revolution  <b>/</b>  (microstepping value </em>x<em>  gearing ratio from motor to lead screw </em>x<em>  lead screw pitch </em>x<em>  # of starts)</em>
 
 This gives us:  200  /  (1/8  x  1  x  2  x  4)  =  <em>200 steps/mm</em>
 

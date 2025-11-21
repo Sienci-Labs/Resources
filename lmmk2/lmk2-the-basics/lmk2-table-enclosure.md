@@ -61,7 +61,7 @@ Original post: <a href="https://forum.sienci.com/t/what-are-your-plans-for-a-tab
 
 ### T-track Wasteboard (Keith)
 
-Keith is one of our Beta testers who made a really cool T-track wasteboard design for his LongMill Beta unit. By spacing 7 t-track slots between 6 MDF strips, he’s able create a surface which is both consumable but also easy to mount to when using t-track clamps or other t-track compatible mounting hardware. The ¾” thick MDF strips were approximately 5.25” wide by 36” long for his particular setup:
+Keith is one of our Beta testers who made a really cool T-track wasteboard design for his LongMill Beta unit. By spacing 7 t-track slots between 6 MDF strips, he's able create a surface which is both consumable but also easy to mount to when using t-track clamps or other t-track compatible mounting hardware. The ¾" thick MDF strips were approximately 5.25" wide by 36" long for his particular setup:
 
 ![](/_images/_longmill/_the-basics/lm_communitytable_p4_KeithWaste.png){.aligncenter .size-large}
 
@@ -140,9 +140,9 @@ Adding an enclosure to your CNC is a great way to reduce noise and dust in the s
 
 ![](/_images/_longmill/_the-basics/lm_communitytable_p11_PaulDaveCharlesEnclosure.jpg){.aligncenter .size-medium}
 
-Dave’s video - <a href="https://www.YouTube.com/watch?v=SxiLNjUlw3c" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=SxiLNjUlw3c</a><br>
+Dave's video - <a href="https://www.YouTube.com/watch?v=SxiLNjUlw3c" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=SxiLNjUlw3c</a><br>
 Charles' guide - <a href="https://forum.sienci.com/t/custom-cover-for-LongMill-mk2-30x48/10423" target="_blank" rel="noopener noreferrer">https://forum.sienci.com/t/custom-cover-for-LongMill-mk2-30x48/10423</a><br>
-Paul’s post - <a href="https://www.facebook.com/groups/mill.one/permalink/835391973598802/" target="_blank" rel="noopener noreferrer">https://www.facebook.com/groups/mill.one/permalink/835391973598802/</a>
+Paul's post - <a href="https://www.facebook.com/groups/mill.one/permalink/835391973598802/" target="_blank" rel="noopener noreferrer">https://www.facebook.com/groups/mill.one/permalink/835391973598802/</a>
 
 ## Other Modifications
 

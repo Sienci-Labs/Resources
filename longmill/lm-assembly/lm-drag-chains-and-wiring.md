@@ -21,7 +21,7 @@ featured_image: /_images/_longmill/_assembly/_dragchain/lm_dragchain_p1_cover.jp
 
 ![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p2_parts.jpg){.aligncenter .size-medium .wid}
 
-We will now be installing the drag chains; these contain and guide the wires on the LongMill so they aren’t in the way during cutting. They also keep wires from wearing out from bending or being cinched around corners.
+We will now be installing the drag chains; these contain and guide the wires on the LongMill so they aren't in the way during cutting. They also keep wires from wearing out from bending or being cinched around corners.
 
 As mentioned previously, the chains can be found in the lighter long box (pictured). They come with detachable links so that you can adjust their length depending on the size of your LongMill. You can save these links for later when you upgrade to a larger LongMill if you have the 12×12 or 12×30 versions.
 
@@ -39,7 +39,7 @@ Do this for all four end pieces, two hole-types and two pin types, and set them 
 
 We will attach these links to the machine, starting with the drag chain foot you set aside in the last step. It can be identified by its lightning bolt shape and the nut catches and wire clips it has on its back side. Also find the smaller M4 bolts and nuts in the yellow bag, as these will be used to attach the links in the following steps.
 
-Use a pair of bolts and nuts to secure the hole-type end link onto the drag chain foot in the orientation shown by using a size 3 Allen key. The nuts should fit into the hexagonal cutouts underneath the mounting point, meaning a wrench won’t be needed.
+Use a pair of bolts and nuts to secure the hole-type end link onto the drag chain foot in the orientation shown by using a size 3 Allen key. The nuts should fit into the hexagonal cutouts underneath the mounting point, meaning a wrench won't be needed.
 
 ![](/_images/_longmill/_assembly/_dragchain/lm_dragchain_p7.JPG){.aligncenter .size-medium}
 

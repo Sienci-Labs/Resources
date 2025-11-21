@@ -284,7 +284,7 @@ Here are some common issues you might encounter when compiling gSender locally, 
 ### `bash` Command Not Found on Windows
 
 * **Problem:** When running `yarn` commands (e.g., `yarn run dev`, `yarn clean`, `yarn prepare`), you may see an error like `'bash' is not recognized as an internal or external command, operable program or batch file.`  
-    This occurs because several `package.json` scripts invoke `bash -c "..."`, which isn’t supported natively in Windows Command Prompt or PowerShell.
+    This occurs because several `package.json` scripts invoke `bash -c "..."`, which isn't supported natively in Windows Command Prompt or PowerShell.
 
 * **Solution:**
   * **Run from Git Bash (Recommended):**  
@@ -292,7 +292,7 @@ Here are some common issues you might encounter when compiling gSender locally, 
         Open **Git Bash** (search for it in your Start Menu) and execute all `yarn` and other `gSender` commands referenced in this documentation, from within that terminal. This ensures full compatibility with commands used in the build scripts
   * **Add Git to System PATH (Advanced):**  
         If you prefer using PowerShell or Command Prompt, you can make `bash` available system-wide:
-        1.  Search for “Environment Variables” in the Start Menu and select **Edit the system environment variables**.  
+        1.  Search for "Environment Variables" in the Start Menu and select **Edit the system environment variables**.  
         2.  Click **Environment Variables...** → under **System variables**, find and edit `Path`.  
         3.  Add a new entry:  
             `C:\Program Files\Git\bin`  

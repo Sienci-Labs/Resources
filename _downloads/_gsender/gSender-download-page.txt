@@ -1,0 +1,305 @@
+## Your CNC dashboard
+- It’s Free!
+- Supports grbl and grblHAL CNCs
+- Connect over USB or Ethernet
+- Wireless control from a second device through a browser
+- Quickly position your CNC in all axes
+- Set zero manually or using a touch plate to locate your cutting job
+- Preview g-code with 3D visualization and other information
+- Run cutting jobs with active feedback and overrides
+- Leverage keymaps for full-keyboard control or use a joystick
+- and much more!
+
+## Why choose gSender?
+
+1. Designed to be clean and easy to use no matter your previous CNC experience
+2. Brings new features to the table for easier CNC calibration, surfacing, tool changing, firmware control, and more
+3. Streamlined code-base and optional ‘Lightweight mode’ means larger cutting jobs run more reliably
+4. Presets support many GRBL-based machines and works out-of-the-box on the LongMill and AltMill CNCs
+
+## Full Feature List
+
+- GRBL controllers supported
+- Smart machine connection
+- 3-axis digital readout (DRO) with manual value entry
+- All-directional jogging with XY diagonals, jog presets, and incremental/continuous single-button handling
+- Zero-setting and gotos (independent and combined)
+- Probing in any direction plus safe continuity detection ensures no broken cutting tools
+- Full imperial/metric compatibility
+- Responsive screen design and workspace customizations including visualizer light and dark theme
+- 3D toolpath visualization (no machine connection required)
+- File insight on load (feed range, spindle range, tools used, estimated cutting time, and overall, max, and min dimensions)
+- Feed override and active job status indicators
+- Fully exposed keyboard shortcuts for external keyboard/keypad control
+- Joystick support built-in for a variety of controllers
+- Safe height movements – accommodates machines with or without endstops
+- Homing cycle and quick-movement locations available for machines with homing hardware
+- Full spindle/laser support via manual control widgets, active alerting, and live overrides
+- Full mist/flood coolant support via manual control widgets and active alerting
+- Macros buttons (rearrangeable) with enhanced macro variables and individually assignable keyboard shortcuts
+- Lightweight mode reduces processing intensity on less powerful hardware or when running larger files
+- Easy workspace swapping for more advanced jigging or alignment work
+- Optional automatic handling for common error throwing g-code
+- Firmware tool for easier GRBL EEPROM changes, loading defaults, and GRBL flashing
+- Surfacing tool auto-generates surfacing g-code based on machine cutting area and other preferences, ready to execute
+- Calibration tool for axis alignment – a step by step process to make sure your CNC is square
+- Movement tuning tool for calibrating motor axis movements
+- Tool change functionality – pause, ignore, or run code blocks on M6 commands
+- Start-from-line functionality to resume jobs part-way through in case of failure of abort
+- Outline functionality indicates the rough bounds of the job before cutting
+- Customizable g-code injection at job start & end
+- Tooltips for data entry points
+- Alarm warning explanations to better contextualize CNC errors
+- Sleep management to keep PC awake during g-code sending
+- Pre-built machine profiles, including:
+  - LongMill
+  - AltMill
+  - Shapeoko
+  - X-Carve
+  - OpenBuilds CNCs
+  - Ooznest WorkBee
+  - Nomad
+  - Carvey
+  - RatRig
+  - 3018 CNC & PROVer
+  - Bulk-Man 3D
+  - FoxAlien
+  - SainSmart/Genmitsu
+  - YoraHome
+  - Two Trees
+  - BobsCNC
+  - CNC4Newbie
+  - MillRight
+  - Onefinity (running grbl-based controller)
+  - Mill One, and more…
+
+### Documentation
+Starting with gSender
+
+### User Forum
+Chat with Community
+
+### Feedback
+Comments or Bugs?
+
+### Github
+See the public Repo
+
+
+## FAQ
+
+Has this program been around for a while?
+It has and we’d recommend you check it out! gSender is built off of the already sturdy code infrastructure of CNCjs, plus after over 5 months of Alpha testing then Closed Beta testing with over 300 people it’s now been out in the wild since May 2021. Since public release, gSender is now trusted by tens of thousands of people – and counting – to easily and reliably run their CNC routers every day. In many cases, the capability of the CNC can be dictated by the limitations of the software; we hope you notice the difference with gSender.
+
+
+Where do I download gSender? Is it free?
+gSender is a free program available to be used for many different CNC routers on the market. To download the latest version, there’s a box above on this page titled “Downloads” which is always kept up-to-date as we continue to release new features and improvements.
+
+
+How do I know if I have the latest version?
+This page will always link to download the latest version of gSender. If you’d like to find a particular version or check if you have the latest, you can find all versions here: https://github.com/Sienci-Labs/gsender/releases
+
+
+What CNC machines can gSender control? Mach3/4? FluidNC?
+As long as your CNC is GRBL-based (grbl, grblHAL) and has a minimum of the GRBL 1.1 Firmware then you’ll be able to control it with gSender. gSender can perform easy control of 3-axis machines and also has Rotary and 4th axis functionality.
+
+Unfortunately when it comes to Mach3/4, any motion controller with that firmware is locked down so that it can only be controlled with the Mach3/4 interface software, so you won’t be able to use gSender. If you had a grbl-based motion controller then gSender would be able to work for you.
+
+For FluidNC, since it’s been built off of grbl there are many elements that should make gSender compatible but we just still haven’t had the time to modify gSender to get it working. Fortunately gSender is a fully open source project, so if you want to fork it to get it working for your setup or want to contribute back then we’d be happy to have you do that!
+
+
+What are the computer/system requirements to run it?
+gSender is built to work on Windows/PC (Windows 10 and up), Mac (El Capitan 10.11 and up), Linux, and even Mini PCs or single board computers like a Raspberry Pi. No matter the computer used, our minimum recommended system requirements would be: 2GB of RAM and a 1280 x 768 screen size
+
+
+Can gSender be used in inches?
+Yes! It’s got a global toggle so that everything can be in either mm or inches. It also accepts mm and inches files.
+
+
+Do you need an internet connection to run gSender?
+Not at all. gSender can be run completely standalone once you’ve downloaded the install file. One feature that won’t work without an internet connection is gSender’s ability to automatically check for updates to keep itself up-to-date, though you can always manually install a newer version on top of the current version yourself.
+
+
+Does it have all the same features as UGS?
+UGS and gSender have far more similarities than they have differences. The good news is that both have all the features needed to suit any typical hobby CNCer, and both are also still constantly receiving updates. Each program has it’s own approach to trying to make the best CNC interface, so we’d recommend trying out gSender if you haven’t already!
+
+
+Can I design in gSender?
+No. gSender is strictly a CNC control software and has no features currently for g-code generation outside of some additional features like it’s surfacing and bed leveling tools. You’ll need to use gSender in combination with some other CAM, or design + CAM, software to create your full CNC toolchain. If you’re looking for CNC software advice, check out our purpose-made tool that compiles information from over 80 different programs that can help you find the software that would be right for you! https://resources.sienci.com/view/lmk2-choosing-software/#toolchain-wizard
+
+
+
+<script>
+function thanks() {
+    setTimeout(function () {
+        location.href = "https://resources.sienci.com/view/gs-installation/";
+}, 10000);
+}
+function onedge() {
+    setTimeout(function () {
+        location.href = "https://resources.sienci.com/view/gs-edge-features/";
+}, 10000);
+}
+</script>
+
+<div class="gsender-download">
+<div class="gsender-download-title"><h3>Downloads</h3></div>
+<a href="https://github.com/Sienci-Labs/gsender/releases/download/v1.5.6/gSender-1.5.6-Windows-64Bit.exe" onclick="thanks()" class="">
+	<span class="dslc-icon dslc-icon-windows"></span>	
+	<span>🪟 Windows</span>
+</a>
+<a href="https://github.com/Sienci-Labs/gsender/releases/download/v1.5.6/gSender-1.5.6-Mac-Universal.dmg" onclick="thanks()" class="">
+	<span class="dslc-icon dslc-icon-apple"></span>	
+	<span>🍎 Mac OS</span>
+</a>
+<a href="https://github.com/Sienci-Labs/gsender/releases/download/v1.5.6/gSender-1.5.6-PI-64Bit.deb" onclick="thanks()" class="">
+	<span class="dslc-icon dslc-icon-linux"></span>
+	<span>🥧 Ras Pi</span>
+</a>
+<a href="https://github.com/Sienci-Labs/gsender/releases/">
+	<p>Having trouble with most recent version of gSender? Click here to find the previous one that worked for you.</p>
+</a>
+
+<p>Development is still ongoing,  <a href=" https://sienci.com/gsender-feedback/">providing feedback</a> will help us continue to improve it. <img src="https://img.shields.io/github/downloads/Sienci-Labs/gsender/total.svg" alt="" title="">Licensed under <a href="https://github.com/Sienci-Labs/sender/blob/master/LICENSE">GNU GPLv3 license</a></p>
+
+<a href="https://github.com/Sienci-Labs/gsender/releases" target="_blank" onclick="onedge()" class="" rel="noopener"><p>Interested in trying some bleeding-edge features? Try gSender Edge - our test playground for the future of gSender (download page)</p></a>
+</div>
+
+<style>
+.gsender-download{
+   /*display:grid;
+   background:#3963a2;*/
+   background: blanchedalmond;
+   padding:10px;
+   margin: 40px auto;
+   border-radius:4px;
+   text-align: center;
+   max-width: 500px;
+}
+.gsender-download h3 {
+   display: inline;
+}
+.gsender-download-title{
+   font-size: medium;
+   margin: 10px auto 15px;
+   border-bottom: 2px solid gray;
+   width: max-content;
+   line-height: 22px;
+}
+.gsender-download [class^="dslc-icon-"]::before, .gsender-download [class*=" dslc-icon-"]::before {
+   color: black;
+   margin-right: 5px;
+}
+.gsender-download a{
+   padding: 8px 10px;
+   display: inline-flex;
+   font-size: large;
+   text-decoration: none !important;
+}
+.gsender-download a:focus{
+   outline: transparent;
+}
+.gsender-download h5{
+   margin: 0 !important;
+}
+.gsender-download p{
+   border-top: 1px solid lightgray;
+   line-height: 1.6em !important;
+   margin: 0 15px !important;
+   padding-top: 5px;
+   font-size: medium;
+   text-align: center !important;
+}
+.gsender-download p a{padding: 0;}
+.gsender-download p img{
+   display: inline-block;
+   padding: 0 5px;
+   margin-bottom: -5px;
+}
+.gsendertop{
+  margin-top: -88px;
+}
+</style>
+
+
+
+<style>
+.page-id-44818 .storefront-breadcrumb{
+   display:none;
+}
+.page-id-44818 .content{
+   display:none;
+}
+.wp-block-group.gs-page-2{
+   padding: 0;
+   margin: 0;
+}
+.wp-block-group.gs-page, .wp-block-group.gs-page-3{
+   padding: 80px 4% 70px 4%;
+   max-width: 1250px;
+   margin: auto;
+}
+.wp-block-group.gs-page div.wp-block-column:nth-child(1){
+   flex-basis: 40%;
+   margin-right: 0 !important;
+}
+.wp-block-group.gs-page div.wp-block-column:nth-child(2){
+   flex-basis: 55%;
+}
+.wp-block-column ul.gs-page, .wp-block-column ol.gs-page{
+   line-height: 22px;
+   margin: 0 0 25px 35px;
+}
+.wp-block-column li{
+   margin-bottom: 12px;
+}
+.wp-block-pb-accordion-item.gs-page{
+   background-color: #ddd;
+   border: 1px solid black;
+   padding: 0 15px;
+   margin-top: -40px;
+}
+.wp-block-pb-accordion-item.gs-page h5{
+   font-size: 16px !important;
+   margin: 15px 0 !important;
+   font-weight: bold;
+}
+.wp-block-pb-accordion-item.gs-page ul{
+   line-height: 26px;
+}
+.gs-page-info{
+   padding: 30px 0;
+   border-radius: 6px;
+   /*width: 120%;*/
+}
+.gs-page-3 .wp-block-columns{
+   gap: 1.2em;
+}
+@media (min-width: 782px){
+.gs-page-3 .wp-block-columns .wp-block-column:not(:last-child){
+   margin: 0!important;
+}
+}
+.gs-page-info svg{
+   height: 80px !important;
+   width: 60px !important;
+}
+.gs-page-info h3{
+   margin: 1.1em 0 0.8em!important;
+}
+.gs-page-info .wp-block-buttons{
+   text-align: center;
+}
+.gs-page-info .wp-block-button{
+   margin: 0!important;
+}
+.gs-page-info .wp-element-button{
+   padding: 13px 16px;
+   font-size: 14px !important;
+   font-weight: 400 !important;
+}
+.gs-page-info .wp-element-button:hover{
+   color: white!important;
+   background-color:#3e73c2!important;
+}
+</style>

@@ -50,7 +50,7 @@ If you have good dust collection this is something that you won't have to do as 
 
 ## Adjusting the Eccentric Nuts
 
-Eccentric nuts are ‘eccentric’ or ‘off center’ nuts and this means that by turning them you can change the gap between the v-wheels attached to them and the fixed v-wheels on the other side of the rail. This ‘tightening’ system allows the wheels to clamp onto the rails just the right amount to create rigid yet smooth motion.
+Eccentric nuts are 'eccentric' or 'off center' nuts and this means that by turning them you can change the gap between the v-wheels attached to them and the fixed v-wheels on the other side of the rail. This 'tightening' system allows the wheels to clamp onto the rails just the right amount to create rigid yet smooth motion.
 
 You can see in the animation below, as the eccentric nut rotates, it makes the v-wheel tighten or loosen onto the rail.
 
@@ -66,7 +66,7 @@ One simple way to tell if your wheels have the right spacing to clamp onto the r
 
 <img class="wp-image-3393 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/04/IMG_6861-1-850x478.jpg" alt="" width="850" height="478" />
 
-If you've noticed any wheels have worn out, you'll need to ‘tighten’ them back down. Get your LongMill wrench and an M5 Allen key and start by loosening the wheel bolt far enough that you can rotate the eccentric nut with the wrench (pictured).
+If you've noticed any wheels have worn out, you'll need to 'tighten' them back down. Get your LongMill wrench and an M5 Allen key and start by loosening the wheel bolt far enough that you can rotate the eccentric nut with the wrench (pictured).
 
 <img class="size-medium wp-image-2817 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-71_2-850x478.jpg" alt="" width="850" height="478" />
 
@@ -74,7 +74,7 @@ Turn the nut so the eccentric hole gets closer to the rail which will bring the 
 
 <img class="size-medium wp-image-3182 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Wrench-tightening-manual-850x476.png" alt="" width="850" height="476" />
 
-Once you're satisfied with the nut placement, re-tighten the M5 bolt with the Allen key to confirm the new location. At this point you’ll want to check both the wheel you just tightened as well as its static 'partner' wheel on the opposite side of the rail for the right 'sweet spot'. Whichever wheel is on top will always be harder to spin.
+Once you're satisfied with the nut placement, re-tighten the M5 bolt with the Allen key to confirm the new location. At this point you'll want to check both the wheel you just tightened as well as its static 'partner' wheel on the opposite side of the rail for the right 'sweet spot'. Whichever wheel is on top will always be harder to spin.
 
 <img class="size-medium wp-image-2818 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/MK2-72_2-850x478.jpg" alt="" width="850" height="478" />
 

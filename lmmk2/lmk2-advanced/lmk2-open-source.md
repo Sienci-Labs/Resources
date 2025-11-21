@@ -37,7 +37,7 @@ This is accomplished by putting the project under a <a href="https://creativecom
 
 and by sharing the LongMill MK2 modified firmware profile, a small modification of the <a href="https://github.com/gnea/grbl/wiki" target="_blank" rel="noopener noreferrer">grbl open source project</a>, under the <a href="https://www.gnu.org/licenses/quick-guide-gplv3.en.html" target="_blank" rel="noopener noreferrer">GPLv3 license</a> just as the original project is.
 
-All this information is continually updated as the LongMill MK2 project continues to be revised, with more openly shared information being made available at each new major revision and licensing continuing to be applied to all previous major versions. By making this information available, the LongMill MK2 project fulfils the Open Source Hardware Association’s definition of open source hardware, and we think that's pretty cool :)
+All this information is continually updated as the LongMill MK2 project continues to be revised, with more openly shared information being made available at each new major revision and licensing continuing to be applied to all previous major versions. By making this information available, the LongMill MK2 project fulfils the Open Source Hardware Association's definition of open source hardware, and we think that's pretty cool :)
 
 ## LongMill MK2 CNC
 
@@ -48,9 +48,15 @@ The LongMill MK2 has gone through two major iterations of its design:
 
 You can find the BOM and designs of every part and assembly of the LongMill MK2 Benchtop CNC in the linked Onshape and spreadsheet documents below:
 
-**MK2:** <a href="https://CAD.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/99a028de0f32d790196bbe8a" target="_blank" rel="noopener">https://CAD.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/99a028de0f32d790196bbe8a</a>
+**MK2.5:** <a href="https://CAD.onshape.com/documents/1ec06c152c12241e5b436609/w/26f29fe8f3ef251660b89157/e/e662bfca86c49932231fa293" target="_blank" rel="noopener">https://cad.onshape.com/documents/1ec06c152c12241e5b436609/w/26f29fe8f3ef251660b89157/e/e662bfca86c49932231fa293</a>
+
+**MK2:** <a href="https://CAD.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/99a028de0f32d790196bbe8a" target="_blank" rel="noopener">https://cad.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/99a028de0f32d790196bbe8a</a>
 
 **BOM:** <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1540965623" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1540965623</a>
+
+## SuperLongBoard Controller
+
+You can find the models, PCB designs, firmware, and read more about the licensing for the [SuperLongBoard CNC controller on its open source page](https://resources.sienci.com/view/slb-welcome/#open-source).
 
 ## LongBoard CNC Controller
 
@@ -103,8 +109,8 @@ Custom designed, plug-and-play rotary axis which adds another carving dimension 
 [/su_row]
 
 [su_row]
-[su_column size="1/2" center="no" class="viewer-desc"]<strong>Touch Plate (3-axis / block-style)</strong>
-A typical block-style, 3-axis touch plate we designed for finding X, Y, and Z-zero on 3-axis CNCs.
+[su_column size="1/2" center="no" class="viewer-desc"]<strong>Touch Plate (block-style and AutoZero)</strong>
+A typical block-style, 3-axis touch plate we designed for finding X, Y, and Z-zero on 3-axis CNCs, and our novel AutoZero touch plate designed to work with far more bit types and more accuracy than typical block-style plates.
 
 <a href="https://CAD.onshape.com/documents/b76785c85e8458b0e88b64a5/w/0eed2327264503a991f2d6eb/e/47780af64de032893b1197da?renderMode=0&amp;uiState=6706bc3b23645768105a7bd9" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
 [/su_column] [su_column size="1/2" center="no" class=""] [3d_viewer id="11179"]
@@ -136,63 +142,63 @@ STL files can be directly downloaded from the Onshape document. You may need to 
 
 ## Onshape
 
-You may notice that many of the 3D models we share in our open source documents link to a 3D file on a website called “Onshape”. This is the browser-based software that the engineers and designers on our team use to design and iterate on all the products we produce at Sienci Labs. The fact that it’s online has the great advantage that anytime we make an update or release a new product, you are able to see them live or download them for yourself. We feel this is a great way to keep our company open and make our designs easily accessible to others.
+You may notice that many of the 3D models we share in our open source documents link to a 3D file on a website called "Onshape". This is the browser-based software that the engineers and designers on our team use to design and iterate on all the products we produce at Sienci Labs. The fact that it's online has the great advantage that anytime we make an update or release a new product, you are able to see them live or download them for yourself. We feel this is a great way to keep our company open and make our designs easily accessible to others.
 
 ### Interact with Designs
 
-Let’s cover a couple things you can do with the open source Onshape files:
+Let's cover a couple things you can do with the open source Onshape files:
 
 ![](/_images/_lmmk2/_advanced/lmk2_opensource_onshape-file-viewing.jpg){.aligncenter .size-full}
 
 1. **Look at the design from all sides**
-   - **Rotate** around by right-clicking on your mouse and dragging around on the screen, or clicking the ‘rotate’ tool on the toolbar and left-click dragging on the screen, or clicking the buttons on the cube at the top, right of the screen
+   - **Rotate** around by right-clicking on your mouse and dragging around on the screen, or clicking the 'rotate' tool on the toolbar and left-click dragging on the screen, or clicking the buttons on the cube at the top, right of the screen
    - **Zoom** in and out by scrolling on your mouse or clicking the down arrow next to the magnifying glass on the toolbar and then left-click and drag up-and-down to see closer and further
 1. **See a list of all the parts** in the design
-   - This shows up on the left-hand side of the window, where if you click the name it’ll highlight the 3D model
+   - This shows up on the left-hand side of the window, where if you click the name it'll highlight the 3D model
    - This makes it easy to know the names and parts of everything that makes up the full design
 1. **Measure different parts** of the design
-   - After selecting the measuring tape on the toolbar and selecting the units you’d like to measure, you can click anywhere on the model to get length of a line, distance between two points or faces, angle between two lines or faces, surface area, and more
+   - After selecting the measuring tape on the toolbar and selecting the units you'd like to measure, you can click anywhere on the model to get length of a line, distance between two points or faces, angle between two lines or faces, surface area, and more
    - If you want to measure something else, just click somewhere in the blank space or hit the spacebar and then select the new spots you want to measure
    - This is especially useful for quickly verifying dimensions, checking clearances, and ensuring design accuracy. Feel free to save measurements by writing them down or taking screenshots as a reference for your own purposes
 1. Even see the **Mass and Volume** of the parts!
    - This uses the right-most Mass tool on the toolbar where after selecting the tool and selecting a part you can get even more information on its properties
-   - This can be useful is you’re working on a modification and need to decide how strong to make it based on the weight of some other parts
+   - This can be useful is you're working on a modification and need to decide how strong to make it based on the weight of some other parts
    - We try to make sure these values are all as accurate as possible but there still might be some discrepancy
 
 ### Export or Modify
 
 If you want to Export our Onshape designs as either a **3D model** (STL, IGES, STEP) or a **2D drawing** (DWG, DXF) for your own tweaks or accessories, then:
 
-1. Open the link to the design you’d like to download.
-1. Use the ‘Export’ option in the toolbar to either export the whole design or use the down arrow to allow you to export only individual parts or assemblies. You can select these parts by clicking on the 3D model or by clicking on the parts list on the left-hand side of the window.
+1. Open the link to the design you'd like to download.
+1. Use the 'Export' option in the toolbar to either export the whole design or use the down arrow to allow you to export only individual parts or assemblies. You can select these parts by clicking on the 3D model or by clicking on the parts list on the left-hand side of the window.
 
 ![](/_images/_lmmk2/_advanced/lmk2_opensource_onshape1.jpg){.aligncenter .size-full}
 
-1. When you’ve selected all your parts, you’ll be given more options to choose the file type you want to download as and other options based on your selections. Typically STLs are used for 3D printing, IGES and STEP are good for importing to other design software to modify the files, and DXF or DWG are used for laser or plasma cutting. Typically the other files defaults tend to be good to use.
+1. When you've selected all your parts, you'll be given more options to choose the file type you want to download as and other options based on your selections. Typically STLs are used for 3D printing, IGES and STEP are good for importing to other design software to modify the files, and DXF or DWG are used for laser or plasma cutting. Typically the other files defaults tend to be good to use.
 
 ![](/_images/_lmmk2/_advanced/lmk2_opensource_onshape2.jpg){.aligncenter .size-full}
 
 1. After configuring the settings, click "Export" and you should find the file appears in your typical download location.
 
-If instead of Exporting the files, you’d like to use Onshape as your main design software to make and publish modifications, then you'll need to make an account first; though luckily it’s free to make one:
+If instead of Exporting the files, you'd like to use Onshape as your main design software to make and publish modifications, then you'll need to make an account first; though luckily it's free to make one:
 
 1. Open your web browser and go to the <a href="https://www.onshape.com/en/sign-up" target="_blank" rel="noopener">Onshape Sign up page</a>.
 1. Enter your Name and Email Address, then Onshape will ask for some other information that you might need to fill out and some Terms & Conditions.
-1. Once you get to the end, you’ll be sent a verification email which you can click through to set up your password. You don’t need to enter a Company name but you do need to agree to some more Terms & Conditions.
-1. Once you’re set up, feel free to set your default units and controls - or get straight to downloading the models since you can always change these later in your settings.
+1. Once you get to the end, you'll be sent a verification email which you can click through to set up your password. You don't need to enter a Company name but you do need to agree to some more Terms & Conditions.
+1. Once you're set up, feel free to set your default units and controls - or get straight to downloading the models since you can always change these later in your settings.
 
-Once you've successfully created an account and you’re logged in:
+Once you've successfully created an account and you're logged in:
 
 1. Copy our entire design file into your own workspace by clicking the button with three lines at the top, left corner of the window, and select **Copy workspace**.
 
 ![](/_images/_lmmk2/_advanced/lmk2_opensource_onshape3.jpg){.aligncenter .size-full}
 
 1. Give the copied version its own name.
-1. You can now make changes to the file using Onshape’s various editing tools! These tools allow you to add or remove features, adjust dimensions, edit sketches, modify assemblies, and more.
+1. You can now make changes to the file using Onshape's various editing tools! These tools allow you to add or remove features, adjust dimensions, edit sketches, modify assemblies, and more.
 
 ![](/_images/_lmmk2/_advanced/lmk2_opensource_onshape4.jpg){.aligncenter .size-full}
 
-1. As you make modifications, Onshape will automatically save your progress, and if you’re unfamiliar with what the features do there are plenty of guides out there on how to use Onshape.
-1. Once you’re done, remember to share your work with us and the community by sharing the link to your Onshape designs so everyone can see your cool stuff!
+1. As you make modifications, Onshape will automatically save your progress, and if you're unfamiliar with what the features do there are plenty of guides out there on how to use Onshape.
+1. Once you're done, remember to share your work with us and the community by sharing the link to your Onshape designs so everyone can see your cool stuff!
 
 The sky's the limit now that you can measure, export, copy and modify all of your CAD projects! Remember to **share your learnings and collaborate with others** to continue the spread of open source ideas.

@@ -35,7 +35,7 @@ That said, dust management can still come in other forms like building an [enclo
 
 The design of your dust shoe can greatly affect how well it collects dust for you particular application. There are hundreds of different designs for dust shoes, however, one of the largest differentiators is whether it is fixed or adjustable. These two styles are also sometimes referred to as Z-axis dependent / bound / tethered vs. Z-axis independent / unbound / free.
 
-Whether a dust shoe is fixed or adjustable depends on how it’s mounted:
+Whether a dust shoe is fixed or adjustable depends on how it's mounted:
 
 - A fixed-style dust shoe is mounted to the Z-axis or the router body on the CNC. This means that when the Z-axis moves up or down during cutting the dust shoe moves up and down with it.
 - An adjustable-style dust shoe is typically mounted to the X-axis of the CNC. This means that it never moves unless you change it's height, allowing the Z-axis to raise and plunge during cutting while the dust shoe stays in the spot you set it.
@@ -67,14 +67,14 @@ Whether a dust shoe is fixed or adjustable depends on how it’s mounted:
 <td style="background: #ff4554 !important;">Cons</td>
 <td>
 <ul>
-  <li>Not efficient at collecting dust, typically relies on the vacuum’s suction power to overcome escape gaps</li>
+  <li>Not efficient at collecting dust, typically relies on the vacuum's suction power to overcome escape gaps</li>
   <li>Dust shoe can collide with the material on deeper cuts</li>
 </ul>
 </td>
 <td>
 <ul>
   <li>Typically a more complicated design</li>
-  <li>Requires adjustment based on your material’s thickness</li>
+  <li>Requires adjustment based on your material's thickness</li>
   <li>Router can collide with the dust shoe on deeper cuts</li>
 </ul>
 </td>
@@ -97,7 +97,7 @@ Depending on the design of your dust shoe, you may need to adapt your hose to ma
 
 ### Choosing a Dust collector / Vacuum
 
-Your dust shoe will need a source of suction. Most times an existing dust collector or Shop-Vac with a cyclone separator will be able to fit the bill since these systems are set up to run for many hours and provide reasonable suction. Depending on the dust shoe used and the hosing size you use for your shop, you may want to look at your system’s CFM and suction lift specifications depending on your needs.
+Your dust shoe will need a source of suction. Most times an existing dust collector or Shop-Vac with a cyclone separator will be able to fit the bill since these systems are set up to run for many hours and provide reasonable suction. Depending on the dust shoe used and the hosing size you use for your shop, you may want to look at your system's CFM and suction lift specifications depending on your needs.
 
 CFM (cubic feet per minute) denotes the amount of air your vacuum can pass through. The higher the CFM, the more volume of material you can move. You will want a higher CFM rating if you are cutting a large amount of material.
 

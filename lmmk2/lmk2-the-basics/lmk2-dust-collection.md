@@ -81,7 +81,7 @@ https://www.youtube.com/watch?v=94r4hgr2SgA
 
 The design of your dust shoe can greatly affect how well it collects dust for you particular application. There are hundreds of different designs for dust shoes, however, one of the largest differentiators is whether it is **fixed or adjustable**. These two styles are also sometimes referred to as Z-axis dependent / bound / tethered vs. Z-axis independent / unbound / free.
 
-Whether a dust shoe is fixed or adjustable depends on how it’s mounted:
+Whether a dust shoe is fixed or adjustable depends on how it's mounted:
 
 - A **fixed-style** dust shoe is mounted to the Z-axis or the router body on the CNC. This means that when the Z-axis moves up or down during cutting the dust shoe moves up and down with it.
 
@@ -120,14 +120,14 @@ For general purpose cutting, we recommend using an adjustable dust shoe as it is
 <td style="background: #ff4554 !important;">Cons</td>
 <td>
 <ul>
-  <li>Not efficient at collecting dust, typically relies on the vacuum’s suction power to overcome escape gaps</li>
+  <li>Not efficient at collecting dust, typically relies on the vacuum's suction power to overcome escape gaps</li>
   <li>Dust shoe can collide with the material on deeper cuts</li>
 </ul>
 </td>
 <td>
 <ul>
   <li>Typically a more complicated design</li>
-  <li>Requires adjustment based on your material’s thickness</li>
+  <li>Requires adjustment based on your material's thickness</li>
   <li>Router can collide with the dust shoe on deeper cuts</li>
 </ul>
 </td>

@@ -29,6 +29,6 @@ Each page will have buttons at the bottom to navigate step-by-step or you can us
 
 &nbsp;
 
-We hope you enjoy your experience with the LongMill CNC and we’re excited to see what amazing creations you make next!
+We hope you enjoy your experience with the LongMill CNC and we're excited to see what amazing creations you make next!
 
 -The Sienci Labs Team

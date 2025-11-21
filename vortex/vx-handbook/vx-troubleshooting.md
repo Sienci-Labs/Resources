@@ -15,13 +15,13 @@ skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
-This page serves as a reference in the event that something goes wrong with your rotary axis either during assembly, setup, or use. If you can’t find what you’re looking for on this page, or don’t find any of the solutions useful for your issue, please feel free to get in touch with us.
+This page serves as a reference in the event that something goes wrong with your rotary axis either during assembly, setup, or use. If you can't find what you're looking for on this page, or don't find any of the solutions useful for your issue, please feel free to get in touch with us.
 
 For any issues relating to your LongMill, such as general issues while running jobs, connecting to your machine, or the motion of the X, Y, and Z axes, please reference our <a href="https://resources.sienci.com/view/lmk2-issues-and-fixes/">CNC Issues &amp; Fixes</a> page instead.
 
 ## Pulley is Slipping
 
-It’s likely that the belt joining the Vortex motor and chuck pulleys was slightly under-tensioned when assembled, or became loose over time.
+It's likely that the belt joining the Vortex motor and chuck pulleys was slightly under-tensioned when assembled, or became loose over time.
 
 Remove the headstock from the mounting track by unscrewing the four screws at the bottom. Next, remove the 3D printed front lower headstock cover from the headstock to expose the four mounting screws at the front. Slightly loosen each of these screws, then apply a reasonable amount of pressure downwards onto the motor. While holding this pressure on the motor, re-tighten these four screws at the front of the headstock. Like shown in the photo below.
 
@@ -29,11 +29,11 @@ Remove the headstock from the mounting track by unscrewing the four screws at th
 
 Re-assemble the rest of the components in reverse order. Ensure that the pulley can still rotate freely without any binding or resistance.
 
-If you’ve checked that the belt on your headstock is fully tightened and not allowing for any slop in the chuck’s rotation, you may be cutting too aggressively and causing the motor to skip. This is especially more likely when cutting very large diameter stock (such as 2”+) since cutting forces from the bit will create much more torque applied to the router. You’ll likely want to reference our recommended feeds and speeds chart found <a href="https://resources.sienci.com/view/lmk2-feeds-and-speeds/">here</a>, as well as read about how feeds and speeds are affected by the rotary axis work <a href="https://docs.google.com/document/d/1RF5jf80w3Yz1kDkBp57oEkEwA6wZn1wLWwsUkLjg2Vg/edit?pli=1#heading=h.lmy47gotwdcj">here</a>.
+If you've checked that the belt on your headstock is fully tightened and not allowing for any slop in the chuck's rotation, you may be cutting too aggressively and causing the motor to skip. This is especially more likely when cutting very large diameter stock (such as 2"+) since cutting forces from the bit will create much more torque applied to the router. You'll likely want to reference our recommended feeds and speeds chart found <a href="https://resources.sienci.com/view/lmk2-feeds-and-speeds/">here</a>, as well as read about how feeds and speeds are affected by the rotary axis work <a href="https://resources.sienci.com/view/vx-true_feeds_speeds/">here</a>.
 
 ## Backlash in the Headstock
 
-If it seems like the chuck can be spun by hand freely back and forth, it’s likely that one of the set screws within the motor or headstock shaft pulley have come loose.
+If it seems like the chuck can be spun by hand freely back and forth, it's likely that one of the set screws within the motor or headstock shaft pulley have come loose.
 
 To check this, remove the two screws holding the rear cover of the headstock in place, then remove the four screws holding the motor onto the back of the headstock. Remove both the cover and motor from the head stock, then slip the belt off of the two pulleys. Check the fitment of the two pulleys onto their respective shafts and try turning each by hand to check for looseness.
 
@@ -45,11 +45,11 @@ A wobbling chuck (and stock being held) indicates that the chuck back plate was 
 
 ## Tailstock is Not Parallel
 
-If you notice when cutting with the Vortex that certain sections of your carved model have curved lines (when they should be straight), and certain sections seem warped, it’s possible that your moving X-axis is not aligned parallel perfectly to the Vortex’s rotary axis.
+If you notice when cutting with the Vortex that certain sections of your carved model have curved lines (when they should be straight), and certain sections seem warped, it's possible that your moving X-axis is not aligned parallel perfectly to the Vortex's rotary axis.
 
 This can happen for one of two reasons and can be resolved as follows:
 
-- The Vortex’s mounting track holes in the wasteboard have threaded inserts that are not fully seated, therefore the mounting track is not perfectly square with the machine.
+- The Vortex's mounting track holes in the wasteboard have threaded inserts that are not fully seated, therefore the mounting track is not perfectly square with the machine.
   - Run the hole mounting program again, making sure to run both the Y-axis gantries all the way to the front or back of the machine in order to align the X-axis before running this program and ensure your threaded inserts are fully seated and level.
 - The X-axis rail is not squared, due to one of the left or right Y-gantries becoming out of sync with the other.
   - Running the machine all the way to the rear of the machine (or front) until both Y-axis motors skip will cause the align the X-axis rail to realign itself.

@@ -17,7 +17,7 @@ featured_image: _images/post-image.jpg
 
 <img class="aligncenter wp-image-5560 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/Section-Headers_Headstock-v2-1-850x531.jpg" alt="" width="850" height="531" />
 
-To start, we’ll be assembling the headstock. This will take approximately 20 minutes.
+To start, we'll be assembling the headstock. This will take approximately 20 minutes.
 
 <img class="wid aligncenter wp-image-10522 size-medium" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.p8_Header1CLS-850x201.jpg" alt="" width="850" height="201" />
 
@@ -47,7 +47,7 @@ Loop the belt around the larger pulley on the headstock and snag it with the sma
 
 Pass four M5-50mm bolts through slots in the headstock body and thread the bolts into the motor standoffs.
 
-**Don’t tighten these yet**, since we’ll need to tension the belt in the next step before fully locking them down.
+**Don't tighten these yet**, since we'll need to tension the belt in the next step before fully locking them down.
 
 Double check that the motor cable is facing the right or left side.
 
@@ -89,7 +89,7 @@ Tighten each bolt a little at a time and rotate in between bolts to ensure even 
 
 <img class="aligncenter size-medium wp-image-5411" src="https://resources.sienci.com/wp-content/uploads/2023/08/5.P23_Proximity-Sensor_V3-850x531.jpg" alt="" width="850" height="531" />
 
-You won't need to perform this step if you **don't have limit switches installed** on your machine and aren't planning on installing them anytime soon, but you’ll still need to attach the front alignment piece in the next step. If you do have limit switches, then carry on.
+You won't need to perform this step if you **don't have limit switches installed** on your machine and aren't planning on installing them anytime soon, but you'll still need to attach the front alignment piece in the next step. If you do have limit switches, then carry on.
 
 Push the switch up against the stop in the alignment piece and push down firmly to secure the switch (You can push it against the table to snap it in place).
 

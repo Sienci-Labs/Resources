@@ -17,11 +17,11 @@ featured_image: /_images/_longmill/_assembly/_addons/lm_addons_p1.jpg
 
 ## Standard Block-Style Plate
 
-Setting up any style of touch plate on your LongMill is easy. Since it only requires a ‘closed’ connection between two wires you can use all sorts of plate designs from a thin metal sheet to a more common block style to probing off the material itself if it’s conductive. Once wired, the last step is to check that your g-code sender understands the shape of your touch plate and how you plan to use it.
+Setting up any style of touch plate on your LongMill is easy. Since it only requires a 'closed' connection between two wires you can use all sorts of plate designs from a thin metal sheet to a more common block style to probing off the material itself if it's conductive. Once wired, the last step is to check that your g-code sender understands the shape of your touch plate and how you plan to use it.
 
 All the touch plates that we provide have instructions below and are fully supported by gSender as well as have some support for other popular senders like UGS, CNCjs, and more.
 
-This guide covers set up and use of our Standard Touch Plate. If you have a different or custom touch plate that’s a block shape these steps can also be applied for software setup and usage.
+This guide covers set up and use of our Standard Touch Plate. If you have a different or custom touch plate that's a block shape these steps can also be applied for software setup and usage.
 
 **Inside the package:**
 
@@ -30,11 +30,11 @@ This guide covers set up and use of our Standard Touch Plate. If you have a diff
 
 ### Wiring
 
-Our touch plates come mostly pre-wired but sometimes a green connector will need to be attached. If your wire harness doesn’t have a green connector attached already, look for it to be plugged into the Probe and GND pin pair on your LongMill control board. These terminal connectors have a built-in clamping system that you can open and close by turning the flat head screw at the top of each connection point.
+Our touch plates come mostly pre-wired but sometimes a green connector will need to be attached. If your wire harness doesn't have a green connector attached already, look for it to be plugged into the Probe and GND pin pair on your LongMill control board. These terminal connectors have a built-in clamping system that you can open and close by turning the flat head screw at the top of each connection point.
 
 <img class="wp-image-3654 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Block-style-assembly-1-850x366.png" alt="" width="850" height="366" />
 
-Use a flat head screwdriver to clamp down on the exposed wire ends from the harness ensuring the red and black wires are in the correct order as in the photo. You can check for a reliable connection by giving the wires a small tug and they’ll feel firmly clamped in place. Plug the connector back into the board once finished.
+Use a flat head screwdriver to clamp down on the exposed wire ends from the harness ensuring the red and black wires are in the correct order as in the photo. You can check for a reliable connection by giving the wires a small tug and they'll feel firmly clamped in place. Plug the connector back into the board once finished.
 
 <img class="size-medium wp-image-3655 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Block-style-assembly-2-850x366.png" alt="" width="850" height="366" />
 
@@ -44,7 +44,7 @@ To help you visualize the final setup in action: when you go to probe you'll att
 
 ### Software Configuration
 
-With wiring complete, let’s move on to setting up your g-code sender to work with the touch plate. gSender and UGS (UGSPlatform) are easiest to configure for this style probe so we’ll show setup for both below.
+With wiring complete, let's move on to setting up your g-code sender to work with the touch plate. gSender and UGS (UGSPlatform) are easiest to configure for this style probe so we'll show setup for both below.
 
 [tabby title="gSender" open="yes"]
 
@@ -123,7 +123,7 @@ You can either bring the touch plate to the end mill or touch the banana plug an
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p6_ProbeConfirm.png){.aligncenter .size-medium}
 
-Pressing 'Start Probe' will now make the machine move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press ‘Go to XY0’. The bit should be over-top of the bottom left corner of the stock material, and pressing ‘Go to’ next to the ‘Zero Z’ should bring it to touch the materials surface.
+Pressing 'Start Probe' will now make the machine move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press 'Go to XY0'. The bit should be over-top of the bottom left corner of the stock material, and pressing 'Go to' next to the 'Zero Z' should bring it to touch the materials surface.
 
 If the probing was **unsuccessful**, then it'll be indicated by the cutting bit not returning to where you started the probe cycle or the machine will be put into an 'ALARM' state. To bring it out of the alarm state, press the pulsing 'Unlock' button in the middle of the visualizer and that will put the machine back into its 'IDLE' state. An unsuccessful probing cycle can result from an incorrectly positioned probe or starting too far outside the circular logo. Be sure to verify your setup before attempting another probing cycle.
 
@@ -190,9 +190,9 @@ If your cable didn't come with a green connector, you should find a spare one ca
 
 All probing macros for the AutoZero are built into gSender making it easy to set up.
 
-The key step is to make sure to go to gSenders settings (gear icon at the top, right of the window) ➜ go to the 'Probe' settings ➜ and change the touch plate type to “**AutoZero Touch plate**" in the dropdown menu. If you don't do this, or at a later time you find the probing macros are moving strangely, then you should come back to check that this setting is still correct.
+The key step is to make sure to go to gSenders settings (gear icon at the top, right of the window) ➜ go to the 'Probe' settings ➜ and change the touch plate type to "**AutoZero Touch plate**" in the dropdown menu. If you don't do this, or at a later time you find the probing macros are moving strangely, then you should come back to check that this setting is still correct.
 
-We recommend leaving the “Probe Connectivity Test” option activated as well. If you're not using gSender and have the AutoZero, we also <a href="#using-other-senders">provide macros for other common senders</a>.
+We recommend leaving the "Probe Connectivity Test" option activated as well. If you're not using gSender and have the AutoZero, we also <a href="#using-other-senders">provide macros for other common senders</a>.
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p12.png){.aligncenter .size-medium}
 
@@ -250,7 +250,7 @@ We hope you have an excellent experience with the AutoZero touch plate!
 
 ### Using other Senders
 
-Due to popular demand, we’ve created and tested macros to use the AutoZero touch plate with a variety of CNC control software beyond gSender.
+Due to popular demand, we've created and tested macros to use the AutoZero touch plate with a variety of CNC control software beyond gSender.
 
 If the software you use is not explicitly listed here, you can also follow instructions in the section titled **"Macros for other senders"** to use the AutoZero touch plate in a semi-automatic fashion as we work on expanding support.
 
@@ -262,7 +262,7 @@ Note: These macros were tested on the Buildbotics controller but they should als
 
 **Macros for Universal G-code Sender:** <a href="https://resources.sienci.com/wp-content/uploads/2022/03/AZ-Macro-UGS.zip"><b>Download for UGS</b></a>
 
-Note: The macros environment in UGS does not support arithmetic operations so probing with the X and/or Y axis using the AutoZero touch plate is a semi-automatic process. More specifically, you will need to click on the “Control Status (DRO)” panel and enter “/2” to halve the active coordinates in the X and/or Y after probing in these directions. If you have only probed either the X or the Y axis, you will only need to divide the coordinate of the axis which was probed.
+Note: The macros environment in UGS does not support arithmetic operations so probing with the X and/or Y axis using the AutoZero touch plate is a semi-automatic process. More specifically, you will need to click on the "Control Status (DRO)" panel and enter "/2" to halve the active coordinates in the X and/or Y after probing in these directions. If you have only probed either the X or the Y axis, you will only need to divide the coordinate of the axis which was probed.
 
 <img class="aligncenter wp-image-4777 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/AZ-Coordinate-Division-UGS.gif" alt="" width="600" height="338" /><em>Example dividing the X and Y axis coordinates after probing in UGS</em>
 
@@ -291,7 +291,7 @@ Here are some common items to check:
 1. Your tool is non-conductive
 1. You've entered the incorrect plate dimensions. You can refer to our own design below or the dimensions supplied by your third-party touch plate manufacturer.
 
-If you’re using UGS:
+If you're using UGS:
 
 - There is a bug that can cause the touch plate to move farther than the expected origin and plunge the bit into the work surface if you use INCHES units when jogging around. If so, before beginning the probe process ensure that you have set the jog control to MM instead of INCHES. Once probing is completed, you may switch back to INCHES and resume regular machine operation
 
@@ -302,7 +302,7 @@ If this was not the problem:
 - Check that the bit you are using is not tapered and is conductive at the both its sides and end so that it can make electrical contact with the touch plate.
 - Ensure the settings you use are from the touch plate page on our website (not the settings in the video): <a href="https://resources.sienci.com/view/lmk2-touch-plate/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-touch-plates/</a>
 - Make sure your work coordinates match your touch plate settings (usually G54)
-- Check that there's proper electrical contact from your control box through to your magnet and touch plate. An easy way to check this is to run a Z probe with the router high up in the air and manually tap the magnet to the plate while they're held in each of your hands. If the bit stops and raises slightly up then lowers down again, this should indicate some form of connectivity from the magnet and touch plate to the control box. If you tap them together again, this should conclude the probing process and no errors should appear. If you don't observe this behaviour, then you should try this test again and if it again shows an error then check the electrical connections. See if the magnet is making contact with the metal leads of the wire by unscrewing the fastener in the centre and do the same for the banana plug as well. You may need to strip more insulation off the ends of the wire to get more contact with the metal surfaces. There’s a great video showing how to deal with banana connectors assembly/disassembly <a href="https://www.YouTube.com/watch?v=cH0C_g_lfXo" target="_blank" rel="noopener">here.</a>
+- Check that there's proper electrical contact from your control box through to your magnet and touch plate. An easy way to check this is to run a Z probe with the router high up in the air and manually tap the magnet to the plate while they're held in each of your hands. If the bit stops and raises slightly up then lowers down again, this should indicate some form of connectivity from the magnet and touch plate to the control box. If you tap them together again, this should conclude the probing process and no errors should appear. If you don't observe this behaviour, then you should try this test again and if it again shows an error then check the electrical connections. See if the magnet is making contact with the metal leads of the wire by unscrewing the fastener in the centre and do the same for the banana plug as well. You may need to strip more insulation off the ends of the wire to get more contact with the metal surfaces. There's a great video showing how to deal with banana connectors assembly/disassembly <a href="https://www.YouTube.com/watch?v=cH0C_g_lfXo" target="_blank" rel="noopener">here.</a>
 - Check for continuity between the banana clip and the connector. If there's no continuity, test the bare end of the wire. If there is continuity, ensure the bare end of the wire is properly seated in the connector.
   <img class="size-medium wp-image-4198 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Touch-Plate-banana-clip-continuity-test-850x349.jpg" alt="Electrical meter testing the continuity of between an electrical connector and a banana style clip" width="850" height="349" />
 - Check for continuity between the magnet and and the connector. If not continuity, repeat the same steps above.
@@ -335,15 +335,15 @@ The reason we decided to make this t-track system available is because we design
 
 The t-track system is very flexible and can be used however you wish. If you'd like to see a generic approach to installation, you can follow either the write-up or video below. Scott begins the t-track installation starting at about 4 minutes into the video.
 
-https://www.youtube.com/watch?v=T4QVgtnZMDw?t=242
+https://www.youtube.com/watch?v=T4QVgtnZMDw
 
-This layout minimizes reductions in cutting area and depth, and can be prepared in advance before your machine arrives. It uses a 48”x48”x ¾” MDF sheet, which can be purchased and cut to size at home or at your local hardware store.
+This layout minimizes reductions in cutting area and depth, and can be prepared in advance before your machine arrives. It uses a 48"x48"x ¾" MDF sheet, which can be purchased and cut to size at home or at your local hardware store.
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p18.png){.aligncenter .size-medium}
 
-1. Cut a 48” x 48” x ¾” MDF sheet into five pieces of 6” wide planks, and two pieces of 5 ½ ” wide planks.
-1. Lay out the T-tracks and planks on the table, and fasten them down with wood screws. The machine will sit on top of the 5 ½” planks, as the 6” planks are arranged between them. They should be fastened with screws at least 1” in length. Leave about 1” of space between the screws and the ends of the MDF planks.
-1. To ensure your planks are flat against your table, drill counterbore holes in the middle of the 5 ½” planks. You can use the LongMill, a counterboring bit, or a larger drill bit to create the holes, making sure you have removed enough material to recess the screw heads and surface the MDF planks at least 1mm deep. Then fasten them down with wood screws.
+1. Cut a 48" x 48" x ¾" MDF sheet into five pieces of 6" wide planks, and two pieces of 5 ½ " wide planks.
+1. Lay out the T-tracks and planks on the table, and fasten them down with wood screws. The machine will sit on top of the 5 ½" planks, as the 6" planks are arranged between them. They should be fastened with screws at least 1" in length. Leave about 1" of space between the screws and the ends of the MDF planks.
+1. To ensure your planks are flat against your table, drill counterbore holes in the middle of the 5 ½" planks. You can use the LongMill, a counterboring bit, or a larger drill bit to create the holes, making sure you have removed enough material to recess the screw heads and surface the MDF planks at least 1mm deep. Then fasten them down with wood screws.
 1. Complete the rest of the Table Mounting process as described previously if not yet done: <a href="https://resources.sienci.com/view/lm-table-mounting/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-table-mounting/</a>
 1. Surface the MDF planks, as you would normally conduct wasteboard surfacing: <a href="https://resources.sienci.com/view/lm-surfacing-wasteboard/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-surfacing-wasteboard/</a>
 1. Mount your clamps or clamping system onto your newly installed T-track table, and enjoy!
@@ -352,7 +352,7 @@ This layout minimizes reductions in cutting area and depth, and can be prepared 
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p19.jpg){.aligncenter .size-medium}
 
-T-clamps are simple and reliable workholding tools that are used alongside T-Track tables. We’ve come up with T-clamps that work for various metals, plastics and woods, and hold down materials from 0.1" to 1” thick. These clamps are ideal for holding down small to medium sized pieces of material and also leverage their plastic ends to ensure you're covered in case you cut a little closer to the clamp than you expected. Inside the package you'll find:
+T-clamps are simple and reliable workholding tools that are used alongside T-Track tables. We've come up with T-clamps that work for various metals, plastics and woods, and hold down materials from 0.1" to 1" thick. These clamps are ideal for holding down small to medium sized pieces of material and also leverage their plastic ends to ensure you're covered in case you cut a little closer to the clamp than you expected. Inside the package you'll find:
 
 - Steel clamps (x6)
 - Knobs with inserts (x6)
@@ -445,7 +445,7 @@ Just like with the Y-axis, we want to be close to the motor to remove the lead s
 
 ### Z-Axis
 
-The Z-axis nut is easier to remove because we don’t have to remove the lead screw from the motor on the MK2 (you will have to do this with the MK1 however).
+The Z-axis nut is easier to remove because we don't have to remove the lead screw from the motor on the MK2 (you will have to do this with the MK1 however).
 
 1. Jog the Z-axis to be about halfway up the lead screw then remove the two bolts holding the anti-backlash nut.
 ![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_zaxis-1.jpg){.aligncenter .size-medium}

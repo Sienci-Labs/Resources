@@ -25,7 +25,7 @@ In these warnings, you the user and original purchaser/customer of the Mill One 
 
 <ol>
   <li>Be sure to carefully follow provided machine assembly instructions before machine use to ensure operator safety.</li>
-  <li>All wires must be appropriately positioned before beginning the operation of this machine. Cutting a “live” wire may cause exposed metal parts of the routing/trimming tool to become electrified and shock the operator.</li>
+  <li>All wires must be appropriately positioned before beginning the operation of this machine. Cutting a "live" wire may cause exposed metal parts of the routing/trimming tool to become electrified and shock the operator.</li>
   <li>Ensure the machine is placed on a flat surface and in a well-ventilated space before operation.</li>
   <li>Always wear eye protection during machine operation.</li>
   <li>Always wear hearing protection during extended machine operation based on proximity to machine.</li>

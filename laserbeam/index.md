@@ -2,17 +2,17 @@
 title: LaserBeam Post
 menu_order: 0
 post_status: draft
-post_excerpt: Resources and documentation to get you started with your LaserBeam. You will find info about routers, software, assembly, end mills - everything you need to get started.
-post_date: 2024-07-18 18:14:53
+post_excerpt: 
+post_date: 2021-12-23 12:56:20
 taxonomy:
-    knowledgebase_cat: lb-user-safety-manual lb-the-basics lb-software lb-assembly lb-advanced
+    knowledgebase_cat: lb-user-safety-manual lb-the-basics lb-software lb-assembly lb-handbook
     knowledgebase_tag:
         - laser
 custom_fields:
     KBName: LaserBeam
     basepress_post_icon: bp-caret-right
 skip_file: yes
-featured_image: _images/post-image.jpg
+featured_image: 
 ---
 
 LaserBeam page order should be as follows: (last updated as of Oct 1, 2024)
@@ -52,12 +52,14 @@ LaserBeam page order should be as follows: (last updated as of Oct 1, 2024)
 11. Test Out Your Laser
 12. Focusing
 13. Set XY Zero
+14. Vortex Riser Mount
+15. Magnetic Mount
 
 📙 Handbook
 
 1. Air Assist
 2. Material Guide
 3. Cleaning & Maintenance
-4. LaserBeam Vortex Riser Mount
+4. Files for Download
 5. Common Issues and Fixes
 6. Troubleshooting Files

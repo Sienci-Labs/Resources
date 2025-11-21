@@ -72,7 +72,7 @@ Now that we've covered how to manually move, here are two ways to automatically 
 
 ![](/_images/_gsender/_using/gs_us_goto.jpg){.aligncenter .size-medium}
 
-*Note: if you’ve set up “Safe Height” in gSender (Config ➜ Basics ➜ Safe Height), then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn’t run into clamps or other materials.*
+*Note: if you've set up "Safe Height" in gSender (Config ➜ Basics ➜ Safe Height), then the Z-axis will move up by that distance before moving the X or Y to make sure your machine doesn't run into clamps or other materials.*
 
 There is one more way to move automatically, but it isn't used to bring you back to 0.00. It's called **Go to Location**.
 
@@ -83,13 +83,13 @@ If you want to go somewhere quickly without manually jogging there, click the 'P
 
 ![](/_images/_gsender/_using/gs_us_goto-location.jpg){.aligncenter .size-medium}
 
-You can also enter coordinates directly by clicking the blue text. It’ll turn into a white box where you can type any number, then hit the ‘enter’ key to confirm it. For instance you could set your Z-axis to 0.1mm instead of 0 if you’re using the paper method and you want to account for the paper thickness. You could also type “-10” for X if you want to set your zero 10mm to the right without having to jog there and click ‘X0’ (since if ‘zero’ is 10mm to the right, then your current location would be 0 - 10 = -10mm).
+You can also enter coordinates directly by clicking the blue text. It'll turn into a white box where you can type any number, then hit the 'enter' key to confirm it. For instance you could set your Z-axis to 0.1mm instead of 0 if you're using the paper method and you want to account for the paper thickness. You could also type "-10" for X if you want to set your zero 10mm to the right without having to jog there and click 'X0' (since if 'zero' is 10mm to the right, then your current location would be 0 - 10 = -10mm).
 
 ![](/_images/_gsender/_using/gs_us_dro_zeroboxmanual.jpg){.aligncenter .size-medium}
 
 ## Homing buttons
 
-gSender provides unique features if your machine is capable of homing using limit switches. Once homing is enabled in Config ➜ Homing cycle you’ll notice additional buttons appear in the ‘Location’ area of gSender:
+gSender provides unique features if your machine is capable of homing using limit switches. Once homing is enabled in Config ➜ Homing cycle you'll notice additional buttons appear in the 'Location' area of gSender:
 
 ![](/_images/_gsender/_using/gs_us_endstop-park-home.jpg){.aligncenter .size-medium}
 
@@ -99,7 +99,7 @@ gSender provides unique features if your machine is capable of homing using limi
 
 If you'd like more information on how to set up and use these features, read here: <a href="https://resources.sienci.com/view/lmk2-limit-switches/#using-limit-switches" target="_blank" rel="noopener">Installing & Using Limit Switches</a>
 
-*Note - If you’ve set up a “Safe Height” in your gSender settings, now any “go to” or “quick-travel” button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn’t run into clamps or other materials.*
+*Note - If you've set up a "Safe Height" in your gSender settings, now any "go to" or "quick-travel" button will move to the top of the Z-axis minus the safe height before moving anywhere to make sure your machine doesn't run into clamps or other materials.*
 
 ## Probing
 
@@ -136,15 +136,15 @@ To run your project on gSender, press the 'Load File' button. A dialog box will 
 
 ![](/_images/_gsender/_using/gs_us_loadbar.jpg){.aligncenter .size-medium}
 
-Once loaded, you’ll be able to toggle between **Info and Size** to reveal stats about your project such as: Estimated cut time, Feed rate, Spindle Speed, Cutting dimensions, Min/Max values and more.
+Once loaded, you'll be able to toggle between **Info and Size** to reveal stats about your project such as: Estimated cut time, Feed rate, Spindle Speed, Cutting dimensions, Min/Max values and more.
 
 ![](/_images/_gsender/_using/gs_us_loadsizeinfo.jpg){.aligncenter .size-medium}
 
-Loaded files are shown on the Visualizer so you can check out how it looks. Click the different sides of the ‘view cube’ in the bottom left corner to quickly switch between different views like: top, front, left, right, and 3D. You can also left-click and drag or right-click and drag to rotate or slide around the work area, or use your mouse scroll wheel to zoom in and out.
+Loaded files are shown on the Visualizer so you can check out how it looks. Click the different sides of the 'view cube' in the bottom left corner to quickly switch between different views like: top, front, left, right, and 3D. You can also left-click and drag or right-click and drag to rotate or slide around the work area, or use your mouse scroll wheel to zoom in and out.
 
 ![](/_images/_gsender/_using/gs_us_visualizer.gif){.aligncenter .size-full}
 
-Before running your job there's another handy feature you can check. The **Outline** button will physically move your machine around the rough perimeter of your cutting job so you can get an idea of the cutting dimensions and if you’ve positioned the job correctly.
+Before running your job there's another handy feature you can check. The **Outline** button will physically move your machine around the rough perimeter of your cutting job so you can get an idea of the cutting dimensions and if you've positioned the job correctly.
 
 ![](/_images/_gsender/_using/gs_us_outline.jpg){.aligncenter .size-medium}
 
@@ -154,15 +154,15 @@ Once your machine is ready with your ***router and vacuum on***, press **Start**
 
 ![](/_images/_gsender/_using/gs_us_start.jpg){.aligncenter .size-medium}
 
-Hitting the pause button will pause the movement immediately, even if gSender has plans to move in the buffer (memory). If you are using a macro or Program Events like program pause, this will pause movement more slowly, as the planned moves in the buffer will finish before actually pausing. This is something that can’t be avoided on the firmware side and this is a compromise to be able to execute code at all.
+Hitting the pause button will pause the movement immediately, even if gSender has plans to move in the buffer (memory). If you are using a macro or Program Events like program pause, this will pause movement more slowly, as the planned moves in the buffer will finish before actually pausing. This is something that can't be avoided on the firmware side and this is a compromise to be able to execute code at all.
 
-In the default visualizer you’ll see that cutting movements that plan to be made are coloured blue, then when the job is running the current movements show as yellow and past movements are grey.
+In the default visualizer you'll see that cutting movements that plan to be made are coloured blue, then when the job is running the current movements show as yellow and past movements are grey.
 
 ![](/_images/_gsender/_using/gs_us_runningjob.gif){.aligncenter .size-full}
 
 At the bottom of the visualizer, an animated progress bar shows you several details about the job you are running, like completion %, estimated time remaining, g-code line counter, and a running timer for how long you have been cutting.
 
-Additionally, you can **override the feed rate** and spindle speed of the program while the job is running if you're finding the speeds you set in your file were too slow/fast. Do this by moving then letting go of the slider, pressing the ‘+’ and ‘-’ buttons for smaller adjustment, or clicking the rotated arrow to reset back to the default value. You can also do this before starting the job if you already know you’ll need to make tweaks.
+Additionally, you can **override the feed rate** and spindle speed of the program while the job is running if you're finding the speeds you set in your file were too slow/fast. Do this by moving then letting go of the slider, pressing the '+' and '-' buttons for smaller adjustment, or clicking the rotated arrow to reset back to the default value. You can also do this before starting the job if you already know you'll need to make tweaks.
 
 ![](/_images/_gsender/_using/gs_us_runningfeedbar.gif){.aligncenter .size-full}
 
@@ -170,7 +170,7 @@ Now you're off and cutting, what a thrill! While your job is running keep an eye
 
 ## **Job Loss Recovery**
 
-Also called “Start from Line”, this feature can recover a carve you were working on that:
+Also called "Start from Line", this feature can recover a carve you were working on that:
 
 1. You had to manually stop part-way through
 1. Was disrupted by a power loss, USB disconnect, mechanical malfunction, or other failure so you need to resume from where it failed
@@ -187,7 +187,7 @@ It does this by looking through the whole g-code file up to where you want to re
    - If you don't have limit switches, the project moved, or your original cutting bit broke, try to re-use whatever setup method you used to set your zero location originally. This could be with a touch plate, 3D probe, paper method - whatever possible to set the project back up the way it was before it failed.
 1. Once everything looks set up correctly, you should be able to 'Go to' the original zero position and see that the bit is lined up correctly to the material. The location should read all zeros for each axis.
 1. Raise up the Z-axis a couple millimeters for safety.
-1. Click the small icon at the top right of the green ‘Start Job’ button to open the window.
+1. Click the small icon at the top right of the green 'Start Job' button to open the window.
   ![](/_images/_gsender/_using/gs_us_startfrombutton.jpg){.aligncenter .size-medium}
 1. Here you'll see:
   ![](/_images/_gsender/_using/gs_us_startfromline.jpg){.aligncenter .size-medium}
@@ -198,7 +198,7 @@ It does this by looking through the whole g-code file up to where you want to re
 
 **Example**: you were present when the job failed and hit 'Stop' immediately. Nothing moved but the bit broke so you swapped it out and used a touch plate to probe Z. It says the last recorded line was 731 but to be safe you'll subtract 20 and start at 711. The job starts back up a little before the failure and you're able to resume as expected. If instead you hadn't been paying attention for several minutes then you might subtract 50-100 lines instead just to be safe.
 
-![](/_images/_gsender/_using/gs_us_portdisconnected.jpg "Example of USB port disconnect while running a job where you'll want to check your USB cable, write down the suggested line, then use the ‘Start from Line’ feature as normal."){.aligncenter .size-full}
+![](/_images/_gsender/_using/gs_us_portdisconnected.jpg "Example of USB port disconnect while running a job where you'll want to check your USB cable, write down the suggested line, then use the 'Start from Line' feature as normal."){.aligncenter .size-full}
 
 ### Pause Cutting Mid-Job
 
@@ -211,14 +211,14 @@ It does this by looking through the whole g-code file up to where you want to re
 
 ## Safety
 
-gSender is set up to do many things by default to help keep you aware about things going on with your machine. Though we can’t guarantee it can handle everything, you can access many safety items in one place. This includes:
+gSender is set up to do many things by default to help keep you aware about things going on with your machine. Though we can't guarantee it can handle everything, you can access many safety items in one place. This includes:
 
 ![](/_images/_gsender/_using/gs_us_safetybasics1.jpg){.aligncenter .size-medium}
 
-1. **G-code warnings**: reports back when it sees g-code lines that don’t look correct when the file is loaded or once it’s being sent to the machine. G-code has to follow specific ‘grammatical rules’ similar to other languages for the ‘sentences’ to be correct, so if the lines don’t look correct then your machine might run into problems understanding what it’s supposed to do.
+1. **G-code warnings**: reports back when it sees g-code lines that don't look correct when the file is loaded or once it's being sent to the machine. G-code has to follow specific 'grammatical rules' similar to other languages for the 'sentences' to be correct, so if the lines don't look correct then your machine might run into problems understanding what it's supposed to do.
 1. **Soft limits warning**: enables gSender to tell you when a loaded file might exceed the cutting area of your machine. This requires that your machine has limit switches and soft limits enabled.
 1. **Prompt when setting zero**: enable an optional popup that appears when you click to 'zero' just in case you mis-clicked it.
-1. **Safe height movement**: this number is used when using the ‘Go to’ buttons in gSender to manually move your machine around (it’s independent from a safe height you might set in your CAM software). For machines without homing, entering ‘5mm’ will make it move 5mm upwards from the current position, make the Go to movement, then move 5mm back down. If your machine has homing, it’ll move to 5mm from the max Z-axis travel, make the Go to movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
-1. **History of Errors and Alarms**: great for tracking problems you might’ve recently run into to help troubleshooting or getting support. All entries are listed in-order and stamped with a date and time.
+1. **Safe height movement**: this number is used when using the 'Go to' buttons in gSender to manually move your machine around (it's independent from a safe height you might set in your CAM software). For machines without homing, entering '5mm' will make it move 5mm upwards from the current position, make the Go to movement, then move 5mm back down. If your machine has homing, it'll move to 5mm from the max Z-axis travel, make the Go to movement, and then return back to where the bit started. This behaviour helps homing-capable machines to reach a more ideal safe height to avoid collisions during movements.
+1. **History of Errors and Alarms**: great for tracking problems you might've recently run into to help troubleshooting or getting support. All entries are listed in-order and stamped with a date and time.
 
 ![](/_images/_gsender/_using/gs_us_alarms.jpg){.align-center size.medium}
