@@ -54,6 +54,10 @@ You can find the BOM and designs of every part and assembly of the LongMill MK2 
 
 **BOM:** <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1540965623" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1540965623</a>
 
+## SuperLongBoard Controller
+
+You can find the models, PCB designs, firmware, and read more about the licensing for the [SuperLongBoard CNC controller on its open source page](https://resources.sienci.com/view/slb-welcome/#open-source).
+
 ## LongBoard CNC Controller
 
 The LongBoard CNC Controller is the control system and brains of the LongMill. This board was designed by our friend Chris Hadjuk and the Sienci Labs team with KiCAD. This design has been carried over from the original LongMill project's LongBoard which had four major public revisions but in the context of the LongMill MK2 it'll continue moving forward from the most recent 1.4.3. You can find the designs of every version in the form of gerber, assembly, schematic, and BOM files in their respective zip files below as well as a link to a more readable BOM for every board version if you'd like to source your own components.
@@ -105,8 +109,8 @@ Custom designed, plug-and-play rotary axis which adds another carving dimension 
 [/su_row]
 
 [su_row]
-[su_column size="1/2" center="no" class="viewer-desc"]<strong>Touch Plate (3-axis / block-style)</strong>
-A typical block-style, 3-axis touch plate we designed for finding X, Y, and Z-zero on 3-axis CNCs.
+[su_column size="1/2" center="no" class="viewer-desc"]<strong>Touch Plate (block-style and AutoZero)</strong>
+A typical block-style, 3-axis touch plate we designed for finding X, Y, and Z-zero on 3-axis CNCs, and our novel AutoZero touch plate designed to work with far more bit types and more accuracy than typical block-style plates.
 
 <a href="https://CAD.onshape.com/documents/b76785c85e8458b0e88b64a5/w/0eed2327264503a991f2d6eb/e/47780af64de032893b1197da?renderMode=0&amp;uiState=6706bc3b23645768105a7bd9" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
 [/su_column] [su_column size="1/2" center="no" class=""] [3d_viewer id="11179"]

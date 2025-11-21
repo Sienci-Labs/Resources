@@ -107,7 +107,9 @@ Uses 2020 extrusion and knobs to be able to set the height of your shoe based on
 
 [su_row]
 [su_column size="1/2" center="no" class="viewer-desc"]**Touch Plate (3-axis / block-style)**
-A typical block-style, 3-axis touch plate we designed for finding X, Y, and Z-zero on 3-axis CNCs.<br><br>
+<strong>Touch Plate (block-style and AutoZero)</strong>
+A typical block-style, 3-axis touch plate we designed for finding X, Y, and Z-zero on 3-axis CNCs, and our novel AutoZero touch plate designed to work with far more bit types and more accuracy than typical block-style plates.
+
 <a href="https://CAD.onshape.com/documents/b76785c85e8458b0e88b64a5/w/0eed2327264503a991f2d6eb/e/47780af64de032893b1197da" target="_blank" rel="noopener">View, Copy, or Edit in Onshape</a>
 [/su_column] [su_column size="1/2" center="no" class=""] [3d_viewer id="11179"] [/su_column]
 [/su_row]
