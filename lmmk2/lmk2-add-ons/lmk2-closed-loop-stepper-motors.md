@@ -164,6 +164,11 @@ When looking at your motor cables, you will notice one is longer than the others
 
 
 
+
+
+
+
+
 The motor cables have 3 plugs to attach on each end. The two green plugs are for your new motor, and the middle black one is for your limit switch/inductive sensor. No more individual cables, we've combined them all together!
 
 Plug in the green motor power and motor signal connectors.
@@ -199,3 +204,23 @@ Repeat the previous steps for the Z, Y1 and Y2 motors.
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header5.jpg){.aligncenter .size-full .wid}
 
 For both Y-axes, position a motor assembly at the back foot making sure the motor wire faces down. Slide the motor shaft into the coupler, then tighten all four M5-50mm screws into the foot. Once the motor is secure, tighten the set screw on the motor side of the coupler (pictured).
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-xzsignals.jpg)
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-xzmotorplug.jpg)
+
+
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-ysignals.jpg)
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-ymotorplug.jpg)
+
+Show plug in power to board
+Show plug in EStop
+Show plug in USB
+
+Show power on button
+
+## Software Changes
+
+What are we changing here or are we providing a macro that will tweak your settings automatically?
