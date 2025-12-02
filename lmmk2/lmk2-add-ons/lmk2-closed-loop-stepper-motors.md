@@ -23,32 +23,23 @@ For a more detailed rundown on how to successfully prepare for the use of the SL
 
 Your upgrade kit will include a new SLB EXT, 4 closed loop motors, a new 48 volt power supply and more! Check out the list below and [contact our team](https://sienci.com/contact-us/) if any parts are missing.
 
-## New Parts
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-allparts.jpg){.aligncenter .size-medium}
 
-| Part | Photo |
-|------|--------|
-| NEMA 23 Motors x4 | ![placeholder](https://placehold.co/100x100) |
-| 40 mm blue aluminum standoffs x16 | ![placeholder](https://placehold.co/100x100) |
-| M5x55 screws x4 (for dust shield addon) | ![placeholder](https://placehold.co/100x100) |
-| SLB-EXT | ![placeholder](https://placehold.co/100x100) |
-| 48VDC power supply | ![placeholder](https://placehold.co/100x100) |
-| Drag chain bracket | ![placeholder](https://placehold.co/100x100) |
-| 18 x 26 drag chain | ![placeholder](https://placehold.co/100x100) |
-| SLB 3D printed rail mounts | ![placeholder](https://placehold.co/100x100) |
-| Drag chain holder mounts | ![placeholder](https://placehold.co/100x100) |
-| Inductive sensor x4 | ![placeholder](https://placehold.co/100x100) |
-| Motor cable set | ![placeholder](https://placehold.co/100x100) |
+The following components are included in the upgrade kit and are shown together in the photo below:
 
-When unpacking the CLSM upgrade kit, please note that there are some parts that we will be re-using from your previous setup.
-
-## Re-used Parts
-
-| Part | Photo |
-|------|--------|
-| M5x50 screws | ![placeholder](https://placehold.co/100x100) |
-| Z axis drag chain | ![placeholder](https://placehold.co/100x100) |
-| Current inductive sensors | ![placeholder](https://placehold.co/100x100) |
-| Couplers (Motor) | ![placeholder](https://placehold.co/100x100) |
+- NEMA 23 Motors (x4)
+- Motor Covers (x4)
+- 40 mm blue aluminum standoffs (x16)
+- SLB-EXT (Includes E-stop)
+- 48 VDC power supply
+- Larger Drag chain 18x26
+- Drag chain bracket
+- Drag chain holder mounts (x4)
+- SLB 3D-printed rail mounts (x2)
+- Inductive sensors (x4)
+- Inductive sensor bracket (x2)
+- Motor cable set (x1 long, x3 short)
+- M5x55 screws (x4, for dust shield addon)
 
 ## Motors
 
@@ -144,7 +135,7 @@ Slide the bracket onto the 12mm M5 screw until it bottoms out, then tighten down
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxis.jpg){.align-center .size-medium}
 
-Repeat this step for both ends of the Y-axis.
+**Repeat this step for both ends of the Y-axis.**
 
 ## Wiring
 
@@ -154,20 +145,31 @@ Now that we have all 4 motors mounted and the inductive sensors re-arranged, let
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header4.jpg){.aligncenter .size-full .wid}
 
-If you have not yet opened all of the tabs in both drag chains, do so at this time. You can slip a small flat head screw driver under each tab to pop them open.
+If you have not yet opened all of the tabs in both drag chains, do so at this time. You can slip a small flat head screw driver under each tab to pop them open. We will be replacing the Y-axis drag chain, and upgrading it to a larger size, so you can remove this drag chain entirely at this time.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-opendragchain.jpg){.align-center .size-medium}
 
+With the new, larger drag chain in hand, remove the end links, so we can install them separately, then have an easier time when it comes to reconnecting the drag chain. This can be done with a small flat head screwdriver.
+
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-dragremove.jpg){.align-center .size-medium}
 
+Grab the drag chain mount, two M5 T-nut and M5-12mm screw and attach the drag chain mount.
+
+**Insert Picture Here**
+
+Now you can use another M5-12mm screw to securer one of the drag chain end links.
+
+**Insert Picture Here**
+
+Moving to the Y-axis where the old drag chain was, slide 4 M5 T-nuts into the rail, as we will be using them to support the 4 drag chain brackets. Place a washer down, then an M5-12mm screw will hold down the bracket. Space them out evenly, using fewer if you have a smaller footprint.
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-dragchain2.jpg){.align-center .size-medium}
+
+Now we can attach the final drag chain end to the last drag chain bracket with an M5-12mm screw.
+
+**Insert Picture Here**
+
 When looking at your motor cables, you will notice one is longer than the others. This long motor cable is meant for your back right Y-axis motor. Grab a shorter one and run it through your open drag chain to the Z-axis motor.
-
-
-
-
-
-
-
 
 The motor cables have 3 plugs to attach on each end. The two green plugs are for your new motor, and the middle black one is for your limit switch/inductive sensor. No more individual cables, we've combined them all together!
 
@@ -203,24 +205,32 @@ Repeat the previous steps for the Z, Y1 and Y2 motors.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header5.jpg){.aligncenter .size-full .wid}
 
-For both Y-axes, position a motor assembly at the back foot making sure the motor wire faces down. Slide the motor shaft into the coupler, then tighten all four M5-50mm screws into the foot. Once the motor is secure, tighten the set screw on the motor side of the coupler (pictured).
+Loosen the thumb screw on the front of the SLB-EXT enclosure and remove the acrylic face plate.
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-xzsignals.jpg)
+Fit the Z-axis and X-axis wire harnesses into the top cut out of the enclosure on the right side. Plug the sensor and motor control connectors into their respectively named ports.
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-xzmotorplug.jpg)
+Plug the two-pronged motor power connectors into the left most power ports. The power ports all supply the same output and therefore the connectors are able to be plugged into any, however, for installation purposes we recommend you to plug into the two leftmost ports while installing X and Z. 
 
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-xzsignals.jpg){.align-center .size-medium}
 
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-xzmotorplug.jpg){.align-center .size-medium}
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-ysignals.jpg)
+Fit the Y1-axis and Y2-axis wire harnesses into the bottom cutout of the enclosure on the right side. Plug the sensor and motor control connectors into their respectively named ports. It is important that you do not mismatch the control connector from one harness with the sensor connector of the other when plugging into one pair of Y1 or Y2 ports. If installed incorrectly you will encounter an alarm during operation.  
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-ymotorplug.jpg)
+Plug the two-pronged motor power connectors into the two rightmost power ports. The power ports all supply the same output and therefore the connectors are able to be plugged into any, however, for installation purposes we recommend you to plug into the two rightmost ports while installing Y1 and Y2 power.
 
-Show plug in power to board
-Show plug in EStop
-Show plug in USB
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-ysignals.jpg){.align-center .size-medium}
 
-Show power on button
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-ymotorplug.jpg){.align-center .size-medium}
+
+Reinstall the acrylic face plate of the SLB-EXT onto the enclosure. Tighten the thumb screw by hand. Plug the green connector of the E-stop cable into the port labelled E-stop on the right side of the controller, and the other side of the cable into the E-stop.
+
+**Insert Pic Here**
+
+Plug the green connector of the 48V power supply into the port labelled Power & plug the power supply into a 110V outlet.
+
+**Insert Pic Here**
 
 ## Software Changes
 
-What are we changing here or are we providing a macro that will tweak your settings automatically?
+Once your setup is complete and everything is secure and plugged into the SLB EXT, open gSender and....
