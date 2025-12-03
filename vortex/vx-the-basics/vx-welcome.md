@@ -21,7 +21,7 @@ The Vortex is our push to lead the charge of bringing rotary axis cutting to the
 
 ## Rotary Axes
 
-If you look hard enough, you'll find that rotary cutting has been in hobby CNCers minds for over a decade at this point; so how has this technology not become commonplace? There are very clear use-cases for a rotary, a post on our own Facebook group shows that there aren't a lack of ideas (<a href="https://www.facebook.com/groups/mill.one/posts/1693838977754093/" target="_blank" rel="noopener">https://www.facebook.com/groups/mill.one/posts/1693838977754093/</a>). With relatively few comments, the discussion already mentions totems, trophies, walking sticks, baseball bats, chess pieces, custom handles, table legs, drawer pulls, magic wands, shifter knobs, figurines, and many other examples of <a href="https://youtu.be/tidi8J480pw" target="_blank" rel="noopener">total 3D carvings</a>.
+If you look hard enough, you'll find that rotary cutting has been in hobby CNCers minds for over a decade at this point; so how has this technology not become commonplace? There are very clear use-cases for a rotary, a <a href="https://www.facebook.com/groups/mill.one/posts/1693838977754093/" target="_blank" rel="noopener">post on our own Facebook group shows that there aren't a lack of ideas</a>. Quickly, the discussion already mentions totems, trophies, walking sticks, baseball bats, chess pieces, custom handles, table legs, drawer pulls, magic wands, shifter knobs, figurines, and many other examples of <a href="https://YouTube.com/shorts/P4XmFhtsz9E" target="_blank" rel="noopener">total 3D carvings</a>.
 
 We feel that the main sticking point has been intimidation and manufacturer involvement:
 
