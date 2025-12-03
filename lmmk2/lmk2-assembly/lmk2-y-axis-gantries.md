@@ -94,7 +94,7 @@ Insert one flange bearing onto each end foot from the outside, making sure the l
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Y-Axis-Gantries_11.png){.aligncenter .size-medium}
 
-Identifying the back end foot, slide the coupler on until it bottoms out on the lead screw. Firmly secure the coupler at the set screw using an M3 Allen key. Remember to only tighten ONE of the set screws - the one on the lead screw side (as pictured).
+Identifying the back end foot, slide the coupler on until it bottoms out on the lead screw. Firmly secure the coupler at the set screw using an M5 Allen key. Remember to only tighten ONE of the set screws - the one on the lead screw side (as pictured).
 
 ![](/_images/_lmmk2/_assembly/_yaxisgantries/lmk2_yaxisgantries_Y-Axis-Gantries_12.png){.aligncenter .size-medium}
 
