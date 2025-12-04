@@ -21,7 +21,7 @@ For a more detailed rundown on how to successfully prepare for the use of the SL
 
 ## Unboxing
 
-Your upgrade kit will include a new SLB EXT, 4 closed loop motors, a new 48 volt power supply and more! Check out the list below and [contact our team](https://sienci.com/contact-us/) if any parts are missing.
+Your upgrade kit will include a new SLB EXT, 4 closed loop motors, 4 inductive sensors, a new 48 volt power supply and more! Check out the list below and [contact our team](https://sienci.com/contact-us/) if any parts are missing.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-allparts.jpg){.aligncenter .size-medium}
 
@@ -39,13 +39,14 @@ The following components are included in the upgrade kit and are shown together 
 - Inductive sensors (x4)
 - Inductive sensor bracket (x2)
 - Motor cable set (x1 long, x3 short)
+- Nylock nuts (x2)
 - M5x55 screws (x4, for dust shield addon)
 
 ## Motors
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade_Title-Motors-Wiring.jpg){.aligncenter .size-medium}
 
-This process should take approximately 2-3 hours. To begin, jog machine to the front/center of your wasteboard, and pull the table away from the wall if possible. You can also remove your router or spindle and open all of the links on your drag chains with a small flat head screwdriver to prepare for this upgrade. Let'start with the motors!
+This process should take approximately 2-3 hours. To begin, jog machine to the front/center of your wasteboard, and pull the table away from the wall if possible. You can also remove your router or spindle to give you a bit more room and open all of the links on your drag chains with a small flat head screwdriver to prepare for this upgrade. Let'start with the motors!
 
 ### Remove Stepper Motors
 
@@ -53,19 +54,13 @@ This process should take approximately 2-3 hours. To begin, jog machine to the f
 
 We will be removing all 4 of the open loop motors (X-axis, Z-axis + 2 Y-axis motors) The process is the same for all 4 of the motors. We begin with the X-axis motor, on the left side of the machine.
 
-Step 1
-
 Unplug the open loop stepper motor at the white connector. This is done by pressing on the short end of the white connector, then pulling the connection apart.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-connector.jpg "Here you can see the X-axis motor plug"){.aligncenter .size-medium}
 
-Step 2
-
 Using an M5 Allen key, remove the M5-50mm bolts and set them aside. We will be using them to install the new motors. You can use a drill to speed up the process here, and if the screws are too tight, use the M5 Allen key to loosen them. You will not need to keep the aluminum spacers, replacements are in the new kit.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-pic1.jpg){.aligncenter .size-full}
-
-Step 3
 
 Loosen the bolt on the coupler that is closest to the motor. This will allow you to lift each motor free from the motor shafts.
 
@@ -83,13 +78,9 @@ Ok, nicely done! We will now run the process we just completed, in reverse. Grab
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header2.jpg){.aligncenter .size-full .wid}
 
-Step 1
-
 Let's begin by sliding each M5-50mm bolt into a matching 40mm spacer. Thread each bolt/spacer into the corresponding 4 holes to secure the motor in place. Using either a drill or an M5 allen key, tighten each spacer/bolt combo.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-motor-installjpg.jpg){.aligncenter .size-medium}
-
-Step 2
 
 With the new motor shaft fully seated in the coupler, turn the coupler bolt closest to the new motor with the M5 allen key until tight.If everything has come together well so far, you should be able to now check that the lead screw can spin relatively easily.
 
@@ -97,9 +88,23 @@ With the new motor shaft fully seated in the coupler, turn the coupler bolt clos
 
 Now that we've replaced the one motor, **proceed to do the exact same 3 steps with the remaining motors.**
 
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-xaxismotor.jpg "X Axis Motor"){.aligncenter .size-medium}
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxismotor1.jpg "Y Axis Motor 1"){.aligncenter .size-medium}
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxismotor2.jpg "Y Axis Motor 2"){.aligncenter .size-medium}
+
 - Swap out spacers
 - Tighten down M-50 screws
 - Tighten coupler
+
+#### Dip Switches
+
+The motors should arrive with the DIP switches in the correct position for use with the stock settings.
+
+Check to ensure the DIP switches on the X and Y axis motors follow the order of: **1-5: OFF, OFF, ON, ON, ON**
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-z-dip-switch.jpg){.aligncenter .size-medium}
 
 ### Remove Old Sensors
 
@@ -113,10 +118,6 @@ For your Y-axis sensor, remove the bracket from the rail, we will be moving it t
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxislimit.jpg){.aligncenter .size-medium}
 
-Here you can see both sensors installed at the bottom of the rail in the back right and left sides. Let's move on to installing the new sensors!
-
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-limit-rl.jpg "Here you can see the Y-axis left and right limit switches"){.align-center .size-medium}
-
 ### Instal New Sensors
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header6.jpg){.aligncenter .size-full .wid}
@@ -125,13 +126,14 @@ For the Z & X-axis, you can simply pop the new pigtail limit switches into the o
 
 For the Y-axis, we will be using a bracket to mount the sensor under the Y-axis rails, and pushing them to the back left and right corners. Mount each sensor onto your bracket as shown.
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-limit-bracket.jpg){.align-center .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxislimit-position.jpg)
+{.align-center .size-medium}
 
 Slip an M5-T Nut into the slot at the back of both Y-axis rails and secure it with an M5-12 mm socket head screw. Do not tighten this all the way down yet, as we will be sliding the bracket onto it.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxis-slot.jpg){.align-center .size-medium}
 
-Slide the bracket onto the 12mm M5 screw until it bottoms out, then tighten down the screw, while holding the sensor.
+Slide the bracket onto the 12mm M5 screw until it bottoms out, then tighten down the screw, while holding the sensor. Adjust the sensor so that it sticks out slightly, allowing it to trigger.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxis.jpg){.align-center .size-medium}
 
@@ -153,23 +155,23 @@ With the new, larger drag chain in hand, remove the end links, so we can install
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-dragremove.jpg){.align-center .size-medium}
 
-Grab the drag chain mount, two M5 T-nut and M5-12mm screw and attach the drag chain mount.
+Grab the drag chain mount, 2 x M5 T-nuts and 2 x M5-12mm screw and attach the drag chain mount. You can re-use your M5 T-nuts in this step if you wish.
 
-**Insert Picture Here**
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-dragchainmount.jpg){.align-center .size-medium}
 
-Now you can use another M5-12mm screw to securer one of the drag chain end links.
+Now you can use another M5-12mm screw to secure the drag chain end link that has open ends.
 
-**Insert Picture Here**
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-endlinktop.jpg){.align-center .size-medium}
 
 Moving to the Y-axis where the old drag chain was, slide 4 M5 T-nuts into the rail, as we will be using them to support the 4 drag chain brackets. Place a washer down, then an M5-12mm screw will hold down the bracket. Space them out evenly, using fewer if you have a smaller footprint.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-dragchain2.jpg){.align-center .size-medium}
 
-Now we can attach the final drag chain end to the last drag chain bracket with an M5-12mm screw.
+Now we can attach the final drag chain end to the last drag chain bracket with an M5-12mm screw and the nylock nut.
 
-**Insert Picture Here**
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-endlinkbotttom.jpg){.align-center .size-medium}
 
-When looking at your motor cables, you will notice one is longer than the others. This long motor cable is meant for your back right Y-axis motor. Grab a shorter one and run it through your open drag chain to the Z-axis motor.
+When looking at your motor cables, you will notice each one is labelled with the corresponding axis it goes to. Let's begin with the X-axis motor cable.
 
 The motor cables have 3 plugs to attach on each end. The two green plugs are for your new motor, and the middle black one is for your limit switch/inductive sensor. No more individual cables, we've combined them all together!
 
@@ -205,11 +207,21 @@ Repeat the previous steps for the Z, Y1 and Y2 motors.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header5.jpg){.aligncenter .size-full .wid}
 
-Loosen the thumb screw on the front of the SLB-EXT enclosure and remove the acrylic face plate.
+To begin this section, let's mount the board to the rail. Grab both SLB mounting brackets and slide them onto the back of the case.
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-slbcase.jpg){.align-center .size-medium}
+
+Space them out evenly, then tighten them down onto the rail using the M5 T-nuts and M5 12mm screws.
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-slbcasespace.jpg){.align-center .size-medium}
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-slbcasetight.jpg){.align-center .size-medium}
+
+Now with the SLB installed, let's open it up and plug everything in! Loosen the thumb screw on the front of the SLB-EXT enclosure and remove the acrylic face plate.
 
 Fit the Z-axis and X-axis wire harnesses into the top cut out of the enclosure on the right side. Plug the sensor and motor control connectors into their respectively named ports.
 
-Plug the two-pronged motor power connectors into the left most power ports. The power ports all supply the same output and therefore the connectors are able to be plugged into any, however, for installation purposes we recommend you to plug into the two leftmost ports while installing X and Z. 
+Plug the two-pronged motor power connectors into the left most power ports. The power ports all supply the same output and therefore the connectors are able to be plugged into any, however, for installation purposes we recommend you to plug into the two leftmost ports while installing X and Z.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-xzsignals.jpg){.align-center .size-medium}
 
@@ -233,4 +245,24 @@ Plug the green connector of the 48V power supply into the port labelled Power & 
 
 ## Software Changes
 
-Once your setup is complete and everything is secure and plugged into the SLB EXT, open gSender and....
+Once your setup is complete and everything is secure and plugged into the SLB EXT, we will need to adjust the motor speed in your sending software. Simply download this macro and run it in gSender, and your settings will automatically update! You can click on the link below to go to a google folder and download the file.
+
+[Closed Loop Stepper Motor Macro](https://drive.google.com/drive/folders/1cCXB1dCWpowHjJuEUF3RIYLrTxjNG10j?usp=sharing){.align-center}
+
+Once you have the file, load up gSender, and go to the Macro section on the Carve tab. Here you can import the new macro.
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-macroimport.jpg){.align-center .size-medium}
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-macrofile.jpg){.align-center .size-medium}
+
+Once the macro is loaded into gSender, click on it to run.
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-macropress.jpg){.align-center .size-medium}
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-macrorun.gif){.align-center size-full}
+
+The macro will automatically update your motor settings! You can double check that they are correct by matching the configuration shown below.
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-macroadjusted.jpg){.align-center .size-medium}
+
+Congrats! You have now completed the installation and setup of your new Closed Loop Stepper Motor Kit. Go carve something cool friend!
