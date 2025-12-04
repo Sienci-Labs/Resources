@@ -353,7 +353,12 @@ The bottom "**Rail**" plug extends from the on-board light to run a much longer 
 
 ![](/_images/_superlongboard/_manual/slb_ma_p24b-rail-led.jpg){.aligncenter .size-full}
 
-Once you're done wiring up, update the $664 (ring) or $665 (rail) firmware settings for the number of LEDs you've plugged in and power-cycle the board for the changes to take effect. Look at the new pizazz! A member of our community, Jim, also made his own LED write-up if you'd like to check that out too: <a href="https://resources.sienci.com/wp-content/uploads/2024/04/Jims-SLB-Rail-LED-Guide.pdf" target="_blank" rel="noopener">Jim's SLB Rail LED Guide (PDF)</a>
+Once you're done wiring up, update the $664 (ring) or $665 (rail) firmware settings for the number of LEDs you've plugged in and power-cycle the board for the changes to take effect. Look at the new pizazz!
+
+If you'd like to learn more, some members of our community contributed their own setup guides too:
+
+- <a href="https://resources.sienci.com/wp-content/uploads/2024/04/Jims-SLB-Rail-LED-Guide.pdf" target="_blank" rel="noopener">Jim's SLB Rail LED Guide (PDF)</a>
+- <a href="https://youtu.be/DtcbRcdvNss" target="_blank" rel="noopener">SparksTech's installation video</a>
 
 #### Manual Control
 
@@ -415,7 +420,7 @@ By default, VCC outputs 5V. If you want to wire for a different setup, see below
 
 ![](/_images/_superlongboard/_manual/slb_ma_p28_NCNO.jpg){.aligncenter .size-full}
 
-If you'd like to use the white JST connectors instead, the wiring pinouts are below for both mechanical switches and inductive sensors. All VCC outputs can also be changed from 5V to 24V if you'd like by breaking the 0Ω resistor on R9 and creating a solder bridge across R10 (outlined in red in the middle of the first homing picture).
+If you'd like to use the white JST connectors instead, the wiring pinouts are below for both mechanical switches and inductive sensors. All VCC outputs can also be changed from 5V to 24V if you'd like (<a href="https://youtu.be/BMF-jw7K608" target="_blank" rel="noreferrer noopener">user-made video by SparksTech</a>) by breaking the 0Ω resistor on R9 and creating a solder bridge across R10 (outlined in red in the middle of the first homing picture).
 
 ![](/_images/_superlongboard/_manual/slb_ma_p29_WCPins.jpg){.aligncenter .size-full}
 
@@ -873,6 +878,8 @@ If you're happy that your rotary is turning successfully, feel free to try out 
 - Knight Chess Piece: <a href="https://drive.google.com/file/d/156eTQ1c2pt6jm9ehI4Adu6OitGL33CJs/" target="_blank" rel="noopener">https://drive.google.com/file/d/156eTQ1c2pt6jm9ehI4Adu6OitGL33CJs/</a>
 
 If you're ever running into a situation where clicking "Zero A" in gSender sets the value to 0.01 or 0.02 instead of zero, this is a known bug with grbl and grblHAL where the location doesn't get reported back from the machine correctly, but the location is definitely being set to zero. This can be a little stressful to see but unfortunately we don't have the ability to fix it ourselves.
+
+You can also learn more about how some of this works by checking out [Part 1](https://youtu.be/KNnj_DY-sv0) and [Part 2](https://youtu.be/YUCx_Cv2L18) of these user-made videos by SparksTech!
 
 #### Tips for Luban A-axis CAM
 

@@ -23,9 +23,11 @@ If you haven't yet, <b><a href="https://sienci.com/gSender/" target="_blank" rel
 </p>
 <br>
 
-**Note: as of <a href="https://github.com/Sienci-Labs/gSender/releases/tag/v1.2.2" target="_blank" rel="noopener">gSender 1.2.2</a>, support for Windows 7/8 and 32-bit systems like Windows and Pi had to be dropped** since new software packages can no longer support 10+ year old systems.
+**Since the software packages we use to build gSender don't support 10+ year old systems, here are the most recent versions you can download if you're running:**
 
-If you downloaded the more experimental 'gSender Edge', then remember to also read what features it uniquely offers and how to use them: <a href="https://resources.sienci.com/view/gs-edge-features/" target="_blank" rel="noopener">https://resources.sienci.com/view/gs-edge-features/</a>
+- <a href="https://github.com/Sienci-Labs/gSender/releases/tag/v1.2.2" target="_blank" rel="noopener">Any 32-bit system, Windows 7/8</a> (v1.2.2 - Jul 7, 2023)
+
+If you downloaded the more experimental '**gSender Edge**', then remember to also read what features it uniquely offers and how to use them: <a href="https://resources.sienci.com/view/gs-edge-features/" target="_blank" rel="noopener">https://resources.sienci.com/view/gs-edge-features/</a>
 
 ## Windows Install
 

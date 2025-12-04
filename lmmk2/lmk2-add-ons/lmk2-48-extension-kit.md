@@ -40,7 +40,7 @@ We have updated several of the parts you will use in upgrading to the 48". They 
 
 ## 48" X-axis rail box unpacking
 
-https://www.youtube.com/watch?v=KjirFKNT3pM
+https://youtu.be/KjirFKNT3pM
 
 Inside the 48" X-axis rail box, you'll find the X-axis rail packaged with 5 boxes.
 

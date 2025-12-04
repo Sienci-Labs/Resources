@@ -224,6 +224,8 @@ You will need the following:
 1. At the end you'll be told how square your machine is and whether you need to take action to adjust it further or if it's close enough that you can leave it. The squaring tool also keeps an eye out for if your steps/mm (axis travel resolution) are off and can adjust those too.
   ![](/_images/_gsender/_features/_tools/gs_fe_to_xysquaring4.jpg){.aligncenter .size-medium}
 
+You can also try watching how this process works in this <a href="https://youtu.be/CCpb70ypulY" target="_blank" rel="noreferrer noopener">user-made video by SparksTech</a>!
+
 ### Movement Tuning
 
 Another **Software Wizard** (step by step guide) found in the **Tool tab**. This one is designed to help fine tune how much your motors turn to improve the accuracy of your machine movements. This is done through modifying the EEPROM settings stored on your CNC. You can tune the X, Y and Z axes individually.
@@ -565,7 +567,7 @@ All setup steps need to happen on the inline computer (the computer you'll have 
 With setup complete, regular use is very straightforward:
 
 1. As long as your 'inline computer' is on and connected to your CNC, and your CNC is powered on, then re-using the same text on the web browser of any device will give you access to a copy of gSender running fully remotely. Example text could look like this "192.168.68.155:8000" where for the phone interface it would have "/#/remote" added onto the end.
-1. For phones and tablets, it can also be easy to re-use this webpage by saving it to a bookmark on your home-screen so you can open Remote gSender easily anytime you want! <a href="https://www.YouTube.com/watch?v=UrlDJOY3i-8">Check out this video</a> for details.
+1. For phones and tablets, it can also be easy to re-use this webpage by saving it to a bookmark on your home-screen so you can open Remote gSender easily anytime you want! <a href="https://youtu.be/UrlDJOY3i-8">Check out this video</a> for details.
 1. Once connected, you'll be able to control your CNC remotely with most of the same features and functions you’d normally expect:
    - Use both the remote and inline devices simultaneously to control your CNC like jogging, opening and closing files, probing, macros, and more
    - Notice that both their screens look exactly the same so you can watch the visualizer move around or check on the machine state
@@ -769,6 +771,10 @@ If you are using one of the wizard options, know that you can access all other g
   ![](/_images/_gsender/_features/_toolchange/gs_fe_toolchangefixed.jpg){.aligncenter .size-full}
 1. **Code**<br>You can enter your own macros before and after the tool change with this strategy selected which is fairly powerful for making tool changing processes that are more automated than just pausing.
   ![](/_images/_gsender/_features/_toolchange/gs_fe_toolchangecode.jpg){.aligncenter .size-medium}
+
+You can also learn more about how some of this works by checking out this user-made video by SparksTech!
+
+https://youtu.be/zOPt-GXza8s
 
 ## Rotary / 4th-axis
 

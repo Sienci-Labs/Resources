@@ -117,7 +117,7 @@ Some bits like v-bits or surfacing bits require the bit shaft to be placed throu
 
 ![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_collet-v-bit-trip.jpg){.aligncenter .size-medium}
 
-When installing the bits into the router, always tighten using the wrenches. The router can be damaged using the button and wrench when tightening. Loose bits can be tricky. Hold the bit in place with one finger. Press the red button with your thumb to lock the shaft in place. With the other hand finger tighten the collet nut till the bit can be held on its own. Use both wrenches to tighten firmly. <a href="https://www.YouTube.com/watch?v=LFeBRBjBYbk" target="_blank" rel="noopener">IDC Woodcraft has a great video outlining these sorts of things to watch out for.</a>
+When installing the bits into the router, always tighten using the wrenches. The router can be damaged using the button and wrench when tightening. Loose bits can be tricky. Hold the bit in place with one finger. Press the red button with your thumb to lock the shaft in place. With the other hand finger tighten the collet nut till the bit can be held on its own. Use both wrenches to tighten firmly. <a href="https://youtu.be/LFeBRBjBYbk" target="_blank" rel="noopener">IDC Woodcraft has a great video outlining these sorts of things to watch out for.</a>
 
 ![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_red-button-fingertighten.jpg){.aligncenter .size-medium}
 
