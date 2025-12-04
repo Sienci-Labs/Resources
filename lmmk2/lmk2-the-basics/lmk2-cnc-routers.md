@@ -15,23 +15,17 @@ skip_file: no
 featured_image: _images/_longmill/_the-basics/lm_cncrouters_p1_profile.jpg
 ---
 
-**Kelly has said that she'll be working on this**
-Improves on https://resources.sienci.com/view/lmk2-cnc-routers/ but make the information more general about what CNCs can do more broadly
-
+- Make the information more general about what CNCs can do more broadly
 - Outline how a CNC works and moves and act as a landing page to distribute out to other common questions
 - Pictures of what you can make with a CNC, examples of common projects
-- Add Sally’s cutting display? Faces project
 - https://www.youtube.com/watch?v=NWDrWbCbI3s CNC routers can do all that?!!?
-- Good intro CNC vid inspiration https://youtu.be/ta0xnLkr4AU
-- List of common costs to consider to own a CNC arranged from generally most expensive to least and gives price ranges
-- That list also briefly talks about why those items are needed and then links through to full explainer pages
 - Explain that CNCs can typically be used for fun and training all the way up to industry
 
 ---
 
 https://youtu.be/pqVG3SMj99g
 
-The many hobby CNCs are known as "3-axis CNC routers". What does that mean? Let's break the phrase down into its components:
+Most hobby CNCs fall under the umbrella of "3-axis CNC routers". What does that mean? Let's break the phrase down into its components:
 
 - **CNC** → stands for “computer numerical control”; a type of machine that can be controlled by a computer using movement instructions
 - **Router** → a woodworking tool that acts like a drill; it spins a cutting tool to cut through material
