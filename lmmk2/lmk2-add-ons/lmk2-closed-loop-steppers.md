@@ -1,5 +1,5 @@
 ---
-title: Closed Loop Stepper Motor Upgrade
+title: Closed Loop Upgrade
 menu_order: 10
 post_status: draft
 post_excerpt: How to install and setup the Closed Loop Stepper Motors Kit
@@ -118,7 +118,7 @@ For your Y-axis sensor, remove the bracket from the rail, we will be moving it t
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxislimit.jpg){.aligncenter .size-medium}
 
-### Instal New Sensors
+### Install New Sensors
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header6.jpg){.aligncenter .size-full .wid}
 
