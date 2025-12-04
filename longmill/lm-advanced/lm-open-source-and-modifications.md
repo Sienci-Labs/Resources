@@ -26,7 +26,7 @@ We believe that by making this design open source, we will be able to drive the 
 
 ## License
 
-This is accomplished by putting the project under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons BY-SA license</a><span class="cc-license-title">:</span>
+This is accomplished by putting the project under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons BY-SA license</a>:
 
 - The entire mechanical design of our LongMill Benchtop CNC available in a range of 3D file types and as drawings where applicable
 - Any internal assembly jigs and other supporting hardware for the LongMill

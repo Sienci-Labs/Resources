@@ -17,7 +17,7 @@ featured_image: _images/_gsender/_install/gs_in_windows-finish.jpg
 
 ## Download
 
-If you haven't yet, download gSender for your specific system like Windows, Mac, or Pi on the main page: **<a href="https://sienci.com/gSender/" target="_blank" rel="noreferrer noopener">https://sienci.com/gsender/</a>**.
+<span style="text-align: center;text-decoration: underline;">If you haven't yet, <b><a href="https://sienci.com/gSender/" target="_blank" rel="noreferrer noopener">download gSender for 🪟 Windows, 🍎 Mac, or 🥧 Pi</a></b>.</span>
 
 **Note: as of <a href="https://github.com/Sienci-Labs/gSender/releases/tag/v1.2.2" target="_blank" rel="noopener">gSender 1.2.2</a>, support for Windows 7/8 and 32-bit systems like Windows and Pi had to be dropped** since new software packages can no longer support 10+ year old systems.
 

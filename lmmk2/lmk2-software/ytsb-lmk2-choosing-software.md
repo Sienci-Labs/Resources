@@ -438,7 +438,7 @@ Extends through the Easel online software, allowing you to connect to your machi
 
 <b>VTransfer</b> (<a href="https://docs.vectric.com/docs/V9.0/Cut2DLaserDesktop/ENU/Help/VTransfer/VTransfer.html" target="_blank" rel="noopener noreferrer">https://docs.vectric.com/docs/</a>)
 
-VTransfers <span class="sc-jrAGrp dXWCyY">barebones layout means that it's dead easy to use and understand.</span> The downsides to this is that it offers no g-code visualization, keyboard jogging, or other common interface features.
+VTransfers barebones layout means that it's dead easy to use and understand. The downsides to this is that it offers no g-code visualization, keyboard jogging, or other common interface features.
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p16_VTransfer.jpg){.aligncenter .size-medium}
 

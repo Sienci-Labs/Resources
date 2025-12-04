@@ -132,7 +132,7 @@ No. gSender is strictly a CNC control software and has no features currently for
 <script>
 function thanks() {
     setTimeout(function () {
-        location.href = "https://resources.sienci.com/view/gs-installation/";
+        location.href = "https://resources.sienci.com/view/gs-installation/#windows-install";
 }, 10000);
 }
 function onedge() {

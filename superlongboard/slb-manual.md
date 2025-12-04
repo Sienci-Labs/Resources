@@ -538,7 +538,7 @@ Knowing all this, you can go into the EEPROM to change your selections for the D
 
 If you run into an issue where switching between outputs gets stuck, this can be fixed by power-cycling the board.
 
-Here's a video that explains more about the setup and configuration process:
+Here's a video that explains more about the setup and configuration process (note that the polarity of the wires shown in the video is reversed from what it should be):
 
 https://youtu.be/5r_P6eISrnc
 

@@ -26,7 +26,7 @@ Other than these changes, all other aspects of the LongMill MK2 project are shar
 
 ## License
 
-This is accomplished by putting the project under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons BY-SA license</a><span class="cc-license-title">:</span>
+This is accomplished by putting the project under a <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons BY-SA license</a>:
 
 - The entire mechanical design of our LongMill MK2 Benchtop CNC available in a range of 3D file types and as drawings where applicable
 - Any internal assembly jigs and other supporting hardware for the LongMill
