@@ -129,7 +129,7 @@ Now that you have your limit switches set up, you'll need to get used to using t
 
 ### Homing
 
-If you've enabled homing and lost a connection to your machine it will enter an alarm state upon re-connecting. To get out of this alarm state, the machine must be homed so it can rediscover its location. When homing your machine for the first time, be ready to press the E-stop in case any sensor fails to trigger. Once homing is complete, you can check that the machine coordinate values (gray numbers below the blue ones in gSender) are all set to zero or thereabouts.
+If you've enabled homing and lost a connection to your machine it will enter an alarm state upon re-connecting. To get out of this alarm state, the machine must be homed so it can rediscover its location. When homing your machine for the first time, be ready to press the E-stop in case any sensor fails to trigger. Once homing is complete, you can check that the machine coordinate values (gray numbers next to the blue ones in gSender) are all set to zero or thereabouts.
 
 [tabby title="Current" open="yes"]
 

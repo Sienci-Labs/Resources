@@ -292,7 +292,7 @@ You'll know you are successful if the popup button turns blue, and says "Start P
 
 [tabbyending]
 
-If the light is coming on but the popup button isn't turning blue, this can sometimes be fixed by resetting your board settings. Do this by typing "$RST=$" into the console tab and hitting Enter, then use the power switch on the back of the board to "power-cycle" it off and back on again. Once you reconnect in gSender you can try probing again.
+If the light is coming on but the popup button isn't turning blue, this can sometimes be fixed by resetting your board settings. Do this by typing `$rst=$` into the console tab and hitting Enter, then use the power switch on the back of the board to "power-cycle" it off and back on again. Once you reconnect in gSender you can try probing again.
 
 <p style="text-align: center;"><em><b>Note:</b> If you reset your board settings, you'll need to go back and change any other settings you changed up until this point,, like inverting the Z-axis for MK1 owners.</em></p>
 

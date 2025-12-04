@@ -59,8 +59,6 @@ These operations are all normally controlled using a machine interface program. 
 
 ![](/_images/_longmill/_the-basics/lm_cncterms_p3_job-newu.jpg){.aligncenter .size-full}
 
-[tabbyending]
-
 **Jog** - The act of moving the machine using manual buttons and controls (not g-code file).
 
 **Origin / Zero** - The starting point if you decide to run a cutting job. You set your origin by assigning each axis location (X, Y, and Z) equal to zero. This doesn't mean it's going to start cutting exactly there, it just helps the machine understand where your stock material is located on the wasteboard. This origin should correspond to the origin of your g-code file, which is defined on the CAM program. It anchors your digital design to the actual cutting job on your machine.
@@ -98,7 +96,7 @@ Cutting away material on a CNC is affected by two major factors:
 
 **Tip / Flute shape (upcut, downcut, compression, straight, corncob)** - The shape of the end mill you are using, which determines its application.
 
-![](/_images/_longmill/_the-basics/lm_cncterms_p6_Tips.jpg "Ballnose mill vs. End mill vs. V-bit"){.aligncenter .size-medium}
+![](/_images/_longmill/_the-basics/lm_cncterms_p6_Tips.jpg "Ball nose mill vs. End mill vs. V-bit"){.aligncenter .size-medium}
 
 <p style="padding-left: 40px;"><b>Flat end</b> mills have a square tip. They can also have spirals (upcut or downcut), or be completely straight. These are good for general purpose milling, such as cutting out borders or straight profiles.</p>
 
@@ -220,10 +218,10 @@ These are the settings you'd change to improve the performance of your cutting j
 
 ## Sources & Other Info
 
-<a href="https://www.cnccookbook.com/cnc-dictionary/">https://www.cnccookbook.com/cnc-dictionary/</a><br>
-<a href="https://shapeokoenthusiasts.gitbook.io/shapeoko-cnc-a-to-z/glossary">https://shapeokoenthusiasts.gitbook.io/shapeoko-cnc-a-to-z/glossary</a><br>
-<a href="https://cimquest-inc.com/what-is-chip-load/">https://cimquest-inc.com/what-is-chip-load/</a><br>
-<a href="https://www.cnccookbook.com/climb-milling-versus-conventional-milling/">https://www.cnccookbook.com/climb-milling-versus-conventional-milling/</a><br>
-<a href="https://www.harveyperformance.com/in-the-loupe/ramping-success/">https://www.harveyperformance.com/in-the-loupe/ramping-success/</a><br>
-<a href="http://www.helmancnc.com/g-code-g95-feed-per-revolution/">http://www.helmancnc.com/g-code-g95-feed-per-revolution/</a><br>
-<a href="https://www.endmill.com.au/pcb-corn-cutter-carbide-router-bit/">https://www.endmill.com.au/pcb-corn-cutter-carbide-router-bit/</a>
+<a href="https://www.cnccookbook.com/cnc-dictionary/" target="_blank" rel="noopener noreferrer">https://www.cnccookbook.com/cnc-dictionary/</a><br>
+<a href="https://shapeokoenthusiasts.gitbook.io/shapeoko-cnc-a-to-z/glossary" target="_blank" rel="noopener noreferrer">https://shapeokoenthusiasts.gitbook.io/shapeoko-cnc-a-to-z/glossary</a><br>
+<a href="https://cimquest-inc.com/what-is-chip-load/" target="_blank" rel="noopener noreferrer">https://cimquest-inc.com/what-is-chip-load/</a><br>
+<a href="https://www.cnccookbook.com/climb-milling-versus-conventional-milling/" target="_blank" rel="noopener noreferrer">https://www.cnccookbook.com/climb-milling-versus-conventional-milling/</a><br>
+<a href="https://www.harveyperformance.com/in-the-loupe/ramping-success/" target="_blank" rel="noopener noreferrer">https://www.harveyperformance.com/in-the-loupe/ramping-success/</a><br>
+<a href="http://www.helmancnc.com/g-code-g95-feed-per-revolution/" target="_blank" rel="noopener noreferrer">http://www.helmancnc.com/g-code-g95-feed-per-revolution/</a><br>
+<a href="https://www.endmill.com.au/pcb-corn-cutter-carbide-router-bit/" target="_blank" rel="noopener noreferrer">https://www.endmill.com.au/pcb-corn-cutter-carbide-router-bit/</a>

@@ -74,7 +74,7 @@ You can choose to either use gSender or the STM Cube Programmer software to upda
    ![](/_images/_superlongboard/_firmware/slb_fi_p4_Flashing-newu.jpg){.aligncenter .size-medium}
 1. Once it's back on, you should be able to re-connect to it in gSender. Go to the **Console tab** and send the command `$rst=$` to revert your machine back to the default firmware settings (you shouldn't get any errors when you send this command).
 
-   ![](/_images/_superlongboard/_firmware/slb_fi_p5_ConsoleRST-newu.jpg){.aligncenter .size-medium}
+   ![](/_images/_superlongboard/_firmware/slb_fi_p5_ConsoleRST-newu-2.jpg){.aligncenter .size-medium}
 1. Power the board off and then back on one more time after sending the command. Finally, if you had any specific settings from your previous setup that you want to check or reload, connect back to gSender and change those firmware values back. Remember to hit "Apply New Settings" when you're doing this and ensure that the settings are being re-added correctly, if they don't seem to be sticking then make sure that your SLB is in an 'Idle' state, cleared of all Alarms, and try turning the SLB off and back on again.
 
 Congrats are in order, well done! If you go back to the 'Console' you should now see that sending the `$i` command will give you new text that matches up with the update you've made.

@@ -151,7 +151,7 @@ You'll know you are successful if the popup button turns blue, and says "Start P
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_-Connect-13.png){.aligncenter .size-medium}
 
-If the light is coming on but the popup button isn't turning blue, this can sometimes be fixed by resetting your board settings. Do this by typing "$RST=$" into the console tab and hitting Enter, then use the power switch on the back of the board to "power-cycle" it off and back on again. Once you reconnect in gSender you can try probing again.
+If the light is coming on but the popup button isn't turning blue, this can sometimes be fixed by resetting your board settings. Do this by typing `$rst=$` into the console tab and hitting Enter, then use the power switch on the back of the board to "power-cycle" it off and back on again. Once you reconnect in gSender you can try probing again.
 
 ![](/_images/_lmmk2/_assembly/_checksmoves/lmk2_checksmoves_-Connect-14.png){.aligncenter .size-medium}
 
