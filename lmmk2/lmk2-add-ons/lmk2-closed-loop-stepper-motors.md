@@ -1,21 +1,21 @@
 ---
 title: Closed Loop Stepper Motor Upgrade
-menu_order: 5
+menu_order: 10
 post_status: draft
-post_excerpt: How to assemble the drag chain and manage the wiring for the LongMill Benchtop CNC. Wire routing for the Makita router and motors is illustrated.
+post_excerpt: How to install and setup the Closed Loop Stepper Motors Kit
 post_date: 2022-03-17 20:11:00
 taxonomy:
-    knowledgebase_cat: lmk2-assembly
+    knowledgebase_cat: lmk2-add-ons
     knowledgebase_tag:
         - mk2
 custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_lmmk2/_assembly/_motorswires/lmk2_motors_Title-Motors-Wiring.png
+featured_image: 
 ---
 
-Switching to the closed loop stepper motors (CLSM) from the open loop motors is easy. The main difference between the open loop and the closed loop motors is that the open loop motors lack positional feedback making them prone to “skipping steps” under load. With closed loop motors there is a feedback system that helps in monitoring their positions which enables them to self-correct errors, improve accuracy and operate more efficiently. The CLSM kit requires the use of the included SuperLongBoard EXT.
+Switching to the Closed Loop Stepper Motors (CLSM) from the open loop motors is easy. The main difference between the open loop and the closed loop motors is that the open loop motors lack positional feedback making them prone to “skipping steps” under load. With closed loop motors there is a feedback system that helps in monitoring their positions which enables them to self-correct errors, improve accuracy and operate more efficiently.
 
 For a more detailed rundown on how to successfully prepare for the use of the SLB-EXT please refer to the following documentation: https://resources.sienci.com/view/am-slb-ext-controller/
 
