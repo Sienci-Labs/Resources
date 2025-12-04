@@ -155,8 +155,8 @@ If there are any known noteworthy designs or modifications made to the LongMill,
 - Michael's <b>touch plate holder</b>: <a href="https://www.prusaprinters.org/prints/32598-LongMill-touch-plate-holder">Printables</a>
 - <a href="https://forum.sienci.com/u/BillKorn">BillKorn</a>'s <b>drag knife</b>: <a href="https://forum.sienci.com/t/drag-knife-for-thin-stock/768">Forum post</a>
 - <a href="https://forum.sienci.com/u/BillKorn">BillKorn</a>'s <b>3D digitizer probe</b>: <a href="https://forum.sienci.com/t/using-a-probe-to-digitize-an-object/1019">Forum post</a>
-- Keith's <b>controller box mounting</b> feet:<a href="https://www.facebook.com/groups/mill.one/permalink/903958263408839/">Facebook post</a>
-- Spike's <b>control panel</b>:<a href="https://www.facebook.com/groups/mill.one/permalink/902963963508269/">Facebook post</a>
+- Keith's <b>controller box mounting</b> feet: <a href="https://www.facebook.com/groups/mill.one/permalink/903958263408839/">Facebook post</a>
+- Spike's <b>control panel</b>: <a href="https://www.facebook.com/groups/mill.one/permalink/902963963508269/">Facebook post</a>
 - <a href="https://forum.sienci.com/u/chrismakesstuff" target="_blank" rel="noopener noreferrer">Chris</a>' <b>vertical stand design</b>: <a href="https://forum.sienci.com/t/stand-design-for-permanent-vertical-cutting/1112" target="_blank" rel="noopener noreferrer">Forum post</a>
 - coreyker's <b>pen/pencil spring mount</b>: <a href="https://github.com/coreyker/LongMill/tree/main/PenMountV1" target="_blank" rel="noopener">GitHub</a>
 - DustinTheMaker's <b>power supply mount</b>: <a href="https://www.thingiverse.com/thing:4569748" target="_blank" rel="noopener">Thingiverse</a>
