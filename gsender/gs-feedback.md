@@ -57,6 +57,10 @@ We'll continue keeping our ears out for common stumbling points while using gSen
 1. If when you open gSender it gives you an error along the lines of "**Entry Point Not Found**", this means that you're trying to use a version of gSender past 1.2.2 with a 32-bit system. If you want to resolve this you'll either need to continue using a version of gSender 1.2.2 or earlier, or change to using a 64-bit system.
 ![](/_images/_gsender/_issues/gs_is_cm_32bit-error.jpg){.aligncenter .size-medium}
 
+### gSender opens Slowly
+
+This is usually due to your computers security software scanning gSender as it's trying to open. See this tip to help with that: https://resources.sienci.com/view/gs-installation/#open-faster.
+
 ### Screen goes Blank
 
 If you find that gSender goes blank after you open it or while using it, there are a couple things you can try.
@@ -92,12 +96,6 @@ If your machine connects on a COM port successfully but the machine status says 
 1. Your board might have corrupted firmware. Re-flash your board if it's a [LongBoard](https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Connected-but-No-Controls.pdf), [SLB](https://resources.sienci.com/view/slb-firmware-flashing/), or by following your manufacturers instructions.
 1. At the least when you plug the board to your computer over USB you should hear a 'connection' sound from your computer. You should also see a new device appear under the Devices and Printers on your computer. If none of these are happening, then that means your computer isn't recognizing the board so you might want to look at drivers or getting further technical support.
 
-### My CNC Profile is not listed
-
-Much of the information that gSender needs about your CNC actually comes from its built-in EEPROM values, so the CNC profiles don't have any impact. This means that as long as your CNC is grbl-based, gSender should be able to control it just fine, even if it's not listed in the presets. Selecting the "Generic" preset will work just fine.
-
-If some aspects of your machine don't seem right, it'll either be because your machine's manufacturer didn't flash your CNC with the appropriate EEPROM settings out of the box or they have some type of documentation which explains the values you need to change manually.
-
 ### Port not Found (3018 CNC)
 
 The 3018 and similar variations have been tested to work with gSender. Sainsmart points out in their documentation that sometimes an additional driver is needed for your computer to recognize the CNC via the USB port. They make this driver <a href="http://s3.amazonaws.com/s3.image.smart/download/101-60-280PRO/CH341SER.ZIP" target="_blank" rel="noopener">available for download here</a>.
@@ -131,6 +129,27 @@ One key bit of information that we need on our end is a picture or screenshot of
 ![](/_images/_gsender/_issues/gs_is_cm_device-id.jpg){.aligncenter .size-medium .nar}
 
 We appreciate your feedback, and with your help we'll make sure the next version of gSender recognizes your machine.
+
+### CNC Profile is not listed
+
+Much of the information that gSender needs about your CNC actually comes from its built-in EEPROM values, so the CNC profiles don't have any impact. This means that as long as your CNC is grbl-based, gSender should be able to control it just fine, even if it's not listed in the presets. Selecting the "Generic" preset will work just fine.
+
+If some aspects of your machine don't seem right, it'll either be because your machine's manufacturer didn't flash your CNC with the appropriate EEPROM settings out of the box or they have some type of documentation which explains the values you need to change manually.
+
+### UI does not fit on the Screen
+
+![](/_images/_gsender/_issues/gs_is_cm_zoom-ui.jpg){.aligncenter .size-full}
+
+We've always done our best to ensure that gSender is clear and easy to use across devices and across screen sizes too - but sometimes there are certain screens that gSender just doesn't suit. In these cases, we recommend you check the 'zoom' on your device until you can see everything clearly and can access all the buttons.
+
+For **Windows**, see a [writeup with pictures here](https://resources.sienci.com/view/gc-setup-and-customizations/#how-to-change-the-display-scale-on-gcontrol) but otherwise the shortened version is:
+
+1. Go to your Desktop, right-click it, the click '**Display settings**' from the menu.
+1. In the Settings window, scroll down to the **Scale & layout** section.
+1. Use the dropdown to choose the scale percentage that works best for you. It's likely that using **100%** will resolve your issue, but try other options if you need to make sure it works on your setup. Windows will automatically apply the new scale once you choose it.
+1. Another option you can adjust is scrolling down to **Text size** on the 'Display settings' page, using the slider to adjust the text size to your preference, then clicking the '**Apply**' button.
+
+For **Linux**: try reducing the app-specific display setting from 1.0 to 0.75 for example.
 
 ### File is Tiny in Visualizer
 
