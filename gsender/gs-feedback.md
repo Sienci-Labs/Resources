@@ -59,7 +59,7 @@ We'll continue keeping our ears out for common stumbling points while using gSen
 
 ### gSender opens Slowly
 
-This is usually due to your computers security software scanning gSender as it's trying to open. See this tip to help with that: https://resources.sienci.com/view/gs-installation/#open-faster.
+This is usually due to your computers security software scanning gSender as it's trying to open. See this tip to help with that: <https://resources.sienci.com/view/gs-installation/#open-faster>.
 
 ### Screen goes Blank
 
