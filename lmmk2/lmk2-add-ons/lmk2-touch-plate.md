@@ -242,6 +242,8 @@ You'll also have the option for choosing which tool you're using, either "Auto" 
 - End mills that are flat bottomed and short, or adapt from a large shaft to a smaller cutting diameter (for instance 1/8" shaft to 1/16" cutting diameter)
   - These can still work as long as the overall bit sticks out far enough (over 20mm) from the collet - it will look weird when it probes because probing in X and Y might touch the shaft instead of the cutting geometry, but as long as you're using **Auto** or you've specified the shaft diameter manually then the probing should still complete fine
 
+![](/_images/_longmill/_assembly/_addons/lm_addons_autozero-bits.jpg){.aligncenter .size-medium}
+
 ### Step 5: Remove magnet
 
 Once your probing is complete, remove the magnet and move the touch plate out of the way. Your machine coordinates should now be updated and ready to use.

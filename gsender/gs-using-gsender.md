@@ -125,6 +125,8 @@ If you have a different setup where probing the front, left corner is less conve
 
 ![](/_images/_gsender/_using/gs_us_probecorner.gif){.aligncenter .size-full}
 
+For two-sided cutting, this can also allow you to register off the same corner on both sides so your tool paths line up (for example, the front left would become the back left when you flip it over).
+
 ## Loading Job Files
 
 If you have already prepared a project file, ensure the following:
