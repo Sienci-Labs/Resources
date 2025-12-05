@@ -774,7 +774,7 @@ If you are using one of the wizard options, know that you can access all other g
 
 You can also learn more about how some of this works by checking out this user-made video by SparksTech!
 
-https://youtu.be/zOPt-GXza8s
+https://youtu.be/kyu2RsZaUA4
 
 ## Rotary / 4th-axis
 
@@ -894,6 +894,8 @@ When you go to Config ➜ Rotary, you'll be able to enter your own settings, res
 
 ## More
 
-There's always more to learn about gSender including many videos of lesser-known tips, setups on different CNCs, and open source modifications people have made. Check out this video of Chris showing off the **New U** release, reviewing some of the new features and what there is to be excited about!
+There's always more to learn about gSender including many videos of lesser-known tips, setups on different CNCs, and open source modifications people have made. For example, check out these videos of Chris showing off some common and less-common tips about how to improve your gSender experience!
 
-https://youtu.be/ZJB4KALmEGI
+https://youtu.be/md_iU6Sgi6k
+
+https://youtu.be/hJfGpHq0Hr0

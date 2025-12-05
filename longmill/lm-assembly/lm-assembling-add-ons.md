@@ -131,7 +131,7 @@ If the probing was **unsuccessful**, then it'll be indicated by the cutting bit 
 
 Open up the probing window in UGS and in the XYZ tab press "Measure outside corner". The LongMill will go through a cycle to probe and take its measurements.
 
-If the probing function is successful, then the machine should return the bit back to the starting point where you initiated the probing cycle. You should notice that the digital readout (DRO) on UGSPlatform changes to reflect the measurements, the current position being offset a little in the X and Y and quite a bit offset in the Z.
+If the probing function is successful, then the machine should return the bit back to the starting point where you initiated the probing cycle. You should notice that the 'DRO' (Digital Read Out) on UGSPlatform changes to reflect the measurements, the current position being offset a little in the X and Y and quite a bit offset in the Z.
 
 You can check that it's now zeroed on the material corner by first taking the touch plate off the material and removing the magnet from the router collet before pressing "Return to Zero".
 

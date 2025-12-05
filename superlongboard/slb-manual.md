@@ -176,7 +176,7 @@ If you want to set up the custom action buttons for your E-stop now, jump forwar
 
 ### USB & Ethernet
 
-The SLB offers USB-C as well as Ethernet as a way to connect your CNC to your computer. Both are isolated for noise, with larger data buffers, and should provide a reliable connection. Though Ethernet is generally considered to be more reliable, we worked hard on a robust USB interface with far more data checks and signal isolation to match a typical Ethernet setup. This means you can use either, but USB-C is more beginner friendly and at the minimum a USB-C connection is needed to perform the initial board setup. If you want to place your computer further away from your machine or feel that the USB is still occasionally causing you issues then we'd recommend switching over to Ethernet.
+The SLB offers USB-C as well as Ethernet as a way to connect your CNC to your computer. Both are isolated for noise, with larger data buffers, and should provide a very reliable connection. We worked hard on a robust USB interface with far more data checks and signal isolation to match a typical Ethernet setup, though Ethernet still has some [inherent reliabilities that will always make it more robust](https://youtu.be/LOIVrVVYBfA). This means you can use either, but USB-C is more beginner friendly and at the minimum a USB-C connection is needed to perform the initial board setup. If you want to place your computer further away from your machine or feel that the USB is still occasionally causing you issues then we'd recommend switching over to Ethernet.
 
 ![](/_images/_superlongboard/_manual/slb_ma_p10_RedBoxes.jpg){.aligncenter .size-full}
 
@@ -201,14 +201,19 @@ Keep in mind that setting up Ethernet is a bit more involved, and at the time of
 
 [tabby title="Current" open="yes"]
 
-1. To start, connect to your CNC over USB to note down the EEPROM values set for the IP address and Netmask (302 and 304). The defaults should be IP: `192.168.5.1` and Netmask: `255.255.255.0` with the IP mode set to `static`.
+1. To start, connect to your CNC over USB, open the Config tab to the Ethernet section, and copy down the numbers you see for the '**IP address**' and '**Netmask**'. The defaults should be `192.168.5.1` and `255.255.255.0` respectively, with the IP mode set to `static`.
   ![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode-newu.jpg){.aligncenter .size-full}
-1. Once confirmed, you can unplug your USB and connect the Ethernet cable directly from your PC to your board. If you look where you plugged the Ethernet cable into the SLBs port from the outside, you should see a green light on and a flickering yellow light.
-1. You'll need to configure the PC's Ethernet interface. Open network connections to get a list of Ethernet ports.
-  ![](/_images/_superlongboard/_manual/slb_ma_p14_TCP.jpg){.aligncenter .size-full}
-1. Right click your Ethernet port and go to Properties and then find the "Internet Protocol Version 4 (TCP/IPv4)" entry and open its properties.
-  ![](/_images/_superlongboard/_manual/slb_ma_p15_IP.jpg){.aligncenter .size-full .nar}
-1. Select the "Use the following IP address:" option and configure it as above. You want the subnet mask to be the same value from the EEPROM 'Netmask'. The IP address should have a different last digit on the same mask - so if the board is device 1 (192.168.5.1), you could call your PC device 5 (192.168.5.5). Click "OK" to save and close the options.
+1. Once copied down, you can unplug your USB and connect the Ethernet cable directly from your PC to your board. If you look where you plugged the Ethernet cable into the SLB from the outside, you should see a green light on and a flickering yellow light.
+1. Now you'll need to configure the PC's Ethernet interface. Start by opening the Windows menu, searching for "network" and click '**View network connections**' to get a list of Ethernet ports.
+  ![](/_images/_superlongboard/_manual/slb_ma_p14_TCP-2.jpg){.aligncenter .size-full}
+1. Here you should be able to find the '**Ethernet**' listed that you connected to your SLB. Even if there are multiple Ethernet options, unplugging and re-plugging the cable from the SLB will show which one it is. Once you know, right-click it and open its '**Properties**'.
+  ![](/_images/_superlongboard/_manual/slb_ma_p14_TCP-3.jpg){.aligncenter .size-full}
+1. In the Properties, find the option for '**Internet Protocol Version 4 (TCP/IPv4)**' and double-click it. Here, you'll want to:
+   - Select the '**Use the following IP address**' option
+   - Type into '**Subnet mask**' the 'Netmask' number you copied down
+   - Type in the '**IP address**' that you copied down, just change the last number (for example, change it from `192.168.5.1` to `192.168.5.5`)
+   - Click '**OK**' to save and close the options
+  ![](/_images/_superlongboard/_manual/slb_ma_p15_IP-2.jpg){.aligncenter .size-full}
 1. Back in gSenders Config tab ➜ Ethernet section, make sure the IP address for gSender matches the IP address from the firmware.
   ![](/_images/_superlongboard/_manual/slb_ma_p16_EEPROM-newu.jpg){.aligncenter .size-medium}
 1. Now click on Connect to CNC, choose the Ethernet Port option and you should see it connect successfully :)
@@ -217,17 +222,22 @@ Keep in mind that setting up Ethernet is a bit more involved, and at the time of
 
 [tabby title="Classic gSender"]
 
-1. To start, connect to your CNC over USB to note down the EEPROM values set for the IP address and Netmask (302 and 304). The defaults should be IP: `192.168.5.1` and Netmask: `255.255.255.0` with the IP mode set to `static`.
+1. To start, connect to your CNC over USB, open the Config tab to the Ethernet section, and copy down the numbers you see for the '**IP address**' and '**Netmask**'. The defaults should be `192.168.5.1` and `255.255.255.0` respectively, with the IP mode set to `static`.
   ![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode.jpg){.aligncenter .size-full .nar}
-1. Once confirmed, you can unplug your USB and connect the Ethernet cable directly from your PC to your board. If you look where you plugged the Ethernet cable into the SLBs port from the outside, you should see a green light on and a flickering yellow light.
-1. You'll need to configure the PC's Ethernet interface. Open network connections to get a list of Ethernet ports.
-  ![](/_images/_superlongboard/_manual/slb_ma_p14_TCP.jpg){.aligncenter .size-full}
-1. Right click your Ethernet port and go to Properties and then find the "Internet Protocol Version 4 (TCP/IPv4)" entry and open its properties.
-  ![](/_images/_superlongboard/_manual/slb_ma_p15_IP.jpg){.aligncenter .size-full .nar}
-1. Select the "Use the following IP address:" option and configure it as above. You want the subnet mask to be the same value from the EEPROM 'Netmask'. The IP address should have a different last digit on the same mask - so if the board is device 1 (192.168.5.1), you could call your PC device 5 (192.168.5.5). Click "OK" to save and close the options.
-1. Back in gSenders general Settings, make sure the IP Range matches the IP from the EEPROM.
-  ![](/_images/_superlongboard/_manual/slb_ma_p16_EEPROM.jpg){.aligncenter .size-full .nar}
-1. With the grblHAL firmware selected, choose the 'Network Devices' option and you should see it connect successfully :)
+1. Once copied down, you can unplug your USB and connect the Ethernet cable directly from your PC to your board. If you look where you plugged the Ethernet cable into the SLB from the outside, you should see a green light on and a flickering yellow light.
+1. Now you'll need to configure the PC's Ethernet interface. Start by opening the Windows menu, searching for "network" and click '**View network connections**' to get a list of Ethernet ports.
+  ![](/_images/_superlongboard/_manual/slb_ma_p14_TCP-2.jpg){.aligncenter .size-full}
+1. Here you should be able to find the '**Ethernet**' listed that you connected to your SLB. Even if there are multiple Ethernet options, unplugging and re-plugging the cable from the SLB will show which one it is. Once you know, right-click it and open its '**Properties**'.
+  ![](/_images/_superlongboard/_manual/slb_ma_p14_TCP-3.jpg){.aligncenter .size-full}
+1. In the Properties, find the option for '**Internet Protocol Version 4 (TCP/IPv4)**' and double-click it. Here, you'll want to:
+   - Select the '**Use the following IP address**' option
+   - Type into '**Subnet mask**' the 'Netmask' number you copied down
+   - Type in the '**IP address**' that you copied down, just change the last number (for example, change it from `192.168.5.1` to `192.168.5.5`)
+   - Click '**OK**' to save and close the options
+  ![](/_images/_superlongboard/_manual/slb_ma_p15_IP-2.jpg){.aligncenter .size-full}
+1. Back in gSenders General Settings, make sure the IP Range matches the IP from the EEPROM.
+  ![](/_images/_superlongboard/_manual/slb_ma_p16_ip-match.jpg){.aligncenter .size-full .nar}
+1. With the **grblHAL firmware selected**, choose the 'Network Devices' option and you should see it connect successfully :)
   ![](/_images/_superlongboard/_manual/slb_ma_p17_Connected.jpg){.aligncenter .size-full}
 1. If you have a problem connecting with Ethernet, go back over the setup steps. You can also reconnect over USB to double-check your SLB Ethernet settings.
 

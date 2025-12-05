@@ -183,6 +183,12 @@ Alternatively, gSender's 'Start/Stop G-code' can also be equipped to sidestep pr
 
 This is a quirk of grbl boards where after changing this value you need to make a motor movement (a jog movement for example) before the new value will take effect.
 
+### Visualizer screen is White
+
+If your visualizer is always white, or you see the error message that your "graphics card does not support WebGL", open Google Chrome and type `chrome://settings` into the top bar to visit your Chrome-specific settings. At the bottom of the menu on the left, open the '**Advanced**' tab and click on the '**System**' option, then ensure that the '**Use hardware acceleration when available**' is selected. On some older Chrome versions you might have to visit `chrome://flags` instead.
+
+After this, restart gSender to see if the visualizer is now up and running. If it's still not working, you might have to also look into updating any out-of-date drivers for your video card.
+
 ### Many Little Lines on my Screen
 
 This is something that can happen if you have certain graphics GPUs. To fix it you should be able to go to your GPU Control Panel, Manage the 3D Settings, and either turn off Image Sharpening or Hardware Acceleration.

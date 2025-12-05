@@ -38,7 +38,7 @@ Another of gSender's Design Principals is colouring. It can be scary to have an 
 This is where you will spend the majority of your time actually carving. When the program opens, this is where you will arrive! There are 2 main sections to the Carve tab.
 
 1. The large middle visualizer (boxed in red), is where you manage your files and can watch the magic happen after you hit the Start button. Rotate your view, monitor the job progress, turn on lightweight mode, change workspaces, adjust feed rate, and more.
-1. The DRO and Jog Controls on the right (boxed in blue), have all the functions you need to manually control your CNC when jobs aren't running. This includes jogging, zero setting, homing, Go to movements, and more. The section at the bottom includes extra features like probing, macros, manual spindle/laser control, and more.
+1. The 'DRO' (Digital Read Out) and Jog Controls on the right (boxed in blue), have all the functions you need to manually control your CNC when jobs aren't running. This includes jogging, zero setting, homing, Go to movements, and more. The section at the bottom includes extra features like probing, macros, manual spindle/laser control, and more.
 
 ![](/_images/_gsender/_setup/gs_se_carve-tab.jpg){.aligncenter .size-medium}
 
@@ -77,7 +77,7 @@ Let's explore some common gSender settings to help get your setup running the wa
 1. **Preferred units**
    - In the Basics section, change which units (mm or inches) you want to see on the main Carve screen (Config units will always display as mm)
    ![](/_images/_gsender/_setup/gs_se_configstart1.jpg){.aligncenter .size-medium}
-   The Carve tab will always show the units you set at the top left corner of the DRO (Digital Read Out).
+   The Carve tab will always show the units you set at the top left corner of the DRO.
    ![](/_images/_gsender/_setup/gs_se_units-mainscreen.jpg){.aligncenter .size-medium}
 1. **Enable other CNC functions**
    - If your CNC supports them, this can include a Spindle, Laser, Rotary axis, and more. Just go to the appropriate section in Config and the first option you should see should mention "enabling" it. After Applying the changes you'll see a new tab appear in the bottom-right of the main Carve screen.
@@ -145,6 +145,10 @@ Out with the old **Classic version**, and in with the **New U!!** Let's dive int
 ![](/_images/_gsender/_setup/gs_se_trans-newu-main2.jpg)
 
 ### Key Enhancements
+
+Check out this video of Chris showing off the **New U** release, reviewing some of the new features and what there is to be excited about!
+
+https://youtu.be/ZJB4KALmEGI
 
 We've combined similar features, and are excited to share things like our new **Stats Tab** which incorporates stats, maintenance, diagnostics, and more into a simple dashboard, as well as the new **Config Tab** which puts all of your settings into one place, so no more flipping between the Firmware and gSender settings.
 
