@@ -26,6 +26,10 @@ Many hobby CNC routers tend to utilize trim routers because their power, weight,
 
 ## AutoSpin T1
 
+![](/_images/_lmmk2/_the-basics/lmk2_routerspindle_autospin.png){.alignleft .size-full .nar}
+
+<a href="https://sienci.com/product/autospin-t1-router/" target="_blank" rel="noreferrer noopener">Sienci Labs Store</a>
+
 The AutoSpin T1 is an enhanced trim router designed by Sienci Labs, capable of automated speed control like a spindle but also allowing for manual speed control with a dial. It uses a 1-1/4HP motor and can run between 10,000 RPM to 30,000 RPM. It is tuned for stable cutting speeds, suited for multi-hour projects on your CNC machine. We highly recommend starting off with manual mode to get the hang of the CNC workflow, then jump into spindle mode where you can automate your starts, stops and speed changes through g-code commands.
 
 ## Makita RT0700/RT0701
