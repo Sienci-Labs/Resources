@@ -25,6 +25,9 @@ Routers and spindles come in all shapes and sizes. When considering the right to
 Many hobby CNC routers tend to utilize trim routers because their power, weight, price, and off-the-shelf circuitry balance well with hobby applications. After much testing with the LongMill, we landed on the Makita RT0700/RT0701 as the ideal choice.
 
 ## AutoSpin T1
+<img alt="AutoSpin-T1-Router-Thumbnail" src="https://github.com/user-attachments/assets/20c2fab6-060d-4227-98b7-5d87a86c33d6" />{.alignleft .size-full .nar}
+
+<a href="http://www.homedepot.com/p/Makita-1-1-4-HP-Compact-Router-RT0701C/204247210](https://sienci.com/product/autospin-t1-router/" target="_blank" rel="noreferrer noopener">Sienci Labs</a>
 
 The AutoSpin T1 is an enhanced trim router designed by Sienci Labs, capable of automated speed control like a spindle but also allowing for manual speed control with a dial. It uses a 1-1/4HP motor and can run between 10,000 RPM to 30,000 RPM. It is tuned for stable cutting speeds, suited for multi-hour projects on your CNC machine. We highly recommend starting off with manual mode to get the hang of the CNC workflow, then jump into spindle mode where you can automate your starts, stops and speed changes through g-code commands.
 
