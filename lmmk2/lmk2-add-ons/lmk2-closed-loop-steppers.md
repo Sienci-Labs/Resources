@@ -123,7 +123,7 @@ With the upgraded motors and SLB EXT, you will receive new limit switches with s
 
 Locate your X-axis & Z-axis sensors and loosen the nuts, then remove them.
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-limit-switches.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-limit-switch.jpg){.aligncenter .size-medium}
 
 For your Y-axis sensor, remove the bracket from the rail, we will be moving it to the back of the rail, and to the bottom.
 
@@ -142,7 +142,7 @@ For the Y-axis, we will be using a bracket to mount the sensor under the Y-axis 
 
 Slip an M5-T Nut into the slot at the back of both Y-axis rails and secure it with an M5-10 mm hex head screw, with **two washers**. Do not tighten this all the way down yet, as we will be sliding the bracket onto it. You can use the wrench that shipped with your LongMill, or one you have in your shop to assist in this step.
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxis-slot.jpg){.align-center .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxis-slots.jpg){.align-center .size-medium}
 
 Slide the bracket onto the 10mm M5 screw until it bottoms out, then tighten down the screw, while holding the sensor.
 
