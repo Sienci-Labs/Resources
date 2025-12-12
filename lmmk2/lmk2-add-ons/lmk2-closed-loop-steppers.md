@@ -83,9 +83,9 @@ Ok, nicely done! We will now run the process we just completed, in reverse. Grab
 
 Let's begin by sliding each M5-50mm bolt into a matching 40mm spacer.
 
-**Note - If you are using a dust shield, use 4 M5 - 55mm socket head screws
+Thread each bolt/spacer into the corresponding 4 holes to secure the motor in place. Using either a drill or an M5 allen key, tighten each spacer/bolt combo. 
 
-Thread each bolt/spacer into the corresponding 4 holes to secure the motor in place. Using either a drill or an M5 allen key, tighten each spacer/bolt combo.
+**Note - The latest motors do not have a red stripe around them, they are all black.**
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-motor-installjpg.jpg){.aligncenter .size-medium}
 
@@ -131,7 +131,7 @@ For your Y-axis sensor, remove the bracket from the rail, we will be moving it t
 
 ### Install New Sensors
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header6.jpg){.aligncenter .size-full .wid}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-headerwashers.jpg){.aligncenter .size-full .wid}
 
 For the Z & X-axis, you can simply pop the new pigtail limit switches into the old holes, and tighten the nuts down again. This process is exactly the same for the Z-axis and the X-axis, but differs a bit for the two Y-axis switches.
 
@@ -160,7 +160,7 @@ Now that we have all 4 motors mounted and the inductive sensors re-arranged, let
 
 ### Drag Chain & Wires
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header4.jpg){.aligncenter .size-full .wid}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header4new.jpg){.aligncenter .size-full .wid}
 
 If you have not yet opened all of the tabs in both drag chains, do so at this time. You can slip a small flat head screw driver under each tab to pop them open. We will be replacing the Y-axis drag chain, and upgrading it to a larger size, so you can remove this drag chain entirely at this time.
 
@@ -194,9 +194,9 @@ When looking at your motor cables, you will notice each one is labelled with the
 
 The motor cables have 3 plugs to attach on each end. The two green plugs are for your new motor, and the middle black one is for your limit switch/inductive sensor. No more individual cables, we've combined them all together!
 
-Plug in the green motor power and motor signal connectors.
+Plug in the green motor power and motor signal connectors. **Be aware that your motors may have an extra set of connectors, already in place. You can remove these for safekeeping, as the wires all have the connectors already!**
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-motorplugs.jpg){.align-center .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-motorplugsnew.jpg){.align-center .size-medium}
 
 Now clip the black limit switch sensors together.
 
@@ -210,7 +210,7 @@ Once the power has been plugged in, tighten the screws down on the power plug wi
 
 Your kit has included motor covers, to protect your motors from bumps or accidental unplugs. Remove the top-left and bottom-right M3 screws from the X-axis motor using the 2.5mm Allen-key provided.
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-motorscrewremoval.jpg){.align-center .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-motorscrewremovalnew.jpg){.align-center .size-medium}
 
 Install the motor cover onto the back of the motor using M3-40mm screws. Orient the motor cover so the wires exit upwards.
 
