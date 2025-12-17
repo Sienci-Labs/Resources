@@ -58,7 +58,7 @@ First ensure that your LongMill's power supply cable is connected to the wall an
 
 Other things you can check:
 
-- If the red light on the controller top (newer versions) or on the drivers (visible through the grates on the underside of the controller) are on, then you are getting power to the controller. You may be having issues with connecting your machine to the computer.
+- If the reds light on the controller top (newer versions) or on the drivers (visible through the grates on the underside of the controller) are on, then you are getting power to the controller. You may be having issues with connecting your machine to the computer.
 - Make sure that the polarity of the power wiring is correct. Switch the wires around if need be (see picture).
 - If you have a older power switch model and the red LED lights  flicker or turn off right when the power switch is turned on, you may have a faulty switch. Please contact us.
 - If you have a newer E-stop model, check that the E-stop is plugged into the **top** of the LongBoard, and the power supply is plugged into the **side** of the LongBoard. <a href="https://drive.google.com/file/d/10I-XiU6GuIwgeMfRe_LBDjoDTnmqmISy/view?usp=sharing" target="_blank" rel="noopener">View the correct installation here.</a> You can also check that the wiring is secured inside the E-stop itself by unfastening the 4 screws on the lid with a screwdriver. There should be two wires secured on either terminal (polarity doesn't matter).
