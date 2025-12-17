@@ -58,10 +58,10 @@ First ensure that your LongMill's power supply cable is connected to the wall an
 
 Other things you can check:
 
-- If the reds light on the controller top (newer versions) or on the drivers (visible through the grates on the underside of the controller) are on, then you are getting power to the controller. You may be having issues with connecting your machine to the computer.
+- If the red light on the controller top (newer versions) or on the drivers (visible through the grates on the underside of the controller) are on, then you are getting power to the controller. You may be having issues with connecting your machine to the computer.
 - Make sure that the polarity of the power wiring is correct. Switch the wires around if need be (see picture).
-- If you have a older power switch model and the red LED lights  flicker or turn off right when the power switch is turned on, you may have a faulty switch. Please contact us.
-- If you have a newer E-stop model, check that the E-stop is plugged into the **top** of the LongBoard, and the power supply is plugged into the **side** of the LongBoard. <a href="https://drive.google.com/file/d/10I-XiU6GuIwgeMfRe_LBDjoDTnmqmISy/view?usp=sharing" target="_blank" rel="noopener">View the correct installation here.</a> You can also check that the wiring is secured inside the E-stop itself by unfastening the 4 screws on the lid with a screwdriver. There should be two wires secured on either terminal (polarity doesn't matter).
+- If you have a older power switch model and the red LED lights  flicker or turn off right when the power switch is turned on, you may have a faulty switch. Please contact us.
+- If you have a newer E-stop model, check that the E-stop is plugged into the **top** of the LongBoard, and the power supply is plugged into the **side** of the LongBoard. <a href="https://drive.google.com/file/d/10I-XiU6GuIwgeMfRe_LBDjoDTnmqmISy/view?usp=sharing" target="_blank" rel="noopener">View the correct installation here.</a> You can also check that the wiring is secured inside the E-stop itself by unfastening the 4 screws on the lid with a screwdriver. There should be two wires secured on either terminal (polarity doesn't matter).
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p3_Polarity.jpg "The wire on the left should be white, and the wire on the right should be black.")
 
 ### One motor does not move or moves erratically
@@ -101,7 +101,7 @@ When jogging or running the LongMill, one of the motors does not move correctly 
 ### Y-axis is skewing (one side moves further than the other)
 
 - Run the machine to the back until you hear a grinding noise, this will realign your y-axis gantries to be square with the X-axis. See if the issue is still persisting by jogging back and forth, moving through the entirety of the Y-axis travel.
-- Power off the machine. Using your hands, turn each Y-axis lead screw a few rotations, checking that they are difficult but not impossible to turn and that they are equally hard to turn.  If that is not the case, adjust by slightly loosening the fasteners in the anti-backlash nut with an Allen key (both the mounting screws and the single screw sticking out). Keep checking and adjusting the lead screws until they are equal and difficult to turn by hand.
+- Power off the machine. Using your hands, turn each Y-axis lead screw a few rotations, checking that they are difficult but not impossible to turn and that they are equally hard to turn.  If that is not the case, adjust by slightly loosening the fasteners in the anti-backlash nut with an Allen key (both the mounting screws and the single screw sticking out). Keep checking and adjusting the lead screws until they are equal and difficult to turn by hand.
 - The microstepping on your drivers may not be set correctly. Check the drivers under your machine and make sure that they are set to 1/8" <a href="https://resources.sienci.com/view/lm-microstepping/" target="_blank" rel="noopener">microstepping</a> by ensuring that the DIP switches are in the correct position.
 
 ## Cutting Issues
@@ -165,7 +165,7 @@ Loss of connection on a long job can happen if your computer or USB port 'fall a
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p11_p4.png){.aligncenter .size-medium}
 - Go to the second drop-down and set it to **Never**, save the changes to ensure that your computer never dozes off on its own. An additional step can be to stop your USB ports from 'sleeping' by clicking **Change advanced power settings**
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p12_p5.png){.aligncenter .size-medium}
-- In the separate window that appears, you'll want to Expand the **USB Settings**, then **USB selective suspend setting**, and finally change this drop-down to "**Disabled**". Click to **Apply** these new settings. **!!** Sometimes on a Windows update these settings will be reset, if you want to make sure you've got all your bases covered, be sure to check back on these settings on occasion if you want to feel confident while running long jobs. !!
+- In the separate window that appears, you'll want to Expand the **USB Settings**, then **USB selective suspend setting**, and finally change this drop-down to "**Disabled**". Click to **Apply** these new settings. **!!** Sometimes on a Windows update these settings will be reset, if you want to make sure you've got all your bases covered, be sure to check back on these settings on occasion if you want to feel confident while running long jobs. !!
 ![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p13_p6.png){.aligncenter .size-medium}
 
 ### My bit is crashing into the touch plate
