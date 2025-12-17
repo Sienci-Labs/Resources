@@ -81,7 +81,6 @@ Don't worry, we supply extra additional parts in case you need spares from somet
 
 Something's happened during the operation of the machine which was unexpected so it's decided to lock itself just in case.
 
-- Something's happened during the operation of the machine which was unexpected so it's decided to lock itself just in case.
 - If your machine has 'homing' enabled, this will cause the controller to start in an alarm state upon connecting to prompt you to run the homing cycle, so this is normal.
 - In gSender, you can click or hover over the question mark symbol to bring up more information about the alarm.
 - Click the 'Unlock' button below the alarm in gSender to bring it out of the alarm state and back into its 'IDLE' state.
