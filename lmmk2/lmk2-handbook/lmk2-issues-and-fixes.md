@@ -64,7 +64,7 @@ Don't worry, we supply extra additional parts in case you need spares from somet
 - Make sure that the polarity of the power wiring is correct.
 - If the red light on the controller top (newer versions) or on the drivers (visible through the grates on the underside of the controller) are on, then you are getting power to the controller. You may be having issues with connecting your machine to the computer.
 
-![](/_images/_lmmk2/_handbook/lmk2_issues_e-stop-installed.png "E-stop correctly installed in the image on the right"){.aligncenter .size-full}
+![](/_images/_lmmk2/_handbook/lmk2_issues_e-stop-installed.jpg "E-stop correctly installed in the image on the right"){.aligncenter .size-full}
 
 ### Cannot connect to the machine
 
@@ -81,13 +81,22 @@ Don't worry, we supply extra additional parts in case you need spares from somet
 
 Something's happened during the operation of the machine which was unexpected so it's decided to lock itself just in case.
 
-- In gSender, you can hover over the question mark symbol to bring up a pop-up box with an explanation of the alarm.
-- To bring it out of the alarm state, click on the button below the alarm in gSender to put the machine back into its 'IDLE' state.
-- If your machine had 'homing' enabled, this will cause the controller to start in an alarm state upon connecting to prompt you to run the homing cycle.
+- Something's happened during the operation of the machine which was unexpected so it's decided to lock itself just in case.
+- If your machine has 'homing' enabled, this will cause the controller to start in an alarm state upon connecting to prompt you to run the homing cycle, so this is normal.
+- In gSender, you can click or hover over the question mark symbol to bring up more information about the alarm.
+- Click the 'Unlock' button below the alarm in gSender to bring it out of the alarm state and back into its 'IDLE' state.
 - In some cases, your EEPROM settings (the machine settings) have changed. Make sure they are correct by referring to the <a href="https://resources.sienci.com/view/lmk2-EEPROM-settings/" target="_blank" rel="noopener">default EEPROM settings</a>.
 - If it continues to go into an ALARM state under similar conditions in the future, check that no wires or hardware have come loose and that there's nothing externally affecting the movement of your machine.
 
-![](/_images/_lmmk2/_handbook/lmk2_issues_gsender-alarm.png "Alarm 4 triggered, indicating an issue with the probing cycle"){.aligncenter .size-medium}
+[tabby title="Current" open="yes"]
+
+![](/_images/_lmmk2/_handbook/lmk2_issues_gsender-alarm-newu.jpg "Alarm 9 triggered, indicating an issue with the homing cycle"){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
+![](/_images/_lmmk2/_handbook/lmk2_issues_gsender-alarm.jpg "Alarm 4 triggered, indicating an issue with the probing cycle"){.aligncenter .size-medium}
+
+[tabbyending]
 
 ## Movement issues
 
@@ -149,7 +158,7 @@ https://youtu.be/p5SpgoUza7o
 - Loosen the acme nut so it's resting against the washer but not putting any lateral pressure of the inner race against toward the gantry.
   ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_V2T12ClampingNutAssemblyPhoto-1.jpg){.aligncenter .size-medium}
 - Make sure the two mounting nuts that hold the blocks to the gantry are only tightened till snug. **Do Not** over-tighten them. It will put unwanted pressure on the lead screw.
-  ![](/_images/_lmmk2/_handbook/lmk2_issues_backlash-bolts.png){.aligncenter .size-medium}
+  ![](/_images/_lmmk2/_handbook/lmk2_issues_backlash-bolts.jpg){.aligncenter .size-medium}
 - Loosen the set screw on the anti-backlash blocks using the set screw shown below. The lead screw should rotate by hand easily at this stage. If not, make sure the mounting bolts and acme nut are adjusted as noted above. Tighten the set-screw a 1/4 turn at at time till the lead screw rotates by hand with some difficulty. Any tension on the lead screw will be adjusted by the set screw.
   ![](/_images/_lmmk2/_handbook/lmk2_issues_backlash-tension.jpg){.aligncenter .size-full}
 
@@ -182,7 +191,7 @@ https://youtu.be/p5SpgoUza7o
 
 - If you have the 'homing cycle' enabled in your firmware settings, any 'G28' command used for a safe retract height will cause the machine to move to it's Z-axis home position. If you have not homed the machine before this command is called, the Z-axis may not lift high enough, or plunge into the work material. With the 'homing cycle' disabled, gSender will automatically ignore these 'G28' commands and will lift the Z-axis to a clearance height instead.
 - If you are using Fusion 360, ensure that 'Safe Retracts' is set to 'Clearance Height.'
-![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p7_f360.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p7_f360.jpg){.aligncenter .size-medium}
 - Ensure that you are not hitting the Z-axis movement limits when running the job.
 - Review the g-code with a visualizer (<a href="https://ncviewer.com/">https://ncviewer.com/</a>) to ensure there are no unexpected toolpaths or incorrect g-code commands.
 - Check all the transmission components (V-wheels, couplers, ACME nuts, anti-backlash nuts, pulleys)
@@ -247,7 +256,7 @@ It is highly recommended that you have your dust collection and your machine on 
 - Using bare solid copper wire between 10 to 18 AWG, wrap the wire around the body of the dust shoe and hose securely. Make sure the wire will not get caught in any moving parts during use. Fasten one end of the wire at the dust shoe end, and the other fixed directly to the ground stake or other grounded item such as an outlet box, electrical box, or grounded 3-prong power bar.
 - You can also pick up something like the Grounding Kit that's offered by Lee Valley. This is a collection of essentially speaker wire, twist-on wire connectors, and some screws: <a href="https://www.leevalley.com/en-ca/shop/tools/workshop/dust-collection/parts-and-accessories/62616-grounding-kit-for-dust-collection-systems?item=03J6201" target="_blank" rel="noopener">https://www.leevalley.com/en-ca/shop/tools/workshop/dust-collection/parts-and-accessories/62616-grounding-kit-for-dust-collection-systems?item=03J6201</a>
 
-![](/_images/_lmmk2/_handbook/lmk2_issues_grounding-diagram.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_handbook/lmk2_issues_grounding-diagram.jpg){.aligncenter .size-medium}
 
 ### Machine disconnects from power surges
 

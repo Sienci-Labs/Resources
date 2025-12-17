@@ -135,7 +135,7 @@ Excessive wobble is when the lead screw is deviating from center by more than ab
 
 - If you have the 'homing cycle' enabled in your firmware settings, any 'G28' command used for a safe retract height will cause the machine to move to it's Z-axis home position. If you have not homed the machine before this command is called, the Z-axis may not lift high enough, or plunge into the work material. With the 'homing cycle' disabled, gSender will automatically ignore these 'G28' commands and will lift the Z-axis to a clearance height instead.
 - If you are using Fusion 360, ensure that 'Safe Retracts' is set to 'Clearance Height.'
-![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p7_f360.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_commonissues/lm_commonissues_p7_f360.jpg){.aligncenter .size-medium}
 - Ensure that you are not hitting the Z-axis movement limits when running the job.
 - Review the g-code with a visualizer (<a href="https://ncviewer.com/">https://ncviewer.com/</a>) to ensure there are no unexpected toolpaths or incorrect g-code commands.
 - Check all the transmission components (V-wheels, couplers, ACME nuts, anti-backlash nuts, pulleys)
