@@ -19,6 +19,8 @@ TODO
 ## Elaborate / more Comprehensive content on
 
 - **Claimed by Kelly** "CNC Routers" general explanation on CNCs and what they can do
+  - Add Sally’s cutting display? Faces project
+  - Add to first project page https://youtu.be/ta0xnLkr4AU
 - **Claimed by Kelly** "Surfacing" better explain what it's accomplishing, bit selection, and the different ways to set it up
 - **Claimed by Kelly** "Routers/Spindles" explore what situations you should choose which
 - **Claimed by Chris** "Vortex basics" explanation, fine by Daniel as long as it's not too technical
@@ -38,6 +40,8 @@ TODO
 
 - **Claimed by Stephen** Tramming
 - **Claimed by Stephen** Preparing to be a CNC Owner
+  - List of common costs to consider to own a CNC arranged from generally most expensive to least and gives price ranges
+  - That list also briefly talks about why those items are needed and then links through to full explainer pages
 - CNC Buyers Guide
 - How to start a business/price CNC Projects  
 - Video Compilation Page
