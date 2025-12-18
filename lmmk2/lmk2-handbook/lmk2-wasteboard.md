@@ -1,7 +1,7 @@
 ---
-title: ytsb Wasteboard & Fixtures
+title: Wasteboard & Fixtures
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: Learn how to enhance your LongMill's capabilities with matching a wasteboard and fixtures to your cutting needs. Also covers wasteboard surfacing.
 post_date: 2022-03-17 20:37:00
 taxonomy:
@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_lmmk2/_handbook/lmk2_wasteboard_gSsender-1-0-5-surfacing-utility-ann.png
+featured_image: _images/_lmmk2/_handbook/lmk2_wasteboard_gsender-utility-newu.jpg
 ---
 
 The wasteboard for your LongMill MK2 can come in all sorts of shapes and sizes and can allow you to do a variety of things such as:
@@ -52,12 +52,18 @@ There's nothing fancy about surfacing g-code, it's usually a simple spiral or zi
 
 With all these values in mind, you should be able to plug them into whatever program you typically use and create the surfacing code you need. Draw a rectangle, specify a 'pocket' cut out operation, and fill in the remaining settings.
 
-We also have a 'Surfacing' utility built into gSender that you can use for g-code generation with much less fuss. Once you decide on your settings you can 'Generate G-code' to view the path and then 'Run on Main Visualizer' to import the g-code to run it just like a regular g-code file.
+We also have a 'Surfacing' utility built into gSender that you can use for g-code generation with much less fuss. Once you decide on your settings you can 'Generate G-code' to view the path and then 'Load to Main Visualizer' to import the g-code to run it just like a regular g-code file.
 
-![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gSsender-1-0-5-surfacing-utility-ann.png){.aligncenter .size-medium}
+[tabby title="Current" open="yes"]
+
+![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gsender-utility-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
+![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gsender-utility.jpg){.aligncenter .size-medium}
 
 [tabbyending]
 
 And there are still more options like INTUWiz, an online g-code generation program that is able to generate "facing" g-code (<a href="http://www.intuwiz.com/plane.html#.Xidt8sjYouV" target="_blank" rel="noopener">http://www.intuwiz.com/plane.html#.Xidt8sjYouV</a>).
 
-![](/_images/_lmmk2/_handbook/lmk2_wasteboard_INTUWiz-generation.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_handbook/lmk2_wasteboard_intuwiz-gen.jpg){.aligncenter .size-medium}

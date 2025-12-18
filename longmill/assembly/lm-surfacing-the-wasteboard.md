@@ -58,7 +58,7 @@ We also have a 'Surfacing' utility built into gSender that you can use for g-cod
 
 [tabby title="Classic gSender"]
 
-![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gsender-utility-ann.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gsender-utility.jpg){.aligncenter .size-medium}
 
 [tabbyending]
 

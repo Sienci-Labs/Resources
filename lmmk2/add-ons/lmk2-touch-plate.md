@@ -177,7 +177,7 @@ If the probing was **unsuccessful**, then it'll be indicated by the cutting bit 
 
 If everything went according to plan, you should now see your bit hovering at the material corner like this:
 
-![](/_images/_longmill/_assembly/_addons/lm_addons_p8_Corner.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_addons/lm_addons_p8_Corner.jpg){.aligncenter .size-medium}
 
 Remove your magnet and set your touch plate aside, and you're done!
 

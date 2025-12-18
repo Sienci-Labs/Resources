@@ -180,32 +180,9 @@ Sometimes when you start the job, you’ll need to make adjustments to the machi
 
 ### Feed Rate Using gSender
 
-When a job has been started, gSender will shoe a feed adjustment control panel beside the machining time. Clicking on the plus or minus button will adjust the feed rate faster and slower. The chart below shows what each of the buttons do.
+When a job has been started, gSender will show a feed adjustment control panel beside the machining time. Clicking on the plus or minus button will adjust the feed rate 10% faster and slower. You can also adjust the slider to the right to speed up and to the left to slow down. The speed is always reflected in the blue text above the slider. Hitting the circle arrow on the left, will reset the feed to 100%.
 
-![](/_images/_lmmk2/_handbook/lmk2_runjobs_feed-Rate-adjustment..jpg){.aligncenter .size-full}
-
-[su_table responsive="yes"]
-
-<table>
-<tbody>
-<tr>
-<td style="text-align: center;"><strong>- -</strong></td>
-<td style="text-align: center;"><strong>-</strong></td>
-<td style="text-align: center;"><strong>+</strong></td>
-<td style="text-align: center;"><strong>++</strong></td>
-<td style="text-align: center;"><strong>&lt;--</strong></td>
-</tr>
-<tr>
-<td>Decrease speed 10%</td>
-<td>Decrease speed 2%</td>
-<td>Increase speed 2%</td>
-<td>Increase speed 10%</td>
-<td>Reset to Original speed</td>
-</tr>
-</tbody>
-</table>
-
-[/su_table]
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_feedrateadj.jpg){.aligncenter .size-full}
 
 It’s important to remember, however, that while you may want to modify the cutting feed rate for some cutting operations, the machine will continue using this feed rate override for subsequent cutting operations. For example, if you’ve overridden the feed rate by 200% while cutting the outline of your project at very shallow depths, you’ll want to reset the feed rate to its original speed before it next moves on to cutting out a pocket at a much deeper depth.
 
