@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_lmmk2/_handbook/lmk2_wasteboard_gSsender-1-0-5-surfacing-utility-newu.jpg
+featured_image: _images/_lmmk2/_handbook/lmk2_wasteboard_gsender-utility-newu.jpg
 ---
 
 The wasteboard for your LongMill MK2 can come in all sorts of shapes and sizes and can allow you to do a variety of things such as:
@@ -25,13 +25,9 @@ The wasteboard for your LongMill MK2 can come in all sorts of shapes and sizes a
 - Mounted vise for metal fixturing or multi-axis machining
 - Vertical or pivoting surface for end grain CNCing
 
-We're working on more documentation so that you can see more examples of different wasteboards and see the range of possibilities available to you. To start off though, you'll need to know how to prepare your surface so that it can help you to get accurate cuts on your MK2.
+## Why do Surfacing?
 
-## Wasteboard Surfacing
-
-https://youtu.be/jfInIEOB3kU
-
-Surfacing is simply the process of 'flattening' your LongMill wasteboard setup. Flattening is in quotes because we're not actually making a true flat surface with this process, instead we're trying to make a surface that's parallel to the CNC. This is important since when you tell it to cut a 1mm deep circle into your material you'd want it to me 1mm deep at all points along that circle, not deeper in some areas and shallower in others. Surfacing can also:
+Surfacing is simply the process of 'flattening' your LongMill wasteboard. Flattening is in quotes because we're not actually making a true flat surface with this process, instead we're trying to make a surface that's parallel to the CNC. This is important since when you tell it to cut a 1mm deep circle into your material you'd want it to me 1mm deep at all points along that circle, not deeper in some areas and shallower in others. Surfacing can also:
 
 1. Eliminate warps or bumps in the material being used as your wasteboard
 1. Be used for maintenance purposes to clean off old marks and scars and leave you with a new, clean surface to glue, clamp, and mount your material to
@@ -41,6 +37,8 @@ When surfacing, you'll generally want to buy a purpose-made surfacing bit. These
 We tend to use the <a href="https://sienci.com/product/22mm-surfacing-bit/" target="_blank" rel="noopener">22mm surfacing bit</a> we sell on our store. If you don't have one of these available it's still possible to flatten your wasteboard with something as small as a 1/4" but it's going to take much longer to process your whole cutting area.
 
 ### Making the G-code
+
+https://youtu.be/jfInIEOB3kU
 
 There's nothing fancy about surfacing g-code, it's usually a simple spiral or zig-zag pattern that fills a rectangular space and usually takes 30-40 minutes to run. The only inconvenience is making it in the first place and ensuring that the finished surface comes out flat as expected. When making the g-code, keep in mind the following:
 
@@ -56,14 +54,14 @@ We also have a 'Surfacing' utility built into gSender that you can use for g-cod
 
 [tabby title="Current" open="yes"]
 
-![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gSsender-1-0-5-surfacing-utility-newu.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gsender-utility-newu.jpg){.aligncenter .size-medium}
 
 [tabby title="Classic gSender"]
 
-![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gSsender-1-0-5-surfacing-utility-ann.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gsender-utility-ann.jpg){.aligncenter .size-medium}
 
 [tabbyending]
 
 And there are still more options like INTUWiz, an online g-code generation program that is able to generate "facing" g-code (<a href="http://www.intuwiz.com/plane.html#.Xidt8sjYouV" target="_blank" rel="noopener">http://www.intuwiz.com/plane.html#.Xidt8sjYouV</a>).
 
-![](/_images/_lmmk2/_handbook/lmk2_wasteboard_INTUWiz-generation.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_handbook/lmk2_wasteboard_intuwiz-gen.jpg){.aligncenter .size-medium}
