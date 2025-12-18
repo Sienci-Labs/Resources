@@ -57,20 +57,24 @@ We'll continue keeping our ears out for common stumbling points while using gSen
 1. If when you open gSender it gives you an error along the lines of "**Entry Point Not Found**", this means that you're trying to use a version of gSender past 1.2.2 with a 32-bit system. If you want to resolve this you'll either need to continue using a version of gSender 1.2.2 or earlier, or change to using a 64-bit system.
 ![](/_images/_gsender/_issues/gs_is_cm_32bit-error.jpg){.aligncenter .size-medium}
 
+### gSender opens Slowly
+
+This is usually due to your computers security software scanning gSender as it's trying to open. See this tip to help with that: <https://resources.sienci.com/view/gs-installation/#open-faster>.
+
 ### Screen goes Blank
 
 If you find that gSender goes blank after you open it or while using it, there are a couple things you can try.
 
 1. Try to close and reopen gSender. If it makes a black screen again, then close and open gSender again ➜ Go to the Config tab ➜ Export your **gSender Preferences** if you care about them and want to later reload them ➜ then "Restore Default settings". After doing this it's more likely you won't have an issue again.
-1. If you’re using gSender Edge, you’ll see a toolbar at the top of the app where you can click: View ➜ Toggle Developer Tools ➜ then look at the ‘Console’ where if you find any errors you can share these with us. Also if you click: View ➜ Reload, you’ll be able to refresh gSender to not show the blank screen anymore.
-1. Otherwise if you’re using the main version of gSender, you can try updating to the <a href="https://sienci.com/gSender/">latest version</a>.
+1. If you're using gSender Edge, you'll see a toolbar at the top of the app where you can click: View ➜ Toggle Developer Tools ➜ then look at the 'Console' where if you find any errors you can share these with us. Also if you click: View ➜ Reload, you'll be able to refresh gSender to not show the blank screen anymore.
+1. Otherwise if you're using the main version of gSender, you can try updating to the <a href="https://sienci.com/gSender/">latest version</a>.
 1. Check your antivirus software or Windows Defender and add gSender as an exception.
 1. Check to ensure you have read/write permissions for the preferences file
-   1. Let’s locate the file! It’s called .sender_rc and can usually be found on your hard drive at: C:/users/{your username}/.sender_rc
+   1. Let's locate the file! It's called .sender_rc and can usually be found on your hard drive at: C:/users/{your username}/.sender_rc
    ![](/_images/_gsender/_issues/gs_is_cm_blank-rc.jpg){.aligncenter .size-full}
    1. Right-click on the file and choose properties. Under the security tab, check the name of your profile and confirm you have full control of the file.
    1. If not, select edit, choose your computer name, and grant permissions.
-1. If you’re still getting a blank screen, locate your log file and send it in to us. It's located at: C:/Users/{your user name}/AppData/Roaming/gSender/Logs/main.log
+1. If you're still getting a blank screen, locate your log file and send it in to us. It's located at: C:/Users/{your user name}/AppData/Roaming/gSender/Logs/main.log
 
 ### Use gSender without a CNC
 
@@ -87,16 +91,10 @@ If your machine connects on a COM port successfully but the machine status says 
 
 1. Check that you have the right settings for your board, for instance click the Config tab ➜ Basics ➜ Baud rate dropdown, where most boards use 115200. Also your machine might not be supported yet by gSender if it isn't using grbl or grblHAL or your manufacturer edited the core firmware too much.
 1. Your board may have a faulty connection. Try unplugging it then plugging back in, use a different USB cable, a different USB port on your computer, or plug the cable directly in if you were using a USB hub.
-1. Your board might have other loose connections. Power off your machine, then use a non-conductive tool like a plastic utensil to push down on all 4 corners of your control board shield or Arduino. For the LongBoard you don’t need to open it, just flip it upside down and you’ll be able to access the Arduino through the slats on the bottom. Doing this will ensure that everything is fully plugged in since sometimes if the Arduino is slightly off the control board it can mess with its communication.
+1. Your board might have other loose connections. Power off your machine, then use a non-conductive tool like a plastic utensil to push down on all 4 corners of your control board shield or Arduino. For the LongBoard you don't need to open it, just flip it upside down and you'll be able to access the Arduino through the slats on the bottom. Doing this will ensure that everything is fully plugged in since sometimes if the Arduino is slightly off the control board it can mess with its communication.
 ![](/_images/_gsender/_issues/gs_is_cm_push-uno.jpg){.aligncenter .size-medium}
 1. Your board might have corrupted firmware. Re-flash your board if it's a [LongBoard](https://resources.sienci.com/wp-content/uploads/2021/07/gSender-Connected-but-No-Controls.pdf), [SLB](https://resources.sienci.com/view/slb-firmware-flashing/), or by following your manufacturers instructions.
 1. At the least when you plug the board to your computer over USB you should hear a 'connection' sound from your computer. You should also see a new device appear under the Devices and Printers on your computer. If none of these are happening, then that means your computer isn't recognizing the board so you might want to look at drivers or getting further technical support.
-
-### My CNC Profile is not listed
-
-Much of the information that gSender needs about your CNC actually comes from its built-in EEPROM values, so the CNC profiles don't have any impact. This means that as long as your CNC is grbl-based, gSender should be able to control it just fine, even if it's not listed in the presets. Selecting the "Generic" preset will work just fine.
-
-If some aspects of your machine don't seem right, it'll either be because your machine's manufacturer didn't flash your CNC with the appropriate EEPROM settings out of the box or they have some type of documentation which explains the values you need to change manually.
 
 ### Port not Found (3018 CNC)
 
@@ -132,6 +130,27 @@ One key bit of information that we need on our end is a picture or screenshot of
 
 We appreciate your feedback, and with your help we'll make sure the next version of gSender recognizes your machine.
 
+### CNC Profile is not listed
+
+Much of the information that gSender needs about your CNC actually comes from its built-in EEPROM values, so the CNC profiles don't have any impact. This means that as long as your CNC is grbl-based, gSender should be able to control it just fine, even if it's not listed in the presets. Selecting the "Generic" preset will work just fine.
+
+If some aspects of your machine don't seem right, it'll either be because your machine's manufacturer didn't flash your CNC with the appropriate EEPROM settings out of the box or they have some type of documentation which explains the values you need to change manually.
+
+### UI does not fit on the Screen
+
+![](/_images/_gsender/_issues/gs_is_cm_zoom-ui.jpg){.aligncenter .size-full}
+
+We've always done our best to ensure that gSender is clear and easy to use across devices and across screen sizes too - but sometimes there are certain screens that gSender just doesn't suit. In these cases, we recommend you check the 'zoom' on your device until you can see everything clearly and can access all the buttons.
+
+For **Windows**, see a [writeup with pictures here](https://resources.sienci.com/view/gc-setup-and-customizations/#how-to-change-the-display-scale-on-gcontrol) but otherwise the shortened version is:
+
+1. Go to your Desktop, right-click it, the click '**Display settings**' from the menu.
+1. In the Settings window, scroll down to the **Scale & layout** section.
+1. Use the dropdown to choose the scale percentage that works best for you. It's likely that using **100%** will resolve your issue, but try other options if you need to make sure it works on your setup. Windows will automatically apply the new scale once you choose it.
+1. Another option you can adjust is scrolling down to **Text size** on the 'Display settings' page, using the slider to adjust the text size to your preference, then clicking the '**Apply**' button.
+
+For **Linux**: try reducing the app-specific display setting from 1.0 to 0.75 for example.
+
 ### File is Tiny in Visualizer
 
 You're probably using the wrong post processor, go back and check what your CNC manufacturer recommends. By default it's best to use "grbl_mm" even if you like to use inches since most CNCs work in mm.
@@ -163,6 +182,12 @@ Alternatively, gSender's 'Start/Stop G-code' can also be equipped to sidestep pr
 ### Changed $1 and Motors still Hold
 
 This is a quirk of grbl boards where after changing this value you need to make a motor movement (a jog movement for example) before the new value will take effect.
+
+### Visualizer screen is White
+
+If your visualizer is always white, or you see the error message that your "graphics card does not support WebGL", open Google Chrome and type `chrome://settings` into the top bar to visit your Chrome-specific settings. At the bottom of the menu on the left, open the '**Advanced**' tab and click on the '**System**' option, then ensure that the '**Use hardware acceleration when available**' is selected. On some older Chrome versions you might have to visit `chrome://flags` instead.
+
+After this, restart gSender to see if the visualizer is now up and running. If it's still not working, you might have to also look into updating any out-of-date drivers for your video card.
 
 ### Many Little Lines on my Screen
 

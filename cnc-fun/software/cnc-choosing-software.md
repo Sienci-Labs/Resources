@@ -45,8 +45,8 @@ To help you decide what software would work best for you we've done three things
 
 This wizard will provide you with general software suggestions based on your CNC needs. Check it out!
 
-<div id="my-react-toolchain"> </div>
-<div id="ToolTable"> </div>
+<div id="my-react-toolchain"></div>
+<div id="ToolTable"></div>
 <p><script src="https://resources.sienci.com/wp-content/react/wizard.js"></script></p>
 <style>@import url('https://resources.sienci.com/wp-content/react/wizard.css')</style></p>
 
@@ -438,7 +438,7 @@ Extends through the Easel online software, allowing you to connect to your machi
 
 <b>VTransfer</b> (<a href="https://docs.vectric.com/docs/V9.0/Cut2DLaserDesktop/ENU/Help/VTransfer/VTransfer.html" target="_blank" rel="noopener noreferrer">https://docs.vectric.com/docs/</a>)
 
-VTransfers <span class="sc-jrAGrp dXWCyY">barebones layout means that it's dead easy to use and understand.</span> The downsides to this is that it offers no g-code visualization, keyboard jogging, or other common interface features.
+VTransfers barebones layout means that it's dead easy to use and understand. The downsides to this is that it offers no g-code visualization, keyboard jogging, or other common interface features.
 
 ![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_vtransfer.jpg){.aligncenter .size-medium}
 

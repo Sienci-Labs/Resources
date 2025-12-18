@@ -14,4 +14,3 @@ custom_fields:
 skip_file: yes
 featured_image: _images/post-image.jpg
 ---
-

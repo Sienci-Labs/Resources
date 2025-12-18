@@ -59,7 +59,7 @@ Routers are simple to set up—just plug into the wall and go. The trade-off is 
 
 A router offers a more *analog* experience, where users must manually set the router speed using a physical dial, and turn on/off the router at the start and end of a cutting program.
 
-Most hobby CNC routers, (including the Sienci Labs LongMill CNC), will utilize an off-the-shelf trim router. Although these are suitable for hobby use, they have some limitations both in regards to reliability over long periods of time, and a lack of ability to automate their control. Despite this, a trim router such as the popular Makita RT0701C router has a proven track record of being a very capable, easy to install option for relatively little cost.</span>
+Most hobby CNC routers, (including the Sienci Labs LongMill CNC), will utilize an off-the-shelf trim router. Although these are suitable for hobby use, they have some limitations both in regards to reliability over long periods of time, and a lack of ability to automate their control. Despite this, a trim router such as the popular Makita RT0701C router has a proven track record of being a very capable, easy to install option for relatively little cost.
 
 ### Spindles
 

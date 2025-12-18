@@ -1,7 +1,7 @@
 ---
-title: ytsb Running Jobs
+title: Running Jobs
 menu_order: 5
-post_status: draft
+post_status: publish
 post_excerpt: How to cut multiple toolpaths for CAM programs without tool changing functionality. This method is suitable for the LongMill Benchtop CNC, and other hobby CNCs.
 post_date: 2022-03-17 20:36:00
 taxonomy:
@@ -33,15 +33,15 @@ A design is needed to create the toolpath. You can use a pre-made design or crea
 
 #### CAM Software
 
-We’ll now switch to the CAM software. Remember those material dimensions you took earlier, you’ll now input them into your new file. Choose the X and Y location of the zero point in the software. The Z location will either be at the top or at the bottom of the material. The starting or zero point is where the machine will reference from. In the example below, you can see the zero starts at the same location in the software and on the material.
+We'll now switch to the CAM software. Remember those material dimensions you took earlier, you'll now input them into your new file. Choose the X and Y location of the zero point in the software. The Z location will either be at the top or at the bottom of the material. The starting or zero point is where the machine will reference from. In the example below, you can see the zero starts at the same location in the software and on the material.
 
 ![](/_images/_lmmk2/_handbook/lmk2_runjobs_starting-position-triptych.jpg){.aligncenter .size-medium}
 
-Import your design file into the CAM software. You’ll now choose the CNC bit to create the toolpath. The shape and type of bit will determine the final look of your piece.
+Import your design file into the CAM software. You'll now choose the CNC bit to create the toolpath. The shape and type of bit will determine the final look of your piece.
 
 #### Choosing your CNC Tool
 
-CNC bits come in a variety of shapes and sizes. You don’t need a specialty bit to get started. Common router bits are a great way to get your feet wet with machining without spending a lot of money. Common bit shapes are: V-bits; great for signs and lettering. Square End mills; used for carving pockets with flat surfaces. Ball nose and tapered bits; used for relief and detail carvings.
+CNC bits come in a variety of shapes and sizes. You don't need a specialty bit to get started. Common router bits are a great way to get your feet wet with machining without spending a lot of money. Common bit shapes are: V-bits; great for signs and lettering. Square End mills; used for carving pockets with flat surfaces. Ball nose and tapered bits; used for relief and detail carvings.
 
 ![](/_images/_lmmk2/_handbook/lmk2_runjobs_cnc-bit-types.jpg){.aligncenter .size-medium}
 
@@ -53,7 +53,7 @@ Select the vector lines you want to machine then select the CNC bit. Change any 
 
 #### Exporting the File
 
-With the design finalized, it’s time to export the toolpaths. Make sure you’ve selected the correct post-processor for your machine. The LongMill uses a grbl post-processor. Save or export your toolpath to a location on your computer.
+With the design finalized, it's time to export the toolpaths. Make sure you've selected the correct post-processor for your machine. The LongMill uses a grbl post-processor. Save or export your toolpath to a location on your computer.
 
 ## Preparing your Material
 
@@ -75,7 +75,7 @@ Holding your workpiece with pressure from the sides is useful for flattening the
 
 #### Screws
 
-Screwing through your material and into the work surface is an excellent holding method. Extra care needs to be taken that you don’t run the bit through the metal screws.
+Screwing through your material and into the work surface is an excellent holding method. Extra care needs to be taken that you don't run the bit through the metal screws.
 
 ![](/_images/_lmmk2/_handbook/lmk2_runjobs_fastening-screws.jpg){.aligncenter .size-medium}
 
@@ -85,13 +85,13 @@ Tape is applied to the back of the workpiece and to the top of the work surface.
 
 ![](/_images/_lmmk2/_handbook/lmk2_runjobs_mounting-gluing.jpg){.aligncenter .size-medium}
 
-Double sided carpet tape is very easy to use. It’s applied to the work surface, then the work piece is pressed to the table.
+Double sided carpet tape is very easy to use. It's applied to the work surface, then the work piece is pressed to the table.
 
 ![](/_images/_lmmk2/_handbook/lmk2_runjobs_mounting-carpet-tape.jpg){.aligncenter .size-medium}
 
 ## Installing the Cutting Tools
 
-Bring the machine to the front so you have easy access to the router and collect the two wrenches that are included in the Makita box. If this is your first time using a router, look at the bottom where it has a large hex nut and notice just above this the two flats cut into the router shaft. You’ll be using the two wrenches here, one on the nut and one on the flats of the shaft, so the router can ‘clamp’ onto bits before cutting and then release them when you’re finished.
+Bring the machine to the front so you have easy access to the router and collect the two wrenches that are included in the Makita box. If this is your first time using a router, look at the bottom where it has a large hex nut and notice just above this the two flats cut into the router shaft. You'll be using the two wrenches here, one on the nut and one on the flats of the shaft, so the router can 'clamp' onto bits before cutting and then release them when you're finished.
 
 ![](/_images/_lmmk2/_handbook/lmk2_runjobs_router-shaft-notch.jpg){.aligncenter .size-medium}
 
@@ -103,11 +103,11 @@ Always make sure the collet, the adapter, and the nut are free from debris befor
 
 ![](/_images/_lmmk2/_handbook/lmk2_runjobs_dirty-collet-and-adapter.jpg){.aligncenter .size-medium}
 
-1/4” diameter straight bits can be installed into the collet first then inserted through the nut before installing into the router.
+1/4" diameter straight bits can be installed into the collet first then inserted through the nut before installing into the router.
 
 ![](/_images/_lmmk2/_handbook/lmk2_runjobs_4th-bit-install.jpg){.aligncenter .size-medium}
 
-When using ⅛” bits, an adapter or ⅛” collet is necessary. Slide the ⅛” collet adapter into the standard collet, insert your bit, then place it into the collet nut and fasten to the router. The collet adapter should just peak through the bottom of the collet.
+When using ⅛" bits, an adapter or ⅛" collet is necessary. Slide the ⅛" collet adapter into the standard collet, insert your bit, then place it into the collet nut and fasten to the router. The collet adapter should just peak through the bottom of the collet.
 
 ![](/_images/_lmmk2/_handbook/lmk2_runjobs_8th-bit-install.jpg){.aligncenter .size-medium}
 
@@ -127,7 +127,7 @@ To tighten the collet nut, the small wrench is on the right side of the router s
 
 ## Zeroing Your CNC
 
-It’s important to have the same start location on your workpiece as in your design file. Zeroing the machine can be accomplished in two ways, manually or automatically. Open machine interface software such as gSender or UGS and connect to your machine.
+It's important to have the same start location on your workpiece as in your design file. Zeroing the machine can be accomplished in two ways, manually or automatically. Open machine interface software such as gSender or UGS and connect to your machine.
 
 ![](/_images/_lmmk2/_handbook/lmk2_runjobs_starting-position-triptych.jpg){.aligncenter .size-medium}
 
@@ -137,7 +137,7 @@ Manually jog your machine to the starting location. Zero the X and Y locations. 
 
 ![](/_images/_lmmk2/_handbook/lmk2_runjobs_manual-zero-diptych.jpg){.aligncenter .size-medium}
 
-Lower the bit to the material by jogging the Z-axis down. When you are just above the surface, change to precise jogging. Place a piece of paper under the bit. Move the paper back and forth and at the same time, lower the bit. When there is resistance sliding the paper, the bit is at the correct position. Zero the Z location in the software. Raise the bit, go to your x and y starting positions and you’re ready to begin.
+Lower the bit to the material by jogging the Z-axis down. When you are just above the surface, change to precise jogging. Place a piece of paper under the bit. Move the paper back and forth and at the same time, lower the bit. When there is resistance sliding the paper, the bit is at the correct position. Zero the Z location in the software. Raise the bit, go to your x and y starting positions and you're ready to begin.
 
 ![](/_images/_lmmk2/_handbook/lmk2_runjobs_Manual-zero-z-1.jpg){.aligncenter .size-medium}
 
@@ -154,11 +154,11 @@ When you only want to do a z-height probe, useful for multi-bit tool changes, fl
 
 If you have limit switches installed, you might encounter an Alarm 2 message. Your material is too close to the sensors for the machine to travel safely. Move your material away from the sensors and begin your probe operation.
 
-![](/_images/_lmmk2/_handbook/lmk2_runjobs_alarm2.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_handbook/lmk2_runjobs_alarm2-newu.jpg){.aligncenter .size-medium}
 
 ## Pre-Flight Check-List
 
-Sometimes it’s useful to have a list of operations next to your machine. We’ve compiled a list to confirm everything is ready to go before hitting Start.
+Sometimes it's useful to have a list of operations next to your machine. We've compiled a list to confirm everything is ready to go before hitting Start.
 
 1. Ensure material is square with spoil board/machine
 1. Tighten clamps
@@ -169,7 +169,7 @@ Sometimes it’s useful to have a list of operations next to your machine. We’
 1. Home machine - if using limit switches
 1. Zero X and Y axes
 1. Zero Z axis
-1. Check toolpath won’t hit clamps
+1. Check toolpath won't hit clamps
 1. Turn on router
 1. Turn on dust collection
 1. Start job
@@ -260,7 +260,7 @@ This is a tool change method inspired by the work of Stuart McRae (a LongMill cu
   </tr>
   <tr>
   <td>X?.??Y?.??</td>
-  <td>Moves bit to a defined XY position. This is the location of your tool change. CHANGE THIS to a position in which the stock material hasn’t been cut, and is accessible.</td>
+  <td>Moves bit to a defined XY position. This is the location of your tool change. CHANGE THIS to a position in which the stock material hasn't been cut, and is accessible.</td>
   </tr>
   <tr>
   <td>M0;</td>
@@ -311,6 +311,7 @@ M05
 M02
 
 _____________________________________
+
 ##### EXAMPLE 2: CAMLab
 
 G21  
@@ -338,11 +339,11 @@ G0 Z2.0
 
 ### Method 3: gSender Tool Change
 
-The g-code for tool changing is an M6 command, in which the program will pause until the user tells it to continue, usually through a ‘Resume’ and/or ‘Confirm Tool Change’ button on the machine interface program. In CAM programs, this M6 will be inserted in your g-code if there are toolpaths using different bits, thus requiring tool changes. On <a href="https://sienci.com/gSender/" target="_blank" rel="noopener">gSender</a>, you can program what happens when there is M6 in your g-code, therefore allowing you to easily change your bits with pre-programmed actions. Full instructions can be found <a href="https://resources.sienci.com/view/gs-additional-features/#tool-changing" target="_blank" rel="noopener">here</a>.
+The g-code for tool changing is an M6 command, in which the program will pause until the user tells it to continue, usually through a 'Resume' and/or 'Confirm Tool Change' button on the machine interface program. In CAM programs, this M6 will be inserted in your g-code if there are toolpaths using different bits, thus requiring tool changes. On <a href="https://sienci.com/gSender/" target="_blank" rel="noopener">gSender</a>, you can program what happens when there is M6 in your g-code, therefore allowing you to easily change your bits with pre-programmed actions. Full instructions can be found <a href="https://resources.sienci.com/view/gs-additional-features/#tool-changing" target="_blank" rel="noopener">here</a>.
 
 ## Post-Processing Work Pieces
 
-Now that you’ve got your piece machined out, finish the design with a nice smooth finish or an amazing paint job.
+Now that you've got your piece machined out, finish the design with a nice smooth finish or an amazing paint job.
 
 ### Sanding
 
@@ -350,7 +351,7 @@ Depending on your project, getting into the crevices of your design can be diffi
 
 ### Painting/Staining
 
-There are a few ways to add colour to your work piece. Wood stains help enhance the grain of the wood and should be finished with a good sealer Multi-Colour painting can really make a sign pop. Use a masking film
+There are a few ways to add colour to your work piece. Wood stains help enhance the grain of the wood and should be finished with a good sealer, Multi-Colour painting can also really make a sign pop in which case it's recommended to use a masking film.
 
 ### Sealing/Finishing
 

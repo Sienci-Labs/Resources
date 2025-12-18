@@ -165,7 +165,7 @@ If the probing was **unsuccessful**, then it'll be indicated by the cutting bit 
 
 Open up the probing window in UGS and in the XYZ tab press "Measure outside corner". The LongMill will go through a cycle to probe and take its measurements.
 
-If the probing function is successful, then the machine should return the bit back to the starting point where you initiated the probing cycle. You should notice that the digital readout (DRO) on UGSPlatform changes to reflect the measurements, the current position being offset a little in the X and Y and quite a bit offset in the Z.
+If the probing function is successful, then the machine should return the bit back to the starting point where you initiated the probing cycle. You should notice that the 'DRO' (Digital Read Out) on UGSPlatform changes to reflect the measurements, the current position being offset a little in the X and Y and quite a bit offset in the Z.
 
 You can check that it's now zeroed on the material corner by first taking the touch plate off the material and removing the magnet from the router collet before pressing "Return to Zero".
 
@@ -292,6 +292,8 @@ You'll also have the option for choosing which tool you're using, either "Auto" 
 - End mills that are flat bottomed and short, or adapt from a large shaft to a smaller cutting diameter (for instance 1/8" shaft to 1/16" cutting diameter)
   - These can still work as long as the overall bit sticks out far enough (over 20mm) from the collet - it will look weird when it probes because probing in X and Y might touch the shaft instead of the cutting geometry, but as long as you're using **Auto** or you've specified the shaft diameter manually then the probing should still complete fine
 
+![](/_images/_longmill/_assembly/_addons/lm_addons_autozero-bits.jpg){.aligncenter .size-medium}
+
 ### Step 5: Remove magnet
 
 Once your probing is complete, remove the magnet and move the touch plate out of the way. Your machine coordinates should now be updated and ready to use.
@@ -356,32 +358,13 @@ If this was not the problem:
 - Make sure your work coordinates match your touch plate settings (usually G54)
 - Check that there's proper electrical contact from your control box through to your magnet and touch plate. An easy way to check this is to run a Z probe with the router high up in the air and manually tap the magnet to the plate while they're held in each of your hands. If the bit stops and raises slightly up then lowers down again, this should indicate some form of connectivity from the magnet and touch plate to the control box. If you tap them together again, this should conclude the probing process and no errors should appear. If you don't observe this behaviour, then you should try this test again and if it again shows an error then check the electrical connections. See if the magnet is making contact with the metal leads of the wire by unscrewing the fastener in the centre and do the same for the banana plug as well. You may need to strip more insulation off the ends of the wire to get more contact with the metal surfaces. There's a great video showing how to deal with banana connectors assembly/disassembly <a href="https://www.YouTube.com/watch?v=cH0C_g_lfXo" target="_blank" rel="noopener">here.</a>
 - Check for continuity between the banana clip and the connector. If there's no continuity, test the bare end of the wire. If there is continuity, ensure the bare end of the wire is properly seated in the connector.
-
-<figure class="wp-block-image size-full">
-<img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_touchplate_bananatest-1.jpg" alt="" title="Electrical meter testing the continuity of between an electrical connector and a banana style clip" />
-<figcaption class="wp-caption-text">Electrical meter testing the continuity of between an electrical connector and a banana style clip</figcaption>
-</figure>
-
+  <img class="size-medium wp-image-4198 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Touch-Plate-banana-clip-continuity-test-850x349.jpg" alt="Electrical meter testing the continuity of between an electrical connector and a banana style clip" width="850" height="349" />
 - Check for continuity between the magnet and and the connector. If not continuity, repeat the same steps above.
-
-<figure class="wp-block-image size-full">
-<img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_touchplate_continuitytest.jpg" alt="" title="Electrical meter testing the continuity of between an electrical connector and a magnet" />
-<figcaption class="wp-caption-text">Electrical meter testing the continuity of between an electrical connector and a magnet</figcaption>
-</figure>
-
+  <img class="aligncenter size-medium wp-image-4195" src="https://resources.sienci.com/wp-content/uploads/2022/03/Touch-Plate-magnet-continuity-test-850x374.jpg" alt="Electrical meter testing the continuity of between an electrical connector and a magnet" width="850" height="374" />
 - If you have good continuity with the wiring harness, make a jumper connector by placing a wire into both ends of a spare connector.
-
-<figure class="wp-block-image size-full">
-<img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_touchplate_jumperpin-1.jpg" alt="" title="Wire inserted into both side of a connector to create a jumper connector" />
-<figcaption class="wp-caption-text">Wire inserted into both side of a connector to create a jumper connector</figcaption>
-</figure>
-
+  <img class="aligncenter size-medium wp-image-4196" src="https://resources.sienci.com/wp-content/uploads/2022/03/touch-plate-probe-jumper-pin-850x305.jpg" alt="Wire inserted into both side of a connector to create a jumper connector" width="850" height="305" />
 - Insert the jumper connector into the controller. Open gSender, begin the probing operation. You should get the green go ahead to begin. If there is no change, the port on the controller might be the issue.
-
-<figure class="wp-block-image size-full">
-<img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_touchplate_probeshorting-1.jpg" alt="" title="Wire jumped connector inserted into the LongBoard and SLB controllers" />
-<figcaption class="wp-caption-text">Wire jumped connector inserted into the LongBoard and SLB controllers</figcaption>
-</figure>
+  <img class="wp-image-9092 size-large aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/LB-and-SLB-probe-shorting_page-0001-1024x387.jpg" alt="Wire jumped connector inserted into the LongBoard and SLB controllers" width="1024" height="387" />
 
 Replacement touch plate cables can be found here: <a href="https://sienci.com/product/touch-plate-cable/" target="_blank" rel="noopener">https://sienci.com/product/touch-plate-cable/</a>
 
@@ -393,7 +376,7 @@ This dust shoe is a Z-axis independent style dust shoe designed to collect dust 
 
 The assembly is shown after the initial reveal in the following video:
 
-[su_youtube url="https://www.YouTube.com/watch?v=r_QqMye3dLo"]
+https://www.youtube.com/watch?v=r_QqMye3dLo
 
 ## Installing the T-Track
 
@@ -406,15 +389,15 @@ The reason we decided to make this t-track system available is because we design
 
 The t-track system is very flexible and can be used however you wish. If you'd like to see a generic approach to installation, you can follow either the write-up or video below. Scott begins the t-track installation starting at about 4 minutes into the video.
 
-https://www.youtube.com/watch?v=T4QVgtnZMDw?t=242
+https://www.youtube.com/watch?v=T4QVgtnZMDw
 
-This layout minimizes reductions in cutting area and depth, and can be prepared in advance before your machine arrives. It uses a 48”x48”x ¾” MDF sheet, which can be purchased and cut to size at home or at your local hardware store.
+This layout minimizes reductions in cutting area and depth, and can be prepared in advance before your machine arrives. It uses a 48"x48"x ¾" MDF sheet, which can be purchased and cut to size at home or at your local hardware store.
 
-![](/_images/_longmill/_assembly/_addons/lm_addons_p18.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_addons/lm_addons_p18.png){.aligncenter .size-medium}
 
-1. Cut a 48” x 48” x ¾” MDF sheet into five pieces of 6” wide planks, and two pieces of 5 ½ ” wide planks.
-1. Lay out the T-tracks and planks on the table, and fasten them down with wood screws. The machine will sit on top of the 5 ½” planks, as the 6” planks are arranged between them. They should be fastened with screws at least 1” in length. Leave about 1” of space between the screws and the ends of the MDF planks.
-1. To ensure your planks are flat against your table, drill counterbore holes in the middle of the 5 ½” planks. You can use the LongMill, a counterboring bit, or a larger drill bit to create the holes, making sure you have removed enough material to recess the screw heads and surface the MDF planks at least 1mm deep. Then fasten them down with wood screws.
+1. Cut a 48" x 48" x ¾" MDF sheet into five pieces of 6" wide planks, and two pieces of 5 ½ " wide planks.
+1. Lay out the T-tracks and planks on the table, and fasten them down with wood screws. The machine will sit on top of the 5 ½" planks, as the 6" planks are arranged between them. They should be fastened with screws at least 1" in length. Leave about 1" of space between the screws and the ends of the MDF planks.
+1. To ensure your planks are flat against your table, drill counterbore holes in the middle of the 5 ½" planks. You can use the LongMill, a counterboring bit, or a larger drill bit to create the holes, making sure you have removed enough material to recess the screw heads and surface the MDF planks at least 1mm deep. Then fasten them down with wood screws.
 1. Complete the rest of the Table Mounting process as described previously if not yet done: <a href="https://resources.sienci.com/view/lm-table-mounting/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-table-mounting/</a>
 1. Surface the MDF planks, as you would normally conduct wasteboard surfacing: <a href="https://resources.sienci.com/view/lm-surfacing-wasteboard/" target="_blank" rel="noopener">https://resources.sienci.com/view/lm-surfacing-wasteboard/</a>
 1. Mount your clamps or clamping system onto your newly installed T-track table, and enjoy!
@@ -423,7 +406,7 @@ This layout minimizes reductions in cutting area and depth, and can be prepared 
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p19.jpg){.aligncenter .size-medium}
 
-T-clamps are simple and reliable workholding tools that are used alongside T-Track tables. We've come up with T-clamps that work for various metals, plastics and woods, and hold down materials from 0.1" to 1” thick. These clamps are ideal for holding down small to medium sized pieces of material and also leverage their plastic ends to ensure you're covered in case you cut a little closer to the clamp than you expected. Inside the package you'll find:
+T-clamps are simple and reliable workholding tools that are used alongside T-Track tables. We've come up with T-clamps that work for various metals, plastics and woods, and hold down materials from 0.1" to 1" thick. These clamps are ideal for holding down small to medium sized pieces of material and also leverage their plastic ends to ensure you're covered in case you cut a little closer to the clamp than you expected. Inside the package you'll find:
 
 - Steel clamps (x6)
 - Knobs with inserts (x6)
@@ -474,23 +457,23 @@ https://www.youtube.com/watch?v=1Cl_ykfQgqQ
 We are replacing 4 nuts, one on each Y-axis plate (left and right) and two next to each other at the XZ-gantry.
 
 1. Jog the Y-axis close to the **back** of the machine.
-![](/_images/_lmmk2/_addons/lmk2_spring_yaxis_1.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_yaxis-1.jpg){.aligncenter .size-medium}
 1. With your Allen key, remove the two M5 mounting screws from the backlash nuts on the Y-axis plates on both the left and right sides. Once they're removed, manually push the Y-axis **away from the nuts** so you can reach them underneath.
-![](/_images/_lmmk2/_addons/lmk2_spring_yaxis_2.jpg){.aligncenter .size-medium}
-![](/_images/_lmmk2/_addons/lmk2_spring_yaxis_3.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_yaxis-2.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_yaxis-3.jpg){.aligncenter .size-medium}
 1. On the motor coupler, loosen the screw on the lead screw side. Do this until you can slide the lead screw out through the bearing completely.
-![](/_images/_lmmk2/_addons/lmk2_spring_yaxis_4.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_yaxis-4.jpg){.aligncenter .size-medium}
 1. Rotate the lead screw until the old backlash nut is off, or rotate the nut itself.
-![](/_images/_lmmk2/_addons/lmk2_spring_yaxis_5.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_yaxis-5.jpg){.aligncenter .size-medium}
 1. Grab a new **T8 spring loaded nut** and thread it onto the lead screw, with the spring side facing the motor/back.
-![](/_images/_lmmk2/_addons/lmk2_spring_yaxis_6.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_yaxis-6.jpg){.aligncenter .size-medium}
 1. Push two nylon lock nuts into the back of the spring loaded nut (rounded side of the nylon nuts should face out) and apply a piece of tape to hold them in place during installation.
-![](/_images/_lmmk2/_addons/lmk2_spring_yaxis_7.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_yaxis-7.jpg){.aligncenter .size-medium}
 1. Put the lead screw back into the motor coupler and tighten the screw back down. Remember to repeat steps 3 - 7 for the right Y-axis if you haven't been mirroring the steps as you went along.
-![](/_images/_lmmk2/_addons/lmk2_spring_yaxis_8.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_yaxis-8.jpg){.aligncenter .size-medium}
 1. Great job! Now push the Y-axis to the back again, over the new backlash nuts and reinstall the mounting screws. Tighten until the split washer is compressed, alternating between both bolts to maintain even pressure, being careful not to over tighten them. Repeat this step for the right side of the Y-axis.
-![](/_images/_lmmk2/_addons/lmk2_spring_yaxis_9.jpg){.aligncenter .size-medium}
-![](/_images/_lmmk2/_addons/lmk2_spring_yaxis_10.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_yaxis-9.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_yaxis-10.jpg){.aligncenter .size-medium}
 
 You can now remove the tape, you're already over halfway through this upgrade!
 
@@ -501,41 +484,41 @@ Just like with the Y-axis, we want to be close to the motor to remove the lead s
 **Note that if you have a 48x30, you will need to use a T12 nut instead of a T8 nut since the lead screw is larger.**
 
 1. With the X-axis moved to the left side, remove the mounting screws from the backlash nut, then manually push the X-axis to the right to expose the old backlash nut.
-![](/_images/_lmmk2/_addons/lmk2_spring_xaxis_1.jpg){.aligncenter .size-medium}
-![](/_images/_lmmk2/_addons/lmk2_spring_xaxis_2.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_xaxis-1.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_xaxis-2.jpg){.aligncenter .size-medium}
 1. Loosen the screw on the lead screw side of the motor coupler and slide the lead screw out through the bearing.
-![](/_images/_lmmk2/_addons/lmk2_spring_xaxis_3.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_xaxis-3.jpg){.aligncenter .size-medium}
 1. Rotate the lead screw until the old backlash nut is off, or twist the nut itself to remove it.
-![](/_images/_lmmk2/_addons/lmk2_spring_xaxis_4.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_xaxis-4.jpg){.aligncenter .size-medium}
 1. Thread the new spring loaded nut onto the lead screw, with the spring side facing **to the right** (double-check the picture). Similar to before, push two nylon lock nuts into the back of the spring loaded nut (rounded side of the nylon nuts should face out) and apply a piece of tape to hold them in place during installation.
-![](/_images/_lmmk2/_addons/lmk2_spring_xaxis_5.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_xaxis-5.jpg){.aligncenter .size-medium}
 1. Put the lead screw back into the motor coupler and tighten the screw back down.
-![](/_images/_lmmk2/_addons/lmk2_spring_xaxis_6.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_xaxis-6.jpg){.aligncenter .size-medium}
 1. Push the X-axis back over the backlash nut and reinstall the mounting screws. Tighten till the split washer is compressed, alternating between both bolts to maintain even pressure, being careful not to over tighten them.
-![](/_images/_lmmk2/_addons/lmk2_spring_xaxis_7.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_xaxis-7.jpg){.aligncenter .size-medium}
 
 ### Z-Axis
 
 The Z-axis nut is easier to remove because we don't have to remove the lead screw from the motor on the MK2 (you will have to do this with the MK1 however).
 
 1. Jog the Z-axis to be about halfway up the lead screw then remove the two bolts holding the anti-backlash nut.
-![](/_images/_lmmk2/_addons/lmk2_spring_zaxis_1.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_zaxis-1.jpg){.aligncenter .size-medium}
 1. Once the bolts are removed, the Z-axis plate can be lowered out of the way.
-![](/_images/_lmmk2/_addons/lmk2_spring_zaxis_2.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_zaxis-2.jpg){.aligncenter .size-medium}
 1. Remove the two screws that hold the Z-axis mount onto the X-axis plate. If you have limit switches installed, remove the Z-axis one now too.
-![](/_images/_lmmk2/_addons/lmk2_spring_zaxis_3.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_zaxis-3.jpg){.aligncenter .size-medium}
 1. Once those two bolts are removed, this will allow you to tip the motor and lead screw backwards.
-![](/_images/_lmmk2/_addons/lmk2_spring_zaxis_4.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_zaxis-4.jpg){.aligncenter .size-medium}
 1. Twist the old anti-backlash nut off the bottom of the lead screw.
-![](/_images/_lmmk2/_addons/lmk2_spring_zaxis_5.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_zaxis-5.jpg){.aligncenter .size-medium}
 1. Thread the new spring loaded nut onto the lead screw, **with the spring side facing down**, as indicated with the blue arrow. Spin it to the centre of the lead screw, then push two nylon lock nuts into the back of the spring loaded nut (rounded side of the nylon nuts should face out) and apply a piece of tape to hold them in place.
-![](/_images/_lmmk2/_addons/lmk2_spring_zaxis_6.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_zaxis-6.jpg){.aligncenter .size-medium}
 1. Reinsert the two bolts to hold the Z-axis mount onto the X-axis plate and tighten them fully.
-![](/_images/_lmmk2/_addons/lmk2_spring_zaxis_7.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_zaxis-7.jpg){.aligncenter .size-medium}
 1. Reinstall the limit switch, ensuring that the washer is flat on the top/bottom to give maximum space for your Z axis to travel.
-![](/_images/_lmmk2/_addons/lmk2_spring_zaxis_8.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_zaxis-8.jpg){.aligncenter .size-medium}
 1. Push the Z-axis plate back up to align it with the new spring loaded nut and reinstall the 2 mounting screws. Don't over-tighten. Like before, the 2 screws should be tightened till the split washers are compressed, and you should alternate when tightening them to create even pressure.
-![](/_images/_lmmk2/_addons/lmk2_spring_zaxis_9.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_zaxis-9.jpg){.aligncenter .size-medium}
 
 ### Conclusion
 
@@ -554,8 +537,8 @@ If you want to learn why this part has been upgraded, you can check out the vide
 | Topic                                         | Type            | Link  |
 |-----------------------------------------------|----------------|-------|
 | Spring Loaded Anti-Backlash Nut Update Video | 17 min Video   | [Watch](https://youtu.be/HWAKAkOYG9U) |
-| Coupler Found to be Slipping After Upgrade   | Community Post | [Here](https://forum.sienci.com/t/x-axis-stuttering-and-stalling-found-the-problem/14964) |
-| Replacement Parts Sent Out                    | Community Post | [Here](https://forum.sienci.com/t/experiencing-backlash-with-new-spring-loaded-anti-backlash-nuts/12572) |
+| Coupler Found to be Slipping After Upgrade   | Community Post | [Read](https://forum.sienci.com/t/x-axis-stuttering-and-stalling-found-the-problem/14964) |
+| Replacement Parts Sent Out                    | Community Post | [Read](https://forum.sienci.com/t/experiencing-backlash-with-new-spring-loaded-anti-backlash-nuts/12572) |
 
 ## Regular Dust Shoe
 

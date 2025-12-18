@@ -84,7 +84,7 @@ While writing, keep in mind:
     - `<p>This is a sample HTML page with JavaScript and CSS styling.</p>`
     - Table setup and styling
     - `span class="redText", "blueText", "orgText", "greText"`
-    - `<style> h1 {color: red;} </style>`
+    - `<style>h1 {color: red;}</style>`
     - `&nbsp;` for adding extra spaces
     - `<section id="home"></section>`
     - `<button type="button" onclick="showMessage()">Show message</button>`

@@ -1,7 +1,7 @@
 ---
-title: ytsb T-Track & Clamps
+title: T-Track & Clamps
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: See how to set up and assemble the Sienci Labs T-Track set and clamping system for the LongMill MK2 which uses standard ¼-20 hex nuts and bolts.
 post_date: 2022-03-17 20:25:00
 taxonomy:
@@ -28,13 +28,13 @@ The t-track system is very flexible and can be used however you wish. If you'd l
 
 https://youtu.be/T4QVgtnZMDw
 
-This layout minimizes reductions in cutting area and depth, and can be prepared in advance before your machine arrives. It uses a 48”x48”x ¾” MDF sheet, which can be purchased and cut to size at home or at your local hardware store.
+This layout minimizes reductions in cutting area and depth, and can be prepared in advance before your machine arrives. It uses a 48"x48"x ¾" MDF sheet, which can be purchased and cut to size at home or at your local hardware store.
 
-![](/_images/_longmill/_assembly/_addons/lm_addons_p18.jpg){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_addons/lm_addons_p18.png){.aligncenter .size-medium}
 
-1. Cut a 48” x 48” x ¾” MDF sheet into five pieces of 6” wide planks, and two pieces of 5 ½ ” wide planks.
-1. Lay out the T-tracks and planks on the table, and fasten them down with wood screws. The machine will sit on top of the 5 ½” planks, as the 6” planks are arranged between them. They should be fastened with screws at least 1” in length. Leave about 1” of space between the screws and the ends of the MDF planks.
-1. To ensure your planks are flat against your table, drill counterbore holes in the middle of the 5 ½” planks. You can use the LongMill, a counterboring bit, or a larger drill bit to create the holes, making sure you have removed enough material to recess the screw heads and surface the MDF planks at least 1mm deep. Then fasten them down with wood screws.
+1. Cut a 48" x 48" x ¾" MDF sheet into five pieces of 6" wide planks, and two pieces of 5 ½ " wide planks.
+1. Lay out the T-tracks and planks on the table, and fasten them down with wood screws. The machine will sit on top of the 5 ½" planks, as the 6" planks are arranged between them. They should be fastened with screws at least 1" in length. Leave about 1" of space between the screws and the ends of the MDF planks.
+1. To ensure your planks are flat against your table, drill counterbore holes in the middle of the 5 ½" planks. You can use the LongMill, a counterboring bit, or a larger drill bit to create the holes, making sure you have removed enough material to recess the screw heads and surface the MDF planks at least 1mm deep. Then fasten them down with wood screws.
 1. Complete the rest of the Table Mounting process as described previously if not yet done: <a href="https://resources.sienci.com/view/lmk2-table-mounting/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-table-mounting/</a>
 1. Surface the MDF planks, as you would normally conduct wasteboard surfacing: <a href="https://resources.sienci.com/view/lmk2-surfacing-the-wasteboard/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-surfacing-the-wasteboard/</a>
 1. Mount your clamps or clamping system onto your newly installed T-track table, and enjoy!
@@ -43,7 +43,7 @@ This layout minimizes reductions in cutting area and depth, and can be prepared 
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p19.jpg){.aligncenter .size-medium}
 
-T-clamps are simple and reliable workholding tools that are used alongside T-Track tables. We’ve come up with T-clamps that work for various metals, plastics and woods, and hold down materials from 0.1" to 1” thick. These clamps are ideal for holding down small to medium sized pieces of material and also leverage their plastic ends to ensure you're covered in case you cut a little closer to the clamp than you expected. Inside the package you'll find:
+T-clamps are simple and reliable workholding tools that are used alongside T-Track tables. We've come up with T-clamps that work for various metals, plastics and woods, and hold down materials from 0.1" to 1" thick. These clamps are ideal for holding down small to medium sized pieces of material and also leverage their plastic ends to ensure you're covered in case you cut a little closer to the clamp than you expected. Inside the package you'll find:
 
 - Steel clamps (x6)
 - Knobs with inserts (x6)

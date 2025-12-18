@@ -165,7 +165,7 @@ If the probing was **unsuccessful**, then it'll be indicated by the cutting bit 
 
 Open up the probing window in UGS and in the XYZ tab press "Measure outside corner". The LongMill will go through a cycle to probe and take its measurements.
 
-If the probing function is successful, then the machine should return the bit back to the starting point where you initiated the probing cycle. You should notice that the digital readout (DRO) on UGSPlatform changes to reflect the measurements, the current position being offset a little in the X and Y and quite a bit offset in the Z.
+If the probing function is successful, then the machine should return the bit back to the starting point where you initiated the probing cycle. You should notice that the 'DRO' (Digital Read Out) on UGSPlatform changes to reflect the measurements, the current position being offset a little in the X and Y and quite a bit offset in the Z.
 
 You can check that it's now zeroed on the material corner by first taking the touch plate off the material and removing the magnet from the router collet before pressing "Return to Zero".
 
@@ -292,6 +292,8 @@ You'll also have the option for choosing which tool you're using, either "Auto" 
 - End mills that are flat bottomed and short, or adapt from a large shaft to a smaller cutting diameter (for instance 1/8" shaft to 1/16" cutting diameter)
   - These can still work as long as the overall bit sticks out far enough (over 20mm) from the collet - it will look weird when it probes because probing in X and Y might touch the shaft instead of the cutting geometry, but as long as you're using **Auto** or you've specified the shaft diameter manually then the probing should still complete fine
 
+![](/_images/_longmill/_assembly/_addons/lm_addons_autozero-bits.jpg){.aligncenter .size-medium}
+
 ### Step 5: Remove magnet
 
 Once your probing is complete, remove the magnet and move the touch plate out of the way. Your machine coordinates should now be updated and ready to use.
@@ -312,7 +314,7 @@ Note: These macros were tested on the Buildbotics controller but they should als
 
 **Macros for Universal G-code Sender:** <a href="https://resources.sienci.com/wp-content/uploads/2022/03/AZ-Macro-UGS.zip"><b>Download for UGS</b></a>
 
-Note: The macros environment in UGS does not support arithmetic operations so probing with the X and/or Y axis using the AutoZero touch plate is a semi-automatic process. More specifically, you will need to click on the “Control Status (DRO)” panel and enter “/2” to halve the active coordinates in the X and/or Y after probing in these directions. If you have only probed either the X or the Y axis, you will only need to divide the coordinate of the axis which was probed.
+Note: The macros environment in UGS does not support arithmetic operations so probing with the X and/or Y axis using the AutoZero touch plate is a semi-automatic process. More specifically, you will need to click on the "Control Status (DRO)" panel and enter "/2" to halve the active coordinates in the X and/or Y after probing in these directions. If you have only probed either the X or the Y axis, you will only need to divide the coordinate of the axis which was probed.
 
 <p style="text-align: center;"><img class="aligncenter wp-image-4777 size-full" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_touchplate_othersender_ugs-1.gif" alt="" width="600" height="338" /><i>Example dividing the X and Y axis coordinates after probing in UGS</i></p>
 

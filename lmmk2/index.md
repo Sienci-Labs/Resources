@@ -59,7 +59,7 @@ LongMill MK2 page order should be as follows: (last updated as of Feb 20, 2025)
 4. T-Track & Clamps (MK1 & MK2 same except title and link)
 5. 48" Extension Kit
 6. Laser 🔥 (MK1 & MK2 same)
-7. LongMill Spindle Kit
+7. LongMill Spindle Kit   *****
 8. Automated / IOT Relay (MK1 & MK2 same)
 
 📙 Handbook

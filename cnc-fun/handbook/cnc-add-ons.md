@@ -186,7 +186,7 @@ For most hobby CNC users, a **trim router** is the best starting point — simpl
 
 Most CNC hobbyists use compact routers like the **Makita RT0700/RT0701**, known for their reliability and price.  
 
-**Advantages:** 
+**Advantages:**
 
 - Affordable (typically under $150 USD)
 - 1–1¼ HP power is plenty for wood and plastics  
@@ -260,7 +260,6 @@ If you’re considering a spindle, check our **community setup discussions** for
 **Learn More:**  
 [LongMill MK2 Spindle Setup →](https://resources.sienci.com/view/lmk2-spindle-kit/)  
 [AltMill MK2 Spindle Setup →](https://resources.sienci.com/view/am-spindle-kit/)
-
 
 ## T-Track Clamps 🪚
 
