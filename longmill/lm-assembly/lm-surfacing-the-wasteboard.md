@@ -12,42 +12,56 @@ custom_fields:
     KBName: LongMill CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: /_images/_longmill/_assembly/_surfacing/lm_surface_p1.png
+featured_image: _images/_lmmk2/_handbook/lmk2_wasteboard_gsender-utility-newu.jpg
 ---
 
-https://www.youtube.com/embed/aW27K_1OLT0
+The wasteboard for your LongMill MK2 can come in all sorts of shapes and sizes and can allow you to do a variety of things such as:
 
-## Why surface your wasteboard?
+- Bottom-left hardstop for repeatable material positioning
+- Spots to screw, tape, or glue material down
+- Low-profile side holding or camp clamps using t-track or threaded inserts
+- Elevated surface to allow sheet material to pass through for tiling
+- Spaced off with Y-axis risers to cut really thick materials or pre-made furniture
+- Mounted vise for metal fixturing or multi-axis machining
+- Vertical or pivoting surface for end grain CNCing
 
-<ol>
-  <li>Surfacing your wasteboard helps level the surface in relation to your machine. This means that if you have bumps or uneven surfaces on your wasteboard, or if your wasteboard is higher on one side that the other, surfacing will even out and flatten the board.</li>
-  <li>Cleans off old marks and scars, leaving you with a new, clean surface to glue, clamp, and mount your workpiece.</li>
-</ol>
+## Why do Surfacing?
 
-If you are using a <a href="https://sienci.com/product/22mm-surfacing-bit/">22mm surfacing bit</a>, you can use this code for your LongMill. This code will cut 1mm down in one pass. Please set your origin to the bottom left corner of the machine.
+Surfacing is simply the process of 'flattening' your LongMill wasteboard. Flattening is in quotes because we're not actually making a true flat surface with this process, instead we're trying to make a surface that's parallel to the CNC. This is important since when you tell it to cut a 1mm deep circle into your material you'd want it to me 1mm deep at all points along that circle, not deeper in some areas and shallower in others. Surfacing can also:
 
-<a href="https://sienci.com/wp-content/uploads/2020/01/LongMill-Surfacing-Code.zip">Download LongMill Surfacing Code (12x12, 12x30, 30x30)</a>
+1. Eliminate warps or bumps in the material being used as your wasteboard
+1. Be used for maintenance purposes to clean off old marks and scars and leave you with a new, clean surface to glue, clamp, and mount your material to
 
-## What tool should I use?
+When surfacing, you'll generally want to buy a purpose-made surfacing bit. These are made for light passes but are usually larger in diameter so they can cover a large area quickly and leave a good surface finish. Larger bits can also reach further outside the cutting area of the machine.
 
-Technically, any flat end mill or bit can work for this application. However, using a wider bit can speed up the process. In the video we are using a 22mm surfacing bit.
+We tend to use the <a href="https://sienci.com/product/22mm-surfacing-bit/" target="_blank" rel="noopener">22mm surfacing bit</a> we sell on our store. If you don't have one of these available it's still possible to flatten your wasteboard with something as small as a 1/4" but it's going to take much longer to process your whole cutting area.
 
-## Generating the code
+### Making the G-code
 
-I used a g-code generator from INTUWiz (<a href="http://www.intuwiz.com/plane.html#.Xidt8sjYouV">http://www.intuwiz.com/plane.html#.Xidt8sjYouV</a>). Here are the settings I used for the 30x30 size:
+https://youtu.be/jfInIEOB3kU
 
-![](/_images/_longmill/_assembly/_surfacing/lm_surface_p1.png){.aligncenter .size-medium}
+There's nothing fancy about surfacing g-code, it's usually a simple spiral or zig-zag pattern that fills a rectangular space and usually takes 30-40 minutes to run. The only inconvenience is making it in the first place and ensuring that the finished surface comes out flat as expected. When making the g-code, keep in mind the following:
 
-The center of the coordinates is in a point: 1<br>
-Side a: 762<br>
-Side b: 762<br>
-Tool diameter: 22<br>
-Y overlap percentage: 45<br>
-Total depth of cutting: 1<br>
-Depth of cutting per pass: 1<br>
-Feed rate (X,Y G00): 2000<br>
-Feed rate (X,Y, G01): 2000<br>
-Feed rate( Z G00): 500<br>
-Feed rate(Z G01): 500<br>
+- **Cutting width and depth:** you'll usually want to cut as much of the MK2's area as possible so over-size your cutting job and consider disabling limit switches if you have them
+- **Step over:** generally about 40% overlap, close passes will result in a longer cutting time but far passes might not make for a smooth finish
+- **Step down / layer depth:** usually 1mm or less, cutting any deeper with a large bit can result in an uneven surface
+- **Feeds & speeds:** setting the Makita between 3 and 4 (around 18,000RPM) works well on MDF and other woods and the MK2 can usually handle these at 2000mm/min (80ipm)
+- **Max / total depth:** will repeat the surfacing pattern more than once if it's larger than the step down value. This will cut deeper into your wasteboard if your board is very warped or you're trying to eliminate deep cuts
 
-**You can also use a different program if you want and cut a shallow pocket of the size you need.**
+With all these values in mind, you should be able to plug them into whatever program you typically use and create the surfacing code you need. Draw a rectangle, specify a 'pocket' cut out operation, and fill in the remaining settings.
+
+We also have a 'Surfacing' utility built into gSender that you can use for g-code generation with much less fuss. Once you decide on your settings you can 'Generate G-code' to view the path and then 'Load to Main Visualizer' to import the g-code to run it just like a regular g-code file.
+
+[tabby title="Current" open="yes"]
+
+![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gsender-utility-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
+![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gsender-utility.jpg){.aligncenter .size-medium}
+
+[tabbyending]
+
+And there are still more options like INTUWiz, an online g-code generation program that is able to generate "facing" g-code (<a href="http://www.intuwiz.com/plane.html#.Xidt8sjYouV" target="_blank" rel="noopener">http://www.intuwiz.com/plane.html#.Xidt8sjYouV</a>).
+
+![](/_images/_lmmk2/_handbook/lmk2_wasteboard_intuwiz-gen.jpg){.aligncenter .size-medium}

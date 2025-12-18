@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_lmmk2/_handbook/lmk2_wasteboard_gSsender-1-0-5-surfacing-utility-ann.png
+featured_image: _images/_lmmk2/_handbook/lmk2_wasteboard_gsender-utility-newu.jpg
 ---
 
 The wasteboard for your LongMill MK2 can come in all sorts of shapes and sizes and can allow you to do a variety of things such as:
@@ -56,14 +56,14 @@ We also have a 'Surfacing' utility built into gSender that you can use for g-cod
 
 [tabby title="Current" open="yes"]
 
-![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gSsender-1-0-5-surfacing-utility-newu.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gsender-utility-newu.jpg){.aligncenter .size-medium}
 
 [tabby title="Classic gSender"]
 
-![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gSsender-1-0-5-surfacing-utility-ann.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gsender-utility.jpg){.aligncenter .size-medium}
 
 [tabbyending]
 
 And there are still more options like INTUWiz, an online g-code generation program that is able to generate "facing" g-code (<a href="http://www.intuwiz.com/plane.html#.Xidt8sjYouV" target="_blank" rel="noopener">http://www.intuwiz.com/plane.html#.Xidt8sjYouV</a>).
 
-![](/_images/_lmmk2/_handbook/lmk2_wasteboard_INTUWiz-generation.png){.aligncenter .size-medium}
+![](/_images/_lmmk2/_handbook/lmk2_wasteboard_intuwiz-gen.jpg){.aligncenter .size-medium}
