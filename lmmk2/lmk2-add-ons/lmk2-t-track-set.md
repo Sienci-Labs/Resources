@@ -30,7 +30,7 @@ https://youtu.be/T4QVgtnZMDw
 
 This layout minimizes reductions in cutting area and depth, and can be prepared in advance before your machine arrives. It uses a 48"x48"x ¾" MDF sheet, which can be purchased and cut to size at home or at your local hardware store.
 
-![](/_images/_longmill/_assembly/_addons/lm_addons_p18.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_addons/lm_addons_p18.jpg){.aligncenter .size-medium}
 
 1. Cut a 48" x 48" x ¾" MDF sheet into five pieces of 6" wide planks, and two pieces of 5 ½ " wide planks.
 1. Lay out the T-tracks and planks on the table, and fasten them down with wood screws. The machine will sit on top of the 5 ½" planks, as the 6" planks are arranged between them. They should be fastened with screws at least 1" in length. Leave about 1" of space between the screws and the ends of the MDF planks.
