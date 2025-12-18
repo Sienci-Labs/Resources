@@ -185,7 +185,6 @@ When a job has been started, gSender will shoe a feed adjustment control panel b
 ![](/_images/_lmmk2/_handbook/lmk2_runjobs_feed-Rate-adjustment..jpg){.aligncenter .size-full}
 
 [su_table responsive="yes"]
-
 <table>
 <tbody>
 <tr>
@@ -204,7 +203,6 @@ When a job has been started, gSender will shoe a feed adjustment control panel b
 </tr>
 </tbody>
 </table>
-
 [/su_table]
 
 It’s important to remember, however, that while you may want to modify the cutting feed rate for some cutting operations, the machine will continue using this feed rate override for subsequent cutting operations. For example, if you’ve overridden the feed rate by 200% while cutting the outline of your project at very shallow depths, you’ll want to reset the feed rate to its original speed before it next moves on to cutting out a pocket at a much deeper depth.

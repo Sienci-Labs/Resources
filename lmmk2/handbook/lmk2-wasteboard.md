@@ -56,8 +56,6 @@ We also have a 'Surfacing' utility built into gSender that you can use for g-cod
 
 ![](/_images/_lmmk2/_handbook/lmk2_wasteboard_gSsender-1-0-5-surfacing-utility-ann.png){.aligncenter .size-medium}
 
-[tabbyending]
-
 And there are still more options like INTUWiz, an online g-code generation program that is able to generate "facing" g-code (<a href="http://www.intuwiz.com/plane.html#.Xidt8sjYouV" target="_blank" rel="noopener">http://www.intuwiz.com/plane.html#.Xidt8sjYouV</a>).
 
 ![](/_images/_lmmk2/_handbook/lmk2_wasteboard_INTUWiz-generation.png){.aligncenter .size-medium}
