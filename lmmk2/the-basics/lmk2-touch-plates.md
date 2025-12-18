@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_longmill/_assembly/_addons/lm_addons_p8_Corner.jpg
+featured_image: _images/_longmill/_assembly/_addons/lm_addons_p8-corner.jpg
 ---
 
 A touch plate can make it quicker and easier to find your origin point on your material. There are a lot of different types of touch plates, but the vast majority use some sort of metal block that detects when your end mill makes contact with its surface by completing a circuit.

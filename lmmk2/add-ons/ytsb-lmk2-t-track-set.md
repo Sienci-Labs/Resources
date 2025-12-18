@@ -12,7 +12,7 @@ custom_fields:
     KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_longmill/_assembly/_addons/lm_addons_p18.png
+featured_image: _images/_longmill/_assembly/_addons/lm_addons_p18.jpg
 ---
 
 A T-Track system can be very useful and functional for your CNC bed if you find that it suits your needs. This workholding option comes alongside a wide variety of other options that exist when it comes to mounting materials and setting up jigs for your LongMill which you can read more about here: <a href="https://resources.sienci.com/view/lmk2-workholding/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-workholding/</a>
@@ -30,7 +30,7 @@ https://youtu.be/T4QVgtnZMDw
 
 This layout minimizes reductions in cutting area and depth, and can be prepared in advance before your machine arrives. It uses a 48”x48”x ¾” MDF sheet, which can be purchased and cut to size at home or at your local hardware store.
 
-![](/_images/_longmill/_assembly/_addons/lm_addons_p18.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_addons/lm_addons_p18.jpg){.aligncenter .size-medium}
 
 1. Cut a 48” x 48” x ¾” MDF sheet into five pieces of 6” wide planks, and two pieces of 5 ½ ” wide planks.
 1. Lay out the T-tracks and planks on the table, and fasten them down with wood screws. The machine will sit on top of the 5 ½” planks, as the 6” planks are arranged between them. They should be fastened with screws at least 1” in length. Leave about 1” of space between the screws and the ends of the MDF planks.
@@ -69,7 +69,7 @@ T-clamps are simple and reliable workholding tools that are used alongside T-Tra
 1. Move and adjust the clamp to push down onto the workpiece, ensuring that the end cap side of the clamp is lower than the bolt end. Tighten both bolts until snug. Position the clamps so that there is enough space for your cutting job on your workpiece.
 1. Push your material to check if it is secured onto the table. If not, use more t-clamps or other workholding methods.
 
-![](/_images/_longmill/_assembly/_addons/lm_addons_p21.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_addons/lm_addons_p21.jpg){.aligncenter .size-medium}
 
 ## Making your own clamps
 
