@@ -15,11 +15,11 @@ skip_file: no
 featured_image: /_images/_longmill/_assembly/_addons/lm_addons_p1.jpg
 ---
 
-## Standard Block-Style Plate
-
 Setting up any style of touch plate on your LongMill is easy. Since it only requires a ‘closed’ connection between two wires you can use all sorts of plate designs from a thin metal sheet to a more common block style to probing off the material itself if it’s conductive. Once wired, the last step is to check that your g-code sender understands the shape of your touch plate and how you plan to use it.
 
 All the touch plates that we provide have instructions below and are fully supported by gSender as well as have some support for other popular senders like UGS, CNCjs, and more.
+
+## Standard Block-Style Plate
 
 This guide covers set up and use of our Standard Touch Plate. If you have a different or custom touch plate that’s a block shape these steps can also be applied for software setup and usage.
 
@@ -32,11 +32,11 @@ This guide covers set up and use of our Standard Touch Plate. If you have a diff
 
 Our touch plates come mostly pre-wired but sometimes a green connector will need to be attached. If your wire harness doesn’t have a green connector attached already, look for it to be plugged into the Probe and GND pin pair on your LongMill control board. These terminal connectors have a built-in clamping system that you can open and close by turning the flat head screw at the top of each connection point.
 
-<img class="wp-image-3654 size-medium aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Block-style-assembly-1-850x366.png" alt="" width="850" height="366" />
+![](/_images/_lmmk2/_add-ons/lmk2_touchplate_block1.jpg){.aligncenter .size-medium}
 
 Use a flat head screwdriver to clamp down on the exposed wire ends from the harness ensuring the red and black wires are in the correct order as in the photo. You can check for a reliable connection by giving the wires a small tug and they’ll feel firmly clamped in place. Plug the connector back into the board once finished.
 
-<img class="size-medium wp-image-3655 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Block-style-assembly-2-850x366.png" alt="" width="850" height="366" />
+![](/_images/_lmmk2/_add-ons/lmk2_touchplate_block2.jpg){.aligncenter .size-medium}
 
 At the other end of the wiring harness will be a magnet and a banana plug. The touch plate has two different holes to insert the banana plug so you can choose the hole that keeps wiring tidy for your setup. Make sure you push it in all the way; the connection should feel snug.
 
@@ -46,7 +46,27 @@ To help you visualize the final setup in action: when you go to probe you'll att
 
 With wiring complete, let’s move on to setting up your g-code sender to work with the touch plate. gSender and UGS (UGSPlatform) are easiest to configure for this style probe so we’ll show setup for both below.
 
-[tabby title="gSender" open="yes"]
+[tabby title="Current" open="yes"]
+
+gSender comes pre-loaded with all the settings needed for our touch plate and is able probe easily in the X, Y, and Z-axis and some other combinations.
+
+All probing happens in the Probe tab in the main Carve screen. Here you can select what type of probing you'd like to perform as well as select the tool you'll be using or you can type in the tool size manually.
+
+- **Z**: Finds the Z height only.
+- **XYZ**: Finds the zero point on the front, left corner of your material in all axes.
+- **XY, X, Y**: Finds the zero point in the X and/or Y directions only.
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p2real-newu.jpg){.aligncenter .size-medium}
+
+You can also add tools here if you want the probe widget to remember your most commonly used tools.
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p3-addnewu.jpg){.aligncenter .size-medium}
+
+If you have a third-party touch plate, you can click on the Config tab and then select or scroll to the Probe section. Here you'll be able to customize your plate dimensions, the probing speed, or switch over to a Z-only probe.
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p3-config.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
 
 gSender comes pre-loaded with all the settings needed for our touch plate and is able probe easily in the X, Y, and Z-axis and some other combinations.
 
@@ -113,7 +133,21 @@ If you want to run a probing operation, first we need to place the touch plate a
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p5.png "1/4″ end mill positioned for an XYZ probe"){.aligncenter .size-medium}
 
-[tabby title="gSender" open="yes"]
+[tabby title="Current" open="yes"]
+
+Back in the 'Probe' tab, you can choose which axis to probe for and the diameter of the bit you're using - in this case select 'XYZ'. The bit size can be selected from the drop-down of saved bits, or can be typed in manually. Press the **Probe** button and you'll get a pop-up window to confirm you've positioned your bit correctly and you'll be prompted to check for a good connection.
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p5-probe.jpg){.aligncenter .size-medium}
+
+You can either bring the touch plate to the end mill or touch the banana plug and magnet together. Make contact a few times just to confirm there is conductivity, as the red circle should flicker to green and a blue 'Start Probe' button appears.
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p6-probeconfirm.jpg){.aligncenter .size-medium}
+
+Pressing 'Start Probe' will now make the machine move to probe three sides of the touch plate, twice on each side. There should not be any crashing or abrupt movement. Once the process is over, remove the touch plate components from the machine and then press **XY** in the Go column. The bit should be over-top of the bottom left corner of the stock material, and pressing the blue **Z Button** in the Go column, should bring it to touch the materials surface.
+
+If the probing was **unsuccessful**, then it'll be indicated by the cutting bit not returning to where you started the probe cycle or the machine will be put into an 'ALARM' state. To bring it out of the alarm state, press the pulsing 'Unlock' button in the middle of the visualizer and that will put the machine back into its 'IDLE' state. An unsuccessful probing cycle can result from an incorrectly positioned probe or starting too far outside the circular logo. Be sure to verify your setup before attempting another probing cycle.
+
+[tabby title="Classic gSender"]
 
 Back in the 'Probe' tab, you can choose which axis to probe for and the diameter of the bit you're using - in this case select 'XYZ'. The bit size can be selected from the drop-down of saved bits, or can be typed in manually. Press the 'Probe' button and you'll get a pop-up window to confirm you've positioned your bit correctly and you'll be prompted to check for a good connection.
 
@@ -173,7 +207,7 @@ You may have some issues with using your touch probe if your cutting tool is:
 
 ## AutoZero Touch Plate
 
-The AutoZero Touch Plate is specifically designed for use with the latest version of <a href="https://sienci.com/gSender/">gSender</a>. Please download the latest program first.
+The AutoZero Touch Plate is specifically designed for use with the latest version of <a href="https://sienci.com/gSender/" target="_blank" rel="noopener noreferrer">gSender</a>. Please download the latest program first.
 
 https://www.youtube.com/watch?v=H_fYFjtFc3Q
 
@@ -190,15 +224,31 @@ If your cable didn't come with a green connector, you should find a spare one ca
 
 All probing macros for the AutoZero are built into gSender making it easy to set up.
 
+[tabby title="Current" open="yes"]
+
+The key step is to make sure to go to gSenders settings (Config tab in the bottom left) ➜ go to the 'Probe' settings ➜ and change the touch plate type to **AutoZero Touch plate** in the dropdown menu. If you don't do this, or at a later time you find the probing macros are moving strangely, then you should come back to check that this setting is still correct. Remember to hit the Apply Settings button once you've changed your touch plate type.
+
+We recommend leaving the “Connection Test” option activated as well. If you're not using gSender and have the AutoZero, we also <a href="#using-other-senders">provide macros for other common senders</a>.
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p12-newu.jpg){.aligncenter .size-medium}
+
+Your **Probe** tab at the bottom right side of the Carve screen should now update to show images of the AutoZero. These tell you how you should position your bit if you'd like to perform probing for that axis.
+
+![](/_images/_longmill/_assembly/_addons/lm_addons_p13-newu.jpg){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
 The key step is to make sure to go to gSenders settings (gear icon at the top, right of the window) ➜ go to the 'Probe' settings ➜ and change the touch plate type to “**AutoZero Touch plate**" in the dropdown menu. If you don't do this, or at a later time you find the probing macros are moving strangely, then you should come back to check that this setting is still correct.
 
 We recommend leaving the “Probe Connectivity Test” option activated as well. If you're not using gSender and have the AutoZero, we also <a href="#using-other-senders">provide macros for other common senders</a>.
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p12.png){.aligncenter .size-medium}
 
-Your 'Probe' tab at the bottom right side of the screen should now update to show images of the AutoZero. These tell you how you should position your bit if you'd like to perform probing for that axis.
+Your **Probe** tab at the bottom right side of the screen should now update to show images of the AutoZero. These tell you how you should position your bit if you'd like to perform probing for that axis.
 
 ![](/_images/_longmill/_assembly/_addons/lm_addons_p13.png){.aligncenter .size-medium}
+
+[tabbyending]
 
 ### Step 3: Setting up the touch plate on your workpiece
 
@@ -215,11 +265,11 @@ https://youtu.be/I1EhAPNXdzQ
 
 The AutoZero can probe in all three axes. The type of probing can be selected with one of the five options on the interface. The selection determines which axis the machine will be probing for and which coordinates it will reset once the probing cycle is complete.
 
-![](/_images/_longmill/_assembly/_addons/lm_addons_p14.png){.aligncenter .size-medium}
+![](/_images/_longmill/_assembly/_addons/lm_addons_p14-newu.jpg){.aligncenter .size-medium .nar}
 
 Before you begin, make sure that both the touch plate is connected and the magnet is connected to the end mill or a nearby conductive surface such as the shank of the router or the router nut. gSender will ask to check for the continuity of the plate before starting the process to ensure your probe has the proper connection by asking you to touch the plate to your bit.
 
-![](/_images/_longmill/_assembly/_addons/lm_addons_p15.png){.aligncenter .size-medium .nar}
+![](/_images/_longmill/_assembly/_addons/lm_addons_p6-probeconfirm.jpg){.aligncenter .size-medium .nar}
 
 **For the "Z" Axis probe,** the machine will move down and touch off the block to find the offset distance based on the touch plate's thickness. Set the end mill above the back lip of the touch plate which is designed for doing Z probes.
 
@@ -264,7 +314,9 @@ Note: These macros were tested on the Buildbotics controller but they should als
 
 Note: The macros environment in UGS does not support arithmetic operations so probing with the X and/or Y axis using the AutoZero touch plate is a semi-automatic process. More specifically, you will need to click on the “Control Status (DRO)” panel and enter “/2” to halve the active coordinates in the X and/or Y after probing in these directions. If you have only probed either the X or the Y axis, you will only need to divide the coordinate of the axis which was probed.
 
-<img class="aligncenter wp-image-4777 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/AZ-Coordinate-Division-UGS.gif" alt="" width="600" height="338" /><em>Example dividing the X and Y axis coordinates after probing in UGS</em>
+<p style="text-align: center;"><img class="aligncenter wp-image-4777 size-full" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_touchplate_othersender_ugs-1.gif" alt="" width="600" height="338" /><i>Example dividing the X and Y axis coordinates after probing in UGS</i></p>
+
+<em>Example dividing the X and Y axis coordinates after probing in UGS</em>
 
 **Macros for other Senders:** <a href="https://resources.sienci.com/wp-content/uploads/2022/03/AZ-All-Software.zip"><b>Download for other Senders</b></a>
 
@@ -277,7 +329,7 @@ To do so:
 1. Enter the command `G10 L20 P0 X[divided X coordinate] Y[divided Y coordinate]` into the console substituting the coordinates in square brackets with ones manually calculated in step 2. If you have only probed either the X or the Y axis, you will only need to divide and substitute the coordinate for the axis which was probed.
 1. Home X and/or Y to check if the tool is at origin
 
-<img class="aligncenter wp-image-4776 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/AZ-Coordinate-Division-Generic.gif" alt="" width="600" height="338" /> <em>Example dividing the X and Y axis coordinates after probing in any CNC control software</em>
+<p style="text-align: center;"><img class="aligncenter wp-image-4776 size-full" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_touchplate_othersender_generic-1.gif" alt="" width="600" height="338" /> <i>Example dividing the X and Y axis coordinates after probing in any CNC control software</i></p>
 
 ## Troubleshooting
 
@@ -295,7 +347,7 @@ If you’re using UGS:
 
 - There is a bug that can cause the touch plate to move farther than the expected origin and plunge the bit into the work surface if you use INCHES units when jogging around. If so, before beginning the probe process ensure that you have set the jog control to MM instead of INCHES. Once probing is completed, you may switch back to INCHES and resume regular machine operation
 
-[caption id="attachment_925" align="aligncenter" width="850"]<img class="wp-image-925 size-medium" src="https://resources.sienci.com/wp-content/uploads/2021/05/UGS-probe-inches-bug-850x405.png" alt="" width="850" height="405" /> Jog control unit setting on UGS[/caption]
+![](/_images/_lmmk2/_add-ons/lmk2_touchplate_ugsprobebug.jpg "Jog control unit setting on UGS"){.aligncenter .size-medium}
 
 If this was not the problem:
 
@@ -304,13 +356,32 @@ If this was not the problem:
 - Make sure your work coordinates match your touch plate settings (usually G54)
 - Check that there's proper electrical contact from your control box through to your magnet and touch plate. An easy way to check this is to run a Z probe with the router high up in the air and manually tap the magnet to the plate while they're held in each of your hands. If the bit stops and raises slightly up then lowers down again, this should indicate some form of connectivity from the magnet and touch plate to the control box. If you tap them together again, this should conclude the probing process and no errors should appear. If you don't observe this behaviour, then you should try this test again and if it again shows an error then check the electrical connections. See if the magnet is making contact with the metal leads of the wire by unscrewing the fastener in the centre and do the same for the banana plug as well. You may need to strip more insulation off the ends of the wire to get more contact with the metal surfaces. There’s a great video showing how to deal with banana connectors assembly/disassembly <a href="https://www.YouTube.com/watch?v=cH0C_g_lfXo" target="_blank" rel="noopener">here.</a>
 - Check for continuity between the banana clip and the connector. If there's no continuity, test the bare end of the wire. If there is continuity, ensure the bare end of the wire is properly seated in the connector.
-  <img class="size-medium wp-image-4198 aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/Touch-Plate-banana-clip-continuity-test-850x349.jpg" alt="Electrical meter testing the continuity of between an electrical connector and a banana style clip" width="850" height="349" />
+
+<figure class="wp-block-image size-full">
+<img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_touchplate_bananatest-1.jpg" alt="" title="Electrical meter testing the continuity of between an electrical connector and a banana style clip" />
+<figcaption class="wp-caption-text">Electrical meter testing the continuity of between an electrical connector and a banana style clip</figcaption>
+</figure>
+
 - Check for continuity between the magnet and and the connector. If not continuity, repeat the same steps above.
-  <img class="aligncenter size-medium wp-image-4195" src="https://resources.sienci.com/wp-content/uploads/2022/03/Touch-Plate-magnet-continuity-test-850x374.jpg" alt="Electrical meter testing the continuity of between an electrical connector and a magnet" width="850" height="374" />
+
+<figure class="wp-block-image size-full">
+<img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_touchplate_continuitytest.jpg" alt="" title="Electrical meter testing the continuity of between an electrical connector and a magnet" />
+<figcaption class="wp-caption-text">Electrical meter testing the continuity of between an electrical connector and a magnet</figcaption>
+</figure>
+
 - If you have good continuity with the wiring harness, make a jumper connector by placing a wire into both ends of a spare connector.
-  <img class="aligncenter size-medium wp-image-4196" src="https://resources.sienci.com/wp-content/uploads/2022/03/touch-plate-probe-jumper-pin-850x305.jpg" alt="Wire inserted into both side of a connector to create a jumper connector" width="850" height="305" />
+
+<figure class="wp-block-image size-full">
+<img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_touchplate_jumperpin-1.jpg" alt="" title="Wire inserted into both side of a connector to create a jumper connector" />
+<figcaption class="wp-caption-text">Wire inserted into both side of a connector to create a jumper connector</figcaption>
+</figure>
+
 - Insert the jumper connector into the controller. Open gSender, begin the probing operation. You should get the green go ahead to begin. If there is no change, the port on the controller might be the issue.
-  <img class="wp-image-9092 size-large aligncenter" src="https://resources.sienci.com/wp-content/uploads/2022/03/LB-and-SLB-probe-shorting_page-0001-1024x387.jpg" alt="Wire jumped connector inserted into the LongBoard and SLB controllers" width="1024" height="387" />
+
+<figure class="wp-block-image size-full">
+<img src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_touchplate_probeshorting-1.jpg" alt="" title="Wire jumped connector inserted into the LongBoard and SLB controllers" />
+<figcaption class="wp-caption-text">Wire jumped connector inserted into the LongBoard and SLB controllers</figcaption>
+</figure>
 
 Replacement touch plate cables can be found here: <a href="https://sienci.com/product/touch-plate-cable/" target="_blank" rel="noopener">https://sienci.com/product/touch-plate-cable/</a>
 
