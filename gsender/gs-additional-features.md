@@ -688,6 +688,24 @@ Paste your macro code here.
 
 <b><span class="redText">Disclaimer!</span> These Macros are submitted by our community. They aren't vetted by us and might cause damage to your machine so use them at your own risk!</b> Please review the code and test it before assuming it will work with your machine setup.
 
+[su_spoiler title="<b>Bump Z-axis zero down</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+**Author:** Chris T.<br>
+**Updated:** Jan 5, 2026
+
+**Description:** For when you're doing very precise carving and want to tweak the Z-axis zero slightly without taking a while to type in a new value or re-zero. Only works if you’re in the default G54 workspace, would require some more changes if you want it to intelligently work in other workspaces.
+
+**Code:**
+
+```js
+G10 L20 P0 Z[posz + 0.1]
+
+//if you'd like to do this in imperial, use the code below
+%newPos = [posz/25.4 + 0.004]
+G10 L20 P0 Z[newPos*25.4]
+```
+
+[/su_spoiler]
+
 [su_spoiler title="<b>SLB Light-Cycling</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 **Author:** Kevin G.<br>
 **Updated:** Apr 15, 2024
