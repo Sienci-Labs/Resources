@@ -1,7 +1,7 @@
 ---
 title: Dust Collection
-menu_order: 0
-post_status: draft
+menu_order: 8
+post_status: publish
 post_excerpt: Dust shoe, vacuum collection, and hose size considerations for the LongMill CNC. Pros and cons of Z-independent and dependent dust shoes discussed.
 post_date: 2024-07-18 18:14:53
 taxonomy:
@@ -27,11 +27,11 @@ This is where a 'dust collection' system can help you out. Most CNC dust collect
 
 There are also some other solutions that won't be covered on this page that can help with dust management like building an [enclosure for your CNC](https://resources.sienci.com/view/lmk2-table-enclosure/#machine-enclosure) or running it in an open-air environment. Ideally these should still be used alongside a dust collection setup, but cutting in open-air can be fine short-term to reduce setup complexity and learning curve, and using an enclosure can sometimes help keep cutting noise down.
 
-### Safety
+## Safety
 
 When you're working with your CNC machine, it’s easy to forget that the noise and dust in the air can be just as dangerous as an end mill. Dust from wood, plastics, or other materials can irritate your respiratory system over time, even if you don’t notice it right away. On top of that, the noise from tools like routers and vacuums can quietly damage your hearing without you realizing how quickly it happens. The good news is, with a few simple precautions—like wearing proper masks and ear protection—you can minimize these risks and keep your hobby enjoyable and safe for the long run.
 
-#### Dust Protection
+### Dust Protection
 
 Being in an environment where you are exposed to high amounts of aerosolized sawdust isn't good for you, and can cause a chronic cough, chest pain, runny nose, headaches, bronchitis and more. The worst for your health is the fine particle that can't be seen by the naked eye. In the woodworking hobby, dust is classified into categories—L (low-risk), M (medium-risk), and H (high-risk)—based on the type of material and associated health risks.
 
@@ -173,7 +173,7 @@ Your dust shoe and hose will need a source of suction. Most times an existing du
 
 ![](/_images/_cnc-fun/_the-basics/_dust/cnc_ba_dust_safety_collect.jpg "A dust separator with cyclone vs dual bag dust collector"){.aligncenter .size-medium}
 
-### 1. Shop Vac
+### Shop Vac
 
 A **shop vac** is a versatile, high-suction device primarily designed to pick up larger particles, such as wood chips, sawdust, and even liquid spills. It is the most common type of dust collection used in the hobby CNC space. With many affordable options available at many large box stores, you can get setup and running right away with a shop vac. You can move it around the CNC or build a dedicated space for it.
 
@@ -199,7 +199,7 @@ Many user will make their own, or you can purchase a pre-made one. [Buy Here](ht
 | Adding a Dust Separator to a Shop Vac     | 12 min   | [Watch Here](https://youtu.be/jRuLmnQymXg)     |
 | Dust Cyclone Separator Cart               | 15 min   | [Watch Here](https://youtu.be/lGnGNYrxqjs)     |
 
-### 2. Dust Collector
+### Dust Collector
 
 A **dust collector** is designed to capture greater volumes of dust and wood chips typically generated from large CNCs and woodworking tools. It is a more powerful and specialized system compared to a shop vac. It is often stationary and connected onto multiple tools.
 
@@ -229,7 +229,7 @@ A **dust collector** is designed to capture greater volumes of dust and wood chi
 
 Each of these tools has its strengths, costs, size and power requirements. Often woodworkers start with a simple shop vac and build up to a combination of shop vac & cyclone or a dust collector system. Add in a dust extractor to your shop, and you've created an optimal setup for a safer, cleaner workshop.
 
-### User Setups
+## User Setups
 
 You can customize your shop to have a simple shop vac with hose hanging above your CNC, upgrade to a 2 stage system and add a cyclone, or build a cart for portability. Upgrade further to a wall mounted dust collection system, and run it to each tool in your shop. You can even add blast gates to your system, activated manually or automatically! **Check out this section to see what other users have come up with for their own setup**
 
@@ -262,7 +262,7 @@ A **dust extractor** is a specialized type of vacuum designed to capture fine, h
 | WEN AF1270     | 4.2-Amp 3-Speed Remote-Controlled Industrial-Strength Air Filtration System | [Buy Here](https://wenproducts.com/collections/dust-management/products/wen-af1270-4-2-amp-3-speed-remote-controlled-industrial-strength-air-filtration-system-750-950-1270-cfm) |
 | Fein 9-20-27   | Turbo Vacuum, 5.8 Gallon, HEPA filter                                 | [Buy Here](https://www.amazon.ca/dp/B00K69ILFQ/ref=asc_df_B00K74N8RQ&mcid=6207cf8f1eaa34e0ba6f2390c8adf5ea)   |
 
-### Sawdust Recycling
+## Sawdust Recycling
 
 Sawdust from a woodworking shop has a surprising number of useful applications. Mix with wax for a camping fire starter or mix with wood glue to make art. Mulch your flower beds or make a bed for your livestock. What ever you do, don't throw it all away!
 

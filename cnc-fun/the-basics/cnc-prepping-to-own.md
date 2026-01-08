@@ -1,7 +1,7 @@
 ---
 title: Prepping to Own
-menu_order: 0
-post_status: draft
+menu_order: 3
+post_status: publish
 post_excerpt: Preparing for your CNC machine to arrive by examining your workspace, power requirements, things to expect along the way and the support available to you.
 post_date: 2024-07-18 18:14:53
 taxonomy:
@@ -85,7 +85,7 @@ Here are a couple more videos that may prove to be interesting at this point. Fi
 ### Failure is Part of the Process
 
 - **Trial and Error**<br> Don’t be discouraged if your first attempts don’t go as planned. It’s common to break bits, misalign materials, or get unexpected results. Mistakes are part of the learning process.
-- **Material Wastage**<br> You will likely waste some material during the learning phase, whether from incorrect settings or accidents. Plan for some losses as you refine your skills.
+- **Material Wastage**<br> You will likely waste some material during the learning phase, whether from incorrect settings or accidents. Plan for some losses as you refine your skills, and use rigid foam and/or plywood as scrap material to reduce waste as you get the hang of things.
 
 Mistakes happen, let's review some of the common ones!
 
@@ -157,8 +157,9 @@ These videos explore setting up a garage shop, using the ceiling, installing cla
 
 When setting up your shop, it’s important to consider the power requirements of both the **controller**, the **router** or **spindle** used, and any other tools added. Here’s a quick rundown:
 
-1. **Controller** ([SuperLongBoard](https://sienci.com/product/slb/))
-   - The **SLB** requires a **24V** external power supply with a **10-12A capacity** to run. This adds up to about **2 amps** on a 120V circuit which is relatively low, but combined with a spindle or router and other equipment, it’s still essential to keep an eye on your overall power usage.
+1. **Controller** 
+   - ([SuperLongBoard](https://sienci.com/product/slb/)) The **SLB** requires a **24V** external power supply with a **10-12A capacity** to run. This adds up to about **2 amps** on a 120V circuit which is relatively low, but combined with a spindle or router and other equipment, it’s still essential to keep an eye on your overall power usage.
+   - ([SuperLongBoard EXT](https://sienci.com/product/slb-ext-closed-loop-controller/))The **SLB-EXT** requires a **48V** external power supply with a **10.4A capacity** to run. It's maximum power is about 480W.
 1. **Router Power** ([Makita 1.25HP](https://sienci.com/product/makita-rt0701c-1-25-hp-110v-compact-router/))
    - Many hobbyists start with a **router** instead of a spindle. Routers, like the **Makita RT0701C**, draw around **6-7 amps** on 120V circuits. This is much less than a spindle, making routers a good option if you’re working with limited power supply.
 1. **Spindle Power**
@@ -222,9 +223,9 @@ Here are some extra videos to help you save some money when setting up your shop
 
 ## Machine Maintenance
 
-- **[Regular Upkeep](https://resources.sienci.com/view/lmk2-maintenance/)**<br> CNC machines require regular maintenance to perform optimally. This includes cleaning your rails & wheels, lubricating parts, checking for loose bolts, and inspecting wiring and belts. Some software like [gSender](https://resources.sienci.com/view/gs-installation/) will help you track the number of hours you have been running your machine, and recommend specific maintenance be performed.
+- **[Regular Upkeep](https://resources.sienci.com/view/lmk2-maintenance/)**<br> CNC machines require regular maintenance to perform optimally. This includes cleaning your rails & wheels, lubricating parts, checking for loose bolts, and inspecting wiring and belts. Some software like [gSender](https://resources.sienci.com/view/gs-installation/) will help you track the number of hours you have been running your machine, and recommend specific maintenance be performed. You can checkout the maintenance guides for the [LongMill](https://resources.sienci.com/view/lmk2-maintenance/) and the [AltMill](https://resources.sienci.com/view/am-maintenance/) too!!
 - **[Replacing Parts](https://sienci.com/product-category/parts/)**<br> Over time, you’ll need to replace things like the cutting tools, which dull with use, or v-wheels, linear bearings, and delrin nuts that wear out. Knowing how to maintain your machine will help avoid costly breakdowns. Just like replacing tires or windshield wipers on your car.
-- **[Calibration](https://resources.sienci.com/view/lmk2-checks-and-first-moves/#tuning-movement)**<br> Keeping your machine properly calibrated is key for accuracy. Routine checks on squareness, zeroing, and other factors will save you time and material in the long run.
+- **[Calibration](https://resources.sienci.com/view/lmk2-checks-and-first-moves/#tuning-movement)**<br> Keeping your machine properly calibrated is key for accuracy. You won't need to recalibrate on a time scale, but routine checks on squareness, zeroing, and other factors will save you time and material in the long run after parts are replaced as part of your regular upkeep.
 
 [su_table responsive="yes"]
 

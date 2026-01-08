@@ -1,7 +1,7 @@
 ---
 title: Cutting Tools
-menu_order: 0
-post_status: draft
+menu_order: 4
+post_status: publish
 post_excerpt: Resources and documentation for general CNC work. You will find info about routers, software, end mills, add ons, and more  - everything you need to get started.
 post_date: 2024-07-18 18:14:53
 taxonomy:
@@ -27,39 +27,65 @@ Choosing bits is very much a learning process just as learning to use certain bl
 
 [tabby title="Tip Shape" open="yes"]
 
-The biggest difference in cutting tools is their tip shape, this determines what application the bit can be used for. The three most common types are the **v-bit**, **flat end**, and **ball nose** (shown below respectively).
+The biggest difference in cutting tools is their tip shape, this determines what application the bit can be used for. The three most common types are the **ball nose**, **flat end**, and **v-bit** (shown below respectively).
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_cuttingtools_p1-tip-types.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p1-tip-types.jpg){.aligncenter .size-medium}
 
 **V-bit:**  v-bits have an angled tip that works great for engraving. They come in varying angles so that if you're cutting a line with a certain thickness then a 60° bit will cut that line deeper than a 90° bit will; this variation can be used to great effect.
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_cuttingtools_p2-vbits.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p2-vbits.jpg){.aligncenter .size-medium}
 
 V-bits can be used for simple line-drawing engravings and are also commonly used for "v-carving" which varies the height of the bit as it cuts to change the width of the engraving. This can create detailed images and can also be used for stippling.
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_cuttingtools_p3-wave.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p3-wave.jpg){.aligncenter .size-medium}
+
+Here is a detailed chart, illustrating how you can get finer detail, with a smaller angle V-bit. In these examples, the <span style="color:red;">RED</span> dots represent an exaggerated vector line, while the <span style="color:blue;">BLUE</span> dots show the cut depth.
+
+This first image shows that using the same depth of cut will produce different cut width, depending on the bit you choose. A smaller bit is better for vector lines that are close together, to offer more detail.
+
+![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p9-Vcarves1.jpg "learnyourcnc.com"){.aligncenter .size-medium}
+
+This second image shows that using a V-bit on similarly spaced vectors, will produce different cut depths, based on  your V-bit choice. In this case, smaller bits will carve deeper, on similar vectors.
+
+![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p9-Vcarves2.jpg "learnyourcnc.com"){.aligncenter .size-medium}
+
+Not only do you set your vector line width and cut depth in your design software, but you can also set a flat depth. A flat depth will prevent the V-bit from cutting any deeper than specified, best used when your vector lines are farther apart than the bit you are using.
+
+![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p9-Vcarves3.jpg "learnyourcnc.com"){.aligncenter .size-medium}
 
 **Flat end:**  this type of end mill simply has a flat or "square" tip profile and normally comes in the form of a spiral bit, but rabbit and dado bits also fall under this category. These cutting tools are the most common of any type due to their versatility for rapid material removal, pocketing, and generally being able to do most CNC projects you may have in mind. At the very least they come in handy if you're considering levelling a large cut of material or need to cut the outer profile of a sign to separate it from the stock material.
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_cuttingtools_p4-wood-box.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p4-wood-box.jpg){.aligncenter .size-medium}
 
-**Ball nose:**  great for 3D / relief carving where your project contains contoured surfaces. By stitching many close passes of its rounded profile together the result can be a perfectly smooth, curved surface right off your machine. Smaller ball nose bits are commonly tapered so that the bit is less likely to snap but you're still able to cut out very fine details. All this being said, one aspect these bits can't handle is flat surfaces due to the "scalloping" they introduce. This type of carving is certainly more advanced than others but at the end of the day it certainly adds an extra dimension to your projects.
+Flat end mills come in several different configurations. Upcut, downcut and compression bits all move chips a bit differently and can affect edge quality.
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_cuttingtools_p5-3d-foam.jpg){.aligncenter .size-medium}
+- An **Upcut** bit will pull chips upwards, resulting in a clean bottom or pocket, and great chip evacuation. The downside is it can cause tear out at the surface. Great for slots and deep pockets.
+- A **Downcut** bit pushes chips downward, leaving a clean top edge but packing chips in the cut, so it’s best for shallow passes and profiles.
+- A **Compression*** bit combines both (downcut at the top, upcut at the bottom), producing clean edges on both the top and bottom surfaces, making it ideal for plywood and laminated sheet goods in hobby CNC work when cutting all the way through.
+
+![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p8-updowncompress.jpg){.aligncenter .size-medium}
+
+**Ball nose:**  great for 3D / relief carving where your project contains contoured surfaces. By stitching many close passes of its rounded profile together the result can be a perfectly smooth, curved surface right off your machine.
+
+![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p5-3d-foam.jpg){.aligncenter .size-medium}
+
+A tapered ball nose bit has the same rounded tip but with tapered (angled) sides, which makes the tool much stiffer. You’d use it for deeper 3D carving, detailed work, and harder materials, where reduced deflection, better accuracy, and cleaner results are important. The trade-off is that the taper limits how close the tool can get to steep vertical walls compared to a straight ball nose. All this being said, one aspect these bits can't handle is flat surfaces due to the "scalloping" they introduce. This type of carving is certainly more advanced than others but at the end of the day it certainly adds an extra dimension to your projects.
+
+![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p10-taperedballnose.jpg){.aligncenter .size-medium}
 
 [tabby title="Size"]
 
-The size of a cutting tool is important because if it's too big then it might not be able to cut to the level of detail that you need, and if it's too small then it might take forever to cut everything away. When you're starting with a CNC it's easier to stick with using a single bit for the whole job so you probably want to make sure you're sizing it correctly, but once you become accustomed with mid-project tool changing and then you can have the best of both worlds!
+The size of a cutting tool is important because if it's too big then it might not be able to cut to the level of detail that you need, and if it's too small then it might take forever to cut everything away. You can check by using the visualizer tool on your CAM software to see whether your bit is able to do the finer cuts. Typically, simple jobs can be done with 2 different bits, one bit used to remove the majority of the material and the other bit used to define the details.
 
 Cutting tools can normally be described by a few key dimensions:
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_cuttingtools_p6-end-mill-feat.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p6-end-mill-feat.jpg){.aligncenter .size-medium}
 
 **Cutting diameter:**  the diameter of the cutting end of the tool. For ball nose bits it's the diameter before the rounded profile and for v-bits it's usually the largest diameter of the 'v' profile. The size of this determines your tools ability to remove material.
 
 **Cutting length:**  the length of cutting profile that the bit has. This length determines the maximum height of material that can be 'engaged' with your bit while cutting, however most of the time when making slotted profile cuts it's a good rule of thumb to cut down half of the cutting diameter at a time.
 
-**Shank diameter:**  this is where your router or spindle will be holding onto the bit, so make sure it fits! This can be whether you have a 1/4" collet, an 1/8" one, or a collet adapter. When attaching your bit into the collet, it's best practice to push it in all the way to the end of the shank length, otherwise if it's sticking far out then it'll be prone to snapping during a cutting job.
+**Shank diameter:**  this is where your router or spindle will be holding onto the bit, through a collet. For small diameter bits (⅛”), you may need to use an adapter which acts as a sheath, allowing you to clamp the small bit.  
 
 **General rules:**
 
@@ -89,7 +115,7 @@ As a CNC operator, you will learn to choose the correct end mill for the job and
 
 Cutting tools can be manufactured out of a variety of material which are all engineered to be able to sustain high loads during the cutting process and remain sharp enough in order to shear the material away from the stock. Of these, the most commonly used materials are high speed steel (HSS) and solid carbide.
 
-![](/_images/_cnc-fun/_the-basics/cnc_ba_cuttingtools_p7-hss-carbide.jpg "Solid carbide vs. HSS cutting tool"){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p7-hss-carbide.jpg "Solid carbide vs. HSS cutting tool"){.aligncenter .size-medium}
 
 HSS usually combines with a variety of other alloys to have a high wear resistance and durability for cutting both soft and hard materials. Since HSS is softer than solid carbide it’s less likely to crack and instead wears out over time, so it’s limited to slower cutting speeds. HSS tools are also usually much cheaper than solid carbide tools and can be additionally improved if they come with a coating.
 
@@ -97,11 +123,17 @@ Solid carbide tools are very hard so they’ll stay sharp for longer and won’t
 
 ### Coatings
 
-Carbide cutting tools have the ability to be covered in fancy coatings like TiN (titanium nitride), TiCN (titanium carbonitride), TiAlN (titanium aluminum nitride), and AlTiN (aluminum titanium nitride). All of these coatings can enhance the tool's abilities by increasing its wear resistance, making it more thermally stable, lowering its coefficient of friction, or increasing its ductility.
+Carbide cutting tools have the ability to be covered in fancy coatings like DLC (Diamond-Like-Carbon), TiN (titanium nitride), TiCN (titanium carbonitride), TiAlN (titanium aluminum nitride), and AlTiN (aluminum titanium nitride). All of these coatings can enhance the tool's abilities by increasing its wear resistance, making it more thermally stable, lowering its coefficient of friction, or increasing its ductility.
 
 For more non-abrasive materials, coatings will only have an affect on the lifetime of the bit. However, for ultra-precision machining or when milling carbon fiber or hard metals, the wear resistance introduced by these coatings are worth their added cost. For this reason, most CNC router work doesn't require a deep knowledge on cutter coatings since it usually becomes more applicable when cutting metals.
 
 **In summary:**  if you're on the lookout for a reliable set of cutting tools, make the jump and invest carbide or coatings if the application makes sense. Otherwise, if you're on a tight budget or you're still learning how to use your machine then hold onto your money for the time being.
+
+### Advanced Bits
+
+There are more end mills than the 3 main types we've covered (Flat end, ball nose & v-bit). You can find bits that specialize in surfacing your wasteboard or project, roughing out toolpaths before the final finishing pass, creating bowls and even rounded over corners. Check out our selection of basic and advanced [End Mills & Bits!](https://sienci.com/product-category/end-mills-bits/)
+
+![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p11-advancedbits.jpg "Pictured is a surfacing bit and a bowl bit")
 
 ### More
 

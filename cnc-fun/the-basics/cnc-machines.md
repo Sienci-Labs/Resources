@@ -1,7 +1,7 @@
 ---
 title: CNC Machines
-menu_order: 0
-post_status: draft
+menu_order: 2
+post_status: publish
 post_excerpt: Resources and documentation for general CNC work. You will find info about routers, software, end mills, add ons, and more  - everything you need to get started.
 post_date: 2024-07-18 18:14:53
 taxonomy:

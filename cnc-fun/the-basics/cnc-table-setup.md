@@ -1,7 +1,7 @@
 ---
 title: Table Setup
-menu_order: 0
-post_status: draft
+menu_order: 10
+post_status: publish
 post_excerpt: Inspiration for building your table to hold the LongMill CNC. See designs using T-tracks, enclosures, threaded inserts, lifters, pivoting mechanisms and more!
 post_date: 2024-07-18 18:14:53
 taxonomy:
@@ -12,13 +12,13 @@ custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_cnc-fun/_the-basics/_table/cnc_ba_table_1-simple-mike.jpg
 ---
 There has been a variety of table designs to pop up within our community as each CNC owner works to set up their machine to suit their cutting needs. Your table design will largely depend on how you plan on using your machine and your space constraints A big space can mean a big table, meanwhile, a small space might require a folding or retractable table. Knowing where you want your wires to run as well as drawers or shelves for storage, accessories, and your computer can all help make your final layout that much better.
 
-On this page, we consolidated the most unique designs so that you can gain inspiration for your own table build by seeing what's worked for others before you. Each example will link to the original post where the table was shown off so that you can readily follow up with the original table designers if you'd like to inquire about their design further.
-
 ## Community Table Builds
+
+On this page, we consolidated the most unique designs so that you can gain inspiration for your own table build by seeing what's worked for others before you. Each example will link to the original post where the table was shown off so that you can readily follow up with the original table designers if you'd like to inquire about their design further.
 
 ### Simple Table Design
 

@@ -1,7 +1,7 @@
 ---
 title: Safety
-menu_order: 0
-post_status: draft
+menu_order: 9
+post_status: publish
 post_excerpt: Resources and documentation for general CNC work. You will find info about routers, software, end mills, add ons, and more  - everything you need to get started.
 post_date: 2024-07-18 18:14:53
 taxonomy:
@@ -12,7 +12,7 @@ custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: _images/_cnc-fun/_the-basics/cnc_ba_safety-hearing.jpg
 ---
 ## General Safety
 
