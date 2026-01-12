@@ -162,7 +162,7 @@ Now that we have all 4 motors mounted and the inductive sensors re-arranged, let
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header4new.jpg){.aligncenter .size-full .wid}
 
-If you have not yet opened all of the tabs in both drag chains, do so at this time. You can slip a small flat head screw driver under each tab to pop them open. We will be replacing the Y-axis drag chain, and upgrading it to a larger size, so you can remove this drag chain entirely at this time.
+If you have not yet opened all of the tabs in both drag chains, do so at this time. You can slip a small flat head screw driver under each tab to pop them open. One side of each tab has a hinge (Don't remove this side) and a catch. Make sure you unclip them on the catch side, not the hinge side. We will be replacing the Y-axis drag chain, and upgrading it to a larger size, so you can remove this drag chain entirely at this time.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-opendragchain.jpg){.align-center .size-medium}
 
@@ -254,7 +254,7 @@ Plug the two-pronged motor power connectors into the two rightmost power ports. 
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-ymotorplug.jpg){.align-center .size-medium}
 
-Reinstall the acrylic face plate of the SLB-EXT onto the enclosure. Tighten the thumb screw by hand. Plug the green connector of the E-stop cable into the port labelled E-stop on the left side of the controller, and the other side of the cable into the E-stop.
+Reinstall the acrylic face plate of the SLB-EXT onto the enclosure. Tighten the thumb screw by hand. Plug the green connector of the E-stop cable into the port labelled E-stop on the left side of the controller, and the other side of the cable into the E-stop. You can now seat all of the wires into the open drag chain and close each tab with the catch.
 
 Plug the green connector of the 48V power supply into the port labelled Power & plug the power supply into a 110V outlet. You can now flip the ON/OFF switch to power up your new board!
 
@@ -264,10 +264,13 @@ Once your setup is complete and everything is secure and plugged into the SLB EX
 
 - the motor speed in your sending software
 - the direction of homing (We are now going to the back left corner by default)
+- enable homing on startup (Soft limits will be on, but hard limits will be off)
 
 You can tweak these settings manually, or, you can use our Macro instead! Simply download this macro and run it in gSender, and your settings will automatically update. You can click on the link below to go to a google folder and download the file (**lmk2_clsm_macro.json**).
 
 [Closed Loop Stepper Motor Macro](https://drive.google.com/drive/folders/1cCXB1dCWpowHjJuEUF3RIYLrTxjNG10j?usp=sharing){.align-center}
+
+If you are new to having limit switches, and are unfamiliar with soft and hard limits, check out our article on [Limit Switches](https://resources.sienci.com/view/lmk2-limit-switches/#using-limit-switches)
 
 Once you have the file, load up gSender, and go to the Macro section on the Carve tab. Here you can import the new macro.
 
@@ -289,7 +292,15 @@ The Macro will also flip your homing direction for the Y-axis, by turning it off
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-macro-settings.jpg){.align-center .size-medium}
 
-Congrats! You have now completed the installation and setup of your new Closed Loop Stepper Motor Kit. Go carve something cool friend!
+Congrats! You have now completed the installation and setup of your new Closed Loop Stepper Motor Kit. 
+
+## Starting Up
+
+A safety feature of the SLB-EXT is that the E-Stop will need to have cycled (depressed and released) before unlocking or movement will be prevented.
+
+Generally a good workflow that’s worked for me is making sure the button is pressed down as I power on, immediately release the e-stop, then connect and unlock and proceed as normal.
+
+Go carve something cool friend!
 
 ## Open Source
 
