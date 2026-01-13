@@ -266,7 +266,7 @@ Once your setup is complete and everything is secure and plugged into the SLB EX
 - the direction of homing (We are now going to the back left corner by default)
 - enable homing on startup (Soft limits will be on, but hard limits will be off)
 
-You can tweak these settings manually, or, you can use our Macro instead! Simply download this macro and run it in gSender, and your settings will automatically update. You can click on the link below to go to a google folder and download the file (**lmk2_clsm_macro.json**).
+You can tweak these settings manually, or, you can use our Macro instead! Simply download this macro and run it in gSender, and your settings will automatically update. You can click on the link below to go to a google folder and download the file (**lmk2_clsm_macro_v1.json**).
 
 [Closed Loop Stepper Motor Macro](https://drive.google.com/drive/folders/1cCXB1dCWpowHjJuEUF3RIYLrTxjNG10j?usp=sharing){.align-center}
 
@@ -296,9 +296,16 @@ Congrats! You have now completed the installation and setup of your new Closed L
 
 ## Starting Up
 
-A safety feature of the SLB-EXT is that the E-Stop will need to have cycled (depressed and released) before unlocking or movement will be prevented.
+A safety feature of the SLB-EXT that is new to LongBoard or SLB users, is that the E-Stop will need to be cycled (depressed and released) before unlocking the system, or movement will be prevented.
 
-Generally a good workflow that’s worked for me is making sure the button is pressed down as I power on, immediately release the e-stop, then connect and unlock and proceed as normal.
+Generally a good workflow is to open gSender and:
+
+1. Depress the E-Stop (Press it so it's down)
+2. Power on the SLB EXT
+3. Release the E-Stop (Turn counterclockwise to release)
+4. Connect to gSender
+5. Unlock gSender (Click the lock icon at the top of the screen)
+6. Proceed as normal
 
 Go carve something cool friend!
 
