@@ -157,29 +157,38 @@ Remove any screwdrivers, Allen keys, or bolts from the coupler on the opposite s
 
 <img class="wid aligncenter wp-image-7185 size-medium" src="https://resources.sienci.com/wp-content/uploads/2025/02/lmk2_extra48_Header-routing-cables.png" alt="" width="850" height="202" />
 
-This step has been updated to no longer need the Motor cable extension noted in the picture above, since the original Z-axis motor cable was extended to already reach!
-
-Loosen the bolt mounting the X-axis drag chain onto the rail. Reposition the drag chain 10” towards the middle of the rail. Re-tighten the bolt.
+Loosen the bolt mounting the X-axis drag chain onto the X-axis rail and slide this end link roughly 10" towards the middle of the rail. Re-tighten this mounting bolt after.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4509.jpg){.aligncenter .size-medium}
 
+Grab the router power extension cable and motor cable from the drag chain & cable box. 
+
+<b>The Makita's motor cable has been updated to not need an extension cable, it can now reach all the way to the controller!
+
+If you have an AutoSpin router, the cable should also reach all the way to the outlet, so you don’t need to install the power cable extension.
+</b>
+
 <b>Only applicable if installing the inductive sensor kit as well:</b>
 
-Install the Z-axis limit switch now. Grab the limit switch cable extension from the EX drag chain & cable box, as well as one inductive sensor from the kit.
+Install the Z-axis limit switch now. Grab the limit switch cable extension from the EX drag chain & cable box, as well as one of the three inductive sensors from within the kit.
 
-Route one inductive sensor cable through the X-axis drag chain, leaving some slack at the sensor end for mounting later on. Install the limit switch extension cable to extend this cable. The excess cable length will be bundled in the next section.
+Route one inductive sensor cable through the X-axis drag chain, leaving some slack at the sensor end for mounting later on. Install the included limit switch extension cable as shown below to extend this cable. The excess cable length will be bundled with the Z-axis motor cable and router power cable in the next section.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_5505.jpg){.aligncenter .size-medium}
 
-If you have a Makita router, grab and connect the power extension from the drag chain & cable box to the router’s power cord. The AutoSpin is long enough, so no extension needed!
+Connect the power extension to the router power cord and the motor cable directly to the Z-axis connection on your controller. We've updated the motor cable to no longer need an extension.
 
-![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_No-connector.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_No-connector-AS.jpg){.aligncenter .size-medium}
 
-Plug the old X-axis motor cable back into the end of the X-axis motor.
+Grab the motor cable and connect it to the X-axis motor.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4529.jpg){.aligncenter .size-medium}
 
-Begin routing the power cable and X and Z axis motor cables into the shorter Y-axis drag chain. Fit these cables underneath the drag chain mount. Allow the power connector to sit outside of the Y-axis drag chain as shown. This excess bundling of cable will be organized neatly in the next step.
+If you have a Makita router, connect the power extension to the router’s power cord. The AutoSpin is long enough, so no extension needed!
+
+![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_No-connector-AS){.aligncenter .size-medium}
+
+​​Begin routing the router power cable, signal cable and X-axis motor cable into the shorter Y-axis drag chain. Fit these cables underneath the drag chain mount. Allow the power plug to sit outside of the Y-axis drag chain as shown. This excess bundling of cable will be organized neatly in the next step.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4536.jpg){.aligncenter .size-medium}
 
@@ -199,7 +208,7 @@ Should you need to unclip these hangers for any minor adjustments, pull the bott
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4555.jpg){.aligncenter .size-medium}
 
-Get two zip ties from the X-axis EX hardware bag and insert these into the lower hole in each of the cable hangers.
+Get two zip ties from the X-axis EX hardware bag and insert these into the lower hole in each of the drag chain mounts.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4566.jpg){.aligncenter .size-medium}
 
