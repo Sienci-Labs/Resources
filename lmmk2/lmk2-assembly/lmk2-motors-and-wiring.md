@@ -165,6 +165,6 @@ Lastly plug in the cables for the motors on the two Y-axis NEMA 23 stepper motor
 
 Bring the cables around to the left of the machine so they're now all bundled together (pictured). You'll be plugging the motors cables into the control box shortly but otherwise the machine wiring is now complete!
 
-If you have an AutoSpin router, we recommend that you use the router in manual mode until you are familiar with your CNC. You can then switch the router over to Spindle Mode with automatic start/stop and RPM control by following the instructions [here](https://resources.sienci.com/view/lm-with-slb/).
+If you have an AutoSpin router, we recommend that you use the router in manual mode until you are familiar with your CNC. You can then switch the router over to Spindle Mode with automatic start/stop and RPM control by following the instructions [here](https://resources.sienci.com/view/as-lm-with-slb/).
 
 ![](/_images/_lmmk2/_assembly/_motorswires/lmk2_motors_61_2.jpg){.aligncenter .size-medium}
