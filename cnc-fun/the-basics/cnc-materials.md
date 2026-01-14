@@ -3,7 +3,7 @@ title: Materials
 menu_order: 6
 post_status: publish
 post_excerpt: Resources and documentation for general CNC work. You will find info about routers, software, end mills, add ons, and more  - everything you need to get started.
-post_date: 2024-07-18 18:14:53
+post_date: 2026-01-14 16:23:12
 taxonomy:
     knowledgebase_cat: the-basics
     knowledgebase_tag:
@@ -23,13 +23,11 @@ You are encouraged to review the [Safety](https://resources.sienci.com/view/cnc-
 
 When you start working with a CNC machine, understanding feeds and speeds is key to getting clean, efficient cuts. In simple terms, “feeds and speeds” describes how fast your machine moves and how aggressively it removes material. These terms will help you understand the charts used below for each different material.
 
-- **Feed rate & plunge rate** – how quickly the machine moves across & into the material
+- **Feed rate & plunge rate** - how quickly the machine moves across & into the material
+- **Spindle or router speed** (RPM) - how fast the cutting tool spins
+- **Stepover & stepdown** - how much material the tool removes with each pass
 
-- **Spindle or router speed** (RPM) – how fast the cutting tool spins
-
-- **Stepover & stepdown** – how much material the tool removes with each pass
-
-Knowing these variables—and how they interact with different materials—helps you get the best results while keeping your tools, your workpiece, and yourself safe.
+Knowing these variables - and how they interact with different materials - helps you get the best results while keeping your tools, your workpiece, and yourself safe.
 
 ## Wood
 
@@ -40,7 +38,115 @@ Wood is simply an amazing material. As it is a living, organic material, there a
 General recommended starting feeds and speeds for 1/8" and 1/4" 2-flute end mills.
 Start with these settings and adjust as needed—these are guidelines, not hard rules.
 
-<table class="wp-table" width="70%"> <tbody> <tr> <td><b>Material</b></td> <td><b>Feed Rate (mm/min)</b></td> <td><b>Plunge Rate (mm/min)</b></td> <td><b>Step Over</b></td> <td><b>Step Down (mm)</b></td> <td><b>Spindle Speed (RPM)</b></td> </tr> <tr> <td><b>Wood (general)</b></td> <td>1000</td> <td>250</td> <td>0.40</td> <td>2–3</td> <td>18,000–20,000</td> </tr> <tr> <td><b>Pine / Cedar</b></td> <td>1400</td> <td>250</td> <td>0.45</td> <td>3–4</td> <td>18,000–20,000</td> </tr> <tr> <td><b>Maple / Oak / Cherry</b></td> <td>1000</td> <td>250</td> <td>0.40</td> <td>2–3</td> <td>18,000–20,000</td> </tr> <tr> <td><b>Walnut</b></td> <td>900</td> <td>250</td> <td>0.40</td> <td>2–3</td> <td>18,000–20,000</td> </tr> <tr> <td><b>Plywood</b></td> <td>1200</td> <td>250</td> <td>0.40</td> <td>2–3</td> <td>18,000–20,000</td> </tr> </tbody> </table>
+General recommended starting feeds and speeds for <a href="https://sienci.com/product/1-8-flat-upcut-end-mill_3pcs_or10pcs/" target="_blank" rel="noopener">1/8" 2 flute flat end mills</a>. Start with these settings and adjust as needed - these are guidelines, not hard rules:
+
+<table class="wp-table" width="70%">
+<tbody>
+<tr>
+<td><b>Material</b></td>
+<td><b>Feed Rate (mm/ min)</b></td>
+<td><b>Plunge Rate (mm/ min)</b></td>
+<td><b>Step Over</b></td>
+<td><b>Step Down (mm)</b></td>
+<td><b>Spindle Speed (RPM)</b></td>
+</tr>
+<tr>
+<td><b>Wood (general)</b></td>
+<td>1000</td>
+<td>250</td>
+<td>0.40</td>
+<td>2</td>
+<td>20,000</td>
+</tr>
+<tr>
+<td><b>Pine / Cedar</b></td>
+<td>1400</td>
+<td>250</td>
+<td>0.45</td>
+<td>3</td>
+<td>20,000</td>
+</tr>
+<tr>
+<td><b>Maple / Oak / Cherry</b></td>
+<td>1000</td>
+<td>250</td>
+<td>0.40</td>
+<td>2</td>
+<td>20,000</td>
+</tr>
+<tr>
+<td><b>Walnut</b></td>
+<td>900</td>
+<td>250</td>
+<td>0.40</td>
+<td>2</td>
+<td>20,000</td>
+</tr>
+<tr>
+<td><b>Plywood</b></td>
+<td>1200</td>
+<td>250</td>
+<td>0.40</td>
+<td>2</td>
+<td>20,000</td>
+</tr>
+</tbody>
+</table>
+
+And for <a href="https://sienci.com/product/1-4-spiral-up-cut-end-mill/" target="_blank" rel="noopener">1/4" 2 flute flat end mills</a>. Start with these settings and adjust as needed - these are guidelines, not hard rules:
+
+<table class="wp-table" width="70%">
+<tbody>
+<tr>
+<td><b>Material</b></td>
+<td><b>Feed Rate (mm/ min)</b></td>
+<td><b>Plunge Rate (mm/ min)</b></td>
+<td><b>Step Over</b></td>
+<td><b>Step Down (mm)</b></td>
+<td><b>Spindle Speed (RPM)</b></td>
+</tr>
+<tr>
+<td><b>Wood (general)</b></td>
+<td>1000</td>
+<td>250</td>
+<td>0.40</td>
+<td>3</td>
+<td>18,000</td>
+</tr>
+<tr>
+<td><b>Pine / Cedar</b></td>
+<td>1400</td>
+<td>250</td>
+<td>0.45</td>
+<td>4</td>
+<td>18,000</td>
+</tr>
+<tr>
+<td><b>Maple / Oak / Cherry</b></td>
+<td>1000</td>
+<td>250</td>
+<td>0.40</td>
+<td>3</td>
+<td>18,000</td>
+</tr>
+<tr>
+<td><b>Walnut</b></td>
+<td>900</td>
+<td>250</td>
+<td>0.40</td>
+<td>3</td>
+<td>18,000</td>
+</tr>
+<tr>
+<td><b>Plywood</b></td>
+<td>1200</td>
+<td>250</td>
+<td>0.40</td>
+<td>3</td>
+<td>18,000</td>
+</tr>
+</tbody>
+</table>
 
 One thing to note about wood is that it can burn if:
 

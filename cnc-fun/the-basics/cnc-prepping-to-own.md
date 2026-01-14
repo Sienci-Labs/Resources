@@ -3,7 +3,7 @@ title: Prepping to Own
 menu_order: 3
 post_status: publish
 post_excerpt: Preparing for your CNC machine to arrive by examining your workspace, power requirements, things to expect along the way and the support available to you.
-post_date: 2024-07-18 18:14:53
+post_date: 2026-01-14 16:23:12
 taxonomy:
     knowledgebase_cat: the-basics
     knowledgebase_tag:

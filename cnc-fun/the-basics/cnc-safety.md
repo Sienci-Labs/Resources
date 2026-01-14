@@ -3,7 +3,7 @@ title: Safety
 menu_order: 9
 post_status: publish
 post_excerpt: Resources and documentation for general CNC work. You will find info about routers, software, end mills, add ons, and more  - everything you need to get started.
-post_date: 2024-07-18 18:14:53
+post_date: 2026-01-14 16:23:12
 taxonomy:
     knowledgebase_cat: the-basics
     knowledgebase_tag:
@@ -14,6 +14,7 @@ custom_fields:
 skip_file: no
 featured_image: _images/_cnc-fun/_the-basics/cnc_ba_safety-hearing.jpg
 ---
+
 ## General Safety
 
 When you're working with your CNC machine, it’s easy to forget that the noise and dust in the air can be just as dangerous as an end mill. Dust from wood, plastics, or other materials can irritate your respiratory system over time, even if you don’t notice it right away. On top of that, the noise from tools like routers and vacuums can quietly damage your hearing without you realizing how quickly it happens. The good news is, with a few simple precautions—like wearing proper masks and ear protection—you can minimize these risks and keep your hobby enjoyable and safe for the long run.

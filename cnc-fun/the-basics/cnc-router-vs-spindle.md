@@ -3,7 +3,7 @@ title: Router vs Spindle
 menu_order: 7
 post_status: publish
 post_excerpt: Learn about router and spindle options for a CNC, with consideration for noise, speed control, cost.
-post_date: 2024-07-18 18:14:53
+post_date: 2026-01-14 16:23:12
 taxonomy:
     knowledgebase_cat: the-basics
     knowledgebase_tag:
