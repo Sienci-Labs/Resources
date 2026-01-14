@@ -24,7 +24,7 @@ Routers and spindles come in all shapes and sizes. When considering the right to
 
 Many hobby CNC routers tend to utilize trim routers because their power, weight, price, and off-the-shelf circuitry balance well with hobby applications. After much testing with the LongMill, we landed on the Makita RT0700/RT0701 as the ideal choice.
 
-## AutoSpin T1
+## Sienci AutoSpin T1
 
 ![](/_images/_lmmk2/_the-basics/lmk2_routerspindle_autospin.png){.alignleft .size-full .nar}
 
