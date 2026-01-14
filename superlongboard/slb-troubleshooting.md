@@ -144,7 +144,7 @@ This is a list of all the lights and how they function:
 </tr>
 <tr>
 <td>5</td>
-<td>RS485 RX signals are being sent</td>
+<td>RS485 RX signals are being received</td>
 <td>In</td>
 <td style="background: #ff0000 !important;">Red</td>
 </tr>
