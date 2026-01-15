@@ -117,7 +117,9 @@ Check to ensure the DIP switches on the X and Y axis motors follow the order of:
 
 ## Sensors
 
-With the upgraded motors and SLB EXT, you will receive new limit switches with short pigtail connectors. In this section, we will swap out the originals and install the new ones.
+With the upgraded motors and SLB EXT, you will receive 4 new limit switches (inductive sensors) with short pigtail connectors. In this section, we will swap out the 3 originals and install 4 new ones. Once complete, you will have a sensor on your Z axis, A axis and one on each Y axis, for a total of 4 sensors!!
+
+Having an extra limit switch on your Y axis, allows you to home each axis (Y1 and Y2) individually.
 
 ### Remove Old Sensors
 
@@ -190,11 +192,23 @@ One tip that can help out in this step is to **put the drag chain end on before 
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-endlinkbotttom.jpg){.align-center .size-medium}
 
+Slide the bracket into place and tighten down the M5-12mm screw.
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-dragchaintop.jpg "Top Drag Chain Clip"){.align-center .size-medium}
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-endlinkon.jpg.jpg "Bottom Drag Chain Clip"){.align-center .size-medium}
+
+Clip the drag chain onto each drag chain clip.
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-dragchainattach.jpg){.align-center .size-medium}
+
+In this final setup image above, you can see the drag chain in place, with the wires all tucked in and all the tabs have been closed. Ensure you have enough slack left in the cables to enable the ends to reach both the motor connections and the connections on the SLB EXT.
+
 When looking at your motor cables, you will notice each one is labelled with the corresponding axis it goes to. Let's begin with the X-axis motor cable.
 
 The motor cables have 3 plugs to attach on each end. The two green plugs are for your new motor, and the middle black one is for your limit switch/inductive sensor. No more individual cables, we've combined them all together!
 
-Plug in the green motor power and motor signal connectors. **Be aware that your motors may have an extra set of connectors, already in place. You can remove these for safekeeping, as the wires all have the connectors already!**
+Plug in the green motor power and motor signal connectors. **Be aware that your motors may have an extra set of green connectors, already in place. You can remove these for safekeeping, as the wires all have the connectors already!**
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-motorplugsnew.jpg){.align-center .size-medium}
 
@@ -226,7 +240,7 @@ Repeat the previous steps for the Z, Y1 and Y2 motors.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header5.jpg){.aligncenter .size-full .wid}
 
-To begin this section, let's mount the board to the rail. Grab both SLB mounting brackets and slide them onto the back of the case.
+To begin this section, let's mount the board to the rail. Grab both SLB mounting brackets and slide them onto the back of the case. You may notice that they are slightly angled. This is by design and allows you to slide them easily onto the case, while clamping the case to the rail when tightened.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-slbcase.jpg){.align-center .size-medium}
 
@@ -242,29 +256,31 @@ Fit the Z-axis and X-axis wire harnesses into the top cut out of the enclosure o
 
 Plug the two-pronged motor power connectors into the left most power ports. The power ports all supply the same output and therefore the connectors are able to be plugged into any, however, for installation purposes we recommend you to plug into the two leftmost ports while installing X and Z.
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-xzsignals.jpg){.align-center .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-xzsignals-updated.jpg){.align-center .size-medium}
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-xzmotorplug.jpg){.align-center .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-xzmotorplug-up.jpg){.align-center .size-medium}
 
 Fit the Y1-axis and Y2-axis wire harnesses into the bottom cutout of the enclosure on the right side. Plug the sensor and motor control connectors into their respectively named ports. It is important that you do not mismatch the control connector from one harness with the sensor connector of the other when plugging into one pair of Y1 or Y2 ports. If installed incorrectly you will encounter an alarm during operation.  
 
 Plug the two-pronged motor power connectors into the two rightmost power ports. The power ports all supply the same output and therefore the connectors are able to be plugged into any, however, for installation purposes we recommend you to plug into the two rightmost ports while installing Y1 and Y2 power.
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-ysignals.jpg){.align-center .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-ysignals-updated.jpg){.align-center .size-medium}
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-ymotorplug.jpg){.align-center .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-ymotorplug-up.jpg){.align-center .size-medium}
 
-Reinstall the acrylic face plate of the SLB-EXT onto the enclosure. Tighten the thumb screw by hand. Plug the green connector of the E-stop cable into the port labelled E-stop on the left side of the controller, and the other side of the cable into the E-stop. You can now seat all of the wires into the open drag chain and close each tab with the catch.
+Reinstall the acrylic face plate of the SLB-EXT onto the enclosure. Tighten the thumb screw by hand. Plug the green connector of the E-stop cable into the port labelled E-stop on the left side of the controller, and the other side of the cable into the E-stop. You can now seat all of the wires into the open drag chain and close each tab with the catch, if you haven't already.
+
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-slbcasecover.jpg){.align-center .size-medium}
 
 Plug the green connector of the 48V power supply into the port labelled Power & plug the power supply into a 110V outlet. You can now flip the ON/OFF switch to power up your new board!
 
 ## Software Changes
 
-Once your setup is complete and everything is secure and plugged into the SLB EXT, we will need to adjust two items:
+Once your setup is complete and everything is secure and plugged into the SLB EXT, we will need to adjust a couple software settings:
 
 - the motor speed in your sending software
 - the direction of homing (We are now going to the back left corner by default)
-- enable homing on startup (Soft limits will be on, but hard limits will be off)
+- enable homing on startup (Turning on both Soft and Hard limits)
 
 You can tweak these settings manually, or, you can use our Macro instead! Simply download this macro and run it in gSender, and your settings will automatically update. You can click on the link below to go to a google folder and download the file (**lmk2_clsm_macro_v1.json**).
 
@@ -292,7 +308,7 @@ The Macro will also flip your homing direction for the Y-axis, by turning it off
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-macro-settings.jpg){.align-center .size-medium}
 
-Congrats! You have now completed the installation and setup of your new Closed Loop Stepper Motor Kit. 
+Congrats! You have now completed the installation and setup of your new Closed Loop Stepper Motor Kit.
 
 ## Starting Up
 
@@ -307,6 +323,10 @@ Generally a good workflow is to open gSender and:
 5. Unlock gSender (Click the lock icon at the top of the screen)
 6. Proceed as normal
 
+Remember to home each time you startup and connect to the machine. You can tweak your Homing Cycle settings to require this on startup too if you wish.
+
+Learn more about using your [Limit Switches](https://resources.sienci.com/view/lmk2-limit-switches/#using-limit-switches).
+
 Go carve something cool friend!
 
 ## Open Source
@@ -314,3 +334,5 @@ Go carve something cool friend!
 Here you can find the schematics/drawings that are available for download.
 
 [Take me to the files!](https://drive.google.com/drive/folders/1nnLDaa0WipzLcEGQt92obk_tss4Uf9-2?usp=sharing)
+
+Still here and wondering why you have an extra 'black plate' that hasn't been mentioned at all? It's a part that is used for another machine, not for this kit specifically. Go ahead and carve something cool on it! Cheers!!
