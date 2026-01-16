@@ -137,8 +137,7 @@ For the Z & X-axis, you can simply pop the new pigtail limit switches into the o
 
 For the Y-axis, we will be using a bracket to mount the sensor under the Y-axis rails, and pushing them to the back left and right corners. Mount each sensor onto a bracket as shown.
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxislimit-position.jpg)
-{.align-center .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxislimit-position.jpg){.align-center .size-medium}
 
 Slip an M5-T Nut into the slot at the back of both Y-axis rails and secure it with an M5-10 mm hex head screw, with **two washers**. Do not tighten this all the way down yet, as we will be sliding the bracket onto it. You can use the wrench that shipped with your LongMill, or one you have in your shop to assist in this step.
 
