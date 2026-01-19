@@ -273,7 +273,7 @@ Aluminum comes in a variety of different alloys. We will primarily be talking ab
 </tbody>
 </table>
 
-- Aluminum is near the upper limit of hardness that you want to be milling with a CNC machine like the LongMill, and is best suited for a machine like the AltMill. Setting up your machine to be as rigid as possible (milling near the supported areas of your rails, using proper clamping, reducing stick-out of your end mill) can make a difference.
+- Aluminum is near the upper limit of hardness that you want to be milling with a general hobby CNC machine, and is best suited for a machine like the AltMill. Setting up your machine to be as rigid as possible (milling near the supported areas of your rails, using proper clamping, reducing stick-out of your end mill) can make a difference.
 - The most common cause of end mill breakage is when chips build up and melt onto your bit. Ensuring that you have the proper chipload and chip ejection (only use upcut bits) is important to draw heat out of the cut. Some users may choose to use coolant or compressed air to cool their cuts. Make sure to keep chips out of the cut at all times.
 - Most routers run at relatively high RPMs (10,000 to 30,000RPM) for cutting metals. Because of this, it is best to use single flute bits like our <a href="https://sienci.com/product/18-flat-end-mill-for-aluminum/" target="_blank" rel="noopener">1/8" flat end mill for aluminum</a> to ensure that you can get optimally sized chips. Also, reducing your RPM can help.
 - Some coatings, especially ones with coatings that contain aluminum (AlTiN, TiAlN), should be avoided as aluminum chips can have an affinity to the coating.

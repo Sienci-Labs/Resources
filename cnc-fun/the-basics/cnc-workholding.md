@@ -146,7 +146,7 @@ Check out this great video on building a bench and installing T-tracks [Watch Vi
 
 - Putting t-tracks in between thicker MDF slats, like in the photo, will allow you to mill off the surface of the MDF to get a perfectly flat surface relative to your machine. Furthermore, instead of replacing the whole wasteboard, you could replace smaller sections of it at a time
 - If you have a thick enough waste bed, you can use your machine to cut the grooves for your t-track, just size the grooves to be the width of your t-track
--We designed a custom t-track system that works with hex-headed 1/4"-20 hardware that you can see  <a href="https://sienci.com/product/t-tracks-and-clamps-set-48-34/" target="_blank" rel="noopener">in our store here</a> , with the  setup guide here: <a href="https://resources.sienci.com/view/assembling-add-ons/" target="_blank" rel="noopener">Installing the LongMill T-Track set</a>
+-We designed a custom t-track system that works with hex-headed 1/4"-20 hardware that you can see  <a href="https://sienci.com/product/t-tracks-and-clamps-set-48-34/" target="_blank" rel="noopener">in our store here</a> , with the  setup guide here: <a href="https://resources.sienci.com/view/assembling-add-ons/" target="_blank" rel="noopener">Installing the T-Track set</a>
 
 T-Tracks work best with top clamps, though some side clamps can also be used. Keep in mind that certain side clamps may have a limited range or might slip when aligned with the track direction.
 

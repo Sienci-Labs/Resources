@@ -41,7 +41,7 @@ V-bits can be used for simple line-drawing engravings and are also commonly used
 
 Here is a detailed chart, illustrating how you can get finer detail, with a smaller angle V-bit. In these examples, the <span style="color:red;">RED</span> dots represent an exaggerated vector line, while the <span style="color:blue;">BLUE</span> dots show the cut depth.
 
-This first image shows that using the same depth of cut will produce different cut width, depending on the bit you choose. A smaller bit is better for vector lines that are close together, to offer more detail.
+This first image from [Learnyourcnc.com](https://www.learnyourcnc.com/blog/cnc-tip-understanding-vcarving) shows that using the same depth of cut will produce different cut width, depending on the bit you choose. A smaller bit is better for vector lines that are close together, to offer more detail.
 
 ![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p9-Vcarves1.jpg "learnyourcnc.com"){.aligncenter .size-medium}
 
@@ -61,13 +61,13 @@ Flat end mills come in several different configurations. Upcut, downcut and comp
 
 - An **Upcut** bit will pull chips upwards, resulting in a clean bottom or pocket, and great chip evacuation. The downside is it can cause tear out at the surface. Great for slots and deep pockets.
 - A **Downcut** bit pushes chips downward, leaving a clean top edge but packing chips in the cut, so it’s best for shallow passes and profiles.
-- A **Compression*** bit combines both (downcut at the top, upcut at the bottom), producing clean edges on both the top and bottom surfaces, making it ideal for plywood and laminated sheet goods in hobby CNC work when cutting all the way through.
+- A **Compression*** bit combines both (downcut at the top, upcut at the bottom), producing clean edges on both the top and bottom surfaces, making it ideal for plywood and laminated sheet goods in hobby CNC work when cutting all the way through. This image from [findbuytool](https://www.findbuytool.com/en-ca/blogs/university/choosing-the-ultimate-spiral-router-bit-up-cut-vs-down-cut-vs-compression?srsltid=AfmBOorpQR-j7DaakOrd__wFvJ66N7MmvcC_JZWZ41pBj8n2pPWsxJbZ) does a great job of showing what each bit type does and how it moves the chips.
 
-![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p8-updowncompress.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p8-updowncompress.jpg "www.findbuytool.com"){.aligncenter .size-medium}
 
 **Ball nose:**  great for 3D / relief carving where your project contains contoured surfaces. By stitching many close passes of its rounded profile together the result can be a perfectly smooth, curved surface right off your machine.
 
-![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p5-3d-foam.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p5-3d-foam.jpg ){.aligncenter .size-medium}
 
 A tapered ball nose bit has the same rounded tip but with tapered (angled) sides, which makes the tool much stiffer. You’d use it for deeper 3D carving, detailed work, and harder materials, where reduced deflection, better accuracy, and cleaner results are important. The trade-off is that the taper limits how close the tool can get to steep vertical walls compared to a straight ball nose. All this being said, one aspect these bits can't handle is flat surfaces due to the "scalloping" they introduce. This type of carving is certainly more advanced than others but at the end of the day it certainly adds an extra dimension to your projects.
 
@@ -89,7 +89,7 @@ Cutting tools can normally be described by a few key dimensions:
 
 **General rules:**
 
-- Use the largest diameter cutting tool you can bear if you don’t mind the lack of detail and want to remove material quickly. For the LongMill this is going to be in the range of 1/4" to 1/2"
+- Use the largest diameter cutting tool you can bear if you don’t mind the lack of detail and want to remove material quickly. For most CNC's this is going to be in the range of 1/4" to 1/2"
 - Long tools can make deeper cuts but usually deflect more and affect surface finish, try to use the shortest tool you can or mount it deeper into the router
 
 [tabby title="Flutes"]

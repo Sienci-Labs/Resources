@@ -34,7 +34,7 @@ This balance called *Feeds and Speeds* varies by material, bit size, and machine
 - Chips too large = broken bits  
 - Chips too fine = dull bits  
 
-Finding the sweet spot takes some trial and error, but it’s critical for both performance and tool life. Read more about the LongMill [Feeds & Speeds Here.](https://resources.sienci.com/view/lmk2-feeds-and-speeds/)
+Finding the sweet spot takes some trial and error, but it’s critical for both performance and tool life. Read more about [Feeds & Speeds Here.](https://resources.sienci.com/view/lmk2-feeds-and-speeds/)
 
 > **Tip:** Install your bit as deeply as possible in the collet, with at least 3/8" inserted for light cuts.  
 
@@ -59,7 +59,7 @@ Routers are simple to set up—just plug into the wall and go. The trade-off is 
 
 A router offers a more *analog* experience, where users must manually set the router speed using a physical dial, and turn on/off the router at the start and end of a cutting program.
 
-Most hobby CNC routers, (including the Sienci Labs LongMill CNC), will utilize an off-the-shelf trim router. Although these are suitable for hobby use, they have some limitations both in regards to reliability over long periods of time, and a lack of ability to automate their control. Despite this, a trim router such as the popular Makita RT0701C router has a proven track record of being a very capable, easy to install option for relatively little cost.
+Most hobby CNC routers, will utilize an off-the-shelf trim router. Although these are suitable for hobby use, they have some limitations both in regards to reliability over long periods of time, and a lack of ability to automate their control. Despite this, a trim router such as the popular Makita RT0701C router has a proven track record of being a very capable, easy to install option for relatively little cost.
 
 ### Spindles
 
