@@ -2,7 +2,7 @@
 title: Dust Collection
 menu_order: 8
 post_status: publish
-post_excerpt: Dust shoe, vacuum collection, and hose size considerations for generic CNC. Pros and cons of Z-independent and dependent dust shoes discussed.
+post_excerpt: Dust shoe, vacuum collection, and hose size considerations for a generic CNC. Pros and cons of Z-independent and dependent dust shoes discussed.
 post_date: 2026-01-14 16:23:12
 taxonomy:
     knowledgebase_cat: the-basics
