@@ -26,11 +26,7 @@ Many hobby CNC routers tend to utilize trim routers because their power, weight,
 
 ## Sienci AutoSpin T1
 
-![](/_images/_lmmk2/_the-basics/lmk2_routerspindle_autospin-small.png){.alignleft .size-full .nar}
-
-&nbsp;
-
-&nbsp;
+![](/_images/_lmmk2/_the-basics/lmk2_routerspindle_autospin-small.png){.alignleft .size-full .nar}<br><br>
 
 <a href="https://sienci.com/product/autospin-t1-router/" target="_blank" rel="noreferrer noopener">Sienci Labs Store</a>
 
