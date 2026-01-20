@@ -1,9 +1,9 @@
 ---
 title: Table Setup
-menu_order: 0
-post_status: draft
-post_excerpt: Inspiration for building your table to hold the LongMill CNC. See designs using T-tracks, enclosures, threaded inserts, lifters, pivoting mechanisms and more!
-post_date: 2024-07-18 18:14:53
+menu_order: 10
+post_status: publish
+post_excerpt: Inspiration for building your table to hold a CNC. See designs using T-tracks, enclosures, threaded inserts, lifters, pivoting mechanisms and more!
+post_date: 2026-01-14 16:23:12
 taxonomy:
     knowledgebase_cat: the-basics
     knowledgebase_tag:
@@ -12,13 +12,14 @@ custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_cnc-fun/_the-basics/_table/cnc_ba_table_1-simple-mike.jpg
 ---
+
 There has been a variety of table designs to pop up within our community as each CNC owner works to set up their machine to suit their cutting needs. Your table design will largely depend on how you plan on using your machine and your space constraints A big space can mean a big table, meanwhile, a small space might require a folding or retractable table. Knowing where you want your wires to run as well as drawers or shelves for storage, accessories, and your computer can all help make your final layout that much better.
 
-On this page, we consolidated the most unique designs so that you can gain inspiration for your own table build by seeing what's worked for others before you. Each example will link to the original post where the table was shown off so that you can readily follow up with the original table designers if you'd like to inquire about their design further.
-
 ## Community Table Builds
+
+On this page, we consolidated the most unique designs so that you can gain inspiration for your own table build by seeing what's worked for others before you. Each example will link to the original post where the table was shown off so that you can readily follow up with the original table designers if you'd like to inquire about their design further.
 
 ### Simple Table Design
 
@@ -31,7 +32,7 @@ Similar post: <a href="https://www.facebook.com/groups/mill.one/permalink/857817
 
 ### Threaded Insert Wasteboard
 
-A cheap and straight forward mounting concept, shown off on our forums by both Mike and Frank. By starting with a simple sheet of MDF and running a drilling and boring operation on that sheet using the LongMill, threaded inserts can be hammered into the sheet to form a mounting hole pattern for clamps and jigs which can be placed repeatably:
+A cheap and straight forward mounting concept, shown off on our forums by both Mike and Frank. By starting with a simple sheet of MDF and running a drilling and boring operation on that sheet using a CNC, threaded inserts can be hammered into the sheet to form a mounting hole pattern for clamps and jigs which can be placed repeatably:
 
 ![](/_images/_cnc-fun/_the-basics/_table/cnc_ba_table_2-thread-mike.jpg){.aligncenter .size-large}
 
@@ -75,7 +76,7 @@ Original posts:
 
 ### Drawer Storage
 
-Another widespread concept is the idea to add pull-out drawers to the underside of the table in order to act as storage for the control box, a tethered laptop, or any of the dedicated tools or cutting bits used for the LongMill. The designs shown were done by Derek and Robert respectively:
+Another widespread concept is the idea to add pull-out drawers to the underside of the table in order to act as storage for the control box, a tethered laptop, or any of the dedicated tools or cutting bits. The designs shown were done by Derek and Robert respectively:
 
 ![](/_images/_cnc-fun/_the-basics/_table/cnc_ba_table_6-drawer-derekrobert.jpg){.aligncenter .size-large}
 
@@ -103,7 +104,7 @@ Original post: <a href="https://www.facebook.com/groups/mill.one/permalink/84221
 
 ### End Grain Cutout (Greg)
 
-Greg had been commissioned some work and realized how beneficial it would be to orient any given board stock vertically so that he'd be able to machine the end grain. This especially comes in handy when using the LongMill to create CNC joinery. He modified his existing table to have a cutout portion for attaching boards, while maintaining the remaining surface for normal cutting (as he explains in his post):
+Greg had been commissioned some work and realized how beneficial it would be to orient any given board stock vertically so that he'd be able to machine the end grain. This especially comes in handy when using the CNC to create joinery. He modified his existing table to have a cutout portion for attaching boards, while maintaining the remaining surface for normal cutting (as he explains in his post):
 
 ![](/_images/_cnc-fun/_the-basics/_table/cnc_ba_table_8-endgrain-greg.jpg){.aligncenter .size-large}
 
@@ -111,7 +112,7 @@ Original post: <a href="https://forum.sienci.com/t/modification-for-end-of-board
 
 ### Pivoting Table (Kris)
 
-Kris never mentioned much about his design, however it's really well laid out to orient the LongMill horizontally when attaching stock material or running the machine, while enabling him to rotate everything out of the way so that he can have more space to work in his shop when he needs it. The additional shelving is also useful for added storage and to act as an additional work surface:
+Kris never mentioned much about his design, however it's really well laid out to orient the CNC horizontally when attaching stock material or running the machine, while enabling him to rotate everything out of the way so that he can have more space to work in his shop when he needs it. The additional shelving is also useful for added storage and to act as an additional work surface:
 
 ![](/_images/_cnc-fun/_the-basics/_table/cnc_ba_table_9-pivot-kris.jpg){.aligncenter .size-large}
 
@@ -119,7 +120,7 @@ Original post: <a href="https://forum.sienci.com/t/what-are-your-plans-for-a-tab
 
 ### Space-saving Lifter Table (Philip)
 
-Another great concept for space saving came from Philip, who managed to claim the 'air rights' in his two-car garage so that he could hoist his LongMill out of the way when not in use. When lowered, the shelf clamps onto his rolling workbench to give it the necessary stability while cutting:
+Another great concept for space saving came from Philip, who managed to claim the 'air rights' in his two-car garage so that he could hoist his CNC out of the way when not in use. When lowered, the shelf clamps onto his rolling workbench to give it the necessary stability while cutting:
 
 ![](/_images/_cnc-fun/_the-basics/_table/cnc_ba_table_10-spacesaver-philip.jpg){.aligncenter .size-large}
 

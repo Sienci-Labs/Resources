@@ -1,9 +1,9 @@
 ---
 title: Workholding
-menu_order: 0
-post_status: draft
+menu_order: 5
+post_status: publish
 post_excerpt: Workholding is the method you use to keep material secured while cutting on a CNC machine. Methods include T-tracks, threaded inserts, clamps and hot glue.
-post_date: 2024-07-18 18:14:53
+post_date: 2026-01-14 16:23:12
 taxonomy:
     knowledgebase_cat: the-basics
     knowledgebase_tag:
@@ -31,38 +31,15 @@ Some methods are strong but bulky. Others are low profile but less powerful. The
 - Make more projects in less time  
 - Avoid damage to your material or machine
 
-## Quick-Reference Workholding Table
+## Master Workholding Chart
 
-### Low-Cost / Beginner-Friendly
+<p>
+Choosing the right workholding method is key to successful CNC projects. The table below provides a comprehensive reference, from low-cost, beginner-friendly options to mid-range flexible setups and advanced or specialized methods. Color-coding helps guide your choice: <span style="color:#007bff; font-weight:bold;">blue</span> rows indicate beginner-friendly methods, <span style="color:#ff8000; font-weight:bold;">orange</span> rows show mid-range flexible options, and <span style="color:#28a745; font-weight:bold;">green</span> rows highlight advanced setups. When deciding which method to use, always consider the material type, the style of cut, and the toolpath to ensure safe, effective, and accurate machining.
+</p>
 
-| Method | Best For | Avoid When | Setup Needed |
-|--------|----------|------------|--------------|
-| [Screws](#screws) | Strong hold for large/thick stock | Brittle materials or cosmetic surfaces | Any wasteboard |
-| [Tape + CA Glue](#tape--ca-glue-or-double-sided-tape) | Small/thin parts, no tabs needed | Heavy cuts, uneven surfaces | Painter’s tape + CA glue |
-| [Double-Sided Tape](#tape--ca-glue-or-double-sided-tape) | Light materials, smooth surfaces | Heavy or aggressive cuts | None |
-| [Tabs](#tabs--bridges) | Holding cutouts in place until job ends | Jobs where tab cleanup is hard | CAM software setting |
 
----
+<table class="wp-table" width="100%" style="border-collapse: collapse;"> <thead> <tr> <th>Method</th> <th>Best For</th> <th>Avoid When</th> <th>Setup Needed / Options</th> </tr> </thead> <tbody> <!-- Low-Cost / Beginner-Friendly --> <tr style="background-color: #e6f2ff;"> <td><b>Screws</b> 🔩</td> <td>Strong hold for large/thick stock <br> Cutting parts/contours where screw placement avoids toolpaths</td> <td>Brittle materials, cosmetic surfaces, small parts <br> Projects that can’t tolerate holes</td> <td>Any wasteboard (no specialized setup needed)</td> </tr> <tr style="background-color: #e6f2ff;"> <td><b>Tape + CA Glue / Double-Sided Tape</b> 🩹</td> <td>Small/thin parts, no tabs needed <br> Cutting parts without clamps or tabs <br> Light materials, smooth surfaces</td> <td>Heavy cuts, uneven surfaces, tall stock <br> Projects needing heavy-duty clamping</td> <td>None needed</td> </tr> <tr style="background-color: #e6f2ff;"> <td><b>Tabs & Bridges</b> 🪚</td> <td>Holding cutouts in place until job ends <br> Small parts during profiling <br> Cutting parts from sheet stock without clamps in the way</td> <td>Jobs where tab cleanup is hard <br> Thick/hard materials needing heavy retention</td> <td>CAM software setup for tabs <br> Flush trim tools/chisels for cleanup</td> </tr> <!-- Mid-Range / Flexible --> <tr style="background-color: #fff2e6;"> <td><b>Top Clamps</b> 🔧</td> <td>General cutting, engraving, surfacing <br> Securing thin sheets <br> Cutting pockets/engraving where edges don’t need machining</td> <td>Clamps block toolpath <br> Delicate materials without padding</td> <td>T-slot / T-tracks <br> Threaded inserts <br> Screws into wasteboard</td> </tr> <tr style="background-color: #fff2e6;"> <td><b>Side Clamps / Toe Clamps</b> 🔧</td> <td>Surfacing slabs, odd shapes <br> Machining top surface without hitting clamps</td> <td>Thin sheets needing even pressure <br> Projects needing consistent flat pressure</td> <td>Threaded inserts <br> T-tracks</td> </tr> <tr style="background-color: #fff2e6;"> <td><b>Fence</b> 🚧</td> <td>Straight/repeat cuts <br> Holding long materials <br> Repeatable setups</td> <td>Projects needing flexible placement <br> High lateral cutting forces</td> <td>Fixed or adjustable fence secured to wasteboard</td> </tr> <tr style="background-color: #fff2e6;"> <td><b>Dog Holes</b> 🐶</td> <td>Repeat woodworking setups <br> Positioning stops <br> Woodworking projects</td> <td>Non-wood, heavy down-force cuts <br> Jobs needing heavy downward pressure</td> <td>Pre-drilled dog hole grid in wasteboard</td> </tr> <!-- Advanced / Specialized --> <tr style="background-color: #e6ffe6;"> <td><b>Vise</b> 🗜️</td> <td>Small or hard materials <br> Aluminum or repeated jobs needing quick clamping</td> <td>Thin sheets, delicate or irregular shapes</td> <td>Mounted vise on wasteboard</td> </tr> <tr style="background-color: #e6ffe6;"> <td><b>Vacuum Table</b> 🌬️</td> <td>Thin sheet goods needing flatness <br> High-speed machining with full surface hold-down</td> <td>Porous materials <br> Very small parts with limited surface area</td> <td>Vacuum pump or shop vac with plenum <br> Gasket tape or dedicated wasteboard</td> </tr> </tbody> </table>
 
-### Mid-Range / Flexible Options
-
-| Method | Best For | Avoid When | Setup Needed |
-|--------|----------|------------|--------------|
-| [Top Clamps](#clamps) | General cutting, engraving, surfacing | Clamps block toolpath | T-tracks, threaded inserts, or screws |
-| [Side Clamps / Toe Clamps](#clamps) | Surfacing slabs, odd shapes | Thin sheets needing even pressure | Threaded inserts or T-tracks |
-| [Fence](#fence) | Straight/repeat cuts | Projects needing flexible placement | Fixed or adjustable fence |
-| [Dog Holes](#dog-holes) | Repeat woodworking setups | Non-wood, heavy down-force cuts | Dog hole grid |
-
----
-
-### Advanced / Specialized Setups
-
-| Method | Best For | Avoid When | Setup Needed |
-|--------|----------|------------|--------------|
-| [Vise](#vise) | Small or hard materials, repeat jobs | Thin sheets, delicate shapes | Mounted vise |
-| [Vacuum Table](#vacuum-tables) | Thin sheet goods needing flatness | Porous materials | Vac pump + table |
-
----
 
 ## Types of Workholding
 
@@ -169,7 +146,7 @@ Check out this great video on building a bench and installing T-tracks [Watch Vi
 
 - Putting t-tracks in between thicker MDF slats, like in the photo, will allow you to mill off the surface of the MDF to get a perfectly flat surface relative to your machine. Furthermore, instead of replacing the whole wasteboard, you could replace smaller sections of it at a time
 - If you have a thick enough waste bed, you can use your machine to cut the grooves for your t-track, just size the grooves to be the width of your t-track
--We designed a custom t-track system that works with hex-headed 1/4"-20 hardware that you can see  <a href="https://sienci.com/product/t-tracks-and-clamps-set-48-34/" target="_blank" rel="noopener">in our store here</a> , with the  setup guide here: <a href="https://resources.sienci.com/view/assembling-add-ons/" target="_blank" rel="noopener">Installing the LongMill T-Track set</a>
+-We designed a custom t-track system that works with hex-headed 1/4"-20 hardware that you can see  <a href="https://sienci.com/product/t-tracks-and-clamps-set-48-34/" target="_blank" rel="noopener">in our store here</a> , with the  setup guide here: <a href="https://resources.sienci.com/view/assembling-add-ons/" target="_blank" rel="noopener">Installing the T-Track set</a>
 
 T-Tracks work best with top clamps, though some side clamps can also be used. Keep in mind that certain side clamps may have a limited range or might slip when aligned with the track direction.
 
@@ -478,17 +455,3 @@ Make your own vac table following [THESE](https://www.instructables.com/Vacuum-T
 
 **Final Tip:**  
 No single method covers every project. The most efficient CNC setups use **a combination of techniques** — picking the right method for the material, cut type, and clearance needed. Experiment, adjust, and keep your wasteboard maintained for the best results.
-
-## Master Workholding Chart
-
-| **Workholding Type** | **When to Use This**                                                                 | **When Not to Use This**                                                                | **Table Setup Requirements / Options**                       |
-|-----------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------|
-| **Top Clamping**      | - Cutting out parts/contours  <br> - Securing thin sheets of material  <br> - Cutting pockets and engravings where edges don’t need machining  <br> - Surfacing stock | - Projects where clamps interfere with cutter paths  <br> - Delicate materials without padding | - T-slot / T-tracks  <br> - Threaded inserts in MDF  <br> - Wood screws into wasteboard |
-| **Side Clamping**     | - Machining the entire top surface without hitting clamps  <br> - Surfacing large slabs  <br> - Clamping odd/irregular shapes | - Clamping thin sheets  <br> - Projects needing consistent flat pressure | - Threaded inserts |
-| **Screws** 🔩          | - Cutting parts/contours where screw placement avoids toolpaths  <br> - Holding down parts with screw holes | - Brittle materials prone to splitting  <br> - Projects that can’t tolerate holes | - None needed |
-| **Tape / Glue** 🩹     | - Cutting parts without tabs  <br> - Any type of cutting operation  <br> - Holding tall, narrow parts | - Heavy-duty clamping needs  <br> - Uneven material surfaces that tape won’t stick to | - None needed |
-| **Vise** 🗜️           | - Machining hard materials (e.g., aluminum)  <br> - Repeated jobs needing quick clamping | - Thin sheet materials  <br> - Delicate or irregularly shaped materials | - Vise mounted to wasteboard |
-| **Dog Holes** 🐶       | - Woodworking projects  <br> - Repeat setups  <br> - Positioning stops | - Jobs needing heavy downward pressure  <br> - Non-wood materials incompatible with dog holes | - Pre-drilled grid of dog holes in wasteboard |
-| **Fence** 🚧           | - Holding long materials  <br> - Straight cuts  <br> - Repeatable setups | - Jobs needing flexible positioning  <br> - Projects with high lateral cutting forces | - Fixed or adjustable fence secured to wasteboard |
-| **Tabs & Bridges** 🪚   | - Holding small parts during profiling  <br> - Cutting parts from sheet stock without clamps in the way | - Thick/hard materials needing heavy retention  <br> - Projects where tab cleanup is unacceptable | - CAM software setup for tabs  <br> - Flush trim tools/chisels for cleanup |
-| **Vacuum Table** 🌬️   | - Cutting sheet goods (MDF, plywood, plastics)  <br> - High-speed machining with full surface hold-down  <br> - Jobs needing a clear surface with no clamps | - Very small parts with limited surface area  <br> - Porous, warped, or leaky materials without sealing | - Vacuum pump or shop vac with plenum  <br> - Gasket tape or dedicated wasteboard |

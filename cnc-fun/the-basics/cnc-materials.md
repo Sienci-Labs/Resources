@@ -1,9 +1,9 @@
 ---
 title: Materials
-menu_order: 0
-post_status: draft
+menu_order: 6
+post_status: publish
 post_excerpt: Resources and documentation for general CNC work. You will find info about routers, software, end mills, add ons, and more  - everything you need to get started.
-post_date: 2024-07-18 18:14:53
+post_date: 2026-01-14 16:23:12
 taxonomy:
     knowledgebase_cat: the-basics
     knowledgebase_tag:
@@ -15,13 +15,30 @@ skip_file: no
 featured_image: _images/_cnc-fun/_the-basics/cnc_ba_materials_p1-guitar.jpg
 ---
 
+CNC machines open up a world of possibilities, allowing you to cut and shape a wide range of materials with precision and creativity. Let's explore the most common materials used in hobby CNC projects, from woods and plastics to soft metals, but don’t let this list limit your imagination! With the right precautions and a spirit of experimentation, you might be surprised by what you can create. With that being said, some materials are not recommended for hobby CNC use, including concrete, steel, and other extremely hard or abrasive materials that could damage your machine or pose safety risks.
+
+You are encouraged to review the [Safety](https://resources.sienci.com/view/cnc-safety/) section if you haven't checked it out already!
+
+## Feeds & Speeds
+
+When you start working with a CNC machine, understanding feeds and speeds is key to getting clean, efficient cuts. In simple terms, “feeds and speeds” describes how fast your machine moves and how aggressively it removes material. These terms will help you understand the charts used below for each different material.
+
+- **Feed rate & plunge rate** - how quickly the machine moves across & into the material
+- **Spindle or router speed** (RPM) - how fast the cutting tool spins
+- **Stepover & stepdown** - how much material the tool removes with each pass
+
+Knowing these variables - and how they interact with different materials - helps you get the best results while keeping your tools, your workpiece, and yourself safe.
+
 ## Wood
 
 Wood is simply an amazing material. As it is a living, organic material, there are an infinite variety of woods and characteristics. We will talk a little about using wood with your CNC machine here.
 
 ![](/_images/_cnc-fun/_the-basics/cnc_ba_materials_p1-guitar.jpg){.aligncenter .size-medium}
 
-General recommended starting feeds and speeds for <a href="https://sienci.com/product/1-8-flat-upcut-end-mill_3pcs_or10pcs/" target="_blank" rel="noopener">1/8" 2 flute flat end mills</a>. Please start with these settings and adjust, these are not hard and fast speeds:
+General recommended starting feeds and speeds for 1/8" and 1/4" 2-flute end mills.
+Start with these settings and adjust as needed—these are guidelines, not hard rules.
+
+General recommended starting feeds and speeds for <a href="https://sienci.com/product/1-8-flat-upcut-end-mill_3pcs_or10pcs/" target="_blank" rel="noopener">1/8" 2 flute flat end mills</a>. Start with these settings and adjust as needed - these are guidelines, not hard rules:
 
 <table class="wp-table" width="70%">
 <tbody>
@@ -76,7 +93,7 @@ General recommended starting feeds and speeds for <a href="https://sienci.com/pr
 </tbody>
 </table>
 
-And for <a href="https://sienci.com/product/1-4-spiral-up-cut-end-mill/" target="_blank" rel="noopener">1/4" 2 flute flat end mills</a>:
+And for <a href="https://sienci.com/product/1-4-spiral-up-cut-end-mill/" target="_blank" rel="noopener">1/4" 2 flute flat end mills</a>. Start with these settings and adjust as needed - these are guidelines, not hard rules:
 
 <table class="wp-table" width="70%">
 <tbody>
@@ -191,7 +208,7 @@ Foam, being a super soft material, is an easy material to cut. We recommend foam
 
 ![](/_images/_cnc-fun/_the-basics/cnc_ba_materials_p3-foam.jpg){.aligncenter .size-medium}
 
-Rigid foam is a super easy, soft material to cut. Most of the time, you can cut at full speed and full engagement with no issues, making it a fast way to draft out cuts. Soft foams come in many different densities and softness, which can affect cutting. Read more below to learn more. These settings work with both 1/8" and 1/4" 2 flute flat end mills.
+Rigid foam is the ideal foam material for CNCing, its closed-cell structure is strong enough to withstand cutting forces while being soft enough to cut through effortlessly. Most of the time, you can cut at full speed and full engagement with no issues, making it a fast way to draft out cuts. Soft foams come in many different densities and softness, which can affect cutting. These settings work with both 1/8" and 1/4" 2 flute flat end mills.
 
 <table class="wp-table" width="70%">
 <tbody>
@@ -256,8 +273,8 @@ Aluminum comes in a variety of different alloys. We will primarily be talking ab
 </tbody>
 </table>
 
-- Aluminum is near the upper limit of hardness that you want to be milling with a desktop hobby CNC machine. Setting up your machine to be as rigid as possible (milling near the supported areas of your rails, using proper clamping, reducing stick-out of your end mill) can make a difference.
-- The most common cause of end mill breakage is when chips build up and melt onto your bit. Ensuring that you have the proper chipload and chip ejection is important to draw heat out of the cut. Some users may choose to use coolant or compressed air to cool their cuts. Make sure to keep chips out of the cut at all times.
+- Aluminum is near the upper limit of hardness that you want to be milling with a general hobby CNC machine, and is best suited for a machine like the AltMill. Setting up your machine to be as rigid as possible (milling near the supported areas of your rails, using proper clamping, reducing stick-out of your end mill) can make a difference.
+- The most common cause of end mill breakage is when chips build up and melt onto your bit. Ensuring that you have the proper chipload and chip ejection (only use upcut bits) is important to draw heat out of the cut. Some users may choose to use coolant or compressed air to cool their cuts. Make sure to keep chips out of the cut at all times.
 - Most routers run at relatively high RPMs (10,000 to 30,000RPM) for cutting metals. Because of this, it is best to use single flute bits like our <a href="https://sienci.com/product/18-flat-end-mill-for-aluminum/" target="_blank" rel="noopener">1/8" flat end mill for aluminum</a> to ensure that you can get optimally sized chips. Also, reducing your RPM can help.
 - Some coatings, especially ones with coatings that contain aluminum (AlTiN, TiAlN), should be avoided as aluminum chips can have an affinity to the coating.
-- Using an advanced CNC CAM program such as <a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener">Fusion 360</a> that allows for adaptive toolpathing can speed up your cutting and give you better results, but if you're planning on cutting a lot of aluminum, it may be worth learning.
+- Using an advanced CNC CAM program such as <a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener">Fusion 360</a> that allows for adaptive toolpathing can speed up your cutting and give you better results, so if you're planning on cutting a lot of aluminum, it may be worth learning.

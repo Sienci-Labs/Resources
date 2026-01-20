@@ -1,9 +1,9 @@
 ---
 title: Welcome!
-menu_order: 0
-post_status: draft
+menu_order: 1
+post_status: publish
 post_excerpt: Resources and documentation for general CNC work. You will find info about routers, software, end mills, add ons, and more  - everything you need to get started.
-post_date: 2024-07-18 18:14:53
+post_date: 2026-01-14 16:23:12
 taxonomy:
     knowledgebase_cat: the-basics
     knowledgebase_tag:
@@ -43,9 +43,10 @@ You may want to jump straight into areas like:
 <table class="community-table" style="height: 50px; width: 95%; margin-left: auto; margin-right: auto; text-align: center; border-collapse: collapse; table-layout: fixed; padding: 5px !important; border: none !important;">
 <tbody>
 <tr>
-<td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/gen-software-explained/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]💻 Software[/su_button]</td>
-<td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/gen-touchplate/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]🔧 Add-Ons[/su_button]</td>
-<td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/gen-running-jobs/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]📔 Handbook[/su_button]</td>
+<td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/cnc-software-explained/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]💻 Software[/su_button]</td>
+<td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/lm-unboxing/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]🔧 LongMill Assembly[/su_button]</td>
+<td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/am-mk2-best-practices/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]🔧 AltMill Assembly[/su_button]</td>
+<td style="text-align: center; padding: 5px; border: none;">[su_button url="https://resources.sienci.com/view/cnc-feeds-speeds-2/" style="flat" size="8" radius="3" background="var(--sl-blue)" color="#FFFFFF" center="yes"]📔 Handbook[/su_button]</td>
 </tr>
 </tbody>
 </table>
