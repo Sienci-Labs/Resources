@@ -161,29 +161,34 @@ Loosen the bolt mounting the X-axis drag chain onto the X-axis rail and slide th
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4509.jpg){.aligncenter .size-medium}
 
-Grab the router power extension cable and motor cable from the drag chain & cable box. <b>The motor cable has been updated to not need an extension cable, it can now reach all the way to the controller!</b>
+Grab the router power extension cable and motor cable from the drag chain & cable box. 
+
+<b>The Makita's motor cable has been updated to not need an extension cable, it can now reach all the way to the controller!
+
+If you have an AutoSpin router, the cable should also reach all the way to the outlet, so you don’t need to install the power cable extension.
+</b>
 
 <b>Only applicable if installing the inductive sensor kit as well:</b>
 
-If you purchased the inductive sensor add-on kit, you'll want to install the Z-axis limit switch now. Grab the limit switch cable extension from the EX drag chain & cable box, as well as one of the three inductive sensors from within the kit.
+Install the Z-axis limit switch now. Grab the limit switch cable extension from the EX drag chain & cable box, as well as one of the three inductive sensors from within the kit.
 
-Route one inductive sensor cable through the X-axis drag chain, leaving some slack at the sensor for mounting the sensor later. Install the included limit switch extension cable as shown below to extend this cable. The excess cable length will be bundled with the Z-axis motor cable and router power cable in the next section.
+Route one inductive sensor cable through the X-axis drag chain, leaving some slack at the sensor end for mounting later on. Install the included limit switch extension cable as shown below to extend this cable. The excess cable length will be bundled with the Z-axis motor cable and router power cable in the next section.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_5505.jpg){.aligncenter .size-medium}
-
-Connect the power extension to the router power cord and the motor cable directly to the Z-axis connection on your controller. We've updated the motor cable to no longer need an extension.
-
-![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_No-connector.jpg){.aligncenter .size-medium}
 
 Grab the motor cable and connect it to the X-axis motor.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4529.jpg){.aligncenter .size-medium}
 
-Begin routing the power extension cable and X-axis motor cable into the shorter Y-axis drag chain. Fit these cables underneath the drag chain mount. Allow the power connector to sit outside of the Y-axis drag chain as shown (Motor cable is no longer an extension cable, and can be routed inside the drag chain). This excess bundling of cable will be organized neatly in the next step.
+If you have a Makita router, connect the power extension to the router’s power cord. The AutoSpin is long enough, so no extension needed!
+
+![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_No-connector-AS.jpg){.aligncenter .size-medium}
+
+​​Begin routing the router power cable, signal cable and X-axis motor cable into the shorter Y-axis drag chain. Fit these cables underneath the drag chain mount. Allow the power plug to sit outside of the Y-axis drag chain as shown. This excess bundling of cable will be organized neatly in the next step.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4536.jpg){.aligncenter .size-medium}
 
-Secure the cables inside the drag chain by re-clipping each clip, then Attach the drag chain onto the start and end links mounted on the machine.
+Secure the cables inside the drag chain by re-clipping each clip, then attach the drag chain onto the start and end links mounted on the machine.
 
 ![](/_images/_lmmk2/_assembly/_extra48/lmk2_extra48_IMG_4540.jpg){.aligncenter .size-medium}
 

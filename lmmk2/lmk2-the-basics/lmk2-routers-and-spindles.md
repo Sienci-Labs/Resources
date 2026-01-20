@@ -22,7 +22,15 @@ Routers and spindles come in all shapes and sizes. When considering the right to
 - Size and weight
 - Runout
 
-Many hobby CNC routers tend to utilize trim routers because their power, weight, price, and off-the-shelf circuitry balance well with hobby applications. After much testing with the LongMill, we landed on the Makita RT0700/RT0701 as the ideal choice.
+Many hobby CNC routers tend to utilize trim routers because their power, weight, price, and off-the-shelf circuitry balance well with hobby applications. Below are the options we'd recommend for the LongMill.
+
+## Sienci AutoSpin T1
+
+![](/_images/_lmmk2/_the-basics/lmk2_routerspindle_autospin.png){.alignleft .size-full .nar}
+
+<a href="https://sienci.com/product/autospin-t1-router/" target="_blank" rel="noreferrer noopener">Sienci Labs Store</a>
+
+The AutoSpin T1 is an enhanced trim router designed by Sienci Labs, capable of automated speed control like a spindle but also allowing for manual speed control with a dial. It uses a 1-1/4HP motor and can run between 10,000 RPM to 30,000 RPM. It is tuned for stable cutting speeds, suited for multi-hour projects on your CNC machine. We highly recommend starting off with manual mode to get the hang of the CNC workflow, then jump into spindle mode where you can automate your starts, stops and speed changes through g-code commands.
 
 ## Makita RT0700/RT0701
 
@@ -36,7 +44,7 @@ Many hobby CNC routers tend to utilize trim routers because their power, weight,
 
 <a href="https://www.amazon.ca/gp/product/B00E7D3V4S?ie=UTF8" target="_blank" rel="noreferrer noopener">Amazon (Canada)</a>
 
-The Makita RT0700/RT0701 router is a very commonly used and reliable trim router boasting a 1-1/4HP motor. It offers a wide speed range (10,000RPM to 30,000RPM), which is electronically controlled to achieve for reliable speeds even under load. With a metal body, it is extremely durable. Our test units have been used for hundreds of hours without fail, on projects that take over 6 hours. This is our go-to recommended router as it is widely available in both 120V and 220V.
+The Makita RT0700/RT0701 router is a very commonly used and reliable trim router boasting a 1-1/4HP motor. It offers a wide speed range (10,000 RPM to 30,000 RPM), which is electronically controlled to achieve reliable speeds even under load. With a metal body, it is extremely durable. Past data shows usage over hundreds of hours without fail, on projects that take over several hours. This is our second most recommended router as it's proven to be reliable and is widely available in both 120 and 220V.
 
 ## Other Routers
 
