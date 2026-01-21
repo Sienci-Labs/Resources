@@ -38,7 +38,7 @@ The following components are included in the upgrade kit and are shown together 
 - SLB 3D-printed rail mounts (x2)
 - Inductive sensors (x4)
 - Inductive sensor bracket (x2)
-- Motor cable set (x1 long, x3 short)
+- Motor cable set (X cable: 1.8 m, Y1 cable: 1.4 m, Y2 cable: 2.7 m, Z cable: 3.65 m)
 - M5x10mm hex head screws (x2)
 - M5x12mm socket head screws + washers (x10)
 - Hex nut (x1)
