@@ -17,7 +17,7 @@ featured_image: _images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-allparts
 
 Switching to the Closed Loop Stepper Motors (CLSM) from the open loop motors is easy. The main difference between the open loop and the closed loop motors is that the open loop motors lack positional feedback making them prone to “skipping steps” under load. With closed loop motors there is a feedback system that helps in monitoring their positions which enables them to self-correct errors, improve accuracy and operate more efficiently.
 
-For a more detailed rundown on how to successfully prepare for the use of the SLB-EXT please refer to the following documentation: https://resources.sienci.com/view/am-slb-ext-controller/
+For a more detailed rundown on how to successfully prepare for the use of the SLB-EXT please refer to the [following documentation](https://resources.sienci.com/view/am-slb-ext-controller/).
 
 ## Unboxing
 
@@ -139,8 +139,7 @@ For the Z & X-axis, you can simply pop the new pigtail limit switches into the o
 
 For the Y-axis, we will be using a bracket to mount the sensor under the Y-axis rails, and pushing them to the back left and right corners. Mount each sensor onto a bracket as shown.
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxislimit-position.jpg)
-{.align-center .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxislimit-position.jpg){.align-center .size-medium}
 
 Slip an M5-T Nut into the slot at the back of both Y-axis rails and secure it with an M5-10 mm hex head screw, with **two washers**. Do not tighten this all the way down yet, as we will be sliding the bracket onto it. You can use the wrench that shipped with your LongMill, or one you have in your shop to assist in this step.
 
