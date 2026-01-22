@@ -1,9 +1,9 @@
 ---
 title: System Requirements
-menu_order: 0
-post_status: draft
+menu_order: 4
+post_status: publish
 post_excerpt: Hardware requirements to run a CNC. Includes computer specifications, internet access and considerations for running CAD/CAM software.
-post_date: 2024-07-18 18:14:53
+post_date: 2026-01-21 17:32:00
 taxonomy:
     knowledgebase_cat: software
     knowledgebase_tag:
@@ -12,10 +12,12 @@ custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: 
 ---
 
 With today's advancements in computing hardware, most users will have no issues using their old or new computers and laptops to run their CNC machines. Generally, as long as your computer is **newer than 5 years old**, you should have no issues running a g-code sender like gSender or UGS. This page discusses hardware requirements and considerations to make for running your CNC machine.
+
+![](/_images/_cnc-fun/_software/cnc_so_systemreq.jpg){.aligncenter .size-medium}
 
 Your system requirements may change depending on:
 
@@ -43,10 +45,10 @@ An internet connection is **not needed** to run and operate your machine. Howev
 
 ## Computer Setup
 
-A computer must be on and plugged in via USB or Ethernet to operate the LongMill. Here are some considerations on your computer setup.
+A computer must be on and plugged in via USB or Ethernet to operate a CNC. Here are some considerations on your computer setup.
 
 <b>Dust</b><br>
-Having a computer located close to your CNC machine may expose it to dust. We recommend placing it in a location that is out of the way of dust. Each LongMill kit comes with a 1m USB cable, however, if you wish to extend the distance, a longer USB cable can be used (USB A to USB B).
+Having a computer located close to your CNC machine may expose it to dust. We recommend placing it in a location that is out of the way of dust.
 
 <b>Dual computer setup</b><br>
 Some users may choose to use a spare or inexpensive computer to run their machine and use a higher performance computer for CAD and CAM design in a different location. Because the system requirements for most g-code senders are quite low (we've managed to run machines on AMD Athalon and Raspberry Pi's), a less powerful computer can be used solely to send g-code and run their CNC machines. G-code can be transferred between computers just like any other file, such as via USB stick, email, or the cloud. This allows users to do their design and CAM work in one place and do their CNC work in another.
