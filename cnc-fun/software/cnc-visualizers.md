@@ -1,9 +1,9 @@
 ---
 title: Visualizers
-menu_order: 0
-post_status: draft
-post_excerpt: CNC g-code visualizers are a great way to verify the toolpaths of your g-code file before running them on your LongMill CNC machine.
-post_date: 2024-07-18 18:14:53
+menu_order: 5
+post_status: publish
+post_excerpt: CNC g-code visualizers are a great way to verify the toolpaths of your g-code file before running them on your CNC machine.
+post_date: 2026-01-21 17:38:00
 taxonomy:
     knowledgebase_cat: software
     knowledgebase_tag:
@@ -12,10 +12,18 @@ custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: _images/_cnc-fun/_software/cnc_so_visualizers_toolpath.jpg
 ---
 
-Visualizing how your cutting instructions (g-code file) are going to play out before executing them on your machine is very valuable. It can help you to to verify that the machine is going to cut out your project in the way that you expect it to. Most CAM or Interface software will have built-in g-code visualization for this reason, either showing the line that the cutting tool will follow or rendering a full 3D view of how the material is going to be cut away.
+Visualizing how your cutting instructions (g-code file) are going to play out before executing them on your machine is very valuable. It can help you verify that the machine is going to cut out your project in the way that you expect it to. Most CAM or Interface software will have built-in g-code visualization for this reason, either showing the line that the cutting tool will follow or rendering a full 3D view of how the material is going to be cut away.
+
+This is an image of the visualization available in gSender.
+
+![](/_images/_cnc-fun/_software/cnc_so_visualizers_toolpath.jpg){.aligncenter .size-medium}
+
+gSender also shows visualizations for your rotary files!
+
+![](/_images/_cnc-fun/_software/cnc_so_visualizers_rotarytoolpath.jpg){.aligncenter .size-medium}
 
 This page exists in the case that your current software isn't offering you good visualization. If this is the case, you can either change one of your current software packages to one that does, or you could use a separate program. We've tested out a handful of standalone programs that you can consider in order to bridge this visualization gap:
 

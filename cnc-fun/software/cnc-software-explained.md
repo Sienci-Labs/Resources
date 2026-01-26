@@ -1,9 +1,9 @@
 ---
 title: Software Explained
-menu_order: 0
-post_status: draft
-post_excerpt: The CNC software process starts from creating a design (CAD), making toolpaths to produce g-code (CAM), sending the g-code to the LongMill (machine interface).
-post_date: 2024-07-18 18:14:53
+menu_order: 1
+post_status: publish
+post_excerpt: The CNC software process starts from creating a design (CAD), making toolpaths to produce g-code (CAM), sending the g-code to the CNC (machine interface).
+post_date: 2026-01-21 12:49:53
 taxonomy:
     knowledgebase_cat: software
     knowledgebase_tag:
@@ -12,7 +12,7 @@ custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_cnc-fun/_software/cnc_so_explained_toolchain.jpg
 ---
 
 The core concepts behind operating a CNC router are very basic. A close analogy would be as follows:
@@ -27,9 +27,11 @@ In that analogy, your friend is effectively acting as a **CNC router**. Given al
 
 A 'toolchain' leverages one or more software packages to accomplish an end goal. Today, our end goal is to figure out how to go from a design for a project to having this project cut out on our CNC. This process spans three major steps:
 
-1. Get your project idea into a form that a computer can understand (or buy/download a CNC project that's already been designed)
-1. Use a **CAM software** to help turn this project into a list of cutting instructions for your CNC called a **g-code file**
-1. Use a **machine interface software** to talk to your CNC, telling it where you've placed your raw material and giving it the cutting instructions
+![](/_images/_cnc-fun/_software/cnc_so_explained_toolchain.jpg){.aligncenter .size-medium}
+
+1. Get your project idea into a form that a computer can understand, often using **CAD software** (or buy/download a CNC project that's already been designed)
+1. Use **CAM software** to help turn this project design into a list of cutting instructions for your CNC called a **g-code file**
+1. Use a **machine interface software** to talk to your CNC, telling it where you've placed your raw material and giving it the cutting instructions in the form of the g-code file
 
 There is software that can cover all of these steps, but most times you'll have to use at least two software packages to take you from start to finish. Let's go through each step in a little more detail.
 
@@ -59,7 +61,7 @@ As previously mentioned, **CAM software** is the tool that you use to take the d
 
 - the design file from the previous step
 - information about your CNC
-- the type of material you plan on cutting and its general dimensions
+- the type of material you plan on cutting and its dimensions
 - the cutting tool (or tools) you plan on cutting the material with
 - some more details about how you'd like to carve your project out
 
@@ -77,7 +79,7 @@ Coming through the CAM process and with g-code file in hand, the last step is to
 
 - manually move / jog each axis of the CNC
 - set the starting point of the cut (either via limit switches, touch probe, work coordinate offsets, or manually)
-- send / live-stream cutting instructions to the LongMill
+- send / live-stream cutting instructions to your CNC
 - pause or resume cutting, or stop cutting altogether
 
 Think about this last step as your ultimate window into controlling and monitoring your CNC. For many individuals this last step will only really involve telling the CNC where you'd like to start cutting and then executing the file which holds all the cutting instructions; but many interfaces will allow you to do much much more than this if you're comfortable with it:

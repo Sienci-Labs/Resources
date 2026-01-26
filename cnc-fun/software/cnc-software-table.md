@@ -1,8 +1,8 @@
 ---
 title: Software Table
-menu_order: 0
-post_status: draft
-post_excerpt: How to choose what CNC software works for you! A list of compatible CAD, CAM and g-code senders for the LongMill CNC machine.
+menu_order: 6
+post_status: publish
+post_excerpt: How to choose what CNC software works for you! A list of compatible CAD, CAM and g-code senders for your CNC machine.
 post_date: 2024-07-18 18:14:53
 taxonomy:
     knowledgebase_cat: software
