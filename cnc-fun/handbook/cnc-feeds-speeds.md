@@ -1,9 +1,9 @@
 ---
 title: Feeds & Speeds
-menu_order: 0
-post_status: draft
-post_excerpt: A list of materials that can be cut by the LongMill CNC, with considerations for cutting tools and best practices. Wood, plastic, foam and soft metal suggested.
-post_date: 2024-07-18 18:14:53
+menu_order: 2
+post_status: publish
+post_excerpt: A list of materials that can be cut by most hobby CNC, with considerations for cutting tools and best practices. Wood, plastic, foam and soft metal suggested.
+post_date: 2026-01-30 10:57:53
 taxonomy:
     knowledgebase_cat: handbook
     knowledgebase_tag:
@@ -15,24 +15,45 @@ skip_file: no
 featured_image: _images/_cnc-fun/_handbook/cnc_ha_feedsspeeds_pocketingvsslotting.jpg
 ---
 
-“Feeds and Speeds” is an all-encompassing term used to describe most of the variables that come into play when using a cutting tool to carve a material. In the hobby-sense, this includes:
+## Cutting Fundamentals ⚙️
 
-- **How fast the CNC moves** (feed rate, plunge rate, and router/spindle RPM)
-- **How much material is removed** (stepdown and stepover)
+CNC cutting depends on the relationship between how **fast the bit moves**, how **fast it spins**, and **how much material it removes per pass**.  
 
+The key terms are:  
+
+- **Feed rate:** How quickly the tool moves through the material (X/Y direction).  
+- **Plunge rate:** How fast it moves vertically (Z direction).  
+- **Spindle speed:** How fast the bit spins, measured in RPM.  
+- **Depth of cut (step down):** How deep the bit cuts per pass.  
+- **Step over:** How far the tool shifts sideways between passes, often a percentage of bit diameter.  
+
+Together, these make up what’s known as your **feeds and speeds**. Getting them right is critical:
+
+| Setting too low | Result |
+|------------------|---------|
+| Feed rate too slow | Bit rubs and overheats |
+| Feed rate too high | Bit breaks |
+| Spindle too fast | Burns/melts material |
+| Spindle too slow | Rough finish, chatter |
+
+**Rule of thumb:**  
+Higher RPM = smaller chips.  
+Higher feed rate = larger chips.  
+
+Aim for consistent, clean chip formation — not dust, not chunks.  
+ 
 Figuring out how to cut materials nicely on your machine can be confusing and time consuming. Most cutting tool manufacturers spec industry-grade speeds that hobby-grade machines can’t achieve and tool information that hobby CAM software can’t use. Chatter analysis, optimizing material removal rate, tool life preservation, and more simply fall out of range for most hobby CNC'ers since they don't do the high-load or large capacity work of business and industry. We wanted to see what we could do to help with this.
 
-The result is a simple reference-table that you can use as a starting point for your next project. This required us to do a crazy amount of math, create internal testing patterns and procedures, run tests on all the common CNC bits and materials we could think of, and break a lot of bits along the way to hone what we hope will power up your ability to get the most out of your LongMill. We’ve also included more reading later down the page if you’re curious about the theory that drove these cutting parameters and their outcomes: <em>‘<a href="#cutting-theory">Cutting Theory</a>’</em>.
+The result is a simple reference-table that you can use as a starting point for your next project. This required us to do a crazy amount of math, create internal testing patterns and procedures, run tests on all the common CNC bits and materials we could think of, and break a lot of bits along the way to hone what we hope will power up your ability to get the most out of your CNC. We’ve also included more reading later down the page if you’re curious about the theory that drove these cutting parameters and their outcomes: <em>‘<a href="#cutting-theory">Cutting Theory</a>’</em>.
 
 ## Using the F&S Tables
 
-Our tables try to account for the average setup you’ll have and are based off of the LongMill MK2. Use the values as a **jumping-off point**, as your setup may have different values that work best. This is where we’ll stick a giant asterisk since despite all the work we’ve done we’ll never be able to provide guarantees against broken bits or failed projects. Woods, plastics, metals - basically any material is going to behave differently whether you’re in Canada, the USA, or Australia because of variations in natural species, manufacturing processes, temperature, humidity, and many other factors. This is the nature of CNC where it becomes more of an art than a science. All machines are different, are assembled differently, use different table setups, exist in different environments, use different cutting tools, and so forth.
+Our tables try to account for the average hobby CNC setup with NEMA 23 motors, such as the LongMill MK2. Use the values as a **jumping-off point**, as your setup may have different values that work best. This is where we’ll stick a giant asterisk since despite all the work we’ve done we’ll never be able to provide guarantees against broken bits or failed projects. Woods, plastics, metals - basically any material is going to behave differently whether you’re in Canada, the USA, or Australia because of variations in natural species, manufacturing processes, temperature, humidity, and many other factors. This is the nature of CNC where it becomes more of an art than a science. All machines are different, are assembled differently, use different table setups, exist in different environments, use different cutting tools, and so forth.
 
 <strong>Here are some other things to keep an eye out for:</strong>
 
 <ol>
   <li>The tables (on this page and as a PDF) so far contain commonly-used hobby CNC cutting tools and materials such as soft and hard woods, common plastics, and common aluminum. If you don’t see the material you plan to cut feel free to ask around in our community for advice or what has worked successfully for others</li>
-  <li>Suggestions for bits that do engraving, V-carving, and 3D contours will have flavours for ‘coarse’, ‘fine’, and some other use-cases but all at fixed speeds. This is because these types of cutting tools don’t tend to strain the machine so instead these options should suit what type of cutting you plan to do</li>
   <li>Since we know everyone will have different preferences for how they run all the other tool types on their CNC, we’ve created three options of speed/aggressiveness to suit conservative and aggressive CNC’ers alike:
 <table class="wp-table" style="height: 256px; border: 1px solid gray;" width="959">
 <tbody>
@@ -58,7 +79,6 @@ Our tables try to account for the average setup you’ll have and are based off 
 <td>
 <ul>
   <li aria-level="2">Use these settings if you have lots of material to cut through and you’d like to speed up the process</li>
-  <li aria-level="2">Ensure your <a href="https://resources.sienci.com/view/lmk2-maintenance/#adjusting-the-eccentric-nuts" target="_blank" rel="noopener">v-wheels are properly adjusted</a> when using these more aggressive settings</li>
 </ul>
 </td>
 </tr>
@@ -84,9 +104,9 @@ Not the colloquial ‘softwood’, rather any woods, plywoods, or MDF that have 
 <strong>General tips and tricks for these materials are:</strong>
 
 - Cutting soft woods will often leave strands and burrs on your finished project. To prevent this, try reducing your feed rates slightly (~20%) or running a second finishing pass if your software allows this
-- Plywoods (and some stringy soft woods) are prone to splintering at the surface during cutting. Using a downcut or compression bit can help with this immensely since they won’t tear the material up and over the surface. You can read more about how compression bits work <a href="https://sienci.com/2021/03/01/introducing-1-8-compression-bits-to-our-store/" target="_blank" rel="noopener">here</a>
+- Plywoods (and some stringy soft woods) are prone to splintering at the surface during cutting. Using a downcut or compression bit can help with this immensely since they won’t tear the material up and over the surface.
 - If you notice burning, ensure that: you’re using a wood-compatible tool, sawdust isn’t getting stuck in your cut (downcut bits can cause this), your cutting speed isn’t too slow, or router/spindle RPM isn’t too high
-- Even though MDF is a cheap and clean-cutting material on CNCs, make sure to wear appropriate PPE since the dust is incredibly fine and can be dangerous to breathe in. Using a <a href="https://sienci.com/product/LongMill-magnetic-dust-shoe-mk2/" target="_blank" rel="noopener">dust shoe</a> is a good option to help reduce the amount of generated dust
+- Even though MDF is a cheap and clean-cutting material on CNCs, make sure to wear appropriate PPE since the dust is incredibly fine and can be dangerous to breathe in.
 
 [tabby title="Reduced Speed"]
 
@@ -180,7 +200,7 @@ For cutting acrylic we highly recommend you use <strong>cast acrylic</strong> (u
 
 <strong>Tips and tricks for engraving or 3D carving these materials are:</strong>
 
-- Always perform a roughing pass using a flat end mill / tapered ball end mill (with the roughing settings below) with a 0.15-0.3mm stock to leave setting before performing the finishing pass. This will dramatically improve the surface finish of your engraving and reduce the chance of melting
+- Always perform a roughing pass using a flat end mill / tapered ball end mill (with the roughing settings below) while using a 0.15-0.4mm 'machining allowance' value before performing the finishing pass. This will dramatically improve the surface finish of your engraving and reduce the chance of melting
 - If melting is still observed for acrylic, try decreasing the feed rate (this goes against the general tips we have for plastics but slowing down the rate at which material is removed is the most reliable way we’ve found to prevent melting)
 - Never cut or engrave PVC with a laser, it will release toxic gasses and chemicals
 
@@ -197,7 +217,6 @@ Aluminum is an incredibly useful medium for creating strong mechanical parts, to
 Since aluminum is near the upper limit of hardness that should milled using a hobby CNC machine, you’ll want to take any measures to make your machining setup as rigid as possible such as:
 
 - Setting up your project in a corner of your wasteboard so that the rails have less flex/twist
-- Ensure your <a href="https://resources.sienci.com/view/lmk2-maintenance/#adjusting-the-eccentric-nuts" target="_blank" rel="noopener">V-wheels are fully tightened</a>, potentially even a bit over-tightened, and all other tuning aspects of your machine are spot on
 - Reduce the stick-out length of your cutting bit as much as you can or use short and stubby bits
 
 <strong>General tips and tricks for these materials are:</strong>
@@ -255,10 +274,6 @@ Handy for printing out as a quick reference to keep on your computer or by your 
 
 ## FAQ
 
-<strong><em>Are you ever going to provide feeds and speeds for material X?</em></strong>
-
-<p style="padding-left: 40px;">We’ve tried to cover most common/popular materials and hope to expand our feeds and speeds to include other materials in the future, but we can’t cover everything. Less popular materials such as FR4, carbon fiber, and steel can all be cut, but aren’t very popular. If there’s a particular material you’d like us to provide, feel free to contact us and let us know.</p>
-
 <strong><em>Will these feeds and speeds work with the cutting bit I got from X?</em></strong>
 
 <p style="padding-left: 40px;">As long as the important cutting bit geometry is the same, probably. There is a misconception in the hobby CNC router space that different sources of cutting bits will perform completely differently. Some may be sharper or higher quality than others but most will perform fairly similarly in common materials such as woods.</p>
@@ -275,10 +290,6 @@ Handy for printing out as a quick reference to keep on your computer or by your 
 
 <p style="padding-left: 40px;">Technically, yes, but in practice no. Some bits may be sharper than others from the factory, but you can expect tools to perform about the same throughout their lifespan regardless of how aggressively you run them. The main detriment which causes premature tool wear is using an inappropriate <a href="https://resources.sienci.com/view/lmk2-feeds-and-speeds/#chip-load-">chip load</a>.</p>
 
-<strong><em>Are you ever going to make a downloadable tool database for X CAM program?</em></strong>
-
-<p style="padding-left: 40px;">Many CAM programs don’t have the functionality of importing and exporting tool databases/libraries, so we focused on two popular CAM programs which do.</p>
-
 <strong><em>My CAM software only allows me to input my stepover as a % value, not in mm or inches. What should I use?</em></strong>
 
 <p style="padding-left: 40px;">Almost all of the suggested stepover values are based on a 45% stepover value so you can use this for any software which requires this value. You might even find that your CAM software is already defaulting to this value.</p>
@@ -291,9 +302,9 @@ Handy for printing out as a quick reference to keep on your computer or by your 
 
 <p style="padding-left: 40px;">These cutting parameters were developed to be used on the average LongMill MK2 without overstressing the machine, if yours doesn't seem to be keeping up at these parameters it might be your machine’s way of telling you that something is loose, worn, or misassembled. Check out our page <a href="https://resources.sienci.com/view/lmk2-maintenance/" target="_blank" rel="noopener">here</a> covering tuning, maintenance, and checks for loose components.</p>
 
-<strong><em>Can I use these feeds and speeds on my non-LongMill machine?</em></strong>
+<strong><em>Can I use these feeds and speeds on my CNC machine?</em></strong>
 
-<p style="padding-left: 40px;">Hobby CNC routers can vary greatly in terms of their rigidity and capabilities, so this will depend. If you’re using these on an industrial machine, these cutting parameters might be a bit conservative but will work just fine. If you’re using these on a slightly less robust machine, you might want to dial back some of these settings and proceed with caution. Either way, use your best judgment and adjust accordingly.</p>
+<p style="padding-left: 40px;">Hobby CNC routers can vary widely in rigidity, power, and overall capabilities, so results may differ from machine to machine. On more robust or industrial-style machines, these cutting parameters may be somewhat conservative but should work reliably. On lighter-duty or less rigid machines, you may need to reduce feeds, speeds, or depth of cut and proceed carefully. Always monitor the cut and adjust based on your machine’s performance.</p>
 
 ## Cutting Theory
 
@@ -403,6 +414,8 @@ We’ll do a quick review on how some cutting parameters might affect other outc
 
 While the theory presented above holds true for any type of machining, there are a few additional constraints that we should be aware of when 3D carving.
 
+#### Stepover
+
 The first constraint to pay attention to is cutting width/stepover. This is a variable that we can typically change to control the rate of material removal but in 3D carving it’s directly tied to surface finish and is typically a small number (~5-15% depending on the size of the bit).
 
 ![](/_images/_cnc-fun/_handbook/cnc_ha_feedsspeeds_stepover-comparison.jpeg "Acrylic carving with 5, 10, and 15% stepover (left to right)"){.aligncenter .size-medium}
@@ -410,6 +423,8 @@ The first constraint to pay attention to is cutting width/stepover. This is a va
 When a ball end mill carves in several straight, parallel passes it leaves behind small amounts of material in the form of ridges - these are known as 'cusps'. These cusps are the reason for the increase in detail/resolution with a lower stepover; as shown in the photo below, a larger stepover means larger cusps, while a smaller stepover means the cusps continue getting smaller until they're imperceptible to the human eye. Obviously, with lower stepover, this means a greater number of passes, and a much longer total project time. You'll need to decide how much detail you need, and how long you're willing to run the project for. For example, for carving a 2"x2" relief, you'll probably want to use a low stepover amount such as 5-8% since this project won't take more than an hour. If you we're carving <a href="https://youtu.be/yOywuK02vVY" target="_blank" rel="noopener">something much larger</a>, you might want to set your stepover much larger and forego finer detail for a faster overall project time.
 
 ![](/_images/_cnc-fun/_handbook/cnc_ha_feedsspeeds_stepover-chart.jpg){.aligncenter .size-medium}
+
+#### Cutting depth
 
 Cutting depth is the next variable to consider and in relief carving this is again something that you do not have much control over. This is because the tool will need to follow the contours of your 3D model which can vary considerably in depth.
 

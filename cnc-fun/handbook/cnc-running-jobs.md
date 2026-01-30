@@ -1,9 +1,9 @@
 ---
 title: Running Jobs Checklist
-menu_order: 0
-post_status: draft
-post_excerpt: How to cut multiple toolpaths for CAM programs without tool changing functionality. This method is suitable for the LongMill Benchtop CNC, and other hobby CNCs.
-post_date: 2024-07-18 18:14:53
+menu_order: 3
+post_status: publish
+post_excerpt: How to cut multiple toolpaths for CAM programs without tool changing functionality. 
+post_date: 2026-01-30 12:01:53
 taxonomy:
     knowledgebase_cat: handbook
     knowledgebase_tag:
@@ -14,147 +14,6 @@ custom_fields:
 skip_file: no
 featured_image: 
 ---
-
-## Preparing Your Design
-
-### Material Size and Type
-
-Before you can start your design, you must know the size and thickness of your material. This is necessary for generating successful toolpaths. Your design should also take into account the material type. Machining different materials will result in different feeds and speeds that will be determined in the CAM software.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_measuring-materials.jpg){.aligncenter .size-medium}
-
-#### File Creation
-
-Design, CAM, and Machine Interface software are all used to create the final file for your project. Detailed information about software and the CNC tool chain can be found here. <a href="https://resources.sienci.com/view/lmk2-software-explained/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-software-explained/</a>. In the following explanation, Carbide Create and gSender will be used for the Design/CAM and Machine Interface software examples.
-
-#### Design Software
-
-A design is needed to create the toolpath. You can use a pre-made design or create one yourself. CAD software like Fusion 360 & SketchUp are useful for creating 3D files with complex shapes. Graphic programs like Adobe Illustrator or Inkscape are perfect to create files for signs and simple 2.5D carvings.
-
-#### CAM Software
-
-We’ll now switch to the CAM software. Remember those material dimensions you took earlier, you’ll now input them into your new file. Choose the X and Y location of the zero point in the software. The Z location will either be at the top or at the bottom of the material. The starting or zero point is where the machine will reference from. In the example below, you can see the zero starts at the same location in the software and on the material.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_starting-position-triptych.jpg){.aligncenter .size-medium}
-
-Import your design file into the CAM software. You’ll now choose the CNC bit to create the toolpath. The shape and type of bit will determine the final look of your piece.
-
-#### Choosing your CNC Tool
-
-CNC bits come in a variety of shapes and sizes. You don’t need a specialty bit to get started. Common router bits are a great way to get your feet wet with machining without spending a lot of money. Common bit shapes are: V-bits; great for signs and lettering. Square End mills; used for carving pockets with flat surfaces. Ball nose and tapered bits; used for relief and detail carvings.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_cnc-bit-types.jpg){.aligncenter .size-medium}
-
-#### Creating Toolpaths
-
-Select the vector lines you want to machine then select the CNC bit. Change any parameters such as feed and speeds for your machine and material. Information on feeds and speeds can be found here. <a href="https://resources.sienci.com/view/lmk2-feeds-and-speeds" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-feeds-and-speeds</a>/ The CAM software will calculate the toolpath. In the example below, the design is in orange, and the toolpaths are blue. Once you are happy with the design, export the g-code.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_toolpath-example.jpg){.aligncenter .size-medium}
-
-#### Exporting the File
-
-With the design finalized, it’s time to export the toolpaths. Make sure you’ve selected the correct post-processor for your machine. The LongMill uses a grbl post-processor. Save or export your toolpath to a location on your computer.
-
-## Preparing your Material
-
-### Material Clamping
-
-Clamping material to the work surface is necessary for a successful part. Clamping methods are determined by the design and material you are using. Below are common examples of clamping methods. Small items could be held in a vice with some care. Clamps can be made out of metal, plastic, or wood.
-
-#### Top Clamping
-
-Hold down clamps hold the material tightly to the work surface. Top clamping is perfect when using upcut bits. Careful consideration must be given to the placement of the clamps in order to prevent the bit from cutting into them.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_clamps-hold.jpg){.aligncenter .size-medium}
-
-#### Side clamping
-
-Holding your workpiece with pressure from the sides is useful for flattening the top of a workpiece or doing 3d reliefs where the design extends to the edges. Eccentric clamps or angled blocks pressed against material work well.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_side-clamping.jpg){.aligncenter .size-medium}
-
-#### Screws
-
-Screwing through your material and into the work surface is an excellent holding method. Extra care needs to be taken that you don’t run the bit through the metal screws.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_fastening-screws.jpg){.aligncenter .size-medium}
-
-#### Tape and Glue
-
-Tape is applied to the back of the workpiece and to the top of the work surface. Apply fast-acting glue to the work surface and place the workpiece on top with pressure until set. Once finished, remove the tape. Hot gluing your material to the table is also an effective way to hold the piece down when doing light machining.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_mounting-gluing.jpg){.aligncenter .size-medium}
-
-Double sided carpet tape is very easy to use. It’s applied to the work surface, then the work piece is pressed to the table.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_mounting-carpet-tape.jpg){.aligncenter .size-medium}
-
-## Installing the Cutting Tools
-
-Bring the machine to the front so you have easy access to the router and collect the two wrenches that are included in the Makita box. If this is your first time using a router, look at the bottom where it has a large hex nut and notice just above this the two flats cut into the router shaft. You’ll be using the two wrenches here, one on the nut and one on the flats of the shaft, so the router can ‘clamp’ onto bits before cutting and then release them when you’re finished.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_router-shaft-notch.jpg){.aligncenter .size-medium}
-
-To loosen the collet nut, place the small wrench onto the router shaft on the left side. Place the large wrench on the collet nut on the right side. Squeeze the wrenches together till the collet nut is loosened.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_collet-loosen.jpg){.aligncenter .size-medium}
-
-Always make sure the collet, the adapter, and the nut are free from debris before running. Dust buildup will prevent the collet from being tightened correctly and can ruin a workpiece. Dust can build in the inside corners of the nut and will prevent proper tension. Clean with a small tool or compressed air.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_dirty-collet-and-adapter.jpg){.aligncenter .size-medium}
-
-1/4” diameter straight bits can be installed into the collet first then inserted through the nut before installing into the router.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_4th-bit-install.jpg){.aligncenter .size-medium}
-
-When using ⅛” bits, an adapter or ⅛” collet is necessary. Slide the ⅛” collet adapter into the standard collet, insert your bit, then place it into the collet nut and fasten to the router. The collet adapter should just peak through the bottom of the collet.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_8th-bit-install.jpg){.aligncenter .size-medium}
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_collet-adapter-installed.jpg){.aligncenter .size-medium}
-
-Some bits like v-bits or surfacing bits require the bit shaft to be placed through the nut first, then into the collet.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_collet-v-bit-trip.jpg){.aligncenter .size-medium}
-
-When installing the bits into the router, always tighten using the wrenches. The router can be damaged using the button and wrench when tightening. Loose bits can be tricky. Hold the bit in place with one finger. Press the red button with your thumb to lock the shaft in place. With the other hand finger tighten the collet nut till the bit can be held on its own. Use both wrenches to tighten firmly. <a href="https://youtu.be/LFeBRBjBYbk" target="_blank" rel="noopener">IDC Woodcraft has a great video outlining these sorts of things to watch out for.</a>
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_red-button-fingertighten.jpg){.aligncenter .size-medium}
-
-To tighten the collet nut, the small wrench is on the right side of the router shaft. Place the large wrench on the collet nut on the left side. Squeeze together until the nut is tight, do not over tighten.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_collet_tightening-wrenches.jpg){.aligncenter .size-medium}
-
-## Zeroing Your CNC
-
-It’s important to have the same start location on your workpiece as in your design file. Zeroing the machine can be accomplished in two ways, manually or automatically. Open machine interface software such as gSender or UGS and connect to your machine.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_starting-position-triptych.jpg){.aligncenter .size-medium}
-
-### Manual Zeroing
-
-Manually jog your machine to the starting location. Zero the X and Y locations. Below are two examples of typical start locations; bottom left corner or centre of the material.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_manual-zero-diptych.jpg){.aligncenter .size-medium}
-
-Lower the bit to the material by jogging the Z-axis down. When you are just above the surface, change to precise jogging. Place a piece of paper under the bit. Move the paper back and forth and at the same time, lower the bit. When there is resistance sliding the paper, the bit is at the correct position. Zero the Z location in the software. Raise the bit, go to your x and y starting positions and you’re ready to begin.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_manzero-z-1.jpg){.aligncenter .size-medium}
-
-### Automatic Zeroing
-
-Automatic zeroing or probing works by touching a conductive plate with your cnc bit to find the coordinates on the workpiece. The touch plate can find a single axis per probe or multiple axes. Our auto-touch plate allows you to use v-bits for automatic probing.<a href="https://resources.sienci.com/view/lmk2-touch-plate/#AutoZero-touch-plate" target="_blank" rel="noopener"> https://resources.sienci.com/view/lmk2-touch-plate/#autozero-touch-plate</a>
-To find the XYZ axes, place the touch plate on a corner of the material and perform the XYZ probe operation. The router will automatically move through all three axes. It will touch on the top and two sides to accurately find the corner. Detailed information can be found here <a href="https://resources.sienci.com/view/gs-using-gSender/#probing" target="_blank" rel="noopener">https://resources.sienci.com/view/gs-using-gsender/#probing</a>
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_probing-triptych.jpg){.aligncenter .size-medium}
-
-When you only want to do a z-height probe, useful for multi-bit tool changes, flip the touch plate upside down. Use the Z probe function This will find the top surface of the material.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_tool-change-zprobe.jpg){.aligncenter .size-medium}
-
-If you have limit switches installed, you might encounter an Alarm 2 message. Your material is too close to the sensors for the machine to travel safely. Move your material away from the sensors and begin your probe operation.
-
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_alarm2.jpg){.aligncenter .size-medium}
 
 ## 🧰 Pre-Flight Checklist
 
@@ -186,42 +45,157 @@ Sometimes it’s useful to have a list of operations next to your machine. We’
 - [ ] Router/spindle is jogged a little above the material.  
 - [ ] **Start Job!**
 
-## Overriding the Machine for Fine Tuning
+## Preparing Your Design
+
+### Material Size and Type
+
+Before you can start your design, you must know the size and thickness of your material. This is necessary for generating successful toolpaths. Your design should also take into account the material type. Machining different materials will result in different feeds and speeds that will be determined in the CAM software.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_measuring-materials.jpg){.aligncenter .size-medium}
+
+#### File Creation
+
+Design and CAM software are all used to create the final file for your project. Detailed information about software and the CNC tool chain can be found [HERE](https://resources.sienci.com/view/lmk2-software-explained/). In the following explanation, Carbide Create and gSender will be used for the Design/CAM and Machine Interface software examples.
+
+#### Design Software
+
+A design is needed to create the toolpath. You can use a pre-made design or create one yourself. CAD software like Fusion 360 & SketchUp are useful for creating 3D files with complex shapes. Graphic programs like Adobe Illustrator or Inkscape are perfect to create files for signs and simple 2.5D carvings. Some programs like Vectric's VCarve Pro & Aspire or Carveco combine CAD and CAM functionalities together.
+
+#### CAM Software
+
+We’ll now switch to the CAM software. Remember those material dimensions you took earlier, you’ll now input them into your new file. Choose the X and Y location of the zero point in the software. The Z location will either be at the top or at the bottom of the material. The starting or zero point is where the machine will reference from. In the example below, you can see the zero starts at the same location in the software and on the material. This zero point will remain the same for the entire job. You will need to adjust your z axis zero if you change bits.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_starting-position-triptych.jpg){.aligncenter .size-medium}
+
+Import your design file into the CAM software. You’ll now choose the CNC toolpath. The shape and type of bit will determine the final look of your piece. In the image below, you can see different types of toolpaths available, and all of the things you can do with them, like save, export, recalculate, preview and more!
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs-toolpaths.jpg){.aligncenter .size-medium}
+
+#### Choosing your CNC Tool
+
+CNC bits come in a variety of shapes and sizes. You don’t need a specialty bit to get started. Common router bits are a great way to get your feet wet with machining without spending a lot of money. Common bit shapes are: V-bits; great for signs and lettering. Square End mills; used for carving pockets with flat surfaces. Ball nose and tapered bits; used for relief and detail carvings. Read more about [Cutting Tools](https://resources.sienci.com/view/cnc-cutting-tools/).
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_cnc-bit-types.jpg){.aligncenter .size-medium}
+
+#### Creating Toolpaths
+
+Select the vector lines you want to machine then select the CNC bit. Change any parameters such as feed and speeds for your machine and material. Information on feeds and speeds can be found [HERE](https://resources.sienci.com/view/lmk2-feeds-and-speeds/). The CAM software will calculate the toolpath. In the example below, the design is in orange, and the toolpaths are blue. Once you are happy with the design, export the g-code.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_toolpath-example.jpg){.aligncenter .size-medium}
+
+#### Exporting the File
+
+With the design finalized, it’s time to export the toolpaths. For beginners, we recommend exporting toolpaths individually. Make sure you’ve selected the correct post-processor for your machine. Some post processors allow you to export all of your toolpaths together (for machines with Automatic Tool Changers), but for beginners, we recommend exporting each toolpath separately for now. Save or export your toolpath to a location on your computer. You can read up on Post Processors [HERE](https://resources.sienci.com/view/cnc-post-processors/).
+
+## Preparing your Material
+
+### Material Clamping
+
+Clamping material to the work surface is necessary for a successful part. Clamping methods are determined by the design and material you are using. Below are common examples of clamping methods. Small items could be held in a vice with some care. Clamps can be made out of metal, plastic, or wood.
+
+#### Clamping (Top & Side Pressure)
+
+Clamps secure the workpiece to the CNC bed by applying pressure from above, the sides, or both. Top clamping holds material firmly in place and works especially well with upcut bits, though clamp placement must be planned carefully to avoid tool collisions. Side clamping applies pressure from the edges of the workpiece, making it ideal for flattening operations or 3D reliefs where the design reaches the material’s borders. Eccentric clamps or angled blocks are commonly used for effective side pressure.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_clamps-hold.jpg){.aligncenter .size-medium}
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_side-clamping.jpg){.aligncenter .size-medium}
+
+#### Screws
+
+Screwing through your material and into the work surface is an excellent holding method. Extra care needs to be taken that you don’t run the bit through the metal screws.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_fastening-screws.jpg){.aligncenter .size-medium}
+
+#### Tape and Glue
+
+Tape is applied to the back of the workpiece and to the top of the work surface. Apply fast-acting glue to the work surface and place the workpiece on top with pressure until set. Once finished, remove the tape. Hot gluing your material to the table is also an effective way to hold the piece down when doing light machining.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_mounting-gluing.jpg){.aligncenter .size-medium}
+
+Double sided carpet tape is very easy to use. It’s applied to the work surface, then the work piece is pressed to the table.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_mounting-carpet-tape.jpg){.aligncenter .size-medium}
+
+To explore more workholding options, go [HERE!](https://resources.sienci.com/view/cnc-workholding/)
+
+## Installing the Cutting Tools
+
+Bring the machine to the front so you have easy access to the router and collect the two wrenches that are included in the Makita box. If this is your first time using a router, look at the bottom where it has a large hex nut and notice just above this the two flats cut into the router shaft. You’ll be using the two wrenches here, one on the nut and one on the flats of the shaft, so the router can ‘clamp’ onto bits before cutting and then release them when you’re finished.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_router-shaft-notch.jpg){.aligncenter .size-medium}
+
+To loosen the collet nut, place the small wrench onto the router shaft on the left side. Place the large wrench on the collet nut on the right side. Squeeze the wrenches together till the collet nut is loosened.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_collet-loosen.jpg){.aligncenter .size-medium}
+
+Always make sure the collet, the adapter, and the nut are free from debris before running. Dust buildup will prevent the collet from being tightened correctly and can ruin a workpiece. Dust can build in the inside corners of the nut and will prevent proper tension. Clean with a small tool or compressed air.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_dirty-collet-and-adapter.jpg){.aligncenter .size-medium}
+
+1/4” diameter straight bits can be installed into the collet first then inserted through the nut before installing into the router.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_4th-bit-install.jpg){.aligncenter .size-medium}
+
+When using ⅛” bits, an adapter or ⅛” collet is necessary. Slide the ⅛” collet adapter into the standard collet, insert your bit, then place it into the collet nut and fasten to the router. The collet adapter should just peak through the bottom of the collet.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_8th-bit-install.jpg){.aligncenter .size-medium}
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_collet-adapter-installed.jpg){.aligncenter .size-medium}
+
+Some bits like v-bits or surfacing bits require the bit shaft to be placed through the nut first, then into the collet.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_collet-v-bit-trip.jpg){.aligncenter .size-medium}
+
+When installing the bits into the router, always tighten using the wrenches. The router can get damaged if you hold the button as you firmly tighten with a wrench. The button should only be used when you are hand tightening the collet, to hold the bit in place. Then finish securing your bit using the two wrenches. <a href="https://youtu.be/LFeBRBjBYbk" target="_blank" rel="noopener">IDC Woodcraft has a great video outlining these sorts of things to watch out for.</a>
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_red-button-fingertighten.jpg){.aligncenter .size-medium}
+
+To tighten the collet nut, place the small wrench on the right side of the router shaft. Place the large wrench on the collet nut on the left side. Squeeze together until the nut is tight, do not over tighten.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_collet_tightening-wrenches.jpg){.aligncenter .size-medium}
+
+## Zeroing Your CNC
+
+It’s important to have the same start location on your workpiece as in your design file. Zeroing the machine can be accomplished in two ways, manually or automatically. Open machine interface software such as gSender or UGS and connect to your machine.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_starting-position-triptych.jpg){.aligncenter .size-medium}
+
+### Manual Zeroing
+
+Manually jog your machine to the starting location. Zero the X and Y locations. Below are two examples of typical start locations; bottom left corner or centre of the material.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_manual-zero-diptych.jpg){.aligncenter .size-medium}
+
+Lower the bit to the material by jogging the Z-axis down. When you are just above the surface, change to precise jogging. Place a piece of paper under the bit. Move the paper back and forth and at the same time, lower the bit. When there is resistance sliding the paper, the bit is at the correct position. Zero the Z location in the software. Raise the bit, go to your X and Y starting positions and you’re ready to begin.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_manzero-z-1.jpg){.aligncenter .size-medium}
+
+### Automatic Zeroing
+
+Automatic zeroing or “probing” works by touching a conductive plate with the bit on the machine, to set the corner of your workpiece as the zero.  To find the XYZ axes, place the touch plate on a corner of the material and perform the XYZ probe operation. The router will automatically move through all three axes. It will touch on the top and two sides to accurately find the corner. Detailed information can be found [HERE](https://resources.sienci.com/view/gs-using-gSender/#probing)
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_probing-triptych.jpg){.aligncenter .size-medium}
+
+When you only want to do a z-height probe, useful for multi-bit tool changes, flip the touch plate upside down. Use the Z probe function This will find the top surface of the material.
+
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_tool-change-zprobe.jpg){.aligncenter .size-medium}
+
+## Feeds and Speeds Override
 
 Sometimes when you start the job, you’ll need to make adjustments to the machine for proper chip load.
 
 ### Feed Rate Using gSender
 
-When a job has been started, gSender will shoe a feed adjustment control panel beside the machining time. Clicking on the plus or minus button will adjust the feed rate faster and slower. The chart below shows what each of the buttons do.
+When a job has been started, gSender will show a feed adjustment control panel beside the machining time. Clicking on the plus or minus button will adjust the feed rate faster and slower, or simply use the slider itself.
 
-![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_feed-Rate-adjustment..jpg){.aligncenter .size-full}
-
-[su_table responsive="yes"]
-<table>
-<tbody>
-<tr>
-<td style="text-align: center;"><strong>- -</strong></td>
-<td style="text-align: center;"><strong>-</strong></td>
-<td style="text-align: center;"><strong>+</strong></td>
-<td style="text-align: center;"><strong>++</strong></td>
-<td style="text-align: center;"><strong>&lt;--</strong></td>
-</tr>
-<tr>
-<td>Decrease speed 10%</td>
-<td>Decrease speed 2%</td>
-<td>Increase speed 2%</td>
-<td>Increase speed 10%</td>
-<td>Reset to Original speed</td>
-</tr>
-</tbody>
-</table>
-[/su_table]
+![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs-overides.jpg){.aligncenter .size-medium}
 
 It’s important to remember, however, that while you may want to modify the cutting feed rate for some cutting operations, the machine will continue using this feed rate override for subsequent cutting operations. For example, if you’ve overridden the feed rate by 200% while cutting the outline of your project at very shallow depths, you’ll want to reset the feed rate to its original speed before it next moves on to cutting out a pocket at a much deeper depth.
 
 ### Spindle Speed
 
-The RPM on the router can be changed on the fly by rotating the dial indicator to a faster or slower speed. Below are approximate RPMs for each number on the dial.
+The RPM on the router can be changed on the fly by rotating the dial indicator to a faster or slower speed. Below are approximate RPMs for each number on a Makita Router dial.
 
 [su_table responsive="yes"]
 <table>
@@ -248,9 +222,25 @@ The RPM on the router can be changed on the fly by rotating the dial indicator t
 </table>
 [/su_table]
 
+## Finishing Your Project
+
+Now that you’ve got your piece machined out, finish the design with a nice smooth finish or an amazing paint job. Checkout our section on [Sanding & Finishing](https://resources.sienci.com/view/sanding-finishing/) for more details.
+
+### Sanding
+
+Depending on your project, getting into the crevices of your design can be difficult. Small scrapers are handy to remove fuzzy bits. Cone Sanders are useful for larger designs. What if you carved a 3D relief? Sanding mops in different grits work great here. They can get into the details without removing too much material and ruining the design.
+
+### Painting/Staining
+
+There are a few ways to add colour to your work piece. Wood stains help enhance the grain of the wood and should be finished with a good sealer Multi-Colour painting can really make a sign pop. Use a masking film
+
+### Sealing/Finishing
+
+To protect the surface and details of your project, a finishing product such as wax, lacquer, varnish, or epoxy can be used. On projects such as a cutting board or serving tray that may encounter water, or be used in direct contact with food, the appropriate food-safe finish should be used to seal your project.
+
 ## Tool Changing
 
-As you begin tackling more complex CNC projects, you'll start to notice that running multi-tool jobs becomes a necessity. Using multiple bits on the same workpiece can save time or achieve greater detail and give you the carving flexibility you need; whether it's a v-bit for engraving and an end mill for profiling, or an end mill for roughing and a tapered bit for finishing.
+As you begin tackling more complex CNC projects, you'll start to notice that running multi-tool jobs becomes a necessity. Using multiple bits on the same workpiece can save time or achieve greater detail and give you the carving flexibility you need; whether it's a v-bit for engraving and an end mill for profiling, or an end mill for roughing and a tapered bit for finishing. Tool changing is not really a beginners topic, so be warned the learning curve is a little steeper than simple fundamentals we've already covered.
 
 ### Method 1: Separate Files
 
@@ -373,19 +363,3 @@ G0 Z2.0
 ### Method 3: gSender Tool Change
 
 The g-code for tool changing is an M6 command, in which the program will pause until the user tells it to continue, usually through a ‘Resume’ and/or ‘Confirm Tool Change’ button on the machine interface program. In CAM programs, this M6 will be inserted in your g-code if there are toolpaths using different bits, thus requiring tool changes. On <a href="https://sienci.com/gSender/" target="_blank" rel="noopener">gSender</a>, you can program what happens when there is M6 in your g-code, therefore allowing you to easily change your bits with pre-programmed actions. Full instructions can be found <a href="https://resources.sienci.com/view/gs-additional-features/#tool-changing" target="_blank" rel="noopener">here</a>.
-
-## Post-Processing Work Pieces
-
-Now that you’ve got your piece machined out, finish the design with a nice smooth finish or an amazing paint job.
-
-### Sanding
-
-Depending on your project, getting into the crevices of your design can be difficult. Small scrapers are handy to remove fuzzy bits. Cone Sanders are useful for larger designs. What if you carved a 3D relief? Sanding mops in different grits work great here. They can get into the details without removing too much material and ruining the design.
-
-### Painting/Staining
-
-There are a few ways to add colour to your work piece. Wood stains help enhance the grain of the wood and should be finished with a good sealer Multi-Colour painting can really make a sign pop. Use a masking film
-
-### Sealing/Finishing
-
-To protect the surface and details of your project, a finishing product such as wax, lacquer, varnish, or epoxy can be used. On projects such as a cutting board or serving tray that may encounter water, or be used in direct contact with food, the appropriate food-safe finish should be used to seal your project.
