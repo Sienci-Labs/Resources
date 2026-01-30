@@ -1,9 +1,9 @@
 ---
 title: Machine Coordinates & Setting Zero
-menu_order: 0
-post_status: draft
+menu_order: 1
+post_status: publish
 post_excerpt: 
-post_date: 2024-07-18 18:14:53
+post_date: 2026-01-29 15:27:53
 taxonomy:
     knowledgebase_cat: handbook
     knowledgebase_tag:
@@ -15,13 +15,13 @@ skip_file: no
 featured_image: _images/_cnc-fun/_handbook/_machine-coords/cnc_ha_machine_dro.jpg
 ---
 
-We’ll use gSender as our working example to explain key CNC control concepts that apply to most G-code senders. gSender provides a clear and visual way to understand how your CNC machine interprets coordinates, sets origins, and manages movement through different systems like machine coordinates, workpiece coordinates, workspaces, homing, and setting limits. Even if you use a different sender, the principles discussed here, how the machine knows where it is, how you define your work area, and how to safely control motion—will be the same. gSender just makes these concepts easier to see in action.
+We’ll use gSender as our working example to explain key CNC control concepts that apply to most G-code senders. gSender provides a clear and visual way to understand how your CNC machine interprets coordinates, sets origins, and manages movement through different systems like machine coordinates, workpiece coordinates, workspaces, homing, and setting limits.
 
 [Download](https://sienci.com/gSender/) gSender or [Read More](https://resources.sienci.com/view/gs-installation/) about how it works!
 
 ## Machine Coordinates vs Workpiece Coordinates
 
-When you fire up gSender, and look to the right, above the Jog Controls is your DRO (Digital Read Out). This section allows you to do some automatic movement, set your zeros and see where you are in relation to the machine or the workpiece. Kinda like your car navigation system. You can also see if you are using mm or inches!
+When you fire up gSender, and look to the right, above the Jog Controls is your DRO (Digital Read Out). This section allows you to do some automatic movement, set your zeros and see where you are in relation to the machine or the workpiece. Kinda like your car navigation system. You can also see if you are using mm or inches in the grey bar at the top/left.
 
 ![](/_images/_cnc-fun/_handbook/_machine-coords/cnc_ha_machine_dro.jpg){.aligncenter .size-medium}
 
@@ -32,15 +32,15 @@ In CNC machining, there are two primary coordinate systems that guide the machin
 - [**Machine Coordinate System**](#machine-coordinate-system-)
 - [**Workpiece Coordinate System**](#workpiece-coordinate-system-)
 
-The **machine coordinate system** is a fixed, default system established by the CNC machine’s manufacturer. It is defined by the machine’s physical size and is used during the homing cycle, when the machine references its internal limits using built-in sensors like limit switches. Users do not modify or choose this system—it simply tells the machine where it is in its own space. If you are not using homing switches, the machine home is determined by where the bit is when the controller is powered on.
+The **machine coordinate system (MCS)** is a fixed, default system established by the CNC machine’s manufacturer. It is defined by the machine’s physical size and is used during the homing cycle, when the machine references its internal limits using built-in sensors called limit switches. Users do not modify or choose this system—it simply tells the machine where it is in its own space. If you are not using limit switches, the machine home is determined by where the bit is when the controller is powered on.
 
- In contrast, the **workpiece coordinate system** is fully controlled by the CNC user. This system defines the position of the part on the machine table and ensures the tool moves accurately in relation to the workpiece.
+ In contrast, the **workpiece coordinate system (WCS)** is fully controlled by the CNC user. This system defines the position of the workpiece on the machine table and ensures the tool moves accurately in relation to the workpiece.
 
 ![](/_images/_cnc-fun/_handbook/_machine-coords/cnc_ha_machine_dro-offset.jpg){.aligncenter .size-medium}
 
 ### Machine Coordinate System 🏭
 
-The machine coordinate system refers to the CNC machine's own coordinate system, established by the manufacturer. This system is based on the machine's physical structure and its home position (often referred to as the machine's home or (0,0,0) point indicated by the **grey numbers**).
+The machine coordinate system is a system defined by the machine’s physical size, telling us where the machine is at all times, relative to its travel limits. To do this, the machine must undergo an initialization process called the “homing cycle”, where it uses sensors placed at the end of each axis to automatically determine the travel limits. The user is not involved in this homing cycle. If the machine does not have sensors the machine cannot home, therefore the machine coordinate system can be ignored, and the machine home (0,0,0) will be arbitrarily set to wherever the machine is at the time the controller is powered on. In contrast, the wcs is fully defined by the user, in which the user sets where the system’s zero (0,0,0) is, relative to the workpiece. The machine will use this zero as the reference point for where to run the job, ensuring the tool carves accurately on the workpiece. All CNC machines, with or without sensors, require the user to set the zero.
 
 ![](/_images/_cnc-fun/_handbook/_machine-coords/cnc_ha_machine_dro-machinecordfull.jpg){.aligncenter .size-medium}
 
@@ -52,7 +52,22 @@ The workpiece offset is a user-defined coordinate system that aligns the machine
 
 ![](/_images/_cnc-fun/_handbook/_machine-coords/cnc_ha_machine_dro-workpiececordfull.jpg){.aligncenter .size-medium}
 
-In gSender, you can set workpiece offsets using standard G-code commands like G54 to G59. These commands allow you to define multiple work coordinate systems, which is especially useful when working on different parts or setups without re-homing the machine each time.​ These are called your workspaces.
+In gSender, you can set workpiece offsets using standard G-code commands, like G54 to G59. Workpiece offsets may utilize both homing and zeroing capabilities to enable you to have multiple workpiece coordinate systems, called “workspaces.” These are especially useful when working on different parts or setups without re-homing the machine each time.​
+
+## Set Zero and Go tos
+
+Each g-code file or project will have a starting position that all other movements are referenced off of. This is called the **Workpiece zero**. There are two ways to manually set your zero on gSender:
+
+1. Zero each axis one at a time using 'X0', 'Y0', and 'Z0' buttons
+1. Set them all at the same time with the larger Zero button
+
+![](/_images/_cnc-fun/_handbook/_machine-coords/cnc_ha_machine_dro-setzero.jpg){.aligncenter .size-full}
+
+The large blue numbers tell you the current position of your machine. Once you set the zero of each axis, they will all read 0.00.
+
+You can reset your zeros anytime when the machine is not actively running a job. The machine will remember your zero in most cases unless you forcibly move it by hand, but even then CNCs with homing can re-home and still return to the zero point.
+
+![](/_images/_cnc-fun/_handbook/_machine-coords/cnc_ha_machine_dro-allzeroes.jpg){.aligncenter .size-full}
 
 ## Workspaces
 
@@ -60,7 +75,7 @@ Usually you would only have one origin or zero position for your project. Howeve
 
 ![](/_images/_cnc-fun/_handbook/_machine-coords/cnc_ha_machine_dro-workspacesdrop.jpg){.aligncenter .size-medium}
 
-The use of different **Workspaces** is most helpful when the machine is able to home the machine coordinate system. Once homed you can select a workspace and setup your project, and gSender will remember where you set the zero for the new workspace. The challenge then becomes placing the project in the correct spot for each workspace. Often a jig is created, to ensure perfect placement for your workpiece each time. You can use a workspace without homing/sensors, but it's not very repeatable, and you would be resetting them often with each power cycle.
+The use of different **Workspaces** is most helpful when the machine is able to home the machine coordinate system. Once homed you can select a workspace and setup your project, and gSender will remember where you set the zero for the new workspace. The challenge then becomes placing the project in the correct spot for each workspace. Often a jig is created, to ensure perfect placement for your workpiece each time. You can use a workspace without homing/limit switches, but it's not very repeatable, and you would be resetting them often with each power cycle.
 
 In the image below you can see 4 different workspaces setup, with the zero in the bottom left corner, and the circle in the middle.
 
@@ -74,11 +89,11 @@ https://youtu.be/jmiaWA5tiVw?t=336
 
 ## Homing & Limits
 
-Limit switches (also referred to as *inductive sensors*, *end stops* or *homing switches*) are sensors that sit at one or both ends of each movement axis of a CNC to provide a few different functions. gSender provides unique features if you have these switches installed on your machine. You can check out our sensors [Sensor Kit](https://sienci.com/product/inductive-sensor-kit-for-the-longmill-mk2/)
+Limit switches (also referred to as *inductive sensors*, *end stops* or *homing switches*) are sensors that sit at one or both ends of each movement axis of a CNC to provide a few different functions. gSender provides unique features if you have these switches installed on your machine. You can check out our limit switches [Sensor Kit](https://sienci.com/product/inductive-sensor-kit-for-the-longmill-mk2/)
 
 ### Homing
 
-When we turn on homing, we can use 3 sensors to find our machine coordinate  home on our machine. For now, we will home to the front left corner of the machine. To enable Homing, Go to Config ➜ Homing/Limits ➜ Homing cycle enable ➜ toggle on.
+When we turn on homing, we can use 3 or more limit switches to find our machine coordinate  home on our machine. For now, we will home to the front left corner of the machine. To enable Homing, Go to Config ➜ Homing/Limits ➜ Homing cycle enable ➜ toggle on.
 
 ![](/_images/_cnc-fun/_handbook/_machine-coords/cnc_ha_machine_dro-homingon.jpg){.aligncenter .size-medium}
 
@@ -90,7 +105,7 @@ You’ll notice additional buttons appear in the DRO area of gSender:
 
 ![](/_images/_cnc-fun/_handbook/_machine-coords/cnc_ha_machine_dro-homingbtn.jpg){.aligncenter .size-medium}
 
-The **Home** button is a convenient way to home or re-home your machine at any time (sends the typical $h command). The machine will automatically move to your front left corner, using the sensors to position the router over machine home.
+The **Home** button is a convenient way to home or re-home your machine at any time (sends the typical $h command). The machine will automatically move to your front left corner, using the limit switches to position the router over machine home.
 
 ![](/_images/_cnc-fun/_handbook/_machine-coords/cnc_ha_machine_dro-rapidpositionbtn.jpg){.aligncenter .size-medium}
 
@@ -112,27 +127,12 @@ If you'd like more information on how to set up and use limit switches, read her
 
 ### Soft Limits
 
-With 3 sensors in place, and homing turned on, we can turn on soft limits. This feature will combine your 3 sensor homing cycle with your maximum travel lengths, to prevent you from going too far on each axis. Think of this as a software limit, we use 3 limit switches + your max travel to calculate your soft limits. To enable soft limits, Config ➜ Homing/Limits ➜ Soft limits enable ➜ toggle on. Don't forget to hit the Apply Settings button to save!
+With 3 limit switches in place, and homing turned on, we can turn on soft limits. This feature will combine your 3 limit switch homing cycle with your maximum travel lengths, to prevent you from going too far on each axis. Think of this as a software limit, we use 3 limit switches + your max travel to calculate your soft limits. To enable soft limits, Config ➜ Homing/Limits ➜ Soft limits enable ➜ toggle on. Don't forget to hit the Apply Settings button to save!
 
 ![](/_images/_cnc-fun/_handbook/_machine-coords/cnc_ha_machine_dro-softlimit.jpg){.aligncenter .size-medium}
 
 ### Hard Limits
 
-If you have a sensor on both sides of each axis, all 6 sensors can provide you a hardware backup solution, to the software solution provided above with the soft limits. With hard limits on, if your machine get's close to the edge of an axis, your sensor will trigger, stopping any further movement. To enable hard limits, Config ➜ Homing/Limits ➜ Hard limits enable ➜ toggle on. Don't forget to hit the Apply Settings button to save!
+With hard limits on, if your machine get's close to the edge of an axis, your limit switch will trigger, stopping any further movement. To enable hard limits, Config ➜ Homing/Limits ➜ Hard limits enable ➜ toggle on. Don't forget to hit the Apply Settings button to save!
 
 ![](/_images/_cnc-fun/_handbook/_machine-coords/cnc_ha_machine_dro-hardlimit.jpg){.aligncenter .size-medium}
-
-## Set Zero and Go tos
-
-Each g-code file or project will have a starting position that all other movements are referenced off of. This is called the **Workpiece zero**. There are two ways to manually set your zero on gSender:
-
-1. Zero each axis one at a time using 'X0', 'Y0', and 'Z0' buttons
-1. Set them all at the same time with the larger Zero button
-
-![](/_images/_cnc-fun/_handbook/_machine-coords/cnc_ha_machine_dro-setzero.jpg){.aligncenter .size-full}
-
-The large blue numbers tell you the current position of your machine. Once you set the zero of each axis, they will all read 0.00.
-
-You can reset your zeros anytime when the machine is not actively running a job. The machine will remember your zero in most cases unless you forcibly move it by hand, but even then CNCs with homing can re-home and still return to the zero point.
-
-![](/_images/_cnc-fun/_handbook/_machine-coords/cnc_ha_machine_dro-allzeroes.jpg){.aligncenter .size-full}
