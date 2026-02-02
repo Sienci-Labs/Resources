@@ -1,9 +1,9 @@
 ---
 title: Project Inspirations
-menu_order: 0
-post_status: draft
-post_excerpt: What can you make with the LongMill? We provide ideas on projects, additional sample projects, and websites for 2D and 3D files you can download.
-post_date: 2024-07-18 18:14:53
+menu_order: 6
+post_status: publish
+post_excerpt: What can you make with your CNC? We provide ideas on projects, additional sample projects, and websites for 2D and 3D files you can download.
+post_date: 2026-01-28 15:08:53
 taxonomy:
     knowledgebase_cat: handbook
     knowledgebase_tag:
@@ -16,6 +16,8 @@ featured_image:
 ---
 
 There's plenty more that CNC routers are capable of doing once you're comfortable with the process of going from an idea on a piece of paper to a final product.
+
+![](/_images/_cnc-fun/_handbook/cnc_ha_projects-all.jpg){.aligncenter .size-medium}
 
 ## Project Ideas
 
@@ -117,16 +119,6 @@ If you'd like some inspiration, we spent some time putting together a categorize
 
 [tabbyending]
 
-## CNC Creator Guides
-
-If you’re looking for a fun project to start with, we’ve got you covered. We’ve created a CNC Creator Guide! An e-book that pairs with our YouTube video tutorial to walk you through making a project step by step. This guide is designed with beginners in mind, including clear instructions with images to make the process easy to follow. By using the guide, you can complete the project confidently and show off your finished work.
-
-- <a href="https://resources.sienci.com/wp-content/uploads/2022/03/Creator-Guide-Step-Stool-Project.pdf" target="_blank" rel="noopener">Creator Guide - Step Stool Project</a>
-
-![](/_images/_cnc-fun/_handbook/cnc_ha_projects_ebook-stepstool.jpg){.aligncenter .size-full}
-
-https://youtu.be/T3CF0i_SUlo
-
 ## Online CNC File Sites
 
 If you're looking for some more inspiration, or would like to start by making some pre-made projects, there are plenty of places online which offer pre-made artwork, drawings, and 3D models that are either free or can be purchased. In order to start you off, we put a list of some of these places together. Please note that we've done our best to filter out reliable file sources, but downloading any files online can pose a risk so be sure to only get files from sources that you trust.
@@ -216,6 +208,19 @@ General sources:
 ## More Sample Projects
 
 There are a few more internally designed projects that you can also try out if you wish. Each project has a download which contains both the g-code files made for each specific project (pictured) and the original 3D files if you want to CAM them yourself. There are even more designs that we've made for use on the LongMill that can be found here if you're interested in giving them a shot: <a href="https://CAD.onshape.com/documents/526b7c6287b77b77c4b50603/w/e1e191a2557529d4dc468313/e/92d2cf99720fafafddaba831" target="_blank" rel="noopener noreferrer">LongMill Demo Pieces</a>
+
+### Step Stool
+
+If you’re looking for a fun project to start with, we’ve got you covered. We’ve created a CNC Creator Guide! An e-book that pairs with our YouTube video tutorial to walk you through making a project step by step. This guide is designed with beginners in mind, including clear instructions with images to make the process easy to follow. By using the guide, you can complete the project confidently and show off your finished work.
+
+- <a href="https://resources.sienci.com/wp-content/uploads/2022/03/Creator-Guide-Step-Stool-Project.pdf" target="_blank" rel="noopener">Creator Guide - Step Stool Project</a>
+
+![](/_images/_cnc-fun/_handbook/cnc_ha_projects_ebook-stepstool.jpg){.aligncenter .size-full}
+
+https://youtu.be/T3CF0i_SUlo
+
+**Material:** 1'x4'x8' Maple veneer plywood
+**End Mill:** 1/4" Downcut or Compression end mill
 
 ### Wooden Box
 

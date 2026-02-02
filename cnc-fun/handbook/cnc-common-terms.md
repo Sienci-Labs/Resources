@@ -1,9 +1,9 @@
 ---
 title: Common CNC Terms
-menu_order: 0
-post_status: draft
-post_excerpt: How to cut multiple toolpaths for CAM programs without tool changing functionality. This method is suitable for the LongMill Benchtop CNC, and other hobby CNCs.
-post_date: 2024-07-18 18:14:53
+menu_order: 7
+post_status: publish
+post_excerpt: A simple guide to the basic parts, tools, and terms of a CNC router, helping beginners understand how a machine turns designs into real projects.
+post_date: 2026-01-29 14:27:53
 taxonomy:
     knowledgebase_cat: handbook
     knowledgebase_tag:
@@ -12,7 +12,7 @@ custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/_cnc-fun/_the-basics/_cncterms/cnc_ba_cncterms_p1_backlash.jpg
+featured_image: _images/_cnc-fun/_the-basics/_cncterms/cnc_ba_cncterms_p2_limit.jpg
 ---
 
 ## Basics of a CNC Router
@@ -21,9 +21,7 @@ Know the names for the fundamental parts that make up an average hobby CNC.
 
 **Axis** - The number of unique directions of movement that the CNC is capable of moving in. Most traditional CNC routers are 3-axis, where those three axes are in the left-right (x-axis), forward-back (y-axis), and up-down (z-axis) directions.
 
-**Backlash** - When there’s looseness in the drive system of the CNC. This means that it won’t be able to make motions as rigidly as expected, it also has an effect on the accuracy of its movements. On the LongMill, if the anti-backlash nut threads wear out, it needs to be ‘re-tensioned’ by pushing the two thread profiles back away from each other using the M5 bolts. Tensioning too much can cause excess friction and wear, but done correctly it can keep your machine running reliably.
-
-![](/_images/_cnc-fun/_the-basics/_cncterms/cnc_ba_cncterms_p1_backlash.jpg){.aligncenter .size-medium}
+**Backlash** - When there’s looseness in the drive system of the CNC. This means that it won’t be able to make motions as rigidly as expected, it also has an effect on the accuracy of its movements.
 
 **CNC** - Put simply, a machine that is designed to be precisely controlled by a computer.
 
@@ -57,7 +55,7 @@ These operations are all normally controlled using a machine interface program. 
 
 **Job / Cutting job** - The process of cutting out a design by running a g-code file on the CNC. This file can sometimes be composed of multiple toolpaths.
 
-![](/_images/_cnc-fun/_the-basics/_cncterms/cnc_ba_cncterms_p3_jobs.png){.aligncenter .size-full}
+![](/_images/_cnc-fun/_handbook/cnc_ha_cncterms.jpg){.aligncenter .size-medium}
 
 **Jog** - The act of moving the machine using manual buttons and controls (not g-code file).
 
@@ -146,7 +144,9 @@ Cutting away material on a CNC is affected by two major factors:
 
 **g-code** - The text used by CNC machines to interpret and communicate commands. Many machines use g-code, not just CNC machines but laser cutters and 3D printers. There are many different languages within g-code, for various applications made by different manufacturers and researchers.
 
-**grbl** - A CNC g-code language used by many hobby level CNC machines, such as Shapeoko, X-Carve, Onefinity and the LongMill. grbl is compatible with Arduino,  therefore many CNC machines use the Arduino as the “brains.”
+**grbl** - A CNC g-code language used by many hobby level CNC machines, such as Shapeoko, X-Carve, Onefinity, AltMil and the LongMill. grbl is compatible with Arduino,  therefore many CNC machines use the Arduino as the “brains.”
+
+**grblHAL** - A more advanced version of grbl that runs on more powerful controller boards (not just Arduino), offering faster performance, more features, and support for larger or more complex CNC machines while still using standard g-code.
 
 **Machine Interface** - a software program that controls the CNC machine by sending g-code to the machine. Features such as running and visualizing g-code files, jogging and zeroing are commonly found in machine interface programs.
 
@@ -196,7 +196,7 @@ These are the settings you’d change to improve the performance of your cutting
 
 ## CNC Electronics Terms
 
-**Arduino** - A circuit board used for controlling electronics. It is an open source board, meaning people can freely modify and replicate its code and design. In the LongMill the Arduino is loaded with custom LongMill firmware.
+**Arduino** - A circuit board used for controlling electronics. It is an open source board, meaning people can freely modify and replicate its code and design.
 
 ![](/_images/_cnc-fun/_the-basics/_cncterms/cnc_ba_cncterms_p10_arduino-.jpg){.aligncenter .size-full}
 

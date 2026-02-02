@@ -1,9 +1,9 @@
 ---
 title: Sanding & Finishing
-menu_order: 0
-post_status: draft
+menu_order: 4
+post_status: publish
 post_excerpt: Everything you need to know about finishing your average CNC'd wood project. Become familiar with sanding, stains, painting, clear-coats, and common tools used.
-post_date: 2024-07-18 18:14:53
+post_date: 2026-01-28 14:48:53
 taxonomy:
     knowledgebase_cat: handbook
     knowledgebase_tag:
@@ -12,7 +12,7 @@ custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_cnc-fun/_handbook/_sandfinish/cnc_ha_sf_sand-title.jpg
 ---
 
 If you're successfully making projects on your CNC, congrats! 🎉
@@ -106,7 +106,7 @@ Smooth out any remaining roughness, ensuring an even surface. An orbital sander 
 1. **Smooth Details on 3D and V Carves** (medium or fine grit, optional):  
 See the [Power Sanding](#power-sanding) section on the sanding attachments available for drill and rotary tools which will save you lots of time clearing out the nooks of intricate carves. If you don't have these available, sometimes a less-aggressive bristle brush or even a toothbrush can help release fibers that were left behind.
 1. **Fine Sanding (220-320 Grit)**:  
-This grit is for a silky-smooth finish, ideal before applying paint, stain, or sealant. Do be aware that the higher the grit you use at this stage, will reduce the ability of stains and finished to penetrate the wood. If you are using 1000 grit for example, you are no longer cutting the wood, but packing sawdust into the wood pores, burnishing it. The surface will become shiny and very smooth, but not allow stain or seal to penetrate fully.
+This grit is for a silky-smooth finish, ideal before applying paint, stain, or sealant. Do be aware that using higher grit at this stage, will reduce the ability of stains and finished to penetrate the wood. If you are using 1000 grit for example, you are no longer cutting the wood, but packing sawdust into the wood pores, burnishing it. The surface will become shiny and very smooth, but not allow stain or seal to penetrate fully.
 1. [**Raise the Grain**](#raising-the-grain) (optional):  
 Do this to further improve to surface finish on woods that you plan on finishing. This technique prevents wood fibers from lifting when applying water-based finishes.
 
@@ -168,7 +168,7 @@ Power tools are more ideal and make the sanding process faster for larger surfac
 
 ![](/_images/_cnc-fun/_handbook/_sandfinish/cnc_ha_sf_detail-sanders.jpg){.aligncenter .size-medium}
 
-**Dremel or Hand Drill**: can use a drum, disc, or mop sanding attachment that fits into the Dremel or drill. These can be found online.
+**Dremel or Hand Drill**: can use a drum, disc, or mop sanding attachment that fits into the Dremel or drill.
 
 - **Usage**: use when light sanding is required or the surface is quite soft. Mops are great to get into tight spaces to remove wood fuzz.
 
@@ -235,47 +235,24 @@ By raising the grain and sanding it smooth before finishing, you’ll end up wit
 
 Finishing generally involves evenly applying a sealant, allowing it to dry, and lightly sanding between coats until it's smoothed to your preference. Proper finishing not only improves aesthetics but also helps protect your project from cracks and splits, or fading with time. Once the sealant seeps into the exposed wood grains it becomes a barrier against dirt and moisture getting in and stops the inside of the wood from getting too moist or cracking from drying out.
 
-The easiest way to seal wood is to simply coat it with an oil, even something simple like a food safe mineral oil or tung oil, but there are also many purpose-made sealants to choose from in the form of waxes, urethanes, and laquers. [Paint](#learn-painting) and [Stain](#learn-staining) can also protect wood, but these usually require that you colour the wood in some way whereas sealers are clear or semi-transparent, preserving the wood’s original color and grain. Read the [table comparing different finishes](#finish-comparison) to help you decide what approach you want for your project, since you might decide you prefer paints or stains over sealants.
+The easiest way to seal wood is to simply coat it with an oil, even something simple like a food safe mineral oil or tung oil, but there are also many purpose-made sealants to choose from in the form of waxes, urethanes, and lacquers. [Paint](#learn-painting) and [Stain](#learn-staining) can also protect wood, but these usually require that you colour the wood in some way whereas sealers are clear or semi-transparent, preserving the wood’s original color and grain. Read the [table comparing different finishes](#finish-comparison) to help you decide what approach you want for your project, since you might decide you prefer paints or stains over sealants.
 
 ![](/_images/_cnc-fun/_handbook/_sandfinish/cnc_ha_sf_poly-finish.jpg "Source - https://www.woodmagazine.com/woodworking-tips/techniques/finishing/polyurethane"){.aligncenter .size-medium}
 
-### Finish Comparison
+### Sealant Comparison
 
 This chart helps you compare different finishing options for your project by comparing durability, drying time, appearance, and if it's suitable for the outdoors.
 
-[su_table responsive="yes"]
+Sealant Comparison
 
-| **Finish Type** | **Durability** | **Indoor/Outdoor** | **Drying Time** | **Appearance** |
-|-----------------|----------------|--------------------|----------------|----------------|
-| **Polyurethane** | High | Indoor | 6-24 hours | Glossy, durable |
-| **Spar Urethane** | High | Outdoor | 2-4 hours per coat | Flexible, durable, glossy/satin |
-| **Lacquer** | High | Indoor | 30 minutes - 1 hour | Glossy, professional finish |
-| **Shellac** | Moderate | Indoor | 30 minutes - 1 hour | Warm, high-gloss, rich depth |
-| **Beeswax** | Low | Indoor | Immediate | Soft, natural matte |
-| **Oil-Based Stain** | High | Outdoor | 4-6 hours | Enhances wood grain |
-| **Water-Based Stain** | Moderate | Indoor | 1-2 hours | Lighter color, easy cleanup |
-| **Acrylic Paint** | Moderate | Indoor | 1-2 hours per coat | Colorful, matte/satin/glossy |
+Legend:
+🛢 Oil-based (penetrating)
+💧 Water-based
+🧴 Film finish (surface coating)
 
-[/su_table]
+<table> <tr style="background-color:#e8f5e9;"> <th>Finish</th> <th>Type</th> <th>Durability</th> <th>Indoor / Outdoor</th> <th>Dry Time</th> <th>Cure Time</th> <th>Best For</th> <th>Food Safe</th> </tr> <tr style="background-color:#e8f5e9;"> <td>Polyurethane</td><td>🧴</td><td>High</td><td>Indoor</td><td>6–24h</td><td>3–7 days</td><td>High-wear surfaces</td><td>No</td> </tr> <tr style="background-color:#e8f5e9;"> <td>Spar Urethane</td><td>🧴</td><td>High</td><td>Outdoor</td><td>2–4h/coat</td><td>5–7 days</td><td>Outdoor projects</td><td>No</td> </tr> <tr style="background-color:#e8f5e9;"> <td>Lacquer</td><td>🧴</td><td>High</td><td>Indoor</td><td>30m–1h</td><td>24–72h</td><td>Fast professional finish</td><td>No</td> </tr> <tr style="background-color:#e8f5e9;"> <td>Shellac</td><td>🧴</td><td>Moderate</td><td>Indoor</td><td>30m–1h</td><td>24h</td><td>Easy traditional finish</td><td>Yes (cured)</td> </tr> <tr style="background-color:#e8f5e9;"> <td>Beeswax</td><td>🧴</td><td>Low</td><td>Indoor</td><td>Immediate</td><td>1–2h</td><td>Natural soft feel</td><td>Yes</td> </tr> <tr style="background-color:#fff3cd;"> <td>Mineral Oil</td><td>🛢</td><td>Low</td><td>Indoor</td><td>1–2h</td><td>12–24h</td><td>Cutting boards, bowls</td><td>Yes</td> </tr> <tr style="background-color:#fff3cd;"> <td>Walnut Oil</td><td>🛢</td><td>Moderate</td><td>Indoor</td><td>4–6h</td><td>2–3 days</td><td>Food-safe wood finish</td><td>Yes</td> </tr> <tr style="background-color:#fff3cd;"> <td>Tung Oil</td><td>🛢</td><td>High</td><td>Indoor/Outdoor</td><td>6–24h</td><td>3–7 days</td><td>Durable natural finish</td><td>Yes</td> </tr> <tr style="background-color:#fff3cd;"> <td>Oil-Based Stain</td><td>🛢</td><td>High</td><td>Outdoor</td><td>4–6h</td><td>24–48h</td><td>Color + protection</td><td>No</td> </tr> <tr style="background-color:#e3f2fd;"> <td>Water-Based Stain</td><td>💧</td><td>Moderate</td><td>Indoor</td><td>1–2h</td><td>24h</td><td>Light color, easy cleanup</td><td>No</td> </tr> <tr style="background-color:#e3f2fd;"> <td>Acrylic Paint</td><td>💧</td><td>Moderate</td><td>Indoor</td><td>1–2h/coat</td><td>24–48h</td><td>Colorful coating</td><td>No</td> </tr> </table>
 
-### Sealing Types
-
-If you've chosen to move forward with using a sealant, double-check the table below to help you choose between different finishes like **oil-based**, **water-based**, or **lacquer** depending on the desired effect and durability.
-
-[su_table responsive="yes"]
-
-| **Sealing Type** | **Finish** | **Best For** | **Food Safe** |
-|-----------------|------------|--------------|--------------|
-| **Polyurethane** | Gloss/Satin/Matte | High-traffic areas, durability | No |
-| **Lacquer** | High gloss, fast drying | Professional-quality finish, easy to repair | No |
-| **Shellac** | High gloss | Easy to apply, traditional wood finish | Yes (once fully cured) |
-| **Beeswax** | Soft, matte finish | Low durability, but smooth, natural look | Yes |
-| **Mineral Oil** | Low sheen | Cutting boards, bowls, and utensils | Yes |
-| **Walnut Oil** | Low sheen | Food-safe finish for cutting boards and utensils | Yes |
-| **Tung Oil** | Matte/Natural | Penetrates wood well, durable natural finish | Yes |
-| **Food-Grade Linseed Oil** | Matte/Natural | Butcher blocks, cutting boards, wooden bowls | Yes |
-
-[/su_table]
+**Dry Time = safe to touch/recoat. Cure Time = fully hardened for use.**
 
 ### Sealing Steps
 
@@ -379,28 +356,53 @@ The most important thing to a successful paint job is surface preparation which 
 
 ### Step-by-Step Painting Process
 
-1. **Get Equipped**:  
-Select your [paint](#paints--primers) as well as [brushes and other tools](#brushes--other-tools) based on your project.
-1. **Prepare the Surface**:  
-Remove dust left after sanding by vacuuming or wiping it down with a tack cloth. Also, apply tape if you want to mask off any areas you don't want painted.
-1. **Prime the Surface** (optional but recommended):
-   - Choose the Right Primer: use a stain-blocking primer if the wood is knotty or has discolorations
-   - Apply an Even Coat: use a brush, following the wood grain
-   - Allow it to dry according to the manufacturer’s instructions
-   - Light Sanding: once dry, sand lightly with 220-grit paper and wipe away dust
-1. **Apply Paint in Thin Layers**:
-   - Mix the Paint: stir the paint thoroughly with a stir stick or shake the can
-   - Apply the First Coat: use a brush for detailed areas and a roller or spray paint for flat surfaces. Apply thin, even coats
-   - Let it Dry: allow the paint to dry completely (usually 4-6 hours or per instructions)
-   - Sand Between Coats: lightly sand with 220-grit sandpaper for a smooth finish, then wipe away dust
-   - Apply Additional Coats: repeat the process until you achieve the desired opacity and finish (typically 2-3 coats)
-1. **Final Sanding (320-400 Grit)**:
-   - This helps smooth any imperfections or raised grain caused by moisture in the paint before applying the final coat
-1. **Apply Final Coat**:
-   - After applying the desired number of layers (typically 2-3), let the project dry completely before moving on to sealing
-1. **Finishing Touches**:
-   - Remove Painter’s Tape: carefully peel off the tape to reveal clean edges
-   - Cure the Paint: allow the final coat to cure fully (up to 24 hours) before using or moving the piece
+<ol>
+  <li><strong>Get Equipped</strong><br>
+      Select your <a href="#paints--primers">paint</a> as well as <a href="#brushes--other-tools">brushes and other tools</a> based on your project.
+  </li>
+
+  <li><strong>Prepare the Surface</strong><br>
+      Remove dust left after sanding by vacuuming or wiping it down with a tack cloth. Also, apply tape if you want to mask off any areas you don't want painted.
+  </li>
+
+  <li><strong>Prime the Surface</strong> <em>(optional but recommended)</em>
+    <ol type="I" style="list-style-type: upper-roman; margin-left: 20px;">
+      <li>Choose the Right Primer: use a stain-blocking primer if the wood is knotty or has discolorations</li>
+      <li>Apply an Even Coat: use a brush, following the wood grain</li>
+      <li>Allow it to dry according to the manufacturer’s instructions</li>
+      <li>Light Sanding: once dry, sand lightly with 220-grit paper and wipe away dust</li>
+    </ol>
+  </li>
+
+  <li><strong>Apply Paint in Thin Layers</strong>
+    <ol type="I" style="list-style-type: upper-roman; margin-left: 20px;">
+      <li>Mix the Paint: stir the paint thoroughly with a stir stick or shake the can</li>
+      <li>Apply the First Coat: use a brush for detailed areas and a roller or spray paint for flat surfaces. Apply thin, even coats</li>
+      <li>Let it Dry: allow the paint to dry completely (usually 4–6 hours or per instructions)</li>
+      <li>Sand Between Coats: lightly sand with 220-grit sandpaper for a smooth finish, then wipe away dust</li>
+      <li>Apply Additional Coats: repeat the process until you achieve the desired opacity and finish (typically 2–3 coats)</li>
+    </ol>
+  </li>
+
+  <li><strong>Final Sanding (320–400 Grit)</strong>
+    <ol type="I" style="list-style-type: upper-roman; margin-left: 20px;">
+      <li>This helps smooth any imperfections or raised grain caused by moisture in the paint before applying the final coat</li>
+    </ol>
+  </li>
+
+  <li><strong>Apply Final Coat</strong>
+    <ol type="I" style="list-style-type: upper-roman; margin-left: 20px;">
+      <li>After applying the desired number of layers (typically 2–3), let the project dry completely before moving on to sealing</li>
+    </ol>
+  </li>
+
+  <li><strong>Finishing Touches</strong>
+    <ol type="I" style="list-style-type: upper-roman; margin-left: 20px;">
+      <li>Remove Painter’s Tape: carefully peel off the tape to reveal clean edges</li>
+      <li>Cure the Paint: allow the final coat to cure fully (up to 24 hours) before using or moving the piece</li>
+    </ol>
+  </li>
+</ol>
 
 ### Painting Tips & Videos
 
@@ -458,7 +460,7 @@ If you want a deeper color, you can apply multiple coats, allowing full drying b
 
 ### Staining Tips & Videos
 
-- Be careful trying to stain over any spots with left over wood glue, as the stain will not react the same as on the wood, and will expose a difference in colour.*
+- Be careful trying to stain over any spots with left over wood glue, as the stain will not react the same as on the wood, and will expose a difference in colour.
 
 [su_table responsive="yes"]
 
@@ -488,7 +490,7 @@ If you want a deeper color, you can apply multiple coats, allowing full drying b
 
 ![](/_images/_cnc-fun/_handbook/_sandfinish/cnc_ha_sf_chip-brush.jpg "Source - https://www.jackspaint.co.za/index.php/diy-blog/36-paint-vs-varnish, https://www.confessionsofaserialdiyer.com/the-best-way-to-paint-furniture-white/"){.aligncenter .size-medium}
 
-**Detail Brush**: a small, fine brush used for precise work, such as painting intricate patterns, corners, or detailed trim.
+**Detail Brush**: a small, fine paintbrush used for precise work, such as painting intricate patterns, corners, or detailed trim.
 
 - **Usage**: best for fine detailing, small touch-ups, and tight spaces.
 - **Types**: synthetic or natural bristles, typically round or angular in shape.
@@ -523,7 +525,7 @@ If you want a deeper color, you can apply multiple coats, allowing full drying b
 
 ![](/_images/_cnc-fun/_handbook/_sandfinish/cnc_ha_sf_tack-cloth.jpg "Source - https://www.thehandymansdaughter.com/tack-cloth/, https://sawsonskates.com/what-is-a-tack-cloth/"){.aligncenter .size-medium}
 
-**Painter's Tape & Oramask**: a specialized tape used to mask off areas that should not be painted, ensuring clean, sharp lines and protecting surfaces from unwanted paint. Painter's tape is easy to apply and remove, leaving no residue behind.
+**Painter's Tape & Oramask**: a specialized tape used to protect areas that should not be painted, ensuring clean, sharp lines and surfaces. Painter's tape is easy to apply and remove, leaving no residue behind.
 
 - **Usage**: apply along edges, trim, or anywhere you want to create crisp lines or protect from paint splatter. Make sure to press down firmly to prevent paint from seeping underneath.
 - **Types**: available in different widths and adhesion levels, designed for various surfaces like drywall, wood, or glass.
@@ -535,6 +537,8 @@ If you want a deeper color, you can apply multiple coats, allowing full drying b
 ### French Finishing
 
 French finishing, also known as French polishing, is a traditional wood finishing technique that's highly regarded for creating a high-gloss, lustrous, and deep finish on wood surfaces. This technique dates back to the 18th century and is typically used on fine furniture and musical instruments, like guitars and violins.
+
+![](/_images/_cnc-fun/_handbook/_sandfinish/cnc_ha_sf_frenchfin.jpg "[Finewoodworking.com(https://www.finewoodworking.com/project-guides/finishing/french-polishing-demystified)]")
 
 Using shellac, alcohol, and a rubbing pad to build up multiple thin layers, the end result brings out the rich grain and natural warmth especially on high-quality woods. Surprisingly, the delicate layers also combine to create a surprisingly resilient finish. The general process is as follows:
 
