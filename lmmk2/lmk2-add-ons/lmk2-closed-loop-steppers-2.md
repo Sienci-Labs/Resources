@@ -251,7 +251,7 @@ Space them out evenly, then tighten them down onto the rail using the M5 T-nuts 
 
 Now with the SLB installed, let's open it up and plug everything in! Loosen the thumb screw on the front of the SLB-EXT enclosure and remove the acrylic face plate.
 
-Fit the Z-axis and X-axis wire harnesses into the top cut out of the enclosure on the right side. Plug the sensor and motor control connectors into their respectively named ports.
+Fit the Z-axis and X-axis wire harnesses into the top cut out of the enclosure on the left side. Plug the sensor and motor control connectors into their respectively named ports.
 
 Plug the two-pronged motor power connectors into the left most power ports. The power ports all supply the same output and therefore the connectors are able to be plugged into any, however, for installation purposes we recommend you to plug into the two leftmost ports while installing X and Z.
 
@@ -259,7 +259,7 @@ Plug the two-pronged motor power connectors into the left most power ports. The 
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-xzmotorplug-up.jpg){.align-center .size-medium}
 
-Fit the Y1-axis and Y2-axis wire harnesses into the bottom cutout of the enclosure on the right side. Plug the sensor and motor control connectors into their respectively named ports. It is important that you do not mismatch the control connector from one harness with the sensor connector of the other when plugging into one pair of Y1 or Y2 ports. If installed incorrectly you will encounter an alarm during operation.  
+Fit the Y1-axis and Y2-axis wire harnesses into the bottom cutout of the enclosure on the left side. Plug the sensor and motor control connectors into their respectively named ports. It is important that you do not mismatch the control connector from one harness with the sensor connector of the other when plugging into one pair of Y1 or Y2 ports. If installed incorrectly you will encounter an alarm during operation.  
 
 Plug the two-pronged motor power connectors into the two rightmost power ports. The power ports all supply the same output and therefore the connectors are able to be plugged into any, however, for installation purposes we recommend you to plug into the two rightmost ports while installing Y1 and Y2 power.
 
