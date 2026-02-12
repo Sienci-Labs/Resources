@@ -22,6 +22,8 @@ featured_image: _images/post-image.jpg
 
 ### Rack Components
 
+![](/_images/_atc/_atc_assembly/temp/IMG_0890.JPG)
+
 * Cross support extrusion
 * Rack sections (**4 total**)
 
@@ -59,11 +61,29 @@ featured_image: _images/post-image.jpg
    * Align with the threaded holes.
    * Fully secure using **two M(?) screws** at the extrusion end.
 
+   ![](/_images/_atc/_atc_assembly/temp/IMG_0894.JPG)
+
+   ![](/_images/_atc/_atc_assembly/temp/IMG_0895.JPG)
+
+   ![](/_images/_atc/_atc_assembly/temp/IMG_0896.JPG)
+
 3. Insert a **T-nut** into the extrusion slot.
 
    * Ensure correct orientation.
    * Slide it to align with the rack hole.
    * Secure using **one M6 × 8 mm button head screw**.
+
+   ![](/_images/_atc/_atc_assembly/temp/IMG_0896.JPG)
+
+   ![](/_images/_atc/_atc_assembly/temp/IMG_0897.JPG)
+
+   ![](/_images/_atc/_atc_assembly/temp/IMG_0898.JPG)
+
+   ![](/_images/_atc/_atc_assembly/temp/IMG_0899.JPG)
+
+   ![](/_images/_atc/_atc_assembly/temp/IMG_0901.JPG)
+
+   ![](/_images/_atc/_atc_assembly/temp/IMG_0903.JPG)
 
 4. Loosely place the **second mirrored rack section** on the opposite end of the extrusion.
 

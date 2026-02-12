@@ -18,13 +18,21 @@ featured_image: _images/post-image.jpg
 
 ### VFD Connections
 
+![](/_images/_atc/_atc_assembly/temp/IMG_0875.JPG)
+
 1. Grab the **VFD** and make the following connections:
 
    * Plug the **female end of the VFD power cable** into the VFD.
    * Plug the **spindle cable (blue)** into the VFD.
+
+
+![](/_images/_atc/_atc_assembly/temp/IMG_0878.JPG)
+
    * Plug the **Modbus cable** into the VFD *(confirm correct end connectors)*.
 
 2. Install **two (2) M? nuts** into the **plastic VFD adapter bracket**.
+
+![](/_images/_atc/_atc_assembly/temp/IMG_0876.JPG)
 
 3. Remove and unplug the **E-stop** from the table leg.
 

@@ -18,14 +18,20 @@ featured_image: _images/post-image.jpg
 
 1. Install **two (2) fittings** onto the **air filter regulator unit** using a wrench.
 
+![](/_images/_atc/_atc_assembly/temp/IMG_0880.JPG)
+
 2. Select a location to mount the **filter regulator unit**.
 
    * ⚠️ The unit will **drip water**, so **do not mount it above electronics or wiring**.
 
 3. Attach the **mounting bracket** to your chosen location using screws.
 
+![](/_images/_atc/_atc_assembly/temp/IMG_0881.JPG)
+
    * Place the filter regulator unit into the bracket.
    * Secure it using the **large nut on top** of the unit.
+
+   ![](/_images/_atc/_atc_assembly/temp/IMG_0883.JPG)
 
 4. With the filter regulator fixed in place, **cut the air line tubing to length**:
 
