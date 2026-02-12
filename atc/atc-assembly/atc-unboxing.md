@@ -179,7 +179,7 @@ Add VFD 3D printed Insert
 
 This is expected to take 2-4 hours depending on whether you need to remove or reassemble existing components
 
-Use allen keys, hand screwdrivers and wrenches, do not use impact drills as they can strip the holes
+Use allen keys, hand screwdrivers and wrenches, do not use impact drills as they can strip the holes. Use regular drill for screws that are M5 or larger
 
 Most fasteners just need to be hand tight, do not strongly crank to secure. If cranking is needed, the instructions will indicate it.
 

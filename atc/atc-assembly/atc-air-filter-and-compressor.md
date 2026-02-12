@@ -16,9 +16,11 @@ featured_image: _images/post-image.jpg
 
 ## Air Filter Regulator Setup
 
-1. Install **two (2) fittings** onto the **air filter regulator unit** using a wrench.
+1. Install **two (2) fittings** onto the **air filter regulator unit** using an adjustable wrench.
 
 ![](/_images/_atc/_atc_assembly/temp/IMG_0880.JPG)
+
+Undo the large nut on the top of the unit. 
 
 2. Select a location to mount the **filter regulator unit**.
 
@@ -39,6 +41,8 @@ featured_image: _images/post-image.jpg
    * One line from the **outlet** to the **spindle**.
    * ✂️ Cut the tubing **squarely**, not diagonally, to ensure a proper seal.
 
+Use the lever on the quick connect to open the line. 
+
 5. Connect the tubing between the **filter regulator outlet** and the **spindle**.
 
 6. Connect the tubing between the **air compressor** and the **filter regulator inlet**.
@@ -47,7 +51,9 @@ featured_image: _images/post-image.jpg
 
 ## Setting Air Pressure & Flow
 
-1. Set your **air compressor** to provide its **maximum flow**.
+1.Turn on the air compressor. 
+
+Set your **air compressor** to provide its **maximum flow**, usually this is a knob next to the gauge.
 
 2. Use the **filter regulator** to adjust the output pressure to **90–100 PSI**.
 
@@ -56,8 +62,10 @@ featured_image: _images/post-image.jpg
 
 3. To adjust **maximum flow**:
 
-   * Pull the regulator **knob outward**.
+   * Pull the regulator **knob upwards**.
    * Twist it through its full range to find the position that provides the **highest flow/pressure**.
-   * Once found, **push the knob in** to lock it in place.
+   * Once found, **push the knob back down** to lock it in place.
 
 4. Repeat the adjustment process for the **pressure regulator**, this time dialing in **90–100 PSI**.
+
+at this time you can reinstall your gcontrol panel and mount, see instructions here. 

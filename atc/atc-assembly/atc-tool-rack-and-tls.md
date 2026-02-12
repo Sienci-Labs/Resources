@@ -38,7 +38,7 @@ featured_image: _images/post-image.jpg
 ### Hardware Bag
 
 * Knobs
-* Fasteners
+* Fasteners (Are the black screws M5 or M6? The short ones)
 
 ### Sensor Bag
 
@@ -59,7 +59,7 @@ featured_image: _images/post-image.jpg
 2. Place **one mirrored rack section** onto one end of the **cross support extrusion**.
 
    * Align with the threaded holes.
-   * Fully secure using **two M(?) screws** at the extrusion end.
+   * Fully secure using **two M6-15mm screws** at the extrusion end.
 
    ![](/_images/_atc/_atc_assembly/temp/IMG_0894.JPG)
 
@@ -69,7 +69,10 @@ featured_image: _images/post-image.jpg
 
 3. Insert a **T-nut** into the extrusion slot.
 
-   * Ensure correct orientation.
+   * Ensure correct orientation of the T-nut in the slot. 
+
+   should have photo of both the roll in and twist in t-nuts
+
    * Slide it to align with the rack hole.
    * Secure using **one M6 × 8 mm button head screw**.
 
@@ -89,15 +92,18 @@ featured_image: _images/post-image.jpg
 
 5. Orient the assembly according to the reference image.
 
+Put 2 M3x20 screws into the tool rack sensor. (not any longer otherwise will interfere with rack section)
+
 6. Mount the **tool rack sensor** onto the **right rack section**:
 
    * Position the sensor at the slot.
-   * Secure using **two (2) M3 × 20 mm screws**.
+   * Secure with the pre-installed screws.
+   Position the pigtail from the sensor into the rectangular cutout
 
 7. For the other mirrored rack section:
 
-   * Fully secure the **two M(?) screws** at the extrusion end.
-   * Insert the T-nut and fasten using **one M6 × 8 mm screw**.
+   * Fully secure the **two M6 screws** at the extrusion end.
+   * Insert the T-nut and fasten using **one M6 × 8 mm button head screw**.
 
 ## Backbone Assembly
 
@@ -122,7 +128,37 @@ featured_image: _images/post-image.jpg
 
 2. Secure each connection using **two M6 × 8 mm screws**.
 
+## Backbone Assembly Mounting
+
+*** we can put this onto the rack so the rack and backbone are on together at the same time. But the backbone position just needs to be adjusted to push against the front left via the knobs loosening. Edit this later
+
+1. Orient the backbone so the **inserts face the back of the machine**.
+
+2. Place the backbone into the gap of the rack extrusion assembly, against the **front crossbeam**.
+
+3. Push the backbone toward the **front-left** of the machine.
+
+4. Secure it using the **knobs** on the studs.
+
+5. If installing a **second tool rack**:
+
+   * Repeat the above steps
+   * Install it directly next to the first rack, **butted against the backbone**
+
+   ⚠️ This is required for **automated setup in gSender**.
+
+6. Install tool holders into the **first and last slots**.
+
+   * Ensure each holder is fully seated
+   * The insert must engage the groove on the tool holder
+
 ## Rack & Extrusion Assembly Mounting
+
+ If the machine is not already jogged forward:
+
+   * Power on the controller
+   * Connect to **gSender**
+   * Jog the machine forward as needed
 
 1. Select the correct **T-nuts** for your machine:
 
@@ -134,13 +170,9 @@ featured_image: _images/post-image.jpg
    * **Four (4) M6 × 8 mm button head screws**
    * **Four (4) T-nuts**
 
-3. If the machine is not already jogged forward:
 
-   * Power on the controller
-   * Connect to **gSender**
-   * Jog the machine forward as needed
 
-4. Bring the **rack and extrusion assembly** to the **back-left corner** of the AltMill.
+4. Bring the **rack and extrusion assembly** to the **back-right corner** of the AltMill.
 
    * Confirm rack flanges sit flush with the crossbeam faces.
    * If not, revisit rack section hole placement.
@@ -178,27 +210,7 @@ featured_image: _images/post-image.jpg
 
 2. Plug the **green connector** into the **TLS port** on the SLB-EXT.
 
-## Backbone Assembly Mounting
 
-1. Orient the backbone so the **inserts face the back of the machine**.
-
-2. Place the backbone into the gap of the rack extrusion assembly, against the **front crossbeam**.
-
-3. Push the backbone toward the **front-right** of the machine.
-
-4. Secure it using the **knobs** on the studs.
-
-5. If installing a **second tool rack**:
-
-   * Repeat the above steps
-   * Install it directly next to the first rack, **butted against the backbone**
-
-   ⚠️ This is required for **automated setup in gSender**.
-
-6. Install tool holders into the **first and last slots**.
-
-   * Ensure each holder is fully seated
-   * The insert must engage the groove on the tool holder
 
 ## TLS Mounting
 

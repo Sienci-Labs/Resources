@@ -18,11 +18,17 @@ featured_image: _images/post-image.jpg
 
 1. To prepare for installation, remove and unplug the **E-stop** from the table leg.
 
-1. Place the **adapter bracket** onto the **inner face of the front-left AltMill leg**, then place the VFD against the bracket, aligning the studs with the bracket holes. Using the **original E-stop screws (M5-30mm)**, refasten the **E-stop** on the **outer face of the leg**.
+Grab the VFD and plug in the blue connector from the spindle cable. Emphasize this!!!!! Leave the VFD on the ground for now.
+
+Put 2x M5 nuts into the adapter bracket. You may need to put tape to hold the nuts temporarily.
+
+INSERT photo here. 
+
+1. Place the **adapter bracket** onto the **inner face of the front-left AltMill leg**, then place the VFD against the bracket, aligning the screws from the E-stop (M5-30mm) with the bracket holes. refasten the **E-stop** on the **outer face of the leg**.
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_vfd1.jpg){.aligncenter .size-medium}
 
-1. Mount the VFD unit inside the table leg using the remaining two M5-30mm screws
+1. Mount the VFD unit inside the table leg using the remaining two M5-30mm screws.
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_vfd2.jpg){.aligncenter .size-medium}
 
@@ -55,6 +61,9 @@ featured_image: _images/post-image.jpg
 
 4. Carefully connect the **spindle cable** and **signal cable** aviation plugs to the spindle.
 
+DAUGHTER - use backpack to get to PENDANT
+DAUGHTER - TO signal 
+
 ![](/_images/_atc/_atc_assembly/temp/IMG_8984.jpg)
 
    * The connectors have **different pin counts** — check carefully before plugging in.
@@ -66,7 +75,7 @@ featured_image: _images/post-image.jpg
 
 7. Connect the **auxiliary backpack cable** to the **PENDANT port** on the SLB-EXT.
 
-8. Insert the **SD card** into the **SD card slot** on the SLB-EXT.
+8. Insert the **SD card** into the **SD card slot** on the SLB-EXT. Make sure it pushes into the port, fully. 
 
 ## Wiring Sanity Check
 
@@ -76,14 +85,14 @@ Use this section to double-check all connections:
   `Spindle (aviation) → VFD (aviation)`
 
 * **Signal Cable**
-  `Spindle (aviation) → RS485 port on SLB-EXT?`
+  `Spindle (aviation) → daughter board
 
-* **Modbus Cable**
-  `VFD (RJ / Ethernet) → Daughter board`
+* **Modbus (coily) Cable**
+  `VFD (RJ / Ethernet) → RS485 on EXT board`
 
 * **VFD Power Cable**
   `VFD → Power outlet`
 
 * **Auxiliary Backpack Cable**
-  `Spindle → PENDANT port on SLB-EXT`
+  `daughter → PENDANT port on SLB-EXT`
   

@@ -13,7 +13,7 @@ custom_fields:
 skip_file: no
 featured_image: _images/post-image.jpg
 ---
-Here’s a clean, well-structured **Markdown** version, organized into clear sections and ordered steps so it reads like a setup guide rather than notes. I preserved your warnings and flagged “open” items subtly without rewriting intent.
+ 
 
 ---
 
