@@ -18,11 +18,13 @@ featured_image: _images/post-image.jpg
 
 1. From the **Accessories box** in the main ATC box, take out the fasteners.
 2. Using the **top foam as a cushion**, remove the spindle from the bottom foam. Place the spindle on the top foam with the **threaded holes facing up**. 
+![](/_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 9.06.48 AM.png)
 
    > **Important:** Never stand the spindle on its nose (the end where tools are inserted). This can damage the bearings.
 1. Grab the **drag chain** from the main ATC box and the accessories box. Undo all clips using a flathead screwdriver.
 2. Remove the **male drag chain end link** (the one with studs on the sides, not holes) with flathead screwdriver.
 3. Place the male link onto the **Z-axis drag chain pickup**, then fasten using **two (2) M4-8 mm screws**.
+
 4. Align the assembled Z-axis drag chain pickup onto the back of the spindle at the threaded holes, with the end link facing the front, then use **four (4) M4-8 mm screws** to securely attach it.
 
 3. Take out the **ATC mounting plate** and place it on the spindle.
