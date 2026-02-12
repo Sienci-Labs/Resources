@@ -44,27 +44,27 @@ Box 3 - Rack box (another 6 racks, for 12 rack kit)
 
 | Item                                                                 | Box        | Qty | Notes       |
 | -------------------------------------------------------------------- | ---------- | --- | ----------- |
-| 2.2kW Enclosed VFD                                                   | VFD        | 1   | Common part ????? |
-| Modbus RS485 Cable                                                          | VFD        | 1   | Common part |
-| 2.2kW 240V Plug-In VFD Power Cord                                    | Standalone | 1   | Common part |
+| 2.2kW Enclosed VFD                                                   | VFD        | 1   | Common   |
+| Modbus Cable                                                          | VFD        | 1   | Common part |
+| 2.2kW 240V VFD Power Cord                                    | Standalone | 1   | Common part |
+VFD 3D printed Mounting Spacer
 
-Found bolts/nuts in box. 2 of each?
-Add VFD 3D printed Insert
+ 
 
 ### Drag Chain
 
 | Item                                            | Box         | Qty | Notes |
 | ----------------------------------------------- | ----------- | --- | ----- |
-| X-axis drag chain pickup(4×4 kit only)             | Accessories | 1   |       |
+| X-axis drag chain pickup (4×4 kit only)             | Accessories | 1   |       |
 | Z axis Drag Chain  | Standalone  | 1   |       |
-| Z-Plus Drag Chain pickup                       | Accessories | 1   |       |
+| Z-axis Drag Chain pickup                       | Accessories | 1   |       |
 
 ### Electronics / Wiring
 
 | Item               | Box         | Qty | Notes                              |
 | ------------------ | ----------- | --- | ---------------------------------- |
-| SLB Shield PCB     | Electronics | 1   |                                    |
-| RJ12 6P6C Cable    | Electronics | 1   | Can be confused with the VFD cable |
+| ATC Daughter Board    | Electronics | 1   |                                    |
+| Auxillary Backpack Cable    | Electronics | 1   | Can be confused with the VFD cable |
 | 16GB Micro SD Card | Electronics | 1   |                                    |
 | ATC Signal Cable   | Standalone  | 1   |                                    |
 | 7.2 m Spindle Cable (4×8 kit) **or** Plug-In Spindle Cable (4×4 kit) | Standalone | 1   |  |
@@ -123,7 +123,7 @@ Add VFD 3D printed Insert
 | ------------------------- | --- | --- | ----- |
 | TLS Body                  | TLS | 1   |       |
 | TLS Base                  | TLS | 1   |       |
-| TLS Sensor Wire – 4600 mm | TLS | 1   |       |
+| TLS Cable – 4600 mm | TLS | 1   |       |
 | M5 BHCS – 10 mm           | TLS | 2   |       |
 | M5 20-Series T-Nut        | TLS | 2   |       |
 
@@ -168,7 +168,7 @@ Add VFD 3D printed Insert
 
 | Item                           | Box | Qty | Notes |
 | ------------------------------ | --- | --- | ----- |
-| ATC Rack Sensor Wire – 4600 mm | —   | 1   |       |
+| ATC Rack Sensor Cable – 4600 mm | —   | 1   |       |
 | ATC Rack Sensor with Pigtail        | —   | 1   |       |
 
 </details>

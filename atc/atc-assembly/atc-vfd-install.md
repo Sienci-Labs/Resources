@@ -24,11 +24,11 @@ featured_image: _images/post-image.jpg
 
 Plug the connector into the bottom of the VFD. Rest the VFD on foam or a box, for now, until the VFD is mounted.
 
-Put two (2) M5 nuts into the 3D printed adapter bracket. They should be fully seated, in order to fully secure the fasteners later on. 
+Put two (2) M5 nuts into the 3D printed mounting spacer. They should be fully seated, in order to fully secure the fasteners later on. 
 
 ![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 3.28.46 PM.png>)
 
-Place the **adapter bracket** onto the **inner face of the front-left AltMill leg**, then place the VFD against the bracket, aligning the two (2) M5-30mm screws from the E-stop with the bracket holes. Refasten the **E-stop** on the **outer face of the leg**.
+Place the **mounting spacer** onto the **inner face of the front-left AltMill leg**, then place the VFD against the bracket, aligning the two (2) M5-30mm screws from the E-stop with the bracket holes. Refasten the **E-stop** on the **outer face of the leg**.
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_vfd1.jpg){.aligncenter .size-medium}
 
@@ -40,13 +40,13 @@ The VFD unit should be positioned with the screen/panel aligned with the cutout 
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_vfd3.jpg){.aligncenter .size-medium}
 
-Plug the **female end of the VFD power cable** into the VFD.
+Plug the **VFD power cable** into the VFD.
 
-Plug the **Modbus cable** into the VFD *(confirm correct end connectors)*.
+Plug the **Modbus cable** into the VFD * *.
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_vfd4.jpg){.aligncenter .size-medium}
 
-1. Plug in the VFD control cable into the 'RS485' connector on the SLB-EXT controller.
+Plug in the Modbus cable into the 'RS485' connector on the SLB-EXT controller.
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_vfd5.jpg){.aligncenter .size-medium}
 
@@ -58,29 +58,27 @@ Plug the **Modbus cable** into the VFD *(confirm correct end connectors)*.
 
    * `SW1`
    * `SW2`
-     These connectors will interfere with the daughter board.
+     
+    These connectors will interfere with the daughter board.
 
-3. Connect the **daughter board** onto the **black header connector** on the SLB-EXT.
+3. Connect the following into the **daughter board** 
 
-![](/_images/_atc/_atc_assembly/temp/IMG_8988.jpg)
+- auxillary backpack cable 
 
-4. Carefully connect the **spindle cable** and **signal cable** aviation plugs to the spindle.
-
-DAUGHTER - use backpack to get to PENDANT
-DAUGHTER - TO signal 
+- other end of the signal cable 
 
 ![](/_images/_atc/_atc_assembly/temp/IMG_8984.jpg)
 
-   * The connectors have **different pin counts** — check carefully before plugging in.
-   * ⚠️ *Incorrect alignment can easily damage the pins.*
+Then plug in the daughter board onto the **black header connector** on the SLB-EXT.
 
-5. Plug the **other end of the signal cable** into the **RS485 port on the SLB-EXT** *(confirm port)*.
+![](/_images/_atc/_atc_assembly/temp/IMG_8988.jpg)
 
-6. Plug the **other end of the Modbus cable** into the **daughter board**.
+7. Connect the other end of the **auxiliary backpack cable** to the **PENDANT port** on the SLB-EXT.
 
-7. Connect the **auxiliary backpack cable** to the **PENDANT port** on the SLB-EXT.
+5. Plug the **other end of the Modbus cable** into the **RS485 port on the SLB-EXT** **.
 
-8. Insert the **SD card** into the **SD card slot** on the SLB-EXT. Make sure it pushes into the port, fully. 
+
+8. Insert the **SD card** into the **SD card slot** on the SLB-EXT. Make sure it sits into the port, fully. 
 
 ## Wiring Sanity Check
 
@@ -99,5 +97,5 @@ Use this section to double-check all connections:
   `VFD → Power outlet`
 
 * **Auxiliary Backpack Cable**
-  `daughter → PENDANT port on SLB-EXT`
+  `daughter board → PENDANT port on SLB-EXT`
   

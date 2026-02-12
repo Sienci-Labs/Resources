@@ -106,11 +106,15 @@ Detach all the clips on the Z-axis drag chain with a flathead screwdriver.
 
 ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 9.13.12 AM.png>)
 
-Plug in spindle, signal then air tube last, on the spindle.  Use the grooves on the aviation connectors to identify and rotate to seat 
+Plug in spindle, signal then air tube last, on the spindle.  Use the grooves on the aviation connectors to identify and rotate to seat. 
+
+* ⚠️ *Incorrect alignment can damage the pins.*
+
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.00.26 PM.png>)
 
 Finish routing the 3 in the X-axis by clipping the rest of the links. 
 
-5. Unclip the Y axis drag chain from the end link. Route the **spindle cable, signal cable and air line tubing** through  Y-axis drag chains. The spindle and signal cables, and the air tube must exiting at the **front of the machine**. Ensure the blue connector can reach the VFD. Ensure the end with the **single Molex connector** can reach the SLB-EXT.
+Unclip the Y axis drag chain from the end link. Route the **spindle cable, signal cable and air line tubing** through  Y-axis drag chains. The spindle cable, signal cable and the air tube must exit at the **front of the machine**. Ensure the blue connector can reach the VFD through the table leg cutout (where the AltMill label is). Ensure the end with the **single Molex connector** can reach the SLB-EXT.
 
 > **Important:** Avoid bending the tubing while routing to prevent kinks or blockages.
-** spindle cable feeling kind of short, barely able to reach the VFD
+ 
