@@ -16,33 +16,30 @@ featured_image: _images/post-image.jpg
 
 ## VFD Installation & Connections
 
-### VFD Connections
+1. To prepare for installation, remove and unplug the **E-stop** from the table leg.
 
-![](/_images/_atc/_atc_assembly/temp/IMG_0875.JPG)
+1. Place the **adapter bracket** onto the **inner face of the front-left AltMill leg**, then place the VFD against the bracket, aligning the studs with the bracket holes. Using the **original E-stop screws (M5-30mm)**, refasten the **E-stop** on the **outer face of the leg**.
 
-1. Grab the **VFD** and make the following connections:
+![](/_images/_atc/_atc_assembly/atc_assembly_vfd1.jpg){.aligncenter .size-medium}
 
-   * Plug the **female end of the VFD power cable** into the VFD.
-   * Plug the **spindle cable (blue)** into the VFD.
+1. Mount the VFD unit inside the table leg using the remaining two M5-30mm screws
 
+![](/_images/_atc/_atc_assembly/atc_assembly_vfd2.jpg){.aligncenter .size-medium}
 
-![](/_images/_atc/_atc_assembly/temp/IMG_0878.JPG)
+1. The VFD unit should be positioned with the screen/panel aligned with the cutout in the table leg. Plug the E-stop cable back in.
 
-   * Plug the **Modbus cable** into the VFD *(confirm correct end connectors)*.
+![](/_images/_atc/_atc_assembly/atc_assembly_vfd3.jpg){.aligncenter .size-medium}
 
-2. Install **two (2) M? nuts** into the **plastic VFD adapter bracket**.
+1. Plug the **female end of the VFD power cable** into the VFD.
+   Plug the **spindle cable (blue)** into the VFD. Plug the **Modbus cable** into the VFD *(confirm correct end connectors)*.
 
-![](/_images/_atc/_atc_assembly/temp/IMG_0876.JPG)
+![](/_images/_atc/_atc_assembly/atc_assembly_vfd4.jpg){.aligncenter .size-medium}
 
-3. Remove and unplug the **E-stop** from the table leg.
+1. Plug in the VFD control cable into the 'RS485' connector on the SLB-EXT controller.
 
-4. Place the **adapter bracket** onto the **inner face of the front-left AltMill leg**, then place the VFD against the bracket, aligning the studs with the bracket holes.
+![](/_images/_atc/_atc_assembly/atc_assembly_vfd5.jpg){.aligncenter .size-medium}
 
-5. Using the **original E-stop screws**, refasten the **E-stop** on the **outer face of the leg**.
-
-6. Re-plug the **E-stop cable** into the E-stop.
-
-## Finishing Up Connections
+### Finishing Up Connections
 
 1. Turn **off** the **SLB-EXT**.
 
@@ -54,7 +51,11 @@ featured_image: _images/post-image.jpg
 
 3. Connect the **daughter board** onto the **black header connector** on the SLB-EXT.
 
+![](/_images/_atc/_atc_assembly/temp/IMG_8988.jpg)
+
 4. Carefully connect the **spindle cable** and **signal cable** aviation plugs to the spindle.
+
+![](/_images/_atc/_atc_assembly/temp/IMG_8984.jpg)
 
    * The connectors have **different pin counts** — check carefully before plugging in.
    * ⚠️ *Incorrect alignment can easily damage the pins.*
