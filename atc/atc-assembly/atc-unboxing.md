@@ -45,7 +45,7 @@ Box 3 - Rack box (another 6 racks, for 12 rack kit)
 | Item                                                                 | Box        | Qty | Notes       |
 | -------------------------------------------------------------------- | ---------- | --- | ----------- |
 | 2.2kW Enclosed VFD                                                   | VFD        | 1   | Common part ????? |
-| RS485 Cable                                                          | VFD        | 1   | Common part |
+| Modbus RS485 Cable                                                          | VFD        | 1   | Common part |
 | 2.2kW 240V Plug-In VFD Power Cord                                    | Standalone | 1   | Common part |
 
 Found bolts/nuts in box. 2 of each?

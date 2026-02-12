@@ -18,26 +18,31 @@ featured_image: _images/post-image.jpg
 
 1. To prepare for installation, remove and unplug the **E-stop** from the table leg.
 
-Grab the VFD and plug in the blue connector from the spindle cable. Emphasize this!!!!! Leave the VFD on the ground for now.
+2. Route the blue connector from the spindle cable through the table leg cutout. 
 
-Put 2x M5 nuts into the adapter bracket. You may need to put tape to hold the nuts temporarily.
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 3.32.38 PM.png>)
 
-INSERT photo here. 
+Plug the connector into the bottom of the VFD. Rest the VFD on foam or a box, for now, until the VFD is mounted.
 
-1. Place the **adapter bracket** onto the **inner face of the front-left AltMill leg**, then place the VFD against the bracket, aligning the screws from the E-stop (M5-30mm) with the bracket holes. refasten the **E-stop** on the **outer face of the leg**.
+Put two (2) M5 nuts into the 3D printed adapter bracket. They should be fully seated, in order to fully secure the fasteners later on. 
+
+![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 3.28.46 PM.png>)
+
+Place the **adapter bracket** onto the **inner face of the front-left AltMill leg**, then place the VFD against the bracket, aligning the two (2) M5-30mm screws from the E-stop with the bracket holes. Refasten the **E-stop** on the **outer face of the leg**.
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_vfd1.jpg){.aligncenter .size-medium}
 
-1. Mount the VFD unit inside the table leg using the remaining two M5-30mm screws.
+Mount the VFD unit inside the table leg using the remaining two (2) M5-30mm screws.
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_vfd2.jpg){.aligncenter .size-medium}
 
-1. The VFD unit should be positioned with the screen/panel aligned with the cutout in the table leg. Plug the E-stop cable back in.
+The VFD unit should be positioned with the screen/panel aligned with the cutout in the table leg. Plug the E-stop cable back in.
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_vfd3.jpg){.aligncenter .size-medium}
 
-1. Plug the **female end of the VFD power cable** into the VFD.
-   Plug the **spindle cable (blue)** into the VFD. Plug the **Modbus cable** into the VFD *(confirm correct end connectors)*.
+Plug the **female end of the VFD power cable** into the VFD.
+
+Plug the **Modbus cable** into the VFD *(confirm correct end connectors)*.
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_vfd4.jpg){.aligncenter .size-medium}
 
