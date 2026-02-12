@@ -53,61 +53,57 @@ featured_image: _images/post-image.jpg
 
 1. Grab the **rack sections** and identify:
 
-   * The **mirrored pair**
-   * The **two identical sections**
+   * The back right and back left, which are the mirrored pair of sections
+   * The front, which are **two identical sections**
+
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.54.50 PM.png>)
 
 2. Place **one mirrored rack section** onto one end of the **cross support extrusion**.
 
    * Align with the threaded holes.
-   * Fully secure using **two M6-15mm screws** at the extrusion end.
+   * Fully secure using **two M6-14mm screws** at the extrusion end.
 
-   ![](/_images/_atc/_atc_assembly/temp/IMG_0894.JPG)
-
-   ![](/_images/_atc/_atc_assembly/temp/IMG_0895.JPG)
-
-   ![](/_images/_atc/_atc_assembly/temp/IMG_0896.JPG)
-
-3. Insert a **T-nut** into the extrusion slot.
+3. Insert a **T-nut** into the extrusion slot. (Is it just the roll in T-nuts that fit in here? Will customers with MK1 get twist in AND roll in?)
 
    * Ensure correct orientation of the T-nut in the slot. 
 
-   should have photo of both the roll in and twist in t-nuts
+      ![](/_images/_atc/_atc_assembly/temp/IMG_0896.JPG)
+(Need to rotate this photo 180!!!!!)
 
    * Slide it to align with the rack hole.
-   * Secure using **one M6 × 8 mm button head screw**.
-
-   ![](/_images/_atc/_atc_assembly/temp/IMG_0896.JPG)
-
-   ![](/_images/_atc/_atc_assembly/temp/IMG_0897.JPG)
-
-   ![](/_images/_atc/_atc_assembly/temp/IMG_0898.JPG)
-
-   ![](/_images/_atc/_atc_assembly/temp/IMG_0899.JPG)
-
-   ![](/_images/_atc/_atc_assembly/temp/IMG_0901.JPG)
-
-   ![](/_images/_atc/_atc_assembly/temp/IMG_0903.JPG)
+   * Secure using **one M6-8mm button head screw**.
 
 4. Loosely place the **second mirrored rack section** on the opposite end of the extrusion.
 
-5. Orient the assembly according to the reference image.
 
-Put 2 M3x20 screws into the tool rack sensor. (not any longer otherwise will interfere with rack section)
+Put two (2) M3-20mm screws into the tool rack sensor. (not any longer otherwise will interfere with rack section)
 
-6. Mount the **tool rack sensor** onto the **right rack section**:
+6. Mount the **tool rack sensor** onto the **back right rack section**:
 
    * Position the sensor at the slot.
    * Secure with the pre-installed screws.
    Position the pigtail from the sensor into the rectangular cutout
+
+    ![](/_images/_atc/_atc_assembly/temp/IMG_0901.JPG)
+
+    ![](<../../_images/_atc/_atc_assembly/Screenshot 2026-02-12 at 5.21.05 PM.png>)
+
+   ![](/_images/_atc/_atc_assembly/temp/IMG_0903.JPG)
+
+   ![](/_images/_atc/_atc_assembly/temp/IMG_0899.JPG)
+
 
 7. For the other mirrored rack section:
 
    * Fully secure the **two M6 screws** at the extrusion end.
    * Insert the T-nut and fasten using **one M6 × 8 mm button head screw**.
 
+Before continuing, make sure the tool rack sensor is secured onto the rack section, in the correct position and orientation, as shown in the picture below: 
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 5.15.52 PM.png>)
+
 ## Backbone Assembly
 
-1. Grab the **backbone**, **inserts**, and **M4 × 8 mm screws**.
+1. Grab the **backbone**, **inserts**, and **M4-8mm screws**.
 
 2. Position each insert onto the backbone so it sits **flush**.
 
@@ -164,6 +160,8 @@ Put 2 M3x20 screws into the tool rack sensor. (not any longer otherwise will int
 
    * **MK1** – Roll-in T-nuts
    * **All other AltMills** – Twist-in T-nuts
+
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 5.05.49 PM.png>)
 
 2. Pre-assemble:
 

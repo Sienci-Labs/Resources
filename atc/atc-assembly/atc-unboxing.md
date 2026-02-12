@@ -151,7 +151,7 @@ Filter Regulator Mounting Ring
 | Tool Rack Back Right Section   | —   | 1   |       |
 | Tool Rack Back Left Section    | —   | 1   |       |
 | Tool Rack Cross Extrusion        | —   | 1   |       |
-| Tool Rack Clip                 | —   | 20??10  |       |
+| Tool Rack Insert                 | —   | 10  |       |
 
 ### Fasteners
 
