@@ -85,7 +85,7 @@ Reattach the X-axis drag chain onto the new pickup.
 
    * ATC spindle cable (blue)
    * Signal cable
-   * Air line tubings 
+   * Air line tubing (10m) 
 
 2. On the **Z-axis**, rest one end of the air line tubing and metal aviation ends of the spindle and signal cable over spindle, making sure they reach the connections at the spindle. 
 

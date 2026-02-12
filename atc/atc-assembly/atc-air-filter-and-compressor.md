@@ -20,34 +20,34 @@ featured_image: _images/post-image.jpg
 
 ![](/_images/_atc/_atc_assembly/temp/IMG_0880.JPG)
 
-Undo the large nut on the top of the unit. 
+2. Undo the large nut on the top of the unit. 
 
-2. Select a location to mount the **filter regulator unit**.
+3. Select a location to mount the **filter regulator unit**. Then attach the **mounting ring** to your chosen location using the appropriate screws.
 
    * ⚠️ The unit will **drip water**, so **do not mount it above electronics or wiring**.
 
-3. Attach the **mounting bracket** to your chosen location using screws.
 
 ![](/_images/_atc/_atc_assembly/temp/IMG_0881.JPG)
 
-   * Place the filter regulator unit into the bracket.
+   * Place the filter regulator unit into the mounting ring.
    * Secure it using the **large nut on top** of the unit.
 
    ![](/_images/_atc/_atc_assembly/temp/IMG_0883.JPG)
 
-4. With the filter regulator fixed in place, **cut the air line tubing to length**:
+4. With the filter regulator fixed in place, **cut the air line tubing such that **:
 
-   * One line from the **air compressor** to the **inlet**.
-   * One line from the **outlet** to the **spindle**.
+   * One line connects the **air compressor** to the filter regulator **inlet**, labelled IN.
+   * The existing line (in the drag chain) connects the spindle to the filter regulator **outlet**, labelled OUT.
    * ✂️ Cut the tubing **squarely**, not diagonally, to ensure a proper seal.
 
-Use the lever on the quick connect to open the line. 
+Then connect the tubing between the **filter regulator outlet** and the **spindle**, and the
+ **air compressor** and the **filter regulator inlet**.
 
-5. Connect the tubing between the **filter regulator outlet** and the **spindle**.
+Use the lever on the quick connect of your compressor to open the line. 
 
-6. Connect the tubing between the **air compressor** and the **filter regulator inlet**.
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.35.22 PM.png>)
 
-   > *(Confirm when the air line should be purged before final connection.)*
+   > *(Confirm when the air line should be purged before final connection.)*?????????
 
 ## Setting Air Pressure & Flow
 
@@ -55,17 +55,19 @@ Use the lever on the quick connect to open the line.
 
 Set your **air compressor** to provide its **maximum flow**, usually this is a knob next to the gauge.
 
-2. Use the **filter regulator** to adjust the output pressure to **90–100 PSI**.
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.39.03 PM.png>)
 
-   * Pressure fluctuations are normal.
-   * When the compressor recharges, re-adjust the regulator knob as needed to return to the target pressure.
-
-3. To adjust **maximum flow**:
+2. To adjust **maximum flow**:
 
    * Pull the regulator **knob upwards**.
    * Twist it through its full range to find the position that provides the **highest flow/pressure**.
    * Once found, **push the knob back down** to lock it in place.
 
+Use the **filter regulator** to adjust the output pressure to **90–100 PSI**.
+
+   * Pressure fluctuations are normal.
+   * When the compressor recharges, re-adjust the regulator knob as needed to return to the target pressure.
+
 4. Repeat the adjustment process for the **pressure regulator**, this time dialing in **90–100 PSI**.
 
-at this time you can reinstall your gcontrol panel and mount, see instructions here. 
+At this time you can reinstall your gControl panel and mount, see instructions [here ](https://resources.sienci.com/view/gc-gcontrol-assembly/. 

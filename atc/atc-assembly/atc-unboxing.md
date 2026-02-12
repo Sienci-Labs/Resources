@@ -83,6 +83,7 @@ VFD 3D printed Mounting Spacer
 | Auto Drain Filter Regulator             | Filter Regulator | 1   |       |
 | Compressor Quick Disconnect             | Filter Regulator | 1   |       |
 | 3/8″ BSPP Male Quick Disconnect Fitting | Filter Regulator | 2   |       |
+Filter Regulator Mounting Ring
 
 ### Fasteners & Tools
 
