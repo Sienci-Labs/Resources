@@ -22,8 +22,7 @@ Box 2 - Rack box (6 racks)
 
 Box 3 - Rack box (another 6 racks, for 12 rack kit)
 
-
-**Insert Picture** - Render of see through boxes worth it? Pic of stuff from sales/marketing?
+**Insert Picture** - Render of see through boxes. atc_assembly_unbox_1.jpg
 
 ## What’s in the Box
 
@@ -36,38 +35,36 @@ Box 3 - Rack box (another 6 racks, for 12 rack kit)
 | -------------------------------------------- | ----------- | --- | -------------------------- |
 | 2.2kW ATC Spindle                            | Foam        | 1   |                            |
 | ATC Mounting Plate                           | Standalone  | 1   |                            |
-| ISO20 + ER20 Wrench Set  ?                       | Accessories | 1  |                            |
-| ISO20 Tool Holder (Standalone kit only) | Foam        | 3   |                            |
+| ISO20 + ER20 Wrench Set  ?                   | Accessories | 1   |                            |
+| ISO20 Tool Holder (Standalone kit only)      | Foam        | 3   |                            |
 | ER20 Collet Set                              | Standalone  | 1   | 12 collets total (in case) |
+
+### Drag Chain
+
+| Item                                              | Box         | Qty | Notes |
+| -----------------------------------------------   | ----------- | --- | ----- |
+| Z axis Drag Chain                                 | Standalone  | 1   |       |
+| Z-axis Drag Chain pickup                          | Accessories | 1   |       |
+| X-axis drag chain triangle bracket (4×4 kit only) | Accessories | 1   |       |
 
 ### VFD
 
 | Item                                                                 | Box        | Qty | Notes       |
 | -------------------------------------------------------------------- | ---------- | --- | ----------- |
-| 2.2kW Enclosed VFD                                                   | VFD        | 1   | Common   |
-| Modbus Cable                                                          | VFD        | 1   | Common part |
-| 2.2kW 240V VFD Power Cord                                    | Standalone | 1   | Common part |
-VFD 3D printed Mounting Spacer
-
- 
-
-### Drag Chain
-
-| Item                                            | Box         | Qty | Notes |
-| ----------------------------------------------- | ----------- | --- | ----- |
-| X-axis drag chain pickup (4×4 kit only)             | Accessories | 1   |       |
-| Z axis Drag Chain  | Standalone  | 1   |       |
-| Z-axis Drag Chain pickup                       | Accessories | 1   |       |
+| 2.2kW Enclosed VFD                                                   | VFD        | 1   | Common      |
+| Modbus Cable                                                         | VFD        | 1   | Common part |
+| 2.2kW 240V VFD Power Cord                                            | Standalone | 1   | Common part |
+| VFD 3D printed Mounting Spacer                                       |            |     |             |
 
 ### Electronics / Wiring
 
-| Item               | Box         | Qty | Notes                              |
-| ------------------ | ----------- | --- | ---------------------------------- |
-| ATC Daughter Board    | Electronics | 1   |                                    |
-| Auxillary Backpack Cable    | Electronics | 1   | Can be confused with the VFD cable |
-| 16GB Micro SD Card | Electronics | 1   |                                    |
-| ATC Signal Cable   | Standalone  | 1   |                                    |
-| 7.2 m Spindle Cable (4×8 kit) **or** Plug-In Spindle Cable (4×4 kit) | Standalone | 1   |  |
+| Item                                                                 | Box         | Qty | Notes                              |
+| ------------------                                                   | ----------- | --- | ---------------------------------- |
+| ATC Daughter Board                                                   | Electronics | 1   |                                    |
+| Auxiliary Backpack Cable                                             | Electronics | 1   | Can be confused with the VFD cable |
+| 16GB Micro SD Card                                                   | Electronics | 1   |                                    |
+| ATC Signal Cable                                                     | Standalone  | 1   |                                    |
+| 7.2 m Spindle Cable (4×8 kit) **or** Plug-In Spindle Cable (4×4 kit) | Standalone  | 1   |                                    |
 
 ### Pneumatics
 
@@ -82,8 +79,8 @@ VFD 3D printed Mounting Spacer
 | --------------------------------------- | ---------------- | --- | ----- |
 | Auto Drain Filter Regulator             | Filter Regulator | 1   |       |
 | Compressor Quick Disconnect             | Filter Regulator | 1   |       |
-| 3/8″ BSPP Male Quick Disconnect Fitting | Filter Regulator | 2   |       |
-Filter Regulator Mounting Ring
+| 3/8″ Male Quick Disconnect Fitting      | Filter Regulator | 2   |       |
+| Filter Regulator Mounting Ring          | Filter Regulator | 1   |       |
 
 ### Fasteners & Tools
 
@@ -92,8 +89,8 @@ Filter Regulator Mounting Ring
 | M4 Flathead Screws – 8 mm     | Fasteners   | 7   |                     |
 | M5 Socket Head Screws – 10 mm | Fasteners   | 7   | Packed for all kits |
 | M5 Nylock Nut                 | Fasteners   | 5   | Packed for all kits |
-| M6 Ballhead Screws – 14 mm    | Fasteners   | 8   |                     |
-| M6 Ballhead Screws – 25 mm    | Fasteners   | 5   |                     |
+| M6 Button Head Screws – 14 mm | Fasteners   | 8   |                     |
+| M6 Button Head Screws – 25 mm | Fasteners   | 5   |                     |
 | M6 8 mm Shoulder Bolt         | Fasteners   | 2   |                     |
 | AltMill Eccentric Bushing     | Fasteners   | 1   |                     |
 | 4 mm Allen Key (Ball End)     | Accessories | 1   |                     |
@@ -102,31 +99,31 @@ Filter Regulator Mounting Ring
 
 ### Dust Shoe
 
-| Item                                     | Box       | Qty | Notes |
-| ---------------------------------------- | --------- | --- | ----- |
-| Clear Cut Dust Shoe – Upper              | Dust Shoe | 1   |       |
-| Clear Cut Dust Shoe – Lower              | Dust Shoe | 1   |       |
-| 4″ Ring Clamp                            | Dust Shoe | 2   |       |
-| Clear Cut Dust Shoe – ATC Bracket        | Dust Shoe | 1   |       |
-| Clear Cut Dust Shoe – ATC Front Gasket   | Dust Shoe | 1   |       |
-| Clear Cut Dust Shoe – ATC Rear Gasket    | Dust Shoe | 1   |       |
-| Clear Cut Dust Shoe – ATC Slider Bushing | Dust Shoe | 2   |       |
-| ATC Hose Management Bracket              | Dust Shoe | 1   |       |
-| M5 Socket Head – 12 mm ??16mm on bag                  | Dust Shoe | 4   |       |
-| M6 Button Head – 14 mm                   | Dust Shoe | 2   |       |
-| M6 Washer                                | Dust Shoe | 3??   |       |
-| M6 Knob                                  | Dust Shoe | 2   |       |
-| M4 Button Head – 4 mm  ??8mm on bag                  | Dust Shoe | 4   |       |
+| Item                                          | Box       | Qty | Notes |
+| ----------------------------------------      | --------- | --- | ----- |
+| Clear Cut Dust Shoe – Upper                   | Dust Shoe | 1   |       |
+| Clear Cut Dust Shoe – Lower                   | Dust Shoe | 1   |       |
+| 4″ Ring Clamp                                 | Dust Shoe | 2   |       |
+| Clear Cut Dust Shoe – ATC Bracket             | Dust Shoe | 1   |       |
+| Clear Cut Dust Shoe – ATC Front Gasket        | Dust Shoe | 1   |       |
+| Clear Cut Dust Shoe – ATC Rear Gasket         | Dust Shoe | 1   |       |
+| Clear Cut Dust Shoe – ATC Slider Bushing      | Dust Shoe | 2   |       |
+| ATC Hose Management Bracket                   | Dust Shoe | 1   |       |
+| M5 Socket Head Screws – 12 mm ??16mm on bag   | Dust Shoe | 4   |       |
+| M6 Button Head Screws – 14 mm                 | Dust Shoe | 2   |       |
+| M6 Washer                                     | Dust Shoe | 3?? |       |
+| M6 Knob                                       | Dust Shoe | 2   |       |
+| M4 Button Head – 4 mm  ??8mm on bag           | Dust Shoe | 4   |       |
 
 ### Tool Length Sensor (TLS)
 
-| Item                      | Box | Qty | Notes |
-| ------------------------- | --- | --- | ----- |
-| TLS Body                  | TLS | 1   |       |
-| TLS Base                  | TLS | 1   |       |
-| TLS Cable – 4600 mm | TLS | 1   |       |
-| M5 BHCS – 10 mm           | TLS | 2   |       |
-| M5 20-Series T-Nut        | TLS | 2   |       |
+| Item                                      | Box | Qty | Notes |
+| -------------------------                 | --- | --- | ----- |
+| TLS Body                                  | TLS | 1   |       |
+| TLS Base                                  | TLS | 1   |       |
+| TLS Cable – 4600 mm                       | TLS | 1   |       |
+| M5 Button Head Screws – 10 mm             | TLS | 2   |       |
+| M5 20-Series T-Nut                        | TLS | 2   |       |
 
 </details>
 
@@ -150,27 +147,27 @@ Filter Regulator Mounting Ring
 | Tool Rack Front Section        | —   | 2   |       |
 | Tool Rack Back Right Section   | —   | 1   |       |
 | Tool Rack Back Left Section    | —   | 1   |       |
-| Tool Rack Cross Extrusion        | —   | 1   |       |
-| Tool Rack Insert                 | —   | 10  |       |
+| Tool Rack Cross Extrusion      | —   | 1   |       |
+| Tool Rack Insert               | —   | 10  |       |
 
 ### Fasteners
 
 | Item                                       | Box | Qty | Notes |
 | ------------------------------------------ | --- | --- | ----- |
 | Tool Rack Knob                             | —   | 2   |       |
-| M4 BHCS – 8 mm                             | —   | 20?  |       |
-| M5 SHCS – 16 mm                            | —   | 2   |       |
-| M6 BHCS – 8 mm                             | —   | 12  |       |
-| M3 SHCS – 20 mm                            | —   | 2   |       |
+| M4 Button Head Screw – 8 mm                | —   | 20? |       |
+| M5 Socket Head Screw – 16 mm               | —   | 2   |       |
+| M6 Button Head Screw – 8 mm                | —   | 12  |       |
+| M3 Socket Head Screw – 20 mm               | —   | 2   |       |
 | M6 Twist-In 30-Series T-Nut                | —   | 5   | MK2   |
 | M6 Roll-In (Post-Assembly) 20-Series T-Nut | —   | 5   | MK1   |
 
 ### Wiring
 
-| Item                           | Box | Qty | Notes |
-| ------------------------------ | --- | --- | ----- |
+| Item                            | Box | Qty | Notes |
+| ------------------------------  | --- | --- | ----- |
 | ATC Rack Sensor Cable – 4600 mm | —   | 1   |       |
-| ATC Rack Sensor with Pigtail        | —   | 1   |       |
+| ATC Rack Sensor with Pigtail    | —   | 1   |       |
 
 </details>
 
@@ -186,4 +183,4 @@ Most fasteners just need to be hand tight, do not strongly crank to secure. If c
 
 We highly recommend assembling this kit with two people. The components are heavy and unwieldy,  can be damaged easily if dropped at any point.
 
-**** We recommend finishing the entire altmill setup before doing the ATC setup because ppl need to know how to jog the machine / have it all connected 
+**We recommend finishing the entire AltMill setup before doing the ATC setup because ppl need to know how to jog the machine / have it all connected**
