@@ -18,7 +18,7 @@ featured_image: _images/post-image.jpg
 
 1. To prepare for installation, remove and unplug the **E-stop** from the table leg.
 
-2. Route the blue connector from the spindle cable through the table leg cutout. 
+2. Route the blue connector from the spindle cable through the table leg cutout
 
 ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 3.32.38 PM.png>)
 
@@ -61,11 +61,11 @@ Plug in the Modbus cable into the 'RS485' connector on the SLB-EXT controller.
      
     These connectors will interfere with the daughter board.
 
-3. Connect the following into the **daughter board** 
+3. Connect the following into the **daughter board**
 
-- auxillary backpack cable 
+- auxillary backpack cable
 
-- other end of the signal cable 
+- other end of the signal cable
 
 ![](/_images/_atc/_atc_assembly/temp/IMG_8984.jpg)
 
@@ -78,7 +78,7 @@ Then plug in the daughter board onto the **black header connector** on the SLB-E
 5. Plug the **other end of the Modbus cable** into the **RS485 port on the SLB-EXT** **.
 
 
-8. Insert the **SD card** into the **SD card slot** on the SLB-EXT. Make sure it sits into the port, fully. 
+8. Insert the **SD card** into the **SD card slot** on the SLB-EXT. Make sure it sits into the port, fully.
 
 ## Wiring Sanity Check
 
