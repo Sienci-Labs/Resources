@@ -34,18 +34,18 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | -------------------------------------------- | ----------- | --- | -------------------------- |
 | 2.2kW ATC Spindle                            | Foam        | 1   |                            |
 | ISO20 Tool Holder       | Foam        | 3   |                        For kits without tool rack only
-| ATC Mounting Plate                           | n/a| 1   |                            |
-| ATC Signal Cable                                                     | n/a| 1   |                                    |
-| 7.2m Spindle Cable | n/a| 1   |            For  4x8 only           |
-|Plug-In Spindle Cable  | n/a| 1   |                     For 4x4 and 2x4 only
-| ER20 Collet Set                              | n/a| 1   | 12 collets total  |
+| ATC Mounting Plate                           | —| 1   |                            |
+| ATC Signal Cable                                                     | —| 1   |                                    |
+| 7.2m Spindle Cable | —| 1   |            For  4x8 only           |
+|Plug-In Spindle Cable  | —| 1   |                     For 4x4 and 2x4 only
+| ER20 Collet Set                              | —| 1   | 12 collets total  |
 | ISO20 + ER20 Wrench Set                     | Accessories | 1   |                            |
 
 #### Drag Chain
 
 | Item                                              | Box         | Qty | Notes |
 | -----------------------------------------------   | ----------- | --- | ----- |
-| Z axis Drag Chain                                 | n/a| 1   |       |
+| Z axis Drag Chain                                 | —| 1   |       |
 | Z-axis Drag Chain pickup                          | Accessories | 1   |       |
 | X-axis Drag Chain  | Accessories | 1   |  For 4x4 only 
 
@@ -55,8 +55,8 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | -------------------------------------------------------------------- | ---------- | --- | ----------- |
 | 2.2kW Enclosed VFD                                                   | VFD        | 1   |        |
 | Modbus Cable                                                         | VFD        | 1   |     |
-| 2.2kW 240V VFD Power Cord                                            | n/a    | 1   |
-|VFD Mounting Spacer            |   n/a            |1  | 3D printed
+| 2.2kW 240V VFD Power Cord                                            | —    | 1   |
+|VFD Mounting Spacer            |   —            |1  | 3D printed
 
 #### Electronics 
 
@@ -80,7 +80,7 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 
 | Item                      | Box        | Qty  | Notes |
 | ------------------------- | ---------- | ---- | ----- |
-| 8mm PU Tubing            | n/a | 1 |       10m|
+| 8mm PU Tubing            | — | 1 |       10m|
 | 1/2″ NPT Straight Fitting | Fasteners  | 1    |       |
 
 
@@ -141,16 +141,16 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | ER20 ISO20 Tool Holder (Standalone kit only) | —   | 6   |                            |
 | ER20 Collet Set                              | —   | 1   | 12 collets total (in case) |
 
-#### Rack Body
+#### Tool Rack
 
 | Item                           | Box | Qty | Notes |
 | ------------------------------ | --- | --- | ----- |
-| Tool Rack Backbone             | —   | 1   |       |
-| Tool Rack Front Section        | —   | 2   |       |
-| Tool Rack Back Right Section   | —   | 1   |       |
-| Tool Rack Back Left Section    | —   | 1   |       |
-| Tool Rack Cross Extrusion      | —   | 1   |       |
-| Tool Rack Insert               | —   | 10  |       |
+| Backbone             | —   | 1   |       |
+| Front Rack Section        | —   | 2   |       |
+| Back Right Rack Section   | —   | 1   |       |
+| Back Left Rack Section    | —   | 1   |       |
+| Support Extrusion      | —  | 1   |       |
+| Insert               | —  | 10  |       |
 
 #### Fasteners
 

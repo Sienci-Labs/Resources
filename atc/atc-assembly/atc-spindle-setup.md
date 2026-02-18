@@ -18,6 +18,15 @@ featured_image: _images/post-image.jpg
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_spin_header1.jpg){.aligncenter .size-wide}
 
+Before you continue, have you...
+- Undone the drag chain clips?
+- Removed your existing spindle? 
+- Modified your spoilboard to fit the ATC?
+- Jogged the machine to the front and removed your gControl panel unit? 
+
+If not, please see here for the full list of preparations you need to do before continuing with ATC setup! 
+ ***[LINK TO WELCOME PAGE, ALSO turn this message into a graphic to really emphasize]
+
 1. From the **Accessories box** in the main ATC box, take out the fasteners bag.
 1. Using the **top foam as a cushion**, remove the spindle from the bottom foam. Place the spindle on the top foam with the **threaded holes facing up**.
 

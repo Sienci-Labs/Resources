@@ -16,38 +16,14 @@ featured_image: _images/post-image.jpg
 
 ## Rack & TLS Installation
 
-> **No rack?** Skip ahead to the **TLS Cable** section in this article.
+*** Question, should we split TLS from rack? This page is pretty long.
 
-## Unboxing
+> **No rack?** Skip ahead to the **TLS Cable** section in this article. ***Insert link to heading
 
-### Rack Components
 
-![](/_images/_atc/_atc_assembly/temp/IMG_0890.JPG)
+Header photo (fasteners are unconfirmed yet, better wait for now): 1x support extrusion, 2x front rack section, 1x back right rack section, 1x back left rack section,    
 
-* Cross support extrusion
-* Rack sections (**4 total**)
 
-  * 2 mirrored pieces
-  * 2 identical pieces
-* Tool holders (**6 included**)
-
-  * Remaining 6 may be in the spindle foam in the main box
-* Backbone
-* Inserts / clips
-
-### Hardware Bag
-
-* Knobs
-* Fasteners (Are the black screws M5 or M6? The short ones)
-
-### Sensor Bag
-
-* Tool rack sensor
-* Tool rack sensor cables
-
-### Collet Box
-
-* ER20 collet set *(if not in main box)*
 
 ## Rack Assembly
 
@@ -58,17 +34,15 @@ featured_image: _images/post-image.jpg
 
 ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.54.50 PM.png>)
 
-2. Place **one mirrored rack section** onto one end of the **cross support extrusion**.
+2. Place **one mirrored rack section** onto one end of the ** support extrusion**.
 
    * Align with the threaded holes.
    * Fully secure using **two M6-14mm screws** at the extrusion end.
 
-3. Insert a **T-nut** into the extrusion slot. (Is it just the roll in T-nuts that fit in here? Will customers with MK1 get twist in AND roll in?)
-
+3. Insert a M6 roll-in **T-nut** into the extrusion slot.  
    * Ensure correct orientation of the T-nut in the slot. 
 
       ![](/_images/_atc/_atc_assembly/temp/IMG_0896.JPG)
-(Need to rotate this photo 180!!!!!)
 
    * Slide it to align with the rack hole.
    * Secure using **one M6-8mm button head screw**.
@@ -76,7 +50,9 @@ featured_image: _images/post-image.jpg
 4. Loosely place the **second mirrored rack section** on the opposite end of the extrusion.
 
 
-Put two (2) M3-20mm screws into the tool rack sensor. (not any longer otherwise will interfere with rack section)
+5. Put two (2) M3-20mm screws into the tool rack sensor. 
+
+
 
 6. Mount the **tool rack sensor** onto the **back right rack section**:
 
@@ -84,7 +60,7 @@ Put two (2) M3-20mm screws into the tool rack sensor. (not any longer otherwise 
    * Secure with the pre-installed screws.
    Position the pigtail from the sensor into the rectangular cutout
 
-    ![](/_images/_atc/_atc_assembly/temp/IMG_0901.JPG)
+    ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 140903.png>)
 
     ![](<../../_images/_atc/_atc_assembly/Screenshot 2026-02-12 at 5.21.05 PM.png>)
 
@@ -95,10 +71,10 @@ Put two (2) M3-20mm screws into the tool rack sensor. (not any longer otherwise 
 
 7. For the other mirrored rack section:
 
-   * Fully secure the **two M6 screws** at the extrusion end.
-   * Insert the T-nut and fasten using **one M6 × 8 mm button head screw**.
+   * Fully secure the **two (2) M6-14mm screws** at the extrusion end.
+   * Insert the T-nut and fasten using **one (1) M6-8mm button head screw**.
 
-Before continuing, make sure the tool rack sensor is secured onto the rack section, in the correct position and orientation, as shown in the picture below: 
+8. Before continuing, make sure the tool rack sensor is secured onto the rack section, in the correct position and orientation, as shown in the picture below: 
 ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 5.15.52 PM.png>)
 
 ## Backbone Assembly
@@ -107,12 +83,18 @@ Before continuing, make sure the tool rack sensor is secured onto the rack secti
 
 2. Position each insert onto the backbone so it sits **flush**.
 
-   * Hold the insert snug while threading in the screws.
+   * Hold the insert snug while threading in the screws with an Allen key. Secure fully.
    * Continually check that each insert remains fully seated.
 
    ⚠️ **Important:** Improperly seated inserts can cause **ATC accuracy issues**.
 
-3. Repeat until all inserts are installed along the backbone.
+![](../../_images/_atc/_atc_assembly/temp/IMG_0914.JPG)
+
+3. Repeat for the other end of the backbone. You should have 2 inserts installed.
+
+![](../../_images/_atc/_atc_assembly/temp/IMG_0915.JPG)
+
+Optionally, you can install all the inserts onto the backbone now, or do it at a later time. 
 
 ## Joining Rack Sections
 
@@ -122,92 +104,127 @@ Before continuing, make sure the tool rack sensor is secured onto the rack secti
    * **4×4 MK2 / 4×8** – closest set of holes
    * **4×4 MK1** – middle set of holes
 
-2. Secure each connection using **two M6 × 8 mm screws**.
+![](../../_images/_atc/_atc_assembly/temp/IMG_0916.JPG) ***FURTHEST 
+![](../../_images/_atc/_atc_assembly/temp/IMG_0919.JPG) *** CLOSEST
+![](../../_images/_atc/_atc_assembly/temp/IMG_0918.JPG) *** MIDDLE
 
-## Backbone Assembly Mounting
 
-*** we can put this onto the rack so the rack and backbone are on together at the same time. But the backbone position just needs to be adjusted to push against the front left via the knobs loosening. Edit this later
+2. Secure each connection using **two M6-8 mm screws**.
 
-1. Orient the backbone so the **inserts face the back of the machine**.
+## Rack Assembly Mounting
 
-2. Place the backbone into the gap of the rack extrusion assembly, against the **front crossbeam**.
+1. Place the backbone onto the assembled rack sections, located using the two studs.
+![](../../_images/_atc/_atc_assembly/temp/IMG_0925.JPG)
+![](../../_images/_atc/_atc_assembly/temp/IMG_0926.JPG)
+***THESE PHOTOs are INCORRECT IT SHOULD NOT BE MOUNTED ON THE MACHINE YET, JUST FOCUS ON THE BACKBONE AND THE RACK 
 
-3. Push the backbone toward the **front-left** of the machine.
+2. Loosely install the two (2) knobs onto the studs, you will adjust the backbone position later.
+![](../../_images/_atc/_atc_assembly/temp/IMG_0930.JPG)
+***CLOSE UP ON THE KNOBS, rack should not be on machine yet
 
-4. Secure it using the **knobs** on the studs.
+3. If the machine is not already jogged forward:
 
-5. If installing a **second tool rack**:
+   * Power on the controller
+   * Connect to **gSender**
+   * Jog the machine forward to access the rear crossbeams
+
+4. Select the correct **T-nuts** for your machine:
+
+   * **MK1** – Roll-in T-nuts
+   * **All other AltMills** – Twist-in T-nuts
+
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 5.05.49 PM.png>) 
+*** Roll in is the rectangular one, the twist in is the winged looking one. should label in the render?
+
+5. Pre-assemble these together:
+
+   * **Four (4) M6-8mm button head screws**
+   * **Four (4) T-nuts**
+
+6. Bring the entire **rack assembly** to the **back-right corner** of the AltMill.
+
+*** Make a picture to show where on the machine this is, wide shot
+
+   * Confirm that the ends of the rack sit relatively flush with the crossbeam faces.
+   * If not, revisit rack section hole placement.
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 124555.png>)
+
+7. Slide **two (2) pre-assembled M6 fasteners** into the crossbeam T-slot where the rack will mount, for both crossbeams. 
+
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 124237.png>)
+
+8. Lift the rack assembly under the crossbeams and hook the rack flanges onto the M6 fasteners.
+
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 124710.png>)
+
+![](../../_images/_atc/_atc_assembly/temp/IMG_0921.JPG)
+
+** a gif here of this motion would be ideal
+
+9. Position the assembly so:
+
+   * It butts against the AltMill leg
+   * The rack flange butts against the **forward crossbeam**
+
+   ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 123732.png>)
+
+   ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 125257.png>)
+
+10. Hold the assembly in place and tighten the M6 fasteners.
+
+11. Adjust the backbone position by loosening the knobs, then pushing the backbone forward, butted up against the crossbeam and corner of rack.
+
+12. Secure the backbone in place using the **knobs** on the studs.
+
+13. If installing a **second tool rack**:
 
    * Repeat the above steps
    * Install it directly next to the first rack, **butted against the backbone**
 
    ⚠️ This is required for **automated setup in gSender**.
 
-6. Install tool holders into the **first and last slots**.
+![](../../_images/_atc/_atc_assembly/temp/IMG_0932.JPG)
+
+14. If you haven't yet, install tool holders into the **first and last slots** of each tool rack assembly.
 
    * Ensure each holder is fully seated
    * The insert must engage the groove on the tool holder
 
-## Rack & Extrusion Assembly Mounting
+![](../../_images/_atc/_atc_assembly/temp/IMG_0930.JPG)
 
- If the machine is not already jogged forward:
-
-   * Power on the controller
-   * Connect to **gSender**
-   * Jog the machine forward as needed
-
-1. Select the correct **T-nuts** for your machine:
-
-   * **MK1** – Roll-in T-nuts
-   * **All other AltMills** – Twist-in T-nuts
-
-![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 5.05.49 PM.png>)
-
-2. Pre-assemble:
-
-   * **Four (4) M6 × 8 mm button head screws**
-   * **Four (4) T-nuts**
-
-
-
-4. Bring the **rack and extrusion assembly** to the **back-right corner** of the AltMill.
-
-   * Confirm rack flanges sit flush with the crossbeam faces.
-   * If not, revisit rack section hole placement.
-
-5. Slide **two pre-assembled M6 fasteners** into the crossbeam T-slot where the rack will mount.
-
-6. Lift the rack assembly under the crossbeams and hook the rack flanges onto the M6 fasteners.
-
-7. Position the assembly so:
-
-   * It butts against the AltMill leg
-   * The rack flange butts against the **front crossbeam**
-
-8. Hold the assembly in place and tighten the M6 fasteners.
 
 ## Tool Rack Sensor Cable Routing
 
-1. Route the **tool rack sensor cable** through the cable clips in the crossbeam.
+1. Route the **tool rack sensor cable** through the cable clips in the crossbeam. For **4×8**, route the cable **underneath** the cable track.
 
-   * For **4×8**, route the cable **underneath** the cable track.
+Note: This is different from the TLS cable, making sure you are connecting the correct sensor. 
 
-2. Connect:
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 130648.png>)
 
-   * **Female end** → tool rack sensor
+2. From the tool rack sensor, connect:
+
+   * **Female end** → tool rack sensor cable
    * **Male end** → daughter board on the SLB-EXT
 
      * Use **Rack 1** or **Rack 2** port
 
+
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 134445.png>)
+
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 133357.png>)
+
 ## TLS Cable
 
-1. Route the **TLS cable** through the cable clips:
+1. Grab the TLS cable from the kit. Route the **TLS cable** through the cable clips:
 
    * Leave the **green connector** end at the SLB-EXT
-   * Leave the **black Molex connector** at the back-left of the AltMill
+   * Leave the **black Molex connector** at the back-right of the AltMill, next to the tool rack
+
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 134012.png>) ***Photo to show connectors only
 
 2. Plug the **green connector** into the **TLS port** on the SLB-EXT.
 
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 134317.png>)
 
 
 ## TLS Mounting
@@ -217,10 +234,21 @@ Before continuing, make sure the tool rack sensor is secured onto the rack secti
 
   * **Back-right corner of the AltMill**, next to the tool rack
 
-1. Pre-assemble **two (2) M5 screws** with **T-nuts** on the TLS.
+1. Put the TLS base and body together. 
 
-2. Slide the TLS into the **right Y-axis rail T-slot**.
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 135857.png>)
 
-3. Secure the TLS by tightening the M5 fasteners.
+*** Ignore background, just need picture of the two pieces together
 
-4. Plug the **black Molex connector** from the TLS cable into the TLS.
+2. Pre-assemble **two (2) M6-8mm??? screws** with roll-in **T-nuts** on the TLS.
+
+3. Slide the TLS into the **right Y-axis rail T-slot**.
+
+4. Secure the TLS by tightening the M6 fasteners.
+
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 135611.png>)
+
+5. Plug the **black Molex connector** from the TLS cable into the TLS.
+
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 133231.png>)
+

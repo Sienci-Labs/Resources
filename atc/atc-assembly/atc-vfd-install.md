@@ -15,8 +15,10 @@ featured_image: _images/post-image.jpg
 ---
 
 ## VFD Installation & Connections
-
-1. To prepare for installation, remove and unplug the **E-stop** from the table leg.
+[header image using the following parts:
+mounting spacer, 2x m5 nuts, 4x m5-30 screws, 1x VFD unit, 1x VFD power cable, 1x Modbus cable, 1x daughter board, 1x auxillary backpack cable, 1x SD card
+]
+1. To prepare for installation, remove and unplug the **E-stop** from the table leg. Keep the screws that come with the E-stop.
 
 2. Route the blue connector from the spindle cable through the table leg cutout
 
@@ -28,7 +30,7 @@ Put two (2) M5 nuts into the 3D printed mounting spacer. They should be fully se
 
 ![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 3.28.46 PM.png>)
 
-Place the **mounting spacer** onto the **inner face of the front-left AltMill leg**, then place the VFD against the bracket, aligning the two (2) M5-30mm screws from the E-stop with the bracket holes. Refasten the **E-stop** on the **outer face of the leg**.
+Place the **mounting spacer** onto the **inner face of the front-left AltMill leg**, then place the VFD against the spacer, aligning the two (2) M5-30mm screws from the E-stop with the bracket holes. Refasten the **E-stop** on the **outer face of the leg**.
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_vfd1.jpg){.aligncenter .size-medium}
 
