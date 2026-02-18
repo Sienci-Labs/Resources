@@ -161,8 +161,8 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | M5 Socket Head Screw – 16 mm               | —   | 2   |       |
 | M6 Button Head Screw – 8 mm                | —   | 12  |       |
 | M3 Socket Head Screw – 20 mm               | —   | 2   |       |
-| M6 Twist-In 30-Series T-Nut                | —   | 5   |   |
-| M6 Roll-In  20-Series T-Nut | —   | 5   | For AltMill MK1 only  |
+| M6 Twist-In 30-Series T-Nut                | —   | 5   | For AltMill MK2 and 4x8 only |
+| M6 Roll-In  20-Series T-Nut | —   | 5   |  |
 
 ### Wiring
 
