@@ -28,13 +28,20 @@ featured_image: _images/post-image.jpg
 
 * Verify the **rack sensor** is lit.
 
+**Insert Render** Pic taken
+
   * It should be on if the rack has been installed correctly.
 
 * Press the **Tool Length Sensor (TLS)**.
 
-  * Confirm the **orange TLS LED** on the SLB-EXT turns on.
+**Insert screen shot or gif of light going on/off w button press**
+
+  * Confirm the **orange TLS LED** on the SLB-EXT turns on. This requires 2 people.
+  * Should we be looking at gSender here instead?
 
 * Check air pressure status:
+
+**Insert Picture** Pic taken
 
   * The **white Pressure LED** on the spindle should be on.
   * If the light is **red**:
@@ -53,15 +60,103 @@ The first time you connect to **gSender** with the spindle connected, air will l
 > *Consider introducing tool slot order here (e.g. Tool Slot 1 is left-most) to aid configuration.*
 
 1. Open **gSender** and connect to your machine.
-2. Go to **Tools**.
-3. Confirm the **SD card** is inserted.
+1. Go to **Tools**.
+1. Go to **SD Card Manager**.
+1. Confirm the **SD card** is inserted.
+
+**Insert Pic** taken
 
    * We strongly recommend using the SD card provided with your kit.
    * Other SD cards may require reformatting.
 
+### Accessory Installation
+
+Configuration file 20251009
+
+1. Stay on your Tools tab, and click on Accessory Installation.
+1. Select Sienci ATC and click on that box. This process should take approx 30 min.
+1. Select **Initial Setup**.
+1. Select Rack size. For this example, we are selecting a 6 tool rack. Hit upload.
+1. Once the button turns green, click Next in the bottom right corner. (Sofware Feedback -- The button turned back to blue and Upload. User may think "Did I not upload?")
+
 ### Controller Configuration
 
-* During **Controller Configuration**, press **Apply**.
+1. This step will configure your controller. Hit the blue button Apply.
+1. Once the wizard runs, hit Next.
+1. This step will update your homing position. Hit the blue **Re-home button** to begin this wizard.
+1. Once the button turns green and shows Complete, continue with the Next button. You will also notice the air stops leaking from the bottom of the spindle during this step if successful.
+
+### Rack Position
+
+This next wizard will allow us to manually move the ATC to find the tool-studs. We will be lining up an LED sensor on the front of the ATC with the tip of the tool-stud until the LED light goes on. (May not be correct Y axis movement if using a MK1 or early MK2)
+
+1. Ensure **Use Utility** is selected in the drop down menu. (We cover setting the rack position manually HERE)
+
+1. You will be moving the spindle approximately 1140mm to the right on the X axis, 20mm forward on your Y axis, and 100mm down on your Z axis to get in the general area. Let's begin:
+
+1. You can set your speed to rapid and enter 1140 into your XY travel distance box, then hit X+.
+
+**Insert Picture** taken gif of spindle move taken too
+
+1. Set your speed to normal, enter 20mm into your XY travel distance box, then hit the Y- arrow.
+
+**Insert Picture** taken of gSender and spindle
+
+1. Keeping your speed at normal, enter 100 mm into your Z distance travel box, then hit the Z- button on the right side.
+
+**Insert Picture** taken
+
+1. You can keep your speed at normal or move to precise at this step, and adjust until you see the light on the front of the ATC light up. Once the light is on, hit the **Blue Find Rack** button. This will bring up a **Probing Sequence** confirmation box. Be prepared to hit the E-Stop and hit OK to continue.
+
+Once complete, you will see another confirmation box pop up. We will be moving to the next tool, so ensure the tool stud is mounted there before continuing. Hit OK.
+
+(Software now offers Reset button and continue. Should be cancel?) Also message could be clearer. Sure my probed rack offsets are done, but can I just get a congrats?
+
+1. You should have the spindle sitting over your tool-stud (position 1) with the red light on. Hit continue. Your spindle will return to home. 
+
+1. Click Next
+
+### Tool Length Sensor Position
+
+Now we will be setting the location of the TLS.
+
+1. We are going to move the spindle all the way to the right side again, to set the location of the tls. You can jog all the way, or enter 1250mm into the XY travel distance box to get close.
+1. Now you can adjust forward (Y-) approx 80mm, and down (Z-) by approx 130mm.
+1. Now do manual adjustments until the spindle nose is directly above the tls.
+
+**Insert Pic** taken
+
+1. Now you can hit the blue **Set Position** button!
+1. Once the button turns green and indicates the position has been set, hit the Next button.
+
+### Spindle Configuration
+
+(Software -- before setting the modbus address is maybe too much info?)
+
+1. Hit the setup and reboot blue button.
+1. You must now reconnect to the controller.
+
+**Insert Pic** Reconnect to controller taken
+
+1. Ignore the Alarm 11, and click the Next button
+1. This will bring up the Modbus Config wizard.
+
+### Modbus Config
+
+1. Hit the button
+
+Setup Complete!! Exit the wizard now.
+
+(Software -- tab is visible in Carve, but toggle & passthrough is off in Config -> Tool Settings)
+
+The last step is to run homing again.
+
+Bob is your uncle now.
+
+1. Go to Config -> Tool Changing.
+1. Toggle the Enable ATCi switch and hit the apply changes button.
+
+During **Controller Configuration**, press **Apply**.
 * You should hear the air leak **stop** once configuration is applied.
 
 ### Rehoming
