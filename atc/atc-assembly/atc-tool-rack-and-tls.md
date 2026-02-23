@@ -20,7 +20,6 @@ featured_image: _images/post-image.jpg
 
 > **No rack?** Skip ahead to the **TLS Cable** section in this article. ***Insert link to heading
 
-
 Header photo (fasteners are unconfirmed yet, better wait for now): 1x support extrusion, 2x front rack section, 1x back right rack section, 1x back left rack section, M6-14mm screws, M6 Roll-in T-nuts, M6 Twist-in T-nuts, M6-8mm screws, M3-20mm screws, M4-8mm screws, 2 or 4 knobs, 1x tool rack sensor cable, 1x TLS cable, 1x TLS body, 1x TLS base, 1 or 2x backbone, 6 or 12x inserts
 
 ## Rack Assembly
@@ -241,3 +240,5 @@ Note: This is different from the TLS cable, making sure you are connecting the c
 1. Plug the **black Molex connector** from the TLS cable into the TLS.
 
 ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 133231.png>)
+
+Your tool rack and TLS are now completely assembled!
