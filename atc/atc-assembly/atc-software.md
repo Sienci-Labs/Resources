@@ -13,106 +13,133 @@ custom_fields:
 skip_file: no
 featured_image: _images/post-image.jpg
 ---
- 
-
----
 
 ## Software Setup
 
 1. Plug the **VFD power cable** into an outlet and turn on the power switch at the bottom of the VFD.
-2. Turn on the **SLB-EXT** using its toggle switch.
-
----
+1. Turn on the **SLB-EXT** using its toggle switch, cycling the E-stop as usual.
 
 ## Initial Hardware Checks
 
-* Verify the **rack sensor** is lit.
+* Verify the **rack sensor** is on. It should be on if the rack has been installed correctly.
 
-**Insert Render** Pic taken
-
-  * It should be on if the rack has been installed correctly.
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_tlsensor.jpg){.aligncenter .size-medium}
 
 * Press the **Tool Length Sensor (TLS)**.
 
-**Insert screen shot or gif of light going on/off w button press**
+* Confirm the **orange TLS LED** on the SLB-EXT turns on. This requires 2 people, should we direct people to look at gSender here instead?
 
-  * Confirm the **orange TLS LED** on the SLB-EXT turns on. This requires 2 people.
-  * Should we be looking at gSender here instead?
+**Insert screen shot or gif of light going on/off w button press. Maybe combine button press gif w light going on/off.**
 
-* Check air pressure status:
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_machineinfo.JPG){.aligncenter .size-medium}
 
-**Insert Picture** Pic taken
+* Check the **white Pressure LED** on the spindle is on.
 
-  * The **white Pressure LED** on the spindle should be on.
-  * If the light is **red**:
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_airpressure.jpg
+){.aligncenter .size-medium}
 
-    * Check the air compressor gauge
-    * Check the filter regulator gauge
-    * Ensure the ball valve is open
+* If the light is **red**:
+
+  * Check the air compressor gauge
+  * Check the filter regulator gauge
+  * Ensure the ball valve is open
 
 ⚠️ **Note:**
 The first time you connect to **gSender** with the spindle connected, air will leak because the system has not yet been configured.
 
----
-
 ## gSender Setup
-
-> *Consider introducing tool slot order here (e.g. Tool Slot 1 is left-most) to aid configuration.*
 
 1. Open **gSender** and connect to your machine.
 1. Go to **Tools**.
 1. Go to **SD Card Manager**.
-1. Confirm the **SD card** is inserted.
+1. Insert your **SD card** into the slot.
+1. Confirm the **SD card** is inserted by......????
 
-**Insert Pic** taken
+![](/_images/_atc/_atc_assembly/temp/aatc_assembly_soft_sdcard.jpg){.aligncenter .size-medium}
 
-   * We strongly recommend using the SD card provided with your kit.
-   * Other SD cards may require reformatting.
+* We strongly recommend using the SD card provided with your kit.
+* Other SD cards may need to be reformatted to FAT32 and must not exceed a capacity of 32 GB.
+
+We will be using gSender to write the latest ATC macros to your SDCard in the initial setup stage.
 
 ### Accessory Installation
 
-Configuration file 20251009
-
 1. Stay on your Tools tab, and click on Accessory Installation.
+
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_accessoryinstal.jpg){.aligncenter .size-medium}
+
 1. Select Sienci ATC and click on that box. This process should take approx 30 min.
 1. Select **Initial Setup**.
+
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_initialsetup.jpg){.aligncenter .size-medium}
+
 1. Select Rack size. For this example, we are selecting a 6 tool rack. Hit upload.
-1. Once the button turns green, click Next in the bottom right corner. (Sofware Feedback -- The button turned back to blue and Upload. User may think "Did I not upload?")
+
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_macroconfig.jpg){.aligncenter .size-medium}
+
+1. Once the button turns green, click Next in the bottom right corner.
 
 ### Controller Configuration
 
 1. This step will configure your controller. Hit the blue button Apply.
 1. Once the wizard runs, hit Next.
 1. This step will update your homing position. Hit the blue **Re-home button** to begin this wizard.
-1. Once the button turns green and shows Complete, continue with the Next button. You will also notice the air stops leaking from the bottom of the spindle during this step if successful.
+1. Once the button turns green and shows Complete, continue with the Next button.
+
+* You should hear the air leak **stop** once configuration is applied.
 
 ### Rack Position
 
-This next wizard will allow us to manually move the ATC to find the tool-studs. We will be lining up an LED sensor on the front of the ATC with the tip of the tool-stud until the LED light goes on. (May not be correct Y axis movement if using a MK1 or early MK2)
+This next wizard will allow us to manually move the ATC to find the tool-studs. We will be lining up an LED sensor on the front of the ATC with the tip of the tool-stud until the LED light goes on.
 
-1. Ensure **Use Utility** is selected in the drop down menu. (We cover setting the rack position manually HERE)
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_rackposition.jpg){.aligncenter .size-medium}
 
-1. You will be moving the spindle approximately 1140mm to the right on the X axis, 20mm forward on your Y axis, and 100mm down on your Z axis to get in the general area. Let's begin:
+1. Ensure **Use Utility** is selected in the drop down menu.
 
-1. You can set your speed to rapid and enter 1140 into your XY travel distance box, then hit X+.
+⚠️ **Caution:**
+Move slowly. Avoid crashing the **stud finder** or **spindle nose**.
 
-**Insert Picture** taken gif of spindle move taken too
+1. You will be moving the spindle approximately 1140mm to the right on the X axis, 20mm forward on your Y axis, and 100mm down on your Z axis to get in the general area of our target (Starting from the back left corner). Let's begin:
+  
+**Note: These movements may not be correct Y axis movement if using a MK1 or early MK2)**
+
+1. You can set your speed to rapid and enter 1140 into your XY travel distance box, then hit X+, or simply hold the X+ button down to move to the right.
+
+**Insert Picture or gif of machine moving**
 
 1. Set your speed to normal, enter 20mm into your XY travel distance box, then hit the Y- arrow.
 
-**Insert Picture** taken of gSender and spindle
+**Insert Picture or gif of machine moving**
 
 1. Keeping your speed at normal, enter 100 mm into your Z distance travel box, then hit the Z- button on the right side.
 
-**Insert Picture** taken
+**Insert Picture or gif of machine moving**
 
-1. You can keep your speed at normal or move to precise at this step, and adjust until you see the light on the front of the ATC light up. Once the light is on, hit the **Blue Find Rack** button. This will bring up a **Probing Sequence** confirmation box. Be prepared to hit the E-Stop and hit OK to continue.
+1. Use **precise jog** (small taps only) to get approximately:
 
-Once complete, you will see another confirmation box pop up. We will be moving to the next tool, so ensure the tool stud is mounted there before continuing. Hit OK.
+   * **1 mm** or **1/16 in** above the stud finder, to see the light turn on
 
-(Software now offers Reset button and continue. Should be cancel?) Also message could be clearer. Sure my probed rack offsets are done, but can I just get a congrats?
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_lighton.JPG){.aligncenter .size-medium}
 
-1. You should have the spindle sitting over your tool-stud (position 1) with the red light on. Hit continue. Your spindle will return to home. 
+Once the light is on, hit the **Blue Find Rack** button.
+
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_rackprobe.jpg){.aligncenter .size-medium}
+
+This will bring up a **Probing Sequence** confirmation box, hit OK to continue.
+
+* The machine will move in a small grid pattern to re-locate the stud. The process will repeat for the **left-most tool holder**.
+
+Once complete, you will see another confirmation box pop up. We will be moving to the next tool (tool #6), so ensure the tool stud is mounted there before continuing. Hit OK.
+
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_rackprobenext.jpg){.aligncenter .size-medium}
+
+**Add a indication of where tool 1 and tool 6 are in this image below.**
+
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_2ndtool.JPG){.aligncenter .size-medium}
+
+1. You should now have the spindle sitting over your tool-stud (position 1) with the red light on. Hit continue. Your spindle will return to home.
+
+**Verify this step is correct, isn't it simply sitting over position 6?**
 
 1. Click Next
 
@@ -124,19 +151,19 @@ Now we will be setting the location of the TLS.
 1. Now you can adjust forward (Y-) approx 80mm, and down (Z-) by approx 130mm.
 1. Now do manual adjustments until the spindle nose is directly above the tls.
 
-**Insert Pic** taken
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_tlsaligned.JPG){.aligncenter .size-medium}
 
 1. Now you can hit the blue **Set Position** button!
 1. Once the button turns green and indicates the position has been set, hit the Next button.
 
 ### Spindle Configuration
 
-(Software -- before setting the modbus address is maybe too much info?)
+In this section we will be power cycling and reconnecting to the SLB EXT, ignoring an Alarm and hitting the next button.
 
 1. Hit the setup and reboot blue button.
 1. You must now reconnect to the controller.
 
-**Insert Pic** Reconnect to controller taken
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_spindleconnect.JPG){.aligncenter .size-medium}
 
 1. Ignore the Alarm 11, and click the Next button
 1. This will bring up the Modbus Config wizard.
@@ -145,9 +172,9 @@ Now we will be setting the location of the TLS.
 
 1. Hit the button
 
-Setup Complete!! Exit the wizard now.
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_setupcomplete.jpg){.aligncenter .size-medium}
 
-(Software -- tab is visible in Carve, but toggle & passthrough is off in Config -> Tool Settings)
+Setup Complete!! Exit the wizard now.
 
 The last step is to run homing again.
 
@@ -156,35 +183,7 @@ Bob is your uncle now.
 1. Go to Config -> Tool Changing.
 1. Toggle the Enable ATCi switch and hit the apply changes button.
 
-During **Controller Configuration**, press **Apply**.
-* You should hear the air leak **stop** once configuration is applied.
 
-### Rehoming
-
-* At the **Rehome** stage:
-
-  * The machine should home **each axis individually**.
-
----
-
-## Rack Position (Utility)
-
-⚠️ **Caution:**
-Move slowly. Avoid crashing the **stud finder** or **spindle nose**.
-
-1. Jog the machine to the **back**.
-
-2. Jog to the **right** until the stud finder sensor triggers over the **right-most tool holder**.
-
-3. Use **precise jog** (small taps only) to get approximately:
-
-   * **1 mm** or **1/16 in** above the stud finder
-
-4. Press **Finding** to begin the rack probe sequence.
-
-   * The machine will move in a small grid pattern to re-locate the stud.
-
-5. The process will repeat for the **left-most tool holder**.
 
 ### Probed Rack Offsets
 
