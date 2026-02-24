@@ -113,14 +113,14 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | Clear Cut Dust Shoe – Upper                   | Dust Shoe | 1   |       |
 | Clear Cut Dust Shoe – Lower                   | Dust Shoe | 1   |       |
 | 4″ Ring Clamp                                 | Dust Shoe | 2   |       |
-| Clear Cut Dust Shoe – ATC Bracket             | Dust Shoe | 1   |       |
-| Clear Cut Dust Shoe – ATC Front Gasket        | Dust Shoe | 1   |       |
-| Clear Cut Dust Shoe – ATC Rear Gasket         | Dust Shoe | 1   |       |
-| Clear Cut Dust Shoe – ATC Slider Bushing      | Dust Shoe | 2   |       |
-| ATC Hose Management Bracket                   | Dust Shoe | 1   |       |
-| M5 Socket Head Screws – 12mm ??16mm on bag    | Dust Shoe | 4   |       |
+| ATC Dust Shoe Bracket                         | Dust Shoe | 1   |       |
+| Front Gasket                                  | Dust Shoe | 1   |       |
+| Rear Gasket                                   | Dust Shoe | 1   |       |
+| 3D Printed Slider                             | Dust Shoe | 2   |       |
+| ATC Hose            Bracket                   | Dust Shoe | 1   |       |
+| M5 Socket Head Screws – 16mm                  | Dust Shoe | 4   |       |
 | M6 Button Head Screws – 14mm                  | Dust Shoe | 2   |       |
-| M6 Washer                                     | Dust Shoe | 3?? |       |
+| M6 Washer                                     | Dust Shoe | 3   |       |
 | M6 Knob                                       | Dust Shoe | 2   |       |
 | M4 Button Head – 8mm                          | Dust Shoe | 4   |       |
 
