@@ -21,15 +21,15 @@ No matter what CAM software you are using, you must make sure that:
 
 * Unique tool numbers are assigned to each tool you use in your toolpaths
 
-* The format
-
-The format of each tool change must look like this:
+* The format for each tool change within your g-code starts like this:
 
 M5 (stop spindle)
 
-M6 T1 (tool change, tool number; tool number needs to be single digit e.g. 1-12)
+M6 T1 (tool change, tool number; tool number needs to be whole numbers e.g. 1-12)
 
-M3 S10000 (start spindle, spindle speed)
+M3 SXXXXX (start spindle, spindle speed at XXXXX RPM)
+
+To meet these criteria
 
 Use our post-processor for Vectric VCarve
 
