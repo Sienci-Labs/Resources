@@ -122,7 +122,7 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | M6 Button Head Screws – 14mm                  | Dust Shoe | 2   |       |
 | M6 Washer                                     | Dust Shoe | 3   |       |
 | M6 Knob                                       | Dust Shoe | 2   |       |
-| M4 Button Head – 8mm                          | Dust Shoe | 4   |       |
+| M4 Button Head – 4mm                          | Dust Shoe | 4   |       |
 
 </details>
 

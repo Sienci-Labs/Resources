@@ -18,7 +18,7 @@ featured_image: _images/post-image.jpg
 
 *** insert link for clear cut video when the modified  video comes out
 
-*** header photo 1x Clear Cut Dust Shoe – Upper, 1x Clear Cut Dust Shoe – Lower,  2x 4″ Ring Clamp, 1x ATC dust shoe Bracket, 1x Front Gasket, 1x Rear Gasket, 2x 3D Printed Slider, 1x ATC Hose Bracket, 4x M5-16mm Socket Head Screws, 2x M6-14mm Button Head Screws, 2x M6 Washer, 2x M6 Knob, 3x M4-8mm Button Head screws
+*** header photo 1x Clear Cut Dust Shoe – Upper, 1x Clear Cut Dust Shoe – Lower,  2x 4″ Ring Clamp, 1x ATC dust shoe Bracket, 1x Front Gasket, 1x Rear Gasket, 2x 3D Printed Slider, 1x ATC Hose Bracket, 4x M5-16mm Socket Head Screws, 2x M6-14mm Button Head Screws, 2x M6 Washer, 2x M6 Knob, 3x M4-4mm Button Head screws
 
 ### Assembly
 
@@ -62,9 +62,10 @@ featured_image: _images/post-image.jpg
 
    * Unplug the VFD or switch it off.
 
-1. Assemble the **hose bracket** onto the top of the spindle using three (3) M4-8mm button head screws.
+1. Assemble the **hose bracket** onto the top of the spindle using three (3) M4-4mm button head screws.
 
    * ⚠️ Do not drop screws into the spindle.
+   * You may want to put a piece of paper to cover the spindle holes while assembling the fasteners. Remove the paper when you are done!
 
 ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 144517.png>)
 
