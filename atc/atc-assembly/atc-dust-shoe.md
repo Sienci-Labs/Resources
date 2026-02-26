@@ -1,6 +1,6 @@
 ---
 title: ATC Dust Shoe
-menu_order: 7
+menu_order: 8
 post_status: draft
 post_excerpt: Assembling and installing the clear dust shoe for the atc.
 post_date: 2026-02-10 11:48:53
@@ -14,50 +14,47 @@ skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
-https://youtu.be/EDFtzKVT4R4
-
 ## Clear Cut Dust Shoe Installation
 
-### Included Hardware
+*** insert link for clear cut video when the modified  video comes out
 
-* 2 × Thumbscrew knobs
-* 3D-printed sliders
-* 3D-printed front gasket
-* 3D-printed rear gasket
-* Washers
-* Screws
-* Dust collector hose bracket
-* Dust shoe bracket *(consider renaming to “adapter”)*
-* Dust shoe top and bottom
-* 2 × 4" hose clamps
+*** header photo 1x Clear Cut Dust Shoe – Upper, 1x Clear Cut Dust Shoe – Lower,  2x 4″ Ring Clamp, 1x ATC dust shoe Bracket, 1x Front Gasket, 1x Rear Gasket, 2x 3D Printed Slider, 1x ATC Hose Bracket, 4x M5-16mm Socket Head Screws, 2x M6-14mm Button Head Screws, 2x M6 Washer, 2x M6 Knob, 3x M4-4mm Button Head screws
 
 ### Assembly
 
-1. Attach the **front and rear gaskets** to the dust shoe bracket:
+1. Attach the **front and rear gaskets** to the ATC dust shoe bracket:
 
-   * Align front holes
-   * Snap rear fingers into place
-   * Gaskets should sit flush
+   * Align holes between the front gasket and bracket
+   * Snap fingers of rear gasket into place
+   * Both gaskets should sit flush to the bottom of the bracket
 
-2. Insert **four (4) M5 × 16 mm screws**—one in each corner.
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 133757.png>)
 
-   * Fasten the dust shoe top and bottom to the bracket using an Allen key.
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 133822.png>)
 
-3. Mount the dust shoe assembly onto the spindle.
+1. Insert **four (4) M5-16 mm screws**, one in each corner. Then fasten the dust shoe upper and lower pieces to the bracket using an Allen key.
+
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 134742.png>)
+
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 135753.png>)
+
+1. Mount the dust shoe assembly onto the spindle.
 
 ### Height Adjustment
 
-1. Insert one **M6 × 14 mm screw** into each 3D-printed rectangular slider.
+1. Insert one **M6-14 mm screw** into each 3D-printed rectangular slider.
 
-2. Place sliders on the **left and right sides** of the bracket.
+1. Place sliders on the **left and right sides** of the bracket.
 
    * Secure into the **bottom threaded holes** on the spindle.
 
-3. Place a washer on each knob, then thread the knob into the **top hole** of each slider.
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 140010.png>)
 
-4. Adjust dust shoe height using the bracket flanges.
+1. Place a washer on each knob, then thread the knob into the **top hole** of each slider.
 
-5. Tighten the knobs to lock the position.
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 140315.png>)
+
+1. Adjust dust shoe height to your desired position, then tighten the knobs to lock it in place.
 
 ### Hose Installation
 
@@ -65,15 +62,22 @@ https://youtu.be/EDFtzKVT4R4
 
    * Unplug the VFD or switch it off.
 
-2. Assemble the **hose bracket** onto the top of the spindle.
+1. Assemble the **hose bracket** onto the top of the spindle using three (3) M4-4mm button head screws.
 
    * ⚠️ Do not drop screws into the spindle.
+   * You may want to put a piece of paper to cover the spindle holes while assembling the fasteners. Remove the paper when you are done!
 
-3. Slide a hose clamp onto the hose.
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 144517.png>)
 
-4. Attach the hose to the dust shoe inlet and tighten the clamp.
+1. Slide a hose clamp onto the hose.
 
-5. Zip-tie the hose to the hose bracket for strain relief.
+1. Attach the hose to the dust shoe inlet and tighten the clamp.
+
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 144041.png>)
+
+1. Zip-tie the hose to the hose bracket for strain relief.
+
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 144251.png>)
 
 ### Usage Notes
 
