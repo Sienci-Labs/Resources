@@ -177,7 +177,7 @@ Optionally, you can install all the inserts onto the backbone now, or do it at a
 
 1. Install tool holders into the **first and last slots** of each tool rack assembly.
 
-   * Make sure tool holders are wiped clean with shop towel
+   * Make sure tool holders are wiped clean with shop towel and isopropyl alcohol
    * Fully seat each tool holder, the insert must engage the flats on the tool holder  
 
 ![](../../_images/_atc/_atc_assembly/temp/IMG_0930.JPG)

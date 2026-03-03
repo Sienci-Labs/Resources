@@ -36,17 +36,17 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | ATC Mounting Plate                           | —           | 1   |                                |
 | ATC Signal Cable                             | —           | 1   |                                |
 | 7.2m Spindle Cable                           | —           | 1   |For  4x8 only                   |
-|Plug-In Spindle Cable                         | —           | 1   |For 4x4 and 2x4 only            |
+| Plug-In Spindle Cable                        | —           | 1   |For 4x4 and 2x4 only            |
 | ER20 Collet Set                              | —           | 1   | 12 collets total               |
-| ISO20 + ER20 Wrench Set                      | Accessories | 1   |                                |
+| ISO20 Wrench Set                             | Accessories | 1   |                                |
 
 ### Drag Chain
 
 | Item                                              | Box         | Qty | Notes         |
 | --------------------------------------------------| ------------| --- | --------------|
 | Z axis Drag Chain                                 | —           | 1   |               |
-| Z-axis Drag Chain pickup                          | Accessories | 1   |               |
-| X-axis Drag Chain                                 | Accessories | 1   |For 4x4 only   |
+| Z-axis Drag Chain Pickup                          | Accessories | 1   |               |
+| X-axis Drag Chain Pickup                          | Accessories | 1   |For 4x4 only   |
 
 ### VFD
 
@@ -79,7 +79,7 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 
 | Item                      | Box        | Qty  | Notes |
 | ------------------------- | ---------- | ---- | ----- |
-| 8mm PU Tubing             | —          | 1    | 10m   |
+| 8mm Pneumatic Tubing      | —          | 1    | 10m   |
 | 1/2″ NPT Straight Fitting | Fasteners  | 1    |       |
 
 ### ATC Fasteners & Tools
@@ -110,14 +110,14 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 
 | Item                                          | Box       | Qty | Notes |
 | ----------------------------------------      | --------- | --- | ----- |
-| Clear Cut Dust Shoe – Upper                   | Dust Shoe | 1   |       |
-| Clear Cut Dust Shoe – Lower                   | Dust Shoe | 1   |       |
+| Upper Dust Shoe                               | Dust Shoe | 1   |       |
+| Lower Dust Shoe                               | Dust Shoe | 1   |       |
 | 4″ Ring Clamp                                 | Dust Shoe | 2   |       |
 | ATC Dust Shoe Bracket                         | Dust Shoe | 1   |       |
 | Front Gasket                                  | Dust Shoe | 1   |       |
 | Rear Gasket                                   | Dust Shoe | 1   |       |
 | 3D Printed Slider                             | Dust Shoe | 2   |       |
-| ATC Hose            Bracket                   | Dust Shoe | 1   |       |
+| ATC Hose Bracket                              | Dust Shoe | 1   |       |
 | M5 Socket Head Screws – 16mm                  | Dust Shoe | 4   |       |
 | M6 Button Head Screws – 14mm                  | Dust Shoe | 2   |       |
 | M6 Washer                                     | Dust Shoe | 3   |       |
@@ -147,7 +147,7 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | Back Right Rack Section        | —   | 1   |       |
 | Back Left Rack Section         | —   | 1   |       |
 | Support Extrusion              | —   | 1   |       |
-| Insert                         | —   | 10  |       |
+| Tool Holder Insert             | —   | 10  |       |
 
 #### Fasteners
 
@@ -166,7 +166,7 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | Item                            | Box | Qty | Notes       |
 | ------------------------------  | --- | --- | ------------|
 | ATC Rack Sensor Cable           | —   | 1   |     4.6m    |
-| ATC Rack Sensor with Pigtail    | —   | 1   |             |
+| ATC Rack Sensor                 | —   | 1   |             |
 
 </details>
 
