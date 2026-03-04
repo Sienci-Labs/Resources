@@ -31,6 +31,8 @@ Before you continue, have you...
 If not, please see here for the full list of preparations you need to do before continuing with ATC setup!
  ***[LINK TO WELCOME PAGE, ALSO turn this message into a graphic to really emphasize]
 
+***Need to include header photos
+
 1. From the **Accessories box** in the main ATC box, take out the fasteners bag.
 1. Using the **top foam as a cushion**, remove the spindle from the bottom foam. Place the spindle on the top foam with the **threaded holes facing up**.
 
@@ -43,11 +45,11 @@ If not, please see here for the full list of preparations you need to do before 
 
 **Insert pic of the male drag chain end** can be named -- atc_assembly_spin_male.jpg
 
-1. Place the male link onto the **Z-axis drag chain pickup**, then fasten using **two (2) M4-8 mm screws**.
+1. Place the male link onto the **Z-axis drag chain arm**, then fasten using **two (2) M4-8 mm screws**.
 
 ![](/_images/_atc/_atc_assembly/temp/atc_assembly_spin_zaxispickup.png){.aligncenter .size-medium}
 
-1. Align the assembled Z-axis drag chain pickup onto the back of the spindle at the threaded holes, then use **four (4) M4-8 mm screws** to securely attach it. Make sure the end link faces the front of the ATC (where the buttons are).
+1. Align the assembled Z-axis drag chain arm onto the back of the spindle at the threaded holes, then use **four (4) M4-8 mm screws** to securely attach it. Make sure the end link faces the front of the ATC (where the buttons are).
 
 ![](/_images/_atc/_atc_assembly/temp/atc_assembly_spin_zaxispickup-attached.png){.aligncenter .size-medium}
 
@@ -65,7 +67,7 @@ If not, please see here for the full list of preparations you need to do before 
 
 ![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 9.08.35 AM.png>)
 
-1. Place **four to six (4-6) M6-14 mm screws** into the holes and fasten them using the provided Allen key. The screw heads should sit in the bore holes.
+1. Place **four to six (4-6) M6-14mm screws** into the holes and fasten them using the provided Allen key. The screw heads should sit in the bore holes.
 
 1. Place **two (2) M6 shoulder screws** onto the ATC mounting plate, then align them with the holes on the **X gantry** of the AltMill. Secure using the Allen key. This is easier with 2 people.
 
@@ -75,13 +77,13 @@ If not, please see here for the full list of preparations you need to do before 
 
 ![](/_images/_atc/_atc_assembly/temp/atc_assembly_spin_zaxispick-position.png)
 
-The photo above is incomplete, the pickup should be fully assembled we want to just show the position and orientation of the pickup from the back of the spindle
+The photo above is incomplete, the arm should be fully assembled we want to just show the position and orientation of the arm from the back of the spindle
 
-1. Use **two (2) M6-25 mm screws** on the bottom holes of the plate to fully secure the assembly onto the X gantry.
+1. Use **two (2) M6-25mm screws** on the bottom holes of the plate to fully secure the assembly onto the X gantry.
 
 ![](/_images/_atc/_atc_assembly/temp/atc_assembly_spin_finalbolts.png)
 
-> **Note for 4×8 machines:** Remove the cover of the backpack on the ATC spindle to access more mounting holes on the X gantry. Undo the three screws on the cover, then use **two (2) M6-25 mm screws** to secure the ATC mounting plate to the gantry.
+> **Note for 4×8 machines:** Remove the cover of the backpack on the ATC spindle to access more mounting holes on the X gantry. Undo the three screws on the cover, then use **two (2) M6-25mm screws** to secure the ATC mounting plate to the gantry.
 
 ![](/_images/_atc/_atc_assembly/temp/atc_assembly_spin_4x8.png)
 
@@ -91,7 +93,7 @@ The photo above is incomplete, the pickup should be fully assembled we want to j
 
 This can be tricky, make sure to mind the orientation and the female/male connection types of the drag chain ends. You may need to redo this if you assemble it wrong (we had to do this twice ourselves)!
 
-1. From the other side of the drag chain, remove the **female end link** and place it on the **X-axis drag chain pickup**. Secure it with **two (2) M4-8mm bolts and nuts**.
+1. From the other side of the drag chain, remove the **female end link** and place it on the **Z-plus drag chain bracket**. Secure it with **two (2) M4-8mm bolts and nuts**.
 
 **Insert Picture** a better picture of putting the first male drag chain end onto the triangle drag chain mount. Named atc_assembly_spin_triangle-mount.jpg This picture is focused on showing the part is not threaded and will need a nut on the back.
 
@@ -99,11 +101,11 @@ This can be tricky, make sure to mind the orientation and the female/male connec
 
 1. Make sure the clips on your existing AltMill X drag chain are undone and that the **drag chain mount at the back of the XZ axis is removed** before proceeding.
 
-1. From the existing X drag chain, remove the male drag chain end link and attach it to the X-axis drag chain pickup with **two (2) M4-8 mm screws**.
+1. From the existing X drag chain, remove the male drag chain end link and attach it to the Z-plus drag chain bracket with **two (2) M4-8mm screws**.
 
 ![](/_images/_atc/_atc_assembly/temp/atc_assembly_spin_xaxis-triangle.jpg)
 
-1. Attach the assembled X-axis triangle drag chain bracket to the back of the Z-axis assembly using the screws from the previously removed drag chain mount.
+1. Attach the assembled Z-plus drag chain bracket to the back of the Z-axis assembly using the screws from the previously removed drag chain mount.
 
 ![](/_images/_atc/_atc_assembly/temp/atc_assembly_spin_trianglemount.JPG)
 
@@ -123,7 +125,7 @@ We are now ready to run the new cables through your drag chains.
 
    **Insert Render**
 
-1. Fit the cables and tubing in the space between the Z-axis assembly and the **female end link** on the X-axis drag chain pickup.
+1. Fit the cables and tubing in the space between the Z-axis assembly and the **female end link** on the Z-plus drag chain bracket.
 
    > **Important:** Do not kink the tubing.
 
@@ -158,8 +160,8 @@ Detach all the clips on the Z-axis drag chain with a flathead screwdriver.
 
 > **Important:** Avoid bending the tubing while routing to prevent kinks or blockages.
 
-1. Reattach the X-axis drag chain onto the new pickup.
+1. Reattach the X-axis drag chain onto the new bracket.
 
-**Insert Picture** Need a render of closing the clips on the drag chain. The picture below is simply reattaching the x-axis drag chain to the new triangle mounting bracket.
+**Insert Picture** Need a render of closing the clips on the drag chain. The picture below is simply reattaching the x-axis drag chain to the new Z-plus drag chain bracket.
 
 ![](/_images/_atc/_atc_assembly/temp/atc_assembly_spin_reconnect.jpg)

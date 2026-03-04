@@ -45,8 +45,8 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | Item                                              | Box         | Qty | Notes         |
 | --------------------------------------------------| ------------| --- | --------------|
 | Z axis Drag Chain                                 | —           | 1   |               |
-| Z-axis Drag Chain Pickup                          | Accessories | 1   |               |
-| X-axis Drag Chain Pickup                          | Accessories | 1   |For 4x4 only   |
+| Z-axis Drag Chain Arm                             | Accessories | 1   |               |
+| Z-Plus Drag Chain Bracket                         | Accessories | 1   |For 4x4 only   |
 
 ### VFD
 
@@ -121,7 +121,7 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | M5 Socket Head Screws – 16mm                  | Dust Shoe | 4   |       |
 | M6 Button Head Screws – 14mm                  | Dust Shoe | 2   |       |
 | M6 Washer                                     | Dust Shoe | 3   |       |
-| M6 Knob                                       | Dust Shoe | 2   |       |
+| Dust Shoe Handle                              | Dust Shoe | 2   |       |
 | M4 Button Head – 4mm                          | Dust Shoe | 4   |       |
 
 </details>
@@ -147,7 +147,7 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | Back Right Rack Section        | —   | 1   |       |
 | Back Left Rack Section         | —   | 1   |       |
 | Support Extrusion              | —   | 1   |       |
-| Tool Holder Insert             | —   | 10  |       |
+| Tool Holder Clip               | —   | 10  |       |
 
 #### Fasteners
 
