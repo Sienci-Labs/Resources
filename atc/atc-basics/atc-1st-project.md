@@ -16,7 +16,7 @@ featured_image: _images/post-image.jpg
 
 # First Project: Sassy Wooden Cookies with the ATC
 
-Now that our Automatic Tool Changer is installed and configured, it’s time to run our first real project.
+Now that our Automatic Tool Changer with a single rack is installed and configured, it’s time to run our first real project.
 
 In this exercise, we’ll cut out circular wooden “cookies” and engrave short sassy sayings on them. The goal is simple: confirm that our tool numbers, rack positions, and g-code formatting all work together in a real multi-tool job.
 
@@ -37,6 +37,8 @@ We’ll keep the design simple for this first test. The focus here is the tool c
 
 We’ll load the following tools into the rack and confirm their positions match our CAM tool numbers.
 
+![](/_images/_atc/_atc_basics/atc_basics_firstpro-toolsloaded.jpg){.aligncenter .size-medium}
+
 **Tool 1 (leftmost position)**  
 22 mm surfacing bit
 
@@ -47,20 +49,24 @@ We’ll load the following tools into the rack and confirm their positions match
 30° V-bit for engraving the fine text.
 
 **Tool 4**
-1/16" downcut endmill for pocketing large text
+1/16" downcut endmill for pocketing large blocky text
 
 **Tool 5**
 1/8" downcut endmill to cut out the cookies
 
-
+![](/_images/_atc/_atc_basics/atc_basics_firstpro-toolorder6.jpg "Tools 1-5 are loaded and ready to carve"){.aligncenter .size-medium}
 
 ## Material and Workholding
 
-We are being a bit ambitious with this project, by using 5 different types of wood, all at one time. What would traditionally be done one board at a time, with manual tool changes, we are doing 5 separate carves, all combined into one. We’ll start with a flat, surfaced board taped firmly together the wasteboard. In this project we are using 5 different types of wood, all 609.6mm or 24" long. 3 boards are 127mm or 5", one is 114.3mm or 4.5" and the top board is 101.6mmm or 4". All are 6.35mm or 1/4" thick.
+We are being a bit ambitious with this project, by using 5 different types of wood, all at one time. Instead of carving one board at a time with manual tool changes, we’re combining five separate carves into one. In this project we are using 5 different types of wood, all 609.6mm or 24" long. 3 boards are 127mm or 5", one is 114.3mm or 4.5" and the top board is 101.6mmm or 4". All are 6.35mm or 1/4" thick.
+
+We’ll start by combining  our 5 boards, taped firmly together.
 
 ![](/_images/_atc/_atc_basics/atc_basics_firstpro-workholding.jpg){.aligncenter .size-medium}
 
-We'll be using tape and glue, without screws, as we will be surfacing a tiny bit as our 1st tool. 
+We'll be using tape and glue, trying to minimize any screws, as we will be surfacing the entire project with our first tool. If you find your boards are a bit warped and need to use a couple screws to fully secure your work, ensure they are counter sunk by at least 1
+
+![](/_images/_atc/_atc_basics/atc_basics_firstpro-workholdglue.jpg){.aligncenter .size-medium}
 
 ## Designing the File
 
