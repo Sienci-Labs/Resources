@@ -54,7 +54,7 @@ Header photo (fasteners are unconfirmed yet, better wait for now): 1x support ex
 
     ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 140903.png>)
 
-    ![](<../../_images/_atc/_atc_assembly/Screenshot 2026-02-12 at 5.21.05 PM.png>)
+    ![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 5.21.05 PM.png>)
 
    ![](/_images/_atc/_atc_assembly/temp/IMG_0903.JPG)
 
