@@ -1,6 +1,6 @@
 ---
 title: System Requirements 📊
-menu_order: 5
+menu_order: 0
 post_status: publish
 post_excerpt: Hardware requirements to run the LongMill CNC. Includes computer specifications, internet access and considerations for running CAD/CAM software.
 post_date: 2021-04-20 17:00:00
