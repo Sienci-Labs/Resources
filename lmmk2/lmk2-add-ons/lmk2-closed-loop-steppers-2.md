@@ -83,7 +83,7 @@ Ok, nicely done! We will now run the process we just completed, in reverse. Grab
 
 Let's begin by sliding each M5-50mm bolt into a matching 40mm spacer.
 
-Thread each bolt/spacer into the corresponding 4 holes to secure the motor in place. Using either a drill or an M5 allen key, tighten each spacer/bolt combo. 
+Thread each bolt/spacer into the corresponding 4 holes to secure the motor in place. Using either a drill or an M5 allen key, tighten each spacer/bolt combo.
 
 **Note - The latest motors do not have a red stripe around them, they are all black.**
 
@@ -117,7 +117,7 @@ Check to ensure the DIP switches on the X and Y axis motors follow the order of:
 
 ## Sensors
 
-With the upgraded motors and SLB EXT, you will receive 4 new limit switches (inductive sensors) with short pigtail connectors. In this section, we will swap out the 3 originals and install 4 new ones. Once complete, you will have a sensor on your Z axis, A axis and one on each Y axis, for a total of 4 sensors!!
+With the upgraded motors and SLB EXT, you will receive 4 new limit switches (inductive sensors) with short pigtail connectors. In this section, we will swap out the 3 originals and install 4 new ones. Once complete, you will have a sensor on your Z axis, X axis and one on each Y axis, for a total of 4 sensors!!
 
 Having an extra limit switch on your Y axis, allows you to home each axis (Y1 and Y2) individually.
 
