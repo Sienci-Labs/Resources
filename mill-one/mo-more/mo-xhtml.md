@@ -16,6 +16,7 @@ featured_image: _images/_mill-one/_more/mo_touch_plate_p1_Arduino.jpg
 ---
 
 To help you decide what software would work best for you we've done three things:
+
 <ol>
 <li>Created a <b><a href="#toolchain-wizard">Toolchain Wizard</a></b> which can provide you with smart recommendations after asking you 5 easy questions</li>
 <li>Compiled a list of programs that we'd <a href="#our-recommendations"><b>personally recommend</b></a> for the average CNCer</li>
