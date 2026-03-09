@@ -29,9 +29,12 @@ This wizard will provide you with general software suggestions based on your CNC
 
 <div id="my-react-toolchain"> </div>
 <div id="ToolTable"> </div>
+
 <script src="https://resources.sienci.com/wp-content/react/wizard.js"></script>
 
-<style>@import url('https://resources.sienci.com/wp-content/react/wizard.css')</style>
+<style>
+@import url('https://resources.sienci.com/wp-content/react/wizard.css')
+</style>
 
 ## Our Recommendations
 
