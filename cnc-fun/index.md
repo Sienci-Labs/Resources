@@ -32,10 +32,10 @@ General CNC page order should be as follows: (last updated as of Aug 21, 2025)
 
 💻 Software
 
-1. System Requirements
-2. Software Explained
-3. Choosing Software
-4. Post Processors
+1. Software Explained
+2. Choosing Software
+3. Post Processors
+4. System Requirements
 5. Visualizers
 6. Software Table
 

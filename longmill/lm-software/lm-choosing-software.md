@@ -1,6 +1,6 @@
 ---
 title: Choosing Software 🎛️
-menu_order: 0
+menu_order: 2
 post_status: publish
 post_excerpt: CNC software and toolchain explained. Recommended programs for design, CAM and machine interface for beginner and advanced users provided.
 post_date: 2021-04-20 16:40:00
