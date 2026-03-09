@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/_cnc-fun/_software/cnc_so_choosingsoft_gsender-nu.jpg
 ---
 
@@ -47,8 +47,12 @@ This wizard will provide you with general software suggestions based on your CNC
 
 <div id="my-react-toolchain"></div>
 <div id="ToolTable"></div>
-<p><script src="https://resources.sienci.com/wp-content/react/wizard.js"></script></p>
-<style>@import url('https://resources.sienci.com/wp-content/react/wizard.css')</style></p>
+
+<script src="https://resources.sienci.com/wp-content/react/wizard.js"></script>
+
+<style>
+@import url('https://resources.sienci.com/wp-content/react/wizard.css')
+</style>
 
 ## Our Recommendations
 

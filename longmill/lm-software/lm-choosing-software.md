@@ -1,7 +1,7 @@
 ---
-title: ytsb Choosing Software 🎛️
+title: Choosing Software 🎛️
 menu_order: 0
-post_status: draft
+post_status: publish
 post_excerpt: CNC software and toolchain explained. Recommended programs for design, CAM and machine interface for beginner and advanced users provided.
 post_date: 2021-04-20 16:40:00
 taxonomy:
@@ -49,8 +49,12 @@ This wizard will provide you with general software suggestions based on your CNC
 
 <div id="my-react-toolchain"> </div>
 <div id="ToolTable"> </div>
-<p><script src="https://resources.sienci.com/wp-content/react/wizard.js"></script></p>
-<style>@import url('https://resources.sienci.com/wp-content/react/wizard.css')</style></p>
+
+<script src="https://resources.sienci.com/wp-content/react/wizard.js"></script>
+
+<style>
+@import url('https://resources.sienci.com/wp-content/react/wizard.css')
+</style>
 
 ## Our Recommendations
 
