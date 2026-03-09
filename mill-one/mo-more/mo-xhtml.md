@@ -1,7 +1,7 @@
 ---
-title: This post has HTML
+title: Scripts
 menu_order: 6
-post_status: draft
+post_status: publish
 post_excerpt: Testing
 post_date: 2023-05-07 15:29:20
 taxonomy:
@@ -12,7 +12,7 @@ custom_fields:
     KBName: Mill One CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_mill-one/_more/mo_touch_plate_p1_Arduino.jpg
 ---
 
 To help you decide what software would work best for you we've done three things:
