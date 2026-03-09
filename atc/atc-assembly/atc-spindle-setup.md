@@ -1,6 +1,6 @@
 ---
 title: ATC Spindle Setup
-menu_order: 2
+menu_order: 3
 post_status: draft
 post_excerpt: Assembly instructions for setting up the atc spindle on an AltMill. 
 post_date: 2026-02-10 11:14:53

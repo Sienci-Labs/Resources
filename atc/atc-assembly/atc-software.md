@@ -1,6 +1,6 @@
 ---
 title: ATC Software
-menu_order: 6
+menu_order: 7
 post_status: draft
 post_excerpt: Setting up gSender to work with the atc.
 post_date: 2026-02-10 11:47:53
@@ -13,6 +13,8 @@ custom_fields:
 skip_file: no
 featured_image: _images/post-image.jpg
 ---
+
+
 
 ## Software Setup
 

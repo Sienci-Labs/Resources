@@ -125,3 +125,47 @@ If everything completed as expected, we’ve successfully verified:
 - Our Altmill is ready for more advanced multi-tool jobs  
 
 From here, we can move on to more complex projects that combine pocketing, profiling, chamfering, and engraving in a single automated workflow.
+
+
+Tool Table
+A new Tool Table allows you to manage all tool-related information in one place.
+
+You can now:
+
+Store tool offsets
+Assign nicknames to tools
+Probe individual tools or complete racks
+This makes it much easier to maintain consistent tool setups across jobs.
+
+Tool Timeline
+Tool changes during a job are now represented in a Tool Timeline, giving a clear view of when tool changes occur and which tool is currently active.
+
+This helps users quickly understand multi-tool programs and track job progress more easily.
+
+Tool Remapping
+Tool remapping allows you to adapt a G-code file’s tool numbers to your machine setup without editing the file itself.
+
+This is particularly helpful when:
+
+CAM tool numbers don’t match rack positions
+You want to run the same job with a different tool configuration
+Tool racks change between jobs
+Remapping can now be configured directly inside gSender before running a job.
+
+ATC Workflow Controls
+New controls were added to support day-to-day ATC operation.
+
+You can now:
+
+Load tools - both manually and using the rack
+Unload tools - both manually and using the rack
+These actions tie directly into ATC macros and make managing tool states much easier during operation.
+
+Accessory Installation Tool
+To make getting started with an Automatic Tool Changer easier, gSender now includes an ATC setup tool that helps guide users through the initial configuration process.
+
+The setup tool walks through the core steps required to configure an ATC system, including importing macro templates, defining rack size and behaviour, and writing the required configuration files to the controller’s SD card. This removes much of the manual setup that was previously required and helps ensure the necessary macros and configuration files are installed correctly.
+
+The goal of the setup tool is to simplify the process of bringing an ATC system online, reducing the chances of configuration mistakes and making it easier for users to get up and running with automated tool changes.
+
+We plan on expanding this tool to various other accessories that need software and controller configuration, such as spindles.
