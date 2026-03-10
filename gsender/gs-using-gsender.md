@@ -21,7 +21,7 @@ When you double click the gSender icon to open up the program, it can take sever
 
 ![](/_images/_gsender/_using/gs_us_notconnected.jpg){.aligncenter .size-medium}
 
-Connect to your CNC machine by hovering over the **Connect to CNC** button at the top left corner of the screen and clicking the first option (*note that it's recommended to connect this way on your first setup even if you're planning to use Ethernet in the long-run*).
+Connect to your CNC machine by hovering over the **Connect to CNC** button at the top left corner of the screen and clicking the first option (*note that it's recommended to connect this way on your first setup even if you're [planning to use Ethernet in the long-run](https://resources.sienci.com/view/gs-additional-features/#ethernet-connection)*).
 
 ![](/_images/_gsender/_using/gs_us_connectcnc.jpg){.aligncenter .size-full}
 
