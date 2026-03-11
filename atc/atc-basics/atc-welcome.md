@@ -48,4 +48,4 @@ If you’d like to converse and learn from others, check out either our Forum or
 | [![Forum](https://resources.sienci.com/wp-content/uploads/2021/06/Icon2-scaled-1.jpg)](https://forum.sienci.com/) | [![Facebook](https://resources.sienci.com/wp-content/uploads/2021/06/Icon1-scaled-1.jpg)](https://www.facebook.com/groups/mill.one/) |
 | **Community Forum** | **Facebook Group** |
 
-We wish you the best on your CNC journey!
+We wish you the best on your ATC CNC journey!

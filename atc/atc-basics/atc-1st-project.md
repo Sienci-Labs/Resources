@@ -169,3 +169,9 @@ The setup tool walks through the core steps required to configure an ATC system,
 The goal of the setup tool is to simplify the process of bringing an ATC system online, reducing the chances of configuration mistakes and making it easier for users to get up and running with automated tool changes.
 
 We plan on expanding this tool to various other accessories that need software and controller configuration, such as spindles.
+
+### Table & T-Track Considerations
+
+Depending on your table setup, you may need to adjust your T-tracks.
+
+- T-tracks may need to be **cut or repositioned** so they run **horizontally (left-to-right)** rather than **vertically (front-to-back)**, as your wasteboard is now shorter.
