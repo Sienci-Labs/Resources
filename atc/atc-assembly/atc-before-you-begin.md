@@ -110,7 +110,7 @@ Before starting your ATC installation, make sure your machine is properly prepar
 
 Prepare the machine by removing components that will be replaced or repositioned during the ATC installation.
 
-🟦 **4x4 Machines**  
+🟦 **4x4 & 4x2 Machines**  
 🟧 **4x8 Machines**  
 🔁 **Upgrade Only**  
 🆕 **New Build**

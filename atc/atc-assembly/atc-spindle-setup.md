@@ -16,7 +16,7 @@ featured_image: _images/post-image.jpg
 
 ## Spindle Installation & Drag Chain Setup
 
-🟦 **4x4 Machines**  
+🟦 **4x4 & 4x2 Machines**  
 🟧 **4x8 Machines**  
 🔁 **Upgrade Only**  
 🆕 **New Build**
@@ -25,39 +25,65 @@ Follow the steps below and complete only the instructions that apply to your mac
 
 ---
 
-### Prepare the ATC Spindle and Attach Z-Axis Drag Chain Arm
+### Spindle & Drag Chain Arm
 
-Start by unpacking the ATC spindle and preparing the drag chain arm for installation.
+[Render] Image of full machine with spindle outlined in blue
 
-1. Remove the **fasteners bag** from the accessories box.  
-2. Lift the spindle out of the bottom foam and place it on the **top foam packaging** with the **threaded mounting holes facing up**.  
+[Render] Parts Needed:
+1x 2.2kW ATC Spindle
+6x M4 - 8mm Flat Head Screw
+1x ATC Drag Chain Arm
+1x Male Z-axis Drag Chain End Link
+
+Start by unpacking the ATC spindle and grabbing the Z-axis drag chain arm from the ATC Fasteners & Tools box. We will also need 6 x M4 - 8mm flat head screws and the allen key from the ATC fasteners bag.
+
+ 1. Lift the spindle out of the bottom foam and place it on the top foam packaging with the **threaded mounting holes facing up**.
+
    > **Important:** Never stand the spindle on its nose (tool end) to avoid damaging the bearings.  
-3. Remove the **male end link** (studded end) from the ATC drag chain.  
-4. Attach this end link to the **Z-axis drag chain arm**.  
-5. Mount the drag chain arm to the **back of the spindle**, ensuring the drag chain end faces the **front of the ATC (button side)**.
+
+2. Remove the **male end link** (studded end) from the ATC drag chain.
+
+1. Attach this end link to the **Z-axis drag chain arm**.  
+1. Mount the drag chain arm to the back of the spindle, ensuring the drag chain end faces the **front of the ATC (button side)**.
 
 ---
 
 **Render:**  
-A single, clear image showing the spindle lying on the top foam with the **threaded holes facing up**, and the **Z-axis drag chain arm attached to the back of the spindle**. The drag chain end and male link should be visible, with a subtle arrow or highlight showing the orientation toward the **front of the ATC (button side)**. This render visually conveys both the correct spindle positioning and the initial drag chain arm attachment in one glance.
+A single, clear image showing the spindle lying on the top foam with the **threaded holes facing up**, and the **Z-axis drag chain arm attached to the back of the spindle**. The  male drag chain end link should be visible, with a subtle arrow or highlight showing the orientation toward the **front of the ATC (button side)**. Two bolts in the end link and 4 bolts into the arm.This render visually conveys both the correct spindle positioning and the initial drag chain arm attachment in one glance.
 
 ---
 
-### 3. Install the ATC Mounting Plate
+### Mounting Plate
+
+[Render] parts needed:
+6x ATC Mounting Plate
+4 or 6x M6 - 14mm Button Head Screws
 
 1. Place the **ATC mounting plate** onto the spindle.
 2. Select the correct **mounting position** based on your machine configuration.
 
-![](/_images/_atc/_atc_assembly/temp/simplify.jpg){.aligncenter .size-medium}  
-![](/_images/_atc/_atc_assembly/atc_assembly_mounting_down1.jpg)
+    🟦 **4x4 & 4x2 Machines** the standard configuration is the center position. The holes on the mounting plate should align up with six corresponding holes on the spindle.
 
-3. Secure the mounting plate using the provided screws.
+    🟧 **4x8 Machines** the mounting plate should be shifted one or two rows up. One row if you don’t intend to run T- tracks, and two rows if you do. In this position, four of the holes on the mounting plate will align with the top four holes on the spindle.
 
-> Tip: One render showing all mounting positions is preferable to multiple images.
+3. Secure the mounting plate using the M6 - 14mm button head screws (4-6 depending on mounting position).
 
 ---
 
-### 4. Mount the Spindle Assembly to the Gantry
+[Render] Shot of the mounting plate on the spindle with the center location marked prominently, with the option to show Up2 and Up1 positions as well for the 4x8. We can chat about how to best communicate the 3 positions (There are actually 5). We may want to start in the center with a label 4x4, then slide up 1 position and label it 4x8 2" wasteboard, then slide up 2 positions and label it 4x8 1" wasteboard
+
+![](/_images/_atc/_atc_assembly/atc_assembly_mounting_down1.jpg)
+
+---
+
+### Mount the Spindle
+
+[Render] Parts Needed:
+2 x M6 Shoulder Screws
+2 or 4 x M6-25mm Button Head Screws
+1 M6-14mm Button Head Screws
+
+1. Grab two M6 Shoulder Screws and four M6-25 mm Button Head Screw from the fasteners bag.
 
 1. Lift the spindle assembly onto the **X-gantry mounting holes**, using the **shoulder bolts as locating pins**.
 2. Once aligned, secure with the remaining mounting bolts.
