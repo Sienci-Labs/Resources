@@ -1,6 +1,6 @@
 ---
 title: ATC Dust Shoe
-menu_order: 8
+menu_order: 9
 post_status: draft
 post_excerpt: Assembling and installing the clear dust shoe for the atc.
 post_date: 2026-02-10 11:48:53
@@ -18,7 +18,7 @@ featured_image: _images/post-image.jpg
 
 *** insert link for clear cut video when the modified  video comes out
 
-*** header photo 1x Clear Cut Dust Shoe – Upper, 1x Clear Cut Dust Shoe – Lower,  2x 4″ Ring Clamp, 1x ATC dust shoe Bracket, 1x Front Gasket, 1x Rear Gasket, 2x 3D Printed Slider, 1x ATC Hose Bracket, 4x M5-16mm Socket Head Screws, 2x M6-14mm Button Head Screws, 2x M6 Washer, 2x M6 Knob, 3x M4-4mm Button Head screws
+*** header photo 1x Clear Cut Dust Shoe – Upper, 1x Clear Cut Dust Shoe – Lower,  2x 4″ Ring Clamp, 1x ATC dust shoe Bracket, 1x Front Gasket, 1x Rear Gasket, 2x 3D Printed Slider, 1x ATC Hose Bracket, 4x M5-16mm Socket Head Screws, 2x M6-14mm Button Head Screws, 2x M6 Washer, 2x handles, 3x M4-4mm Button Head screws
 
 ### Assembly
 
@@ -50,11 +50,11 @@ featured_image: _images/post-image.jpg
 
 ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 140010.png>)
 
-1. Place a washer on each knob, then thread the knob into the **top hole** of each slider.
+1. Place a washer on each handle, then thread the handle into the **top hole** of each slider.
 
 ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 140315.png>)
 
-1. Adjust dust shoe height to your desired position, then tighten the knobs to lock it in place.
+1. Adjust dust shoe height to your desired position, then tighten the handle to lock it in place.
 
 ### Hose Installation
 

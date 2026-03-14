@@ -16,124 +16,36 @@ featured_image: _images/post-image.jpg
 
 Hello and welcome to your **AltMill Automatic Tool Changer (ATC)** resources! They are here to walk you through everything from preparing your machine and installing the ATC, to daily operation, maintenance, and troubleshooting. Whether you’re upgrading an existing AltMill or building one alongside your new ATC, you’ll find step-by-step help, best practices, and answers to common questions so you can get up and running with confidence—and keep cutting with minimal interruptions.
 
-**Insert Picture Here** Picture of Johan/John/Kevin infront of the ATC?
+## What to expect
 
-## Before you begin
+If you are a complete beginner, you may not fully appreciate how much time and effort the ATC can save. If you are upgrading and familiar with how to use your AltMill, you will wonder how you've used the machine all this time, without an ATC.
 
-If you built your AltMill earlier, complete the following steps **before installing the ATC**:
+Using the ATC makes the process of carving with multiple tools seamless, but does require a bit more planning at the beginning during the design phase. Once you have your new post processor in place on the CAD/CAM side and are used to exporting all of your toolpaths into one large file, it's a breeze! The ATC will drop off tools, pick them up, measure with the tool length sensor, honour a 'keep out zone', allow you to do manual tool changes and more. Most if not all of these actions will happen automatically, it's truly magical.
 
-### Power & Electronics
+As mentioned in the Welcome article for the AltMill, if this is your first CNC, be sure to review these guiding resources — **skipping them may limit your success and make your experience more difficult**. Be sure to watch the video and read the articles; they work hand-in-hand.
 
-- Unplug your existing VFD from power.
-- Remove the existing VFD and VFD mount.
-- If you have **gControl**, remove the gControl panel and gControl mounting bracket from the machine.
+- **Software Basics** – [Video Link](https://youtu.be/m6ymuF8soTU?si=pcY3RppdkjI7313h), [Article Link](https://resources.sienci.com/view/am-software-explained/)
+- **First Movements with your AltMill** – [Video Link](https://youtu.be/w9mRrniH6S8?si=e715sXzqgxDSTGgs), [Article Link](https://resources.sienci.com/view/am-mk2-first-movements/)
+- **Machine Coordinates and Setting Zero** – [Article Link](https://resources.sienci.com/view/cnc-machine-coordinates/)
+- **Surfacing your AltMill** – [Video Link](https://youtu.be/w9mRrniH6S8?si=p8ifO1Z10ua5skNB&t=738), [Article Link](https://resources.sienci.com/view/am-mk2-wasteboard/)
+- **Using the AutoZero Touchplate** – [Video Link](https://youtu.be/I1EhAPNXdzQ?si=y3puAipQ_AdHTpVM), [Article Link](https://resources.sienci.com/view/am-autozero-touch-plate/)
+- **Common Alarms and Errors (you will get these)** – [Article Link](https://resources.sienci.com/view/am-troubleshooting-homing-and-machine-limits/)
 
-### Spindle & Motion Components
+## Quick Links
 
-- Remove the existing spindle and spindle mount from your machine.
-- Undo the drag chain clips.
-- Remove the drag chain mount at the back of the AltMill and **save the fasteners**.
+We have compiled these helpful pages for you to refer to. Please bookmark them for easy reference — it’s likely that the information you need can be found there.
 
-### Accessories & Add-ons
+- Find the [packing list](https://resources.sienci.com/view/atc-unboxing/) and check for missing parts 📋  
+- Start [assembling](https://resources.sienci.com/view/atc-spindle-setup/) your machine 🛠  
+- Complete your [first carve](https://resources.sienci.com/view/atc-1st-project/) 🥇
 
-- If you have a **Vortex Rotary Axis**, remove it from the table.
-- If you built a shelf under the AltMill table, you will most likely need to remove it to provide clearance below the VFD for electrical connections.
+## Community
 
-### Machine Access & Frame Preparation
+If you’d like to converse and learn from others, check out either our Forum or Facebook communities. Remember to encourage and help others as you learn so we can continue to support positive learning.
 
-- Ensure the **back two crossbeams** of the machine are fully accessible.  
-  - If not, remove the wasteboard and trim it down as needed.  
-  - _Note: Wasteboard cut dimensions by machine size may be added here._
-- Verify that the **T-slots on the back two crossbeams face outward**:
-  - One facing toward the front of the machine
-  - One facing toward the back of the machine
-- Jog the machine forward to give yourself clear access to the back two crossbeams.
+| | |
+|---|---|
+| [![Forum](https://resources.sienci.com/wp-content/uploads/2021/06/Icon2-scaled-1.jpg)](https://forum.sienci.com/) | [![Facebook](https://resources.sienci.com/wp-content/uploads/2021/06/Icon1-scaled-1.jpg)](https://www.facebook.com/groups/mill.one/) |
+| **Community Forum** | **Facebook Group** |
 
-### Table & T-Track Considerations
-
-- You may need to cut or reorient your T-tracks so they run **horizontally (left to right)** instead of **vertically (front to back)**.
-
-Completing these steps ahead of time will make the ATC installation smoother and help avoid unnecessary disassembly later.
-
-Still have questions? Click below to open our Frequently Asked Questions section.
-
-<details>
-<summary>## FAQ's</summary>
-
-**What are the minimum and recommended requirements to operate the ATC?**  
-Our ATC Spindle Kits are only compatible with AltMill CNCs (all sizes and models). You will also need an air compressor and air filter regulator.
-&nbsp;  
-
-**How do I perform maintenance?**  
-  
-&nbsp;  
-
-**What happens when the tool detection sensor fails?**  
-  
-&nbsp;  
-
-**What is the first-time setup procedure? What should be done to set up the machine for the first time?**  
-Great question! You may be assembling your AltMill for the first time with this kit, or adding the ATC kit onto an existing AltMill. Head [HERE](https://resources.sienci.com/view/atc-unboxing/) to begin unboxing your kit, and adding it to your AltMill.
-&nbsp;  
-
-**What is the daily use procedure? What should I do before every use?**  
-When using the ATC, it is setup to probe each tool in your tool rack upon startup by default. All you need to do it ensure your air compressor is on and you have tools in the rack.  
-&nbsp;  
-
-**What are the detailed specifications (power rating, power consumption, minimum and maximum tool sizes)?**  
-You can see all of the ATC specifications [HERE](https://resources.sienci.com/view/atc-specifications/) including compatibility, minimum requirements and product details.
-&nbsp;  
-
-**What feeds and speeds can these tools use?**  
-The ATC kit uses the same speeds & feeds recommended for the AltMill found [HERE](https://resources.sienci.com/view/lmk2-feeds-and-speeds/).
-&nbsp;  
-
-**How long does a tool change take?**  
-If you are simply grabbing a new tool and not using the TLS, it is a matter of seconds. If you are using the TLS, add 10 more seconds. It's really quick!  
-&nbsp;  
-
-**Do I always need to use the tool length sensor (TLS)?**  
-It's always a good idea, but if you are using the same tools in the rack, you can edit the settings to skip this step. We recommend doing this only when you are familiar with your new ATC operation.  
-&nbsp;  
-
-**Can I install the ATC in a different location instead of the back? I want to tile my projects and it’s in the way.**  
-  
-&nbsp;  
-
-**Can I install the TLS in a different location?**  
-Yes, you can set up the TLS in a different spot and then tell gSender where that new spot is. We don't recommend this.  
-&nbsp;  
-
-**How do I set up the TLS?**  
-Great question! Head over to the [TLS](https://resources.sienci.com/view/atc-tool-rack-and-tls/) section of our resources.  
-&nbsp;  
-
-**Do I need to remove the dust shoe when changing bits?**  
-No, the dust shoe can be used when changing bits, or the bottom can be popped off to accurately zero your Z axis.
-&nbsp;  
-
-**What is the difference between ER collets and tool holders?**  
-An ER collet holds the bit you are using and goes inside of the tool holder, holding both the collet and bit together.
-&nbsp;  
-
-**Will it come with a tool tightening jig like this?**  
-  
-&nbsp;  
-
-**What size of tool holder does it come with?**  
-The ATC kit comes with ISO20 tool holders and ER20 collets for 1/8″, 1/4″, 3/8″, 1/2″ bits.
-&nbsp;  
-
-**Do I need three-phase power in my house?**  
-Yes, or you can use a transformer, but we don't recommend this.
-&nbsp;  
-
-**Will this work with my Onefinity, Avid, or other third-party CNC machines?**  
-No it will not, you must have an AltMill to use this ATC kit.  
-&nbsp;  
-
-**Do I need to use gSender only, or can I use a different sender?**  
-
-&nbsp;  
-
-</details>
+We wish you the best on your ATC CNC journey!

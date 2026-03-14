@@ -1,6 +1,6 @@
 ---
 title: ATC VFD Install
-menu_order: 3
+menu_order: 5
 post_status: draft
 post_excerpt: How to connect your VFD to your ATC system. 
 post_date: 2026-02-10 11:16:53
@@ -15,8 +15,9 @@ featured_image: _images/post-image.jpg
 ---
 
 ## VFD Installation & Connections
+
 [header image using the following parts:
-mounting spacer, 2x m5 nuts, 4x m5-30 screws, 1x VFD unit, 1x VFD power cable, 1x Modbus cable, 1x daughter board, 1x auxillary backpack cable, 1x SD card
+mounting spacer, 2x m5 nuts, 4x m5-30 screws, 1x VFD unit, 1x VFD power cable, 1x Modbus cable, 1x daughter board, 1x auxiliary backpack cable, 1x SD card
 ]
 
 1. To prepare for installation, remove and unplug the **E-stop** from the table leg. Keep the screws that come with the E-stop.
@@ -27,7 +28,7 @@ mounting spacer, 2x m5 nuts, 4x m5-30 screws, 1x VFD unit, 1x VFD power cable, 1
 
 1. Plug the connector into the bottom of the VFD. Rest the VFD on foam or a box, for now, until the VFD is mounted.
 
-1. Put two (2) M5 nuts into the 3D printed mounting spacer. They should be fully seated, in order to fully secure the fasteners later on. 
+1. Put two (2) M5 nuts into the 3D printed mounting spacer. They should be fully seated, in order to fully secure the fasteners later on.
 
 ![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 3.28.46 PM.png>)
 
@@ -45,7 +46,7 @@ The VFD unit should be positioned with the screen/panel aligned with the cutout 
 
 1. Plug the **VFD power cable** into the VFD.
 
-1. Plug the **Modbus cable** into the VFD * *.
+1. Plug the **Modbus cable** into the VFD.
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_vfd4.jpg){.aligncenter .size-medium}
 

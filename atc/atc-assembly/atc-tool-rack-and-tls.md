@@ -1,6 +1,6 @@
 ---
 title: ATC Tool Rack & TLS
-menu_order: 5
+menu_order: 6
 post_status: draft
 post_excerpt: Connecting your tool rack(s) and setting up your tool length sensor.
 post_date: 2026-02-10 11:38:53
@@ -18,7 +18,7 @@ featured_image: _images/post-image.jpg
 
 > **No rack?** Skip ahead to the **TLS Cable** section in this article. ***Insert link to heading
 
-Header photo (fasteners are unconfirmed yet, better wait for now): 1x support extrusion, 2x front rack section, 1x back right rack section, 1x back left rack section, M6-14mm screws, M6 Roll-in T-nuts, M6 Twist-in T-nuts, M6-8mm screws, M3-20mm screws, M4-8mm screws, 2 or 4 knobs, 1x tool rack sensor cable, 1x TLS cable, 1x TLS body, 1x TLS base, 1 or 2x backbone, 6 or 12x inserts
+Header photo (fasteners are unconfirmed yet, better wait for now): 1x support extrusion, 2x front rack section, 1x back right rack section, 1x back left rack section, M6-14mm screws, M6 Roll-in T-nuts, M6 Twist-in T-nuts, M6-8mm screws, M3-20mm screws, M4-8mm screws, 2 or 4 knobs, 1x tool rack sensor cable, 1x TLS cable, 1x TLS body, 1x TLS base, 1 or 2x backbone, 6 or 12x clips
 
 ## Rack Assembly
 
@@ -54,7 +54,7 @@ Header photo (fasteners are unconfirmed yet, better wait for now): 1x support ex
 
     ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 140903.png>)
 
-    ![](<../../_images/_atc/_atc_assembly/Screenshot 2026-02-12 at 5.21.05 PM.png>)
+    ![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 5.21.05 PM.png>)
 
    ![](/_images/_atc/_atc_assembly/temp/IMG_0903.JPG)
 
@@ -70,22 +70,22 @@ Header photo (fasteners are unconfirmed yet, better wait for now): 1x support ex
 
 ## Backbone Assembly
 
-1. Grab the **backbone**, **inserts**, and **M4-8mm screws**.
+1. Grab the **backbone**, **clips**, and **M4-8mm screws**.
 
-1. Position each insert onto the backbone so it sits **flush**.
+1. Position each clip onto the backbone so it sits **flush**.
 
-   * Hold the insert snug while threading in the screws with an Allen key. Secure fully.
-   * Continually check that each insert remains fully seated.
+   * Hold the clip snug while threading in the screws with an Allen key. Secure fully.
+   * Continually check that each clip remains fully seated.
 
-   ⚠️ **Important:** Improperly seated inserts can cause **ATC accuracy issues**.
+   ⚠️ **Important:** Improperly seated clips can cause **ATC accuracy issues**.
 
 ![](../../_images/_atc/_atc_assembly/temp/IMG_0914.JPG)
 
-1. Repeat for the other end of the backbone. You should have 2 inserts installed.
+1. Repeat for the other end of the backbone. You should have 2 clips installed.
 
 ![](../../_images/_atc/_atc_assembly/temp/IMG_0915.JPG)
 
-Optionally, you can install all the inserts onto the backbone now, or do it at a later time.
+Optionally, you can install all the clips onto the backbone now, or do it at a later time.
 
 ## Joining Rack Sections
 
@@ -177,8 +177,8 @@ Optionally, you can install all the inserts onto the backbone now, or do it at a
 
 1. Install tool holders into the **first and last slots** of each tool rack assembly.
 
-   * Make sure tool holders are wiped clean with shop towel
-   * Fully seat each tool holder, the insert must engage the flats on the tool holder  
+   * Make sure tool holders are wiped clean with shop towel and isopropyl alcohol
+   * Fully seat each tool holder, the clip must engage the flats on the tool holder  
 
 ![](../../_images/_atc/_atc_assembly/temp/IMG_0930.JPG)
 
