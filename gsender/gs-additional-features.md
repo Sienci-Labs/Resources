@@ -526,6 +526,45 @@ To transfer your settings over, start by exporting a save file:
 1. You'll get a warning. Click 'Import Settings' if you want to continue. Once you do, gSender will disconnect and you'll need to reconnect the machine to resume operation but the settings should now be brought over.
   ![](/_images/_gsender/_features/gs_fe_preferences3.jpg){.aligncenter .size-medium}
 
+## Ethernet Connection
+
+An Ethernet setup is a bit more involved than using USB, but if you're looking to switch over due to its [inherent reliabilities that will always make it more robust](https://youtu.be/LOIVrVVYBfA), you'll need to make sure you have an Ethernet cable on hand and that your device has a free Ethernet port. You'll also want to double-check since some Ethernet-driven CNC control boards like the SLB aren't able to be firmware flashed over Ethernet, so you'll still need to keep a USB cable handy if you need to do any future updates or recover from a board reset.
+
+- If your computer only has one Ethernet port and it's already used, you can try picking up a USB to Ethernet dongle or adding an additional Ethernet card. If you use the dongle, the USB side will plug into your computer, and the Ethernet side will connect an Ethernet cable that you'll run to your board.
+
+![](/_images/_superlongboard/_manual/slb_ma_p12_USB.jpg){.aligncenter .size-full}
+
+### Ethernet on Windows
+
+1. To start, connect to your CNC over USB, open the Config tab to the Ethernet section, and copy down the numbers you see for the '**IP address**' and '**Netmask**'. The defaults should be `192.168.5.1` and `255.255.255.0` respectively, with the IP mode set to `static`.
+  ![](/_images/_superlongboard/_manual/slb_ma_p13_IPMode-newu.jpg){.aligncenter .size-full}
+1. Once copied down, you can unplug your USB and connect the Ethernet cable directly from your PC to your board. If you look where you plugged the Ethernet cable into the board from the outside, you should see a green light on and a flickering yellow light.
+1. Now you'll need to configure the PC's Ethernet interface. Start by opening the Windows menu, searching for "network" and click '**View network connections**' to get a list of Ethernet ports.
+  ![](/_images/_superlongboard/_manual/slb_ma_p14_TCP-2.jpg){.aligncenter .size-full}
+1. Here you should be able to find the '**Ethernet**' listed that you just connected to your board. Even if there are multiple Ethernet options, unplugging and re-plugging the cable from the board will show which one it is. Once you know, right-click it and open its '**Properties**'.
+  ![](/_images/_superlongboard/_manual/slb_ma_p14_TCP-3.jpg){.aligncenter .size-full}
+1. In the Properties, find the option for '**Internet Protocol Version 4 (TCP/IPv4)**' and double-click it. Here, you'll want to:
+   - Select the '**Use the following IP address**' option
+   - Type into '**Subnet mask**' the 'Netmask' number you copied down
+   - Type in the '**IP address**' that you copied down, just change the last number (for example, change it from `192.168.5.1` to `192.168.5.5`)
+   - Click '**OK**' to save and close the options
+  ![](/_images/_superlongboard/_manual/slb_ma_p15_IP-2.jpg){.aligncenter .size-full}
+1. Back in gSenders Config tab ➜ Ethernet section, make sure the IP address for gSender matches the IP address from the firmware.
+  ![](/_images/_superlongboard/_manual/slb_ma_p16_EEPROM-newu.jpg){.aligncenter .size-medium}
+1. Now click on Connect to CNC, choose the Ethernet Port option and you should see it connect successfully :)
+  ![](/_images/_superlongboard/_manual/slb_ma_p17_Connected-newu.jpg){.aligncenter .size-medium}
+1. If you have a problem connecting with Ethernet, go back over the setup steps. You can also reconnect over USB to double-check your boards Ethernet settings.
+
+### Ethernet on Mac
+
+To set up an Ethernet connection from a Mac, you'll follow a lot of the same steps as for [Ethernet on Windows](#ethernet-on-windows) but after doing **Step 2**:
+
+1. On your Mac, click the Apple menu ➜ System Settings ➜ then click '🌐 Network' in the sidebar (you may need to scroll down).
+1. Click Ethernet service ➜ 'Details...'. Note: if your Mac doesn't have a built-in Ethernet port and you're using an adapter, look for a service that contains the name of the adapter manufacturer or the type of adapter. For example, the service might be named [manufacturer name] USB-C LAN, or just contain the model number of the adapter.
+1. Click TCP/IP in the sidebar ➜ then for 'Configure IPv4' choose 'Manually' so you can enter the specific IP address and subnet mask. You want the subnet mask to be the same value from the EEPROM 'Netmask'. The IP address should have a different last digit on the same mask - so if the board is device 1 (192.168.5.1), you could call your PC device 5 (192.168.5.5). Click "OK" to save and close the options.
+![](/_images/_superlongboard/_manual/slb_ma_p15-ip-2.jpg){.aligncenter .size-full}
+1. Resume following the Windows instructions at Step 6 to finish the process.
+
 ## Wireless Control
 
 If you've ever wanted to run your CNC without being stuck right next to it, this is the feature you're looking for. Once enabled, it will allow other devices on the same internet network to connect to the main computer that's running your CNC. These '**remote devices**' can be anything that can connect to the internet and run a web browser, meanwhile the '**inline computer**' plugs into your CNC with a USB or Ethernet cable and will receive commands over the internet from the remote device.

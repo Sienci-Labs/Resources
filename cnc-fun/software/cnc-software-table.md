@@ -11,12 +11,16 @@ taxonomy:
 custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
 Choosing which software you want to use with your CNC can be a daunting task. Below is a list of software we've tried along with details that might help you find your toolchain.
 
 <div id="ToolTable"></div>
-<p><script src="https://resources.sienci.com/wp-content/react/tooltable.js"></script></p>
-<p><style>@import url('https://resources.sienci.com/wp-content/react/tooltable.css')</style></p>
+
+<script src="https://resources.sienci.com/wp-content/react/tooltable.js"></script>
+
+<style>
+@import url('https://resources.sienci.com/wp-content/react/tooltable.css')
+</style>

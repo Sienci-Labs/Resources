@@ -11,7 +11,7 @@ taxonomy:
 custom_fields:
     KBName: Fundamentals
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/_cnc-fun/_software/cnc_so_choosingsoft_gsender-nu.jpg
 ---
 
@@ -47,8 +47,12 @@ This wizard will provide you with general software suggestions based on your CNC
 
 <div id="my-react-toolchain"></div>
 <div id="ToolTable"></div>
-<p><script src="https://resources.sienci.com/wp-content/react/wizard.js"></script></p>
-<style>@import url('https://resources.sienci.com/wp-content/react/wizard.css')</style></p>
+
+<script src="https://resources.sienci.com/wp-content/react/wizard.js"></script>
+
+<style>
+@import url('https://resources.sienci.com/wp-content/react/wizard.css')
+</style>
 
 ## Our Recommendations
 
@@ -81,7 +85,7 @@ If you're looking for software that takes advantage of most CNC features while r
 <td>1</td>
 <td>Use an online tool to design simple signs and other 2D projects</td>
 <td>Online</td>
-<td>Free</td>
+<td>Paid</td>
 </tr>
 <tr>
 <td>Easel</td>
@@ -189,7 +193,7 @@ F-Engrave is a free and open source software which provides several useful featu
 
 [tabby title="Halftoner"]
 
-<b>Halftoner</b> (<a href="https://jasondorie.com/page_cnc.html" target="_blank" rel="noopener noreferrer">https://jasondorie.com/page_cnc.html</a>)
+<b>Halftoner</b> (<a href="https://github.com/JasonDorie/Halftoner" target="_blank" rel="noopener noreferrer">https://github.com/JasonDorie/Halftoner</a>)
 
 The halftoner program is quite old but very simple. By importing images, you're able to chose from a selection of patterns which will enable you generate black-and-white halftone v-carves from that photo. Its use case is very limited but it's good at what it does.<br>
 <a href="https://www.YouTube.com/watch?v=ovtCDXCxhkI" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>

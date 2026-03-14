@@ -1,15 +1,15 @@
 ---
-title: ytsb Choosing Software 🎛️
-menu_order: 0
-post_status: draft
+title: Choosing Software 🎛️
+menu_order: 2
+post_status: publish
 post_excerpt: CNC software and toolchain explained. Recommended programs for design, CAM and machine interface for beginner and advanced users provided.
-post_date: 2021-04-20 16:40:00
+post_date: 2022-03-17 19:51:00
 taxonomy:
-    knowledgebase_cat: lm-software
+    knowledgebase_cat: lmk2-software
     knowledgebase_tag:
-        - mk1
+        - mk2
 custom_fields:
-    KBName: LongMill CNC
+    KBName: LongMill MK2 CNC
     basepress_post_icon: bp-caret-right
 skip_file: no
 featured_image: _images/_longmill/_software/lm_choosingsoft_p1_Vectr.jpg
@@ -37,20 +37,22 @@ In this example, Dan used three pieces of software in his software toolchain. Th
 
 To help you decide what software would work best for you we've done three things:
 
-<ol>
-<li>Created a <b><a href="#toolchain-wizard">Toolchain Wizard</a></b> which can provide you with smart recommendations after asking you 5 easy questions</li>
-<li>Compiled a list of programs that we'd <a href="#our-recommendations"><b>personally recommend</b></a> for the average CNCer</li>
-<li>Put every common CNC program into a <b><a href="https://resources.sienci.com/view/lm-software-table/" target="_blank" rel="noopener">Master Table</a></b> (over 80!) that you can search and filter through if you'd like to comb through all the options yourself. This table is what powers our Toolchain Wizard :)</li>
-</ol>
+1. Created a <b><a href="#toolchain-wizard">Toolchain Wizard</a></b> which can provide you with smart recommendations after asking you 5 easy questions
+1. Compiled a list of programs that we'd <a href="#our-recommendations"><b>personally recommend</b></a> for the average CNCer
+1. Put every common CNC program into a <b><a href="https://resources.sienci.com/view/lmk2-software-table/" target="_blank" rel="noopener">Master Table</a></b> (over 80!) that you can search and filter through if you'd like to comb through all the options yourself. This table is what powers our Toolchain Wizard :)
 
 ## Toolchain Wizard
 
 This wizard will provide you with general software suggestions based on your CNC needs. Check it out!
 
-<div id="my-react-toolchain"> </div>
-<div id="ToolTable"> </div>
-<p><script src="https://resources.sienci.com/wp-content/react/wizard.js"></script></p>
-<style>@import url('https://resources.sienci.com/wp-content/react/wizard.css')</style></p>
+<div id="my-react-toolchain"></div>
+<div id="ToolTable"></div>
+
+<script src="https://resources.sienci.com/wp-content/react/wizard.js"></script>
+
+<style>
+@import url('https://resources.sienci.com/wp-content/react/wizard.css')
+</style>
 
 ## Our Recommendations
 
@@ -83,7 +85,7 @@ If you're looking for software that takes advantage of most CNC features while r
 <td>1</td>
 <td>Use an online tool to design simple signs and other 2D projects</td>
 <td>Online</td>
-<td>Free</td>
+<td>Paid</td>
 </tr>
 <tr>
 <td>Easel</td>
@@ -191,7 +193,7 @@ F-Engrave is a free and open source software which provides several useful featu
 
 [tabby title="Halftoner"]
 
-<b>Halftoner</b> (<a href="https://jasondorie.com/page_cnc.html" target="_blank" rel="noopener noreferrer">https://jasondorie.com/page_cnc.html</a>)
+<b>Halftoner</b> (<a href="https://github.com/JasonDorie/Halftoner" target="_blank" rel="noopener noreferrer">https://github.com/JasonDorie/Halftoner</a>)
 
 The halftoner program is quite old but very simple. By importing images, you're able to chose from a selection of patterns which will enable you generate black-and-white halftone v-carves from that photo. Its use case is very limited but it's good at what it does.<br>
 <a href="https://www.YouTube.com/watch?v=ovtCDXCxhkI" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
@@ -440,7 +442,7 @@ Extends through the Easel online software, allowing you to connect to your machi
 
 <b>VTransfer</b> (<a href="https://docs.vectric.com/docs/V9.0/Cut2DLaserDesktop/ENU/Help/VTransfer/VTransfer.html" target="_blank" rel="noopener noreferrer">https://docs.vectric.com/docs/</a>)
 
-VTransfers <span class="sc-jrAGrp dXWCyY">barebones layout means that it's dead easy to use and understand.</span> The downsides to this is that it offers no g-code visualization, keyboard jogging, or other common interface features.
+VTransfers barebones layout means that it's dead easy to use and understand. The downsides to this is that it offers no g-code visualization, keyboard jogging, or other common interface features.
 
 ![](/_images/_longmill/_software/lm_choosingsoft_p16_VTransfer.jpg){.aligncenter .size-medium}
 
