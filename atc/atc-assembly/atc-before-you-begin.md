@@ -110,7 +110,7 @@ Before starting your ATC installation, make sure your machine is properly prepar
 
 Prepare the machine by removing components that will be replaced or repositioned during the ATC installation.
 
-🟦 **4x4 & 4x2 Machines**  
+🟦 **4x4 & 2x4 Machines**  
 🟧 **4x8 Machines**  
 🔁 **Upgrade Only**  
 🆕 **New Build**
@@ -124,12 +124,14 @@ Follow the steps below and complete only those that apply to your setup.
 #### Spindle & Motion Components
 
 [Render] of spindle and mount coming off AltMill, autospin?
+(atc_assembly_before-remove-spin.jpg)
 
 - Remove the spindle and spindle mount from the Z-axis.
 
 #### Power & Electronics
 
 [Render] of vfd wiring being removed and the drag chain being opened
+(atc_assembly_before-remove-vfd.jpg)
 
 Remove the existing control components to prepare for the ATC electronics.
 
@@ -143,6 +145,7 @@ Remove the existing control components to prepare for the ATC electronics.
 #### Drag Chain Preparation
 
 [Render] Remove the z axis Drag chain arm, Remove the drag chain end-link from the arm, Reattach the end link to the Z-axis drag chain.
+(atc_assembly_before-drag-prep.jpg)
 
 Prepare the drag chains for routing the ATC wiring.
 
