@@ -18,11 +18,11 @@ featured_image: _images/post-image.jpg
 
 *** insert link for clear cut video when the modified  video comes out
 
-*** header photo 1x Clear Cut Dust Shoe – Upper, 1x Clear Cut Dust Shoe – Lower,  2x 4″ Ring Clamp, 1x ATC dust shoe Bracket, 1x Front Gasket, 1x Rear Gasket, 2x 3D Printed Slider, 1x ATC Hose Bracket, 4x M5-16mm Socket Head Screws, 2x M6-14mm Button Head Screws, 2x M6 Washer, 2x handles, 3x M4-4mm Button Head screws
+*** header photo 1x Upper Dust Shoe, 1x Lower Dust Shoe,  2x 4″ Hose Clamp, 1x Clear Cut ATC Bracket, 1x Clear Cut ATC Front Gasket, 1x Clear Cut ATC Rear Gasket, 2x Clear Cut ATC Slider Bushing, 1x ATC Hose Bracket, 4x M5-16mm Socket Head Screws, 2x M6-14mm Button Head Screws, 2x M6 Washer, 2x handles, 3x M4-4mm Button Head screws
 
 ### Assembly
 
-1. Attach the **front and rear gaskets** to the ATC dust shoe bracket:
+1. Attach the **front and rear gaskets** to the Clear Cut ATC bracket:
 
    * Align holes between the front gasket and bracket
    * Snap fingers of rear gasket into place
@@ -32,7 +32,7 @@ featured_image: _images/post-image.jpg
 
 ![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 133822.png>)
 
-1. Insert **four (4) M5-16 mm screws**, one in each corner. Then fasten the dust shoe upper and lower pieces to the bracket using an Allen key.
+1. Insert **four (4) M5-16 mm screws**, one in each corner. Then fasten the upper dust shoe  and lower dust shoe to the bracket using an Allen key.
 
 ![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 134742.png>)
 
@@ -42,9 +42,9 @@ featured_image: _images/post-image.jpg
 
 ### Height Adjustment
 
-1. Insert one **M6-14 mm screw** into each 3D-printed rectangular slider.
+1. Insert one **M6-14 mm screw** into each slider bushing.
 
-1. Place sliders on the **left and right sides** of the bracket.
+1. Place slider bushings on the **left and right sides** of the bracket.
 
    * Secure into the **bottom threaded holes** on the spindle.
 
@@ -58,9 +58,7 @@ featured_image: _images/post-image.jpg
 
 ### Hose Installation
 
-1. Turn off the spindle:
-
-   * Unplug the VFD or switch it off.
+1. Check that the VFD is turned off.  
 
 1. Assemble the **hose bracket** onto the top of the spindle using three (3) M4-4mm button head screws.
 
@@ -81,5 +79,5 @@ featured_image: _images/post-image.jpg
 
 ### Usage Notes
 
-* The **bottom portion** of the dust shoe can be removed for probing.
+* The **lower dust shoe** can be removed for probing.
 * For tool changes, the dust shoe may remain installed.

@@ -135,13 +135,13 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | Item                                         | Box | Qty | Notes                      |
 | -------------------------------------------- | --- | --- | -------------------------- |
 | ER20 ISO20 Tool Holder (Standalone kit only) | —   | 6   |                            |
-| ER20 Collet Set                              | —   | 1   | 12 collets total (in case) |
+| ER20 Collet Set                              | —   | 1   | 12 collets total           |
 
 ### Tool Rack
 
 | Item                           | Box | Qty | Notes |
 | ------------------------------ | --- | --- | ----- |
-| Backbone                       | —   | 1   |       |
+| Tool Rack Backbone             | —   | 1   |       |
 | Front Rack Section             | —   | 2   |       |
 | Back Right Rack Section        | —   | 1   |       |
 | Back Left Rack Section         | —   | 1   |       |
