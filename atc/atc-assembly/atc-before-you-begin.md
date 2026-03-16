@@ -10,7 +10,7 @@ taxonomy:
 custom_fields:
     KBName: AutoToolChanger
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: 
 ---
 
