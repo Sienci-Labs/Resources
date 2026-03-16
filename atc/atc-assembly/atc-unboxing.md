@@ -35,9 +35,8 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | ISO20 Tool Holder                            | Foam        | 3   |For kits without tool rack only |
 | ATC Mounting Plate                           | —           | 1   |                                |
 | ATC Signal Cable                             | —           | 1   |                                |
-| 7.2m Spindle Cable                           | —           | 1   |For  4x8 only                   |
-| Plug-In Spindle Cable                        | —           | 1   |For 4x4 and 2x4 only            |
-| ER20 Collet Set                              | —           | 1   | 12 collets total               |
+| Plug-In Spindle Cable                        | —           | 1   |7.2m for 4x8                    |
+| ER20 Collet Set                              | —           | 1   |12 collets total                |
 | ISO20 Wrench Set                             | Accessories | 1   |                                |
 
 ### Drag Chain
@@ -45,7 +44,7 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | Item                                              | Box         | Qty | Notes         |
 | --------------------------------------------------| ------------| --- | --------------|
 | Z axis Drag Chain                                 | —           | 1   |               |
-| Z-axis Drag Chain Arm                             | Accessories | 1   |               |
+| ATC Drag Chain Arm                                | Accessories | 1   |               |
 | Z-Plus Drag Chain Bracket                         | Accessories | 1   |For 4x4 only   |
 
 ### VFD
@@ -54,15 +53,15 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | -------------------------------------------------------------------- | ---------- | --- | ----------- |
 | 2.2kW Enclosed VFD                                                   | VFD        | 1   |             |
 | Modbus Cable                                                         | VFD        | 1   |             |
-| 2.2kW 240V VFD Power Cord                                            | —          | 1   |             |
+| 240V VFD Power Cord                                                  | —          | 1   |             |
 |VFD Mounting Spacer                                                   | —          |1    | 3D printed  |
 
 ### Electronics
 
 | Item                                                                 | Box         | Qty | Notes                              |
 | ------------------                                                   | ----------- | --- | ---------------------------------- |
-| ATC Daughter Board                                                   | Electronics | 1   |                                    |
-| Auxiliary Backpack Cable                                             | Electronics | 1   |                                    |
+| ATC Shield                                                           | Electronics | 1   |                                    |
+| RJ12 Cable                                                           | Electronics | 1   |                                    |
 | 16GB Micro SD Card                                                   | Electronics | 1   |                                    |
 
 ### Tool Length Sensor (TLS)
@@ -71,8 +70,8 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | -------------------------                 | --- | --- | ----- |
 | TLS Body                                  | TLS | 1   |       |
 | TLS Base                                  | TLS | 1   |       |
-| TLS Cable                                 | TLS | 1   | 4.6m  |
-| M5 Button Head Screws – 10mm              | TLS | 2   |       |
+| TLS Cable                                 | TLS | 1   |       |
+| M5-10mm Button Head Screw                 | TLS | 2   |       |
 | M5 20-Series T-Nut                        | TLS | 2   |       |
 
 ### Pneumatics
@@ -86,13 +85,13 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 
 | Item                          | Box         | Qty | Notes               |
 | ----------------------------- | ----------- | --- | ------------------- |
-| M4 Flathead Screws – 8mm      | Fasteners   | 7   |                     |
-| M5 Socket Head Screws – 10mm  | Fasteners   | 7   | Packed for all kits |
-| M5 Nylock Nut                 | Fasteners   | 5   | Packed for all kits |
-| M6 Button Head Screws – 14mm  | Fasteners   | 8   |                     |
-| M6 Button Head Screws – 25mm  | Fasteners   | 5   |                     |
-| M6 8mm Shoulder Bolt          | Fasteners   | 2   |                     |
-| AltMill Eccentric Bushing     | Fasteners   | 1   |                     |
+| M4-8mm Flathead Screw         | Fasteners   | 7   |                     |
+| M5-10mm Socket Head Screw     | Fasteners   | 7   | Packed for all kits |
+| M5 Lock Nut                   | Fasteners   | 5   | Packed for all kits |
+| M6-14mm Button Head Screw     | Fasteners   | 8   |                     |
+| M6-25mm Button Head Screws    | Fasteners   | 5   |                     |
+| M6-8mm Shoulder Bolt          | Fasteners   | 2   |                     |
+| Eccentric Bushing             | Fasteners   | 1   |                     |
 | 4mm Allen Key                 | Accessories | 1   |  Ball end           |
 | 2.5mm Allen Key               | Accessories | 1   |                     |
 | 2mm Allen Key                 | Accessories | 1   |                     |
@@ -108,21 +107,21 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 
 ### Clear Cut Dust Shoe
 
-| Item                                          | Box       | Qty | Notes |
-| ----------------------------------------      | --------- | --- | ----- |
-| Upper Dust Shoe                               | Dust Shoe | 1   |       |
-| Lower Dust Shoe                               | Dust Shoe | 1   |       |
-| 4″ Ring Clamp                                 | Dust Shoe | 2   |       |
-| ATC Dust Shoe Bracket                         | Dust Shoe | 1   |       |
-| Front Gasket                                  | Dust Shoe | 1   |       |
-| Rear Gasket                                   | Dust Shoe | 1   |       |
-| 3D Printed Slider                             | Dust Shoe | 2   |       |
-| ATC Hose Bracket                              | Dust Shoe | 1   |       |
-| M5 Socket Head Screws – 16mm                  | Dust Shoe | 4   |       |
-| M6 Button Head Screws – 14mm                  | Dust Shoe | 2   |       |
-| M6 Washer                                     | Dust Shoe | 3   |       |
-| Dust Shoe Handle                              | Dust Shoe | 2   |       |
-| M4 Button Head – 4mm                          | Dust Shoe | 4   |       |
+| Item                                          | Box       | Qty | Notes    |
+| ----------------------------------------      | --------- | --- | -------- |
+| Upper Dust Shoe                               | Dust Shoe | 1   |          |
+| Lower Dust Shoe                               | Dust Shoe | 1   |          |
+| 4″ Hose Clamp                                 | Dust Shoe | 2   |          |
+| Clear Cut ATC Bracket                         | Dust Shoe | 1   |          |
+| Clear Cut ATC Front Gasket                    | Dust Shoe | 1   |          |
+| Clear Cut ATC Rear Gasket                     | Dust Shoe | 1   |          |
+| Clear Cut ATC Slider Bushing                  | Dust Shoe | 2   |3D printed|
+| ATC Hose Bracket                              | Dust Shoe | 1   |          |
+| M5-16mm Socket Head Screw                     | Dust Shoe | 4   |          |
+| M6-14mm Button Head Screw                     | Dust Shoe | 2   |          |
+| M6 Washer                                     | Dust Shoe | 3   |          |
+| Dust Shoe Handle                              | Dust Shoe | 2   |          |
+| M4-4mm Button Head Screw                      | Dust Shoe | 4   |          |
 
 </details>
 
@@ -131,14 +130,14 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 <details>
 <summary><strong>Box 2: Tool Rack (6 Tools)</strong></summary>
 
-#### Tooling
+### Tooling
 
 | Item                                         | Box | Qty | Notes                      |
 | -------------------------------------------- | --- | --- | -------------------------- |
 | ER20 ISO20 Tool Holder (Standalone kit only) | —   | 6   |                            |
 | ER20 Collet Set                              | —   | 1   | 12 collets total (in case) |
 
-#### Tool Rack
+### Tool Rack
 
 | Item                           | Box | Qty | Notes |
 | ------------------------------ | --- | --- | ----- |
@@ -149,17 +148,17 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | Support Extrusion              | —   | 1   |       |
 | Tool Holder Clip               | —   | 10  |       |
 
-#### Fasteners
+### Fasteners
 
 | Item                                       | Box | Qty | Notes                                |
 | ------------------------------------------ | --- | --- | -------------------------------------|
 | Tool Rack Knob                             | —   | 2   |                                      |
-| M4 Button Head Screw – 8 mm                | —   | 20  |                                      |
-| M5 Socket Head Screw – 16 mm               | —   | 2   |                                      |
-| M6 Button Head Screw – 8 mm                | —   | 12  |                                      |
-| M3 Socket Head Screw – 20 mm               | —   | 2   |                                      |
+| M4-8mm Button Head Screw                   | —   | 20  |                                      |
+| M5-16mm Socket Head Screw                  | —   | 2   |                                      |
+| M6-8mm Button Head Screw                   | —   | 12  |                                      |
+| M3-20mm Socket Head Screw                  | —   | 2   |                                      |
 | M6 Twist-In 30-Series T-Nut                | —   | 5   | For AltMill MK2 and 4x8 only         |
-| M6 Roll-In  20-Series T-Nut                | —   | 5   |                                      |
+| M6 Roll-In 20-Series T-Nut                 | —   | 5   |                                      |
 
 ### Wiring
 

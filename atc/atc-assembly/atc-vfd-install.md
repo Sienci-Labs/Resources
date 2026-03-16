@@ -17,7 +17,7 @@ featured_image: _images/post-image.jpg
 ## VFD Installation & Connections
 
 [header image using the following parts:
-mounting spacer, 2x m5 nuts, 4x m5-30 screws, 1x VFD unit, 1x VFD power cable, 1x Modbus cable, 1x daughter board, 1x auxiliary backpack cable, 1x SD card
+VFD mounting spacer, 2x m5 lock nuts, 4x m5-30 screws, 1x VFD unit, 1x VFD power cord, 1x Modbus cable, 1x ATC Shield, 1x RJ12 cable, 1x SD card
 ]
 
 1. To prepare for installation, remove and unplug the **E-stop** from the table leg. Keep the screws that come with the E-stop.
@@ -32,7 +32,7 @@ mounting spacer, 2x m5 nuts, 4x m5-30 screws, 1x VFD unit, 1x VFD power cable, 1
 
 ![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 3.28.46 PM.png>)
 
-1. Place the **mounting spacer** onto the **inner face of the front-left AltMill leg**, then place the VFD against the spacer, aligning the two (2) M5-30mm screws from the E-stop with the bracket holes. Refasten the **E-stop** on the **outer face of the leg**.
+1. Place the **VFD mounting spacer** onto the **inner face of the front-left AltMill leg**, then place the VFD against the spacer, aligning the two (2) M5-30mm screws from the E-stop with the bracket holes. Refasten the **E-stop** on the **outer face of the leg**.
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_vfd1.jpg){.aligncenter .size-medium}
 
@@ -44,7 +44,7 @@ The VFD unit should be positioned with the screen/panel aligned with the cutout 
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_vfd3.jpg){.aligncenter .size-medium}
 
-1. Plug the **VFD power cable** into the VFD.
+1. Plug the **VFD power cord** into the VFD.
 
 1. Plug the **Modbus cable** into the VFD.
 
@@ -63,21 +63,21 @@ The VFD unit should be positioned with the screen/panel aligned with the cutout 
    * `SW1`
    * `SW2`
 
-    These connectors will interfere with the daughter board.
+    These connectors will interfere with the ATC shield.
 
-1. Connect the following into the **daughter board**
+1. Connect the following into the **ATC shield**
 
-* Auxiliary backpack cable
+* RJ12 cable
 
 * Other end of the signal cable
 
 ![](/_images/_atc/_atc_assembly/temp/IMG_8984.jpg)
 
-1. Then plug in the daughter board onto the **black header connector** on the SLB-EXT.
+1. Then plug in the ATC shield onto the **black header connector** on the SLB-EXT.
 
 ![](/_images/_atc/_atc_assembly/temp/IMG_8988.jpg)
 
-1. Connect the other end of the **auxiliary backpack cable** to the **PENDANT port** on the SLB-EXT.
+1. Connect the other end of the **RJ12 cable** to the **PENDANT port** on the SLB-EXT.
 
 1. Plug the **other end of the Modbus cable** into the **RS485 port on the SLB-EXT**.
 
@@ -91,7 +91,7 @@ Use this section to double-check all connections:
   `Spindle (aviation) → VFD (aviation)`
 
 * **Signal Cable**
-  `Spindle (aviation) → daughter board
+  `Spindle (aviation) → ATC shield`
 
 * **Modbus Cable**
   `VFD (RJ / Ethernet) → RS485 on EXT board`
@@ -99,6 +99,6 @@ Use this section to double-check all connections:
 * **VFD Power Cable**
   `VFD → Power outlet`
 
-* **Auxiliary Backpack Cable**
-  `daughter board → PENDANT port on SLB-EXT`
+* **RJ12 Cable**
+  `ATC shield → PENDANT port on SLB-EXT`
   
