@@ -32,6 +32,7 @@ Follow the steps below and complete only the instructions that apply to your mac
     6x M4 - 8mm Flat Head Screw
     1x ATC Drag Chain Arm
     1x Male Z-axis Drag Chain End Link
+    1x ATC Mounting Plate
     (atc_assembly_spin-parts1.jpg)
 
 Start by unpacking the ATC spindle and grabbing the Z-axis drag chain arm from the ATC Fasteners & Tools box. We will also need 6 x M4 - 8mm flat head screws and the allen key from the ATC fasteners bag.
@@ -129,7 +130,7 @@ This section will modify the 4x4 and 2x4 machines to make them compatible with t
 
 ---
 
-### 1. Remove the old Drag Chain Bracket
+### Remove the old Drag Chain Bracket
 
 ---
 
@@ -142,10 +143,10 @@ This section will modify the 4x4 and 2x4 machines to make them compatible with t
 1. Remove the Drag chain bracket from the gantry
 1. Remove the X-axis Drag Chain End Link from the bracket
 
-### 1. Install the Z-Plus Drag Chain Bracket
+### Install the Z-Plus Drag Chain Bracket
 
 1. Remove the remaining Z-axis Drag Chain End Link
-1. Install both end links on the Z-Plus Drag Chain Bracket, using two M5-10mm Socket Head screw as well as two M5 T nuts.
+1. Install both end links on the Z-Plus Drag Chain Bracket, using four M5-10mm Socket Head screw as well as four M5 T-nuts.
 
     ---
 
@@ -176,7 +177,7 @@ This section will modify the 4x4 and 2x4 machines to make them compatible with t
     1x Z-axis drag chain
     (atc_assembly_spin-parts5.jpg)
 
-### 1. Prepare the Cables
+### Prepare the Cables
 
 Gather the following from the ATC box:
 
@@ -186,9 +187,11 @@ Gather the following from the ATC box:
 
 Place the cable ends and tubing near the **spindle connections** on the Z-axis.
 
+> Note: You may have partially or fully completed this step if you are doing a new build. You can click [Cable Management](https://resources.sienci.com/view/am-mk2-wiring-and-spindle/#cable-management-and-spindle-vfd) to review that section and verify you've followed the steps correctly.
+
 ---
 
-### 2. Route Through the Z-Axis Drag Chain
+### Route Through the Z-Axis Drag Chain
 
 1. Route the wires and tubing through the opening in the Z-Plus drag chain bracket. If it’s tight, loosen the bracket slightly to widen the opening.
 1. If you haven’t already, use a flathead screwdriver to detach the clips on the Z-axis drag chain.
@@ -211,7 +214,7 @@ Place the cable ends and tubing near the **spindle connections** on the Z-axis.
 
 ---
 
-### 3. Connect the Spindle
+### Connect the Spindle
 
 1. Connect the **spindle cable**.
 2. Connect the **signal cable**.
@@ -228,16 +231,16 @@ Place the cable ends and tubing near the **spindle connections** on the Z-axis.
 
 ---
 
-### 4. Route Through X and Y Drag Chains
+### Route Through X and Y Drag Chains
 
 1. Detach the **X-axis drag chain** from the end link on the X gantry. Open the clips, place the new cables and tubing inside, and close a few clips to hold them in place.
 1. Route the cables so they sit neatly in the chain. The **air tubing** should loop under the drag chain bracket, while the **spindle** and **signal cables** run straight from the Z-axis drag chain into the X-axis drag chain. Make sure nothing crosses or twists.
 1. Adjust the cable lengths as needed, then close the remaining clips along the **X-axis drag chain**.
-1. Repeat the same process for the **Y-axis drag chain**, routing the cables and tubing carefully to avoid bending or kinking the air tubing.
+1. Reconnect the X-axis drag chain to the new bracket.
 1. Verify the spindle cable reaches the VFD through the table leg cutout.
 1. Verify the signal cable reaches the SLB-EXT.
 1. Ensure the air tubing is free of kinks and sharp bends.
-1. Finally, reconnect the X-axis drag chain to the new bracket
+1. Finally, repeat the same process for the **Y-axis drag chain**, routing the cables and tubing carefully to avoid bending or kinking the air tubing.
 
 ---
 
