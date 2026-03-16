@@ -53,15 +53,15 @@ Load it into the program as described in [this article](https://docs.vectric.com
 
 Unfasten the collet nut from each tool holder you are using.
 
-![](../../_images/_atc/_atc_assembly/temp/IMG_9335.JPG)
+![](/_images/_atc/_atc_assembly/temp/IMG_9335.JPG)
 
 Grab your end mill and insert it into an ER20 collet. Seat the collet and end mill into a collet nut, then fasten them to a tool holder. Ensure the face of the collet is flush with the tool holder. Repeat for all the end mills you need for the job.
 
-![](../../_images/_atc/_atc_assembly/temp/IMG_9347.JPG)
+![](/_images/_atc/_atc_assembly/temp/IMG_9347.JPG)
 
 Slide the assembled tools onto the rack, with the end mills facing down.
 
-![](../../_images/_atc/_atc_assembly/temp/IMG_9345.JPG) ***what NOT to do
+![](/_images/_atc/_atc_assembly/temp/IMG_9345.JPG) ***what NOT to do
 
 Make sure they are placed in the correct order, matching the tool numbers you chose in the CAM software. Remember, Tool 1 is at LEFTMOST position on the rack
 

@@ -49,10 +49,10 @@ We’ll load the following tools into the rack and confirm their positions match
 30° V-bit for engraving the fine text.
 
 **Tool 4**
-1/16" downcut endmill for pocketing large blocky text
+1/16" downcut end mill for pocketing large blocky text
 
 **Tool 5**
-1/8" downcut endmill to cut out the cookies
+1/8" downcut end mill to cut out the cookies
 
 ![](/_images/_atc/_atc_basics/atc_basics_firstpro-toolorder6.jpg "Tools 1-5 are loaded and ready to carve"){.aligncenter .size-medium}
 

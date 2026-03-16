@@ -46,7 +46,7 @@ featured_image: _images/post-image.jpg
 
 1. Use the lever on the quick connect of your compressor to open the line.
 
-![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.35.22 PM.png>)
+![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.35.22 PM.png>)
 
    > *(Confirm with Johann when the air line should be purged before final connection.)*
 
@@ -56,7 +56,7 @@ featured_image: _images/post-image.jpg
 
 1. Set your **air compressor** to provide its **maximum flow**, usually this is a knob next to the gauge.
 
-![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.39.03 PM.png>)
+![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.39.03 PM.png>)
 
 1. To adjust **maximum flow**:
 

@@ -28,15 +28,15 @@ featured_image: _images/post-image.jpg
    * Snap fingers of rear gasket into place
    * Both gaskets should sit flush to the bottom of the bracket
 
-![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 133757.png>)
+![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 133757.png>)
 
-![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 133822.png>)
+![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 133822.png>)
 
 1. Insert **four (4) M5-16 mm screws**, one in each corner. Then fasten the dust shoe upper and lower pieces to the bracket using an Allen key.
 
-![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 134742.png>)
+![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 134742.png>)
 
-![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 135753.png>)
+![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 135753.png>)
 
 1. Mount the dust shoe assembly onto the spindle.
 
@@ -48,11 +48,11 @@ featured_image: _images/post-image.jpg
 
    * Secure into the **bottom threaded holes** on the spindle.
 
-![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 140010.png>)
+![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 140010.png>)
 
 1. Place a washer on each handle, then thread the handle into the **top hole** of each slider.
 
-![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 140315.png>)
+![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 140315.png>)
 
 1. Adjust dust shoe height to your desired position, then tighten the handle to lock it in place.
 
@@ -67,17 +67,17 @@ featured_image: _images/post-image.jpg
    * ⚠️ Do not drop screws into the spindle.
    * You may want to put a piece of paper to cover the spindle holes while assembling the fasteners. Remove the paper when you are done!
 
-![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 144517.png>)
+![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 144517.png>)
 
 1. Slide a hose clamp onto the hose.
 
 1. Attach the hose to the dust shoe inlet and tighten the clamp.
 
-![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 144041.png>)
+![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 144041.png>)
 
 1. Zip-tie the hose to the hose bracket for strain relief.
 
-![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 144251.png>)
+![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 144251.png>)
 
 ### Usage Notes
 

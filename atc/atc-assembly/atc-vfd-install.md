@@ -24,7 +24,7 @@ mounting spacer, 2x m5 nuts, 4x m5-30 screws, 1x VFD unit, 1x VFD power cable, 1
 
 1. Route the blue connector from the spindle cable through the table leg cutout
 
-![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 3.32.38 PM.png>)
+![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 3.32.38 PM.png>)
 
 1. Plug the connector into the bottom of the VFD. Rest the VFD on foam or a box, for now, until the VFD is mounted.
 

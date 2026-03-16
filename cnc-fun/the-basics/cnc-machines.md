@@ -63,7 +63,7 @@ To create all of these cool projects, you will need to use CAD/CAM software for 
 
 ![](/_images/_cnc-fun/_the-basics/_cncmachines/cnc_ba_cncmachines_vcarvepro.jpg "Using VCarve Pro to design some ornaments"){.aligncenter .size-medium}
 
-Once you have your design file toolpaths (gcode file) you can use a Sender to communicate with the CNC, like gSender!
+Once you have your design file toolpaths (g-code file) you can use a Sender to communicate with the CNC, like gSender!
 
 ![](/_images/_cnc-fun/_the-basics/_cncmachines/cnc_ba_cncmachines_gsender.jpg "Our ornaments loaded into gsender, ready to carve"){.aligncenter .size-medium}
 
