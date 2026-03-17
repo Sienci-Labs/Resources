@@ -16,15 +16,19 @@ featured_image: _images/post-image.jpg
 
 ## Air Filter Regulator Setup
 
-***Header photo: 2x Male Quick Disconnect Fittings, 1x air filter regulator, 1x mounting ring, 1x 8mm tubing
+[Render] Parts Needed:
+2x 3/8" BSPP Straight Fitting (8mm)
+1x Auto Drain Filter Regulator
+1x Filter Regulator Mounting Ring
+1x 8mm Pneumatic Tubing
 
-1. Install **two (2) male quick disconnect fittings** onto the **air filter regulator unit** using an adjustable wrench.
+1. Install **two (2) BSPP straight fittings** onto the **filter regulator** using an adjustable wrench.
 
 ![](/_images/_atc/_atc_assembly/temp/IMG_0880.JPG)
 
 1. Undo the large nut on the top of the unit.
 
-1. Select a location to mount the **filter regulator unit**. Then attach the **mounting ring** to your chosen location using the appropriate screws.
+1. Select a location to mount the **filter regulator**. Then attach the **mounting ring** to your chosen location using the appropriate screws.
 
    * ⚠️ The unit will **drip water**, so **do not mount it above electronics or wiring**.
 
@@ -35,7 +39,7 @@ featured_image: _images/post-image.jpg
 
    ![](/_images/_atc/_atc_assembly/temp/IMG_0883.JPG)
 
-1. With the filter regulator fixed in place, **cut the air line tubing such that**:
+1. With the filter regulator fixed in place, **cut the tubing such that**:
 
    * One line connects the **air compressor** to the filter regulator **inlet**, labelled IN.
    * The existing line (in the drag chain) connects the spindle to the filter regulator **outlet**, labelled OUT.
@@ -44,7 +48,7 @@ featured_image: _images/post-image.jpg
 1. Then connect the tubing between the **filter regulator outlet** and the **spindle**, and the
  **air compressor** and the **filter regulator inlet**.
 
-1. Use the lever on the quick connect of your compressor to open the line.
+1. Use the lever on the quick disconnect of your compressor to open the line.
 
 ![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.35.22 PM.png>)
 

@@ -101,8 +101,7 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | Item                                    | Box              | Qty | Notes |
 | --------------------------------------- | ---------------- | --- | ----- |
 | Auto Drain Filter Regulator             | Filter Regulator | 1   |       |
-| Compressor Quick Disconnect             | Filter Regulator | 1   |       |
-| 3/8″ Male Quick Disconnect Fitting      | Filter Regulator | 2   |       |
+| 3/8" BSPP Straight Fitting (8mm)        | Filter Regulator | 2   |       |
 | Filter Regulator Mounting Ring          | Filter Regulator | 1   |       |
 
 ### Clear Cut Dust Shoe
