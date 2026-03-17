@@ -60,7 +60,7 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 
 | Item                                                                 | Box         | Qty | Notes                              |
 | ------------------                                                   | ----------- | --- | ---------------------------------- |
-| ATC Shield                                                           | Electronics | 1   |                                    |
+| ATC Shield (SLB-EXT)                                                 | Electronics | 1   |                                    |
 | RJ12 Cable                                                           | Electronics | 1   |                                    |
 | 16GB Micro SD Card                                                   | Electronics | 1   |                                    |
 

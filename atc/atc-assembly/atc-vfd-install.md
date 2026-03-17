@@ -17,7 +17,7 @@ featured_image: _images/post-image.jpg
 ## VFD Installation & Connections
 
 [header image using the following parts:
-VFD mounting spacer, 2x m5 lock nuts, 4x m5-30 screws, 1x VFD unit, 1x VFD power cord, 1x Modbus cable, 1x ATC Shield, 1x RJ12 cable, 1x SD card
+VFD mounting spacer, 2x m5 lock nuts, 4x m5-30 screws, 1x VFD unit, 1x VFD power cord, 1x Modbus cable, 1x ATC Shield (SLB-EXT), 1x RJ12 cable, 1x SD card
 ]
 
 1. To prepare for installation, remove and unplug the **E-stop** from the table leg. Keep the screws that come with the E-stop.
