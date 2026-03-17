@@ -87,6 +87,8 @@ TODO
   - https://youtu.be/BHNu66fCex8
   - https://youtu.be/V8P1Y3n0O7Q
   - Kieswetter demolition for cheap materials
+- More Projects (lists and Reddit post)
+  - https://freelaserfile.com/ (looks all AI)
 - Good initial explanation of open source https://youtu.be/F7iLfuci75Y?si=CLqkkr1pYQIpH6BC
 - CNC resources being made by others
   - https://www.reddit.com/r/hobbycnc/s/NH3Z6P0XQ2
