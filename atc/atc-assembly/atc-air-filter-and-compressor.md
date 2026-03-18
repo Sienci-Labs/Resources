@@ -63,7 +63,7 @@ featured_image: _images/post-image.jpg
 
 1. Use the lever on the quick disconnect of your compressor to open the line.
 
-[Render] Image of valve on filter outlet turning from closed position to open position.
+[Render] Image of valve on filter outlet turning from closed position to open position. Image for illustration purposes only.
 (atc_assembly_air-valve.jpg)
 
 ![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.35.22 PM.png>)
@@ -76,19 +76,23 @@ featured_image: _images/post-image.jpg
 
 1. Set your **air compressor** to provide its **maximum flow**, usually this is a knob next to the gauge.
 
+[Render] We may want to consider keeping this an image, unless we import a generic air compressor or something. Basically need to show the knob being opened to allow for maximum flow in this render. Image may not be just for illustration.
+(atc_assembly_air-full.jpg)
+
 ![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.39.03 PM.png>)
 
-1. To adjust **maximum flow**:
+1. To adjust **flow** at the filter:
 
-   * Pull the regulator **knob upwards**.
+   * Pull the filter **knob upwards**.
    * Twist it through its full range to find the position that provides the **highest flow/pressure**.
    * Once found, **push the knob back down** to lock it in place.
+
+   [Render] Show the filter regulator with the knob popping up, turning and then being pushed back into place, locking in the pressure.
+   (atc_assembly_air-adjust.jpg)
 
 1. Use the **filter regulator** to adjust the output pressure to **90–100 PSI**.
 
    * Pressure fluctuations are normal.
    * When the compressor recharges, re-adjust the regulator knob as needed to return to the target pressure.
-
-1. Repeat the adjustment process for the **pressure regulator**, this time dialing in **90–100 PSI**.
 
 1. At this time you can reinstall your gControl panel and mount, see instructions [here ] https://resources.sienci.com/view/gc-gcontrol-assembly/
