@@ -20,7 +20,8 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 
 *** should we include renders of the confusing parts (like cables and drag chain pickups)?
 
-**Insert Picture** - Render of see through boxes. atc_assembly_unbox_1.jpg
+[Render] Header showing the two boxes the user will receive (see through boxes).
+(atc_assembly_unbox_1.jpg)
 
 ## Box Contents
 
