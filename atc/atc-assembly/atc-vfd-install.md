@@ -16,50 +16,74 @@ featured_image: _images/post-image.jpg
 
 ## VFD Installation & Connections
 
-[Render] Parts Needed:
-2x M5 Lock Nuts
-1x VFD Mounting Spacer
-4x M5 - 30mm Socket Head Screws
-1x 2.2kW Enclosed VFD
-1x 220V VFD Power Cord
-1x Modbus cable
-1x ATC Shield (SLB-EXT)
-1x RJ12 cable
-1x SD card
+    [Render] Image of full machine with VFD outlined in blue (atc_assembly_spin-header3.jpg)
 
-1. To prepare for installation, remove and unplug the **E-stop** from the table leg. Keep the screws that come with the E-stop.
+    [Render] Parts Needed:
+    2x M5 Lock Nuts
+    1x VFD Mounting Spacer
+    4x M5 - 30mm Socket Head Screws
+    1x 2.2kW Enclosed VFD
+    1x 220V VFD Power Cord
+    1x Modbus cable
+    1x ATC Shield (SLB-EXT)
+    1x RJ12 cable
+    1x SD card
+
+---
+
+1. Remove the **E-stop** from the table leg and unplug the **E-stop** from the SLB-EXT controller. Keep the screws that come with the E-stop.
 
 1. Route the blue connector from the spindle cable through the table leg cutout
 
-![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 3.32.38 PM.png>)
+---
+
+    [Render] A single image of the front-left AltMill table leg with the spindle power cable, blue connector end, entering the triangular cutout. The VFD is not installed on. Image below is for reference only.
+
+    (atc_assembly_vfd-tableleg.jpg)
+
+![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 3.32.38 PM.png>)
+
+---
 
 1. Plug the connector into the bottom of the VFD. Rest the VFD on foam or a box, for now, until the VFD is mounted.
 
-1. Put two (2) M5 lock nuts into the 3D printed **VFD mounting spacer.** They should be fully seated, in order to fully secure the fasteners later on.
+1. Fully seat two (2) M5 lock nuts into the 3D printed **VFD mounting spacer.** Orient the lock nuts so that the hex of the nut is facing into the spacer.
 
-![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 3.28.46 PM.png>)
+1. Place the **VFD mounting spacer** onto the **inner face of the front-left AltMill leg**, aligning the two (2) M5 - 30mm screws from the E-stop with the spacer holes. Fasten the **E-stop** on the **outer face of the leg**.
 
-1. Place the **VFD mounting spacer** onto the **inner face of the front-left AltMill leg**, then place the enclosed VFD against the spacer, aligning the two (2) M5 - 30mm screws from the E-stop with the bracket holes. Refasten the **E-stop** on the **outer face of the leg**.
+---
+![](../../_images/_atc/_atc_assembly/atc_assembly_vfd1.jpg){.aligncenter .size-medium}
 
-![](/_images/_atc/_atc_assembly/atc_assembly_vfd1.jpg){.aligncenter .size-medium}
+---
 
-1. Mount the enclosed VFD inside the table leg using the remaining two (2) M5 - 30mm screws.
+1. Mount the enclosed VFD inside the table leg using the remaining two (2) M5 - 30mm screws. Ensure that the VFD is positioned so you can see the screen through the table leg cutout.
 
-![](/_images/_atc/_atc_assembly/atc_assembly_vfd2.jpg){.aligncenter .size-medium}
+---
+![](../../_images/_atc/_atc_assembly/atc_assembly_vfd2.jpg){.aligncenter .size-medium}
 
-The VFD should be positioned with the screen/panel aligned with the cutout in the table leg. Plug the E-stop cable back in.
+---
 
-![](/_images/_atc/_atc_assembly/atc_assembly_vfd3.jpg){.aligncenter .size-medium}
+![](../../_images/_atc/_atc_assembly/atc_assembly_vfd3.jpg){.aligncenter .size-medium}
+
+---
+
+1. Plug the **E-stop cable** back into the SLB-EXT.
 
 1. Plug the **VFD power cord** into the VFD.
 
 1. Plug the **Modbus cable** into the VFD.
 
-![](/_images/_atc/_atc_assembly/atc_assembly_vfd4.jpg){.aligncenter .size-medium}
+---
+![](../../_images/_atc/_atc_assembly/atc_assembly_vfd4.jpg){.aligncenter .size-medium}
 
-1. Plug in the **Modbus cable** into the 'RS485' connector on the SLB-EXT controller.
+---
 
-![](/_images/_atc/_atc_assembly/atc_assembly_vfd5.jpg){.aligncenter .size-medium}
+1. Plug the other end of the **Modbus cable** into the 'RS485' connector on the SLB-EXT controller.
+
+---
+![](../../_images/_atc/_atc_assembly/atc_assembly_vfd5.jpg){.aligncenter .size-medium}
+
+---
 
 ### Finishing Up Connections
 
@@ -78,17 +102,25 @@ The VFD should be positioned with the screen/panel aligned with the cutout in th
 
 * Other end of the signal cable
 
-![](/_images/_atc/_atc_assembly/temp/IMG_8984.jpg)
-
 1. Then plug in the **ATC shield** onto the **black header connector** on the SLB-EXT.
 
-![](/_images/_atc/_atc_assembly/temp/IMG_8988.jpg)
+---
+
+    [Render] A single image of the ATC shield with the RJ12 cable and signal cable connected. The ATC shield is mounted onto the SLB-EXT. Images below are for reference only.
+    
+    (atc_assembly_vfd-atcshield.jpg)
+
+![](../../_images/_atc/_atc_assembly/temp/IMG_8984.jpg)
+
+![](../../_images/_atc/_atc_assembly/temp/IMG_8988.jpg)
+
+---
 
 1. Connect the other end of the **RJ12 cable** to the **PENDANT port** on the SLB-EXT.
 
 1. Plug the **other end of the Modbus cable** into the **RS485 port on the SLB-EXT**.
 
-1. Insert the **SD card** into the **SD card slot** on the SLB-EXT. Make sure it sits into the port, fully.
+1. Insert the **SD card** into the **SD card slot** on the SLB-EXT. Make sure it fully sits into the port.
 
 ## Wiring Sanity Check
 
