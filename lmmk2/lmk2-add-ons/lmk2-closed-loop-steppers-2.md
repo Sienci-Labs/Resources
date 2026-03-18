@@ -35,7 +35,7 @@ The following components are included in the upgrade kit and are shown together 
 - Larger Drag chain 18x26
 - Drag chain bracket
 - Drag chain holder mounts (x4)
-- SLB 3D-printed rail mounts (x2)
+- SLB EXT 3D-printed rail mounts (x2)
 - Inductive sensors (x4)
 - Inductive sensor bracket (x2)
 - Motor cable set (X cable: 1.8 m, Y1 cable: 1.4 m, Y2 cable: 2.7 m, Z cable: 3.65 m)
@@ -81,9 +81,7 @@ Ok, nicely done! We will now run the process we just completed, in reverse. Grab
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header2.jpg){.aligncenter .size-full .wid}
 
-Let's begin by sliding each M5-50mm bolt into a matching 40mm spacer.
-
-Thread each bolt/spacer into the corresponding 4 holes to secure the motor in place. Using either a drill or an M5 allen key, tighten each spacer/bolt combo.
+Let's begin by inserting each bolt into it's corresponding hole in the motor, then sliding each M5-50mm bolt into a matching 40mm spacer. Using either a drill or an M5 allen key, tighten each spacer/bolt combo.
 
 **Note - The latest motors do not have a red stripe around them, they are all black.**
 
@@ -239,7 +237,7 @@ Repeat the previous steps for the Z, Y1 and Y2 motors.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header5.jpg){.aligncenter .size-full .wid}
 
-To begin this section, let's mount the board to the rail. Grab both SLB mounting brackets and slide them onto the back of the case. You may notice that they are slightly angled. This is by design and allows you to slide them easily onto the case, while clamping the case to the rail when tightened.
+To begin this section, let's mount the board to the rail. Grab both SLB EXT mounting brackets and slide them onto the back of the case. You may notice that they are slightly angled. This is by design and allows you to slide them easily onto the case, while clamping the case to the rail when tightened.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-slbcase.jpg){.align-center .size-medium}
 
@@ -249,7 +247,7 @@ Space them out evenly, then tighten them down onto the rail using the M5 T-nuts 
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-slbcasetight.jpg){.align-center .size-medium}
 
-Now with the SLB installed, let's open it up and plug everything in! Loosen the thumb screw on the front of the SLB-EXT enclosure and remove the acrylic face plate.
+Now with the SLB EXT installed, let's open it up and plug everything in! Loosen the thumb screw on the front of the SLB-EXT enclosure and remove the acrylic face plate.
 
 Fit the Z-axis and X-axis wire harnesses into the top cut out of the enclosure on the left side. Plug the sensor and motor control connectors into their respectively named ports.
 
