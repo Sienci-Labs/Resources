@@ -23,21 +23,21 @@ featured_image: _images/post-image.jpg
 
 ## Initial Hardware Checks
 
-* Verify the **rack sensor** is on. It should be on if the rack has been installed correctly.
+1. Verify the **rack sensor** is on. It should be on if the rack has been installed correctly. There should be a red light coming from the rack sensor.
 
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_tlsensor.jpg){.aligncenter .size-medium}
+![](../../_images/_atc/_atc_assembly/temp/atc_assembly_soft_tlsensor.jpg){.aligncenter .size-medium}
 
-* Press the **Tool Length Sensor (TLS)**.
+1. Check that the **tool length sensor (TLS)** is functioning.
 
-* Confirm the **orange TLS LED** on the SLB-EXT turns on. This requires 2 people, should we direct people to look at gSender here instead?
+    * Press down on the TLS (either manually or by jogging the spindle down slowly), and confirm the **orange TLS LED** on the SLB-EXT turns on.
 
 **Insert screen shot or gif of light going on/off w button press. Maybe combine button press gif w light going on/off.**
 
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_machineinfo.JPG){.aligncenter .size-medium}
+![](../../_images/_atc/_atc_assembly/temp/atc_assembly_soft_machineinfo.JPG){.aligncenter .size-medium}
 
-* Check the **white Pressure LED** on the spindle is on.
+1. Check the **white Pressure LED** on the spindle is on.
 
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_airpressure.jpg
+![](../../_images/_atc/_atc_assembly/temp/atc_assembly_soft_airpressure.jpg
 ){.aligncenter .size-medium}
 
 * If the light is **red**:
@@ -55,7 +55,6 @@ The first time you connect to **gSender** with the spindle connected, air will l
 1. Go to **Tools**.
 1. Go to **SD Card Manager**.
 1. Insert your **SD card** into the slot.
-1. Confirm the **SD card** is inserted by......????
 
 ![](/_images/_atc/_atc_assembly/temp/aatc_assembly_soft_sdcard.jpg){.aligncenter .size-medium}
 
@@ -103,19 +102,19 @@ Move slowly. Avoid crashing the **stud finder** or **spindle nose**.
 
 1. You will be moving the spindle approximately 1140mm to the right on the X axis, 20mm forward on your Y axis, and 100mm down on your Z axis to get in the general area of our target (Starting from the back left corner). Let's begin:
   
-**Note: These movements may not be correct Y axis movement if using a MK1 or early MK2)**
+    **Note: These movements may not be correct Y axis movement if using a MK1 or early MK2**
 
 1. You can set your speed to rapid and enter 1140 into your XY travel distance box, then hit X+, or simply hold the X+ button down to move to the right.
 
-**Insert Picture or gif of machine moving**
+    **Insert Picture or gif of machine moving**
 
 1. Set your speed to normal, enter 20mm into your XY travel distance box, then hit the Y- arrow.
 
-**Insert Picture or gif of machine moving**
+    **Insert Picture or gif of machine moving**
 
 1. Keeping your speed at normal, enter 100 mm into your Z distance travel box, then hit the Z- button on the right side.
 
-**Insert Picture or gif of machine moving**
+    **Insert Picture or gif of machine moving**
 
 1. Use **precise jog** (small taps only) to get approximately:
 
@@ -185,8 +184,6 @@ Bob is your uncle now.
 1. Go to Config -> Tool Changing.
 1. Toggle the Enable ATCi switch and hit the apply changes button.
 
-
-
 ### Probed Rack Offsets
 
 * Offset values are calculated using:
@@ -195,7 +192,7 @@ Bob is your uncle now.
 
 1. Press **Continue** to return the machine to the home position automatically.
 
-## Tool Length Sensor Position
+## Tool Length Sensor Probing
 
 * You may probe using the **spindle nose** directly on the TLS.
 * If probing with a tool:
@@ -211,7 +208,7 @@ Bob is your uncle now.
   * Surfacing bits
   * Asymmetric tools
 
-## Spindle Configuration
+## Modbus Configuration
 
 1. Reconnect to the machine in gSender.
 2. Complete the **Modbus configuration**.
