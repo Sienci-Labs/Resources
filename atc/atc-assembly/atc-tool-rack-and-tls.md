@@ -20,7 +20,7 @@ featured_image: _images/post-image.jpg
 ---
       [Render] Image of full machine with tool rack, tool holders and tool length sensor outlined in blue 
       
-      (atc_assembly_spin-header4.jpg)
+      (atc_assembly_tool-header4.jpg)
       
       [Render] Parts Needed:
       1x Support Extrusion
@@ -32,7 +32,7 @@ featured_image: _images/post-image.jpg
       4x M6 - 14mm Button Head Screw
       2x M3 - 20mm Socket Head Screw
 
-      (atc_assembly_spin-parts7.jpg)
+      (atc_assembly_tool-parts7.jpg)
 ---
 
 ## Rack Assembly
@@ -46,7 +46,7 @@ featured_image: _images/post-image.jpg
 
     [Render] A single, top view image with the two front sections, one back right, and one back left section, labelled Front, Back Right and Back Left. Image below is for reference only. 
 
-     (atc_assembly_toolrack-sections.jpg)
+     (atc_assembly_tool-sections.jpg)
 
 ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.54.50 PM.png>)
 
@@ -65,7 +65,7 @@ featured_image: _images/post-image.jpg
    ---
          [Render] A single, top view image showing the M6 roll-in T-nut in the slot of the support extrusion, aligned and fastened underneath the back left rack section with the M6 - 8mm screw. Image below is for reference only.
 
-         (atc_assembly_toolrack-joinsection.jpg)
+         (atc_assembly_tool-join.jpg)
          
       ![](../../_images/_atc/_atc_assembly/temp/IMG_0896.JPG)
 
@@ -82,7 +82,7 @@ featured_image: _images/post-image.jpg
    ---
          [Render] A single image showing the tool rack sensor fastened onto the back right rack section (section is assembled onto the support extrusion but not fastened yet), with the wire coming out of sensor going through the rectangular cutout. A closeup view is called out, showing the sensor with the M3 screw heads is facing the slot cutout, on the side of the back right rack section. Images below are for reference only.
 
-         (atc_assembly_toolrack-racksensor.jpg)
+         (atc_assembly_tool-rack-sensor.jpg)
 
     ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 140903.png>)
 
@@ -101,7 +101,7 @@ featured_image: _images/post-image.jpg
 ---
       [Render] A single image showing the two back left and right sections assembled onto the support extrusion, with the sensor on the back right section. Image below is for reference only. 
 
-         (atc_assembly_toolrack-backrack.jpg)
+         (atc_assembly_tool-back.jpg)
 
 ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 5.15.52 PM.png>)
 
@@ -116,7 +116,7 @@ featured_image: _images/post-image.jpg
       6x Tool Holder Clip
       4x M6 - 8mm Button Head Screw
 
-      (atc_assembly_spin-parts8.jpg)
+      (atc_assembly_tool-parts8.jpg)
 ---
 
 1. Secure one (1) **tool holder clip** onto each end of the backbone, ensuring the clip sits **flush**. You should have two (2) clips installed.
@@ -129,7 +129,7 @@ featured_image: _images/post-image.jpg
 ---
      [Render] A single image of the tool holder clip installed onto the backbone with screws, side view. Callout for detailed view, showing the surface between the clip and backbone touching. Image below is for reference only.
          
-      (atc_assembly_toolrack-clip.jpg)
+      (atc_assembly_tool-clip.jpg)
 
  ![](../../_images/_atc/_atc_assembly/temp/IMG_0914.JPG)
 
@@ -143,14 +143,14 @@ featured_image: _images/post-image.jpg
 
 ---
       [Render] A single image showing the 3 configuration of hole positions on the rack assembly, labelled for each machine. Use the orientation showed in the photos below as reference.
-   
+
     * 2x4 Front section top 2 holes, back section bottom 2 holes
     
     * 4×4 MK2 / 4×8 Front section bottom 2 holes, back section bottom 2 holes
     
     * 4x4 MK1 Front section top 2 holes, back section top 2 holes
 
-    (atc_assembly_toolrack-rackconfig.jpg)
+    (atc_assembly_tool-config.jpg)
 
 2x4
 ![](../../_images/_atc/_atc_assembly/temp/IMG_0916.JPG)
@@ -174,7 +174,7 @@ featured_image: _images/post-image.jpg
     2x M6 Knob
     1x Rack Sensor Cable
     
-    (atc_assembly_spin-parts9.jpg)
+    (atc_assembly_tool-parts9.jpg)
 
 ---
 
@@ -185,7 +185,7 @@ featured_image: _images/post-image.jpg
 ---
       [Render] An image showing the position of the knobs onto the assembled rack and backbone, not on the machine yet though. Orientation of the rack and backbone follows image below. Image below is for reference only.
 
-    (atc_assembly_toolrack-knob.jpg)
+    (atc_assembly_tool-knob.jpg)
 
 ![](../../_images/_atc/_atc_assembly/temp/IMG_0930.JPG)
 
@@ -210,7 +210,7 @@ featured_image: _images/post-image.jpg
 ---
       [Render] A single image of the rack assembly showing that the front and back rack section faces are on the same plane (flush) with the crossbeam faces. Use the orientation shown in the image below. The rack assembly will be on top of the crossbeams. Image is for reference only (backbone is missing in the image, but should be in the render).
 
-    (atc_assembly_toolrack-section2.jpg)
+    (atc_assembly_tool-section2.jpg)
 
 ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 124555.png>)
 
@@ -231,7 +231,7 @@ featured_image: _images/post-image.jpg
 ---
       [Render] An image showing the rack assembly hooked on the machine, with callouts for detailed views to show the reference positions rear right leg, and front most crossbeam. Also call out detailed view to show reference position for the backbone. Images below are for reference only. 
          
-      (atc_assembly_toolrack-section3.jpg)
+      (atc_assembly_tool-section3.jpg)
 
    ![](../../_images/_atc/_atc_assembly/temp/IMG_0921.JPG)
 
@@ -251,7 +251,7 @@ featured_image: _images/post-image.jpg
 ---
       [Render] An image showing the backbones of two rack assemblies, assembled on the machine, touching. Image below is for reference only.
       
-      (atc_assembly_toolrack-section4.jpg)
+      (atc_assembly_tool-section4.jpg)
 
 ![](../../_images/_atc/_atc_assembly/temp/IMG_0932.JPG)
 
@@ -265,7 +265,7 @@ featured_image: _images/post-image.jpg
 ---
       [Render] An image showing 2 tool holders on 1 backbone of a rack assembly, with detailed view of clip fitting into the groove of the tool holder.
       
-      (atc_assembly_toolrack-section5.jpg)
+      (atc_assembly_tool-section5.jpg)
 ---
 
 ## Rack Sensor Cable Routing
@@ -283,7 +283,7 @@ featured_image: _images/post-image.jpg
 ---
       [Render] An image showing the rack sensor cable, no background needed, showing connections: female end going to rack sensor, male end going to ATC shield Rack 1 or 2. Can use dotted/transparent lines to show connection start and destinations. Images are for reference only. 
 
-      (atc_assembly_toolrack-rackcable.jpg)
+      (atc_assembly_tool-rack-cable.jpg)
 
 ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 134445.png>)
 
@@ -302,7 +302,7 @@ featured_image: _images/post-image.jpg
     2x Twist-In T-nut
     2x Roll-In T-nut
 
-    (atc_assembly_spin-parts10.jpg)
+    (atc_assembly_tool-parts10.jpg)
 
 ---
 
@@ -335,7 +335,7 @@ featured_image: _images/post-image.jpg
 ---
       [Render] An image of the TLS fastened onto the right back corner of the AltMill next to the tool rack assembly, connected to the TLS cable. Show detailed view of the TLS, showing orientation of body and base. Images below are for reference only.
 
-         (atc_assembly_toolrack-tls.jpg)
+         (atc_assembly_tool-tls.jpg)
 ---
 
 ![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-18 133231.png>)
