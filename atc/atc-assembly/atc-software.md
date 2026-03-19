@@ -54,29 +54,29 @@ The first time you connect to **gSender** with the spindle connected, air will l
 1. Open **gSender** and connect to your machine.
 1. Go to **Tools**.
 1. Go to **SD Card Manager**.
-1. Insert your **SD card** into the slot.
+1. Insert your **microSD card** into the slot.
 
-![](/_images/_atc/_atc_assembly/temp/aatc_assembly_soft_sdcard.jpg){.aligncenter .size-medium}
+![](../../_images/_atc/_atc_assembly/temp/aatc_assembly_soft_sdcard.jpg){.aligncenter .size-medium}
 
-* We strongly recommend using the SD card provided with your kit.
+* We strongly recommend using the microSD card provided with your kit.
 * Other SD cards may need to be reformatted to FAT32 and must not exceed a capacity of 32 GB.
 
-We will be using gSender to write the latest ATC macros to your SDCard in the initial setup stage.
+We will be using gSender to write the latest ATC macros to your SD Card in the Initial Setup stage below.
 
 ### Accessory Installation
 
-1. Stay on your Tools tab, and click on Accessory Installation.
+1. Stay on the Tools tab, and click on **Accessory Installation**.
 
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_accessoryinstal.jpg){.aligncenter .size-medium}
+![](../../_images/_atc/_atc_assembly/temp/atc_assembly_soft_accessoryinstal.jpg){.aligncenter .size-medium}
 
-1. Select Sienci ATC and click on that box. This process should take approx 30 min.
+1. Select **Sienci ATC** and click on that box. This process should take approx 30 min.
 1. Select **Initial Setup**.
 
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_initialsetup.jpg){.aligncenter .size-medium}
+![](../../_images/_atc/_atc_assembly/temp/atc_assembly_soft_initialsetup.jpg){.aligncenter .size-medium}
 
-1. Select Rack size. For this example, we are selecting a 6 tool rack. Hit upload.
+1. Select your Rack Size. For this example, we are selecting a 6 Tool Rack. Hit Upload.
 
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_macroconfig.jpg){.aligncenter .size-medium}
+![](../../_images/_atc/_atc_assembly/temp/atc_assembly_soft_macroconfig.jpg){.aligncenter .size-medium}
 
 1. Once the button turns green, click Next in the bottom right corner.
 
@@ -91,18 +91,25 @@ We will be using gSender to write the latest ATC macros to your SDCard in the in
 
 ### Rack Position
 
-This next wizard will allow us to manually move the ATC to find the tool-studs. We will be lining up an LED sensor on the front of the ATC with the tip of the tool-stud until the LED light goes on.
+This next wizard will prompt us to manually jog the ATC, in order to locate the rack. To do this, we will line up the sensor on the front of the ATC over the tool holder stud, triggering an LED to light up.
 
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_rackposition.jpg){.aligncenter .size-medium}
+![](../../_images/_atc/_atc_assembly/temp/atc_assembly_soft_rackposition.jpg){.aligncenter .size-medium}
 
 1. Ensure **Use Utility** is selected in the drop down menu.
 
-⚠️ **Caution:**
-Move slowly. Avoid crashing the **stud finder** or **spindle nose**.
+    ⚠️ **Caution:** Move slowly. Avoid crashing the **stud finder** or **spindle nose**.
 
-1. You will be moving the spindle approximately 1140mm to the right on the X axis, 20mm forward on your Y axis, and 100mm down on your Z axis to get in the general area of our target (Starting from the back left corner). Let's begin:
+1. Assuming you start from the back left corner of the machine, you will be moving the spindle above the left-most tool holder, about:  
+
+* 1140mm to the right on the X axis
+
+* 20mm forward on your Y axis
+
+* 100mm down on your Z axis
   
-    **Note: These movements may not be correct Y axis movement if using a MK1 or early MK2**
+    **Note: These values are approximate, you will need to adjust especially if using a MK1 or early MK2**
+
+Let's begin:
 
 1. You can set your speed to rapid and enter 1140 into your XY travel distance box, then hit X+, or simply hold the X+ button down to move to the right.
 
@@ -124,7 +131,7 @@ Move slowly. Avoid crashing the **stud finder** or **spindle nose**.
 
 Once the light is on, hit the **Blue Find Rack** button.
 
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_rackprobe.jpg){.aligncenter .size-medium}
+![](../../_images/_atc/_atc_assembly/temp/atc_assembly_soft_rackprobe.jpg){.aligncenter .size-medium}
 
 This will bring up a **Probing Sequence** confirmation box, hit OK to continue.
 
@@ -132,7 +139,7 @@ This will bring up a **Probing Sequence** confirmation box, hit OK to continue.
 
 Once complete, you will see another confirmation box pop up. We will be moving to the next tool (tool #6), so ensure the tool stud is mounted there before continuing. Hit OK.
 
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_rackprobenext.jpg){.aligncenter .size-medium}
+![](../../_images/_atc/_atc_assembly/temp/atc_assembly_soft_rackprobenext.jpg){.aligncenter .size-medium}
 
 **Add a indication of where tool 1 and tool 6 are in this image below.**
 
@@ -148,11 +155,11 @@ Once complete, you will see another confirmation box pop up. We will be moving t
 
 Now we will be setting the location of the TLS.
 
-1. We are going to move the spindle all the way to the right side again, to set the location of the tls. You can jog all the way, or enter 1250mm into the XY travel distance box to get close.
+1. We are going to move the spindle all the way to the right side again, to set the location of the TLS. You can jog all the way, or enter 1250mm into the XY travel distance box to get close.
 1. Now you can adjust forward (Y-) approx 80mm, and down (Z-) by approx 130mm.
 1. Now do manual adjustments until the spindle nose is directly above the tls.
 
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_tlsaligned.JPG){.aligncenter .size-medium}
+![](../../_images/_atc/_atc_assembly/temp/atc_assembly_soft_tlsaligned.JPG){.aligncenter .size-medium}
 
 1. Now you can hit the blue **Set Position** button!
 1. Once the button turns green and indicates the position has been set, hit the Next button.
