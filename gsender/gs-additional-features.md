@@ -689,7 +689,7 @@ If you want some initial inspiration, see other macros [**made by our community*
 1. Use your variable in g-code, like `G21 G91 G0 X[variable]` (moves the X-axis by the amount set in the variable)
 1. Test your code by printing it to the console `([variable])`
 1. Make dialog boxes appear on the screen to confirm a value or position by putting in an M0 line with a comment, for example `M0 ;Remember to turn on your router before the next step` which will pause the macro and give you the option to 'continue' or 'cancel'
-1. Start experimenting with basic math using numbers and variables
+1. Start experimenting with basic math using numbers and variables like `%combo = (variable + variable2 + 4)/2` (Hint: you don't need square brackets around variable names when the line starts with `%`, <a href="https://forum.sienci.com/t/macro-gcode-question/21399/6" target="_blank" rel="noopener">explanation</a>)
 1. Use global variables `global.variable` if you want variables that you can use in other macros (note that these get reset once gSender is closed)
 1. Read up on all the other Math features available like <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math" target="_blank" rel="noopener">absolute value, rounding, and trigonometry</a> (become very useful for more advanced probing cycles for example)
 1. Start to add more logic to your code using ternary expressions to choose between two outcomes (e.g. `%variable = (30 > 20) ? 10 : 20` which is checking if 30 is bigger than 20, and if it is it'll make the variable = 10, otherwise it'll make the variable = 20).
