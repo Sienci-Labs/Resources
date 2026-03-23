@@ -14,7 +14,9 @@ skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
+## gControl Panel
 
+At this time you can reinstall your gControl panel and mount, see instructions [here ] https://resources.sienci.com/view/gc-gcontrol-assembly/
 
 ## Software Setup
 
