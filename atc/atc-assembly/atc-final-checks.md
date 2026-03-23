@@ -14,20 +14,22 @@ skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
-Now that you have the ATC assembled, let's make sure the system is functional. We will go through the **basic ATC processes that should be done each time you run a new job.** Any issues you have with these processes may indicate there is a mis-assembled or faulty part, we would recommend going back to previous pages to check the assembly.
+Now that you have the ATC assembled, let's make sure the system is functional. We will go through the **basic ATC processes that should be done each time you run a new job:**
 
-1. Load Tool Rack
-1. Run Homing Cycle
-1. Set Up Tool Names
-1. Load a Tool  
+1. [Load Tool Rack](#load-tool-rack)
+1. [Run Homing Cycle](#run-homing-cycle)
+1. [Set Up Tool Names](#set-up-tool-names)
+1. [Load a Tool](#load-a-tool)  
+
+Any issues you have with these processes may indicate there is a mis-assembled or faulty part, we would recommend going back to previous pages to check the assembly.
 
 ## Load Tool Rack
 
-1. Let's get some tools loaded! Loosen the collet nut from each tool holder you are using.
+1. Let's get some tools loaded! Loosen the collet nut from each tool holder you are using. If secured tightly, use the set of wrenches that come with the ATC kit.
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_finalcheck-nut.JPG)
 
-1. Grab the bits that you will be using for your first project. Insert them into ER20 collets. Your kit will come with ER20 collets that fit 1/8″, 1/4″, 3/8″, and 1/2″ tools.
+1. Grab the bits that you plan to use for your first project. Insert them into ER20 collets. Your kit comes with ER20 collets that fit 1/8″, 1/4″, 3/8″, and 1/2″ tools.
 
 1. Seat the collet and bit into a collet nut, then secure them to a tool holder using the set of wrenches provided. Ensure the face of the collet is flush with the tool holder. Repeat for the remaining bits.
 
@@ -35,9 +37,9 @@ Now that you have the ATC assembled, let's make sure the system is functional. W
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_finalcheck-colletbit.JPG)
 
-1. Slide the assembled tools onto the rack, with the end mills facing down.
+1. Slide the assembled tools onto the rack, the bits should be facing down.
 
-1. To keep track of what tools you have on your rack, we suggest writing them down in a list, on a piece of paper. This is especially helpful if the AltMill is in a different room than the computer you use for CAM software. For example:
+1. To keep track of what tools you have on your rack, we suggest writing them down in a list, on a piece of paper. For example:
 
 `Tool 1: 1/4" Flat End Mill`
 
@@ -57,7 +59,7 @@ Now that you have the ATC assembled, let's make sure the system is functional. W
 
 ## Run Homing Cycle
 
-After connecting to gSender, home your AltMill - this required to use your ATC.
+After connecting to gSender, home your AltMill - this is required to use your ATC.
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_finalcheck-home.jpg)
 
@@ -65,17 +67,17 @@ If the limit switches are set up correctly and undamaged, you should be able to 
 
 ## Set Up Tool Names
 
-1. At this point you should see the ATC tab on the bottom right of gSender. Select the small Tools button with the chart icon.
+1. You should see the ATC tab on the bottom right of gSender. Select the Tools button with the chart icon.
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_finalcheck-atctab.jpg)
 
-1. Rename the tools to match what is on your rack, using the written list you have made. Renaming **does not impact tool changing functionality**. It is only there to remind you of what tools are on the rack.
+1. Rename the tools to match what is on your rack, using the written list you have made. **Renaming does not impact tool changing functionality**. It is only there to remind you of what tools are on the rack.
 
 ![](/_images/_atc/_atc_assembly/atc_assembly_finalcheck-rename.jpg)
 
 ## Load a Tool
 
-Now we have done all the preparations, let's try out changing a tool with this ATC!
+Now we have done all the preparations, let's try changing out a tool!
 
 1. Under the ATC tab, select Load.
 
@@ -93,7 +95,7 @@ To learn how to **generate compatible g-code** and **run a job with automated to
 
 ## Troubleshooting
 
-If you were unable to load the tool successfully, or seeing errors during the process, see below for potential resolutions.
+If you were unable to load the tool successfully, or saw errors during the process, see below for potential resolutions.
 
 ### Machine loaded the wrong tool
 
