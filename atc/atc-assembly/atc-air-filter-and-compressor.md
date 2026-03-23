@@ -16,6 +16,8 @@ featured_image: _images/post-image.jpg
 
 ## Air Filter Regulator Setup
 
+If you did not include the regulator in your order, you can simply connect your air hose to your compressor, and skip this section.
+
 [Render] Hero image of entire setup to date, with the air filter highlighted
 (atc_assembly_air-header1.jpg)
 
@@ -68,20 +70,20 @@ featured_image: _images/post-image.jpg
 
 ![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.35.22 PM.png>)
 
-   > NOTE: Before connecting a new air compressor to the automatic tool changer system, run it with the tank drain valve fully open for 15–30 minutes. This clears out manufacturing debris, oil, and initial moisture, and allows the pump to seat properly. Skipping this step can push contaminants into valves and tooling, leading to premature wear or failure.
+   > NOTE: Before connecting a new air compressor to the automatic tool changer system, check your manufacturer's recommendations on purging the system of debris before you begin.
 
 ## Setting Air Pressure & Flow
 
 1. Turn on the air compressor.
 
-1. Set your **air compressor** to provide its **maximum flow**, usually this is a knob next to the gauge.
+1. Set your **air compressor** to provide its **maximum flow**, usually this is a knob next to the gauge that has a mark for max.
 
 [Render] We may want to consider keeping this an image, unless we import a generic air compressor or something. Basically need to show the knob being opened to allow for maximum flow in this render. Image may not be just for illustration.
 (atc_assembly_air-full.jpg)
 
 ![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.39.03 PM.png>)
 
-1. To adjust **flow** at the filter:
+1. To adjust **flow**:
 
    * Pull the filter **knob upwards**.
    * Twist it through its full range to find the position that provides the **highest flow/pressure**.
@@ -94,5 +96,3 @@ featured_image: _images/post-image.jpg
 
    * Pressure fluctuations are normal.
    * When the compressor recharges, re-adjust the regulator knob as needed to return to the target pressure.
-
-1. At this time you can reinstall your gControl panel and mount, see instructions [here ] https://resources.sienci.com/view/gc-gcontrol-assembly/
