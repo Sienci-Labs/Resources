@@ -14,6 +14,58 @@ skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
+## ATC Workflow on gSender
+
+If you haven't yet, go through the Software Setup page to initialize your ATC system. ***Link to software setup. You cannot use your ATC until this process is complete.
+
+We have the g-code, and we installed the tools. Now we can move on to running the job!
+
+1. Set up any workholding to secure your material on the wasteboard.
+
+1. Connect to gSender
+
+1. Home the machine
+
+* Jog the machine away from the tool rack
+
+* Press Home
+
+1. Load your job onto gSender
+
+* Use the Load File button to select your g-code file
+
+* You should see a "Tool Timeline" with the different toolpaths highlighted in various colours, corresponding to the toolpath colours on the visualizer
+
+1. Load a tool onto the spindle to zero your machine with
+
+* Choose a tool from your rack that has a symmetric, flat end, like a standard flat end mill
+
+* Press Load and select the correct tool number
+
+***insert picture of Load with dropdown
+
+* Remove the bottom of the dust shoe so you can see the end mill
+
+* Jog the machine to where you want the job to start on your material, then use the Z0, X0 and Y0 buttons to zero each axis
+
+* Jog upwards then reattach your dust shoe bottom (you do NOT need to re-zero the Z-axis after jogging)
+
+We are about ready to start cutting. Here are some final precautions you may want to take:
+
+1. Check the Tool Timeline to see if the order of toolpaths and their tool number are correct.
+
+* At any point before running the job, if you need to re-assign tool numbers, use the Remapping button beside each toolpath.
+
+***insert screenshot of remapping button
+
+1. At the Spindle/Laser tab, spin up the spindle to ensure automatic spindle control is working
+
+1. In Config, under Tool Changing, check that the gSender Strategy is set to Ignore
+
+***insert screenshot of this setting
+
+1. Press Start!
+
 # First Project: Sassy Wooden Cookies with the ATC
 
 Now that our Automatic Tool Changer with a single rack is installed and configured, it’s time to run our first real project.
