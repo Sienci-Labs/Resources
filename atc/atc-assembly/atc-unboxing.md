@@ -105,15 +105,3 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | M6 Roll-in T-nut                     | 7   |       |
 | ATC Rack Sensor                      | 1   |       |
 | ATC Rack Sensor Cable - 4.6m         | 1   |       |
-
-## Setup Tips
-
-This is expected to take 2-4 hours depending on whether you need to remove or reassemble existing components on your machine, a list of preparation tasks can be found in the [Before You Begin](https://resources.sienci.com/view/atc-before-you-begin/) page.
-
-We recommend completing your AltMill setup before the ATC setup.
-
-Use Allen keys, hand screwdrivers and wrenches, do not use impact drills as they can strip the holes. You can use a regular drill for screws that are M5 or larger.
-
-Most fasteners just need to be hand tight, do not strongly crank to secure. If cranking is needed, the instructions will indicate it.
-
-We highly recommend assembling this kit with two people. The components are heavy and unwieldy,  can be damaged easily if dropped at any point.
