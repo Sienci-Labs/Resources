@@ -1,6 +1,6 @@
 ---
 title: ATC VFD Install
-menu_order: 5
+menu_order: 4
 post_status: draft
 post_excerpt: How to connect your VFD to your ATC system. 
 post_date: 2026-02-10 11:16:53

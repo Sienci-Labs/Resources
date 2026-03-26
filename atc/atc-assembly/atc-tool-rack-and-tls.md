@@ -1,6 +1,6 @@
 ---
 title: ATC Tool Rack & TLS
-menu_order: 6
+menu_order: 5
 post_status: draft
 post_excerpt: Connecting your tool rack(s) and setting up your tool length sensor.
 post_date: 2026-02-10 11:38:53
@@ -16,7 +16,8 @@ featured_image: _images/post-image.jpg
 
 ## Rack & TLS Installation
 
-> **No rack?** Skip ahead to the [**TLS Cable**](#tls-cable) section in this article.  
+**No rack?** [SKIP AHEAD to the TLS](#tool-length-sensor) section in this article.
+
 ---
       [Render] Image of full machine with tool rack, tool holders and tool length sensor outlined in blue 
       
@@ -321,7 +322,7 @@ featured_image: _images/post-image.jpg
 
 1. Put the TLS base and body together.
 
-1. Pre-assemble **two (2) M5 - 10mm screws** with the **M5 - T-nuts*** on the TLS.
+1. Pre-assemble **two (2) M5 - 10mm screws** with the **M5 - T-nuts** on the TLS.
 
 1. Slide the TLS into the **right Y-axis rail T-slot**.
 
