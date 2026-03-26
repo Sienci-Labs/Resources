@@ -16,11 +16,6 @@ featured_image: _images/post-image.jpg
 
 ## Spindle Installation & Drag Chain Setup
 
-Use these colour indicators to complete steps specific to your machine configuration.
-
-🟦 **4x4 & 2x4**  
-🟧 **4x8**  
-
 ---
 
 ### Spindle & Drag Chain Arm
@@ -66,9 +61,9 @@ Use these colour indicators to complete steps specific to your machine configura
 1. Place the **ATC mounting plate** onto the spindle.
 2. Select the correct **mounting position** based on your machine configuration.
 
-    🟦 **4x4 & 2x4 Machines** the standard configuration is the center position. The mounting plate holes should align up with six (6) corresponding holes on the spindle.
+    **4x4 & 2x4 Machines** the standard configuration is the center position. The mounting plate holes should align up with six (6) corresponding holes on the spindle.
 
-    🟧 **4x8 Machines** the mounting plate should be shifted one or two rows up. One row if you don’t intend to run T- tracks, and two rows if you do. The mounting plate holes will align with the top four (4) holes on the spindle.
+    **4x8 Machines** the mounting plate should be shifted one or two rows up. One row if you don’t intend to run T- tracks, and two rows if you do. The mounting plate holes will align with the top four (4) holes on the spindle.
 
 3. Secure the mounting plate using M6 - 14mm button head screws.
 
@@ -125,9 +120,11 @@ Use these colour indicators to complete steps specific to your machine configura
 ---
 This section will modify the 4x4 and 2x4 AltMills to make them compatible with the Z-axis drag chain.
 
-🟧 **4x8 Machines** [SKIP AHEAD TO CABLE AND TUBING ROUTING](#cable-and-tubing-routing)
+### 4x8 Machines
 
-🟦 **4x4 & 2x4 Machines**  
+[SKIP AHEAD TO CABLE AND TUBING ROUTING](#cable-and-tubing-routing)
+
+### 4x4 & 2x4 Machines  
 
     [Render] Parts needed:
     1x Z-axis Drag Chain
@@ -136,7 +133,7 @@ This section will modify the 4x4 and 2x4 AltMills to make them compatible with t
     1x Z-Plus Drag Chain Bracket (triangle-shaped bracket)
     (atc_assembly_spin-parts4.jpg)
 
-### Remove the Drag Chain Bracket
+#### Remove the Drag Chain Bracket
 
 1. Disconnect the X-axis drag chain from its end link on the bracket.
 1. Remove the old drag chain bracket from the back of the gantry.
@@ -147,7 +144,7 @@ This section will modify the 4x4 and 2x4 AltMills to make them compatible with t
 
     ![](/_images/_atc/_atc_assembly/atc_assembly_spin-oldbracket.jpg)
 
-### Install the Z-Plus Drag Chain Bracket
+#### Install the Z-Plus Drag Chain Bracket
 
 1. Remove one (1) end link from the Z-axis drag chain
 1. Install the two (2) end links on the new Z-plus drag chain bracket, using four (4) M5-10mm screws and four (4) M5 T-nuts.
