@@ -26,7 +26,7 @@ The expected ATC assembly time is **2–4 hours**, so be sure to allot enough ti
 
 * Because of the assemblies, we strongly recommend having a second person available when installing the spindle onto the machine or when mounting a tool rack.
 
-* Use the provided Allen keys. You can use a regular drill for screws that are M5 or larger, but **do not use impact drills** as they can strip the holes. Begin threading each screw by hand first to prevent cross-threading.  
+* Grab a set of **metric Allen keys**, as well as use the provided Allen keys. You can use a regular drill for screws that are M5 or larger, but **do not use impact drills** as they can strip the holes. Begin threading each screw by hand first to prevent cross-threading.  
 
 * Keep components in their **original bags and boxes** until they are needed. The labels will help you quickly identify the correct parts.
 
