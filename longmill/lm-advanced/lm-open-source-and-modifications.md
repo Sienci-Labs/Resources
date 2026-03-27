@@ -73,7 +73,7 @@ The LongBoard CNC Controller is the control system and brains of the LongMill. T
 
 <a href="https://resources.sienci.com/wp-content/uploads/2021/04/Sienci-LongBoard-Rev-1.4.3-1.zip" target="_blank" rel="noopener">Rev-1.4.3 LongBoard Design</a>
 
-**BOM of every version:** <a href="https://docs.google.com/spreadsheets/d/1qlHlp576s9GIBMPfp4JU8Yr7xBM5gUNruvHFBVFoDOM" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1qlHlp576s9GIBMPfp4JU8Yr7xBM5gUNruvHFBVFoDOM</a>
+**BOM of every version:** <a href="https://docs.google.com/spreadsheets/d/10HOJIfVh_pb41V6eJ3zf50yBgs8vmk5MnvHfNH4q9_Q" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/10HOJIfVh_pb41V6eJ3zf50yBgs8vmk5MnvHfNH4q9_Q</a>
 
 ## Other Add-ons
 
@@ -121,7 +121,7 @@ A typical block-style, 3-axis touch plate we designed for finding X, Y, and Z-ze
 [/su_column] [su_column size="1/2" center="no" class=""]![](/_images/_longmill/_advanced/lm-os-longmill-mk1-inductive-sensors.jpg){.aligncenter .size-medium .opensource}[/su_column]
 [/su_row]
 
-**BOM of all add-ons:** <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1028766194" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1028766194</a>
+**BOM of all add-ons:** <a href="https://docs.google.com/spreadsheets/d/1-wWrsgTZU89hhSgYjCSs-IisSey4unI6lo25_mKFzHw/edit#gid=1028766194" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1-wWrsgTZU89hhSgYjCSs-IisSey4unI6lo25_mKFzHw/edit#gid=1028766194</a>
 
 ## 3D Printing
 

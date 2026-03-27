@@ -52,7 +52,7 @@ You can find the BOM and designs of every part and assembly of the LongMill MK2 
 
 **MK2:** <a href="https://CAD.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/99a028de0f32d790196bbe8a" target="_blank" rel="noopener">https://cad.onshape.com/documents/59335d21bb649cd2b941a693/w/290c65d1d584435649b87e46/e/99a028de0f32d790196bbe8a</a>
 
-**BOM:** <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1540965623" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1540965623</a>
+**BOM:** <a href="https://docs.google.com/spreadsheets/d/1-wWrsgTZU89hhSgYjCSs-IisSey4unI6lo25_mKFzHw/edit#gid=1540965623" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1-wWrsgTZU89hhSgYjCSs-IisSey4unI6lo25_mKFzHw/edit#gid=1540965623</a>
 
 ## SuperLongBoard Controller
 
@@ -66,7 +66,7 @@ The LongBoard CNC Controller is the control system and brains of the LongMill. T
 
 <a href="https://resources.sienci.com/wp-content/uploads/2021/04/Sienci-LongBoard-Rev-1.4.3-1.zip" target="_blank" rel="noopener">Rev-1.4.3 LongBoard Design</a>
 
-<strong>BOM of every version:</strong> <a href="https://docs.google.com/spreadsheets/d/1qlHlp576s9GIBMPfp4JU8Yr7xBM5gUNruvHFBVFoDOM" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1qlHlp576s9GIBMPfp4JU8Yr7xBM5gUNruvHFBVFoDOM</a>
+<strong>BOM of every version:</strong> <a href="https://docs.google.com/spreadsheets/d/10HOJIfVh_pb41V6eJ3zf50yBgs8vmk5MnvHfNH4q9_Q" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/10HOJIfVh_pb41V6eJ3zf50yBgs8vmk5MnvHfNH4q9_Q</a>
 
 ## Other Add-ons
 
@@ -133,7 +133,7 @@ Keeps dust off the Y-axes of the LongMill MK2, made out of a single piece of ben
 [/su_column] [su_column size="1/2" center="no" class=""]<img class="opensource aligncenter wp-image-11190 size-full" src="https://resources.sienci.com/wp-content/uploads/2022/03/lm-os-longmill-mk2-dust-shield-e1728498275422.jpg" alt="" width="837" height="669" />[/su_column]
 [/su_row]
 
-**BOM of all add-ons:** <a href="https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1028766194" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1MqOwPg3VSUTMtn3ff6rXjfvliAWnFqg8ez2eZasJLCE/edit#gid=1028766194</a>
+**BOM of all add-ons:** <a href="https://docs.google.com/spreadsheets/d/1-wWrsgTZU89hhSgYjCSs-IisSey4unI6lo25_mKFzHw/edit#gid=1028766194" target="_blank" rel="noopener">https://docs.google.com/spreadsheets/d/1-wWrsgTZU89hhSgYjCSs-IisSey4unI6lo25_mKFzHw/edit#gid=1028766194</a>
 
 ## 3D Printing
 
