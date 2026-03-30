@@ -34,7 +34,7 @@ featured_image: _images/post-image.jpg
 
 1. Lift the spindle out of the bottom foam and place it on the top foam packaging with the **threaded mounting holes facing up**.
 
-    > **Important:** Never stand the spindle on its nose (tool end) to avoid damaging the bearings.  
+        ⚠️ Never stand the spindle on its nose (tool end) to avoid damaging the bearings.  
 
 1. Remove the **male end link** (studded end) from the Z-axis drag chain.
 

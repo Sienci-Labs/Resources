@@ -68,7 +68,7 @@ If you did not include the regulator in your order, you can simply connect your 
 [Render] Image of valve on filter outlet turning from closed position to open position. Image for illustration purposes only.
 (atc_assembly_air-valve.jpg)
 
-![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.35.22 PM.png>)
+![](../../_images/_atc/_atc_assembly/temp/atc_assembly_air-valve.jpg)
 
    > NOTE: Before connecting a new air compressor to the automatic tool changer system, check your manufacturer's recommendations on purging the system of debris before you begin.
 
@@ -81,7 +81,7 @@ If you did not include the regulator in your order, you can simply connect your 
 [Render] We may want to consider keeping this an image, unless we import a generic air compressor or something. Basically need to show the knob being opened to allow for maximum flow in this render. Image may not be just for illustration.
 (atc_assembly_air-full.jpg)
 
-![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 4.39.03 PM.png>)
+![](../../_images/_atc/_atc_assembly/temp/atc_assembly_air-compknob.jpg)
 
 1. To adjust **flow**:
 
