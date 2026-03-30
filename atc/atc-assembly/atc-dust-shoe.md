@@ -1,6 +1,6 @@
 ---
 title: ATC Dust Shoe
-menu_order: 9
+menu_order: 7
 post_status: draft
 post_excerpt: Assembling and installing the clear dust shoe for the atc.
 post_date: 2026-02-10 11:48:53
@@ -46,11 +46,11 @@ featured_image: _images/post-image.jpg
    [Render] An image showing us placing both gaskets onto the atc bracket, combining the two images below into one.
    (atc_assembly_dust-gaskets.jpg)
 
-![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 133757.png>)
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_dustshoe-1.jpg)
 
-![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 133822.png>)
+![](../../_images/_atc/_atc_assembly/temp/atc_assembly_dustshoe-2.jpg)
 
-1. Insert **four (4) M5 - 16 mm socket head screws**, one in each corner. Then fasten the upper dust shoe  and lower dust shoe to the bracket using an Allen key.
+1. Insert **four (4) M5 - 16mm socket head screws**, one in each corner. Then fasten the upper dust shoe  and lower dust shoe to the bracket using an Allen key.
 
 [Render] Again combining the two images below into one to show the screws being inserted and then tightened to the bracket using an allen key. (atc_assembly_dust-screws.jpg)
 

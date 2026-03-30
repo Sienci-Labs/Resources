@@ -1,6 +1,6 @@
 ---
 title: ATC Software
-menu_order: 7
+menu_order: 8
 post_status: draft
 post_excerpt: Setting up gSender to work with the atc.
 post_date: 2026-02-10 11:47:53
@@ -14,7 +14,9 @@ skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
+## gControl Panel
 
+At this time you can reinstall your gControl panel and mount, [see instructions here](https://resources.sienci.com/view/gc-gcontrol-assembly/).
 
 ## Software Setup
 
