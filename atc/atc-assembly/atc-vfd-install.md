@@ -53,7 +53,7 @@ featured_image: _images/post-image.jpg
 
 1. Mount the enclosed VFD inside the table leg using the remaining two (2) M5 - 30mm screws. Ensure that the VFD is positioned so you can see the screen through the table leg cutout.
 
-![](../../_images/_atc/_atc_assembly/atc_assembly_vfd2.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/atc_assembly_vfd2.jpg){.aligncenter .size-medium}
 
 1. Plug the **E-stop cable** back into the SLB-EXT.
 
@@ -69,7 +69,7 @@ featured_image: _images/post-image.jpg
 
 1. On the SLB-EXT, remove the **top row of green connectors**, above the rectangular black header connector. These connectors will interfere with the ATC shield.
 
-![](../../_images/_atc/_atc_assembly/atc_assembly_vfd-green.jpg)
+![](/_images/_atc/_atc_assembly/atc_assembly_vfd-green.jpg)
 
 1. Connect the other end of the **signal cable** to the ATC shield.
 
@@ -81,9 +81,9 @@ featured_image: _images/post-image.jpg
     
     (atc_assembly_vfd-shield.jpg)
 
-![](../../_images/_atc/_atc_assembly/temp/IMG_8984.jpg)
+![](/_images/_atc/_atc_assembly/temp/IMG_8984.jpg)
 
-![](../../_images/_atc/_atc_assembly/temp/IMG_8988.jpg)
+![](/_images/_atc/_atc_assembly/temp/IMG_8988.jpg)
 
 ---
 
@@ -91,7 +91,7 @@ featured_image: _images/post-image.jpg
 
 1. Connect the other end of the coiled **VFD controller cable** into the **RS485** port on the SLB-EXT.
 
-![](../../_images/_atc/_atc_assembly/atc_assembly_vfd5.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/atc_assembly_vfd5.jpg){.aligncenter .size-medium}
 
 1. Insert the **SD card** into the **SD card slot** on the SLB-EXT. Make sure it fully sits in the port.
 
