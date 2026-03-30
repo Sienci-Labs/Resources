@@ -36,7 +36,7 @@ featured_image: _images/post-image.jpg
   
     * Fully seat two (2) M5 lock nuts into the VFD mounting spacer. Place the VFD mounting spacer onto the **inner face of the front-left AltMill leg**, then assemble the E-stop on the outer face of the leg using two (2) M5-30mm screws.
 
-![](../../_images/_atc/_atc_assembly/atc_assembly_vfd1.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/atc_assembly_vfd1.jpg){.aligncenter .size-medium}
 
 1. Route the blue connector from the spindle cable through the table leg cutout.
 
@@ -45,7 +45,7 @@ featured_image: _images/post-image.jpg
     [Render] A single image of the front-left AltMill table leg with the spindle power cable, blue connector end, entering the triangular cutout. The VFD is not installed on. Image below is for reference only.
     (atc_assembly_vfd-table-leg.jpg)
 
-![](<../../_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 3.32.38 PM.png>)
+![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-12 at 3.32.38 PM.png>)
 
 ---
 
