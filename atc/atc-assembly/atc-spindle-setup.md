@@ -72,7 +72,9 @@ featured_image: _images/post-image.jpg
     [Render] Shot of the mounting plate on the spindle with the center location marked prominently, with the option to show Up2 and Up1 positions as well for the 4x8. We may want to start in the center with a label 4x4, then slide up 1 position and label it 4x8 2" wasteboard, then slide up 2 positions and label it 4x8 1" wasteboard. Image below is the center position, for reference.
     (atc_assembly_spin-mount.jpg)
 
-![](/_images/_atc/_atc_assembly/atc_assembly_mounting_down1.jpg)
+![](/_images/_atc/_atc_assembly/atc_assembly_spin-mount4x4-2x4.JPG)
+
+![](/_images/_atc/_atc_assembly/atc_assembly_spin-mount4x8.JPG)
 
 ---
 
