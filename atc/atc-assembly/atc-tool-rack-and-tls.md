@@ -28,6 +28,7 @@ featured_image: _images/post-image.jpg
       2x Front Rack Section
       1x Back Right Rack Section
       1x Back Left Rack Section
+      1x ATC Rack Sensor
       2x M6 Roll-in T-nut
       6x M6 - 8mm Button Head Screw  
       4x M5 - 16mm Button Head Screw
@@ -51,7 +52,7 @@ featured_image: _images/post-image.jpg
 
 ---
 
-1. Grab the **tool rack sensor.** Put two (2) M3 - 20mm socket head screws into the tool rack sensor. Then mount the sensor onto the **back right rack section**:
+1. Grab the **ATC rack sensor.** Put two (2) M3 - 20mm socket head screws into the tool rack sensor. Then mount the sensor onto the **back right rack section**:
 
    * Fully secure with the pre-installed screws.
    * Position the cable from the sensor into the rectangular cutout.
@@ -151,9 +152,9 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
     4x Roll-in T-nut
     4x Twist-in T-nut
     2x Tool Rack Knob
-    1x ATC Rack Sensor Cable
-    4x M6 - 8mm Button Head Screws
+    4x M6 - 8mm Button Head Screw
     1x Completed Backbone
+    2x or 4x ISO20 Tool Holder
     
     (atc_assembly_tool-parts9.jpg)
 
@@ -273,9 +274,9 @@ Fully tighten the **two (2) M6 T-nuts and screws,** further securing the crossbe
     [Render] Parts Needed:
     1x TLS Cable
     1x TLS Body
-    1x TLS Base`
+    1x TLS Base
     2x M5 - 10mm Socket Head Screw
-    2x M5 - T-nut
+    2x M5 T-nut
     
     (atc_assembly_tool-parts10.jpg)
 
