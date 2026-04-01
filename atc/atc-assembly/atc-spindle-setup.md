@@ -16,8 +16,6 @@ featured_image: _images/post-image.jpg
 
 ## Spindle Installation & Drag Chain Setup
 
----
-
 ### Spindle & Drag Chain Arm
 
     [Render] Image of full machine with spindle outlined in blue (atc_assembly_spin-header1.jpg)
@@ -34,22 +32,17 @@ featured_image: _images/post-image.jpg
 
 1. Lift the spindle out of the bottom foam and place it on the top foam packaging with the **threaded mounting holes facing up**.
 
+    ![](/_images/_atc/_atc_assembly/_spindle/atc_assemblly_spin-spindle.jpg){.aligncenter .size-medium}
+
         ⚠️ Never stand the spindle on its nose (tool end) to avoid damaging the bearings.  
 
 1. Remove the **male end link** (studded end) from the Z-axis drag chain.
 
 1. Attach this end link to the **Z-axis drag chain arm**, minding the mounting position and direction, using two (2) M4 - 8mm screws.
 
-![](/_images/_atc/_atc_assembly/atc_assembly_spin-drgarm.jpg)
+1. Mount the drag chain arm to the spindle using four (2) M4 - 8mm screws.
 
-1. Mount the drag chain arm to the spindle using two (2) M4 - 8mm screws.
-
----
-
-    [Render] A single, clear image showing the spindle lying on the top foam with the **threaded holes facing up**, and the **Z-axis drag chain arm attached to the back of the spindle**. The  male drag chain end link should be visible, with a subtle arrow or highlight showing the orientation toward the **front of the ATC (button side)**. Two bolts in the end link and 4 bolts into the arm.This render visually conveys both the correct spindle positioning and the initial drag chain arm attachment in one glance.
-    (atc_assembly_spin-dca.jpg)
-
----
+    ![](/_images/_atc/_atc_assembly/_spindle/atc_assemblly_spin-zaxisdrag.jpg){.aligncenter .size-medium}
 
 ### Mounting Plate
 
