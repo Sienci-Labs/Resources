@@ -137,26 +137,20 @@ This section will modify the 4x4 and 2x4 AltMills to make them compatible with t
         [Render] Show old drag chain bracket, end link coming off, bracket coming off. Image is for reference.
         (atc_assembly_spin-old-drag.jpg)
 
-    ![](/_images/_atc/_atc_assembly/atc_assembly_spin-oldbracket.jpg)
+    ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-removemount.jpg){.aligncenter .size-medium}
 
 #### Install the Z-Plus Drag Chain Bracket
 
 1. Remove one (1) end link from the Z-axis drag chain
 1. Install the two (2) end links on the new Z-plus drag chain bracket, using four (4) M5-10mm screws and four (4) M5 T-nuts.
 
-> Tip: Ensure the **male and female drag chain ends** are correctly oriented; reversing them is tedious.
+    > Tip: Ensure the **male and female drag chain ends** are correctly oriented; reversing them is tedious.
 
-    [Render] Show the Z-Plus drag chain bracket with the two end links clearly positioned and secured with nuts on the back. The image below is a reference only.
-    (atc_assembly_spin-new-z-plus.jpg)
-
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_spin_xaxis-triangle.jpg)
+    ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_xaxis-triangle.jpg){.aligncenter .size-medium}
 
 1. Install the Z-Plus drag chain bracket back onto the XZ carriage.
 
-        [Render] show the Z-Plus Drag Chain Bracket being installed. Picture for reference only.
-        (atc_assembly_spin-z-plus-on.jpg)
-
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_spin_trianglemount.JPG)
+    ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_trianglemount.JPG){.aligncenter .size-medium}
 
 ## Cable and Tubing Routing
 
@@ -184,12 +178,7 @@ Place the cable ends and tubing near the **spindle connections** on the Z-axis.
 1. Clip the Z-axis drag chain back onto its end links.
 1. Close the clips around the three cables.
 
----
-
-[Render] Show the cables being routed through the Z axis drag chain. Image below is for reference only.
-(atc_assembly_spin-route-wires1.jpg)
-
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_spindle_dragchain-cables.png)
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-zdragchain.jpg){.aligncenter .size-medium}
 
 ---
 
