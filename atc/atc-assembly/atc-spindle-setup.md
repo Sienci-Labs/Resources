@@ -40,7 +40,9 @@ featured_image: _images/post-image.jpg
 
 1. Attach this end link to the **Z-axis drag chain arm**, minding the mounting position and direction, using two (2) M4 - 8mm screws.
 
-1. Mount the drag chain arm to the spindle using four (2) M4 - 8mm screws.
+    ![](/_images/_atc/_atc_assembly/_spindle/atc_assemblly_spin-zdragend.jpg)
+
+1. Mount the drag chain arm to the spindle using four (4) M4 - 8mm screws.
 
     ![](/_images/_atc/_atc_assembly/_spindle/atc_assemblly_spin-zaxisdrag.jpg){.aligncenter .size-medium}
 
@@ -56,20 +58,13 @@ featured_image: _images/post-image.jpg
 
     **4x4 & 2x4 Machines** the standard configuration is the center position. The mounting plate holes should align up with six (6) corresponding holes on the spindle.
 
-    **4x8 Machines** the mounting plate should be shifted one or two rows up. One row if you don’t intend to run T- tracks, and two rows if you do. The mounting plate holes will align with the top four (4) holes on the spindle.
+    ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-mount24.jpg){.aligncenter .size-medium}
+
+    **4x8 Machines** the mounting plate should be shifted up. The mounting plate holes will align with the top four (4) holes on the spindle.
+
+    ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-mount8.jpg){.aligncenter .size-medium}
 
 3. Secure the mounting plate using M6 - 14mm button head screws.
-
----
-
-    [Render] Shot of the mounting plate on the spindle with the center location marked prominently, with the option to show Up2 and Up1 positions as well for the 4x8. We may want to start in the center with a label 4x4, then slide up 1 position and label it 4x8 2" wasteboard, then slide up 2 positions and label it 4x8 1" wasteboard. Image below is the center position, for reference.
-    (atc_assembly_spin-mount.jpg)
-
-![](/_images/_atc/_atc_assembly/atc_assembly_spin-mount4x4-2x4.JPG)
-
-![](/_images/_atc/_atc_assembly/atc_assembly_spin-mount4x8.JPG)
-
----
 
 ### Mount the Spindle
 
@@ -83,9 +78,14 @@ featured_image: _images/post-image.jpg
 
 1. Grab two (2) M6 shoulder screws and four (4) M6-25 mm button head screws from the fasteners bag.
 
+    **4x4 & 2x4 Machines**
+
 >**If your Z-axis gantry plate has these extra threaded holes, complete Step 2. If not, no worries - move onto Step 3.**
 
----
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-mount24on.jpg){.aligncenter .size-medium}
+
+    **4x8 Machines**
+
     [Render] Show the Z-gantry plate with the new holes, indicated. Picture for reference only.
 ![](/_images/_atc/_atc_assembly/atc_assembly_spin-notchhole.JPG)
 ![](/_images/_atc/_atc_assembly/atc_assembly_spin-nohole.jpg)
@@ -124,7 +124,7 @@ This section will modify the 4x4 and 2x4 AltMills to make them compatible with t
     [Render] Parts needed:
     1x Z-axis Drag Chain
     6x M5-10mm Socket Head Screw
-    4x M5 T-Nut
+    4x M5 Lock-Nut
     1x Z-Plus Drag Chain Bracket (triangle-shaped bracket)
     (atc_assembly_spin-parts4.jpg)
 

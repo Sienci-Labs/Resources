@@ -22,13 +22,15 @@ The expected ATC assembly time is **2–4 hours**, so be sure to allot enough ti
 
 ### Software Upgrade
 
-1. **Upgrade** [gSender](https://github.com/Sienci-Labs/gsender/releases)
+Before we dive in, we will need to make some changes on the software side. You will need to:
 
-1. **Update** your controller [Firmware](https://resources.sienci.com/view/slb-firmware-flashing/)
+1. **Upgrade** [gSender](https://github.com/Sienci-Labs/gsender/releases) then return here for the next step.
 
-1. **Reset** your controller by turning it off, then back on
+1. **Unplug** your spindle cable if it's plugged in.
 
-1. **Apply** your new machine profile
+1. **Update** your controller [Firmware](https://drive.google.com/drive/folders/17U2pXaYr7NKwKf4uNtjWcOmXRqfRYFb5?usp=sharing) then return here for the next step.
+
+1. **Apply** the appropriate profile for your machine in gSender.
 
 ### Assembly Tips
 
