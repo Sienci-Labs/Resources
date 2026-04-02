@@ -25,7 +25,6 @@ featured_image: _images/post-image.jpg
     6x M4 - 8mm Flat Head Screw
     1x ATC Drag Chain Arm
     1x Male Z-axis Drag Chain End Link
-    1x ATC Mounting Plate
     (atc_assembly_spin-parts1.jpg)
 
 1. Start by unpacking the ATC spindle and grabbing the ATC drag chain arm. We will also need 6 x M4 - 8mm flat head screws and the Allen key from the ATC fasteners bag.
@@ -49,7 +48,7 @@ featured_image: _images/post-image.jpg
 ### Mounting Plate
 
     [Render] parts needed:
-    6x ATC Mounting Plate
+    1x ATC Mounting Plate
     4x or 6x M6 - 14mm Button Head Screws
     (atc_assembly_spin-parts2.jpg)
 
@@ -142,15 +141,15 @@ This section will modify the 4x4 and 2x4 AltMills to make them compatible with t
 #### Install the Z-Plus Drag Chain Bracket
 
 1. Remove one (1) end link from the Z-axis drag chain
-1. Install the two (2) end links on the new Z-plus drag chain bracket, using four (4) M5-10mm screws and four (4) M5 T-nuts.
+1. Install the two (2) end links on the new Z-plus drag chain bracket, by using M5 - 10mm screws and M5 T-nuts. Only use 3 of each for now, to ease cable routing later on.
 
     > Tip: Ensure the **male and female drag chain ends** are correctly oriented; reversing them is tedious.
 
-    ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_xaxis-triangle.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_z-plus-drag2.JPG)
 
 1. Install the Z-Plus drag chain bracket back onto the XZ carriage.
 
-    ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_trianglemount.JPG){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_z-plus-drag3.JPG){.aligncenter .size-medium}
 
 ## Cable and Tubing Routing
 
@@ -177,6 +176,7 @@ Place the cable ends and tubing near the **spindle connections** on the Z-axis.
 1. Use a flathead screwdriver to detach the remaining clips on the Z-axis drag chain.
 1. Clip the Z-axis drag chain back onto its end links.
 1. Close the clips around the three cables.
+1. Use one M5 - 10mm screw and M5 T-nut to fasten the loose end link at the Z-plus drag chain bracket.
 
 ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-zdragchain.jpg){.aligncenter .size-medium}
 
