@@ -38,7 +38,7 @@ featured_image: _images/post-image.jpg
 
 1. Remove the **male end link** (studded end) from the Z-axis drag chain.
 
-1. Attach this end link to the **Z-axis drag chain arm**, minding the mounting position and direction, using two (2) M4 - 8mm screws.
+1. Attach this end link to the **ATC drag chain arm**, minding the mounting position and direction, using two (2) M4 - 8mm screws.
 
     ![](/_images/_atc/_atc_assembly/_spindle/atc_assemblly_spin-zdragend.jpg)
 
