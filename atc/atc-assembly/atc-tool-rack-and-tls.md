@@ -11,7 +11,7 @@ custom_fields:
     KBName: AutoToolChanger
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts.jpg
 ---
 
 ## Rack & TLS Installation
@@ -44,13 +44,7 @@ featured_image: _images/post-image.jpg
    * The back right and back left, which are the mirrored pair of sections
    * The front, which are **two identical sections**
 
----
-
-    [Render] A single, top view image with the two front sections, one back right, and one back left section, labelled Front, Back Right and Back Left. 
-
-     (atc_assembly_tool-sections.jpg)
-
----
+      ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts.jpg)
 
 1. Grab the **ATC rack sensor.** Put two (2) M3 - 20mm socket head screws into the tool rack sensor. Then mount the sensor onto the **back right rack section**:
 

@@ -70,13 +70,15 @@ featured_image: _images/post-image.jpg
 
 1. Then plug in the **ATC shield** onto the **black header connector** on the SLB-EXT.
 
-![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd-dbinstal.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd-dbplugin.jpg){.aligncenter .size-medium}
 
 1. Connect the other end of the **RJ12 cable** to the **PENDANT port** on the SLB-EXT.
 
+![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd-pendantin.jpg){.aligncenter .size-medium}
+
 1. Connect the other end of the coiled **VFD controller cable** into the **RS485** port on the SLB-EXT.
 
-![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd5.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd-rs485in.jpg){.aligncenter .size-medium}
 
 1. Insert the **SD card** into the **SD card slot** on the SLB-EXT. Make sure it fully sits in the port.
 
