@@ -50,14 +50,14 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | M5 - 30mm Socket Head Screw          | 4   |       |
 | M5 Lock Nut                          | 2   |       |
 | Sienci TLS                           | 1   |       |
-| ATC Rack Sensor Cable - 4.6m         | 1   |       |
+| TLS Cable                            | 1   |       |
 | M5 - 10mm Button Head Screw          | 2   |       |
 | M5 T-nut                             | 2   |       |
 | Z-axis Drag Chain                    | 1   |2x4/4x4|
 | Plug-In Spindle Cable                | 1   |2x4/4x4|
 | Plug-In Spindle Cable - 7.2m         | 1   |  4x8  |
-| ATC Signal Cable - 7.2m              | 1   |       |
-| 8mm Pneumatic Tubing - 10m           | 1   |       |
+| ATC Signal Cable                     | 1   |       |
+| 8mm Pneumatic Tubing                 | 1   |       |
 | 240V VFD Power Cord                  | 1   |       |
 | ER20 Collet Set (Spindle Only Kit)   | 1   |12 pcs |
 | ATC Mounting Plate                   | 1   |       |
@@ -106,4 +106,4 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | M6 Twist-In T-nut                    | 5   |       |
 | M6 Roll-in T-nut                     | 7   |       |
 | ATC Rack Sensor                      | 1   |       |
-| ATC Rack Sensor Cable - 4.6m         | 1   |       |
+| ATC Rack Sensor Cable                | 1   |       |
