@@ -23,6 +23,8 @@ If you did not include the regulator in your order, you can simply connect your 
 
 ![](/_images/_atc/_atc_assembly/_air/atc_assembly_air-parts1.jpg){.aligncenter .size-full .wid}
 
+1. If needed, install the quick-disconnect ball valve onto your air compressor.
+
 1. Install **two (2) BSPP straight fittings** onto the **filter regulator** using an adjustable wrench.
 
    ![](/_images/_atc/_atc_assembly/_air/atc_assembly_air-fittings.jpg){.aligncenter .size-medium}
@@ -51,7 +53,7 @@ If you did not include the regulator in your order, you can simply connect your 
 
    ![](/_images/_atc/_atc_assembly/_air/atc_assembly_air-inandup.jpg){.aligncenter .size-medium}
 
-1. Use the lever on the quick disconnect of your compressor to open the line.
+1. Use the handle on the quick disconnect on your compressor to open the line.
 
    > NOTE: Before connecting a new air compressor to the automatic tool changer system, check your manufacturer's recommendations on purging the system of debris before you begin.
 
@@ -73,6 +75,6 @@ If you did not include the regulator in your order, you can simply connect your 
    * Pressure fluctuations are normal.
    * When the compressor recharges, re-adjust the regulator knob as needed to return to the target pressure.
 
-         If the filter regulator pressure does not increase at all, check that the BSPP straight fitting is open by turning the black handle. 
+         If the filter regulator pressure does not increase at all, check that the quick-disconnect on the air compressor side is open by turning the handle. 
 
          

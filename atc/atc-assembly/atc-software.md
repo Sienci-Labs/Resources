@@ -43,7 +43,7 @@ At this time you can reinstall your gControl panel and mount, [see mounting inst
 
   * Check the air compressor gauge
   * Check the filter regulator gauge
-  * Ensure the BSPP straight fitting valve is open
+  * Ensure the quick-disconnect ball valve is open
 
 ⚠️ **Note:**
 The first time you connect to **gSender** with the spindle connected, air will leak because the system has not yet been configured.
