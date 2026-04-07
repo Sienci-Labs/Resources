@@ -68,10 +68,16 @@ If you did not include the regulator in your order, you can simply connect your 
 
    ![](/_images/_atc/_atc_assembly/_air/atc_assembly_air-compknob.jpg)
 
+         If the air compressor pressure does not increase at all, check that the drain valve is closed (OFF).
+
 1. To adjust **flow**:
 
-   * Pull the filter **knob upwards**.
+   * Pull the air filter regulator **knob upwards**.
    * Twist it through its full range to find the position that provides an output pressure of **90–100 PSI**.
    * Once found, **push the knob back down** to lock it in place.
    * Pressure fluctuations are normal.
    * When the compressor recharges, re-adjust the regulator knob as needed to return to the target pressure.
+
+         If the filter regulator pressure does not increase at all, check that the BSPP straight fitting is open by turning the black handle. 
+
+         
