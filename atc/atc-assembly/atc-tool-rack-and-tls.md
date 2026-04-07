@@ -174,12 +174,7 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
 [Render] Overview picture of the path the sensor cable takes from the rack to the SLB EXT
 (atc_assembly_tool-header)
 
-[Render] Parts Needed:
-
-1x Completed Rack Assembly
-1x Rack Sensor Cable
-
----
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts4.png){.aligncenter .size-full .wid}
 
 1. Route the **rack sensor cable** through the cable clips in the crossbeam. For **4×8**, route the cable **underneath** the cable track.
 
