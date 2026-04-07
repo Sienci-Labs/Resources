@@ -124,7 +124,7 @@ This section will modify the 4x4 and 2x4 AltMills to make them compatible with t
 #### Install the Z-Plus Drag Chain Bracket
 
 1. Remove one (1) end link from the Z-axis drag chain
-1. Install the two (2) end links on the new Z-plus drag chain bracket, by using M5 - 10mm screws and M5 T-nuts. Only use 3 of each for now, to ease cable routing later on.
+1. Install the two (2) end links on the new Z-plus drag chain bracket, by using M5 - 10mm screws and M5 lock nuts. Only use 3 of each for now, to ease cable routing later on.
 
     > Tip: Ensure the **male and female drag chain ends** are correctly oriented; reversing them is tedious.
 
@@ -143,7 +143,7 @@ This section will modify the 4x4 and 2x4 AltMills to make them compatible with t
 Gather the following from the ATC box:
 
 - **Signal cable**
-- **Air line tubing (10 m)**
+- **Pneumatic tubing (10 m)**
 - **ATC spindle cable (blue connector)** - if it's already installed on your AltMill, that's great!
 
 Place the cable ends and tubing near the **spindle connections** on the Z-axis.
@@ -154,7 +154,7 @@ Place the cable ends and tubing near the **spindle connections** on the Z-axis.
 1. Use a flathead screwdriver to detach the remaining clips on the Z-axis drag chain.
 1. Clip the Z-axis drag chain back onto its end links.
 1. Close the clips around the three cables.
-1. Use one M5 - 10mm screw and M5 T-nut to fasten the loose end link at the Z-plus drag chain bracket.
+1. Use one M5 - 10mm screw and M5 lock nut to fasten the loose end link at the Z-plus drag chain bracket.
 
 ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-zdragchain.jpg){.aligncenter .size-medium}
 
@@ -173,7 +173,7 @@ On the ATC spindle, connect the following in this order:
 
 2. Signal cable
 
-3. Air line tubing
+3. Pneumatic tubing
 
         ⚠️ Ensure connectors align with the grooves on the aviation plug; misalignment may damage pins.
 
@@ -190,7 +190,7 @@ On the ATC spindle, connect the following in this order:
 
 1. Detach the **X-axis drag chain** from the end link on the XZ carriage. Open the clips, place the new cables and tubing inside, and close a few clips to hold them in place.
 
-    - Run the **air tubing** under the Z-plus drag chain bracket, before entering the X-axis drag chain. Leave some tubing out for strain relief.
+    - Run the **tubing** under the Z-plus drag chain bracket, before entering the X-axis drag chain. Leave some tubing out for strain relief.
 
     - Run the **spindle** and **signal cables** straight from the Z-axis drag chain into the X-axis drag chain
 
@@ -202,7 +202,7 @@ On the ATC spindle, connect the following in this order:
 1. Reconnect the X-axis drag chain to the Z-plus drag chain bracket.
 1. Verify the spindle cable reaches the VFD through the table leg cutout.
 1. Verify the signal cable reaches the SLB-EXT.
-1. Ensure the air tubing is free of kinks and sharp bends.
+1. Ensure the tubing is free of kinks and sharp bends.
 1. Finally, route cables and tubing for the **Y-axis drag chain**, adjust as needed, then close the clips.
 
 ---
