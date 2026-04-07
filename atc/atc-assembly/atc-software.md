@@ -37,8 +37,7 @@ At this time you can reinstall your gControl panel and mount, [see mounting inst
 
 1. Check the **white Pressure LED** on the spindle is on.
 
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_airpressure.jpg
-){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_airpressure.jpg){.aligncenter .size-medium}
 
 * If the light is **red**:
 
@@ -86,12 +85,12 @@ We will be using gSender to upload ATC-related g-code programs to the microSD Ca
 1. This step will configure your controller. Hit the blue Apply button.
 1. Once completed, hit Next.
 
-![](/_images/_atc/_atc_assembly/atc_assembly_soft_control.jpg)
+![](/_images/_atc/_atc_assembly/atc_assembly_soft_control.jpg){.aligncenter .size-medium}
 
 1. Next, the machine will update its homing position. Hit the blue **Re-home button** to begin this wizard.
 1. Once the button turns green and shows Complete, continue with the Next button. At this stage, the air leak at the spindle should **stop**.
 
-![](/_images/_atc/_atc_assembly/atc_assembly_soft_rehome.jpg)
+![](/_images/_atc/_atc_assembly/atc_assembly_soft_rehome.jpg){.aligncenter .size-medium}
 
 ### Rack Position
 
@@ -119,7 +118,7 @@ The goal is to line up the sensor on ATC over the tool holder stud, triggering a
 
 1. Use **precise jog** (short taps only) once you are close to the stud.
 
-![](/_images/_atc/_atc_assembly/atc_assembly_soft_sensor1.gif)
+![](/_images/_atc/_atc_assembly/atc_assembly_soft_sensor1.gif){.aligncenter .size-medium}
 
 ![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_lighton.JPG){.aligncenter .size-medium}
 
@@ -129,7 +128,7 @@ Once the light is on, hit the blue **Find Rack** button.
 
 * The machine will move in a small grid pattern to re-locate the stud.
 
-![](/_images/_atc/_atc_assembly/atc_assembly_soft_sensor2.gif)
+![](/_images/_atc/_atc_assembly/atc_assembly_soft_sensor2.gif){.aligncenter .size-medium}
 
 Once it successfully locates, you will see this confirmation window.
 
@@ -149,7 +148,7 @@ Now we will be setting the location of the TLS.
 
 1. We are going to move the spindle all the way to the right side again, to set the location of the TLS. Jog until the spindle nose is directly above and centered on the TLS.
 
-![](/_images/_atc/_atc_assembly/atc_assembly_soft_tlspos.jpg)
+![](/_images/_atc/_atc_assembly/atc_assembly_soft_tlspos.jpg){.aligncenter .size-medium}
 
 ![](/_images/_atc/_atc_assembly/temp/atc_assembly_soft_tlsaligned.JPG){.aligncenter .size-medium}
 
@@ -166,11 +165,15 @@ In this section we will be power cycling and reconnecting to the SLB-EXT.
 
 1. Reconnect to gSender.
 
-1. Ignore the alarms, and click the Next button
+1. Ignore the alarms, and hit the Apply and Restart button again.
 
-![](/_images/_atc/_atc_assembly/atc_assembly_soft_complete.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/atc_assembly_soft_spin2.jpg){.aligncenter .size-medium}
+
+Once complete, click the Next button.
 
 Setup is complete! Exit the wizard now.
+
+![](/_images/_atc/_atc_assembly/atc_assembly_soft_complete.jpg){.aligncenter .size-medium}
 
 1. Go to Config -> Tool Changing.
 1. Toggle the **Enable ATCi** switch and hit the Apply Changes button.
