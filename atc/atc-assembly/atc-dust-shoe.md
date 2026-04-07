@@ -22,17 +22,10 @@ featured_image: _images/post-image.jpg
 [Render] Parts Needed:
 1x Upper Dust Shoe
 1x Lower Dust Shoe
-2x 4″ Hose Clamp
 1x Clear Cut ATC Bracket
 1x Clear Cut ATC Front Gasket
 1x Clear Cut ATC Rear Gasket
-2x Clear Cut ATC Slider Bushing
-1x ATC Hose Bracket
 4x M5 - 16mm Socket Head Screw
-2x M6 - 14mm Button Head Screw
-2x M6 Washer
-2x Dust Shoe Handle
-3x M4 - 4mm Button Head Screw
 (atc_assembly_dust-parts1.jpg)
 
 ### Assembly
@@ -62,6 +55,12 @@ featured_image: _images/post-image.jpg
 
 ### Height Adjustment
 
+[Render] Parts Needed:
+2x M6 - 14mm Button Head Screw
+2x M6 Washer
+2x Clear Cut ATC Slider Bushing
+2x Dust Shoe Handle
+
 1. Insert one (1) **M6 - 14 mm screw** into each slider bushing, for a total of two (2) screws.
 
 1. Place slider bushings on the **left and right sides** of the bracket.
@@ -80,6 +79,11 @@ featured_image: _images/post-image.jpg
 1. Adjust dust shoe height to your desired position, then tighten the handle to lock it in place.
 
 ### Hose Installation
+
+[Render] Parts Needed:
+3x M4 - 4mm Button Head Screw
+2x 4″ Hose Clamp
+1x ATC Hose Bracket
 
 1. Check that the VFD is turned off.  
 
