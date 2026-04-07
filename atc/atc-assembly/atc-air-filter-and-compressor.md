@@ -21,12 +21,7 @@ If you did not include the regulator in your order, you can simply connect your 
 [Render] Hero image of entire setup to date, with the air filter highlighted
 (atc_assembly_air-header1.jpg)
 
-[Render] Parts Needed:
-2x 3/8" BSPP Straight Fitting (8mm)
-1x Auto Drain Filter Regulator
-1x Filter Regulator Mounting Ring
-1x 8mm Pneumatic Tubing
-(atc_assembly_air-parts1.jpg)
+![](/_images/_atc/_atc_assembly/_air/atc_assembly_air-parts1.jpg){.aligncenter .size-full .wid}
 
 1. Install **two (2) BSPP straight fittings** onto the **filter regulator** using an adjustable wrench.
 

@@ -18,19 +18,7 @@ featured_image: _images/post-image.jpg
 
     [Render] Image of full machine with VFD outlined in blue (atc_assembly_vfd-header1.jpg)
 
-    [Render] Parts Needed:
-    2x M5 Lock Nuts
-    1x VFD Mounting Spacer
-    4x M5 - 30mm Socket Head Screws
-    1x 2.2kW Enclosed VFD
-    1x 220V VFD Power Cord
-    1x VFD Controller Cable
-    1x ATC Shield (SLB-EXT)
-    1x RJ12 Cable
-    1x MicroSD card
-    (atc_assembly_vfd-parts1.jpg)
-
----
+![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd-parts1.jpg){.aligncenter .size-full .wid}
 
 1. If you already have the **VFD mounting spacer and E-stop assembled**, go to the next step! Otherwise:
   

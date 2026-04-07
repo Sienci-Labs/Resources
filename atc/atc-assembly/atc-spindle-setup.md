@@ -20,12 +20,7 @@ featured_image: _images/post-image.jpg
 
     [Render] Image of full machine with spindle outlined in blue (atc_assembly_spin-header1.jpg)
 
-    [Render] Parts Needed:
-    1x 2.2kW ATC Spindle
-    6x M4 - 8mm Flat Head Screw
-    1x ATC Drag Chain Arm
-    1x Male Z-axis Drag Chain End Link
-    (atc_assembly_spin-parts1.jpg)
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-parts1.jpg){.aligncenter .size-full .wid}
 
 1. Start by unpacking the ATC spindle and grabbing the ATC drag chain arm. We will also need 6 x M4 - 8mm flat head screws and the Allen key from the ATC fasteners bag.
 
@@ -47,10 +42,7 @@ featured_image: _images/post-image.jpg
 
 ### Mounting Plate
 
-    [Render] parts needed:
-    1x ATC Mounting Plate
-    4x or 6x M6 - 14mm Button Head Screws
-    (atc_assembly_spin-parts2.jpg)
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-parts2.jpg){.aligncenter .size-full .wid}
 
 1. Place the **ATC mounting plate** onto the spindle.
 2. Select the correct **mounting position** based on your machine configuration.
@@ -67,12 +59,8 @@ featured_image: _images/post-image.jpg
 
 ### Mount the Spindle
 
-    [Render] Parts Needed:
-    2 x M6 Shoulder Screws
-    2 or 4 x M6-25mm Button Head Screws
-    1 M6-14mm Button Head Screws
-    (atc_assembly_spin-parts3.jpg)
----
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-parts3.jpg){.aligncenter .size-full .wid}
+
     ⚠️ Due to the weight, we recommend two people to mount the ATC spindle.
 
 1. Grab two (2) M6 shoulder screws and four (4) M6-25 mm button head screws from the fasteners bag.
@@ -120,12 +108,7 @@ This section will modify the 4x4 and 2x4 AltMills to make them compatible with t
 
 ### 4x4 & 2x4 Machines  
 
-    [Render] Parts needed:
-    1x Z-axis Drag Chain
-    6x M5-10mm Socket Head Screw
-    4x M5 Lock-Nut
-    1x Z-Plus Drag Chain Bracket (triangle-shaped bracket)
-    (atc_assembly_spin-parts4.jpg)
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-parts4.jpg){.aligncenter .size-full .wid}
 
 #### Remove the Drag Chain Bracket
 
@@ -153,12 +136,7 @@ This section will modify the 4x4 and 2x4 AltMills to make them compatible with t
 
 ## Cable and Tubing Routing
 
-    [Render] Parts Needed:
-    1x Plug-In Spindle Cable
-    1x ATC Signal Cable
-    1x 8mm Pneumatic Tubing
-    1x Z-axis drag chain
-    (atc_assembly_spin-parts5.jpg)
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-parts5.jpg){.aligncenter .size-full .wid}
 
 ### Prepare the Cables
 

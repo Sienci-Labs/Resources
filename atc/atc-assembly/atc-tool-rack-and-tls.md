@@ -23,19 +23,7 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
       
       (atc_assembly_tool-header4.jpg)
       
-      [Render] Parts Needed:
-      1x Support Extrusion
-      2x Front Rack Section
-      1x Back Right Rack Section
-      1x Back Left Rack Section
-      1x ATC Rack Sensor
-      2x M6 Roll-in T-nut
-      6x M6 - 8mm Button Head Screw  
-      4x M5 - 16mm Button Head Screw
-      2x M3 - 20mm Socket Head Screw
-
-      (atc_assembly_tool-parts7.jpg)
----
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts1.jpg){.aligncenter .size-full .wid}
 
 ## Rack Assembly
 
@@ -50,10 +38,6 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
 
    * Fully secure with the pre-installed screws.
    * Position the cable from the sensor into the rectangular cutout.
-
-   ---
-
-         (atc_assembly_tool-rack-sensor.jpg)
 
 ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-backrightwithsensor1.jpg)
 
@@ -93,15 +77,7 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
 
 ## Backbone Assembly
 
----
-      [Render] Parts Needed:
-      12x M4 - 8mm Button Head Screw
-      1x Tool Rack Backbone
-      6x Tool Holder Clip
-      12x M6 - 8mm Button Head Screw
-
-      (atc_assembly_tool-parts8.jpg)
----
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts2.jpg){.aligncenter .size-full .wid}
 
 1. Secure one (1) **tool holder clip** onto each end of the backbone, ensuring the clip sits **flush**, using two (2) M6 - 8mm screws. Repeat for each position on the backbone.
 
@@ -118,18 +94,7 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
 
 ## Rack Assembly Mounting
 
----
-    [Render] Parts Needed:
-    4x Roll-in T-nut
-    4x Twist-in T-nut
-    2x Tool Rack Knob
-    4x M6 - 8mm Button Head Screw
-    1x Completed Backbone
-    2x or 4x ISO20 Tool Holder
-    
-    (atc_assembly_tool-parts9.jpg)
-
----
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts3.jpg){.aligncenter .size-full .wid}
 
 1. Place the backbone onto the assembled rack sections, located using the two studs.
 
@@ -237,17 +202,7 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
 
 ## Tool Length Sensor
 
----
-    [Render] Parts Needed:
-    1x TLS Cable
-    1x TLS Body
-    1x TLS Base
-    2x M5 - 10mm Socket Head Screw
-    2x M5 T-nut
-    
-    (atc_assembly_tool-parts10.jpg)
-
----
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts5.jpg){.aligncenter .size-full .wid}
 
 ## TLS Mounting
 
