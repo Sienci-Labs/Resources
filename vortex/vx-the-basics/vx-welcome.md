@@ -42,6 +42,8 @@ It's been a long journey for developing the Vortex Rotary Axis, but we're excite
 
 If you want to learn more about the Vortex's pricing, capabilities, and more check out <a href="https://sienci.com/product/vortex-rotary-axis/" target="_blank" rel="noopener">our product listing</a> or <a href="https://sienci.com/2023/05/08/vortex-rotary-axis-launch-date-june-1-2023/" target="_blank" rel="noopener">our blog post</a>.
 
+https://youtu.be/TUYnw6ZoKNY
+
 ## Open Source
 
 The Vortex Rotary Axis is an open source project and you will be able to find links to the CAD model, the BOM and the schematics for the rotary axis switch <a href="https://resources.sienci.com/view/lmk2-open-source/#other-add-ons">here</a>.
