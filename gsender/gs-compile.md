@@ -45,19 +45,23 @@ gSender is a JavaScript/TypeScript application. Node.js and its package manager 
 * **Recommended Version:** gSender is built using **Node.js version 20.x**.
 
 * **Windows Installation:**
-  * Download and install Chocolatey:
+  * Start and Administrative PowerShell/Terminal
+  * Allow Script Execution then Download and install Chocolatey:
     ```powershell
+    Set-ExecutionPolicy Bypass -Scope Process
     powershell -c "irm https://community.chocolatey.org/install.ps1|iex"
     ```
+    See https://chocolatey.org/install if you encounter any difficulty
+  * Close and restart the PowerShell/Terminal window (As $PATH variables were updated, restarting your terminal ensures it uses the new paths)
   * Download and install Node.js:
     ```powershell
-    choco install nodejs --version="20.19.5"
+    choco install nodejs --version="24.14.1"
     ```
   * Verify the Node.js version:
     ```powershell
     node -v
     ```
-    Should print "v20.19.5".
+    Should print "v24.14.1".
   * Download and install Yarn:
     ```powershell
     corepack enable yarn
@@ -78,13 +82,13 @@ gSender is a JavaScript/TypeScript application. Node.js and its package manager 
     ```
   * Download and install Node.js:
     ```bash
-    nvm install 20
+    nvm install 24
     ```
   * Verify the Node.js version:
     ```bash
     node -v
     ```
-    Should print "v20.19.5".
+    Should print "v24.x.x".
   * Download and install Yarn:
     ```bash
     corepack enable yarn
@@ -105,13 +109,13 @@ gSender is a JavaScript/TypeScript application. Node.js and its package manager 
     ```
   * Download and install Node.js:
     ```bash
-    nvm install 20
+    nvm install 24
     ```
   * Verify the Node.js version:
     ```bash
     node -v
     ```
-    Should print "v20.x.x".
+    Should print "v24.x.x".
   * Download and install Yarn:
     ```bash
     corepack enable yarn
@@ -146,7 +150,7 @@ Python is often required for Electron's native module compilation (via `node-gyp
 These tools are necessary for compiling native Node.js modules that gSender and its dependencies rely on. The CI workflow explicitly adds `node-gyp` globally.
 
 * **Windows:**
-  * Run `npm install --global --production windows-build-tools` to set up necessary tools.
+  * No additional steps required, comes preinstalled with NodeJS
 * **macOS:**
   * Install **Xcode Command Line Tools**:
     ```bash
@@ -197,8 +201,11 @@ First, you need to get the gSender source code.
 
 Once the repository is cloned, install the project's dependencies using Yarn.
 
+Note: On Windows, make sure run these commands from `Git Bash` not the standard Windows Terminal/CMD/PowerShell as the Prepare script relies on Bash
+
 1. **Clean previous builds (optional but recommended):**
     The `package.json` script `prepare` runs `npm run clean`.
+
     ```bash
     yarn prepare
     ```
@@ -214,6 +221,8 @@ Once the repository is cloned, install the project's dependencies using Yarn.
 ### Development Workflow
 
 These commands are ideal for active development, offering features like hot-reloading for faster iteration.
+
+Note: On Windows, make sure run these commands from `Git Bash` not the standard Windows Terminal/CMD/PowerShell as the Prepare script relies on Bash
 
 1. **Run in Development Mode (Hot Reloading):**
     ```bash
@@ -232,6 +241,8 @@ These commands are ideal for active development, offering features like hot-relo
 ### Production / Release Build Workflow
 
 These commands are used to create optimized, distributable versions of gSender for your operating system.
+
+Note: On Windows, make sure run these commands from `Git Bash` not the standard Windows Terminal/CMD/PowerShell as the Prepare script relies on Bash
 
 1. **Build the Production Application:**
     ```bash
