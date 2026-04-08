@@ -17,8 +17,6 @@ featured_image: _images/_superlongboard/_firmware/slb_fi_p1_Connected.jpg
 
 Your board will likely ship with the latest firmware already installed, but we occasionally make updates to add new features or address any discovered issues. You may also choose to re-flash the firmware onto your board if you've attempted to customize it or for troubleshooting purposes.
 
-<b><span class="redText">Do not flash your SLB unless you've done it before and are absolutely sure you know what you're doing or are being guided by our team.</span> The flashing process can be touchy the first time, so if you're having problems then please contact our team first otherwise be prepared to accept a regretful outcome.</b>
-
 Before getting started, **check what your current version is** by going to the 'Console' of your g-code sender and send the command `$i`. The result will be a long list of text in square brackets. If you scroll down to about the 9th line you'll see something like "[BOARD:" where you'll also see the version number at the end. Compare this to the version list below to see which one you'd like to flash:
 
 **Most Recent Firmware:**
@@ -28,6 +26,7 @@ Before getting started, **check what your current version is** by going to the '
   - Updated defaults to accommodate some machine setups that couldn't handle the max speeds and accelerations of the SLB
   - Changed min spindle speed, spindle on delay, and default enabled spindles to match typical spindle setups using the SLB
 - SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1XUxe_cfl2GPJbHNwjnacO5G7k1CxHLfL/view?usp=drive_link" target="_blank" rel="noopener">5.0.11</a>
+- SLB EXT (ATC): <a href="https://drive.google.com/file/d/12q5jQiBiH_oOiGB9G5lKVC7MQthGZgIQ/view?usp=drive_link" target="_blank" rel="noopener">ATC Firmware</a>
 
 [su_spoiler title="<b>Past Versions:</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 
@@ -43,13 +42,13 @@ Before getting started, **check what your current version is** by going to the '
 To successfully flash new firmware onto your SLB, you'll need:
 
 1. The **firmware file**; all versions are listed above as ".hex" files to download
-1. A computer that can run either **gSender** or the **STM Cube Programmer** software to perform the flashing
+1. A computer that can run **gSender** software to perform the flashing
+1. <a href="https://drive.google.com/file/d/1XzT21kwJFHcPzCDYhIdux49At6-TmrVA/view?usp=drive_link" target="_blank" rel="noopener">STM32Cube</a> program **downloaded and installed** to your computer
 1. The SLB connected to that **computer over USB** (you can't flash over Ethernet because the MCU on the SLB can't support it, but you can return to using your Ethernet connection once flashing is complete)
 1. A 12-24V power supply to **power the SLB** during flashing
 1. Have separately noted down any **firmware settings** that are particular to your machine setup like for limit switches, macros, etc. New firmware can sometimes override existing settings so having a list can help you double check if you need to make any manual tweaks afterwards.
 1. For your safety, if there are any accessories that receive a control signal from the SLB, **turn their power off** just in case the flashing process inadvertently sends control signals to those accessories. This would be unsafe to have a spindle or laser power on when you don't expect it to. You can turn these back on after flashing is complete.
-
-You can choose to either use gSender or the STM Cube Programmer software to update your SLB, the steps for either option are below:
+1. If you are flashing the SLB EXT (ATC) firmware, you will need to **unplug your Spindle**
 
 ### gSender Flashing
 
@@ -109,6 +108,8 @@ Congrats are in order, well done! If you go back to the 'Console' you should now
 
 [tabbyending]
 
+[su_spoiler title="Advanced Firmware Flashing:" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+
 ### STM Cube Flashing
 
 <a href="https://drive.google.com/file/d/162tiL96mNW-Xstx8SoSzwZACxxNnmBSN/view" target="_blank" rel="noopener">Download the software from here</a> (this is version 2.15.0) or for another OS <a href="https://www.st.com/en/development-tools/stm32cubeprog.html#st-get-software" target="_blank" rel="noopener">go to STM's website</a>.
@@ -130,6 +131,8 @@ Congrats are in order, well done! If you go back to the 'Console' you should now
 1. Once complete, you'll have to exit out of a bunch of small windows
 1. Switch off the board power switch then turn back on again, then reconnect to the board in gSender, ioSender, or any other g-code sender.
 1. Follow the same last 2 steps (7 and 8) of the gSender Flashing process and you should be done!
+
+[/su_spoiler]
 
 ### Windows Driver Update
 
