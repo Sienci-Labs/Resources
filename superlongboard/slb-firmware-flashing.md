@@ -43,12 +43,19 @@ To successfully flash new firmware onto your SLB, you'll need:
 
 1. The **firmware file**; all versions are listed above as ".hex" files to download
 1. A computer that can run **gSender** software to perform the flashing
-1. <a href="https://drive.google.com/file/d/1XzT21kwJFHcPzCDYhIdux49At6-TmrVA/view?usp=drive_link" target="_blank" rel="noopener">STM32Cube</a> program **downloaded and installed** to your computer
+1. STM32Cube program **downloaded and installed** to your computer (It fixes a bug that can occur with Microsoft drivers and supports advanced setup, though you don’t need to open it—just install it.)
+
+    - <a href="https://drive.google.com/file/d/1XzT21kwJFHcPzCDYhIdux49At6-TmrVA/view?usp=drive_link" target="_blank" rel="noopener">STM32Cube Windows</a>
+
+    - <a href="https://drive.google.com/file/d/15RWANIzJlC-lVITnpkOOBdMzYkzcw6Fm/view?usp=drive_link" target="_blank" rel="noopener">STM32Cube Mac Apple Silicon</a>
+
+    - <a href="https://drive.google.com/file/d/13d1zBCbj8OqDAo3xeX5g49QG7QUN36Sm/view?usp=drive_link" target="_blank" rel="noopener">STM32Cube Mac Intel</a>
+
 1. The SLB connected to that **computer over USB** (you can't flash over Ethernet because the MCU on the SLB can't support it, but you can return to using your Ethernet connection once flashing is complete)
 1. A 12-24V power supply to **power the SLB** during flashing
 1. Have separately noted down any **firmware settings** that are particular to your machine setup like for limit switches, macros, etc. New firmware can sometimes override existing settings so having a list can help you double check if you need to make any manual tweaks afterwards.
 1. For your safety, if there are any accessories that receive a control signal from the SLB, **turn their power off** just in case the flashing process inadvertently sends control signals to those accessories. This would be unsafe to have a spindle or laser power on when you don't expect it to. You can turn these back on after flashing is complete.
-1. If you are flashing the SLB EXT (ATC) firmware, you will need to **unplug your Spindle**
+1. If you are flashing the SLB EXT (ATC) firmware, you will need to **unplug your Spindle** cable (At the spindle side, not the VFD side)
 
 ### gSender Flashing
 
@@ -166,7 +173,7 @@ To fix the Windows driver:
 ![](/_images/_superlongboard/_firmware/slb_fi_p10_stm32-reset.png){.aligncenter .size-full .nar}
 1. If this still doesn't seem to work, you might've deleted the standard STM driver while using Zadig since the SLB wasn't in DFU mode. In this case go to <a href="https://www.st.com/en/development-tools/stsw-stm32102.html" target="_blank" rel="noopener">STMs website to re-download the drivers</a> (they should work even though they say they're for Windows 7) then try flashing again.
 
-[su_spoiler title="<h3>Ubuntu Driver Update</h3>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+[su_spoiler title="<h3 id="Ubuntu Driver Update">Ubuntu Driver Update</h3>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 
 To set up **udev** rules to give your user account access to the SLB on Linux, follow these steps:
 
