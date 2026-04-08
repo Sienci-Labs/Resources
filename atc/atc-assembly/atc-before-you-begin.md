@@ -11,7 +11,7 @@ custom_fields:
     KBName: AutoToolChanger
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_atc/_atc_assembly/_before/atc_assembly_before-axis.jpg
 ---
 
 ## Before You Begin
@@ -19,6 +19,18 @@ featured_image:
 If you’re installing the ATC on a **new machine build**, please complete the [AltMill Assembly Process](https://resources.sienci.com/view/am-mk2-best-practices/) up to and including stage **9 First Movement** before returning to this guide.
 
 The expected ATC assembly time is **2–4 hours**, so be sure to allot enough time and pace yourself to avoid errors, damage, or injury during the process.
+
+### Software Upgrade
+
+Before we dive in, we will need to make some changes on the software side. You will need to:
+
+1. **Upgrade** [gSender](https://github.com/Sienci-Labs/gsender/releases) then return here for the next step.
+
+1. **Unplug** your spindle cable if it's plugged in.
+
+1. **Update** your controller [Firmware](https://drive.google.com/drive/folders/17U2pXaYr7NKwKf4uNtjWcOmXRqfRYFb5?usp=sharing) then return here for the next step.
+
+1. **Apply** the appropriate profile for your machine in gSender.
 
 ### Assembly Tips
 
@@ -32,7 +44,7 @@ The expected ATC assembly time is **2–4 hours**, so be sure to allot enough ti
 
 * Machine orientation follows this photo:
 
-![](/_images/_atc/_atc_assembly/atc_assembly_beforeyoubegin-axis.jpg)
+![](/_images/_atc/_atc_assembly/_before/atc_assembly_before-axis.jpg)
 
 ## Machine Preparation
 
@@ -42,11 +54,7 @@ The expected ATC assembly time is **2–4 hours**, so be sure to allot enough ti
 
 1. Verify that the **second-to-last crossbeam** on your AltMill is oriented correctly. The flange should face the rear of the machine, unless you have a 4x8 machine, in which case it should face the front.
 
-[Render] Side views for 4x8 and 4x4, indicating second-to-last crossbeam direction. Image is for reference only until render is ready.
-
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_beforeyoubegin-fillercbeam.jpg)
-
-(atc_assembly_before-remove-crossbeam.jpg)
+![](/_images/_atc/_atc_assembly/_before/atc_assembly_before-fillercbeam.jpg)
 
 1. Power off your **SLB-EXT controller**, and unplug it from power.
 
@@ -60,11 +68,7 @@ The expected ATC assembly time is **2–4 hours**, so be sure to allot enough ti
 
     * Remove it from the Z-axis gantry, it is not needed for the ATC. Keep the end links on the drag chain.
 
-[Render] Remove the z-plus Drag chain arm from a 4x8. Picture is for reference only.
-
-(atc_assembly_before-drag-prep.jpg)
-
-![](/_images/_atc/_atc_assembly/atc_assembly_beforeyoubegin-zplus.jpg)
+    ![](/_images/_atc/_atc_assembly/_before/atc_assembly_before-zplus.jpg)
 
 1. Got a **non-ATC spindle** installed?
 
@@ -75,8 +79,5 @@ The expected ATC assembly time is **2–4 hours**, so be sure to allot enough ti
     iii. Free the existing, **non-ATC spindle cable** from the drag chains.  Once the cable is removed, leave approximately 1 in 10 clips in place to keep the existing wiring organized.
 
     iv. Disconnect the **non-ATC spindle cable** and **RS485 cable** from the VFD. Remove the VFD from its mount and store it safely.
-
-[Render] of vfd wiring being removed and the drag chain being opened
-(atc_assembly_before-remove-vfd.jpg)
 
     From the above list, double check that you've done everything that applies to your AltMill, then continue with [**Spindle Setup**](https://resources.sienci.com/view/atc-spindle-setup/)!

@@ -19,28 +19,14 @@ featured_image: _images/post-image.jpg
 [Render] Hero image that has the dust shoe assembly installed and is highlighted in blue to show what we are doing at this step
 (atc_assembly_dust-header1.jpg)
 
-[Render] Parts Needed:
-1x Upper Dust Shoe
-1x Lower Dust Shoe
-2x 4″ Hose Clamp
-1x Clear Cut ATC Bracket
-1x Clear Cut ATC Front Gasket
-1x Clear Cut ATC Rear Gasket
-2x Clear Cut ATC Slider Bushing
-1x ATC Hose Bracket
-4x M5 - 16mm Socket Head Screw
-2x M6 - 14mm Button Head Screw
-2x M6 Washer
-2x Dust Shoe Handle
-3x M4 - 4mm Button Head Screw
-(atc_assembly_dust-parts1.jpg)
+![](/_images/_atc/_atc_assembly/_dust/atc_assembly_dust-parts1.jpg){.aligncenter .size-full .wid}
 
 ### Assembly
 
 1. Attach the **front and rear gaskets** to the Clear Cut ATC bracket:
 
    * Align holes between the front gasket and bracket
-   * Snap fingers of rear gasket into place
+   * Snap prongs of rear gasket into place
    * Both gaskets should sit flush to the bottom of the bracket
 
    [Render] An image showing us placing both gaskets onto the atc bracket, combining the two images below into one.
@@ -48,22 +34,21 @@ featured_image: _images/post-image.jpg
 
 ![](/_images/_atc/_atc_assembly/temp/atc_assembly_dustshoe-1.jpg)
 
-![](../../_images/_atc/_atc_assembly/temp/atc_assembly_dustshoe-2.jpg)
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_dustshoe-2.jpg)
 
-1. Insert **four (4) M5 - 16mm socket head screws**, one in each corner. Then fasten the upper dust shoe  and lower dust shoe to the bracket using an Allen key.
+1. Insert **four (4) M5 - 16mm socket head screws**, one in each corner. Then fasten the upper dust shoe and lower dust shoe to the bracket using an Allen key.
 
 [Render] Again combining the two images below into one to show the screws being inserted and then tightened to the bracket using an allen key. (atc_assembly_dust-screws.jpg)
 
-![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 134742.png>)
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_dustshoe-3.jpg)
 
-![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 135753.png>)
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_dustshoe-4.jpg)
 
-1. Mount the dust shoe assembly onto the spindle.
-
-[Render] Show the newly build assembly, mounting onto the spindle
-(atc_assembly_dust-mount.jpg)
+1. Slide the dust shoe assembly on, from the bottom of the spindle.
 
 ### Height Adjustment
+
+![](/_images/_atc/_atc_assembly/_dust/atc_assembly_dust-parts2.jpg){.aligncenter .size-full .wid}
 
 1. Insert one (1) **M6 - 14 mm screw** into each slider bushing, for a total of two (2) screws.
 
@@ -76,13 +61,15 @@ featured_image: _images/post-image.jpg
 [Render] Show both images below in one. The bushing being put in place, then the screws being inserted, and finally the handles/washers being put in place and tightened.
 (atc_assembly_dust-handles.jpg)
 
-![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 140010.png>)
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_dustshoe-5.jpg)
 
-![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 140315.png>)
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_dustshoe-6.jpg)
 
 1. Adjust dust shoe height to your desired position, then tighten the handle to lock it in place.
 
 ### Hose Installation
+
+![](/_images/_atc/_atc_assembly/_dust/atc_assembly_dust-parts3.jpg){.aligncenter .size-full .wid}
 
 1. Check that the VFD is turned off.  
 
@@ -99,11 +86,11 @@ featured_image: _images/post-image.jpg
 
 [Render] Try to combine all of these images into one. We need to show the hose bracket being installed with screws, then the hose being attached to the dust shoe and zip tied to the bracket. (atc_assembly_dust-hose.jpg)
 
-![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 144517.png>)
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_dustshoe-7.jpg)
 
-![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 144041.png>)
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_dustshoe-8.jpg)
 
-![](</_images/_atc/_atc_assembly/temp/Screenshot 2026-02-24 144251.png>)
+![](/_images/_atc/_atc_assembly/temp/atc_assembly_dustshoe-9.jpg)
 
 ### Usage Notes
 
