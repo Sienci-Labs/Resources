@@ -79,18 +79,14 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
 
 ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts2.jpg){.aligncenter .size-full .wid}
 
-1. Secure one (1) **tool holder clip** onto each end of the backbone, ensuring the clip sits **flush**, using two (2) M6 - 8mm screws. Repeat for each position on the backbone.
+1. Secure one (1) **tool holder clip** onto each end of the backbone, ensuring the clip sits **flush**, using two (2) M4 - 8mm screws. Repeat for each position on the backbone.
 
    * Hold the clip snug while threading in the screws with an Allen key. Secure fully.
    * Continually check that each clip remains fully seated to the profile.
 
          ⚠️ **Important:** Improperly seated clips can cause **ATC accuracy issues**.
 
----
-
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_tool-6.JPG)
-
- ---
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-6.JPG)
 
 ## Rack Assembly Mounting
 
@@ -174,7 +170,7 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
 [Render] Overview picture of the path the sensor cable takes from the rack to the SLB EXT
 (atc_assembly_tool-header)
 
-![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts4.png){.aligncenter .size-full .wid}
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts4.jpg){.aligncenter .size-full .wid}
 
 1. Route the **rack sensor cable** through the cable clips in the crossbeam. For **4×8**, route the cable **underneath** the cable track.
 
