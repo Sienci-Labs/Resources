@@ -162,9 +162,13 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
 
 ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts4.jpg){.aligncenter .size-full .wid}
 
-1. Route the **rack sensor cable** through the cable clips in the crossbeam. For **4×8**, route the cable **underneath** the cable track.
+1. Grab the cable clips from the ATC box and tool rack box, then place them into the crossbeams, three (3) across the rear-most crossbeam, then one (1) for each remaining crossbeam, stopping before the front-most crossbeam.
+
+Route the **rack sensor cable** through the cable clips in the crossbeams.
 
          Note: This is different from the TLS cable, making sure you are using the correct cable.
+
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-cableroute.jpeg)
 
 1. From the **rack sensor cable**, connect:
 
@@ -182,7 +186,7 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
 
 ## TLS Mounting
 
-* We will be mounting the TLS on the **back right corner of the AltMill**, next to the tool rack. If you have an MK1 with dust covers, you will need to mount under them.
+We will be mounting the TLS on the **back right corner of the AltMill**, next to the tool rack. If you have an MK1 with dust covers, you will need to mount under them.
 
 1. Put the TLS base and body together.
 
@@ -192,14 +196,18 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
 
 1. Secure the TLS by tightening the M5 fasteners.
 
-1. Grab the TLS cable from the kit. Route the **TLS cable** through the cable clips:
+1. Then route the **TLS cable** through the cable clips:
 
    * Leave the **green connector** end at the SLB-EXT, unconnected
    * Leave the **black Molex connector** at the back right of the AltMill, next to the tool rack, unconnected
 
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-cableroute.jpeg)
+
 1. Plug the **green connector** into the **TLS port** on the SLB-EXT.
 
 1. Plug the **black Molex connector** from the TLS cable into the TLS.
+
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-cableroute2.jpeg)
 
 ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-tlsensor.JPG)
 
