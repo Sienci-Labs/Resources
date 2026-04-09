@@ -24,7 +24,7 @@ The expected ATC assembly time is **2–4 hours**, so be sure to allot enough ti
 
 Before we dive in, we will need to make some changes on the software side. You will need to:
 
-1. **Upgrade** [gSender](https://github.com/Sienci-Labs/gsender/releases) then return here for the next step.
+1. **Upgrade** [gSender] to 1.6.0 or higher, (https://github.com/Sienci-Labs/gsender/releases) then return here for the next step.
 
 1. **Unplug** your spindle cable if it's plugged in.
 
