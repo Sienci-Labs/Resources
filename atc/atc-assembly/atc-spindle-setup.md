@@ -69,7 +69,7 @@ featured_image: _images/post-image.jpg
 
     >**If your Z-axis gantry plate has these extra threaded holes indicated in green, complete Step 1. If not, no worries - move onto Step 2.**
 
-1. We will use one of the extra holes as another mounting point, for more stability. Grab the M6-14 mm button head screw, and partially thread it into the Z-axis gantry plate. Leave about 7mm (1/4 inch) sticking out. Then use the screw to anchor the ATC spindle through the slot on the mounting plate.  
+1. We will use one of the extra holes as another mounting point, for more stability. Grab the M6-14 mm button head screw, and partially thread it into the Z-axis gantry plate. Leave about 7mm (1/4 inch) sticking out. Then use the screw to **anchor the ATC spindle** through the slot on the mounting plate. This is the only bolt that we **won't be tightening**.
 
 1. With the ATC spindle held against the X-axis gantry, install the two (2) M6 shoulder screws in the lower holes. Start them by hand, then tighten fully.
 
