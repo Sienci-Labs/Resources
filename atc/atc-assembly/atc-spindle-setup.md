@@ -67,25 +67,25 @@ featured_image: _images/post-image.jpg
 
     **4x4 & 2x4 Machines**
 
->**If your Z-axis gantry plate has these extra threaded holes, complete Step 2. If not, no worries - move onto Step 3.**
+    >**If your Z-axis gantry plate has these extra threaded holes, complete Step 2. If not, no worries - move onto Step 3.**
 
-![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-mount24on.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-mount24on.jpg){.aligncenter .size-medium}
 
     **4x8 Machines**
 
     [Render] Show the Z-gantry plate with the new holes, indicated. Picture for reference only.
-![](/_images/_atc/_atc_assembly/atc_assembly_spin-notchhole.JPG)
-![](/_images/_atc/_atc_assembly/atc_assembly_spin-nohole.jpg)
+    ![](/_images/_atc/_atc_assembly/atc_assembly_spin-notchhole.JPG)
+    ![](/_images/_atc/_atc_assembly/atc_assembly_spin-nohole.jpg)
 
 1. We will use one of the extra holes as another mounting point, for more stability. Grab an additional M6-14 mm button head screw, and partially thread it into the Z-axis gantry plate. Leave about 7mm (1/4 inch) sticking out. Then use the screw to anchor the ATC spindle through the slot on the mounting plate.  
 
----
+    ---
     [Render] Latest Version Gantry Plate with a screw already in the gantry. The spindle moves toward the gantry and hooks onto the screw through the slot, then the lower holes are identified for the M6 shoulder screws. Picture for reference only. 
     (atc_assembly_spin-latest-g.jpg)
 
-![](/_images/_atc/_atc_assembly/atc_assembly_spin-notch.jpg)
+    ![](/_images/_atc/_atc_assembly/atc_assembly_spin-notch.jpg)
 
----
+    ---
 
 1. With the ATC spindle held against the X-axis gantry, install the two (2) M6 shoulder screws in the lower holes. Start them by hand, then tighten fully.
 
@@ -128,7 +128,7 @@ This section will modify the 4x4 and 2x4 AltMills to make them compatible with t
 
     > Tip: Ensure the **male and female drag chain ends** are correctly oriented; reversing them is tedious.
 
-![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_z-plus-drag2.JPG)
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_z-plus-drag2.JPG){.aligncenter .size-medium}
 
 1. Install the Z-Plus drag chain bracket back onto the XZ carriage.
 
@@ -177,14 +177,7 @@ On the ATC spindle, connect the following in this order:
 
         ⚠️ Ensure connectors align with the grooves on the aviation plug; misalignment may damage pins.
 
----
-
-[Render] Image showing all cables being plugged in, one at a time w labels and connector pin-out. Image for reference only.
-(atc_assembly_spin-route-wires2.jpg)
-
-![](/_images/_atc/_atc_assembly/temp/atc_assembly_spindle_dragchain-connection.png)
-
----
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-connections.jpg){.aligncenter .size-medium}
 
 ### Route Through X and Y Drag Chains
 
