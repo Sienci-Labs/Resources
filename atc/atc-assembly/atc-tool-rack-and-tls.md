@@ -98,8 +98,6 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
 
 1. Loosely install the two (2) knobs onto the studs, you will adjust the backbone position later.
 
----
-
 1. Pre-assemble **four (4) M6 - 8mm button head screws** with the correct **T-nuts** for your machine:
 
    * **MK1** – Roll-in T-nuts
@@ -114,7 +112,7 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
 
 1. Slide **two (2) pre-assembled M6 fasteners** per crossbeam T-slot where the rack assembly will mount, for a total of four (4) fasteners.
 
-![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-alignrack.JPG) [INDICATE LOCATION OF THE FASTENERS on the crossbeam]
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-crossbeamfastener.jpg)
 
 1. Place the rack assembly **under** the crossbeams and hook it onto the M6 fasteners. Position the assembly so it butts up against the **rear right AltMill leg.**
 
@@ -123,9 +121,9 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
 1. Hold the assembly in place at the support extrusion, clamping the assembly up to the crossbeam, and tighten the fasteners.
 
 ---
-      [Render] An image showing the rack assembly hooked on the machine, with callouts for detailed views to show the reference positions rear right leg, and clamping UP to the crossbeam face.  
+      [Render] An image showing the rack assembly hooked on the machine, with callouts for detailed views to show the reference positions rear right leg, and clamping UP. Annotate the picture below. 
          
-      (atc_assembly_tool-section3.jpg)
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-mounting.jpg)
 
 ---
 
@@ -184,7 +182,7 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
 
 ## TLS Mounting
 
-* We will be mounting the TLS on the **Back right corner of the AltMill**, next to the tool rack. If you have an MK1 with dust covers, you will need to mount under them.
+* We will be mounting the TLS on the **back right corner of the AltMill**, next to the tool rack. If you have an MK1 with dust covers, you will need to mount under them.
 
 1. Put the TLS base and body together.
 
