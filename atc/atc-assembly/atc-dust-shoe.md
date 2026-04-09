@@ -29,11 +29,6 @@ featured_image: _images/post-image.jpg
    * Snap prongs of rear gasket into place
    * Both gaskets should sit flush to the bottom of the bracket
 
-   [Render] An image showing us placing both gaskets onto the atc bracket, combining the two images below into one.
-   (atc_assembly_dust-gaskets.jpg)
-
-![](/_images/_atc/_atc_assembly/_dust/atc_assembly_dustshoe-1.jpg){.aligncenter .size-medium}
-
 ![](/_images/_atc/_atc_assembly/_dust/atc_assembly_dustshoe-2.jpg){.aligncenter .size-medium}
 
 1. Insert **four (4) M5 - 16mm socket head screws**, one in each corner. Then fasten the upper dust shoe and lower dust shoe to the bracket using an Allen key.
