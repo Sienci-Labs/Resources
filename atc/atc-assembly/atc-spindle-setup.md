@@ -18,7 +18,7 @@ featured_image: _images/post-image.jpg
 
 ### Spindle & Drag Chain Arm
 
-    [Render] Image of full machine with spindle outlined in blue (atc_assembly_spin-header1.jpg)
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-header1.jpg){.aligncenter .size-medium}
 
 ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-parts1.jpg){.aligncenter .size-full .wid}
 
@@ -97,8 +97,10 @@ Grab:
 #### 4 Screw Installation
 
 Grab:
-Two (2) M6 shoulder screws
-Two (2) M6 - 25 mm button head screws
+
+- Two (2) M6 shoulder screws
+
+- Two (2) M6 - 25 mm button head screws
 
 1. Hold the ATC spindle against the X-axis gantry. Install the two (2) M6 shoulder screws in the lower holes, marked #1 and #2. Start by hand, then tighten fully.
 1. Install the two (2) M6 - 25 mm button head screws in the lowest mounting holes. Start by hand, then tighten fully.
@@ -107,8 +109,6 @@ Two (2) M6 - 25 mm button head screws
 
 ## Drag Chain Hardware Installation
 
-    [Render] Image of full machine with mounting bracket and drag chains outlined in blue (atc_assembly_spin-header2.jpg)
----
 This section will modify the 4x4 and 2x4 AltMills to make them compatible with the Z-axis drag chain.
 
 ### 4x8 Machines

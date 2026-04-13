@@ -18,11 +18,8 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
 
 *No rack?** [SKIP AHEAD to the TLS](#tool-length-sensor) section in this article.
 
----
-      [Render] Image of full machine with tool rack, tool holders and tool length sensor outlined in blue 
-      
-      (atc_assembly_tool-header4.jpg)
-      
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-headertr.jpg){.aligncenter .size-medium}
+
 ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts1.jpg){.aligncenter .size-full .wid}
 
 ## Rack Assembly
@@ -146,10 +143,7 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
 
 ## Rack Sensor Cable Routing
 
----
-
-[Render] Overview picture of the path the sensor cable takes from the rack to the SLB EXT
-(atc_assembly_tool-header)
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-tlscableroute.jpg){.aligncenter .size-medium}
 
 ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts4.jpg){.aligncenter .size-full .wid}
 
