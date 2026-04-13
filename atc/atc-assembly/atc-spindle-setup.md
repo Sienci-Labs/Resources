@@ -63,19 +63,41 @@ featured_image: _images/post-image.jpg
 
     ⚠️ Due to the weight, we recommend two people to mount the ATC spindle.
 
-1. Grab two (2) M6 shoulder screws and two (2) M6-25 mm button head screws from the fasteners bag.
+#### Identify Your Gantry Plate
 
-![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-boltpattern.jpg){.aligncenter .size-medium}
+If it has extra threaded holes (shown in orange) → follow the 6-screw method
+If it does not → follow the 4-screw method (shown in blue)
 
-    >**If your Z-axis gantry plate has these extra threaded holes indicated in green, complete Step 1. If not, no worries - move onto Step 2.**
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-gantrychoose.jpg)
 
-1. We will use one of the extra holes as another mounting point, for more stability. Grab the M6-14 mm button head screw, and partially thread it into the Z-axis gantry plate. Leave about 7mm (1/4 inch) sticking out. Then use the screw to **anchor the ATC spindle** through the slot on the mounting plate. This is the only bolt that we **won't be tightening**.
+#### Choose Your Installation Method
 
-1. With the ATC spindle held against the X-axis gantry, install the two (2) M6 shoulder screws in the lower holes. Start them by hand, then tighten fully.
+**Option A — 6 Screw Installation** (*Most newer machines use the 6-screw method for improved stability*.)
 
-1. Next, install the two M6 - 25mm button head screws in the lowest set of holes. Start them by hand, then tighten fully.
+Grab:
+Two (2) M6 shoulder screws
+Three (3) M6 - 25 mm button head screws
+One (1) M6 - 14 mm button head screw
 
-1. Finally, you may be able to fit one additional M6 - 25mm button head screws above the shoulder screw on the left side, if you have the new gantry.
+1. Thread the M6 - 14 mm screw into one of the extra holes. Leave about 7 mm (1/4 in) sticking out. Hang the ATC spindle on this screw using the mounting slot. (This acts as a temporary anchor — do not tighten.)
+1. Install the two M6 shoulder screws in the lower holes. (Marked #2 and #3) Start by hand, then tighten fully.
+1. Install the two M6 - 25 mm button head screws in the lower mounting holes. Start by hand, then tighten fully.
+1. Install the final M6 - 25 mm screw in the upper left hole, and tighten if fully.
+
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-6boltspindle.jpg)
+
+**Option B - 4 Screw Installation** (*Use this if your gantry plate does NOT have extra threaded holes*)
+
+Grab:
+Two (2) M6 shoulder screws
+Two (2) M6 - 25 mm button head screws
+
+1. Hold the ATC spindle against the X-axis gantry.
+1. Install the two M6 shoulder screws in the lower holes. (Marked #1 and #2) Start by hand, then tighten fully.
+1. Install the two M6 - 25 mm button head screws in the lower mounting holes.
+Start by hand, then tighten fully.
+
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-4boltspindle.jpg)
 
 ## Drag Chain Hardware Installation
 
