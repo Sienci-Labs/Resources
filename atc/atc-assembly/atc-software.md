@@ -14,11 +14,13 @@ skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
+For this software setup, if you have a **4x8 AltMill** you may want to grab a friend to help you with checking sensor position and lights on the ATC. Otherwise, be prepared to do some walking back and forth!
+
 ## gControl Panel
 
 At this time you can reinstall your gControl panel and mount, [see mounting instructions here](https://resources.sienci.com/view/gc-gcontrol-assembly/).
 
-## Software Setup
+## Power Up
 
 1. Plug the **VFD power cable** into an outlet and turn on the power switch at the bottom of the VFD.
 1. Turn on the **SLB-EXT** using its toggle switch, cycling the E-stop as usual.
