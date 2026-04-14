@@ -16,7 +16,7 @@ featured_image: _images/post-image.jpg
 
 ## VFD Installation & Connections
 
-    [Render] Image of full machine with VFD outlined in blue (atc_assembly_vfd-header1.jpg)
+![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd_headerdragchain.png)
 
 ![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd-parts1.jpg){.aligncenter .size-full .wid}
 
