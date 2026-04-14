@@ -143,8 +143,6 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
 
 ## Rack Sensor Cable Routing
 
-![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-tlscableroute.jpg){.aligncenter .size-medium}
-
 ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts4.jpg){.aligncenter .size-full .wid}
 
 1. Grab the cable clips from the ATC box and tool rack box, then place them into the crossbeams, three (3) across the rear-most crossbeam, then one (1) for each remaining crossbeam, stopping before the front-most crossbeam.
