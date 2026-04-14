@@ -163,7 +163,7 @@ Route the **rack sensor cable** through the cable clips in the crossbeams.
 
 ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-racksensor.JPG)
 
-![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool_racksensor2.JPG)
+![](../../_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-racksensor2.jpg)
 
 ## Tool Length Sensor
 
@@ -194,6 +194,6 @@ We will be mounting the TLS on the **back right corner of the AltMill**, next to
 
 ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-cableroute2.jpeg)
 
-![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-tlsensor.JPG)
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-tlsensor1.JPG)
 
 Your tool rack and TLS are now completely assembled!
