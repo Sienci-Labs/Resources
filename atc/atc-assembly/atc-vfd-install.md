@@ -70,7 +70,7 @@ featured_image: _images/post-image.jpg
 
 1. Insert the **SD card** into the **SD card slot** on the SLB-EXT. Make sure it fully sits in the port.
 
-![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd-sdcard.webp){.aligncenter .size-full}
+![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd-sdcard.gif){.aligncenter .size-full}
 
 ## Wiring Sanity Check
 

@@ -106,17 +106,17 @@ Next the rack location will be determined. You will be prompted to manually jog 
 
 1. Assuming you start from the back left corner of the machine, you will be moving the spindle above the left-most tool holder.  
 
-Either manually jog, or:
+    Either manually jog, or:
 
         1. Set your speed to rapid and enter 1140 into your XY travel distance box, then hit the X+ arrow to move right.
 
-        1. Set your speed to normal, enter 20mm into your XY travel distance box, then hit the Y- arrow to move forward.
+        2. Set your speed to normal, enter 20mm into your XY travel distance box, then hit the Y- arrow to move forward.
 
-        1. Keeping your speed at normal, enter 100 mm into your Z distance travel box, then hit the Z- button to move down.
+        3. Keeping your speed at normal, enter 100 mm into your Z distance travel box, then hit the Z- button to move down.
 
         **Note: These values are approximate, you will need to adjust especially if using a MK1 or early MK2**
 
-The goal is to line up the sensor on ATC over the tool holder stud, triggering an LED to light up. Aim for 1-2mm above the stud, and centered on the stud.
+    The goal is to line up the sensor on ATC over the tool holder stud, triggering an LED to light up. Aim for 1-2mm above the stud, and centered on the stud.
 
 1. Use **precise jog** (short taps only) once you are close to the stud.
 
@@ -128,13 +128,13 @@ Once the light is on, hit the blue **Find Rack** button.
 
 1. A **Probing Sequence** confirmation window will appear, hit OK to continue.
 
-* The machine will move in a small grid pattern to re-locate the stud.
+    * The machine will move in a small grid pattern to re-locate the stud.
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_sensor2.gif){.aligncenter .size-full}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_sensor2.gif){.aligncenter .size-full}
 
-Once it successfully locates, you will see this confirmation window.
+    Once it successfully locates, you will see this confirmation window.
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_rackpos2.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_rackpos2.jpg){.aligncenter .size-medium}
 
     ⚠️ If you encounter an error that it cannot find the stud, make sure to accurately position the sensor 1mm above the stud, centered on the stud. Just because the light turns red does not mean it is in the right position!
 
@@ -150,9 +150,9 @@ Now we will be setting the location of the TLS.
 
 1. We are going to move the spindle all the way to the right side again, to set the location of the TLS. Jog until the spindle nose is directly above and centered on the TLS.
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_tlspos.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_tlspos.jpg){.aligncenter .size-medium}
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_tlsaligned.JPG){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_tlsaligned.JPG){.aligncenter .size-medium}
 
 1. Hit the blue **Set Position** button.
 1. Once the button turns green, indicating the position has been set, hit Next.
@@ -163,13 +163,13 @@ In this section we will be power cycling and reconnecting to the SLB-EXT.
 
 1. Hit the Apply and Restart blue button.
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_spin.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_spin.jpg){.aligncenter .size-medium}
 
 1. Reconnect to gSender.
 
 1. Ignore the alarms, and hit the Apply and Restart button again.
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_spin2.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_spin2.jpg){.aligncenter .size-medium}
 
 Once complete, click the Next button.
 
