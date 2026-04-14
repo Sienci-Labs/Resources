@@ -135,9 +135,9 @@ Fully secure the connection using **two (2) M6 - 8mm button head screws** per si
    * Make sure tool holders are wiped clean with shop towel and isopropyl alcohol
    * Fully seat each tool holder, the clip must engage the flats on the tool holder  
 
-![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackassy.JPG)
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackassy.JPG){.aligncenter .size-medium}
 
-![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-holderwithclip.JPG)
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-holderwithclip.JPG){.aligncenter .size-medium}
 
 ---
 
@@ -153,7 +153,7 @@ Route the **rack sensor cable** through the cable clips in the crossbeams.
 
          Note: This is different from the TLS cable, making sure you are using the correct cable.
 
-![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-cableroute.jpeg)
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-cableroute.jpeg){.aligncenter .size-medium}
 
 1. From the **rack sensor cable**, connect:
 
@@ -161,9 +161,9 @@ Route the **rack sensor cable** through the cable clips in the crossbeams.
    * **Male end** → ATC shield on the SLB-EXT
       * Use **Rack 1** or **Rack 2** port
 
-![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-racksensor.JPG)
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-racksensor.JPG){.aligncenter .size-medium}
 
-![](../../_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-racksensor2.jpg)
+![](../../_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-racksensor2.jpg){.aligncenter .size-medium}
 
 ## Tool Length Sensor
 
@@ -186,14 +186,14 @@ We will be mounting the TLS on the **back right corner of the AltMill**, next to
    * Leave the **green connector** end at the SLB-EXT, unconnected
    * Leave the **black Molex connector** at the back right of the AltMill, next to the tool rack, unconnected
 
-![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-cableroute.jpeg)
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-cableroute.jpeg){.aligncenter .size-medium}
 
 1. Plug the **green connector** into the **TLS port** on the SLB-EXT.
 
 1. Plug the **black Molex connector** from the TLS cable into the TLS.
 
-![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-cableroute2.jpeg)
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-cableroute2.jpeg){.aligncenter .size-medium}
 
-![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-tlsensor1.JPG)
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-tlsensor1.JPG){.aligncenter .size-medium}
 
 Your tool rack and TLS are now completely assembled!

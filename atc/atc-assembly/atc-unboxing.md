@@ -16,9 +16,6 @@ featured_image: _images/post-image.jpg
 
 Make sure you have all the parts you need for a smooth and painless assembly; open all boxes and unwrap the parts. Check for missing parts using the lists below.
 
-[Render] Header showing the two boxes the user will receive (see through boxes).
-(atc_assembly_unbox_1.jpg)
-
 ## Package Contents
 
 ### ATC Box

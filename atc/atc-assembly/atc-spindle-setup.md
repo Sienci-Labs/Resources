@@ -34,7 +34,7 @@ featured_image: _images/post-image.jpg
 
 1. Attach this end link to the **ATC drag chain arm**, minding the mounting position and direction, using two (2) M4 - 8mm screws.
 
-    ![](/_images/_atc/_atc_assembly/_spindle/atc_assemblly_spin-zdragend.jpg)
+    ![](/_images/_atc/_atc_assembly/_spindle/atc_assemblly_spin-zdragend.jpg){.aligncenter .size-medium}
 
 1. Mount the drag chain arm to the spindle using four (4) M4 - 8mm screws.
 
@@ -65,13 +65,13 @@ featured_image: _images/post-image.jpg
 
 ### Identify Your Gantry Plate
 
-Look at your Z-gantry on your AltMill and compare to the image below. 
+Look at your Z-gantry on your AltMill and compare to the image below.
 
 If your Z-gantry has the **orange** circled hole pattern, follow the [6 Screw Installation](#6-screw-installation).
 
 If your Z-gantry has the **blue** circled hole pattern, follow the [4 Screw Installation](#4-screw-installation).
 
-![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-gantrychoose.jpg)
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-gantrychoose.jpg){.aligncenter .size-medium}
 
 ### Install the Screws
 
@@ -92,7 +92,7 @@ Grab:
 1. Install the two (2) M6 - 25 mm button head screws in the lowest mounting holes. Start by hand, then tighten fully.
 1. Install the final M6 - 25 mm screw in the upper left hole, and tighten it fully.
 
-![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-6boltspindle.jpg)
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-6boltspindle.jpg){.aligncenter .size-medium}
 
 #### 4 Screw Installation
 
@@ -105,7 +105,7 @@ Grab:
 1. Hold the ATC spindle against the X-axis gantry. Install the two (2) M6 shoulder screws in the lower holes, marked #1 and #2. Start by hand, then tighten fully.
 1. Install the two (2) M6 - 25 mm button head screws in the lowest mounting holes. Start by hand, then tighten fully.
 
-![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-4boltspindle.jpg)
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-4boltspindle.jpg){.aligncenter .size-medium}
 
 ## Drag Chain Hardware Installation
 

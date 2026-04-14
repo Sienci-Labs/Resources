@@ -44,7 +44,7 @@ Before we dive in, we will need to make some changes on the software side. You w
 
 * Machine orientation follows this photo:
 
-![](/_images/_atc/_atc_assembly/_before/atc_assembly_before-axis.jpg)
+![](/_images/_atc/_atc_assembly/_before/atc_assembly_before-axis.jpg){.aligncenter .size-medium}
 
 ## Machine Preparation
 
@@ -54,7 +54,7 @@ Before we dive in, we will need to make some changes on the software side. You w
 
 1. Verify that the **second-to-last crossbeam** on your AltMill is oriented correctly. The flange should face the rear of the machine, unless you have a 4x8 machine, in which case it should face the front.
 
-![](/_images/_atc/_atc_assembly/_before/atc_assembly_before-fillercbeam.jpg)
+![](/_images/_atc/_atc_assembly/_before/atc_assembly_before-fillercbeam.jpg){.aligncenter .size-medium}
 
 1. Power off your **SLB-EXT controller**, and unplug it from power.
 
@@ -68,7 +68,7 @@ Before we dive in, we will need to make some changes on the software side. You w
 
     * Remove it from the Z-axis gantry, it is not needed for the ATC. Keep the end links on the drag chain.
 
-    ![](/_images/_atc/_atc_assembly/_before/atc_assembly_before-zplus.jpg)
+    ![](/_images/_atc/_atc_assembly/_before/atc_assembly_before-zplus.jpg){.aligncenter .size-medium}
 
 1. Got a **non-ATC spindle** installed?
 
