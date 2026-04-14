@@ -18,9 +18,6 @@ featured_image:
 
 If you did not include the regulator in your order, you can simply connect your air hose to your compressor, and skip this section.
 
-[Render] Hero image of entire setup to date, with the air filter highlighted
-(atc_assembly_air-header1.jpg)
-
 ![](/_images/_atc/_atc_assembly/_air/atc_assembly_air-parts1.jpg){.aligncenter .size-full .wid}
 
 1. If needed, install the quick-disconnect ball valve onto your air compressor.
@@ -63,7 +60,7 @@ If you did not include the regulator in your order, you can simply connect your 
 
 1. Set your **air compressor** to provide its **maximum flow**, usually this is a knob next to the gauge that has a mark for max.
 
-   ![](/_images/_atc/_atc_assembly/_air/atc_assembly_air-compknob.jpg)
+   ![](/_images/_atc/_atc_assembly/_air/atc_assembly_air-compknob.jpg){.aligncenter .size-medium}
 
          If the air compressor pressure does not increase at all, check that the drain valve is closed (OFF).
 

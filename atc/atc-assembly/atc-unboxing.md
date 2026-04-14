@@ -16,9 +16,6 @@ featured_image: _images/post-image.jpg
 
 Make sure you have all the parts you need for a smooth and painless assembly; open all boxes and unwrap the parts. Check for missing parts using the lists below.
 
-[Render] Header showing the two boxes the user will receive (see through boxes).
-(atc_assembly_unbox_1.jpg)
-
 ## Package Contents
 
 ### ATC Box
@@ -61,9 +58,13 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | 240V VFD Power Cord                  | 1   |       |
 | ER20 Collet Set (Spindle Only Kit)   | 1   |12 pcs |
 | ATC Mounting Plate                   | 1   |       |
+| Cable Clips                          | 4   |       |
+| Cable Ties                           | 4   |       |
 
 #### Dust Shoe (Packed in ATC Box)
 
+| Part Name                            | Qty | Notes |
+| ------------------------------------ | --- | ----- |
 | Upper Dust Shoe                      | 1   |       |
 | Lower Dust Shoe                      | 1   |       |
 | 4" Hose Clamp                        | 1   |       |
@@ -107,3 +108,5 @@ Make sure you have all the parts you need for a smooth and painless assembly; op
 | M6 Roll-in T-nut                     | 7   |       |
 | ATC Rack Sensor                      | 1   |       |
 | ATC Rack Sensor Cable                | 1   |       |
+| Cable Clips                          | 4   |       |
+| Cable Ties                           | 4   |       |

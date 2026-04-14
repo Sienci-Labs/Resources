@@ -173,7 +173,7 @@ To fix the Windows driver:
 ![](/_images/_superlongboard/_firmware/slb_fi_p10_stm32-reset.png){.aligncenter .size-full .nar}
 1. If this still doesn't seem to work, you might've deleted the standard STM driver while using Zadig since the SLB wasn't in DFU mode. In this case go to <a href="https://www.st.com/en/development-tools/stsw-stm32102.html" target="_blank" rel="noopener">STMs website to re-download the drivers</a> (they should work even though they say they're for Windows 7) then try flashing again.
 
-[su_spoiler title="<h3 id="Ubuntu Driver Update">Ubuntu Driver Update</h3>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+[su_spoiler title="<h3>Ubuntu Driver Update</h3>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 
 To set up **udev** rules to give your user account access to the SLB on Linux, follow these steps:
 
