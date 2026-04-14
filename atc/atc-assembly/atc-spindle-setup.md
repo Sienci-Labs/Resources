@@ -18,7 +18,7 @@ featured_image: _images/post-image.jpg
 
 ### Spindle & Drag Chain Arm
 
-![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-header1.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_header1.jpg){.aligncenter .size-medium}
 
 ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-parts1.jpg){.aligncenter .size-full .wid}
 

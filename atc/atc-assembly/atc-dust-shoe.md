@@ -16,8 +16,7 @@ featured_image: _images/post-image.jpg
 
 ## Clear Cut Dust Shoe Installation
 
-[Render] Hero image that has the dust shoe assembly installed and is highlighted in blue to show what we are doing at this step
-(atc_assembly_dust-header1.jpg)
+![](/_images/_atc/_atc_assembly/_dust/atc_assembly_dust_header.jpg){.aligncenter .size-medium}
 
 ![](/_images/_atc/_atc_assembly/_dust/atc_assembly_dust-parts1.jpg){.aligncenter .size-full .wid}
 

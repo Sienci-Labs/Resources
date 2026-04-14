@@ -16,7 +16,7 @@ featured_image: _images/post-image.jpg
 
 ## VFD Installation & Connections
 
-![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd_headerdragchain.png)
+![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd_header1.jpg){.aligncenter .size-medium}
 
 ![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd-parts1.jpg){.aligncenter .size-full .wid}
 

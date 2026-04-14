@@ -18,7 +18,7 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
 
 *No rack?** [SKIP AHEAD to the TLS](#tool-length-sensor) section in this article.
 
-![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-headertr.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool_header1.jpg){.aligncenter .size-medium}
 
 ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts1.jpg){.aligncenter .size-full .wid}
 
