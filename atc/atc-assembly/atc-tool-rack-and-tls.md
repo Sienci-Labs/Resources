@@ -89,12 +89,14 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
 
 1. Loosely install the two (2) knobs onto the studs, you will adjust the backbone position later.
 
+   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-bbaligntwist.jpg){.aligncenter .size-medium}
+
 1. Pre-assemble **four (4) M6 - 8mm button head screws** with the correct **T-nuts** for your machine:
 
    * **MK1** – Roll-in T-nuts
    * **All other AltMills** – Twist-in T-nuts
 
-   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rollandtwist.jpg){.aligncenter .size-medium}
+   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rollandtwistlabeled.jpg){.aligncenter .size-medium}
 
 1. Bring the **assembled rack sections** and pre-assembled fasteners to the **back-right corner** of the AltMill.
 
@@ -124,7 +126,7 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
 
       ⚠️ This is required for **automated setup in gSender**.
 
-   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-backbones.jpg){.aligncenter .size-medium}
+   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-backbonemeet.jpg){.aligncenter .size-medium}
 
 1. Install tool holders into the **first and last slots** of each tool rack assembly.
 
@@ -186,6 +188,6 @@ We will be mounting the TLS on the **back right corner of the AltMill**, next to
 
    ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-cableroute2.jpeg){.aligncenter .size-medium}
 
-   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-tlsensor1.JPG){.aligncenter .size-medium}
+   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-tlsensorplugin.jpg){.aligncenter .size-medium}
 
 Your tool rack and TLS are now completely assembled!
