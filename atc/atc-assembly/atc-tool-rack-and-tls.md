@@ -85,7 +85,7 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
 
 1. Place the backbone onto the assembled rack sections, located using the two studs.
 
-   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-bb.jpg){.aligncenter .size-medium}
+   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-bba.jpg){.aligncenter .size-medium}
 
 1. Loosely install the two (2) knobs onto the studs, you will adjust the backbone position later.
 
@@ -131,7 +131,7 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
    * Make sure tool holders are wiped clean with shop towel and isopropyl alcohol
    * Fully seat each tool holder, the clip must engage the flats on the tool holder  
 
-   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackassy.JPG){.aligncenter .size-medium}
+   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackassy2.jpg){.aligncenter .size-medium}
 
    ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-holderwithclip.JPG){.aligncenter .size-medium}
 
@@ -155,7 +155,7 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
 
    ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-racksensor.JPG){.aligncenter .size-medium}
 
-   ![](../../_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-racksensor2.jpg){.aligncenter .size-medium}
+   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-racksensorslbext.jpg){.aligncenter .size-medium}
 
 ## Tool Length Sensor
 
