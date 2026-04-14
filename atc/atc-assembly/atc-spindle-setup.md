@@ -11,14 +11,14 @@ custom_fields:
     KBName: AutoToolChanger
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: _images/_atc/_atc_assembly/_spindle/atc_assembly_spin_headerspindle.jpg
 ---
 
 ## Spindle Installation & Drag Chain Setup
 
 ### Spindle & Drag Chain Arm
 
-![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_header1.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_headerspindle.jpg){.aligncenter .size-medium}
 
 ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-parts1.jpg){.aligncenter .size-full .wid}
 
