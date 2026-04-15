@@ -1,7 +1,7 @@
 ---
 title: ATC Tool Rack & TLS
 menu_order: 5
-post_status: draft
+post_status: publish
 post_excerpt: Connecting your tool rack(s) and setting up your tool length sensor.
 post_date: 2026-02-10 11:38:53
 taxonomy:

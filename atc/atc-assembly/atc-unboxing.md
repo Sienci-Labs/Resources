@@ -1,7 +1,7 @@
 ---
 title: ATC Unboxing
 menu_order: 1
-post_status: draft
+post_status: publish
 post_excerpt: Start building your Automatic Tool Changer. 
 post_date: 2026-02-10 11:10:53
 taxonomy:
@@ -11,7 +11,7 @@ custom_fields:
     KBName: AutoToolChanger
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: 
 ---
 
 Make sure you have all the parts you need for a smooth and painless assembly; open all boxes and unwrap the parts. Check for missing parts using the lists below.
