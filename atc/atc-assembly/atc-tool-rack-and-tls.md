@@ -64,8 +64,6 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
 
 ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-assemblynobb.jpg){.aligncenter .size-medium}
 
----
-
 ## Backbone Assembly
 
 ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts2.jpg){.aligncenter .size-full .wid}
@@ -183,6 +181,8 @@ We will be mounting the TLS on the **back right corner of the AltMill**, next to
    ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-cableroute.jpeg){.aligncenter .size-medium}
 
 1. Plug the **green connector** into the **TLS port** on the SLB-EXT.
+
+   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-cableroute3.jpg)
 
 1. Plug the **black Molex connector** from the TLS cable into the TLS.
 
