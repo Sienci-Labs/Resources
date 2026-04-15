@@ -1,5 +1,5 @@
 ---
-title: ATC VFD Install
+title: 3. ATC VFD Install
 menu_order: 4
 post_status: publish
 post_excerpt: How to connect your VFD to your ATC system. 

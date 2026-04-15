@@ -1,7 +1,7 @@
 ---
-title: ATC Air Filter Regulator & Compressor
+title: 5. ATC Air Filter Regulator & Compressor
 menu_order: 6
-post_status: draft
+post_status: publish
 post_excerpt: Setting up your air filter regulator and compressor to give your atc clean air at the right pressure.
 post_date: 2026-02-10 11:35:53
 taxonomy:
@@ -11,7 +11,7 @@ custom_fields:
     KBName: AutoToolChanger
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: 
+featured_image: _images/_atc/_atc_assembly/_air/atc_assembly_air-fittings.jpg
 ---
 
 ## Air Filter Regulator Setup
@@ -58,13 +58,13 @@ If you did not include the regulator in your order, you can simply connect your 
 
 1. Turn on the air compressor.
 
-1. Set your **air compressor** to provide its **maximum flow**, usually this is a knob next to the gauge that has a mark for max.
+1. Set your **air compressor** to provide its **maximum flow**, usually this is a knob next to the gauge that has a mark for max. We won't be adjusting here, just set it to fully open.
 
    ![](/_images/_atc/_atc_assembly/_air/atc_assembly_air-compknob.jpg){.aligncenter .size-medium}
 
          If the air compressor pressure does not increase at all, check that the drain valve is closed (OFF).
 
-1. To adjust **flow**:
+1. To adjust **flow** at the filter regulator:
 
    * Pull the air filter regulator **knob upwards**.
    * Twist it through its full range to find the position that provides an output pressure of **90–100 PSI**.

@@ -1,5 +1,5 @@
 ---
-title: ATC Tool Rack & TLS
+title: 4. ATC Tool Rack & TLS
 menu_order: 5
 post_status: publish
 post_excerpt: Connecting your tool rack(s) and setting up your tool length sensor.
@@ -63,8 +63,6 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
    * Repeat for the other side.
 
 ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-assemblynobb.jpg){.aligncenter .size-medium}
-
----
 
 ## Backbone Assembly
 
@@ -183,6 +181,8 @@ We will be mounting the TLS on the **back right corner of the AltMill**, next to
    ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-cableroute.jpeg){.aligncenter .size-medium}
 
 1. Plug the **green connector** into the **TLS port** on the SLB-EXT.
+
+   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-cableroute3.jpg)
 
 1. Plug the **black Molex connector** from the TLS cable into the TLS.
 

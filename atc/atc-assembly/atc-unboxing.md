@@ -1,6 +1,6 @@
 ---
-title: ATC Unboxing
-menu_order: 1
+title: 1. ATC Unboxing
+menu_order: 2
 post_status: publish
 post_excerpt: Start building your Automatic Tool Changer. 
 post_date: 2026-02-10 11:10:53

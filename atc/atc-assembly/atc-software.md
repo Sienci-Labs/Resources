@@ -1,7 +1,7 @@
 ---
-title: ATC Software
+title: 7. ATC Software
 menu_order: 8
-post_status: draft
+post_status: publish
 post_excerpt: Setting up gSender to work with the atc.
 post_date: 2026-02-10 11:47:53
 taxonomy:
@@ -11,7 +11,7 @@ custom_fields:
     KBName: AutoToolChanger
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: _images/_atc/_atc_assembly/_software/atc_assembly_soft_install.jpg
 ---
 
 For this software setup, if you have a **4x8 AltMill** you may want to grab a friend to help you with checking sensor position and lights on the ATC. Otherwise, be prepared to do some walking back and forth!
@@ -27,13 +27,13 @@ At this time you can reinstall your gControl panel and mount, [see mounting inst
 
 ## Initial Hardware Checks
 
-1. Verify the **rack sensor** is on. It should be on if the rack has been installed correctly. There should be a red light coming from the rack sensor.
+1. Verify the **rack sensor** is on, if you have it. It should be on if the rack has been installed correctly. There should be a red light coming from the rack sensor.
 
     ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_rack.jpeg){.aligncenter .size-medium}
 
 1. Check that the **tool length sensor (TLS)** is functioning.
 
-    * Press down on the TLS (either manually or by jogging the spindle down slowly), and confirm the **orange TLS LED** on the SLB-EXT turns on.
+    * Press down on the TLS (either manually or by jogging the spindle down slowly), and confirm the **orange TLS LED** on the SLB-EXT turns off.
 
     ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_tls.jpeg){.aligncenter .size-medium}
 
@@ -103,7 +103,7 @@ Next the rack location will be determined. You will be prompted to manually jog 
 
     ⚠️ **Caution:** Move slowly. Avoid crashing the **stud finder** or **spindle nose**.
 
-1. Assuming you start from the back left corner of the machine, you will be moving the spindle above the left-most tool holder.  
+1. Assuming you start from the back left corner of the machine, you will be moving the spindle above the right-most tool holder.  
 
     Either manually jog, or:
 
@@ -164,6 +164,8 @@ In this section we will be power cycling and reconnecting to the SLB-EXT.
 
     ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_spin.jpg){.aligncenter .size-medium}
 
+1. Hit the Next button in the bottom right corner.
+
 1. Reconnect to gSender.
 
 1. Ignore the alarms, and hit the Apply and Restart button again.
@@ -175,7 +177,7 @@ In this section we will be power cycling and reconnecting to the SLB-EXT.
     ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_complete.jpg){.aligncenter .size-medium}
 
 1. Go to Config -> Tool Changing.
-1. Toggle the **Enable ATCi** switch and hit the Apply Changes button.
+1. Toggle the **Enable ATC** switch and hit the Apply Changes button.
 
 Once complete, the following tabs should appear in gSender:
 

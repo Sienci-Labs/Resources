@@ -1,7 +1,7 @@
 ---
-title: ATC Final Checks
+title: 8. ATC Final Checks
 menu_order: 9
-post_status: draft
+post_status: publish
 post_excerpt: Now that you are setup and running, let's pick up a couple tools and try out the tls.
 post_date: 2026-02-10 11:50:53
 taxonomy:
@@ -11,7 +11,7 @@ custom_fields:
     KBName: AutoToolChanger
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: _images/_atc/_atc_assembly/_finalcheck/atc_assembly_finalcheck-atctab.jpg
 ---
 
 Now that you have the ATC assembled, let's make sure the system is functional. We will go through the **basic ATC processes that should be done each time you run a new job:**
@@ -32,6 +32,8 @@ Any issues you have with these processes may indicate there is a mis-assembled o
 1. Grab the bits that you plan to use for your first project. Insert them into ER20 collets. Your kit comes with ER20 collets that fit 1/8″, 1/4″, 3/8″, and 1/2″ tools.
 
 1. Seat the collet and bit into a collet nut, then secure them to a tool holder using the set of wrenches provided. Ensure the face of the collet is flush with the tool holder. Repeat for the remaining bits.
+
+    > Do not tighten collet nut without a tool
 
     ![](/_images/_atc/_atc_assembly/_finalcheck/atc_assembly_finalcheck-fasten1.jpg){.aligncenter .size-medium}
 
@@ -92,6 +94,18 @@ Now we have done all the preparations, let's try changing out a tool!
 Congrats on your first successful tool change!
 
 To learn how to **generate compatible g-code** and **run a job with automated tool changing**, head over to [1st Projects](https://resources.sienci.com/view/atc-1st-project/) page.
+
+## Spindle Break-in
+
+The grease inside the bearings may have shifted during transportation, it is recommended that you run a “break-in” cycle to redistribute the grease before using your spindle. To do this, you can download and run the g-code file below on gSender, which should take 1 hour 40 minutes to run.
+
+<a href="https://drive.google.com/file/d/1JdrqfgkZxhhXIAjUMOi-5UXIDjNveZe3/view?usp=sharing">Sienci Spindle Break-in.gcode</a>
+
+To run the file connect to gSender and press 'Load File' at the bottom left corner. Select the file and you should see a 'Start Job' button appear, go ahead and click that.
+
+For regular maintenance of your spindle, we recommend running a shorter "warm up" g-code.
+
+<a href="https://drive.google.com/file/d/1u5Tu5QdECCNx7W3NW7HJd1eErZ1Ggvyv/view?usp=sharing">Sienci Spindle Warm up.gcode</a>
 
 ## Troubleshooting
 
