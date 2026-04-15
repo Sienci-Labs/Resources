@@ -29,17 +29,17 @@ At this time you can reinstall your gControl panel and mount, [see mounting inst
 
 1. Verify the **rack sensor** is on. It should be on if the rack has been installed correctly. There should be a red light coming from the rack sensor.
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_rack.jpeg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_rack.jpeg){.aligncenter .size-medium}
 
 1. Check that the **tool length sensor (TLS)** is functioning.
 
     * Press down on the TLS (either manually or by jogging the spindle down slowly), and confirm the **orange TLS LED** on the SLB-EXT turns on.
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_tls.jpeg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_tls.jpeg){.aligncenter .size-medium}
 
 1. Check the **white Pressure LED** on the spindle is on.
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_airpressure.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_airpressure.jpg){.aligncenter .size-medium}
 
 * If the light is **red**:
 
