@@ -47,8 +47,7 @@ At this time you can reinstall your gControl panel and mount, [see mounting inst
   * Check the filter regulator gauge
   * Ensure the quick-disconnect ball valve is open
 
-⚠️ **Note:**
-The first time you connect to **gSender** with the spindle connected, air will leak because the system has not yet been configured.
+> ⚠️ The first time you connect to **gSender** with the spindle connected, air will leak because the system has not yet been configured.
 
 ## gSender Setup
 
@@ -70,15 +69,15 @@ We will be using gSender to upload ATC-related g-code programs to the microSD Ca
 
 1. Select **Sienci ATC** to start the setup. This process should take approx 30 min.
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_install.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_install.jpg){.aligncenter .size-medium}
 
 1. Select **Initial Setup**.
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_initial.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_initial.jpg){.aligncenter .size-medium}
 
 1. Select your **Rack Size**. For this example, we are selecting a 6 Tool Rack. Hit Upload Macros.
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_macro.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_macro.jpg){.aligncenter .size-medium}
 
 1. Once complete, press Next in the bottom right corner.
 
@@ -87,12 +86,12 @@ We will be using gSender to upload ATC-related g-code programs to the microSD Ca
 1. This step will configure your controller. Hit the blue Apply button.
 1. Once completed, hit Next.
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_control.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_control.jpg){.aligncenter .size-medium}
 
 1. Next, the machine will update its homing position. Hit the blue **Re-home button** to begin this wizard.
 1. Once the button turns green and shows Complete, continue with the Next button. At this stage, the air leak at the spindle should **stop**.
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_rehome.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_rehome.jpg){.aligncenter .size-medium}
 
 ### Rack Position
 
@@ -120,11 +119,11 @@ Next the rack location will be determined. You will be prompted to manually jog 
 
 1. Use **precise jog** (short taps only) once you are close to the stud.
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_sensor1.gif){.aligncenter .size-full}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_sensor1.gif){.aligncenter .size-full}
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_lighton.JPG){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_lighton.JPG){.aligncenter .size-medium}
 
-Once the light is on, hit the blue **Find Rack** button.
+    Once the light is on, hit the blue **Find Rack** button.
 
 1. A **Probing Sequence** confirmation window will appear, hit OK to continue.
 
@@ -136,7 +135,7 @@ Once the light is on, hit the blue **Find Rack** button.
 
     ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_rackpos2.jpg){.aligncenter .size-medium}
 
-    ⚠️ If you encounter an error that it cannot find the stud, make sure to accurately position the sensor 1mm above the stud, centered on the stud. Just because the light turns red does not mean it is in the right position!
+    > ⚠️ If you encounter an error that it cannot find the stud, make sure to accurately position the sensor 1mm above the stud, centered on the stud. Just because the light turns red does not mean it is in the right position!
 
 1. The locating process will now repeat for the **left-most rack position**. You will see another confirmation window pop up. Ensure the **tool holder** is mounted into the left-most rack position before continuing. Hit OK.
 
@@ -171,11 +170,9 @@ In this section we will be power cycling and reconnecting to the SLB-EXT.
 
     ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_spin2.jpg){.aligncenter .size-medium}
 
-Once complete, click the Next button.
+    Once complete, click the Next button. Setup is complete! Exit the wizard now.
 
-Setup is complete! Exit the wizard now.
-
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_complete.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_complete.jpg){.aligncenter .size-medium}
 
 1. Go to Config -> Tool Changing.
 1. Toggle the **Enable ATCi** switch and hit the Apply Changes button.

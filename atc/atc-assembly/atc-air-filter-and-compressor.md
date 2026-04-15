@@ -32,7 +32,7 @@ If you did not include the regulator in your order, you can simply connect your 
 
    ![](/_images/_atc/_atc_assembly/_air/atc_assembly_air-mount.jpg){.aligncenter .size-medium}
 
-   * ⚠️ The unit will **drip water**, so **do not mount it above electronics or wiring**.
+   > ⚠️ The unit will **drip water**, so **do not mount it above electronics or wiring**.
 
 * Place the filter regulator unit into the mounting ring.
 * Secure it using the **large nut on top** of the unit.
@@ -52,7 +52,7 @@ If you did not include the regulator in your order, you can simply connect your 
 
 1. Use the handle on the quick disconnect on your compressor to open the line.
 
-   > NOTE: Before connecting a new air compressor to the automatic tool changer system, check your manufacturer's recommendations on purging the system of debris before you begin.
+   > Before connecting a new air compressor to the automatic tool changer system, check your manufacturer's recommendations on purging the system of debris before you begin.
 
 ## Setting Air Pressure & Flow
 

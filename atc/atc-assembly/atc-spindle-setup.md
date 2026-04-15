@@ -18,7 +18,7 @@ featured_image: _images/_atc/_atc_assembly/_spindle/atc_assembly_spin_headerspin
 
 ### Spindle & Drag Chain Arm
 
-![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_headerspindle.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_headerspindle.jpg){.aligncenter .size-medium .wid}
 
 ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-parts1.jpg){.aligncenter .size-full .wid}
 
@@ -73,7 +73,7 @@ If your Z-gantry has the **blue** circled hole pattern, follow the [4 Screw Inst
 
 ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-gantrychoose.jpg){.aligncenter .size-medium}
 
-### Install the Screws
+### Mount the Gantry
 
 #### 6 Screw Installation
 
@@ -134,11 +134,11 @@ This section will modify the 4x4 and 2x4 AltMills to make them compatible with t
 
     > Tip: Ensure the **male and female drag chain ends** are correctly oriented; reversing them is tedious.
 
-![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_z-plus-drag2.JPG){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_z-plus-drag2.JPG){.aligncenter .size-medium}
 
 1. Install the Z-Plus drag chain bracket back onto the XZ carriage.
 
-![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_z-plus-drag3.JPG){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_z-plus-drag3.JPG){.aligncenter .size-medium}
 
 ## Cable and Tubing Routing
 
@@ -164,9 +164,7 @@ Place the cable ends and tubing near the **spindle connections** on the Z-axis.
 
 ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-zdragchain.jpg){.aligncenter .size-medium}
 
-    ⚠️ Important:
-    - Keep cables and tubing **parallel** inside the drag chain.
-    - Do **not cross them**.  
+    ⚠️ Important: Keep cables and tubing parallel inside the drag chain & do not cross them
 
 ### Connect the Spindle
 
@@ -192,7 +190,7 @@ On the ATC spindle, connect the following in this order:
 
     - Make sure these do not cross or twist.
 
-![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-airline.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-airline.jpg){.aligncenter .size-medium}
 
 1. Adjust the cables and tubing as needed, then close the remaining clips along the **X-axis drag chain**.
 1. Reconnect the X-axis drag chain to the Z-plus drag chain bracket.
