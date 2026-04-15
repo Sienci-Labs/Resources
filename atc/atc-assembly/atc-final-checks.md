@@ -53,7 +53,7 @@ Any issues you have with these processes may indicate there is a mis-assembled o
 
     `Tool 6: 1/8" Tapered Ball Nose Bit`
 
-    ⚠️ Please note, Tool 1 is at left-most position on the rack, we count from left to right.
+    > ⚠️ Please note, Tool 1 is at left-most position on the rack, we count from left to right.
 
     ![](/_images/_atc/_atc_assembly/_finalcheck/atc_assembly_finalcheck-toolnum.jpg){.aligncenter .size-medium}
 
