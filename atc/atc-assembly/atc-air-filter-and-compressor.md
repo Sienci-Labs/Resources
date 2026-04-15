@@ -1,5 +1,5 @@
 ---
-title: ATC Air Filter Regulator & Compressor
+title: 5. ATC Air Filter Regulator & Compressor
 menu_order: 6
 post_status: draft
 post_excerpt: Setting up your air filter regulator and compressor to give your atc clean air at the right pressure.

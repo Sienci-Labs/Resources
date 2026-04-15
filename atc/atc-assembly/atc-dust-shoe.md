@@ -1,5 +1,5 @@
 ---
-title: ATC Dust Shoe
+title: 6. ATC Dust Shoe
 menu_order: 7
 post_status: draft
 post_excerpt: Assembling and installing the clear dust shoe for the atc.

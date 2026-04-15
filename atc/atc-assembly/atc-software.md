@@ -1,5 +1,5 @@
 ---
-title: ATC Software
+title: 7. ATC Software
 menu_order: 8
 post_status: draft
 post_excerpt: Setting up gSender to work with the atc.

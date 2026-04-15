@@ -1,5 +1,5 @@
 ---
-title: ATC Spindle Setup
+title: 2. ATC Spindle Setup
 menu_order: 3
 post_status: publish
 post_excerpt: Assembly instructions for setting up the atc spindle on an AltMill. 
@@ -88,7 +88,7 @@ Grab:
 - One (1) M6 - 14 mm button head screw
 
 1. Thread the M6 - 14 mm screw into the hole (marked #1) in the image below. Leave about 7 mm (1/4 in) sticking out. Hang the ATC spindle on this screw using the mounting slot. This acts as a temporary anchor — do not tighten.
-1. Install the two (2) M6 shoulder screws in the lower holes, marked #2 and #3. Start by hand, then tighten fully.
+1. Install the two (2) M6 shoulder screws in the lower holes, marked #2 and #3. Start by hand, then tighten fully, in the order listed.
 1. Install the two (2) M6 - 25 mm button head screws in the lowest mounting holes. Start by hand, then tighten fully.
 1. Install the final M6 - 25 mm screw in the upper left hole, and tighten it fully.
 
@@ -160,7 +160,7 @@ Place the cable ends and tubing near the **spindle connections** on the Z-axis.
 1. Use a flathead screwdriver to detach the remaining clips on the Z-axis drag chain.
 1. Clip the Z-axis drag chain back onto its end links.
 1. Close the clips around the three cables.
-1. Use one M5 - 10mm screw and M5 lock nut to fasten the loose end link at the Z-plus drag chain bracket.
+1. Use one M5 - 10mm screw and M5 lock nut to fasten the loose end link at the Z-plus drag chain bracket, from the previous section.
 
 ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-zdragchain.jpg){.aligncenter .size-medium}
 
