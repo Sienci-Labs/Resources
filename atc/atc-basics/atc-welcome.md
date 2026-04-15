@@ -1,7 +1,7 @@
 ---
 title: ATC Welcome!
 menu_order: 1
-post_status: draft
+post_status: publish
 post_excerpt: Welcome to the Automatic Tool Changer resources.
 post_date: 2026-02-09 10:16:53
 taxonomy:

@@ -1,7 +1,7 @@
 ---
 title: ATC Before You Begin
 menu_order: 2
-post_status: draft
+post_status: publish
 post_excerpt: 
 post_date: 2026-02-09 11:44:53
 taxonomy:
@@ -28,7 +28,7 @@ Before we dive in, we will need to make some changes on the software side. You w
 
 1. **Unplug** your spindle cable if it's plugged in.
 
-1. **Update** your controller <a href="https://drive.google.com/file/d/12q5jQiBiH_oOiGB9G5lKVC7MQthGZgIQ/view?usp=drive_link" target="_blank" rel="noopener"> Firmware </a> then return here for the next step.
+1. **Update** your controller <a href="https://drive.google.com/file/d/12q5jQiBiH_oOiGB9G5lKVC7MQthGZgIQ/view?usp=drive_link" target="_blank" rel="noopener"> Firmware (Download), </a>follow the [instructions](https://resources.sienci.com/view/slb-firmware-flashing/), then return here for the next step.
 
 1. **Apply** the appropriate profile for your machine in gSender.
 
