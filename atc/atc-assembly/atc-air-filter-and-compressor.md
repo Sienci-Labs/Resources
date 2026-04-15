@@ -34,8 +34,8 @@ If you did not include the regulator in your order, you can simply connect your 
 
    > ⚠️ The unit will **drip water**, so **do not mount it above electronics or wiring**.
 
-* Place the filter regulator unit into the mounting ring.
-* Secure it using the **large nut on top** of the unit.
+   * Place the filter regulator unit into the mounting ring.
+   * Secure it using the **large nut on top** of the unit.
 
    ![](/_images/_atc/_atc_assembly/_air/atc_assembly_air-tight.jpg){.aligncenter .size-medium}
 
