@@ -16,7 +16,7 @@ featured_image: _images/_atc/_atc_assembly/_before/atc_assembly_before-axis.jpg
 
 ## Before You Begin
 
-If you’re installing the ATC on a **new machine build**, please complete the [AltMill Assembly Process](https://resources.sienci.com/view/am-mk2-best-practices/) up to and including stage **9 First Movement** before returning to this guide.
+If you’re installing the ATC on a **new machine build**, please complete the assembly, before returning to this guide.
 
 The expected ATC assembly time is **2–4 hours**, so be sure to allot enough time and pace yourself to avoid errors, damage, or injury during the process.
 
@@ -59,9 +59,11 @@ Before we dive in, we will need to make some changes on the software side. You w
 1. Power off your **SLB-EXT controller**, and unplug it from power.
 
 1. Got a **wasteboard** installed?
+
     * Ensure the last 13 inches at the back of the machine is not covered. You can cut it now, or remove it entirely for the duration of the ATC installation.
 
 1. Got a **gControl panel** installed?
+
     * Unplug it from power, and remove the gControl and its mounting bracket.
 
 1. Got a **Z-Plus Drag Chain Arm** installed?

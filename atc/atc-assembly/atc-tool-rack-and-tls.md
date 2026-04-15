@@ -18,7 +18,7 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
 
 *No rack?** [SKIP AHEAD to the TLS](#tool-length-sensor) section in this article.
 
-![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool_header1.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool_header1.jpg){.aligncenter .size-medium .wid}
 
 ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts1.jpg){.aligncenter .size-full .wid}
 
@@ -75,7 +75,7 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
    * Hold the clip snug while threading in the screws with an Allen key. Secure fully.
    * Continually check that each clip remains fully seated to the profile.
 
-         ⚠️ **Important:** Improperly seated clips can cause **ATC accuracy issues**.
+   > ⚠️ **Important:** Improperly seated clips can cause **ATC accuracy issues**.
 
    ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-toolholdclip.jpg){.aligncenter .size-medium}
 
@@ -124,7 +124,7 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
    * Repeat the above steps
    * Install it directly next to the first rack, **butted against the backbone**
 
-      ⚠️ This is required for **automated setup in gSender**.
+   > ⚠️ This is required for **automated setup in gSender**.
 
    ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-backbonemeet.jpg){.aligncenter .size-medium}
 
@@ -145,7 +145,7 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
 
    Route the **rack sensor cable** through the cable clips in the crossbeams.
 
-         Note: This is different from the TLS cable, making sure you are using the correct cable.
+   > This is different from the TLS cable, make sure you are using the correct cable.
 
    ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-cableroute.jpeg){.aligncenter .size-medium}
 

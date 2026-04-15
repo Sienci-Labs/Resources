@@ -43,13 +43,9 @@ To successfully flash new firmware onto your SLB, you'll need:
 
 1. The **firmware file**; all versions are listed above as ".hex" files to download
 1. A computer that can run **gSender** software to perform the flashing
-1. STM32Cube program **downloaded and installed** to your computer (It fixes a bug that can occur with Microsoft drivers and supports advanced setup, though you don’t need to open it—just install it.)
+1. If you use Windows, a program called STM32Cube **downloaded and installed** to your computer (It fixes a bug that can occur with Microsoft drivers and supports advanced setup, though you don’t need to open it — just install it.)
 
     - <a href="https://drive.google.com/file/d/1XzT21kwJFHcPzCDYhIdux49At6-TmrVA/view?usp=drive_link" target="_blank" rel="noopener">STM32Cube Windows</a>
-
-    - <a href="https://drive.google.com/file/d/15RWANIzJlC-lVITnpkOOBdMzYkzcw6Fm/view?usp=drive_link" target="_blank" rel="noopener">STM32Cube Mac Apple Silicon</a>
-
-    - <a href="https://drive.google.com/file/d/13d1zBCbj8OqDAo3xeX5g49QG7QUN36Sm/view?usp=drive_link" target="_blank" rel="noopener">STM32Cube Mac Intel</a>
 
 1. The SLB connected to that **computer over USB** (you can't flash over Ethernet because the MCU on the SLB can't support it, but you can return to using your Ethernet connection once flashing is complete)
 1. A 12-24V power supply to **power the SLB** during flashing
