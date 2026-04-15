@@ -1,7 +1,7 @@
 ---
 title: 6. ATC Dust Shoe
 menu_order: 7
-post_status: draft
+post_status: publish
 post_excerpt: Assembling and installing the clear dust shoe for the atc.
 post_date: 2026-02-10 11:48:53
 taxonomy:
@@ -11,7 +11,7 @@ custom_fields:
     KBName: AutoToolChanger
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: _images/_atc/_atc_assembly/_dust/atc_assembly_dust_header.jpg
 ---
 
 ## Clear Cut Dust Shoe Installation
