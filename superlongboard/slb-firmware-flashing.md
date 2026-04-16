@@ -17,7 +17,11 @@ featured_image: _images/_superlongboard/_firmware/slb_fi_p1_Connected.jpg
 
 Your board will likely ship with the latest firmware already installed, but we occasionally make updates to add new features or address any discovered issues. You may also choose to re-flash the firmware onto your board if you've attempted to customize it or for troubleshooting purposes.
 
-Before getting started, **check what your current version is** by going to the 'Console' of your g-code sender and send the command `$i`. The result will be a long list of text in square brackets. If you scroll down to about the 9th line you'll see something like "[BOARD:" where you'll also see the version number at the end. Compare this to the version list below to see which one you'd like to flash:
+Before getting started, **check what your current version is** by going to the 'Machine Information' icon, and checking to see what version you are currently running.
+
+![](/_images/_superlongboard/_firmware/slb_fi_p01_firmwareversion.jpg)
+
+Compare this to the version list below to see which one you'd like to flash:
 
 **Most Recent Firmware:**
 
@@ -30,6 +34,7 @@ Before getting started, **check what your current version is** by going to the '
   - Newest, main version of grblHAL
   - Requires gSender 1.6.0 or newer
   - Build version 20260318
+  - Unplug the spindle for firmware flashing
 
 [su_spoiler title="<b>Past Versions:</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 

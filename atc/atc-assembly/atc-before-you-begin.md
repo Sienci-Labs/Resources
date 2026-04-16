@@ -36,7 +36,11 @@ Before we dive in, we will need to make some changes on the software side. You w
 
 1. **Unplug** your spindle cable if it's plugged in.
 
-1. **Update** your controller firmware by following the [instructions here](https://resources.sienci.com/view/slb-firmware-flashing/), then come back for the next step.
+1. **Check** your controller firmware by clicking on the machine information icon, and verifying version 20260318 is installed.
+
+    ![](/_images/_atc/_atc_assembly/_before/atc_assembly_beforeyoubegin-firmware.jpg){.aligncenter .size-medium}
+
+    If not, no worries! You can **Update** by following the [instructions here](https://resources.sienci.com/view/slb-firmware-flashing/), then come back for the next step.
 
 1. **Apply** the appropriate machine profile in gSender. Make sure you turn OFF/ON the controller to have any changes take effect.
 
