@@ -164,15 +164,17 @@ In this section we will be power cycling and reconnecting to the SLB-EXT.
 
 1. Hit the Apply and Restart blue button.
 
-    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_spin.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_spinapplycontinue.jpg){.aligncenter .size-medium}
 
 1. Hit the Next button in the bottom right corner.
+
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_spinnext.jpg){.aligncenter .size-medium}
 
 1. Reconnect to gSender.
 
 1. Ignore the alarms, and hit the Apply and Restart button again.
 
-    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_spin2.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_spinignore.jpg){.aligncenter .size-medium}
 
     Once complete, click the Next button. Setup is complete! Exit the wizard now.
 
