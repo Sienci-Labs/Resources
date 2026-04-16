@@ -33,7 +33,7 @@ Any issues you have with these processes may indicate there is a mis-assembled o
 
 1. Seat the collet and bit into a collet nut, then secure them to a tool holder using the set of wrenches provided. Ensure the face of the collet is flush with the tool holder. Repeat for the remaining bits.
 
-    > Do not tighten collet nut without a tool
+    > ⚠️ Do not tighten the collet nut without the wrenches!
 
     ![](/_images/_atc/_atc_assembly/_finalcheck/atc_assembly_finalcheck-fasten1.jpg){.aligncenter .size-medium}
 
