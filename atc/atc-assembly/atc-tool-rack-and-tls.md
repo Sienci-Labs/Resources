@@ -113,9 +113,9 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
 
    ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-toolmounting.jpg){.aligncenter .size-medium}
 
-1. Finally, secure the backbone knobs. Ensure they sit flush to the rack sections.
+1. Finally, secure the backbone knobs. Ensure the backbone sits flush to the rack sections.
 
-   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-bbalign.jpg){.aligncenter .size-medium}
+   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-bbaligntwist.jpg){.aligncenter .size-medium}
 
 1. If installing a **second tool rack**:
 
