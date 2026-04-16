@@ -117,7 +117,7 @@ This section will modify the 4x4 and 2x4 AltMills to make them compatible with t
 
 ### 4x4 & 2x4 Machines  
 
-![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-parts4.jpg){.aligncenter .size-full .wid}
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-parts4v2.jpg){.aligncenter .size-full .wid}
 
 #### Remove the Drag Chain Bracket
 
