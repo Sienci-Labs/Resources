@@ -26,7 +26,7 @@ Before getting started, **check what your current version is** by going to the '
   - Updated defaults to accommodate some machine setups that couldn't handle the max speeds and accelerations of the SLB
   - Changed min spindle speed, spindle on delay, and default enabled spindles to match typical spindle setups using the SLB
 - SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1XUxe_cfl2GPJbHNwjnacO5G7k1CxHLfL/view?usp=drive_link" target="_blank" rel="noopener">5.0.11</a>
-- SLB EXT (ATC): <a href="https://drive.google.com/file/d/12q5jQiBiH_oOiGB9G5lKVC7MQthGZgIQ/view?usp=drive_link" target="_blank" rel="noopener">ATC Firmware</a>
+- SLB EXT (ATC): <a href="https://drive.google.com/file/d/12q5jQiBiH_oOiGB9G5lKVC7MQthGZgIQ/view?usp=drive_link" target="_blank" rel="noopener">ATC Firmware (20230917)</a>
 
 [su_spoiler title="<b>Past Versions:</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 
