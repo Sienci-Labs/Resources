@@ -24,7 +24,7 @@ featured_image: _images/_atc/_atc_assembly/_vfd/atc_assembly_vfd_header1.jpg
   
     * Fully seat two (2) M5 lock nuts into the VFD mounting spacer. Place the VFD mounting spacer onto the **inner face of the front-left AltMill leg**, then assemble the E-stop on the outer face of the leg using two (2) M5-30mm screws.
 
-  ![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd1.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd-estop.jpg){.aligncenter .size-medium}
 
 1. Route the blue connector from the spindle cable through the table leg cutout.
 
@@ -34,7 +34,7 @@ featured_image: _images/_atc/_atc_assembly/_vfd/atc_assembly_vfd_header1.jpg
 
 1. Mount the enclosed VFD inside the table leg using the remaining two (2) M5 - 30mm screws. Ensure that the VFD is positioned so you can see the screen through the table leg cutout.
 
-  ![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd2.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd-vfdmount.jpg){.aligncenter .size-medium}
 
 1. Plug the **E-stop cable** back into the SLB-EXT.
 

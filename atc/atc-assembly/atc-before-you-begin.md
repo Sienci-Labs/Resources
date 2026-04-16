@@ -16,7 +16,7 @@ featured_image: _images/_atc/_atc_assembly/_before/atc_assembly_before-axis.jpg
 
 ## Before You Begin
 
-If you’re installing the ATC on a **new machine build**, please complete the assembly, before returning to this guide.
+If you’re installing the ATC on a **new machine**, please complete the machine assembly first before following this guide.
 
 The expected ATC assembly time is **2–4 hours**, so be sure to allot enough time and pace yourself to avoid errors, damage, or injury during the process.
 
@@ -24,19 +24,29 @@ The expected ATC assembly time is **2–4 hours**, so be sure to allot enough ti
 
 Before we dive in, we will need to make some changes on the software side. You will need to:
 
-1. **Upgrade** [gSender](https://github.com/Sienci-Labs/gsender/releases) to 1.6.0 or higher,  then return here for the next step.
+1. Download the post processor(s) for your CAM software - this are essential for creating g-code that works with the ATC.
+
+    [Vectric](https://drive.google.com/file/d/1mgyv90uslGa4Cadq8EKwFjALcVChzU34/view?usp=drive_link)
+
+    [Vectric with Vortex Rotary Axis](https://drive.google.com/file/d/1tEr16-cVp_aaULNH_i3Dd5rDd4RDe02K/view?usp=drive_link)
+
+    [CarveCo](https://drive.google.com/file/d/1UqWXNDYrgd2CR3ci91QXc0FMH09GMZRi/view?usp=drive_link)
+
+1. **Upgrade** [gSender](https://github.com/Sienci-Labs/gsender/releases) to 1.6.0 or higher, then come back for the next step.
 
 1. **Unplug** your spindle cable if it's plugged in.
 
-1. **Update** your controller <a href="https://drive.google.com/file/d/12q5jQiBiH_oOiGB9G5lKVC7MQthGZgIQ/view?usp=drive_link" target="_blank" rel="noopener"> Firmware (Download), </a>follow the [instructions](https://resources.sienci.com/view/slb-firmware-flashing/), then return here for the next step.
+1. **Update** your controller firmware by following the [instructions here](https://resources.sienci.com/view/slb-firmware-flashing/), then come back for the next step.
 
-1. **Apply** the appropriate profile for your machine in gSender.
+1. **Apply** the appropriate machine profile in gSender. Make sure you turn OFF/ON the controller to have any changes take effect.
+
+![](/_images/_atc/_atc_assembly/_before/atc_assembly_beforeyoubegin-defaults.jpg){.aligncenter .size-medium}
 
 ### Assembly Tips
 
-* The articles are listed in the order they should be followed in, make sure you don't skip a page.
+* The articles are listed in the order they should be followed, make sure you don't skip a page.
 
-* Because of the assemblies, we strongly recommend having a second person available when installing the spindle onto the machine or when mounting a tool rack.
+* We strongly recommend having a second person available when installing the spindle onto the machine or when mounting a tool rack.
 
 * Grab a set of **metric Allen keys**, as well as use the provided Allen keys. You can use a regular drill for screws that are M5 or larger, but **do not use impact drills** as they can strip the holes. Begin threading each screw by hand first to prevent cross-threading.  
 
@@ -54,7 +64,7 @@ Before we dive in, we will need to make some changes on the software side. You w
 
 1. Verify that the **second-to-last crossbeam** on your AltMill is oriented correctly. The flange should face the rear of the machine, unless you have a 4x8 machine, in which case it should face the front.
 
-    ![](/_images/_atc/_atc_assembly/_before/atc_assembly_before-fillercbeam.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_assembly/_before/atc_assembly_beforeyoubegin-cbeams.jpg){.aligncenter .size-medium}
 
 1. Power off your **SLB-EXT controller**, and unplug it from power.
 

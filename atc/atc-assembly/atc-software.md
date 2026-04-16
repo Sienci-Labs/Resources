@@ -53,10 +53,14 @@ At this time you can reinstall your gControl panel and mount, [see mounting inst
 
 1. Open **gSender** and connect to your machine.
 1. Go to **Tools**.
-1. Go to **SD Card Manager**.
 1. If you haven't yet, insert the **microSD card** into the slot on the SLB-EXT.
+1. Go to **SD Card Manager**.
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_accessory.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_accessory.jpg){.aligncenter .size-medium}
+
+1. Ensure that gSender recognizes the card and shows it as **Mounted**
+
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_sdmounted.jpg){.aligncenter .size-medium}
 
 * We strongly recommend using the microSD card provided with your kit.
 * Other SD cards may need to be reformatted to FAT32 and must not exceed a capacity of 32 GB.
@@ -103,17 +107,15 @@ Next the rack location will be determined. You will be prompted to manually jog 
 
     ⚠️ **Caution:** Move slowly. Avoid crashing the **stud finder** or **spindle nose**.
 
-1. Assuming you start from the back left corner of the machine, you will be moving the spindle above the right-most tool holder.  
+1. Assuming you **start from the back left corner** of the machine, you will be moving the spindle above the right-most tool holder.  
 
-    Either manually jog, or:
+    Manually jog to the right, to the front and then down. You will be moving approximately:
 
-        1. Set your speed to rapid and enter 1140 into your XY travel distance box, then hit the X+ arrow to move right.
+    * 1140 mm to the right
+    * 20 mm to the front
+    * 100 mm down
 
-        2. Set your speed to normal, enter 20mm into your XY travel distance box, then hit the Y- arrow to move forward.
-
-        3. Keeping your speed at normal, enter 100 mm into your Z distance travel box, then hit the Z- button to move down.
-
-        **Note: These values are approximate, you will need to adjust especially if using a MK1 or early MK2**
+        **These values are approximate, you will need to adjust especially if using a MK1 or early MK2**
 
     The goal is to line up the sensor on ATC over the tool holder stud, triggering an LED to light up. Aim for 1-2mm above the stud, and centered on the stud.
 
