@@ -25,10 +25,15 @@ Before getting started, **check what your current version is** by going to the '
   - Updated default A-axis step/mm to match typical Vortex setups using 32nd microstepping
   - Updated defaults to accommodate some machine setups that couldn't handle the max speeds and accelerations of the SLB
   - Changed min spindle speed, spindle on delay, and default enabled spindles to match typical spindle setups using the SLB
-- SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1XUxe_cfl2GPJbHNwjnacO5G7k1CxHLfL/view?usp=drive_link" target="_blank" rel="noopener">5.0.11</a>
-- SLB EXT (ATC): <a href="https://drive.google.com/file/d/12q5jQiBiH_oOiGB9G5lKVC7MQthGZgIQ/view?usp=drive_link" target="_blank" rel="noopener">ATC Firmware</a>
+- SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1gc_tUbQwiuG4P-6CdOinreDUIbKNDO73/view?usp=drive_link" target="_blank" rel="noopener">Main_grblHAL</a>
+
+  - Newest, main version of grblHAL
+  - Requires gSender 1.6.0 or newer
+  - Build version 20260318
 
 [su_spoiler title="<b>Past Versions:</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+
+- <a href="https://drive.google.com/file/d/1XUxe_cfl2GPJbHNwjnacO5G7k1CxHLfL/view?usp=drive_link" target="_blank" rel="noopener">5.0.11</a>: default for Oct 2024 ➜ April 2026
 
 - <a href="https://drive.google.com/file/d/1-1W322z5idOQmhREUlAVHQBAa6PCsN63/view?usp=drive_link" target="_blank" rel="noopener">5.0.5</a>: default for June ➜ Oct 2024
   - Updated default homing speed to stop occasional disconnection issues
