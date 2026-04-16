@@ -36,7 +36,7 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
    * Fully secure with the pre-installed screws.
    * Position the cable from the sensor into the rectangular cutout.
 
-   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-backrightwithsensor1.jpg){.aligncenter .size-medium}
+   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-backrightwithsensor1v2.jpg){.aligncenter .size-medium}
 
    ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-backrightwithsensor2.jpg){.aligncenter .size-medium}
 
@@ -137,7 +137,7 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
 
 ## Rack Sensor Cable Routing
 
-![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts4.jpg){.aligncenter .size-full .wid}
+![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts4v2.jpg){.aligncenter .size-full .wid}
 
 1. Grab the cable clips from the ATC box and tool rack box, then place them into the crossbeams, three (3) across the rear-most crossbeam, then one (1) for each remaining crossbeam, stopping before the front-most crossbeam.
 

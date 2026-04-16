@@ -142,7 +142,7 @@ This section will modify the 4x4 and 2x4 AltMills to make them compatible with t
 
 ## Cable and Tubing Routing
 
-![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-parts5.jpg){.aligncenter .size-full .wid}
+![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-parts5v2.jpg){.aligncenter .size-full .wid}
 
 ### Prepare the Cables
 
