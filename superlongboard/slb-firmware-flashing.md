@@ -38,12 +38,12 @@ Compare this to the version list below to see which one you'd like to flash:
 
 [su_spoiler title="<b>Past Versions:</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 
-- <a href="https://drive.google.com/file/d/1XUxe_cfl2GPJbHNwjnacO5G7k1CxHLfL/view?usp=drive_link" target="_blank" rel="noopener">5.0.11</a>: default for Oct 2024 ➜ April 2026
+- <a href="https://drive.google.com/file/d/1XUxe_cfl2GPJbHNwjnacO5G7k1CxHLfL/view?usp=drive_link" target="_blank" rel="noopener">5.0.11</a>: default for SLB-EXT Oct 2024 ➜ April 2026
 
-- <a href="https://drive.google.com/file/d/1-1W322z5idOQmhREUlAVHQBAa6PCsN63/view?usp=drive_link" target="_blank" rel="noopener">5.0.5</a>: default for June ➜ Oct 2024
+- <a href="https://drive.google.com/file/d/1-1W322z5idOQmhREUlAVHQBAa6PCsN63/view?usp=drive_link" target="_blank" rel="noopener">5.0.5</a>: default for SLB June ➜ Oct 2024
   - Updated default homing speed to stop occasional disconnection issues
   - Fixed E-stop hit requiring board power cycle to clear
-- <a href="https://drive.google.com/file/d/1DHaKkDzn2ZB0fBEVrO26ULAGjjX7n3NU/view?usp=drive_link" target="_blank" rel="noopener">5.0.3</a>: firmware on original batch of 500 SLBs (April 2024)
+- <a href="https://drive.google.com/file/d/1DHaKkDzn2ZB0fBEVrO26ULAGjjX7n3NU/view?usp=drive_link" target="_blank" rel="noopener">5.0.3</a>: SLB firmware on original batch of 500 SLBs (April 2024)
 
 [/su_spoiler]
 
