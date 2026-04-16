@@ -56,7 +56,7 @@ At this time you can reinstall your gControl panel and mount, [see mounting inst
 1. If you haven't yet, insert the **microSD card** into the slot on the SLB-EXT.
 1. Go to **SD Card Manager**.
 
-    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_accessory.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_accessoryv2.jpg){.aligncenter .size-medium}
 
 1. Ensure that gSender recognizes the card and shows it as **Mounted**
 
