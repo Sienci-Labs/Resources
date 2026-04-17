@@ -19,7 +19,7 @@ featured_image: _images/_gsender/_install/gs_in_windows-finish.jpg
 
 <br>
 <p style="text-align: center;margin: 25px auto;background-color: blanchedalmond;padding: 30px;border-radius: 4px;width: fit-content;">
-If you haven't yet, <b><a href="https://sienci.com/gSender/" target="_blank" rel="noreferrer noopener">download gSender for 🪟 Windows, 🍎 Mac, or 🥧 Pi</a></b>.
+If you haven't yet, <b><a href="https://sienci.com/gSender/" target="_blank" rel="noreferrer noopener">download gSender for 🪟 Windows, 🍎 Mac, 🥧 Pi, or 🐧 Linux</a></b>.
 </p>
 <br>
 
