@@ -10,7 +10,7 @@ taxonomy:
 custom_fields:
     KBName: Open Source
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/_open-source/open_open-coverpic.jpg
 ---
 
