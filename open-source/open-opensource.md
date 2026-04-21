@@ -5,8 +5,9 @@ post_status: draft
 post_excerpt: Open source documentation for LongMill & AltMill CNC and their accessories, which includes 3D files, bill of materials. Community modifications and designs also found here.
 post_date: 2026-04-21 14:21:53
 taxonomy:
-    knowledgebase_cat: open-source-products 
+    knowledgebase_cat: products 
     knowledgebase_tag: 
+         - open-source-products
 custom_fields:
     KBName: Open Source
     basepress_post_icon: bp-caret-right
