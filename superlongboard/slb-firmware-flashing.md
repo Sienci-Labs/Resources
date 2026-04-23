@@ -35,7 +35,14 @@ Compare this to the version list below to see which one you'd like to flash:
   - Requires gSender 1.6.0 or newer
   - Build version 20260318
   - Unplug the spindle for firmware flashing
+  
+- SLB EXT (AltMill) **ONLY** for users with Huanyang or generic 'MODVFD' spindle setups: <a href="https://resources.sienci.com/wp-content/uploads/2024/04/SienciLabs_Main_grblHAL_Firmware_HY_MODVFD.hex">Main_grblHAL_HY_MODVFD</a>
 
+  - Newest, main version of grblHAL</li>
+  - Requires gSender 1.6.0 or newer</li>
+  - Specific firmware require for use with Huanyang 'V1' or 'P2A' VFDs or generic spindles using 'MODVFD'.</li>
+  - Read more about the use of the 'MODVFD' spindle profile for generic VFDs <a href="https://sienci.zendesk.com/hc/en-us/articles/41538568827668-MODVFD-Setup">here.</a>
+  
 [su_spoiler title="<b>Past Versions:</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 
 - <a href="https://drive.google.com/file/d/1XUxe_cfl2GPJbHNwjnacO5G7k1CxHLfL/view?usp=drive_link" target="_blank" rel="noopener">5.0.11</a>: default for SLB-EXT Oct 2024 ➜ April 2026
