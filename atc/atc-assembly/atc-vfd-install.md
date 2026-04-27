@@ -20,6 +20,8 @@ featured_image: _images/_atc/_atc_assembly/_vfd/atc_assembly_vfd_header1.jpg
 
 ![](/_images/_atc/_atc_assembly/_vfd/atc_assembly_vfd-parts1.jpg){.aligncenter .size-full .wid}
 
+https://youtu.be/cG_Ziu_uB1U
+
 1. If you already have the **VFD mounting spacer and E-stop assembled**, go to the next step! Otherwise:
   
     * Fully seat two (2) M5 lock nuts into the VFD mounting spacer. Place the VFD mounting spacer onto the **inner face of the front-left AltMill leg**, then assemble the E-stop on the outer face of the leg using two (2) M5-30mm screws.

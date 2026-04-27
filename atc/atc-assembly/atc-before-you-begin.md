@@ -96,16 +96,4 @@ Before we dive in, we will need to make some changes on the software side. You w
 
     iv. Disconnect the **non-ATC spindle cable** and **RS485 cable** from the VFD. Remove the VFD from its mount and store it safely.
 
-    From the above list, double check that you've done everything that applies to your AltMill. At this point you can continue with [**Spindle Setup**](https://resources.sienci.com/view/atc-spindle-setup/), and/or check out Jason in our assembly videos!
-
-    https://youtu.be/Y2mevczdZ8M
-
-    https://youtu.be/GvSc3w4SsZQ
-
-    https://youtu.be/n-JAkPLcp0k
-
-    https://youtu.be/K0RqD32ysjw
-
-    https://youtu.be/cG_Ziu_uB1U
-
-    https://youtu.be/1Tg-IhbPyow
+    From the above list, double check that you've done everything that applies to your AltMill. At this point you can continue with [**Unboxing**](https://resources.sienci.com/view/atc-unboxing/).

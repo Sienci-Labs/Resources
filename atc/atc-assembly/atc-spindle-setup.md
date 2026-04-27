@@ -22,6 +22,10 @@ featured_image: _images/_atc/_atc_assembly/_spindle/atc_assembly_spin_headerspin
 
 ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-parts1.jpg){.aligncenter .size-full .wid}
 
+https://youtu.be/n-JAkPLcp0k
+
+https://youtu.be/GvSc3w4SsZQ
+
 1. Start by unpacking the ATC spindle and grabbing the ATC drag chain arm. We will also need 6 x M4 - 8mm flat head screws and the Allen key from the ATC fasteners bag.
 
 1. Lift the spindle out of the bottom foam and place it on the top foam packaging with the **threaded mounting holes facing up**.
