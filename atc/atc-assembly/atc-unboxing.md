@@ -14,6 +14,8 @@ skip_file: no
 featured_image: 
 ---
 
+https://youtu.be/Y2mevczdZ8M
+
 Make sure you have all the parts you need for a smooth and painless assembly; open all boxes and unwrap the parts. Check for missing parts using the lists below.
 
 ## Package Contents

@@ -22,6 +22,8 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
 
 ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-parts1.jpg){.aligncenter .size-full .wid}
 
+https://youtu.be/K0RqD32ysjw
+
 ## Rack Assembly
 
 1. Grab the **rack sections** and identify:
@@ -126,10 +128,19 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
 
    ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-backbonemeet.jpg){.aligncenter .size-medium}
 
+## Tool Holder Prep
+
+1. Clean the taper on the tool holders using 99% isopropyl alcohol and lint-free cloth (e.g. shop towel).
+
+   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-clean1.jpg){.aligncenter .size-medium}
+
+1. Clean the inside of the ATC spindle nose using 99% isopropyl alcohol and lint-free cloth (e.g. shop towel)
+
+   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-clean2.jpg){.aligncenter .size-medium}
+
 1. Install tool holders into the **first and last slots** of each tool rack assembly.
 
-   * Make sure tool holders are wiped clean with shop towel and isopropyl alcohol
-   * Fully seat each tool holder, the clip must engage the flats on the tool holder  
+* Fully seat each tool holder, the clip must engage the flats on the tool holder  
 
    ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackassy2.jpg){.aligncenter .size-medium}
 

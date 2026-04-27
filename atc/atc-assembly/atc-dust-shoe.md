@@ -20,6 +20,8 @@ featured_image: _images/_atc/_atc_assembly/_dust/atc_assembly_dust_header.jpg
 
 ![](/_images/_atc/_atc_assembly/_dust/atc_assembly_dust-parts1.jpg){.aligncenter .size-full .wid}
 
+https://youtu.be/1Tg-IhbPyow
+
 ### Assembly
 
 1. Attach the **front and rear gaskets** to the Clear Cut ATC bracket:
