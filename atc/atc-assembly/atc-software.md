@@ -16,6 +16,8 @@ featured_image: _images/_atc/_atc_assembly/_software/atc_assembly_soft_install.j
 
 For this software setup, if you have a **4x8 AltMill** you may want to grab a friend to help you with checking sensor position and lights on the ATC. Otherwise, be prepared to do some walking back and forth!
 
+https://youtu.be/Ti4iCGV6Iyo
+
 ## gControl Panel
 
 At this time you can reinstall your gControl panel and mount, [see mounting instructions here](https://resources.sienci.com/view/gc-gcontrol-assembly/).
