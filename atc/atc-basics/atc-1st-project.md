@@ -25,6 +25,24 @@ featured_image: _images/post-image.jpg
 
 If you haven't yet, go through the [Software Setup](https://resources.sienci.com/view/atc-software/) to initialize your ATC system. You cannot use your ATC until this process is complete.
 
+## ATC Basics
+
+### Tool Changes
+
+Tools in your ATC system are referred to by a tool number, ranging from Tool 1 to Tool 32. A single rack will have 6 tools, while a double rack will hold 12. Any tools above number 12, will be changed out manually. The system detects that the tool number exceeds the rack capacity and moves to the tool rack position so you can replace it manually.
+
+If you didn't purchase a tool rack, all of your tool changes will be done manually.
+
+![](/_images/_atc/_atc_basics/atc_basics_firstpro-autovsmanual.jpg){.aligncenter .size-medium}
+
+### Tool Length Sensor
+
+The system is setup to automatically probe each tool immediately after it's been loaded. This is an automatic process, where the spindle will move over the tool length sensor, and move downwards to touch off on the TLS.
+
+![](/_images/_atc/_atc_basics/atc_basics_firstpro_tooloffsets.gif){.aligncenter .size-full}
+
+Your zeros are stored, so there is no need to re-zero after each tool change.
+
 ## First ATC Project: Engraved Rounds
 
 Now that our Automatic Tool Changer with a single rack is installed and configured, it’s time to run a real project.
@@ -35,20 +53,13 @@ By the end, we should have finished parts—and confidence that your ATC is runn
 
 ### Project Overview
 
-We’ll machine a set of 70–80 mm (3–4") diameter wooden rounds from 6.5 mm (1/4") thick stock. Each piece will include a short engraved phrase, such as:
-
-“Not Today, Stress”
-“Pocket Panic Button”
-“It’s not that DEEP”
-“Just NO”
-
-We are keeping the design simple for this first, run—the focus is on verifying smooth, reliable tool changes.
+We’ll machine a set of 70–80 mm (3–4") diameter wooden rounds from 6.5 mm (1/4") thick stock. Each piece will include a short engraved phrase. We are keeping the design simple for this first run, — the focus is on verifying smooth, reliable tool changes.
 
 ## Tools for This Project
 
 We’ll load the following end mills into the tool holders, then place them into the rack. Confirm their positions are correct once loaded.
 
-![](/_images/_atc/_atc_basics/atc_basics_firstpro-toolsloaded.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_basics/atc_basics_firstpro-toolsloadedv2.jpg){.aligncenter .size-medium}
 
 **Tool 1 (leftmost position)**  
 30° V-bit for engraving the fine text.
