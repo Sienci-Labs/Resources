@@ -16,7 +16,7 @@ featured_image: _images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rackparts
 
 ## Rack & TLS Installation
 
-*No rack?** [SKIP AHEAD to the TLS](#tool-length-sensor) section in this article.
+**No rack?** [SKIP AHEAD to the TLS](#tool-length-sensor) section in this article.
 
 ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool_header1.jpg){.aligncenter .size-medium .wid}
 
@@ -35,22 +35,29 @@ https://youtu.be/K0RqD32ysjw
 
 1. Grab the **ATC rack sensor.** Put two (2) M3 - 20mm socket head screws into the tool rack sensor. Then mount the sensor onto the **back right rack section**:
 
-   * Fully secure with the pre-installed screws.
-   * Position the cable from the sensor into the rectangular cutout.
+   * The holes are covered by the sticker, so position the sensor behind the slot cutout first.
+   * Then fully secure with the pre-installed screws.
+   * Stick the cable from the sensor into the rectangular cutout.
+
+   ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-racksensorgif.gif){.aligncenter .size-full}
 
    ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-backrightwithsensor1v2.jpg){.aligncenter .size-medium}
 
    ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-backrightwithsensor2.jpg){.aligncenter .size-medium}
 
-1. Take the **identical front rack sections** and place them onto the back left and right sections. Based on your machine type, the positioning will be different, so use the small indicator notch on the front sections and the letters labelled on the back sections to align.
+1. Take the **identical front rack sections** and place them onto the back left and right sections.
 
-   * 2x4 -- align to C
-   * 4x4 MK2 & 4x8 -- align to B
-   * 4x4 MK1 -- align to A
+      Align the sections based on your AltMill type. To find the position, use the **small notch** on the front sections and the **letters** labelled on the back sections.
 
-   Fully secure the connection using **two (2) M6 - 8mm button head screws** per side.
+   * 2x4 -- Use C
+
+   * 4x4 MK2 & 4x8 -- Use B
+
+   * 4x4 MK1 -- Use A
 
    ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-rack-position.gif){.aligncenter .size-full}
+
+1. Find the holes under the rack sections. Keeping the alignment in the previous step, fully secure the sections using **two (2) M6 - 8mm button head screws** per side.
 
    ![](/_images/_atc/_atc_assembly/_toolrack/atc_assembly_tool-abc.jpg){.aligncenter .size-medium}
 
