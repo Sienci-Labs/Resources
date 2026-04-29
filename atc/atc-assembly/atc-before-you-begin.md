@@ -34,13 +34,17 @@ Before we dive in, we will need to make some changes on the software side. You w
 
 1. **Upgrade** [gSender](https://github.com/Sienci-Labs/gsender/releases) to 1.6.0 or higher, then come back for the next step.
 
-1. **Unplug** your spindle cable if it's plugged in.
+1. **Unplug** your spindle cable, VFD power cable, and RS485 (control) cable if they are plugged in.
 
-1. **Check** your controller firmware by clicking on the machine information icon, and verifying version 20260318 is installed.
+    ![](/_images/_atc/_atc_assembly/_before/atc_assembly_beforeyoubegin-discon.jpg)
+
+1. **Check** your controller firmware by clicking on the machine information icon, and verifying version **20260318** is installed.
 
     ![](/_images/_atc/_atc_assembly/_before/atc_assembly_beforeyoubegin-firmware.jpg){.aligncenter .size-medium}
 
-    If not, no worries! You can **Update** by following the [instructions here](https://resources.sienci.com/view/slb-firmware-flashing/), then come back for the next step.
+    If not, **please update by following the [instructions here](https://resources.sienci.com/view/slb-firmware-flashing/),** or watch the **firmware update video** below, then come back for the next step.
+
+    https://www.youtube.com/watch?v=YmmHqQR9WTY
 
 1. **Apply** the appropriate machine profile in gSender. Make sure you turn OFF/ON the controller to have any changes take effect.
 
@@ -50,7 +54,7 @@ Before we dive in, we will need to make some changes on the software side. You w
 
 * The articles are listed in the order they should be followed, make sure you don't skip a page.
 
-* We strongly recommend having a second person available when installing the spindle onto the machine or when mounting a tool rack.
+* We strongly recommend having a second person available at the Spindle Setup and Tool Rack & TLS sections, due to the weight of the subassemblies.
 
 * Grab a set of **metric Allen keys**, as well as use the provided Allen keys. You can use a regular drill for screws that are M5 or larger, but **do not use impact drills** as they can strip the holes. Begin threading each screw by hand first to prevent cross-threading.  
 
@@ -88,12 +92,12 @@ Before we dive in, we will need to make some changes on the software side. You w
 
 1. Got a **non-ATC spindle** installed?
 
-    i. Unplug the spindle cable, and remove the spindle and spindle mount from the Z-axis.
+    i. Unplug **connections at the spindle and VFD** (the spindle cable, VFD power cable and RS485 cable).
 
-    ii. If your drag chain clips are closed, open them all up with a flathead screwdriver.
+    ii. Free the existing, **non-ATC spindle cable** from the drag chains.  Once the cable is removed, leave approximately 1 in 10 clips in place to keep the existing wiring organized.
 
-    iii. Free the existing, **non-ATC spindle cable** from the drag chains.  Once the cable is removed, leave approximately 1 in 10 clips in place to keep the existing wiring organized.
+    iii. **Remove the spindle and spindle mount** from the Z-axis.
 
-    iv. Disconnect the **non-ATC spindle cable** and **RS485 cable** from the VFD. Remove the VFD from its mount and store it safely.
+    iv. **Remove the VFD** from its mount and store it safely.
 
-    From the above list, double check that you've done everything that applies to your AltMill. At this point you can continue with [**Unboxing**](https://resources.sienci.com/view/atc-unboxing/).
+From the above list, double check that you've done everything that applies to your AltMill. Then you can continue with [**Unboxing**](https://resources.sienci.com/view/atc-unboxing/)!

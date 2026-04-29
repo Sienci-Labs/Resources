@@ -14,14 +14,15 @@ custom_fields:
 skip_file: no
 featured_image: _images/_superlongboard/_firmware/slb_fi_p1_Connected.jpg
 ---
+## Check Firmware Version
 
 Your board will likely ship with the latest firmware already installed, but we occasionally make updates to add new features or address any discovered issues. You may also choose to re-flash the firmware onto your board if you've attempted to customize it or for troubleshooting purposes.
 
-Before getting started, **check what your current version is** by going to the 'Machine Information' icon, and checking to see what version you are currently running.
+Before getting started, **check what your current version is** by going to the 'Machine Information' icon, and see what version you are currently running.
 
 ![](/_images/_superlongboard/_firmware/slb_fi_p01_firmwareversion.jpg)
 
-Compare this to the version list below to see which one you'd like to flash:
+Compare this to the list below, to see if you need to update.
 
 **Most Recent Firmware:**
 
@@ -58,17 +59,21 @@ Compare this to the version list below to see which one you'd like to flash:
 
 To successfully flash new firmware onto your SLB, you'll need:
 
-1. The **firmware file**; all versions are listed above as ".hex" files to download
-1. A computer that can run **gSender** software to perform the flashing
-1. If you use Windows, a program called STM32Cube **downloaded and installed** to your computer (It fixes a bug that can occur with Microsoft drivers and supports advanced setup, though you don’t need to open it — just install it.)
+1. The **firmware file** (.hex file)
+1. A computer that can run **gSender**, connected to the SLB/SLB-EXT controller over **USB**
 
-    - <a href="https://drive.google.com/file/d/1XzT21kwJFHcPzCDYhIdux49At6-TmrVA/view?usp=drive_link" target="_blank" rel="noopener">STM32Cube Windows</a>
+   - The controller cannot flash through Ethernet
+1. The appropriate power supply to **power your SLB/SLB-EXT** during flashing
+1. For Windows, STM32Cube, **downloaded and installed** to your computer
 
-1. The SLB connected to that **computer over USB** (you can't flash over Ethernet because the MCU on the SLB can't support it, but you can return to using your Ethernet connection once flashing is complete)
-1. A 12-24V power supply to **power the SLB** during flashing
-1. Have separately noted down any **firmware settings** that are particular to your machine setup like for limit switches, macros, etc. New firmware can sometimes override existing settings so having a list can help you double check if you need to make any manual tweaks afterwards.
-1. For your safety, if there are any accessories that receive a control signal from the SLB, **turn their power off** just in case the flashing process inadvertently sends control signals to those accessories. This would be unsafe to have a spindle or laser power on when you don't expect it to. You can turn these back on after flashing is complete.
-1. If you are flashing the SLB EXT (ATC) firmware, you will need to **unplug your Spindle** cable (At the spindle side, not the VFD side)
+    - <a href="https://drive.google.com/file/d/1XzT21kwJFHcPzCDYhIdux49At6-TmrVA/view?usp=drive_link" target="_blank" rel="noopener">STM32Cube File</a>
+1. To note down any **firmware settings** that you have changed from the default firmware settings. This is especially important if you have a third-party CNC.
+1. To turn OFF any accessories that receive a control signal from the SLB, just in case the flashing process inadvertently sends control signals to those accessories.
+1. To **unplug your Spindle** cable at the spindle side, not the VFD side.
+
+        The video shows the complete firmware update process, for an SLB-EXT on a Windows computer, using gSender to flash. 
+
+https://www.youtube.com/watch?v=YmmHqQR9WTY
 
 ### gSender Flashing
 
@@ -154,6 +159,8 @@ Congrats are in order, well done! If you go back to the 'Console' you should now
 
 [/su_spoiler]
 
+## Troubleshooting
+
 ### Windows Driver Update
 
 If you're failing to update your SLBs firmware and see the message "**Error: LIBUSB_ERROR_NOT_SUPPORTED**", this stems from the sometimes problematic way that Windows handles USB devices. This isn't a problem for Linux or Mac systems, but if your Windows computer is having this issue it can still be fixed by overriding the wrong driver it's using with the correct one.
@@ -171,7 +178,7 @@ To do this we'll use a program called Zadig. The program is only needed to make 
 1. Click the "Replace Driver" button and wait for the operation to complete (if you happen to accidentally delete other drivers in the process, restarting your computer should bring them back).
 1. Power cycle the board to exit DFU mode, then give flashing another shot. If you followed all the steps you should now be able to change and update your SLBs firmware!
 
-#### Bad Driver Install
+### Bad Driver Install
 
 If you got the error message "**Unable to find valid device using vendor ID and product ID**" and you just fixed your Windows drivers then that means you made a mistake in the driver update steps. If you weren't messing with drivers, then just ensure your SLB is getting into DFU mode by typing `$dfu` into a g-code sender console or using the pin short method shown in the [STM Cube Flashing section](#stm-cube-flashing).
 
@@ -236,7 +243,7 @@ After completing these steps, you should have access to the SLB without needing 
 
 [/su_spoiler]
 
-## Settings Descriptions
+## SLB Settings Descriptions
 
 If you'd like to know all the ins and outs of the SLB's firmware, and broader settings of grblHAL as a whole, you'll find it all in the tables below.
 
