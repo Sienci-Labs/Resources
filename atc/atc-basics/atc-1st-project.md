@@ -41,7 +41,14 @@ The system is setup to automatically probe each tool immediately after it's been
 
 ![](/_images/_atc/_atc_basics/atc_basics_firstpro_tooloffsets.gif){.aligncenter .size-full}
 
-Your zeros are stored, so there is no need to re-zero after each tool change.
+Your zeros are stored, so there is no need to re-zero after each tool change!
+
+### Tool Paths
+
+**Creation** - When making tool paths, the tool number associated with the selected tool is used by your ATC to determine the physical tool to load.
+Tool #1 will be picked up at rack slot 1. Tool #2 will be picked up at rack slot 2. Etc. There is an option to remap which tool is picked up for a specific tool number, so you don't have to arrange your tools to match the order they are in the rack.
+
+**Exporting** - You will need to install the post-processor provided to enable the ATC to export your toolpaths correctly. Check out the [Before You Begin](https://resources.sienci.com/view/atc-before-you-begin/) section to download your appropriate CAM software post processor.
 
 ## First ATC Project: Engraved Rounds
 
@@ -62,15 +69,16 @@ We’ll load the following end mills into the tool holders, then place them into
 ![](/_images/_atc/_atc_basics/atc_basics_firstpro-toolsloadedv2.jpg){.aligncenter .size-medium}
 
 **Tool 1 (leftmost position)**  
-30° V-bit for engraving the fine text.
+30° V-bit for engraving the fine text
 
 **Tool 2**  
 1/16" downcut end mill for pocketing large blocky text
 
 **Tool 3**  
-1/8" downcut end mill to cut out the cookies
+1/8 Tapered Ball Nose for fun times and fine text
 
-![](/_images/_atc/_atc_basics/atc_basics_firstpro-toolorder6.jpg "Tools 1-5 are loaded and ready to carve"){.aligncenter .size-medium}
+**Tool 4**
+1/8" downcut end mill to cut out the cookies
 
 ## Material and Workholding
 
@@ -82,21 +90,21 @@ We’ll use the tape-and-glue method for workholding in this project. If you’r
 
 We are using Vetric's V-Carve Pro for the design and toolpath sections of this project. We've lined up the boards and placed offsetting circles (cookies) into the design. Next we added our text, sized it down and rotated it 90 degrees to fit our cookies.
 
-![](/_images/_atc/_atc_basics/atc_basics_firstpro-camdesign.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_basics/atc_basics_firstpro-design.jpg){.aligncenter .size-medium}
 
 We’ll keep everything simple and clean. This is a function test, not a design challenge.
 
 ## Creating Toolpaths
 
-This design incorporates more tools and toolpaths than you would usually use. Remember, we are testing out the new ATC system, not being as efficient as possible here. We have 5 toolpaths planned, let's check them out.
+This design incorporates more tools and toolpaths than you would usually use. Remember, we are testing out the new ATC system, not being as efficient as possible here. We have 4 toolpaths planned, let's check them out.
 
-![](/_images/_atc/_atc_basics/atc_basics_firstpro-toolpaths.jpg){.aligncenter .size-medium}
+![](/_images/_atc/_atc_basics/atc_basics_firstpro-toolpathsv2.jpg){.aligncenter .size-medium}
 
-1. We’ll start with a very small (.5mm) surfacing, to ensure that all of our material is at the same height. This ensures clean, even depth text on our final cookies. This toolpath is a simple square, covering the entire workpiece. It carves to a depth of .5mm.
+1. We’ll select the single line text and create a V-carve or engraving toolpath using Tool 1. We’ll set a conservative depth. Light engraving is ideal for this first run.
 
-1. We’ll select the text and create a V-carve or engraving toolpath using Tool 2. We’ll set a conservative depth. Light engraving is ideal for this first run.
+1. Select the large text and the 1/16th bit with a pocket toolpath.
 
-Next, we’ll create the profile toolpath for the circle using Tool 1. We’ll cut outside the vector and through the full material thickness. We’ll add tabs to hold the parts in place.
+1. Finally, we’ll create the profile toolpath for the circle using Tool 4. We’ll cut outside the vector and through the full material thickness. We’ll be using the tap/glue method, so no need to add tabs to hold the parts in place.
 
 The engraving should run before the profile cut. We’ll confirm each tool has a unique tool number, and we’ll verify our g-code includes proper tool change formatting:
 
