@@ -1,6 +1,6 @@
 ---
 title: ATC 1st Project
-menu_order: 3
+menu_order: 4
 post_status: draft
 post_excerpt: Quick review of how to safely use your ATC
 post_date: 2026-02-09 10:16:53
@@ -24,31 +24,6 @@ featured_image: _images/post-image.jpg
 - Run the job
 
 If you haven't yet, go through the [Software Setup](https://resources.sienci.com/view/atc-software/) to initialize your ATC system. You cannot use your ATC until this process is complete.
-
-## ATC Basics
-
-### Tool Changes
-
-Tools in your ATC system are referred to by a tool number, ranging from Tool 1 to Tool 32. A single rack will have 6 tools, while a double rack will hold 12. Any tools above number 12, will be changed out manually. The system detects that the tool number exceeds the rack capacity and moves to the tool rack position so you can replace it manually.
-
-If you didn't purchase a tool rack, all of your tool changes will be done manually.
-
-![](/_images/_atc/_atc_basics/atc_basics_firstpro-autovsmanual.jpg){.aligncenter .size-medium}
-
-### Tool Length Sensor
-
-The system is setup to automatically probe each tool immediately after it's been loaded. This is an automatic process, where the spindle will move over the tool length sensor, and move downwards to touch off on the TLS.
-
-![](/_images/_atc/_atc_basics/atc_basics_firstpro_tooloffsets.gif){.aligncenter .size-full}
-
-Your zeros are stored, so there is no need to re-zero after each tool change!
-
-### Tool Paths
-
-**Creation** - When making tool paths, the tool number associated with the selected tool is used by your ATC to determine the physical tool to load.
-Tool #1 will be picked up at rack slot 1. Tool #2 will be picked up at rack slot 2. Etc. There is an option to remap which tool is picked up for a specific tool number, so you don't have to arrange your tools to match the order they are in the rack.
-
-**Exporting** - You will need to install the post-processor provided to enable the ATC to export your toolpaths correctly. Check out the [Before You Begin](https://resources.sienci.com/view/atc-before-you-begin/) section to download your appropriate CAM software post processor.
 
 ## First ATC Project: Engraved Rounds
 
@@ -104,15 +79,13 @@ This design incorporates more tools and toolpaths than you would usually use. Re
 
 1. Select the large text and the 1/16th bit with a pocket toolpath.
 
+1. Use the 1/8 tapered ball nose bit for the smaller text.
+
 1. Finally, we’ll create the profile toolpath for the circle using Tool 4. We’ll cut outside the vector and through the full material thickness. We’ll be using the tap/glue method, so no need to add tabs to hold the parts in place.
 
-The engraving should run before the profile cut. We’ll confirm each tool has a unique tool number, and we’ll verify our g-code includes proper tool change formatting:
+The engraving should run before the profile cut. We’ll confirm each tool has a unique tool number, and save all toolpaths to one file. Then we’ll export using the Sienci post-processor.
 
-M5
-M6 T#
-M3 SXXXXX
-
-We’ll export using the recommended post-processor.
+![](/_images/_atc/_atc_basics/atc_basics_firstproject_postprov2.jpg){.aligncenter .size-medium}
 
 ## Running the Job
 
