@@ -11,7 +11,7 @@ custom_fields:
     KBName: AutoToolChanger
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: _images/_atc/_atc_basics/atc_basics_firstpro-autovsmanual.jpg
 ---
 ## ATC Basics
 
