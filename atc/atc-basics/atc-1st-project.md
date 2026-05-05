@@ -14,15 +14,6 @@ skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
-- Wood/Workholding - link to cnc fun
-    Makore, Purple heart, soft curly maple
-- Design/Toolpaths & Tool numbers
-- Saving as one file/Post Processors
-- Homing
-- Setting Zero
-- Dust Shoe
-- Run the job
-
 If you haven't yet, go through the [Software Setup](https://resources.sienci.com/view/atc-software/) to initialize your ATC system. You cannot use your ATC until this process is complete.
 
 ## First ATC Project: Engraved Rounds
@@ -81,138 +72,103 @@ This design incorporates more tools and toolpaths than you would usually use. Re
 
 1. Use the 1/8 tapered ball nose bit for the smaller text.
 
-1. Finally, we’ll create the profile toolpath for the circle using Tool 4. We’ll cut outside the vector and through the full material thickness. We’ll be using the tap/glue method, so no need to add tabs to hold the parts in place.
+1. Finally, we’ll create the profile toolpath for the cookie circle using Tool 4. We’ll cut outside the vector and through the full material thickness. We’ll be using the tap/glue method, so no need to add tabs to hold the parts in place.The engraving should run before this profile cut.
 
-The engraving should run before the profile cut. We’ll confirm each tool has a unique tool number, and save all toolpaths to one file. Then we’ll export using the Sienci post-processor.
+I've named each toolpath with the corresponding tool number, in the order I'd like them to carve.
+
+### Tools & Numbers
+
+We have all of our toolpaths created and our tools chosen, so let's ensure the tools are setup with the correct tool numbers. Double click on your toolpath, then hit the edit button to bring up your tool. You can select the tool number you want in the bottom of the edit tool section.
+
+![](/_images/_atc/_atc_basics/atc_basics_firstpro-toolnumbercam.jpg){.aligncenter .size-medium}
+
+Repeat this for each tool/toolpath, 1 through 4.
+
+Now that we've confirmed each tool has a unique tool number, we can save all toolpaths to one file. Then we’ll export using the Sienci post-processor.
 
 ![](/_images/_atc/_atc_basics/atc_basics_firstproject_postprov2.jpg){.aligncenter .size-medium}
 
 ## Running the Job
 
-We have the g-code, and we installed the tools. Now we can move on to running the job!
+We have the g-code, and we installed the tools in the correct order. Now we can move on to running the job!
 
-1. Set up any workholding to secure your material on the wasteboard.
+1. Set up any workholding to secure your material on the wasteboard. In these pictures we are using the tape/glue method, with 5 boards! Read more about [Workholding.](https://resources.sienci.com/view/cnc-workholding/)
 
-1. Connect to gSender
+    ![](/_images/_atc/_atc_basics/atc_basics_firstpro-workholdingv3.jpg){.aligncenter .size-medium}
 
-1. Home the machine
+1. Connect to gSender via USB.
 
-* Jog the machine away from the tool rack
+    ![](/_images/_atc/_atc_basics/atc_basics_firstpro-connectgsender.jpg)
 
-* Press Home
+1. Home the machine.
 
-1. Load your job onto gSender
+    - Jog the machine away from the tool rack
 
-* Use the Load File button to select your g-code file
+    - Press Home
 
-* You should see a "Tool Timeline" with the different toolpaths highlighted in various colours, corresponding to the toolpath colours on the visualizer
+    ![](/_images/_atc/_atc_basics/atc_basics_firstpro-congsender.jpg){.aligncenter .size-medium}
 
-1. Load a tool onto the spindle to zero your machine with
+1. Load your job onto gSender.
 
-* Choose a tool from your rack that has a symmetric, flat end, like a standard flat end mill
+    - Use the Load File button to select your g-code file
 
-* Press Load and select the correct tool number
+    - You should see a "Tool Timeline" with the different toolpaths highlighted in various colours, corresponding to the toolpath colours on the visualizer
 
-***insert picture of Load with dropdown
+    ![](/_images/_atc/_atc_basics/atc_basics_firstpro-tooltimeline.jpg){.aligncenter .size-medium}
 
-* Remove the bottom of the dust shoe so you can see the end mill
+1. Navigate to the carve page and the ATC tab on the far right corner. Hit the Tools button.
 
-* Jog the machine to where you want the job to start on your material, then use the Z0, X0 and Y0 buttons to zero each axis
+    ![](/_images/_atc/_atc_basics/atc_basics_firstpro-tooltablev2.jpg){.aligncenter .size-medium}
 
-* Jog upwards then reattach your dust shoe bottom (you do NOT need to re-zero the Z-axis after jogging)
+1. This brings up the Tool table that allows you to specify each tool name by typing it in, or selecting one from the drop down menu.
 
-We are about ready to start cutting. Here are some final precautions you may want to take:
+    ![](/_images/_atc/_atc_basics/atc_basics_firstpro-tooltable.jpg){.aligncenter .size-medium}
 
-1. Check the Tool Timeline to see if the order of toolpaths and their tool number are correct.
+1. Once the tool name is complete, you can hit the probe tool button on the right side, and run a probe of the tools length. These measurements will all be stored, to be used later once we set our project zero. We have named all 4 tools and probed each in the picture below.
 
-* At any point before running the job, if you need to re-assign tool numbers, use the Remapping button beside each toolpath.
+    ![](/_images/_atc/_atc_basics/atc_basics_firstpro-tooltablev3.jpg){.aligncenter .size-medium}
 
-***insert screenshot of remapping button
+1. Load a tool onto the spindle to set our project zero with.
 
-1. At the Spindle/Laser tab, spin up the spindle to ensure automatic spindle control is working
+    - Choose a tool from your rack that has a symmetric, flat end, like a standard flat end mill
 
-1. In Config, under Tool Changing, check that the gSender Strategy is set to Ignore
+    - Press Load and select the correct tool number
 
-***insert screenshot of this setting
+    ![](/_images/_atc/_atc_basics/atc_basics_firstpro-toolload.jpg){.aligncenter .size-medium}
+
+1. Remove the bottom of the dust shoe so you can see the end mill and Jog the machine to where you want the job to start on your material, then use the Z0, X0 and Y0 buttons to zero each axis
+
+    ![](/_images/_atc/_atc_basics/atc_basics_firstpro-projectzero.jpg){.aligncenter .size-medium}
+
+    - Jog upwards then reattach your dust shoe bottom (you do NOT need to re-zero the Z-axis after jogging)
+
+    We are about ready to start cutting! Check the Tool Timeline to see if the order of toolpaths and their tool number are correct.
 
 1. Press Start!
 
-With our file loaded, we’ll:
+    When we start the program, the machine will begin surfacing. Once complete, the spindle will stop, return to the rack, perform the tool change, and pick up the tapered ball nose end mill before continuing the cut.
 
-- Home the machine  
-- Set our work zero (wasteboard, as we are cutting through material) 
-- Turn on dust collection  
-- Clear the tool change area  
+    We’ll watch the first tool change closely. We should see a smooth release and pickup with no hesitation or vibration. We won’t interrupt the process unless something clearly goes wrong.
 
-When we start the program, the machine will begin surfacing. Once complete, the spindle will stop, return to the rack, perform the tool change, and pick up the tapered ball nose end mill before continuing the cut.
+    ![](/_images/_atc/_atc_basics/atc_basics_firstpro-carvetext.jpg){.aligncenter .size-medium}
 
-We’ll watch the first tool change closely. We should see a smooth release and pickup with no hesitation or vibration. We won’t interrupt the process unless something clearly goes wrong.
+    ![](/_images/_atc/_atc_basics/atc_basics_firstpro-carvecookie.jpg){.aligncenter .size-medium}
+
+    ![](/_images/_atc/_atc_basics/atc_basics_firstpro-finalcookies.jpg){.aligncenter .size-medium}
 
 ## After Cutting
 
-Once the job is complete, we’ll remove the board and cut the tabs. We’ll lightly sand the edges. We can leave the cookies natural, paint-fill the engraving, or apply a clear finish.
+Once the job is complete, we’ll lightly sand the edges. We can leave the cookies natural, paint-fill the engraving, or apply a clear finish.
 
-The final look is up to us. What matters here is that both tools ran correctly and the change happened automatically.
+The final look is up to us. What matters here is that all tools ran correctly and the tool changes happened automatically.
 
 ## What This Project Confirms
 
 If everything completed as expected, we’ve successfully verified:
 
 - Tool numbers match rack positions  
-- Multi-tool g-code formatting is correct  
+- Multi-tool g-code post processor is correct  
 - The ATC performs clean, reliable tool changes  
-- Our Altmill is ready for more advanced multi-tool jobs  
+- Your Altmill ATC is ready for more advanced multi-tool jobs  
 
 From here, we can move on to more complex projects that combine pocketing, profiling, chamfering, and engraving in a single automated workflow.
-
-## gSender Features
-
-### Tool Table
-
-A new Tool Table allows you to manage all tool-related information in one place.
-
-You can now:
-
-Store tool offsets
-Assign nicknames to tools
-Probe individual tools or complete racks
-This makes it much easier to maintain consistent tool setups across jobs.
-
-### Tool Timeline
-
-Tool changes during a job are now represented in a Tool Timeline, giving a clear view of when tool changes occur and which tool is currently active.
-
-This helps users quickly understand multi-tool programs and track job progress more easily.
-
-### Tool Remapping
-
-Tool remapping allows you to adapt a G-code file’s tool numbers to your machine setup without editing the file itself.
-
-This is particularly helpful when:
-
-CAM tool numbers don’t match rack positions
-You want to run the same job with a different tool configuration
-Tool racks change between jobs
-Remapping can now be configured directly inside gSender before running a job.
-
-### ATC Workflow Controls
-
-New controls were added to support day-to-day ATC operation.
-
-You can now:
-
-Load tools - both manually and using the rack
-Unload tools - both manually and using the rack
-These actions tie directly into ATC macros and make managing tool states much easier during operation.
-
-### Accessory Installation Tool
-
-To make getting started with an Automatic Tool Changer easier, gSender now includes an ATC setup tool that helps guide users through the initial configuration process.
-
-The setup tool walks through the core steps required to configure an ATC system, including importing macro templates, defining rack size and behaviour, and writing the required configuration files to the controller’s SD card. This removes much of the manual setup that was previously required and helps ensure the necessary macros and configuration files are installed correctly.
-
-The goal of the setup tool is to simplify the process of bringing an ATC system online, reducing the chances of configuration mistakes and making it easier for users to get up and running with automated tool changes.
-
-We plan on expanding this tool to various other accessories that need software and controller configuration, such as spindles.
-
-
