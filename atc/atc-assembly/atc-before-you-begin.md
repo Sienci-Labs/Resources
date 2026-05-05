@@ -1,5 +1,5 @@
 ---
-title: 0. ATC Before You Begin
+title: ATC Before You Begin
 menu_order: 1
 post_status: publish
 post_excerpt: 
