@@ -144,6 +144,12 @@ This section will modify the 4x4 and 2x4 AltMills to make them compatible with t
 
     ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_z-plus-drag3.JPG){.aligncenter .size-medium}
 
+#### Remove Links from X-axis Drag Chain
+
+1. 4x4 users may need to remove 2 links from your X-axis drag chain. This gives you a bit more length for your spindle cable to reach your VFD.
+
+    ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_removelinks.jpg){.aligncenter .size-medium}
+
 ## Cable and Tubing Routing
 
 ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin-parts5v2.jpg){.aligncenter .size-full .wid}
@@ -202,5 +208,7 @@ On the ATC spindle, connect the following in this order:
 1. Verify the signal cable reaches the SLB-EXT.
 1. Ensure the tubing is free of kinks and sharp bends.
 1. Finally, route cables and tubing for the **Y-axis drag chain**, adjust as needed, then close the clips.
+
+> 4x4 Users
 
 Congrats! You've completed the spindle setup steps.
