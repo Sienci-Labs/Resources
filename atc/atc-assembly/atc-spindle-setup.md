@@ -144,9 +144,9 @@ This section will modify the 4x4 and 2x4 AltMills to make them compatible with t
 
     ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_z-plus-drag3.JPG){.aligncenter .size-medium}
 
-#### 4x4 Users Remove 2 Links from X-axis Drag Chain
+### 4x4 Machines Remove 2 Links from X-axis Drag Chain
 
-1. 4x4 users will need to remove 2 links from your X-axis drag chain. This gives you a bit more length for your spindle cable to reach your VFD.
+1. 4x4 users may need to remove 2 links from your X-axis drag chain. This gives you a bit more length for your spindle cable to reach your VFD.
 
     ![](/_images/_atc/_atc_assembly/_spindle/atc_assembly_spin_removelinks.jpg){.aligncenter .size-medium}
 
