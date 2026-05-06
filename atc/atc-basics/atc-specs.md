@@ -1,5 +1,5 @@
 ---
-title: ATC Specifications
+title: ATC Specs
 menu_order: 2
 post_status: publish
 post_excerpt: 
