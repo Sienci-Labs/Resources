@@ -1,10 +1,9 @@
 ---
-title: ATC ABCs
-menu_order: 4
+title: ATC Overview
+menu_order: 3
 post_status: publish
-slug: atc-basics
 post_excerpt: Quick review of how to use your ATC
-post_date: 2026-02-09 10:16:00
+post_date: 2026-02-09 10:16:53
 taxonomy:
     knowledgebase_cat: atc-basics
     knowledgebase_tag: 
@@ -12,11 +11,11 @@ custom_fields:
     KBName: AutoToolChanger
     basepress_post_icon: bp-caret-right
 skip_file: no
-featured_image: _images/post-image.jpg
+featured_image: _images/_atc/_atc_basics/atc_basics_firstpro-autovsmanual.jpg
 ---
 ## ATC Basics
 
-Here are a couple tips on how to operate your ATC.
+We will be posting a longer, more detailed, hands on **First Project** that you can follow along with soon. Until that resource is complete, here are a couple tips on how to operate your ATC.
 
 ### Tool Changes
 
