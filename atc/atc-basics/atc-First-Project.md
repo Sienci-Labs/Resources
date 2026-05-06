@@ -1,7 +1,7 @@
 ---
 title: ATC First Project
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: Quick review of how to safely use your ATC
 post_date: 2026-02-09 10:16:53
 taxonomy:
@@ -18,11 +18,15 @@ If you haven't yet, go through the [Software Setup](https://resources.sienci.com
 
 ## First ATC Project: Engraved Rounds
 
-Now that our Automatic Tool Changer with a single rack is installed and configured, it’s time to run a real project.
+Now that our Automatic Tool Changer is installed and configured, it’s time to run a real project.
 
 In this exercise, we’ll cut circular wooden rounds and engrave short phrases on them. The goal is to confirm that our tool numbers, rack positions, and g-code formatting all work together in a multi-tool job.
 
 By the end, we should have finished parts—and confidence that your ATC is running as expected.
+
+Here is the <a href="https://drive.google.com/file/d/1n0x6ShIdfboqd-JfHM3rXVxhxH1UhCqw/view?usp=drive_link" target="_blank" rel="noopener">Vectric VCarve Pro file</a>
+
+Here are the <a href="https://drive.google.com/file/d/1Y9XxEj8HlJhAuF-6ksZT7vEfzeuGDQRK/view?usp=drive_link" target="_blank" rel="noopener">g-code toolpaths</a> all saved to one file.
 
 ### Project Overview
 
@@ -30,7 +34,7 @@ We’ll machine a set of 70–80 mm (3–4") diameter wooden rounds from 6.5 mm 
 
 ## Tools for This Project
 
-We’ll load the following end mills into the tool holders, then place them into the rack. Confirm their positions are correct once loaded.
+We’ll load the following end mills into the tool holders, then place them into the rack. Confirm their positions are correct once loaded. Feel free to swap out different bits if you don't have the ones we've selected for this project. Just make sure you tweak the tool and toolpaths in the files found above before running your project!
 
 ![](/_images/_atc/_atc_basics/atc_basics_firstpro-toolsloadedv2.jpg){.aligncenter .size-medium}
 
@@ -166,9 +170,9 @@ The final look is up to us. What matters here is that all tools ran correctly an
 
 If everything completed as expected, we’ve successfully verified:
 
-- Tool numbers match rack positions  
-- Multi-tool g-code post processor is correct  
-- The ATC performs clean, reliable tool changes  
-- Your Altmill ATC is ready for more advanced multi-tool jobs  
+- Tool numbers match rack positions
+- Multi-tool g-code post processor is correct
+- The ATC performs clean, reliable tool changes
+- Your Altmill ATC is ready for more advanced multi-tool jobs
 
 From here, we can move on to more complex projects that combine pocketing, profiling, chamfering, and engraving in a single automated workflow.
