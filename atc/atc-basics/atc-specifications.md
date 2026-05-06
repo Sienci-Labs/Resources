@@ -1,9 +1,9 @@
 ---
-title: ATC Specs
+title: ATC Specifications
 menu_order: 2
 post_status: publish
 post_excerpt: 
-post_date: 2026-02-09 10:16:53
+post_date: 2026-02-09 10:16:51
 taxonomy:
     knowledgebase_cat: atc-basics
     knowledgebase_tag: 
@@ -14,7 +14,7 @@ skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
-## What's Included
+## What's Included!
 
 In each ATC Spindle Kit, you will receive:
 
