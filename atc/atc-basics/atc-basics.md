@@ -16,7 +16,7 @@ featured_image: _images/post-image.jpg
 ---
 ## ATC Basics
 
-We will be posting a longer, more detailed, hands on **First Project** that you can follow along with soon. Until that resource is complete, here are a couple tips on how to operate your ATC.
+Here are a couple tips on how to operate your ATC.
 
 ### Tool Changes
 
