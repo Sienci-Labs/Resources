@@ -14,7 +14,7 @@ skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
-## What's Included!
+## What's Included
 
 In each ATC Spindle Kit, you will receive:
 
