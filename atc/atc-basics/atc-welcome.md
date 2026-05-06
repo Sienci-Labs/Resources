@@ -1,5 +1,5 @@
 ---
-title: ATC Welcome!
+title: ATC Welcome
 menu_order: 1
 post_status: publish
 post_excerpt: Welcome to the Automatic Tool Changer resources.
