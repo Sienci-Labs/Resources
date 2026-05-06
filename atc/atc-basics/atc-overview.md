@@ -15,7 +15,7 @@ featured_image: _images/_atc/_atc_basics/atc_basics_firstpro-autovsmanual.jpg
 ---
 ## ATC Basics
 
-We will be posting a longer, more detailed, hands on **First Project** that you can follow along with soon. Until that resource is complete, here are a couple tips on how to operate your ATC.
+Here are a couple tips on how to operate your ATC.
 
 ### Tool Changes
 
