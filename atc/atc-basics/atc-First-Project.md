@@ -39,7 +39,7 @@ We’ll load the following end mills into the tool holders, then place them into
 ![](/_images/_atc/_atc_basics/atc_basics_firstpro-toolsloadedv2.jpg){.aligncenter .size-medium}
 
 **Tool 1 (leftmost position)**  
-30° V-bit for engraving the fine text
+1/4 30° V-bit for engraving the fine text
 
 **Tool 2**  
 1/16" downcut end mill for pocketing large blocky text
@@ -150,9 +150,9 @@ We have the g-code, and we installed the tools in the correct order. Now we can 
 
 1. Press Start!
 
-    When we start the program, the machine will begin surfacing. Once complete, the spindle will stop, return to the rack, perform the tool change, and pick up the tapered ball nose end mill before continuing the cut.
+    When we start the program, the machine will begin with the V-bit. Once complete, the spindle will stop, return to the rack, perform the tool change, and pick up the 1/16 downcut end mill before continuing the cut.
 
-    We’ll watch the first tool change closely. We should see a smooth release and pickup with no hesitation or vibration. We won’t interrupt the process unless something clearly goes wrong.
+    We’ll watch the first tool change closely. We should see a smooth release and pickup with no hesitation or vibration. We won’t interrupt the process unless something clearly goes wrong. Pictured is our test run of 5 boards!
 
     ![](/_images/_atc/_atc_basics/atc_basics_firstpro-carvetext.jpg){.aligncenter .size-medium}
 
