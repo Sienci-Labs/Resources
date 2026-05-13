@@ -78,27 +78,20 @@ For complete dimensions see:<a href="https://sienci.com/wp-content/uploads/2021/
 ## 📖 Prep for your MK2
 
 - Familiarize yourself with [fundamental CNC concepts and workflows](https://resources.sienci.com/view/cnc-machines/)
-
 - Dive into understanding [CNC software](https://resources.sienci.com/view/cnc-software-explained/), and set up your [post processor](https://resources.sienci.com/view/cnc-post-processors/)
-
 - Bookmark these pages to refer to after your LongMill assembly
   - [Add-ons installation and usage guides](https://resources.sienci.com/add-ons/) (e.g. AutoZero touch plate, gControl panel)
-  - [Maintenance instructions](https://resources.sienci.com/view/lmk2-maintenance/)
-  - [Feeds and speeds](https://resources.sienci.com/view/cnc-feeds-speeds/)
-
+  - How to do [maintenance on your LongMill](https://resources.sienci.com/view/lmk2-maintenance/)
+  - [Feeds and speeds](https://resources.sienci.com/view/cnc-feeds-speeds/) for various material and bit types
+  - Step by step instructions on [how to run a CNC job](https://resources.sienci.com/view/cnc-running-jobs/)
+  - [Finishing techniques](https://resources.sienci.com/view/cnc-sanding-finishing/) after you've cut out your project
 - Determine what [computer](https://resources.sienci.com/view/cnc-system-requirements/) you would need, if you are not getting gControl panel
-
 - Consider which [workholding methods](https://resources.sienci.com/view/cnc-workholding/) to use  
-
 - Source [cutting tools](https://resources.sienci.com/view/cnc-cutting-tools/) for the types of projects you’re interested in making
-
 - Figure out your [dust collection system](https://resources.sienci.com/view/cnc-dust-collection/)
-
+- Take precautions and grab [safety gear to protect your eyes and ears](https://resources.sienci.com/view/cnc-safety/)
 - Grab 3/4" MDF sheets for [mounting your table surface](https://resources.sienci.com/view/lmk2-table-mounting/)
   - Looking for table ideas? [See these designs](https://resources.sienci.com/view/lmk2-table-enclosure/#community-table-builds) made by fellow community members
-
-- Take precautions and grab [safety gear to protect your eyes and ears](https://resources.sienci.com/view/cnc-safety/)
-  - Choose hearing protection with a high NRR (Noise Reduction Rating) and good comfort
 
 ## 🗪 Community Support
 
