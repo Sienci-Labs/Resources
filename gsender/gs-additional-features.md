@@ -1,5 +1,5 @@
 ---
-title: gSender Additional Features
+title: Additional Features
 menu_order: 1
 post_status: publish
 post_excerpt: Learn the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, lasers, coolant, and more.
@@ -16,28 +16,6 @@ featured_image: _images/_gsender/_features/gs_fe_p1_KeyShort.jpg
 ---
 
 This page covers all the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, rotary axes, lasers, coolant, and more. Remember, you can always quickly navigate the page by clicking the headings in the 'Page Contents'.
-
-## gSender Customizations
-
-Listing off a few more customizations before moving on to new features, some which were already mentioned on the [Setup & Layout page](https://resources.sienci.com/view/gs-setup-and-layout/), we'd encourage you to look into these options to personalize your gSender experience (you can find them all in the Config tab):
-
-1. **Reconnect automatically**
-   - Will connect to your last CNC anytime you boot up your computer or open gSender and the CNC is still plugged in.
-1. **Visualizer theme and Dark mode**
-   - In the Basics section, both these settings help change the colours in gSender based on what will be easier on your eyes. Check them out if that sounds interesting!
-1. **Lightweight mode**
-   - This mode enables gSender to run faster on computers that are older or less powerful by turning off processor-heavy aspects of the visualizer. It comes in two flavours, either it'll show your file as a picture with no 3D movement, or it'll turn visualization off completely. You can toggle it on/off using the **Feather** button on the left side of the visualizer on the Carve page.
-1. **Portrait layout**
-   - gSender takes on a whole new life if you prefer to use your monitor in portrait mode, and we actually prefer using it in portrait on touchscreens. If you're interested in trying this out it should just be a setting in your operating system, and gSender will adapt automatically.
-  ![](/_images/_gsender/_features/gs_fe_portraitmode.jpg){.aligncenter .size-medium}
-1. **Jogging presets**
-   - You can set these based on the size of your CNC or to match how you like to move your machine around to make jogging around feel more natural.
-1. **Notifications**
-   - In Basics ➜ Notifications, these can be customized to give you warnings when you load bad files, provide information at the end of a job, and more.
-1. **Enable other CNC functions**
-   - If your CNC supports them, this can include a Spindle, Laser, Rotary axis, and more. Just go to the appropriate section in Config and the first option you should see should mention “enabling” it. After Applying the changes you'll see a new tab appear in the bottom-right of the main Carve screen.
-
-![](/_images/_gsender/_setup/gs_se_hardware-enable.gif){.aligncenter .size-full}
 
 ## Touch Plate Setup
 
