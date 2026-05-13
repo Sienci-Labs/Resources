@@ -1,5 +1,5 @@
 ---
-title: Edge Features
+title: gSender Edge Features
 menu_order: 1
 post_status: publish
 post_excerpt: 
