@@ -1,11 +1,11 @@
 ---
 title: Additional Features
-menu_order: 4
+menu_order: 1
 post_status: publish
 post_excerpt: Learn the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, lasers, coolant, and more.
 post_date: 2021-07-01 15:50:00
 taxonomy:
-    knowledgebase_cat: gdocs
+    knowledgebase_cat: gs-advanced
     knowledgebase_tag:
         - gsender
 custom_fields:
