@@ -1,5 +1,5 @@
 ---
-title: Additional Features
+title: More gSender Features
 menu_order: 1
 post_status: publish
 post_excerpt: Learn the advanced features of gSender such as shortcuts, macros, workspaces, calibration tools, controlling spindles, lasers, coolant, and more.
