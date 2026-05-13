@@ -1,9 +1,9 @@
 ---
 title: Table / Enclosure
-menu_order: 9
+menu_order: 4
 post_status: publish
 post_excerpt: Inspiration for building your table to hold the LongMill CNC. See designs using T-tracks, enclosures, threaded inserts, lifters, pivoting mechanisms and more!
-post_date: 2022-03-17 19:49:00
+post_date: 2022-03-19 19:49:00
 taxonomy:
     knowledgebase_cat: lmk2-the-basics
     knowledgebase_tag:
