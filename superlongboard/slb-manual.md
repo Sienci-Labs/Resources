@@ -29,20 +29,20 @@ You'll find that the SLB/SLB-EXT builds a lot from our original LongBoard while 
 
 Comparing the SLB/SLB-EXT to our original LongBoard and to other controllers on the market, some of the main advantages you might notice:
 
-- Be confident in your CNC completing jobs in a variety of environments. Vastly improved reliability and immunity against EMI with better board wiring, protective components, onboard ferrite improved USB protocol, processor capability, larger buffer, and Ethernet as a communication alternative
-- Faster CNC speeds and less motor noise by using more efficient motor drivers (SLB)
-- Safer E-stop informs machine when an emergency has happened and de-powers all accessories
+- Be confident in your CNC completing jobs in a variety of environments. Vastly improved **reliability and immunity against EMI** with better board wiring, protective components, onboard ferrite improved USB protocol, processor capability, larger buffer, and **Ethernet** as a communication alternative
+- Faster CNC speeds and less motor noise by using more efficient **motor drivers (SLB only)**
+- Safer **E-stop** informs machine when an emergency has happened and de-powers all accessories
 - Detachable E-stop gives you something to reach for if your CNC starts going where you didn't expect
-- RGB CNC Status lights visible from a distance to always know what your CNC is up to or if something's gone wrong. Light onboard plus support for external RGB strips to set up as you wish: under your X-axis rail, a router/spindle ring light
-- 3 programmable buttons for you to customize your CNC to your workflow
-- Live overrides to fine-tune your feeds & speeds on the fly when running a job
-- Supports inductive sensors for far more accurate and repeatable CNC positioning for job recovery or multi-day runs than using stall homing in a dirty CNC environment, also use mechanical switches
-- Individual axis holding current, allows you to hold just the Z-axis from falling with a heavy spindle without having to keep all other motors powered too (SLB)
-- Added support for an independent Tool Length Sensor (TLS) for tool changes
-- Control spindles/VFDs and other accessories with Modbus over RS485
-- Independent 4th/rotary axis output to an external driver for simultaneous 4-axis cutting
+- RGB CNC **status lights** visible from a distance to always know what your CNC is up to or if something's gone wrong. Light onboard plus support for external RGB strips to set up as you wish: under your X-axis rail, a router/spindle ring light
+- **3 programmable buttons** for you to customize your CNC to your workflow
+- Live **overrides** to fine-tune your feeds & speeds on the fly when running a job
+- Supports **inductive sensors** and mechanical switches for far more accurate and repeatable CNC positioning for job recovery or multi-day runs than using stall homing in a dirty CNC environment
+- **Individual axis holding current**, allows you to hold just the Z-axis from falling with a heavy spindle without having to keep all other motors powered too (SLB only)
+- Added support for an independent **Tool Length Sensor (TLS)** for tool changes
+- Control spindles/VFDs and other accessories with **Modbus over RS485**
+- **Independent 4th/rotary axis** output to an external driver for simultaneous 4-axis cutting
 - More customizable IO to fine-tune your at-home or shop CNC setup
-- Powered by HAL, leaving bandwidth for even more features to be added with future firmware updates
+- Powered by **HAL**, leaving bandwidth for even more features to be added with future firmware updates
 - Don't have to pay extra for a built-in computer, instead choose to run something lightweight you already have on hand, or a more powerful setup to combine both design and CNC control from one computer in your shop
 
 ## Dimensions
@@ -64,9 +64,9 @@ The enclosure has been designed with reasonable consideration for dust penetrati
 
 ## Software
 
-<div style="margin-bottom: 20px; padding-left: 22px; text-indent: -22px;"><b>Sender:</b> Any g-code senders able to run "<b>grblHAL</b>" should be able to support most of the SLBs features. We recommend using <a href="https://sienci.com/gSender/"><b>gSender</b></a> to get the most out of your SLB/SLB-EXT. If you prefer other options, you could try <a href="https://github.com/terjeio/ioSender/releases">ioSender</a>, <a href="https://winder.github.io/ugs_website/download/">UGS</a>, or <a href="https://software.openbuilds.com/">OpenBuilds CONTROL</a>.</div>
+<div style="margin-bottom: 20px; padding-left: 22px; text-indent: -22px;"><b>Sender:</b> Any g-code senders able to run "<b>grblHAL</b>" should be able to support most of the SLB/SLB-EXT's features. We recommend using <a href="https://sienci.com/gSender/"><b>gSender</b></a> to get the most out of your SLB/SLB-EXT. If you prefer other options, you could try <a href="https://github.com/terjeio/ioSender/releases">ioSender</a>, <a href="https://winder.github.io/ugs_website/download/">UGS</a>, or <a href="https://software.openbuilds.com/">OpenBuilds CONTROL</a>.</div>
 
-<div style="margin-bottom: 20px; padding-left: 22px;">Some other common options like Easel, VTransfer, CNCjs, and Candle might not yet work with the newer and more advanced firmware of the SLB-EXT. <b>You can still use programs like Easel to design your projects</b>, you just need to <a href="https://inventables.zendesk.com/hc/en-us/articles/4406926040979-Exporting-Gcode-From-Easel" target="_blank" rel="noopener">export the g-code</a> and run the file in a newer g-code sender instead of running it using the design program itself.</div>
+<div style="margin-bottom: 20px; padding-left: 22px;">Some other common options like Easel, VTransfer, CNCjs, and Candle might not yet work with the newer and more advanced firmware of the controller. <b>You can still use programs like Easel to design your projects</b>, you just need to <a href="https://inventables.zendesk.com/hc/en-us/articles/4406926040979-Exporting-Gcode-From-Easel" target="_blank" rel="noopener">export the g-code</a> and run the file in a newer g-code sender instead of running it using the design program itself.</div>
 
 <div style="margin-bottom: 20px; padding-left: 22px; text-indent: -22px;"><b>Post Processor:</b> For now, the SLB/SLB-EXT will continue working the best with any typical 'grbl' post processor setup. If you already had a working grbl setup then you won't need to change anything, but if the SLB/SLB-EXT is your first board then you can check out our <a href="https://resources.sienci.com/view/cnc-post-processors/" target="_blank" rel="noopener">Post Processor suggestions</a> page.</div>
 
@@ -76,11 +76,11 @@ The enclosure has been designed with reasonable consideration for dust penetrati
 
 ## Firmware
 
-The controller runs grblHAL, which may look similar in name to grbl but it is a completely new approach to CNC control. Your board will ship with the latest version of firmware already installed, but we'll occasionally release updates for new features, functionality, or bug fixes. For more information on this process, go to the <a href="https://resources.sienci.com/view/slb-firmware-flashing/">Firmware Flashing</a> page.
+The controller runs **grblHAL**, which may look similar in name to grbl but it is a completely new approach to CNC control. Your board will ship with the latest version of firmware already installed, but we'll occasionally release updates for new features, functionality, or bug fixes. For more information on this process, go to the <a href="https://resources.sienci.com/view/slb-firmware-flashing/">Firmware Flashing</a> page.
 
 ## Open Source
 
-This project has no patents, we make everything available to the public just like much of the rest of Sienci Labs' projects. As we start to roll out the SLB/SLB-EXT into production, we'll <a href="https://resources.sienci.com/view/slb-welcome/#open-source">post our source files</a> for firmware tweaks from Core grblHAL, our custom grblHAL plugins, the SuperLongBoard PCB design, enclosure design, and any other relevant manufacturing and sourcing info we can think of. We'll also make sure we're clear on the licenses for use.
+This project has no patents, we make everything available to the public just like much of the rest of Sienci Labs' projects. As we start to roll out the SLB/SLB-EXT into production, we'll <a href="https://resources.sienci.com/view/slb-welcome/#open-source">post our source files</a> for our custom grblHAL plugins, the SuperLongBoard PCB design, enclosure design, and any other relevant manufacturing and sourcing info we can think of. We'll also make sure we're clear on the licenses for use.
 
 ## Wiring
 
@@ -201,7 +201,7 @@ The SLB/SLB-EXT offers USB-C as well as Ethernet as a way to connect your CNC to
 
 The SLB/SLB-EXT needs to be powered and turned on for you to be able to make any USB or Ethernet connection.
 
-To connect over USB, plug the cable into the front of the control box and into an available USB port on your computer, then connect on gSender. Ensure that the USB cable you use is capable of **data transfer** and not just charging.
+To connect over USB, plug the cable into the front of the control box and into an available USB port on your computer, then connect on gSender. Ensure that the **USB cable** you use is capable of **data transfer** and not just charging.
 
 ![](/_images/_superlongboard/_manual/slb_ma_p11_PowerPlug.png "Plug the USB-C cable into the front"){.aligncenter .size-medium}
 
@@ -276,9 +276,9 @@ To set up an Ethernet connection to the SLB/SLB-EXT from a Mac, you'll follow a 
 
 There is a major difference between the SLB and SLB-EXT in terms of the motors they support.
 
-- SLB-EXT supports both closed and open loop motors, with external drivers.
+- **SLB-EXT** supports both closed and open loop motors, with external drivers.
 
-- SLB only supports open loop motors, specifically NEMA 23 or similar.
+- **SLB** only supports open loop motors, specifically NEMA 23 or similar.
 
 See the tabs below for more information specific to each controller.
 
@@ -304,13 +304,13 @@ Alternatively if it seems like your machine handles all movement just fine, then
 - Sometimes faster speeds won’t actually make projects run faster since you might be limited by the speed you can realistically cut through the material
   - Consequently,  higher speeds and accelerations should not dramatically impact machine wear
   
-- If homing was set up and you are using jigs, please re-check your homing offsets, since motor acceleration can change where your machine homes to.
+- If homing is set up and you are using jigs, please re-check your homing offsets, since motor acceleration can change where your machine homes to.
 
 ### SLB Microsteps & Movement Tuning
 
 The default configuration for the SLB is **32nd microstepping ($150-153)**. The more precise microstepping signalling on the SLB’s TMC2660Cs drivers means that they’re able to maintain similar torque no matter the microstep settings. Moreover, coarser microsteps are still interpolated after-the-fact, to make the steps less jarring and reduce resonance. In our testing we found that 32nd worked just as well as 8th, while providing more benefit of reduced motor noise and improved accuracy.
 
-Once you’ve got your steppers plugged in and decided on your microstepping, you should test that your machine moves by the distance you instruct.The easiest way to do it is to use <a href="https://resources.sienci.com/view/gs-additional-features/#movement-tuning">gSender's built-in Movement Tuning tool</a>.
+Once you’ve got your steppers plugged in and decided on your microstepping, you should test that your machine moves by the distance you instruct. The easiest way to do it is to use <a href="https://resources.sienci.com/view/gs-additional-features/#movement-tuning">gSender's built-in Movement Tuning tool</a>.
 
 ### SLB Motor Holding
 
@@ -420,9 +420,7 @@ If you want to check continuity, tapping the touch plate and magnet together sho
 
 ![](/_images/_superlongboard/_manual/slb_ma_p21_GIF.gif){.aligncenter .size-full}
 
-You should find that probing with the SLB/SLB-EXT is faster due to its 32-bit processor, speeding up cycle times for zeroing and tool changing. You might also find that the touches are so much more sensitive that you don't need to hold the touch plate in place anymore. Otherwise, all other aspects of probing should follow what you're familiar with.
-
-If you go to probe and find that there's a touch being detected when there shouldn't be, either the probe or the TLS signal needs to be inverted. Try toggling the firmware setting $6 or $668, then check again. For other reading on touch plate setup, see [our MK2 resources here](https://resources.sienci.com/view/lmk2-touch-plate).
+If you go to probe and find that there's a touch being detected when there shouldn't be, either the probe or the TLS signal needs to be inverted. Try toggling the firmware setting $6 or $668, then check again.
 
 ## Status Lights
 
@@ -447,7 +445,7 @@ If you want to have **RGB LEDs** lighting up your CNC, you can connect up to 2 s
 - A shorter strip of up to **40 LEDs**, powered by the SLB
 - A longer strip of up to **60 LEDs** that needs to be powered by a separate power supply (you'll need to provide one)
 
-On the SLB/SLB-EXT, the plug for the shorter strip is called "**Ring**" since you'd typically mount it near your router/spindle to light up the cutting area, while the longer one is called "**Rail**" since it's a good length to mount under an X or Y-axis rail for more ambient lighting; but realistically you can use both strips however you want. 
+On the SLB/SLB-EXT, the plug for the shorter strip is called "**Ring**" since you'd typically mount it near your router/spindle to light up the cutting area, while the longer one is called "**Rail**" since it's a good length to mount under an X or Y-axis rail for more ambient lighting; but realistically you can use both strips however you want.
 
 If you want to hook these up, make sure you **buy the right strips**:
 
@@ -663,9 +661,9 @@ The way the laser is set up on the SLB/SLB-EXT is quite unique. Essentially when
 - **A laser**
 - More advanced VFDs using the RS485 output
 
-The laser isn't set as the default for safety reasons, but further down is information on how to switch it to be the default, if you use it often. In any case, the laser must be set as the Default Spindle, Spindle 2 or Spindle 3, in order to activate it later.
+The laser isn't set as the default for safety reasons, but further down is information on how to switch it to be the default, if you use it often. In any case, the laser must be set as the **Default Spindle, Spindle 2 or Spindle 3**, in order to activate it later.
 
-1. Go to Spindle/Laser settings in Config.
+1. On gSender, go to Spindle/Laser settings in Config.
 
 1. Select the laser option in either the Default Spindle, Spindle 2 or Spindle 3.
 
@@ -709,9 +707,10 @@ For other g-code senders, you'll need to use the **selection commands**, since t
 ![](/_images/_superlongboard/_manual/slb_ma_laser$spindles.jpg)
 
 2. Then, enter this command to select the output you want to activate.
-**M104Q0** will switch to the 0 option (e.g. PWM)
-**M104Q1** will switch to the 1 option (e.g. PWM2)
-**M104Q2** will switch to the 2 option (e.g. H-100)
+
+- **M104Q0** will switch to the 0 option (e.g. PWM)
+- **M104Q1** will switch to the 1 option (e.g. PWM2)
+- **M104Q2** will switch to the 2 option (e.g. H-100)
 
 ### Laser Settings
 
@@ -730,7 +729,7 @@ These are the relevant settings that you may want to adjust to use your third-pa
   - Typically 0%
 - **$736** Laser PWM max value/PWM2 spindle PWM max value
   - Typically 100%
-- **$741 and 742** or **$770 and 771** Laser X and Y offset
+- **$741 and $742** or **$770 and $771** Laser X and Y offset
   - The distance between the spindle and laser heads
   - Applied automatically when switching between spindle and laser
 - **$743** Invert laser signals
@@ -806,7 +805,7 @@ If you've used a 'Coolant' output previously, this 5V output still serves the sa
 
 This output is commonly used to automatically control a vacuum or router to turn on/off at the start/end of a job using an IOT Relay. It also can be used for any other purpose with any component that accepts a 5V 40mA digital signal.
 
-Read more about setting up an IOT Relay here: <a href="https://resources.sienci.com/view/lmk2-automated-relay/">https://resources.sienci.com/view/lmk2-automated-relay/</a>
+Read more about setting up an [IOT Relay here](https://resources.sienci.com/view/lmk2-automated-relay/).
 
 ### Switch & Aux Power
 
@@ -834,7 +833,7 @@ Similar to the 'Flood' output, you'll now also be able to control 'Switch' and '
 
 ## Spindle/RS485
 
-As mentioned in the <a href="#laser">Laser section</a> above, we designed the SLB/SLB-EXT for a wide range of CNCers, like those with both a VFD and laser diode accessory on their CNC. Our solution was a PWM laser output, PWM spindle output, and an output for Modbus over RS485 - allowing for control of up to 3 accessories without rewiring and with settings stored independently for each.
+As mentioned in the <a href="#laser">Laser section</a> above, we designed the SLB/SLB-EXT for a wide range of CNCers, like those with both a VFD and laser diode accessory on their CNC. Our solution was a **PWM laser output, PWM spindle output, and an output for Modbus over RS485** - allowing for control of up to 3 accessories without rewiring and with settings stored independently for each.
 
 Both flavours of spindle signals are there to give you the 2 most popular options for talking to VFDs. The **PWM simple signals** tend to have easier setup with less fuss, meanwhile **RS485** requires more work but provides better, two-way communication during cutting. For either of these to work, ensure you have the controller and VFD wired up correctly and with the right settings.
 
@@ -982,7 +981,9 @@ Short for "Tool Length Sensor", this is a very common accessory for slightly mor
 
 If you have an **NO-wired TLS**, you must invert the signal before proceeding.
 
-On gSender, in Config, go to the **$6 Invert Probe Inputs**, and toggle the **Toolsetter** option. Apply the changes then turn OFF/ON the controller to have the setting take effect.
+On gSender, in Config, go to the Probe heading. Find **$6 Invert Probe Inputs**, and toggle the **Toolsetter** option to the opposite setting. Press Apply Settings then turn OFF/ON the controller to have the setting take effect.
+
+![](/_images/_superlongboard/_manual/slb_ma_inverttoolsetter.jpg){.aligncenter .size-full}
 
 ### TLS Wiring
 
@@ -993,7 +994,7 @@ If your TLS is wired correctly, you should be able to press it and see the orang
 - **Orange light OFF** if TLS is wired **NC**
   - The light will stay OFF if TLS is disconnected
 
-![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_tls.jpeg)
+![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_tls.jpeg){.aligncenter .size-full}
 
 If you're unsure with your wiring or your TLS has more than 3 wires, you can use a multimeter and check any two wires until you find a set that contact/open when pressed, those two will be for signal and GND; the third might be power.
 
@@ -1011,7 +1012,7 @@ Check in your g-code sender if the TLS signal is set up correctly. This signal i
 
 1. If both the touch plate and TLS trigger the same response, then everything is working as expected.
 
-Once this all seems to be working, see this documentation on how to set up tool changing (<a href="https://resources.sienci.com/view/gs-additional-features/#tool-changing" target="_blank" rel="noopener">gSender tool changing feature</a>) and make sure you select the 'Fixed tool sensor' option.
+See this documentation on how to set up tool changing (<a href="https://resources.sienci.com/view/gs-additional-features/#tool-changing" target="_blank" rel="noopener">gSender tool changing feature</a>) and make sure you select the 'Fixed tool sensor' option.
 
 ## Rotary Axis
 
@@ -1019,8 +1020,8 @@ The SLB/SLB-EXT will still support anyone who already has a 'switching' rotary a
 
 The main improvements to how SLB/SLB-EXT handles rotary switching is:
 
-- The A-axis values for steps/deg, maximum speed, and acceleration ($103, 113, and 123) are now stored directly on the SLB/SLB-EXT instead of relying on gSender settings
-- This will help maintain correct values across computers, since every time gSender is switched into Rotary mode it can just swap the A-axis values and the Y-axis values, then swap them back once you leave rotary mode
+- The A-axis values for steps/deg, maximum speed, and acceleration ($103, $113, and $123) are now stored directly on the SLB/SLB-EXT instead of relying on gSender settings
+- This will help maintain correct values across computers, since every time gSender is switched into rotary mode it can just swap the A-axis values and the Y-axis values, then swap them back once you leave rotary mode
 - Hard and soft limits can now be left on while in rotary mode
 - This is new from grblHAL, where when the maximum travel of any axis is set to 0, it's able to rotate infinitely while leaving hard and soft limits on for all other axes
 
@@ -1041,7 +1042,7 @@ The SLB/SLB-EXT is able to support an extra fourth, fully independent cutting ax
 
 If you set one of these up yourself, you can either check out our [Vortex rotary axis with a pre-made wiring loom and closed-loop NEMA 23 with a built-in driver](https://sienci.com/product/vortex-rotary-axis/) that you can use for your own rotary setup or upgrade your existing open-loop Vortex, or you should pick up your own independant motor driver. Most motor drivers on the market will do like a **DM542** or **TB6600** but use your best judgement and be mindful of who you buy from.
 
-The main downside of this setup though is that most hobby CAM software is yet to catch up to the hardware and support 4-axis toolpaths. This means that you'll either still use it for 3-axis cutting (alongside some of the benefits mentioned above) or you'll have to get creative in finding a solution that works for you by manually modifying code, using indexing, or paying for a more expensive CAM software. We've currently only tried [Snapmaker's Luban software](#tips-for-luban-a-axis-cam), though we'll update this section once we have more to recommend.
+The main downside of this setup though is that most hobby CAM software is yet to catch up to the hardware and support 4-axis toolpaths. This means that you'll either still use it for 3-axis cutting (alongside some of the benefits mentioned above) or you'll have to get creative in finding a solution that works for you by manually modifying code, using indexing, or paying for a more expensive CAM software. At this time we have only tried [Snapmaker's Luban software](#tips-for-luban-a-axis-cam), though we'll update this section once we have more to recommend.
 
 ### Driver Wiring
 
