@@ -23,7 +23,7 @@ If you haven't yet, <b><a href="https://sienci.com/gSender/" target="_blank" rel
 </p>
 <br>
 
-Since the software packages we use to build gSender don't support 10+ year old systems, **here are the most recent versions you can download if you're running:**
+Since the software packages we use to build gSender don't support 10+ year old systems, **here are the most recent versions you can download for each operating system:**
 
 - <a href="https://github.com/Sienci-Labs/gSender/releases/tag/v1.4.12" target="_blank" rel="noopener">Mac OS High Sierra, Mojave, or Catalina</a> (v1.4.12 - Mar 11, 2025)
 - <a href="https://github.com/Sienci-Labs/gSender/releases/tag/v1.2.2" target="_blank" rel="noopener">Any 32-bit system or Windows 7/8</a> (v1.2.2 - Jul 7, 2023)
