@@ -1,5 +1,5 @@
 ---
-title: grbl Alarms & Errors
+title: gSender grbl Alarms & Errors
 menu_order: 3
 post_status: publish
 post_excerpt: Use this reference table to see the common Error codes and Alarm codes that you might see from your grbl-based CNC machine.

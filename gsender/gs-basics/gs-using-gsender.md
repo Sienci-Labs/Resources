@@ -1,5 +1,5 @@
 ---
-title: Using gSender
+title: gSender Using gSender
 menu_order: 3
 post_status: publish
 post_excerpt: Understand the basics of how to use gSender, including connecting, jogging, zeroing and gotos, probing, and running jobs.

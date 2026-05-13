@@ -1,5 +1,5 @@
 ---
-title: Compile gSender
+title: Compile gSender!
 menu_order: 3
 post_status: publish
 post_excerpt: Full instructions and troubleshooting for building gSender from its open-source code.
