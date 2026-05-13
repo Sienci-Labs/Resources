@@ -38,6 +38,45 @@ If you don't see all these changes happen, we'd recommend you check a couple thi
 1. Arduino is securely attached to the LongBoard. (Not applicable for the SLB)
 1. If it's connecting but behaving oddly, gSender's automatic firmware detection might've failed. In this case ensure you set your board's correct firmware as *grbl* or *grblHAL* under Config ➜ Basics ➜ Firmware fallback.
 
+### Ethernet Connection
+
+An Ethernet setup is a bit more involved than using USB, but if you're looking to switch over due to its [inherent reliabilities that will always make it more robust](https://youtu.be/LOIVrVVYBfA), you'll need to make sure you have an Ethernet cable on hand and that your device has a free Ethernet port. You'll also want to double-check since some Ethernet-driven CNC control boards like the SLB aren't able to be firmware flashed over Ethernet, so you'll still need to keep a USB cable handy if you need to do any future updates or recover from a board reset.
+
+- If your computer only has one Ethernet port and it's already used, you can try picking up a USB to Ethernet dongle or adding an additional Ethernet card. If you use the dongle, the USB side will plug into your computer, and the Ethernet side will connect an Ethernet cable that you'll run to your board.
+
+![](/_images/_gsender/_using/gs_us_p12_usb.jpg){.aligncenter .size-full}
+
+#### Ethernet on Windows
+
+1. To start, connect to your CNC over USB, open the Config tab to the Ethernet section, and copy down the numbers you see for the '**IP address**' and '**Netmask**'. The defaults should be `192.168.5.1` and `255.255.255.0` respectively, with the IP mode set to `static`.
+  ![](/_images/_gsender/_using/gs_us_p13_ipmmode-newu.jpg){.aligncenter .size-full}
+1. Once copied down, you can unplug your USB and connect the Ethernet cable directly from your PC to your board. If you look where you plugged the Ethernet cable into the board from the outside, you should see a green light on and a flickering yellow light.
+1. Now you'll need to configure the PC's Ethernet interface. Start by opening the Windows menu, searching for "network" and click '**View network connections**' to get a list of Ethernet ports.
+  ![](/_images/_gsender/_using/gs_us_p14_tcp-2.jpg){.aligncenter .size-full}
+1. Here you should be able to find the '**Ethernet**' listed that you just connected to your board. Even if there are multiple Ethernet options, unplugging and re-plugging the cable from the board will show which one it is. Once you know, right-click it and open its '**Properties**'.
+  ![](/_images/_gsender/_using/gs_us_p14_tcp-3.jpg){.aligncenter .size-full}
+1. In the Properties, find the option for '**Internet Protocol Version 4 (TCP/IPv4)**' and double-click it. Here, you'll want to:
+   - Select the '**Use the following IP address**' option
+   - Type into '**Subnet mask**' the 'Netmask' number you copied down
+   - Type in the '**IP address**' that you copied down, just change the last number (for example, change it from `192.168.5.1` to `192.168.5.5`)
+   - Click '**OK**' to save and close the options
+  ![](/_images/_gsender/_using/gs_us_p15_ip-2.jpg){.aligncenter .size-full}
+1. Back in gSenders Config tab ➜ Ethernet section, make sure the IP address for gSender matches the IP address from the firmware.
+  ![](/_images/_gsender/_using/gs_us_p16_eeprom-newu.jpg){.aligncenter .size-medium}
+1. Now click on Connect to CNC, choose the Ethernet Port option and you should see it connect successfully :)
+  ![](/_images/_gsender/_using/gs_us_p17_connected-newu.jpg){.aligncenter .size-medium}
+1. If you have a problem connecting with Ethernet, go back over the setup steps. You can also reconnect over USB to double-check your boards Ethernet settings.
+
+#### Ethernet on Mac
+
+To set up an Ethernet connection from a Mac, you'll follow a lot of the same steps as for [Ethernet on Windows](#ethernet-on-windows) but after doing **Step 2**:
+
+1. On your Mac, click the Apple menu ➜ System Settings ➜ then click '🌐 Network' in the sidebar (you may need to scroll down).
+1. Click Ethernet service ➜ 'Details...'. Note: if your Mac doesn't have a built-in Ethernet port and you're using an adapter, look for a service that contains the name of the adapter manufacturer or the type of adapter. For example, the service might be named [manufacturer name] USB-C LAN, or just contain the model number of the adapter.
+1. Click TCP/IP in the sidebar ➜ then for 'Configure IPv4' choose 'Manually' so you can enter the specific IP address and subnet mask. You want the subnet mask to be the same value from the EEPROM 'Netmask'. The IP address should have a different last digit on the same mask - so if the board is device 1 (192.168.5.1), you could call your PC device 5 (192.168.5.5). Click "OK" to save and close the options.
+![](/_images/_gsender/_using/gs_us_p15-ip_mac.jpg){.aligncenter .size-full}
+1. Resume following the Windows instructions at Step 6 to finish the process.
+
 ## Jogging and Presets
 
 You can move the machine manually by using the **Jog Control**, through the arrow buttons. To move the Z axis up and down, use the Z+ or Z- buttons to the right of the control dial.

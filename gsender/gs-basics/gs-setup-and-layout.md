@@ -33,7 +33,7 @@ Before starting to use gSender, let's briefly cover the way its functions are la
 
 Another of gSender's Design Principals is colouring. It can be scary to have an assortment of buttons in front of you and not know what they're going to do. This is why we made every button in the app that moves the CNC **dark blue**. This means you shouldn't ever find yourself startled when the machine moves unexpectedly since the colour will help to communicate whether it's a 'machine moving' button or not.
 
-### Carve
+## Carve Tab
 
 This is where you will spend the majority of your time actually carving. When the program opens, this is where you will arrive! There are 2 main sections to the Carve tab.
 
@@ -44,31 +44,142 @@ This is where you will spend the majority of your time actually carving. When th
 
 We've built gSender's main screen around these primary boxed sections so that you can have all of the CNC functionality most hobbyists need on one screen without getting confused about what each button does. If you're doing anything **during** a job it'll be in the middle, if you're doing anything **outside** a job it'll likely be on the right, and if you want greater customization or functionality it'll be found in the toolbars.
 
-### Stats
+## Stats Tab
 
-The Stats tab is a great place to check in on how your machines doing. This includes:
+Curious to know how many jobs you've completed, how many hours you've put on your machine, what alarms you've encountered or what maintenance you should be focusing on? Think of the Stats tab as your dashboard for understanding how your machine is running, what things you might need to check up on, or to collect information that would be useful for troubleshooting.
 
-- Summary of stats
-- Recent jobs (including their run time and if they were successful or not)
-- Upcoming maintenance
-- Guidance on help and troubleshooting
-- And some more technical information like an overview of your machine configuration and a list of recent alarms & errors
+Here you can see information about your machine including [job statistics](#job-stats), [machine maintenance](#cnc-maintenance), [alarms & errors](#alarms--errors), configuration settings, diagnostic files, resources to help along your CNC journey, or [learn more about gSender](#about-page). You can check out the main dashboard, click into each section to see further details using the tabs at the bottom of the screen, or click on the button in the top right corner of each section.
 
-You can click on the bottom bar to see more details on each of these summaries.
+![](/_images/_gsender/_setup/gs_se_statsconfig.jpg){.aligncenter .size-medium}
 
-![](/_images/_gsender/_setup/gs_se_stats-tab.jpg){.aligncenter .size-medium}
+### Get Help
 
-### Tools
+Before moving on to the other sections in Stats, the main page can be really useful if you've got an issue with your machine and feel stuck. Most importantly, you can follow links to our community pages including our [Resources](https://resources.sienci.com/view/gs-installation/), [Community Forum](https://forum.sienci.com/c/gsender/), and [GitHub](https://github.com/Sienci-Labs/gsender).
+
+Another valuable feature is the ability to download a **Diagnostic File** of your CNC machine. This file contains many things like your current machine settings, gSender preferences, and a PDF file that includes about your computer, your CNC, recent alarms / errors, any currently loaded g-code file, and more. It's basically a treasure trove of information that you can share on Community Forums, Facebook groups, or with your CNC customer support. This can go a long way towards getting help from others on diagnosing any problems your CNC might be experiencing.
+
+![](/_images/_gsender/_setup/gs_se_statsgethelp.jpg){.aligncenter .size-medium}
+
+Click the '**Download Diagnostic File**' button to download this. This will open a save dialog box for you to save the file to a location that you can easily access to send along to others in an email, support ticket or post online.
+
+### Job Stats
+
+The Job Table provides a simplified breakdown of each job, including the file name, duration of the job, # of lines in the job, start time/date and if the job completed successfully or not. This section also displays jobs per port and run time per port. You can use the search bar at the top to search each column for a specific job by date, file name, completion status, etc.
+
+![](/_images/_gsender/_setup/gs_se_statsjobs.jpg){.aligncenter .size-medium}
+
+### CNC Maintenance
+
+In the Maintenance tab, you will see preset tasks with an hourly countdown range, to remind you when a maintenance task is due to be performed. These times pull directly from the runtime of your jobs and allow you to mark them as complete to reset the timers. Once the task is in range, the maintenance is due, once past the range, the task becomes critical to address.
+
+Each task includes a timer showing how much time remains before the task needs attention, detailed descriptions and an edit button or complete task button. This section also displays all upcoming maintenance in a colour coded list to the right.
+
+![](/_images/_gsender/_setup/gs_se_statsmaintenance.jpg){.aligncenter .size-medium}
+
+You can also add your own reminders, time due range and description to this section, to really make it your own.
+
+![](/_images/_gsender/_setup/gs_se_statsmaintenanceadd.jpg){.aligncenter .size-medium}
+
+### Alarms & Errors
+
+In the Alarms & Errors tab, you will see a list or errors and alarms. Details include the error or alarm number, time and date and a brief explanation of the issue. Here you can also **Clear Alarms & Errors** or **Download a Diagnostic File** for further troubleshooting.
+
+![](/_images/_gsender/_setup/gs_se_statsalarmserrors.jpg){.aligncenter .size-medium}
+
+To read more about Alarms & Errors, visit our [grbl Alarms & Errors](https://resources.sienci.com/view/gs-grbl-alarm-error-codes/#alarms) resource.
+
+### About Page
+
+You can find the release notes for the latest version of gSender in the “About” section of Stats, as well as get to know more about the team behind gSender!
+
+![](/_images/_gsender/_setup/gs_se_statsabout.jpg){.aligncenter .size-medium}
+
+## Tools Tab
 
 The Tools tab has what we like to call "Wizards" you can use to walk through lots of common CNCing tasks like XY squaring, movement tuning, wasteboard surfacing, as well as you can access keyboard and gamepad shortcuts.
 
-![](/_images/_gsender/_setup/gs_se_maintools.jpg){.aligncenter .size-medium}
+![](/_images/_gsender/_setup/gs_se_maintoolsv2.jpg){.aligncenter .size-medium}
 
-### Config
+## Config Tab
 
-The final tab is the configuration tab. Here you will find an extensive list of settings, starting with the basics, motors, probe, homing/limits, spindle/laser, tool changing, rotary, and more.
+ The Config tab is meant to act as your one-stop-shop for any customization to how gSender looks or acts, or how your CNC is configured. This starts with some basics, then moves on to motors, probing, homing/limits, spindle/laser, rotary, tool changing, and more.
 
-![](/_images/_gsender/_setup/gs_se_configlist.gif){.aligncenter .size-full}
+ ![](/_images/_gsender/_setup/gs_se_configlist.gif){.aligncenter .size-full}
+
+The settings are grouped to make the whole setup process easier, and you can quickly navigate them by either:
+
+- Scrolling along the page
+- Clicking the table of contents links on the left side
+- Type the setting you're looking for in the search bar (for example "acceleration" or "$110")
+- Clicking the 'View Modified' toggle to filter by only settings that have been changed from their default
+
+As you look through this area to get a lay of the land, you might also notice some other useful aspects:
+
+- You'll be able to tell which settings are firmware-based by the **microchip icon** next to them, the ones without a microchip are gSenders local preferences.
+- There are **buttons and indicators** put into place so that you can change and test settings on the fly without having to leave the Config tab. This makes machine setup much faster (for example, if your CNC jogs the wrong way you can invert it, save the settings, and test that it's working all in the same place).
+- There are also some buttons that that will take you to automated setup wizards
+- Any setting will highlight in yellow once it's been changed from default and give you the option to revert it if needed
+
+![](/_images/_gsender/_setup/gs_se_onoff-config.gif){.aligncenter .size-full}
+
+**Some of the common settings to change are:** preferred units (mm/inch), visualizer theme and Dark mode, enabling controls for add-ons that your machine has (spindle/laser controls, rotary controls, etc.), customizing notifications, and of course selecting a **Machine Profile**.
+
+Remember to hit **Apply Settings** after any changes you make!
+
+### Machine Profiles
+
+When it comes to selecting a machine profile at the bottom of the Config tab, your machine will either be '**supported**' or '**unsupported**'. The only difference between these two types is that for unsupported machines:
+
+1. Firmware-based settings won't turn yellow when they're changed from their default (this is because gSender isn't aware of what the default for that machine is)
+1. There won't be an option to reset a firmware-based setting back to its default
+1. Clicking the bottom 'Defaults' button will revert your machine settings to standard grbl defaults
+1. Attempting to 'Flash' your machine will flash it with default grbl firmware
+1. You should be more cautious when using the Config tab since it could enable you to alter your machine in unpredictable ways and we won't be able to help you with your specific hardware. In this case, **if your machine isn't working, contact your manufacturer to get their advice on how to fix it**.
+
+All other aspects of using and operating gSender will work as expected no matter what machine profile you select; but because these extra features for setting, resetting, and flashing can be useful for many CNCers we encourage manufacturers to contact us so we can add more supported machine profiles. The current list of supported machines is:
+
+- Sienci Labs **LongMill** (MK1, MK2, and MK2.5)
+- Sienci Labs **AltMill** (MK1 and MK2)
+- Sienci Labs **Mill One** (V1, V2, and V3)
+
+### Machine settings
+
+With your Machine Profile selected (if yours is not listed then select "Generic CNC"), the rest of the buttons at the bottom can be used as follows:
+
+1. All the bottom buttons only apply to firmware-based settings specific to your machine (the settings with the microchip next to them), not gSenders local settings
+1. **Defaults**
+   - Should only really be used if you've selected a '[supported machine profile](#machine-profiles)'
+   - Acts like a "factory reset"
+   - Use it when you're first setting up your CNC to ensure your settings are broadly correct, or if you want to bulk reset all settings back to their default
+1. **Flash**
+   - Should only really be used if you've selected a '[supported machine profile](#machine-profiles)'
+   - Will either flash your specific machines grbl firmware, or for grblHAL boards will give you the option to upload a hex file to flash a new firmware
+1. **Import**
+   - If you had previously exported machine settings that worked for your CNC, you can import them to get things working again
+1. **Export**
+   - If you've configured your CNC and everything seems to be working well, save your firmware settings to a file so you have it on hand in case something goes wrong
+   - The process of importing/exporting is basically the same as for [importing/exporting gSender preferences](#gsender-preferences)
+
+![](/_images/_gsender/_setup/gs_se_configprofile1.jpg){.aligncenter .size-medium}
+
+### gSender Preferences
+
+These preferences are stored on the specific computer being used to run gSender and includes items like: preferred units, machine selected, probe, tools, jogging presets, keymapping, tool change g-code, automations, and more. These don't have any impact on your [machines firmware settings](#machine-settings) (settings with the microchip symbol next to them), rather they impact how you use gSender day-to-day.
+
+The buttons for gSender Preferences are all in the top right corner of the Config tab and be used at any time to reset all settings to default (remember you can reset individual settings if you'd like), or import or export your current gSender setup. Importing/Exporting can be useful if you're updating to a new major version of gSender or you plan on using a different computer to run your CNC and want to carry over all your familiarities to make sure things keep running as expected.
+
+To transfer your settings over, start by exporting a save file:
+
+1. Go to the Config Tab, and click the '**Export**' button.
+  ![](/_images/_gsender/_setup/gs_se_preferences.jpg){.aligncenter .size-full}
+1. Save the file somewhere onto your computer that you can find afterwards
+  ![](/_images/_gsender/_setup/gs_se_preferences1.jpg){.aligncenter .size-medium}
+1. Outside of gSender, if you plan to move the file to another computer, find the file and transfer it using a memory stick or sending it over the internet by emailing to yourself or using Google Drive or OneDrive.
+1. Once you've got the file onto the other computer it's now easy enough to open gSender on that computer, or in the web browser if you're doing remote control, and go to the Config tab and click the '**Import**' button just to the right of the export button.
+1. Locate the file and click 'Open'
+  ![](/_images/_gsender/_setup/gs_se_preferences2.jpg){.aligncenter .size-medium}
+1. You'll get a warning. Click 'Import Settings' if you want to continue. Once you do, gSender will disconnect and you'll need to reconnect the machine to resume operation but the settings should now be brought over.
+  ![](/_images/_gsender/_setup/gs_se_preferences3.jpg){.aligncenter .size-medium}
 
 ## Set up to Use
 
