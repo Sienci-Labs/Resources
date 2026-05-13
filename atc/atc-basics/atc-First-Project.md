@@ -130,9 +130,9 @@ We have the g-code, and we installed the tools in the correct order. Now we can 
 
     ![](/_images/_atc/_atc_basics/atc_basics_firstpro-tooltable.jpg){.aligncenter .size-medium}
 
-1. Once the tool name is complete, you **can** hit the probe tool button on the right side, and run a probe of the tools length, but you don't need to! For now, your default settings are setup to probe each tool after it's been picked up, so you don't need to probe them all now. These measurements will all be stored, to be used later once we set our project zero. We have named all 4 tools and probed each in the picture below.
+1. Once the tool name is complete, you **can** hit the probe tool button on the right side, and run a probe of the tools length, but you don't need to! For now, your default settings are setup to probe each tool after it's been picked up, so you don't need to probe them all now. The probe measurements will all be stored, to be used later once we set our project zero. We have named all 4 tools and can now exit this screen.
 
-    ![](/_images/_atc/_atc_basics/atc_basics_firstpro-tooltablev3.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_basics/atc_basics_firstpro-tooltablev4.jpg){.aligncenter .size-medium}
 
 1. Load a tool onto the spindle to set our project zero with.
 
