@@ -44,6 +44,26 @@ This is where you will spend the majority of your time actually carving. When th
 
 We've built gSender's main screen around these primary boxed sections so that you can have all of the CNC functionality most hobbyists need on one screen without getting confused about what each button does. If you're doing anything **during** a job it'll be in the middle, if you're doing anything **outside** a job it'll likely be on the right, and if you want greater customization or functionality it'll be found in the toolbars.
 
+### Console
+
+The console is a tab that you can access at the bottom right hand side of the gSender window. The text here shows a truer representation of the communication that happens between your computer and your CNC. As you start to understand more about your machine, this is a great tab to reference so you can see if commands are being properly sent, received, and executed. It's also great for troubleshooting since you can:
+
+- Manually send g-code commands to your CNC
+- Check for errors or alarms and the g-code that caused them (normally the line that comes before)
+- Copy text straight from the console to send in an email for help by clicking the '...' button next to 'Run', then clicking 'Copy last 50 lines'.
+- Even open the console in another window by pressing the top, right icon to help you see more console text at a time (if you press the button again once you reconnect to your CNC, it'll reconnect the console stream to the original window too)
+
+![](/_images/_gsender/_features/gs_fe_console-tab.jpg){.aligncenter .size-full}
+
+When you first start up gSender, the console will display EEPROM settings that are sent from the Arduino in the control box. These EEPROM settings control parameters for your CNC such as:
+
+- Maximum speed and acceleration in each axis
+- Boundaries of the work area
+- Direction of each axis movement
+- Limit switch settings
+
+To access EEPROM settings again, enter in “$$” into the console and hit the 'Enter' key or click the 'Run' button. These settings can be changed via the console as well as the Firmware Tool which we've designed as a much more visual way to alter machine settings.
+
 ## Stats Tab
 
 Curious to know how many jobs you've completed, how many hours you've put on your machine, what alarms you've encountered or what maintenance you should be focusing on? Think of the Stats tab as your dashboard for understanding how your machine is running, what things you might need to check up on, or to collect information that would be useful for troubleshooting.
