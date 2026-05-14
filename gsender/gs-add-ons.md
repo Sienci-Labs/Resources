@@ -1,6 +1,6 @@
 ---
 title: gSender Add Ons
-menu_order: 4
+menu_order: 5
 post_status: publish
 post_excerpt: Learn the about using the touch plate, IOT control, rotary mode and more.
 post_date: 2026-05-13 13:53:00
