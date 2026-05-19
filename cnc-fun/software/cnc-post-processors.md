@@ -17,11 +17,13 @@ featured_image: _images/_cnc-fun/_software/cnc_so_postpro-longmill.jpg
 
 When making g-code for any CNC machine, there will come a time where you'll click the final button to "Generate g-code". Doing so, how will you know that the g-code file is going to be properly suited to your particular CNC? Though many CNCs are able to interpret what's broadly known as 'g-code', the reality is that different manufacturers have their own quirks that their machines expect to see; you can think of this as g-code being the primary language while different CNCs speak with dialects or accents. For our machines, and many other hobby CNCs, this dialect is known as "grbl".
 
-This is where post-processing comes in. A 'post-processor' is simply a set of rules that can be followed to add tweaks to the main g-code and ensure it'll work for particular machines. If the post-processor isn't selected or set up correctly this will usually result in errors, stalls, or unexpected behaviour while running your jobs.
+This is where post-processing comes in. A 'post-processor' is simply a set of rules that can be followed to add tweaks to the main g-code, to ensure it'll work for particular machines. If the post-processor isn't selected or set up correctly this will usually result in errors, stalls, or unexpected behaviour while running your jobs.
 
 To help out, here are the most popular CAM programs and their LongMill/AltMill-compatible post-processors. Some CAM programs may not have post-processor options since they're already designed for hobby CNC use.
 
-**Note that**: even if you design in inches, it is best practice to export files with a millimeters post-processor. Unfortunately we have seen errors show up when the g-code file was exported in inches.
+**Note that**: even if you design in inches, it is best practice to export files with a millimeters post-processor. We have seen errors show up when the g-code file was exported in inches.
+
+## Post-Processors Chart
 
 [su_table responsive="yes"]
 <table>
@@ -32,7 +34,7 @@ To help out, here are the most popular CAM programs and their LongMill/AltMill-c
 </tr>
 <tr>
 <td>Vectric Cut2D, Vectric VCarve, Vectric Aspire</td>
-<td>grbl (mm). Newer versions of Vectric may come with a default "LongMill" option.</td>
+<td>grbl (mm)</td>
 </tr>
 <tr>
 <td>Carveco Maker, Carveco Maker+</td>
@@ -40,7 +42,7 @@ To help out, here are the most popular CAM programs and their LongMill/AltMill-c
 </tr>
 <tr>
 <td>Fusion 360</td>
-<td>grbl**</td>
+<td>grbl*</td>
 </tr>
 <tr>
 <td>Easel, Easel Pro</td>
@@ -73,23 +75,33 @@ To help out, here are the most popular CAM programs and their LongMill/AltMill-c
 </tbody>
 </table>
 [/su_table]
-[/su_table]
 
-**To avoid potential issues with Fusion 360, we also recommend you make the following checks to your post-processor:
+### Fusion 360 Export Settings
 
-- Change the '**Safe Retracts**' to “Clearance Height” and NOT “G28”. It will be obvious that you have this on if you don't have limit switches or forget to home your machine and at the start of the job your bit plunges suddenly really deep into your material.
-- **Output M6** set as "No" (unless you plan to set up tool changing)
-- **Output Tool Number** set as "No" (unless you plan to set up tool changing)
+*To avoid potential issues with **Fusion 360**, we also recommend you make the following checks to your post-processor:
 
-<h3>Vectric VCarve</h3>
-If you are using <strong>Vectric VCarve</strong>, you can create a custom machine configuration file for your CNC. Go to Machine, and in the drop down select Machine Configuration.
+- **Safe Retracts** set as **“Clearance Height”** and NOT “G28”. It will be obvious that you have this on if you don't have limit switches or forget to home your machine and at the start of the job your bit plunges suddenly really deep into your material.
+- **Output M6** set as **"No"** (unless you plan to set up tool changing)
+- **Output Tool Number** set as **"No"** (unless you plan to set up tool changing)
+
+### ATC Post-Processors
+
+[See this page](https://resources.sienci.com/view/atc-before-you-begin/#software-upgrade) for the ATC-compatible post-processors for Vectric and Carveco.
+
+### Vortex Post-Processor
+
+[See this page](https://resources.sienci.com/view/vx-software-basics/#post-processor-installation) for the Vortex post-processor file and how to install it on Vectric. Note that we do not have post processors for other CAM programs.
+
+### Vectric Machine Configuration
+
+If you are using <strong>Vectric VCarve</strong>, you can create a custom machine configuration file so you can assign a  default post-processor for your CNC. Go to Machine, and in the drop down select Machine Configuration.
 
 ![](/_images/_cnc-fun/_software/cnc_so_postpro_vectric-config.jpg){.aligncenter .size-medium}
 
-Please refer to the image below to fill out the configuration. For the latest version of VCarve, please input all the LongMill accelerations as 750mm/s² and AltMill accelerations as 1500 mm/s². If not using these CNC's, consult your manufacturer for your recommended motor speeds.
+For the latest version of VCarve, please input all the LongMill accelerations as 750mm/s² and AltMill accelerations as 1500 mm/s². If not using these CNCs, consult your manufacturer for your recommended motor speeds.
 
 ![](/_images/_cnc-fun/_software/cnc_so_postpro-longmill.jpg){.aligncenter .size-medium}
 
 https://youtu.be/6Hr-pja4eI8
 
-**Fun fact:** some other members of the grbl CNC family include OpenBuilds, Shapeoko, BobsCNC and X-Carve - all starting just as the LongMill has from an Arduino Uno.
+**Fun fact:** some other members of the grbl CNC family include OpenBuilds, Shapeoko, BobsCNC and X-Carve - all of which started with the Arduino Uno, just like the LongMill had!
