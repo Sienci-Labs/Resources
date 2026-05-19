@@ -643,7 +643,7 @@ At this time, dual homing is **not available by default on the SLB.** However, i
 
 ## Laser
 
-If you have a laser diode accessory for your CNC, you would connect it here. Use the top three pins if your Laser driver needs an 'Enable' signal to operate, otherwise just use the bottom two to get the 5V PWM output that most laser accessories typically need. On the LongBoard this would've normally been the 2-pin SpinPWM plug, which you can plug straight into the SLB/SLB-EXT.
+If you have a laser diode accessory for your CNC, you would connect it onto the Laser port on the SLB/SLB-EXT. Use the top three pins if your laser driver needs an 'Enable' signal to operate, otherwise just use the bottom two to get the 5V PWM output that most laser accessories typically need. On the LongBoard this would've normally been the 2-pin SpinPWM plug, which you can plug straight into the SLB/SLB-EXT.
 
     ⚠️ Warning: Lasers are very dangerous devices that can instantly damage your vision and cause fires. Be informed on how your laser works, and how the controller and g-code sender handles laser commands.Treat your laser with caution and respect and turn off power to the laser driver when you're not using it. If you have the driver turned on, everyone around should always be wearing eye protection and there should also be clear warning or signage to protect others.
 
@@ -655,7 +655,7 @@ Read more on laser wiring, safety, and use [in this article](https://resources.s
 
 ### Laser Settings
 
-These are the relevant settings that you may want to adjust to use your third-party 5V PWM laser:
+These are the relevant settings that you may need to adjust to use your third-party 5V PWM laser:
 
 - **$709** PWM2 Spindle options
   - Only applicable in the latest firmware
@@ -725,25 +725,7 @@ The way the laser is set up on the SLB/SLB-EXT is quite unique. Essentially when
 - **A laser**
 - More advanced VFDs using the RS485 output
 
-#### Laser as Default Spindle
-
-[su_spoiler title="<b>Setting Laser as Default Spindle</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
-
-The laser isn't set as the default spindle for safety reasons, but further down is information on how to switch it to be the default, if you use it often. In any case, the laser must be set as the **Default Spindle, Spindle 2 OR Spindle 3**, in order to activate it later.
-
-1. On gSender, go to Spindle/Laser settings in Config.
-
-1. Select the laser option in either the Default Spindle, Spindle 2 or Spindle 3.
-
-    ❗Older firmware will call the laser option **SLB_LASER**
-
-    ‼️New firmware will call the laser option **PWM2**
-
-    ![](/_images/_superlongboard/_manual/slb_ma_laser1.6.config.jpg "Spindle 2 set as PWM2 (laser) output") {.aligncenter .size-full}
-
-1. Save these changes, then turn OFF/ON the controller. Reconnect to gSender.
-
-[/su_spoiler]
+To enable and turn on your laser:
 
 1. Go to Config and under Spindle/Laser, toggle ON **Spindle/Laser controls**
 
@@ -791,6 +773,26 @@ For other g-code senders, you'll need to use the **selection commands**, since t
 - **M104Q0** will switch to the 0 option (e.g. PWM)
 - **M104Q1** will switch to the 1 option (e.g. PWM2)
 - **M104Q2** will switch to the 2 option (e.g. H-100)
+
+#### Laser as Default Spindle
+
+[su_spoiler title="<b>Laser as Default Spindle</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+
+The laser isn't set as the default spindle for safety reasons, but further down is information on how to switch it to be the default, if you use it often. In any case, the laser must be set as the **Default Spindle, Spindle 2 OR Spindle 3**, in order to activate it later.
+
+1. On gSender, go to Spindle/Laser settings in Config.
+
+1. Select the laser option in either the Default Spindle, Spindle 2 or Spindle 3.
+
+    ❗Older firmware will call the laser option **SLB_LASER**
+
+    ‼️New firmware will call the laser option **PWM2**
+
+    ![](/_images/_superlongboard/_manual/slb_ma_laser1.6.config.jpg "Spindle 2 set as PWM2 (laser) output") {.aligncenter .size-full}
+
+1. Save these changes, then turn OFF/ON the controller. Reconnect to gSender.
+
+[/su_spoiler]
 
 ## Action Buttons
 
