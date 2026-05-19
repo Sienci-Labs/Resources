@@ -653,69 +653,16 @@ Follow your manufacturer recommendations for where to mount your laser driver an
 
 Read more on laser wiring, safety, and use [in this article](https://resources.sienci.com/view/lmk2-adding-a-laser/).
 
-### Laser Control
-
-The way the laser is set up on the SLB/SLB-EXT is quite unique. Essentially when your g-code files have spindle commands in them (M3, M4, S##, M5), you have the ability to tell the controller what output you want it to control with those commands, like:
-
-- A basic spindle
-- **A laser**
-- More advanced VFDs using the RS485 output
-
-The laser isn't set as the default for safety reasons, but further down is information on how to switch it to be the default, if you use it often. In any case, the laser must be set as the **Default Spindle, Spindle 2 or Spindle 3**, in order to activate it later.
-
-1. On gSender, go to Spindle/Laser settings in Config.
-
-1. Select the laser option in either the Default Spindle, Spindle 2 or Spindle 3.
-
-    ❗Older firmware will call the laser option **SLB_LASER**
-
-    ‼️New firmware will call the laser option **PWM2**
-
-    ![](/_images/_superlongboard/_manual/slb_ma_laser1.6.config.jpg "Spindle 2 set as PWM2 (laser) output") {.aligncenter .size-full}
-
-1. Save these changes, then turn OFF/ON the controller. Reconnect to gSender.
-
-1. To activate the laser, use the dropdown under the Spindle/Laser tab. Select **SLB_Laser or PWM2**, whichever one you see. You can only control one output at a time.
-
-[tabby title="Current" open="yes"]
-
-![](/_images/_superlongboard/_manual/slb_ma_p33_gSenderLaser-newu.jpg "SLB_LASER output selected in dropdown"){.aligncenter .size-medium}
-
-![](/_images/_superlongboard/_manual/slb_ma_laser1.6.firmware.jpg "PWM2 (laser) output selected in dropdown"){.aligncenter .size-medium}
-
-[tabby title="Classic gSender"]
-
-![](/_images/_superlongboard/_manual/slb_ma_p33_gSenderLaser.png){.aligncenter .size-medium}
-
-Here's a video that explains more about the setup and configuration process (note that the polarity of the wires shown in the video is reversed):
-
-https://youtu.be/5r_P6eISrnc
-
-[tabbyending]
-
-1. Use the toggle to switch to **Laser Mode**, make sure you are wearing eye protection!
-
-        ⚠️ Ensure that you only turn on 'Laser Mode' AFTER you select the laser output, as well as turn off 'Laser Mode' BEFORE you select another output. If switching between outputs gets stuck, try power-cycling the board.
-
-1. Press **Laser On** to turn on your laser.
-
-#### Other g-code Senders
-
-For other g-code senders, you'll need to use the **selection commands**, since there is no dropdown selection for spindle/laser outputs.
-
-1. First enter the "$spindles" command in the Console which will list all the options and which one is currently selected.
-![](/_images/_superlongboard/_manual/slb_ma_laser$spindles.jpg)
-
-2. Then, enter this command to select the output you want to activate.
-
-- **M104Q0** will switch to the 0 option (e.g. PWM)
-- **M104Q1** will switch to the 1 option (e.g. PWM2)
-- **M104Q2** will switch to the 2 option (e.g. H-100)
-
 ### Laser Settings
 
-These are the relevant settings that you may want to adjust to use your third-party laser:
+These are the relevant settings that you may want to adjust to use your third-party 5V PWM laser:
 
+- **$709** PWM2 Spindle options
+  - Only applicable in the latest firmware
+  - Typically 19
+- **716** PWM2 spindle signals invert
+  - Only applicable in the latest firmware
+  - Typically 0
 - **$730** Max laser power/PWM2 spindle max speed
   - Whatever max laser power your laser calls for, typically 255
 - **$731** Minimum laser power/PWM2 spindle min speed
@@ -735,8 +682,115 @@ These are the relevant settings that you may want to adjust to use your third-pa
 - **$743** Invert laser signals
   - This setting is unavailable in newer firmware
   - Typically Laser enable = off, Laser PWM = off
-  
-At this point, you should be able to use the controls on gSender to power your laser on and off and vary its power. Optionally you should be able to use a multimeter to check that your PWM output can go between around 1V and 4.5V. If not, double check your wiring and settings again.
+
+### Laser Settings Configuration Files
+
+#### 20260318 and above Firmware
+
+[su_spoiler title="<b>20260318 and above Firmware</b>" open="yes" style="fancy" icon="chevron" anchor_in_url="yes"]
+
+Instead of manually adjusting the settings, you can download and run the g-code file below to have the settings automatically apply. Ensure you have gSender **1.6.0** or above, and check the firmware version of your controller. **20260318** firmware or above is needed!
+
+![](/_images/_superlongboard/_firmware/slb_fi_p01_firmwareversion.jpg){.aligncenter .size-full}
+
+1. Download the [Laser Config File (20260318 and up)](https://drive.google.com/file/d/19erTPAXCojBliCOjNlOmmlJeOfpwEBqe/view?usp=drive_link)
+
+1. Run the file on gSender. Your controller will disconnect.
+
+1. Turn OFF/ON the controller to have the settings take effect. Then reconnect to gSender.
+
+[/su_spoiler]
+
+#### Older Firmware
+
+[su_spoiler title="<b>Older Firmware</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+
+Instead of manually adjusting the settings, you can download and run the g-code file below to have the settings automatically apply. The file below is for versions older than 20260318, such as **20230917**.
+
+![](/_images/_superlongboard/_manual/slb_ma_oldfirmwarecheck.jpg){.aligncenter .size-full}
+
+1. Download the [Laser Config File (20230917 and below)](https://drive.google.com/file/d/1NJjTt7qyPxVb2CWg4LjghdNB7najoxgu/view?usp=drive_link)
+
+1. Run the file on gSender. Your controller will disconnect.
+
+1. Turn OFF/ON the controller to have the settings take effect. Then reconnect to gSender.
+
+[/su_spoiler]
+
+### Laser Control
+
+The way the laser is set up on the SLB/SLB-EXT is quite unique. Essentially when your g-code files have spindle commands in them (M3, M4, S##, M5), you have the ability to tell the controller what output you want it to control with those commands, like:
+
+- A basic spindle
+- **A laser**
+- More advanced VFDs using the RS485 output
+
+#### Laser as Default Spindle
+
+[su_spoiler title="<b>Setting Laser as Default Spindle</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+
+The laser isn't set as the default spindle for safety reasons, but further down is information on how to switch it to be the default, if you use it often. In any case, the laser must be set as the **Default Spindle, Spindle 2 OR Spindle 3**, in order to activate it later.
+
+1. On gSender, go to Spindle/Laser settings in Config.
+
+1. Select the laser option in either the Default Spindle, Spindle 2 or Spindle 3.
+
+    ❗Older firmware will call the laser option **SLB_LASER**
+
+    ‼️New firmware will call the laser option **PWM2**
+
+    ![](/_images/_superlongboard/_manual/slb_ma_laser1.6.config.jpg "Spindle 2 set as PWM2 (laser) output") {.aligncenter .size-full}
+
+1. Save these changes, then turn OFF/ON the controller. Reconnect to gSender.
+
+[/su_spoiler]
+
+1. Go to Config and under Spindle/Laser, toggle ON **Spindle/Laser controls**
+
+    ![](/_images/_superlongboard/_manual/slb_ma_enlaser.jpg){.aligncenter .size-full}
+
+1. Press Apply Settings then turn OFF/ON your controller. Reconnect back to gSender.
+
+1. On main screen, open the Spindle/Laser tab at the bottom right corner. In the dropdown, select **SLB_Laser or PWM2**, whichever one you see. You can only control one output at a time.
+
+[tabby title="Current" open="yes"]
+
+![](/_images/_superlongboard/_manual/slb_ma_p33_gSenderLaser-newu.jpg "SLB_LASER output selected in dropdown"){.aligncenter .size-medium}
+
+![](/_images/_superlongboard/_manual/slb_ma_laser1.6.firmware.jpg "PWM2 (laser) output selected in dropdown"){.aligncenter .size-medium}
+
+[tabby title="Classic gSender"]
+
+![](/_images/_superlongboard/_manual/slb_ma_p33_gSenderLaser.png){.aligncenter .size-medium}
+
+Here's a video that explains more about the setup and configuration process (note that the polarity of the wires shown in the video is reversed):
+
+https://youtu.be/5r_P6eISrnc
+
+[tabbyending]
+
+  Then use the toggle to switch to **Laser Mode**, make sure you are wearing eye protection!
+
+  Press **Laser On** to turn on your laser. Besides the obvious beam from your laser diode, you should also see the red PWM light on your controller turn on.
+
+  ![](/_images/_superlongboard/_manual/slb_ma_pwmlight.jpg){.aligncenter .size-medium}
+
+  With your laser now set up, you should be able to use the controls on gSender to activate and power your laser on and off, as well as vary the Laser Test power.
+
+    If you are not seeing the laser turn on, we recommend to disconnect the laser from the controller, then use a multimeter to check that your PWM output can go between around 1V and 4.5V. If not, double check your wiring and settings again.
+
+#### Other g-code Senders
+
+For other g-code senders, you'll need to use the **selection commands**, since there is no dropdown selection for toggling between spindle/laser outputs.
+
+1. First enter the "$spindles" command in the Console which will list all the options and which one is currently selected.
+![](/_images/_superlongboard/_manual/slb_ma_laser$spindles.jpg)
+
+2. Then, enter this command to select the output you want to activate.
+
+- **M104Q0** will switch to the 0 option (e.g. PWM)
+- **M104Q1** will switch to the 1 option (e.g. PWM2)
+- **M104Q2** will switch to the 2 option (e.g. H-100)
 
 ## Action Buttons
 
