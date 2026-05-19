@@ -32,4 +32,4 @@ Downloading Edge is similar to the Main version of gSender and is available on t
 
 If you used to see a feature here but don't see it any longer, it's likely been added into the main version of gSender! **Look for it on the other gSender documentation pages.**
 
-As of version **1.5.0 New U** all Edge features are merged with the main version of gSender. Stay tuned for our next version of Edge!
+As of version **1.6.1** all Edge features are merged with the main version of gSender. Stay tuned for our next version of Edge!
