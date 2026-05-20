@@ -310,7 +310,7 @@ Alternatively if it seems like your machine handles all movement just fine, then
 
 The default configuration for the SLB is **32nd microstepping ($150-153)**. The more precise microstepping signalling on the SLB’s TMC2660Cs drivers means that they’re able to maintain similar torque no matter the microstep settings. Moreover, coarser microsteps are still interpolated after-the-fact, to make the steps less jarring and reduce resonance. In our testing we found that 32nd worked just as well as 8th, while providing more benefit of reduced motor noise and improved accuracy.
 
-Once you’ve got your steppers plugged in and decided on your microstepping, you should test that your machine moves by the distance you instruct. The easiest way to do it is to use <a href="https://resources.sienci.com/view/gs-additional-features/#movement-tuning">gSender's built-in Movement Tuning tool</a>.
+Once you’ve got your steppers plugged in and decided on your microstepping, you should test that your machine moves by the distance you instruct. The easiest way to do it is to use <a href="https://resources.sienci.com/view/gs-calibration-tools/">gSender's built-in Movement Tuning tool</a>.
 
 ### SLB Motor Holding
 
@@ -384,7 +384,7 @@ Next, make sure you have set the DIP switches on your motors to match the steps/
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-z-dip-switch.jpg)
 
-Finally, any minor differences between expected and actual distance travelled can be compensated using <a href="https://resources.sienci.com/view/gs-additional-features/#movement-tuning">gSender's built-in Movement Tuning tool</a>.
+Finally, any minor differences between expected and actual distance travelled can be compensated using <a href="https://resources.sienci.com/view/gs-calibration-tools/">gSender's built-in Movement Tuning tool</a>.
 
 ### SLB-EXT Motor Holding
 
@@ -1068,7 +1068,7 @@ Check in your g-code sender if the TLS signal is set up correctly. This signal i
 
 1. If both the touch plate and TLS trigger the same response, then everything is working as expected.
 
-See this documentation on how to set up tool changing (<a href="https://resources.sienci.com/view/gs-additional-features/#tool-changing" target="_blank" rel="noopener">gSender tool changing feature</a>) and make sure you select the 'Fixed tool sensor' option.
+See this documentation on how to set up tool changing (<a href="https://resources.sienci.com/view/gs-tool-changing/" target="_blank" rel="noopener">gSender tool changing feature</a>) and make sure you select the 'Fixed tool sensor' option.
 
 ## Rotary Axis
 
