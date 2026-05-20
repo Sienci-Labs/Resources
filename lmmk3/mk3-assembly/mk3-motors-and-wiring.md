@@ -1,9 +1,9 @@
 ---
-title: LongMill MK3 Table Mounting & Surfacing
-menu_order: 7
+title: LongMill MK3 Motors & Wiring
+menu_order: 6
 post_status: draft
-post_excerpt: How to mount your LongMill MK3 to your table and how to surface your wasteboard.
-post_date: 2026-05-20 10:40:22
+post_excerpt: 
+post_date: 2026-05-20 10:56:06
 taxonomy:
     knowledgebase_cat: mk3-assembly
     knowledgebase_tag:
