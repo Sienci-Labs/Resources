@@ -1,6 +1,6 @@
 ---
 title: Shortcuts
-menu_order: 1
+menu_order: 2
 post_status: publish
 post_excerpt: Learn the advanced features of gSender shortcuts & gamepad setups.
 post_date: 2026-05-13 10:53:00
@@ -15,8 +15,6 @@ skip_file: no
 featured_image: _images/_gsender/_features/gs_fe_p1_KeyShort.jpg
 ---
 
-## Shortcuts
-
 Starting off as a more advanced gSender user, the first feature you'll want to leverage is **shortcuts**. These can allow you to assign gSender shortcuts or CNC actions to keyboard keys or even to gamepads and joystick movements - very useful for things like **jogging, setting zero, running macros, and menu navigation**.
 
 You can access and set up shortcuts by clicking the **keyboard** or **gamepad** icons in the top, right corner. Any changes you make in these windows will save automatically, and setting up a shortcut is as easy as finding what action you want to perform and what button you want to activate it. Also, for easy reference, the keyboard and gamepad icons can be clicked from anywhere in the app and will **light up green** if they detect you have a keyboard or gamepad connected to your computer.
@@ -25,13 +23,13 @@ You can access and set up shortcuts by clicking the **keyboard** or **gamepad** 
 
 Going to the 'Tools' tab on the left side of the window is another way to access the **Keyboard Shortcuts** or **Gamepad**. 3rd party apps like <a href="https://joytokey.net/en/">JoyToKey</a>, <a href="https://xpadder.com/?lang=english&amp;country=CA">Xpadder</a>, <a href="https://www.comfortsoftware.com/comfort-keys/">Comfort Keys Pro</a> and <a href="https://www.rewasd.com/">reWASD</a> also allow you to do this, but to eliminate needing to download and configure other programs we've rolled all the functionality into gSender itself.
 
-### Keyboard Shortcuts
+## Keyboard Shortcuts
 
 Either for use on a keyboard, macro pad, or mini Bluetooth keyboard, these are split up into categories so they're easy to locate and modify. There are **over 70 shortcuts** with presets already available for carving, overrides, jogging, zero setting, probing, macros, visualization, window navigation, and more!
 
 ![](/_images/_gsender/_shortcuts/gs_sh_categories.jpg){.aligncenter .size-medium}
 
-### Common Shortcuts
+## Common Shortcuts
 
 A great place to start is the Jogging category. In the picture below, see that right now we can jog the **X-axis** by hitting the shift + right or shift + left keys. The **Y-axis** responds to shift + up and shift + down keys and the **Z-axis** uses the shift + pageup and shift + pagedown keys. Being able to look at your CNC, while your hand is on your keyboard is a great way to ensure you are moving in the right direction, without having to look back at your screen to click the mouse on the right button.
 
@@ -43,13 +41,13 @@ You can use the preset shortcuts, edit them, and/or add your own. Click the **pe
 
 You can temporarily turn off specific shortcuts or disable all of them if you're worried about mistakenly activating them by using the toggles in the '**Active**' column, clicking the '**Disable All Shortcuts**' button, or using the shortcut called 'Toggle on/off shortcuts'.
 
-### Shortcut Printing
+## Shortcut Printing
 
 Find yourself forgetting how you've configured your keyboard or gamepad profile shortcuts? Hit the '**Print**' button to generate a simple PDF that you can store on a tablet or print on some paper to keep next to your CNC. This PDF will contain all the shortcuts you've created and what actions they're assigned to.
 
 ![](/_images/_gsender/_shortcuts/gs_sh_printdissable.jpg){.aligncenter .size-full}
 
-### Gamepad Shortcuts
+## Gamepad Shortcuts
 
 Many users really love this feature since using a controller is convenient (especially for when you're closer to your machine), inexpensive, and makes certain repetitive actions much easier. Common options are Xbox, PlayStation, and other third-party controllers available to buy online.
 
@@ -67,7 +65,7 @@ If you run into difficulty with getting a particular gamepad set up in gSender, 
 - Go into the gamepad profile while it's connected and click the **Help button** where you'll be able to diagnose whether your gamepad is broken and sending out bad signals.
 - Searching for documentation provided by the manufacturer (for example, <a href="https://support.xbox.com/en-CA/help/hardware-network/controller/connect-xbox-wireless-controller-to-pc" target="_blank" rel="noopener">Xbox</a> or <a href="https://www.playstation.com/en-ca/support/hardware/ps4-pair-dualshock-4-wireless-with-pc-or-mac/" target="_blank" rel="noopener">PlayStation</a>).
 
-#### Tested Gamepads
+### Tested Gamepads
 
 To better guarantee your experience using a gamepad in gSender, we've taken the time to test a shortlist of some common and affordable options that are easy to source. With community help, we hope to continue growing this list of **officially tested gamepads** which currently includes:
 
@@ -98,7 +96,7 @@ To better guarantee your experience using a gamepad in gSender, we've taken the 
 
 Having a listed gamepad means you can both be more confident that your hardware will be compatible with gSender, as well as many of the 'tested gamepads' will have pre-made shortcut profiles built right in to save you time setting up your own.
 
-#### Gamepad Setup
+### Gamepad Setup
 
 Hit the **Add New Gamepad Profile** button, connect your controller to your PC and press any button on it. gSender will identify and provide a profile if one is available. You can see in the screenshot below, it correctly identifies the DualSense Wireless Controller. If no profile is already tied to the controller, enter your profile name and hit **Add New Profile**.
 

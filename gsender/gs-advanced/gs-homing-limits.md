@@ -1,6 +1,6 @@
 ---
 title: Homing & Limits
-menu_order: 2
+menu_order: 3
 post_status: publish
 post_excerpt: Learn the about homing your machine and setting hard and soft limits.
 post_date: 2026-05-13 10:53:00

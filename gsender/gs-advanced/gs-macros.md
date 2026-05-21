@@ -1,6 +1,6 @@
 ---
 title: Macros & Automations
-menu_order: 4
+menu_order: 5
 post_status: publish
 post_excerpt: Explore macros, how to create them and why they are helpful.
 post_date: 2026-05-14 10:05
