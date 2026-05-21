@@ -1,11 +1,11 @@
 ---
-title: LongMill MK3 Post
+title: LongMill MK3 Post 
 menu_order: 0
 post_status: draft
 post_excerpt: 
-post_date: 2026-05-19 08:35:34
+post_date: 2026-05-19 08:20:20
 taxonomy:
-    knowledgebase_cat: the-basics-lmmk3
+    knowledgebase_cat: handbook-lmmk3
     knowledgebase_tag:
         - mk3
 custom_fields:

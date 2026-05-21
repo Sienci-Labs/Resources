@@ -7,6 +7,7 @@ post_date: 2026-05-19 08:14:53
 taxonomy:
     knowledgebase_cat: the-basics-lmmk3 mk3-assembly handbook-lmmk3
     knowledgebase_tag:
+        - mk3
 custom_fields:
     KBName: LongMill MK3
     basepress_post_icon: bp-caret-right
