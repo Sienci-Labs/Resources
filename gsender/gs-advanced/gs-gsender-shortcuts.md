@@ -1,5 +1,5 @@
 ---
-title: gSender Shortcuts
+title: Shortcuts
 menu_order: 1
 post_status: publish
 post_excerpt: Learn the advanced features of gSender shortcuts & gamepad setups.

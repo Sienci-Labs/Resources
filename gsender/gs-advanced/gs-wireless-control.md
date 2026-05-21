@@ -1,5 +1,5 @@
 ---
-title: gSender Wireless Control
+title: Wireless Control
 menu_order: 6
 post_status: publish
 post_excerpt: Setup, using and troubleshooting a wireless connection with gSender.

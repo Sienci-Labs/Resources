@@ -1,5 +1,5 @@
 ---
-title: gSender Macros & Automations
+title: Macros & Automations
 menu_order: 4
 post_status: publish
 post_excerpt: Explore macros, how to create them and why they are helpful.

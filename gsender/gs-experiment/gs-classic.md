@@ -1,5 +1,5 @@
 ---
-title: gSender Classic UI
+title: Classic UI
 menu_order: 2
 post_status: publish
 post_excerpt: Full instructions for use of the classic UI style for gSender. Includes layout, configuration, usage, features, & bug reporting.
