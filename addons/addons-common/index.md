@@ -2,7 +2,7 @@
 title: Common add-ons post
 menu_order: 0
 post_status: draft
-post_excerpt: Guides for Sienci Labs add-ons and general third-party accessories common to both AltMill and LongMill machines.
+post_excerpt: Guides for Sienci Labs add-ons and general third-party accessories common to both AltMill and LongMill CNC machines.
 post_date: 2026-05-20 14:49:53
 taxonomy:
     knowledgebase_cat: addons-common

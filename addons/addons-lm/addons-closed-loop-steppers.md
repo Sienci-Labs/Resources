@@ -2,7 +2,7 @@
 title: Closed Loop Upgrade
 menu_order: 2
 post_status: draft
-post_excerpt: How to install and setup the Closed Loop Stepper Motors Kit
+post_excerpt: How to install and set up the Closed Loop Stepper Motors Kit on your LongMill CNC
 post_date: 2026-05-20 16:01:00
 taxonomy:
     knowledgebase_cat: addons-lm

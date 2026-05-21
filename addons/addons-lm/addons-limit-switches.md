@@ -2,7 +2,7 @@
 title: Limit Switches ⛔
 menu_order: 4
 post_status: draft
-post_excerpt: See how to mount and wire custom limit switches or the inductive limit switch kit to the LongMill MK2. 
+post_excerpt: How to mount and wire custom limit switches or the inductive limit switch kit to the LongMill MK2. 
 post_date: 2026-05-20 16:10:00
 taxonomy:
     knowledgebase_cat: addons-lm
