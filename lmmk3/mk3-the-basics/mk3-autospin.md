@@ -1,5 +1,5 @@
 ---
-title: MK3 AutoSpin
+title: LongMill MK3 AutoSpin
 menu_order: 5
 post_status: draft
 post_excerpt: 

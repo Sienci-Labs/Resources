@@ -1,5 +1,5 @@
 ---
-title: MK3 Inductive Sensors
+title: LongMill MK3 Inductive Sensors
 menu_order: 4
 post_status: draft
 post_excerpt: 

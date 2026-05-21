@@ -1,5 +1,5 @@
 ---
-title: MK3 Open Source
+title: LongMill MK3 Open Source
 menu_order: 3
 post_status: draft
 post_excerpt: All of the open source information for the MK3 in one spot.

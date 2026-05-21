@@ -1,5 +1,5 @@
 ---
-title: MK3 Squaring & Tramming
+title: LongMill MK3 Squaring & Tramming
 menu_order: 1
 post_status: draft
 post_excerpt: Resources and documentation for getting your MK3 squared and trammed.

@@ -1,5 +1,5 @@
 ---
-title: MK3 Maintenance
+title: LongMill MK3 Maintenance
 menu_order: 2
 post_status: draft
 post_excerpt: How to keep your MK3 clean and running smoothly.
