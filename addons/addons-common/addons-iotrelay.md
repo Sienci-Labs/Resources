@@ -18,7 +18,7 @@ featured_image: _images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p5_FullDiagram.jp
 You can use an IOT relay to automatically control power to your router, vacuum, lighting, or other AC power systems when you have a job running. The setup process consists of:
 
 1. Wiring up the IOT relay
-1. Preparing your g-code to control the relay
+1. Preparing your g-code to control the IOT relay
 
 This IOT setup method is written for the LongBoard controller and was inspired by the work of Max C., Mark D. and other LongMill community members! If you'd like to see Max' full original document, you can download it here: <a href="https://resources.sienci.com/wp-content/uploads/2021/06/Max-C.-IOT-Relay-setup.docx" target="_blank" rel="noopener">IOT Relay.doc</a>
 

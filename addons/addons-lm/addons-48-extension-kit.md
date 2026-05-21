@@ -2,7 +2,7 @@
 title: 48" Extension Kit
 menu_order: 1
 post_status: draft
-post_excerpt: Instructions on the extension kit for the LongMill MK2.
+post_excerpt: Instructions on the extension kit for the LongMill MK2 CNC.
 post_date: 2026-05-20 15:49:00
 taxonomy:
     knowledgebase_cat: addons-lm

@@ -2,7 +2,7 @@
 title: T-Track & Clamps
 menu_order: 5
 post_status: draft
-post_excerpt: See how to set up and assemble the Sienci Labs T-Track set and clamping system for the LongMill MK2.
+post_excerpt: How to set up and assemble the Sienci Labs T-Track set and clamping system for the LongMill MK2.
 post_date: 2026-05-20 16:15:00
 taxonomy:
     knowledgebase_cat: addons-lm

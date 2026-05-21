@@ -2,7 +2,7 @@
 title: AltMill add-ons post
 menu_order: 0
 post_status: draft
-post_excerpt: Guides for Sienci Labs add-ons and general third-party accessories for AltMill machines.
+post_excerpt: Guides for Sienci Labs add-ons and general third-party accessories for AltMill CNC machines.
 post_date: 2026-05-20 14:58:53
 taxonomy:
     knowledgebase_cat: addons-am
