@@ -1,7 +1,7 @@
 ---
 title: Tool Length Sensor
 menu_order: 7
-post_status: public
+post_status: publish
 post_excerpt: Setting up and using the TLS.
 post_date: 2026-05-20 15:34:21
 taxonomy:
