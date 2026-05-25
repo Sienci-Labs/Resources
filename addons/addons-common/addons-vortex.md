@@ -1,7 +1,7 @@
 ---
 title: Vortex Rotary Axis
 menu_order: 8
-post_status: draft
+post_status: public
 post_excerpt: Setting up and using the Vortex rotary axis.
 post_date: 2026-05-20 15:35:22
 taxonomy:
