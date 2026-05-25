@@ -1,7 +1,7 @@
 ---
 title: ATC
 menu_order: 1
-post_status: public
+post_status: publish
 post_excerpt: Documentation for setting up and using the ATC.
 post_date: 2026-05-20 15:09:42
 taxonomy:
