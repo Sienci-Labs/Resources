@@ -1,9 +1,9 @@
 ---
 title: Closed Loop Upgrade
-menu_order: 10
+menu_order: 9
 post_status: publish
 post_excerpt: How to install and setup the Closed Loop Stepper Motors Kit
-post_date: 2022-03-17 20:11:00
+post_date: 2022-03-17 20:33:22
 taxonomy:
     knowledgebase_cat: lmk2-add-ons
     knowledgebase_tag:
