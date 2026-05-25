@@ -1,6 +1,6 @@
 ---
 title: Shortcuts
-menu_order: 1
+menu_order: 2
 post_status: publish
 post_excerpt: Learn the advanced features of gSender shortcuts & gamepad setups.
 post_date: 2026-05-13 10:53:00
