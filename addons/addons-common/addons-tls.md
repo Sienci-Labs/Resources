@@ -1,7 +1,7 @@
 ---
 title: Tool Length Sensor
 menu_order: 7
-post_status: draft
+post_status: public
 post_excerpt: Setting up and using the TLS.
 post_date: 2026-05-20 15:34:21
 taxonomy:
@@ -31,9 +31,9 @@ You will need to decide on a location for your TLS. Ideally it is somewhere at t
 
 ![](/_images/_addons/addons_common/addons_tls-ammk1-dust.jpg){.aligncenter .size-medium}
 
-### LongMill
+### LongMill and other CNCs
 
-- Flip the TLS base so that it can sit flat, then screw it into the wasteboard of your desired location with two (2) wood screws.
+- Flip the TLS base so that it can sit flat, then screw it into the wasteboard of the desired location which can be reached by the router spindle, with two (2) wood screws.
 
 ![](/_images/_addons/addons_common/addons_tls-wasteboard.jpg){.aligncenter .size-medium}
 
