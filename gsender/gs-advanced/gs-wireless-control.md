@@ -1,9 +1,9 @@
 ---
-title: gSender Wireless Control
+title: Wireless Control
 menu_order: 6
 post_status: publish
 post_excerpt: Setup, using and troubleshooting a wireless connection with gSender.
-post_date: 2026-05-14 10:50
+post_date: 2026-05-14 10:50:33
 taxonomy:
     knowledgebase_cat: gs-advanced
     knowledgebase_tag:

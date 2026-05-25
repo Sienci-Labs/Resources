@@ -1,9 +1,9 @@
 ---
-title: gSender Homing & Limits
+title: Homing & Limits
 menu_order: 2
 post_status: publish
 post_excerpt: Learn the about homing your machine and setting hard and soft limits.
-post_date: 2026-05-13 10:53:00
+post_date: 2026-05-13 10:55:11
 taxonomy:
     knowledgebase_cat: gs-advanced
     knowledgebase_tag:

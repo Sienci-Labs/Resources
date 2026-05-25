@@ -1,9 +1,9 @@
 ---
-title: gSender Macros & Automations
+title: Macros & Automations
 menu_order: 4
 post_status: publish
 post_excerpt: Explore macros, how to create them and why they are helpful.
-post_date: 2026-05-14 10:05
+post_date: 2026-05-14 10:05:12
 taxonomy:
     knowledgebase_cat: gs-advanced
     knowledgebase_tag:

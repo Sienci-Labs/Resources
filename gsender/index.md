@@ -2,10 +2,10 @@
 title: gSender Post
 menu_order: 0
 post_status: draft
-post_excerpt: Read about where to download gSender and how to install it onto Windows, Mac, Linux, or other PCs, as well as how to check for updates.
+post_excerpt: 
 post_date: 2024-07-18 18:14:53
 taxonomy:
-    knowledgebase_cat: gdocs
+    knowledgebase_cat: gdocs gs-advanced gs-ex
     knowledgebase_tag:
         - gsender
 custom_fields:
@@ -17,12 +17,26 @@ featured_image: _images/post-image.jpg
 
 gSender page order should be as follows:
 
-📙 Full Documentation
+📙 The Basics
 
 1. Installation
 2. Setup & Layout
 3. Using gSender
-4. Additional Features
-5. Edge Features
-6. Problems / Bugs?
-7. grbl Alarms & Errors
+4. Feedback/Problems/Bugs?
+
+Advanced
+
+1. Shortcuts
+2. Homing & Limits
+3. Calibration
+4. Macros & Automations
+5. Tool Changing
+6. Wireless Control
+7. Add-Ons
+8. grbl Alarms & Errors
+
+Experimental
+
+1. Edge Features
+2. Classic
+3. Compile!

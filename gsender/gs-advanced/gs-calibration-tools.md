@@ -1,9 +1,9 @@
 ---
-title: gSender Calibration Tools
+title: Calibration Tools
 menu_order: 3
 post_status: publish
 post_excerpt: Learn the about using XY squaring, movement tuning & surfacing.
-post_date: 2026-05-13 15:4400
+post_date: 2026-05-13 15:44:00
 taxonomy:
     knowledgebase_cat: gs-advanced
     knowledgebase_tag:
