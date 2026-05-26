@@ -1,7 +1,7 @@
 ---
 title: New Features
 menu_order: 1
-post_status: draft
+post_status: publish
 post_excerpt: See what the newest features to have made it out of our Edge development cycle are, and how to use them.
 post_date: 2026-05-13 09:30:00
 taxonomy:
