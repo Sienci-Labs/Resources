@@ -1,5 +1,5 @@
 ---
-title: LongMill MK3 Welcome
+title: MK3 Welcome
 menu_order: 1
 post_status: publish
 post_excerpt: Resources and documentation for the LongMill MK3 CNC.
