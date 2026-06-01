@@ -1,5 +1,5 @@
 ---
-title: LongMill MK3 Specifications
+title: MK3 Specifications
 menu_order: 2
 post_status: publish
 post_excerpt: Resources and documentation for the LongMill MK3 CNC.
