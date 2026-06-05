@@ -1,6 +1,6 @@
 ---
 title: Tool Changing
-menu_order: 5
+menu_order: 6
 post_status: publish
 post_excerpt: Learn about the options available in our tool changing feature, and how to use it.
 post_date: 2026-05-14 10:45:28

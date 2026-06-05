@@ -142,6 +142,12 @@ We have the g-code, and we installed the tools in the correct order. Now we can 
 
     ![](/_images/_atc/_atc_basics/atc_basics_firstpro-toolload.jpg){.aligncenter .size-medium}
 
+---
+
+    Note: You can hold the load button down to trigger a manual load. You will see the button scroll loading up, once complete you are in manual load mode!
+
+---
+
 1. Remove the bottom of the dust shoe so you can see the end mill and Jog the machine to where you want the job to start on your material, then use the X0 and Y0 buttons to zero each axis. We've set the design file to zero on the wasteboard, as we are cutting through material. Ensure you set your Z0 to the wasteboard, not the top of the project. If you don't, you will be cutting in air!
 
     ![](/_images/_atc/_atc_basics/atc_basics_firstpro-projectzero.jpg){.aligncenter .size-medium}

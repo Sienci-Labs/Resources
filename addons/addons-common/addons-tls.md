@@ -1,7 +1,7 @@
 ---
 title: Tool Length Sensor
 menu_order: 7
-post_status: public
+post_status: publish
 post_excerpt: Setting up and using the TLS.
 post_date: 2026-05-20 15:34:21
 taxonomy:
@@ -17,7 +17,9 @@ featured_image:
 
 ## Mounting
 
-You will need to decide on a location for your TLS. Ideally it is somewhere at the edge of the machine’s travel area, that doesn't trigger hard or soft limit alarms.  
+You will need to decide on a location for your TLS. Ideally it is somewhere at the edge of the machine’s travel area, that doesn't trigger hard or soft limit alarms from the limit switches.
+
+❗Before proceeding, please note you must have limit switches installed on your machine in order to use the TLS.
 
 ### AltMill
 
@@ -49,7 +51,7 @@ Finally, connect the other end of the TLS cable to the controller.
 
 ## gSender Setup
 
-1. Download and install the latest version of gSender (1.6.2 or above). Detailed instructions can be found in [this article](https://resources.sienci.com/view/gs-installation/).
+1. Download and install the latest version of gSender (**1.6.2 or above**). Detailed instructions can be found in [this article](https://resources.sienci.com/view/gs-installation/).
 
 1. Connect to gSender.
 
