@@ -30,11 +30,11 @@ Compare this to the list below, to see if you need to update.
   - Updated default A-axis step/mm to match typical Vortex setups using 32nd microstepping
   - Updated defaults to accommodate some machine setups that couldn't handle the max speeds and accelerations of the SLB
   - Changed min spindle speed, spindle on delay, and default enabled spindles to match typical spindle setups using the SLB
-- SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1DyymJLXV8rH4l39VM9VgCTyUuCH7AghP/view?usp=drive_link" target="_blank" rel="noopener">Main_grblHAL</a>
+- SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1gc_tUbQwiuG4P-6CdOinreDUIbKNDO73/view?usp=drive_link" target="_blank" rel="noopener">Main_grblHAL</a>
 
   - Newest, main version of grblHAL
   - Requires gSender 1.6.0 or newer
-  - Build version 20260525
+  - Build version 20260318
   - Unplug the VFD for firmware flashing
   
 - SLB EXT (AltMill) **ONLY** for users with Huanyang or generic 'MODVFD' spindle setups: <a href="https://resources.sienci.com/wp-content/uploads/2024/04/SienciLabs_Main_grblHAL_Firmware_HY_MODVFD.hex">Main_grblHAL_HY_MODVFD</a>
