@@ -30,12 +30,12 @@ Compare this to the list below, to see if you need to update.
   - Updated default A-axis step/mm to match typical Vortex setups using 32nd microstepping
   - Updated defaults to accommodate some machine setups that couldn't handle the max speeds and accelerations of the SLB
   - Changed min spindle speed, spindle on delay, and default enabled spindles to match typical spindle setups using the SLB
-- SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1gc_tUbQwiuG4P-6CdOinreDUIbKNDO73/view?usp=drive_link" target="_blank" rel="noopener">Main_grblHAL</a>
+- SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1DyymJLXV8rH4l39VM9VgCTyUuCH7AghP/view?usp=drive_link" target="_blank" rel="noopener">Main_grblHAL</a>
 
   - Newest, main version of grblHAL
   - Requires gSender 1.6.0 or newer
-  - Build version 20260318
-  - Unplug the spindle for firmware flashing
+  - Build version 20260525
+  - Unplug the VFD for firmware flashing
   
 - SLB EXT (AltMill) **ONLY** for users with Huanyang or generic 'MODVFD' spindle setups: <a href="https://resources.sienci.com/wp-content/uploads/2024/04/SienciLabs_Main_grblHAL_Firmware_HY_MODVFD.hex">Main_grblHAL_HY_MODVFD</a>
 
@@ -69,7 +69,7 @@ To successfully flash new firmware onto your SLB, you'll need:
     - <a href="https://drive.google.com/file/d/1XzT21kwJFHcPzCDYhIdux49At6-TmrVA/view?usp=drive_link" target="_blank" rel="noopener">STM32Cube File</a>
 1. To note down any **firmware settings** that you have changed from the default firmware settings. This is especially important if you have a third-party CNC.
 1. To turn OFF any accessories that receive a control signal from the SLB, just in case the flashing process inadvertently sends control signals to those accessories.
-1. To **unplug your Spindle** cable at the spindle side, not the VFD side.
+1. To **unplug your VFD** cable at the spindle side, not the VFD side.
 
         The video shows the complete firmware update process, for an SLB-EXT on a Windows computer, using gSender to flash. 
 
