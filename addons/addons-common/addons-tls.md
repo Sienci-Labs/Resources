@@ -27,17 +27,17 @@ You will need to decide on a location for your TLS. Ideally it is somewhere at t
 
 - Mount the TLS by inserting two (2) T-nuts into the T-slot of the right Y-axis rail. Then fasten the screws into the T-nuts, so that the TLS is hanging from the rail.
 
-![](/_images/_addons/addons_common/addons_tls-rail.jpg){.aligncenter .size-medium}
+![](/_images/_addons/addons_common/addons_tls-rail1.jpg){.aligncenter .size-medium}
 
 - For the **AltMill MK1**, you will need to temporarily disassemble the dust shield to mount the TLS. Afterwards, put the dust shield back on, **over top of the TLS**, to prevent premature wear of linear guides and ball screw
 
-![](/_images/_addons/addons_common/addons_tls-ammk1-dust.jpg){.aligncenter .size-medium}
+![](/_images/_addons/addons_common/addons_tls-ammk1-dust1.jpg){.aligncenter .size-medium}
 
 ### LongMill and other CNCs
 
 - Flip the TLS base so that it can sit flat, then screw it into the wasteboard of the desired location which can be reached by the router spindle, with two (2) wood screws.
 
-![](/_images/_addons/addons_common/addons_tls-wasteboard.jpg){.aligncenter .size-medium}
+![](/_images/_addons/addons_common/addons_tls-wasteboard1.jpg){.aligncenter .size-medium}
 
 ## Cable Connection
 
@@ -80,7 +80,7 @@ Finally, connect the other end of the TLS cable to the controller.
 
     ![](/_images/_addons/addons_common/addons_tls-moresetconfig.jpg){.aligncenter .size-medium}
 
-1. Go to the Spindle/Laser tab
+1. Go to the Spindle/Laser tab and adjust these settings:
     - Spindle/laser controls
         - Toggle ON
     - Spindle on delay ($394)
