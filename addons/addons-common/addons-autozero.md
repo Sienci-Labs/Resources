@@ -40,6 +40,10 @@ If your cable didn't come with the **green connector**, you can use the spare th
 
     ![](/_images/_addons/addons_common/addons_autozero-platetype.jpg){.aligncenter .size-medium}
 
+1. In the **Invert probe inputs**, toggle ON the Probe. If you have a Sienci Labs TLS, please toggle OFF the Toolsetter too.
+
+    ![](/_images/_addons/addons_common/addons_autozero-gsettings2.jpg){.aligncenter .size-medium}
+
 1. Press **'Apply Settings'** at the bottom right of the screen to confirm this change.
 
 1. Go back to the main **'Carve'** screen.
