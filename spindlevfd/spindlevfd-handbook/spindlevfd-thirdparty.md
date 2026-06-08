@@ -15,7 +15,7 @@ skip_file: no
 featured_image: 
 ---
 
-While the Sienci Labs spindle kits offer a plug-and-play experience with your machine, there is an overwhelmingly large variety of spindle options one can choose from. Some of these options may be pre-assembled, plug-and-play kits with their own support, and others may be standalone parts that will require you to purchase individual parts and wire up the system yourself.
+While the Sienci Labs spindle kits offer a plug-and-play experience with your AltMill or LongMill machine, there is an overwhelmingly large variety of spindle options one can choose from. Some of these options may be pre-assembled, plug-and-play kits with their own support, and others may be standalone parts that will require you to purchase individual parts and wire up the system yourself.
 
 It should be noted that **our technical support for setup of 3rd party spindle kits is limited.** General guidelines for wiring a third-party spindle to your SLB/SLB-EXT controller can be found in our [technical manual](https://resources.sienci.com/view/slb-manual/#spindlers485).
 

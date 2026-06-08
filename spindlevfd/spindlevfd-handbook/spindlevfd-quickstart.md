@@ -15,7 +15,7 @@ skip_file: no
 featured_image: 
 ---
 
-At this point, you've probably just finished mounting and setting up your Sienci Labs spindle kit. Here are some final recommendations and tips to help you better understand and utilize your spindle VFD system.
+At this point, you've probably just finished mounting and setting up your Sienci Labs spindle kit. Here are some final recommendations and tips to help you better utilize your spindle VFD system.
 
 ## ER Collets
 
