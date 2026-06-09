@@ -1,7 +1,7 @@
 ---
 title: Automated / IOT Relay
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: Use an IOT relay on your CNC to automatically control power to your router, vacuum, lighting, or other AC power systems.
 post_date: 2026-05-20 15:28:00
 taxonomy:
@@ -20,9 +20,15 @@ You can use an IOT relay to automatically control power to your router, vacuum, 
 1. Wiring up the IOT relay
 1. Preparing your g-code to control the IOT relay
 
+## Setup for SLB/SLB-EXT
+
+We recommend reading this [brief explanation](https://resources.sienci.com/view/slb-manual/#switch-amp-aux-power) on how to hook up accessories (like an IOT relay) to the Auxiliary Power outputs 1 and 2 on your controller. For more detailed steps, it may be helpful to draw inspiration from the instructions provided for the LongBoard, below, as the setup should be very similar.
+
+## Setup for Original LongBoard
+
 This IOT setup method is written for the LongBoard controller and was inspired by the work of Max C., Mark D. and other LongMill community members! If you'd like to see Max' full original document, you can download it here: <a href="https://resources.sienci.com/wp-content/uploads/2021/06/Max-C.-IOT-Relay-setup.docx" target="_blank" rel="noopener">IOT Relay.doc</a>
 
-## Hardware
+### Hardware
 
 Parts needed:
 
@@ -41,7 +47,7 @@ Parts needed:
 
 ![](/_images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p1_Wire.jpg){.aligncenter .size-medium}
 
-## Installation
+### Installation
 
 1. Take out the green connector from the IOT relay and loosen the flat-head screws on the connector.
 1. Wire this connector so that the wires match up with the labelling on the IOT relay: red wire to the positive (+) and black to the negative (-). Clamp down the wires using the flat-heads on the terminals.
@@ -50,7 +56,7 @@ Parts needed:
 
 ![](/_images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p2_CoolantHookUp.jpg){.aligncenter .size-medium}
 
-## Testing
+### Testing
 
 Now's a good time to quickly verify that everything has been hooked up correctly. To test the relay, we'll be connecting to our LongMill via a g-code sender such as gSender, UGS, or CNCjs like we normally would and keep an eye on the red "power" light on the relay. Whichever sender you use you'll want to find the "Console" input area (shown by a red box), and type the following text:
 
@@ -74,7 +80,7 @@ If everything is behaving as expected, you'll now be able to test with the relay
 
 ![](/_images/_longmill/_advanced/_6_IOTRelay/lm_IOT_p5_FullDiagram.jpg){.aligncenter .size-medium}
 
-## G-code
+### G-code
 
 With everything working correctly, we now need to make sure these M8 and M9 g-code commands exist within your job files to signal the IOT relay on at the start of a job and off at the end.
 
@@ -107,6 +113,6 @@ This will now 'inject' the M8 command at the start of any g-code file and an M9 
 
 With your relay hooked up, you've now got a pretty serious CNC setup! Go out and leverage this new-found power to make great things and remember to stay safe :)
 
-## Troubleshooting
+### Troubleshooting
 
 We've occasionally heard of a situation where after the relay is wired up it can be enabled and disabled via the M8 and M9 commands but then when a file is run with M8 and M9 the program doesn't run and the CNC just sits motionless. We're still not fully certain on what the cause of this problem is but we've heard from LMers that increasing the gauge of wire going from the LongBoard to the relay, decreasing the distance between the LongBoard and the relay, and using a circuit breaker for the relay that's separate from the LongMill itself are all options that have previously remedied the issue.

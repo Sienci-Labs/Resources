@@ -134,7 +134,7 @@ Congrats are in order, well done! If you go back to the 'Console' you should now
 
 [tabbyending]
 
-[su_spoiler title="Advanced Firmware Flashing:" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+[su_spoiler title="STM Cube Flashing (Advanced)" open="yes" style="fancy" icon="chevron" anchor_in_url="yes"]
 
 ### STM Cube Flashing
 
