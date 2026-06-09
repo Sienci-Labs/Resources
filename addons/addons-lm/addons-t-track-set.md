@@ -1,7 +1,7 @@
 ---
 title: T-Track & Clamps
 menu_order: 5
-post_status: draft
+post_status: publish
 post_excerpt: How to set up and assemble the Sienci Labs T-Track set and clamping system for the LongMill MK2.
 post_date: 2026-05-20 16:15:00
 taxonomy:
@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/_longmill/_assembly/_addons/lm_addons_p18.jpg
 ---
 
-A T-Track system can be very useful and functional for your CNC bed if you find that it suits your needs. This workholding option comes alongside a wide variety of other options that exist when it comes to mounting materials and setting up jigs for your LongMill which you can read more about here: <a href="https://resources.sienci.com/view/lmk2-workholding/" target="_blank" rel="noopener">https://resources.sienci.com/view/lmk2-workholding/</a>
+A T-Track system can be very useful and functional for your CNC bed if you find that it suits your needs. This workholding option comes alongside a wide variety of other options that exist when it comes to mounting materials and setting up jigs for your LongMill which you can [read more about here](https://resources.sienci.com/view/cnc-workholding/).
 
 The reason we decided to make this t-track system available is because we designed its profile to use standard ¼-20 hex nuts and hex bolts rather than the more expensive t-nuts and t-bolts that are normally required. This means:
 
@@ -41,35 +41,18 @@ This layout minimizes reductions in cutting area and depth, and can be prepared 
 
 ## The T-Clamp System
 
-![](/_images/_longmill/_assembly/_addons/lm_addons_p19.jpg){.aligncenter .size-medium}
+![](/_images/_addons/addons_lm/addons_t-track-set-1.jpg){.aligncenter .size-medium}
 
-T-clamps are simple and reliable workholding tools that are used alongside T-Track tables. We've come up with T-clamps that work for various metals, plastics and woods, and hold down materials from 0.1" to 1" thick. These clamps are ideal for holding down small to medium sized pieces of material and also leverage their plastic ends to ensure you're covered in case you cut a little closer to the clamp than you expected. Inside the package you'll find:
-
-- Steel clamps (x6)
-- Knobs with inserts (x6)
-- 3D printed end caps (x6)
-- Hex head machine screws (x12)
-- Flat washers (x6)
-- T-track rails (x6)
-- Wood screws (x100)
-
-**To assemble the T-Clamps:**
-
-1. Push the plastic end cap onto the steel clamp - the end with two holes. It should have a slight wiggle but should not be easy to remove.
-1. Fasten a hex bolt onto the other end of the clamp. We recommend the hex head to be facing upwards so that it easily slides into the t-track, but you can change it if desired.
-1. Slide the other hex bolt through the clamp slot, with the hex head facing down. Bring the washer and knob from the top, so that the washer is contained between the clamp body and knob.
-1. Now you can slide the downward facing hex bolt onto the t-track and locate the clamp for mounting material.
-
-![](/_images/_longmill/_assembly/_addons/lm_addons_p20.jpg){.aligncenter .size-medium}
+T-clamps are simple and reliable workholding tools that are used alongside T-Track tables, holding down metals, plastics and woods at varying different thicknesses. These are ideal for holding down small to medium sized pieces of material and also leverage their plastic ends in case you cut a little closer to the clamp than you expected.
 
 **To use the T-Clamps:**
 
 1. Slide the hex bolt head through the t-track so that the entire clamp is on the table.  You may need to adjust the bolt and knob to have it fit onto the table.
 1. Place your workpiece onto the table.
-1. Move and adjust the clamp to push down onto the workpiece, ensuring that the end cap side of the clamp is lower than the bolt end. Tighten both bolts until snug. Position the clamps so that there is enough space for your cutting job on your workpiece.
-1. Push your material to check if it is secured onto the table. If not, use more t-clamps or other workholding methods.
+1. Move and adjust the clamp to push down onto the workpiece, ensuring that the clamping end is lower than the bolt end. Tighten both bolts until snug. Position the clamps so that there is enough space for your cutting job on your workpiece.
+1. Push your material to check if it is secured onto the table. If not, use more T-clamps or other workholding methods.
 
-![](/_images/_longmill/_assembly/_addons/lm_addons_p21.jpg){.aligncenter .size-medium}
+{.aligncenter .size-medium}
 
 ## Making your own clamps
 

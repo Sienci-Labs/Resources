@@ -1,7 +1,7 @@
 ---
 title: Limit Switches ⛔
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: How to mount and wire custom limit switches or the inductive limit switch kit to the LongMill MK2. 
 post_date: 2026-05-20 16:10:00
 taxonomy:
@@ -17,27 +17,28 @@ featured_image: _images/_longmill/_advanced/_ind-sensors/lm_ad_in_1_DSC00411-sca
 
 Limit switches (also referred to as end stops or homing switches) are switches that sit at one or both ends of each axis of a CNC to provide a few different functions. There are many different limit switch designs which broadly fall under being either mechanical or non-mechanical.
 
-## **Are they for You?**
+## **Are They for You?**
 
 Limit switches will usually be used to:
 
 1. Define soft or hard limits in order to prevent a CNC from damaging itself if it travels past its movement limits
 1. Repeatably locate the machine (homing) for jogging / work offsets, saving a job that's gone bad, or to resume existing work done for a long or multi-part job
+1. Enable the use of a tool length sensor (TLS), which can help reduce time spent on bit changes
 
-These added perks are great in the long run as they can fulfill the needs of more advanced CNC users when they're running longer and more complex jobs. There's a big catch though, switches require more mindfulness on behalf of the CNCer. That means remembering to home every time you connect to your machine, keeping in mind Alarms you may experience if you're too close to a hard or soft limit, and lastly understanding that adding switches to your machine can also introduce more complexity when troubleshooting problems with it.
+These added perks can fulfill the needs of more advanced CNC users when they're running longer and more complex jobs. There's a big catch though, switches require more mindfulness on behalf of the CNCer. That means remembering to home every time you connect to your machine, keeping in mind alarms you may experience if you're too close to a hard or soft limit, and lastly understanding that adding switches to your machine can also introduce more complexity when troubleshooting problems with it.
 
-This is why we worked to make the LongMill's design address some benefits of switches so that switches weren't as necessary. This includes:
+This is why we worked to make the LongMill's design encompass some benefits of switches, so that switches aren't necessary for most users. This includes:
 
-1. **Hitting the ends of its travel area causes zero damage to the machine:** <br> In larger, more powerful machines such as VMCs and industrial CNC routers, crashing a machine can very well mean costly damage to your machine so limit switches are cheap insurance to prevent that. However, on hobby machines like the LongMill, the machine is not powerful enough to cause damage to itself, and so are not really necessary. In fact, in some cases, it can be more of a hassle as accidental triggers can ruin a project.
-1. **Locating the machine can alternatively be done by using a touch plate:** <br> 'Homing' is just the act of calibrating a CNC to a particular spot repeatably so that if, for example, you lose your CNC position due to a power outage or for a tool-change then you can find that position again using the offset distance from the calibrated point. This calibrated point can be set using limit switches but can just as easily be a touch plate or conductive geometry that a tool can touch off
+1. **Hitting the ends of its travel area causes zero damage to the machine:** <br> In larger, more powerful machines such as VMCs and industrial CNC routers, crashing a machine can very well mean costly damage to your machine, so limit switches are cheap insurance to prevent that. However, on hobby machines like the LongMill, the machine is not powerful enough to cause damage to itself, and so limit switches are not really necessary. In fact, in some cases, it can be more of a hassle as accidental triggers can ruin a project.
+1. **Locating the machine can alternatively be done by using a touch plate:** <br> 'Homing' is just the act of calibrating a CNC to a particular spot repeatably so that if, for example, you lose your CNC position due to a power outage, or for a tool-change then you can find that position again using the offset distance from the calibrated point. This calibrated point can be set using limit switches but can just as easily be a touch plate or conductive geometry that a tool can touch off.
 
-This means the LongMill does NOT need limit switches to operate which is why they're not included by default. That said, switches may still be worth your consideration if you find yourself running longer and longer jobs, performing more complex cuts, or you want to relocate your position more easily.
+This means the LongMill does NOT need limit switches to operate. That said, switches may still be worth your consideration if you find yourself running longer and longer jobs, performing more complex cuts, or you want to relocate your position more easily.
 
 ## MK2 Limit Switch Kit
 
 https://youtu.be/Z3XCH60SyIY
 
-What's unique about our Inductive Sensor Kit over what's commonly on the market is the use of inductive sensors over mechanical ones. These solid-state sensors don't have moving parts and so can last for a long time in dusty industrial environments, making them very reliable. The instructions below will cover how the kit installs on the LongMill MK2 and also include details on how you can put it to use in your daily cutting cycle.
+What's unique about our sensors over what's commonly on the market is the use of inductive sensors over mechanical ones. These solid-state sensors don't have moving parts, so they can last for a long time in dusty environments, making them very reliable. The instructions below will cover how the kit installs on the LongMill MK2 and also include details on how you can put it to use in your daily cutting cycle.
 
 ### Unpacking
 
@@ -169,58 +170,9 @@ All 6 of these workspaces are saved by the controller even after powering off th
 
 https://www.youtube.com/watch?v=jmiaWA5tiVw&t=336s
 
-## Troubleshooting
+## LongBoard Custom Limit Switches
 
-<strong><span style="text-decoration: underline;">Homing didn't complete / 'Alarm 9'</span></strong>
-
-Homing can fail by either immediately detecting a limit switch when there's none nearby, moving in the wrong direction, or a limit switch not triggering when reached. For homing direction you can use the 'Firmware' tool to flip any axis with the '$23' value. For all other cases, it's best to first re-check your wiring and that each sensor is connected to the correct port. More detailed troubleshooting is available if you type "$10=19" into the console and when you place a piece of metal in front of any sensor type "?" into the console and look at the response text to confirm that the correct sensor is registering as being triggered.
-
-![](/_images/_lmmk2/_add-ons/_limits/lmk2_add_li_sensor-position.jpg){.aligncenter .size-medium}
-
-If all sensors are reporting correctly, another check to make is that there's nothing preventing the machine from reaching the sensor. It shouldn't be colliding or be too far away that the machine isn't activating the red light on the sensor. Once troubleshooting is complete be sure to send "$10=3" in the console to exit from the special reporting state.
-
-<strong><span style="text-decoration: underline;">Limit Switches Not Responding</span></strong>
-
-If you aren't seeing a sensor triggered in the gSender console the issue may be with the connector on the controller or with the sensor itself. While rare, the sensor can fail but most likely the issue will be on the board. Let's test and see if the limit switch is responding correctly. When a piece of metal is placed in front of the limit switch, the red LED on the back of the sensor should light up. You may have to cover the back of the sensor with your hand to see the LED. During this test, make sure your controller is on.
-
-1. With the limit switch plugged into it's corresponding connector, i.e., Z limit switch plugged into the Z port, put a piece of metal in front of the sensor. Does the LED light on the back of the sensor turn on?
-2. Now plug the limit switch into one of other limit switch ports, i.e., Z into X port. Does the LED turn on when a piece of metal is placed in the front of it?
-    1. If the sensor LED turns on when plugged into the X-connector but not on the Z connector the issue is likely with the board.
-    2. If the sensor LED doesn't turn on at all when plugged into either connector, it's likely the issue is the sensor.
-
-To further test the controller please take a small length of wire and install it as the image below. One end will be in either the XLim, YLim, or ZLim pin (depending on the limit switch with the issue) and the other in the GND pin.
-
-![](/_images/_lmmk2/_add-ons/_limits/lmk2_add_li_jumper.jpg){.aligncenter .size-medium}
-
-Open gSender and in the bottom-right corner click Console. In the space that says "Enter G-Code Here..." Type the following text in bold
-
-1. **$10=19,** then press run
-2. **"?"**  then press run.
-
-You should one of the following lines depending on which sensor was jumped
-
-![](/_images/_lmmk2/_add-ons/_limits/lmk2_add_li_sensor-position.jpg){.aligncenter .size-medium}
-
-If you see the following, the issue is on the board and a replacement will be required to use the homing switches. Once troubleshooting is complete be sure to send "$10=3" in the console to exit from the special reporting state.
-
-![](/_images/_lmmk2/_add-ons/_limits/lmk2_add_li_board-replace.png){.aligncenter .size-medium}
-
-<strong><span style="text-decoration: underline;">Jogging or jobs suddenly stop - 'Alarm 2' or 'Error 15'</span></strong>
-
-This is coming from your soft limits:
-
-* Make sure you've set the maximum travel settings ($130, $131, $132) to the correct distance that your machine can travel.
-* Make sure you've homed your machine.
-
-<strong><span style="text-decoration: underline;">Jogging or jobs suddenly stop - 'Alarm 1'</span></strong>
-
-This happens when a hard limit is triggered. You'll be able to coax the machine away from the limit but next time be mindful of getting close to the machine's limits. If you have soft limits enabled alongside hard limits it'll prevent your machine from ever triggering hard limits unless it isn't homed.
-
-<strong><span style="text-decoration: underline;">Unexpected plunging during jobs - cutting lines into my material</span></strong>
-
-If you've noticed this after enabling homing on your machine, it is most likely a result of your g-code using the 'G28 safe retract' command. This command is used by some CAM software like Fusion 360 to return the Z-axis to its home position but when the machine hasn't been homed it can cause unexpected movements or tool plunging. If you want to avoid this in the future make sure you home before you run a job or consider disabling homing or modifying the post processor of your CAM software so it doesn't use G28 commands.
-
-## Custom Limit Switches
+[su_spoiler title="LongBoard Custom Limit Switches" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 
 ### Wiring Considerations
 
@@ -276,7 +228,9 @@ To attach your switches you'll need to find an appropriate place to mount them o
 
 Once wiring is complete, the last step is to configure your firmware to suit your limit switch setup. If your setup is quite basic then you can go to the [Firmware Changes](#firmware-changes) header above and read how to complete basic setup before learning how to [use](#using-limit-switches) and [troubleshoot](#troubleshooting) your switches. Otherwise you can read below for more advanced firmware changes.
 
-## All Firmware Settings
+[/su_spoiler]
+
+## Firmware Settings
 
 You can use the basic settings outlined for our kit or make more advanced changes to suit your own setup.
 
@@ -307,3 +261,54 @@ Settings can be changed by sending the command to update the EEPROM settings man
 | **$27 - Homing pull-off distance** | By default, this distance is set to 1 mm (**$27=1**). This is the distance the machine must move away from the switch to un-trigger it. For some switches, such as mechanical switches, this can be a few millimeters, while for inductive proximity sensors may only need a fraction of a millimetre. For inductive sensors, we recommend keeping your default homing pull off distance at 1mm, while if you are using mechanical switches, to use a large number to ensure that your switch is completely untriggered after your homing sequence. |
 
 [/su_table]
+
+## Troubleshooting
+
+<strong><span style="text-decoration: underline;">Homing didn't complete / 'Alarm 9'</span></strong>
+
+Homing can fail by either immediately detecting a limit switch when there's none nearby, moving in the wrong direction, or a limit switch not triggering when reached. For homing direction you can use the 'Firmware' tool to flip any axis with the '$23' value. For all other cases, it's best to first re-check your wiring and that each sensor is connected to the correct port. More detailed troubleshooting is available if you type "$10=19" into the console and when you place a piece of metal in front of any sensor type "?" into the console and look at the response text to confirm that the correct sensor is registering as being triggered.
+
+![](/_images/_lmmk2/_add-ons/_limits/lmk2_add_li_sensor-position.jpg){.aligncenter .size-medium}
+
+If all sensors are reporting correctly, another check to make is that there's nothing preventing the machine from reaching the sensor. It shouldn't be colliding or be too far away that the machine isn't activating the red light on the sensor. Once troubleshooting is complete be sure to send "$10=3" in the console to exit from the special reporting state.
+
+<strong><span style="text-decoration: underline;">Limit Switches Not Responding</span></strong>
+
+If you aren't seeing a sensor triggered in the gSender console the issue may be with the connector on the controller or with the sensor itself. While rare, the sensor can fail but most likely the issue will be on the board. Let's test and see if the limit switch is responding correctly. When a piece of metal is placed in front of the limit switch, the red LED on the back of the sensor should light up. You may have to cover the back of the sensor with your hand to see the LED. During this test, make sure your controller is on.
+
+1. With the limit switch plugged into it's corresponding connector, i.e., Z limit switch plugged into the Z port, put a piece of metal in front of the sensor. Does the LED light on the back of the sensor turn on?
+2. Now plug the limit switch into one of other limit switch ports, i.e., Z into X port. Does the LED turn on when a piece of metal is placed in the front of it?
+    1. If the sensor LED turns on when plugged into the X-connector but not on the Z connector the issue is likely with the board.
+    2. If the sensor LED doesn't turn on at all when plugged into either connector, it's likely the issue is the sensor.
+
+To further test the controller please take a small length of wire and install it as the image below. One end will be in either the XLim, YLim, or ZLim pin (depending on the limit switch with the issue) and the other in the GND pin.
+
+![](/_images/_lmmk2/_add-ons/_limits/lmk2_add_li_jumper.jpg){.aligncenter .size-medium}
+
+Open gSender and in the bottom-right corner click Console. In the space that says "Enter G-Code Here..." Type the following text in bold
+
+1. **$10=19,** then press run
+2. **"?"**  then press run.
+
+You should one of the following lines depending on which sensor was jumped
+
+![](/_images/_lmmk2/_add-ons/_limits/lmk2_add_li_sensor-position.jpg){.aligncenter .size-medium}
+
+If you see the following, the issue is on the board and a replacement will be required to use the homing switches. Once troubleshooting is complete be sure to send "$10=3" in the console to exit from the special reporting state.
+
+![](/_images/_lmmk2/_add-ons/_limits/lmk2_add_li_board-replace.png){.aligncenter .size-medium}
+
+<strong><span style="text-decoration: underline;">Jogging or jobs suddenly stop - 'Alarm 2' or 'Error 15'</span></strong>
+
+This is coming from your soft limits:
+
+* Make sure you've set the maximum travel settings ($130, $131, $132) to the correct distance that your machine can travel.
+* Make sure you've homed your machine.
+
+<strong><span style="text-decoration: underline;">Jogging or jobs suddenly stop - 'Alarm 1'</span></strong>
+
+This happens when a hard limit is triggered. You'll be able to coax the machine away from the limit but next time be mindful of getting close to the machine's limits. If you have soft limits enabled alongside hard limits it'll prevent your machine from ever triggering hard limits unless it isn't homed.
+
+<strong><span style="text-decoration: underline;">Unexpected plunging during jobs - cutting lines into my material</span></strong>
+
+If you've noticed this after enabling homing on your machine, it is most likely a result of your g-code using the 'G28 safe retract' command. This command is used by some CAM software like Fusion 360 to return the Z-axis to its home position but when the machine hasn't been homed it can cause unexpected movements or tool plunging. If you want to avoid this in the future make sure you home before you run a job or consider disabling homing or modifying the post processor of your CAM software so it doesn't use G28 commands.

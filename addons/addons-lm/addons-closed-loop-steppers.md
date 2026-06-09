@@ -1,7 +1,7 @@
 ---
 title: Closed Loop Upgrade
 menu_order: 2
-post_status: draft
+post_status: publish
 post_excerpt: How to install and set up the Closed Loop Stepper Motors Kit on your LongMill CNC
 post_date: 2026-05-20 16:01:00
 taxonomy:
@@ -17,11 +17,9 @@ featured_image: _images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-allparts
 
 Switching to the Closed Loop Stepper Motors (CLSM) from the open loop motors is easy. The main difference between the open loop and the closed loop motors is that the open loop motors lack positional feedback making them prone to “skipping steps” under load. With closed loop motors there is a feedback system that helps in monitoring their positions which enables them to self-correct errors, improve accuracy and operate more efficiently.
 
-For a more detailed rundown on how to successfully prepare for the use of the SLB-EXT please refer to the [following documentation](https://resources.sienci.com/view/am-slb-ext-controller/).
-
 ## Unboxing
 
-Your upgrade kit will include a new SLB EXT, 4 closed loop motors, 4 inductive sensors, a new 48 volt power supply and more! Check out the list below and [contact our team](https://sienci.com/contact-us/) if any parts are missing.
+Your upgrade kit will include a new SLB-EXT, 4 closed loop motors, 4 inductive sensors, a new 48 volt power supply and more! Check out the list below and [contact our team](https://sienci.com/contact-us/) if any parts are missing.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-allparts.jpg){.aligncenter .size-medium}
 

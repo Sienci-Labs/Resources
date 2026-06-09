@@ -1,7 +1,7 @@
 ---
 title: Dust Shoe & Shields
 menu_order: 3
-post_status: draft
+post_status: publish
 post_excerpt: Set up and assemble the Magnetic Dust Shoe and dust shields for your LongMill MK2. These add-ons will help keep your work surface free from dust.
 post_date: 2026-05-20 16:08:00
 taxonomy:
@@ -15,13 +15,13 @@ skip_file: no
 featured_image: _images/_lmmk2/_add-ons/lmk2_dustshoe_MK2-Dust-Shoe_wid.png
 ---
 
-Material chips and dust management isn't a necessity on any CNC router but it certainly doesn't hurt. Some great benefits that you'll notice with a proper dust management setup are:
+Material chips and dust management isn't a necessity on any CNC router (as long as you're wearing dust protection gear), but it certainly doesn't hurt. Some great benefits that you'll notice with a proper dust management setup are:
 
 - Less cleaning maintenance on your CNC
 - Little need to clean up after your machine
 - Keeps your cutting mess contained and shop air clean
 
-The LongMill MK2 had two add-ons designed alongside it for added dust management: a magnetic dust shoe for active dust collection and Y-axis dust shields for keeping your Y-axis rails and mechanics spotless during regular use. Below we'll be covering these add-ons and how to set them up on your MK2. Other dust management options also exist for the MK2, such as Z-axis dependant dust shoe designs from Carbide 3D, PwnCNC, and others.
+The LongMill MK2 had two add-ons designed alongside it for added dust management: a magnetic dust shoe for active dust collection and Y-axis dust shields for keeping your Y-axis rails and mechanics spotless during regular use. Below we'll be covering these add-ons and how to set them up on your MK2. 
 
 ## Magnetic Dust Shoe
 
