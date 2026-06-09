@@ -18,23 +18,22 @@ featured_image: _images/_superlongboard/_firmware/slb_fi_p1_Connected.jpg
 
 Your board will likely ship with the latest firmware already installed, but we occasionally make updates to add new features or address any discovered issues. You may also choose to re-flash the firmware onto your board if you've attempted to customize it or for troubleshooting purposes.
 
-Before getting started, **check what your current version is** by going to the 'Machine Information' icon, and see what version you are currently running.
+Before getting started, **check what your current version is** by going to the 'Machine Information' icon, and see what version you are currently running. If the version number in the Latest Firmware is **higher** than what's on your board, we recommend upgrading.
 
 ![](/_images/_superlongboard/_firmware/slb_fi_p01_firmwareversion.jpg)
 
-Compare this to the list below, to see if you need to update.
+**Latest Firmware:**
 
-**Most Recent Firmware:**
-
-- SLB: <a href="https://drive.google.com/file/d/1YTGGgDs-a5Ajsb47IDdven7NOovp7flb/view?usp=drive_link" target="_blank" rel="noopener">5.0.5b</a>
+- SLB: <a href="https://drive.google.com/file/d/1YTGGgDs-a5Ajsb47IDdven7NOovp7flb/view?usp=drive_link" target="_blank" rel="noopener">5.0.5b (20230917) </a>
+  - Version **20230917**
   - Updated default A-axis step/mm to match typical Vortex setups using 32nd microstepping
   - Updated defaults to accommodate some machine setups that couldn't handle the max speeds and accelerations of the SLB
   - Changed min spindle speed, spindle on delay, and default enabled spindles to match typical spindle setups using the SLB
-- SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1gc_tUbQwiuG4P-6CdOinreDUIbKNDO73/view?usp=drive_link" target="_blank" rel="noopener">Main_grblHAL</a>
+- SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1gc_tUbQwiuG4P-6CdOinreDUIbKNDO73/view?usp=drive_link" target="_blank" rel="noopener">Main_grblHAL (20260318)</a>
 
+  - Version **20260318**
   - Newest, main version of grblHAL
-  - Requires gSender 1.6.0 or newer
-  - Build version 20260318
+  - Requires gSender 1.6.2 or newer
   - Unplug the VFD for firmware flashing
   
 - SLB EXT (AltMill) **ONLY** for users with Huanyang or generic 'MODVFD' spindle setups: <a href="https://resources.sienci.com/wp-content/uploads/2024/04/SienciLabs_Main_grblHAL_Firmware_HY_MODVFD.hex">Main_grblHAL_HY_MODVFD</a>
