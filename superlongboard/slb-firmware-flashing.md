@@ -22,26 +22,28 @@ Before getting started, **check what your current version is** by going to the '
 
 ![](/_images/_superlongboard/_firmware/slb_fi_p01_firmwareversion.jpg)
 
-**Latest Firmware:**
+### Latest Firmware
 
-- SLB: <a href="https://drive.google.com/file/d/1YTGGgDs-a5Ajsb47IDdven7NOovp7flb/view?usp=drive_link" target="_blank" rel="noopener">5.0.5b (20230917) </a>
-  - Version **20230917**
-  - Updated default A-axis step/mm to match typical Vortex setups using 32nd microstepping
-  - Updated defaults to accommodate some machine setups that couldn't handle the max speeds and accelerations of the SLB
-  - Changed min spindle speed, spindle on delay, and default enabled spindles to match typical spindle setups using the SLB
-- SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1gc_tUbQwiuG4P-6CdOinreDUIbKNDO73/view?usp=drive_link" target="_blank" rel="noopener">Main_grblHAL (20260318)</a>
+SLB: <a href="https://drive.google.com/file/d/1YTGGgDs-a5Ajsb47IDdven7NOovp7flb/view?usp=drive_link" target="_blank" rel="noopener">5.0.5b (20230917) </a>
 
-  - Version **20260318**
-  - Newest, main version of grblHAL
-  - Requires gSender 1.6.2 or newer
-  - Unplug the VFD for firmware flashing
+- Version **20230917**
+- Updated default A-axis step/mm to match typical Vortex setups using 32nd microstepping
+- Updated defaults to accommodate some machine setups that couldn't handle the max speeds and accelerations of the SLB
+- Changed min spindle speed, spindle on delay, and default enabled spindles to match typical spindle setups using the SLB
+
+SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1gc_tUbQwiuG4P-6CdOinreDUIbKNDO73/view?usp=drive_link" target="_blank" rel="noopener">Main_grblHAL (20260318)</a>
+
+- Version **20260318**
+- Newest, main version of grblHAL
+- Requires gSender 1.6.2 or newer
+- Unplug the VFD for firmware flashing
   
-- SLB EXT (AltMill) **ONLY** for users with Huanyang or generic 'MODVFD' spindle setups: <a href="https://resources.sienci.com/wp-content/uploads/2024/04/SienciLabs_Main_grblHAL_Firmware_HY_MODVFD.hex">Main_grblHAL_HY_MODVFD</a>
+SLB EXT (AltMill) **ONLY** for users with Huanyang or generic 'MODVFD' spindle setups: <a href="https://resources.sienci.com/wp-content/uploads/2024/04/SienciLabs_Main_grblHAL_Firmware_HY_MODVFD.hex">Main_grblHAL_HY_MODVFD</a>
 
-  - Newest, main version of grblHAL</li>
-  - Requires gSender 1.6.0 or newer</li>
-  - Specific firmware require for use with Huanyang 'V1' or 'P2A' VFDs or generic spindles using 'MODVFD'.</li>
-  - Read more about the use of the 'MODVFD' spindle profile for generic VFDs <a href="https://sienci.zendesk.com/hc/en-us/articles/41538568827668-MODVFD-Setup">here.</a>
+- Newest, main version of grblHAL</li>
+- Requires gSender 1.6.0 or newer</li>
+- Specific firmware require for use with Huanyang 'V1' or 'P2A' VFDs or generic spindles using 'MODVFD'.</li>
+- Read more about the use of the 'MODVFD' spindle profile for generic VFDs <a href="https://sienci.zendesk.com/hc/en-us/articles/41538568827668-MODVFD-Setup">here.</a>
   
 [su_spoiler title="<b>Past Versions:</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 
