@@ -1,5 +1,5 @@
 ---
-title: Vortex Rotary Axis
+title: Vortex Rotary Axis 🌀
 menu_order: 8
 post_status: publish
 post_excerpt: Setting up and using the Vortex rotary axis.

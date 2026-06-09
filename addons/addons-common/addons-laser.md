@@ -1,5 +1,5 @@
 ---
-title: Laser
+title: Laser 🔥
 menu_order: 5
 post_status: publish
 post_excerpt: How to set up a laser on the CNC.

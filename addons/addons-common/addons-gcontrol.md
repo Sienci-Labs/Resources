@@ -1,5 +1,5 @@
 ---
-title: gControl Computer
+title: gControl Computer 🖥️
 menu_order: 3
 post_status: publish
 post_excerpt: Setting up your gControl panel computer.
