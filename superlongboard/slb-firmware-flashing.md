@@ -31,9 +31,9 @@ SLB: <a href="https://drive.google.com/file/d/1YTGGgDs-a5Ajsb47IDdven7NOovp7flb/
 - Updated defaults to accommodate some machine setups that couldn't handle the max speeds and accelerations of the SLB
 - Changed min spindle speed, spindle on delay, and default enabled spindles to match typical spindle setups using the SLB
 
-SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1gc_tUbQwiuG4P-6CdOinreDUIbKNDO73/view?usp=drive_link" target="_blank" rel="noopener">Main_grblHAL (20260318)</a>
+SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1DyymJLXV8rH4l39VM9VgCTyUuCH7AghP/view?usp=drive_link" target="_blank" rel="noopener">Main_grblHAL (20260318)</a>
 
-- Version **20260318**
+- Version **20260525**
 - Newest, main version of grblHAL
 - Requires gSender 1.6.2 or newer
 - Unplug the VFD for firmware flashing
