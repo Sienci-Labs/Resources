@@ -15,11 +15,15 @@ skip_file: no
 featured_image: 
 ---
 
+For video instructions on how to mount and set up your TLS, see the video below.
+
+https://youtu.be/fswJHOhdZgE
+
 ## Mounting
 
 You will need to decide on a location for your TLS. Ideally it is somewhere at the edge of the machine’s travel area, that doesn't trigger hard or soft limit alarms from the limit switches.
 
-❗Before proceeding, please note you must have limit switches installed on your machine in order to use the TLS.
+❗Please note you must have limit switches installed on your machine in order to use the TLS.
 
 ### AltMill
 
