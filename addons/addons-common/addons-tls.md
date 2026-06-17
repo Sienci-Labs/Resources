@@ -17,7 +17,7 @@ featured_image:
 
 For video instructions on how to mount and set up your TLS, see the video below.
 
-https://youtu.be/fswJHOhdZgE
+https://www.youtube.com/watch?v=fswJHOhdZgE
 
 ## Mounting
 
@@ -47,7 +47,11 @@ You will need to decide on a location for your TLS. Ideally it is somewhere at t
 
 Attach the connector from the TLS to the TLS cable.
 
+![](/_images/_addons/addons_common/addons_tls-connect.jpg){.aligncenter .size-medium}
+
 Then install cable clips on the T-slots in the crossbeams, routing from the SLB/SLB-EXT controller to the location of your TLS.
+
+![](/_images/_addons/addons_common/addons_tls-cableclip.jpg){.aligncenter .size-medium}
 
 Finally, connect the other end of the TLS cable to the controller.
 
@@ -80,10 +84,6 @@ Finally, connect the other end of the TLS cable to the controller.
 
     ![](/_images/_addons/addons_common/addons_tls-prbeconfig.jpg){.aligncenter .size-medium}
 
-1. Go to the More Settings tab, for Tool Change Mode set to Normal
-
-    ![](/_images/_addons/addons_common/addons_tls-moresetconfig.jpg){.aligncenter .size-medium}
-
 1. Go to the Spindle/Laser tab and adjust these settings:
     - Spindle/laser controls
         - Toggle ON
@@ -100,7 +100,7 @@ Finally, connect the other end of the TLS cable to the controller.
 
 1. Jog the machine to a place on your wasteboard where you can conduct a manual tool change safely
 
-1. Navigate to Tool Changing tab then adjust the Manual Tool Change Location
+1. Navigate to Tool Changing tab then adjust the **Manual tool change location**
     - First press Grab button to get the X and Y values
     - Then enter 0 for the Z, so that collisions do not occur
 
