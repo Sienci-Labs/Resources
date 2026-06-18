@@ -25,7 +25,7 @@ If you are installing the TLS onto a 3rd party controller or CNC, please check t
 
 Review the documents below to ensure compatibility:
 
-[TLS Sensor Diagram](https://resources.sienci.com/wp-content/uploads/2024/04/Sienci-Labs-TLS-Sensor-diagram.)
+[TLS Sensor Diagram](https://resources.sienci.com/wp-content/uploads/2024/04/Sienci-Labs-TLS-Sensor-diagram.pdf)
 
 [TLS Wiring Harness Diagram](https://resources.sienci.com/wp-content/uploads/2024/04/Sienci-Labs-TLS-harness-diagram.pdf)
 
