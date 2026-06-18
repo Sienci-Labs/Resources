@@ -15,9 +15,21 @@ skip_file: no
 featured_image: 
 ---
 
-For video instructions on how to mount and set up your TLS, see the video below.
+For video instructions on how to mount and set up your tool length sensor (TLS), see the video below.
 
 https://www.youtube.com/watch?v=fswJHOhdZgE
+
+## 3rd Party Compatibility
+
+If you are installing the TLS onto a 3rd party controller or CNC, please check that your controller has a 3-pin input for the TLS, for **ground (GND)**, **signal** and **power (VCC)**. If your controller has only a 2-pin input, you will need to power the TLS externally with 5-24V, since it is an active sensor.
+
+Review the documents below to ensure compatibility:
+
+[TLS Sensor Diagram](https://resources.sienci.com/wp-content/uploads/2024/04/Sienci-Labs-TLS-Sensor-diagram.)
+
+[TLS Wiring Harness Diagram](https://resources.sienci.com/wp-content/uploads/2024/04/Sienci-Labs-TLS-harness-diagram.pdf)
+
+[TLS Sensor Specifications](https://resources.sienci.com/wp-content/uploads/2024/04/TLS-Sensor-Sepcifications-Sheet.pdf)
 
 ## Mounting
 
