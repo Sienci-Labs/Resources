@@ -1,7 +1,7 @@
 ---
 title: Visualizers
 menu_order: 4
-post_status: publish
+post_status: draft
 post_excerpt: CNC g-code visualizers are a great way to verify the toolpaths of your g-code file before running them on your LongMill CNC machine.
 post_date: 2022-03-17 19:57:00
 taxonomy:
