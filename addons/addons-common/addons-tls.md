@@ -75,9 +75,13 @@ Finally, connect the other end of the TLS cable to the controller.
 
 1. Connect to gSender.
 
-1. Install your longest end mill into the spindle. This is to ensure there is enough clearance during tool changing.
+1. Install your **longest end mill** into the spindle. This is to ensure there is enough clearance during tool changing.
 
-1. Jog the machine so the end mill is positioned over the center, slightly above the TLS.
+1. **Home** the machine. You must have limit switches installed to do homing, otherwise you cannot use the TLS.
+
+    ![](/_images/_atc/_atc_basics/atc_basics_firstpro-congsender.jpg){.aligncenter .size-medium}
+
+1. Jog the machine so the end mill is positioned over the center of the TLS, slightly above the metal button.
 
 1. Go to Config, and under the Tool Changing tab, adjust the following settings:
 
@@ -110,7 +114,7 @@ Finally, connect the other end of the TLS cable to the controller.
 
 1. Re-connect to gSender
 
-1. Jog the machine to a place on your wasteboard where you can conduct a manual tool change safely
+1. Jog the machine to a place where you can change out your end mill safely and easily, like at the front of your machine.
 
 1. Navigate to Tool Changing tab then adjust the **Manual tool change location**
     - First press Grab button to get the X and Y values
@@ -162,8 +166,12 @@ The default grbl post-processor does not support tool changing, you will need to
 
     - [Post-processor for the Vortex rotary axis](https://drive.google.com/file/d/1tEr16-cVp_aaULNH_i3Dd5rDd4RDe02K/view)
 
+1. Finally, when saving your toolpaths to export as g-code, select **Visible toolpaths to one file.**
+
+![](/_images/_addons/addons_common/addons_tls-addpp4.jpg){.aligncenter .size-medium}
+
 ---
-    ❗If you run into an error while exporting, it may be because you have duplicated tool numbers. Since all this g-code is in one file, you must have unique tool numbers (T#) assigned to each toolpath. For each toolpath, go into the tool library and replace the tool numbers using different whole numbers (e.g. 1, 2, 5, 12). Then try exporting again.
+    ❗If you run into an error while exporting, it may be because you have duplicated tool numbers. Since all this g-code is in one file, you must have unique tool numbers (T#) assigned to each toolpath. On Vectric, for each toolpath, go to tool library and replace the tool number with different whole numbers (e.g. 1, 2, 5, 12), then try saving again. Or you can do it manually - open your existing g-code file in a text-editing program (i.e. Notepad) and change every T# to be unique.
 ---
 
 ### Carveco
@@ -189,7 +197,7 @@ Fusion has the ability to toggle on tool changing g-code. When exporting the g-c
 
 1. Once the g-code has been saved to your computer, open gSender and **connect** to your machine.
 
-1. **Home** the machine. You must have limit switches installed to do homing, otherwise you cannot use the TLS.
+1. **Home** the machine.
 
     ![](/_images/_atc/_atc_basics/atc_basics_firstpro-congsender.jpg){.aligncenter .size-medium}
 
@@ -199,11 +207,13 @@ Fusion has the ability to toggle on tool changing g-code. When exporting the g-c
 
     ![](/_images/_addons/addons_common/addons_tls-tooltimeline.jpg){.aligncenter .size-medium}
 
+1. Install the **end mill** you are starting your job with.
+
 1. With your stock material secured on the wasteboard, set your X, Y Z zeros by either using a touch plate or manually.
 
 1. Press **Run Job**! The tool change wizard will pop up, you will be prompted to either probe the tool length or do a full tool change.
 
-    Select the **probe tool length option** - this causes the machine to move upwards to a safe height, then will move to probe the TLS.
+    Select the **Only probe tool length** option - this causes the machine to probe the TLS with your installed end mill.
 
     Finally it will start your job. The spindle will spin up, and the machine will start cutting!
 
