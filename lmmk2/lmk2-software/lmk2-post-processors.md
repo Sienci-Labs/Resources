@@ -1,7 +1,7 @@
 ---
 title: Post Processors
 menu_order: 3
-post_status: publish
+post_status: draft
 post_excerpt: Post-processors used for the grbl-based LongMill CNC, covering programs such as Vectric, Fusion360, Carveco, Carbide Create and Easel.
 post_date: 2022-03-17 19:55:00
 taxonomy:
