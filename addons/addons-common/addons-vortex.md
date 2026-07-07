@@ -1,6 +1,6 @@
 ---
 title: Vortex Rotary Axis 🌀
-menu_order: 8
+menu_order: 9
 post_status: publish
 post_excerpt: Setting up and using the Vortex rotary axis.
 post_date: 2026-05-20 15:35:22
