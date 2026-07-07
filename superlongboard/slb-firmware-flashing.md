@@ -16,9 +16,9 @@ featured_image: _images/_superlongboard/_firmware/slb_fi_p1_Connected.jpg
 ---
 ## Check Firmware Version
 
-Your board will likely ship with the latest firmware already installed, but we occasionally make updates to add new features or address any discovered issues. You may also choose to re-flash the firmware onto your board if you've attempted to customize it or for troubleshooting purposes.
+Your board will likely ship with the latest firmware already installed, but we occasionally make updates to add new features or address any discovered issues. You may also choose to re-flash the firmware onto your board if you've attempted to customize it, or for troubleshooting purposes.
 
-Before getting started, **check what your current version is** by going to the 'Machine Information' icon, and see what version you are currently running. If the version number in the Latest Firmware is **higher** than what's on your board, we recommend upgrading.
+Before getting started, **check what your current version is** by going to the 'Machine Information' icon, and see what version you are currently running. If the version number in the [Latest Firmware](#latest-firmware) section is **higher** than what's on your board, we recommend upgrading.
 
 ![](/_images/_superlongboard/_firmware/slb_fi_p01_firmwareversion.jpg)
 
@@ -31,14 +31,13 @@ SLB: <a href="https://drive.google.com/file/d/1YTGGgDs-a5Ajsb47IDdven7NOovp7flb/
 - Updated defaults to accommodate some machine setups that couldn't handle the max speeds and accelerations of the SLB
 - Changed min spindle speed, spindle on delay, and default enabled spindles to match typical spindle setups using the SLB
 
-SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1DyymJLXV8rH4l39VM9VgCTyUuCH7AghP/view?usp=drive_link" target="_blank" rel="noopener">Main_grblHAL (20260525)</a>
+SLB-EXT: <a href="https://drive.google.com/file/d/1DyymJLXV8rH4l39VM9VgCTyUuCH7AghP/view?usp=drive_link" target="_blank" rel="noopener">Main_grblHAL (20260525)</a>
 
 - Version **20260525**
 - Newest, main version of grblHAL
 - Requires gSender 1.6.2 or newer
 - Huanyang or generic 'MODVFD' spindle setups included
 - Read more about the use of the 'MODVFD' spindle profile for generic VFDs <a href="https://sienci.zendesk.com/hc/en-us/articles/41538568827668-MODVFD-Setup">here.</a>
-- Unplug the VFD for firmware flashing
   
 [su_spoiler title="<b>Past Versions:</b>" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
 
@@ -57,19 +56,24 @@ SLB EXT (AltMill): <a href="https://drive.google.com/file/d/1DyymJLXV8rH4l39VM9V
 
 To successfully flash new firmware onto your SLB, you'll need:
 
-1. The **firmware file** (.hex file)
-1. A computer that can run **gSender**, connected to the SLB/SLB-EXT controller over **USB**
+1. The [firmware file](#latest-firmware) (.hex file)
+1. A computer that can run [gSender 1.6.2 or above](https://sienci.com/gsender/), connected to the SLB/SLB-EXT controller over **USB**
 
    - The controller cannot flash through Ethernet
-1. The appropriate power supply to **power your SLB/SLB-EXT** during flashing
 1. For Windows, STM32Cube, **downloaded and installed** to your computer
 
     - <a href="https://drive.google.com/file/d/1XzT21kwJFHcPzCDYhIdux49At6-TmrVA/view?usp=drive_link" target="_blank" rel="noopener">STM32Cube File</a>
+
+    ![](/_images/_superlongboard/_firmware/slb_fi_stmcube.jpg){.aligncenter .size-medium}
+
 1. To note down any **firmware settings** that you have changed from the default firmware settings. This is especially important if you have a third-party CNC.
+1. To keep your SLB/SLB-EXT **powered ON** during flashing.
 1. To turn OFF any accessories that receive a control signal from the SLB, just in case the flashing process inadvertently sends control signals to those accessories.
 1. To **unplug your VFD** cable at the spindle side, not the VFD side.
 
-        The video shows the complete firmware update process, for an SLB-EXT on a Windows computer, using gSender to flash. 
+![](/_images/_superlongboard/_firmware/slb_fi_spincable.jpg){.aligncenter .size-medium}
+
+    The video shows the complete firmware update process, for an SLB-EXT on a Windows computer, using gSender to flash.
 
 https://www.youtube.com/watch?v=YmmHqQR9WTY
 
@@ -77,31 +81,43 @@ https://www.youtube.com/watch?v=YmmHqQR9WTY
 
 [tabby title="Current" open="yes"]
 
-1. Be connected to your SLB over USB with the power on, ensure the firmware selected is '**grblHAL**' not '**grbl**'
+1. Connect to gSender over USB with the power on, and ensure the firmware is '**grblHAL**' not '**grbl**'
 
-   ![](/_images/_superlongboard/_firmware/slb_fi_p1_Connected-newu.jpg){.aligncenter .size-medium}
+   ![](/_images/_superlongboard/_firmware/slb_fi_connected-newu.jpg){.aligncenter .size-medium}
+
 1. Go to the **Config tab** and click the **Flash** button
+  ![](/_images/_superlongboard/_firmware/slb_fi_p2_FlashgrblHAL-newu.jpg){.aligncenter .size-medium}
 
-   ![](/_images/_superlongboard/_firmware/slb_fi_p2_FlashgrblHAL-newu.jpg){.aligncenter .size-medium}
-1. Ensure the COM port is correct (matches the board you're connected to), and that you have selected grblHAL as your controller type
-1. Click 'Choose File' to select the ".hex" firmware file you plan to update to, in the picture below it's the 5.0.11 firmware for the AltMill
+1. Select the **same COM port** as before, and select **grblHAL** as your controller type.
+
+1. Click 'Choose File' to select the ".hex" firmware file you plan to update to.
+
+    ![](/_images/_superlongboard/_firmware/slb_fi_Choose-newu.jpg){.aligncenter .size-medium}
+
 1. Click 'Yes' to begin the flashing process. If it stops before 100% and you see an error for:
    - "LIBUSB_ERROR_NOT_SUPPORTED", you'll need to [update your Windows driver](#windows-driver-update)
    - "Unable to find valid device", you might have [installed your Windows drivers incorrectly](#bad-driver-install)
    - "LIBUSB_ERROR_ACCESS", your Ubuntu device might be having a [USB rights issue](#ubuntu-driver-update)
 
-   ![](/_images/_superlongboard/_firmware/slb_fi_p3_Choose-newu.jpg){.aligncenter .size-medium}
-1. Once you see the loading bar at 100%, flashing is complete. Exit out of the firmware window and switch off the board with the power switch at the back then turn it back on again.
+1. Once you see the loading bar at 100%, flashing is complete. Close the window and turn OFF and ON the SLB/SLB-EXT.
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p4_Flashing-newu.jpg){.aligncenter .size-medium}
-1. Once it's back on, you should be able to re-connect to it in gSender. Go to the **Console tab** and send the command `$rst=$` to revert your machine back to the default firmware settings (you shouldn't get any errors when you send this command).
+
+1. Reconnect to gSender. Go to the **Console tab** and send the command `$rst=$` to revert your machine back to the default firmware settings (you shouldn't get any errors when you send this command).
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p5_ConsoleRST-newu-2.jpg){.aligncenter .size-medium}
-1. Power the board off and then back on one more time after sending the command. Finally, if you had any specific settings from your previous setup that you want to check or reload, connect back to gSender and change those firmware values back. Remember to hit "Apply New Settings" when you're doing this and ensure that the settings are being re-added correctly, if they don't seem to be sticking then make sure that your SLB is in an 'Idle' state, cleared of all Alarms, and try turning the SLB off and back on again.
 
-Congrats are in order, well done! If you go back to the 'Console' you should now see that sending the `$i` command will give you new text that matches up with the update you've made.
+1. Power OFF and ON the controller.
 
-![](/_images/_superlongboard/_firmware/slb_fi_p5a_Consolei-newu.gif){.aligncenter .size-full}
+1. Finally, if you had any specific settings from your previous setup that you want to reapply, connect back to gSender, go to Config and change those firmware values back.
+
+        When finished, remember to press Apply New Settings, then turn OFF/ON the controller. If the settings aren't applying, make sure the controller is in an 'Idle' state, cleared of all Alarms, then try turning the controller OFF/ON again.
+
+1. Go to the 'Console', type in `$i` and press Run. Scroll up and check that the version number matches the firmware version you uploaded.
+
+![](/_images/_superlongboard/_firmware/slb_fi_console.gif){.aligncenter .size-full}
+
+Congrats are in order, well done on successfully flashing the firmware!
 
 [tabby title="Classic gSender"]
 
@@ -112,23 +128,31 @@ Congrats are in order, well done! If you go back to the 'Console' you should now
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p2_FlashgrblHAL.jpg){.aligncenter .size-medium}
 1. Ensure the COM port is correct (matches the board you're connected to)
+
 1. Click 'Choose File' to select the ".hex" firmware file you plan to update to, in the picture below it's the 5.0.7 firmware
+
 1. Click 'Yes' to begin the flashing process. If it stops before 100% and you see an error for:
    - "LIBUSB_ERROR_NOT_SUPPORTED", you'll need to [update your Windows driver](#windows-driver-update)
    - "Unable to find valid device", you might have [installed your Windows drivers incorrectly](#bad-driver-install)
    - "LIBUSB_ERROR_ACCESS", your Ubuntu device might be having a [USB rights issue](#ubuntu-driver-update)
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p3_Choose.jpg){.aligncenter .size-medium}
+
 1. Once you see the loading bar at 100%, flashing is complete. Exit out of the firmware window and switch off the board with the power switch at the back then turn it back on again.
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p4_Flashing.jpg){.aligncenter .size-medium}
+
 1. Once it's back on, you should be able to re-connect to it in gSender. Go to the 'Console' tab and send the command `$rst=$` to revert your machine back to the default firmware settings (you shouldn't get any errors when you send this command).
 
    ![](/_images/_superlongboard/_firmware/slb_fi_p5_ConsoleRST.jpg){.aligncenter .size-medium}
-1. Power the board off and then back on one more time after sending the command. Finally, if you had any specific settings from your previous setup that you want to check or reload, connect back to gSender and change those firmware values back. Remember to hit "Apply New Settings" when you're doing this and ensure that the settings are being re-added correctly, if they don't seem to be sticking then make sure that your SLB is in an 'Idle' state, cleared of all Alarms, and try turning the SLB off and back on again.
 
-Congrats are in order, well done! If you go back to the 'Console' you should now see that sending the `$i` command will give you new text that matches up with the update you've made.
+1. Finally, if you had any specific settings from your previous setup that you want to reapply, connect back to gSender, go to Config and change those firmware values back.
 
+        When finished, remember to press Apply New Settings, then turn OFF/ON the controller. If the settings aren't applying, make sure the controller is in an 'Idle' state, cleared of all Alarms, then try turning the controller OFF/ON again.
+
+1. Go to the 'Console' and type in `$i` command and press Run. Scroll up and check that the version number matches the firmware version you uploaded.
+
+Congrats are in order, well done on successfully flashing the firmware!
 [tabbyending]
 
 [su_spoiler title="STM Cube Flashing (Advanced)" open="yes" style="fancy" icon="chevron" anchor_in_url="yes"]
