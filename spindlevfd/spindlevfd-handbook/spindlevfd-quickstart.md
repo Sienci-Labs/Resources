@@ -1,6 +1,6 @@
 ---
 title: Quick Start Guide
-menu_order: 1
+menu_order: 2
 post_status: publish
 post_excerpt: Documentation on how to use Sienci Labs spindles.
 post_date: 2026-06-02 15:09:42

@@ -1,6 +1,6 @@
 ---
 title: VFD Settings
-menu_order: 2
+menu_order: 3
 post_status: publish
 post_excerpt: Documentation on default VFD settings and how to change them.
 post_date: 2026-06-02 15:09:42
