@@ -1,15 +1,15 @@
 ---
 title: Spring Loaded Nuts
-menu_order: 5
-post_status: draft
+menu_order: 6
+post_status: publish
 post_excerpt: How to replace your backlash nuts with the updated spring-loaded anti-backlash nuts.
-post_date: 2025-03-26 15:29:00
+post_date: 2026-06-26 15:29:00
 taxonomy:
-    knowledgebase_cat: lmk2-add-ons
+    knowledgebase_cat: addons-lm
     knowledgebase_tag:
-        - mk2
+        - addons
 custom_fields:
-    KBName: LongMill MK2 CNC
+    KBName: Add-ons
     basepress_post_icon: bp-caret-right
 skip_file: no
 featured_image: _images/_lmmk2/_add-ons/_spring-nut/lmk2_add_sp_xaxis-1.jpg
