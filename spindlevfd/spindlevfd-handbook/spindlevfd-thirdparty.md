@@ -1,6 +1,6 @@
 ---
 title: Third Party Spindles
-menu_order: 3
+menu_order: 4
 post_status: publish
 post_excerpt: Documentation on sourcing a third-party spindle for your AltMill or LongMill.
 post_date: 2026-06-02 15:09:42
