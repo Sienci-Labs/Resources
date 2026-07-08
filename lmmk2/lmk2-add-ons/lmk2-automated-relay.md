@@ -1,7 +1,7 @@
 ---
 title: Automated / IOT Relay
 menu_order: 7
-post_status: publish
+post_status: draft
 post_excerpt: Use an IOT relay on your LongMill CNC to automatically control power to your router, vacuum, lighting, or other AC power systems.
 post_date: 2022-03-17 20:29:00
 taxonomy:
