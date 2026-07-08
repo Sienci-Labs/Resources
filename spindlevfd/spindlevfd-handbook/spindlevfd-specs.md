@@ -30,7 +30,7 @@ Each kit comes with:
 ***Spindle and VFD Specifications***
 
 - Spindle body diameter: 80mm
-- Collet system: ER20
+- Collet nut: ER20-A, M25x1.50mm
 - Spindle weight: 5.4KG or 11.9lbs
 - RPM range: 7,500 to 24,000 RPM
 - Power: 1.5KW (2HP)
@@ -54,7 +54,7 @@ Each kit comes with:
 ***Spindle and VFD Specifications***
 
 - Spindle body diameter: 80mm
-- Collet system: ER20
+- Collet nut: ER20-A, M25x1.50mm
 - Spindle weight: 5.4KG or 11.9lbs
 - RPM range: 7,500 to 24,000 RPM
 - Power: 2.2KW (3HP)
