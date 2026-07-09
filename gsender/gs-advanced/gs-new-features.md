@@ -19,7 +19,7 @@ Let's take a closer look at some of the latest features to make it out of our gS
 
 ## G-code Editor
 
-https://youtu.be/iXMwxNussZ4 
+https://youtu.be/iXMwxNussZ4
 
 gSender now includes a built-in G-code editor, allowing you to inspect and make quick edits to your file directly inside the application without needing to open external software.
 

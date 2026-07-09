@@ -17,7 +17,7 @@ featured_image:
 
 ## Macros
 
-https://youtu.be/SBksQ18edww
+https://www.youtube.com/watch?v=SBksQ18edww
 
 Macros are standalone buttons within the gSender interface that allow you to execute a series of g-code commands when they're run. Macros can come in handy for a variety of uses:
 
