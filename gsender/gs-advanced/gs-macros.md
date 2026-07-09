@@ -17,6 +17,8 @@ featured_image:
 
 ## Macros
 
+https://youtu.be/SBksQ18edww
+
 Macros are standalone buttons within the gSender interface that allow you to execute a series of g-code commands when they're run. Macros can come in handy for a variety of uses:
 
 - Button to run a v-carve or laser engraving of a common insignia into the back of your wood pieces
@@ -132,6 +134,8 @@ M356 P0 Q[nextLight % 3]
 [/su_spoiler]
 
 ## Automations
+
+https://www.youtube.com/watch?v=a90eMyKM0SQ
 
 A powerful feature to control your accessories automatically (like turning on/off a spindle or vacuum) or to run movement macros that are custom to your machine. 'Program Events' (formerly "Start/Stop G-code")' in gSenders settings automatically apply g-code to your cutting job at the start, end, or if you stop, pause, or resume the job. The 'Stop' event is there to ensure that "ending g-code" is always run even if you have to stop a job prematurely. You can also toggle these on and off if you don't want them run for specific jobs.
 
