@@ -89,7 +89,7 @@ The *Rapid*, *Normal*, and *Precise* buttons are preset values that will allow y
 
 ## Set Zero and Go tos
 
-https://youtu.be/d9ihlx54ouc
+https://www.youtube.com/watch?v=d9ihlx54ouc
 
 Each g-code file or project will have a starting position that all other movements are referenced off of. This is called the **Workpiece zero**. There are two ways to manually set your zero on gSender, and a couple automatic options that we cover in [Probing](#probing):
 

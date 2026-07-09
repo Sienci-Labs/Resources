@@ -19,7 +19,7 @@ Let's take a closer look at some of the latest features to make it out of our gS
 
 ## G-code Editor
 
-https://youtu.be/iXMwxNussZ4
+https://www.youtube.com/watch?v=iXMwxNussZ4
 
 gSender now includes a built-in G-code editor, allowing you to inspect and make quick edits to your file directly inside the application without needing to open external software.
 
@@ -100,7 +100,7 @@ Think of it like a printer. The printer has its own built-in settings that deter
 
 ## SD Card
 
-https://youtu.be/g5-TrX1Hvas
+https://www.youtube.com/watch?v=g5-TrX1Hvas
 
 gSender now includes expanded SD card file management support for **grblHAL-based controllers**.
 
