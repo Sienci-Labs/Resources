@@ -19,6 +19,8 @@ Let's take a closer look at some of the latest features to make it out of our gS
 
 ## G-code Editor
 
+https://youtu.be/iXMwxNussZ4
+
 gSender now includes a built-in G-code editor, allowing you to inspect and make quick edits to your file directly inside the application without needing to open external software.
 
 The editor includes:
@@ -60,6 +62,8 @@ This feature is especially useful for:
 
 ## EEPROM Editor
 
+https://www.youtube.com/watch?v=m-7IfnUux4c
+
 The new EEPROM editor gives advanced users direct access to controller configuration values from inside gSender.
 
 This tool replaces the older legacy firmware tool and provides a cleaner, more searchable interface for managing controller settings.
@@ -77,9 +81,26 @@ Because EEPROM values directly affect machine behaviour, only experienced users 
 
 ![](/_images/_gsender/_features/gs_fe_eeprom-settings.jpg){.aligncenter .size-medium}
 
-A good way to think about it is that EEPROM settings are stored on the controller itself — like settings saved in a car’s ECU — while gSender settings are stored in the gSender app on your computer, more like preferences in a GPS app. EEPROM settings affect how the machine actually behaves no matter which sender you use, such as steps/mm, acceleration, or homing direction. gSender settings only affect your experience inside gSender itself, such as saved macros, UI layout, or visualizer preferences
+### EEPROM vs gSender Settings
+
+Although both can be found under the Config tab, EEPROM values and gSender settings serve very different purposes.
+
+**EEPROM values** are stored on your CNC controller (SLB or SLB-EXT). These settings define how your machine physically operates, including values like motor calibration, acceleration, homing behaviour, travel limits, and limit switch configuration. Because they're stored on the controller itself, they remain the same even if you connect using a different computer or CNC sender.
+
+**gSender settings** are stored on your computer. These control how the gSender application behaves, including things like your interface preferences, macros, display options, maintenance reminders, and other application-specific settings. Changing computers or reinstalling gSender will not change your controller's EEPROM values.
+
+A simple way to remember the difference is:
+
+EEPROM = Machine Settings (stored on the controller)
+gSender = Application Settings (stored on your computer)
+
+Think of it like a printer. The printer has its own built-in settings that determine how it functions, while the print application on your computer has its own preferences for how you interact with it. The two work together, but changing one doesn't necessarily affect the other.
+
+> Tip: If a setting changes how the CNC machine moves, homes, or behaves, it's probably an EEPROM setting. If it changes how gSender looks or works, it's probably a gSender setting.
 
 ## SD Card
+
+https://youtu.be/g5-TrX1Hvas
 
 gSender now includes expanded SD card file management support for **grblHAL-based controllers**.
 
