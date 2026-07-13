@@ -54,7 +54,13 @@ At this time you can reinstall your gControl panel and mount, [see mounting inst
 ## gSender Setup
 
 1. Open **gSender** and connect to your machine.
-1. Go to **Tools**.
+1. Check your controller firmware by clicking on the machine information icon, and verifying version **20260525** is installed.
+
+    ![](/_images/_atc/_atc_assembly/_before/atc_assembly_beforeyoubegin-firmware2.jpg){.aligncenter .size-medium}
+
+    If not, **please update by following the [instructions here](https://resources.sienci.com/view/slb-firmware-flashing/)**. Then come back to this page for the next step.
+
+1. Once firmware has been updated, connect back to gSender and go to **Tools**.
 1. If you haven't yet, insert the **microSD card** into the slot on the SLB-EXT.
 1. Go to **SD Card Manager**.
 
