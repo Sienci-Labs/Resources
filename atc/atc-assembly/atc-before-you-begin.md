@@ -32,15 +32,15 @@ Before we dive in, we will need to make some changes on the software side. You w
 
     [CarveCo](https://drive.google.com/file/d/1UqWXNDYrgd2CR3ci91QXc0FMH09GMZRi/view?usp=drive_link)
 
-1. **Upgrade** [gSender](https://github.com/Sienci-Labs/gsender/releases) to 1.6.0 or higher, then come back for the next step.
+1. **Upgrade** [gSender](https://github.com/Sienci-Labs/gsender/releases) to 1.6.2 or higher, then come back for the next step.
 
 1. **Unplug** your spindle cable, VFD power cable, and RS485 (control) cable if they are plugged in.
 
     ![](/_images/_atc/_atc_assembly/_before/atc_assembly_beforeyoubegin-discon.jpg)
 
-1. **Check** your controller firmware by clicking on the machine information icon, and verifying version **20260318** is installed.
+1. **Check** your controller firmware by clicking on the machine information icon, and verifying version **20260525** is installed.
 
-    ![](/_images/_atc/_atc_assembly/_before/atc_assembly_beforeyoubegin-firmware.jpg){.aligncenter .size-medium}
+    ![](/_images/_atc/_atc_assembly/_before/atc_assembly_beforeyoubegin-firmware2.jpg){.aligncenter .size-medium}
 
     If not, **please update by following the [instructions here](https://resources.sienci.com/view/slb-firmware-flashing/),** or watch the **firmware update video** below, then come back for the next step.
 
