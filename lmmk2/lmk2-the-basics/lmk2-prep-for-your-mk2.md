@@ -1,8 +1,8 @@
 ---
-title: Know your MK2
-menu_order: 5
+title: Prep for your MK2 📋
+menu_order: 6
 post_status: publish
-post_excerpt: A quick start and resource guide for your LongMill MK2 CNC machine.
+post_excerpt: What to prepare for your LongMill MK2 CNC machine.
 post_date: 2022-03-21 20:31:00
 taxonomy:
     knowledgebase_cat: lmk2-the-basics
@@ -15,83 +15,39 @@ skip_file: no
 featured_image: _images/_lmmk2/_handbook/lmk2_knowcnc_Your-CNC-Assembly-View.png
 ---
 
-    ❗There is a lot of information to take in and learn and it can be overwhelming. Bookmark this page for easy access.
+Congrats on purchasing your new LongMill MK2! While you're waiting for your machine to show up, you can:
 
-## Capabilities
-
-The LongMill MK2 is a benchtop CNC with most features any hobby user wants, even capable of bringing small-scale production within the comfort of one's own shed or home shop. The balance of ease-of-use, cost, and rigidity is one that we think is fairly unique in the hobby CNC world, and when paired up with other accessories, serves green and more experienced CNC hobbyists alike. It can accomplish a variety of tasks such as:
-
-- Large sign lettering or full sign routing
-- Intricate v-carving and inlays
-- Furniture work and joinery
-- Slab flattening
-- Children's toys and household items
-- Wall art and gifts to friends and family
-
-The MK2 can comfortably carve a variety of materials including **hard and soft woods, plastics, foams, and waxes**. It can even produce acceptable work on soft metals like **aluminum, bronze, copper,** or can be equipped with other accessories like a drag knife, engraving tool, or laser diode to **cut vinyl, card stock, cardboard**, and **engrave ceramics, glass, and metals**.
-
-![](/_images/_lmmk2/_handbook/lmk2_knowcnc_materials-on-the-MK2.jpg){.aligncenter .size-medium}
-
-## Anatomy
-
-The MK2 is a 3-axis CNC that comes in three sizes. Each axis is lead screw driven to increase rigidity and maintain accuracy in the X-axis (left-to-right), Y-axis (forward and backward), and Z-axis (up and down, cutting into the material).
-
-![](/_images/_lmmk2/_handbook/lmk2_knowcnc_Your-CNC-Assembly-View.png){.aligncenter .size-medium}
-
-![](/_images/_lmmk2/_the-basics/lmk2_communitytable_footprint.jpg){.aligncenter .size-medium}
-
-For complete dimensions see:<a href="https://sienci.com/wp-content/uploads/2021/12/LongMill-MK2-48x30-30x30-and-12x30-dimensions.pdf" target="_blank" rel="noopener"> LongMill MK2 Drawing PDF</a>
-
-## 📋 Specifications
-
-**Weight:** ~30kg (70 lbs) not including MDF wasteboard plus other accessories
-
-**Power requirements:** at 120V, two independent circuits to provide...
-
-- 2.5A to the SLB controller
-- 6.5A to the Makita router or the rating of whichever router / spindle you equipped to your MK2
-- Power to the desktop, laptop, mini-PC, or SBC (i.e. single board computer, like a raspberry pi)
-
-  **AND**
-
-- Power to your dust management system whether it's a vacuum or dust collector
-  - This is a separate circuit to reduce static buildup or EMI issues
-
-**Operating temperature:** expect reliable operation between 5 🠚30°C shop temperature (can be colder or hotter outside), as long as you give your machine time to acclimate to its environment to avoid cold-running and moisture build up on the electronics. Using these methods some users have reported running in as low as -20°C, though wireless mice or keyboards reportedly become unreliable.
-
-**Operating humidity:** best results will occur from a balanced humidity (40-60%), too high and you can expect the moisture to degrade or even short the electronics, cause higher dust buildup, and swell the MDF wasteboard. Dry air can cause static charges to build up more easily, so a poorly grounded machine will experience electronic disruptions.
-
-**Storage:** all components have a wide operating temperature range such as -20 🠚 50°C for the stepper motors, -40 🠚 120 °C for delrin parts, -40 🠚 85°C for the control box, and -40 🠚 105 °C for the motor connectors. As long as the MK2 is kept stationary and at a mild ambient humidity (40-60%), it can survive being stored at nearly any temperature.
-
-**Max cutting speed:** 4000 mm/min (157.5 ipm) in X and Y, 3000 mm/min (118.1 ipm) in Z.
-
-**X & Y-axis motion:** Delrin v-wheels on high rigidity extruded aluminum rails with custom adjusting eccentric nuts.
-
-**Z-axis motion:** MGN12 recirculating ball bearing linear guide blocks, running on precision ground hardened steel rails.
-
-**Power transmission:** 12.6kg-cm (175oz-in) NEMA 23 steppers driving 4-start, 2mm pitch, 8mm lead, 8mm diameter ACME lead screws via anti-backlash tensioning nuts to 6.35mm (1/4″) steel gantry plates.
-
-**Router / spindle:** can run in 15000 - 25000 RPM range with reliable speed feedback, 0-5V PWM control for spindles. Router / spindle cannot exceed 2.7kg (6 lbs).
-
-**Electronics:** SuperLongBoard 5xHAL uses an STM32F412 chip running grblHAL powering four TMC2660C motor drivers. The LongBoard uses an Arduino Uno running grbl v1.1h powering four 4A TB6600 motor drivers.
-
-## 📖 Prep for your MK2
+## 📖 Start Learning
 
 - Familiarize yourself with [fundamental CNC concepts and workflows](https://resources.sienci.com/view/cnc-machines/)
-- Dive into understanding [CNC software](https://resources.sienci.com/view/cnc-software-explained/), and set up your [post processor](https://resources.sienci.com/view/cnc-post-processors/)
+- Dive into understanding [CNC software](https://resources.sienci.com/view/cnc-software-explained/)
+![](/_images/_cnc-fun/_software/cnc_so_explained_toolchain.jpg){.aligncenter .size-medium}
 - Bookmark these pages to refer to after your LongMill assembly
   - [Add-ons installation and usage guides](https://resources.sienci.com/add-ons/) (e.g. AutoZero touch plate, gControl panel)
   - How to do [maintenance on your LongMill](https://resources.sienci.com/view/lmk2-maintenance/)
   - [Feeds and speeds](https://resources.sienci.com/view/cnc-feeds-speeds/) for various material and bit types
   - Step by step instructions on [how to run a CNC job](https://resources.sienci.com/view/cnc-running-jobs/)
-  - [Finishing techniques](https://resources.sienci.com/view/cnc-sanding-finishing/) after you've cut out your project
+
+## 🔌Setup Your Space
+
+- Clear space in your shop or garage for the machine
+![](/_images/_lmmk2/_the-basics/lmk2_prep-for-your-mk2-48x30table.jpg){.aligncenter .size-medium}
+  - Find drawings for all LongMill MK2 sizes [here](https://sienci.com/wp-content/uploads/2021/12/LongMill-MK2-48x30-30x30-and-12x30-dimensions.pdf)
+- Build or source a table or benchtop
+  - Looking for ideas? [See these table designs](https://resources.sienci.com/view/lmk2-table-enclosure/#community-table-builds) made by fellow community members
+- Grab 3/4" MDF sheets for [mounting your table surface](https://resources.sienci.com/view/lmk2-table-mounting/)
+
+## 🛠️ Get Materials and Equipment
+
 - Determine what [computer](https://resources.sienci.com/view/cnc-system-requirements/) you would need, if you are not getting gControl panel
 - Consider which [workholding methods](https://resources.sienci.com/view/cnc-workholding/) to use  
 - Source [cutting tools](https://resources.sienci.com/view/cnc-cutting-tools/) for the types of projects you’re interested in making
+![](/_images/_cnc-fun/_the-basics/_cuttingtools/cnc_ba_cuttingtools_p11-advancedbits.jpg){.aligncenter .size-medium}
 - Figure out your [dust collection system](https://resources.sienci.com/view/cnc-dust-collection/)
 - Take precautions and grab [safety gear to protect your eyes and ears](https://resources.sienci.com/view/cnc-safety/)
-- Grab 3/4" MDF sheets for [mounting your table surface](https://resources.sienci.com/view/lmk2-table-mounting/)
-  - Looking for table ideas? [See these designs](https://resources.sienci.com/view/lmk2-table-enclosure/#community-table-builds) made by fellow community members
+- Familiarize yourself with the software options available, purchase the software and set up your [post processor](https://resources.sienci.com/view/cnc-post-processors/)
+
+  https://www.youtube.com/watch?v=GgeP3nUztpw
 
 ## 🗪 Community Support
 
@@ -106,7 +62,7 @@ If you haven't, check out our YouTube channel and our affiliated customers - we 
 - <a href="https://www.YouTube.com/c/IDCWoodcraft" target="_blank" rel="noopener">IDC WoodCraft -  Garrett Fromme</a>
 - <a href="https://www.YouTube.com/c/BuckysCustoms" target="_blank" rel="noopener">Bucky's Customs</a>
 
-## Community Modifications
+### Community Modifications
 
 If there are any known noteworthy designs or modifications made to the LongMill, they will be posted here. This is to make the information needed for modification more accessible and to also thank and recognize users and community members who have made an impact on the LongMill CNC project.
 
