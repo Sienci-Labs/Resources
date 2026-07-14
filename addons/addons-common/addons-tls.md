@@ -75,6 +75,10 @@ Finally, connect the other end of the TLS cable to the controller.
 
 1. Connect to gSender.
 
+1. **Check** your controller **firmware version** by clicking on the machine information (circuit board) icon. Write it down so you can refer to it later - it affects a setting we need to change.
+
+    ![](/_images/_atc/_atc_assembly/_before/atc_assembly_beforeyoubegin-firmware2.jpg){.aligncenter .size-medium}
+
 1. Install your **longest end mill** into the spindle. This is to ensure there is enough clearance during tool changing.
 
 1. **Home** the machine. You must have limit switches installed to do homing, otherwise you cannot use the TLS.
@@ -96,7 +100,17 @@ Finally, connect the other end of the TLS cable to the controller.
 
     ![](/_images/_addons/addons_common/addons_tls-tcconfig.jpg){.aligncenter .size-medium}
 
-1. Go to the Probe tab, for Invert Probe Inputs ($6) disable the Toolsetter.
+1. Go to the Probe tab. We will change the setting **Invert probe inputs ($6)** based on the controller firmware version.
+
+    **Firmware that starts with 2026 or higher** (e.g. 20260525, 20260318)
+    - Probe ON
+    - Toolsetter ON
+
+    ![](/_images/_addons/addons_common/addons_tls-prbeconfig-invert.jpg){.aligncenter .size-medium}
+
+    **All other firmware versions**
+    - Probe ON
+    - Toolsetter OFF
 
     ![](/_images/_addons/addons_common/addons_tls-prbeconfig.jpg){.aligncenter .size-medium}
 
