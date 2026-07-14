@@ -79,7 +79,7 @@ Finally, connect the other end of the TLS cable to the controller.
 
     ![](/_images/_atc/_atc_assembly/_before/atc_assembly_beforeyoubegin-firmware2.jpg){.aligncenter .size-medium}
 
-1. Install your **longest end mill** into the spindle. This is to ensure there is enough clearance during tool changing.
+1. Jog the machine towards you and install your **longest end mill** into the spindle. This is to ensure there is enough clearance during tool changing.
 
 1. **Home** the machine. You must have limit switches installed to do homing, otherwise you cannot use the TLS.
 
@@ -225,7 +225,7 @@ Fusion has the ability to toggle on tool changing g-code. When exporting the g-c
 
 1. With your stock material secured on the wasteboard, set your X, Y Z zeros by either using a touch plate or manually.
 
-1. Press **Run Job**! The tool change wizard will pop up, you will be prompted to either probe the tool length or do a full tool change.
+1. Press **Start** to run your job! The tool change wizard will pop up, you will be prompted to either probe the tool length or do a full tool change.
 
     Select the **Only probe tool length** option - this causes the machine to probe the TLS with your installed end mill.
 
