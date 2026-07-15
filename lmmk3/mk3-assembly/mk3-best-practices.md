@@ -1,5 +1,5 @@
 ---
-title: LongMill MK3 Best Practices
+title: Best Practices ⭐
 menu_order: 1
 post_status: draft
 post_excerpt: Best practices to keep in mind during setup for the LongMill MK3 CNC. 
