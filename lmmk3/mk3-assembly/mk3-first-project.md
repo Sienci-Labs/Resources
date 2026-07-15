@@ -1,8 +1,8 @@
 ---
-title: LongMill MK3 First Project
-menu_order: 8
+title: First Project
+menu_order: 9
 post_status: draft
-post_excerpt: What can you make on your LongMill MK3? We run through your 1st project step by step. Let's get cnc'ing!
+post_excerpt: What can you make on your LongMill MK3? We run through your 1st project step by step. Let's get CNC'ing!
 post_date: 2026-05-20 10:44:33
 taxonomy:
     knowledgebase_cat: mk3-assembly

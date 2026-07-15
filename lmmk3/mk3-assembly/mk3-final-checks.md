@@ -1,6 +1,6 @@
 ---
-title: LongMill MK3 Final Checks
-menu_order: 4
+title: 6. Final Checks
+menu_order: 7
 post_status: draft
 post_excerpt: After assembly, you can set up the electronics and g-code sender for the LongMill CNC. Wiring is shown for the control box, power supply, motors and more.
 post_date: 2026-05-20 10:44:33
