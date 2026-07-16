@@ -1031,19 +1031,62 @@ Find more information for VFD setup at <a href="https://wiki.printnc.info/en/ele
 
 Short for "Tool Length Sensor", this is a very common accessory for slightly more fancy CNC routers. Mounted somewhere the CNC can reach, they're used as a reliable place to go to re-zero the Z-axis on jobs that require multiple tools/ tool changes. This is handy especially when your original Z zero is lost as the material is cut away. TLSs are typically NC (normally closed) switches so that if the wire gets cut the machine doesn't crash into the sensor. The TLS output on the controller also provides 5V power for a powered TLS, the wire order being power, signal, GND (top-to-bottom).
 
-![](/_images/_superlongboard/_manual/slb_ma_p43_TLSBoard.jpg){.aligncenter .size-full}
+![](/_images/_superlongboard/_manual/slb_ma_p43_TLSBoard.jpg){.aligncenter .size-medium}
+
+### Wiring Considerations
+
+If you're unsure with your wiring or your TLS has more than 3 wires, you can use a multimeter and check any two wires until you find a set that contact/open when pressed, those two will be for signal and GND; the third might be power.
+
+If you have 4 wires your TLS might have 2 switches, one that triggers when pressed down just a bit, then the next one pressed in case of over travel. This would typically trigger an E-stop or Pause but you only really have to use the one that triggers first.
 
 ### TLS Signal Inversion
 
-If you have an **NO-wired TLS**, you must invert the signal before proceeding.
+If you have an **NO-wired TLS**, or if your TLS is **not triggered while probing**, you can try inverting the signal.
 
-On gSender, in Config, go to the Probe heading. Find **$6 Invert Probe Inputs**, and toggle the **Toolsetter** option to the opposite setting. Press Apply Settings then turn OFF/ON the controller to have the setting take effect.
+#### Check your Controller
+
+Before proceeding, verify your controller type and firmware version.
+
+On gSender, go to the 'Machine Information' (circuit board) icon, and see what version you are currently running. If you have an SLB-EXT, you can [upgrade to the latest version.](https://resources.sienci.com/view/slb-firmware-flashing/)
+
+![](/_images/_superlongboard/_firmware/slb_fi_p01_firmwareversion.jpg){.aligncenter .size-medium}
+
+- If you have an **SLB**, or an **SLB-EXT with version 5.0.11**, follow these [steps](#slbslb-ext-with-older-firmware)
+
+- Otherwise, for **SLB-EXT with all other versions** please see these [steps](#slb-ext-with-newer-firmware)
+
+### SLB/SLB-EXT with older firmware
+
+[su_spoiler title="SLB/SLB-EXT with older firmware" open="yes" style="fancy" icon="chevron" anchor_in_url="yes"]
+
+Through trial and error we can figure out the combination of firmware settings needed for your TLS to function.
+
+1. On gSender, go to Config, and navigate to Probe.
+
+1. Press the TLS to see if the Probe/TLS icon turns GREEN. If it doesn't, find the **Invert TLS Input ($668)** setting, and toggle it.
+
+1. If you have a touch plate, connect the touch plate to your machine, then contact the touch plate to close the circuit. See if the Probe/TLS icon turns GREEN. If it doesn't, find the **Invert Probe Pin ($6)** setting and toggle it.
+  ![](/_images/_superlongboard/_manual/slb_ma_tlsprbe.gif){.aligncenter .size-full}
+
+1. Press Apply Settings and turn OFF/ON your controller.
+
+[/su_spoiler]
+
+### SLB-EXT with newer firmware
+
+[su_spoiler title="SLB-EXT with newer firmware" open="yes" style="fancy" icon="chevron" anchor_in_url="yes"]
+
+On gSender, in Config, go to the Probe heading. Find **Invert Probe Inputs ($6)**, and toggle the **Toolsetter** option to the opposite setting. Press Apply Settings then turn OFF/ON the controller to have the setting take effect.
 
 ![](/_images/_superlongboard/_manual/slb_ma_inverttoolsetter.jpg){.aligncenter .size-full}
 
-### TLS Wiring
+[/su_spoiler]
 
-If your TLS is wired correctly, you should be able to press it and see the orange TLS light toggle ON or OFF on the controller.
+### TLS Testing
+
+#### Light on Controller
+
+If your TLS is wired correctly, you should be able to press it and see the orange TLS light on your SLB/SLB-EXT respond.
 
 - **Orange light ON** if TLS is wired **NO**
   - The light will only be ON when TLS is pressed or disconnected
@@ -1052,11 +1095,7 @@ If your TLS is wired correctly, you should be able to press it and see the orang
 
 ![](/_images/_atc/_atc_assembly/_software/atc_assembly_soft_tls.jpeg){.aligncenter .size-full}
 
-If you're unsure with your wiring or your TLS has more than 3 wires, you can use a multimeter and check any two wires until you find a set that contact/open when pressed, those two will be for signal and GND; the third might be power.
-
-If you have 4 wires your TLS might have 2 switches, one that triggers when pressed down just a bit, then the next one pressed in case of over travel. This would typically trigger an E-stop or Pause but you only really have to use the one that triggers first.
-
-### TLS Testing
+#### Probe/TLS Signal on gSender
 
 Check in your g-code sender if the TLS signal is set up correctly. This signal is shared with the touch plate, so the touch plate continuity or TLS press can trigger it. gSender has a status light to help see this, press the circuit board icon at the top of the screen. In other senders it should appear as 'P' for probe.
 
@@ -1068,7 +1107,7 @@ Check in your g-code sender if the TLS signal is set up correctly. This signal i
 
 1. If both the touch plate and TLS trigger the same response, then everything is working as expected.
 
-See this documentation on how to set up tool changing (<a href="https://resources.sienci.com/view/gs-tool-changing/" target="_blank" rel="noopener">gSender tool changing feature</a>) and make sure you select the 'Fixed tool sensor' option.
+See this [documentation](https://resources.sienci.com/view/gs-tool-changing/) on how to set up tool changing on gSender.
 
 ## Rotary Axis
 
