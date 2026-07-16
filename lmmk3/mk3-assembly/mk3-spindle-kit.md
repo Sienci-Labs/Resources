@@ -49,6 +49,8 @@ Before we begin, make sure that:
 
 1. With the machine connected to gSender, jog the Z-axis all the way down to gain access to the four (4) M5-25mm screws at the back of the XZ gantry.
 
+    You can also turn OFF the SLB-LITE and rotate the coupler by hand to move the Z-axis down.
+
 1. Using an Allen key, unfasten the four (4) back screws with an Allen key to remove the mount.
 
     ![](/_images/_lmmk3/_assembly/lmk3_spindle_kit-routerscrews.JPG){.aligncenter .size-medium}
