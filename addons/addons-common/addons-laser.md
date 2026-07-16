@@ -73,9 +73,11 @@ At the top of the screen, press on the circuit board icon for Machine Info. Veri
 
 Download the correct setup file for your firmware version:
 
-- [20260318 laser setup file](https://drive.google.com/file/d/19erTPAXCojBliCOjNlOmmlJeOfpwEBqe/view)
+**Firmware starting with 2026 and higher** (e.g. 20260318, 20260525)
+    - [Laser setup file](https://drive.google.com/file/d/19erTPAXCojBliCOjNlOmmlJeOfpwEBqe/view)
 
-- [20230917 laser setup file](https://drive.google.com/file/d/1NJjTt7qyPxVb2CWg4LjghdNB7najoxgu/view)
+**Older firmware** (e.g. 5.0.5b, 5.0.11, 20230917)
+    - [Laser setup file](https://drive.google.com/file/d/1NJjTt7qyPxVb2CWg4LjghdNB7najoxgu/view)
 
 Load the file into gSender, then press Start.
 
