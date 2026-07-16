@@ -71,7 +71,37 @@ Finally, connect the other end of the TLS cable to the controller.
 
 ## gSender Setup
 
-1. Download and install the latest version of gSender (**1.6.2 or above**). Detailed instructions can be found in [this article](https://resources.sienci.com/view/gs-installation/).
+### gSender 1.6.3 or above
+
+[su_spoiler title="gSender 1.6.3 or above" open="yes" style="fancy" icon="chevron" anchor_in_url="yes"]
+
+If you have gSender 1.6.3 or above, you can go through the setup automatically through the wizard.
+
+Go to Tools, Accessory Install, and select Sienci TLS.
+
+![](/_images/_addons/addons_common/addons_tls-accessoryinstall.jpg){.aligncenter .size-medium}
+
+Follow the steps to complete installation.
+
+Some helpful tips:
+
+When you **set TLS location**, use the longest end mill you have and jog the Z-axis to be about 0.5-1" above your TLS. This ensures there is enough height for your tool when probing.
+
+![](/_images/_addons/addons_common/addons_tls-settlslocation.jpg){.aligncenter .size-medium}
+
+When you **set tool change location**, jog the Z-axis all the way up, to the top of the machine travel. This ensures you can access the tool while changing it out.
+
+![](/_images/_addons/addons_common/addons_tls-manuallocation.jpg){.aligncenter .size-medium}
+
+[/su_spoiler]
+
+### gSender 1.6.2
+
+[su_spoiler title="gSender 1.6.2" open="no" style="fancy" icon="chevron" anchor_in_url="yes"]
+
+If you have not upgraded gSender to 1.6.3. or above, you can still set up the TLS manually through the Config tab.
+
+1. Make sure you have gSender **1.6.2** as older versions do not have TLS support. Detailed instructions can be found in [this article](https://resources.sienci.com/view/gs-installation/).
 
 1. Connect to gSender.
 
@@ -128,17 +158,18 @@ Finally, connect the other end of the TLS cable to the controller.
 
 1. Re-connect to gSender
 
-1. Jog the machine to a place where you can change out your end mill safely and easily, like at the front of your machine.
+1. Jog the machine to a place where you can change out your end mill safely and easily, like at the front of your machine. Then jog all the way **up on the Z-axis**, so you can access the tool during the change.
 
-1. Navigate to Tool Changing tab then adjust the **Manual tool change location**
-    - First press Grab button to get the X and Y values
-    - Then enter 0 for the Z, so that collisions do not occur
+1. Navigate to Tool Changing tab, then find the **Manual tool change location**
+    - Press the Grab button
 
     ![](/_images/_addons/addons_common/addons_tls-manualconfig.jpg){.aligncenter .size-medium}
 
 1. Apply the settings, then turn OFF/ON the controller
 
-### Testing
+[/su_spoiler]
+
+## Testing
 
 To make sure that the TLS is working as expected, **press down** on the TLS.
 
