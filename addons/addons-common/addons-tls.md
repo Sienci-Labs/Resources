@@ -101,7 +101,7 @@ When you **set tool change location**, jog the Z-axis all the way up, to the top
 
 If you have not upgraded gSender to 1.6.3. or above, you can still set up the TLS manually through the Config tab.
 
-1. Make sure you have gSender **1.6.2** as older versions do not have TLS support. Detailed instructions can be found in [this article](https://resources.sienci.com/view/gs-installation/).
+1. Make sure you have gSender **1.6.2** as older versions have limited TLS support. Detailed instructions can be found in [this article](https://resources.sienci.com/view/gs-installation/).
 
 1. Connect to gSender.
 
