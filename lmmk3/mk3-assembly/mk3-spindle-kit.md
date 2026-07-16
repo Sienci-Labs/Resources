@@ -39,7 +39,9 @@ Before we begin, make sure that:
 
     ![](/_images/_lmmk3/_assembly/lmk3_spindle_kit-routing.JPG){.aligncenter .size-medium}
 
-1. Route the spindle cable through the drag chains, so that the **blue/black connector end** exits at the **front of the left Y-axis**, and the **metal connector end** exits at the **Z-axis.**
+1. Route the spindle cable through the drag chains, so that the **blue/black connector end** is at the **front of the left Y-axis**, and the **metal connector end** is at the **Z-axis.**
+
+    ![](/_images/_lmmk3/_assembly/lmk3_spindle_kit-routingv2.jpg){.aligncenter .size-medium}
 
 1. Re-attach the drag chain clips and end links, securing the spindle cable and the existing motor cables in place.
 
