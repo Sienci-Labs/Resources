@@ -61,7 +61,7 @@ Otherwise, follow along using the instructions below.
 
 ### Hose Installation
 
-![](/_images/_atc/_atc_assembly/_dust/atc_assembly_dust-parts3.jpg){.aligncenter .size-full .wid}
+![](/_images/_atc/_atc_assembly/_dust/atc_assembly_dust-parts3v2.jpg){.aligncenter .size-full .wid}
 
 1. Check that the VFD is turned off.  
 
