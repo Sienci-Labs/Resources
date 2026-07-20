@@ -20,7 +20,11 @@ featured_image: _images/_atc/_atc_assembly/_dust/atc_assembly_dust_header.jpg
 
 ![](/_images/_atc/_atc_assembly/_dust/atc_assembly_dust-parts1.jpg){.aligncenter .size-full .wid}
 
+See video below for the installation of your dust shoe for the ATC!
+
 https://youtu.be/1Tg-IhbPyow
+
+Otherwise, follow along using the instructions below.
 
 ### Assembly
 
