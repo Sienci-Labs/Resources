@@ -14,4 +14,3 @@ skip_file: no
 featured_image: _images/post-image.jpg
 ---
 
-INCLUDE STEPS FOR SURFACING
