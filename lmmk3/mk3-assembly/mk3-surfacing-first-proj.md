@@ -19,7 +19,7 @@ featured_image: _images/post-image.jpg
         Learning Goals
 
         ☑️ How to home the machine
-        ☑️ How to use gSender's surfacing wizard
+        ☑️ How to surface material with gSender's surfacing wizard
         ☑️ Know what the settings mean in the surfacing wizard
         ☑️ How to set up the job's origin/zeros and zero the machine accordingly
         ☑️ How to use the AutoSpin in spindle mode
@@ -62,6 +62,8 @@ You will need to use a surfacing bit - these are designed for light passes and a
 
     Press Apply Settings, then turn OFF/ON your SLB-LITE controller.
 
+    ![](/_images/_lmmk3/_assembly/lmk3_final_checks-applysettings.jpg){.aligncenter .size-medium}
+
 1. Reconnect to gSender.
 
 1. Zero the machine:
@@ -80,6 +82,8 @@ You will need to use a surfacing bit - these are designed for light passes and a
 1. On the sidebar, navigate to **Tools**, then select Surfacing.
 
 1. You will find the Wasteboard Surfacing settings, adjust as needed.
+
+    ![](/_images/_lmmk3/_assembly/lmk3_surfacing_first_proj-surface.jpg){.aligncenter .size-medium}
 
     Start Position: Where to start surfacing, usually it's where you zeroed your machine.
     - Select the **bottom left corner** of the square, corresponding to the front left of the machine
@@ -106,8 +110,6 @@ You will need to use a surfacing bit - these are designed for light passes and a
     Spindle RPM: How fast your spindle/cutting tool rotates.
     - Use **20000 RPM**
 
-    ![](/_images/_lmmk3/_assembly/lmk3_surfacing_first_proj-surface.jpg){.aligncenter .size-medium}
-
 1. Once you adjusted the settings, click **Generate G-code** to view the toolpath on the right side of the window.
 
 1. Click **Run on Main Visualizer** to load the file onto gSender.
@@ -120,7 +122,11 @@ You will need to use a surfacing bit - these are designed for light passes and a
 
     The router should start spinning up on its own, and the machine should start moving and cutting your wasteboard!
 
-1. Once surfacing is complete, go into Config and **enable the Soft and Hard Limits** again and press Apply Settings. Turn OFF/ON the controller to have the changes take effect.
+1. Once surfacing is complete, go into Config and **enable the Soft and Hard Limits** again and press Apply Settings.
+
+    ![](/_images/_lmmk3/_assembly/lmk3_final_checks-applysettings.jpg){.aligncenter .size-medium}
+
+Turn OFF/ON the controller to have the changes take effect.
 
 Congratulations on getting your wasteboard surfaced!
 
@@ -146,7 +152,7 @@ This should highlight any cutting issues happening in X, Y and Z axes. Look out 
   - Inside means the outer contour of the shape is bound within the 2"
   - Outside means that the inner contour of the shape is bound by the 2"
 
-To do this project we will use two different cutting tools. You will one g-code file with the first tool, then switch out to the second tool, then run the other g-code file.
+To do this project we will use two different cutting tools. You will run one g-code file with the first tool, switch over to the second tool, then run the other g-code file.
 
 [Download the two g-code files here!](https://drive.google.com/drive/folders/1jcEPXCpg8cQ_NfbjNJJhV7MLB0gvGNeD?usp=sharing)
 
@@ -177,7 +183,9 @@ To do this project we will use two different cutting tools. You will one g-code 
 
 1. Home your machine.
 
-1. Jog your machine so the V-bit is at the front left corner of your material, and the V-bit touches the material surface. Then zero your X, Y and Z.
+1. Jog your machine so the V-bit is at the **front left** corner of your material, and the V-bit touches the material surface. Then zero your X, Y and Z.
+
+    - Zero at the **corner** if your material is exactly 10"x10". In the picture below, our material is larger than 10"x10" so we've set the zero slightly away.
 
     ![](/_images/_lmmk3/_assembly/lmk3_surfacing_first_proj-zeroing.JPG){.aligncenter .size-medium}
 
@@ -207,7 +215,7 @@ To do this project we will use two different cutting tools. You will one g-code 
 
     ![](../../_images/_lmmk3/_assembly/lmk3_surfacing_first_proj-endmillstart.jpg){.aligncenter .size-medium}
 
-1. Once complete, brush off any dust and take out your calipers. See if your machine is in tip-top shape.
+1. Once complete, brush off any dust and take out your calipers. See if your machine is in tip-top shape. You should expect a tolerance of +/-0.1mm.
 
     ![](/_images/_lmmk3/_assembly/lmk3_surfacing_first_proj-testcut1.JPG){.aligncenter .size-medium}
 

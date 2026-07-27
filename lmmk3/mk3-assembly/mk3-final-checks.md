@@ -36,7 +36,7 @@ We’re sure you’re itching to start cutting! Before chips go flying, we recom
 
 1. Homing completes successfully, without any alarms or errors
 
-    - Make sure the machine is away from the sensors before you press **Home**, otherwise you will get an immediate alarm
+    - Make sure the machine is **away from the sensors** before you press **Home**, otherwise you will get an immediate alarm
 
     ![](/_images/_lmmk3/_assembly/lmk3_final_checks-homing.gif){.aligncenter .size-full}
 
@@ -68,7 +68,7 @@ We’re sure you’re itching to start cutting! Before chips go flying, we recom
 
     ![](/_images/_lmmk3/_assembly/lmk3_final_checks-pwm.jpg){.aligncenter .size-medium}
 
-1. Otherwise if you have the **Sienci Labs Spindle Kit**, go to the [Spindle Kit](https://resources.sienci.com/view/mk3-spindle-kit/) page to set up your spindle.
+1. If you have the **Sienci Labs Spindle Kit**, open the [Spindle Kit](https://resources.sienci.com/view/mk3-spindle-kit/) page to set up your spindle.
 
 1. Machine is confirmed to be square, using gSender’s [XY Squaring Tool](https://resources.sienci.com/view/gs-calibration-tools/#xy-squaring)
 
