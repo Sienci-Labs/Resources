@@ -56,7 +56,7 @@ You will need to use a surfacing bit - these are designed for light passes and a
 
     ![](/_images/_lmmk3/_assembly/lmk3_final_checks-homingmk3.gif){.aligncenter .size-medium}
 
-1. Open the Config tool, and under Homing/Limits, disable the hard and soft limits. You will get an Alarm 2 if soft limits are enabled and you won't be able to surface you spoil board.
+1. Open the Config tool, and under Homing/Limits, disable the hard and soft limits. You will get an Alarm 2 if soft limits are enabled and you won't be able to surface your spoil board.
 
     ![](/_images/_lmmk3/_assembly/lmk3_surfacing_first_proj-limdisable.jpg){.aligncenter .size-medium}
 
