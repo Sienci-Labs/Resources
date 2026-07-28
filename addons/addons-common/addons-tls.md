@@ -199,7 +199,7 @@ The default grbl post-processor does not support tool changing, you will need to
 
     ![](/_images/_addons/addons_common/addons_tls-addpp2.jpg){.aligncenter .size-medium}
 
-1. There are two Sienci Labs post-processors available, select the **Sienci Labs ATC** for regular 3-axis milling. Otherwise you can come back to this window to add the Sienci Labs Vortex ATC, if you have a Vortex.
+1. There are two Sienci Labs post-processors available, select the **Sienci Labs TC** for regular 3-axis milling. Otherwise you can come back to this window to add the Sienci Labs Vortex TC, if you have a Vortex.
 
     i. If you cannot see the post-processor, press the cloud with arrow button to automatically download the latest ones.
 
