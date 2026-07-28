@@ -203,7 +203,7 @@ The default grbl post-processor does not support tool changing, you will need to
 
     i. If you cannot see the post-processor, press the cloud with arrow button to automatically download the latest ones.
 
-    ![](/_images/_addons/addons_common/addons_tls-addpp5.jpg){.aligncenter .size-medium}
+    ![](/_images/_addons/addons_common/addons_tls-addpost.jpg){.aligncenter .size-medium}
 
     ii. If you still cannot see them, you can download and install them on your own. Instructions on installation can be found on [Vectric’s website.](https://docs.vectric.com/docs/V12.0/VCarvePro/ENU/Help/form/post-processor-management/index.html)
 
