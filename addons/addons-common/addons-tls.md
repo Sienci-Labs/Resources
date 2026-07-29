@@ -81,17 +81,15 @@ Go to Tools, Accessory Install, and select Sienci TLS.
 
 ![](/_images/_addons/addons_common/addons_tls-accessoryinstall.jpg){.aligncenter .size-medium}
 
-Follow the steps to complete installation.
+Follow the steps to complete installation. Some tips:
 
-Some helpful tips:
+- When you **set TLS location**, use the longest end mill you have and jog the Z-axis to be about 0.5-1" above your TLS. This ensures there is enough height for your tool when probing.
 
-When you **set TLS location**, use the longest end mill you have and jog the Z-axis to be about 0.5-1" above your TLS. This ensures there is enough height for your tool when probing.
+    ![](/_images/_addons/addons_common/addons_tls-settlslocation.jpg){.aligncenter .size-medium}
 
-![](/_images/_addons/addons_common/addons_tls-settlslocation.jpg){.aligncenter .size-medium}
+- When you **set tool change location**, jog the Z-axis all the way up, to the top of the machine travel. This ensures you can access the tool while changing it out.
 
-When you **set tool change location**, jog the Z-axis all the way up, to the top of the machine travel. This ensures you can access the tool while changing it out.
-
-![](/_images/_addons/addons_common/addons_tls-manuallocation.jpg){.aligncenter .size-medium}
+    ![](/_images/_addons/addons_common/addons_tls-manuallocation.jpg){.aligncenter .size-medium}
 
 [/su_spoiler]
 
@@ -168,6 +166,10 @@ If you have not upgraded gSender to 1.6.3. or above, you can still set up the TL
 1. Apply the settings, then turn OFF/ON the controller
 
 [/su_spoiler]
+
+    ⚠️ Note that if you adjust your spindle height anytime after the TLS setup wizard, you must re-run the wizard or else the TLS won't work properly.
+
+![](/_images/_addons/addons_common/addons_tls-spinheight.jpg){.aligncenter .size-medium}
 
 ## Testing
 
