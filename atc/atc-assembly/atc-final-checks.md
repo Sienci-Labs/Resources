@@ -127,3 +127,13 @@ If you were unable to load the tool successfully, or saw errors during the proce
 ### Getting a "keep-out" error
 
 - This is normal, it is to prevent the machine from jogging into the rack. Ensure the machine is away from the rack area.
+
+### ATC options settings got reset, crashed into tool rack
+
+- This is a bug with gSender 1.6.0 and 1.6.1 - please install [gSender 1.6.2 or above](https://sienci.com/gsender/) to have this fixed.
+
+### I have a leftover 1/2" NPT straight fitting, why?
+
+- This fitting is included with all ATC kits as a courtesy. For those who have a third-party air filter regulator setup, you can use this instead of sourcing one yourself.
+
+    ![](/_images/_atc/_atc_assembly/_finalcheck/atc_assembly_finalcheck-12straightfit.JPG){.aligncenter .size-medium}
