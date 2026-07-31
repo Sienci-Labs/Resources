@@ -55,7 +55,7 @@ Before you can start your design, you must know the size and thickness of your m
 
 #### File Creation
 
-Design and CAM software are all used to create the final file for your project. Detailed information about software and the CNC tool chain can be found [HERE](https://resources.sienci.com/view/lmk2-software-explained/). In the following explanation, Carbide Create and gSender will be used for the Design/CAM and Machine Interface software examples.
+Design and CAM software are all used to create the final file for your project. Detailed information about software and the CNC tool chain can be found [HERE](https://resources.sienci.com/view/cnc-software-explained/). In the following explanation, Carbide Create and gSender will be used for the Design/CAM and Machine Interface software examples.
 
 #### Design Software
 
@@ -79,7 +79,7 @@ CNC bits come in a variety of shapes and sizes. You don’t need a specialty bit
 
 #### Creating Toolpaths
 
-Select the vector lines you want to machine then select the CNC bit. Change any parameters such as feed and speeds for your machine and material. Information on feeds and speeds can be found [HERE](https://resources.sienci.com/view/lmk2-feeds-and-speeds/). The CAM software will calculate the toolpath. In the example below, the design is in orange, and the toolpaths are blue. Once you are happy with the design, export the g-code.
+Select the vector lines you want to machine then select the CNC bit. Change any parameters such as feed and speeds for your machine and material. Information on feeds and speeds can be found [HERE](https://resources.sienci.com/view/cnc-feeds-speeds/). The CAM software will calculate the toolpath. In the example below, the design is in orange, and the toolpaths are blue. Once you are happy with the design, export the g-code.
 
 ![](/_images/_cnc-fun/_handbook/_runjobs/cnc_ha_runjobs_toolpath-example.jpg){.aligncenter .size-medium}
 
@@ -224,7 +224,7 @@ The RPM on the router can be changed on the fly by rotating the dial indicator t
 
 ## Finishing Your Project
 
-Now that you’ve got your piece machined out, finish the design with a nice smooth finish or an amazing paint job. Checkout our section on [Sanding & Finishing](https://resources.sienci.com/view/sanding-finishing/) for more details.
+Now that you’ve got your piece machined out, finish the design with a nice smooth finish or an amazing paint job. Checkout our section on [Sanding & Finishing](https://resources.sienci.com/view/cnc-sanding-finishing/) for more details.
 
 ### Sanding
 
