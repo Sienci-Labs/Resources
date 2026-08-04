@@ -20,6 +20,7 @@ featured_image: _images/post-image.jpg
 
         ☑️ How to home the machine
         ☑️ How to surface material with gSender's surfacing wizard
+        ☑️ How to determine surfacing dimensions while accounting for the dust shoe
         ☑️ Know what the settings mean in the surfacing wizard
         ☑️ How to set up the job's origin/zeros and zero the machine accordingly
         ☑️ How to use the AutoSpin in spindle mode
@@ -37,7 +38,7 @@ Surfacing can also:
 
 You will need to use a surfacing bit - these are designed for light passes and are larger in diameter than other bits, so they can cover a large area quickly while leaving a good surface finish.
 
-1. Grab the 22mm surfacing bit from your Starter End Mill pack, which came with your MK3.
+1. Grab the 22mm surfacing bit from your Starter End Mill pack, which came with your MK3 Beginner's Kit.
 
 1. Learn how to [install and remove tools](https://resources.sienci.com/view/as-er-collets/) on your AutoSpin. Then install your surfacing bit.
 
@@ -72,11 +73,13 @@ You will need to use a surfacing bit - these are designed for light passes and a
     - Then, jog down so the bit **touches the wasteboard**
     - Zero all the axes on the machine using the **Zero** button.
 
-1. Determine your XY surfacing dimensions:
+1. Put on the MK3 dust shoe.
+
+1. Determine your XY surfacing dimensions with the MK3 dust shoe installed:
 
     - Jog your machine to the **front right-most** corner.
     - Then jog your machine to the **back right-most** corner.
-    - Use the **blue coordinate numbers** as your X and Y surfacing dimensions. Roughly, X should be ~812mm (30x30) OR ~1244mm (48x30), and Y should be ~812mm.
+    - Use the **blue coordinate numbers** as your X and Y surfacing dimensions. Roughly, X should be ~774mm (30x30) OR ~1206mm (48x30), and Y should be ~812mm.
     - If you use a surfacing bit larger than 22mm, X and Y dimensions will be smaller.
 
 1. On the sidebar, navigate to **Tools**, then select Surfacing.
@@ -114,7 +117,7 @@ You will need to use a surfacing bit - these are designed for light passes and a
 
 1. Click **Run on Main Visualizer** to load the file onto gSender.
 
-1. If the dust shoe is on your machine, remove it to prevent damage. However you should still run a vacuum to minimize MDF dust in the air.
+1. Attach your vacuum hose to the MK3 dust shoe, and turn on the vacuum to minimize MDF dust in the air.
 
 1. Put on a mask or respirator. Then on gSender, you can press **Start**
 
@@ -130,7 +133,7 @@ Turn OFF/ON the controller to have the changes take effect.
 
 Congratulations on getting your wasteboard surfaced!
 
-## Project: CNC Test Cut
+## Project: CNC Test Carve
 
     Learning Goals
 
@@ -138,6 +141,7 @@ Congratulations on getting your wasteboard surfaced!
     ☑️ How to check squareness of your machine and identify cutting issues
     ☑️ How to install different sized bits
     ☑️ Know what workholding to use based on the project
+    ☑️ How to zero the machine either manually or with the touch plate
     ☑️ How to run a new job/g-code file on gSender
 
 Our first project will be a short diagnostic test carve.
@@ -154,11 +158,15 @@ This should highlight any cutting issues happening in X, Y and Z axes. Look out 
 
 To do this project we will use two different cutting tools. You will run one g-code file with the first tool, switch over to the second tool, then run the other g-code file.
 
-[Download the two g-code files here!](https://drive.google.com/drive/folders/1jcEPXCpg8cQ_NfbjNJJhV7MLB0gvGNeD?usp=sharing)
+Download the two g-code files here:
+
+- [MK3 Test Cut 1/8" End Mill g-code](https://resources.sienci.com/wp-content/uploads/2026/08/mk3testcut-1-8-endmill.gcode)
+
+- [MK3 Test Cut 60 deg Vee Bit g-code](https://resources.sienci.com/wp-content/uploads/2026/08/mk3testcut-60-vee.gcode)
 
 ### Prepare Items
 
-- Find these tools from the Starter End Mill pack and AutoSpin box that came with your MK3.
+- Find these tools from the Starter End Mill pack and AutoSpin box that came with your MK3 Beginner's Kit.
 
   - 1/8" flat end mill
   - 60 degree V-bit
@@ -170,6 +178,8 @@ To do this project we will use two different cutting tools. You will run one g-c
 - Source a flat piece of scrap wood that is at least 10"x10"x1/4". This will be your stock material for this job.
 
 - Install and/or use a [workholding method](https://resources.sienci.com/view/cnc-workholding/) that holds the material from the sides or underneath, like double sided tape.
+
+- If you have it, grab your AutoZero touch plate. Learn how to set up and use it [from this page](https://resources.sienci.com/view/addons-autozero/) before proceeding.
 
 - If you want to measure the accuracy of the cuts, grab digital calipers.
 
@@ -188,6 +198,10 @@ To do this project we will use two different cutting tools. You will run one g-c
     - Zero at the **corner** if your material is exactly 10"x10". In the picture below, our material is larger than 10"x10" so we've set the zero slightly away.
 
     ![](/_images/_lmmk3/_assembly/lmk3_surfacing_first_proj-zeroing.JPG){.aligncenter .size-medium}
+
+    - Zero using **AutoZero** touch plate – place the block at the front left corner, select XYZ then press Probe. Contact the end mill and touch plate to verify continuity, then press Start Probe! Once complete, remove the AutoZero and the magnet from the router.
+
+    ![](/_images/_lmmk3/_assembly/lmk3_surfacing_first_proj-autozero.JPG){.aligncenter .size-medium}
 
 1. Jog your machine upwards, then install the MK3 dust shoe.
 
