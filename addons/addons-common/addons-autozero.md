@@ -40,7 +40,7 @@ If your cable didn't come with the **green connector**, you can use the spare th
 
     ![](/_images/_addons/addons_common/addons_autozero-platetype.jpg){.aligncenter .size-medium}
 
-1. In the **Invert probe inputs**, toggle ON the Probe. If you have a Sienci Labs TLS, please toggle OFF the Toolsetter too.
+1. In the **Invert probe inputs**, toggle ON the Probe option. Leave the Toolsetter option unchanged.
 
     ![](/_images/_addons/addons_common/addons_autozero-gsettings2.jpg){.aligncenter .size-medium}
 
@@ -107,21 +107,27 @@ If your cable didn't come with the **green connector**, you can use the spare th
 
     - **Tip** is used for v-bits, tapered, round groove and ball nose bits
 
+    ![](/_images/_addons/addons_common/addons_autozero-options.gif){.aligncenter .size-full}
+
 1. Jog the tool over the touch plate to get it in the right position for probing.
 
     For **any probing** type, jog the tool over the **inner square.**
 
     For the **Z probing**, you could optionally jog the tool above the back lip of the flipped touch plate.
 
+    ![](/_images/_addons/addons_common/addons_autozero-wired.JPG){.aligncenter .size-medium}
+
 1. Press "Probe".
 
     gSender will prompt you to check for continuity before starting the process, to ensure your probe has the proper connection. Move the **touch plate up to the tool** to contact.
 
-    Finally, once the circuit has been confirmed, press **Start Probe.**
+    Finally, once the circuit has been confirmed, place the touch plate back on the material. Then press **Start Probe.**
+
+    ![](/_images/_addons/addons_common/addons_autozero-touch.JPG){.aligncenter .size-medium}
 
     ![](/_images/_gsender/_using/gs_us_probenotouch.jpg){.aligncenter .size-medium}
 
-1. During the probing process, keep a hand against the plate to prevent it from sliding around. But also, stay alert to make sure your hand isn't in the way of the tool.
+1. During the probing process, keep a hand lightly against the plate to prevent it from sliding around. But also, stay alert to make sure your hand isn't in the way of the tool.
 
 ### Step 5: Remove magnet
 
