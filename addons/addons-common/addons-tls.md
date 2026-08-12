@@ -61,7 +61,7 @@ Attach the connector from the TLS to the TLS cable.
 
 ![](/_images/_addons/addons_common/addons_tls-connect.jpg){.aligncenter .size-medium}
 
-Then install cable clips on the T-slots in the crossbeams, routing from the SLB/SLB-EXT controller to the location of your TLS.
+**For AltMills**: Since the TLS is mounted far away from the front, we will do some cable management. Install cable clips on the T-slots in the crossbeams, routing from the controller to the location of your TLS.
 
 ![](/_images/_addons/addons_common/addons_tls-cableclip.jpg){.aligncenter .size-medium}
 
@@ -77,19 +77,31 @@ Finally, connect the other end of the TLS cable to the controller.
 
 If you have gSender 1.6.3 or above, you can go through the setup automatically through the wizard.
 
-Go to Tools, Accessory Install, and select Sienci TLS.
+1. Connect to gSender.
 
-![](/_images/_addons/addons_common/addons_tls-accessoryinstall.jpg){.aligncenter .size-medium}
+1. Jog the machine towards you and install your **longest end mill** into the spindle. This is to ensure there is enough clearance during tool changing.
 
-Follow the steps to complete installation. Some tips:
+1. **Home** the machine. You must have limit switches installed to do homing, otherwise you cannot use the TLS.
 
-- When you **set TLS location**, use the longest end mill you have and jog the Z-axis to be about 0.5-1" above your TLS. This ensures there is enough height for your tool when probing.
+    ![](/_images/_atc/_atc_basics/atc_basics_firstpro-congsender.jpg){.aligncenter .size-medium}
+
+1. Go to Tools, Accessory Install, and select Sienci TLS.
+
+    ![](/_images/_addons/addons_common/addons_tls-accessoryinstall.jpg){.aligncenter .size-medium}
+
+1. Go through the setup wizard. A few tips:
+
+    - Tool Change Options -> select **Prompt for first tool**
+
+    - Set TLS Location -> **jog the machine** so the end mill is about 0.5-1"(10-20mm) above your TLS, centered. This ensures there is enough height for your tool when probing.
 
     ![](/_images/_addons/addons_common/addons_tls-settlslocation.jpg){.aligncenter .size-medium}
 
-- When you **set tool change location**, jog the Z-axis all the way up, to the top of the machine travel. This ensures you can access the tool while changing it out.
+    - Set Tool Change Location -> **jog the machine** towards you (e.g. front left). Then jog the Z-axis all the way up, to the top of the machine travel. This ensures you can access the tool easily while changing it out.
 
     ![](/_images/_addons/addons_common/addons_tls-manuallocation.jpg){.aligncenter .size-medium}
+
+    - Follow the remaining steps as prompted by the wizard.
 
 [/su_spoiler]
 
@@ -113,22 +125,7 @@ If you have not upgraded gSender to 1.6.3. or above, you can still set up the TL
 
     ![](/_images/_atc/_atc_basics/atc_basics_firstpro-congsender.jpg){.aligncenter .size-medium}
 
-1. Jog the machine so the end mill is positioned over the center of the TLS, slightly above the metal button.
-
-1. Go to Config, and under the Tool Changing tab, adjust the following settings:
-
-    - gSender strategy  
-        - Select “Fixed Tool Sensor”
-    - Fixed sensor location
-        - Press the Grab button
-    - First tool behaviour
-        - “Prompt for first tool”
-    - Set tool change location
-        - Toggle ON
-
-    ![](/_images/_addons/addons_common/addons_tls-tcconfig.jpg){.aligncenter .size-medium}
-
-1. Go to the Probe tab. We will change the setting **Invert probe inputs ($6)** based on the controller firmware version.
+1. Go to Config, and select the Probe tab. We will change the setting **Invert probe inputs ($6)** based on the controller firmware version.
 
     **Firmware that starts with 2026 or higher** (e.g. 20260525, 20260318)
     - Probe ON
@@ -142,7 +139,33 @@ If you have not upgraded gSender to 1.6.3. or above, you can still set up the TL
 
     ![](/_images/_addons/addons_common/addons_tls-prbeconfig.jpg){.aligncenter .size-medium}
 
-1. Go to the Spindle/Laser tab and adjust these settings:
+1. Go back to the main Carve screen. **Jog the machine** so the end mill is positioned over the center of the TLS, slightly above the metal button, about 0.5-1" (10-20mm).
+
+1. Go back to Config. Under the **Tool Changing** tab, adjust the following settings:
+
+    - gSender strategy  
+        - Select “Fixed Tool Sensor”
+    - Fixed sensor location
+        - Press the Grab button
+    - First tool behaviour
+        - “Prompt for first tool”
+    - Set tool change location
+        - Toggle ON
+
+    ![](/_images/_addons/addons_common/addons_tls-tcconfig.jpg){.aligncenter .size-medium}
+
+1. Press **Apply Settings.**
+
+1. Go back to the main Carve screen. **Jog the machine** to a place where you can change out your end mill safely and easily, like at the front left of your machine. Then jog all the way **up on the Z-axis** - this ensures you can access the tool easily while changing it out.
+
+1. In Config, navigate back to Tool Changing tab, then find the **Manual tool change location**
+    - Press the Grab button
+
+    ![](/_images/_addons/addons_common/addons_tls-manualconfig.jpg){.aligncenter .size-medium}
+
+1. Press **Apply Settings.**
+
+1. In Config, go to the **Spindle/Laser** tab and adjust these settings:
     - Spindle/laser controls
         - Toggle ON
     - Spindle on delay ($394)
@@ -152,18 +175,9 @@ If you have not upgraded gSender to 1.6.3. or above, you can still set up the TL
 
     ![](/_images/_addons/addons_common/addons_tls-spinconfig.jpg){.aligncenter .size-medium}
 
-1. Apply the settings, then turn OFF/ON the controller
+1. Press **Apply Settings**, then turn **OFF/ON** the controller.
 
-1. Re-connect to gSender
-
-1. Jog the machine to a place where you can change out your end mill safely and easily, like at the front of your machine. Then jog all the way **up on the Z-axis**, so you can access the tool during the change.
-
-1. Navigate to Tool Changing tab, then find the **Manual tool change location**
-    - Press the Grab button
-
-    ![](/_images/_addons/addons_common/addons_tls-manualconfig.jpg){.aligncenter .size-medium}
-
-1. Apply the settings, then turn OFF/ON the controller
+1. Re-connect to gSender.
 
 [/su_spoiler]
 
