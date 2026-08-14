@@ -62,7 +62,7 @@ With setup complete, regular use is very straightforward:
    - On phones the screen will look different since we've optimized it for jogging, setting zeros, and probing
    - When you click to 'load a file' you'll only be able to load files from the device you're currently on, don't expect to gain access to the files stored on the opposite device. However once the file is loaded into gSender, you'll be able to run it from any device.
    - There can be multiple remote devices all connected to the same inline computer at the same time to control your CNC from multiple devices. There can also be multiple inline computers controlled from the same remote computer, giving you multi-CNC control from the same device.
-1. Some gSender-specific 'local' settings like won't carry over to the remote device so if you want to make sure files are run the same way every time you'll need to transfer your gSender settings over by following the ['Transfer Settings' instructions](#gsender-preferences)
+1. Some gSender-specific 'local' settings likely won't carry over to the remote device so if you want to make sure files are run the same way every time you'll need to transfer your gSender settings over by following the ['Transfer Settings' instructions](#gsender-preferences)
 
 ### Troubleshooting
 
