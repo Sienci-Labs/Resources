@@ -20,7 +20,7 @@ Before you dive into the assembly of your machine, we have a few recommendations
 
 - The expected assembly and setup time is around 1-1.5 hours, take your time and review steps carefully.
 
-- Use the appropriate tool for each fastener. You may use a drill or driver for quicker assembly, but be careful not to overtorque screws.
+- Use the appropriate tool for each fastener. You may use a drill or driver for quicker assembly, but be careful not to overtorque screws
 
 - Before tightening fasteners, take note of whether they should be firmly or loosely secured. Some steps will require that screws initially be left loose so that components can be aligned in later steps.
 
