@@ -1,15 +1,16 @@
 ---
-title: LongMill MK3 Closed Loop Stepper Motors
-menu_order: 4
+title: LongMill MK3 Post
+menu_order: 0
 post_status: draft
 post_excerpt: 
-post_date: 2026-05-19 15:39:33
+post_date: 2026-05-19 08:35:34
 taxonomy:
-    knowledgebase_cat: the-basics-lmmk3
+    knowledgebase_cat: lmk3-the-basics
     knowledgebase_tag:
+        - mk3
 custom_fields:
     KBName: LongMill MK3
     basepress_post_icon: bp-caret-right
-skip_file: no
+skip_file: yes
 featured_image: _images/post-image.jpg
 ---

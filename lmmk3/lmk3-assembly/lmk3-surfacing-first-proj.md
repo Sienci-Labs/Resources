@@ -5,7 +5,7 @@ post_status: draft
 post_excerpt: What can you make on your LongMill MK3? We run through your 1st project step by step. Let's get CNC'ing!
 post_date: 2026-05-20 10:44:33
 taxonomy:
-    knowledgebase_cat: mk3-assembly
+    knowledgebase_cat: lmk3-assembly
     knowledgebase_tag:
 custom_fields:
     KBName: LongMill MK3
@@ -67,13 +67,13 @@ You will need to use a surfacing bit - these are designed for light passes and a
 
 1. Reconnect to gSender.
 
-1. Zero the machine:
+1. **Zero** the machine:
 
     - Jog to the **front left-most** corner of your machine
     - Then, jog down so the bit **touches the wasteboard**
     - Zero all the axes on the machine using the **Zero** button.
 
-1. Put on the MK3 dust shoe.
+1. If you have it, put on the MK3 dust shoe.
 
 1. Determine your XY surfacing dimensions with the MK3 dust shoe installed:
 
@@ -117,7 +117,9 @@ You will need to use a surfacing bit - these are designed for light passes and a
 
 1. Click **Run on Main Visualizer** to load the file onto gSender.
 
-1. Attach your vacuum hose to the MK3 dust shoe, and turn on the vacuum to minimize MDF dust in the air.
+1. Attach your hose to the MK3 dust shoe, and turn on the dust collection to minimize MDF dust in the air.
+
+        ⚠️ Regardless of whether you have a dust shoe, it is recommended to at least run a hose to a vacuum, since as MDF particles are quite fine and can jam up machine components.
 
 1. Put on a mask or respirator. Then on gSender, you can press **Start**
 
@@ -151,12 +153,12 @@ Our first project will be a short diagnostic test carve.
 This should highlight any cutting issues happening in X, Y and Z axes. Look out for:
 
 - Roundness and squareness of the shapes
-- Consistency in cutting depth at the 3 lines
+- Accurate cutting depth at the 3 lines
 - Shapes are correctly offset from the 2" long line
   - Inside means the outer contour of the shape is bound within the 2"
   - Outside means that the inner contour of the shape is bound by the 2"
 
-To do this project we will use two different cutting tools. You will run one g-code file with the first tool, switch over to the second tool, then run the other g-code file.
+To do this project we will use **two** different cutting tools. You will run one g-code file with the first tool, switch over to the second tool, then run the other g-code file.
 
 Download the two g-code files here:
 
@@ -166,7 +168,7 @@ Download the two g-code files here:
 
 ### Prepare Items
 
-- Find these tools from the Starter End Mill pack and AutoSpin box that came with your MK3 Beginner's Kit.
+- Find these tools from the Starter End Mill pack and AutoSpin box that came with your Beginner's Kit.
 
   - 1/8" flat end mill
   - 60 degree V-bit
@@ -175,13 +177,13 @@ Download the two g-code files here:
 
     ![](/_images/_lmmk3/_assembly/lmk3_surfacing_first_proj-tools.JPG){.aligncenter .size-medium}
 
-- Source a flat piece of scrap wood that is at least 10"x10"x1/4". This will be your stock material for this job.
+- Source a flat piece of wood that is at least 10"x10"x1/4". This will be your **stock material** for this job.
 
 - Install and/or use a [workholding method](https://resources.sienci.com/view/cnc-workholding/) that holds the material from the sides or underneath, like double sided tape.
 
-- If you have it, grab your AutoZero touch plate. Learn how to set up and use it [from this page](https://resources.sienci.com/view/addons-autozero/) before proceeding.
+- If you have it, grab your **AutoZero touch plate**. Learn how to set up and use it [from this page](https://resources.sienci.com/view/addons-autozero/) before proceeding.
 
-- If you want to measure the accuracy of the cuts, grab digital calipers.
+- If you want to measure the accuracy of the cuts, grab **digital calipers.**
 
 ### Set up and Run the Job
 
@@ -189,23 +191,23 @@ Download the two g-code files here:
 
 1. Install the 60 degree V-bit and 1/4" collet onto your AutoSpin. If you need a reminder on how to do this, see [this page](https://resources.sienci.com/view/as-er-collets/).
 
-1. Connect to gSender. Clear any alarms by pressing and releasing the E-stop on your SLB-LITE, then press Click to Unlock Machine on gSender.
+1. Connect to gSender. **Clear any alarms** by pressing and releasing the E-stop on your SLB-LITE, then press Click to Unlock Machine on gSender.
 
-1. Home your machine.
+1. **Home** your machine.
 
 1. Jog your machine so the V-bit is at the **front left** corner of your material, and the V-bit touches the material surface. Then zero your X, Y and Z.
 
-    - Zero at the **corner** if your material is exactly 10"x10". In the picture below, our material is larger than 10"x10" so we've set the zero slightly away.
+    - Zero manually - Set it at the **corner** if your material is exactly 10"x10". In the picture below, our material is larger than 10"x10" so we've set the zero slightly away.
 
     ![](/_images/_lmmk3/_assembly/lmk3_surfacing_first_proj-zeroing.JPG){.aligncenter .size-medium}
 
-    - Zero using **AutoZero** touch plate – place the block at the front left corner, select XYZ then press Probe. Contact the end mill and touch plate to verify continuity, then press Start Probe! Once complete, remove the AutoZero and the magnet from the router.
+    - Zero using **AutoZero** touch plate – place the block at the front left corner, select XYZ then press Probe. Contact the end mill and touch plate together to verify continuity, then press Start Probe! Once complete, remove the AutoZero and the magnet from the router.
 
     ![](/_images/_lmmk3/_assembly/lmk3_surfacing_first_proj-autozero.JPG){.aligncenter .size-medium}
 
 1. Jog your machine upwards, then install the MK3 dust shoe.
 
-1. Check that your AutoSpin router is ON and it is set to Spindle Mode.
+1. Check that your AutoSpin router is ON and it is set to Spindle Mode (S) on the dial.
 
 1. We are almost ready. Press Load File and select the **mk3testcut-60-vee** file. Then click Open.
 
@@ -227,7 +229,7 @@ Download the two g-code files here:
 
 1. Run the new job by pressing Start! This job is also very short.
 
-    ![](../../_images/_lmmk3/_assembly/lmk3_surfacing_first_proj-endmillstart.jpg){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/lmk3_surfacing_first_proj-endmillstart.jpg){.aligncenter .size-medium}
 
 1. Once complete, brush off any dust and take out your calipers. See if your machine is in tip-top shape. You should expect a tolerance of +/-0.1mm.
 

@@ -5,7 +5,7 @@ post_status: draft
 post_excerpt: 
 post_date: 2026-05-20 10:55:55
 taxonomy:
-    knowledgebase_cat: mk3-assembly
+    knowledgebase_cat: lmk3-assembly
     knowledgebase_tag:
 custom_fields:
     KBName: LongMill MK3
@@ -21,9 +21,11 @@ Before we begin, make sure that:
 - **gSender 1.6.3 or above** is installed on your computer
 - Machine is **connected to gSender** and **powered ON**
 
-## Machine Setup
+## Spindle Kit Setup
 
-### Cable Routing
+### Machine Setup
+
+#### Cable Routing
 
 1. Undo all drag chain clips and detach the drag chain from the end links, using a flathead screwdriver.
 
@@ -45,7 +47,7 @@ Before we begin, make sure that:
 
 1. Re-attach the drag chain clips and end links, securing the spindle cable and the existing motor cables in place.
 
-### Router Mount
+#### Router Mount
 
 1. With the machine connected to gSender, jog the Z-axis all the way down to gain access to the four (4) M5-25mm screws at the back of the XZ gantry.
 
@@ -61,7 +63,7 @@ Before we begin, make sure that:
 
 1. Place the spindle through the mount, and fasten the clamping screws to secure the spindle in place. You can adjust the height later.
 
-### VFD Connections
+#### VFD Connections
 
 1. Plug in the VFD power cord, spindle cable and controller cable (coiled) into the bottom of the VFD.
 
@@ -91,7 +93,7 @@ Before we begin, make sure that:
 
 1. Now turn ON the controller using the power switch.
 
-## gSender Settings
+### gSender Settings
 
 1. Connect to the machine in gSender.
 
@@ -121,9 +123,9 @@ Before we begin, make sure that:
 
 ![](/_images/_lmmk3/_assembly/lmk3_spindle_kit-forward.jpg){.aligncenter .size-medium}
 
-## Finishing Up
+### Finishing Up
 
-### Break-in Cycle
+#### Break-in Cycle
 
 The grease inside the bearings may have shifted during transportation, it is recommended that you run a “break-in” cycle to redistribute the grease before using your spindle. To do this, you can download and run the g-code file below on gSender, which will take 1 hour 40 minutes to run.
 
@@ -131,6 +133,6 @@ The grease inside the bearings may have shifted during transportation, it is rec
 
 To run the file connect to gSender and press 'Load File' at the bottom left corner. Select the file and you should see a 'Start' button appear, go ahead and click that.
 
-### Further Learning
+#### Further Learning
 
 For more information on how to change your collets and run a job with your spindle, check out our [quick start guide](https://resources.sienci.com/view/spindlevfd-quickstart/)!
