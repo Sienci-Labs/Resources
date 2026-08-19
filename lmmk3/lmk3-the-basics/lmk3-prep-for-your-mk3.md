@@ -1,16 +1,15 @@
 ---
-title: LongMill MK3 Post
-menu_order: 0
+title: Prep For Your LongMill MK3
+menu_order: 3
 post_status: draft
 post_excerpt: 
-post_date: 2026-05-19 08:14:53
+post_date: 2026-05-19 15:39:33
 taxonomy:
-    knowledgebase_cat: mk3-assembly
+    knowledgebase_cat: lmk3-the-basics
     knowledgebase_tag:
-        - mk3
 custom_fields:
     KBName: LongMill MK3
     basepress_post_icon: bp-caret-right
-skip_file: yes
+skip_file: no
 featured_image: _images/post-image.jpg
 ---

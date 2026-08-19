@@ -5,7 +5,7 @@ post_status: publish
 post_excerpt: Resources and documentation for the LongMill MK3 CNC.
 post_date: 2026-05-19 15:38:22
 taxonomy:
-    knowledgebase_cat: the-basics-lmmk3
+    knowledgebase_cat: lmk3-the-basics
     knowledgebase_tag:
 custom_fields:
     KBName: LongMill MK3
@@ -35,10 +35,10 @@ featured_image: _images/post-image.jpg
 
 ## Machine Dimensions and Cutting Areas
 
-| Size  | Machine Dimensions | Cutting Area   |
-| ----- | ------------------ | -------------- |
-|30 x 30| 40" x 45" x 20"    |32" x 32" x 5.1"|
-|48 x 30| 60" x 45" x 20"    |49" x 32" x 5.1"|
+| Size  | Machine Dimensions | Cutting Area   | Good Table Size |
+| ----- | ------------------ | -------------- | --------------- |
+|30 x 30| 40" x 45" x 20"    |32" x 32" x 5.1"| 60" x 48"       |
+|48 x 30| 60" x 45" x 20"    |49" x 32" x 5.1"| 78" x 48"       |
 
 See here for full dimensions of the machine:
 

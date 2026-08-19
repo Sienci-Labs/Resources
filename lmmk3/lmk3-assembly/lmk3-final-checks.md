@@ -5,7 +5,7 @@ post_status: draft
 post_excerpt: After assembly, make sure your machine is set up and ready for carving.
 post_date: 2026-05-20 10:44:33
 taxonomy:
-    knowledgebase_cat: mk3-assembly
+    knowledgebase_cat: lmk3-assembly
     knowledgebase_tag:
 custom_fields:
     KBName: LongMill MK3
@@ -13,6 +13,7 @@ custom_fields:
 skip_file: no
 featured_image: _images/post-image.jpg
 ---
+## Final Checks
 
 We’re sure you’re itching to start cutting! Before chips go flying, we recommend going through these final checks to ensure you are set up for success.
 
@@ -37,12 +38,15 @@ We’re sure you’re itching to start cutting! Before chips go flying, we recom
 1. Homing completes successfully, without any alarms or errors
 
     - Make sure the machine is **away from the sensors** before you press **Home**, otherwise you will get an immediate alarm
+    - If homing is still not working, go back to [Table Mounting](https://resources.sienci.com/view/mk3-table-mounting) page to ensure you have turned ON your hard and soft limits.
 
     ![](/_images/_lmmk3/_assembly/lmk3_final_checks-homing.gif){.aligncenter .size-full}
 
     ![](/_images/_lmmk3/_assembly/lmk3_final_checks-homingmk3.gif){.aligncenter .size-full}
 
-1. The **AutoSpin router** is set up, and can spin up and stop
+### Last To-dos
+
+1. Set up the **AutoSpin router** and check that it can spin up and stop:
 
     a. Make sure the AutoSpin is **unplugged** and the power switch is in the **OFF “O”** position.
 
@@ -52,7 +56,7 @@ We’re sure you’re itching to start cutting! Before chips go flying, we recom
 
     After pressing OK on the popup window, turn **OFF/ON** the controller and reconnect to gSender.
 
-    c. Go back to Config and under Spindle/Laser, toggle ON the setting **Spindle/Laser controls**. Press Apply Settings.
+    c. Go back to Config and under Spindle/Laser, toggle ON the setting **Spindle/laser controls**. Press Apply Settings.
 
     ![](/_images/_lmmk3/_assembly/lmk3_final_checks-controls.jpg){.aligncenter .size-medium}
 
@@ -70,8 +74,16 @@ We’re sure you’re itching to start cutting! Before chips go flying, we recom
 
 1. If you have the **Sienci Labs Spindle Kit**, open the [Spindle Kit](https://resources.sienci.com/view/mk3-spindle-kit/) page to set up your spindle.
 
-1. Machine is confirmed to be square, using gSender’s [XY Squaring Tool](https://resources.sienci.com/view/gs-calibration-tools/#xy-squaring)
+1. Confirm that your machine is square, using gSender’s [XY Squaring Tool](https://resources.sienci.com/view/gs-calibration-tools/#xy-squaring)
 
     ![](/_images/_lmmk3/_assembly/lmk3_final_checks-gsendersquaring.jpg){.aligncenter .size-medium}
 
-If you have gone through the checks above, then you are ready to start cutting! Head over to [Surfacing & First Projects](https://resources.sienci.com/view/mk3-surfacing-first-proj/) to prepare your wasteboard and get some test cuts in.
+1. Set up and learn how to use your **add-ons**, if you have the Beginner's Kit:
+
+    [AutoZero Touch Plate](https://resources.sienci.com/view/addons-autozero/)
+
+    [AutoSpin T1 Router](https://resources.sienci.com/view/as-er-collets/)
+
+1. Slide the bristle onto your MK3 **dust shoe**, if you have one.
+
+If you have gone through the tasks above, then you are ready to start cutting! 🥳 Head over to [Surfacing & First Projects](https://resources.sienci.com/view/mk3-surfacing-first-proj/) to prepare your wasteboard and get some test cuts in.

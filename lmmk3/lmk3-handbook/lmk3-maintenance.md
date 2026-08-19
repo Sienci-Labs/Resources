@@ -1,11 +1,11 @@
 ---
-title: Best Practices ⭐
-menu_order: 1
+title: LongMill MK3 Maintenance
+menu_order: 2
 post_status: draft
-post_excerpt: Best practices to keep in mind during setup for the LongMill MK3 CNC. 
-post_date: 2026-05-20 10:35:00
+post_excerpt: How to keep your MK3 clean and running smoothly.
+post_date: 2026-05-19 15:16:00
 taxonomy:
-    knowledgebase_cat: mk3-assembly
+    knowledgebase_cat: lmk3-handbook
     knowledgebase_tag:
 custom_fields:
     KBName: LongMill MK3

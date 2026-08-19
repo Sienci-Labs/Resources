@@ -5,7 +5,7 @@ post_status: draft
 post_excerpt: Resources and documentation for getting your MK3 squared and trammed.
 post_date: 2026-05-19 15:14:53
 taxonomy:
-    knowledgebase_cat: handbook-lmmk3
+    knowledgebase_cat: lmk3-handbook
     knowledgebase_tag:
 custom_fields:
     KBName: LongMill MK3

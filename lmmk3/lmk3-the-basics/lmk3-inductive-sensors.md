@@ -5,7 +5,7 @@ post_status: draft
 post_excerpt: 
 post_date: 2026-05-19 15:42:44
 taxonomy:
-    knowledgebase_cat: the-basics-lmmk3
+    knowledgebase_cat: lmk3-the-basics
     knowledgebase_tag:
 custom_fields:
     KBName: LongMill MK3

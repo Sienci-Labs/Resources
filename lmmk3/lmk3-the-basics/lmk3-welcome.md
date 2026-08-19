@@ -5,7 +5,7 @@ post_status: publish
 post_excerpt: Resources and documentation for the LongMill MK3 CNC.
 post_date: 2026-05-19 15:36:10
 taxonomy:
-    knowledgebase_cat: the-basics-lmmk3
+    knowledgebase_cat: lmk3-the-basics
     knowledgebase_tag:
 custom_fields:
     KBName: LongMill MK3
