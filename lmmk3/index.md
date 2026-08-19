@@ -2,12 +2,12 @@
 title: LongMill MK3 Post
 menu_order: 0
 post_status: draft
-post_excerpt: Resources and documentation for the LongMill MK2 CNC. You will find info about routers, software, assembly, end mills - everything you need to get started.
+post_excerpt: Resources and documentation for the LongMill MK3 CNC. You will find info about routers, software, assembly, end mills - everything you need to get started.
 post_date: 2026-05-19 08:14:53
 taxonomy:
     knowledgebase_cat: lmk3-the-basics lmk3-assembly lmk3-handbook
     knowledgebase_tag:
-        - mk3
+        - lmk3
 custom_fields:
     KBName: LongMill MK3
     basepress_post_icon: bp-caret-right
