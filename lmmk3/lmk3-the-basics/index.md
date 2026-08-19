@@ -7,7 +7,7 @@ post_date: 2026-05-19 08:35:34
 taxonomy:
     knowledgebase_cat: lmk3-the-basics
     knowledgebase_tag:
-        - mk3
+        - lmk3
 custom_fields:
     KBName: LongMill MK3
     basepress_post_icon: bp-caret-right
