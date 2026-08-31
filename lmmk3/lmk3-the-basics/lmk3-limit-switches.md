@@ -13,7 +13,6 @@ custom_fields:
 skip_file: no
 featured_image: _images/post-image.jpg
 ---
-## Introduction
 
 Limit switches are common CNC accessories that allows you to set and reference to a "home" position. This feature is helpful in achieving greater positional accuracy, since your machine can run jobs at a known location each time.
 
