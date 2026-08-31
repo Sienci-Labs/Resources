@@ -1,7 +1,7 @@
 ---
-title: LongMill MK3 AutoSpin
-menu_order: 5
-post_status: draft
+title: AutoSpin T1 Router
+menu_order: 6
+post_status: publish
 post_excerpt: 
 post_date: 2026-05-19 15:45:50
 taxonomy:
