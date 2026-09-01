@@ -55,7 +55,7 @@ featured_image: _images/post-image.jpg
 
 ### Y-axis Box
 
-![](/_images/_lmmk3/_assembly/_unboxing/lmk3_unboxing-y-axis-box.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk3/_assembly/_unboxing/lmk3_unboxing-y-axis-boxv2.jpg){.aligncenter .size-medium}
 
 - 1x Left Y-axis Assembly
 - 1x Right Y-axis Assembly

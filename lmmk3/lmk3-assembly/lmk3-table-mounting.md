@@ -22,25 +22,33 @@ We will now use gSender to jog the machine to the travel limits, which will squa
 
 1. Adjust the position of your assembled machine, so that there is space for the SLB-LITE to sit on the MDF.
 
-![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemounting_render_23.png){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemounting_render_23.png){.aligncenter .size-medium}
 
 1. Download the latest version of gSender [https://sienci.com/gsender/] onto your computer. Detailed installation instructions can be found on this page [https://resources.sienci.com/view/gs-installation/].
 
 1. Connect to gSender through USB using the top left corner dropdown.
 
-![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-connectgsender.jpg){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-connectgsender.jpg){.aligncenter .size-medium}
 
 1. You will see a red alarm at the top of the screen. The machine can be unlocked by pressing and releasing the E-stop, then pressing Click to Unlock Machine button on gSender.
 
-![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-estop.gif){.aligncenter .size-full}
+    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-estop.gif){.aligncenter .size-full}
+
+    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-alarm10.jpg){.aligncenter .size-medium}
 
 1. Open the Config tool, and under Homing/Limits, disable the hard and soft limits.
 
+    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-limdisable.jpg){.aligncenter .size-medium}
+
 1. Press Apply Settings. Turn OFF/ON the controller.
+
+    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-applysettings.jpg){.aligncenter .size-medium}
 
 1. Reconnect to gSender.
 
 1. Move the machine around with the jog wheel buttons, to make sure your motors are moving the expected amount and in the right direction.
+
+![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-movedro.jpg){.aligncenter .size-medium}
 
 1. Then jog the machine to the back using the Y- button, making sure it is hitting the Y rail plates on both sides.
 
