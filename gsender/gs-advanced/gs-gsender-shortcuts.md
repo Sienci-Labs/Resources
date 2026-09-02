@@ -69,6 +69,8 @@ If you run into difficulty with getting a particular gamepad set up in gSender, 
 
 #### Tested Gamepads
 
+https://youtu.be/ZvC_3M5EiWo
+
 To better guarantee your experience using a gamepad in gSender, we've taken the time to test a shortlist of some common and affordable options that are easy to source. With community help, we hope to continue growing this list of **officially tested gamepads** which currently includes:
 
 [su_table responsive="yes" alternate="no"]

@@ -27,6 +27,8 @@ The **Tool Tab** is always available near the bottom left of the screen. Here yo
 
 ### XY Squaring
 
+https://youtu.be/J-rEq19PVDQ
+
 When setting up any CNC, like when mounting <a href="https://resources.sienci.com/view/lm-table-mounting/#mounting-your-LongMill">a LongMill to a table</a>, usually a squaring step is needed to ensure cuts don't come out skewed. This **Software Wizard** (step by step guide) is a great asset to help speed things up by turning a typically 'guess-and-check' process into some easy measurements and behind-the-curtain math in 3 main steps:
 
 1. Mark 3 points on your machine to make a triangle (the larger the triangle, the better)
@@ -54,6 +56,8 @@ You will need the following:
 You can also try watching how this process works in this <a href="https://youtu.be/CCpb70ypulY" target="_blank" rel="noreferrer noopener">user-made video by SparksTech</a>!
 
 ### Movement Tuning
+
+https://youtu.be/lJO_NVcD0k0
 
 Another **Software Wizard** (step by step guide) found in the **Tool tab**. This one is designed to help fine tune how much your motors turn to improve the accuracy of your machine movements. This is done through modifying the EEPROM settings stored on your CNC. You can tune the X, Y and Z axes individually.
 

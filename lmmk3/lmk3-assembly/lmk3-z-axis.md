@@ -35,4 +35,4 @@ featured_image: _images/post-image.jpg
 
 1. Grab your router and slide it through the router mount **from above**, then secure it in place using the two pre-installed screws, with an Allen key.
 
-![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-routerin.jpg){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-routerin.jpg){.aligncenter .size-medium}
