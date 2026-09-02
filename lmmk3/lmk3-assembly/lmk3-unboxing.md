@@ -18,6 +18,10 @@ featured_image: _images/post-image.jpg
 
 ### X-axis Box
 
+![](/_images/_lmmk3/_assembly/_unboxing/lmk3_unboxing-30-x-axis-box-v2.jpg){.aligncenter .size-medium}
+
+![](/_images/_lmmk3/_assembly/_unboxing/lmk3_unboxing-48-x-axis-box_v2.jpg){.aligncenter .size-medium}
+
 - 1x X-axis Assembly
 - 1x Y-axis Drag Chain
 - 1x X-axis Drag Chain
@@ -50,6 +54,8 @@ featured_image: _images/post-image.jpg
 - 1x Starter End Mill Set (Beginner’s Kit only)
 
 ### Y-axis Box
+
+![](/_images/_lmmk3/_assembly/_unboxing/lmk3_unboxing-y-axis-boxv2.jpg){.aligncenter .size-medium}
 
 - 1x Left Y-axis Assembly
 - 1x Right Y-axis Assembly

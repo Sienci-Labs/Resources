@@ -40,6 +40,8 @@ If you don't see all these changes happen, we'd recommend you check a couple thi
 
 ### Ethernet Connection
 
+https://youtu.be/FASFgRNxas0
+
 An Ethernet setup is a bit more involved than using USB, but if you're looking to switch over due to its [inherent reliabilities that will always make it more robust](https://youtu.be/LOIVrVVYBfA), you'll need to make sure you have an Ethernet cable on hand and that your device has a free Ethernet port. You'll also want to double-check since some Ethernet-driven CNC control boards like the SLB aren't able to be firmware flashed over Ethernet, so you'll still need to keep a USB cable handy if you need to do any future updates or recover from a board reset.
 
 - If your computer only has one Ethernet port and it's already used, you can try picking up a USB to Ethernet dongle or adding an additional Ethernet card. If you use the dongle, the USB side will plug into your computer, and the Ethernet side will connect an Ethernet cable that you'll run to your board.
