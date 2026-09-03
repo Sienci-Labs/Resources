@@ -19,13 +19,13 @@ featured_image: _images/post-image.jpg
 
 ![](/_images/_lmmk3/_assembly/lmk3_z-partsneeded.jpg){.aligncenter .size-medium}
 
-1. Grab the Z-axis assembly. **Rotate** the Z-axis leadscrew at the coupler, so the small gantry **bottoms out**. You should now have access to the four (4) router mount holes.
+1. Grab the Z-axis assembly. **Rotate** the Z-axis lead screw at the coupler, so the small gantry **bottoms out**. You should now have access to the four (4) router mount holes at the back.
 
-1. Assemble the router mount from the back of the assembly using 4x M5-25mm screws.
+1. Assemble the router mount from the back of the assembly using four (4) M5-25mm screws.
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-zassembly.jpg){.aligncenter .size-medium}
 
-1. From the back of the machine, fasten the entire Z-axis assembly onto the X gantry using 4x M5-12mm screws by loosely installing all 4x screws, then fully secure them.
+1. From the back of the machine, fasten the entire Z-axis assembly onto the X gantry using four (4) M5-12mm screws by loosely installing all four (4) screws, then fully secure them.
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-zaxismount.jpg){.aligncenter .size-medium}
 
@@ -33,6 +33,6 @@ featured_image: _images/post-image.jpg
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-routermount.jpg){.aligncenter .size-medium}
 
-1. Grab your router and slide it through the router mount **from above**, then secure it in place using the two pre-installed screws, with an Allen key.
+1. Grab your router and slide it through the router mount **from above**, then secure it in place using the two (2) pre-installed screws, with an Allen key.
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-routerin.jpg){.aligncenter .size-medium}
