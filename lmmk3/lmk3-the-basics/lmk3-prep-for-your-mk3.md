@@ -31,8 +31,10 @@ Congratulations on embarking on your CNC journey! While you are waiting for the 
   - Find drawings for the 48x30 and 30x30 [on this page](https://resources.sienci.com/view/lmk3-specifications/#machine-dimensions-and-cutting-areas)
 - Build or source a table
   - Looking for ideas? [See these table designs](https://resources.sienci.com/view/lmk2-table-enclosure/#community-table-builds) made by fellow community members
-- Grab a 3/4"x4'x4' MDF sheet as your wasteboard, to mount onto your [table surface](https://resources.sienci.com/view/lmk3-table-mounting/) during assembly 🟫
-  - If you want to build a different style of wasteboard later on, you may need more MDF
+- Grab an MDF sheet as your wasteboard, to mount onto your [table surface](https://resources.sienci.com/view/lmk3-table-mounting/) during assembly 🟫
+  - **3/4"x4'x8'** for the **48x30**, you may need to cut it to size for your table
+  - **3/4"x4'x4'** for the **30x30**
+  - If you want to build a different style of wasteboard later on with [workholding accessories](https://resources.sienci.com/view/addons-t-track-set/), you may need another MDF sheet
 
 ## 🛠️ Get Materials and Equipment
 

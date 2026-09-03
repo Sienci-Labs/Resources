@@ -30,7 +30,7 @@ featured_image: _images/post-image.jpg
   - 1x Motor Covers Set with M3-40mm Screws
   - 1x 65mm Router Mount
 - 1x 24V 4A Power Supply
-- 1x SLB-LITE Kit
+- 1x SLB-LITE Kit with USB cable
 - 1x 1.2Nm Closed Loop Motor
 - 1x Motor Cable Set
 - **1x Hardware Box**
@@ -44,10 +44,11 @@ featured_image: _images/post-image.jpg
   - M5 Washers
   - 4x Aluminum Standoff
   - 1x Inductive Sensor
-  - 1x Integrated Bump Stop
+  - 2x Integrated Bump Stop (1 extra)
   - 1x LongMill MK3 wrench
   - 1x 4mm Allen Key
   - 1x 3mm Allen Key
+  - 1x 2.5mm Allen Key
 - 1x AutoSpin T1 Router (Beginner’s Kit only)
 - 1x MK3 Dust Shoe (Beginner’s Kit only)
 - 1x AutoZero Touch Plate (Beginner’s Kit only)

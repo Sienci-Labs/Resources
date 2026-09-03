@@ -21,7 +21,7 @@ We’re sure you’re itching to start cutting! Before chips go flying, we recom
 
     ![](/_images/_lmmk3/_assembly/lmk3_final_checks-coupler.JPG){.aligncenter .size-medium}
 
-1. All motor dip switches are in the correct positions: **1-Down 2-Down 3-Up 4-Up 5-Up**
+1. All motor dip switches are in the correct positions: **1-OFF 2-OFF 3-ON 4-ON 5-ON**
 
     ![](/_images/_lmmk3/_assembly/lmk3_final_checks-dipswitch.JPG){.aligncenter .size-medium}
 
@@ -84,6 +84,6 @@ We’re sure you’re itching to start cutting! Before chips go flying, we recom
 
     [AutoSpin T1 Router](https://resources.sienci.com/view/as-er-collets/)
 
-1. Slide the bristle onto your MK3 **dust shoe**, if you have one.
+1. Slide the bristles into your MK3 **dust shoe**, if you have one.
 
 If you have gone through the tasks above, then you are ready to start cutting! 🥳 Head over to [Surfacing & First Projects](https://resources.sienci.com/view/mk3-surfacing-first-proj/) to prepare your wasteboard and get some test cuts in.
