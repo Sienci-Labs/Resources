@@ -1,6 +1,6 @@
 ---
 title: AutoSpin T1 Router
-menu_order: 6
+menu_order: 7
 post_status: publish
 post_excerpt: 
 post_date: 2026-05-19 15:45:50

@@ -1,6 +1,6 @@
 ---
 title: Closed Loop Stepper Motors
-menu_order: 5
+menu_order: 6
 post_status: publish
 post_excerpt: 
 post_date: 2026-05-19 15:39:33
