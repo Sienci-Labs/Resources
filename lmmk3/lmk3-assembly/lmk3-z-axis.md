@@ -19,9 +19,9 @@ featured_image: _images/post-image.jpg
 
 ![](/_images/_lmmk3/_assembly/lmk3_z-partsneeded.jpg){.aligncenter .size-medium}
 
-1. Grab the Z-axis assembly. **Rotate** the Z-axis lead screw at the coupler, so the small gantry **bottoms out**. You should now have access to the four (4) router mount holes at the back.
+1. Grab the Z-axis assembly. **Rotate** the Z-axis coupler, so the gantry **bottoms out**. Look at the back - you should now have access to the four (4) router mount holes.
 
-1. Assemble the router mount from the back of the assembly using four (4) M5-25mm screws.
+1. Assemble the router mount using four (4) M5-25mm screws.
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-zassembly.jpg){.aligncenter .size-medium}
 

@@ -19,7 +19,7 @@ featured_image: _images/post-image.jpg
 
 ![](/_images/_lmmk3/_assembly/lmk3_xy-header.jpg){.aligncenter .size-medium}
 
-1. Take out the two (2) Y-axis assemblies. By hand, **rotate** the Y lead screws at the ACME clamping nuts to align the white anti-backlash nuts on both Y-axes. They should be spaced evenly from the front Y rail plates, at the middle of each rail.
+1. Take out the two (2) Y-axis assemblies. By hand, **rotate** the Y lead screws at the ACME clamping nuts to align the white anti-backlash nuts on both Y-axes. They should be spaced **evenly** from the front Y rail plates, at the middle of each rail.
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-anti-lineup.jpg){.aligncenter .size-medium}
 
@@ -30,7 +30,9 @@ featured_image: _images/post-image.jpg
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-tworailsv2.png){.aligncenter .size-medium}
 
-1. We will now place the X-axis assembly onto the Y-axis assemblies. Grab a friend, or cut a rectangle in the Y gantry packaging foam so you can use it to hold the X-axis assembly upright. The Y gantries should be **over top** the anti-backlash nuts.
+1. We will now place the X-axis assembly onto the Y-axis assemblies. Grab a friend, OR take out the Y gantry packing foam.
+
+1. Cut a rectangle in the Y gantry packaging foam so you can use it to hold the X-axis assembly upright. Move the assemblies so that the Y gantries are **over top** the anti-backlash nuts.
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-cutfoam.jpg){.aligncenter .size-medium}
 
@@ -52,7 +54,7 @@ featured_image: _images/post-image.jpg
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-tighten8v2.jpg){.aligncenter .size-medium}
 
-1. Remove the foam from under the X-axis assembly.
+1. Remove the foam from under the X-axis assembly, if you used it.
 
 ### X-axis Motor
 
@@ -60,7 +62,7 @@ featured_image: _images/post-image.jpg
 
 1. Loosely insert the motor onto the X-axis coupler at the left side of the machine.
 
-    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-motormount.png){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-motormount.jpg){.aligncenter .size-medium}
 
 1. Then place one (1) standoff between the motor and Y gantry.
 
@@ -70,11 +72,13 @@ featured_image: _images/post-image.jpg
 
 1. Finally, tightly secure the coupler setscrews.
 
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-couplerscrews.jpg){.aligncenter .size-medium}
+
 1. Prepare one inductive sensor by threading a **nut** onto it approximately 45mm / 1.5 inches from the front, and add a **lock washer** from the front.
 
 1. Pass this inductive sensor through the hole on the left Y-axis gantry plate, and thread the bump stop over the end of the sensor until it bottoms out. **Hand tighten until snug.**
 
-    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-bumpstop.png){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-bumpstop.jpg){.aligncenter .size-medium}
 
 1. Secure the nut and lock washer against the gantry plate - it is important that this sensor is **fully seated** in the bump stop.
 
