@@ -52,7 +52,7 @@ We will now use gSender to jog the machine to the travel limits, which will squa
 
 1. Then jog the machine to the back using the Y+ button, making sure it is **hitting the Y rail plates on both sides**.
 
-    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-bumperstop.jpg){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-render_24_A.jpg){.aligncenter .size-medium}
 
 1. Square the machine to your MDF sheet; use the measuring tape to evenly offset the Y rail plates from the back edge of the MDF. Shift your machine to get it into the desired position.
 
@@ -62,11 +62,11 @@ We will now use gSender to jog the machine to the travel limits, which will squa
 
 1. Then jog the machine to the front using the Y- button. Make sure the Y gantry is **touching the sensor bump stop on both sides**. If not, press the E-stop button on the SLB-LITE, then manually turn the lead screw with your hands to move the Y gantry to touch the bump stop.
 
-    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-yaxisfront.jpg){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-render_27_A.jpg){.aligncenter .size-medium}
 
 1. Screw down the front-most hole of both Y rails using the wood screws. Then finish securing the remaining holes to complete table mounting.
 
-    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-1stscrew.jpg){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-render_26.jpg){.aligncenter .size-medium}
 
 1. Go back on gSender. In Config, under Homing/Limits, **turn ON the hard and soft limits** (we need them to use the sensors on our machine).
 

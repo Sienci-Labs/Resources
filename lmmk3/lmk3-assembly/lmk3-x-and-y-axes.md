@@ -25,14 +25,14 @@ featured_image: _images/post-image.jpg
 
 1. Identify between the **left and right** assemblies. Orient them onto your 4’x4’x3/4” MDF sheet, on top of your table, so that:
 
-    - Leadscrews face outwards
+    - Lead screws face outwards
     - Motors face the back of table
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-tworailsv2.png){.aligncenter .size-medium}
 
 1. We will now place the X-axis assembly onto the Y-axis assemblies. Grab a friend, OR take out the Y gantry packing foam.
 
-1. Cut a rectangle in the Y gantry packaging foam so you can use it to hold the X-axis assembly upright. Move the assemblies so that the Y gantries are **over top** the anti-backlash nuts.
+1. Cut a rectangle in the Y gantry packaging foam (outlined in red) so you can use it to hold the X-axis assembly upright. Move the assemblies so that the Y gantries are **over top** the anti-backlash nuts.
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-cutfoam.jpg){.aligncenter .size-medium}
 
@@ -42,17 +42,13 @@ featured_image: _images/post-image.jpg
 
 1. Put in two (2) M4-12mm screws into the bottom holes of the linear guide blocks, where the **notches** are on the gantry.
 
-    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-placeholder.JPG){.aligncenter .size-medium}
-
 1. Secure the remaining M4-12mm screws onto the linear guide blocks in a diagonal pattern.
-
-    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-linear-rail-diagonal-screwsv2.jpg){.aligncenter .size-medium}
 
 1. Secure the two (2) M5-25mm screws to connect the anti-backlash nut with the Y gantry. Only tighten until you feel resistance - do not overtorque these.
 
-1. Repeat securing the anti-backlash nut and linear guide blocks on the other side.
-
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-tighten8v2.jpg){.aligncenter .size-medium}
+
+1. Repeat securing the anti-backlash nut and linear guide blocks on the other side.
 
 1. Remove the foam from under the X-axis assembly, if you used it.
 
