@@ -1,7 +1,7 @@
 ---
 title: 5. Table Mounting
 menu_order: 6
-post_status: draft
+post_status: publish
 post_excerpt: How to mount your LongMill MK3 to your table and how to surface your wasteboard.
 post_date: 2026-05-20 10:40:22
 taxonomy:

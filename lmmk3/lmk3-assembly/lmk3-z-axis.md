@@ -1,7 +1,7 @@
 ---
 title: 3. Z-axis
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt: 
 post_date: 2026-05-20 10:55:55
 taxonomy:

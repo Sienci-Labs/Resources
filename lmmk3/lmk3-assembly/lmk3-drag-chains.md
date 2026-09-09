@@ -1,7 +1,7 @@
 ---
 title: 4. Drag Chains and Cables
 menu_order: 5
-post_status: draft
+post_status: publish
 post_excerpt: 
 post_date: 2026-05-20 10:56:06
 taxonomy:
@@ -96,7 +96,7 @@ featured_image: _images/post-image.jpg
 
 1. Connect the motor cable connectors for each axis as indicated on the SLB-EXT.
 
-    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-render-21.png){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-render_21.jpg){.aligncenter .size-medium}
 
 1. Plug the USB cable into the SLB-LITE, at the USB port.
 
@@ -104,7 +104,7 @@ featured_image: _images/post-image.jpg
 
 1. On the AutoSpin, untwist the cable with the green connector.
 
-    [RENDER NEEDED]
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-render_29.jpg){.aligncenter .size-medium}
 
 1. Grab the adapter cable with the ethernet connector, and twist it onto the AutoSpin Plug the ethernet connector end into the SLB-LITE, at the SPINDLE port. Then connect the power plug end into wall power.
 

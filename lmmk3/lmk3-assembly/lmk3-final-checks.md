@@ -1,7 +1,7 @@
 ---
 title: 6. Final Checks
 menu_order: 7
-post_status: draft
+post_status: publish
 post_excerpt: After assembly, make sure your machine is set up and ready for carving.
 post_date: 2026-05-20 10:44:33
 taxonomy:

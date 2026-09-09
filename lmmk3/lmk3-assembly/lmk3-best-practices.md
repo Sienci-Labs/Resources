@@ -1,7 +1,7 @@
 ---
 title: Best Practices ⭐
 menu_order: 1
-post_status: draft
+post_status: publish
 post_excerpt: Best practices to keep in mind during setup for the LongMill MK3 CNC. 
 post_date: 2026-05-20 10:35:00
 taxonomy:

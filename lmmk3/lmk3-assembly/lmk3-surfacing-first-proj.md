@@ -1,7 +1,7 @@
 ---
 title: Surfacing & First Project
 menu_order: 9
-post_status: draft
+post_status: publish
 post_excerpt: What can you make on your LongMill MK3? We run through your 1st project step by step. Let's get CNC'ing!
 post_date: 2026-05-20 10:44:33
 taxonomy:

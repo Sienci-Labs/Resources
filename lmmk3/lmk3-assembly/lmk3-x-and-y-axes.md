@@ -1,7 +1,7 @@
 ---
 title: 2. X & Y-Axes
 menu_order: 3
-post_status: draft
+post_status: publish
 post_excerpt: 
 post_date: 2026-05-20 10:54:44
 taxonomy:
@@ -44,7 +44,7 @@ featured_image: _images/post-image.jpg
 
 1. Secure the remaining M4-12mm screws onto the linear guide blocks in a diagonal pattern.
 
-    [ NEED RENDER]
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-linear-rail-diagonal-screwsv2.jpg){.aligncenter .size-medium}
 
 1. Secure the two (2) M5-25mm screws to connect the anti-backlash nut with the Y gantry. Only tighten until you feel resistance - do not overtorque these.
 
