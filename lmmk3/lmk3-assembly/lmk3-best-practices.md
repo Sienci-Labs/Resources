@@ -18,20 +18,13 @@ featured_image: _images/post-image.jpg
 
 Before you dive into the assembly of your machine, we have a few recommendations to make your experience a good one:
 
-- The expected assembly and setup time is around 1-1.5 hours, take your time and review steps carefully.
-
+- The expected assembly and setup time is around 2 hours, take your time and review steps carefully.
 - Use the appropriate tool for each fastener. You may use a drill or driver for quicker assembly, but be careful not to overtorque screws
-
 - Before tightening fasteners, take note of whether they should be firmly or loosely secured. Some steps will require that screws initially be left loose so that components can be aligned in later steps.
-
 - Keep the LongMill packaging as some of it will be used in the assembly process
-
 - Ensure you have enough table space for building the machine. We recommend at least 60"x48" for the 30x30 and 78"x48" for the 48x30
-
 - Keep the hardware in its respective bag until needed to make finding the correct type easier using the attached labels
-
 - If you are uncomfortable with using software, we highly recommend you have a computer-savvy friend or family member to help you with the final few steps, starting at Table Mounting.
-
 - If you have the Beginner's Kit, here are the pages to learn how to use the add-ons. Bookmark and refer to them once you are done machine assembly.
 
     [AutoZero Touch Plate](https://resources.sienci.com/view/addons-autozero/)
@@ -40,7 +33,7 @@ Before you dive into the assembly of your machine, we have a few recommendations
 
 ## Videos
 
-If you prefer video, you can watch the following videos to assemble and set up your LongMill MK3.
+If you prefer video, you can watch the following videos to assemble and set up your LongMill MK3 (COMING SOON!).
 
 These videos cover the following pages:
 
