@@ -27,21 +27,24 @@ featured_image: _images/post-image.jpg
 
 1. Assemble the drag chain ends with fasteners onto the machine, matching the orientation shown in the images. The fasteners should be hand tight, **do not overtighten** or the end links could break.
 
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-render23.jpg){.aligncenter .size-medium}
+
     **Left side of X-axis**:
     - Two (2) end links with holes
-    - Use M5-8mm screws and M5 T-nuts
+    - Three (3) M5-8mm screws and three (3) M5 T-nuts
     - T-nuts should be inserted with the smaller face inside the T-slot
-    - Align the **left-most end link** to the center of the Y rail
+    - Line up the **left-most end link** to the center of the Y rail
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-render-14.png){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-render-21.jpg){.aligncenter .size-medium}
 
     **Left Y-axis, front of machine**:
     - One (1) end link with studs
-    - Use M5-8mm screws, and M5 washers under the screw head
-    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-render-15.png){.aligncenter .size-medium}
+    - Two (2) M5-8mm screws, and two (2) M5 washers under the screw head
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-front.jpg){.aligncenter .size-medium}
 
     **Z motor mount, behind Z-axis**:
     - One (1) end link with studs
-    - Use M5-8mm screws, and M5 washers under the screw head
+    - Two (2) M5-8mm screws, and two (2) M5 washers under the screw head
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-render-16.png){.aligncenter .size-medium}
 
 1. **Open** all the clips on both drag chains, using a flathead screwdriver.

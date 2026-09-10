@@ -19,9 +19,9 @@ featured_image: _images/post-image.jpg
 
 ![](/_images/_lmmk3/_assembly/lmk3_xy-header.jpg){.aligncenter .size-medium}
 
-1. Take out the two (2) Y-axis assemblies. By hand, **rotate** the Y lead screws at the ACME clamping nuts to align the white anti-backlash nuts on both Y-axes. They should be spaced **evenly** from the front Y rail plates, at the middle of each rail.
+1. Take out the two (2) Y-axis assemblies. The goal is to get the black linear guide blocks and white anti-backlash nuts to the middle of the rail, on each Y-axis. So rotate the black clamping nuts at the front Y plates, to adjust the anti-backlash nut position. Slide the black linear guide blocks to above the white anti-backlash nut.
 
-    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-anti-lineup.jpg){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-render_03_C.jpg){.aligncenter .size-medium}
 
 1. Identify between the **left and right** assemblies. Orient them onto your 4’x4’x3/4” MDF sheet, on top of your table, so that:
 
@@ -30,23 +30,24 @@ featured_image: _images/post-image.jpg
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-tworailsv2.png){.aligncenter .size-medium}
 
-1. We will now place the X-axis assembly onto the Y-axis assemblies. Grab a friend, OR take out the Y gantry packing foam.
+1. On each Y-axis, put in two (2) M4-12mm screws into the bottom holes of the linear guide blocks, where the **notches** are on the gantry.
 
-1. Cut a rectangle in the Y gantry packaging foam (outlined in red) so you can use it to hold the X-axis assembly upright. Move the assemblies so that the Y gantries are **over top** the anti-backlash nuts.
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-render_06.jpg){.aligncenter .size-medium}
+
+1. Grab a friend, OR take out the Y gantry packing foam. If using the foam: Cut a rectangle in the Y gantry packaging foam (outlined in red).
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-cutfoam.jpg){.aligncenter .size-medium}
 
-    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-foamsupport.png){.aligncenter .size-medium}
+1. Have your friend or foam support the X-axis rail. Place the X-axis assembly onto the Y-axis gantry at the notches.
 
-1. Check that the holes on the **linear guide blocks** and **anti-backlash nuts** are **aligned** with the gantry holes. Move the blocks as needed.
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-render_04_A.jpg){.aligncenter .size-medium}
 
-1. Put in two (2) M4-12mm screws into the bottom holes of the linear guide blocks, where the **notches** are on the gantry.
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-render_04_C1.jpg){.aligncenter .size-medium}
 
 1. Secure the remaining M4-12mm screws onto the linear guide blocks in a diagonal pattern.
+Then, secure the two (2) M5-25mm screws to connect the anti-backlash nut with the Y gantry. Only tighten until you feel resistance - do not overtorque these.
 
-1. Secure the two (2) M5-25mm screws to connect the anti-backlash nut with the Y gantry. Only tighten until you feel resistance - do not overtorque these.
-
-    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-tighten8v2.jpg){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-gantryscrews.jpg){.aligncenter .size-medium}
 
 1. Repeat securing the anti-backlash nut and linear guide blocks on the other side.
 
@@ -58,21 +59,17 @@ featured_image: _images/post-image.jpg
 
 1. Loosely insert the motor onto the X-axis coupler at the left side of the machine.
 
-    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-motormount.jpg){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-motormount2.jpg){.aligncenter .size-medium}
 
-1. Then place one (1) standoff between the motor and Y gantry.
-
-1. Loosely fasten one (1) M5-50mm screw through the motor and the standoff, into the Y-gantry. Repeat this for the remaining three (3) holes.
+1. Then place one (1) standoff between the motor and Y gantry. Loosely fasten one (1) M5-50mm screw through the motor and the standoff, into the Y-gantry. Repeat this for the remaining three (3) holes.
 
 1. Then fully secure the M5-50mm screws until snug.
 
 1. Finally, tightly secure the coupler setscrews.
 
-    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-couplerscrews.jpg){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-coupler.jpg){.aligncenter .size-medium}
 
-1. Prepare one inductive sensor by threading a **nut** onto it approximately 45mm / 1.5 inches from the front, and add a **lock washer** from the front.
-
-1. Pass this inductive sensor through the hole on the left Y-axis gantry plate, and thread the bump stop over the end of the sensor until it bottoms out. **Hand tighten until snug.**
+1. Prepare one inductive sensor by threading a **nut** onto it approximately 45mm / 1.5 inches from the front, and add a **lock washer** from the front. Pass this inductive sensor through the hole on the left Y-axis gantry plate, and thread the bump stop over the end of the sensor until it bottoms out. **Hand tighten until snug.**
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-bumpstop.jpg){.aligncenter .size-medium}
 

@@ -52,29 +52,29 @@ See here for full dimensions of the machine:
 
 Box 1 - Y-Rail Assembly
 
-- Size: 8"x50"x10.5"
+- Size: 50"x9.5"x9"
 
-- Weight: 32 lbs
+- Weight: 35 lbs
 
 Box 2 - X-Rail Assembly
 
-- Size: 10"x41"x13"
+- Size: 46"x14.5"x12"
 
-- Weight: 50 lbs for machine only, 56 lbs for Beginner's Kit
+- Weight: 57 lbs for machine only, 65 lbs for Beginner's Kit
 
 ### 48 x 30
 
 Box 1 - Y-Rail Assembly
 
-- Size: 8"x50"x10.5"
+- Size: 50"x9.5"x9"
 
-- Weight: 32 lbs
+- Weight: 35 lbs
 
 Box 2 - X-Rail Assembly
 
-- Size: 10"x62"x13"
+- Size: 46"x14.5"x12"
 
-- Weight: 55 lbs for machine only, 61 lbs for Beginner's Kit
+- Weight: 67 lbs for machine only, 75 lbs for Beginner's Kit
 
 ## Power Requirements
 
