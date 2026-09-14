@@ -21,13 +21,17 @@ featured_image: _images/post-image.jpg
 
 1. Sort through your drag chains. You may have two (2) drag chain segments for the same axis, which means they need to be attached together to form one continuous drag chain. In total, you should have **two continuous drag chains**, one for X-axis and one for Y-axis.
 
-    💡 If you forget which drag chains are for what axis, look at the number stamped on the drag chain. 75 is X-axis. 38 is Y-axis.
-
+    💡 If you forget which drag chains are for what axis, look at the number stamped on the drag chain.
+    
+    ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-75-xaxis.jpg){.aligncenter .size-medium}
+    
+    ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-38-yaxis.jpg){.aligncenter .size-medium}
+    
 1. Take off the drag chain **end links** using a flat head screwdriver. There should be four (4) total, two (2) with studs and two (2) with holes at the tabs.
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-endclip.gif){.aligncenter .size-large}
 
-    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-ends.jpg){.aligncenter .size-large}
+    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-ends.jpg){.aligncenter .size-medium}
 
 1. For the X-axis drag chain, if you have the 30x30, **remove** 7 links using a flathead screwdriver.
 
@@ -38,6 +42,9 @@ featured_image: _images/post-image.jpg
     **Left side of X-axis**:
     - Two (2) end links with holes
     - Three (3) M5-8mm screws and three (3) M5 T-nuts
+
+    ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-nutsintorail.jpg){.aligncenter .size-medium}
+
     - T-nuts should be inserted with the smaller face inside the T-slot
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-render-14v2.jpg){.aligncenter .size-medium}
 
@@ -53,7 +60,13 @@ featured_image: _images/post-image.jpg
 
 1. **Open** all the clips on both drag chains, using a flathead screwdriver.
 
-1. Grab the motor cables, and notice the labelling - there should be one motor cable for each axis. Secure the connections for the limit switch, motor power, and motor signal connectors. Repeat for all four (4) motors.
+    ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-dragchain-open.jpg){.aligncenter .size-medium}
+
+1. Grab the motor cables, and notice the labelling - there should be one motor cable for each axis. 
+
+    ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-cablelabels.jpg){.aligncenter .size-medium}
+
+1. Secure the connections for the limit switch, motor power, and motor signal connectors. Repeat for all four (4) motors.
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-render-19A.jpg){.aligncenter .size-medium}
 
@@ -63,7 +76,11 @@ featured_image: _images/post-image.jpg
 
 1. Place the X-axis drag chain onto the X rail.
 
-1. Route the router cables (power and signal for AutoSpin), and the Z motor cable. Attach the drag chain at the **Z motor mount**, to help stop the drag chain from moving around. As you run the cables through, close the clips. Then secure the other end of the drag chain at the **X-axis**.
+1. Route the router cables (power and signal for AutoSpin), and the Z motor cable. Attach the drag chain at the **Z motor mount**, to help stop the drag chain from moving around. 
+
+    ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-zaxis-endlink.jpg){.aligncenter .size-medium}
+
+1. As you run the cables through, close the clips. Then secure the other end of the drag chain at the **X-axis**.
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-render17b.jpg){.aligncenter .size-medium}
 
@@ -73,7 +90,7 @@ featured_image: _images/post-image.jpg
 
 1. Place the drag chain onto the left Y-axis rail. Secure the drag chain onto the two (2) end links at the **left side** of the machine.
 
-    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-render-18.jpg){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-yaxis-wiring.jpg){.aligncenter .size-medium}
 
 1. Grab the Y1 and Y2 motor cables. Make note:
     - Y2 cable -> Right motor
@@ -83,7 +100,11 @@ featured_image: _images/post-image.jpg
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-render_18_B.jpg){.aligncenter .size-medium}
 
-1. Grab a motor cover and orient it so the **small opening is facing either up or down**. Identify the two (2) holes on the motor cover and compare it to the screw location on each motor - these holes will be used to mount the motor cover onto the motor. On the motors, **remove the two (2) screws** using an Allen key.
+1. Grab a motor cover and orient it so the **small opening is facing either up or down**. Identify the two (2) holes on the motor cover and compare it to the screw location on each motor - these holes will be used to mount the motor cover onto the motor. 
+
+    ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-motorcover.jpg){.aligncenter .size-medium}
+
+1. On the motors, **remove the two (2) screws** using an Allen key.
 
     Then place the motor covers on all four (4) motors. Route the wires through the opening, to prevent damage. Then secure motors covers with two (2) M3-40mm screws.
 
@@ -93,7 +114,7 @@ featured_image: _images/post-image.jpg
 
 1. Connect the motor cable connectors for each axis as indicated on the SLB-EXT.
 
-    ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-render_21.jpg){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-slbplugs.jpg){.aligncenter .size-medium}
 
 1. Plug the USB cable into the SLB-LITE, at the USB port.
 
