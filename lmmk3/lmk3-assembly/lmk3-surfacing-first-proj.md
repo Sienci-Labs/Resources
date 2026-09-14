@@ -21,7 +21,6 @@ featured_image: _images/post-image.jpg
         ☑️ How to home the machine
         ☑️ How to surface material with gSender's surfacing wizard
         ☑️ How to determine surfacing dimensions while accounting for the dust shoe
-        ☑️ Know what the settings mean in the surfacing wizard
         ☑️ How to set up the job's origin/zeros and zero the machine accordingly
         ☑️ How to use the AutoSpin in spindle mode
         ☑️ How to locate and change settings in Config
@@ -51,21 +50,9 @@ You will need to use a surfacing bit - these are designed for light passes and a
 1. Clear any alarms by pressing and releasing the E-stop on your SLB-LITE, then press Click to Unlock Machine on gSender.
 
 1. **Home** your machine.
-    - Make sure the machine is away from the sensors before you press **Home**, otherwise you will get an immediate alarm
-
     ![](/_images/_lmmk3/_assembly/lmk3_final_checks-homing.gif){.aligncenter .size-full}
 
     ![](/_images/_lmmk3/_assembly/lmk3_final_checks-homingmk3.gif){.aligncenter .size-medium}
-
-1. Open the Config tool, and under Homing/Limits, disable the hard and soft limits. You will get an Alarm 2 if soft limits are enabled and you won't be able to surface your spoil board.
-
-    ![](/_images/_lmmk3/_assembly/lmk3_surfacing_first_proj-limdisable.jpg){.aligncenter .size-medium}
-
-    Press Apply Settings, then turn OFF/ON your SLB-LITE controller.
-
-    ![](/_images/_lmmk3/_assembly/lmk3_final_checks-applysettings.jpg){.aligncenter .size-medium}
-
-1. Reconnect to gSender.
 
 1. **Zero** the machine:
 
@@ -73,49 +60,21 @@ You will need to use a surfacing bit - these are designed for light passes and a
     - Then, jog down so the bit **touches the wasteboard**
     - Zero all the axes on the machine using the **Zero** button.
 
-1. If you have it, put on the MK3 dust shoe.
+1. If you have it, put on the **MK3 dust shoe.**
 
 1. Determine your XY surfacing dimensions with the MK3 dust shoe installed:
 
     - Jog your machine to the **front right-most** corner.
     - Then jog your machine to the **back right-most** corner.
     - Use the **blue coordinate numbers** as your X and Y surfacing dimensions. Roughly, X should be ~774mm (30x30) OR ~1206mm (48x30), and Y should be ~812mm.
-    - If you use a surfacing bit larger than 22mm, X and Y dimensions will be smaller.
 
 1. On the sidebar, navigate to **Tools**, then select Surfacing.
 
-1. You will find the Wasteboard Surfacing settings, adjust as needed.
+1. You will find the Wasteboard Surfacing settings, adjust the **X & Y** based on the values determined in Step 9.
 
     ![](/_images/_lmmk3/_assembly/lmk3_surfacing_first_proj-surface.jpg){.aligncenter .size-medium}
 
-    Start Position: Where to start surfacing, usually it's where you zeroed your machine.
-    - Select the **bottom left corner** of the square, corresponding to the front left of the machine
-
-    X & Y: Surfacing dimensions, how large you want to surface.
-    - Use the values determined in Step 9
-
-    Cut Depth & Max: Depth of cut per pass & total depth cut into the wasteboard
-    - Set both at **1mm (0.04")**
-    - Cut depth larger than 1mm can result in an uneven surface
-    - Max can be doubled if your wasteboard is very warped or has deep imperfections
-
-    Bit Diameter: Diameter of cutting tool installed
-    - Set to 22mm
-    - If you use another surfacing bit, will need to change this value
-
-    Stepover: Percentage of cutting tool area that's overlapping
-    - Use **40%**
-    - Larger stepover will result in a longer cutting time and a smoother finish, whereas smaller stepover will result in a rougher finish.
-
-    Feed Rate: How fast your machine moves, to bring material through the cutting tool.
-    - Use **2500 mm/min**
-
-    Spindle RPM: How fast your spindle/cutting tool rotates.
-    - Use **20000 RPM**
-
-1. Once you adjusted the settings, click **Generate G-code** to view the toolpath on the right side of the window.
-
-1. Click **Run on Main Visualizer** to load the file onto gSender.
+1. Click **Generate G-code** to view the toolpath on the right side of the window. Then click **Run on Main Visualizer** to load the file onto gSender.
 
 1. Attach your hose to the MK3 dust shoe, and turn on the dust collection to minimize MDF dust in the air.
 

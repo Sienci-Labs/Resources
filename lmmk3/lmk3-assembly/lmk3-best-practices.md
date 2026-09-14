@@ -27,9 +27,9 @@ Before you dive into the assembly of your machine, we have a few recommendations
 - If you are uncomfortable with using software, we highly recommend you have a computer-savvy friend or family member to help you with the final few steps, starting at Table Mounting.
 - If you have the Beginner's Kit, here are the pages to learn how to use the add-ons. Bookmark and refer to them once you are done machine assembly.
 
-    [AutoZero Touch Plate](https://resources.sienci.com/view/addons-autozero/)
-
-    [AutoSpin T1 Router](https://resources.sienci.com/view/as-er-collets/)
+  - [AutoZero Touch Plate](https://resources.sienci.com/view/addons-autozero/)
+  - [AutoSpin T1 Router](https://resources.sienci.com/view/as-er-collets/)
+  - [End Mills and Cutting Tools](https://resources.sienci.com/view/cnc-cutting-tools/)
 
 ## Videos
 
