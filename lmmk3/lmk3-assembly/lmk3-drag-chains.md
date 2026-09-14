@@ -84,11 +84,9 @@ featured_image: _images/post-image.jpg
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-render17b.jpg){.aligncenter .size-medium}
 
-1. We will now move onto the **Y-axis drag chain.** Place the drag chain **on the table**, to the **right** of the **left Y-axis**. This will give us more space to route the cables.
+1. We will now move onto the **Y-axis drag chain.**
 
 1. Route the cables from the X drag chain, and the X motor cable. Attach the drag chain at the **X-axis**, then continue running the cables. As you do this, close the clips. Then secure the other end of the drag chain at the **front left** of the machine.
-
-1. Place the drag chain onto the left Y-axis rail. Secure the drag chain onto the two (2) end links at the **left side** of the machine.
 
     ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-yaxis-wiring.jpg){.aligncenter .size-medium}
 

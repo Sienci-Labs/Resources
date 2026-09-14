@@ -45,4 +45,6 @@ featured_image: _images/post-image.jpg
 
         💡 Note: You can adjust the router height later, if you need more space to install longer end mills.
 
+    ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-autospincable.jpg){.aligncenter .size-medium}
+
 Nicely done! Let's keep going.
