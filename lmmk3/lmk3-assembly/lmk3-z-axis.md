@@ -21,7 +21,7 @@ featured_image: _images/post-image.jpg
 
 1. Grab the Z-axis assembly. **Rotate** the Z-axis coupler, so the gantry **bottoms out** and you cannot rotate it any further. Look at the back - you should now have access to the four (4) router mount holes.
 
-    ![](/_images/_lmmk3/_assembly/lmk3_zaxis-coupler-v2.gif){.aligncenter .size-large}
+    ![](/_images/_lmmk3/_assembly/lmk3_assembly_zaxisraise.gif){.aligncenter .size-large}
 
 1. Loosely assemble the router mount using four (4) M5-25mm screws.
 
