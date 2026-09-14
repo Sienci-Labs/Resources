@@ -42,7 +42,11 @@ We will now use gSender to jog the machine to the travel limits, which will squa
 
     ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-render_24_A.jpg){.aligncenter .size-medium}
 
-1. Square the machine to your MDF sheet; use the measuring tape to evenly offset the Y rail plates from the back edge of the MDF. Shift your machine to get it into the desired position.
+1. Square the machine to your MDF sheet; use the measuring tape to evenly offset the Y rail plates from the back edge of the MDF. If you are planing on using the gControl panel, shift your machine to be flush with the front, so the bracket can mount.
+
+    ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-slideforward.jpg){.aligncenter .size-medium}
+
+1. Shift your machine to get it into the desired position.
 
     ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-yaxisoffset.jpg){.aligncenter .size-medium}
 
