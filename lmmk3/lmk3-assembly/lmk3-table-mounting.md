@@ -30,27 +30,15 @@ We will now use gSender to jog the machine to the travel limits, which will squa
 
     ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-connectgsender.jpg){.aligncenter .size-medium}
 
-1. You will see a red alarm at the top of the screen. The machine can be unlocked by pressing and releasing the E-stop, then pressing Click to Unlock Machine button on gSender.
+1. You will see a red Alarm 11 at the top of the screen. It will prompt you to home your machine, go ahead and press the red button on gSender to proceed. Your machine will move up to the top, then to the back left corner.
 
-    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-estop.gif){.aligncenter .size-full}
+    ![](/_images/_lmmk3/_assembly/lmk3_final_checks-homingmk3.gif){.aligncenter .size-full}
 
-    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-alarm10.jpg){.aligncenter .size-medium}
-
-1. Open the Config tool, and under Homing/Limits, **disable** the hard and soft limits.
-
-    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-limdisable.jpg){.aligncenter .size-medium}
-
-1. Press Apply Settings. Turn OFF/ON the controller.
-
-    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-applysettings.jpg){.aligncenter .size-medium}
-
-1. Reconnect to gSender.
-
-1. Move the machine around with the jog wheel buttons, to make sure your motors are moving the expected amount and in the right direction.
+1. Once homed, move the machine around with the jog wheel buttons, to make sure your motors are moving the expected amount and in the right direction.
 
     ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-movedro.jpg){.aligncenter .size-medium}
 
-1. Then jog the machine to the back using the Y+ button, making sure it is **hitting the Y rail plates on both sides**.
+1. Then jog the machine to the very back using the Y+ button.
 
     ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-render_24_A.jpg){.aligncenter .size-medium}
 
@@ -60,7 +48,7 @@ We will now use gSender to jog the machine to the travel limits, which will squa
 
 1. Screw down the back-most holes of both Y rails using the wood screws.
 
-1. Then jog the machine to the front using the Y- button. Make sure the Y gantry is **touching the sensor bump stop on both sides**. If not, press the E-stop button on the SLB-LITE, then manually turn the lead screw with your hands to move the Y gantry to touch the bump stop.
+1. Then jog the machine to the very front using the Y- button.
 
     ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-render_27_A.jpg){.aligncenter .size-medium}
 
@@ -68,6 +56,4 @@ We will now use gSender to jog the machine to the travel limits, which will squa
 
     ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-render_26.jpg){.aligncenter .size-medium}
 
-1. Go back on gSender. In Config, under Homing/Limits, **turn ON the hard and soft limits** (we need them to use the sensors on our machine).
-
-1. Press Apply Settings, then turn OFF/ON the SLB-LITE controller to have the changes take effect.
+You did it! Your machine is now assembled. We only have a few final set up tasks for some accessories, so go ahead to the next page to finish it up!

@@ -15,36 +15,7 @@ featured_image: _images/post-image.jpg
 ---
 ## Final Checks
 
-We’re sure you’re itching to start cutting! Before chips go flying, we recommend going through these final checks to ensure you are set up for success.
-
-1. All **couplers** have been fully tightened on both the motor shaft and lead screw ends
-
-    ![](/_images/_lmmk3/_assembly/lmk3_final_checks-coupler.JPG){.aligncenter .size-medium}
-
-1. All motor dip switches are in the correct positions: **1-OFF 2-OFF 3-ON 4-ON 5-ON**
-
-    ![](/_images/_lmmk3/_assembly/lmk3_final_checks-dipswitch.JPG){.aligncenter .size-medium}
-
-1. The gSender version on your computer is **1.6.3 or higher**
-
-    ![](/_images/_lmmk3/_assembly/lmk3_final_checks-gsenderver.jpg){.aligncenter .size-medium}
-
-1. After connecting to gSender, the machine can be unlocked by pressing and releasing the E-stop, then pressing **Click to Unlock Machine** button on gSender.
-
-    ![](/_images/_lmmk3/_assembly/lmk3_final_checks-estop.gif){.aligncenter .size-full}
-
-    ![](/_images/_lmmk3/_assembly/lmk3_final_checks-alarm10.jpg){.aligncenter .size-medium}
-
-1. Homing completes successfully, without any alarms or errors
-
-    - Make sure the machine is **away from the sensors** before you press **Home**, otherwise you will get an immediate alarm
-    - If homing is still not working, go back to [Table Mounting](https://resources.sienci.com/view/mk3-table-mounting) page to ensure you have turned ON your hard and soft limits.
-
-    ![](/_images/_lmmk3/_assembly/lmk3_final_checks-homing.gif){.aligncenter .size-full}
-
-    ![](/_images/_lmmk3/_assembly/lmk3_final_checks-homingmk3.gif){.aligncenter .size-full}
-
-### Last To-dos
+We’re sure you’re itching to start cutting! Before chips go flying, we recommend going through these final checks and tasks to ensure you are set up for success.
 
 1. Set up the **AutoSpin router** and check that it can spin up and stop:
 
@@ -56,27 +27,19 @@ We’re sure you’re itching to start cutting! Before chips go flying, we recom
 
     After pressing OK on the popup window, turn **OFF/ON** the controller and reconnect to gSender.
 
-    c. Go back to Config and under Spindle/Laser, toggle ON the setting **Spindle/laser controls**. Press Apply Settings.
+    c. Turn the dial of the router to the **S** position.
 
-    ![](/_images/_lmmk3/_assembly/lmk3_final_checks-controls.jpg){.aligncenter .size-medium}
-
-    d. Turn the dial of the router to the **S** position.
-
-    e. Then plug in the router and flip the power switch to the **I "ON"** position.
+    d. Then plug in the router and flip the power switch to the **I "ON"** position.
 
     ![](/_images/_lmmk3/_assembly/lmk3_final_checks-autospin.jpg){.aligncenter .size-medium}
 
-    f. On gSender, ensure the toggle is at **Spindle** and that in the dropdown, **PWM** is selected.
+    e. On the bottom right corner of gSender, ensure the toggle is at **Spindle** and that in the dropdown, **PWM** is selected.
 
     Use the speed slider and **Forward** button to test at different speeds. Press **Stop** when you are done.
 
     ![](/_images/_lmmk3/_assembly/lmk3_final_checks-pwm.jpg){.aligncenter .size-medium}
 
 1. If you have the **Sienci Labs Spindle Kit**, open the [Spindle Kit](https://resources.sienci.com/view/mk3-spindle-kit/) page to set up your spindle.
-
-1. Confirm that your machine is square, using gSender’s [XY Squaring Tool](https://resources.sienci.com/view/gs-calibration-tools/#xy-squaring)
-
-    ![](/_images/_lmmk3/_assembly/lmk3_final_checks-gsendersquaring.jpg){.aligncenter .size-medium}
 
 1. Set up and learn how to use your **add-ons**, if you have the Beginner's Kit:
 
