@@ -44,6 +44,8 @@ The SLB-LITE is the next evolution of first generation SLB (SuperLongBoard) cont
 
 ### Inputs & Outputs
 
+![](/_images/_lmmk3/_the-basics/lmk3_slblite-board.jpg){.aligncenter .size-medium}
+
 #### Power
 
 - SLB-LITE controller uses a 5.5mm OD, 2.1mm ID barrel jack (24-48V, 4A)
@@ -75,6 +77,8 @@ The SLB-LITE is the next evolution of first generation SLB (SuperLongBoard) cont
 - Pins 3 (A) and 4 (B) provide serial communication via MODBUS, with pin 5 (GND) available as an optional, recommended ground point.
 
 #### Expansion
+
+![](/_images/_lmmk3/_the-basics/lmk3_slblite-expansion.jpg){.aligncenter .size-medium}
 
 - A 2x13P 2.54mm pitch header male connector is used to connect with an optional expansion board for adding additional capabilities to the controller.
 - The expansion system is designed to efficiently utilize serial communication to provide a high number of external IO and auxiliary control. The expansion port on its own is not intended to be used for application-specific controls but this is possible. This includes the following IO/features:
