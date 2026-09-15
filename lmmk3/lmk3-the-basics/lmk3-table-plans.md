@@ -22,7 +22,9 @@ See the [3D CAD model](https://cad.onshape.com/documents/8c100a0813416f7a0dd5816
 
 ## Materials Needed
 
-- One (85 pcs) pack **construction screws** - #9 x 2-½″
+- One pack **construction screws** - #9 or #8 x 2-½″
+  - **30x30** → 65 pcs
+  - **48x30** → 80 pcs
     ![](/_images/_lmmk3/_the-basics/lmk3_table_plans-image14.jpg){.aligncenter .size-medium}
 - One (1) **MDF** board
   - **30x30** → 65″x48″ inch, ¾″ thick
@@ -68,7 +70,7 @@ Cut list for 12 pcs **2”x4”x8’ Lumber**:
 
     ![](/_images/_lmmk3/_the-basics/lmk3_table_plans-image5.jpg){.aligncenter .size-medium}
 
-1. Place the two 42″ pieces against your marks as shown.
+1. Place the 42″ piece against your marks as shown.
 
     ![](/_images/_lmmk3/_the-basics/lmk3_table_plans-image17.jpg){.aligncenter .size-medium}
 
