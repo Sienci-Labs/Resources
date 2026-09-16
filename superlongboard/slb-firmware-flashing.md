@@ -109,6 +109,10 @@ https://www.youtube.com/watch?v=YmmHqQR9WTY
 
 1. Power OFF and ON the controller.
 
+1. Select your machine profile and restore your defaults.
+
+
+
 1. Finally, if you had any specific settings from your previous setup that you want to reapply, connect back to gSender, go to Config and change those firmware values back.
 
         When finished, remember to press Apply New Settings, then turn OFF/ON the controller. If the settings aren't applying, make sure the controller is in an 'Idle' state, cleared of all Alarms, then try turning the controller OFF/ON again.
