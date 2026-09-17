@@ -16,6 +16,8 @@ featured_image: _images/post-image.jpg
 
 ## Table Mounting
 
+https://www.youtube.com/watch?v=whaciag4WEk
+
 We will now use gSender to jog the machine to the travel limits, which will square up the machine and allow you to secure down the machine to the MDF sheet. The MDF will act as your wasteboard.
 
     ⭐ Due to the use of linear guides on the X and Y axes, there is zero play in the axes which means they can be squared to each other simply by jogging front to back.

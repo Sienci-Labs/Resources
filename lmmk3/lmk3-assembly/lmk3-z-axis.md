@@ -15,6 +15,8 @@ featured_image: _images/post-image.jpg
 ---
 ## Z-axis
 
+https://www.youtube.com/watch?v=mkkfaaChz5k
+
 ![](/_images/_lmmk3/_assembly/lmk3_z-header.jpg){.aligncenter .size-medium}
 
 ![](/_images/_lmmk3/_assembly/lmk3_z-partsneeded.jpg){.aligncenter .size-medium}

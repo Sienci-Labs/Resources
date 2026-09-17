@@ -15,6 +15,8 @@ featured_image: _images/post-image.jpg
 ---
 ## Drag Chains and Cables
 
+https://www.youtube.com/watch?v=5f8kO8QCEcs
+
 ![](/_images/_lmmk3/_assembly/lmk3_dragchain-header.jpg){.aligncenter .size-medium}
 
 ![](/_images/_lmmk3/_assembly/lmk3_dragchain-partsneededv3.jpg){.aligncenter .size-medium}
@@ -22,11 +24,11 @@ featured_image: _images/post-image.jpg
 1. Sort through your drag chains. You may have two (2) drag chain segments for the same axis, which means they need to be attached together to form one continuous drag chain. In total, you should have **two continuous drag chains**, one for X-axis and one for Y-axis.
 
     💡 If you forget which drag chains are for what axis, look at the number stamped on the drag chain.
-    
+
     ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-75-xaxis.jpg){.aligncenter .size-medium}
-    
+
     ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-38-yaxis.jpg){.aligncenter .size-medium}
-    
+
 1. Take off the drag chain **end links** using a flat head screwdriver. There should be four (4) total, two (2) with studs and two (2) with holes at the tabs.
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-endclip.gif){.aligncenter .size-large}
