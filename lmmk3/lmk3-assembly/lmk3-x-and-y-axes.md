@@ -15,6 +15,8 @@ featured_image: _images/post-image.jpg
 ---
 ## X and Y-axes
 
+https://www.youtube.com/watch?v=62zib7Jisic
+
 ![](/_images/_lmmk3/_assembly/lmk3_xy-partsneeded.jpg){.aligncenter .size-medium}
 
 ![](/_images/_lmmk3/_assembly/lmk3_xy-header.jpg){.aligncenter .size-medium}

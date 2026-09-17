@@ -33,16 +33,16 @@ Before you dive into the assembly of your machine, we have a few recommendations
 
 ## Videos
 
-If you prefer video, you can watch the following videos to assemble and set up your LongMill MK3 (COMING SOON!).
+If you prefer video, you can watch the following videos to assemble and set up your LongMill MK3.
 
 These videos cover the following pages:
 
-- Best Practices
-- MK3 Unboxing
-- X and Y-axes
-- Z-axis
-- Drag Chain and Cables
-- Table Mounting
+- [Best Practices](https://www.youtube.com/watch?v=ZLIK5op5FC4)
+- [MK3 Unboxing](https://www.youtube.com/watch?v=s1ihVgx0hLY)
+- [X and Y-axes](https://www.youtube.com/watch?v=62zib7Jisic)
+- [Z-axis](https://www.youtube.com/watch?v=mkkfaaChz5k)
+- [Drag Chain and Cables](https://www.youtube.com/watch?v=5f8kO8QCEcs)
+- [Table Mounting](https://www.youtube.com/watch?v=whaciag4WEk)
 
 After these videos, please read the remaining pages: [Final Checks](https://resources.sienci.com/view/mk3-final-checks/) and [Surfacing & First Project](https://resources.sienci.com/view/mk3-surfacing-first-proj/) to fully prepare for your CNCing journey.
 

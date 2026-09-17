@@ -16,6 +16,8 @@ featured_image: _images/post-image.jpg
 
 ## MK3 Unboxing
 
+https://www.youtube.com/watch?v=s1ihVgx0hLY
+
 ### X-axis Box
 
 ![](/_images/_lmmk3/_assembly/_unboxing/lmk3_unboxing-30-x-axis-box-v3.jpg){.aligncenter .size-medium}
