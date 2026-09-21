@@ -13,12 +13,10 @@ custom_fields:
 skip_file: no
 featured_image: _images/post-image.jpg
 ---
-## Maintenance
-
 Like any other CNC, the LongMill MK3 needs regular maintenance to stay in tip-top shape long-term. Depending on how often the machine is being used, the frequency of maintenance tasks can vary greatly.
 We have some general estimates on when you should do these tasks, but the most important thing is to **use your senses!** Keep an ear out for new sounds like **squeaking or binding** - these will indicate that your machine might need a little TLC.
 
-### Materials Needed
+## Materials Needed
 
 - Grease gun kit
   - Lithium grease tube, 3oz
@@ -34,13 +32,13 @@ We have some general estimates on when you should do these tasks, but the most i
 - Small brush or toothpick
 - Carbon brushes, if you have a router
 
-### Preparations
+## Preparations
 
-#### Clean the Components
+### Clean the Components
 
 Wipe the linear guide blocks, rails, and lead screws with shop towel to remove debris and dirt. If there is rust, scrub down with Scotch Brite.
 
-#### Set up Grease Gun
+### Set up Grease Gun
 
 The grease gun will be used on the linear guides only. **Do not apply lithium grease onto the lead screws.**
 
@@ -70,17 +68,18 @@ The grease gun will be used on the linear guides only. **Do not apply lithium gr
 
     ![](/_images/_lmmk3/_handbook/lmk3_maintenance-grease-squeeze.jpg){.aligncenter .size-medium}
 
-### Lubricate Linear Guides
+## Lubricate Linear Guides
 
 Do every **20-30 hours** of cutting
 
-1. For the Z-axis, first jog to the top to get access to the screws
+1. For the Z-axis, first jog to the top to get access to the screws.
 1. Remove one (1) screw from each linear guide block using the Allen key. See below for locations on each axis.
-1. Apply the grease into the hole with the gun, until grease comes out
-1. Wipe with shop towel to remove the excess
-1. Refasten the screw
-1. Jog to each end of the axis, to fully distribute the grease
-1. Repeat the above steps for each axis
+1. Push the nozzle firmly against the hole, and pump until grease comes out between the block and rail.
+    ![](/_images/_lmmk3/_handbook/lmk3_maintenance-blockgrease.jpg){.aligncenter .size-medium}
+1. Wipe with shop towel to remove the excess.
+1. Refasten the screw.
+1. Jog to each end of the axis, to fully distribute the grease.
+1. Repeat the above steps for each axis.
 
     ![](/_images/_lmmk3/_handbook/lmk3_maintenance-lmblock.jpg){.aligncenter .size-medium}
 
@@ -88,7 +87,7 @@ Do every **20-30 hours** of cutting
 
     ![](/_images/_lmmk3/_handbook/lmk3_maintenance-lmblock2.jpg){.aligncenter .size-medium}
 
-### Lubricate Lead Screws
+## Lubricate Lead Screws
 
 Do every **20-30 hours** of cutting
 
@@ -97,7 +96,7 @@ Do every **20-30 hours** of cutting
 1. Remove the shop towel
 1. Jog the machine so the dry lube distributes along the entire lead screw
 
-### Replace Anti-backlash Nuts
+## Replace Anti-backlash Nuts
 
 Do as needed, usually once every few years
 
@@ -105,7 +104,7 @@ Anti-backlash nuts are used to tension the lead screws so that the machine can m
 
 However, if you start noticing lead screw vibrations, then the nut has probably worn out and needs replacing.
 
-#### X and Y axis
+### X and Y axis
 
 1. Power off the machine
 1. Unscrew the two M5-25mm screws holding the anti-backlash nut
@@ -117,7 +116,7 @@ However, if you start noticing lead screw vibrations, then the nut has probably 
 1. Refasten the end plate/gantry, ACME nut and anti-backlash nut screws to secure components in place
     - Do not overtighten the anti-backlash nut fasteners screws, otherwise it will cause binding
 
-#### Z-axis
+### Z-axis
 
 1. Power off the machine
 1. Remove your router from the mount
@@ -131,7 +130,7 @@ However, if you start noticing lead screw vibrations, then the nut has probably 
 1. Refasten the anti-backlash nut and router mount screws to secure components in place
     - Do not overtighten the anti-backlash nut fasteners screws, otherwise it will cause binding
 
-### Router
+## Router
 
 We recommend cleaning out your collets and collet nuts, as dust buildup can cause bits to get stuck in your router. Use a small brush or toothpick to clean in between the grooves and threads.
 
