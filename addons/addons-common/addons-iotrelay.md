@@ -1,6 +1,6 @@
 ---
 title: IOT Relay
-menu_order: 4
+menu_order: 5
 post_status: publish
 post_excerpt: Use an IOT relay on your CNC to automatically control power to your router, vacuum, lighting, or other AC power systems.
 post_date: 2026-05-20 15:28:00
