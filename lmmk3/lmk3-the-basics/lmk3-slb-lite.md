@@ -21,7 +21,7 @@ The SLB-LITE is the next evolution of first generation SLB (SuperLongBoard) cont
 - Use of a modern RP2350 microcontroller with better reliability, easier flashing, and better driver support
 - A much more compact form factor, and robust enclosure
 - Modular design for expansion of IO, making controllers simpler and cheaper for those that don’t need it, and more expandable for those that do
-  - [Expansion board](#expansion) includes connections for ATC, ethernet and auxiliary
+  - [Expansion board](#expansion) includes connections for ATC, ethernet and auxiliary (sold separately)
 - Unified motor signal, motor power, and limit switches into one single locking connector and cable
 
 ## Technical Specifications
@@ -81,7 +81,7 @@ The SLB-LITE is the next evolution of first generation SLB (SuperLongBoard) cont
 ![](/_images/_lmmk3/_the-basics/lmk3_slblite-expansion.jpg){.aligncenter .size-medium}
 
 - A 2x13P 2.54mm pitch header male connector is used to connect with an optional expansion board for adding additional capabilities to the controller.
-- The expansion system is designed to efficiently utilize serial communication to provide a high number of external IO and auxiliary control. The expansion port on its own is not intended to be used for application-specific controls but this is possible. This includes the following IO/features:
+- The expansion system (sold separately) is designed to efficiently utilize serial communication to provide a high number of external IO and auxiliary control. The expansion port on its own is not intended to be used for application-specific controls but this is possible. This includes the following IO/features:
   - 5V power output
   - 24-48V power output (from the input power supply)
   - UART, I2C and SPI serial communication

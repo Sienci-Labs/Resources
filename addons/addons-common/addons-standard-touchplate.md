@@ -1,6 +1,6 @@
 ---
 title: Standard Touch Plate
-menu_order: 7
+menu_order: 8
 post_status: publish
 post_excerpt: Guide on how to use your standard block-style touch plate.
 post_date: 2026-05-20 15:18:35

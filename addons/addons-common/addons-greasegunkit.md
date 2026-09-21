@@ -1,9 +1,9 @@
 ---
-title: Spindle Kit
-menu_order: 7
-post_status: publish
-post_excerpt: Additional information on configuring your Sienci Labs spindle kit.
-post_date: 2026-05-20 15:31:15
+title: Grease Gun Kit
+menu_order: 4
+post_status: draft
+post_excerpt: Instructions on how to use the Grease Gun Kit on the LongMill and AltMill CNC machines.
+post_date: 2026-07-20 15:18:18
 taxonomy:
     knowledgebase_cat: addons-common
     knowledgebase_tag:
@@ -14,4 +14,3 @@ custom_fields:
 skip_file: no
 featured_image: 
 ---
-
