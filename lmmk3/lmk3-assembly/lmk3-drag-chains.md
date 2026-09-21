@@ -124,7 +124,7 @@ https://www.youtube.com/watch?v=5f8kO8QCEcs
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_xy_axes-render_29.jpg){.aligncenter .size-medium}
 
-1. Grab the adapter cable with the ethernet connector, and twist it onto the AutoSpin Plug the ethernet connector end into the SLB-LITE, at the SPINDLE port. Then connect the power plug end into wall power.
+1. Grab the adapter cable with the ethernet connector, and twist it onto the AutoSpin Plug the ethernet connector end into the SLB-LITE, at the SPINDLE port. Then connect the power plug end into wall power, and plug the USB cable into your computer.
 
     ![](/_images/_lmmk3/_assembly/_xy_axes/lmk3_dragchain-render-22.jpg){.aligncenter .size-medium}
 
