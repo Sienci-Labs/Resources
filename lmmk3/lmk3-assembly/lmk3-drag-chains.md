@@ -25,9 +25,9 @@ https://www.youtube.com/watch?v=5f8kO8QCEcs
 
     💡 If you forget which drag chains are for what axis, look at the number stamped on the drag chain.
 
-    ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-75-xaxis.jpg){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-75y.jpg){.aligncenter .size-medium}
 
-    ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-38-yaxis.jpg){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/lmk3_assembly_xy_axes-38x.jpg){.aligncenter .size-medium}
 
 1. Take off the drag chain **end links** using a flat head screwdriver. There should be four (4) total, two (2) with studs and two (2) with holes at the tabs.
 
