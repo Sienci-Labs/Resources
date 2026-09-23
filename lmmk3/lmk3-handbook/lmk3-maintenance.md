@@ -40,7 +40,7 @@ Wipe the linear guide blocks, rails, and lead screws with shop towel to remove d
 
 ### Set up Grease Gun
 
-The grease gun will be used on the linear guides only. **Do not apply lithium grease onto the lead screws.**
+We will use the grease gun to apply lithium grease on the linear guides only. **Do not apply lithium grease onto the lead screws. Do not put dry lube into the grease gun.**
 
 1. Pull the handle on the grease gun to its furthest extent, then lock it into place at the notch.
 
@@ -70,11 +70,11 @@ The grease gun will be used on the linear guides only. **Do not apply lithium gr
 
 ## Lubricate Linear Guides
 
-Do every **20-30 hours** of cutting
+Do every **165 hours** of cutting.
 
 1. For the Z-axis, first jog to the top to get access to the screws.
 1. Remove one (1) screw from each linear guide block using the Allen key. See below for locations on each axis.
-1. Push the nozzle firmly against the hole, and pump until grease comes out between the block and rail.
+1. Push the nozzle firmly against the hole, and slowly pump until a small amount of grease comes out between the block and rail.
     ![](/_images/_lmmk3/_handbook/lmk3_maintenance-blockgrease.jpg){.aligncenter .size-medium}
 1. Wipe with shop towel to remove the excess.
 1. Refasten the screw.
@@ -87,18 +87,18 @@ Do every **20-30 hours** of cutting
 
     ![](/_images/_lmmk3/_handbook/lmk3_maintenance-lmblock2.jpg){.aligncenter .size-medium}
 
-## Lubricate Lead Screws
+## Maintain Lead Screws
 
-Do every **20-30 hours** of cutting
+Do every **165 hours** of cutting.
 
-1. Apply dry lube onto shop towel
+1. Apply dry lube directly onto shop towel
 1. Grab the lead screw with the shop towel, then run the towel across the length of the lead screw, rotating to get into the threads at all angles
 1. Remove the shop towel
 1. Jog the machine so the dry lube distributes along the entire lead screw
 
 ## Replace Anti-backlash Nuts
 
-Do as needed, usually once every few years
+Do as needed, usually once every few years.
 
 Anti-backlash nuts are used to tension the lead screws so that the machine can move accurately. Since they are spring-loaded, they will continue to adjust themselves to apply the right tension.
 
