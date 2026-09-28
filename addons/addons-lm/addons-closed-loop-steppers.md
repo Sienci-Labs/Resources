@@ -45,7 +45,7 @@ The following components are included in the upgrade kit and are shown together 
 
 ## Motors
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade_title-glowpic.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade_title-glowpic-v2.jpg){.aligncenter .size-medium}
 
 This process should take approximately 2-3 hours. To begin, jog machine to the front/center of your wasteboard, and pull the table away from the wall if possible. You can also remove your router or spindle to give you a bit more room and open all of the links on your drag chains with a small flat head screwdriver to prepare for this upgrade. Let'start with the motors!
 
