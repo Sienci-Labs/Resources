@@ -19,29 +19,29 @@ Switching to the Closed Loop Stepper Motors (CLSM) from the open loop motors is 
 
 ## Unboxing
 
-Your upgrade kit will include a new SLB-EXT, 4 closed loop motors, 4 inductive sensors, a new 48 volt power supply and more! Check out the list below and [contact our team](https://sienci.com/contact-us/) if any parts are missing.
+Your upgrade kit will include a new SLB-LITE, 4 closed loop motors, 4 inductive sensors, a new 48 volt power supply and more! Check out the list below and [contact our team](https://sienci.com/contact-us/) if any parts are missing.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-allparts.jpg){.aligncenter .size-medium}
 
 The following components are included in the upgrade kit and are shown together in the photo below:
 
+- SLB-Lite
 - NEMA 23 Motors (x4)
 - Motor Covers (x4)
-- 40 mm blue aluminum standoffs (x16)
-- SLB-EXT (Includes E-stop)
-- 48 VDC power supply
+- 40 mm blue or silver aluminum standoffs (x16)
+- 24V power supply
 - Larger Drag chain 18x26
-- Drag chain bracket
-- Drag chain holder mounts (x4)
-- SLB EXT 3D-printed rail mounts (x2)
+- Drag chain brackets (x4)
+- Drag chain holder mount
 - Inductive sensors (x4)
-- Inductive sensor bracket (x2)
-- Motor cable set (X cable: 1.8 m, Y1 cable: 1.4 m, Y2 cable: 2.7 m, Z cable: 3.65 m)
+- Inductive sensor Y mount bracket (x2)
+- MK3 sheathed motor cable set
 - M5x10mm hex head screws (x2)
-- M5x12mm socket head screws + washers (x10)
-- Hex nut (x1)
-- Nylock nuts (x2)
-- M5x55mm socket head screws (x4, for dust shield addon)
+- M5x12mm socket head screws + washers (x8)
+- M5 Nylock nuts (x2)
+- M5 T-nuts (x6)
+- M5x55mm socket head screws (x4, for motor covers)
+- 3/4" Wood screws (x4)
 
 ## Motors
 
@@ -81,7 +81,7 @@ Ok, nicely done! We will now run the process we just completed, in reverse. Grab
 
 Let's begin by inserting each bolt into it's corresponding hole in the motor, then sliding each M5-50mm bolt into a matching 40mm spacer. Using either a drill or an M5 allen key, tighten each spacer/bolt combo.
 
-**Note - The latest motors do not have a red stripe around them, they are all black.**
+**Note - The latest motors do not have a red stripe around them, they are all black & you may receive either blue or silver standoffs.**
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-motor-installjpg.jpg){.aligncenter .size-medium}
 
@@ -113,7 +113,7 @@ Check to ensure the DIP switches on the X and Y axis motors follow the order of:
 
 ## Sensors
 
-With the upgraded motors and SLB EXT, you will receive 4 new limit switches (inductive sensors) with short pigtail connectors. In this section, we will swap out the 3 originals and install 4 new ones. Once complete, you will have a sensor on your Z axis, X axis and one on each Y axis, for a total of 4 sensors!!
+With the upgraded motors and SLB LITE, you will receive 4 new limit switches (inductive sensors) with short pigtail connectors. In this section, we will swap out the 3 originals and install 4 new ones. Once complete, you will have a sensor on your Z axis, X axis and one on each Y axis, for a total of 4 sensors!!
 
 Having an extra limit switch on your Y axis, allows you to home each axis (Y1 and Y2) individually.
 
@@ -157,7 +157,7 @@ Now that we have all 4 motors mounted and the inductive sensors re-arranged, let
 
 ### Drag Chain & Wires
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header4new.jpg){.aligncenter .size-full .wid}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header4v2.jpg){.aligncenter .size-full .wid}
 
 If you have not yet opened all of the tabs in both drag chains, do so at this time. You can slip a small flat head screw driver under each tab to pop them open. One side of each tab has a hinge (Don't remove this side) and a catch. Make sure you unclip them on the catch side, not the hinge side. We will be replacing the Y-axis drag chain, and upgrading it to a larger size, so you can remove this drag chain entirely at this time.
 
@@ -231,47 +231,27 @@ Install the motor cover onto the back of the motor using M3-40mm screws. Orient 
 
 Repeat the previous steps for the Z, Y1 and Y2 motors.
 
-## SLB EXT
+## SLB LITE
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header5.jpg){.aligncenter .size-full .wid}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header5.jpg.png){.aligncenter .size-full .wid}
 
-To begin this section, let's mount the board to the rail. Grab both SLB EXT mounting brackets and slide them onto the back of the case. You may notice that they are slightly angled. This is by design and allows you to slide them easily onto the case, while clamping the case to the rail when tightened.
+Mount the board to the wasteboard on the front, left corner. Grab your 4 wood screws, and secure the board using the indicated slots.
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-slbcase.jpg){.align-center .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-boardmount.jpg){.align-center .size-medium}
 
-Space them out evenly, then tighten them down onto the rail using the M5 T-nuts and M5 12mm screws.
+Now with the SLB LITE secure, let's plug everything in! Grab your motor cables and plug them into the matching letters on the board.
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-slbcasespace.jpg){.align-center .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-slbmotorplugs.jpg){.align-center .size-medium}
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-slbcasetight.jpg){.align-center .size-medium}
+Plug your power in on the left side of the board, and your USB on the right side.
 
-Now with the SLB EXT installed, let's open it up and plug everything in! Loosen the thumb screw on the front of the SLB-EXT enclosure and remove the acrylic face plate.
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-slblite.jpg){.align-center .size-medium}
 
-Fit the Z-axis and X-axis wire harnesses into the top cut out of the enclosure on the left side. Plug the sensor and motor control connectors into their respectively named ports.
-
-Plug the two-pronged motor power connectors into the left most power ports. The power ports all supply the same output and therefore the connectors are able to be plugged into any, however, for installation purposes we recommend you to plug into the two leftmost ports while installing X and Z.
-
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-xzsignals-updated.jpg){.align-center .size-medium}
-
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-xzmotorplug-up.jpg){.align-center .size-medium}
-
-Fit the Y1-axis and Y2-axis wire harnesses into the bottom cutout of the enclosure on the left side. Plug the sensor and motor control connectors into their respectively named ports. It is important that you do not mismatch the control connector from one harness with the sensor connector of the other when plugging into one pair of Y1 or Y2 ports. If installed incorrectly you will encounter an alarm during operation.  
-
-Plug the two-pronged motor power connectors into the two rightmost power ports. The power ports all supply the same output and therefore the connectors are able to be plugged into any, however, for installation purposes we recommend you to plug into the two rightmost ports while installing Y1 and Y2 power.
-
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-ysignals-updated.jpg){.align-center .size-medium}
-
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-ymotorplug-up.jpg){.align-center .size-medium}
-
-Reinstall the acrylic face plate of the SLB-EXT onto the enclosure. Tighten the thumb screw by hand. Plug the green connector of the E-stop cable into the port labelled E-stop on the left side of the controller, and the other side of the cable into the E-stop. You can now seat all of the wires into the open drag chain and close each tab with the catch, if you haven't already.
-
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-slbcasecover.jpg){.align-center .size-medium}
-
-Plug the green connector of the 48V power supply into the port labelled Power & plug the power supply into a 110V outlet. You can now flip the ON/OFF switch to power up your new board!
+You can now flip the ON/OFF switch to power up your new board!
 
 ## Software Changes
 
-Once your setup is complete and everything is secure and plugged into the SLB EXT, we will need to adjust a couple software settings:
+Once your setup is complete and everything is secure and plugged into the SLB LITE, we will need to adjust a couple software settings:
 
 - the motor speed in your sending software
 - the direction of homing (We are now going to the back left corner by default)
@@ -307,12 +287,12 @@ Congrats! You have now completed the installation and setup of your new Closed L
 
 ## Starting Up
 
-A safety feature of the SLB-EXT that is new to LongBoard or SLB users, is that the E-Stop will need to be cycled (depressed and released) before unlocking the system, or movement will be prevented.
+A safety feature of the SLB-LITE that is new to LongBoard or SLB users, is that the E-Stop will need to be cycled (depressed and released) before unlocking the system, or movement will be prevented.
 
 Generally a good workflow is to open gSender and:
 
 1. Depress the E-Stop (Press it so it's down)
-2. Power on the SLB EXT
+2. Power on the SLB LITE
 3. Release the E-Stop (Turn counterclockwise to release)
 4. Connect to gSender
 5. Unlock gSender (Click the lock icon at the top of the screen)
