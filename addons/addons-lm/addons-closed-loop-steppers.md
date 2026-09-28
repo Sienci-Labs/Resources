@@ -21,14 +21,14 @@ Switching to the Closed Loop Stepper Motors (CLSM) from the open loop motors is 
 
 Your upgrade kit will include a new SLB-LITE, 4 closed loop motors, 4 inductive sensors, a new 48 volt power supply and more! Check out the list below and [contact our team](https://sienci.com/contact-us/) if any parts are missing.
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-allparts.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-allparts-v2.jpg){.aligncenter .size-medium}
 
 The following components are included in the upgrade kit and are shown together in the photo below:
 
 - SLB-Lite
 - NEMA 23 Motors (x4)
 - Motor Covers (x4)
-- 40 mm blue or silver aluminum standoffs (x16)
+- 40mm blue or silver aluminum standoffs (x16)
 - 24V power supply
 - Larger Drag chain 18x26
 - Drag chain brackets (x4)
@@ -36,11 +36,11 @@ The following components are included in the upgrade kit and are shown together 
 - Inductive sensors (x4)
 - Inductive sensor Y mount bracket (x2)
 - MK3 sheathed motor cable set
-- M5x10mm hex head screws (x2)
-- M5x12mm socket head screws + washers (x8)
+- M5-10mm hex head screws (x2)
+- M5-12mm socket head screws + washers (x8)
 - M5 Nylock nuts (x2)
 - M5 T-nuts (x6)
-- M5x55mm socket head screws (x4, for motor covers)
+- M5-55mm socket head screws (x4, for motor covers)
 - 3/4" Wood screws (x4)
 
 ## Motors
@@ -75,7 +75,7 @@ Now that we've pulled the X-axis motor from the motor shaft, **proceed to do the
 
 ### Install the New Motors
 
-Ok, nicely done! We will now run the process we just completed, in reverse. Grab the new closed loop motors, the blue standoffs, and the M5-50mm bolts we removed in step 2 above.
+Ok, nicely done! We will now run the process we just completed, in reverse. Grab the new closed loop motors, the blue/silver standoffs, and the M5-50mm bolts we removed in the previous step above.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-header2.jpg){.aligncenter .size-full .wid}
 
@@ -98,7 +98,7 @@ Now that we've replaced the one motor, **proceed to do the exact same 3 steps wi
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxismotor2.jpg "Y Axis Motor 2"){.aligncenter .size-medium}
 
 - Swap out spacers
-- Tighten down M-50 screws
+- Tighten down M-50mm screws
 - Tighten coupler
 
 If you have dust shields on your y-axis rails, replace the two M5-50mm screws with the included M5-55mm screws on the inside standoffs/spacers for both y-axis motors. This will allow the dust shields to sit on those new screws slightly.
@@ -113,7 +113,7 @@ Check to ensure the DIP switches on the X and Y axis motors follow the order of:
 
 ## Sensors
 
-With the upgraded motors and SLB LITE, you will receive 4 new limit switches (inductive sensors) with short pigtail connectors. In this section, we will swap out the 3 originals and install 4 new ones. Once complete, you will have a sensor on your Z axis, X axis and one on each Y axis, for a total of 4 sensors!!
+With the upgraded motors and SLB LITE, you will receive 4 new limit switches (inductive sensors) with short pigtail connectors. In this section, we will swap out the 3 originals and install 4 new ones. Once complete, you will have a sensor on your Z axis, X axis and one on each Y axis, for a total of 4 sensors!
 
 Having an extra limit switch on your Y axis, allows you to home each axis (Y1 and Y2) individually.
 
@@ -137,7 +137,7 @@ For the Y-axis, we will be using a bracket to mount the sensor under the Y-axis 
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxislimit-position.jpg){.align-center .size-medium}
 
-Slip an M5-T Nut into the slot at the back of both Y-axis rails and secure it with an M5-10 mm hex head screw, with **two washers**. Do not tighten this all the way down yet, as we will be sliding the bracket onto it. You can use the wrench that shipped with your LongMill, or one you have in your shop to assist in this step.
+Slip an M5-T Nut into the slot at the back of both Y-axis rails and secure it with an M5-10mm hex head screw, with **two washers**. Do not tighten this all the way down yet, as we will be sliding the bracket onto it. You can use the wrench that shipped with your LongMill, or one you have in your shop to assist in this step.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-yaxis-slots.jpg){.align-center .size-medium}
 
@@ -183,9 +183,9 @@ Now we can attach the final drag chain end to the last drag chain bracket with a
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-nylocknut.jpg){.align-center .size-medium}
 
-One tip that can help out in this step is to **put the drag chain end on before you put the bracket onto the rail as pictured above**.
+One tip that can help out in this step is to **put the drag chain end on before you put the bracket onto the rail as pictured below**.
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-endlinkbotttom.jpg){.align-center .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-endlinkbotttom-v2.jpg){.align-center .size-medium}
 
 Slide the bracket into place and tighten down the M5-12mm screw.
 
@@ -310,4 +310,4 @@ Here you can find the schematics/drawings that are available for download.
 
 [Take me to the files!](https://drive.google.com/drive/folders/1nnLDaa0WipzLcEGQt92obk_tss4Uf9-2?usp=sharing)
 
-Still here and wondering why you have an extra 'black plate' that hasn't been mentioned at all? It's a part that is used for another machine, not for this kit specifically. Go ahead and carve something cool on it! Cheers!!
+Still here and wondering why you have an extra 'black plate' that hasn't been mentioned at all? It's a part that is used for another machine, not for this kit specifically. Go ahead and carve something cool on it. Cheers!
