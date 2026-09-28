@@ -70,7 +70,7 @@ We will use the grease gun to apply lithium grease on the linear guides only. **
 
 ## Lubricate Linear Guides
 
-Do every **165 hours** of cutting.
+Do every **160 hours** of cutting. If you are running the machine 8 hours a day, 5 days a week, you should be greasing every 4 weeks.
 
 1. For the Z-axis, first jog to the top to get access to the screws.
 1. Remove one (1) screw from each linear guide block using the Allen key. See below for locations on each axis.
@@ -89,7 +89,7 @@ Do every **165 hours** of cutting.
 
 ## Maintain Lead Screws
 
-Do every **165 hours** of cutting.
+Do every **160 hours** of cutting. If you are running the machine 8 hours a day, 5 days a week, you should be doing this every 4 weeks.
 
 1. Apply dry lube directly onto shop towel
 1. Grab the lead screw with the shop towel, then run the towel across the length of the lead screw, rotating to get into the threads at all angles
