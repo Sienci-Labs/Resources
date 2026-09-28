@@ -197,7 +197,7 @@ Clip the drag chain onto each drag chain clip.
 
 ![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-dragchainattach.jpg){.align-center .size-medium}
 
-In this final setup image above, you can see the drag chain in place, with the wires all tucked in and all the tabs have been closed. Ensure you have enough slack left in the cables to enable the ends to reach both the motor connections and the connections on the SLB EXT.
+In this final setup image above, you can see the drag chain in place, with the wires all tucked in and all the tabs have been closed. Ensure you have enough slack left in the cables to enable the ends to reach both the motor connections and the connections on the SLB LITE.
 
 When looking at your motor cables, you will notice each one is labelled with the corresponding axis it goes to. Let's begin with the X-axis motor cable.
 
