@@ -164,11 +164,9 @@ A blue button called 'Start Probe' will appear if you have successfully confirme
 
 ![](/_images/_gsender/_using/gs_us_success.jpg){.aligncenter .size-medium}
 
-If you have a different setup where probing the front, left corner is less convenient for you, gSender can also probe other corners by clicking the corner button. You'll see the blue arrow point to the corner you want to probe from, then you can follow the rest of the probing process the same way.
+**This feature is only available on gSender 1.6.3. or lower:** If you have a different setup where probing the front left corner is less convenient for you, gSender can also probe other corners. Click on the corner button; you'll see the blue arrow point to the corner you want to probe from, then complete the rest of the probing process as usual. For two-sided cutting, this can also allow you to register off the same corner on both sides so your tool paths line up (for example, the front left would become the back left when you flip it over).
 
-![](/_images/_gsender/_using/gs_us_probecorner.gif){.aligncenter .size-full}
-
-For two-sided cutting, this can also allow you to register off the same corner on both sides so your tool paths line up (for example, the front left would become the back left when you flip it over).
+  ![](/_images/_gsender/_using/gs_us_probecorner.gif){.aligncenter .size-full}
 
 ## Loading Job Files
 
