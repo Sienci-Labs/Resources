@@ -1,11 +1,11 @@
 ---
 title: Closed Loop Upgrade
-menu_order: 9
-post_status: draft
+menu_order: 11
+post_status: publish
 post_excerpt: How to install and setup the Closed Loop Stepper Motors Kit
-post_date: 2022-03-17 20:33:22
+post_date: 2022-03-17 20:49:22
 taxonomy:
-    knowledgebase_cat: lmk2-add-ons
+    knowledgebase_cat: lmk2-assembly
     knowledgebase_tag:
         - mk2
 custom_fields:
@@ -23,7 +23,7 @@ For a more detailed rundown on how to successfully prepare for the use of the SL
 
 Your upgrade kit will include a new SLB EXT, 4 closed loop motors, 4 inductive sensors, a new 48 volt power supply and more! Check out the list below and [contact our team](https://sienci.com/contact-us/) if any parts are missing.
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-allparts.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-allparts-scaled.jpg){.aligncenter .size-medium}
 
 The following components are included in the upgrade kit and are shown together in the photo below:
 
@@ -47,7 +47,7 @@ The following components are included in the upgrade kit and are shown together 
 
 ## Motors
 
-![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade_title-glowpic.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade_Title-Motors-Wiring-scaled.jpg){.aligncenter .size-medium}
 
 This process should take approximately 2-3 hours. To begin, jog machine to the front/center of your wasteboard, and pull the table away from the wall if possible. You can also remove your router or spindle to give you a bit more room and open all of the links on your drag chains with a small flat head screwdriver to prepare for this upgrade. Let'start with the motors!
 

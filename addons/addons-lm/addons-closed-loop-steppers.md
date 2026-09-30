@@ -15,7 +15,7 @@ skip_file: no
 featured_image: _images/_lmmk2/_add-ons/_clsm-upgrade/lmk2_clsm_upgrade-allparts.jpg
 ---
 
-Switching to the Closed Loop Stepper Motors (CLSM) from the open loop motors is easy. The main difference between the open loop and the closed loop motors is that the open loop motors lack positional feedback making them prone to “skipping steps” under load. With closed loop motors there is a feedback system that helps in monitoring their positions which enables them to self-correct errors, improve accuracy and operate more efficiently.
+Switching to the Closed Loop Stepper Motors (CLSM) from the open loop motors is easy. The main difference between the open loop and the closed loop motors is that the open loop motors lack positional feedback making them prone to “skipping steps” under load. With closed loop motors there is a feedback system that helps in monitoring their positions which enables them to self-correct errors, improve accuracy and operate more efficiently. If you have a LongMill with the SLB - EXT, go HERE for installation instructions.
 
 ## Unboxing
 
