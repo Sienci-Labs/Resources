@@ -25,7 +25,7 @@ Your upgrade kit will include a new SLB-LITE, 4 closed loop motors, 4 inductive 
 
 The following components are included in the upgrade kit and are shown together in the photo below:
 
-- SLB-Lite
+- SLB-LITE
 - NEMA 23 Motors (x4)
 - Motor Covers (x4)
 - 40mm blue or silver aluminum standoffs (x16)
