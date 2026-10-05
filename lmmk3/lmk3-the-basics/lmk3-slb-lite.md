@@ -44,7 +44,7 @@ The SLB-LITE is the next evolution of first generation SLB (SuperLongBoard) cont
 
 ### Inputs & Outputs
 
-![](/_images/_lmmk3/_the-basics/lmk3_slblite-board.jpg){.aligncenter .size-medium}
+![](/_images/_lmmk3/_the-basics/lmk3_boardio.jpg){.aligncenter .size-full}
 
 #### Power
 
