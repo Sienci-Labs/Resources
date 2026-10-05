@@ -24,9 +24,11 @@ We will now use gSender to jog the machine to the travel limits, which will squa
 
 1. Adjust the position of your assembled machine, so that there is space for the SLB-LITE to sit on the MDF.
 
-    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemounting_render_23.png){.aligncenter .size-medium}
+    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemounting_render_23.jpg){.aligncenter .size-medium}
 
-1. Download the latest version of [gSender](https://sienci.com/gsender/) onto your computer. If you need it, detailed installation instructions can be found on [this page](https://resources.sienci.com/view/gs-installation/).
+1. Download the latest version of [gSender](https://sienci.com/gsender/) onto your computer. If it was pre-installed, check that you have gSender 1.6.4 or above, at the top of the window. Detailed installation instructions can be found on [this page](https://resources.sienci.com/view/gs-installation/).
+
+    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-gsenderver.jpg){.aligncenter .size-medium}
 
 1. Connect to gSender through USB using the top left corner dropdown.
 
