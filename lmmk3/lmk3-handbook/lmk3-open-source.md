@@ -1,7 +1,7 @@
 ---
 title: Open Source
 menu_order: 3
-post_status: draft
+post_status: publish
 post_excerpt: All of the open source information for the MK3 in one spot.
 post_date: 2026-05-19 15:20:00
 taxonomy:
@@ -23,11 +23,23 @@ Welcome to the LongMill MK3 open source page. The MK3 is open source, meaning we
 - Makers to use our design ideas and design philosophy to create other types of machines, such as laser cutters, plasma cutters, and 3D printers
 - Us to gain inspiration from the community to help us guide our development of current and future products and features
 
-Here are the 3D CAD models of the machine:
+## License
 
-[48x30](https://cad.onshape.com/documents/1446e69db59ab6f2e0b90138/w/5a20a97d8a35f507338b65e2/e/d7f5a19efccef49dcffce552)
+This is accomplished by putting the project under a Creative Commons BY-SA license:
 
-[30x30](https://cad.onshape.com/documents/1446e69db59ab6f2e0b90138/w/5a20a97d8a35f507338b65e2/e/ec1219155ccc4c6767073f2b)
+- The entire mechanical design of our LongMill MK3 CNC available in a range of 3D file types and as drawings where applicable
+- Any internal assembly jigs and other supporting hardware for the LongMill MK3
+- All educational information provided within the LongMill MK3 Resources area including machine assembly instructions and modifications
+- Every aspect of the electrical design behind our custom SLB-LITE CNC controller including BOM, schematics, gerber file, etc
+- All this information is continually updated as the LongMill project continues to be revised, with more openly shared information being made available at each new major revision and licensing continuing to be applied to all previous major versions. By making this information available, the LongMill project fulfills the Open Source Hardware Association’s definition of open source hardware.
+
+Here are the 3D CAD assemblies of the LongMill MK3 and SLB-LITE:
+
+[LongMill MK3 CAD](https://cad.onshape.com/documents/200e2b07a41742e21dd04ae8/w/cd637830caa4c1874b741c67/e/2b1548b67b781e207f64afb4)
+
+SLB-LITE design documents can be found here:
+
+[SLB-LITE Files](https://github.com/Sienci-Labs/SuperLongboard-Lite)
 
 The models are hosted on the website/platform known as “Onshape”. This is the browser-based software that the engineers and designers on our team use to design and iterate on all the products we produce at Sienci Labs. The fact that it’s online has the great advantage that anytime we make an update or release a new product, you are able to see them live or download them for yourself. We feel this is a great way to keep our company open and make our designs easily accessible to others.
 
