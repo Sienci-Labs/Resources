@@ -35,7 +35,7 @@ This is accomplished by putting the project under a Creative Commons BY-SA licen
 
 Here are the 3D CAD assemblies of the LongMill MK3 and SLB-LITE:
 
-[LongMill MK3 CAD](https://cad.onshape.com/documents/200e2b07a41742e21dd04ae8/w/cd637830caa4c1874b741c67/e/2b1548b67b781e207f64afb4)
+[LongMill MK3 CAD](https://cad.onshape.com/documents/200e2b07a41742e21dd04ae8/w/cd637830caa4c1874b741c67/e/1232ea3082275116456aa66f)
 
 SLB-LITE design documents can be found here:
 
