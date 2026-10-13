@@ -44,6 +44,6 @@ These videos cover the following pages:
 - [Drag Chain and Cables](https://www.youtube.com/watch?v=5f8kO8QCEcs)
 - [Table Mounting](https://www.youtube.com/watch?v=whaciag4WEk)
 
-After these videos, please read the remaining pages: [Final Checks](https://resources.sienci.com/view/mk3-final-checks/) and [Surfacing & First Project](https://resources.sienci.com/view/mk3-surfacing-first-proj/) to fully prepare for your CNCing journey.
+After these videos, please read the remaining pages: [Final Checks](https://resources.sienci.com/view/lmk3-final-checks/) and [Surfacing & First Project](https://resources.sienci.com/view/lmk3-surfacing-first-proj/) to fully prepare for your CNCing journey.
 
     ⚠️ Any updates to our instructions will be reflected in the written instructions, so if something is not working after following the video, please read our assembly articles!
