@@ -3,7 +3,7 @@ title: Firmware & Flashing
 menu_order: 4
 post_status: publish
 post_excerpt: How to flash firmware onto SLB-LITE / SLB-EXT V2 
-post_date: 2026-10-22 16:47:33
+post_date: 2026-10-20 16:47:33
 taxonomy:
     knowledgebase_cat: slblitev2-handbook
     knowledgebase_tag:

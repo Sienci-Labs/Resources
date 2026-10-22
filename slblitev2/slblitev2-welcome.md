@@ -3,7 +3,7 @@ title: Welcome
 menu_order: 1
 post_status: publish
 post_excerpt: General information about the SLB-LITE and SLB-EXT V2 
-post_date: 2026-10-22 16:44:00
+post_date: 2026-10-20 16:44:00
 taxonomy:
     knowledgebase_cat: slblitev2-handbook
     knowledgebase_tag:

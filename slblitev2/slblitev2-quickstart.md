@@ -3,7 +3,7 @@ title: Quick Start Guide
 menu_order: 2
 post_status: publish
 post_excerpt: How to use your SLB-LITE / SLB-EXT V2 
-post_date: 2026-10-22 16:45:11
+post_date: 2026-10-20 16:45:11
 taxonomy:
     knowledgebase_cat: slblitev2-handbook
     knowledgebase_tag:

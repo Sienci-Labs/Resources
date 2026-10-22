@@ -3,7 +3,7 @@ title: Technical Manual
 menu_order: 3
 post_status: publish
 post_excerpt: In depth functionality of the SLB-LITE / SLB-EXT V2 
-post_date: 2026-10-22 16:46:22
+post_date: 2026-10-20 16:46:22
 taxonomy:
     knowledgebase_cat: slblitev2-handbook
     knowledgebase_tag:
