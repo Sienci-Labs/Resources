@@ -21,7 +21,8 @@ Before getting started, check what your current version is by going to the ‘Ma
 
 ### Latest Firmware
 
-SLB-LITE: https://drive.google.com/file/d/1a2pmkYWFBdTx3NHJ0A-YLHbfPV6Z0u0r/view?usp=drive_link 
+SLB-LITE: [Click Here](https://drive.google.com/file/d/1a2pmkYWFBdTx3NHJ0A-YLHbfPV6Z0u0r/view?usp=drive_link)
+
 - Version 20260902
 - Newest, main version of grblHAL
 - Requires gSender 1.6.4 or newer
