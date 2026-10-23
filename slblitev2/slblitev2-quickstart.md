@@ -158,11 +158,10 @@ Nice work on getting your SLB-LITE/SLB-EXT V2 up and running!
 
 We would recommend trying out your first test cut on simple jobs like these:
 
-- Diagnostic carve https://resources.sienci.com/view/lmk3-surfacing-first-proj/#project-cnc-test-carve 
-- Sienci Labs logo https://www.youtube.com/watch?v=xbVuRSMwJcI 
-- Some beginner projects https://resources.sienci.com/view/lmk2-first-project/   
+- [Diagnostic carve](https://resources.sienci.com/view/lmk3-surfacing-first-proj/#project-cnc-test-carve)
+- [Sienci Labs logo](https://www.youtube.com/watch?v=xbVuRSMwJcI)
+- [Some beginner projects](https://resources.sienci.com/view/lmk2-first-project/)
 
-Then learn to install and use any CNC accessories that you haven’t hooked up yet through our add-ons knowledge base. https://resources.sienci.com/view/addons 
+Then learn to install and use any CNC accessories that you haven’t hooked up yet through our [add-ons knowledge base](https://resources.sienci.com/view/addons).
 
 There’s lots to learn, but take your time and enjoy the ride. Cheers and have fun with your new controller 🥳
-
