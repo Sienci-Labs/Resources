@@ -51,7 +51,7 @@ This wizard will provide you with general software suggestions based on your CNC
 <script src="https://resources.sienci.com/wp-content/react/wizard.js"></script>
 
 <style>
-@import url('https://resources.sienci.com/wp-content/react/wizard.css');
+@import url('https://resources.sienci.com/wp-content/react/wizard.css')
 </style>
 
 ## Our Recommendations
