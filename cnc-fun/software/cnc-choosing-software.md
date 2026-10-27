@@ -297,12 +297,18 @@ Vectric VCarve Desktop is one of Vectrics mid-level products, with products like
 Follow our **Vectric Basics for CNC Beginners** series to work through document setup, vectors, and toolpaths in VCarve. These tutorials also introduce principles used in VCarve Desktop, VCarve Pro, and Aspire.
 
 1. [Setting Up Your Document](https://youtu.be/PRlSnGFcp-I)
-2. [Tips for Creating Vectors](https://youtu.be/inV7izPkEsc)
-3. [Importing Vectors](https://youtu.be/8ZPlgmD-WuE)
-4. [Tracing Images](https://youtu.be/R-MCDdFoKu0)
-5. [Creating Toolpaths](https://youtu.be/l9weFI8-tsg)
-6. [Previewing Toolpaths](https://youtu.be/YCsG9Ykn8kc)
-7. [Saving Toolpaths](https://youtu.be/vqEVhlKyxGU)
+
+1. [Tips for Creating Vectors](https://youtu.be/inV7izPkEsc)
+
+1. [Importing Vectors](https://youtu.be/8ZPlgmD-WuE)
+
+1. [Tracing Images](https://youtu.be/R-MCDdFoKu0)
+
+1. [Creating Toolpaths](https://youtu.be/l9weFI8-tsg)
+
+1. [Previewing Toolpaths](https://youtu.be/YCsG9Ykn8kc)
+
+1. [Saving Toolpaths](https://youtu.be/vqEVhlKyxGU)
 
 > Your software may look different from the version shown in the videos, but the core design and toolpath principles remain useful.
 
