@@ -198,7 +198,7 @@ F-Engrave is a free and open source software which provides several useful featu
 The halftoner program is quite old but very simple. By importing images, you're able to chose from a selection of patterns which will enable you generate black-and-white halftone v-carves from that photo. Its use case is very limited but it's good at what it does.<br>
 <a href="https://www.YouTube.com/watch?v=ovtCDXCxhkI" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
 
-[!](/_images/_cnc-fun/_software/cnc_so_choosingsoft_halftoner.jpg){.aligncenter .size-medium}
+![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_halftoner.jpg){.aligncenter .size-medium}
 
 [tabby title="Kiri:Moto"]
 
@@ -294,32 +294,32 @@ Vectric VCarve Desktop is one of Vectrics mid-level products, with products like
 
 ### Learn the Basics
 
-Follow our **Vectric Basics for CNC Beginners** series to work through document setup, vectors, and toolpaths in VCarve. These tutorials also introduce principles used in VCarve Desktop, VCarve Pro, and Aspire.
+<p>Follow our <strong>Vectric Basics for CNC Beginners</strong> series to work through document setup, vectors, and toolpaths in VCarve. These tutorials also introduce principles used in VCarve Desktop, VCarve Pro, and Aspire.</p>
 
-1. [Setting Up Your Document](https://youtu.be/PRlSnGFcp-I)
+<ol>
+  <li><a href="https://youtu.be/PRlSnGFcp-I">Setting Up Your Document</a></li>
+  <li><a href="https://youtu.be/inV7izPkEsc">Tips for Creating Vectors</a></li>
+  <li><a href="https://youtu.be/8ZPlgmD-WuE">Importing Vectors</a></li>
+  <li><a href="https://youtu.be/R-MCDdFoKu0">Tracing Images</a></li>
+  <li><a href="https://youtu.be/l9weFI8-tsg">Creating Toolpaths</a></li>
+  <li><a href="https://youtu.be/YCsG9Ykn8kc">Previewing Toolpaths</a></li>
+  <li><a href="https://youtu.be/vqEVhlKyxGU">Saving Toolpaths</a></li>
+</ol>
 
-1. [Tips for Creating Vectors](https://youtu.be/inV7izPkEsc)
+<blockquote>
+  <p>Your software may look different from the version shown in the videos, but the core design and toolpath principles remain useful.</p>
+</blockquote>
 
-1. [Importing Vectors](https://youtu.be/8ZPlgmD-WuE)
+<p>For more tutorials, visit Vectric’s learning pages:</p>
 
-1. [Tracing Images](https://youtu.be/R-MCDdFoKu0)
+<ul>
+  <li><a href="https://www.vectric.com/support/tutorials/vcarve-pro/">VCarve Pro</a></li>
+  <li><a href="https://www.vectric.com/support/tutorials/vcarve-desktop/">VCarve Desktop</a></li>
+  <li><a href="https://www.vectric.com/support/tutorials/aspire/">Aspire</a></li>
+  <li><a href="https://www.vectric.com/support/tutorials/spark/">Spark</a></li>
+</ul>
 
-1. [Creating Toolpaths](https://youtu.be/l9weFI8-tsg)
-
-1. [Previewing Toolpaths](https://youtu.be/YCsG9Ykn8kc)
-
-1. [Saving Toolpaths](https://youtu.be/vqEVhlKyxGU)
-
-> Your software may look different from the version shown in the videos, but the core design and toolpath principles remain useful.
-
-For more tutorials, visit Vectric’s learning pages:
-
-- [VCarve Pro](https://www.vectric.com/support/tutorials/vcarve-pro/)
-- [VCarve Desktop](https://www.vectric.com/support/tutorials/vcarve-desktop/)
-- [Aspire](https://www.vectric.com/support/tutorials/aspire/)
-- [Spark](https://www.vectric.com/support/tutorials/spark/)
-
-![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_vcarve.jpg){.aligncenter .size-medium}
+<img src="/_images/_cnc-fun/_software/cnc_so_choosingsoft_vcarve.jpg" alt="Vectric VCarve software" class="aligncenter size-medium">
 
 [tabby title="Onshape"]
 
