@@ -63,7 +63,7 @@ Many of our go-to software picks tend to be available for free and can range fro
 [su_button url="resources.sienci.com/view/lm-more-projects/" target="self" style="flat" background="var(--sl-blue)" color="#FFFFFF" size="8" wide="no" center="yes" radius="3" icon="" icon_color="#FFFFFF" text_shadow="none" desc="" download="" onclick="" rel="" title="" id="" class=""]Design sharing websites[/su_button]
 &nbsp;
 
-### Design & CAM (beginner-friendly) - Sync check
+### Design & CAM (beginner-friendly)
 
 If you're looking for software that takes advantage of most CNC features while remaining easy to pick up, we recommend checking out these software options:
 
