@@ -279,7 +279,10 @@ For those that are looking to use their CNC more regularly and want to unlock it
 <b>Carveco Maker</b> (<a href="https://carveco.com/carveco-software-range/carveco-maker/" target="_blank" rel="noopener noreferrer">link to site</a>)
 
 Carveco Maker is Carveco's entry-level product yet it comes with quite a bit of power. It has a lot of features similar to Vectrics VCarve software such as standard toolpaths, 2D drawing, V-carving, and 3D importing but it can also create reliefs from 3D models and images and allows you to perform manual relief smoothing. This is a highly featured software that's built for semi-professional CNC use and its capabilities reflect that. It's also impressive how clean the user interface is when factoring in all the features it has. If you're interested, check out this comparison we did between Carveco Maker and Vectric VCarve Desktop: <a href="https://sienci.com/2020/11/19/vectric-vcarve-desktop-vs-carveco-maker-which-should-you-choose/" target="_blank" rel="noopener noreferrer">Vectric VCarve Desktop vs Carveco Maker – Which Should You Choose</a><br>
-<a href="https://www.YouTube.com/watch?v=4f-NpoQmnCE&amp;list=PLalFSVzdLCiZKsYkrcHJr1kUYnVgX5LPs" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
+
+For guided lessons on designing projects and creating toolpaths, explore [Carveco’s learning resources](https://learn.carveco.com/).
+
+<!-- Add the Sienci Labs Carveco Basics for CNC Beginners series here once published. -->
 
 ![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_carvecom.jpg){.aligncenter .size-medium}
 
@@ -288,7 +291,27 @@ Carveco Maker is Carveco's entry-level product yet it comes with quite a bit of 
 <b>Vectric VCarve Desktop</b> (<a href="https://www.vectric.com/products/vcarve-desktop" target="_blank" rel="noopener noreferrer">link to site</a>)
 
 Vectric VCarve Desktop is one of Vectrics mid-level products, with products like Cut2D and PhotoVCarve being more entry-level. It has quite a lot of features similar to Carveco Maker such as standard toolpaths, 2D drawing, V-carving, and 3D importing but it's limited in that it can't modify 3D models and all projects are limited to a 24"x24" cutting size. It still has unique CAM toolpaths and has also been built for semi-professional CNC use so its capabilities reflect that. If you're interested, check out this comparison we did between Vectric VCarve Desktop and Carveco Maker: <a href="https://sienci.com/2020/11/19/vectric-vcarve-desktop-vs-carveco-maker-which-should-you-choose/" target="_blank" rel="noopener noreferrer">Vectric VCarve Desktop vs Carveco Maker – Which Should You Choose</a><br>
-<a href="https://www.YouTube.com/channel/UCMrMqMabXS5_cFcq5K9Ob-w" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
+
+### Learn the Basics
+
+Follow our **Vectric Basics for CNC Beginners** series to work through document setup, vectors, and toolpaths in VCarve. These tutorials also introduce principles used in VCarve Desktop, VCarve Pro, and Aspire.
+
+1. [Setting Up Your Document](https://youtu.be/PRlSnGFcp-I)
+2. [Tips for Creating Vectors](https://youtu.be/inV7izPkEsc)
+3. [Importing Vectors](https://youtu.be/8ZPlgmD-WuE)
+4. [Tracing Images](https://youtu.be/R-MCDdFoKu0)
+5. [Creating Toolpaths](https://youtu.be/l9weFI8-tsg)
+6. [Previewing Toolpaths](https://youtu.be/YCsG9Ykn8kc)
+7. [Saving Toolpaths](https://youtu.be/vqEVhlKyxGU)
+
+> Your software may look different from the version shown in the videos, but the core design and toolpath principles remain useful.
+
+For more tutorials, visit Vectric’s learning pages:
+
+- [VCarve Pro](https://www.vectric.com/support/tutorials/vcarve-pro/)
+- [VCarve Desktop](https://www.vectric.com/support/tutorials/vcarve-desktop/)
+- [Aspire](https://www.vectric.com/support/tutorials/aspire/)
+- [Spark](https://www.vectric.com/support/tutorials/spark/)
 
 ![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_vcarve.jpg){.aligncenter .size-medium}
 
@@ -306,7 +329,10 @@ Onshape is a powerful, cloud-based 3D modelling software suitable for both begin
 <b>Fusion 360</b> (<a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" rel="noopener noreferrer">link to site</a>)
 
 Fusion 360 is one of the most popular 3D modelling and CAM combination programs used by hobbyists. It has powerful, industry-level features with the most complete CAM package for 2D and 3D cutting operations. It's free for makers and hobbyists (with some restrictions) and they offer great <a href="http://au.autodesk.com/au-online/classes-on-demand/search?full-text=&amp;productName=Fusion+360&amp;language=&amp;year=2015" target="_blank" rel="noreferrer noopener">training resources</a> as well as a <a href="https://www.YouTube.com/watch?v=Qmx5DUvvmxI&amp;list=PLmA_xUT-8UlK9rndthGGHsjjnZtPO8XRV" target="_blank" rel="noreferrer noopener">full playlist</a> which teaches every step in learning how to use the CAM part of Fusion. Fusion 360 is a great option if you're wanting to take the deep dive on CNC programming.<br>
-<a href="https://www.YouTube.com/watch?v=q9qWRAAU3cs" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
+
+New to Fusion? Start with Autodesk’s [Introduction to Fusion](https://www.autodesk.com/learn/ondemand/curated/introduction-to-fusion).
+
+<!-- Add the Sienci Labs Autodesk Fusion Basics for CNC Beginners series here once published. -->
 
 ![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_fusion360.jpg){.aligncenter .size-medium}
 
@@ -403,6 +429,12 @@ The full list of grbl-compatible senders is generally maintained here: <a href="
 <b>gSender</b> (<a href="https://sienci.com/gSender/" target="_blank" rel="noopener">https://sienci.com/gsender/</a>)
 
 This software is designed to be clean and easy to use no matter your previous CNC experience. It has a variety of features such as macros, CNC calibration, surfacing, tool changing, and firmware control. gSender supports many grbl-based machines and works out-of-the-box.
+
+Once you’ve created your toolpaths, use gSender to load and run them on your CNC. Follow our [gSender setup instructions](https://resources.sienci.com/view/gs-installation/) to get connected.
+
+<!-- Review the following video for accuracy before publishing:
+Changing Bits During a Project — https://youtu.be/fEaCbxw3s6I
+-->
 
 ![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_gsender-nu.jpg){.aligncenter .size-medium}
 
