@@ -288,7 +288,27 @@ Carveco Maker is Carveco's entry-level product yet it comes with quite a bit of 
 <b>Vectric VCarve Desktop</b> (<a href="https://www.vectric.com/products/vcarve-desktop" target="_blank" rel="noopener noreferrer">link to site</a>)
 
 Vectric VCarve Desktop is one of Vectrics mid-level products, with products like Cut2D and PhotoVCarve being more entry-level. It has quite a lot of features similar to Carveco Maker such as standard toolpaths, 2D drawing, V-carving, and 3D importing but it's limited in that it can't modify 3D models and all projects are limited to a 24"x24" cutting size. It still has unique CAM toolpaths and has also been built for semi-professional CNC use so its capabilities reflect that. If you're interested, check out this comparison we did between Vectric VCarve Desktop and Carveco Maker: <a href="https://sienci.com/2020/11/19/vectric-vcarve-desktop-vs-carveco-maker-which-should-you-choose/" target="_blank" rel="noopener noreferrer">Vectric VCarve Desktop vs Carveco Maker – Which Should You Choose</a><br>
-<a href="https://www.YouTube.com/channel/UCMrMqMabXS5_cFcq5K9Ob-w" target="_blank" rel="noopener noreferrer"><b>Recommended tutorial videos</b></a>
+
+### Learn the Basics
+
+Follow our **Vectric Basics for CNC Beginners** series to work through document setup, vectors, and toolpaths in VCarve. These tutorials also introduce principles used in VCarve Desktop, VCarve Pro, and Aspire.
+
+1. [Setting Up Your Document](https://youtu.be/PRlSnGFcp-I)
+2. [Tips for Creating Vectors](https://youtu.be/inV7izPkEsc)
+3. [Importing Vectors](https://youtu.be/8ZPlgmD-WuE)
+4. [Tracing Images](https://youtu.be/R-MCDdFoKu0)
+5. [Creating Toolpaths](https://youtu.be/l9weFI8-tsg)
+6. [Previewing Toolpaths](https://youtu.be/YCsG9Ykn8kc)
+7. [Saving Toolpaths](https://youtu.be/vqEVhlKyxGU)
+
+> Your software may look different from the version shown in the videos, but the core design and toolpath principles remain useful.
+
+For more tutorials, visit Vectric’s learning pages:
+
+- [VCarve Pro](https://www.vectric.com/support/tutorials/vcarve-pro/)
+- [VCarve Desktop](https://www.vectric.com/support/tutorials/vcarve-desktop/)
+- [Aspire](https://www.vectric.com/support/tutorials/aspire/)
+- [Spark](https://www.vectric.com/support/tutorials/spark/)
 
 ![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_vcarve.jpg){.aligncenter .size-medium}
 
