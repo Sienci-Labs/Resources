@@ -455,7 +455,7 @@ This Java-based program comes in two forms: classic and platform. Classic is eas
 
 CNCjs can be built to run as a local web-app using Node.js or can be installed as a normal program onto your computer. It's got lots of great features and functionality including surface probing and easy-to-make user macros. It's got a pendant available and can be run on a raspberry pi.
 
-![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_cncjs.jpg){.aligncenter .size-medium}{.aligncenter .size-medium}
+![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_cncjs.jpg){.aligncenter .size-medium}
 
 [tabby title="OB Control"]
 
