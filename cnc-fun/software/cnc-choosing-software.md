@@ -67,8 +67,6 @@ Many of our go-to software picks tend to be available for free and can range fro
 
 If you're looking for software that takes advantage of most CNC features while remaining easy to pick up, we recommend checking out these software options:
 
-<div id="divSection" style="border: 1px solid #ddd; padding: 20px 5px 0 5px; background: #fbfbfb;">
-
 <table class="wp-table" style="height: 80px; margin-left: auto; margin-right: auto; border: 1px solid black; text-align: center; border-collapse: collapse; line-height: 1.2em; background: white;" width="95%">
 <tbody>
 <tr>
@@ -219,8 +217,6 @@ CAMLab is our very own 3D CAM software which allows you to create g-code toolpat
 ![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_camlab.jpg){.aligncenter .size-medium}
 
 [tabbyending]
-
-</div>
 &nbsp;
 
 ### Design & CAM (advanced)
@@ -356,8 +352,6 @@ Many of our software picks don't tend to have a built-in machine interface so we
 
 The full list of grbl-compatible senders is generally maintained here: <a href="https://github.com/gnea/grbl/wiki/Using-Grbl" target="_blank" rel="noopener">https://github.com/gnea/grbl/wiki/Using-Grbl</a> but we've put together a more digestible list that you can reference below of the ones we've gone through and personally experimented with. All of these work well in most capacities and are easy to learn and pick up:
 
-<div id="divSection" style="border: 1px solid #ddd; padding: 20px 5px 0 5px; background: #fbfbfb;">
-
 <table class="wp-table" style="height: 80px; margin-left: auto; margin-right: auto; border: 1px solid black; text-align: center; border-collapse: collapse; line-height: 1.2em; background: white;" width="95%">
 <tbody>
 <tr>
@@ -490,6 +484,5 @@ A python-based interface software and CAM utility. The main downside is that the
 ![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_bcnc.jpg){.aligncenter .size-medium}
 
 [tabbyending]
-</div>
 
 If you've got any other questions about the CNC toolchain or need some clarification, feel free to contact us directly or ask via our Facebook and website forums.
