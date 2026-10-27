@@ -227,8 +227,6 @@ CAMLab is our very own 3D CAM software which allows you to create g-code toolpat
 
 For those that are looking to use their CNC more regularly and want to unlock its full potential. If you plan on learning 3D design for the first time, an awesome resource which teaches you how to design for CNC can be found here: <a href="https://www.hubs.com/knowledge-base/how-design-parts-cnc-machining/">https://www.hubs.com/knowledge-base/how-design-parts-cnc-machining/</a>
 
-<div id="divSection" style="border: 1px solid #ddd; padding: 20px 5px 0 5px; background: #fbfbfb;">
-
 <table class="wp-table" style="height: 80px; margin-left: auto; margin-right: auto; border: 1px solid black; text-align: center; border-collapse: collapse; line-height: 1.2em; background: white;" width="95%">
 <tbody>
 <tr>
@@ -343,7 +341,6 @@ New to Fusion? Start with Autodesk’s [Introduction to Fusion](https://www.auto
 ![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_fusion360.jpg){.aligncenter .size-medium}
 
 [tabbyending]
-</div>
 &nbsp;
 
 ### CNC Interfaces
