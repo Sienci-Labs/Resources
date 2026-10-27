@@ -319,7 +319,7 @@ Vectric VCarve Desktop is one of Vectrics mid-level products, with products like
   <li><a href="https://www.vectric.com/support/tutorials/spark/">Spark</a></li>
 </ul>
 
-<img src="/_images/_cnc-fun/_software/cnc_so_choosingsoft_vcarve.jpg" alt="Vectric VCarve software" class="aligncenter size-medium">
+![](/_images/_cnc-fun/_software/cnc_so_choosingsoft_vcarve.jpg){.aligncenter .size-medium}
 
 [tabby title="Onshape"]
 
