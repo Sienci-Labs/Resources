@@ -14,3 +14,28 @@ custom_fields:
 skip_file: no
 featured_image: 
 ---
+
+![](/_images/_addons/addons_am/vactable/addons_vactable-am4x8-vac-pump-no-filter.jpg){.aligncenter .size-medium}
+
+![](/_images/_addons/addons_am/vactable/addons_vactable-remove-red-cap.jpg)
+
+![](/_images/_addons/addons_am/vactable/addons_vactable-larger-fitting-at-vac-pump.jpg)
+
+![](/_images/_addons/addons_am/vactable/addons_vactable-vac-pump-attach.jpg)
+
+![](/_images/_addons/addons_am/vactable/addons_vactable-small-fitting-vac-pump.jpg)
+
+![](/_images/_addons/addons_am/vactable/addons_vactable-bad-t-nut-orientation.jpg)
+
+![](/_images/_addons/addons_am/vactable/addons_vactable-guide-rail-side.jpg)
+
+![](/_images/_addons/addons_am/vactable/addons_vactable-guide-back.jpg)
+
+![](/_images/_addons/addons_am/vactable/addons_vactable-guide-back-and-side.jpg)
+
+![](/_images/_addons/addons_am/vactable/addons_vactable-4x8-zero.jpg)
+
+![](/_images/_addons/addons_am/vactable/addons_vactable-hose-clamp-direction.jpg)
+
+![](/_images/_addons/addons_am/vactable/addons_vactable-mounting-hook-fasteners.jpg)
+
