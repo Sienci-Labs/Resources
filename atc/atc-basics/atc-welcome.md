@@ -20,7 +20,7 @@ Hello and welcome to your **AltMill Automatic Tool Changer (ATC)** resources! Th
 
 If you are a complete beginner, you may not fully appreciate how much time and effort the ATC can save. If you are upgrading and familiar with how to use your AltMill, you will wonder how you've used the machine all this time, without an ATC.
 
-Using the ATC makes the process of carving with multiple tools seamless, but does require a bit more planning at the beginning during the design phase. Once you have your new post processor in place on the CAD/CAM side and are used to exporting all of your toolpaths into one large file, it's a breeze! The ATC will drop off tools, pick them up, measure with the tool length sensor, honour a 'keep out zone', allow you to do manual tool changes and more. Most if not all of these actions will happen automatically, it's truly magical.
+Using the ATC makes the process of carving with multiple tools seamless, but does require a bit more planning at the beginning during the design phase. Once you have your [new post processor](https://resources.sienci.com/view/atc-before-you-begin/) in place on the CAD/CAM side and are used to exporting all of your toolpaths into one large file, it's a breeze! The ATC will drop off tools, pick them up, measure with the tool length sensor, honour a 'keep out zone', allow you to do manual tool changes and more. Most if not all of these actions will happen automatically, it's truly magical.
 
 As mentioned in the Welcome article for the AltMill, if this is your first CNC, be sure to review these guiding resources — **skipping them may limit your success and make your experience more difficult**. Be sure to watch the video and read the articles; they work hand-in-hand.
 

@@ -24,13 +24,25 @@ The expected ATC assembly time is **2–4 hours**, so be sure to allot enough ti
 
 Before we dive in, we will need to make some changes on the software side. You will need to:
 
-1. Download the post processor(s) for your CAM software - this are essential for creating g-code that works with the ATC.
+1. **Download or configure** the appropriate post-processor for your CAM software. This is essential for creating g-code that works correctly with the ATC.
 
     [Vectric](https://drive.google.com/file/d/1mgyv90uslGa4Cadq8EKwFjALcVChzU34/view?usp=drive_link)
 
     [Vectric with Vortex Rotary Axis](https://drive.google.com/file/d/1tEr16-cVp_aaULNH_i3Dd5rDd4RDe02K/view?usp=drive_link)
 
     [CarveCo](https://drive.google.com/file/d/1UqWXNDYrgd2CR3ci91QXc0FMH09GMZRi/view?usp=drive_link)
+
+    **Fusion 360**
+
+    Fusion 360 uses the built-in **grbl** post-processor, so no additional download is required. When exporting your g-code, check these post-processor settings:
+
+    - **Safe Retracts:** Set to `Clearance Height` instead of `G28` to help prevent unexpected machine movements.
+    - **Output M6:** Set to `Yes` to enable tool changes.
+    - **Output Tool Number:** Set to `Yes` so the ATC can identify which tool to load.
+
+    Make sure the tool numbers in Fusion 360 match the tools configured in your ATC before running your job.
+
+    > **Note:** Automatic tool changing requires a paid Fusion subscription. If the g-code is missing tool changes, make sure **Manual Tool Change** is unchecked in each tool's Post Processor settings.
 
 1. **Upgrade** [gSender](https://github.com/Sienci-Labs/gsender/releases) to 1.6.2 or higher, then come back for the next step.
 
