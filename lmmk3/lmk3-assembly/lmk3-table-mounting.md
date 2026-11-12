@@ -42,6 +42,10 @@ We will now use gSender to jog the machine to the travel limits, which will squa
 
     ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-movedro.jpg){.aligncenter .size-medium}
 
+1. Ensure you have the correct machine profile selected in the Config tab.
+
+    ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-gsendpro.jpg){.aligncenter .size-medium}
+
 1. Then jog the machine to the very back using the Y+ button.
 
     ![](/_images/_lmmk3/_assembly/_tablemount/lmk3_tablemount-render_24_A.jpg){.aligncenter .size-medium}
