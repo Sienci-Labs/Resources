@@ -15,7 +15,7 @@ featured_image:
 
 ![](/_images/_am/_assembly/am_assembly_mk2controllersetupheader-850x594.jpg)
 
-![](/_images/_am/_assembly/am_assembly_controller-setup-v2-1500x-850x350.jpg)
+![](/_images/_am/_assembly/am_assembly_controller-setup-v2-1500x-850x350.jpg){.aligncenter .size-wide}
 
 If you already mounted the E-stop during the enclosed-VFD installation, leave it installed and continue with removing the controller’s acrylic face plate below. Use the mounting instructions here only if the E-stop is not yet installed.
 

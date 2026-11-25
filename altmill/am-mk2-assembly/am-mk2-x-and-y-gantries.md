@@ -17,7 +17,7 @@ featured_image:
 
 <a id="y-gantry-plate-installation"></a>
 
-![](/_images/_am/_assembly/am_assembly_y-gantry-installation-parts-list-e1763995014333.jpg)
+![](/_images/_am/_assembly/am_assembly_y-gantry-installation-parts-list-e1763995014333.jpg){.aligncenter .size-wide}
 
 ### Y Gantry Plate Installation
 
@@ -123,7 +123,7 @@ This step is **important** as it ensures the sensor will not be damaged when the
 
 ### X-axis Assembly Installation
 
-![](/_images/_am/_assembly/am_assembly_x-axis-assembly-installation-1-850x236.jpg)
+![](/_images/_am/_assembly/am_assembly_x-axis-assembly-installation-1-850x236.jpg){.aligncenter .size-wide}
 
 Please make sure to check the inside of the X-axis assembly, since the <span style="color: #ff0000;"><strong>drag chains are stored inside</strong>,<strong> ensure to remove the drag chains first and set aside.</strong></span>
 

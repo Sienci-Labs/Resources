@@ -17,7 +17,7 @@ Drag chains and drag chain ends are packed inside the X-rail. Ensure to remove t
 
 ![](/_images/_am/_assembly/am_assembly_mk2dragchainendsheader-850x594.jpg)
 
-![](/_images/_am/_assembly/am_assembly_drag-chain-end-mounting.jpg)
+![](/_images/_am/_assembly/am_assembly_drag-chain-end-mounting.jpg){.aligncenter .size-wide}
 
 Remove the four (4) drag chain end links from the drag chains.
 

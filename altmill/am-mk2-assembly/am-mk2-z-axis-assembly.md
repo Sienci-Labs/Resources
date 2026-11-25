@@ -15,7 +15,7 @@ featured_image:
 
 ![](/_images/_am/_assembly/am_assembly_mk2zaxisassemblyheader-850x594.jpg)
 
-![](/_images/_am/_assembly/am_assembly_parts-needed-z-axis-assy-1-e1762794359474.jpg)
+![](/_images/_am/_assembly/am_assembly_parts-needed-z-axis-assy-1-e1762794359474.jpg){.aligncenter .size-wide}
 
 **Installing the ATC kit?** Review the [ATC preparation instructions](https://resources.sienci.com/view/atc-before-you-begin/) and [ATC Spindle Setup](https://resources.sienci.com/view/atc-spindle-setup/) before fitting the standard spindle mount and drag-chain bracket. The ATC uses different mounting and drag-chain hardware.
 

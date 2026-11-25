@@ -17,7 +17,7 @@ featured_image:
 
 <!-- R03-R04: Replace the parts-needed image with motors carrying pre-installed couplers and the supplied spacers. Add a spacer detail after Q-MOTOR-01 is resolved. -->
 
-![](/_images/_am/_assembly/am_assembly_motor-installation.jpg)
+![](/_images/_am/_assembly/am_assembly_motor-installation.jpg){.aligncenter .size-wide}
 
 On newer kits, the three motor couplers are pre-installed and arrive with spacers between the motors and couplers. Use the older-kit instructions below only if your couplers were supplied separately.
 

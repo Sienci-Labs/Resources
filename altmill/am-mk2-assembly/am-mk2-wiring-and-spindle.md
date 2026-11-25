@@ -19,7 +19,7 @@ featured_image:
 
 ### Controller Mounting
 
-![](/_images/_am/_assembly/am_assembly_controller-mounting-1500x.jpg)
+![](/_images/_am/_assembly/am_assembly_controller-mounting-1500x.jpg){.aligncenter .size-wide}
 
 Insert two (2) M5-10mm socket head screws into the two (2) holes under the “ALTMILL” cutout in the side of the left leg. Thread M5 T-nuts onto the screws, leaving the T-nuts loose.
 
@@ -41,7 +41,7 @@ Tighten the M5-10mm screws, clamping the enclosure to the table leg.
 
 <!-- Q-ATC-01: Confirm the exact ATC branch/return points, including shared Y2 routing and all four motor/sensor connections. The callout does not authorize skipping the whole page. -->
 
-![](/_images/_am/_assembly/am_assembly_altmill-parts-needed-wiring-and-spindle.jpg)
+![](/_images/_am/_assembly/am_assembly_altmill-parts-needed-wiring-and-spindle.jpg){.aligncenter .size-wide}
 
 **Installing the ATC kit?** Follow the [ATC installation guide](https://resources.sienci.com/view/atc-unboxing/) for the spindle, VFD and associated cable routing. If you are installing the standard spindle kit, continue below. The shared Y2 cable routing and Sensor and Motor Connections steps on this page are still required for the machine.
 
