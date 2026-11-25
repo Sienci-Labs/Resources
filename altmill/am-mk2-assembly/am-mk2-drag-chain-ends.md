@@ -15,25 +15,13 @@ featured_image:
 
 Drag chains and drag chain ends are packed inside the X-rail. Ensure to remove the drag chains first.
 
-<div markdown="1" style="width: 850px; max-width: 100%; margin-left: auto; margin-right: auto;">
+![](/_images/_am/_assembly/am_assembly_mk2dragchainendsheader-850x594.jpg)
 
-![](/_images/_am/_assembly/am_assembly_mk2dragchainendsheader-850x594.jpg){.aligncenter .size-medium}
-
-</div>
-
-<div markdown="1" style="width: 4000px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_drag-chain-end-mounting.jpg){.alignnone .size-full}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_drag-chain-end-mounting.jpg)
 
 Remove the four (4) drag chain end links from the drag chains.
 
-<div markdown="1" style="width: 697px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_drag-chain-end-removal.jpg){.alignnone .aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_drag-chain-end-removal.jpg)
 
 <p style="text-align: center;"><i>Removing end link with flathead screwdriver</i></p>
 
@@ -41,21 +29,13 @@ See the image below for locations of drag chain end links, to be attached on the
 
 **Note:** You will notice one drag chain end link has a flange with holes and the other link has a flange with knobs. It is important you use one of each type for each axis’s drag chain.
 
-<div markdown="1" style="width: 2560px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_altmillmk2dragchainend-scaled.jpg){.alignnone .size-full}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_altmillmk2dragchainend-scaled.jpg)
 
 <p style="text-align: center;"><i>General location of drag chain ends on the AltMill</i></p>
 
 Insert three (3) M5 T-nuts into the T-slot on the left side of the X-axis rail via the opening in the Y-axis gantry plate.
 
-<div markdown="1" style="width: 524px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_x-drag-chain-end-t-nut-insert.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_x-drag-chain-end-t-nut-insert.jpg)
 
 <p style="text-align: center;"><i>T-nuts in X-axis extrusion</i></p>
 
@@ -69,21 +49,13 @@ In the illustration below, the end link facing toward the upper left must have t
 
 <!-- R07: Replace this original illustration before publication: the end facing upper left must show tabs/studs, not holes. Check the overview and downstream routing images against the corrected hardware. -->
 
-<div markdown="1" style="width: 725px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_x-axis-drag-chain-ends-install.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_x-axis-drag-chain-ends-install.jpg)
 
 <p style="text-align: center;"><i>Orientation of drag chain ends links on X-axis rail</i></p>
 
 Insert one (1) M5 T-nut into the front of the left Y-axis rail T-slot.
 
-<div markdown="1" style="width: 591px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_y-drag-chain-end-t-nut-insert.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_y-drag-chain-end-t-nut-insert.jpg)
 
 <p style="text-align: center;"><i>T-nut in left Y-axis rail</i></p>
 
@@ -91,11 +63,7 @@ Install one (1) Drag chain end link at the front of the Y-axis rail using one (1
 
 **Note:** Remember that each axis will have a pair of drag chain end links, one with holes and the other with knobs in the flanges.
 
-<div markdown="1" style="width: 714px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_y-axis-drag-chain-end-install.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_y-axis-drag-chain-end-install.jpg)
 
 <p style="text-align: center;"><i>Securely fastening drag chain end on left Y rail</i></p>
 
@@ -103,11 +71,7 @@ Install a drag chain end link on the Z-axis drag chain bracket, using two M5-10m
 
 **Note:** Remember that each axis will have a pair of drag chain end links, one with holes and the other with knobs in the flanges.
 
-<div markdown="1" style="width: 764px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_z-bracket-drag-chain-end-install.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_z-bracket-drag-chain-end-install.jpg)
 
 <p style="text-align: center;"><i>Securely installing drag chain end on bracket at the Z-axis</i></p>
 
@@ -119,22 +83,10 @@ Using a small flat head screwdriver, unclip the top retaining clips of the drag 
 
 Leave the prepared drag chains to the side at this point as they will be used later on.
 
-<div markdown="1" style="width: 960px; max-width: 100%;">
+![](/_images/_am/_assembly/am_assembly_drag-chain-clip-removal.jpg)
 
-![](/_images/_am/_assembly/am_assembly_drag-chain-clip-removal.jpg){.alignnone .size-full}
+![](/_images/_am/_assembly/am_assembly_unclip-drag-chain.jpg)
 
-</div>
-
-<div markdown="1" style="width: 960px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_unclip-drag-chain.jpg){.alignnone .size-full}
-
-</div>
-
-<div markdown="1" style="width: 960px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_opened-drag-chain.jpg){.alignnone .size-full}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_opened-drag-chain.jpg)
 
 <p style="text-align: center;"><em>Opening drag chain clips, please use the side circled in green to open</em></p>

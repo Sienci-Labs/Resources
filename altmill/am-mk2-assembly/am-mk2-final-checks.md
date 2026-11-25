@@ -26,11 +26,7 @@ We’re sure you’re itching to start cutting! Before you begin making chips fl
   - Levelling feet
   - Legs to frame
 
-<div markdown="1" style="width: 562px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_table-setup-header-850x563.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_table-setup-header-850x563.jpg)
 
 <p style="text-align: center;"><em>Table assembly</em></p>
 
@@ -42,19 +38,11 @@ We’re sure you’re itching to start cutting! Before you begin making chips fl
 
 - Motor DIP switch positions are correct for each axis
 
-<div markdown="1" style="width: 413px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_altmill-dip-switch-position.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_altmill-dip-switch-position.jpg)
 
 <p style="text-align: center;"><em>X and Y-axis motor, from 1-5: OFF, OFF, OFF, ON, ON</em></p>
 
-<div markdown="1" style="width: 485px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_z-axis-dip-switch-e1722518120724.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_z-axis-dip-switch-e1722518120724.jpg)
 
 <p style="text-align: center;"><em>Z-axis motor, from 1-5: OFF, OFF, ON, ON, ON</em></p>
 
@@ -71,37 +59,21 @@ We’re sure you’re itching to start cutting! Before you begin making chips fl
 - You are using [gSender version 1.4.12 or newer](https://sienci.com/gSender/)
 - grblHAL is selected upon [startup and connection to machine](https://resources.sienci.com/view/am-mk2-first-movements/) (for gSender 1.4.12 and lower)
 
-<div markdown="1" style="width: 861px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_slb-up-p49-grblhal.jpg){.size-full .aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_slb-up-p49-grblhal.jpg)
 
 - Alarm 10 can be cleared after pressing and releasing the E-stop button
   - If E-stop is unresponsive, check the connections: unplug the E-stop cable, then use a screwdriver to remove the 3 screws at the bottom of the unit
 
-<div markdown="1" style="width: 905px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_alarm-10-unlock-machine.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_alarm-10-unlock-machine.jpg)
 
 - Machine can move in the X, Y and Z directions smoothly using the jog control buttons
 - Spindle can [spin up](https://resources.sienci.com/view/am-mk2-spindle-kit-setup/) to speed, without alarms or errors, using the CW or Forward button
 
-<div markdown="1" style="width: 850px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_spindlelaser-gsender-edge-850x478.jpg){.size-medium .aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_spindlelaser-gsender-edge-850x478.jpg)
 
 <p style="text-align: center;"><em>gSender 1.5.10 and above</em></p>
 
-<div markdown="1" style="width: 823px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_spindlefirstrungsender-scaled-e1720724342280.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_spindlefirstrungsender-scaled-e1720724342280.jpg)
 
 <p style="text-align: center;"><em>gSender 1.4.12 and lower</em></p>
 
@@ -110,17 +82,9 @@ We’re sure you’re itching to start cutting! Before you begin making chips fl
   - Then press “Home”
   - If you encounter alarms or errors see this [troubleshooting page](https://resources.sienci.com/view/am-troubleshooting-homing-and-machine-limits/)
 
-<div markdown="1" style="width: 487px; max-width: 100%;">
+![](/_images/_am/_assembly/am_assembly_homing-gif.jpg)
 
-![](/_images/_am/_assembly/am_assembly_homing-gif.jpg){.alignnone}
-
-</div>
-
-<div markdown="1" style="width: 488px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_homingaltmillresize.jpg){.alignnone}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_homingaltmillresize.jpg)
 
 <p style="text-align: center;"><em>Default homing at back left corner on AltMill</em></p>
 

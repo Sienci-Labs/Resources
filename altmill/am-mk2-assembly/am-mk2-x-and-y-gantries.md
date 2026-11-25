@@ -13,19 +13,11 @@ skip_file: no
 featured_image:
 ---
 
-<div markdown="1" style="width: 850px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_mk2gantryheader-850x594.jpg){.aligncenter .size-medium}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_mk2gantryheader-850x594.jpg)
 
 <a id="y-gantry-plate-installation"></a>
 
-<div markdown="1" style="width: 960px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_y-gantry-installation-parts-list-e1763995014333.jpg){.alignnone .size-full}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_y-gantry-installation-parts-list-e1763995014333.jpg)
 
 ### Y Gantry Plate Installation
 
@@ -33,11 +25,7 @@ With table assembly complete, remove any wrapping or temporary painter’s tape 
 
 Remove the plastic clip supporting the ball screw nut.
 
-<div markdown="1" style="width: 786px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_xy-gantry-assembly-2-1024x576.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_xy-gantry-assembly-2-1024x576.jpg)
 
 <p style="text-align: center;"><em>Support clip removal</em></p>
 
@@ -45,21 +33,13 @@ Take note of the difference between the left and right side Y-axis gantry plates
 
 Additionally, take note of the Y-gantry plate orientation. In the image below, the front of each plate is pointed toward the center of the image.
 
-<div markdown="1" style="width: 771px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_left-and-right-y-axis-gantry-plates-labelled-higher-res-photoshop-version.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_left-and-right-y-axis-gantry-plates-labelled-higher-res-photoshop-version.jpg)
 
 <p style="text-align: center;"><i>Left and right Y-axis gantry plates with forward direction pointed toward center</i></p>
 
 Move the linear guide blocks toward the front of the machine.
 
-<div markdown="1" style="width: 3454px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_move-linear-blocks-back-with-lines-e1744404191398.jpg){.alignnone .size-full}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_move-linear-blocks-back-with-lines-e1744404191398.jpg)
 
 <p style="text-align: center;"><i>Linear guide blocks away from ball screw nut, toward front of machine</i></p>
 
@@ -67,19 +47,11 @@ Rest the reference edge of the Y-axis gantry plate on the top face of the two li
 
 **Repeat** the process on the other side of the machine.
 
-<div markdown="1" style="width: 596px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_y-gantry-plate-reference-edge.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_y-gantry-plate-reference-edge.jpg)
 
 <p style="text-align: center;"><i>Y-gantry plate reference edge sitting on linear bearings</i></p>
 
-<div markdown="1" style="width: 2275px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_y-axis-gantry-plate-into-linear-blocks-with-lines-e1744404382800.jpg){.alignnone .size-full}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_y-axis-gantry-plate-into-linear-blocks-with-lines-e1744404382800.jpg)
 
 <p style="text-align: center;"><i>Y-axis gantry plate, linear bearing M4-16mm screw location, </i><b><i>leave loose</i></b></p>
 
@@ -89,29 +61,17 @@ Push the ballscrew nut toward the front of the machine and align the threaded ho
 
 Install four (4) M5-16mm socket head cap screws through the Y-axis gantry plate into the ball screw nut, **leaving** the screws **loose** at this point to allow for easy installation of X-axis rail in the future.
 
-<div markdown="1" style="width: 619px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_xy-gantry-assembly-gif.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_xy-gantry-assembly-gif.jpg)
 
 **Repeat** the process on the other side of the machine.
 
 <p style="text-align: center;"><i>Aligning Y gantry to aluminum ball screw nut block</i></p>
 
-<div markdown="1" style="width: 850px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_ball-screw-nut-block-loose-fastening-850x478.jpg){.aligncenter .size-medium}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_ball-screw-nut-block-loose-fastening-850x478.jpg)
 
 <p style="text-align: center;"><i>Y-axis gantry plate fastened to ball screw nut using M5-16mm screws, </i><b><i>leave loose</i></b></p>
 
-<div markdown="1" style="width: 753px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_move-gantries-forward.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_move-gantries-forward.jpg)
 
 <p style="text-align: center;"><i>Y-axis gantries pushed against front bump stops</i></p>
 
@@ -119,11 +79,7 @@ Install four (4) M5-16mm socket head cap screws through the Y-axis gantry plate 
 
 Install one bump stop into the right-side Y-axis gantry plate using an M5-10mm socket head screw as shown below.
 
-<div markdown="1" style="width: 436px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_x-integrated-bump-stop-rh-install-850x788.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_x-integrated-bump-stop-rh-install-850x788.jpg)
 
 <p style="text-align: center;"><i>Installing single integrated sensor bump stop onto right Y-axis gantry plate</i></p>
 
@@ -131,19 +87,11 @@ Prepare one inductive sensor by threading a nut onto it approximately 45mm / 1.5
 
 Pass this inductive sensor through the hole of the left side Y-axis gantry plate. Hand-tighten the remaining integrated sensor bump stop over the end of the sensor until it bottoms out and is fully seated, as with the two sensors installed earlier. Then tighten the sensor nut and lock washer against the plate to secure the sensor.
 
-<div markdown="1" style="width: 436px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_x-integrated-bump-stop-lh-install-850x788.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_x-integrated-bump-stop-lh-install-850x788.jpg)
 
 <p style="text-align: center;"><i>Installing integrated sensor bump stop over X-axis sensor</i></p>
 
-<div markdown="1" style="width: 1024px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_x-axisseated-integrated-bumpstop-inductive-sensor-1024x601.jpg){.aligncenter .size-large}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_x-axisseated-integrated-bumpstop-inductive-sensor-1024x601.jpg)
 
 [/su_spoiler]
 
@@ -153,11 +101,7 @@ Pass this inductive sensor through the hole of the left side Y-axis gantry plate
 
 Install the remaining two (2) bump stops onto both left and right Y-axis gantry plates using two (2) M5-16mm socket head screws.
 
-<div markdown="1" style="width: 826px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_bump-stop-install.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_bump-stop-install.jpg)
 
 <p style="text-align: center;"><i>Installing bump stops onto Y-axis gantry plates</i></p>
 
@@ -169,11 +113,7 @@ The sensor can not stick out past the bump stop. Recess the sensor stick-out dis
 
 This step is **important** as it ensures the sensor will not be damaged when the X-axis gantry plate contacts the bump stop during use.
 
-<div markdown="1" style="width: 581px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_x-inductive-install.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_x-inductive-install.jpg)
 
 <p style="text-align: center;"><i>X-axis sensor installation</i></p>
 
@@ -183,37 +123,21 @@ This step is **important** as it ensures the sensor will not be damaged when the
 
 ### X-axis Assembly Installation
 
-<div markdown="1" style="width: 850px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_x-axis-assembly-installation-1-850x236.jpg){.aligncenter .size-medium}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_x-axis-assembly-installation-1-850x236.jpg)
 
 Please make sure to check the inside of the X-axis assembly, since the <span style="color: #ff0000;"><strong>drag chains are stored inside</strong>,<strong> ensure to remove the drag chains first and set aside.</strong></span>
 
 Place the rail on the table upright such that the ALTMILL logo is upright and facing the front of the machine. It is important to note the positioning notch of the X-axis gantry plate is upward.
 
-<div markdown="1" style="width: 796px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_x-axis-subassembly-on-table.jpg){.alignnone}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_x-axis-subassembly-on-table.jpg)
 
 <p style="text-align: center;"><i>X-axis rail placed on table, noting orientation of X-axis gantry plate</i></p>
 
 Insert two (2) M6-35mm flanged button head cap screws into each end of the X-axis rail. **DO NOT** thread screws completely into the rail. Leave 25 mm / 1 inch of threading exposed to be seated into the slots of the Y-axis gantry plates.
 
-<div markdown="1" style="width: 831px; max-width: 100%;">
+![](/_images/_am/_assembly/am_assembly_x-axis-subassembly-bolt-install-setup.jpg)
 
-![](/_images/_am/_assembly/am_assembly_x-axis-subassembly-bolt-install-setup.jpg){.alignnone}
-
-</div>
-
-<div markdown="1" style="width: 762px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_x-axis-assembly-front-view-loosely-install-bolts.jpg){.alignnone}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_x-axis-assembly-front-view-loosely-install-bolts.jpg)
 
 <p style="text-align: center;"><i>M6-35mm flange screws installed into X-axis rail with 25mm / 1 inch of thread exposed </i></p>
 
@@ -221,11 +145,7 @@ It is **recommended** to perform this step with **two (2) people**
 
 Lift the X-axis assembly, making sure the X-axis gantry plate is toward the front of the machine. Seat the four (4) M6-35mm flange screws into the slots on the top of the two (2) Y-axis gantry plates.
 
-<div markdown="1" style="width: 667px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_x-subassembly-tilt-on-side-view.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_x-subassembly-tilt-on-side-view.jpg)
 
 <p style="text-align: center;"><i>X-axis rail seated on top of Y-axis gantry plates</i></p>
 
@@ -237,39 +157,23 @@ Tighten the four (4) M5-16mm screws, clamping the Y-axis gantry plate to the bal
 
 **Repeat** the process on the other side of the machine.
 
-<div markdown="1" style="width: 723px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_fully-tighten-y-gantry-plate-stuff.jpg){.alignnone}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_fully-tighten-y-gantry-plate-stuff.jpg)
 
 <p style="text-align: center;"><i>Y-axis gantry plate M4 and M5 screws tightened into linear bearings and ball screw nut</i></p>
 
 Install the remaining four (4) M6-35mm flanged button head cap screws into the two (2) lower holes of the X-axis rail on each side. Leave screws **loose**.
 
-<div markdown="1" style="width: 780px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_loosely-install-lower-2-bolts-into-x-axis-subassembly.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_loosely-install-lower-2-bolts-into-x-axis-subassembly.jpg)
 
 <p style="text-align: center;"><i>Screws into X-axis rail through Y-axis gantry plate</i></p>
 
 On the **left side** Y-axis gantry plate, use a bar clamp contacting the back face of the X-axis rail and the front edge of the Y-axis gantry plate, to squeeze the two together. This will ensure the reference edges of the Y-axis gantry plate are contacting the front machined faces of the X-axis rail.
 
-<div markdown="1" style="width: 850px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_image12-850x478.jpg){.size-medium .aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_image12-850x478.jpg)
 
 <p style="text-align: center;"><em>Clamping X-axis rail into Y-axis gantry plate for alignment</em></p>
 
-<div markdown="1" style="width: 789px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_x-axis-clamping-alignment.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_x-axis-clamping-alignment.jpg)
 
 <p style="text-align: center;"><em>Cross section showing </em><i>vertical reference edges on Y-axis gantry plate</i><em> </em></p>
 
@@ -279,10 +183,6 @@ Fully tighten the eight (8) M6-35mm flanged screws, clamping the Y-axis gantry p
 
 Remove the clamp.
 
-<div markdown="1" style="width: 683px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_fully-tighten-x-subassembly.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_fully-tighten-x-subassembly.jpg)
 
 <p style="text-align: center;"><i>M6-35mm flanged screws clamping Y-axis gantry plates to X-axis rail  </i></p>

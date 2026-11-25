@@ -13,19 +13,11 @@ skip_file: no
 featured_image:
 ---
 
-<div markdown="1" style="width: 850px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_mk2motorsheader-850x594.jpg){.aligncenter .size-medium}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_mk2motorsheader-850x594.jpg)
 
 <!-- R03-R04: Replace the parts-needed image with motors carrying pre-installed couplers and the supplied spacers. Add a spacer detail after Q-MOTOR-01 is resolved. -->
 
-<div markdown="1" style="width: 4000px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_motor-installation.jpg){.alignnone .size-full}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_motor-installation.jpg)
 
 On newer kits, the three motor couplers are pre-installed and arrive with spacers between the motors and couplers. Use the older-kit instructions below only if your couplers were supplied separately.
 
@@ -39,19 +31,11 @@ On newer kits, the three motor couplers are pre-installed and arrive with spacer
 
 The coupler has two different diameter bores: 8mm and 10mm. The 8mm bore fits onto the motor shaft. Install a coupler on each of the three (3) motors. Insert the coupler onto the motor shaft until the coupler bottoms out. <span style="color: #ff0000;"><strong>It’s important the motor coupler is fully seated, potential damage to the motor can happen with improper installation.</strong></span> Tighten the set screw on the motor side of the coupler to clamp the coupler to the shaft.
 
-<div markdown="1" style="width: 664px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_motors-install-1-1-850x407.jpg){.alignnone .aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_motors-install-1-1-850x407.jpg)
 
 <p style="text-align: center;"><i>Motor shaft bottomed out inside coupler </i></p>
 
-<div markdown="1" style="width: 708px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_tighten-z-coupler-to-motor-1.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_tighten-z-coupler-to-motor-1.jpg)
 
 <p style="text-align: center;"><em>Tighten coupler screw at motor end</em></p>
 
@@ -63,29 +47,17 @@ The coupler has two different diameter bores: 8mm and 10mm. The 8mm bore fits on
 
 Install a motor with coupler onto the ball screw of the X-axis rail, and fasten the motor to the Y-axis Gantry Plate using four (4) M5-10mm socket head screws. **Orient** the motor such that the **DIP switches** are on the **bottom**.
 
-<div markdown="1" style="width: 611px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_x-axis-motor-install.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_x-axis-motor-install.jpg)
 
 <p style="text-align: center;"><em>Securely fastening motor onto X-axis ball screw</em></p>
 
-<div markdown="1" style="width: 662px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_x-axis-motor-positioning.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_x-axis-motor-positioning.jpg)
 
 <p style="text-align: center;"><i>X-axis Motor orientation</i></p>
 
 Before tightening the motor coupler, ensure the motor is fully seated onto the y-axis gantry plate. **Potential damage** to the motor can occur if the motor is not fully seated before tightening. Clamp the coupler to the ball screw shaft by tightening the set screw on the shaft side.
 
-<div markdown="1" style="width: 789px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_x-axis-coupler-tightening-1.jpg){.aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_x-axis-coupler-tightening-1.jpg)
 
 <p style="text-align: center;"><i>X-axis motor coupler clamping to ball screw</i></p>
 
@@ -93,11 +65,7 @@ Install the remaining two (2) motors onto the Y-axis ball screws, fastening the 
 
 Before tightening, ensure each motor is fully seated against its rear Y-axis end plate. **Potential damage to the motor can occur if it is not fully seated before tightening.**
 
-<div markdown="1" style="width: 960px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_y-axis-motor-install-1.jpg){.size-full .aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_y-axis-motor-install-1.jpg)
 
 <p style="text-align: center;"><em>Securely fastening motor onto Y-axis</em></p>
 
@@ -107,21 +75,13 @@ With each motor aligned on its ball screw, bring the rear end plate flush agains
 
 <!-- R05: Check this existing rear-end-plate illustration against the new sequence; it must show the motor already mounted. -->
 
-<div markdown="1" style="width: 2560px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_am4x4-fasten-back-scaled.jpg){.alignnone .size-full}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_am4x4-fasten-back-scaled.jpg)
 
 Ensure both halves of each motor coupler are seated against the rubber insert. Clamp the coupler to the ball screw shaft by tightening the clamping screw on the ball-screw side.
 
 <!-- R06: Add or revise a coupler detail to show both halves seated against the rubber insert and the ball-screw-side clamping screw. -->
 
-<div markdown="1" style="width: 960px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_tightening-y-motor-coupler-on-ballscrew-1-1.jpg){.alignnone .size-full}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_tightening-y-motor-coupler-on-ballscrew-1-1.jpg)
 
 <p style="text-align: center;"><i>Y-axis motor coupler clamping to ball screw</i></p>
 
@@ -145,21 +105,13 @@ Check to ensure the DIP switches on the X and Y axis motors follow the order of:
 
 **1-5: OFF, OFF, OFF, ON, ON**
 
-<div markdown="1" style="width: 960px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_xz-dip-switch-final-view.jpg){.size-full .aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_xz-dip-switch-final-view.jpg)
 
 <p style="text-align: center;"><em>Correct motor DIP switches setting for X and Y-axis</em></p>
 
 Then set the Z-axis motor as follows from **1-5: OFF, OFF, ON, ON, ON**
 
-<div markdown="1" style="width: 960px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_z-dip-switch-final-view-1.jpg){.size-full .aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_z-dip-switch-final-view-1.jpg)
 
 <p style="text-align: center;"><em>Correct motor DIP switches setting for Z-axis</em></p>
 

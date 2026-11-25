@@ -28,21 +28,13 @@ For reference, full dimensions of the table can be found here: [4×4 AltMill Tab
 
 Lay this MDF sheet onto the top of the AltMill, filling the entire width of the frame, while lining up the front edge of the sheet with the front of the machine.
 
-<div markdown="1" style="width: 850px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_wasteboard-bottom-850x822.jpg){.alignnone .size-medium .aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_wasteboard-bottom-850x822.jpg)
 
 <p style="text-align: center;"><em>Underside view of table, with MDF sheet lined up to the front edge of table</em></p>
 
 From underneath the table frame, install ¾” long #6 or #8 wood screws through the holes in each crossbeam and into the MDF sheet. There are many holes here that exist for supporting future T-track systems, but you may choose to use the four (4) holes per crossbeam as shown.
 
-<div markdown="1" style="width: 850px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_wasteboard-bottom-positions-850x822.jpg){.size-medium .aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_wasteboard-bottom-positions-850x822.jpg)
 
 <p style="text-align: center;"><em>Underside view of table, indicating crossbeam holes</em></p>
 
@@ -62,11 +54,7 @@ If you’re installing these onto a 2×4 AltMill, you’ll want to trim each of 
 
 These will be placed in between each of the eight (8) T-tracks. Lay all 7 slat pieces and 8 T-track sections onto your table surface, lining these up with the front edge of the table.
 
-<div markdown="1" style="width: 850px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_t-track-front-850x424.jpg){.aligncenter .size-medium}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_t-track-front-850x424.jpg)
 
 <p style="text-align: center;"><em>Front view of machine with slats and T-tracks placed on table surface</em></p>
 
@@ -86,11 +74,7 @@ If installing a plain sheet of MDF to use as your wasteboard, you can either reu
 
 **2×4 AltMill:** Trim the sacrificial sheet to the footprint you want to use within the 34.3”×51.75” table surface. Do not use the 4×4 sheet dimensions unchanged. The table surface is larger than the machinable area; check the reachable area with your actual surfacing bit before choosing the wasteboard footprint. Material outside that area will not be surfaced by the same toolpath.
 
-<div markdown="1" style="width: 850px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_44inwasteboard-front-850x424.jpg){.alignnone .size-medium .aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_44inwasteboard-front-850x424.jpg)
 
 <p style="text-align: center;"><em>Front view of machine with remaining 44″x48″ MDF sheet</em></p>
 
@@ -123,21 +107,13 @@ We have a video on how to surface your AltMill, as well as written steps.
 
 2. Open the **Config** tool, and under **Homing/Limits**, disable the hard and soft limits. You will get an <span style="color: #ff0000;">Alarm 2</span> if soft limits are enabled and you won’t be able to surface you spoil board.
 
-<div markdown="1" style="width: 888px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_soft-hard-limts-disabled.jpg){.aligncenter .size-full}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_soft-hard-limts-disabled.jpg)
 
 3. **Home** your machine, as you usually do after connecting.
 
 4. Navigate to Tools, then to Surfacing.
 
-<div markdown="1" style="width: 850px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_surfacing-tool-gsender-1-5-3-850x494.jpg){.alignnone .size-medium}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_surfacing-tool-gsender-1-5-3-850x494.jpg)
 
 5. You will find the surfacing settings, please adjust them according to your needs.
 
@@ -158,21 +134,13 @@ We have a video on how to surface your AltMill, as well as written steps.
 
 **Start Position:**We recommend to keep this at the bottom left corner of the square, which is the default setting. This means that the cutting will start at the bottom left corner of your wasteboard.
 
-<div markdown="1" style="width: 960px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_wasteboard-surfacing-gsender-edge.jpg){.alignnone .size-full}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_wasteboard-surfacing-gsender-edge.jpg)
 
 6. Once you adjusted the settings, you can click ‘**Generate G-code**’ to view the toolpath using the Visualizer Preview on the right side of the window.
 
 7. Click ‘**Run on Main Visualizer**’ to load the file onto gSender.
 
-<div markdown="1" style="width: 850px; max-width: 100%; margin-left: auto; margin-right: auto;">
-
-![](/_images/_am/_assembly/am_assembly_gsender-surfacing-toolpath-850x535.jpg){.size-medium .aligncenter}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_gsender-surfacing-toolpath-850x535.jpg)
 
 8. Remove the dust shoe to **avoid damage to the dust shoe** when the machine is at the travel limits. However you should still run a vacuum to minimize MDF dust in the air.
 
@@ -184,17 +152,9 @@ ii. With the surfacing bit installed, jog the machine down in the Z direction, u
 
 iii. Press **Zero** OR press **X0**, **Y0** and **Z0** individually
 
-<div markdown="1" style="width: 576px; max-width: 100%;">
+![](/_images/_am/_assembly/am_assembly_zeroing-z-axis-for-mdf.jpg)
 
-![](/_images/_am/_assembly/am_assembly_zeroing-z-axis-for-mdf.jpg){.alignnone .size-full}
-
-</div>
-
-<div markdown="1" style="width: 690px; max-width: 100%;">
-
-![](/_images/_am/_assembly/am_assembly_zeroing-z-axis-on-gsender.jpg){.alignnone}
-
-</div>
+![](/_images/_am/_assembly/am_assembly_zeroing-z-axis-on-gsender.jpg)
 
 10. Put on a **mask or respirator****,** since MDF dust is very fine.
 
