@@ -1,7 +1,7 @@
 ---
 title: 8. Controller Setup
 menu_order: 9
-post_status: draft
+post_status: publish
 post_excerpt:
 taxonomy:
     knowledgebase_cat: am-mk2-assembly

@@ -1,7 +1,7 @@
 ---
 title: 7. Wiring and Spindle
 menu_order: 8
-post_status: draft
+post_status: publish
 post_excerpt:
 taxonomy:
     knowledgebase_cat: am-mk2-assembly

@@ -1,7 +1,7 @@
 ---
 title: 5. Motors
 menu_order: 6
-post_status: draft
+post_status: publish
 post_excerpt:
 taxonomy:
     knowledgebase_cat: am-mk2-assembly

@@ -1,7 +1,7 @@
 ---
 title: 3. Gantry
 menu_order: 4
-post_status: draft
+post_status: publish
 post_excerpt:
 taxonomy:
     knowledgebase_cat: am-mk2-assembly

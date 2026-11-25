@@ -1,7 +1,7 @@
 ---
 title: 11. Final Checks
 menu_order: 12
-post_status: draft
+post_status: publish
 post_excerpt:
 taxonomy:
     knowledgebase_cat: am-mk2-assembly

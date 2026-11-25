@@ -1,7 +1,7 @@
 ---
 title: 9. First Movements
 menu_order: 10
-post_status: draft
+post_status: publish
 post_excerpt:
 taxonomy:
     knowledgebase_cat: am-mk2-assembly

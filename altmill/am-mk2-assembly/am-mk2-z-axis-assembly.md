@@ -1,7 +1,7 @@
 ---
 title: 4. Z-axis Assembly
 menu_order: 5
-post_status: draft
+post_status: publish
 post_excerpt:
 taxonomy:
     knowledgebase_cat: am-mk2-assembly

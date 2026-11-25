@@ -1,7 +1,7 @@
 ---
 title: 6. Drag Chain Ends 🔗
 menu_order: 7
-post_status: draft
+post_status: publish
 post_excerpt:
 taxonomy:
     knowledgebase_cat: am-mk2-assembly

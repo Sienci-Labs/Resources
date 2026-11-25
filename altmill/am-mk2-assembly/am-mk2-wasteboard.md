@@ -1,7 +1,7 @@
 ---
 title: 12. Surfacing Wasteboard 🟫
 menu_order: 13
-post_status: draft
+post_status: publish
 post_excerpt:
 taxonomy:
     knowledgebase_cat: am-mk2-assembly

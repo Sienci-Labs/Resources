@@ -1,7 +1,7 @@
 ---
 title: 10. Spindle Kit Setup
 menu_order: 11
-post_status: draft
+post_status: publish
 post_excerpt:
 taxonomy:
     knowledgebase_cat: am-mk2-assembly
